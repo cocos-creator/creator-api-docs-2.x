@@ -1,0 +1,44 @@
+### `Slider.Direction` Enum
+
+
+
+Module: [cc](../modules/cc.md)
+
+
+
+
+滑动器方向
+
+### Index
+
+##### Properties
+
+  - `Horizontal`
+  - `Vertical`
+
+### Details
+
+#### Properties
+
+
+##### Horizontal
+
+> 水平方向
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSlider.js:35](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSlider.js#L35) |
+
+
+
+##### Vertical
+
+> 垂直方向
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSlider.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSlider.js#L41) |
+
+

@@ -1,0 +1,21 @@
+{
+    "plugins":[
+        "-lunr", "-search",
+        "search-pro",
+        "anchor-navigation-ex" 
+    ],
+    "pluginsConfig": {
+        "search": {
+            "maxIndexSize": 1000000000
+        },
+        "lunr": {
+            "maxIndexSize": 1000000000
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "associatedWithSummary": false,
+            "multipleH1": false,
+            "mode": "float"
+        }
+    }
+}
