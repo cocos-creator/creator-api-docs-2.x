@@ -8,7 +8,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-custom protocol
+自定义系统协议接口
 
 ### Index
 
@@ -16,17 +16,17 @@ custom protocol
 
 ##### Methods
 
-  - [`setListener`](#setlistener) set listener
-  - [`getListener`](#getlistener) get listener
-  - [`isFunctionSupported`](#isfunctionsupported) Check whether the function is supported
-  - [`getPluginName`](#getpluginname) get plugin name
-  - [`getPluginVersion`](#getpluginversion) get plugin version
-  - [`getSDKVersion`](#getsdkversion) get SDK version
-  - [`callFuncWithParam`](#callfuncwithparam) void methods for reflections with parameter
-  - [`callStringFuncWithParam`](#callstringfuncwithparam) String methods for reflections with parameter
-  - [`callIntFuncWithParam`](#callintfuncwithparam) int methods for reflections with parameter
-  - [`callBoolFuncWithParam`](#callboolfuncwithparam) boolean methods for reflections with parameter
-  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) float methods for reflections with parameter
+  - [`setListener`](#setlistener) 设置自定义系统的监听
+  - [`getListener`](#getlistener) 获取自定义系统的监听
+  - [`isFunctionSupported`](#isfunctionsupported) 判断函数是否支持
+  - [`getPluginName`](#getpluginname) 获取插件名称
+  - [`getPluginVersion`](#getpluginversion) 获取插件版本
+  - [`getSDKVersion`](#getsdkversion) 获取 SDK 版本
+  - [`callFuncWithParam`](#callfuncwithparam) 反射调用带参数的void方法
+  - [`callStringFuncWithParam`](#callstringfuncwithparam) 反射调用带参数的 String 方法
+  - [`callIntFuncWithParam`](#callintfuncwithparam) 反射调用带参数的 Int 方法
+  - [`callBoolFuncWithParam`](#callboolfuncwithparam) 反射调用带参数的 boolean 方法
+  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) 反射调用带参数的 float 方法
 
 
 
@@ -41,7 +41,7 @@ custom protocol
 
 ##### setListener
 
-set listener
+设置自定义系统的监听
 
 | meta | description |
 |------|-------------|
@@ -54,7 +54,7 @@ set listener
 
 ##### getListener
 
-get listener
+获取自定义系统的监听
 
 | meta | description |
 |------|-------------|
@@ -65,7 +65,7 @@ get listener
 
 ##### isFunctionSupported
 
-Check whether the function is supported
+判断函数是否支持
 
 | meta | description |
 |------|-------------|
@@ -78,7 +78,7 @@ Check whether the function is supported
 
 ##### getPluginName
 
-get plugin name
+获取插件名称
 
 | meta | description |
 |------|-------------|
@@ -89,7 +89,7 @@ get plugin name
 
 ##### getPluginVersion
 
-get plugin version
+获取插件版本
 
 | meta | description |
 |------|-------------|
@@ -100,7 +100,7 @@ get plugin version
 
 ##### getSDKVersion
 
-get SDK version
+获取 SDK 版本
 
 | meta | description |
 |------|-------------|
@@ -111,7 +111,7 @@ get SDK version
 
 ##### callFuncWithParam
 
-void methods for reflections with parameter
+反射调用带参数的void方法
 
 | meta | description |
 |------|-------------|
@@ -124,7 +124,7 @@ void methods for reflections with parameter
 
 ##### callStringFuncWithParam
 
-String methods for reflections with parameter
+反射调用带参数的 String 方法
 
 | meta | description |
 |------|-------------|
@@ -138,7 +138,7 @@ String methods for reflections with parameter
 
 ##### callIntFuncWithParam
 
-int methods for reflections with parameter
+反射调用带参数的 Int 方法
 
 | meta | description |
 |------|-------------|
@@ -152,7 +152,7 @@ int methods for reflections with parameter
 
 ##### callBoolFuncWithParam
 
-boolean methods for reflections with parameter
+反射调用带参数的 boolean 方法
 
 | meta | description |
 |------|-------------|
@@ -166,7 +166,7 @@ boolean methods for reflections with parameter
 
 ##### callFloatFuncWithParam
 
-float methods for reflections with parameter
+反射调用带参数的 float 方法
 
 | meta | description |
 |------|-------------|

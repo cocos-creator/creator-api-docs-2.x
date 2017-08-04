@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Video event type
+视频事件类型
 
 ### Index
 
@@ -25,7 +25,7 @@ Video event type
 
 ##### PLAYING
 
-> play
+> 播放
 
 | meta | description |
 |------|-------------|
@@ -36,7 +36,7 @@ Video event type
 
 ##### PAUSED
 
-> pause
+> 暂停
 
 | meta | description |
 |------|-------------|
@@ -47,7 +47,7 @@ Video event type
 
 ##### STOPPED
 
-> stop
+> 停止
 
 | meta | description |
 |------|-------------|
@@ -58,7 +58,7 @@ Video event type
 
 ##### COMPLETED
 
-> play end
+> 播放结束
 
 | meta | description |
 |------|-------------|

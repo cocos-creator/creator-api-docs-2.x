@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for LineCap.
+线段末端属性
 
 ### Index
 
@@ -24,7 +24,7 @@ Enum for LineCap.
 
 ##### BUTT
 
-> The ends of lines are squared off at the endpoints.
+> 线段末端以方形结束。
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ Enum for LineCap.
 
 ##### ROUND
 
-> The ends of lines are rounded.
+> 线段末端以圆形结束。
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ Enum for LineCap.
 
 ##### SQUARE
 
-> The ends of lines are squared off by adding a box with an equal width and half the height of the line's thickness.
+> 线段末端以方形结束，但是增加了一个宽度和线段相同，高度是线段厚度一半的矩形区域。
 
 | meta | description |
 |------|-------------|

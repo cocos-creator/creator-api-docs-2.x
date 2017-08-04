@@ -9,7 +9,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-The base class of all value types.
+所有值类型的基类。
 
 ### Index
 
@@ -17,11 +17,11 @@ The base class of all value types.
 
 ##### Methods
 
-  - [`clone`](#clone) This method returns an exact copy of current value.
-  - [`equals`](#equals) Compares this object with the other one.
-  - [`lerp`](#lerp) Linearly interpolates between this value to to value by ratio which is in the range [0, 1].
-When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns the average of this and to.
-  - [`toString`](#tostring) TODO
+  - [`clone`](#clone) 克隆当前值，该方法返回一个新对象，新对象的值和原对象相等。
+  - [`equals`](#equals) 当前对象是否等于指定对象。
+  - [`lerp`](#lerp) 线性插值。<br/>
+当 ratio = 0 时返回自身，ratio = 1 时返回目标，ratio = 0.5 返回自身和目标的平均值。。
+  - [`toString`](#tostring) 转换为方便阅读的字符串。
 
 
 
@@ -36,7 +36,7 @@ When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns 
 
 ##### clone
 
-This method returns an exact copy of current value.
+克隆当前值，该方法返回一个新对象，新对象的值和原对象相等。
 
 | meta | description |
 |------|-------------|
@@ -47,7 +47,7 @@ This method returns an exact copy of current value.
 
 ##### equals
 
-Compares this object with the other one.
+当前对象是否等于指定对象。
 
 | meta | description |
 |------|-------------|
@@ -60,8 +60,8 @@ Compares this object with the other one.
 
 ##### lerp
 
-Linearly interpolates between this value to to value by ratio which is in the range [0, 1].
-When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns the average of this and to.
+线性插值。<br/>
+当 ratio = 0 时返回自身，ratio = 1 时返回目标，ratio = 0.5 返回自身和目标的平均值。。
 
 | meta | description |
 |------|-------------|
@@ -75,7 +75,7 @@ When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns 
 
 ##### toString
 
-TODO
+转换为方便阅读的字符串。
 
 | meta | description |
 |------|-------------|

@@ -8,217 +8,190 @@ Module: [cc](../modules/cc.md)
 
 
 
-Class of all entities in Cocos Creator scenes.<br/>
-Node also inherits from <a href="../classes/EventTarget.html" class="crosslink">Event Target</a>, it permits Node to dispatch events.
-For events supported by Node, please refer to <a href="../classes/Node.EventType.html" class="crosslink">Node.EventType</a>
+Cocos Creator 场景中的所有节点类。节点也继承了 <a href="../classes/EventTarget.html" class="crosslink">EventTarget</a>，它允许节点发送事件。<br/>
+支持的节点事件，请参阅 <a href="../classes/Node.EventType.html" class="crosslink">Node.EventType</a>。
 
 ### Index
 
 ##### Properties
 
-  - [`groupIndex`](#groupindex) `Integer` Group index of node.<br/>
-Which Group this node belongs to will resolve that this node's collision components can collide with which other collision componentns.<br/>
-  - [`group`](#group) `String` Group of node.<br/>
-Which Group this node belongs to will resolve that this node's collision components can collide with which other collision componentns.<br/>
-  - [`position`](#position) `Vec2` The position (x, y) of the node in its parent's coordinates.
-  - [`x`](#x) `Number` x axis position of node.
-  - [`y`](#y) `Number` y axis position of node.
-  - [`rotation`](#rotation) `Number` Rotation of node.
-  - [`rotationX`](#rotationx) `Number` Rotation on x axis.
-  - [`rotationY`](#rotationy) `Number` Rotation on y axis.
-  - [`scaleX`](#scalex) `Number` Scale on x axis.
-  - [`scaleY`](#scaley) `Number` Scale on y axis.
-  - [`skewX`](#skewx) `Number` Skew x
-  - [`skewY`](#skewy) `Number` Skew y
-  - [`opacity`](#opacity) `Number` Opacity of node, default value is 255.
-  - [`cascadeOpacity`](#cascadeopacity) `Boolean` Indicate whether node's opacity value affect its child nodes, default value is true.
-  - [`color`](#color) `Color` Color of node, default value is white: (255, 255, 255).
-  - [`anchorX`](#anchorx) `Number` Anchor point's position on x axis.
-  - [`anchorY`](#anchory) `Number` Anchor point's position on y axis.
-  - [`width`](#width) `Number` Width of node.
-  - [`height`](#height) `Number` Height of node.
-  - [`zIndex`](#zindex) `Number` Z order in depth which stands for the drawing order.
+  - [`groupIndex`](#groupindex) `Integer` 节点的分组索引。<br/>
+节点的分组将关系到节点的碰撞组件可以与哪些碰撞组件相碰撞。<br/>
+  - [`group`](#group) `String` 节点的分组。<br/>
+节点的分组将关系到节点的碰撞组件可以与哪些碰撞组件相碰撞。<br/>
+  - [`position`](#position) `Vec2` 节点在父节点坐标系中的位置（x, y）。
+  - [`x`](#x) `Number` 节点 X 轴坐标。
+  - [`y`](#y) `Number` 节点 Y 轴坐标。
+  - [`rotation`](#rotation) `Number` 该节点旋转角度。
+  - [`rotationX`](#rotationx) `Number` 该节点 X 轴旋转角度。
+  - [`rotationY`](#rotationy) `Number` 该节点 Y 轴旋转角度。
+  - [`scaleX`](#scalex) `Number` 节点 X 轴缩放。
+  - [`scaleY`](#scaley) `Number` 节点 Y 轴缩放。
+  - [`skewX`](#skewx) `Number` 该节点 Y 轴倾斜角度。
+  - [`skewY`](#skewy) `Number` 该节点 X 轴倾斜角度。
+  - [`opacity`](#opacity) `Number` 节点透明度，默认值为 255。
+  - [`cascadeOpacity`](#cascadeopacity) `Boolean` 节点的不透明度值是否影响其子节点，默认值为 true。
+  - [`color`](#color) `Color` 节点颜色。默认为白色，数值为：（255，255，255）。
+  - [`anchorX`](#anchorx) `Number` 节点 X 轴锚点位置。
+  - [`anchorY`](#anchory) `Number` 节点 Y 轴锚点位置。
+  - [`width`](#width) `Number` 节点宽度。
+  - [`height`](#height) `Number` 节点高度。
+  - [`zIndex`](#zindex) `Number` 该节点渲染排序的 Z 轴深度。
   - [`_sgNode`](#sgnode) `_ccsg.Node` Current scene graph node for this node.
   - [`_sizeProvider`](#sizeprovider) `_ccsg.Node` Current active size provider for this node.
 Size provider can equals to this._sgNode.
-  - [`scale`](#scale) `Number` The local scale relative to the parent.
+  - [`scale`](#scale) `Number` 节点相对父节点的缩放。
   - [`_components`](#components) `Component[]` 
   - [`_prefab`](#prefab) `PrefabInfo` The PrefabInfo object
   - [`_persistNode`](#persistnode) `Boolean` If true, the node is an persist node which won't be destroyed during scene transition.
 If false, the node will be destroyed automatically when loading a new scene. Default is false.
-  - [`name`](#name) `String` Name of node.
-  - [`uuid`](#uuid) `String` The uuid for editor, will be stripped before building project.
-  - [`children`](#children) `Node[]` All children nodes.
-  - [`childrenCount`](#childrencount) `Number` All children nodes.
-  - [`active`](#active) `Boolean` The local active state of this node.<br/>
-Note that a Node may be inactive because a parent is not active, even if this returns true.<br/>
-Use Node/activeInHierarchy:property if you want to check if the Node is actually treated as active in the scene.
-  - [`activeInHierarchy`](#activeinhierarchy) `Boolean` Indicates whether this node is active in the scene.
-  - [`tag`](#tag) `Number` Tag of node.
+  - [`name`](#name) `String` 该节点名称。
+  - [`uuid`](#uuid) `String` 主要用于编辑器的 uuid，在编辑器下可用于持久化存储，在项目构建之后将变成自增的 id。
+  - [`children`](#children) `Node[]` 节点的所有子节点。
+  - [`childrenCount`](#childrencount) `Number` 节点的子节点数量。
+  - [`active`](#active) `Boolean` 当前节点的自身激活状态。<br/>
+值得注意的是，一个节点的父节点如果不被激活，那么即使它自身设为激活，它仍然无法激活。<br/>
+如果你想检查节点在场景中实际的激活状态可以使用 Node/activeInHierarchy:property。
+  - [`activeInHierarchy`](#activeinhierarchy) `Boolean` 表示此节点是否在场景中激活。
+  - [`tag`](#tag) `Number` 节点标签。
   - [`__eventTargets`](#eventtargets) `EventTarget[]` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
-  - [`parent`](#parent) `Node` The parent of the node.
+  - [`parent`](#parent) `Node` 该节点的父节点。
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
+  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
 
 
 
 ##### Methods
 
   - [`constructor`](#constructor) 
-  - [`on`](#on) Register a callback of a specific event type on Node.<br/>
-Use this method to register touch or mouse event permit propagation based on scene graph,
-you can propagate the event to the parents or swallow it by calling stopPropagation on the event.<br/>
-It's the recommended way to register touch/mouse event for Node,
-please do not use cc.eventManager directly for Node.
-  - [`off`](#off) Removes the callback previously registered with the same type, callback, target and or useCapture.
-This method is merely an alias to removeEventListener.
-  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target.
-  - [`pauseSystemEvents`](#pausesystemevents) Pause node related system events registered with the current Node. Node system events includes touch and mouse events.
-If recursive is set to true, then this API will pause the node system events for the node and all nodes in its sub node tree.
-Reference: http://cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/internal-events/
-  - [`resumeSystemEvents`](#resumesystemevents) Resume node related system events registered with the current Node. Node system events includes touch and mouse events.
-If recursive is set to true, then this API will resume the node system events for the node and all nodes in its sub node tree.
-Reference: http://cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/internal-events/
-  - [`runAction`](#runaction) Executes an action, and returns the action that is executed.<br/>
-The node becomes the action's target. Refer to cc.Action's getTarget() <br/>
-Calling runAction while the node is not active won't have any effect. <br/>
-Note：You shouldn't modify the action after runAction, that won't take any effect.<br/>
-if you want to modify, when you define action plus.
-  - [`pauseAllActions`](#pauseallactions) Pause all actions running on the current node. Equals to `cc.director.getActionManager().pauseTarget(node)`.
-  - [`resumeAllActions`](#resumeallactions) Resume all paused actions on the current node. Equals to `cc.director.getActionManager().resumeTarget(node)`.
-  - [`stopAllActions`](#stopallactions) Stops and removes all actions from the running action list .
-  - [`stopAction`](#stopaction) Stops and removes an action from the running action list.
-  - [`stopActionByTag`](#stopactionbytag) Removes an action from the running action list by its tag.
-  - [`getActionByTag`](#getactionbytag) Returns an action from the running action list by its tag.
-  - [`getNumberOfRunningActions`](#getnumberofrunningactions) Returns the numbers of actions that are running plus the ones that are schedule to run (actions in actionsToAdd and actions arrays).<br/>
-   Composable actions are counted as 1 action. Example:<br/>
-   If you are running 1 Sequence of 7 actions, it will return 1. <br/>
-   If you are running 7 Sequences of 2 actions, it will return 7.</p>
-  - [`getPosition`](#getposition) Returns a copy of the position (x, y) of the node in its parent's coordinates.
-  - [`setPosition`](#setposition) Sets the position (x, y) of the node in its parent's coordinates.<br/>
-Usually we use cc.v2(x, y) to compose cc.Vec2 object.<br/>
-and Passing two numbers (x, y) is more efficient than passing cc.Vec2 object.
-  - [`getScale`](#getscale) Returns the scale factor of the node.
-Assertion will fail when _scaleX != _scaleY.
-  - [`setScale`](#setscale) Sets the scale factor of the node. 1.0 is the default scale factor. This function can modify the X and Y scale at the same time.
-  - [`getContentSize`](#getcontentsize) Returns a copy the untransformed size of the node. <br/>
-The contentSize remains the same no matter the node is scaled or rotated.<br/>
-All nodes has a size. Layer and Scene has the same size of the screen by default. <br/>
-  - [`setContentSize`](#setcontentsize) Sets the untransformed size of the node.<br/>
-The contentSize remains the same no matter the node is scaled or rotated.<br/>
-All nodes has a size. Layer and Scene has the same size of the screen.
-  - [`setOpacityModifyRGB`](#setopacitymodifyrgb) Set whether color should be changed with the opacity value,
-useless in ccsg.Node, but this function is override in some class to have such behavior.
-  - [`isOpacityModifyRGB`](#isopacitymodifyrgb) Get whether color should be changed with the opacity value.
-  - [`getAnchorPoint`](#getanchorpoint) Returns a copy of the anchor point.<br/>
-Anchor point is the point around which all transformations and positioning manipulations take place.<br/>
-It's like a pin in the node where it is "attached" to its parent. <br/>
-The anchorPoint is normalized, like a percentage. (0,0) means the bottom-left corner and (1,1) means the top-right corner. <br/>
-But you can use values higher than (1,1) and lower than (0,0) too.  <br/>
-The default anchor point is (0.5,0.5), so it starts at the center of the node.
-  - [`setAnchorPoint`](#setanchorpoint) Sets the anchor point in percent. <br/>
-anchor point is the point around which all transformations and positioning manipulations take place. <br/>
-It's like a pin in the node where it is "attached" to its parent. <br/>
-The anchorPoint is normalized, like a percentage. (0,0) means the bottom-left corner and (1,1) means the top-right corner.<br/>
-But you can use values higher than (1,1) and lower than (0,0) too.<br/>
-The default anchor point is (0.5,0.5), so it starts at the center of the node.
-  - [`getAnchorPointInPoints`](#getanchorpointinpoints) Returns a copy of the anchor point in absolute pixels.  <br/>
-you can only read it. If you wish to modify it, use setAnchorPoint.
-  - [`getDisplayedOpacity`](#getdisplayedopacity) Returns the displayed opacity of Node,
-the difference between displayed opacity and opacity is that displayed opacity is calculated based on opacity and parent node's opacity when cascade opacity enabled.
-  - [`getDisplayedColor`](#getdisplayedcolor) Returns the displayed color of Node,
-the difference between displayed color and color is that displayed color is calculated based on color and parent node's color when cascade color enabled.
-  - [`getNodeToParentTransformAR`](#getnodetoparenttransformar) Returns the matrix that transform the node's (local) space coordinates into the parent's space coordinates.<br/>
-The matrix is in Pixels.<br/>
-This method is AR (Anchor Relative).
-  - [`getBoundingBox`](#getboundingbox) Returns a "local" axis aligned bounding box of the node. <br/>
-The returned box is relative only to its parent.
-  - [`getBoundingBoxToWorld`](#getboundingboxtoworld) Returns a "world" axis aligned bounding box of the node.<br/>
-The bounding box contains self and active children's world bounding box.
-  - [`getNodeToParentTransform`](#getnodetoparenttransform) Returns the matrix that transform the node's (local) space coordinates into the parent's space coordinates.<br/>
-The matrix is in Pixels.
-  - [`getNodeToWorldTransform`](#getnodetoworldtransform) Returns the world affine transform matrix. The matrix is in Pixels.
-  - [`getNodeToWorldTransformAR`](#getnodetoworldtransformar) Returns the world affine transform matrix. The matrix is in Pixels.<br/>
-This method is AR (Anchor Relative).
-  - [`getParentToNodeTransform`](#getparenttonodetransform) Returns the matrix that transform parent's space coordinates to the node's (local) space coordinates.<br/>
-The matrix is in Pixels. The returned transform is readonly and cannot be changed.
-  - [`getWorldToNodeTransform`](#getworldtonodetransform) Returns the inverse world affine transform matrix. The matrix is in Pixels.
-返回世界坐标系到节点坐标系的逆矩阵。
-  - [`convertToNodeSpace`](#converttonodespace) Converts a Point to node (local) space coordinates. The result is in Vec2.
-  - [`convertToWorldSpace`](#converttoworldspace) Converts a Point to world space coordinates. The result is in Points.
-  - [`convertToNodeSpaceAR`](#converttonodespacear) Converts a Point to node (local) space coordinates. The result is in Points.<br/>
-treating the returned/received node point as anchor relative.
-  - [`convertToWorldSpaceAR`](#converttoworldspacear) Converts a local Point to world space coordinates.The result is in Points.<br/>
-treating the returned/received node point as anchor relative.
-  - [`convertTouchToNodeSpace`](#converttouchtonodespace) convenience methods which take a cc.Touch instead of cc.Vec2.
-  - [`convertTouchToNodeSpaceAR`](#converttouchtonodespacear) converts a cc.Touch (world coordinates) into a local coordinate. This method is AR (Anchor Relative).
-  - [`addChild`](#addchild) Adds a child to the node with z order and tag.
-  - [`cleanup`](#cleanup) Stops all running actions and schedulers.
-  - [`sortAllChildren`](#sortallchildren) Sorts the children array depends on children's zIndex and arrivalOrder,
-normally you won't need to invoke this function.
-  - [`getPositionX`](#getpositionx) Returns the x axis position of the node in cocos2d coordinates.
-  - [`setPositionX`](#setpositionx) Sets the x axis position of the node in cocos2d coordinates.
-  - [`getPositionY`](#getpositiony) Returns the y axis position of the node in cocos2d coordinates.
-  - [`setPositionY`](#setpositiony) Sets the y axis position of the node in cocos2d coordinates.
-  - [`getLocalZOrder`](#getlocalzorder) Returns the local Z order of this node.
-  - [`setLocalZOrder`](#setlocalzorder) LocalZOrder is the 'key' used to sort the node relative to its siblings.                                        <br/>
-                                                                                                                <br/>
-The Node's parent will sort all its children based ont the LocalZOrder value.                                   <br/>
-If two nodes have the same LocalZOrder, then the node that was added first to the children's array              <br/>
-will be in front of the other node in the array.                                                                <br/>
-Also, the Scene Graph is traversed using the "In-Order" tree traversal algorithm ( http://en.wikipedia.org/wiki/Tree_traversal#In-order ) <br/>
-And Nodes that have LocalZOder values smaller than 0 are the "left" subtree <br/>
-While Nodes with LocalZOder greater than 0 are the "right" subtree.
-  - [`isCascadeOpacityEnabled`](#iscascadeopacityenabled) Returns whether node's opacity value affect its child nodes.
-  - [`setCascadeOpacityEnabled`](#setcascadeopacityenabled) Enable or disable cascade opacity, if cascade enabled, child nodes' opacity will be the multiplication of parent opacity and its own opacity.
-  - [`attr`](#attr) Properties configuration function </br>
-All properties in attrs will be set to the node, </br>
-when the setter of the node is available, </br>
-the property will be set via setter function.</br>
-  - [`getChildByTag`](#getchildbytag) Returns a child from the container given its tag.
-  - [`getChildByUuid`](#getchildbyuuid) Returns a child from the container given its uuid.
-  - [`getChildByName`](#getchildbyname) Returns a child from the container given its name.
-  - [`insertChild`](#insertchild) Inserts a child to the node at a specified index.
-  - [`getSiblingIndex`](#getsiblingindex) Get the sibling index.
-  - [`setSiblingIndex`](#setsiblingindex) Set the sibling index of this node.
-  - [`removeFromParent`](#removefromparent) Remove itself from its parent node. If cleanup is `true`, then also remove all events and actions. <br/>
-If the cleanup parameter is not passed, it will force a cleanup, so it is recommended that you always pass in the `false` parameter when calling this API.<br/>
-If the node orphan, then nothing happens.
-  - [`removeChild`](#removechild) Removes a child from the container. It will also cleanup all running actions depending on the cleanup parameter. </p>
-If the cleanup parameter is not passed, it will force a cleanup. <br/>
-"remove" logic MUST only be on this method  <br/>
-If a class wants to extend the 'removeChild' behavior it only needs <br/>
-to override this method.
-  - [`removeChildByTag`](#removechildbytag) Removes a child from the container by tag value. It will also cleanup all running actions depending on the cleanup parameter.
-If the cleanup parameter is not passed, it will force a cleanup. <br/>
-  - [`removeAllChildren`](#removeallchildren) Removes all children from the container and do a cleanup all running actions depending on the cleanup parameter. <br/>
-If the cleanup parameter is not passed, it will force a cleanup.
-  - [`isChildOf`](#ischildof) Is this node a child of the given node?
-  - [`getComponent`](#getcomponent) Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
-You can also get component in the node by passing in the name of the script.
-  - [`getComponents`](#getcomponents) Returns all components of supplied type in the node.
-  - [`getComponentInChildren`](#getcomponentinchildren) Returns the component of supplied type in any of its children using depth first search.
-  - [`getComponentsInChildren`](#getcomponentsinchildren) Returns all components of supplied type in self or any of its children.
-  - [`addComponent`](#addcomponent) Adds a component class to the node. You can also add component to node by passing in the name of the script.
+  - [`on`](#on) 在节点上注册指定类型的回调函数，也可以设置 target 用于绑定响应函数的调用者。<br/>
+同时您可以将事件派发到父节点或者通过调用 stopPropagation 拦截它。<br/>
+推荐使用这种方式来监听节点上的触摸或鼠标事件，请不要在节点上直接使用 cc.eventManager。
+  - [`off`](#off) 删除之前与同类型，回调，目标或 useCapture 注册的回调。
+  - [`targetOff`](#targetoff) 移除目标上的所有注册事件。
+  - [`pauseSystemEvents`](#pausesystemevents) 暂停当前节点上注册的所有节点系统事件，节点系统事件包含触摸和鼠标事件。
+如果传递 recursive 为 true，那么这个 API 将暂停本节点和它的子树上所有节点的节点系统事件。
+参考：http://cocos.com/docs/creator/scripting/internal-events.html
+  - [`resumeSystemEvents`](#resumesystemevents) 恢复当前节点上注册的所有节点系统事件，节点系统事件包含触摸和鼠标事件。
+如果传递 recursive 为 true，那么这个 API 将恢复本节点和它的子树上所有节点的节点系统事件。
+参考：http://cocos.com/docs/creator/scripting/internal-events.html
+  - [`runAction`](#runaction) 执行并返回该执行的动作。该节点将会变成动作的目标。<br/>
+调用 runAction 时，节点自身处于不激活状态将不会有任何效果。<br/>
+注意：你不应该修改 runAction 后的动作，将无法发挥作用，如果想进行修改，请在定义 action 时加入。
+  - [`pauseAllActions`](#pauseallactions) 暂停本节点上所有正在运行的动作。和 `cc.director.getActionManager().pauseTarget(node);` 等价。
+  - [`resumeAllActions`](#resumeallactions) 恢复运行本节点上所有暂停的动作。和 `cc.director.getActionManager().resumeTarget(node);` 等价。
+  - [`stopAllActions`](#stopallactions) 停止并且移除所有正在运行的动作列表。
+  - [`stopAction`](#stopaction) 停止并移除指定的动作。
+  - [`stopActionByTag`](#stopactionbytag) 停止并且移除指定标签的动作。
+  - [`getActionByTag`](#getactionbytag) 通过标签获取指定动作。
+  - [`getNumberOfRunningActions`](#getnumberofrunningactions) 获取运行着的动作加上正在调度运行的动作的总数。<br/>
+例如：<br/>
+- 如果你正在运行 7 个动作中的 1 个 Sequence，它将返回 1。<br/>
+- 如果你正在运行 2 个动作中的 7 个 Sequence，它将返回 7。<br/>
+  - [`getPosition`](#getposition) 获取节点在父节点坐标系中的位置（x, y）。
+  - [`setPosition`](#setposition) 设置节点在父节点坐标系中的位置。<br/>
+可以通过两种方式设置坐标点：<br/>
+1. 传入 2 个数值 x 和 y。<br/>
+2. 传入 cc.v2(x, y) 类型为 cc.Vec2 的对象。
+  - [`getScale`](#getscale) 获取节点的缩放。当 X 轴和 Y 轴有相同的缩放数值时。
+  - [`setScale`](#setscale) 设置节点的缩放比例，默认值为 1.0。这个函数可以在同一时间修改 X 和 Y 缩放。
+  - [`getContentSize`](#getcontentsize) 获取节点自身大小，不受该节点是否被缩放或者旋转的影响。
+  - [`setContentSize`](#setcontentsize) 设置节点原始大小，不受该节点是否被缩放或者旋转的影响。
+  - [`setOpacityModifyRGB`](#setopacitymodifyrgb) 设置更改透明度时是否修改RGB值，
+  - [`isOpacityModifyRGB`](#isopacitymodifyrgb) 更改透明度时是否修改RGB值。
+  - [`getAnchorPoint`](#getanchorpoint) 获取节点锚点，用百分比表示。<br/>
+锚点应用于所有变换和坐标点的操作，它就像在节点上连接其父节点的大头针。<br/>
+锚点是标准化的，就像百分比一样。(0，0) 表示左下角，(1，1) 表示右上角。<br/>
+但是你可以使用比（1，1）更高的值或者比（0，0）更低的值。<br/>
+默认的锚点是（0.5，0.5），因此它开始于节点的中心位置。<br/>
+注意：Creator 中的锚点仅用于定位所在的节点，子节点的定位不受影响。
+  - [`setAnchorPoint`](#setanchorpoint) 设置锚点的百分比。<br/>
+锚点应用于所有变换和坐标点的操作，它就像在节点上连接其父节点的大头针。<br/>
+锚点是标准化的，就像百分比一样。(0，0) 表示左下角，(1，1) 表示右上角。<br/>
+但是你可以使用比（1，1）更高的值或者比（0，0）更低的值。<br/>
+默认的锚点是（0.5，0.5），因此它开始于节点的中心位置。<br/>
+注意：Creator 中的锚点仅用于定位所在的节点，子节点的定位不受影响。
+  - [`getAnchorPointInPoints`](#getanchorpointinpoints) 返回锚点的绝对像素位置。<br/>
+你只能读它。如果您要修改它，使用 setAnchorPoint。
+  - [`getDisplayedOpacity`](#getdisplayedopacity) 获取节点显示透明度，
+显示透明度和透明度之间的不同之处在于当启用级连透明度时，
+显示透明度是基于自身透明度和父节点透明度计算的。
+  - [`getDisplayedColor`](#getdisplayedcolor) 获取节点的显示透明度，
+显示透明度和透明度之间的不同之处在于显示透明度是基于透明度和父节点透明度启用级连透明度时计算的。
+  - [`getNodeToParentTransformAR`](#getnodetoparenttransformar) 返回这个将节点（局部）的空间坐标系转换成父节点的空间坐标系的矩阵。<br/>
+这个矩阵以像素为单位。<br/>
+该方法基于节点坐标。
+  - [`getBoundingBox`](#getboundingbox) 返回父节坐标系下的轴向对齐的包围盒。
+  - [`getBoundingBoxToWorld`](#getboundingboxtoworld) 返回节点在世界坐标系下的对齐轴向的包围盒（AABB）。<br/>
+该边框包含自身和已激活的子节点的世界边框。
+  - [`getNodeToParentTransform`](#getnodetoparenttransform) 返回这个将节点（局部）的空间坐标系转换成父节点的空间坐标系的矩阵。这个矩阵以像素为单位。
+  - [`getNodeToWorldTransform`](#getnodetoworldtransform) 返回节点到世界坐标系的仿射变换矩阵。矩阵单位是像素。
+  - [`getNodeToWorldTransformAR`](#getnodetoworldtransformar) 返回节点到世界坐标仿射变换矩阵。矩阵单位是像素。<br/>
+该方法基于节点坐标。
+  - [`getParentToNodeTransform`](#getparenttonodetransform) 返回将父节点的坐标系转换成节点（局部）的空间坐标系的矩阵。<br/>
+该矩阵以像素为单位。返回的矩阵是只读的，不能更改。
+  - [`getWorldToNodeTransform`](#getworldtonodetransform) 
+  - [`convertToNodeSpace`](#converttonodespace) 将一个点转换到节点 (局部) 坐标系。结果以 Vec2 为单位。
+  - [`convertToWorldSpace`](#converttoworldspace) 将一个点转换到世界空间坐标系。结果以 Vec2 为单位。
+  - [`convertToNodeSpaceAR`](#converttonodespacear) 将一个点转换到节点 (局部) 空间坐标系。结果以 Vec2 为单位。<br/>
+返回值将基于节点坐标。
+  - [`convertToWorldSpaceAR`](#converttoworldspacear) 将一个点转换到世界空间坐标系。结果以 Vec2 为单位。<br/>
+返回值将基于世界坐标。
+  - [`convertTouchToNodeSpace`](#converttouchtonodespace) 将触摸点转换成本地坐标系中位置。
+  - [`convertTouchToNodeSpaceAR`](#converttouchtonodespacear) 转换一个 cc.Touch（世界坐标）到一个局部坐标，该方法基于节点坐标。
+  - [`addChild`](#addchild) 添加子节点，并且可以修改该节点的 局部 Z 顺序和标签。
+  - [`cleanup`](#cleanup) 停止所有正在播放的动作和计时器。
+  - [`sortAllChildren`](#sortallchildren) 根据子节点的 zIndex 和 arrivalOrder 进行排序，正常情况下开发者不需要手动调用这个函数。
+  - [`getPositionX`](#getpositionx) 获取节点 X 轴坐标。
+  - [`setPositionX`](#setpositionx) 设置节点 X 轴坐标。
+  - [`getPositionY`](#getpositiony) 获取节点 Y 轴坐标。
+  - [`setPositionY`](#setpositiony) 设置节点 Y 轴坐标。
+  - [`getLocalZOrder`](#getlocalzorder) 获取节点局部 Z 轴顺序。
+  - [`setLocalZOrder`](#setlocalzorder) LocalZOrder 是 “key” (关键)来分辨节点和它兄弟节点的相关性。
+父节点将会通过 LocalZOrder 的值来分辨所有的子节点。
+如果两个节点有同样的 LocalZOrder，那么先加入子节点数组的节点将会显示在后加入的节点的前面。
+同样的，场景图使用 “In-Order（按顺序）” 遍历数算法来遍历
+( http://en.wikipedia.org/wiki/Tree_traversal#In-order ) 并且拥有小于 0 的 LocalZOrder 的值的节点是 “ left ” 子树（左子树）
+所以拥有大于 0 的 LocalZOrder 的值得节点是 “ right ”子树（右子树）。
+  - [`isCascadeOpacityEnabled`](#iscascadeopacityenabled) 返回节点的不透明度值是否影响其子节点。
+  - [`setCascadeOpacityEnabled`](#setcascadeopacityenabled) 启用或禁用级连不透明度，如果级连启用，子节点的不透明度将是父不透明度乘上它自己的不透明度。
+  - [`attr`](#attr) 属性配置函数。在 attrs 的所有属性将被设置为节点属性。
+  - [`getChildByTag`](#getchildbytag) 通过标签获取节点的子节点。
+  - [`getChildByUuid`](#getchildbyuuid) 通过 uuid 获取节点的子节点。
+  - [`getChildByName`](#getchildbyname) 通过名称获取节点的子节点。
+  - [`insertChild`](#insertchild) 插入子节点到指定位置
+  - [`getSiblingIndex`](#getsiblingindex) 获取同级索引。
+  - [`setSiblingIndex`](#setsiblingindex) 设置节点同级索引。
+  - [`removeFromParent`](#removefromparent) 从父节点中删除该节点。如果不传入 cleanup 参数或者传入 `true`，那么这个节点上所有绑定的事件、action 都会被删除。<br/>
+因此建议调用这个 API 时总是传入 `false` 参数。<br/>
+如果这个节点是一个孤节点，那么什么都不会发生。
+  - [`removeChild`](#removechild) 移除节点中指定的子节点，是否需要清理所有正在运行的行为取决于 cleanup 参数。<br/>
+如果 cleanup 参数不传入，默认为 true 表示清理。<br/>
+  - [`removeChildByTag`](#removechildbytag) 通过标签移除节点中指定的子节点，是否需要清理所有正在运行的行为取决于 cleanup 参数。<br/>
+如果 cleanup 参数不传入，默认为 true 表示清理。
+  - [`removeAllChildren`](#removeallchildren) 移除节点所有的子节点，是否需要清理所有正在运行的行为取决于 cleanup 参数。<br/>
+如果 cleanup 参数不传入，默认为 true 表示清理。
+  - [`isChildOf`](#ischildof) 是否是指定节点的子节点？
+  - [`getComponent`](#getcomponent) 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
+传入参数也可以是脚本的名称。
+  - [`getComponents`](#getcomponents) 返回节点上指定类型的所有组件。
+  - [`getComponentInChildren`](#getcomponentinchildren) 递归查找所有子节点中第一个匹配指定类型的组件。
+  - [`getComponentsInChildren`](#getcomponentsinchildren) 递归查找自身或所有子节点中指定类型的组件
+  - [`addComponent`](#addcomponent) 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
   - [`_addComponentAt`](#addcomponentat) This api should only used by undo system
-  - [`removeComponent`](#removecomponent) Removes a component identified by the given name or removes the component object given.
-You can also use component.destroy() if you already have the reference.
+  - [`removeComponent`](#removecomponent) 删除节点上的指定组件，传入参数可以是一个组件构造函数或组件名，也可以是已经获得的组件引用。
+如果你已经获得组件引用，你也可以直接调用 component.destroy()
   - [`_getDependComponent`](#getdependcomponent) 
-  - [`destroyAllChildren`](#destroyallchildren) Destroy all children from the node, and release all their own references to other objects.<br/>
-Actual destruct operation will delayed until before rendering.
-  - [`once`](#once) Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
-  - [`dispatchEvent`](#dispatchevent) Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
-  - [`emit`](#emit) Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
-  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+  - [`destroyAllChildren`](#destroyallchildren) 销毁所有子节点，并释放所有它们对其它对象的引用。<br/>
+实际销毁操作会延迟到当前帧渲染前执行。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
+  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
+  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -253,8 +226,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
   - [`child-reorder`](#child-reorder) 
   - [`group-changed`](#group-changed) 
   - [`touchstart`](#touchstart) 
-  - [`active-in-hierarchy-changed`](#active-in-hierarchy-changed) Note: This event is only emitted from the top most node whose active value did changed,
-not including its child nodes.
+  - [`active-in-hierarchy-changed`](#active-in-hierarchy-changed) 注意：此节点激活时，此事件仅从最顶部的节点发出。
 
 
 ### Details
@@ -265,8 +237,8 @@ not including its child nodes.
 
 ##### groupIndex
 
-> Group index of node.<br/>
-Which Group this node belongs to will resolve that this node's collision components can collide with which other collision componentns.<br/>
+> 节点的分组索引。<br/>
+节点的分组将关系到节点的碰撞组件可以与哪些碰撞组件相碰撞。<br/>
 
 | meta | description |
 |------|-------------|
@@ -277,8 +249,8 @@ Which Group this node belongs to will resolve that this node's collision compone
 
 ##### group
 
-> Group of node.<br/>
-Which Group this node belongs to will resolve that this node's collision components can collide with which other collision componentns.<br/>
+> 节点的分组。<br/>
+节点的分组将关系到节点的碰撞组件可以与哪些碰撞组件相碰撞。<br/>
 
 | meta | description |
 |------|-------------|
@@ -289,7 +261,7 @@ Which Group this node belongs to will resolve that this node's collision compone
 
 ##### position
 
-> The position (x, y) of the node in its parent's coordinates.
+> 节点在父节点坐标系中的位置（x, y）。
 
 | meta | description |
 |------|-------------|
@@ -305,7 +277,7 @@ cc.log("Node Position: " + node.position);
 
 ##### x
 
-> x axis position of node.
+> 节点 X 轴坐标。
 
 | meta | description |
 |------|-------------|
@@ -322,7 +294,7 @@ cc.log("Node Position X: " + node.x);
 
 ##### y
 
-> y axis position of node.
+> 节点 Y 轴坐标。
 
 | meta | description |
 |------|-------------|
@@ -339,7 +311,7 @@ cc.log("Node Position Y: " + node.y);
 
 ##### rotation
 
-> Rotation of node.
+> 该节点旋转角度。
 
 | meta | description |
 |------|-------------|
@@ -356,7 +328,7 @@ cc.log("Node Rotation: " + node.rotation);
 
 ##### rotationX
 
-> Rotation on x axis.
+> 该节点 X 轴旋转角度。
 
 | meta | description |
 |------|-------------|
@@ -373,7 +345,7 @@ cc.log("Node Rotation X: " + node.rotationX);
 
 ##### rotationY
 
-> Rotation on y axis.
+> 该节点 Y 轴旋转角度。
 
 | meta | description |
 |------|-------------|
@@ -390,7 +362,7 @@ cc.log("Node Rotation Y: " + node.rotationY);
 
 ##### scaleX
 
-> Scale on x axis.
+> 节点 X 轴缩放。
 
 | meta | description |
 |------|-------------|
@@ -407,7 +379,7 @@ cc.log("Node Scale X: " + node.scaleX);
 
 ##### scaleY
 
-> Scale on y axis.
+> 节点 Y 轴缩放。
 
 | meta | description |
 |------|-------------|
@@ -424,7 +396,7 @@ cc.log("Node Scale Y: " + node.scaleY);
 
 ##### skewX
 
-> Skew x
+> 该节点 Y 轴倾斜角度。
 
 | meta | description |
 |------|-------------|
@@ -441,7 +413,7 @@ cc.log("Node SkewX: " + node.skewX);
 
 ##### skewY
 
-> Skew y
+> 该节点 X 轴倾斜角度。
 
 | meta | description |
 |------|-------------|
@@ -458,7 +430,7 @@ cc.log("Node SkewY: " + node.skewY);
 
 ##### opacity
 
-> Opacity of node, default value is 255.
+> 节点透明度，默认值为 255。
 
 | meta | description |
 |------|-------------|
@@ -474,7 +446,7 @@ node.opacity = 255;
 
 ##### cascadeOpacity
 
-> Indicate whether node's opacity value affect its child nodes, default value is true.
+> 节点的不透明度值是否影响其子节点，默认值为 true。
 
 | meta | description |
 |------|-------------|
@@ -490,7 +462,7 @@ cc.log("CascadeOpacity: " + node.cascadeOpacity);
 
 ##### color
 
-> Color of node, default value is white: (255, 255, 255).
+> 节点颜色。默认为白色，数值为：（255，255，255）。
 
 | meta | description |
 |------|-------------|
@@ -506,7 +478,7 @@ node.color = new cc.Color(255, 255, 255);
 
 ##### anchorX
 
-> Anchor point's position on x axis.
+> 节点 X 轴锚点位置。
 
 | meta | description |
 |------|-------------|
@@ -522,7 +494,7 @@ node.anchorX = 0;
 
 ##### anchorY
 
-> Anchor point's position on y axis.
+> 节点 Y 轴锚点位置。
 
 | meta | description |
 |------|-------------|
@@ -538,7 +510,7 @@ node.anchorY = 0;
 
 ##### width
 
-> Width of node.
+> 节点宽度。
 
 | meta | description |
 |------|-------------|
@@ -554,7 +526,7 @@ node.width = 100;
 
 ##### height
 
-> Height of node.
+> 节点高度。
 
 | meta | description |
 |------|-------------|
@@ -570,7 +542,7 @@ node.height = 100;
 
 ##### zIndex
 
-> Z order in depth which stands for the drawing order.
+> 该节点渲染排序的 Z 轴深度。
 
 | meta | description |
 |------|-------------|
@@ -610,7 +582,7 @@ Size provider can equals to this._sgNode.
 
 ##### scale
 
-> The local scale relative to the parent.
+> 节点相对父节点的缩放。
 
 | meta | description |
 |------|-------------|
@@ -660,7 +632,7 @@ If false, the node will be destroyed automatically when loading a new scene. Def
 
 ##### name
 
-> Name of node.
+> 该节点名称。
 
 | meta | description |
 |------|-------------|
@@ -677,7 +649,7 @@ cc.log("Node Name: " + node.name);
 
 ##### uuid
 
-> The uuid for editor, will be stripped before building project.
+> 主要用于编辑器的 uuid，在编辑器下可用于持久化存储，在项目构建之后将变成自增的 id。
 
 | meta | description |
 |------|-------------|
@@ -693,7 +665,7 @@ cc.log("Node Uuid: " + node.uuid);
 
 ##### children
 
-> All children nodes.
+> 节点的所有子节点。
 
 | meta | description |
 |------|-------------|
@@ -712,7 +684,7 @@ for (var i = 0; i < children.length; ++i) {
 
 ##### childrenCount
 
-> All children nodes.
+> 节点的子节点数量。
 
 | meta | description |
 |------|-------------|
@@ -729,9 +701,9 @@ cc.log("Node Children Count: " + count);
 
 ##### active
 
-> The local active state of this node.<br/>
-Note that a Node may be inactive because a parent is not active, even if this returns true.<br/>
-Use Node/activeInHierarchy:property if you want to check if the Node is actually treated as active in the scene.
+> 当前节点的自身激活状态。<br/>
+值得注意的是，一个节点的父节点如果不被激活，那么即使它自身设为激活，它仍然无法激活。<br/>
+如果你想检查节点在场景中实际的激活状态可以使用 Node/activeInHierarchy:property。
 
 | meta | description |
 |------|-------------|
@@ -747,7 +719,7 @@ node.active = false;
 
 ##### activeInHierarchy
 
-> Indicates whether this node is active in the scene.
+> 表示此节点是否在场景中激活。
 
 | meta | description |
 |------|-------------|
@@ -763,7 +735,7 @@ cc.log("activeInHierarchy: " + node.activeInHierarchy);
 
 ##### tag
 
-> Tag of node.
+> 节点标签。
 
 | meta | description |
 |------|-------------|
@@ -791,7 +763,7 @@ all event callbacks will be removed in _onPreDestroy
 
 ##### parent
 
-> The parent of the node.
+> 该节点的父节点。
 
 | meta | description |
 |------|-------------|
@@ -829,7 +801,7 @@ node.parent = newNode;
 
 ##### isValid
 
-> Indicates whether the object is not yet destroyed.
+> 表示该对象是否可用（被销毁后将不可用）。
 
 | meta | description |
 |------|-------------|
@@ -864,11 +836,9 @@ cc.log(obj.isValid);
 
 ##### on
 
-Register a callback of a specific event type on Node.<br/>
-Use this method to register touch or mouse event permit propagation based on scene graph,
-you can propagate the event to the parents or swallow it by calling stopPropagation on the event.<br/>
-It's the recommended way to register touch/mouse event for Node,
-please do not use cc.eventManager directly for Node.
+在节点上注册指定类型的回调函数，也可以设置 target 用于绑定响应函数的调用者。<br/>
+同时您可以将事件派发到父节点或者通过调用 stopPropagation 拦截它。<br/>
+推荐使用这种方式来监听节点上的触摸或鼠标事件，请不要在节点上直接使用 cc.eventManager。
 
 | meta | description |
 |------|-------------|
@@ -900,8 +870,7 @@ node.on("anchor-changed", callback, this);
 
 ##### off
 
-Removes the callback previously registered with the same type, callback, target and or useCapture.
-This method is merely an alias to removeEventListener.
+删除之前与同类型，回调，目标或 useCapture 注册的回调。
 
 | meta | description |
 |------|-------------|
@@ -926,7 +895,7 @@ node.off("anchor-changed", callback, this);
 
 ##### targetOff
 
-Removes all callbacks previously registered with the same target.
+移除目标上的所有注册事件。
 
 | meta | description |
 |------|-------------|
@@ -943,9 +912,9 @@ node.targetOff(target);
 
 ##### pauseSystemEvents
 
-Pause node related system events registered with the current Node. Node system events includes touch and mouse events.
-If recursive is set to true, then this API will pause the node system events for the node and all nodes in its sub node tree.
-Reference: http://cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/internal-events/
+暂停当前节点上注册的所有节点系统事件，节点系统事件包含触摸和鼠标事件。
+如果传递 recursive 为 true，那么这个 API 将暂停本节点和它的子树上所有节点的节点系统事件。
+参考：http://cocos.com/docs/creator/scripting/internal-events.html
 
 | meta | description |
 |------|-------------|
@@ -962,9 +931,9 @@ node.pauseSystemEvents(true);
 
 ##### resumeSystemEvents
 
-Resume node related system events registered with the current Node. Node system events includes touch and mouse events.
-If recursive is set to true, then this API will resume the node system events for the node and all nodes in its sub node tree.
-Reference: http://cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/internal-events/
+恢复当前节点上注册的所有节点系统事件，节点系统事件包含触摸和鼠标事件。
+如果传递 recursive 为 true，那么这个 API 将恢复本节点和它的子树上所有节点的节点系统事件。
+参考：http://cocos.com/docs/creator/scripting/internal-events.html
 
 | meta | description |
 |------|-------------|
@@ -981,11 +950,9 @@ node.resumeSystemEvents(true);
 
 ##### runAction
 
-Executes an action, and returns the action that is executed.<br/>
-The node becomes the action's target. Refer to cc.Action's getTarget() <br/>
-Calling runAction while the node is not active won't have any effect. <br/>
-Note：You shouldn't modify the action after runAction, that won't take any effect.<br/>
-if you want to modify, when you define action plus.
+执行并返回该执行的动作。该节点将会变成动作的目标。<br/>
+调用 runAction 时，节点自身处于不激活状态将不会有任何效果。<br/>
+注意：你不应该修改 runAction 后的动作，将无法发挥作用，如果想进行修改，请在定义 action 时加入。
 
 | meta | description |
 |------|-------------|
@@ -1006,7 +973,7 @@ node.runAction(action.repeatForever()); // right
 
 ##### pauseAllActions
 
-Pause all actions running on the current node. Equals to `cc.director.getActionManager().pauseTarget(node)`.
+暂停本节点上所有正在运行的动作。和 `cc.director.getActionManager().pauseTarget(node);` 等价。
 
 | meta | description |
 |------|-------------|
@@ -1021,7 +988,7 @@ node.pauseAllActions();
 
 ##### resumeAllActions
 
-Resume all paused actions on the current node. Equals to `cc.director.getActionManager().resumeTarget(node)`.
+恢复运行本节点上所有暂停的动作。和 `cc.director.getActionManager().resumeTarget(node);` 等价。
 
 | meta | description |
 |------|-------------|
@@ -1036,7 +1003,7 @@ node.resumeAllActions();
 
 ##### stopAllActions
 
-Stops and removes all actions from the running action list .
+停止并且移除所有正在运行的动作列表。
 
 | meta | description |
 |------|-------------|
@@ -1051,7 +1018,7 @@ node.stopAllActions();
 
 ##### stopAction
 
-Stops and removes an action from the running action list.
+停止并移除指定的动作。
 
 | meta | description |
 |------|-------------|
@@ -1069,7 +1036,7 @@ node.stopAction(action);
 
 ##### stopActionByTag
 
-Removes an action from the running action list by its tag.
+停止并且移除指定标签的动作。
 
 | meta | description |
 |------|-------------|
@@ -1086,7 +1053,7 @@ node.stopAction(1);
 
 ##### getActionByTag
 
-Returns an action from the running action list by its tag.
+通过标签获取指定动作。
 
 | meta | description |
 |------|-------------|
@@ -1104,10 +1071,10 @@ var action = node.getActionByTag(1);
 
 ##### getNumberOfRunningActions
 
-Returns the numbers of actions that are running plus the ones that are schedule to run (actions in actionsToAdd and actions arrays).<br/>
-   Composable actions are counted as 1 action. Example:<br/>
-   If you are running 1 Sequence of 7 actions, it will return 1. <br/>
-   If you are running 7 Sequences of 2 actions, it will return 7.</p>
+获取运行着的动作加上正在调度运行的动作的总数。<br/>
+例如：<br/>
+- 如果你正在运行 7 个动作中的 1 个 Sequence，它将返回 1。<br/>
+- 如果你正在运行 2 个动作中的 7 个 Sequence，它将返回 7。<br/>
 
 | meta | description |
 |------|-------------|
@@ -1124,7 +1091,7 @@ cc.log("Running Action Count: " + count);
 
 ##### getPosition
 
-Returns a copy of the position (x, y) of the node in its parent's coordinates.
+获取节点在父节点坐标系中的位置（x, y）。
 
 | meta | description |
 |------|-------------|
@@ -1140,9 +1107,10 @@ cc.log("Node Position: " + node.getPosition());
 
 ##### setPosition
 
-Sets the position (x, y) of the node in its parent's coordinates.<br/>
-Usually we use cc.v2(x, y) to compose cc.Vec2 object.<br/>
-and Passing two numbers (x, y) is more efficient than passing cc.Vec2 object.
+设置节点在父节点坐标系中的位置。<br/>
+可以通过两种方式设置坐标点：<br/>
+1. 传入 2 个数值 x 和 y。<br/>
+2. 传入 cc.v2(x, y) 类型为 cc.Vec2 的对象。
 
 | meta | description |
 |------|-------------|
@@ -1158,8 +1126,7 @@ and Passing two numbers (x, y) is more efficient than passing cc.Vec2 object.
 
 ##### getScale
 
-Returns the scale factor of the node.
-Assertion will fail when _scaleX != _scaleY.
+获取节点的缩放。当 X 轴和 Y 轴有相同的缩放数值时。
 
 | meta | description |
 |------|-------------|
@@ -1175,7 +1142,7 @@ cc.log("Node Scale: " + node.getScale());
 
 ##### setScale
 
-Sets the scale factor of the node. 1.0 is the default scale factor. This function can modify the X and Y scale at the same time.
+设置节点的缩放比例，默认值为 1.0。这个函数可以在同一时间修改 X 和 Y 缩放。
 
 | meta | description |
 |------|-------------|
@@ -1194,9 +1161,7 @@ node.setScale(1, 1);
 
 ##### getContentSize
 
-Returns a copy the untransformed size of the node. <br/>
-The contentSize remains the same no matter the node is scaled or rotated.<br/>
-All nodes has a size. Layer and Scene has the same size of the screen by default. <br/>
+获取节点自身大小，不受该节点是否被缩放或者旋转的影响。
 
 | meta | description |
 |------|-------------|
@@ -1214,9 +1179,7 @@ cc.log("Content Size: " + node.getContentSize());
 
 ##### setContentSize
 
-Sets the untransformed size of the node.<br/>
-The contentSize remains the same no matter the node is scaled or rotated.<br/>
-All nodes has a size. Layer and Scene has the same size of the screen.
+设置节点原始大小，不受该节点是否被缩放或者旋转的影响。
 
 | meta | description |
 |------|-------------|
@@ -1235,8 +1198,7 @@ node.setContentSize(100, 100);
 
 ##### setOpacityModifyRGB
 
-Set whether color should be changed with the opacity value,
-useless in ccsg.Node, but this function is override in some class to have such behavior.
+设置更改透明度时是否修改RGB值，
 
 | meta | description |
 |------|-------------|
@@ -1253,7 +1215,7 @@ node.setOpacityModifyRGB(true);
 
 ##### isOpacityModifyRGB
 
-Get whether color should be changed with the opacity value.
+更改透明度时是否修改RGB值。
 
 | meta | description |
 |------|-------------|
@@ -1269,12 +1231,12 @@ var hasChange = node.isOpacityModifyRGB();
 
 ##### getAnchorPoint
 
-Returns a copy of the anchor point.<br/>
-Anchor point is the point around which all transformations and positioning manipulations take place.<br/>
-It's like a pin in the node where it is "attached" to its parent. <br/>
-The anchorPoint is normalized, like a percentage. (0,0) means the bottom-left corner and (1,1) means the top-right corner. <br/>
-But you can use values higher than (1,1) and lower than (0,0) too.  <br/>
-The default anchor point is (0.5,0.5), so it starts at the center of the node.
+获取节点锚点，用百分比表示。<br/>
+锚点应用于所有变换和坐标点的操作，它就像在节点上连接其父节点的大头针。<br/>
+锚点是标准化的，就像百分比一样。(0，0) 表示左下角，(1，1) 表示右上角。<br/>
+但是你可以使用比（1，1）更高的值或者比（0，0）更低的值。<br/>
+默认的锚点是（0.5，0.5），因此它开始于节点的中心位置。<br/>
+注意：Creator 中的锚点仅用于定位所在的节点，子节点的定位不受影响。
 
 | meta | description |
 |------|-------------|
@@ -1290,12 +1252,12 @@ cc.log("Node AnchorPoint: " + node.getAnchorPoint());
 
 ##### setAnchorPoint
 
-Sets the anchor point in percent. <br/>
-anchor point is the point around which all transformations and positioning manipulations take place. <br/>
-It's like a pin in the node where it is "attached" to its parent. <br/>
-The anchorPoint is normalized, like a percentage. (0,0) means the bottom-left corner and (1,1) means the top-right corner.<br/>
-But you can use values higher than (1,1) and lower than (0,0) too.<br/>
-The default anchor point is (0.5,0.5), so it starts at the center of the node.
+设置锚点的百分比。<br/>
+锚点应用于所有变换和坐标点的操作，它就像在节点上连接其父节点的大头针。<br/>
+锚点是标准化的，就像百分比一样。(0，0) 表示左下角，(1，1) 表示右上角。<br/>
+但是你可以使用比（1，1）更高的值或者比（0，0）更低的值。<br/>
+默认的锚点是（0.5，0.5），因此它开始于节点的中心位置。<br/>
+注意：Creator 中的锚点仅用于定位所在的节点，子节点的定位不受影响。
 
 | meta | description |
 |------|-------------|
@@ -1314,8 +1276,8 @@ node.setAnchorPoint(1, 1);
 
 ##### getAnchorPointInPoints
 
-Returns a copy of the anchor point in absolute pixels.  <br/>
-you can only read it. If you wish to modify it, use setAnchorPoint.
+返回锚点的绝对像素位置。<br/>
+你只能读它。如果您要修改它，使用 setAnchorPoint。
 
 | meta | description |
 |------|-------------|
@@ -1331,8 +1293,9 @@ cc.log("AnchorPointInPoints: " + node.getAnchorPointInPoints());
 
 ##### getDisplayedOpacity
 
-Returns the displayed opacity of Node,
-the difference between displayed opacity and opacity is that displayed opacity is calculated based on opacity and parent node's opacity when cascade opacity enabled.
+获取节点显示透明度，
+显示透明度和透明度之间的不同之处在于当启用级连透明度时，
+显示透明度是基于自身透明度和父节点透明度计算的。
 
 | meta | description |
 |------|-------------|
@@ -1348,8 +1311,8 @@ var displayOpacity = node.getDisplayedOpacity();
 
 ##### getDisplayedColor
 
-Returns the displayed color of Node,
-the difference between displayed color and color is that displayed color is calculated based on color and parent node's color when cascade color enabled.
+获取节点的显示透明度，
+显示透明度和透明度之间的不同之处在于显示透明度是基于透明度和父节点透明度启用级连透明度时计算的。
 
 | meta | description |
 |------|-------------|
@@ -1365,9 +1328,9 @@ var displayColor = node.getDisplayedColor();
 
 ##### getNodeToParentTransformAR
 
-Returns the matrix that transform the node's (local) space coordinates into the parent's space coordinates.<br/>
-The matrix is in Pixels.<br/>
-This method is AR (Anchor Relative).
+返回这个将节点（局部）的空间坐标系转换成父节点的空间坐标系的矩阵。<br/>
+这个矩阵以像素为单位。<br/>
+该方法基于节点坐标。
 
 | meta | description |
 |------|-------------|
@@ -1383,8 +1346,7 @@ var affineTransform = node.getNodeToParentTransformAR();
 
 ##### getBoundingBox
 
-Returns a "local" axis aligned bounding box of the node. <br/>
-The returned box is relative only to its parent.
+返回父节坐标系下的轴向对齐的包围盒。
 
 | meta | description |
 |------|-------------|
@@ -1400,8 +1362,8 @@ var boundingBox = node.getBoundingBox();
 
 ##### getBoundingBoxToWorld
 
-Returns a "world" axis aligned bounding box of the node.<br/>
-The bounding box contains self and active children's world bounding box.
+返回节点在世界坐标系下的对齐轴向的包围盒（AABB）。<br/>
+该边框包含自身和已激活的子节点的世界边框。
 
 | meta | description |
 |------|-------------|
@@ -1417,8 +1379,7 @@ var newRect = node.getBoundingBoxToWorld();
 
 ##### getNodeToParentTransform
 
-Returns the matrix that transform the node's (local) space coordinates into the parent's space coordinates.<br/>
-The matrix is in Pixels.
+返回这个将节点（局部）的空间坐标系转换成父节点的空间坐标系的矩阵。这个矩阵以像素为单位。
 
 | meta | description |
 |------|-------------|
@@ -1434,7 +1395,7 @@ var affineTransform = node.getNodeToParentTransform();
 
 ##### getNodeToWorldTransform
 
-Returns the world affine transform matrix. The matrix is in Pixels.
+返回节点到世界坐标系的仿射变换矩阵。矩阵单位是像素。
 
 | meta | description |
 |------|-------------|
@@ -1450,8 +1411,8 @@ var affineTransform = node.getNodeToWorldTransform();
 
 ##### getNodeToWorldTransformAR
 
-Returns the world affine transform matrix. The matrix is in Pixels.<br/>
-This method is AR (Anchor Relative).
+返回节点到世界坐标仿射变换矩阵。矩阵单位是像素。<br/>
+该方法基于节点坐标。
 
 | meta | description |
 |------|-------------|
@@ -1467,8 +1428,8 @@ var mat = node.getNodeToWorldTransformAR();
 
 ##### getParentToNodeTransform
 
-Returns the matrix that transform parent's space coordinates to the node's (local) space coordinates.<br/>
-The matrix is in Pixels. The returned transform is readonly and cannot be changed.
+返回将父节点的坐标系转换成节点（局部）的空间坐标系的矩阵。<br/>
+该矩阵以像素为单位。返回的矩阵是只读的，不能更改。
 
 | meta | description |
 |------|-------------|
@@ -1484,8 +1445,7 @@ var affineTransform = node.getParentToNodeTransform();
 
 ##### getWorldToNodeTransform
 
-Returns the inverse world affine transform matrix. The matrix is in Pixels.
-返回世界坐标系到节点坐标系的逆矩阵。
+
 
 | meta | description |
 |------|-------------|
@@ -1501,7 +1461,7 @@ var affineTransform = node.getWorldToNodeTransform();
 
 ##### convertToNodeSpace
 
-Converts a Point to node (local) space coordinates. The result is in Vec2.
+将一个点转换到节点 (局部) 坐标系。结果以 Vec2 为单位。
 
 | meta | description |
 |------|-------------|
@@ -1519,7 +1479,7 @@ var newVec2 = node.convertToNodeSpace(cc.v2(100, 100));
 
 ##### convertToWorldSpace
 
-Converts a Point to world space coordinates. The result is in Points.
+将一个点转换到世界空间坐标系。结果以 Vec2 为单位。
 
 | meta | description |
 |------|-------------|
@@ -1537,8 +1497,8 @@ var newVec2 = node.convertToWorldSpace(cc.v2(100, 100));
 
 ##### convertToNodeSpaceAR
 
-Converts a Point to node (local) space coordinates. The result is in Points.<br/>
-treating the returned/received node point as anchor relative.
+将一个点转换到节点 (局部) 空间坐标系。结果以 Vec2 为单位。<br/>
+返回值将基于节点坐标。
 
 | meta | description |
 |------|-------------|
@@ -1556,8 +1516,8 @@ var newVec2 = node.convertToNodeSpaceAR(cc.v2(100, 100));
 
 ##### convertToWorldSpaceAR
 
-Converts a local Point to world space coordinates.The result is in Points.<br/>
-treating the returned/received node point as anchor relative.
+将一个点转换到世界空间坐标系。结果以 Vec2 为单位。<br/>
+返回值将基于世界坐标。
 
 | meta | description |
 |------|-------------|
@@ -1575,7 +1535,7 @@ var newVec2 = node.convertToWorldSpaceAR(cc.v2(100, 100));
 
 ##### convertTouchToNodeSpace
 
-convenience methods which take a cc.Touch instead of cc.Vec2.
+将触摸点转换成本地坐标系中位置。
 
 | meta | description |
 |------|-------------|
@@ -1593,7 +1553,7 @@ var newVec2 = node.convertTouchToNodeSpace(touch);
 
 ##### convertTouchToNodeSpaceAR
 
-converts a cc.Touch (world coordinates) into a local coordinate. This method is AR (Anchor Relative).
+转换一个 cc.Touch（世界坐标）到一个局部坐标，该方法基于节点坐标。
 
 | meta | description |
 |------|-------------|
@@ -1611,7 +1571,7 @@ var newVec2 = node.convertTouchToNodeSpaceAR(touch);
 
 ##### addChild
 
-Adds a child to the node with z order and tag.
+添加子节点，并且可以修改该节点的 局部 Z 顺序和标签。
 
 | meta | description |
 |------|-------------|
@@ -1630,7 +1590,7 @@ node.addChild(newNode, 1, 1001);
 
 ##### cleanup
 
-Stops all running actions and schedulers.
+停止所有正在播放的动作和计时器。
 
 | meta | description |
 |------|-------------|
@@ -1645,8 +1605,7 @@ node.cleanup();
 
 ##### sortAllChildren
 
-Sorts the children array depends on children's zIndex and arrivalOrder,
-normally you won't need to invoke this function.
+根据子节点的 zIndex 和 arrivalOrder 进行排序，正常情况下开发者不需要手动调用这个函数。
 
 | meta | description |
 |------|-------------|
@@ -1656,7 +1615,7 @@ normally you won't need to invoke this function.
 
 ##### getPositionX
 
-Returns the x axis position of the node in cocos2d coordinates.
+获取节点 X 轴坐标。
 
 | meta | description |
 |------|-------------|
@@ -1672,7 +1631,7 @@ var posX = node.getPositionX();
 
 ##### setPositionX
 
-Sets the x axis position of the node in cocos2d coordinates.
+设置节点 X 轴坐标。
 
 | meta | description |
 |------|-------------|
@@ -1689,7 +1648,7 @@ node.setPositionX(1);
 
 ##### getPositionY
 
-Returns the y axis position of the node in cocos2d coordinates.
+获取节点 Y 轴坐标。
 
 | meta | description |
 |------|-------------|
@@ -1705,7 +1664,7 @@ var posY = node.getPositionY();
 
 ##### setPositionY
 
-Sets the y axis position of the node in cocos2d coordinates.
+设置节点 Y 轴坐标。
 
 | meta | description |
 |------|-------------|
@@ -1722,7 +1681,7 @@ node.setPositionY(100);
 
 ##### getLocalZOrder
 
-Returns the local Z order of this node.
+获取节点局部 Z 轴顺序。
 
 | meta | description |
 |------|-------------|
@@ -1738,14 +1697,12 @@ var localZorder = node.getLocalZOrder();
 
 ##### setLocalZOrder
 
-LocalZOrder is the 'key' used to sort the node relative to its siblings.                                        <br/>
-                                                                                                                <br/>
-The Node's parent will sort all its children based ont the LocalZOrder value.                                   <br/>
-If two nodes have the same LocalZOrder, then the node that was added first to the children's array              <br/>
-will be in front of the other node in the array.                                                                <br/>
-Also, the Scene Graph is traversed using the "In-Order" tree traversal algorithm ( http://en.wikipedia.org/wiki/Tree_traversal#In-order ) <br/>
-And Nodes that have LocalZOder values smaller than 0 are the "left" subtree <br/>
-While Nodes with LocalZOder greater than 0 are the "right" subtree.
+LocalZOrder 是 “key” (关键)来分辨节点和它兄弟节点的相关性。
+父节点将会通过 LocalZOrder 的值来分辨所有的子节点。
+如果两个节点有同样的 LocalZOrder，那么先加入子节点数组的节点将会显示在后加入的节点的前面。
+同样的，场景图使用 “In-Order（按顺序）” 遍历数算法来遍历
+( http://en.wikipedia.org/wiki/Tree_traversal#In-order ) 并且拥有小于 0 的 LocalZOrder 的值的节点是 “ left ” 子树（左子树）
+所以拥有大于 0 的 LocalZOrder 的值得节点是 “ right ”子树（右子树）。
 
 | meta | description |
 |------|-------------|
@@ -1762,7 +1719,7 @@ node.setLocalZOrder(1);
 
 ##### isCascadeOpacityEnabled
 
-Returns whether node's opacity value affect its child nodes.
+返回节点的不透明度值是否影响其子节点。
 
 | meta | description |
 |------|-------------|
@@ -1778,7 +1735,7 @@ cc.log(node.isCascadeOpacityEnabled());
 
 ##### setCascadeOpacityEnabled
 
-Enable or disable cascade opacity, if cascade enabled, child nodes' opacity will be the multiplication of parent opacity and its own opacity.
+启用或禁用级连不透明度，如果级连启用，子节点的不透明度将是父不透明度乘上它自己的不透明度。
 
 | meta | description |
 |------|-------------|
@@ -1795,10 +1752,7 @@ node.setCascadeOpacityEnabled(true);
 
 ##### attr
 
-Properties configuration function </br>
-All properties in attrs will be set to the node, </br>
-when the setter of the node is available, </br>
-the property will be set via setter function.</br>
+属性配置函数。在 attrs 的所有属性将被设置为节点属性。
 
 | meta | description |
 |------|-------------|
@@ -1816,7 +1770,7 @@ node.attr(attrs);
 
 ##### getChildByTag
 
-Returns a child from the container given its tag.
+通过标签获取节点的子节点。
 
 | meta | description |
 |------|-------------|
@@ -1834,7 +1788,7 @@ var child = node.getChildByTag(1001);
 
 ##### getChildByUuid
 
-Returns a child from the container given its uuid.
+通过 uuid 获取节点的子节点。
 
 | meta | description |
 |------|-------------|
@@ -1852,7 +1806,7 @@ var child = node.getChildByUuid(uuid);
 
 ##### getChildByName
 
-Returns a child from the container given its name.
+通过名称获取节点的子节点。
 
 | meta | description |
 |------|-------------|
@@ -1870,7 +1824,7 @@ var child = node.getChildByName("Test Node");
 
 ##### insertChild
 
-Inserts a child to the node at a specified index.
+插入子节点到指定位置
 
 | meta | description |
 |------|-------------|
@@ -1888,7 +1842,7 @@ node.insertChild(child, 2);
 
 ##### getSiblingIndex
 
-Get the sibling index.
+获取同级索引。
 
 | meta | description |
 |------|-------------|
@@ -1904,7 +1858,7 @@ var index = node.getSiblingIndex();
 
 ##### setSiblingIndex
 
-Set the sibling index of this node.
+设置节点同级索引。
 
 | meta | description |
 |------|-------------|
@@ -1921,9 +1875,9 @@ node.setSiblingIndex(1);
 
 ##### removeFromParent
 
-Remove itself from its parent node. If cleanup is `true`, then also remove all events and actions. <br/>
-If the cleanup parameter is not passed, it will force a cleanup, so it is recommended that you always pass in the `false` parameter when calling this API.<br/>
-If the node orphan, then nothing happens.
+从父节点中删除该节点。如果不传入 cleanup 参数或者传入 `true`，那么这个节点上所有绑定的事件、action 都会被删除。<br/>
+因此建议调用这个 API 时总是传入 `false` 参数。<br/>
+如果这个节点是一个孤节点，那么什么都不会发生。
 
 | meta | description |
 |------|-------------|
@@ -1941,11 +1895,8 @@ node.removeFromParent(false);
 
 ##### removeChild
 
-Removes a child from the container. It will also cleanup all running actions depending on the cleanup parameter. </p>
-If the cleanup parameter is not passed, it will force a cleanup. <br/>
-"remove" logic MUST only be on this method  <br/>
-If a class wants to extend the 'removeChild' behavior it only needs <br/>
-to override this method.
+移除节点中指定的子节点，是否需要清理所有正在运行的行为取决于 cleanup 参数。<br/>
+如果 cleanup 参数不传入，默认为 true 表示清理。<br/>
 
 | meta | description |
 |------|-------------|
@@ -1964,8 +1915,8 @@ node.removeChild(newNode, false);
 
 ##### removeChildByTag
 
-Removes a child from the container by tag value. It will also cleanup all running actions depending on the cleanup parameter.
-If the cleanup parameter is not passed, it will force a cleanup. <br/>
+通过标签移除节点中指定的子节点，是否需要清理所有正在运行的行为取决于 cleanup 参数。<br/>
+如果 cleanup 参数不传入，默认为 true 表示清理。
 
 | meta | description |
 |------|-------------|
@@ -1984,8 +1935,8 @@ node.removeChildByTag(1001, false);
 
 ##### removeAllChildren
 
-Removes all children from the container and do a cleanup all running actions depending on the cleanup parameter. <br/>
-If the cleanup parameter is not passed, it will force a cleanup.
+移除节点所有的子节点，是否需要清理所有正在运行的行为取决于 cleanup 参数。<br/>
+如果 cleanup 参数不传入，默认为 true 表示清理。
 
 | meta | description |
 |------|-------------|
@@ -2003,7 +1954,7 @@ node.removeAllChildren(false);
 
 ##### isChildOf
 
-Is this node a child of the given node?
+是否是指定节点的子节点？
 
 | meta | description |
 |------|-------------|
@@ -2021,8 +1972,8 @@ node.isChildOf(newNode);
 
 ##### getComponent
 
-Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
-You can also get component in the node by passing in the name of the script.
+获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
+传入参数也可以是脚本的名称。
 
 | meta | description |
 |------|-------------|
@@ -2043,7 +1994,7 @@ var test = node.getComponent("Test");
 
 ##### getComponents
 
-Returns all components of supplied type in the node.
+返回节点上指定类型的所有组件。
 
 | meta | description |
 |------|-------------|
@@ -2062,7 +2013,7 @@ var tests = node.getComponents("Test");
 
 ##### getComponentInChildren
 
-Returns the component of supplied type in any of its children using depth first search.
+递归查找所有子节点中第一个匹配指定类型的组件。
 
 | meta | description |
 |------|-------------|
@@ -2081,7 +2032,7 @@ var Test = node.getComponentInChildren("Test");
 
 ##### getComponentsInChildren
 
-Returns all components of supplied type in self or any of its children.
+递归查找自身或所有子节点中指定类型的组件
 
 | meta | description |
 |------|-------------|
@@ -2100,7 +2051,7 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### addComponent
 
-Adds a component class to the node. You can also add component to node by passing in the name of the script.
+向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
 
 | meta | description |
 |------|-------------|
@@ -2132,8 +2083,8 @@ This api should only used by undo system
 
 ##### removeComponent
 
-Removes a component identified by the given name or removes the component object given.
-You can also use component.destroy() if you already have the reference.
+删除节点上的指定组件，传入参数可以是一个组件构造函数或组件名，也可以是已经获得的组件引用。
+如果你已经获得组件引用，你也可以直接调用 component.destroy()
 
 | meta | description |
 |------|-------------|
@@ -2166,8 +2117,8 @@ node.removeComponent(Test);
 
 ##### destroyAllChildren
 
-Destroy all children from the node, and release all their own references to other objects.<br/>
-Actual destruct operation will delayed until before rendering.
+销毁所有子节点，并释放所有它们对其它对象的引用。<br/>
+实际销毁操作会延迟到当前帧渲染前执行。
 
 | meta | description |
 |------|-------------|
@@ -2182,8 +2133,7 @@ node.destroyAllChildren();
 
 ##### once
 
-Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
+注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
 
 | meta | description |
 |------|-------------|
@@ -2210,8 +2160,7 @@ node.once(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### dispatchEvent
 
-Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
+分发事件到事件流中。
 
 | meta | description |
 |------|-------------|
@@ -2223,8 +2172,7 @@ The event target is the EventTarget object upon which the dispatchEvent() method
 
 ##### emit
 
-Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
+该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
 
 | meta | description |
 |------|-------------|
@@ -2237,11 +2185,9 @@ The event will be created from the supplied message, you can get the "detail" ar
 
 ##### destroy
 
-Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
 
 | meta | description |
 |------|-------------|
@@ -2524,8 +2470,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is only emitted from the top most node whose active value did changed,
-not including its child nodes.
+注意：此节点激活时，此事件仅从最顶部的节点发出。
 
 ### Index
 

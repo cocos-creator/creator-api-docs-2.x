@@ -88,7 +88,7 @@ cc.Size 是 size 对象的类。<br/>
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L47) |
 
 ###### Parameters
-- width <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="../classes/Size.html" class="crosslink">Size</a> 
+- width <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> 
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 

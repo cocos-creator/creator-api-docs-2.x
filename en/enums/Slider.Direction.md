@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The Slider Direction
+滑动器方向
 
 ### Index
 
@@ -23,7 +23,7 @@ The Slider Direction
 
 ##### Horizontal
 
-> The horizontal direction.
+> 水平方向
 
 | meta | description |
 |------|-------------|
@@ -34,7 +34,7 @@ The Slider Direction
 
 ##### Vertical
 
-> The vertical direction.
+> 垂直方向
 
 | meta | description |
 |------|-------------|

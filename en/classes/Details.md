@@ -8,7 +8,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-Contains information collected during deserialization
+包含反序列化时的一些信息
 
 ### Index
 

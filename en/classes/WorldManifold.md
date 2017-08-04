@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -14,8 +13,8 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### Properties
 
-  - [`points`](#points) `[Vec2]` world contact point (point of intersection)
-  - [`normal`](#normal) `Vec2` world vector pointing from A to B
+  - [`points`](#points) `[Vec2]` 碰撞点集合
+  - [`normal`](#normal) `Vec2` 世界坐标系下由 A 指向 B 的向量
 
 
 
@@ -29,7 +28,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### points
 
-> world contact point (point of intersection)
+> 碰撞点集合
 
 | meta | description |
 |------|-------------|
@@ -40,7 +39,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### normal
 
-> world vector pointing from A to B
+> 世界坐标系下由 A 指向 B 的向量
 
 | meta | description |
 |------|-------------|

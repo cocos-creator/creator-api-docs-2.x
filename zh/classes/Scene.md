@@ -1129,7 +1129,7 @@ cc.log("Node Position: " + node.getPosition());
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:1553](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L1553) |
 
 ###### Parameters
-- newPosOrX <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> X coordinate for position or the position (x, y) of the node in coordinates
+- newPosOrX <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> X coordinate for position or the position (x, y) of the node in coordinates
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Y coordinate for position
 
 ##### Example
@@ -1161,7 +1161,7 @@ cc.log("Node Scale: " + node.getScale());
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:1634](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L1634) |
 
 ###### Parameters
-- scaleX <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> scaleX or scale
+- scaleX <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Vec2.html" class="crosslink">Vec2</a> scaleX or scale
 - scaleY <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -1198,7 +1198,7 @@ cc.log("Content Size: " + node.getContentSize());
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:1684](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L1684) |
 
 ###### Parameters
-- size <a href="../classes/Size.html" class="crosslink">Size</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The untransformed size of the node or The untransformed size's width of the node.
+- size <a href="../classes/Size.html" class="crosslink">Size</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The untransformed size of the node or The untransformed size's width of the node.
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The untransformed size's height of the node.
 
 ##### Example
@@ -1276,7 +1276,7 @@ cc.log("Node AnchorPoint: " + node.getAnchorPoint());
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:1835](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L1835) |
 
 ###### Parameters
-- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The anchor point of node or The x axis anchor of node.
+- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The anchor point of node or The x axis anchor of node.
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis anchor of node.
 
 ##### Example
@@ -1592,7 +1592,7 @@ var newVec2 = node.convertTouchToNodeSpaceAR(touch);
 ###### Parameters
 - child <a href="../classes/Node.html" class="crosslink">Node</a> A child node
 - localZOrder <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Z order for drawing priority. Please refer to setZOrder(int)
-- tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> An integer or a name to identify the node easily. Please refer to setTag(int) and setName(string)
+- tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> An integer or a name to identify the node easily. Please refer to setTag(int) and setName(string)
 
 ##### Example
 
@@ -1993,7 +1993,7 @@ node.isChildOf(newNode);
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -2014,7 +2014,7 @@ var test = node.getComponent("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -2033,7 +2033,7 @@ var tests = node.getComponents("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -2052,7 +2052,7 @@ var Test = node.getComponentInChildren("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -2071,7 +2071,7 @@ var tests = node.getComponentsInChildren("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The constructor or the class name of the component to add
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The constructor or the class name of the component to add
 
 ##### Example
 
@@ -2104,7 +2104,7 @@ This api should only used by undo system
 | Deprecated | please destroy the component to remove it. |
 
 ###### Parameters
-- component <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="../classes/Component.html" class="crosslink">Component</a> The need remove component.
+- component <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="../classes/Component.html" class="crosslink">Component</a> The need remove component.
 
 ##### Example
 
@@ -2477,6 +2477,7 @@ Module: [cc](../modules/cc.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 

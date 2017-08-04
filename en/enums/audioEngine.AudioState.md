@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Audio state.
+声音播放状态
 
 ### Index
 

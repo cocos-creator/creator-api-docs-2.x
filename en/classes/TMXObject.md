@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Renders the TMX object.
+渲染 tmx object。
 
 ### Index
 
@@ -15,11 +15,11 @@ Renders the TMX object.
 
 ##### Methods
 
-  - [`getObjectName`](#getobjectname) Get the name of object
-  - [`getProperty`](#getproperty) Get the property of object
-  - [`getProperties`](#getproperties) Get the properties of object
-  - [`setObjectName`](#setobjectname) Set the object name
-  - [`setProperties`](#setproperties) Set the properties of the object
+  - [`getObjectName`](#getobjectname) 获取对象的名称
+  - [`getProperty`](#getproperty) 获取对象的属性
+  - [`getProperties`](#getproperties) 获取对象的属性
+  - [`setObjectName`](#setobjectname) 设置对象名称
+  - [`setProperties`](#setproperties) 设置对象的属性
 
 
 
@@ -34,7 +34,7 @@ Renders the TMX object.
 
 ##### getObjectName
 
-Get the name of object
+获取对象的名称
 
 | meta | description |
 |------|-------------|
@@ -45,7 +45,7 @@ Get the name of object
 
 ##### getProperty
 
-Get the property of object
+获取对象的属性
 
 | meta | description |
 |------|-------------|
@@ -56,7 +56,7 @@ Get the property of object
 
 ##### getProperties
 
-Get the properties of object
+获取对象的属性
 
 | meta | description |
 |------|-------------|
@@ -67,7 +67,7 @@ Get the properties of object
 
 ##### setObjectName
 
-Set the object name
+设置对象名称
 
 | meta | description |
 |------|-------------|
@@ -79,7 +79,7 @@ Set the object name
 
 ##### setProperties
 
-Set the properties of the object
+设置对象的属性
 
 | meta | description |
 |------|-------------|

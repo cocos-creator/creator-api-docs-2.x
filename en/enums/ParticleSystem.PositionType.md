@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for particles movement type.
+粒子位置类型
 
 ### Index
 
@@ -24,7 +24,7 @@ Enum for particles movement type.
 
 ##### FREE
 
-> Living particles are attached to the world and are unaffected by emitter repositioning.
+> 自由模式，相对于世界坐标，不会随粒子节点移动而移动。（可产生火焰、蒸汽等效果）
 
 | meta | description |
 |------|-------------|
@@ -35,8 +35,7 @@ Enum for particles movement type.
 
 ##### RELATIVE
 
-> Living particles are attached to the world but will follow the emitter repositioning.<br/>
-Use case: Attach an emitter to an sprite, and you want that the emitter follows the sprite.
+> 相对模式，粒子会随父节点移动而移动，可用于制作移动角色身上的特效等等。（该选项在 Creator 中暂时不支持）
 
 | meta | description |
 |------|-------------|
@@ -47,7 +46,7 @@ Use case: Attach an emitter to an sprite, and you want that the emitter follows 
 
 ##### GROUPED
 
-> Living particles are attached to the emitter and are translated along with it.
+> 整组模式，粒子跟随发射器移动。（不会发生拖尾）
 
 | meta | description |
 |------|-------------|

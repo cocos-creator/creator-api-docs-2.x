@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-Data structure class
+数据结构类
 
 ### Index
 
@@ -15,7 +15,7 @@ Data structure class
 
 ##### Methods
 
-  - [`create`](#create) create plugin parameters
+  - [`create`](#create) 创建对象
 
 
 
@@ -30,7 +30,7 @@ Data structure class
 
 ##### create
 
-create plugin parameters
+创建对象
 
 | meta | description |
 |------|-------------|

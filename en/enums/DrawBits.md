@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -27,7 +26,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### e_aabbBit
 
-> Draw bounding boxes
+> 绘制包围盒
 
 | meta | description |
 |------|-------------|
@@ -38,7 +37,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### e_pairBit
 
-> Draw broad-phase pairs
+> 绘制粗测阶段物体
 
 | meta | description |
 |------|-------------|
@@ -49,7 +48,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### e_centerOfMassBit
 
-> Draw center of mass frame
+> 绘制物体质心
 
 | meta | description |
 |------|-------------|
@@ -60,7 +59,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### e_jointBit
 
-> Draw joint connections
+> 绘制关节链接信息
 
 | meta | description |
 |------|-------------|
@@ -71,7 +70,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### e_shapeBit
 
-> Draw shapes
+> 绘制形状
 
 | meta | description |
 |------|-------------|

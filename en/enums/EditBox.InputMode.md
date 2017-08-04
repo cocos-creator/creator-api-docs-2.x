@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The EditBox's InputMode defines the type of text that the user is allowed to enter.
+输入模式
 
 ### Index
 
@@ -28,7 +28,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 
 ##### ANY
 
-> TODO
+> 用户可以输入任何文本，包括换行符。
 
 | meta | description |
 |------|-------------|
@@ -39,7 +39,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 
 ##### EMAIL_ADDR
 
-> The user is allowed to enter an e-mail address.
+> 允许用户输入一个电子邮件地址。
 
 | meta | description |
 |------|-------------|
@@ -50,7 +50,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 
 ##### NUMERIC
 
-> The user is allowed to enter an integer value.
+> 允许用户输入一个整数值。
 
 | meta | description |
 |------|-------------|
@@ -61,7 +61,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 
 ##### PHONE_NUMBER
 
-> The user is allowed to enter a phone number.
+> 允许用户输入一个电话号码。
 
 | meta | description |
 |------|-------------|
@@ -72,7 +72,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 
 ##### URL
 
-> The user is allowed to enter a URL.
+> 允许用户输入一个 URL。
 
 | meta | description |
 |------|-------------|
@@ -83,8 +83,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 
 ##### DECIMAL
 
-> The user is allowed to enter a real number value.
-This extends kEditBoxInputModeNumeric by allowing a decimal point.
+> 允许用户输入一个实数。
 
 | meta | description |
 |------|-------------|
@@ -95,7 +94,7 @@ This extends kEditBoxInputModeNumeric by allowing a decimal point.
 
 ##### SINGLE_LINE
 
-> The user is allowed to enter any text, except for line breaks.
+> 除了换行符以外，用户可以输入任何文本。
 
 | meta | description |
 |------|-------------|

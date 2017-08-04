@@ -8,7 +8,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-Blend Function used for textures.
+图像的混合方式。
 
 ### Index
 

@@ -7,22 +7,22 @@ Module: [cc](../modules/cc.md)
 
 
 
-The event type supported by Node
+Node 支持的事件类型
 
 ### Index
 
 ##### Properties
 
-  - [`TOUCH_START`](#touchstart) `String` The event type for touch start event, you can use its value directly: 'touchstart'
-  - [`TOUCH_MOVE`](#touchmove) `String` The event type for touch move event, you can use its value directly: 'touchmove'
-  - [`TOUCH_END`](#touchend) `String` The event type for touch end event, you can use its value directly: 'touchend'
-  - [`TOUCH_CANCEL`](#touchcancel) `String` The event type for touch end event, you can use its value directly: 'touchcancel'
-  - [`MOUSE_DOWN`](#mousedown) `String` The event type for mouse down events, you can use its value directly: 'mousedown'
-  - [`MOUSE_MOVE`](#mousemove) `String` The event type for mouse move events, you can use its value directly: 'mousemove'
-  - [`MOUSE_ENTER`](#mouseenter) `String` The event type for mouse enter target events, you can use its value directly: 'mouseenter'
-  - [`MOUSE_LEAVE`](#mouseleave) `String` The event type for mouse leave target events, you can use its value directly: 'mouseleave'
-  - [`MOUSE_UP`](#mouseup) `String` The event type for mouse up events, you can use its value directly: 'mouseup'
-  - [`MOUSE_WHEEL`](#mousewheel) `String` The event type for mouse wheel events, you can use its value directly: 'mousewheel'
+  - [`TOUCH_START`](#touchstart) `String` 当手指触摸到屏幕时。
+  - [`TOUCH_MOVE`](#touchmove) `String` 当手指在屏幕上目标节点区域内移动时。
+  - [`TOUCH_END`](#touchend) `String` 当手指在目标节点区域内离开屏幕时。
+  - [`TOUCH_CANCEL`](#touchcancel) `String` 当手指在目标节点区域外离开屏幕时。
+  - [`MOUSE_DOWN`](#mousedown) `String` 当鼠标按下时触发一次。
+  - [`MOUSE_MOVE`](#mousemove) `String` 当鼠标在目标节点在目标节点区域中移动时，不论是否按下。
+  - [`MOUSE_ENTER`](#mouseenter) `String` 当鼠标移入目标节点区域时，不论是否按下。
+  - [`MOUSE_LEAVE`](#mouseleave) `String` 当鼠标移出目标节点区域时，不论是否按下。
+  - [`MOUSE_UP`](#mouseup) `String` 当鼠标从按下状态松开时触发一次。
+  - [`MOUSE_WHEEL`](#mousewheel) `String` 当鼠标滚轮滚动时。
 
 
 
@@ -36,7 +36,7 @@ The event type supported by Node
 
 ##### TOUCH_START
 
-> The event type for touch start event, you can use its value directly: 'touchstart'
+> 当手指触摸到屏幕时。
 
 | meta | description |
 |------|-------------|
@@ -47,7 +47,7 @@ The event type supported by Node
 
 ##### TOUCH_MOVE
 
-> The event type for touch move event, you can use its value directly: 'touchmove'
+> 当手指在屏幕上目标节点区域内移动时。
 
 | meta | description |
 |------|-------------|
@@ -58,7 +58,7 @@ The event type supported by Node
 
 ##### TOUCH_END
 
-> The event type for touch end event, you can use its value directly: 'touchend'
+> 当手指在目标节点区域内离开屏幕时。
 
 | meta | description |
 |------|-------------|
@@ -69,7 +69,7 @@ The event type supported by Node
 
 ##### TOUCH_CANCEL
 
-> The event type for touch end event, you can use its value directly: 'touchcancel'
+> 当手指在目标节点区域外离开屏幕时。
 
 | meta | description |
 |------|-------------|
@@ -80,7 +80,7 @@ The event type supported by Node
 
 ##### MOUSE_DOWN
 
-> The event type for mouse down events, you can use its value directly: 'mousedown'
+> 当鼠标按下时触发一次。
 
 | meta | description |
 |------|-------------|
@@ -91,7 +91,7 @@ The event type supported by Node
 
 ##### MOUSE_MOVE
 
-> The event type for mouse move events, you can use its value directly: 'mousemove'
+> 当鼠标在目标节点在目标节点区域中移动时，不论是否按下。
 
 | meta | description |
 |------|-------------|
@@ -102,7 +102,7 @@ The event type supported by Node
 
 ##### MOUSE_ENTER
 
-> The event type for mouse enter target events, you can use its value directly: 'mouseenter'
+> 当鼠标移入目标节点区域时，不论是否按下。
 
 | meta | description |
 |------|-------------|
@@ -113,7 +113,7 @@ The event type supported by Node
 
 ##### MOUSE_LEAVE
 
-> The event type for mouse leave target events, you can use its value directly: 'mouseleave'
+> 当鼠标移出目标节点区域时，不论是否按下。
 
 | meta | description |
 |------|-------------|
@@ -124,7 +124,7 @@ The event type supported by Node
 
 ##### MOUSE_UP
 
-> The event type for mouse up events, you can use its value directly: 'mouseup'
+> 当鼠标从按下状态松开时触发一次。
 
 | meta | description |
 |------|-------------|
@@ -135,7 +135,7 @@ The event type supported by Node
 
 ##### MOUSE_WHEEL
 
-> The event type for mouse wheel events, you can use its value directly: 'mousewheel'
+> 当鼠标滚轮滚动时。
 
 | meta | description |
 |------|-------------|

@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The callback of requesting reStringge
+支付系统支付请求回调
 
 ### Index
 
@@ -34,7 +34,7 @@ The callback of requesting reStringge
 
 ##### kPaySuccess
 
-> The callback of succeeding in paying
+> 支付系统的支付成功回调
 
 | meta | description |
 |------|-------------|
@@ -45,7 +45,7 @@ The callback of requesting reStringge
 
 ##### kPayFail
 
-> The callback of failing to pay
+> 支付系统的支付失败回调
 
 | meta | description |
 |------|-------------|
@@ -56,7 +56,7 @@ The callback of requesting reStringge
 
 ##### kPayCancel
 
-> The callback of canceling to pay
+> 支付系统的支付取消回调
 
 | meta | description |
 |------|-------------|
@@ -67,7 +67,7 @@ The callback of requesting reStringge
 
 ##### kPayNetworkError
 
-> The callback of network error
+> 支付系统的网络失败回调
 
 | meta | description |
 |------|-------------|
@@ -78,7 +78,7 @@ The callback of requesting reStringge
 
 ##### kPayProductionInforIncomplete
 
-> The callback of incompleting info
+> 支付系统的支付信息不完整回调
 
 | meta | description |
 |------|-------------|
@@ -89,7 +89,7 @@ The callback of requesting reStringge
 
 ##### kPayInitSuccess
 
-> callback of succeeding in initing sdk .
+> 支付系统的初始化成功回调
 
 | meta | description |
 |------|-------------|
@@ -100,7 +100,7 @@ The callback of requesting reStringge
 
 ##### kPayInitFail
 
-> The callback of failing to init sdk
+> 支付系统的初始化失败回调
 
 | meta | description |
 |------|-------------|
@@ -111,7 +111,7 @@ The callback of requesting reStringge
 
 ##### kPayNowPaying
 
-> The callback of paying now
+> 支付系统的正在支付回调
 
 | meta | description |
 |------|-------------|
@@ -122,7 +122,7 @@ The callback of requesting reStringge
 
 ##### kPayReStringgeSuccess
 
-> The callback of  succeeding in reStringging
+> 支付系统的充值成功回调
 
 | meta | description |
 |------|-------------|
@@ -133,7 +133,7 @@ The callback of requesting reStringge
 
 ##### kPayExtension
 
-> extension code of user type
+> 支付系统的扩展回调
 
 | meta | description |
 |------|-------------|
@@ -144,7 +144,7 @@ The callback of requesting reStringge
 
 ##### kPayNeedLoginAgain
 
-> The callback of  re-logining .
+> 支付系统的重登陆回调
 
 | meta | description |
 |------|-------------|
@@ -155,7 +155,7 @@ The callback of requesting reStringge
 
 ##### kRequestSuccess
 
-> The callback of succeeding in requesting .
+> 支付系统的请求成功回调
 
 | meta | description |
 |------|-------------|
@@ -166,7 +166,7 @@ The callback of requesting reStringge
 
 ##### kRequestFail
 
-> The callback of failing to requesting .
+> 支付系统的请求失败回调
 
 | meta | description |
 |------|-------------|

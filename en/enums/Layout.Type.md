@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for Layout type
+布局类型
 
 ### Index
 
@@ -25,7 +25,7 @@ Enum for Layout type
 
 ##### NONE
 
-> None Layout
+> 取消布局
 
 | meta | description |
 |------|-------------|
@@ -36,7 +36,7 @@ Enum for Layout type
 
 ##### HORIZONTAL
 
-> Horizontal Layout
+> 水平布局
 
 | meta | description |
 |------|-------------|
@@ -47,7 +47,7 @@ Enum for Layout type
 
 ##### VERTICAL
 
-> Vertical Layout
+> 垂直布局
 
 | meta | description |
 |------|-------------|
@@ -58,7 +58,7 @@ Enum for Layout type
 
 ##### GRID
 
-> Grid Layout
+> 网格布局
 
 | meta | description |
 |------|-------------|

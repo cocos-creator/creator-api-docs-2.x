@@ -7,8 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for Grid Layout start axis direction.
-The items in grid layout will be arranged in each axis at first.;
+布局轴向，只用于 GRID 布局。
 
 ### Index
 
@@ -24,7 +23,7 @@ The items in grid layout will be arranged in each axis at first.;
 
 ##### HORIZONTAL
 
-> The horizontal axis.
+> 进行水平方向布局
 
 | meta | description |
 |------|-------------|
@@ -35,7 +34,7 @@ The items in grid layout will be arranged in each axis at first.;
 
 ##### VERTICAL
 
-> The vertical axis.
+> 进行垂直方向布局
 
 | meta | description |
 |------|-------------|

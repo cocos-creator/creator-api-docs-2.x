@@ -8,10 +8,10 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-cc.Size is the class for size object,<br/>
-please do not use its constructor to create sizes,<br/>
-use <a href="../modules/cc.html#method_size" class="crosslink">size</a> alias function instead.<br/>
-It will be deprecated soon, please use cc.Vec2 instead.
+cc.Size 是 size 对象的类。<br/>
+请不要使用它的构造函数创建的 size，<br/>
+使用 <a href="../modules/cc.html#method_size" class="crosslink">size</a> 别名函数。<br/>
+它不久将被取消，请使用cc.Vec2代替。
 
 ### Index
 
@@ -19,17 +19,17 @@ It will be deprecated soon, please use cc.Vec2 instead.
 
   - [`width`](#width) `Number` 
   - [`height`](#height) `Number` 
-  - [`ZERO`](#zero) `Size` return a Size object with width = 0 and height = 0.
+  - [`ZERO`](#zero) `Size` 返回一个宽度为 0 和高度为 0 的 Size 对象。
 
 
 
 ##### Methods
 
   - [`constructor`](#constructor) 
-  - [`clone`](#clone) TODO
-  - [`equals`](#equals) TODO
-  - [`lerp`](#lerp) TODO
-  - [`toString`](#tostring) TODO
+  - [`clone`](#clone) 克隆 size 对象。
+  - [`equals`](#equals) 当前 Size 对象是否等于指定 Size 对象。
+  - [`lerp`](#lerp) 线性插值。
+  - [`toString`](#tostring) 转换为方便阅读的字符串。
 
 
 
@@ -63,7 +63,7 @@ It will be deprecated soon, please use cc.Vec2 instead.
 
 ##### ZERO
 
-> return a Size object with width = 0 and height = 0.
+> 返回一个宽度为 0 和高度为 0 的 Size 对象。
 
 | meta | description |
 |------|-------------|
@@ -94,7 +94,7 @@ It will be deprecated soon, please use cc.Vec2 instead.
 
 ##### clone
 
-TODO
+克隆 size 对象。
 
 | meta | description |
 |------|-------------|
@@ -111,7 +111,7 @@ a.clone();// return Size {width: 0, height: 0};
 
 ##### equals
 
-TODO
+当前 Size 对象是否等于指定 Size 对象。
 
 | meta | description |
 |------|-------------|
@@ -130,7 +130,7 @@ a.equals(new cc.size(10, 10));// return true;
 
 ##### lerp
 
-TODO
+线性插值。
 
 | meta | description |
 |------|-------------|
@@ -157,7 +157,7 @@ update (dt) {
 
 ##### toString
 
-TODO
+转换为方便阅读的字符串。
 
 | meta | description |
 |------|-------------|

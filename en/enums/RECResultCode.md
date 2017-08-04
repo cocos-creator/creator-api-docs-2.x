@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The callback of REC system
+录屏系统回调
 
 ### Index
 
@@ -32,7 +32,7 @@ The callback of REC system
 
 ##### kRECInitSuccess
 
-> The callback of succeeding in initing sdk
+> 录屏系统的初始化成功回调
 
 | meta | description |
 |------|-------------|
@@ -43,7 +43,7 @@ The callback of REC system
 
 ##### kRECInitFail
 
-> The callback of failing to init sdk.
+> 录屏系统的初始化失败回调
 
 | meta | description |
 |------|-------------|
@@ -54,7 +54,7 @@ The callback of REC system
 
 ##### kRECStartRecording
 
-> The callback of starting to record.
+> 录屏系统的开始录屏回调
 
 | meta | description |
 |------|-------------|
@@ -65,7 +65,7 @@ The callback of REC system
 
 ##### kRECStopRecording
 
-> The callback of stoping to record.
+> 录屏系统的停止录屏回调
 
 | meta | description |
 |------|-------------|
@@ -76,7 +76,7 @@ The callback of REC system
 
 ##### kRECPauseRecording
 
-> The callback of pausing to record.
+> 录屏系统的暂停录屏回调
 
 | meta | description |
 |------|-------------|
@@ -87,7 +87,7 @@ The callback of REC system
 
 ##### kRECResumeRecording
 
-> The callback of resuming to record.
+> 录屏系统的恢复录屏回调
 
 | meta | description |
 |------|-------------|
@@ -98,7 +98,7 @@ The callback of REC system
 
 ##### kRECEnterSDKPage
 
-> The callback of entering SDK`s page.
+> 录屏系统的初进入SDK界面回调
 
 | meta | description |
 |------|-------------|
@@ -109,7 +109,7 @@ The callback of REC system
 
 ##### kRECQuitSDKPage
 
-> The callback of quiting SDK`s page.
+> 录屏系统的退出SDK界面回调
 
 | meta | description |
 |------|-------------|
@@ -120,7 +120,7 @@ The callback of REC system
 
 ##### kRECShareSuccess
 
-> The callback of succeeding in initing sdk
+> 录屏系统的分享成功回调
 
 | meta | description |
 |------|-------------|
@@ -131,7 +131,7 @@ The callback of REC system
 
 ##### kRECShareFail
 
-> The callback of failing to share.
+> 录屏系统的分享失败回调
 
 | meta | description |
 |------|-------------|
@@ -142,7 +142,7 @@ The callback of REC system
 
 ##### kRECExtension
 
-> The extension code of REC system
+> 录屏系统的扩展回调
 
 | meta | description |
 |------|-------------|

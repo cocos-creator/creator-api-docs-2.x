@@ -9,7 +9,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-Representation of 2D vectors and points.
+表示 2D 向量和坐标
 
 ### Index
 
@@ -17,46 +17,45 @@ Representation of 2D vectors and points.
 
   - [`x`](#x) `Number` 
   - [`y`](#y) `Number` 
-  - [`ONE`](#one) `Vec2` return a Vec2 object with x = 1 and y = 1.
-  - [`ZERO`](#zero) `Vec2` return a Vec2 object with x = 0 and y = 0.
-  - [`UP`](#up) `Vec2` return a Vec2 object with x = 0 and y = 1.
-  - [`RIGHT`](#right) `Vec2` return a Vec2 object with x = 1 and y = 0.
+  - [`ONE`](#one) `Vec2` 新 Vec2 对象。
+  - [`ZERO`](#zero) `Vec2` 返回 x = 0 和 y = 0 的 Vec2 对象。
+  - [`UP`](#up) `Vec2` 返回 x = 0 和 y = 1 的 Vec2 对象。
+  - [`RIGHT`](#right) `Vec2` 返回 x = 1 和 y = 0 的 Vec2 对象。
 
 
 
 ##### Methods
 
-  - [`constructor`](#constructor) Constructor
-see Cc/vec2:method or <a href="../modules/cc.html#method_p" class="crosslink">cc.p</a>
-  - [`clone`](#clone) clone a Vec2 value
-  - [`set`](#set) TODO
-  - [`equals`](#equals) TODO
-  - [`toString`](#tostring) TODO
-  - [`lerp`](#lerp) TODO
-  - [`addSelf`](#addself) Adds this vector. If you want to save result to another vector, use add() instead.
-  - [`add`](#add) Adds two vectors, and returns the new result.
-  - [`subSelf`](#subself) Subtracts one vector from this. If you want to save result to another vector, use sub() instead.
-  - [`sub`](#sub) Subtracts one vector from this, and returns the new result.
-  - [`mulSelf`](#mulself) Multiplies this by a number. If you want to save result to another vector, use mul() instead.
-  - [`mul`](#mul) Multiplies by a number, and returns the new result.
-  - [`scaleSelf`](#scaleself) Multiplies two vectors.
-  - [`scale`](#scale) Multiplies two vectors, and returns the new result.
-  - [`divSelf`](#divself) Divides by a number. If you want to save result to another vector, use div() instead.
-  - [`div`](#div) Divides by a number, and returns the new result.
-  - [`negSelf`](#negself) Negates the components. If you want to save result to another vector, use neg() instead.
-  - [`neg`](#neg) Negates the components, and returns the new result.
-  - [`dot`](#dot) Dot product
-  - [`cross`](#cross) Cross product
-  - [`mag`](#mag) Returns the length of this vector.
-  - [`magSqr`](#magsqr) Returns the squared length of this vector.
-  - [`normalizeSelf`](#normalizeself) Make the length of this vector to 1.
-  - [`normalize`](#normalize) Returns this vector with a magnitude of 1.<br/>
+  - [`constructor`](#constructor) 构造函数，可查看 Cc/vec2:method 或者 <a href="../modules/cc.html#method_p" class="crosslink">cc.p</a>
+  - [`clone`](#clone) 克隆一个 Vec2 值
+  - [`set`](#set) 设置向量值。
+  - [`equals`](#equals) 当前的向量是否与指定的向量相等。
+  - [`toString`](#tostring) 转换为方便阅读的字符串。
+  - [`lerp`](#lerp) 线性插值。
+  - [`addSelf`](#addself) 向量加法。如果你想保存结果到另一个向量，使用 add() 代替。
+  - [`add`](#add) 向量加法，并返回新结果。
+  - [`subSelf`](#subself) 向量减法。如果你想保存结果到另一个向量，可使用 sub() 代替。
+  - [`sub`](#sub) 向量减法，并返回新结果。
+  - [`mulSelf`](#mulself) 缩放当前向量。如果你想结果保存到另一个向量，可使用 mul() 代替。
+  - [`mul`](#mul) 缩放当前向量，并返回新结果。
+  - [`scaleSelf`](#scaleself) 分量相乘。
+  - [`scale`](#scale) 分量相乘，并返回新的结果。
+  - [`divSelf`](#divself) 向量除法。如果你想结果保存到另一个向量，可使用 div() 代替。
+  - [`div`](#div) 向量除法，并返回新的结果。
+  - [`negSelf`](#negself) 向量取反。如果你想结果保存到另一个向量，可使用 neg() 代替。
+  - [`neg`](#neg) 返回取反后的新向量。
+  - [`dot`](#dot) 当前向量与指定向量进行点乘。
+  - [`cross`](#cross) 当前向量与指定向量进行叉乘。
+  - [`mag`](#mag) 返回该向量的长度。
+  - [`magSqr`](#magsqr) 返回该向量的长度平方。
+  - [`normalizeSelf`](#normalizeself) 向量归一化，让这个向量的长度为 1。
+  - [`normalize`](#normalize) 返回归一化后的向量。<br/>
 <br/>
-Note that the current vector is unchanged and a new normalized vector is returned. If you want to normalize the current vector, use normalizeSelf function.
-  - [`angle`](#angle) Get angle in radian between this and vector.
-  - [`signAngle`](#signangle) Get angle in radian between this and vector with direction.
-  - [`rotate`](#rotate) rotate
-  - [`rotateSelf`](#rotateself) rotate self
+注意，当前向量不变，并返回一个新的归一化向量。如果你想来归一化当前向量，可使用 normalizeSelf 函数。
+  - [`angle`](#angle) 夹角的弧度。
+  - [`signAngle`](#signangle) 带方向的夹角的弧度。
+  - [`rotate`](#rotate) 返回旋转给定弧度后的新向量。
+  - [`rotateSelf`](#rotateself) 按指定弧度旋转向量。
 
 
 
@@ -90,7 +89,7 @@ Note that the current vector is unchanged and a new normalized vector is returne
 
 ##### ONE
 
-> return a Vec2 object with x = 1 and y = 1.
+> 新 Vec2 对象。
 
 | meta | description |
 |------|-------------|
@@ -101,7 +100,7 @@ Note that the current vector is unchanged and a new normalized vector is returne
 
 ##### ZERO
 
-> return a Vec2 object with x = 0 and y = 0.
+> 返回 x = 0 和 y = 0 的 Vec2 对象。
 
 | meta | description |
 |------|-------------|
@@ -112,7 +111,7 @@ Note that the current vector is unchanged and a new normalized vector is returne
 
 ##### UP
 
-> return a Vec2 object with x = 0 and y = 1.
+> 返回 x = 0 和 y = 1 的 Vec2 对象。
 
 | meta | description |
 |------|-------------|
@@ -123,7 +122,7 @@ Note that the current vector is unchanged and a new normalized vector is returne
 
 ##### RIGHT
 
-> return a Vec2 object with x = 1 and y = 0.
+> 返回 x = 1 和 y = 0 的 Vec2 对象。
 
 | meta | description |
 |------|-------------|
@@ -141,8 +140,7 @@ Note that the current vector is unchanged and a new normalized vector is returne
 
 ##### constructor
 
-Constructor
-see Cc/vec2:method or <a href="../modules/cc.html#method_p" class="crosslink">cc.p</a>
+构造函数，可查看 Cc/vec2:method 或者 <a href="../modules/cc.html#method_p" class="crosslink">cc.p</a>
 
 | meta | description |
 |------|-------------|
@@ -155,7 +153,7 @@ see Cc/vec2:method or <a href="../modules/cc.html#method_p" class="crosslink">cc
 
 ##### clone
 
-clone a Vec2 value
+克隆一个 Vec2 值
 
 | meta | description |
 |------|-------------|
@@ -166,7 +164,7 @@ clone a Vec2 value
 
 ##### set
 
-TODO
+设置向量值。
 
 | meta | description |
 |------|-------------|
@@ -179,7 +177,7 @@ TODO
 
 ##### equals
 
-TODO
+当前的向量是否与指定的向量相等。
 
 | meta | description |
 |------|-------------|
@@ -192,7 +190,7 @@ TODO
 
 ##### toString
 
-TODO
+转换为方便阅读的字符串。
 
 | meta | description |
 |------|-------------|
@@ -203,7 +201,7 @@ TODO
 
 ##### lerp
 
-TODO
+线性插值。
 
 | meta | description |
 |------|-------------|
@@ -218,7 +216,7 @@ TODO
 
 ##### addSelf
 
-Adds this vector. If you want to save result to another vector, use add() instead.
+向量加法。如果你想保存结果到另一个向量，使用 add() 代替。
 
 | meta | description |
 |------|-------------|
@@ -237,7 +235,7 @@ v.addSelf(cc.v2(5, 5));// return Vec2 {x: 15, y: 15};
 
 ##### add
 
-Adds two vectors, and returns the new result.
+向量加法，并返回新结果。
 
 | meta | description |
 |------|-------------|
@@ -259,7 +257,7 @@ v.add(cc.v2(5, 5), v1);  // return Vec2 {x: 15, y: 15};
 
 ##### subSelf
 
-Subtracts one vector from this. If you want to save result to another vector, use sub() instead.
+向量减法。如果你想保存结果到另一个向量，可使用 sub() 代替。
 
 | meta | description |
 |------|-------------|
@@ -278,7 +276,7 @@ v.subSelf(cc.v2(5, 5));// return Vec2 {x: 5, y: 5};
 
 ##### sub
 
-Subtracts one vector from this, and returns the new result.
+向量减法，并返回新结果。
 
 | meta | description |
 |------|-------------|
@@ -300,7 +298,7 @@ v.sub(cc.v2(5, 5), v1);  // return Vec2 {x: 5, y: 5};
 
 ##### mulSelf
 
-Multiplies this by a number. If you want to save result to another vector, use mul() instead.
+缩放当前向量。如果你想结果保存到另一个向量，可使用 mul() 代替。
 
 | meta | description |
 |------|-------------|
@@ -319,7 +317,7 @@ v.mulSelf(5);// return Vec2 {x: 50, y: 50};
 
 ##### mul
 
-Multiplies by a number, and returns the new result.
+缩放当前向量，并返回新结果。
 
 | meta | description |
 |------|-------------|
@@ -341,7 +339,7 @@ v.mul(5, v1);  // return Vec2 {x: 50, y: 50};
 
 ##### scaleSelf
 
-Multiplies two vectors.
+分量相乘。
 
 | meta | description |
 |------|-------------|
@@ -360,7 +358,7 @@ v.scaleSelf(cc.v2(5, 5));// return Vec2 {x: 50, y: 50};
 
 ##### scale
 
-Multiplies two vectors, and returns the new result.
+分量相乘，并返回新的结果。
 
 | meta | description |
 |------|-------------|
@@ -382,7 +380,7 @@ v.scale(cc.v2(5, 5), v1);  // return Vec2 {x: 50, y: 50};
 
 ##### divSelf
 
-Divides by a number. If you want to save result to another vector, use div() instead.
+向量除法。如果你想结果保存到另一个向量，可使用 div() 代替。
 
 | meta | description |
 |------|-------------|
@@ -401,7 +399,7 @@ v.divSelf(5); // return Vec2 {x: 2, y: 2};
 
 ##### div
 
-Divides by a number, and returns the new result.
+向量除法，并返回新的结果。
 
 | meta | description |
 |------|-------------|
@@ -423,7 +421,7 @@ v.div(5, v1);  // return Vec2 {x: 2, y: 2};
 
 ##### negSelf
 
-Negates the components. If you want to save result to another vector, use neg() instead.
+向量取反。如果你想结果保存到另一个向量，可使用 neg() 代替。
 
 | meta | description |
 |------|-------------|
@@ -440,7 +438,7 @@ v.negSelf(); // return Vec2 {x: -10, y: -10};
 
 ##### neg
 
-Negates the components, and returns the new result.
+返回取反后的新向量。
 
 | meta | description |
 |------|-------------|
@@ -460,7 +458,7 @@ v.neg(v1);  // return Vec2 {x: -10, y: -10};
 
 ##### dot
 
-Dot product
+当前向量与指定向量进行点乘。
 
 | meta | description |
 |------|-------------|
@@ -479,7 +477,7 @@ v.dot(cc.v2(5, 5)); // return 100;
 
 ##### cross
 
-Cross product
+当前向量与指定向量进行叉乘。
 
 | meta | description |
 |------|-------------|
@@ -498,7 +496,7 @@ v.cross(cc.v2(5, 5)); // return 0;
 
 ##### mag
 
-Returns the length of this vector.
+返回该向量的长度。
 
 | meta | description |
 |------|-------------|
@@ -515,7 +513,7 @@ v.mag(); // return 14.142135623730951;
 
 ##### magSqr
 
-Returns the squared length of this vector.
+返回该向量的长度平方。
 
 | meta | description |
 |------|-------------|
@@ -532,7 +530,7 @@ v.magSqr(); // return 200;
 
 ##### normalizeSelf
 
-Make the length of this vector to 1.
+向量归一化，让这个向量的长度为 1。
 
 | meta | description |
 |------|-------------|
@@ -549,9 +547,9 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 
 ##### normalize
 
-Returns this vector with a magnitude of 1.<br/>
+返回归一化后的向量。<br/>
 <br/>
-Note that the current vector is unchanged and a new normalized vector is returned. If you want to normalize the current vector, use normalizeSelf function.
+注意，当前向量不变，并返回一个新的归一化向量。如果你想来归一化当前向量，可使用 normalizeSelf 函数。
 
 | meta | description |
 |------|-------------|
@@ -564,7 +562,7 @@ Note that the current vector is unchanged and a new normalized vector is returne
 
 ##### angle
 
-Get angle in radian between this and vector.
+夹角的弧度。
 
 | meta | description |
 |------|-------------|
@@ -577,7 +575,7 @@ Get angle in radian between this and vector.
 
 ##### signAngle
 
-Get angle in radian between this and vector with direction.
+带方向的夹角的弧度。
 
 | meta | description |
 |------|-------------|
@@ -590,7 +588,7 @@ Get angle in radian between this and vector with direction.
 
 ##### rotate
 
-rotate
+返回旋转给定弧度后的新向量。
 
 | meta | description |
 |------|-------------|
@@ -604,7 +602,7 @@ rotate
 
 ##### rotateSelf
 
-rotate self
+按指定弧度旋转向量。
 
 | meta | description |
 |------|-------------|

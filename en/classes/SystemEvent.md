@@ -8,7 +8,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The System event, it currently supports the key events and accelerometer events
+系统事件，它目前支持按键事件和重力感应事件
 
 ### Index
 
@@ -16,19 +16,14 @@ The System event, it currently supports the key events and accelerometer events
 
 ##### Methods
 
-  - [`on`](#on) Register an callback of a specific event type on the EventTarget.
-  - [`off`](#off) Removes the listeners previously registered with the same type, callback, target and or useCapture,
-if only type is passed as parameter, all listeners registered with that type will be removed.
-  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
-  - [`once`](#once) Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
-  - [`dispatchEvent`](#dispatchevent) Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
-  - [`emit`](#emit) Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
+  - [`on`](#on) 注册事件目标的特定事件类型回调。
+  - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
+  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
+  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
 
 
 
@@ -43,7 +38,7 @@ The event will be created from the supplied message, you can get the "detail" ar
 
 ##### on
 
-Register an callback of a specific event type on the EventTarget.
+注册事件目标的特定事件类型回调。
 
 | meta | description |
 |------|-------------|
@@ -71,8 +66,7 @@ node.on(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### off
 
-Removes the listeners previously registered with the same type, callback, target and or useCapture,
-if only type is passed as parameter, all listeners registered with that type will be removed.
+删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
 
 | meta | description |
 |------|-------------|
@@ -102,10 +96,9 @@ node.off(cc.Node.EventType.TOUCH_END);
 
 ##### targetOff
 
-Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
+在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
 
 | meta | description |
 |------|-------------|
@@ -117,8 +110,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 ##### once
 
-Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
+注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
 
 | meta | description |
 |------|-------------|
@@ -145,8 +137,7 @@ node.once(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### dispatchEvent
 
-Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
+分发事件到事件流中。
 
 | meta | description |
 |------|-------------|
@@ -158,8 +149,7 @@ The event target is the EventTarget object upon which the dispatchEvent() method
 
 ##### emit
 
-Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
+该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
 
 | meta | description |
 |------|-------------|

@@ -8,7 +8,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-analytics protocol
+统计系统协议接口
 
 ### Index
 
@@ -16,37 +16,37 @@ analytics protocol
 
 ##### Methods
 
-  - [`startSession`](#startsession) Start a new session.
-  - [`stopSession`](#stopsession) Stop a session.
-  - [`setSessionContinueMillis`](#setsessioncontinuemillis) Set the timeout for expiring a session.
-  - [`logError`](#logerror) log an error
-  - [`logEvent`](#logevent) log an event.
-  - [`logTimedEventBegin`](#logtimedeventbegin) Track an event begin.
-  - [`logTimedEventEnd`](#logtimedeventend) Track an event end.
-  - [`setCaptureUncaughtException`](#setcaptureuncaughtexception) set Whether to catch uncaught exceptions to server.
-  - [`setAccount`](#setaccount) analytics account information
-  - [`onChargeRequest`](#onchargerequest) track user to request payment
-  - [`onChargeSuccess`](#onchargesuccess) track Successful payment
-  - [`onChargeFail`](#onchargefail) track failed payment
-  - [`onChargeOnlySuccess`](#onchargeonlysuccess) track Successful payment
-  - [`onPurchase`](#onpurchase) track user purchase
-  - [`onUse`](#onuse) track user to use goods
-  - [`onReward`](#onreward) track user to reward goods
-  - [`startLevel`](#startlevel) start level
-  - [`finishLevel`](#finishlevel) finish level
-  - [`failLevel`](#faillevel) failed level
-  - [`startTask`](#starttask) start task
-  - [`finishTask`](#finishtask) finish task
-  - [`failTask`](#failtask) failed task
-  - [`isFunctionSupported`](#isfunctionsupported) Check whether the function is supported
-  - [`getPluginName`](#getpluginname) get plugin name
-  - [`getPluginVersion`](#getpluginversion) get plugin version
-  - [`getSDKVersion`](#getsdkversion) get SDK version
-  - [`callFuncWithParam`](#callfuncwithparam) void methods for reflections with parameter
-  - [`callStringFuncWithParam`](#callstringfuncwithparam) String methods for reflections with parameter
-  - [`callIntFuncWithParam`](#callintfuncwithparam) int methods for reflections with parameter
-  - [`callBoolFuncWithParam`](#callboolfuncwithparam) boolean methods for reflections with parameter
-  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) float methods for reflections with parameter
+  - [`startSession`](#startsession) 启动会话
+  - [`stopSession`](#stopsession) 关闭会话
+  - [`setSessionContinueMillis`](#setsessioncontinuemillis) 设置会话超时时间
+  - [`logError`](#logerror) 捕捉异常
+  - [`logEvent`](#logevent) 捕捉事件
+  - [`logTimedEventBegin`](#logtimedeventbegin) 统计事件开始
+  - [`logTimedEventEnd`](#logtimedeventend) 统计事件结束
+  - [`setCaptureUncaughtException`](#setcaptureuncaughtexception) 设置是否开启自动异常捕捉
+  - [`setAccount`](#setaccount) 统计玩家帐户信息
+  - [`onChargeRequest`](#onchargerequest) 跟踪用户支付请求
+  - [`onChargeSuccess`](#onchargesuccess) 追踪用户支付成功
+  - [`onChargeFail`](#onchargefail) 追踪用户支付失败
+  - [`onChargeOnlySuccess`](#onchargeonlysuccess) 统计玩家支付成功
+  - [`onPurchase`](#onpurchase) 统计玩家消费
+  - [`onUse`](#onuse) 统计玩家使用道具
+  - [`onReward`](#onreward) 统计玩家获取奖励
+  - [`startLevel`](#startlevel) 开始关卡
+  - [`finishLevel`](#finishlevel) 结束关卡
+  - [`failLevel`](#faillevel) 关卡失败
+  - [`startTask`](#starttask) 开始任务
+  - [`finishTask`](#finishtask) 完成任务
+  - [`failTask`](#failtask) 任务失败
+  - [`isFunctionSupported`](#isfunctionsupported) 判断函数是否支持
+  - [`getPluginName`](#getpluginname) 获取插件名称
+  - [`getPluginVersion`](#getpluginversion) 获取插件版本
+  - [`getSDKVersion`](#getsdkversion) 获取 SDK 版本
+  - [`callFuncWithParam`](#callfuncwithparam) 反射调用带参数的void方法
+  - [`callStringFuncWithParam`](#callstringfuncwithparam) 反射调用带参数的 String 方法
+  - [`callIntFuncWithParam`](#callintfuncwithparam) 反射调用带参数的 Int 方法
+  - [`callBoolFuncWithParam`](#callboolfuncwithparam) 反射调用带参数的 boolean 方法
+  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) 反射调用带参数的 float 方法
 
 
 
@@ -61,7 +61,7 @@ analytics protocol
 
 ##### startSession
 
-Start a new session.
+启动会话
 
 | meta | description |
 |------|-------------|
@@ -71,7 +71,7 @@ Start a new session.
 
 ##### stopSession
 
-Stop a session.
+关闭会话
 
 | meta | description |
 |------|-------------|
@@ -81,7 +81,7 @@ Stop a session.
 
 ##### setSessionContinueMillis
 
-Set the timeout for expiring a session.
+设置会话超时时间
 
 | meta | description |
 |------|-------------|
@@ -93,7 +93,7 @@ Set the timeout for expiring a session.
 
 ##### logError
 
-log an error
+捕捉异常
 
 | meta | description |
 |------|-------------|
@@ -106,7 +106,7 @@ log an error
 
 ##### logEvent
 
-log an event.
+捕捉事件
 
 | meta | description |
 |------|-------------|
@@ -119,7 +119,7 @@ log an event.
 
 ##### logTimedEventBegin
 
-Track an event begin.
+统计事件开始
 
 | meta | description |
 |------|-------------|
@@ -131,7 +131,7 @@ Track an event begin.
 
 ##### logTimedEventEnd
 
-Track an event end.
+统计事件结束
 
 | meta | description |
 |------|-------------|
@@ -143,7 +143,7 @@ Track an event end.
 
 ##### setCaptureUncaughtException
 
-set Whether to catch uncaught exceptions to server.
+设置是否开启自动异常捕捉
 
 | meta | description |
 |------|-------------|
@@ -155,7 +155,7 @@ set Whether to catch uncaught exceptions to server.
 
 ##### setAccount
 
-analytics account information
+统计玩家帐户信息
 
 | meta | description |
 |------|-------------|
@@ -167,7 +167,7 @@ analytics account information
 
 ##### onChargeRequest
 
-track user to request payment
+跟踪用户支付请求
 
 | meta | description |
 |------|-------------|
@@ -179,7 +179,7 @@ track user to request payment
 
 ##### onChargeSuccess
 
-track Successful payment
+追踪用户支付成功
 
 | meta | description |
 |------|-------------|
@@ -191,7 +191,7 @@ track Successful payment
 
 ##### onChargeFail
 
-track failed payment
+追踪用户支付失败
 
 | meta | description |
 |------|-------------|
@@ -203,7 +203,7 @@ track failed payment
 
 ##### onChargeOnlySuccess
 
-track Successful payment
+统计玩家支付成功
 
 | meta | description |
 |------|-------------|
@@ -215,7 +215,7 @@ track Successful payment
 
 ##### onPurchase
 
-track user purchase
+统计玩家消费
 
 | meta | description |
 |------|-------------|
@@ -227,7 +227,7 @@ track user purchase
 
 ##### onUse
 
-track user to use goods
+统计玩家使用道具
 
 | meta | description |
 |------|-------------|
@@ -239,7 +239,7 @@ track user to use goods
 
 ##### onReward
 
-track user to reward goods
+统计玩家获取奖励
 
 | meta | description |
 |------|-------------|
@@ -251,7 +251,7 @@ track user to reward goods
 
 ##### startLevel
 
-start level
+开始关卡
 
 | meta | description |
 |------|-------------|
@@ -263,7 +263,7 @@ start level
 
 ##### finishLevel
 
-finish level
+结束关卡
 
 | meta | description |
 |------|-------------|
@@ -275,7 +275,7 @@ finish level
 
 ##### failLevel
 
-failed level
+关卡失败
 
 | meta | description |
 |------|-------------|
@@ -287,7 +287,7 @@ failed level
 
 ##### startTask
 
-start task
+开始任务
 
 | meta | description |
 |------|-------------|
@@ -299,7 +299,7 @@ start task
 
 ##### finishTask
 
-finish task
+完成任务
 
 | meta | description |
 |------|-------------|
@@ -311,7 +311,7 @@ finish task
 
 ##### failTask
 
-failed task
+任务失败
 
 | meta | description |
 |------|-------------|
@@ -323,7 +323,7 @@ failed task
 
 ##### isFunctionSupported
 
-Check whether the function is supported
+判断函数是否支持
 
 | meta | description |
 |------|-------------|
@@ -336,7 +336,7 @@ Check whether the function is supported
 
 ##### getPluginName
 
-get plugin name
+获取插件名称
 
 | meta | description |
 |------|-------------|
@@ -347,7 +347,7 @@ get plugin name
 
 ##### getPluginVersion
 
-get plugin version
+获取插件版本
 
 | meta | description |
 |------|-------------|
@@ -358,7 +358,7 @@ get plugin version
 
 ##### getSDKVersion
 
-get SDK version
+获取 SDK 版本
 
 | meta | description |
 |------|-------------|
@@ -369,7 +369,7 @@ get SDK version
 
 ##### callFuncWithParam
 
-void methods for reflections with parameter
+反射调用带参数的void方法
 
 | meta | description |
 |------|-------------|
@@ -382,7 +382,7 @@ void methods for reflections with parameter
 
 ##### callStringFuncWithParam
 
-String methods for reflections with parameter
+反射调用带参数的 String 方法
 
 | meta | description |
 |------|-------------|
@@ -396,7 +396,7 @@ String methods for reflections with parameter
 
 ##### callIntFuncWithParam
 
-int methods for reflections with parameter
+反射调用带参数的 Int 方法
 
 | meta | description |
 |------|-------------|
@@ -410,7 +410,7 @@ int methods for reflections with parameter
 
 ##### callBoolFuncWithParam
 
-boolean methods for reflections with parameter
+反射调用带参数的 boolean 方法
 
 | meta | description |
 |------|-------------|
@@ -424,7 +424,7 @@ boolean methods for reflections with parameter
 
 ##### callFloatFuncWithParam
 
-float methods for reflections with parameter
+反射调用带参数的 float 方法
 
 | meta | description |
 |------|-------------|

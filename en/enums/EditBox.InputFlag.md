@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for the EditBox's input flags
+定义了一些用于设置文本显示和文本格式化的标志位。
 
 ### Index
 
@@ -26,8 +26,7 @@ Enum for the EditBox's input flags
 
 ##### PASSWORD
 
-> Indicates that the text entered is confidential data that should be
-obscured whenever possible. This implies EDIT_BOX_INPUT_FLAG_SENSITIVE.
+> 表明输入的文本是保密的数据，任何时候都应该隐藏起来，它隐含了 EDIT_BOX_INPUT_FLAG_SENSITIVE。
 
 | meta | description |
 |------|-------------|
@@ -38,10 +37,8 @@ obscured whenever possible. This implies EDIT_BOX_INPUT_FLAG_SENSITIVE.
 
 ##### SENSITIVE
 
-> Indicates that the text entered is sensitive data that the
-implementation must never store into a dictionary or table for use
-in predictive, auto-completing, or other accelerated input schemes.
-A credit card number is an example of sensitive data.
+> 表明输入的文本是敏感数据，它禁止存储到字典或表里面，也不能用来自动补全和提示用户输入。
+一个信用卡号码就是一个敏感数据的例子。
 
 | meta | description |
 |------|-------------|
@@ -52,8 +49,7 @@ A credit card number is an example of sensitive data.
 
 ##### INITIAL_CAPS_WORD
 
-> This flag is a hint to the implementation that during text editing,
-the initial letter of each word should be capitalized.
+> 这个标志用来指定在文本编辑的时候，是否把每一个单词的首字母大写。
 
 | meta | description |
 |------|-------------|
@@ -64,8 +60,7 @@ the initial letter of each word should be capitalized.
 
 ##### INITIAL_CAPS_SENTENCE
 
-> This flag is a hint to the implementation that during text editing,
-the initial letter of each sentence should be capitalized.
+> 这个标志用来指定在文本编辑是否每个句子的首字母大写。
 
 | meta | description |
 |------|-------------|
@@ -76,7 +71,7 @@ the initial letter of each sentence should be capitalized.
 
 ##### INITIAL_CAPS_ALL_CHARACTERS
 
-> Capitalize all characters automatically.
+> 自动把输入的所有字符大写。
 
 | meta | description |
 |------|-------------|

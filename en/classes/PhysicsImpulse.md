@@ -3,19 +3,18 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
 
-Contact impulses for reporting.
+用于返回给回调的接触冲量。
 
 ### Index
 
 ##### Properties
 
-  - [`normalImpulses`](#normalimpulses) `Unknown` Normal impulses.
-  - [`tangentImpulses`](#tangentimpulses) `Unknown` Tangent impulses
+  - [`normalImpulses`](#normalimpulses) `Unknown` 法线方向的冲量
+  - [`tangentImpulses`](#tangentimpulses) `Unknown` 切线方向的冲量
 
 
 
@@ -29,7 +28,7 @@ Contact impulses for reporting.
 
 ##### normalImpulses
 
-> Normal impulses.
+> 法线方向的冲量
 
 | meta | description |
 |------|-------------|
@@ -40,7 +39,7 @@ Contact impulses for reporting.
 
 ##### tangentImpulses
 
-> Tangent impulses
+> 切线方向的冲量
 
 | meta | description |
 |------|-------------|

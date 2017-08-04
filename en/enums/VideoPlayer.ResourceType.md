@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for video resouce type type.
+视频来源
 
 ### Index
 
@@ -23,7 +23,7 @@ Enum for video resouce type type.
 
 ##### REMOTE
 
-> The remote resource type.
+> 远程视频
 
 | meta | description |
 |------|-------------|
@@ -34,7 +34,7 @@ Enum for video resouce type type.
 
 ##### LOCAL
 
-> The local resouce type.
+> 本地视频
 
 | meta | description |
 |------|-------------|

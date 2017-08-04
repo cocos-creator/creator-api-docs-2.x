@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for ScrollView event type.
+滚动视图事件类型
 
 ### Index
 
@@ -22,7 +22,7 @@ Enum for ScrollView event type.
 
 ##### PAGE_TURNING
 
-> The page turning event
+> 翻页事件
 
 | meta | description |
 |------|-------------|

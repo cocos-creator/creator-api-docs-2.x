@@ -8,7 +8,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-push protocol
+推送系统协议接口
 
 ### Index
 
@@ -16,23 +16,23 @@ push protocol
 
 ##### Methods
 
-  - [`startPush`](#startpush) start Push services
-  - [`closePush`](#closepush) close Push services
-  - [`delAlias`](#delalias) delete alias
-  - [`setAlias`](#setalias) set alias
-  - [`delTags`](#deltags) delete tags
-  - [`setTags`](#settags) set tags
-  - [`setListener`](#setlistener) set listener
-  - [`getListener`](#getlistener) get listener
-  - [`isFunctionSupported`](#isfunctionsupported) Check whether the function is supported
-  - [`getPluginName`](#getpluginname) get plugin name
-  - [`getPluginVersion`](#getpluginversion) get plugin version
-  - [`getSDKVersion`](#getsdkversion) get SDK version
-  - [`callFuncWithParam`](#callfuncwithparam) void methods for reflections with parameter
-  - [`callStringFuncWithParam`](#callstringfuncwithparam) String methods for reflections with parameter
-  - [`callIntFuncWithParam`](#callintfuncwithparam) int methods for reflections with parameter
-  - [`callBoolFuncWithParam`](#callboolfuncwithparam) boolean methods for reflections with parameter
-  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) float methods for reflections with parameter
+  - [`startPush`](#startpush) 启动推送服务
+  - [`closePush`](#closepush) 暂停推送服务
+  - [`delAlias`](#delalias) 删除别名
+  - [`setAlias`](#setalias) 设置别名
+  - [`delTags`](#deltags) 删除标签
+  - [`setTags`](#settags) 设置标签
+  - [`setListener`](#setlistener) 设置推送系统的监听
+  - [`getListener`](#getlistener) 获取推送系统的监听
+  - [`isFunctionSupported`](#isfunctionsupported) 判断函数是否支持
+  - [`getPluginName`](#getpluginname) 获取插件名称
+  - [`getPluginVersion`](#getpluginversion) 获取插件版本
+  - [`getSDKVersion`](#getsdkversion) 获取 SDK 版本
+  - [`callFuncWithParam`](#callfuncwithparam) 反射调用带参数的void方法
+  - [`callStringFuncWithParam`](#callstringfuncwithparam) 反射调用带参数的 String 方法
+  - [`callIntFuncWithParam`](#callintfuncwithparam) 反射调用带参数的 Int 方法
+  - [`callBoolFuncWithParam`](#callboolfuncwithparam) 反射调用带参数的 boolean 方法
+  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) 反射调用带参数的 float 方法
 
 
 
@@ -47,7 +47,7 @@ push protocol
 
 ##### startPush
 
-start Push services
+启动推送服务
 
 | meta | description |
 |------|-------------|
@@ -57,7 +57,7 @@ start Push services
 
 ##### closePush
 
-close Push services
+暂停推送服务
 
 | meta | description |
 |------|-------------|
@@ -67,7 +67,7 @@ close Push services
 
 ##### delAlias
 
-delete alias
+删除别名
 
 | meta | description |
 |------|-------------|
@@ -79,7 +79,7 @@ delete alias
 
 ##### setAlias
 
-set alias
+设置别名
 
 | meta | description |
 |------|-------------|
@@ -91,7 +91,7 @@ set alias
 
 ##### delTags
 
-delete tags
+删除标签
 
 | meta | description |
 |------|-------------|
@@ -103,7 +103,7 @@ delete tags
 
 ##### setTags
 
-set tags
+设置标签
 
 | meta | description |
 |------|-------------|
@@ -115,7 +115,7 @@ set tags
 
 ##### setListener
 
-set listener
+设置推送系统的监听
 
 | meta | description |
 |------|-------------|
@@ -128,7 +128,7 @@ set listener
 
 ##### getListener
 
-get listener
+获取推送系统的监听
 
 | meta | description |
 |------|-------------|
@@ -139,7 +139,7 @@ get listener
 
 ##### isFunctionSupported
 
-Check whether the function is supported
+判断函数是否支持
 
 | meta | description |
 |------|-------------|
@@ -152,7 +152,7 @@ Check whether the function is supported
 
 ##### getPluginName
 
-get plugin name
+获取插件名称
 
 | meta | description |
 |------|-------------|
@@ -163,7 +163,7 @@ get plugin name
 
 ##### getPluginVersion
 
-get plugin version
+获取插件版本
 
 | meta | description |
 |------|-------------|
@@ -174,7 +174,7 @@ get plugin version
 
 ##### getSDKVersion
 
-get SDK version
+获取 SDK 版本
 
 | meta | description |
 |------|-------------|
@@ -185,7 +185,7 @@ get SDK version
 
 ##### callFuncWithParam
 
-void methods for reflections with parameter
+反射调用带参数的void方法
 
 | meta | description |
 |------|-------------|
@@ -198,7 +198,7 @@ void methods for reflections with parameter
 
 ##### callStringFuncWithParam
 
-String methods for reflections with parameter
+反射调用带参数的 String 方法
 
 | meta | description |
 |------|-------------|
@@ -212,7 +212,7 @@ String methods for reflections with parameter
 
 ##### callIntFuncWithParam
 
-int methods for reflections with parameter
+反射调用带参数的 Int 方法
 
 | meta | description |
 |------|-------------|
@@ -226,7 +226,7 @@ int methods for reflections with parameter
 
 ##### callBoolFuncWithParam
 
-boolean methods for reflections with parameter
+反射调用带参数的 boolean 方法
 
 | meta | description |
 |------|-------------|
@@ -240,7 +240,7 @@ boolean methods for reflections with parameter
 
 ##### callFloatFuncWithParam
 
-float methods for reflections with parameter
+反射调用带参数的 float 方法
 
 | meta | description |
 |------|-------------|

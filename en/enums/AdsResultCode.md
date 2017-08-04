@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The callback of ads system
+广告系统回调
 
 ### Index
 
@@ -33,7 +33,7 @@ The callback of ads system
 
 ##### kAdsReceived
 
-> The callback : the ad is received
+> 广告系统的接受广告回调
 
 | meta | description |
 |------|-------------|
@@ -44,7 +44,7 @@ The callback of ads system
 
 ##### kAdsShown
 
-> The callback: the advertisement dismissed.
+> 广告系统的显示广告回调
 
 | meta | description |
 |------|-------------|
@@ -55,7 +55,7 @@ The callback of ads system
 
 ##### kAdsDismissed
 
-> The callback: the advertisement dismissed.
+> 广告系统的广告消失回调
 
 | meta | description |
 |------|-------------|
@@ -66,7 +66,7 @@ The callback of ads system
 
 ##### kPointsSpendSucceed
 
-> The callback: the points spend succeed.
+> 广告系统的花费积分成功回调
 
 | meta | description |
 |------|-------------|
@@ -77,7 +77,7 @@ The callback of ads system
 
 ##### kPointsSpendFailed
 
-> The callback: the points spend failed.
+> 广告系统的花费积分失败回调
 
 | meta | description |
 |------|-------------|
@@ -88,7 +88,7 @@ The callback of ads system
 
 ##### kNetworkError
 
-> The callback of network error
+> 广告系统的网络错误回调
 
 | meta | description |
 |------|-------------|
@@ -99,7 +99,7 @@ The callback of ads system
 
 ##### kUnknownError
 
-> The callback of Unknown error.
+> 广告系统的未知错误回调
 
 | meta | description |
 |------|-------------|
@@ -110,7 +110,7 @@ The callback of ads system
 
 ##### kOfferWallOnPointsChanged
 
-> The callback of Changing the point of offerwall.
+> 广告系统的积金墙积金变化回调
 
 | meta | description |
 |------|-------------|
@@ -121,7 +121,7 @@ The callback of ads system
 
 ##### kRewardedVideoWithReward
 
-> The callback of receive the reward of rewardedvideo
+> 广告系统的激励视频奖励回调
 
 | meta | description |
 |------|-------------|
@@ -132,7 +132,7 @@ The callback of ads system
 
 ##### kInAppPurchaseFinished
 
-> The callback of finishing IAP ad
+> 广告系统的应用内支付广告回调
 
 | meta | description |
 |------|-------------|
@@ -143,7 +143,7 @@ The callback of ads system
 
 ##### kAdsClicked
 
-> The callback of the advertisement clicked
+> 广告系统的广告被点击回调
 
 | meta | description |
 |------|-------------|
@@ -154,7 +154,7 @@ The callback of ads system
 
 ##### kAdsExtension
 
-> The extension code
+> 广告系统的扩展回调
 
 | meta | description |
 |------|-------------|

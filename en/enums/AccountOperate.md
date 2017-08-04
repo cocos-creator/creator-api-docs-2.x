@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The enum of account operation
+统计系统的账号操作
 
 ### Index
 
@@ -24,7 +24,7 @@ The enum of account operation
 
 ##### LOGIN
 
-> Login
+> 登录
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ The enum of account operation
 
 ##### LOGOUT
 
-> Logout
+> 登出
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ The enum of account operation
 
 ##### REGISTER
 
-> Register
+> 注册
 
 | meta | description |
 |------|-------------|

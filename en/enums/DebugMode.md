@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for debug modes.
+调试模式
 
 ### Index
 
@@ -28,7 +28,7 @@ Enum for debug modes.
 
 ##### NONE
 
-> The debug mode none.
+> 禁止模式，禁止显示任何日志信息。
 
 | meta | description |
 |------|-------------|
@@ -39,7 +39,7 @@ Enum for debug modes.
 
 ##### INFO
 
-> The debug mode info.
+> 信息模式，在 console 中显示所有日志。
 
 | meta | description |
 |------|-------------|
@@ -50,7 +50,7 @@ Enum for debug modes.
 
 ##### WARN
 
-> The debug mode warn.
+> 警告模式，在 console 中只显示 warn 级别以上的（包含 error）日志。
 
 | meta | description |
 |------|-------------|
@@ -61,7 +61,7 @@ Enum for debug modes.
 
 ##### ERROR
 
-> The debug mode error.
+> 错误模式，在 console 中只显示 error 日志。
 
 | meta | description |
 |------|-------------|
@@ -72,7 +72,7 @@ Enum for debug modes.
 
 ##### INFO_FOR_WEB_PAGE
 
-> The debug mode info for web page.
+> 信息模式（仅 WEB 端有效），在画面上输出所有信息。
 
 | meta | description |
 |------|-------------|
@@ -83,7 +83,7 @@ Enum for debug modes.
 
 ##### WARN_FOR_WEB_PAGE
 
-> The debug mode warn for web page.
+> 警告模式（仅 WEB 端有效），在画面上输出 warn 级别以上的（包含 error）信息。
 
 | meta | description |
 |------|-------------|
@@ -94,7 +94,7 @@ Enum for debug modes.
 
 ##### ERROR_FOR_WEB_PAGE
 
-> The debug mode error for web page.
+> 错误模式（仅 WEB 端有效），在画面上输出 error 信息。
 
 | meta | description |
 |------|-------------|

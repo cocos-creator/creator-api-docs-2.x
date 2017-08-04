@@ -52,7 +52,7 @@ cc.NodePool 是用于管理节点对象的对象缓存池。<br/>
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js:75](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js#L75) |
 
 
@@ -73,7 +73,7 @@ cc.NodePool 是用于管理节点对象的对象缓存池。<br/>
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js:56](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js#L56) |
 
 ###### Parameters
-- poolHandlerComp <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> !#en The constructor or the class name of the component to control the unuse/reuse logic. !#zh 处理节点回收和复用事件逻辑的组件类型或名称。
+- poolHandlerComp <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> !#en The constructor or the class name of the component to control the unuse/reuse logic. !#zh 处理节点回收和复用事件逻辑的组件类型或名称。
 
 ##### Example
 
@@ -136,7 +136,7 @@ let myNode = cc.instantiate(this.template);
 | meta | description |
 |------|-------------|
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js:138](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js#L138) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> | Null 
+| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
 
 ###### Parameters
 - params Any !#en Params to pass to 'reuse' method in poolHandlerComp !#zh 向 poolHandlerComp 中的 'reuse' 函数传递的参数

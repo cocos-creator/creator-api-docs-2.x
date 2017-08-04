@@ -8,8 +8,8 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-cc.AffineTransform class represent an affine transform matrix. It's composed basically by translation, rotation, scale transformations.<br/>
-Please do not use its constructor directly, use cc.affineTransformMake alias function instead.
+cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移旋转，缩放转变所组成。<br/>
+请不要直接使用它的构造，请使用 cc.affineTransformMake 函数代替。
 
 ### Index
 
@@ -17,26 +17,25 @@ Please do not use its constructor directly, use cc.affineTransformMake alias fun
 
 ##### Methods
 
-  - [`affineTransformMake`](#affinetransformmake) Create a cc.AffineTransform object with all contents in the matrix.
-  - [`affineTransformClone`](#affinetransformclone) Clone a cc.AffineTransform object from the specified transform.
-  - [`pointApplyAffineTransform`](#pointapplyaffinetransform) Apply the affine transformation on a point.
-  - [`sizeApplyAffineTransform`](#sizeapplyaffinetransform) Apply the affine transformation on a size.
-  - [`affineTransformMakeIdentity`](#affinetransformmakeidentity) Create a identity transformation matrix: <br/>
+  - [`affineTransformMake`](#affinetransformmake) 用在矩阵中的所有内容创建一个 cc.AffineTransform 对象。
+  - [`affineTransformClone`](#affinetransformclone) 克隆指定的 cc.AffineTransform 对象。
+  - [`pointApplyAffineTransform`](#pointapplyaffinetransform) 对一个点应用矩阵变换。
+  - [`sizeApplyAffineTransform`](#sizeapplyaffinetransform) 应用 Size 到仿射变换矩阵上。
+  - [`affineTransformMakeIdentity`](#affinetransformmakeidentity) 单位矩阵：<br/>
 [ 1, 0, 0, <br/>
   0, 1, 0 ]
-  - [`rectApplyAffineTransform`](#rectapplyaffinetransform) Apply the affine transformation on a rect.
-  - [`obbApplyAffineTransform`](#obbapplyaffinetransform) Apply the affine transformation on a rect, and truns to an Oriented Bounding Box.
-  - [`affineTransformTranslate`](#affinetransformtranslate) Create a new affine transformation with a base transformation matrix and a translation based on it.
-  - [`affineTransformScale`](#affinetransformscale) Create a new affine transformation with a base transformation matrix and a scale based on it.
-  - [`affineTransformRotate`](#affinetransformrotate) Create a new affine transformation with a base transformation matrix and a rotation based on it.
-  - [`affineTransformConcat`](#affinetransformconcat) Concatenate a transform matrix to another and return the result:<br/>
+  - [`rectApplyAffineTransform`](#rectapplyaffinetransform) 应用 Rect 到仿射变换矩阵上。
+  - [`obbApplyAffineTransform`](#obbapplyaffinetransform) 应用 Rect 到仿射变换矩阵上, 并转换为有向包围盒
+  - [`affineTransformTranslate`](#affinetransformtranslate) 基于一个基础矩阵加上一个平移操作来创建一个新的矩阵。
+  - [`affineTransformScale`](#affinetransformscale) 创建一个基础变换矩阵，并在此基础上进行了 Scale 仿射变换。
+  - [`affineTransformRotate`](#affinetransformrotate) 创建一个基础变换矩阵，并在此基础上进行了 Rotation 仿射变换。
+  - [`affineTransformConcat`](#affinetransformconcat) 拼接两个矩阵，并返回结果：<br/>
 t' = t1 * t2
-  - [`affineTransformConcatIn`](#affinetransformconcatin) Concatenate a transform matrix to another<br/>
-The results are reflected in the first matrix.<br/>
+  - [`affineTransformConcatIn`](#affinetransformconcatin) 拼接两个矩阵，将结果保存到第一个矩阵。<br/>
 t' = t1 * t2
-  - [`affineTransformEqualToTransform`](#affinetransformequaltotransform) Return true if an affine transform equals to another, false otherwise.
-  - [`affineTransformInvert`](#affinetransforminvert) Get the invert transform of an AffineTransform object.
-  - [`affineTransformInvert`](#affinetransforminvert) Put the invert transform of an AffineTransform object into the out AffineTransform object.
+  - [`affineTransformEqualToTransform`](#affinetransformequaltotransform) 判断两个矩阵是否相等。
+  - [`affineTransformInvert`](#affinetransforminvert) 求逆矩阵。
+  - [`affineTransformInvert`](#affinetransforminvert) 求逆矩阵并存入用户传入的矩阵对象参数。
 
 
 
@@ -51,7 +50,7 @@ t' = t1 * t2
 
 ##### affineTransformMake
 
-Create a cc.AffineTransform object with all contents in the matrix.
+用在矩阵中的所有内容创建一个 cc.AffineTransform 对象。
 
 | meta | description |
 |------|-------------|
@@ -69,7 +68,7 @@ Create a cc.AffineTransform object with all contents in the matrix.
 
 ##### affineTransformClone
 
-Clone a cc.AffineTransform object from the specified transform.
+克隆指定的 cc.AffineTransform 对象。
 
 | meta | description |
 |------|-------------|
@@ -82,7 +81,7 @@ Clone a cc.AffineTransform object from the specified transform.
 
 ##### pointApplyAffineTransform
 
-Apply the affine transformation on a point.
+对一个点应用矩阵变换。
 
 | meta | description |
 |------|-------------|
@@ -97,7 +96,7 @@ Apply the affine transformation on a point.
 
 ##### sizeApplyAffineTransform
 
-Apply the affine transformation on a size.
+应用 Size 到仿射变换矩阵上。
 
 | meta | description |
 |------|-------------|
@@ -111,7 +110,7 @@ Apply the affine transformation on a size.
 
 ##### affineTransformMakeIdentity
 
-Create a identity transformation matrix: <br/>
+单位矩阵：<br/>
 [ 1, 0, 0, <br/>
   0, 1, 0 ]
 
@@ -124,7 +123,7 @@ Create a identity transformation matrix: <br/>
 
 ##### rectApplyAffineTransform
 
-Apply the affine transformation on a rect.
+应用 Rect 到仿射变换矩阵上。
 
 | meta | description |
 |------|-------------|
@@ -138,7 +137,7 @@ Apply the affine transformation on a rect.
 
 ##### obbApplyAffineTransform
 
-Apply the affine transformation on a rect, and truns to an Oriented Bounding Box.
+应用 Rect 到仿射变换矩阵上, 并转换为有向包围盒
 
 | meta | description |
 |------|-------------|
@@ -155,7 +154,7 @@ Apply the affine transformation on a rect, and truns to an Oriented Bounding Box
 
 ##### affineTransformTranslate
 
-Create a new affine transformation with a base transformation matrix and a translation based on it.
+基于一个基础矩阵加上一个平移操作来创建一个新的矩阵。
 
 | meta | description |
 |------|-------------|
@@ -170,7 +169,7 @@ Create a new affine transformation with a base transformation matrix and a trans
 
 ##### affineTransformScale
 
-Create a new affine transformation with a base transformation matrix and a scale based on it.
+创建一个基础变换矩阵，并在此基础上进行了 Scale 仿射变换。
 
 | meta | description |
 |------|-------------|
@@ -185,7 +184,7 @@ Create a new affine transformation with a base transformation matrix and a scale
 
 ##### affineTransformRotate
 
-Create a new affine transformation with a base transformation matrix and a rotation based on it.
+创建一个基础变换矩阵，并在此基础上进行了 Rotation 仿射变换。
 
 | meta | description |
 |------|-------------|
@@ -199,7 +198,7 @@ Create a new affine transformation with a base transformation matrix and a rotat
 
 ##### affineTransformConcat
 
-Concatenate a transform matrix to another and return the result:<br/>
+拼接两个矩阵，并返回结果：<br/>
 t' = t1 * t2
 
 | meta | description |
@@ -214,8 +213,7 @@ t' = t1 * t2
 
 ##### affineTransformConcatIn
 
-Concatenate a transform matrix to another<br/>
-The results are reflected in the first matrix.<br/>
+拼接两个矩阵，将结果保存到第一个矩阵。<br/>
 t' = t1 * t2
 
 | meta | description |
@@ -230,7 +228,7 @@ t' = t1 * t2
 
 ##### affineTransformEqualToTransform
 
-Return true if an affine transform equals to another, false otherwise.
+判断两个矩阵是否相等。
 
 | meta | description |
 |------|-------------|
@@ -244,7 +242,7 @@ Return true if an affine transform equals to another, false otherwise.
 
 ##### affineTransformInvert
 
-Get the invert transform of an AffineTransform object.
+求逆矩阵。
 
 | meta | description |
 |------|-------------|
@@ -257,7 +255,7 @@ Get the invert transform of an AffineTransform object.
 
 ##### affineTransformInvert
 
-Put the invert transform of an AffineTransform object into the out AffineTransform object.
+求逆矩阵并存入用户传入的矩阵对象参数。
 
 | meta | description |
 |------|-------------|

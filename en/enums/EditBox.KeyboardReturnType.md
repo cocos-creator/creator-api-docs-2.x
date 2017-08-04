@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for keyboard return types
+键盘的返回键类型
 
 ### Index
 
@@ -26,7 +26,7 @@ Enum for keyboard return types
 
 ##### DEFAULT
 
-> TODO
+> 默认
 
 | meta | description |
 |------|-------------|
@@ -37,7 +37,7 @@ Enum for keyboard return types
 
 ##### DONE
 
-> TODO
+> 完成类型
 
 | meta | description |
 |------|-------------|
@@ -48,7 +48,7 @@ Enum for keyboard return types
 
 ##### SEND
 
-> TODO
+> 发送类型
 
 | meta | description |
 |------|-------------|
@@ -59,7 +59,7 @@ Enum for keyboard return types
 
 ##### SEARCH
 
-> TODO
+> 搜索类型
 
 | meta | description |
 |------|-------------|
@@ -70,7 +70,7 @@ Enum for keyboard return types
 
 ##### GO
 
-> TODO
+> 跳转类型
 
 | meta | description |
 |------|-------------|

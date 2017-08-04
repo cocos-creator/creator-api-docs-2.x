@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for emitter modes
+发射模式
 
 ### Index
 
@@ -23,7 +23,7 @@ Enum for emitter modes
 
 ##### GRAVITY
 
-> Uses gravity, speed, radial and tangential acceleration.
+> 重力模式，模拟重力，可让粒子围绕一个中心点移近或移远。
 
 | meta | description |
 |------|-------------|

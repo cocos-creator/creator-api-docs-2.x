@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -159,7 +160,7 @@ Constructor of cc.TextureAtlas
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L47) |
 
 ###### Parameters
-- fileName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
+- fileName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
 - capacity <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example

@@ -8,7 +8,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-social protocol
+社交系统协议接口
 
 ### Index
 
@@ -16,29 +16,26 @@ social protocol
 
 ##### Methods
 
-  - [`signIn`](#signin) sign in
-  - [`signOut`](#signout) sign out
-  - [`submitScore`](#submitscore) submit score
-  - [`showLeaderboard`](#showleaderboard) show the id of Leaderboard page
-  - [`showAchievements`](#showachievements) show the page of achievements
-  - [`share`](#share) unlock achievement
-  - [`setListener`](#setlistener) set listener
-  - [`getListener`](#getlistener) get listener
-  - [`pauseRecording`](#pauserecording) get friends info
-Before to invoke, you need to verdict whether this properties existed
-  - [`interact`](#interact) interact
-Before to invoke, you need to verdict whether this properties existed
-  - [`subscribe`](#subscribe) subscribe
-Before to invoke, you need to verdict whether this properties existed
-  - [`isFunctionSupported`](#isfunctionsupported) Check whether the function is supported
-  - [`getPluginName`](#getpluginname) get plugin name
-  - [`getPluginVersion`](#getpluginversion) get plugin version
-  - [`getSDKVersion`](#getsdkversion) get SDK version
-  - [`callFuncWithParam`](#callfuncwithparam) void methods for reflections with parameter
-  - [`callStringFuncWithParam`](#callstringfuncwithparam) String methods for reflections with parameter
-  - [`callIntFuncWithParam`](#callintfuncwithparam) int methods for reflections with parameter
-  - [`callBoolFuncWithParam`](#callboolfuncwithparam) boolean methods for reflections with parameter
-  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) float methods for reflections with parameter
+  - [`signIn`](#signin) 登录
+  - [`signOut`](#signout) 登出
+  - [`submitScore`](#submitscore) 提交分数
+  - [`showLeaderboard`](#showleaderboard) 根据唯一标识符显示排行榜
+  - [`showAchievements`](#showachievements) 显示成就榜
+  - [`share`](#share) 解锁成就
+  - [`setListener`](#setlistener) 设置社交系统的监听
+  - [`getListener`](#getlistener) 获取社交系统的监听
+  - [`pauseRecording`](#pauserecording) 获取好友信息，调用前需要判断属性是否存在
+  - [`interact`](#interact) 订阅，调用前需要判断属性是否存在
+  - [`subscribe`](#subscribe) 关注，调用前需要判断属性是否存在
+  - [`isFunctionSupported`](#isfunctionsupported) 判断函数是否支持
+  - [`getPluginName`](#getpluginname) 获取插件名称
+  - [`getPluginVersion`](#getpluginversion) 获取插件版本
+  - [`getSDKVersion`](#getsdkversion) 获取 SDK 版本
+  - [`callFuncWithParam`](#callfuncwithparam) 反射调用带参数的void方法
+  - [`callStringFuncWithParam`](#callstringfuncwithparam) 反射调用带参数的 String 方法
+  - [`callIntFuncWithParam`](#callintfuncwithparam) 反射调用带参数的 Int 方法
+  - [`callBoolFuncWithParam`](#callboolfuncwithparam) 反射调用带参数的 boolean 方法
+  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) 反射调用带参数的 float 方法
 
 
 
@@ -53,7 +50,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### signIn
 
-sign in
+登录
 
 | meta | description |
 |------|-------------|
@@ -63,7 +60,7 @@ sign in
 
 ##### signOut
 
-sign out
+登出
 
 | meta | description |
 |------|-------------|
@@ -73,7 +70,7 @@ sign out
 
 ##### submitScore
 
-submit score
+提交分数
 
 | meta | description |
 |------|-------------|
@@ -86,7 +83,7 @@ submit score
 
 ##### showLeaderboard
 
-show the id of Leaderboard page
+根据唯一标识符显示排行榜
 
 | meta | description |
 |------|-------------|
@@ -98,7 +95,7 @@ show the id of Leaderboard page
 
 ##### showAchievements
 
-show the page of achievements
+显示成就榜
 
 | meta | description |
 |------|-------------|
@@ -108,7 +105,7 @@ show the page of achievements
 
 ##### share
 
-unlock achievement
+解锁成就
 
 | meta | description |
 |------|-------------|
@@ -120,7 +117,7 @@ unlock achievement
 
 ##### setListener
 
-set listener
+设置社交系统的监听
 
 | meta | description |
 |------|-------------|
@@ -133,7 +130,7 @@ set listener
 
 ##### getListener
 
-get listener
+获取社交系统的监听
 
 | meta | description |
 |------|-------------|
@@ -144,8 +141,7 @@ get listener
 
 ##### pauseRecording
 
-get friends info
-Before to invoke, you need to verdict whether this properties existed
+获取好友信息，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -155,8 +151,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### interact
 
-interact
-Before to invoke, you need to verdict whether this properties existed
+订阅，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -166,8 +161,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### subscribe
 
-subscribe
-Before to invoke, you need to verdict whether this properties existed
+关注，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -177,7 +171,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### isFunctionSupported
 
-Check whether the function is supported
+判断函数是否支持
 
 | meta | description |
 |------|-------------|
@@ -190,7 +184,7 @@ Check whether the function is supported
 
 ##### getPluginName
 
-get plugin name
+获取插件名称
 
 | meta | description |
 |------|-------------|
@@ -201,7 +195,7 @@ get plugin name
 
 ##### getPluginVersion
 
-get plugin version
+获取插件版本
 
 | meta | description |
 |------|-------------|
@@ -212,7 +206,7 @@ get plugin version
 
 ##### getSDKVersion
 
-get SDK version
+获取 SDK 版本
 
 | meta | description |
 |------|-------------|
@@ -223,7 +217,7 @@ get SDK version
 
 ##### callFuncWithParam
 
-void methods for reflections with parameter
+反射调用带参数的void方法
 
 | meta | description |
 |------|-------------|
@@ -236,7 +230,7 @@ void methods for reflections with parameter
 
 ##### callStringFuncWithParam
 
-String methods for reflections with parameter
+反射调用带参数的 String 方法
 
 | meta | description |
 |------|-------------|
@@ -250,7 +244,7 @@ String methods for reflections with parameter
 
 ##### callIntFuncWithParam
 
-int methods for reflections with parameter
+反射调用带参数的 Int 方法
 
 | meta | description |
 |------|-------------|
@@ -264,7 +258,7 @@ int methods for reflections with parameter
 
 ##### callBoolFuncWithParam
 
-boolean methods for reflections with parameter
+反射调用带参数的 boolean 方法
 
 | meta | description |
 |------|-------------|
@@ -278,7 +272,7 @@ boolean methods for reflections with parameter
 
 ##### callFloatFuncWithParam
 
-float methods for reflections with parameter
+反射调用带参数的 float 方法
 
 | meta | description |
 |------|-------------|

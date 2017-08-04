@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The enum of ads type
+广告类型
 
 ### Index
 
@@ -28,7 +28,7 @@ The enum of ads type
 
 ##### AD_TYPE_BANNER
 
-> Banner Ads
+> 横幅广告
 
 | meta | description |
 |------|-------------|
@@ -39,7 +39,7 @@ The enum of ads type
 
 ##### AD_TYPE_FULLSCREEN
 
-> Full Screen Ads
+> 插屏广告
 
 | meta | description |
 |------|-------------|
@@ -50,7 +50,7 @@ The enum of ads type
 
 ##### AD_TYPE_MOREAPP
 
-> Move APP Ads
+> 精品广告
 
 | meta | description |
 |------|-------------|
@@ -61,7 +61,7 @@ The enum of ads type
 
 ##### AD_TYPE_OFFERWALL
 
-> Offer Wall Ads
+> 积金墙
 
 | meta | description |
 |------|-------------|
@@ -72,7 +72,7 @@ The enum of ads type
 
 ##### AD_TYPE_REWARDEDVIDEO
 
-> Reward Video Ads
+> 激励视频
 
 | meta | description |
 |------|-------------|
@@ -83,7 +83,7 @@ The enum of ads type
 
 ##### AD_TYPE_NATIVEEXPRESS
 
-> Native Express Ads
+> 原生广告
 
 | meta | description |
 |------|-------------|
@@ -94,7 +94,7 @@ The enum of ads type
 
 ##### AD_TYPE_NATIVEADVANCED
 
-> Native Advanced Ads
+> 改进版原生广告
 
 | meta | description |
 |------|-------------|

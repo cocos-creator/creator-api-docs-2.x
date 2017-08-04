@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -14,10 +13,10 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### Properties
 
-  - [`collider`](#collider) `PhysicsCollider` The PhysicsCollider which intersects with the raycast
-  - [`point`](#point) `Vec2` The intersection point
-  - [`normal`](#normal) `Vec2` The normal vector at the point of intersection
-  - [`fraction`](#fraction) `Number` The fraction of the raycast path at the point of intersection
+  - [`collider`](#collider) `PhysicsCollider` 与射线相交的碰撞体
+  - [`point`](#point) `Vec2` 射线与碰撞体相交的点
+  - [`normal`](#normal) `Vec2` 射线与碰撞体相交的点的法向量
+  - [`fraction`](#fraction) `Number` 射线与碰撞体相交的点占射线长度的分数
 
 
 
@@ -31,7 +30,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### collider
 
-> The PhysicsCollider which intersects with the raycast
+> 与射线相交的碰撞体
 
 | meta | description |
 |------|-------------|
@@ -42,7 +41,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### point
 
-> The intersection point
+> 射线与碰撞体相交的点
 
 | meta | description |
 |------|-------------|
@@ -53,7 +52,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### normal
 
-> The normal vector at the point of intersection
+> 射线与碰撞体相交的点的法向量
 
 | meta | description |
 |------|-------------|
@@ -64,7 +63,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### fraction
 
-> The fraction of the raycast path at the point of intersection
+> 射线与碰撞体相交的点占射线长度的分数
 
 | meta | description |
 |------|-------------|

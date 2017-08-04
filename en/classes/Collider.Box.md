@@ -7,14 +7,14 @@ Module: [cc](../modules/cc.md)
 
 
 
-Defines a Box Collider .
+用来定义包围盒碰撞体
 
 ### Index
 
 ##### Properties
 
-  - [`offset`](#offset) `Vec2` Position offset
-  - [`size`](#size) `Size` Box size
+  - [`offset`](#offset) `Vec2` 位置偏移量
+  - [`size`](#size) `Size` 包围盒大小
 
 
 
@@ -28,7 +28,7 @@ Defines a Box Collider .
 
 ##### offset
 
-> Position offset
+> 位置偏移量
 
 | meta | description |
 |------|-------------|
@@ -39,7 +39,7 @@ Defines a Box Collider .
 
 ##### size
 
-> Box size
+> 包围盒大小
 
 | meta | description |
 |------|-------------|

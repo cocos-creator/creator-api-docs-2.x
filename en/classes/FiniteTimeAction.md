@@ -8,12 +8,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Base class actions that do have a finite time duration. <br/>
-Possible actions: <br/>
-- An action with a duration of 0 seconds. <br/>
-- An action with a duration of 35.5 seconds.
-
-Infinite time actions are valid
+有限时间动作，这种动作拥有时长 duration 属性。
 
 ### Index
 
@@ -21,21 +16,16 @@ Infinite time actions are valid
 
 ##### Methods
 
-  - [`getDuration`](#getduration) get duration of the action. (seconds).
-  - [`setDuration`](#setduration) set duration of the action. (seconds).
-  - [`reverse`](#reverse) Returns a reversed action. <br />
-For example: <br />
-- The action will be x coordinates of 0 move to 100. <br />
-- The reversed action will be x of 100 move to 0.
-- Will be rewritten
-  - [`clone`](#clone) to copy object with deep copy.
-returns a clone of action.
-  - [`isDone`](#isdone) return true if the action has finished.
-  - [`getTarget`](#gettarget) get the target.
-  - [`setTarget`](#settarget) The action will modify the target properties.
-  - [`getOriginalTarget`](#getoriginaltarget) get the original target.
-  - [`getTag`](#gettag) get tag number.
-  - [`setTag`](#settag) set tag number.
+  - [`getDuration`](#getduration) 获取动作以秒为单位的持续时间。
+  - [`setDuration`](#setduration) 设置动作以秒为单位的持续时间。
+  - [`reverse`](#reverse) 返回一个新的动作，执行与原动作完全相反的动作。
+  - [`clone`](#clone) 返回一个克隆的动作。
+  - [`isDone`](#isdone) 如果动作已完成就返回 true。
+  - [`getTarget`](#gettarget) 获取当前目标节点。
+  - [`setTarget`](#settarget) 设置目标节点。
+  - [`getOriginalTarget`](#getoriginaltarget) 获取原始目标节点。
+  - [`getTag`](#gettag) 获取用于识别动作的标签。
+  - [`setTag`](#settag) 设置标签，用于识别动作。
 
 
 
@@ -50,7 +40,7 @@ returns a clone of action.
 
 ##### getDuration
 
-get duration of the action. (seconds).
+获取动作以秒为单位的持续时间。
 
 | meta | description |
 |------|-------------|
@@ -61,7 +51,7 @@ get duration of the action. (seconds).
 
 ##### setDuration
 
-set duration of the action. (seconds).
+设置动作以秒为单位的持续时间。
 
 | meta | description |
 |------|-------------|
@@ -73,11 +63,7 @@ set duration of the action. (seconds).
 
 ##### reverse
 
-Returns a reversed action. <br />
-For example: <br />
-- The action will be x coordinates of 0 move to 100. <br />
-- The reversed action will be x of 100 move to 0.
-- Will be rewritten
+返回一个新的动作，执行与原动作完全相反的动作。
 
 | meta | description |
 |------|-------------|
@@ -88,8 +74,7 @@ For example: <br />
 
 ##### clone
 
-to copy object with deep copy.
-returns a clone of action.
+返回一个克隆的动作。
 
 | meta | description |
 |------|-------------|
@@ -100,7 +85,7 @@ returns a clone of action.
 
 ##### isDone
 
-return true if the action has finished.
+如果动作已完成就返回 true。
 
 | meta | description |
 |------|-------------|
@@ -111,7 +96,7 @@ return true if the action has finished.
 
 ##### getTarget
 
-get the target.
+获取当前目标节点。
 
 | meta | description |
 |------|-------------|
@@ -122,7 +107,7 @@ get the target.
 
 ##### setTarget
 
-The action will modify the target properties.
+设置目标节点。
 
 | meta | description |
 |------|-------------|
@@ -134,7 +119,7 @@ The action will modify the target properties.
 
 ##### getOriginalTarget
 
-get the original target.
+获取原始目标节点。
 
 | meta | description |
 |------|-------------|
@@ -145,7 +130,7 @@ get the original target.
 
 ##### getTag
 
-get tag number.
+获取用于识别动作的标签。
 
 | meta | description |
 |------|-------------|
@@ -156,7 +141,7 @@ get tag number.
 
 ##### setTag
 
-set tag number.
+设置标签，用于识别动作。
 
 | meta | description |
 |------|-------------|

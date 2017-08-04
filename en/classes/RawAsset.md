@@ -8,9 +8,8 @@ Module: [cc](../modules/cc.md)
 
 
 
-The base class for registering asset types.
-
-You may want to override:
+注册用的资源基类。<br/>
+你可能要重写：<br/>
 - createNode (static)
 
 ### Index
@@ -20,21 +19,19 @@ You may want to override:
   - [`_uuid`](#uuid) `String` 
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` The name of the object.
-  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
+  - [`name`](#name) `String` 该对象的名称。
+  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
 
 
 
 ##### Methods
 
-  - [`createNodeByInfo`](#createnodebyinfo) Create a new node in the scene.<br/>
-If this type of asset dont have its corresponding node type, this method should be null.
+  - [`createNodeByInfo`](#createnodebyinfo) 在场景中创建一个新节点。<br/>
+如果这类资源没有相应的节点类型，该方法应该是空的。
   - [`isRawAssetType`](#israwassettype) 
-  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -100,7 +97,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### name
 
-> The name of the object.
+> 该对象的名称。
 
 | meta | description |
 |------|-------------|
@@ -116,7 +113,7 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> Indicates whether the object is not yet destroyed.
+> 表示该对象是否可用（被销毁后将不可用）。
 
 | meta | description |
 |------|-------------|
@@ -139,8 +136,8 @@ cc.log(obj.isValid);
 
 ##### createNodeByInfo
 
-Create a new node in the scene.<br/>
-If this type of asset dont have its corresponding node type, this method should be null.
+在场景中创建一个新节点。<br/>
+如果这类资源没有相应的节点类型，该方法应该是空的。
 
 | meta | description |
 |------|-------------|
@@ -168,11 +165,9 @@ If this type of asset dont have its corresponding node type, this method should 
 
 ##### destroy
 
-Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
 
 | meta | description |
 |------|-------------|

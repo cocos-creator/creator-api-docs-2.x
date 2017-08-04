@@ -128,7 +128,7 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 | meta | description |
 |------|-------------|
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L229) |
-| Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> | Null 
+| Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> &#124; Null 
 
 ###### Parameters
 - tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

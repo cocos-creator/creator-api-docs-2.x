@@ -86,7 +86,7 @@ cc.EventListener.ACCELERATION，<br/>
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
-- listenerID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The listener id.
+- listenerID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The listener id.
 
 
 ##### addListener
@@ -101,8 +101,8 @@ cc.EventListener.ACCELERATION，<br/>
 | Return 		 | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
 
 ###### Parameters
-- listener <a href="../classes/EventListener.html" class="crosslink">EventListener</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The listener of a specified event or a object of some event parameters.
-- nodeOrPriority <a href="../classes/Node.html" class="crosslink">Node</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The priority of the listener is based on the draw order of this node or fixedPriority The fixed priority of the listener.
+- listener <a href="../classes/EventListener.html" class="crosslink">EventListener</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The listener of a specified event or a object of some event parameters.
+- nodeOrPriority <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The priority of the listener is based on the draw order of this node or fixedPriority The fixed priority of the listener.
 
 
 ##### removeListener
@@ -138,7 +138,7 @@ cc.EventListener.ACCELERATION，<br/>
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:899](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L899) |
 
 ###### Parameters
-- listenerType <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="../classes/Node.html" class="crosslink">Node</a> listenerType or a node
+- listenerType <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> listenerType or a node
 - recursive <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 

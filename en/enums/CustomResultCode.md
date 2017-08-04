@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The callback of custom system
+自定义系统回调
 
 ### Index
 
@@ -22,7 +22,7 @@ The callback of custom system
 
 ##### kCustomExtension
 
-> The extension code of custom system
+> 自定义系统扩展回调
 
 | meta | description |
 |------|-------------|

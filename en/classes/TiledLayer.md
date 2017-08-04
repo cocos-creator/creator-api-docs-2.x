@@ -8,7 +8,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Render the TMX layer.
+渲染 TMX layer。
 
 ### Index
 
@@ -16,116 +16,106 @@ Render the TMX layer.
 
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
-  - [`node`](#node) `Node` The node this component is attached to. A component is always attached to a node.
-  - [`uuid`](#uuid) `String` The uuid for editor.
+  - [`node`](#node) `Node` 该组件被附加到的节点。组件总会附加到一个节点。
+  - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
   - [`_enabled`](#enabled) `Boolean` 
-  - [`enabled`](#enabled) `Boolean` indicates whether this component is enabled or not.
-  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` indicates whether this component is enabled and its node is also active in the hierarchy.
-  - [`_isOnLoadCalled`](#isonloadcalled) `Number` Returns a value which used to indicate the onLoad get called or not.
+  - [`enabled`](#enabled) `Boolean` 表示该组件自身是否启用。
+  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` 表示该组件是否被启用并且所在的节点也处于激活状态。
+  - [`_isOnLoadCalled`](#isonloadcalled) `Number` 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` The name of the object.
-  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
+  - [`name`](#name) `String` 该对象的名称。
+  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
 
 
 
 ##### Methods
 
-  - [`getLayerName`](#getlayername) Gets the layer name.
-  - [`SetLayerName`](#setlayername) Set the layer name.
-  - [`getProperty`](#getproperty) Return the value for the specific property name.
-  - [`getPositionAt`](#getpositionat) Returns the position in pixels of a given tile coordinate.
-  - [`removeTileAt`](#removetileat) Removes a tile at given tile coordinate.
-  - [`setTileGID`](#settilegid) Sets the tile gid (gid = tile global id) at a given tile coordinate.<br />
-The Tile GID can be obtained by using the method "tileGIDAt" or by using the TMX editor . Tileset Mgr +1.<br />
-If a tile is already placed at that position, then it will be removed.
-  - [`getTileGIDAt`](#gettilegidat) Returns the tile gid at a given tile coordinate. <br />
-if it returns 0, it means that the tile is empty. <br />
-This method requires the the tile map has not been previously released (eg. don't call layer.releaseMap())<br />
-  - [`getTileAt`](#gettileat) Returns the tile (_ccsg.Sprite) at a given a tile coordinate. <br/>
-The returned _ccsg.Sprite will be already added to the _ccsg.TMXLayer. Don't add it again.<br/>
-The _ccsg.Sprite can be treated like any other _ccsg.Sprite: rotated, scaled, translated, opacity, color, etc. <br/>
-You can remove either by calling: <br/>
-- layer.removeChild(sprite, cleanup); <br/>
-- or layer.removeTileAt(ccp(x,y));
-  - [`releaseMap`](#releasemap) Dealloc the map that contains the tile position from memory. <br />
-Unless you want to know at runtime the tiles positions, you can safely call this method. <br />
-If you are going to call layer.getTileGIDAt() then, don't release the map.
-  - [`setContentSize`](#setcontentsize) Sets the untransformed size of the _ccsg.TMXLayer.
-  - [`getTexture`](#gettexture) Return texture of cc.SpriteBatchNode.
-  - [`setTexture`](#settexture) Set the texture of cc.SpriteBatchNode.
-  - [`setTileOpacity`](#settileopacity) Set the opacity of all tiles
-  - [`getLayerSize`](#getlayersize) Gets layer size.
-  - [`setLayerSize`](#setlayersize) Set layer size.
-  - [`getMapTileSize`](#getmaptilesize) Size of the map's tile (could be different from the tile's size).
-  - [`setMapTileSize`](#setmaptilesize) Set the map tile size.
-  - [`getTiles`](#gettiles) Pointer to the map of tiles.
-  - [`setTiles`](#settiles) Pointer to the map of tiles.
-  - [`getTileSet`](#gettileset) Tile set information for the layer.
-  - [`setTileSet`](#settileset) Tile set information for the layer.
-  - [`getLayerOrientation`](#getlayerorientation) Layer orientation, which is the same as the map orientation.
-  - [`setLayerOrientation`](#setlayerorientation) Layer orientation, which is the same as the map orientation.
-  - [`getProperties`](#getproperties) properties from the layer. They can be added using Tiled.
-  - [`setProperties`](#setproperties) properties from the layer. They can be added using Tiled.
+  - [`getLayerName`](#getlayername) 获取层的名称。
+  - [`SetLayerName`](#setlayername) 设置层的名称
+  - [`getProperty`](#getproperty) 获取指定属性名的值。
+  - [`getPositionAt`](#getpositionat) 获取指定 tile 的像素坐标。
+  - [`removeTileAt`](#removetileat) 删除指定坐标上的 tile。
+  - [`setTileGID`](#settilegid) 设置给定坐标的 tile 的 gid (gid = tile 全局 id)，
+tile 的 GID 可以使用方法 “tileGIDAt” 来获得。<br />
+如果一个 tile 已经放在那个位置，那么它将被删除。
+  - [`getTileGIDAt`](#gettilegidat) 通过给定的 tile 坐标、flags（可选）返回 tile 的 GID. <br />
+如果它返回 0，则表示该 tile 为空。<br />
+该方法要求 tile 地图之前没有被释放过(如：没有调用过layer.releaseMap()).
+  - [`getTileAt`](#gettileat) 通过指定的 tile 坐标获取对应的 tile(Sprite)。 返回的 tile(Sprite) 应是已经添加到 TMXLayer，请不要重复添加。<br/>
+这个 tile(Sprite) 如同其他的 Sprite 一样，可以旋转、缩放、翻转、透明化、设置颜色等。<br/>
+你可以通过调用以下方法来对它进行删除:<br/>
+1. layer.removeChild(sprite, cleanup);<br/>
+2. 或 layer.removeTileAt(cc.v2(x,y));
+  - [`releaseMap`](#releasemap) 从内存中释放包含 tile 位置信息的地图。<br />
+除了在运行时想要知道 tiles 的位置信息外，你都可安全的调用此方法。<br />
+如果你之后还要调用 layer.tileGIDAt(), 请不要释放地图.
+  - [`setContentSize`](#setcontentsize) 设置未转换的 layer 大小。
+  - [`getTexture`](#gettexture) 获取纹理。
+  - [`setTexture`](#settexture) 设置纹理。
+  - [`setTileOpacity`](#settileopacity) 设置所有 Tile 的透明度
+  - [`getLayerSize`](#getlayersize) 获得层大小。
+  - [`setLayerSize`](#setlayersize) 设置层大小。
+  - [`getMapTileSize`](#getmaptilesize) 获取 tile 的大小( tile 的大小可能会有所不同)。
+  - [`setMapTileSize`](#setmaptilesize) 设置 tile 的大小。
+  - [`getTiles`](#gettiles) 获取地图 tiles。
+  - [`setTiles`](#settiles) 设置地图 tiles
+  - [`getTileSet`](#gettileset) 获取 layer 的 Tileset 信息。
+  - [`setTileSet`](#settileset) 设置 layer 的 Tileset 信息。
+  - [`getLayerOrientation`](#getlayerorientation) 获取 Layer 方向(同地图方向)。
+  - [`setLayerOrientation`](#setlayerorientation) 设置 Layer 方向(同地图方向)。
+  - [`getProperties`](#getproperties) 获取 layer 的属性，可以使用 Tiled 编辑器添加属性。
+  - [`setProperties`](#setproperties) 设置层属性。
   - [`_createSgNode`](#createsgnode) Create and returns your new scene graph node (SGNode) to add to scene graph.
 You should call the setContentSize of the SGNode if its size should be the same with the node's.
   - [`_initSgNode`](#initsgnode) 
   - [`_removeSgNode`](#removesgnode) 
-  - [`update`](#update) Update is called every frame, if the Component is enabled.
-  - [`lateUpdate`](#lateupdate) LateUpdate is called every frame, if the Component is enabled.
+  - [`update`](#update) 如果该组件启用，则每帧调用 update。
+  - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad.
 It is used to initialize the builtin components internally,
 to avoid checking whether onLoad is called before every public method calls.
 This method should be removed if script priority is supported.
-  - [`onLoad`](#onload) When attaching to an active node or its node first activated.
-onLoad is always called before any start functions, this allows you to order initialization of scripts.
-  - [`start`](#start) Called before all scripts' update if the Component is enabled the first time.
-Usually used to initialize some logic which need to be called after all components' `onload` methods called.
-  - [`onEnable`](#onenable) Called when this component becomes enabled and its node is active.
-  - [`onDisable`](#ondisable) Called when this component becomes disabled or its node becomes inactive.
-  - [`onDestroy`](#ondestroy) Called when this component will be destroyed.
+  - [`onLoad`](#onload) 当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
+  - [`start`](#start) 如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
+  - [`onEnable`](#onenable) 当该组件被启用，并且它的节点也激活时。
+  - [`onDisable`](#ondisable) 当该组件被禁用或节点变为无效时调用。
+  - [`onDestroy`](#ondestroy) 当该组件被销毁时调用
   - [`onFocusInEditor`](#onfocusineditor) 
   - [`onLostFocusInEditor`](#onlostfocusineditor) 
-  - [`resetInEditor`](#resetineditor) Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
-  - [`addComponent`](#addcomponent) Adds a component class to the node. You can also add component to node by passing in the name of the script.
-  - [`getComponent`](#getcomponent) Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
-You can also get component in the node by passing in the name of the script.
-  - [`getComponents`](#getcomponents) Returns all components of supplied Type in the node.
-  - [`getComponentInChildren`](#getcomponentinchildren) Returns the component of supplied type in any of its children using depth first search.
-  - [`getComponentsInChildren`](#getcomponentsinchildren) Returns the components of supplied type in self or any of its children using depth first search.
-  - [`_getLocalBounds`](#getlocalbounds) If the component's bounding box is different from the node's, you can implement this method to supply
-a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
-  - [`onRestore`](#onrestore) onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
-an undo operation on this component.<br/>
+  - [`resetInEditor`](#resetineditor) 用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
+  - [`addComponent`](#addcomponent) 向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
+  - [`getComponent`](#getcomponent) 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
+传入参数也可以是脚本的名称。
+  - [`getComponents`](#getcomponents) 返回节点上指定类型的所有组件。
+  - [`getComponentInChildren`](#getcomponentinchildren) 递归查找所有子节点中第一个匹配指定类型的组件。
+  - [`getComponentsInChildren`](#getcomponentsinchildren) 递归查找自身或所有子节点中指定类型的组件
+  - [`_getLocalBounds`](#getlocalbounds) 如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
+以便编辑器的场景视图可以正确地执行点选测试。
+  - [`onRestore`](#onrestore) onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
 <br/>
-If the component contains the "internal state", short for "temporary member variables which not included<br/>
-in its CCClass properties", then you may need to implement this function.<br/>
+如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
 <br/>
-The editor will call the getset accessors of your component to record/restore the component's state<br/>
-for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
-this function to manually synchronize your component's "internal states" with its public properties.<br/>
-Once you implement this function, all the getset accessors of your component will not be called when<br/>
-the user performs an undo/redo operation. Which means that only the properties with default value<br/>
-will be recorded or restored by editor.<br/>
+编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
+然而，在极端的情况下，它可能无法良好运作。<br/>
+那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
+一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
+这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
 <br/>
-Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
-to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
-properties in this function. Once you implement this function, all the getset accessors of your component<br/>
-will not be called during reset operation. Which means that only the properties with default value<br/>
-will be reset by editor.
-
-This function is only called in editor mode.
-  - [`schedule`](#schedule) Schedules a custom selector.<br/>
-If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
-  - [`scheduleOnce`](#scheduleonce) Schedules a callback function that runs only once, with a delay of 0 or larger.
-  - [`unschedule`](#unschedule) Unschedules a custom callback function.
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
-Actions are not affected by this method.
-  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
+同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
+于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
+一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
+这意味着仅仅指定了默认值的属性将被编辑器重置。
 <br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+此方法仅在编辑器下会被调用。
+  - [`schedule`](#schedule) 调度一个自定义的回调函数。<br/>
+如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
+  - [`scheduleOnce`](#scheduleonce) 调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
+  - [`unschedule`](#unschedule) 取消调度一个自定义的回调函数。
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
+  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -170,7 +160,7 @@ all event callbacks will be removed in _onPreDestroy
 
 ##### node
 
-> The node this component is attached to. A component is always attached to a node.
+> 该组件被附加到的节点。组件总会附加到一个节点。
 
 | meta | description |
 |------|-------------|
@@ -186,7 +176,7 @@ cc.log(comp.node);
 
 ##### uuid
 
-> The uuid for editor.
+> 组件的 uuid，用于编辑器。
 
 | meta | description |
 |------|-------------|
@@ -213,7 +203,7 @@ cc.log(comp.uuid);
 
 ##### enabled
 
-> indicates whether this component is enabled or not.
+> 表示该组件自身是否启用。
 
 | meta | description |
 |------|-------------|
@@ -230,7 +220,7 @@ cc.log(comp.enabled);
 
 ##### enabledInHierarchy
 
-> indicates whether this component is enabled and its node is also active in the hierarchy.
+> 表示该组件是否被启用并且所在的节点也处于激活状态。
 
 | meta | description |
 |------|-------------|
@@ -246,7 +236,7 @@ cc.log(comp.enabledInHierarchy);
 
 ##### _isOnLoadCalled
 
-> Returns a value which used to indicate the onLoad get called or not.
+> 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
 
 | meta | description |
 |------|-------------|
@@ -284,7 +274,7 @@ cc.log(this._isOnLoadCalled > 0);
 
 ##### name
 
-> The name of the object.
+> 该对象的名称。
 
 | meta | description |
 |------|-------------|
@@ -300,7 +290,7 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> Indicates whether the object is not yet destroyed.
+> 表示该对象是否可用（被销毁后将不可用）。
 
 | meta | description |
 |------|-------------|
@@ -323,7 +313,7 @@ cc.log(obj.isValid);
 
 ##### getLayerName
 
-Gets the layer name.
+获取层的名称。
 
 | meta | description |
 |------|-------------|
@@ -340,7 +330,7 @@ cc.log(layerName);
 
 ##### SetLayerName
 
-Set the layer name.
+设置层的名称
 
 | meta | description |
 |------|-------------|
@@ -357,7 +347,7 @@ tiledLayer.setLayerName("New Layer");
 
 ##### getProperty
 
-Return the value for the specific property name.
+获取指定属性名的值。
 
 | meta | description |
 |------|-------------|
@@ -376,7 +366,7 @@ cc.log(property);
 
 ##### getPositionAt
 
-Returns the position in pixels of a given tile coordinate.
+获取指定 tile 的像素坐标。
 
 | meta | description |
 |------|-------------|
@@ -398,7 +388,7 @@ cc.log("Pos: " + pos);
 
 ##### removeTileAt
 
-Removes a tile at given tile coordinate.
+删除指定坐标上的 tile。
 
 | meta | description |
 |------|-------------|
@@ -417,9 +407,9 @@ tiledLayer.removeTileAt(0, 0);
 
 ##### setTileGID
 
-Sets the tile gid (gid = tile global id) at a given tile coordinate.<br />
-The Tile GID can be obtained by using the method "tileGIDAt" or by using the TMX editor . Tileset Mgr +1.<br />
-If a tile is already placed at that position, then it will be removed.
+设置给定坐标的 tile 的 gid (gid = tile 全局 id)，
+tile 的 GID 可以使用方法 “tileGIDAt” 来获得。<br />
+如果一个 tile 已经放在那个位置，那么它将被删除。
 
 | meta | description |
 |------|-------------|
@@ -439,9 +429,9 @@ tiledLayer.setTileGID(1001, 10, 10, 1)
 
 ##### getTileGIDAt
 
-Returns the tile gid at a given tile coordinate. <br />
-if it returns 0, it means that the tile is empty. <br />
-This method requires the the tile map has not been previously released (eg. don't call layer.releaseMap())<br />
+通过给定的 tile 坐标、flags（可选）返回 tile 的 GID. <br />
+如果它返回 0，则表示该 tile 为空。<br />
+该方法要求 tile 地图之前没有被释放过(如：没有调用过layer.releaseMap()).
 
 | meta | description |
 |------|-------------|
@@ -460,12 +450,11 @@ var tileGid = tiledLayer.getTileGIDAt(0, 0);
 
 ##### getTileAt
 
-Returns the tile (_ccsg.Sprite) at a given a tile coordinate. <br/>
-The returned _ccsg.Sprite will be already added to the _ccsg.TMXLayer. Don't add it again.<br/>
-The _ccsg.Sprite can be treated like any other _ccsg.Sprite: rotated, scaled, translated, opacity, color, etc. <br/>
-You can remove either by calling: <br/>
-- layer.removeChild(sprite, cleanup); <br/>
-- or layer.removeTileAt(ccp(x,y));
+通过指定的 tile 坐标获取对应的 tile(Sprite)。 返回的 tile(Sprite) 应是已经添加到 TMXLayer，请不要重复添加。<br/>
+这个 tile(Sprite) 如同其他的 Sprite 一样，可以旋转、缩放、翻转、透明化、设置颜色等。<br/>
+你可以通过调用以下方法来对它进行删除:<br/>
+1. layer.removeChild(sprite, cleanup);<br/>
+2. 或 layer.removeTileAt(cc.v2(x,y));
 
 | meta | description |
 |------|-------------|
@@ -485,9 +474,9 @@ cc.log(title);
 
 ##### releaseMap
 
-Dealloc the map that contains the tile position from memory. <br />
-Unless you want to know at runtime the tiles positions, you can safely call this method. <br />
-If you are going to call layer.getTileGIDAt() then, don't release the map.
+从内存中释放包含 tile 位置信息的地图。<br />
+除了在运行时想要知道 tiles 的位置信息外，你都可安全的调用此方法。<br />
+如果你之后还要调用 layer.tileGIDAt(), 请不要释放地图.
 
 | meta | description |
 |------|-------------|
@@ -502,7 +491,7 @@ tiledLayer.releaseMap();
 
 ##### setContentSize
 
-Sets the untransformed size of the _ccsg.TMXLayer.
+设置未转换的 layer 大小。
 
 | meta | description |
 |------|-------------|
@@ -520,7 +509,7 @@ tiledLayer.setContentSize(100, 100);
 
 ##### getTexture
 
-Return texture of cc.SpriteBatchNode.
+获取纹理。
 
 | meta | description |
 |------|-------------|
@@ -537,7 +526,7 @@ cc.log("Texture: " + texture);
 
 ##### setTexture
 
-Set the texture of cc.SpriteBatchNode.
+设置纹理。
 
 | meta | description |
 |------|-------------|
@@ -554,7 +543,7 @@ tiledLayer.setTexture(texture);
 
 ##### setTileOpacity
 
-Set the opacity of all tiles
+设置所有 Tile 的透明度
 
 | meta | description |
 |------|-------------|
@@ -571,7 +560,7 @@ tiledLayer.setTileOpacity(128);
 
 ##### getLayerSize
 
-Gets layer size.
+获得层大小。
 
 | meta | description |
 |------|-------------|
@@ -588,7 +577,7 @@ cc.log("layer size: " + size);
 
 ##### setLayerSize
 
-Set layer size.
+设置层大小。
 
 | meta | description |
 |------|-------------|
@@ -605,7 +594,7 @@ tiledLayer.setLayerSize(new cc.size(5, 5));
 
 ##### getMapTileSize
 
-Size of the map's tile (could be different from the tile's size).
+获取 tile 的大小( tile 的大小可能会有所不同)。
 
 | meta | description |
 |------|-------------|
@@ -622,7 +611,7 @@ cc.log("MapTile size: " + mapTileSize);
 
 ##### setMapTileSize
 
-Set the map tile size.
+设置 tile 的大小。
 
 | meta | description |
 |------|-------------|
@@ -639,7 +628,7 @@ tiledLayer.setMapTileSize(new cc.size(10, 10));
 
 ##### getTiles
 
-Pointer to the map of tiles.
+获取地图 tiles。
 
 | meta | description |
 |------|-------------|
@@ -655,7 +644,7 @@ var tiles = tiledLayer.getTiles();
 
 ##### setTiles
 
-Pointer to the map of tiles.
+设置地图 tiles
 
 | meta | description |
 |------|-------------|
@@ -672,7 +661,7 @@ tiledLayer.setTiles(tiles);
 
 ##### getTileSet
 
-Tile set information for the layer.
+获取 layer 的 Tileset 信息。
 
 | meta | description |
 |------|-------------|
@@ -688,7 +677,7 @@ var tileset = tiledLayer.getTileSet();
 
 ##### setTileSet
 
-Tile set information for the layer.
+设置 layer 的 Tileset 信息。
 
 | meta | description |
 |------|-------------|
@@ -705,7 +694,7 @@ tiledLayer.setTileSet(tileset);
 
 ##### getLayerOrientation
 
-Layer orientation, which is the same as the map orientation.
+获取 Layer 方向(同地图方向)。
 
 | meta | description |
 |------|-------------|
@@ -722,7 +711,7 @@ cc.log("Layer Orientation: " + orientation);
 
 ##### setLayerOrientation
 
-Layer orientation, which is the same as the map orientation.
+设置 Layer 方向(同地图方向)。
 
 | meta | description |
 |------|-------------|
@@ -739,7 +728,7 @@ tiledLayer.setLayerOrientation(TiledMap.Orientation.ORTHO);
 
 ##### getProperties
 
-properties from the layer. They can be added using Tiled.
+获取 layer 的属性，可以使用 Tiled 编辑器添加属性。
 
 | meta | description |
 |------|-------------|
@@ -756,7 +745,7 @@ cc.log("Properties: " + properties);
 
 ##### setProperties
 
-properties from the layer. They can be added using Tiled.
+设置层属性。
 
 | meta | description |
 |------|-------------|
@@ -805,7 +794,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 ##### update
 
-Update is called every frame, if the Component is enabled.
+如果该组件启用，则每帧调用 update。
 
 | meta | description |
 |------|-------------|
@@ -817,7 +806,7 @@ Update is called every frame, if the Component is enabled.
 
 ##### lateUpdate
 
-LateUpdate is called every frame, if the Component is enabled.
+如果该组件启用，则每帧调用 LateUpdate。
 
 | meta | description |
 |------|-------------|
@@ -840,8 +829,7 @@ This method should be removed if script priority is supported.
 
 ##### onLoad
 
-When attaching to an active node or its node first activated.
-onLoad is always called before any start functions, this allows you to order initialization of scripts.
+当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
 
 | meta | description |
 |------|-------------|
@@ -851,8 +839,7 @@ onLoad is always called before any start functions, this allows you to order ini
 
 ##### start
 
-Called before all scripts' update if the Component is enabled the first time.
-Usually used to initialize some logic which need to be called after all components' `onload` methods called.
+如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
 
 | meta | description |
 |------|-------------|
@@ -862,7 +849,7 @@ Usually used to initialize some logic which need to be called after all componen
 
 ##### onEnable
 
-Called when this component becomes enabled and its node is active.
+当该组件被启用，并且它的节点也激活时。
 
 | meta | description |
 |------|-------------|
@@ -872,7 +859,7 @@ Called when this component becomes enabled and its node is active.
 
 ##### onDisable
 
-Called when this component becomes disabled or its node becomes inactive.
+当该组件被禁用或节点变为无效时调用。
 
 | meta | description |
 |------|-------------|
@@ -882,7 +869,7 @@ Called when this component becomes disabled or its node becomes inactive.
 
 ##### onDestroy
 
-Called when this component will be destroyed.
+当该组件被销毁时调用
 
 | meta | description |
 |------|-------------|
@@ -912,7 +899,7 @@ Called when this component will be destroyed.
 
 ##### resetInEditor
 
-Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
+用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
 
 | meta | description |
 |------|-------------|
@@ -922,7 +909,7 @@ Called to initialize the component or node’s properties when adding the compon
 
 ##### addComponent
 
-Adds a component class to the node. You can also add component to node by passing in the name of the script.
+向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
 
 | meta | description |
 |------|-------------|
@@ -941,8 +928,8 @@ var test = node.addComponent("Test");
 
 ##### getComponent
 
-Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
-You can also get component in the node by passing in the name of the script.
+获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
+传入参数也可以是脚本的名称。
 
 | meta | description |
 |------|-------------|
@@ -963,7 +950,7 @@ var test = node.getComponent("Test");
 
 ##### getComponents
 
-Returns all components of supplied Type in the node.
+返回节点上指定类型的所有组件。
 
 | meta | description |
 |------|-------------|
@@ -982,7 +969,7 @@ var tests = node.getComponents("Test");
 
 ##### getComponentInChildren
 
-Returns the component of supplied type in any of its children using depth first search.
+递归查找所有子节点中第一个匹配指定类型的组件。
 
 | meta | description |
 |------|-------------|
@@ -1001,7 +988,7 @@ var Test = node.getComponentInChildren("Test");
 
 ##### getComponentsInChildren
 
-Returns the components of supplied type in self or any of its children using depth first search.
+递归查找自身或所有子节点中指定类型的组件
 
 | meta | description |
 |------|-------------|
@@ -1020,8 +1007,8 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### _getLocalBounds
 
-If the component's bounding box is different from the node's, you can implement this method to supply
-a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
+如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
+以便编辑器的场景视图可以正确地执行点选测试。
 
 | meta | description |
 |------|-------------|
@@ -1033,26 +1020,22 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 
 ##### onRestore
 
-onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
-an undo operation on this component.<br/>
+onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
 <br/>
-If the component contains the "internal state", short for "temporary member variables which not included<br/>
-in its CCClass properties", then you may need to implement this function.<br/>
+如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
 <br/>
-The editor will call the getset accessors of your component to record/restore the component's state<br/>
-for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
-this function to manually synchronize your component's "internal states" with its public properties.<br/>
-Once you implement this function, all the getset accessors of your component will not be called when<br/>
-the user performs an undo/redo operation. Which means that only the properties with default value<br/>
-will be recorded or restored by editor.<br/>
+编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
+然而，在极端的情况下，它可能无法良好运作。<br/>
+那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
+一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
+这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
 <br/>
-Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
-to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
-properties in this function. Once you implement this function, all the getset accessors of your component<br/>
-will not be called during reset operation. Which means that only the properties with default value<br/>
-will be reset by editor.
-
-This function is only called in editor mode.
+同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
+于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
+一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
+这意味着仅仅指定了默认值的属性将被编辑器重置。
+<br/>
+此方法仅在编辑器下会被调用。
 
 | meta | description |
 |------|-------------|
@@ -1062,8 +1045,8 @@ This function is only called in editor mode.
 
 ##### schedule
 
-Schedules a custom selector.<br/>
-If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
+调度一个自定义的回调函数。<br/>
+如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
 
 | meta | description |
 |------|-------------|
@@ -1086,7 +1069,7 @@ this.schedule(timeCallback, 1);
 
 ##### scheduleOnce
 
-Schedules a callback function that runs only once, with a delay of 0 or larger.
+调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
 
 | meta | description |
 |------|-------------|
@@ -1107,7 +1090,7 @@ this.scheduleOnce(timeCallback, 2);
 
 ##### unschedule
 
-Unschedules a custom callback function.
+取消调度一个自定义的回调函数。
 
 | meta | description |
 |------|-------------|
@@ -1124,8 +1107,7 @@ this.unschedule(_callback);
 
 ##### unscheduleAllCallbacks
 
-unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
-Actions are not affected by this method.
+取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
 
 | meta | description |
 |------|-------------|
@@ -1140,11 +1122,9 @@ this.unscheduleAllCallbacks();
 
 ##### destroy
 
-Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
 
 | meta | description |
 |------|-------------|

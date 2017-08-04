@@ -8,7 +8,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-user protocol
+用户系统协议接口
 
 ### Index
 
@@ -16,49 +16,35 @@ user protocol
 
 ##### Methods
 
-  - [`login`](#login) login interface
-  - [`isLogined`](#islogined) get status of login
-  - [`getUserID`](#getuserid) get user ID
-  - [`getPluginId`](#getpluginid) get plugin ID
-  - [`setListener`](#setlistener) set listener
-  - [`getListener`](#getlistener) get listener
-  - [`logout`](#logout) logout
-Before to invoke, you need to verdict whether this properties existed
-  - [`showToolBar`](#showtoolbar) show toolbar
-Before to invoke, you need to verdict whether this properties existed
-  - [`hideToolBar`](#hidetoolbar) hide toolbar
-Before to invoke, you need to verdict whether this properties existed
-  - [`enterPlatform`](#enterplatform) enter platform
-Before to invoke, you need to verdict whether this properties existed
-  - [`exit`](#exit) show exit page
-Before to invoke, you need to verdict whether this properties existed
-  - [`pause`](#pause) show pause page
-Before to invoke, you need to verdict whether this properties existed
-  - [`realNameRegister`](#realnameregister) Real-name registration
-Before to invoke, you need to verdict whether this properties existed
-  - [`antiAddictionQuery`](#antiaddictionquery) Anti-addiction query
-Before to invoke, you need to verdict whether this properties existed
-  - [`submitLoginGameRole`](#submitlogingamerole) submit game role information
-Before to invoke, you need to verdict whether this properties existed
-  - [`getUserInfo`](#getuserinfo) get user information
-Before to invoke, you need to verdict whether this properties existed
-  - [`getAvailableLoginType`](#getavailablelogintype) set login type
-Before to invoke, you need to verdict whether this properties existed
-  - [`setLoginType`](#setlogintype) set login type
-Before to invoke, you need to verdict whether this properties existed
-  - [`sendToDesktop`](#sendtodesktop) send to desktop
-Before to invoke, you need to verdict whether this properties existed
-  - [`openBBS`](#openbbs) open bbs
-Before to invoke, you need to verdict whether this properties existed
-  - [`isFunctionSupported`](#isfunctionsupported) Check whether the function is supported
-  - [`getPluginName`](#getpluginname) get plugin name
-  - [`getPluginVersion`](#getpluginversion) get plugin version
-  - [`getSDKVersion`](#getsdkversion) get SDK version
-  - [`callFuncWithParam`](#callfuncwithparam) void methods for reflections with parameter
-  - [`callStringFuncWithParam`](#callstringfuncwithparam) String methods for reflections with parameter
-  - [`callIntFuncWithParam`](#callintfuncwithparam) int methods for reflections with parameter
-  - [`callBoolFuncWithParam`](#callboolfuncwithparam) boolean methods for reflections with parameter
-  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) float methods for reflections with parameter
+  - [`login`](#login) 登录接口
+  - [`isLogined`](#islogined) 获取登录状态
+  - [`getUserID`](#getuserid) 获取用户唯一标示符
+  - [`getPluginId`](#getpluginid) 获取插件ID
+  - [`setListener`](#setlistener) 设置用户系统的监听
+  - [`getListener`](#getlistener) 获取用户系统的监听
+  - [`logout`](#logout) 登出，调用前需要判断属性是否存在
+  - [`showToolBar`](#showtoolbar) 显示悬浮窗，调用前需要判断属性是否存在
+  - [`hideToolBar`](#hidetoolbar) 隐藏悬浮窗，调用前需要判断属性是否存在
+  - [`enterPlatform`](#enterplatform) 显示平台中心，调用前需要判断属性是否存在
+  - [`exit`](#exit) 显示退出界面，调用前需要判断属性是否存在
+  - [`pause`](#pause) 显示暂停界面，调用前需要判断属性是否存在
+  - [`realNameRegister`](#realnameregister) 实名注册，调用前需要判断属性是否存在
+  - [`antiAddictionQuery`](#antiaddictionquery) 防沉迷查询，调用前需要判断属性是否存在
+  - [`submitLoginGameRole`](#submitlogingamerole) 提交角色信息，调用前需要判断属性是否存在
+  - [`getUserInfo`](#getuserinfo) 获取用户信息，调用前需要判断属性是否存在
+  - [`getAvailableLoginType`](#getavailablelogintype) 设置登录类型，调用前需要判断属性是否存在
+  - [`setLoginType`](#setlogintype) 设置登录类型，调用前需要判断属性是否存在
+  - [`sendToDesktop`](#sendtodesktop) 发送到桌面，调用前需要判断属性是否存在
+  - [`openBBS`](#openbbs) 打开论坛，调用前需要判断属性是否存在
+  - [`isFunctionSupported`](#isfunctionsupported) 判断函数是否支持
+  - [`getPluginName`](#getpluginname) 获取插件名称
+  - [`getPluginVersion`](#getpluginversion) 获取插件版本
+  - [`getSDKVersion`](#getsdkversion) 获取 SDK 版本
+  - [`callFuncWithParam`](#callfuncwithparam) 反射调用带参数的void方法
+  - [`callStringFuncWithParam`](#callstringfuncwithparam) 反射调用带参数的 String 方法
+  - [`callIntFuncWithParam`](#callintfuncwithparam) 反射调用带参数的 Int 方法
+  - [`callBoolFuncWithParam`](#callboolfuncwithparam) 反射调用带参数的 boolean 方法
+  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) 反射调用带参数的 float 方法
 
 
 
@@ -73,7 +59,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### login
 
-login interface
+登录接口
 
 | meta | description |
 |------|-------------|
@@ -85,7 +71,7 @@ login interface
 
 ##### isLogined
 
-get status of login
+获取登录状态
 
 | meta | description |
 |------|-------------|
@@ -96,7 +82,7 @@ get status of login
 
 ##### getUserID
 
-get user ID
+获取用户唯一标示符
 
 | meta | description |
 |------|-------------|
@@ -107,7 +93,7 @@ get user ID
 
 ##### getPluginId
 
-get plugin ID
+获取插件ID
 
 | meta | description |
 |------|-------------|
@@ -118,7 +104,7 @@ get plugin ID
 
 ##### setListener
 
-set listener
+设置用户系统的监听
 
 | meta | description |
 |------|-------------|
@@ -131,7 +117,7 @@ set listener
 
 ##### getListener
 
-get listener
+获取用户系统的监听
 
 | meta | description |
 |------|-------------|
@@ -142,8 +128,7 @@ get listener
 
 ##### logout
 
-logout
-Before to invoke, you need to verdict whether this properties existed
+登出，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -153,8 +138,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### showToolBar
 
-show toolbar
-Before to invoke, you need to verdict whether this properties existed
+显示悬浮窗，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -166,8 +150,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### hideToolBar
 
-hide toolbar
-Before to invoke, you need to verdict whether this properties existed
+隐藏悬浮窗，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -177,8 +160,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### enterPlatform
 
-enter platform
-Before to invoke, you need to verdict whether this properties existed
+显示平台中心，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -188,8 +170,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### exit
 
-show exit page
-Before to invoke, you need to verdict whether this properties existed
+显示退出界面，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -199,8 +180,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### pause
 
-show pause page
-Before to invoke, you need to verdict whether this properties existed
+显示暂停界面，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -210,8 +190,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### realNameRegister
 
-Real-name registration
-Before to invoke, you need to verdict whether this properties existed
+实名注册，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -221,8 +200,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### antiAddictionQuery
 
-Anti-addiction query
-Before to invoke, you need to verdict whether this properties existed
+防沉迷查询，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -232,8 +210,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### submitLoginGameRole
 
-submit game role information
-Before to invoke, you need to verdict whether this properties existed
+提交角色信息，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -245,8 +222,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### getUserInfo
 
-get user information
-Before to invoke, you need to verdict whether this properties existed
+获取用户信息，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -258,8 +234,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### getAvailableLoginType
 
-set login type
-Before to invoke, you need to verdict whether this properties existed
+设置登录类型，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -271,8 +246,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### setLoginType
 
-set login type
-Before to invoke, you need to verdict whether this properties existed
+设置登录类型，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -284,8 +258,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### sendToDesktop
 
-send to desktop
-Before to invoke, you need to verdict whether this properties existed
+发送到桌面，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -295,8 +268,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### openBBS
 
-open bbs
-Before to invoke, you need to verdict whether this properties existed
+打开论坛，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -306,7 +278,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### isFunctionSupported
 
-Check whether the function is supported
+判断函数是否支持
 
 | meta | description |
 |------|-------------|
@@ -319,7 +291,7 @@ Check whether the function is supported
 
 ##### getPluginName
 
-get plugin name
+获取插件名称
 
 | meta | description |
 |------|-------------|
@@ -330,7 +302,7 @@ get plugin name
 
 ##### getPluginVersion
 
-get plugin version
+获取插件版本
 
 | meta | description |
 |------|-------------|
@@ -341,7 +313,7 @@ get plugin version
 
 ##### getSDKVersion
 
-get SDK version
+获取 SDK 版本
 
 | meta | description |
 |------|-------------|
@@ -352,7 +324,7 @@ get SDK version
 
 ##### callFuncWithParam
 
-void methods for reflections with parameter
+反射调用带参数的void方法
 
 | meta | description |
 |------|-------------|
@@ -365,7 +337,7 @@ void methods for reflections with parameter
 
 ##### callStringFuncWithParam
 
-String methods for reflections with parameter
+反射调用带参数的 String 方法
 
 | meta | description |
 |------|-------------|
@@ -379,7 +351,7 @@ String methods for reflections with parameter
 
 ##### callIntFuncWithParam
 
-int methods for reflections with parameter
+反射调用带参数的 Int 方法
 
 | meta | description |
 |------|-------------|
@@ -393,7 +365,7 @@ int methods for reflections with parameter
 
 ##### callBoolFuncWithParam
 
-boolean methods for reflections with parameter
+反射调用带参数的 boolean 方法
 
 | meta | description |
 |------|-------------|
@@ -407,7 +379,7 @@ boolean methods for reflections with parameter
 
 ##### callFloatFuncWithParam
 
-float methods for reflections with parameter
+反射调用带参数的 float 方法
 
 | meta | description |
 |------|-------------|

@@ -45,80 +45,67 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 When you load resources with <a href="../classes/loader.html#method_load" class="crosslink">load</a> or <a href="../classes/loader.html#method_loadRes" class="crosslink">loadRes</a>,
 the url will be the unique identity of the resource.
 After loaded, you can acquire them by passing the url to this API.
-  - [`getDependsRecursively`](#getdependsrecursively) Get all resource dependencies of the requested asset in an array, including itself.
-The owner parameter accept the following types: 1. The asset itself; 2. The resource url; 3. The asset's uuid.<br>
-The returned array stores the dependencies with their uuids, after retrieve dependencies,
-you can release them, access dependent assets by passing the uuid to <a href="../classes/loader.html#method_getRes" class="crosslink">getRes</a>, or other stuffs you want.<br>
-For release all dependencies of an asset, please refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a>
-Here is some examples:
-  - [`release`](#release) Release the content of an asset or an array of assets by uuid.
-Start from v1.3, this method will not only remove the cache of the asset in loader, but also clean up its content.
-For example, if you release a texture, the texture asset and its gl texture data will be freed up.
-In complexe project, you can use this function with <a href="../classes/loader.html#method_getDependsRecursively" class="crosslink">getDependsRecursively</a> to free up memory in critical circumstances.
-Notice, this method may cause the texture to be unusable, if there are still other nodes use the same texture, they may turn to black and report gl errors.
-If you only want to remove the cache of an asset, please use Pipeline/removeItem:method
-  - [`releaseAsset`](#releaseasset) Release the asset by its object. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
-  - [`releaseRes`](#releaseres) Release the asset loaded by <a href="../classes/loader.html#method_loadRes" class="crosslink">loadRes</a>. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
-  - [`releaseResDir`](#releaseresdir) Release the all assets loaded by <a href="../classes/loader.html#method_loadResDir" class="crosslink">loadResDir</a>. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
-  - [`releaseAll`](#releaseall) Resource all assets. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
-  - [`setAutoRelease`](#setautorelease) Indicates whether to release the asset when loading a new scene.<br>
-By default, when loading a new scene, all assets in the previous scene will be released or preserved
-according to whether the previous scene checked the "Auto Release Assets" option.
-On the other hand, assets dynamically loaded by using `cc.loader.loadRes` or `cc.loader.loadResDir`
-will not be affected by that option, remain not released by default.<br>
-Use this API to change the default behavior on a single asset, to force preserve or release specified asset when scene switching.<br>
+  - [`getDependsRecursively`](#getdependsrecursively) 获取一个指定资源的所有依赖资源，包含它自身，并保存在数组中返回。owner 参数接收以下几种类型：1. 资源 asset 对象；2. 资源目录下的 url；3. 资源的 uuid。<br>
+返回的数组将仅保存依赖资源的 uuid，获取这些 uuid 后，你可以从 loader 释放这些资源；通过 <a href="../classes/loader.html#method_getRes" class="crosslink">getRes</a> 获取某个资源或者进行其他你需要的操作。<br>
+想要释放一个资源及其依赖资源，可以参考 <a href="../classes/loader.html#method_release" class="crosslink">release</a>。下面是一些示例代码：
+  - [`release`](#release) 通过 id（通常是资源 url）来释放一个资源或者一个资源数组。
+从 v1.3 开始，这个方法不仅会从 loader 中删除资源的缓存引用，还会清理它的资源内容。
+比如说，当你释放一个 texture 资源，这个 texture 和它的 gl 贴图数据都会被释放。
+在复杂项目中，我们建议你结合 <a href="../classes/loader.html#method_getDependsRecursively" class="crosslink">getDependsRecursively</a> 来使用，便于在设备内存告急的情况下更快地释放不再需要的资源的内存。
+注意，这个函数可能会导致资源贴图或资源所依赖的贴图不可用，如果场景中存在节点仍然依赖同样的贴图，它们可能会变黑并报 GL 错误。
+如果你只想删除一个资源的缓存引用，请使用 Pipeline/removeItem:method
+  - [`releaseAsset`](#releaseasset) 通过资源对象自身来释放资源。详细信息请参考 <a href="../classes/loader.html#method_release" class="crosslink">release</a>
+  - [`releaseRes`](#releaseres) 释放通过 <a href="../classes/loader.html#method_loadRes" class="crosslink">loadRes</a> 加载的资源。详细信息请参考 <a href="../classes/loader.html#method_release" class="crosslink">release</a>
+  - [`releaseResDir`](#releaseresdir) 释放通过 <a href="../classes/loader.html#method_loadResDir" class="crosslink">loadResDir</a> 加载的资源。详细信息请参考 <a href="../classes/loader.html#method_release" class="crosslink">release</a>
+  - [`releaseAll`](#releaseall) 释放所有资源。详细信息请参考 <a href="../classes/loader.html#method_release" class="crosslink">release</a>
+  - [`setAutoRelease`](#setautorelease) 设置当场景切换时是否自动释放资源。<br>
+默认情况下，当加载新场景时，旧场景的资源根据旧场景是否勾选“Auto Release Assets”，将会被释放或者保留。
+而使用 `cc.loader.loadRes` 或 `cc.loader.loadResDir` 动态加载的资源，则不受场景设置的影响，默认不自动释放。<br>
+使用这个 API 可以在单个资源上改变这个默认行为，强制在切换场景时保留或者释放指定资源。<br>
 <br>
-See: <a href="../classes/loader.html#method_setAutoReleaseRecursively" class="crosslink">cc.loader.setAutoReleaseRecursively</a>, <a href="../classes/loader.html#method_isAutoRelease" class="crosslink">cc.loader.isAutoRelease</a>
-  - [`setAutoReleaseRecursively`](#setautoreleaserecursively) Indicates whether to release the asset and its referenced other assets when loading a new scene.<br>
-By default, when loading a new scene, all assets in the previous scene will be released or preserved
-according to whether the previous scene checked the "Auto Release Assets" option.
-On the other hand, assets dynamically loaded by using `cc.loader.loadRes` or `cc.loader.loadResDir`
-will not be affected by that option, remain not released by default.<br>
-Use this API to change the default behavior on the specified asset and its recursively referenced assets, to force preserve or release specified asset when scene switching.<br>
+参考：<a href="../classes/loader.html#method_setAutoReleaseRecursively" class="crosslink">cc.loader.setAutoReleaseRecursively</a>，<a href="../classes/loader.html#method_isAutoRelease" class="crosslink">cc.loader.isAutoRelease</a>
+  - [`setAutoReleaseRecursively`](#setautoreleaserecursively) 设置当场景切换时是否自动释放资源及资源引用的其它资源。<br>
+默认情况下，当加载新场景时，旧场景的资源根据旧场景是否勾选“Auto Release Assets”，将会被释放或者保留。
+而使用 `cc.loader.loadRes` 或 `cc.loader.loadResDir` 动态加载的资源，则不受场景设置的影响，默认不自动释放。<br>
+使用这个 API 可以在指定资源及资源递归引用到的所有资源上改变这个默认行为，强制在切换场景时保留或者释放指定资源。<br>
 <br>
-See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc.loader.setAutoRelease</a>, <a href="../classes/loader.html#method_isAutoRelease" class="crosslink">cc.loader.isAutoRelease</a>
-  - [`isAutoRelease`](#isautorelease) Returns whether the asset is configured as auto released, despite how "Auto Release Assets" property is set on scene asset.<br>
+参考：<a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc.loader.setAutoRelease</a>，<a href="../classes/loader.html#method_isAutoRelease" class="crosslink">cc.loader.isAutoRelease</a>
+  - [`isAutoRelease`](#isautorelease) 返回指定的资源是否有被设置为自动释放，不论场景的“Auto Release Assets”如何设置。<br>
 <br>
-See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc.loader.setAutoRelease</a>, <a href="../classes/loader.html#method_setAutoReleaseRecursively" class="crosslink">cc.loader.setAutoReleaseRecursively</a>
-  - [`constructor`](#constructor) Constructor, pass an array of pipes to construct a new Pipeline,
-the pipes will be chained in the given order.</br>
-A pipe is an object which must contain an `id` in string and a `handle` function,
-the id must be unique in the pipeline.</br>
-It can also include `async` property to identify whether it's an asynchronous process.
-  - [`insertPipe`](#insertpipe) Insert a new pipe at the given index of the pipeline. </br>
-A pipe must contain an `id` in string and a `handle` function, the id must be unique in the pipeline.
+参考：<a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc.loader.setAutoRelease</a>，<a href="../classes/loader.html#method_setAutoReleaseRecursively" class="crosslink">cc.loader.setAutoReleaseRecursively</a>
+  - [`constructor`](#constructor) 构造函数，通过一系列的 pipe 来构造一个新的 pipeline，pipes 将会在给定的顺序中被锁定。</br>
+一个 pipe 就是一个对象，它包含了字符串类型的 ‘id’ 和 ‘handle’ 函数，在 pipeline 中 id 必须是唯一的。</br>
+它还可以包括 ‘async’ 属性以确定它是否是一个异步过程。
+  - [`insertPipe`](#insertpipe) 在给定的索引位置插入一个新的 pipe。</br>
+一个 pipe 必须包含一个字符串类型的 ‘id’ 和 ‘handle’ 函数，该 id 在 pipeline 必须是唯一标识。
   - [`insertPipeAfter`](#insertpipeafter) !en
 Insert a pipe to the end of an existing pipe. The existing pipe must be a valid pipe in the pipeline.
 !zh
 在当前 pipeline 的一个已知 pipe 后面插入一个新的 pipe。
-  - [`appendPipe`](#appendpipe) Add a new pipe at the end of the pipeline. </br>
-A pipe must contain an `id` in string and a `handle` function, the id must be unique in the pipeline.
-  - [`flowIn`](#flowin) Let new items flow into the pipeline. </br>
-Each item can be a simple url string or an object,
-if it's an object, it must contain `id` property. </br>
-You can specify its type by `type` property, by default, the type is the extension name in url. </br>
-By adding a `skips` property including pipe ids, you can skip these pipe. </br>
-The object can contain any supplementary property as you want. </br>
-  - [`flowInDeps`](#flowindeps) Let new items flow into the pipeline and give a callback when the list of items are all completed. </br>
-This is for loading dependencies for an existing item in flow, usually used in a pipe logic. </br>
-For example, we have a loader for scene configuration file in JSON, the scene will only be fully loaded  </br>
-after all its dependencies are loaded, then you will need to use function to flow in all dependencies  </br>
-found in the configuration file, and finish the loader pipe only after all dependencies are loaded (in the callback).
-  - [`copyItemStates`](#copyitemstates) Copy the item states from one source item to all destination items. </br>
-It's quite useful when a pipe generate new items from one source item,</br>
-then you should flowIn these generated items into pipeline, </br>
-but you probably want them to skip all pipes the source item already go through,</br>
-you can achieve it with this API. </br>
-</br>
-For example, an unzip pipe will generate more items, but you won't want them to pass unzip or download pipe again.
-  - [`isFlowing`](#isflowing) Returns whether the pipeline is flowing (contains item) currently.
-  - [`getItems`](#getitems) Returns all items in pipeline. Returns null, please use API of Loader or LoadingItems.
-  - [`getItem`](#getitem) Returns an item in pipeline.
-  - [`removeItem`](#removeitem) Removes an completed item in pipeline.
-It will only remove the cache in the pipeline or loader, its dependencies won't be released.
-cc.loader provided another method to completely cleanup the resource and its dependencies,
-please refer to <a href="../classes/loader.html#method_release" class="crosslink">cc.loader.release</a>
-  - [`clear`](#clear) Clear the current pipeline, this function will clean up the items.
+  - [`appendPipe`](#appendpipe) 添加一个新的 pipe 到 pipeline 尾部。 </br>
+该 pipe 必须包含一个字符串类型 ‘id’ 和 ‘handle’ 函数，该 id 在 pipeline 必须是唯一标识。
+  - [`flowIn`](#flowin) 让新的 item 流入 pipeline 中。</br>
+这里的每个 item 可以是一个简单字符串类型的 url 或者是一个对象,
+如果它是一个对象的话，他必须要包含 ‘id’ 属性。</br>
+你也可以指定它的 ‘type’ 属性类型，默认情况下，该类型是 ‘url’ 的后缀名。</br>
+也通过添加一个 包含 ‘skips’ 属性的 item 对象，你就可以跳过 skips 中包含的 pipe。</br>
+该对象可以包含任何附加属性。
+  - [`flowInDeps`](#flowindeps) 让新 items 流入 pipeline 并且当 item 列表完成时进行回调函数。</br>
+这个 API 的使用通常是为了加载依赖项。</br>
+例如：</br>
+我们需要加载一个场景配置的 JSON 文件，该场景会将所有的依赖项全部都加载完毕以后，进行回调表示加载完毕。
+  - [`copyItemStates`](#copyitemstates) 从一个源 item 向所有目标 item 复制它的 pipe 状态，用于避免重复通过部分 pipe。</br>
+当一个源 item 生成了一系列新的 items 时很有用，</br>
+你希望让这些新的依赖项进入 pipeline，但是又不希望它们通过源 item 已经经过的 pipe，</br>
+但是你可能希望他们源 item 已经通过并跳过所有 pipes，</br>
+这个时候就可以使用这个 API。
+  - [`isFlowing`](#isflowing) 获取 pipeline 当前是否正在处理中。
+  - [`getItems`](#getitems) 获取 pipeline 中的所有 items。返回 null，请使用 Loader / LoadingItems API。
+  - [`getItem`](#getitem) 根据 id 获取一个 item
+  - [`removeItem`](#removeitem) 移除指定的已完成 item。
+这将仅仅从 pipeline 或者 loader 中删除其缓存，并不会释放它所依赖的资源。
+cc.loader 中提供了另一种删除资源及其依赖的清理方法，请参考 <a href="../classes/loader.html#method_release" class="crosslink">cc.loader.release</a>
+  - [`clear`](#clear) 清空当前 pipeline，该函数将清理 items。
 
 
 
@@ -421,12 +408,9 @@ After loaded, you can acquire them by passing the url to this API.
 
 ##### getDependsRecursively
 
-Get all resource dependencies of the requested asset in an array, including itself.
-The owner parameter accept the following types: 1. The asset itself; 2. The resource url; 3. The asset's uuid.<br>
-The returned array stores the dependencies with their uuids, after retrieve dependencies,
-you can release them, access dependent assets by passing the uuid to <a href="../classes/loader.html#method_getRes" class="crosslink">getRes</a>, or other stuffs you want.<br>
-For release all dependencies of an asset, please refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a>
-Here is some examples:
+获取一个指定资源的所有依赖资源，包含它自身，并保存在数组中返回。owner 参数接收以下几种类型：1. 资源 asset 对象；2. 资源目录下的 url；3. 资源的 uuid。<br>
+返回的数组将仅保存依赖资源的 uuid，获取这些 uuid 后，你可以从 loader 释放这些资源；通过 <a href="../classes/loader.html#method_getRes" class="crosslink">getRes</a> 获取某个资源或者进行其他你需要的操作。<br>
+想要释放一个资源及其依赖资源，可以参考 <a href="../classes/loader.html#method_release" class="crosslink">release</a>。下面是一些示例代码：
 
 | meta | description |
 |------|-------------|
@@ -455,12 +439,12 @@ for (var i = 0; i < deps.length; ++i) {
 
 ##### release
 
-Release the content of an asset or an array of assets by uuid.
-Start from v1.3, this method will not only remove the cache of the asset in loader, but also clean up its content.
-For example, if you release a texture, the texture asset and its gl texture data will be freed up.
-In complexe project, you can use this function with <a href="../classes/loader.html#method_getDependsRecursively" class="crosslink">getDependsRecursively</a> to free up memory in critical circumstances.
-Notice, this method may cause the texture to be unusable, if there are still other nodes use the same texture, they may turn to black and report gl errors.
-If you only want to remove the cache of an asset, please use Pipeline/removeItem:method
+通过 id（通常是资源 url）来释放一个资源或者一个资源数组。
+从 v1.3 开始，这个方法不仅会从 loader 中删除资源的缓存引用，还会清理它的资源内容。
+比如说，当你释放一个 texture 资源，这个 texture 和它的 gl 贴图数据都会被释放。
+在复杂项目中，我们建议你结合 <a href="../classes/loader.html#method_getDependsRecursively" class="crosslink">getDependsRecursively</a> 来使用，便于在设备内存告急的情况下更快地释放不再需要的资源的内存。
+注意，这个函数可能会导致资源贴图或资源所依赖的贴图不可用，如果场景中存在节点仍然依赖同样的贴图，它们可能会变黑并报 GL 错误。
+如果你只想删除一个资源的缓存引用，请使用 Pipeline/removeItem:method
 
 | meta | description |
 |------|-------------|
@@ -491,7 +475,7 @@ cc.loader.release(deps);
 
 ##### releaseAsset
 
-Release the asset by its object. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
+通过资源对象自身来释放资源。详细信息请参考 <a href="../classes/loader.html#method_release" class="crosslink">release</a>
 
 | meta | description |
 |------|-------------|
@@ -503,7 +487,7 @@ Release the asset by its object. Refer to <a href="../classes/loader.html#method
 
 ##### releaseRes
 
-Release the asset loaded by <a href="../classes/loader.html#method_loadRes" class="crosslink">loadRes</a>. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
+释放通过 <a href="../classes/loader.html#method_loadRes" class="crosslink">loadRes</a> 加载的资源。详细信息请参考 <a href="../classes/loader.html#method_release" class="crosslink">release</a>
 
 | meta | description |
 |------|-------------|
@@ -516,7 +500,7 @@ Release the asset loaded by <a href="../classes/loader.html#method_loadRes" clas
 
 ##### releaseResDir
 
-Release the all assets loaded by <a href="../classes/loader.html#method_loadResDir" class="crosslink">loadResDir</a>. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
+释放通过 <a href="../classes/loader.html#method_loadResDir" class="crosslink">loadResDir</a> 加载的资源。详细信息请参考 <a href="../classes/loader.html#method_release" class="crosslink">release</a>
 
 | meta | description |
 |------|-------------|
@@ -529,7 +513,7 @@ Release the all assets loaded by <a href="../classes/loader.html#method_loadResD
 
 ##### releaseAll
 
-Resource all assets. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
+释放所有资源。详细信息请参考 <a href="../classes/loader.html#method_release" class="crosslink">release</a>
 
 | meta | description |
 |------|-------------|
@@ -539,14 +523,12 @@ Resource all assets. Refer to <a href="../classes/loader.html#method_release" cl
 
 ##### setAutoRelease
 
-Indicates whether to release the asset when loading a new scene.<br>
-By default, when loading a new scene, all assets in the previous scene will be released or preserved
-according to whether the previous scene checked the "Auto Release Assets" option.
-On the other hand, assets dynamically loaded by using `cc.loader.loadRes` or `cc.loader.loadResDir`
-will not be affected by that option, remain not released by default.<br>
-Use this API to change the default behavior on a single asset, to force preserve or release specified asset when scene switching.<br>
+设置当场景切换时是否自动释放资源。<br>
+默认情况下，当加载新场景时，旧场景的资源根据旧场景是否勾选“Auto Release Assets”，将会被释放或者保留。
+而使用 `cc.loader.loadRes` 或 `cc.loader.loadResDir` 动态加载的资源，则不受场景设置的影响，默认不自动释放。<br>
+使用这个 API 可以在单个资源上改变这个默认行为，强制在切换场景时保留或者释放指定资源。<br>
 <br>
-See: <a href="../classes/loader.html#method_setAutoReleaseRecursively" class="crosslink">cc.loader.setAutoReleaseRecursively</a>, <a href="../classes/loader.html#method_isAutoRelease" class="crosslink">cc.loader.isAutoRelease</a>
+参考：<a href="../classes/loader.html#method_setAutoReleaseRecursively" class="crosslink">cc.loader.setAutoReleaseRecursively</a>，<a href="../classes/loader.html#method_isAutoRelease" class="crosslink">cc.loader.isAutoRelease</a>
 
 | meta | description |
 |------|-------------|
@@ -569,14 +551,12 @@ cc.loader.setAutoRelease(audioUrl, false);
 
 ##### setAutoReleaseRecursively
 
-Indicates whether to release the asset and its referenced other assets when loading a new scene.<br>
-By default, when loading a new scene, all assets in the previous scene will be released or preserved
-according to whether the previous scene checked the "Auto Release Assets" option.
-On the other hand, assets dynamically loaded by using `cc.loader.loadRes` or `cc.loader.loadResDir`
-will not be affected by that option, remain not released by default.<br>
-Use this API to change the default behavior on the specified asset and its recursively referenced assets, to force preserve or release specified asset when scene switching.<br>
+设置当场景切换时是否自动释放资源及资源引用的其它资源。<br>
+默认情况下，当加载新场景时，旧场景的资源根据旧场景是否勾选“Auto Release Assets”，将会被释放或者保留。
+而使用 `cc.loader.loadRes` 或 `cc.loader.loadResDir` 动态加载的资源，则不受场景设置的影响，默认不自动释放。<br>
+使用这个 API 可以在指定资源及资源递归引用到的所有资源上改变这个默认行为，强制在切换场景时保留或者释放指定资源。<br>
 <br>
-See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc.loader.setAutoRelease</a>, <a href="../classes/loader.html#method_isAutoRelease" class="crosslink">cc.loader.isAutoRelease</a>
+参考：<a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc.loader.setAutoRelease</a>，<a href="../classes/loader.html#method_isAutoRelease" class="crosslink">cc.loader.isAutoRelease</a>
 
 | meta | description |
 |------|-------------|
@@ -599,9 +579,9 @@ cc.loader.setAutoReleaseRecursively(prefab, false);
 
 ##### isAutoRelease
 
-Returns whether the asset is configured as auto released, despite how "Auto Release Assets" property is set on scene asset.<br>
+返回指定的资源是否有被设置为自动释放，不论场景的“Auto Release Assets”如何设置。<br>
 <br>
-See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc.loader.setAutoRelease</a>, <a href="../classes/loader.html#method_setAutoReleaseRecursively" class="crosslink">cc.loader.setAutoReleaseRecursively</a>
+参考：<a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc.loader.setAutoRelease</a>，<a href="../classes/loader.html#method_setAutoReleaseRecursively" class="crosslink">cc.loader.setAutoReleaseRecursively</a>
 
 | meta | description |
 |------|-------------|
@@ -614,11 +594,9 @@ See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc
 
 ##### constructor
 
-Constructor, pass an array of pipes to construct a new Pipeline,
-the pipes will be chained in the given order.</br>
-A pipe is an object which must contain an `id` in string and a `handle` function,
-the id must be unique in the pipeline.</br>
-It can also include `async` property to identify whether it's an asynchronous process.
+构造函数，通过一系列的 pipe 来构造一个新的 pipeline，pipes 将会在给定的顺序中被锁定。</br>
+一个 pipe 就是一个对象，它包含了字符串类型的 ‘id’ 和 ‘handle’ 函数，在 pipeline 中 id 必须是唯一的。</br>
+它还可以包括 ‘async’ 属性以确定它是否是一个异步过程。
 
 | meta | description |
 |------|-------------|
@@ -642,8 +620,8 @@ var pipeline = new Pipeline([
 
 ##### insertPipe
 
-Insert a new pipe at the given index of the pipeline. </br>
-A pipe must contain an `id` in string and a `handle` function, the id must be unique in the pipeline.
+在给定的索引位置插入一个新的 pipe。</br>
+一个 pipe 必须包含一个字符串类型的 ‘id’ 和 ‘handle’ 函数，该 id 在 pipeline 必须是唯一标识。
 
 | meta | description |
 |------|-------------|
@@ -672,8 +650,8 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 
 ##### appendPipe
 
-Add a new pipe at the end of the pipeline. </br>
-A pipe must contain an `id` in string and a `handle` function, the id must be unique in the pipeline.
+添加一个新的 pipe 到 pipeline 尾部。 </br>
+该 pipe 必须包含一个字符串类型 ‘id’ 和 ‘handle’ 函数，该 id 在 pipeline 必须是唯一标识。
 
 | meta | description |
 |------|-------------|
@@ -685,12 +663,12 @@ A pipe must contain an `id` in string and a `handle` function, the id must be un
 
 ##### flowIn
 
-Let new items flow into the pipeline. </br>
-Each item can be a simple url string or an object,
-if it's an object, it must contain `id` property. </br>
-You can specify its type by `type` property, by default, the type is the extension name in url. </br>
-By adding a `skips` property including pipe ids, you can skip these pipe. </br>
-The object can contain any supplementary property as you want. </br>
+让新的 item 流入 pipeline 中。</br>
+这里的每个 item 可以是一个简单字符串类型的 url 或者是一个对象,
+如果它是一个对象的话，他必须要包含 ‘id’ 属性。</br>
+你也可以指定它的 ‘type’ 属性类型，默认情况下，该类型是 ‘url’ 的后缀名。</br>
+也通过添加一个 包含 ‘skips’ 属性的 item 对象，你就可以跳过 skips 中包含的 pipe。</br>
+该对象可以包含任何附加属性。
 
 | meta | description |
 |------|-------------|
@@ -715,11 +693,10 @@ pipeline.flowIn([
 
 ##### flowInDeps
 
-Let new items flow into the pipeline and give a callback when the list of items are all completed. </br>
-This is for loading dependencies for an existing item in flow, usually used in a pipe logic. </br>
-For example, we have a loader for scene configuration file in JSON, the scene will only be fully loaded  </br>
-after all its dependencies are loaded, then you will need to use function to flow in all dependencies  </br>
-found in the configuration file, and finish the loader pipe only after all dependencies are loaded (in the callback).
+让新 items 流入 pipeline 并且当 item 列表完成时进行回调函数。</br>
+这个 API 的使用通常是为了加载依赖项。</br>
+例如：</br>
+我们需要加载一个场景配置的 JSON 文件，该场景会将所有的依赖项全部都加载完毕以后，进行回调表示加载完毕。
 
 | meta | description |
 |------|-------------|
@@ -734,13 +711,11 @@ found in the configuration file, and finish the loader pipe only after all depen
 
 ##### copyItemStates
 
-Copy the item states from one source item to all destination items. </br>
-It's quite useful when a pipe generate new items from one source item,</br>
-then you should flowIn these generated items into pipeline, </br>
-but you probably want them to skip all pipes the source item already go through,</br>
-you can achieve it with this API. </br>
-</br>
-For example, an unzip pipe will generate more items, but you won't want them to pass unzip or download pipe again.
+从一个源 item 向所有目标 item 复制它的 pipe 状态，用于避免重复通过部分 pipe。</br>
+当一个源 item 生成了一系列新的 items 时很有用，</br>
+你希望让这些新的依赖项进入 pipeline，但是又不希望它们通过源 item 已经经过的 pipe，</br>
+但是你可能希望他们源 item 已经通过并跳过所有 pipes，</br>
+这个时候就可以使用这个 API。
 
 | meta | description |
 |------|-------------|
@@ -753,7 +728,7 @@ For example, an unzip pipe will generate more items, but you won't want them to 
 
 ##### isFlowing
 
-Returns whether the pipeline is flowing (contains item) currently.
+获取 pipeline 当前是否正在处理中。
 
 | meta | description |
 |------|-------------|
@@ -765,7 +740,7 @@ Returns whether the pipeline is flowing (contains item) currently.
 
 ##### getItems
 
-Returns all items in pipeline. Returns null, please use API of Loader or LoadingItems.
+获取 pipeline 中的所有 items。返回 null，请使用 Loader / LoadingItems API。
 
 | meta | description |
 |------|-------------|
@@ -777,7 +752,7 @@ Returns all items in pipeline. Returns null, please use API of Loader or Loading
 
 ##### getItem
 
-Returns an item in pipeline.
+根据 id 获取一个 item
 
 | meta | description |
 |------|-------------|
@@ -790,10 +765,9 @@ Returns an item in pipeline.
 
 ##### removeItem
 
-Removes an completed item in pipeline.
-It will only remove the cache in the pipeline or loader, its dependencies won't be released.
-cc.loader provided another method to completely cleanup the resource and its dependencies,
-please refer to <a href="../classes/loader.html#method_release" class="crosslink">cc.loader.release</a>
+移除指定的已完成 item。
+这将仅仅从 pipeline 或者 loader 中删除其缓存，并不会释放它所依赖的资源。
+cc.loader 中提供了另一种删除资源及其依赖的清理方法，请参考 <a href="../classes/loader.html#method_release" class="crosslink">cc.loader.release</a>
 
 | meta | description |
 |------|-------------|
@@ -806,7 +780,7 @@ please refer to <a href="../classes/loader.html#method_release" class="crosslink
 
 ##### clear
 
-Clear the current pipeline, this function will clean up the items.
+清空当前 pipeline，该函数将清理 items。
 
 | meta | description |
 |------|-------------|

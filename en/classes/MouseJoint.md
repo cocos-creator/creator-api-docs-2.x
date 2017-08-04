@@ -9,106 +9,93 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-A mouse joint is used to make a point on a body track a
-specified world point. This a soft constraint with a maximum
-force. This allows the constraint to stretch and without
-applying huge forces.
-Mouse Joint will auto register the touch event with the mouse region node,
-and move the choosed rigidbody in touch move event.
-Note : generally mouse joint only used in test bed.
+鼠标关节用于使刚体上的一个点追踪一个指定的世界坐标系下的位置。
+鼠标关节可以指定一个最大的里来施加一个柔和的约束。
+鼠标关节会自动使用 mouse region 节点来注册鼠标事件，并且在触摸移动事件中移动选中的刚体。
+注意：一般鼠标关节只在测试环境中使用。
 
 ### Index
 
 ##### Properties
 
-  - [`anchor`](#anchor) `Vec2` The anchor of the rigidbody.
-  - [`connectedAnchor`](#connectedanchor) `Vec2` The anchor of the connected rigidbody.
-  - [`mouseRegion`](#mouseregion) `Node` The node used to register touch evnet.
-If this is null, it will be the joint's node.
-  - [`target`](#target) `Vec2` The target point.
-The mouse joint will move choosed rigidbody to target point.
-  - [`frequency`](#frequency) `Number` The spring frequency.
-  - [`0`](#0) `Number` The damping ratio.
-  - [`maxForce`](#maxforce) `Number` The maximum force
-  - [`connectedBody`](#connectedbody) `RigidBody` The rigidbody to which the other end of the joint is attached.
-  - [`collideConnected`](#collideconnected) `Boolean` Should the two rigid bodies connected with this joint collide with each other?
+  - [`anchor`](#anchor) `Vec2` 刚体的锚点。
+  - [`connectedAnchor`](#connectedanchor) `Vec2` 关节另一端刚体的锚点。
+  - [`mouseRegion`](#mouseregion) `Node` 用于注册触摸事件的节点。
+如果没有设置这个值，那么将会使用关节的节点来注册事件。
+  - [`target`](#target) `Vec2` 目标点，鼠标关节将会移动选中的刚体到指定的目标点
+  - [`frequency`](#frequency) `Number` 弹簧系数。
+  - [`0`](#0) `Number` 阻尼，表示关节变形后，恢复到初始状态受到的阻力。
+  - [`maxForce`](#maxforce) `Number` 最大阻力值
+  - [`connectedBody`](#connectedbody) `RigidBody` 关节另一端链接的刚体
+  - [`collideConnected`](#collideconnected) `Boolean` 链接到关节上的两个刚体是否应该相互碰撞？
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
-  - [`node`](#node) `Node` The node this component is attached to. A component is always attached to a node.
-  - [`uuid`](#uuid) `String` The uuid for editor.
+  - [`node`](#node) `Node` 该组件被附加到的节点。组件总会附加到一个节点。
+  - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
   - [`_enabled`](#enabled) `Boolean` 
-  - [`enabled`](#enabled) `Boolean` indicates whether this component is enabled or not.
-  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` indicates whether this component is enabled and its node is also active in the hierarchy.
-  - [`_isOnLoadCalled`](#isonloadcalled) `Number` Returns a value which used to indicate the onLoad get called or not.
+  - [`enabled`](#enabled) `Boolean` 表示该组件自身是否启用。
+  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` 表示该组件是否被启用并且所在的节点也处于激活状态。
+  - [`_isOnLoadCalled`](#isonloadcalled) `Number` 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` The name of the object.
-  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
+  - [`name`](#name) `String` 该对象的名称。
+  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
 
 
 
 ##### Methods
 
-  - [`apply`](#apply) Apply current changes to joint, this will regenerate inner box2d joint.
-  - [`getWorldAnchor`](#getworldanchor) Get the anchor point on rigidbody in world coordinates.
-  - [`getWorldConnectedAnchor`](#getworldconnectedanchor) Get the anchor point on connected rigidbody in world coordinates.
-  - [`getReactionForce`](#getreactionforce) Gets the reaction force of the joint.
-  - [`getReactionTorque`](#getreactiontorque) Gets the reaction torque of the joint.
-  - [`update`](#update) Update is called every frame, if the Component is enabled.
-  - [`lateUpdate`](#lateupdate) LateUpdate is called every frame, if the Component is enabled.
+  - [`apply`](#apply) 应用当前关节中的修改，调用此函数会重新生成内部 box2d 的关节。
+  - [`getWorldAnchor`](#getworldanchor) 获取刚体世界坐标系下的锚点。
+  - [`getWorldConnectedAnchor`](#getworldconnectedanchor) 获取链接刚体世界坐标系下的锚点。
+  - [`getReactionForce`](#getreactionforce) 获取关节的反作用力。
+  - [`getReactionTorque`](#getreactiontorque) 获取关节的反扭矩。
+  - [`update`](#update) 如果该组件启用，则每帧调用 update。
+  - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad.
 It is used to initialize the builtin components internally,
 to avoid checking whether onLoad is called before every public method calls.
 This method should be removed if script priority is supported.
-  - [`onLoad`](#onload) When attaching to an active node or its node first activated.
-onLoad is always called before any start functions, this allows you to order initialization of scripts.
-  - [`start`](#start) Called before all scripts' update if the Component is enabled the first time.
-Usually used to initialize some logic which need to be called after all components' `onload` methods called.
-  - [`onEnable`](#onenable) Called when this component becomes enabled and its node is active.
-  - [`onDisable`](#ondisable) Called when this component becomes disabled or its node becomes inactive.
-  - [`onDestroy`](#ondestroy) Called when this component will be destroyed.
+  - [`onLoad`](#onload) 当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
+  - [`start`](#start) 如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
+  - [`onEnable`](#onenable) 当该组件被启用，并且它的节点也激活时。
+  - [`onDisable`](#ondisable) 当该组件被禁用或节点变为无效时调用。
+  - [`onDestroy`](#ondestroy) 当该组件被销毁时调用
   - [`onFocusInEditor`](#onfocusineditor) 
   - [`onLostFocusInEditor`](#onlostfocusineditor) 
-  - [`resetInEditor`](#resetineditor) Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
-  - [`addComponent`](#addcomponent) Adds a component class to the node. You can also add component to node by passing in the name of the script.
-  - [`getComponent`](#getcomponent) Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
-You can also get component in the node by passing in the name of the script.
-  - [`getComponents`](#getcomponents) Returns all components of supplied Type in the node.
-  - [`getComponentInChildren`](#getcomponentinchildren) Returns the component of supplied type in any of its children using depth first search.
-  - [`getComponentsInChildren`](#getcomponentsinchildren) Returns the components of supplied type in self or any of its children using depth first search.
-  - [`_getLocalBounds`](#getlocalbounds) If the component's bounding box is different from the node's, you can implement this method to supply
-a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
-  - [`onRestore`](#onrestore) onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
-an undo operation on this component.<br/>
+  - [`resetInEditor`](#resetineditor) 用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
+  - [`addComponent`](#addcomponent) 向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
+  - [`getComponent`](#getcomponent) 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
+传入参数也可以是脚本的名称。
+  - [`getComponents`](#getcomponents) 返回节点上指定类型的所有组件。
+  - [`getComponentInChildren`](#getcomponentinchildren) 递归查找所有子节点中第一个匹配指定类型的组件。
+  - [`getComponentsInChildren`](#getcomponentsinchildren) 递归查找自身或所有子节点中指定类型的组件
+  - [`_getLocalBounds`](#getlocalbounds) 如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
+以便编辑器的场景视图可以正确地执行点选测试。
+  - [`onRestore`](#onrestore) onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
 <br/>
-If the component contains the "internal state", short for "temporary member variables which not included<br/>
-in its CCClass properties", then you may need to implement this function.<br/>
+如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
 <br/>
-The editor will call the getset accessors of your component to record/restore the component's state<br/>
-for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
-this function to manually synchronize your component's "internal states" with its public properties.<br/>
-Once you implement this function, all the getset accessors of your component will not be called when<br/>
-the user performs an undo/redo operation. Which means that only the properties with default value<br/>
-will be recorded or restored by editor.<br/>
+编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
+然而，在极端的情况下，它可能无法良好运作。<br/>
+那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
+一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
+这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
 <br/>
-Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
-to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
-properties in this function. Once you implement this function, all the getset accessors of your component<br/>
-will not be called during reset operation. Which means that only the properties with default value<br/>
-will be reset by editor.
-
-This function is only called in editor mode.
-  - [`schedule`](#schedule) Schedules a custom selector.<br/>
-If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
-  - [`scheduleOnce`](#scheduleonce) Schedules a callback function that runs only once, with a delay of 0 or larger.
-  - [`unschedule`](#unschedule) Unschedules a custom callback function.
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
-Actions are not affected by this method.
-  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
+同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
+于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
+一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
+这意味着仅仅指定了默认值的属性将被编辑器重置。
 <br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+此方法仅在编辑器下会被调用。
+  - [`schedule`](#schedule) 调度一个自定义的回调函数。<br/>
+如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
+  - [`scheduleOnce`](#scheduleonce) 调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
+  - [`unschedule`](#unschedule) 取消调度一个自定义的回调函数。
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
+  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -141,7 +128,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### anchor
 
-> The anchor of the rigidbody.
+> 刚体的锚点。
 
 | meta | description |
 |------|-------------|
@@ -152,7 +139,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### connectedAnchor
 
-> The anchor of the connected rigidbody.
+> 关节另一端刚体的锚点。
 
 | meta | description |
 |------|-------------|
@@ -163,8 +150,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### mouseRegion
 
-> The node used to register touch evnet.
-If this is null, it will be the joint's node.
+> 用于注册触摸事件的节点。
+如果没有设置这个值，那么将会使用关节的节点来注册事件。
 
 | meta | description |
 |------|-------------|
@@ -175,8 +162,7 @@ If this is null, it will be the joint's node.
 
 ##### target
 
-> The target point.
-The mouse joint will move choosed rigidbody to target point.
+> 目标点，鼠标关节将会移动选中的刚体到指定的目标点
 
 | meta | description |
 |------|-------------|
@@ -187,7 +173,7 @@ The mouse joint will move choosed rigidbody to target point.
 
 ##### frequency
 
-> The spring frequency.
+> 弹簧系数。
 
 | meta | description |
 |------|-------------|
@@ -198,7 +184,7 @@ The mouse joint will move choosed rigidbody to target point.
 
 ##### 0
 
-> The damping ratio.
+> 阻尼，表示关节变形后，恢复到初始状态受到的阻力。
 
 | meta | description |
 |------|-------------|
@@ -209,7 +195,7 @@ The mouse joint will move choosed rigidbody to target point.
 
 ##### maxForce
 
-> The maximum force
+> 最大阻力值
 
 | meta | description |
 |------|-------------|
@@ -220,7 +206,7 @@ The mouse joint will move choosed rigidbody to target point.
 
 ##### connectedBody
 
-> The rigidbody to which the other end of the joint is attached.
+> 关节另一端链接的刚体
 
 | meta | description |
 |------|-------------|
@@ -231,7 +217,7 @@ The mouse joint will move choosed rigidbody to target point.
 
 ##### collideConnected
 
-> Should the two rigid bodies connected with this joint collide with each other?
+> 链接到关节上的两个刚体是否应该相互碰撞？
 
 | meta | description |
 |------|-------------|
@@ -254,7 +240,7 @@ all event callbacks will be removed in _onPreDestroy
 
 ##### node
 
-> The node this component is attached to. A component is always attached to a node.
+> 该组件被附加到的节点。组件总会附加到一个节点。
 
 | meta | description |
 |------|-------------|
@@ -270,7 +256,7 @@ cc.log(comp.node);
 
 ##### uuid
 
-> The uuid for editor.
+> 组件的 uuid，用于编辑器。
 
 | meta | description |
 |------|-------------|
@@ -297,7 +283,7 @@ cc.log(comp.uuid);
 
 ##### enabled
 
-> indicates whether this component is enabled or not.
+> 表示该组件自身是否启用。
 
 | meta | description |
 |------|-------------|
@@ -314,7 +300,7 @@ cc.log(comp.enabled);
 
 ##### enabledInHierarchy
 
-> indicates whether this component is enabled and its node is also active in the hierarchy.
+> 表示该组件是否被启用并且所在的节点也处于激活状态。
 
 | meta | description |
 |------|-------------|
@@ -330,7 +316,7 @@ cc.log(comp.enabledInHierarchy);
 
 ##### _isOnLoadCalled
 
-> Returns a value which used to indicate the onLoad get called or not.
+> 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
 
 | meta | description |
 |------|-------------|
@@ -368,7 +354,7 @@ cc.log(this._isOnLoadCalled > 0);
 
 ##### name
 
-> The name of the object.
+> 该对象的名称。
 
 | meta | description |
 |------|-------------|
@@ -384,7 +370,7 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> Indicates whether the object is not yet destroyed.
+> 表示该对象是否可用（被销毁后将不可用）。
 
 | meta | description |
 |------|-------------|
@@ -407,7 +393,7 @@ cc.log(obj.isValid);
 
 ##### apply
 
-Apply current changes to joint, this will regenerate inner box2d joint.
+应用当前关节中的修改，调用此函数会重新生成内部 box2d 的关节。
 
 | meta | description |
 |------|-------------|
@@ -417,7 +403,7 @@ Apply current changes to joint, this will regenerate inner box2d joint.
 
 ##### getWorldAnchor
 
-Get the anchor point on rigidbody in world coordinates.
+获取刚体世界坐标系下的锚点。
 
 | meta | description |
 |------|-------------|
@@ -428,7 +414,7 @@ Get the anchor point on rigidbody in world coordinates.
 
 ##### getWorldConnectedAnchor
 
-Get the anchor point on connected rigidbody in world coordinates.
+获取链接刚体世界坐标系下的锚点。
 
 | meta | description |
 |------|-------------|
@@ -439,7 +425,7 @@ Get the anchor point on connected rigidbody in world coordinates.
 
 ##### getReactionForce
 
-Gets the reaction force of the joint.
+获取关节的反作用力。
 
 | meta | description |
 |------|-------------|
@@ -452,7 +438,7 @@ Gets the reaction force of the joint.
 
 ##### getReactionTorque
 
-Gets the reaction torque of the joint.
+获取关节的反扭矩。
 
 | meta | description |
 |------|-------------|
@@ -465,7 +451,7 @@ Gets the reaction torque of the joint.
 
 ##### update
 
-Update is called every frame, if the Component is enabled.
+如果该组件启用，则每帧调用 update。
 
 | meta | description |
 |------|-------------|
@@ -477,7 +463,7 @@ Update is called every frame, if the Component is enabled.
 
 ##### lateUpdate
 
-LateUpdate is called every frame, if the Component is enabled.
+如果该组件启用，则每帧调用 LateUpdate。
 
 | meta | description |
 |------|-------------|
@@ -500,8 +486,7 @@ This method should be removed if script priority is supported.
 
 ##### onLoad
 
-When attaching to an active node or its node first activated.
-onLoad is always called before any start functions, this allows you to order initialization of scripts.
+当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
 
 | meta | description |
 |------|-------------|
@@ -511,8 +496,7 @@ onLoad is always called before any start functions, this allows you to order ini
 
 ##### start
 
-Called before all scripts' update if the Component is enabled the first time.
-Usually used to initialize some logic which need to be called after all components' `onload` methods called.
+如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
 
 | meta | description |
 |------|-------------|
@@ -522,7 +506,7 @@ Usually used to initialize some logic which need to be called after all componen
 
 ##### onEnable
 
-Called when this component becomes enabled and its node is active.
+当该组件被启用，并且它的节点也激活时。
 
 | meta | description |
 |------|-------------|
@@ -532,7 +516,7 @@ Called when this component becomes enabled and its node is active.
 
 ##### onDisable
 
-Called when this component becomes disabled or its node becomes inactive.
+当该组件被禁用或节点变为无效时调用。
 
 | meta | description |
 |------|-------------|
@@ -542,7 +526,7 @@ Called when this component becomes disabled or its node becomes inactive.
 
 ##### onDestroy
 
-Called when this component will be destroyed.
+当该组件被销毁时调用
 
 | meta | description |
 |------|-------------|
@@ -572,7 +556,7 @@ Called when this component will be destroyed.
 
 ##### resetInEditor
 
-Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
+用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
 
 | meta | description |
 |------|-------------|
@@ -582,7 +566,7 @@ Called to initialize the component or node’s properties when adding the compon
 
 ##### addComponent
 
-Adds a component class to the node. You can also add component to node by passing in the name of the script.
+向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
 
 | meta | description |
 |------|-------------|
@@ -601,8 +585,8 @@ var test = node.addComponent("Test");
 
 ##### getComponent
 
-Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
-You can also get component in the node by passing in the name of the script.
+获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
+传入参数也可以是脚本的名称。
 
 | meta | description |
 |------|-------------|
@@ -623,7 +607,7 @@ var test = node.getComponent("Test");
 
 ##### getComponents
 
-Returns all components of supplied Type in the node.
+返回节点上指定类型的所有组件。
 
 | meta | description |
 |------|-------------|
@@ -642,7 +626,7 @@ var tests = node.getComponents("Test");
 
 ##### getComponentInChildren
 
-Returns the component of supplied type in any of its children using depth first search.
+递归查找所有子节点中第一个匹配指定类型的组件。
 
 | meta | description |
 |------|-------------|
@@ -661,7 +645,7 @@ var Test = node.getComponentInChildren("Test");
 
 ##### getComponentsInChildren
 
-Returns the components of supplied type in self or any of its children using depth first search.
+递归查找自身或所有子节点中指定类型的组件
 
 | meta | description |
 |------|-------------|
@@ -680,8 +664,8 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### _getLocalBounds
 
-If the component's bounding box is different from the node's, you can implement this method to supply
-a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
+如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
+以便编辑器的场景视图可以正确地执行点选测试。
 
 | meta | description |
 |------|-------------|
@@ -693,26 +677,22 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 
 ##### onRestore
 
-onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
-an undo operation on this component.<br/>
+onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
 <br/>
-If the component contains the "internal state", short for "temporary member variables which not included<br/>
-in its CCClass properties", then you may need to implement this function.<br/>
+如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
 <br/>
-The editor will call the getset accessors of your component to record/restore the component's state<br/>
-for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
-this function to manually synchronize your component's "internal states" with its public properties.<br/>
-Once you implement this function, all the getset accessors of your component will not be called when<br/>
-the user performs an undo/redo operation. Which means that only the properties with default value<br/>
-will be recorded or restored by editor.<br/>
+编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
+然而，在极端的情况下，它可能无法良好运作。<br/>
+那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
+一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
+这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
 <br/>
-Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
-to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
-properties in this function. Once you implement this function, all the getset accessors of your component<br/>
-will not be called during reset operation. Which means that only the properties with default value<br/>
-will be reset by editor.
-
-This function is only called in editor mode.
+同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
+于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
+一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
+这意味着仅仅指定了默认值的属性将被编辑器重置。
+<br/>
+此方法仅在编辑器下会被调用。
 
 | meta | description |
 |------|-------------|
@@ -722,8 +702,8 @@ This function is only called in editor mode.
 
 ##### schedule
 
-Schedules a custom selector.<br/>
-If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
+调度一个自定义的回调函数。<br/>
+如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
 
 | meta | description |
 |------|-------------|
@@ -746,7 +726,7 @@ this.schedule(timeCallback, 1);
 
 ##### scheduleOnce
 
-Schedules a callback function that runs only once, with a delay of 0 or larger.
+调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
 
 | meta | description |
 |------|-------------|
@@ -767,7 +747,7 @@ this.scheduleOnce(timeCallback, 2);
 
 ##### unschedule
 
-Unschedules a custom callback function.
+取消调度一个自定义的回调函数。
 
 | meta | description |
 |------|-------------|
@@ -784,8 +764,7 @@ this.unschedule(_callback);
 
 ##### unscheduleAllCallbacks
 
-unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
-Actions are not affected by this method.
+取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
 
 | meta | description |
 |------|-------------|
@@ -800,11 +779,9 @@ this.unscheduleAllCallbacks();
 
 ##### destroy
 
-Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
 
 | meta | description |
 |------|-------------|

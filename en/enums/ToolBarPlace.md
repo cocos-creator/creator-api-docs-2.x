@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The toolbar position of user type
+用户系统悬浮窗位置
 
 ### Index
 
@@ -27,7 +27,7 @@ The toolbar position of user type
 
 ##### kToolBarTopLeft
 
-> The upper left corner
+> 左上方
 
 | meta | description |
 |------|-------------|
@@ -38,7 +38,7 @@ The toolbar position of user type
 
 ##### kToolBarTopRight
 
-> the upper right corner
+> 右上方
 
 | meta | description |
 |------|-------------|
@@ -49,7 +49,7 @@ The toolbar position of user type
 
 ##### kToolBarMidLeft
 
-> at the left of the center
+> 中间偏左
 
 | meta | description |
 |------|-------------|
@@ -60,7 +60,7 @@ The toolbar position of user type
 
 ##### kToolBarMidRight
 
-> At the right of the center
+> 中间偏右
 
 | meta | description |
 |------|-------------|
@@ -71,7 +71,7 @@ The toolbar position of user type
 
 ##### kToolBarBottomLeft
 
-> The lower left corner
+> 左下方
 
 | meta | description |
 |------|-------------|
@@ -82,7 +82,7 @@ The toolbar position of user type
 
 ##### kToolBarBottomRight
 
-> The lower right corner
+> 右下方
 
 | meta | description |
 |------|-------------|

@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The enum of gender
+统计系统的账号性别
 
 ### Index
 
@@ -24,7 +24,7 @@ The enum of gender
 
 ##### MALE
 
-> Male
+> 男性
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ The enum of gender
 
 ##### FEMALE
 
-> Female
+> 女性
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ The enum of gender
 
 ##### UNKNOWN
 
-> Unknow
+> 未知
 
 | meta | description |
 |------|-------------|

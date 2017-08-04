@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The callback of social system
+社交系统回调
 
 ### Index
 
@@ -36,7 +36,7 @@ The callback of social system
 
 ##### kScoreSubmitSucceed
 
-> The callback of succeeding in submiting.
+> 社交系统的成功提交回调
 
 | meta | description |
 |------|-------------|
@@ -47,7 +47,7 @@ The callback of social system
 
 ##### kScoreSubmitfail
 
-> The callback of failing to submit.
+> 社交系统的提交失败回调
 
 | meta | description |
 |------|-------------|
@@ -58,7 +58,7 @@ The callback of social system
 
 ##### kAchUnlockSucceed
 
-> The is callback of succeeding in  unlocking
+> 社交系统的解锁成功回调
 
 | meta | description |
 |------|-------------|
@@ -69,7 +69,7 @@ The callback of social system
 
 ##### kAchUnlockFail
 
-> The callback of failing to  unlock.
+> 社交系统的解锁失败回调
 
 | meta | description |
 |------|-------------|
@@ -80,7 +80,7 @@ The callback of social system
 
 ##### kSocialSignInSucceed
 
-> The callback of succeeding to login.
+> 社交系统的登录成功回调
 
 | meta | description |
 |------|-------------|
@@ -91,7 +91,7 @@ The callback of social system
 
 ##### kSocialSignInFail
 
-> The callback of failing to  login
+> 社交系统的登录失败回调
 
 | meta | description |
 |------|-------------|
@@ -102,7 +102,7 @@ The callback of social system
 
 ##### kSocialSignOutSucceed
 
-> The callback of succeeding to logout.
+> 社交系统的登出成功回调
 
 | meta | description |
 |------|-------------|
@@ -113,7 +113,7 @@ The callback of social system
 
 ##### kSocialSignOutFail
 
-> The callback of failing to  logout.
+> 社交系统的登出失败回调
 
 | meta | description |
 |------|-------------|
@@ -124,7 +124,7 @@ The callback of social system
 
 ##### kSocialGetGameFriends
 
-> The callback of getting friends`s .
+> 社交系统的获取好友回调
 
 | meta | description |
 |------|-------------|
@@ -135,7 +135,7 @@ The callback of social system
 
 ##### kSocialExtensionCode
 
-> The extension code of social system
+> 社交系统的扩展回调
 
 | meta | description |
 |------|-------------|
@@ -146,7 +146,7 @@ The callback of social system
 
 ##### kSocialGetFriendsInfoSuccess
 
-> The callback  of succeeding in getting friends`s info
+> 社交系统的获取好友信息成功回调
 
 | meta | description |
 |------|-------------|
@@ -157,7 +157,7 @@ The callback of social system
 
 ##### kSocialGetFriendsInfoFail
 
-> The callback  of failing in getting friends`s info.
+> 社交系统的获取好友信息失败回调
 
 | meta | description |
 |------|-------------|
@@ -168,7 +168,7 @@ The callback of social system
 
 ##### kSocialAlreadySubscription
 
-> The callback  of subscription
+> 社交系统的订阅回调
 
 | meta | description |
 |------|-------------|
@@ -179,7 +179,7 @@ The callback of social system
 
 ##### kSocialNoSubscription
 
-> The callback No subscription.
+> 社交系统的无需订阅回调
 
 | meta | description |
 |------|-------------|
@@ -190,7 +190,7 @@ The callback of social system
 
 ##### kSocialSubscriptionFail
 
-> The callback  of failing in subscription
+> 社交系统的订阅失败回调
 
 | meta | description |
 |------|-------------|

@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The callback of user system
+用户系统回调
 
 ### Index
 
@@ -49,7 +49,7 @@ The callback of user system
 
 ##### kInitSuccess
 
-> The callback of succeeding in initing sdk
+> 用户系统的初始化成功回调
 
 | meta | description |
 |------|-------------|
@@ -60,7 +60,7 @@ The callback of user system
 
 ##### kInitFail
 
-> The callback of failing to init sdk
+> 用户系统的初始化失败回调
 
 | meta | description |
 |------|-------------|
@@ -71,7 +71,7 @@ The callback of user system
 
 ##### kLoginSuccess
 
-> The callback of succeeding in login.
+> 用户系统的登录成功回调
 
 | meta | description |
 |------|-------------|
@@ -82,7 +82,7 @@ The callback of user system
 
 ##### kLoginNetworkError
 
-> The callback of network error
+> 用户系统的初始化成功回调
 
 | meta | description |
 |------|-------------|
@@ -93,7 +93,7 @@ The callback of user system
 
 ##### kLoginNoNeed
 
-> The callback of no need login.
+> 用户系统的无需登录回调
 
 | meta | description |
 |------|-------------|
@@ -104,7 +104,7 @@ The callback of user system
 
 ##### kLoginFail
 
-> The callback of failing to login
+> 用户系统的登录失败回调
 
 | meta | description |
 |------|-------------|
@@ -115,7 +115,7 @@ The callback of user system
 
 ##### kLoginCancel
 
-> The callback of  canceling to login.
+> 用户系统的登录取消回调
 
 | meta | description |
 |------|-------------|
@@ -126,7 +126,7 @@ The callback of user system
 
 ##### kLogoutSuccess
 
-> The callback of succeeding in logout
+> 用户系统的登出成功回调
 
 | meta | description |
 |------|-------------|
@@ -137,7 +137,7 @@ The callback of user system
 
 ##### kLogoutFail
 
-> The callback of failing to logout
+> 用户系统的登出失败回调
 
 | meta | description |
 |------|-------------|
@@ -148,7 +148,7 @@ The callback of user system
 
 ##### kPlatformEnter
 
-> The callback after enter platform..
+> 用户系统的进入平台回调
 
 | meta | description |
 |------|-------------|
@@ -159,7 +159,7 @@ The callback of user system
 
 ##### kPlatformBack
 
-> The callback after exit antiAddiction
+> 用户系统的退出平台回调
 
 | meta | description |
 |------|-------------|
@@ -170,7 +170,7 @@ The callback of user system
 
 ##### kPausePage
 
-> The callback after exit pause page
+> 用户系统的暂停界面回调
 
 | meta | description |
 |------|-------------|
@@ -181,7 +181,7 @@ The callback of user system
 
 ##### kExitPage
 
-> The callback after exit page
+> 用户系统的退出界面回调
 
 | meta | description |
 |------|-------------|
@@ -192,7 +192,7 @@ The callback of user system
 
 ##### kAntiAddictionQuery
 
-> The callback after querying antiAddiction
+> 用户系统的实名认证回调
 
 | meta | description |
 |------|-------------|
@@ -203,7 +203,7 @@ The callback of user system
 
 ##### kRealNameRegister
 
-> The callback after registering realname
+> 用户系统的注册账号回调
 
 | meta | description |
 |------|-------------|
@@ -214,7 +214,7 @@ The callback of user system
 
 ##### kAccountSwitchSuccess
 
-> The callback of succeeding in switching account
+> 用户系统的切换账号成功回调
 
 | meta | description |
 |------|-------------|
@@ -225,7 +225,7 @@ The callback of user system
 
 ##### kAccountSwitchFail
 
-> The callback of failing to switch account
+> 用户系统的切换账号失败回调
 
 | meta | description |
 |------|-------------|
@@ -236,7 +236,7 @@ The callback of user system
 
 ##### kOpenShop
 
-> The callback of opening the shop
+> 用户系统的打开商店回调
 
 | meta | description |
 |------|-------------|
@@ -247,7 +247,7 @@ The callback of user system
 
 ##### kAccountSwitchCancel
 
-> The callback of canceling to switch account.
+> 用户系统的取消切换账号回调
 
 | meta | description |
 |------|-------------|
@@ -258,7 +258,7 @@ The callback of user system
 
 ##### kUserExtension
 
-> extension code of user type
+> 用户系统的扩展回调
 
 | meta | description |
 |------|-------------|
@@ -269,7 +269,7 @@ The callback of user system
 
 ##### kSendToDesktopSuccess
 
-> The callback of succeeding in sending to desktop
+> 用户系统的发送到桌面成功回调
 
 | meta | description |
 |------|-------------|
@@ -280,7 +280,7 @@ The callback of user system
 
 ##### kSendToDesktopFail
 
-> The callback of failing to sending to desktop
+> 用户系统的发送到桌面失败回调
 
 | meta | description |
 |------|-------------|
@@ -291,7 +291,7 @@ The callback of user system
 
 ##### kGetAvailableLoginTypeSuccess
 
-> The callback of succeeding in getting available login type
+> 用户系统的获取可登录类型成功回调
 
 | meta | description |
 |------|-------------|
@@ -302,7 +302,7 @@ The callback of user system
 
 ##### kGetAvailableLoginTypeFail
 
-> The callback of failing to get available login type
+> 用户系统的获取可登录类型失败回调
 
 | meta | description |
 |------|-------------|
@@ -313,7 +313,7 @@ The callback of user system
 
 ##### kGetUserInfoSuccess
 
-> The callback of succeeding in getting user info
+> 用户系统的获取用户信息成功回调
 
 | meta | description |
 |------|-------------|
@@ -324,7 +324,7 @@ The callback of user system
 
 ##### kGetUserInfoFail
 
-> The callback  of failing in getting user`s info
+> 用户系统的获取用户信息失败回调
 
 | meta | description |
 |------|-------------|
@@ -335,7 +335,7 @@ The callback of user system
 
 ##### kOpenBBSSuccess
 
-> The callback of succeeding in opening BBS.
+> 用户系统的进入论坛成功回调
 
 | meta | description |
 |------|-------------|
@@ -346,7 +346,7 @@ The callback of user system
 
 ##### kOpenBBSFail
 
-> The callback  of failing in opening BBS
+> 用户系统的进入论坛失败回调
 
 | meta | description |
 |------|-------------|

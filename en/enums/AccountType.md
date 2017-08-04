@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The enum of account type
+统计系统的账号类型
 
 ### Index
 
@@ -27,7 +27,7 @@ The enum of account type
 
 ##### ANONYMOUS
 
-> The source of account is anonymous
+> 账号来源:匿名
 
 | meta | description |
 |------|-------------|
@@ -38,7 +38,7 @@ The enum of account type
 
 ##### REGISTED
 
-> The source of account is Registered
+> 账号来源:注册
 
 | meta | description |
 |------|-------------|
@@ -49,7 +49,7 @@ The enum of account type
 
 ##### SINA_WEIBO
 
-> The source of account is Sina weibo
+> 账号来源:新浪微博
 
 | meta | description |
 |------|-------------|
@@ -60,7 +60,7 @@ The enum of account type
 
 ##### TENCENT_WEIBO
 
-> The source of account is Tencent weibo
+> 账号来源:腾讯微博
 
 | meta | description |
 |------|-------------|
@@ -71,7 +71,7 @@ The enum of account type
 
 ##### QQ
 
-> The source of account is QQ
+> 账号来源:QQ
 
 | meta | description |
 |------|-------------|
@@ -82,7 +82,7 @@ The enum of account type
 
 ##### ND91
 
-> The source of account is ND91
+> 账号来源:ND91
 
 | meta | description |
 |------|-------------|

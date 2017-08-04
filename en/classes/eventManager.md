@@ -7,12 +7,9 @@ Module: [cc](../modules/cc.md)
 
 
 
-<p>
- cc.eventManager is a singleton object which manages event listener subscriptions and event dispatching. <br/>
-                                                                                                             <br/>
- The EventListener list is managed in such way so that event listeners can be added and removed          <br/>
- while events are being dispatched.
-</p>
+事件管理器，它主要管理事件监听器注册和派发系统事件。
+原始设计中，它支持鼠标，触摸，键盘，陀螺仪和自定义事件。
+在 Creator 的设计中，鼠标，触摸和自定义事件的监听和派发请参考 http://cocos.com/docs/creator/scripting/events.html。
 
 ### Index
 
@@ -20,22 +17,27 @@ Module: [cc](../modules/cc.md)
 
 ##### Methods
 
-  - [`pauseTarget`](#pausetarget) Pauses all listeners which are associated the specified target.
-  - [`resumeTarget`](#resumetarget) Resumes all listeners which are associated the specified target.
-  - [`hasEventListener`](#haseventlistener) Query whether the specified event listener id has been added.
-  - [`addListener`](#addlistener) <p>
-Adds a event listener for a specified event.<br/>
-if the parameter "nodeOrPriority" is a node,
-it means to add a event listener for a specified event with the priority of scene graph.<br/>
-if the parameter "nodeOrPriority" is a Number,
-it means to add a event listener for a specified event with the fixed priority.<br/>
-</p>
-  - [`removeListener`](#removelistener) Remove a listener.
-  - [`removeListeners`](#removelisteners) Removes all listeners with the same event listener type or removes all listeners of a node.
-  - [`removeAllListeners`](#removealllisteners) Removes all listeners
-  - [`setPriority`](#setpriority) Sets listener's priority with fixed value.
-  - [`setEnabled`](#setenabled) Whether to enable dispatching events
-  - [`isEnabled`](#isenabled) Checks whether dispatching events is enabled
+  - [`pauseTarget`](#pausetarget) 暂停传入的 node 相关的所有监听器的事件响应。
+  - [`resumeTarget`](#resumetarget) 恢复传入的 node 相关的所有监听器的事件响应。
+  - [`hasEventListener`](#haseventlistener) 查询指定的事件 ID 是否存在
+  - [`addListener`](#addlistener) 将事件监听器添加到事件管理器中。<br/>
+如果参数 “nodeOrPriority” 是节点，优先级由 node 的渲染顺序决定，显示在上层的节点将优先收到事件。<br/>
+如果参数 “nodeOrPriority” 是数字，优先级则固定为该参数的数值，数字越小，优先级越高。<br/>
+  - [`removeListener`](#removelistener) 移除一个已添加的监听器。
+  - [`removeListeners`](#removelisteners) 移除注册到 eventManager 中指定类型的所有事件监听器。<br/>
+1. 如果传入的第一个参数类型是 Node，那么事件管理器将移除与该对象相关的所有事件监听器。
+（如果第二参数 recursive 是 true 的话，就会连同该对象的子控件上所有的事件监听器也一并移除）<br/>
+2. 如果传入的第一个参数类型是 Number（该类型 EventListener 中定义的事件类型），
+那么事件管理器将移除该类型的所有事件监听器。<br/>
+
+下列是目前存在监听器类型：       <br/>
+cc.EventListener.UNKNOWN       <br/>
+cc.EventListener.KEYBOARD      <br/>
+cc.EventListener.ACCELERATION，<br/>
+  - [`removeAllListeners`](#removealllisteners) 移除所有事件监听器。
+  - [`setPriority`](#setpriority) 设置 FixedPriority 类型监听器的优先级。
+  - [`setEnabled`](#setenabled) 启用或禁用事件管理器，禁用后不会分发任何事件。
+  - [`isEnabled`](#isenabled) 检测事件管理器是否启用。
 
 
 
@@ -50,7 +52,7 @@ it means to add a event listener for a specified event with the fixed priority.<
 
 ##### pauseTarget
 
-Pauses all listeners which are associated the specified target.
+暂停传入的 node 相关的所有监听器的事件响应。
 
 | meta | description |
 |------|-------------|
@@ -63,7 +65,7 @@ Pauses all listeners which are associated the specified target.
 
 ##### resumeTarget
 
-Resumes all listeners which are associated the specified target.
+恢复传入的 node 相关的所有监听器的事件响应。
 
 | meta | description |
 |------|-------------|
@@ -76,7 +78,7 @@ Resumes all listeners which are associated the specified target.
 
 ##### hasEventListener
 
-Query whether the specified event listener id has been added.
+查询指定的事件 ID 是否存在
 
 | meta | description |
 |------|-------------|
@@ -89,13 +91,9 @@ Query whether the specified event listener id has been added.
 
 ##### addListener
 
-<p>
-Adds a event listener for a specified event.<br/>
-if the parameter "nodeOrPriority" is a node,
-it means to add a event listener for a specified event with the priority of scene graph.<br/>
-if the parameter "nodeOrPriority" is a Number,
-it means to add a event listener for a specified event with the fixed priority.<br/>
-</p>
+将事件监听器添加到事件管理器中。<br/>
+如果参数 “nodeOrPriority” 是节点，优先级由 node 的渲染顺序决定，显示在上层的节点将优先收到事件。<br/>
+如果参数 “nodeOrPriority” 是数字，优先级则固定为该参数的数值，数字越小，优先级越高。<br/>
 
 | meta | description |
 |------|-------------|
@@ -109,7 +107,7 @@ it means to add a event listener for a specified event with the fixed priority.<
 
 ##### removeListener
 
-Remove a listener.
+移除一个已添加的监听器。
 
 | meta | description |
 |------|-------------|
@@ -124,7 +122,16 @@ Remove a listener.
 
 ##### removeListeners
 
-Removes all listeners with the same event listener type or removes all listeners of a node.
+移除注册到 eventManager 中指定类型的所有事件监听器。<br/>
+1. 如果传入的第一个参数类型是 Node，那么事件管理器将移除与该对象相关的所有事件监听器。
+（如果第二参数 recursive 是 true 的话，就会连同该对象的子控件上所有的事件监听器也一并移除）<br/>
+2. 如果传入的第一个参数类型是 Number（该类型 EventListener 中定义的事件类型），
+那么事件管理器将移除该类型的所有事件监听器。<br/>
+
+下列是目前存在监听器类型：       <br/>
+cc.EventListener.UNKNOWN       <br/>
+cc.EventListener.KEYBOARD      <br/>
+cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
@@ -137,7 +144,7 @@ Removes all listeners with the same event listener type or removes all listeners
 
 ##### removeAllListeners
 
-Removes all listeners
+移除所有事件监听器。
 
 | meta | description |
 |------|-------------|
@@ -147,7 +154,7 @@ Removes all listeners
 
 ##### setPriority
 
-Sets listener's priority with fixed value.
+设置 FixedPriority 类型监听器的优先级。
 
 | meta | description |
 |------|-------------|
@@ -160,7 +167,7 @@ Sets listener's priority with fixed value.
 
 ##### setEnabled
 
-Whether to enable dispatching events
+启用或禁用事件管理器，禁用后不会分发任何事件。
 
 | meta | description |
 |------|-------------|
@@ -172,7 +179,7 @@ Whether to enable dispatching events
 
 ##### isEnabled
 
-Checks whether dispatching events is enabled
+检测事件管理器是否启用。
 
 | meta | description |
 |------|-------------|

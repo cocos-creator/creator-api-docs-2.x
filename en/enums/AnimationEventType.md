@@ -7,7 +7,7 @@ Module: [sp](../modules/sp.md)
 
 
 
-The event type of spine skeleton animation.
+骨骼动画事件类型。
 
 ### Index
 
@@ -25,7 +25,7 @@ The event type of spine skeleton animation.
 
 ##### START
 
-> The play spine skeleton animation start type.
+> 开始播放骨骼动画。
 
 | meta | description |
 |------|-------------|
@@ -36,7 +36,7 @@ The event type of spine skeleton animation.
 
 ##### END
 
-> The play spine skeleton animation finish type.
+> 播放骨骼动画结束。
 
 | meta | description |
 |------|-------------|
@@ -47,7 +47,7 @@ The event type of spine skeleton animation.
 
 ##### COMPLETE
 
-> The play spine skeleton animation complete type.
+> 播放骨骼动画完成。
 
 | meta | description |
 |------|-------------|
@@ -58,7 +58,7 @@ The event type of spine skeleton animation.
 
 ##### EVENT
 
-> The spine skeleton animation event type.
+> 骨骼动画事件。
 
 | meta | description |
 |------|-------------|

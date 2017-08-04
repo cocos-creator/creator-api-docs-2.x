@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Sprite Size can track trimmed size, raw size or none.
+精灵尺寸调整模式
 
 ### Index
 
@@ -24,7 +24,7 @@ Sprite Size can track trimmed size, raw size or none.
 
 ##### CUSTOM
 
-> Use the customized node size.
+> 使用节点预设的尺寸
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ Sprite Size can track trimmed size, raw size or none.
 
 ##### TRIMMED
 
-> Match the trimmed size of the sprite frame automatically.
+> 自动适配为精灵裁剪后的尺寸
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ Sprite Size can track trimmed size, raw size or none.
 
 ##### RAW
 
-> Match the raw size of the sprite frame automatically.
+> 自动适配为精灵原图尺寸
 
 | meta | description |
 |------|-------------|

@@ -7,7 +7,13 @@ Module: [cc](../modules/cc.md)
 
 
 
-cc.audioEngine is the singleton object, it provide simple audio APIs.
+cc.audioengine是单例对象。<br/>
+主要用来播放音频，播放的时候会返回一个 audioID，之后都可以通过这个 audioID 来操作这个音频对象。<br/>
+不使用的时候，请使用 cc.audioEngine.uncache(filePath); 进行资源释放 <br/>
+注意：<br/>
+在 Android 系统浏览器上，不同浏览器，不同版本的效果不尽相同。<br/>
+比如说：大多数浏览器都需要用户物理交互才可以开始播放音效，有一些不支持 WebAudio，<br/>
+有一些不支持多音轨播放。总之如果对音乐依赖比较强，请做尽可能多的测试。
 
 ### Index
 
@@ -15,28 +21,28 @@ cc.audioEngine is the singleton object, it provide simple audio APIs.
 
 ##### Methods
 
-  - [`play`](#play) Play audio.
-  - [`setLoop`](#setloop) Set audio loop.
-  - [`isLoop`](#isloop) Get audio cycle state.
-  - [`setVolume`](#setvolume) Set the volume of audio.
-  - [`getVolume`](#getvolume) The volume of the music max value is 1.0,the min value is 0.0 .
-  - [`setCurrentTime`](#setcurrenttime) Set current time
-  - [`getCurrentTime`](#getcurrenttime) Get current time
-  - [`getDuration`](#getduration) Get audio duration
-  - [`getState`](#getstate) Get audio state
-  - [`setFinishCallback`](#setfinishcallback) Set Audio finish callback
-  - [`pause`](#pause) Pause playing audio.
-  - [`pauseAll`](#pauseall) Pause all playing audio
-  - [`resume`](#resume) Resume playing audio.
-  - [`resumeAll`](#resumeall) Resume all playing audio.
-  - [`stop`](#stop) Stop playing audio.
-  - [`stopAll`](#stopall) Stop all playing audio.
-  - [`setMaxAudioInstance`](#setmaxaudioinstance) Set up an audio can generate a few examples.
-  - [`getMaxAudioInstance`](#getmaxaudioinstance) Getting audio can produce several examples.
-  - [`uncache`](#uncache) Unload the preloaded audio from internal buffer.
-  - [`uncacheAll`](#uncacheall) Unload all audio from internal buffer.
-  - [`preload`](#preload) Preload audio file.
-  - [`setMaxWebAudioSize`](#setmaxwebaudiosize) Set a size, the unit is KB，Over this size is directly resolved into DOM nodes
+  - [`play`](#play) 播放音频
+  - [`setLoop`](#setloop) 设置音频是否循环。
+  - [`isLoop`](#isloop) 获取音频的循环状态。
+  - [`setVolume`](#setvolume) 设置音量（0.0 ~ 1.0）。
+  - [`getVolume`](#getvolume) 获取音量（0.0 ~ 1.0）。
+  - [`setCurrentTime`](#setcurrenttime) 设置当前的音频时间。
+  - [`getCurrentTime`](#getcurrenttime) 获取当前的音频播放时间。
+  - [`getDuration`](#getduration) 获取音频总时长。
+  - [`getState`](#getstate) 获取音频状态。
+  - [`setFinishCallback`](#setfinishcallback) 设置一个音频结束后的回调
+  - [`pause`](#pause) 暂停正在播放音频。
+  - [`pauseAll`](#pauseall) 暂停现在正在播放的所有音频。
+  - [`resume`](#resume) 恢复播放指定的音频。
+  - [`resumeAll`](#resumeall) 恢复播放所有之前暂停的所有音频。
+  - [`stop`](#stop) 停止播放指定音频。
+  - [`stopAll`](#stopall) 停止正在播放的所有音频。
+  - [`setMaxAudioInstance`](#setmaxaudioinstance) 设置一个音频可以设置几个实例
+  - [`getMaxAudioInstance`](#getmaxaudioinstance) 获取一个音频可以设置几个实例
+  - [`uncache`](#uncache) 卸载预加载的音频。
+  - [`uncacheAll`](#uncacheall) 卸载所有音频。
+  - [`preload`](#preload) 预加载一个音频
+  - [`setMaxWebAudioSize`](#setmaxwebaudiosize) 设置一个以kb为单位的尺寸，大于这个尺寸的音频在加载的时候会强制使用 dom 方式加载
 
 
 
@@ -51,7 +57,7 @@ cc.audioEngine is the singleton object, it provide simple audio APIs.
 
 ##### play
 
-Play audio.
+播放音频
 
 | meta | description |
 |------|-------------|
@@ -72,7 +78,7 @@ var audioID = cc.audioEngine.play(path, false, 0.5);
 
 ##### setLoop
 
-Set audio loop.
+设置音频是否循环。
 
 | meta | description |
 |------|-------------|
@@ -91,7 +97,7 @@ cc.audioEngine.setLoop(id, true);
 
 ##### isLoop
 
-Get audio cycle state.
+获取音频的循环状态。
 
 | meta | description |
 |------|-------------|
@@ -110,7 +116,7 @@ cc.audioEngine.isLoop(id);
 
 ##### setVolume
 
-Set the volume of audio.
+设置音量（0.0 ~ 1.0）。
 
 | meta | description |
 |------|-------------|
@@ -129,7 +135,7 @@ cc.audioEngine.setVolume(id, 0.5);
 
 ##### getVolume
 
-The volume of the music max value is 1.0,the min value is 0.0 .
+获取音量（0.0 ~ 1.0）。
 
 | meta | description |
 |------|-------------|
@@ -148,7 +154,7 @@ var volume = cc.audioEngine.getVolume(id);
 
 ##### setCurrentTime
 
-Set current time
+设置当前的音频时间。
 
 | meta | description |
 |------|-------------|
@@ -168,7 +174,7 @@ cc.audioEngine.setCurrentTime(id, 2);
 
 ##### getCurrentTime
 
-Get current time
+获取当前的音频播放时间。
 
 | meta | description |
 |------|-------------|
@@ -187,7 +193,7 @@ var time = cc.audioEngine.getCurrentTime(id);
 
 ##### getDuration
 
-Get audio duration
+获取音频总时长。
 
 | meta | description |
 |------|-------------|
@@ -206,7 +212,7 @@ var time = cc.audioEngine.getDuration(id);
 
 ##### getState
 
-Get audio state
+获取音频状态。
 
 | meta | description |
 |------|-------------|
@@ -225,7 +231,7 @@ var state = cc.audioEngine.getState(id);
 
 ##### setFinishCallback
 
-Set Audio finish callback
+设置一个音频结束后的回调
 
 | meta | description |
 |------|-------------|
@@ -244,7 +250,7 @@ cc.audioEngine.setFinishCallback(id, function () {});
 
 ##### pause
 
-Pause playing audio.
+暂停正在播放音频。
 
 | meta | description |
 |------|-------------|
@@ -262,7 +268,7 @@ cc.audioEngine.pause(audioID);
 
 ##### pauseAll
 
-Pause all playing audio
+暂停现在正在播放的所有音频。
 
 | meta | description |
 |------|-------------|
@@ -278,7 +284,7 @@ cc.audioEngine.pauseAll();
 
 ##### resume
 
-Resume playing audio.
+恢复播放指定的音频。
 
 | meta | description |
 |------|-------------|
@@ -292,7 +298,7 @@ cc.audioEngine.resume(audioID);
 
 ##### resumeAll
 
-Resume all playing audio.
+恢复播放所有之前暂停的所有音频。
 
 | meta | description |
 |------|-------------|
@@ -308,7 +314,7 @@ cc.audioEngine.resumeAll();
 
 ##### stop
 
-Stop playing audio.
+停止播放指定音频。
 
 | meta | description |
 |------|-------------|
@@ -326,7 +332,7 @@ cc.audioEngine.stop(audioID);
 
 ##### stopAll
 
-Stop all playing audio.
+停止正在播放的所有音频。
 
 | meta | description |
 |------|-------------|
@@ -342,7 +348,7 @@ cc.audioEngine.stopAll();
 
 ##### setMaxAudioInstance
 
-Set up an audio can generate a few examples.
+设置一个音频可以设置几个实例
 
 | meta | description |
 |------|-------------|
@@ -360,7 +366,7 @@ cc.audioEngine.setMaxAudioInstance(20);
 
 ##### getMaxAudioInstance
 
-Getting audio can produce several examples.
+获取一个音频可以设置几个实例
 
 | meta | description |
 |------|-------------|
@@ -377,7 +383,7 @@ cc.audioEngine.getMaxAudioInstance();
 
 ##### uncache
 
-Unload the preloaded audio from internal buffer.
+卸载预加载的音频。
 
 | meta | description |
 |------|-------------|
@@ -395,7 +401,7 @@ cc.audioEngine.uncache(filePath);
 
 ##### uncacheAll
 
-Unload all audio from internal buffer.
+卸载所有音频。
 
 | meta | description |
 |------|-------------|
@@ -411,7 +417,7 @@ cc.audioEngine.uncacheAll();
 
 ##### preload
 
-Preload audio file.
+预加载一个音频
 
 | meta | description |
 |------|-------------|
@@ -430,7 +436,7 @@ cc.audioEngine.preload(path);
 
 ##### setMaxWebAudioSize
 
-Set a size, the unit is KB，Over this size is directly resolved into DOM nodes
+设置一个以kb为单位的尺寸，大于这个尺寸的音频在加载的时候会强制使用 dom 方式加载
 
 | meta | description |
 |------|-------------|

@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for LineJoin.
+线段拐角属性
 
 ### Index
 
@@ -24,7 +24,7 @@ Enum for LineJoin.
 
 ##### BEVEL
 
-> Fills an additional triangular area between the common endpoint of connected segments, and the separate outside rectangular corners of each segment.
+> 在相连部分的末端填充一个额外的以三角形为底的区域， 每个部分都有各自独立的矩形拐角。
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ Enum for LineJoin.
 
 ##### ROUND
 
-> Rounds off the corners of a shape by filling an additional sector of disc centered at the common endpoint of connected segments. The radius for these rounded corners is equal to the line width.
+> 通过填充一个额外的，圆心在相连部分末端的扇形，绘制拐角的形状。 圆角的半径是线段的宽度。
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ Enum for LineJoin.
 
 ##### MITER
 
-> Connected segments are joined by extending their outside edges to connect at a single point, with the effect of filling an additional lozenge-shaped area.
+> 通过延伸相连部分的外边缘，使其相交于一点，形成一个额外的菱形区域。
 
 | meta | description |
 |------|-------------|

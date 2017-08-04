@@ -60,12 +60,6 @@ all event callbacks will be removed in _onPreDestroy
 回调的事件里将会附上发送事件的 AnimationState。
 当播放一个动画时，会自动将事件注册到对应的 AnimationState 上，停止播放时会将事件从这个 AnimationState 上取消注册。
   - [`off`](#off) 取消注册动画事件回调。
-  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
-这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
-这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
-  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
-  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
   - [`update`](#update) 如果该组件启用，则每帧调用 update。
   - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad.
@@ -109,6 +103,12 @@ This method should be removed if script priority is supported.
   - [`scheduleOnce`](#scheduleonce) 调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
   - [`unschedule`](#unschedule) 取消调度一个自定义的回调函数。
   - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
+  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
+  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
   - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
 销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
 实际销毁操作会延迟到当前帧渲染前执行。
@@ -565,72 +565,6 @@ animation.on('play', this.onPlay, this);
 animation.off('play', this.onPlay, this);
 ```
 
-##### targetOff
-
-在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
-这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
-这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L257) |
-
-###### Parameters
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
-
-
-##### once
-
-注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:277](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L277) |
-
-###### Parameters
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
-                             The callback is ignored if it is a duplicate (the callbacks are unique).
-	- event <a href="../classes/Event.html" class="crosslink">Event</a> event
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to invoke the callback, can be null
-- useCapture <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
-                             from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
-                             When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
-                             Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
-
-##### Example
-
-```js
-node.once(cc.Node.EventType.TOUCH_END, function (event) {
-    cc.log("this is callback");
-}, node);
-```
-
-##### dispatchEvent
-
-分发事件到事件流中。
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:311](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L311) |
-
-###### Parameters
-- event <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
-
-
-##### emit
-
-该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:325](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L325) |
-
-###### Parameters
-- message <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send
-- detail Any whatever argument the message needs
-
-
 ##### update
 
 如果该组件启用，则每帧调用 update。
@@ -756,7 +690,7 @@ This method should be removed if script priority is supported.
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
 ##### Example
 
@@ -776,7 +710,7 @@ var test = node.addComponent("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -797,7 +731,7 @@ var test = node.getComponent("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -816,7 +750,7 @@ var tests = node.getComponents("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -835,7 +769,7 @@ var Test = node.getComponentInChildren("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -958,6 +892,72 @@ this.unschedule(_callback);
 ```js
 this.unscheduleAllCallbacks();
 ```
+
+##### targetOff
+
+在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L257) |
+
+###### Parameters
+- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
+
+
+##### once
+
+注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:277](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L277) |
+
+###### Parameters
+- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
+- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
+                             The callback is ignored if it is a duplicate (the callbacks are unique).
+	- event <a href="../classes/Event.html" class="crosslink">Event</a> event
+- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to invoke the callback, can be null
+- useCapture <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
+                             from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
+                             When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
+                             Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
+
+##### Example
+
+```js
+node.once(cc.Node.EventType.TOUCH_END, function (event) {
+    cc.log("this is callback");
+}, node);
+```
+
+##### dispatchEvent
+
+分发事件到事件流中。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:311](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L311) |
+
+###### Parameters
+- event <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
+
+
+##### emit
+
+该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:325](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L325) |
+
+###### Parameters
+- message <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send
+- detail Any whatever argument the message needs
+
 
 ##### destroy
 

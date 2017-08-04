@@ -8,26 +8,25 @@ Module: [cc](../modules/cc.md)
 
 
 
-Base class cc.Action for action classes.
+Action 类是所有动作类型的基类。
 
 ### Index
 
 ##### Properties
 
-  - [`TAG_INVALID`](#taginvalid) `Number` Default Action tag.
+  - [`TAG_INVALID`](#taginvalid) `Number` 默认动作标签。
 
 
 
 ##### Methods
 
-  - [`clone`](#clone) to copy object with deep copy.
-returns a clone of action.
-  - [`isDone`](#isdone) return true if the action has finished.
-  - [`getTarget`](#gettarget) get the target.
-  - [`setTarget`](#settarget) The action will modify the target properties.
-  - [`getOriginalTarget`](#getoriginaltarget) get the original target.
-  - [`getTag`](#gettag) get tag number.
-  - [`setTag`](#settag) set tag number.
+  - [`clone`](#clone) 返回一个克隆的动作。
+  - [`isDone`](#isdone) 如果动作已完成就返回 true。
+  - [`getTarget`](#gettarget) 获取当前目标节点。
+  - [`setTarget`](#settarget) 设置目标节点。
+  - [`getOriginalTarget`](#getoriginaltarget) 获取原始目标节点。
+  - [`getTag`](#gettag) 获取用于识别动作的标签。
+  - [`setTag`](#settag) 设置标签，用于识别动作。
 
 
 
@@ -39,7 +38,7 @@ returns a clone of action.
 
 ##### TAG_INVALID
 
-> Default Action tag.
+> 默认动作标签。
 
 | meta | description |
 |------|-------------|
@@ -57,8 +56,7 @@ returns a clone of action.
 
 ##### clone
 
-to copy object with deep copy.
-returns a clone of action.
+返回一个克隆的动作。
 
 | meta | description |
 |------|-------------|
@@ -69,7 +67,7 @@ returns a clone of action.
 
 ##### isDone
 
-return true if the action has finished.
+如果动作已完成就返回 true。
 
 | meta | description |
 |------|-------------|
@@ -80,7 +78,7 @@ return true if the action has finished.
 
 ##### getTarget
 
-get the target.
+获取当前目标节点。
 
 | meta | description |
 |------|-------------|
@@ -91,7 +89,7 @@ get the target.
 
 ##### setTarget
 
-The action will modify the target properties.
+设置目标节点。
 
 | meta | description |
 |------|-------------|
@@ -103,7 +101,7 @@ The action will modify the target properties.
 
 ##### getOriginalTarget
 
-get the original target.
+获取原始目标节点。
 
 | meta | description |
 |------|-------------|
@@ -114,7 +112,7 @@ get the original target.
 
 ##### getTag
 
-get tag number.
+获取用于识别动作的标签。
 
 | meta | description |
 |------|-------------|
@@ -125,7 +123,7 @@ get tag number.
 
 ##### setTag
 
-set tag number.
+设置标签，用于识别动作。
 
 | meta | description |
 |------|-------------|

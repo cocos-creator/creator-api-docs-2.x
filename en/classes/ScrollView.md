@@ -8,116 +8,104 @@ Module: [cc](../modules/cc.md)
 
 
 
-Layout container for a view hierarchy that can be scrolled by the user,
-allowing it to be larger than the physical display.
+滚动视图组件
 
 ### Index
 
 ##### Properties
 
-  - [`content`](#content) `Node` This is a reference to the UI element to be scrolled.
-  - [`horizontal`](#horizontal) `Boolean` Enable horizontal scroll.
-  - [`vertical`](#vertical) `Boolean` Enable vertical scroll.
-  - [`inertia`](#inertia) `Boolean` When inertia is set, the content will continue to move when touch ended.
-  - [`brake`](#brake) `Number` It determines how quickly the content stop moving. A value of 1 will stop the movement immediately.
-A value of 0 will never stop the movement until it reaches to the boundary of scrollview.
-  - [`elastic`](#elastic) `Boolean` When elastic is set, the content will be bounce back when move out of boundary.
-  - [`bounceDuration`](#bounceduration) `Number` The elapse time of bouncing back. A value of 0 will bounce back immediately.
-  - [`horizontalScrollBar`](#horizontalscrollbar) `Scrollbar` The horizontal scrollbar reference.
-  - [`verticalScrollBar`](#verticalscrollbar) `Scrollbar` The vertical scrollbar reference.
-  - [`scrollEvents`](#scrollevents) `Component.EventHandler[]` Scrollview events callback
-  - [`cancelInnerEvents`](#cancelinnerevents) `Boolean` If cancelInnerEvents is set to true, the scroll behavior will cancel touch events on inner content nodes
-It's set to true by default.
+  - [`content`](#content) `Node` 可滚动展示内容的节点。
+  - [`horizontal`](#horizontal) `Boolean` 是否开启水平滚动。
+  - [`vertical`](#vertical) `Boolean` 是否开启垂直滚动。
+  - [`inertia`](#inertia) `Boolean` 是否开启滚动惯性。
+  - [`brake`](#brake) `Number` 开启惯性后，在用户停止触摸后滚动多快停止，0表示永不停止，1表示立刻停止。
+  - [`elastic`](#elastic) `Boolean` 是否允许滚动内容超过边界，并在停止触摸后回弹。
+  - [`bounceDuration`](#bounceduration) `Number` 回弹持续的时间，0 表示将立即反弹。
+  - [`horizontalScrollBar`](#horizontalscrollbar) `Scrollbar` 水平滚动的 ScrollBar。
+  - [`verticalScrollBar`](#verticalscrollbar) `Scrollbar` 垂直滚动的 ScrollBar。
+  - [`scrollEvents`](#scrollevents) `Component.EventHandler[]` 滚动视图的事件回调函数
+  - [`cancelInnerEvents`](#cancelinnerevents) `Boolean` 如果这个属性被设置为 true，那么滚动行为会取消子节点上注册的触摸事件，默认被设置为 true。
+注意，子节点上的 touchstart 事件仍然会触发，触点移动距离非常短的情况下 touchmove 和 touchend 也不会受影响。
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
-  - [`node`](#node) `Node` The node this component is attached to. A component is always attached to a node.
-  - [`uuid`](#uuid) `String` The uuid for editor.
+  - [`node`](#node) `Node` 该组件被附加到的节点。组件总会附加到一个节点。
+  - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
   - [`_enabled`](#enabled) `Boolean` 
-  - [`enabled`](#enabled) `Boolean` indicates whether this component is enabled or not.
-  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` indicates whether this component is enabled and its node is also active in the hierarchy.
-  - [`_isOnLoadCalled`](#isonloadcalled) `Number` Returns a value which used to indicate the onLoad get called or not.
+  - [`enabled`](#enabled) `Boolean` 表示该组件自身是否启用。
+  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` 表示该组件是否被启用并且所在的节点也处于激活状态。
+  - [`_isOnLoadCalled`](#isonloadcalled) `Number` 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` The name of the object.
-  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
+  - [`name`](#name) `String` 该对象的名称。
+  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
 
 
 
 ##### Methods
 
-  - [`scrollToBottom`](#scrolltobottom) Scroll the content to the bottom boundary of ScrollView.
-  - [`scrollToTop`](#scrolltotop) Scroll the content to the top boundary of ScrollView.
-  - [`scrollToLeft`](#scrolltoleft) Scroll the content to the left boundary of ScrollView.
-  - [`scrollToRight`](#scrolltoright) Scroll the content to the right boundary of ScrollView.
-  - [`scrollToTopLeft`](#scrolltotopleft) Scroll the content to the top left boundary of ScrollView.
-  - [`scrollToTopRight`](#scrolltotopright) Scroll the content to the top right boundary of ScrollView.
-  - [`scrollToBottomLeft`](#scrolltobottomleft) Scroll the content to the bottom left boundary of ScrollView.
-  - [`scrollToBottomRight`](#scrolltobottomright) Scroll the content to the bottom right boundary of ScrollView.
-  - [`scrollToOffset`](#scrolltooffset) Scroll with an offset related to the ScrollView's top left origin, if timeInSecond is omitted, then it will jump to the
-      specific offset immediately.
-  - [`getScrollOffset`](#getscrolloffset) Get the positive offset value corresponds to the content's top left boundary.
-  - [`getMaxScrollOffset`](#getmaxscrolloffset) Get the maximize available  scroll offset
-  - [`scrollToPercentHorizontal`](#scrolltopercenthorizontal) Scroll the content to the horizontal percent position of ScrollView.
-  - [`scrollTo`](#scrollto) Scroll the content to the percent position of ScrollView in any direction.
-  - [`scrollToPercentVertical`](#scrolltopercentvertical) Scroll the content to the vertical percent position of ScrollView.
-  - [`stopAutoScroll`](#stopautoscroll) Stop auto scroll immediately
-  - [`setContentPosition`](#setcontentposition) Modify the content position.
-  - [`getContentPosition`](#getcontentposition) Query the content's position in its parent space.
-  - [`update`](#update) Update is called every frame, if the Component is enabled.
-  - [`lateUpdate`](#lateupdate) LateUpdate is called every frame, if the Component is enabled.
+  - [`scrollToBottom`](#scrolltobottom) 视图内容将在规定时间内滚动到视图底部。
+  - [`scrollToTop`](#scrolltotop) 视图内容将在规定时间内滚动到视图顶部。
+  - [`scrollToLeft`](#scrolltoleft) 视图内容将在规定时间内滚动到视图左边。
+  - [`scrollToRight`](#scrolltoright) 视图内容将在规定时间内滚动到视图右边。
+  - [`scrollToTopLeft`](#scrolltotopleft) 视图内容将在规定时间内滚动到视图左上角。
+  - [`scrollToTopRight`](#scrolltotopright) 视图内容将在规定时间内滚动到视图右上角。
+  - [`scrollToBottomLeft`](#scrolltobottomleft) 视图内容将在规定时间内滚动到视图左下角。
+  - [`scrollToBottomRight`](#scrolltobottomright) 视图内容将在规定时间内滚动到视图右下角。
+  - [`scrollToOffset`](#scrolltooffset) 视图内容在规定时间内将滚动到 ScrollView 相对左上角原点的偏移位置, 如果 timeInSecond参数不传，则立即滚动到指定偏移位置。
+  - [`getScrollOffset`](#getscrolloffset) 获取滚动视图相对于左上角原点的当前滚动偏移
+  - [`getMaxScrollOffset`](#getmaxscrolloffset) 获取滚动视图最大可以滚动的偏移量
+  - [`scrollToPercentHorizontal`](#scrolltopercenthorizontal) 视图内容在规定时间内将滚动到 ScrollView 水平方向的百分比位置上。
+  - [`scrollTo`](#scrollto) 视图内容在规定时间内进行垂直方向和水平方向的滚动，并且滚动到指定百分比位置上。
+  - [`scrollToPercentVertical`](#scrolltopercentvertical) 视图内容在规定时间内滚动到 ScrollView 垂直方向的百分比位置上。
+  - [`stopAutoScroll`](#stopautoscroll) 停止自动滚动, 调用此 API 可以让 Scrollview 立即停止滚动
+  - [`setContentPosition`](#setcontentposition) 设置当前视图内容的坐标点。
+  - [`getContentPosition`](#getcontentposition) 获取当前视图内容的坐标点。
+  - [`update`](#update) 如果该组件启用，则每帧调用 update。
+  - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad.
 It is used to initialize the builtin components internally,
 to avoid checking whether onLoad is called before every public method calls.
 This method should be removed if script priority is supported.
-  - [`onLoad`](#onload) When attaching to an active node or its node first activated.
-onLoad is always called before any start functions, this allows you to order initialization of scripts.
-  - [`start`](#start) Called before all scripts' update if the Component is enabled the first time.
-Usually used to initialize some logic which need to be called after all components' `onload` methods called.
-  - [`onEnable`](#onenable) Called when this component becomes enabled and its node is active.
-  - [`onDisable`](#ondisable) Called when this component becomes disabled or its node becomes inactive.
-  - [`onDestroy`](#ondestroy) Called when this component will be destroyed.
+  - [`onLoad`](#onload) 当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
+  - [`start`](#start) 如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
+  - [`onEnable`](#onenable) 当该组件被启用，并且它的节点也激活时。
+  - [`onDisable`](#ondisable) 当该组件被禁用或节点变为无效时调用。
+  - [`onDestroy`](#ondestroy) 当该组件被销毁时调用
   - [`onFocusInEditor`](#onfocusineditor) 
   - [`onLostFocusInEditor`](#onlostfocusineditor) 
-  - [`resetInEditor`](#resetineditor) Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
-  - [`addComponent`](#addcomponent) Adds a component class to the node. You can also add component to node by passing in the name of the script.
-  - [`getComponent`](#getcomponent) Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
-You can also get component in the node by passing in the name of the script.
-  - [`getComponents`](#getcomponents) Returns all components of supplied Type in the node.
-  - [`getComponentInChildren`](#getcomponentinchildren) Returns the component of supplied type in any of its children using depth first search.
-  - [`getComponentsInChildren`](#getcomponentsinchildren) Returns the components of supplied type in self or any of its children using depth first search.
-  - [`_getLocalBounds`](#getlocalbounds) If the component's bounding box is different from the node's, you can implement this method to supply
-a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
-  - [`onRestore`](#onrestore) onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
-an undo operation on this component.<br/>
+  - [`resetInEditor`](#resetineditor) 用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
+  - [`addComponent`](#addcomponent) 向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
+  - [`getComponent`](#getcomponent) 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
+传入参数也可以是脚本的名称。
+  - [`getComponents`](#getcomponents) 返回节点上指定类型的所有组件。
+  - [`getComponentInChildren`](#getcomponentinchildren) 递归查找所有子节点中第一个匹配指定类型的组件。
+  - [`getComponentsInChildren`](#getcomponentsinchildren) 递归查找自身或所有子节点中指定类型的组件
+  - [`_getLocalBounds`](#getlocalbounds) 如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
+以便编辑器的场景视图可以正确地执行点选测试。
+  - [`onRestore`](#onrestore) onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
 <br/>
-If the component contains the "internal state", short for "temporary member variables which not included<br/>
-in its CCClass properties", then you may need to implement this function.<br/>
+如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
 <br/>
-The editor will call the getset accessors of your component to record/restore the component's state<br/>
-for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
-this function to manually synchronize your component's "internal states" with its public properties.<br/>
-Once you implement this function, all the getset accessors of your component will not be called when<br/>
-the user performs an undo/redo operation. Which means that only the properties with default value<br/>
-will be recorded or restored by editor.<br/>
+编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
+然而，在极端的情况下，它可能无法良好运作。<br/>
+那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
+一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
+这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
 <br/>
-Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
-to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
-properties in this function. Once you implement this function, all the getset accessors of your component<br/>
-will not be called during reset operation. Which means that only the properties with default value<br/>
-will be reset by editor.
-
-This function is only called in editor mode.
-  - [`schedule`](#schedule) Schedules a custom selector.<br/>
-If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
-  - [`scheduleOnce`](#scheduleonce) Schedules a callback function that runs only once, with a delay of 0 or larger.
-  - [`unschedule`](#unschedule) Unschedules a custom callback function.
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
-Actions are not affected by this method.
-  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
+同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
+于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
+一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
+这意味着仅仅指定了默认值的属性将被编辑器重置。
 <br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+此方法仅在编辑器下会被调用。
+  - [`schedule`](#schedule) 调度一个自定义的回调函数。<br/>
+如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
+  - [`scheduleOnce`](#scheduleonce) 调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
+  - [`unschedule`](#unschedule) 取消调度一个自定义的回调函数。
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
+  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -144,17 +132,17 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### Events
 
-  - [`scroll-to-top`](#scroll-to-top) Note: This event is emitted from the node to which the component belongs.
-  - [`scroll-to-bottom`](#scroll-to-bottom) Note: This event is emitted from the node to which the component belongs.
-  - [`scroll-to-left`](#scroll-to-left) Note: This event is emitted from the node to which the component belongs.
-  - [`scroll-to-right`](#scroll-to-right) Note: This event is emitted from the node to which the component belongs.
-  - [`scrolling`](#scrolling) Note: This event is emitted from the node to which the component belongs.
-  - [`bounce-bottom`](#bounce-bottom) Note: This event is emitted from the node to which the component belongs.
-  - [`bounce-top`](#bounce-top) Note: This event is emitted from the node to which the component belongs.
-  - [`bounce-left`](#bounce-left) Note: This event is emitted from the node to which the component belongs.
-  - [`bounce-right`](#bounce-right) Note: This event is emitted from the node to which the component belongs.
-  - [`scroll-ended`](#scroll-ended) Note: This event is emitted from the node to which the component belongs.
-  - [`touch-up`](#touch-up) Note: This event is emitted from the node to which the component belongs.
+  - [`scroll-to-top`](#scroll-to-top) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`scroll-to-bottom`](#scroll-to-bottom) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`scroll-to-left`](#scroll-to-left) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`scroll-to-right`](#scroll-to-right) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`scrolling`](#scrolling) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`bounce-bottom`](#bounce-bottom) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`bounce-top`](#bounce-top) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`bounce-left`](#bounce-left) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`bounce-right`](#bounce-right) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`scroll-ended`](#scroll-ended) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`touch-up`](#touch-up) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 
 ### Details
@@ -165,7 +153,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### content
 
-> This is a reference to the UI element to be scrolled.
+> 可滚动展示内容的节点。
 
 | meta | description |
 |------|-------------|
@@ -176,7 +164,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### horizontal
 
-> Enable horizontal scroll.
+> 是否开启水平滚动。
 
 | meta | description |
 |------|-------------|
@@ -187,7 +175,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### vertical
 
-> Enable vertical scroll.
+> 是否开启垂直滚动。
 
 | meta | description |
 |------|-------------|
@@ -198,7 +186,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### inertia
 
-> When inertia is set, the content will continue to move when touch ended.
+> 是否开启滚动惯性。
 
 | meta | description |
 |------|-------------|
@@ -209,8 +197,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### brake
 
-> It determines how quickly the content stop moving. A value of 1 will stop the movement immediately.
-A value of 0 will never stop the movement until it reaches to the boundary of scrollview.
+> 开启惯性后，在用户停止触摸后滚动多快停止，0表示永不停止，1表示立刻停止。
 
 | meta | description |
 |------|-------------|
@@ -221,7 +208,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 
 ##### elastic
 
-> When elastic is set, the content will be bounce back when move out of boundary.
+> 是否允许滚动内容超过边界，并在停止触摸后回弹。
 
 | meta | description |
 |------|-------------|
@@ -232,7 +219,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 
 ##### bounceDuration
 
-> The elapse time of bouncing back. A value of 0 will bounce back immediately.
+> 回弹持续的时间，0 表示将立即反弹。
 
 | meta | description |
 |------|-------------|
@@ -243,7 +230,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 
 ##### horizontalScrollBar
 
-> The horizontal scrollbar reference.
+> 水平滚动的 ScrollBar。
 
 | meta | description |
 |------|-------------|
@@ -254,7 +241,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 
 ##### verticalScrollBar
 
-> The vertical scrollbar reference.
+> 垂直滚动的 ScrollBar。
 
 | meta | description |
 |------|-------------|
@@ -265,7 +252,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 
 ##### scrollEvents
 
-> Scrollview events callback
+> 滚动视图的事件回调函数
 
 | meta | description |
 |------|-------------|
@@ -276,8 +263,8 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 
 ##### cancelInnerEvents
 
-> If cancelInnerEvents is set to true, the scroll behavior will cancel touch events on inner content nodes
-It's set to true by default.
+> 如果这个属性被设置为 true，那么滚动行为会取消子节点上注册的触摸事件，默认被设置为 true。
+注意，子节点上的 touchstart 事件仍然会触发，触点移动距离非常短的情况下 touchmove 和 touchend 也不会受影响。
 
 | meta | description |
 |------|-------------|
@@ -300,7 +287,7 @@ all event callbacks will be removed in _onPreDestroy
 
 ##### node
 
-> The node this component is attached to. A component is always attached to a node.
+> 该组件被附加到的节点。组件总会附加到一个节点。
 
 | meta | description |
 |------|-------------|
@@ -316,7 +303,7 @@ cc.log(comp.node);
 
 ##### uuid
 
-> The uuid for editor.
+> 组件的 uuid，用于编辑器。
 
 | meta | description |
 |------|-------------|
@@ -343,7 +330,7 @@ cc.log(comp.uuid);
 
 ##### enabled
 
-> indicates whether this component is enabled or not.
+> 表示该组件自身是否启用。
 
 | meta | description |
 |------|-------------|
@@ -360,7 +347,7 @@ cc.log(comp.enabled);
 
 ##### enabledInHierarchy
 
-> indicates whether this component is enabled and its node is also active in the hierarchy.
+> 表示该组件是否被启用并且所在的节点也处于激活状态。
 
 | meta | description |
 |------|-------------|
@@ -376,7 +363,7 @@ cc.log(comp.enabledInHierarchy);
 
 ##### _isOnLoadCalled
 
-> Returns a value which used to indicate the onLoad get called or not.
+> 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
 
 | meta | description |
 |------|-------------|
@@ -414,7 +401,7 @@ cc.log(this._isOnLoadCalled > 0);
 
 ##### name
 
-> The name of the object.
+> 该对象的名称。
 
 | meta | description |
 |------|-------------|
@@ -430,7 +417,7 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> Indicates whether the object is not yet destroyed.
+> 表示该对象是否可用（被销毁后将不可用）。
 
 | meta | description |
 |------|-------------|
@@ -453,7 +440,7 @@ cc.log(obj.isValid);
 
 ##### scrollToBottom
 
-Scroll the content to the bottom boundary of ScrollView.
+视图内容将在规定时间内滚动到视图底部。
 
 | meta | description |
 |------|-------------|
@@ -473,7 +460,7 @@ scrollView.scrollToBottom(0.1);
 
 ##### scrollToTop
 
-Scroll the content to the top boundary of ScrollView.
+视图内容将在规定时间内滚动到视图顶部。
 
 | meta | description |
 |------|-------------|
@@ -493,7 +480,7 @@ scrollView.scrollToTop(0.1);
 
 ##### scrollToLeft
 
-Scroll the content to the left boundary of ScrollView.
+视图内容将在规定时间内滚动到视图左边。
 
 | meta | description |
 |------|-------------|
@@ -513,7 +500,7 @@ scrollView.scrollToLeft(0.1);
 
 ##### scrollToRight
 
-Scroll the content to the right boundary of ScrollView.
+视图内容将在规定时间内滚动到视图右边。
 
 | meta | description |
 |------|-------------|
@@ -533,7 +520,7 @@ scrollView.scrollToRight(0.1);
 
 ##### scrollToTopLeft
 
-Scroll the content to the top left boundary of ScrollView.
+视图内容将在规定时间内滚动到视图左上角。
 
 | meta | description |
 |------|-------------|
@@ -553,7 +540,7 @@ scrollView.scrollToTopLeft(0.1);
 
 ##### scrollToTopRight
 
-Scroll the content to the top right boundary of ScrollView.
+视图内容将在规定时间内滚动到视图右上角。
 
 | meta | description |
 |------|-------------|
@@ -573,7 +560,7 @@ scrollView.scrollToTopRight(0.1);
 
 ##### scrollToBottomLeft
 
-Scroll the content to the bottom left boundary of ScrollView.
+视图内容将在规定时间内滚动到视图左下角。
 
 | meta | description |
 |------|-------------|
@@ -593,7 +580,7 @@ scrollView.scrollToBottomLeft(0.1);
 
 ##### scrollToBottomRight
 
-Scroll the content to the bottom right boundary of ScrollView.
+视图内容将在规定时间内滚动到视图右下角。
 
 | meta | description |
 |------|-------------|
@@ -613,8 +600,7 @@ scrollView.scrollToBottomRight(0.1);
 
 ##### scrollToOffset
 
-Scroll with an offset related to the ScrollView's top left origin, if timeInSecond is omitted, then it will jump to the
-      specific offset immediately.
+视图内容在规定时间内将滚动到 ScrollView 相对左上角原点的偏移位置, 如果 timeInSecond参数不传，则立即滚动到指定偏移位置。
 
 | meta | description |
 |------|-------------|
@@ -636,7 +622,7 @@ scrollView.scrollToOffset(cc.p(maxScrollOffset.x / 2, 0), 0.1);
 
 ##### getScrollOffset
 
-Get the positive offset value corresponds to the content's top left boundary.
+获取滚动视图相对于左上角原点的当前滚动偏移
 
 | meta | description |
 |------|-------------|
@@ -647,7 +633,7 @@ Get the positive offset value corresponds to the content's top left boundary.
 
 ##### getMaxScrollOffset
 
-Get the maximize available  scroll offset
+获取滚动视图最大可以滚动的偏移量
 
 | meta | description |
 |------|-------------|
@@ -658,7 +644,7 @@ Get the maximize available  scroll offset
 
 ##### scrollToPercentHorizontal
 
-Scroll the content to the horizontal percent position of ScrollView.
+视图内容在规定时间内将滚动到 ScrollView 水平方向的百分比位置上。
 
 | meta | description |
 |------|-------------|
@@ -679,7 +665,7 @@ scrollView.scrollToBottomRight(0.5, 0.1);
 
 ##### scrollTo
 
-Scroll the content to the percent position of ScrollView in any direction.
+视图内容在规定时间内进行垂直方向和水平方向的滚动，并且滚动到指定百分比位置上。
 
 | meta | description |
 |------|-------------|
@@ -703,7 +689,7 @@ scrollView.scrollTo(cc.p(1, 0), 0.1);
 
 ##### scrollToPercentVertical
 
-Scroll the content to the vertical percent position of ScrollView.
+视图内容在规定时间内滚动到 ScrollView 垂直方向的百分比位置上。
 
 | meta | description |
 |------|-------------|
@@ -720,7 +706,7 @@ scrollView.scrollToPercentVertical(0.5, 0.1);
 
 ##### stopAutoScroll
 
-Stop auto scroll immediately
+停止自动滚动, 调用此 API 可以让 Scrollview 立即停止滚动
 
 | meta | description |
 |------|-------------|
@@ -730,7 +716,7 @@ Stop auto scroll immediately
 
 ##### setContentPosition
 
-Modify the content position.
+设置当前视图内容的坐标点。
 
 | meta | description |
 |------|-------------|
@@ -742,7 +728,7 @@ Modify the content position.
 
 ##### getContentPosition
 
-Query the content's position in its parent space.
+获取当前视图内容的坐标点。
 
 | meta | description |
 |------|-------------|
@@ -753,7 +739,7 @@ Query the content's position in its parent space.
 
 ##### update
 
-Update is called every frame, if the Component is enabled.
+如果该组件启用，则每帧调用 update。
 
 | meta | description |
 |------|-------------|
@@ -765,7 +751,7 @@ Update is called every frame, if the Component is enabled.
 
 ##### lateUpdate
 
-LateUpdate is called every frame, if the Component is enabled.
+如果该组件启用，则每帧调用 LateUpdate。
 
 | meta | description |
 |------|-------------|
@@ -788,8 +774,7 @@ This method should be removed if script priority is supported.
 
 ##### onLoad
 
-When attaching to an active node or its node first activated.
-onLoad is always called before any start functions, this allows you to order initialization of scripts.
+当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
 
 | meta | description |
 |------|-------------|
@@ -799,8 +784,7 @@ onLoad is always called before any start functions, this allows you to order ini
 
 ##### start
 
-Called before all scripts' update if the Component is enabled the first time.
-Usually used to initialize some logic which need to be called after all components' `onload` methods called.
+如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
 
 | meta | description |
 |------|-------------|
@@ -810,7 +794,7 @@ Usually used to initialize some logic which need to be called after all componen
 
 ##### onEnable
 
-Called when this component becomes enabled and its node is active.
+当该组件被启用，并且它的节点也激活时。
 
 | meta | description |
 |------|-------------|
@@ -820,7 +804,7 @@ Called when this component becomes enabled and its node is active.
 
 ##### onDisable
 
-Called when this component becomes disabled or its node becomes inactive.
+当该组件被禁用或节点变为无效时调用。
 
 | meta | description |
 |------|-------------|
@@ -830,7 +814,7 @@ Called when this component becomes disabled or its node becomes inactive.
 
 ##### onDestroy
 
-Called when this component will be destroyed.
+当该组件被销毁时调用
 
 | meta | description |
 |------|-------------|
@@ -860,7 +844,7 @@ Called when this component will be destroyed.
 
 ##### resetInEditor
 
-Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
+用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
 
 | meta | description |
 |------|-------------|
@@ -870,7 +854,7 @@ Called to initialize the component or node’s properties when adding the compon
 
 ##### addComponent
 
-Adds a component class to the node. You can also add component to node by passing in the name of the script.
+向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
 
 | meta | description |
 |------|-------------|
@@ -889,8 +873,8 @@ var test = node.addComponent("Test");
 
 ##### getComponent
 
-Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
-You can also get component in the node by passing in the name of the script.
+获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
+传入参数也可以是脚本的名称。
 
 | meta | description |
 |------|-------------|
@@ -911,7 +895,7 @@ var test = node.getComponent("Test");
 
 ##### getComponents
 
-Returns all components of supplied Type in the node.
+返回节点上指定类型的所有组件。
 
 | meta | description |
 |------|-------------|
@@ -930,7 +914,7 @@ var tests = node.getComponents("Test");
 
 ##### getComponentInChildren
 
-Returns the component of supplied type in any of its children using depth first search.
+递归查找所有子节点中第一个匹配指定类型的组件。
 
 | meta | description |
 |------|-------------|
@@ -949,7 +933,7 @@ var Test = node.getComponentInChildren("Test");
 
 ##### getComponentsInChildren
 
-Returns the components of supplied type in self or any of its children using depth first search.
+递归查找自身或所有子节点中指定类型的组件
 
 | meta | description |
 |------|-------------|
@@ -968,8 +952,8 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### _getLocalBounds
 
-If the component's bounding box is different from the node's, you can implement this method to supply
-a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
+如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
+以便编辑器的场景视图可以正确地执行点选测试。
 
 | meta | description |
 |------|-------------|
@@ -981,26 +965,22 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 
 ##### onRestore
 
-onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
-an undo operation on this component.<br/>
+onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
 <br/>
-If the component contains the "internal state", short for "temporary member variables which not included<br/>
-in its CCClass properties", then you may need to implement this function.<br/>
+如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
 <br/>
-The editor will call the getset accessors of your component to record/restore the component's state<br/>
-for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
-this function to manually synchronize your component's "internal states" with its public properties.<br/>
-Once you implement this function, all the getset accessors of your component will not be called when<br/>
-the user performs an undo/redo operation. Which means that only the properties with default value<br/>
-will be recorded or restored by editor.<br/>
+编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
+然而，在极端的情况下，它可能无法良好运作。<br/>
+那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
+一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
+这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
 <br/>
-Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
-to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
-properties in this function. Once you implement this function, all the getset accessors of your component<br/>
-will not be called during reset operation. Which means that only the properties with default value<br/>
-will be reset by editor.
-
-This function is only called in editor mode.
+同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
+于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
+一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
+这意味着仅仅指定了默认值的属性将被编辑器重置。
+<br/>
+此方法仅在编辑器下会被调用。
 
 | meta | description |
 |------|-------------|
@@ -1010,8 +990,8 @@ This function is only called in editor mode.
 
 ##### schedule
 
-Schedules a custom selector.<br/>
-If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
+调度一个自定义的回调函数。<br/>
+如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
 
 | meta | description |
 |------|-------------|
@@ -1034,7 +1014,7 @@ this.schedule(timeCallback, 1);
 
 ##### scheduleOnce
 
-Schedules a callback function that runs only once, with a delay of 0 or larger.
+调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
 
 | meta | description |
 |------|-------------|
@@ -1055,7 +1035,7 @@ this.scheduleOnce(timeCallback, 2);
 
 ##### unschedule
 
-Unschedules a custom callback function.
+取消调度一个自定义的回调函数。
 
 | meta | description |
 |------|-------------|
@@ -1072,8 +1052,7 @@ this.unschedule(_callback);
 
 ##### unscheduleAllCallbacks
 
-unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
-Actions are not affected by this method.
+取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
 
 | meta | description |
 |------|-------------|
@@ -1088,11 +1067,9 @@ this.unscheduleAllCallbacks();
 
 ##### destroy
 
-Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
 
 | meta | description |
 |------|-------------|
@@ -1182,7 +1159,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 
@@ -1206,7 +1183,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 
@@ -1230,7 +1207,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 
@@ -1254,7 +1231,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 
@@ -1278,7 +1255,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 
@@ -1302,7 +1279,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 
@@ -1326,7 +1303,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 
@@ -1350,7 +1327,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 
@@ -1374,7 +1351,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 
@@ -1398,7 +1375,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 
@@ -1422,7 +1399,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Note: This event is emitted from the node to which the component belongs.
+注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
 
 ### Index
 

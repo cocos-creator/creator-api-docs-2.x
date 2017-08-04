@@ -1300,14 +1300,13 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 ##### TOUCH_TIMEOUT
 
-> The timeout to determine whether a touch is no longer active and should be removed.
-The reason to add this timeout is due to an issue in X5 browser core,
-when X5 is presented in wechat on Android, if a touch is glissed from the bottom up, and leave the page area,
-no touch cancel event is triggered, and the touch will be considered active forever.
-After multiple times of this action, our maximum touches number will be reached and all new touches will be ignored.
-So this new mechanism can remove the touch that should be inactive if it's not updated during the last 5000 milliseconds.
-Though it might remove a real touch if it's just not moving for the last 5 seconds which is not easy with the sensibility of mobile touch screen.
-You can modify this value to have a better behavior if you find it's not enough.
+> 用于甄别一个触点对象是否已经失效，并且可以被移除的延时时长
+添加这个时长的原因是 X5 内核在微信浏览器中出现的一个 bug。
+在这个环境下，如果用户将一个触点从底向上移出页面区域，将不会触发任何 touch cancel 或 touch end 事件，而这个触点会被永远当作停留在页面上的有效触点。
+重复这样操作几次之后，屏幕上的触点数量将达到我们的事件系统所支持的最高触点数量，之后所有的触摸事件都将被忽略。
+所以这个新的机制可以在触点在一定时间内没有任何更新的情况下视为失效触点并从事件系统中移除。
+当然，这也可能移除一个真实的触点，如果用户的触点真的在一定时间段内完全没有移动（这在当前手机屏幕的灵敏度下会很难）。
+你可以修改这个值来获得你需要的效果，默认值是 5000 毫秒。
 
 | meta | description |
 |------|-------------|
@@ -1318,7 +1317,7 @@ You can modify this value to have a better behavior if you find it's not enough.
 
 ##### BATCH_VERTEX_COUNT
 
-> The maximum vertex count for a single batched draw call.
+> 最大可以被单次批处理渲染的顶点数量。
 
 | meta | description |
 |------|-------------|
@@ -1329,9 +1328,8 @@ You can modify this value to have a better behavior if you find it's not enough.
 
 ##### ENABLE_GC_FOR_NATIVE_OBJECTS
 
-> JSB only, using JS object life cycle to control C++ object or inversely,
-it indicates two different memory model controled by the native macro CC_ENABLE_GC_FOR_NATIVE_OBJECTS.
-Modify the JS macro value won't have any effect.
+> 仅限 JSB 有意义，使用 JS 对象生命周期来控制 C++ 对象，或是相反，这标示了两种不同的内存模型，
+它的值被 native 宏 CC_ENABLE_GC_FOR_NATIVE_OBJECTS 所控制，修改 JS 宏的值不会产生任何效果。
 
 | meta | description |
 |------|-------------|
@@ -1342,7 +1340,7 @@ Modify the JS macro value won't have any effect.
 
 ##### ENABLE_TILEDMAP_CULLING
 
-> Whether or not enabled tiled map auto culling.
+> 是否开启瓦片地图的自动裁减功能。
 
 | meta | description |
 |------|-------------|
@@ -1353,7 +1351,7 @@ Modify the JS macro value won't have any effect.
 
 ##### DOWNLOAD_MAX_CONCURRENT
 
-> The max concurrent task number for the downloader
+> 下载任务的最大并发数限制，在安卓平台部分机型或版本上可能需要限制在较低的水平
 
 | meta | description |
 |------|-------------|
@@ -1364,10 +1362,9 @@ Modify the JS macro value won't have any effect.
 
 ##### ENABLE_TRANSPARENT_CANVAS
 
-> Boolean that indicates if the canvas contains an alpha channel, default sets to false for better performance.
-Though if you want to make your canvas background transparent and show other dom elements at the background,
-you can set it to true before `cc.game.run`.
-Web only.
+> 用于设置 Canvas 背景是否支持 alpha 通道，默认为 false，这样可以有更高的性能表现。
+如果你希望 Canvas 背景是透明的，并显示背后的其他 DOM 元素，你可以在 `cc.game.run` 之前将这个值设为 true。
+仅支持 Web
 
 | meta | description |
 |------|-------------|
@@ -1378,7 +1375,7 @@ Web only.
 
 ##### BLEND_SRC
 
-> default gl blend src function. Compatible with premultiplied alpha images.
+> 默认的混合源模式
 
 | meta | description |
 |------|-------------|

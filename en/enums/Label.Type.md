@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for font type.
+Type 类型
 
 ### Index
 
@@ -24,7 +24,7 @@ Enum for font type.
 
 ##### TTF
 
-> The TTF font type.
+> TTF字体
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ Enum for font type.
 
 ##### BMFont
 
-> The bitmap font type.
+> 位图字体
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ Enum for font type.
 
 ##### SystemFont
 
-> The system font type.
+> 系统字体
 
 | meta | description |
 |------|-------------|

@@ -70,13 +70,13 @@ You must manually call mixins constructor, this is different from cc.Class(ES5).
 const {ccclass} = cc._decorator;
 
 // define a CCClass, omit the name
-&#64;ccclass
+@ccclass
 class NewScript extends cc.Component {
     // ...
 }
 
 // define a CCClass with a name
-&#64;ccclass('LoginData')
+@ccclass('LoginData')
 class LoginData {
     // ...
 }
@@ -94,7 +94,7 @@ class LoginData {
 - options <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> an object with some property attributes
 	- type Any 
 	- url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-	- visible <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+	- visible <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 	- displayName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 	- tooltip <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 	- multiline <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -115,39 +115,39 @@ class LoginData {
 ```js
 const {ccclass, property} = cc._decorator;
 
-&#64;ccclass
+@ccclass
 class NewScript extends cc.Component {
-    &#64;property({
+    @property({
         type: cc.Node
     })
     targetNode1 = null;
 
-    &#64;property(cc.Node)
+    @property(cc.Node)
     targetNode2 = null;
 
-    &#64;property(cc.Button)
+    @property(cc.Button)
     targetButton = null;
 
-    &#64;property
+    @property
     _width = 100;
 
-    &#64;property
+    @property
     get width () {
         return this._width;
     }
 
-    &#64;property
+    @property
     set width (value) {
         return this._width = value;
     }
 
-    &#64;property
+    @property
     offset = new cc.Vec2(100, 100);
 
-    &#64;property(cc.Vec2)
+    @property(cc.Vec2)
     offsets = [];
 
-    &#64;property(cc.Texture2D)
+    @property(cc.Texture2D)
     texture = "";
 }
 
@@ -204,8 +204,8 @@ var NewScript = cc.Class({
 ```js
 const {ccclass, executeInEditMode} = cc._decorator;
 
-&#64;ccclass
-&#64;executeInEditMode
+@ccclass
+@executeInEditMode
 class NewScript extends cc.Component {
     // ...
 }
@@ -227,8 +227,8 @@ class NewScript extends cc.Component {
 ```js
 const {ccclass, requireComponent} = cc._decorator;
 
-&#64;ccclass
-&#64;requireComponent(cc.Sprite)
+@ccclass
+@requireComponent(cc.Sprite)
 class SpriteCtrl extends cc.Component {
     // ...
 }
@@ -251,8 +251,8 @@ class SpriteCtrl extends cc.Component {
 ```js
 const {ccclass, menu} = cc._decorator;
 
-&#64;ccclass
-&#64;menu("Rendering/CameraCtrl")
+@ccclass
+@menu("Rendering/CameraCtrl")
 class NewScript extends cc.Component {
     // ...
 }
@@ -274,8 +274,8 @@ class NewScript extends cc.Component {
 ```js
 const {ccclass, executionOrder} = cc._decorator;
 
-&#64;ccclass
-&#64;executionOrder(1)
+@ccclass
+@executionOrder(1)
 class CameraCtrl extends cc.Component {
     // ...
 }
@@ -295,8 +295,8 @@ class CameraCtrl extends cc.Component {
 ```js
 const {ccclass, disallowMultiple} = cc._decorator;
 
-&#64;ccclass
-&#64;disallowMultiple
+@ccclass
+@disallowMultiple
 class CameraCtrl extends cc.Component {
     // ...
 }
@@ -316,9 +316,9 @@ class CameraCtrl extends cc.Component {
 ```js
 const {ccclass, playOnFocus, executeInEditMode} = cc._decorator;
 
-&#64;ccclass
-&#64;executeInEditMode
-&#64;playOnFocus
+@ccclass
+@executeInEditMode
+@playOnFocus
 class CameraCtrl extends cc.Component {
     // ...
 }
@@ -340,8 +340,8 @@ class CameraCtrl extends cc.Component {
 ```js
 const {ccclass, inspector} = cc._decorator;
 
-&#64;ccclass
-&#64;inspector("packages://inspector/inspectors/comps/camera-ctrl.js")
+@ccclass
+@inspector("packages://inspector/inspectors/comps/camera-ctrl.js")
 class NewScript extends cc.Component {
     // ...
 }
@@ -363,8 +363,8 @@ class NewScript extends cc.Component {
 ```js
 const {ccclass, icon} = cc._decorator;
 
-&#64;ccclass
-&#64;icon("xxxx.png")
+@ccclass
+@icon("xxxx.png")
 class NewScript extends cc.Component {
     // ...
 }
@@ -386,8 +386,8 @@ class NewScript extends cc.Component {
 ```js
 const {ccclass, help} = cc._decorator;
 
-&#64;ccclass
-&#64;help("app://docs/html/components/spine.html")
+@ccclass
+@help("app://docs/html/components/spine.html")
 class NewScript extends cc.Component {
     // ...
 }
@@ -426,8 +426,8 @@ const Fly = cc.Class({
     constructor () { ... }
 });
 
-&#64;ccclass
-&#64;mixins(cc.EventTarget, Fly)
+@ccclass
+@mixins(cc.EventTarget, Fly)
 class Bird extends Animal {
     constructor () {
         super();

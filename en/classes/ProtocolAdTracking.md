@@ -8,7 +8,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-ad tracking protocol
+广告追踪系统协议接口
 
 ### Index
 
@@ -16,24 +16,22 @@ ad tracking protocol
 
 ##### Methods
 
-  - [`onPay`](#onpay) Call this method if you want to track register events as happening during a section.
-  - [`onLogin`](#onlogin) Call this method if you want to track register events as happening during a section.
-  - [`onRegister`](#onregister) Call this method if you want to track register events as happening during a section.
-  - [`trackEvent`](#trackevent) Call this method if you want to track custom events with parameters as happening during a section.
-  - [`onCreateRole`](#oncreaterole) Call this method with parameters if you want to create role as happening during a section.
-  - [`onLevelUp`](#onlevelup) Call this method if you want to track levelup events with parameters as happening during a section.
-Before to invoke, you need to verdict whether this properties existed
-  - [`onStartToPay`](#onstarttopay) Invoke this method with parameters if you want to start to pay as happening during a section.
-Before to invoke, you need to verdict whether this properties existed
-  - [`isFunctionSupported`](#isfunctionsupported) Check whether the function is supported
-  - [`getPluginName`](#getpluginname) get plugin name
-  - [`getPluginVersion`](#getpluginversion) get plugin version
-  - [`getSDKVersion`](#getsdkversion) get SDK version
-  - [`callFuncWithParam`](#callfuncwithparam) void methods for reflections with parameter
-  - [`callStringFuncWithParam`](#callstringfuncwithparam) String methods for reflections with parameter
-  - [`callIntFuncWithParam`](#callintfuncwithparam) int methods for reflections with parameter
-  - [`callBoolFuncWithParam`](#callboolfuncwithparam) boolean methods for reflections with parameter
-  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) float methods for reflections with parameter
+  - [`onPay`](#onpay) 统计用户注册信息
+  - [`onLogin`](#onlogin) 统计用户注册信息
+  - [`onRegister`](#onregister) 统计用户注册信息
+  - [`trackEvent`](#trackevent) 统计自定义事件
+  - [`onCreateRole`](#oncreaterole) 统计创建角色事件，调用前需要判断属性是否存在
+  - [`onLevelUp`](#onlevelup) 统计角色升级事件，调用前需要判断属性是否存在
+  - [`onStartToPay`](#onstarttopay) 统计开始充值事件，调用前需要判断属性是否存在
+  - [`isFunctionSupported`](#isfunctionsupported) 判断函数是否支持
+  - [`getPluginName`](#getpluginname) 获取插件名称
+  - [`getPluginVersion`](#getpluginversion) 获取插件版本
+  - [`getSDKVersion`](#getsdkversion) 获取 SDK 版本
+  - [`callFuncWithParam`](#callfuncwithparam) 反射调用带参数的void方法
+  - [`callStringFuncWithParam`](#callstringfuncwithparam) 反射调用带参数的 String 方法
+  - [`callIntFuncWithParam`](#callintfuncwithparam) 反射调用带参数的 Int 方法
+  - [`callBoolFuncWithParam`](#callboolfuncwithparam) 反射调用带参数的 boolean 方法
+  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) 反射调用带参数的 float 方法
 
 
 
@@ -48,7 +46,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### onPay
 
-Call this method if you want to track register events as happening during a section.
+统计用户注册信息
 
 | meta | description |
 |------|-------------|
@@ -60,7 +58,7 @@ Call this method if you want to track register events as happening during a sect
 
 ##### onLogin
 
-Call this method if you want to track register events as happening during a section.
+统计用户注册信息
 
 | meta | description |
 |------|-------------|
@@ -72,7 +70,7 @@ Call this method if you want to track register events as happening during a sect
 
 ##### onRegister
 
-Call this method if you want to track register events as happening during a section.
+统计用户注册信息
 
 | meta | description |
 |------|-------------|
@@ -84,7 +82,7 @@ Call this method if you want to track register events as happening during a sect
 
 ##### trackEvent
 
-Call this method if you want to track custom events with parameters as happening during a section.
+统计自定义事件
 
 | meta | description |
 |------|-------------|
@@ -97,7 +95,7 @@ Call this method if you want to track custom events with parameters as happening
 
 ##### onCreateRole
 
-Call this method with parameters if you want to create role as happening during a section.
+统计创建角色事件，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -109,8 +107,7 @@ Call this method with parameters if you want to create role as happening during 
 
 ##### onLevelUp
 
-Call this method if you want to track levelup events with parameters as happening during a section.
-Before to invoke, you need to verdict whether this properties existed
+统计角色升级事件，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -122,8 +119,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### onStartToPay
 
-Invoke this method with parameters if you want to start to pay as happening during a section.
-Before to invoke, you need to verdict whether this properties existed
+统计开始充值事件，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -135,7 +131,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### isFunctionSupported
 
-Check whether the function is supported
+判断函数是否支持
 
 | meta | description |
 |------|-------------|
@@ -148,7 +144,7 @@ Check whether the function is supported
 
 ##### getPluginName
 
-get plugin name
+获取插件名称
 
 | meta | description |
 |------|-------------|
@@ -159,7 +155,7 @@ get plugin name
 
 ##### getPluginVersion
 
-get plugin version
+获取插件版本
 
 | meta | description |
 |------|-------------|
@@ -170,7 +166,7 @@ get plugin version
 
 ##### getSDKVersion
 
-get SDK version
+获取 SDK 版本
 
 | meta | description |
 |------|-------------|
@@ -181,7 +177,7 @@ get SDK version
 
 ##### callFuncWithParam
 
-void methods for reflections with parameter
+反射调用带参数的void方法
 
 | meta | description |
 |------|-------------|
@@ -194,7 +190,7 @@ void methods for reflections with parameter
 
 ##### callStringFuncWithParam
 
-String methods for reflections with parameter
+反射调用带参数的 String 方法
 
 | meta | description |
 |------|-------------|
@@ -208,7 +204,7 @@ String methods for reflections with parameter
 
 ##### callIntFuncWithParam
 
-int methods for reflections with parameter
+反射调用带参数的 Int 方法
 
 | meta | description |
 |------|-------------|
@@ -222,7 +218,7 @@ int methods for reflections with parameter
 
 ##### callBoolFuncWithParam
 
-boolean methods for reflections with parameter
+反射调用带参数的 boolean 方法
 
 | meta | description |
 |------|-------------|
@@ -236,7 +232,7 @@ boolean methods for reflections with parameter
 
 ##### callFloatFuncWithParam
 
-float methods for reflections with parameter
+反射调用带参数的 float 方法
 
 | meta | description |
 |------|-------------|

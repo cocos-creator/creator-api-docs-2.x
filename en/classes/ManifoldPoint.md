@@ -3,26 +3,23 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
 
-A manifold point is a contact point belonging to a contact manifold.
-It holds details related to the geometry and dynamics of the contact points.
-Note: the impulses are used for internal caching and may not
-provide reliable contact forces, especially for high speed collisions.
+ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接触点的详细信息。
+注意：信息中的冲量用于系统内部缓存，提供的接触力可能不是很准确，特别是高速移动中的碰撞信息。
 
 ### Index
 
 ##### Properties
 
-  - [`localPoint`](#localpoint) `Vec2` The local point usage depends on the manifold type:
--e_circles: the local center of circleB
--e_faceA: the local center of circleB or the clip point of polygonB
--e_faceB: the clip point of polygonA
-  - [`normalImpulse`](#normalimpulse) `Number` Normal impulse.
-  - [`tangentImpulse`](#tangentimpulse) `Number` Tangent impulse.
+  - [`localPoint`](#localpoint) `Vec2` 本地坐标点的用途取决于 manifold 的类型
+- e_circles: circleB 的本地中心点
+- e_faceA: circleB 的本地中心点 或者是 polygonB 的截取点
+- e_faceB: polygonB 的截取点
+  - [`normalImpulse`](#normalimpulse) `Number` 法线冲量。
+  - [`tangentImpulse`](#tangentimpulse) `Number` 切线冲量。
 
 
 
@@ -36,10 +33,10 @@ provide reliable contact forces, especially for high speed collisions.
 
 ##### localPoint
 
-> The local point usage depends on the manifold type:
--e_circles: the local center of circleB
--e_faceA: the local center of circleB or the clip point of polygonB
--e_faceB: the clip point of polygonA
+> 本地坐标点的用途取决于 manifold 的类型
+- e_circles: circleB 的本地中心点
+- e_faceA: circleB 的本地中心点 或者是 polygonB 的截取点
+- e_faceB: polygonB 的截取点
 
 | meta | description |
 |------|-------------|
@@ -50,7 +47,7 @@ provide reliable contact forces, especially for high speed collisions.
 
 ##### normalImpulse
 
-> Normal impulse.
+> 法线冲量。
 
 | meta | description |
 |------|-------------|
@@ -61,7 +58,7 @@ provide reliable contact forces, especially for high speed collisions.
 
 ##### tangentImpulse
 
-> Tangent impulse.
+> 切线冲量。
 
 | meta | description |
 |------|-------------|

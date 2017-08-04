@@ -9,7 +9,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-The callbacks invoker to handle and invoke callbacks by key.
+CallbacksInvoker 用来根据 Key 管理并调用回调方法。
 
 ### Index
 

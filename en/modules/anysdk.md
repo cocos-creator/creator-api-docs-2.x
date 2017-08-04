@@ -64,7 +64,7 @@
 
 ##### Properties
 
-  - [`agentManager`](#agentmanager) `anysdk.AgentManager` agent manager of plugin
+  - [`agentManager`](#agentmanager) `anysdk.AgentManager` 插件管理对象
 
 
 
@@ -78,7 +78,7 @@
 
 ##### agentManager
 
-> agent manager of plugin
+> 插件管理对象
 
 | meta | description |
 |------|-------------|

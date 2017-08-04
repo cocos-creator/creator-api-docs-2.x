@@ -9,7 +9,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-A 2D rectangle defined by x, y position and width, height.
+通过位置和宽高定义的 2D 矩形。
 
 ### Index
 
@@ -19,29 +19,31 @@ A 2D rectangle defined by x, y position and width, height.
   - [`y`](#y) `Number` 
   - [`width`](#width) `Number` 
   - [`height`](#height) `Number` 
-  - [`xMin`](#xmin) `Number` TODO
-  - [`yMin`](#ymin) `Number` TODO
-  - [`xMax`](#xmax) `Number` TODO
-  - [`yMax`](#ymax) `Number` TODO
-  - [`center`](#center) `Vec2` The position of the center of the rectangle.
-  - [`origin`](#origin) `Vec2` The X and Y position of the rectangle.
-  - [`size`](#size) `Size` Width and height of the rectangle.
+  - [`xMin`](#xmin) `Number` 矩形 x 轴上的最小值。
+  - [`yMin`](#ymin) `Number` 矩形 y 轴上的最小值。
+  - [`xMax`](#xmax) `Number` 矩形 x 轴上的最大值。
+  - [`yMax`](#ymax) `Number` 矩形 y 轴上的最大值。
+  - [`center`](#center) `Vec2` 矩形的中心点。
+  - [`origin`](#origin) `Vec2` 矩形的 x 和 y 坐标。
+  - [`size`](#size) `Size` 矩形的大小。
 
 
 
 ##### Methods
 
-  - [`constructor`](#constructor) Constructor of cc.Rect class.
-see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for convenience method.
-  - [`fromMinMax`](#fromminmax) Creates a rectangle from two coordinate values.
-  - [`contain`](#contain) Checks if rect contains.
-  - [`clone`](#clone) TODO
-  - [`equals`](#equals) TODO
-  - [`lerp`](#lerp) TODO
-  - [`toString`](#tostring) TODO
-  - [`intersects`](#intersects) TODO
-  - [`contains`](#contains) TODO
-  - [`containsRect`](#containsrect) Returns true if the other rect totally inside this rectangle.
+  - [`constructor`](#constructor) cc.Rect类的构造函数。可以通过 <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> 简便方法进行创建。
+  - [`fromMinMax`](#fromminmax) 根据指定 2 个坐标创建出一个矩形区域。
+  - [`contain`](#contain) 判断 2 个矩形是否有包含。<br/>
+返回 1 为 a 包含 b，如果 -1 为 b 包含 a,
+0 这则都不包含。
+  - [`clone`](#clone) 克隆一个新的 Rect。
+  - [`equals`](#equals) 是否等于指定的矩形。
+  - [`lerp`](#lerp) 线性插值
+  - [`toString`](#tostring) 转换为方便阅读的字符串
+  - [`intersects`](#intersects) 当前矩形与指定矩形是否相交。
+  - [`contains`](#contains) 当前矩形是否包含指定坐标点。
+Returns true if the point inside this rectangle.
+  - [`containsRect`](#containsrect) 当前矩形是否包含指定矩形。
 
 
 
@@ -97,7 +99,7 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 
 ##### xMin
 
-> TODO
+> 矩形 x 轴上的最小值。
 
 | meta | description |
 |------|-------------|
@@ -108,7 +110,7 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 
 ##### yMin
 
-> TODO
+> 矩形 y 轴上的最小值。
 
 | meta | description |
 |------|-------------|
@@ -119,7 +121,7 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 
 ##### xMax
 
-> TODO
+> 矩形 x 轴上的最大值。
 
 | meta | description |
 |------|-------------|
@@ -130,7 +132,7 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 
 ##### yMax
 
-> TODO
+> 矩形 y 轴上的最大值。
 
 | meta | description |
 |------|-------------|
@@ -141,7 +143,7 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 
 ##### center
 
-> The position of the center of the rectangle.
+> 矩形的中心点。
 
 | meta | description |
 |------|-------------|
@@ -152,7 +154,7 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 
 ##### origin
 
-> The X and Y position of the rectangle.
+> 矩形的 x 和 y 坐标。
 
 | meta | description |
 |------|-------------|
@@ -163,7 +165,7 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 
 ##### size
 
-> Width and height of the rectangle.
+> 矩形的大小。
 
 | meta | description |
 |------|-------------|
@@ -181,8 +183,7 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 
 ##### constructor
 
-Constructor of cc.Rect class.
-see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for convenience method.
+cc.Rect类的构造函数。可以通过 <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> 简便方法进行创建。
 
 | meta | description |
 |------|-------------|
@@ -197,7 +198,7 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 
 ##### fromMinMax
 
-Creates a rectangle from two coordinate values.
+根据指定 2 个坐标创建出一个矩形区域。
 
 | meta | description |
 |------|-------------|
@@ -216,7 +217,9 @@ cc.Rect.fromMinMax(cc.v2(10, 10), cc.v2(20, 20)); // Rect {x: 10, y: 10, width: 
 
 ##### contain
 
-Checks if rect contains.
+判断 2 个矩形是否有包含。<br/>
+返回 1 为 a 包含 b，如果 -1 为 b 包含 a,
+0 这则都不包含。
 
 | meta | description |
 |------|-------------|
@@ -240,7 +243,7 @@ cc.Rect.contain(a, c); //  0;
 
 ##### clone
 
-TODO
+克隆一个新的 Rect。
 
 | meta | description |
 |------|-------------|
@@ -257,7 +260,7 @@ a.clone();// Rect {x: 0, y: 0, width: 10, height: 10}
 
 ##### equals
 
-TODO
+是否等于指定的矩形。
 
 | meta | description |
 |------|-------------|
@@ -277,7 +280,7 @@ a.equals(b);// true;
 
 ##### lerp
 
-TODO
+线性插值
 
 | meta | description |
 |------|-------------|
@@ -304,7 +307,7 @@ update (dt) {
 
 ##### toString
 
-TODO
+转换为方便阅读的字符串
 
 | meta | description |
 |------|-------------|
@@ -321,7 +324,7 @@ a.toString();// "(0.00, 0.00, 10.00, 10.00)";
 
 ##### intersects
 
-TODO
+当前矩形与指定矩形是否相交。
 
 | meta | description |
 |------|-------------|
@@ -340,7 +343,8 @@ a.intersects(b);// true
 
 ##### contains
 
-TODO
+当前矩形是否包含指定坐标点。
+Returns true if the point inside this rectangle.
 
 | meta | description |
 |------|-------------|
@@ -359,7 +363,7 @@ a.contains(b);// true
 
 ##### containsRect
 
-Returns true if the other rect totally inside this rectangle.
+当前矩形是否包含指定矩形。
 
 | meta | description |
 |------|-------------|

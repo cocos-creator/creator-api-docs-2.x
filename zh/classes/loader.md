@@ -223,7 +223,7 @@ The only difference is when user pass a single url as resources, the complete ca
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L166) |
 
 ###### Parameters
-- resources <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Url list in an array
+- resources <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Url list in an array
 - progressCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when progression change
 	- completedCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The number of the items that are already completed
 	- totalCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The total number of the items
@@ -319,7 +319,7 @@ This method is like <a href="../classes/loader.html#method_loadRes" class="cross
 - completeCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> A callback which is called when all assets have been loaded, or an error occurs.
 	- error <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> If one of the asset failed, the complete callback is immediately called
                                         with the error. If all assets are loaded successfully, error will be null.
-	- assets <a href="../classes/Asset.html" class="crosslink">Asset[]</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> An array of all loaded assets.
+	- assets <a href="../classes/Asset.html" class="crosslink">Asset[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> An array of all loaded assets.
                                                     If nothing to load, assets will be an empty array.
 
 ##### Example
@@ -359,7 +359,7 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 - completeCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> A callback which is called when all assets have been loaded, or an error occurs.
 	- error <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> If one of the asset failed, the complete callback is immediately called
                                         with the error. If all assets are loaded successfully, error will be null.
-	- assets <a href="../classes/Asset.html" class="crosslink">Asset[]</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> An array of all loaded assets.
+	- assets <a href="../classes/Asset.html" class="crosslink">Asset[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> An array of all loaded assets.
                                             If nothing to load, assets will be an empty array.
 	- urls <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> An array that lists all the URLs of loaded assets.
 
@@ -418,7 +418,7 @@ After loaded, you can acquire them by passing the url to this API.
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ###### Parameters
-- owner <a href="../classes/Asset.html" class="crosslink">Asset</a> | <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The owner asset or the resource url or the asset's uuid
+- owner <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The owner asset or the resource url or the asset's uuid
 
 ##### Example
 
@@ -451,7 +451,7 @@ for (var i = 0; i < deps.length; ++i) {
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:707](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L707) |
 
 ###### Parameters
-- asset <a href="../classes/Asset.html" class="crosslink">Asset</a> | <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- asset <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ##### Example
 
@@ -535,7 +535,7 @@ cc.loader.release(deps);
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:843](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L843) |
 
 ###### Parameters
-- assetOrUrlOrUuid <a href="../classes/Asset.html" class="crosslink">Asset</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
+- assetOrUrlOrUuid <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
 - autoRelease <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> indicates whether should release automatically
 
 ##### Example
@@ -563,7 +563,7 @@ cc.loader.setAutoRelease(audioUrl, false);
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:883](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L883) |
 
 ###### Parameters
-- assetOrUrlOrUuid <a href="../classes/Asset.html" class="crosslink">Asset</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
+- assetOrUrlOrUuid <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
 - autoRelease <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> indicates whether should release automatically
 
 ##### Example
@@ -589,7 +589,7 @@ cc.loader.setAutoReleaseRecursively(prefab, false);
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
-- assetOrUrl <a href="../classes/Asset.html" class="crosslink">Asset</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url
+- assetOrUrl <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url
 
 
 ##### constructor
@@ -723,7 +723,7 @@ pipeline.flowIn([
 
 ###### Parameters
 - srcItem <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
-- dstItems <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> A single destination item or an array of destination items
+- dstItems <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> A single destination item or an array of destination items
 
 
 ##### isFlowing

@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for ProgressBar mode
+进度条模式
 
 ### Index
 
@@ -24,7 +24,7 @@ Enum for ProgressBar mode
 
 ##### HORIZONTAL
 
-> TODO
+> 水平方向模式
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ Enum for ProgressBar mode
 
 ##### VERTICAL
 
-> TODO
+> 垂直方向模式
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ Enum for ProgressBar mode
 
 ##### FILLED
 
-> TODO
+> 填充模式
 
 | meta | description |
 |------|-------------|

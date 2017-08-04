@@ -89,8 +89,8 @@ t' = t1 * t2
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
-- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x.
-- transOrY <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> transform matrix or y.
+- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x.
+- transOrY <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> transform matrix or y.
 - t <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> transform matrix or y.
 
 

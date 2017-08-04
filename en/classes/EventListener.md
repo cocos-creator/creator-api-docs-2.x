@@ -7,34 +7,27 @@ Module: [cc](../modules/cc.md)
 
 
 
-<p>
-    The base class of event listener.                                                                        <br/>
-    If you need custom listener which with different callback, you need to inherit this class.               <br/>
-    For instance, you could refer to EventListenerAcceleration, EventListenerKeyboard,                       <br/>
-     EventListenerTouchOneByOne, EventListenerCustom.
-</p>
+封装用户的事件处理逻辑。
+注意：这是一个抽象类，开发者不应该直接实例化这个类，请参考 <a href="../classes/EventListener.html#method_create" class="crosslink">cc.EventListener.create</a>。
 
 ### Index
 
 ##### Properties
 
-  - [`UNKNOWN`](#unknown) `Number` The type code of unknown event listener.
-  - [`KEYBOARD`](#keyboard) `Number` The type code of keyboard event listener.
-  - [`ACCELERATION`](#acceleration) `Number` The type code of acceleration event listener.
+  - [`UNKNOWN`](#unknown) `Number` 未知的事件监听器类型
+  - [`KEYBOARD`](#keyboard) `Number` 键盘事件监听器类型
+  - [`ACCELERATION`](#acceleration) `Number` 加速器事件监听器类型
 
 
 
 ##### Methods
 
   - [`constructor`](#constructor) Constructor
-  - [`checkAvailable`](#checkavailable) Checks whether the listener is available.
-  - [`clone`](#clone) Clones the listener, its subclasses have to override this method.
-  - [`setEnabled`](#setenabled) Enables or disables the listener
-  - [`isEnabled`](#isenabled) Checks whether the listener is enabled
-  - [`create`](#create) Create a EventListener object with configuration including the event type, handlers and other parameters.
-In handlers, this refer to the event listener object itself.
-You can also pass custom parameters in the configuration object,
-all custom parameters will be polyfilled into the event listener object and can be accessed in handlers.
+  - [`checkAvailable`](#checkavailable) 检测监听器是否有效
+  - [`clone`](#clone) 克隆监听器,它的子类必须重写此方法。
+  - [`setEnabled`](#setenabled) 启用或禁用监听器。
+  - [`isEnabled`](#isenabled) 检查监听器是否可用。
+  - [`create`](#create) 通过指定不同的 Event 对象来设置想要创建的事件监听器。
 
 
 
@@ -46,7 +39,7 @@ all custom parameters will be polyfilled into the event listener object and can 
 
 ##### UNKNOWN
 
-> The type code of unknown event listener.
+> 未知的事件监听器类型
 
 | meta | description |
 |------|-------------|
@@ -57,7 +50,7 @@ all custom parameters will be polyfilled into the event listener object and can 
 
 ##### KEYBOARD
 
-> The type code of keyboard event listener.
+> 键盘事件监听器类型
 
 | meta | description |
 |------|-------------|
@@ -68,7 +61,7 @@ all custom parameters will be polyfilled into the event listener object and can 
 
 ##### ACCELERATION
 
-> The type code of acceleration event listener.
+> 加速器事件监听器类型
 
 | meta | description |
 |------|-------------|
@@ -100,7 +93,7 @@ Constructor
 
 ##### checkAvailable
 
-Checks whether the listener is available.
+检测监听器是否有效
 
 | meta | description |
 |------|-------------|
@@ -111,7 +104,7 @@ Checks whether the listener is available.
 
 ##### clone
 
-Clones the listener, its subclasses have to override this method.
+克隆监听器,它的子类必须重写此方法。
 
 | meta | description |
 |------|-------------|
@@ -122,7 +115,7 @@ Clones the listener, its subclasses have to override this method.
 
 ##### setEnabled
 
-Enables or disables the listener
+启用或禁用监听器。
 
 | meta | description |
 |------|-------------|
@@ -134,7 +127,7 @@ Enables or disables the listener
 
 ##### isEnabled
 
-Checks whether the listener is enabled
+检查监听器是否可用。
 
 | meta | description |
 |------|-------------|
@@ -145,10 +138,7 @@ Checks whether the listener is enabled
 
 ##### create
 
-Create a EventListener object with configuration including the event type, handlers and other parameters.
-In handlers, this refer to the event listener object itself.
-You can also pass custom parameters in the configuration object,
-all custom parameters will be polyfilled into the event listener object and can be accessed in handlers.
+通过指定不同的 Event 对象来设置想要创建的事件监听器。
 
 | meta | description |
 |------|-------------|

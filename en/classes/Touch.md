@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The touch event class
+封装了触摸相关的信息。
 
 ### Index
 
@@ -15,17 +15,17 @@ The touch event class
 
 ##### Methods
 
-  - [`getLocation`](#getlocation) Returns the current touch location in OpenGL coordinates.、
-  - [`getLocationX`](#getlocationx) Returns X axis location value.
-  - [`getLocationY`](#getlocationy) Returns Y axis location value.
-  - [`getPreviousLocation`](#getpreviouslocation) Returns the previous touch location in OpenGL coordinates.
-  - [`getStartLocation`](#getstartlocation) Returns the start touch location in OpenGL coordinates.
-  - [`getDelta`](#getdelta) Returns the delta distance from the previous touche to the current one in screen coordinates.
-  - [`getLocationInView`](#getlocationinview) Returns the current touch location in screen coordinates.
-  - [`getPreviousLocationInView`](#getpreviouslocationinview) Returns the previous touch location in screen coordinates.
-  - [`getStartLocationInView`](#getstartlocationinview) Returns the start touch location in screen coordinates.
-  - [`getID`](#getid) Returns the id of cc.Touch.
-  - [`setTouchInfo`](#settouchinfo) Sets information to touch.
+  - [`getLocation`](#getlocation) 获取当前触点位置。
+  - [`getLocationX`](#getlocationx) 获取当前触点 X 轴位置。
+  - [`getLocationY`](#getlocationy) 获取当前触点 Y 轴位置。
+  - [`getPreviousLocation`](#getpreviouslocation) 获取触点在上一次事件时的位置对象，对象包含 x 和 y 属性。
+  - [`getStartLocation`](#getstartlocation) 获获取触点落下时的位置对象，对象包含 x 和 y 属性。
+  - [`getDelta`](#getdelta) 获取触点距离上一次事件移动的距离对象，对象包含 x 和 y 属性。
+  - [`getLocationInView`](#getlocationinview) 获取当前事件在游戏窗口内的坐标位置对象，对象包含 x 和 y 属性。
+  - [`getPreviousLocationInView`](#getpreviouslocationinview) 获取触点在上一次事件时在游戏窗口中的位置对象，对象包含 x 和 y 属性。
+  - [`getStartLocationInView`](#getstartlocationinview) 获取触点落下时在游戏窗口中的位置对象，对象包含 x 和 y 属性。
+  - [`getID`](#getid) 触点的标识 ID，可以用来在多点触摸中跟踪触点。
+  - [`setTouchInfo`](#settouchinfo) 设置触摸相关的信息。用于监控触摸事件。
 
 
 
@@ -40,7 +40,7 @@ The touch event class
 
 ##### getLocation
 
-Returns the current touch location in OpenGL coordinates.、
+获取当前触点位置。
 
 | meta | description |
 |------|-------------|
@@ -51,7 +51,7 @@ Returns the current touch location in OpenGL coordinates.、
 
 ##### getLocationX
 
-Returns X axis location value.
+获取当前触点 X 轴位置。
 
 | meta | description |
 |------|-------------|
@@ -62,7 +62,7 @@ Returns X axis location value.
 
 ##### getLocationY
 
-Returns Y axis location value.
+获取当前触点 Y 轴位置。
 
 | meta | description |
 |------|-------------|
@@ -73,7 +73,7 @@ Returns Y axis location value.
 
 ##### getPreviousLocation
 
-Returns the previous touch location in OpenGL coordinates.
+获取触点在上一次事件时的位置对象，对象包含 x 和 y 属性。
 
 | meta | description |
 |------|-------------|
@@ -84,7 +84,7 @@ Returns the previous touch location in OpenGL coordinates.
 
 ##### getStartLocation
 
-Returns the start touch location in OpenGL coordinates.
+获获取触点落下时的位置对象，对象包含 x 和 y 属性。
 
 | meta | description |
 |------|-------------|
@@ -95,7 +95,7 @@ Returns the start touch location in OpenGL coordinates.
 
 ##### getDelta
 
-Returns the delta distance from the previous touche to the current one in screen coordinates.
+获取触点距离上一次事件移动的距离对象，对象包含 x 和 y 属性。
 
 | meta | description |
 |------|-------------|
@@ -106,7 +106,7 @@ Returns the delta distance from the previous touche to the current one in screen
 
 ##### getLocationInView
 
-Returns the current touch location in screen coordinates.
+获取当前事件在游戏窗口内的坐标位置对象，对象包含 x 和 y 属性。
 
 | meta | description |
 |------|-------------|
@@ -117,7 +117,7 @@ Returns the current touch location in screen coordinates.
 
 ##### getPreviousLocationInView
 
-Returns the previous touch location in screen coordinates.
+获取触点在上一次事件时在游戏窗口中的位置对象，对象包含 x 和 y 属性。
 
 | meta | description |
 |------|-------------|
@@ -128,7 +128,7 @@ Returns the previous touch location in screen coordinates.
 
 ##### getStartLocationInView
 
-Returns the start touch location in screen coordinates.
+获取触点落下时在游戏窗口中的位置对象，对象包含 x 和 y 属性。
 
 | meta | description |
 |------|-------------|
@@ -139,7 +139,7 @@ Returns the start touch location in screen coordinates.
 
 ##### getID
 
-Returns the id of cc.Touch.
+触点的标识 ID，可以用来在多点触摸中跟踪触点。
 
 | meta | description |
 |------|-------------|
@@ -150,7 +150,7 @@ Returns the id of cc.Touch.
 
 ##### setTouchInfo
 
-Sets information to touch.
+设置触摸相关的信息。用于监控触摸事件。
 
 | meta | description |
 |------|-------------|

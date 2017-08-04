@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The callback of share system
+分享系统回调
 
 ### Index
 
@@ -26,7 +26,7 @@ The callback of share system
 
 ##### kShareSuccess
 
-> The callback of failing to sharing
+> 分享系统的分享成功回调
 
 | meta | description |
 |------|-------------|
@@ -37,7 +37,7 @@ The callback of share system
 
 ##### kShareFail
 
-> The callback of failing to share
+> 分享系统的分享失败回调
 
 | meta | description |
 |------|-------------|
@@ -48,7 +48,7 @@ The callback of share system
 
 ##### kShareCancel
 
-> The callback of canceling to share
+> 分享系统的分享取消回调
 
 | meta | description |
 |------|-------------|
@@ -59,7 +59,7 @@ The callback of share system
 
 ##### kShareNetworkError
 
-> The callback of network error
+> 分享系统的网络错误回调
 
 | meta | description |
 |------|-------------|
@@ -70,7 +70,7 @@ The callback of share system
 
 ##### kShareExtension
 
-> The extension code of share system
+> 分享系统的扩展回调
 
 | meta | description |
 |------|-------------|

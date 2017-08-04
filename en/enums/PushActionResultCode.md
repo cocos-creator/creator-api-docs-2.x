@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The callback of push system
+推送系统回调
 
 ### Index
 
@@ -23,7 +23,7 @@ The callback of push system
 
 ##### kPushReceiveMessage
 
-> The callback of Receiving Message
+> 推送系统的接受消息回调
 
 | meta | description |
 |------|-------------|
@@ -34,7 +34,7 @@ The callback of push system
 
 ##### kPushExtensionCode
 
-> The extension code
+> 推送系统的扩展回调
 
 | meta | description |
 |------|-------------|

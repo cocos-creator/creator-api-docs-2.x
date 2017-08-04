@@ -374,7 +374,7 @@ cc.log(property);
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -395,7 +395,7 @@ cc.log("Pos: " + pos);
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L169) |
 
 ###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -417,7 +417,7 @@ tile 的 GID 可以使用方法 “tileGIDAt” 来获得。<br />
 
 ###### Parameters
 - gid <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- posOrX <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
+- posOrX <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
 - flagsOrY <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> flags or y
 - flags <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
@@ -439,7 +439,7 @@ tiledLayer.setTileGID(1001, 10, 10, 1)
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -462,7 +462,7 @@ var tileGid = tiledLayer.getTileGIDAt(0, 0);
 | Return 		 | _ccsg.Sprite 
 
 ###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -498,7 +498,7 @@ tiledLayer.releaseMap();
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:311](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L311) |
 
 ###### Parameters
-- size <a href="../classes/Size.html" class="crosslink">Size</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The untransformed size of the _ccsg.TMXLayer or The untransformed size's width of the TMXLayer.
+- size <a href="../classes/Size.html" class="crosslink">Size</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The untransformed size of the _ccsg.TMXLayer or The untransformed size's width of the TMXLayer.
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The untransformed size's height of the _ccsg.TMXLayer.
 
 ##### Example
@@ -917,7 +917,7 @@ This method should be removed if script priority is supported.
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
 ##### Example
 
@@ -937,7 +937,7 @@ var test = node.addComponent("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -958,7 +958,7 @@ var test = node.getComponent("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -977,7 +977,7 @@ var tests = node.getComponents("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -996,7 +996,7 @@ var Test = node.getComponentInChildren("Test");
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 

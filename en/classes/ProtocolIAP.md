@@ -8,7 +8,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-IAP protocol
+支付系统协议接口
 
 ### Index
 
@@ -16,21 +16,21 @@ IAP protocol
 
 ##### Methods
 
-  - [`payForProduct`](#payforproduct) pay interface
-  - [`getOrderId`](#getorderid) get order ID
-  - [`resetPayState`](#resetpaystate) reset the pay status
-  - [`getPluginId`](#getpluginid) get plugin ID
-  - [`setListener`](#setlistener) set listener
-  - [`getListener`](#getlistener) get listener
-  - [`isFunctionSupported`](#isfunctionsupported) Check whether the function is supported
-  - [`getPluginName`](#getpluginname) get plugin name
-  - [`getPluginVersion`](#getpluginversion) get plugin version
-  - [`getSDKVersion`](#getsdkversion) get SDK version
-  - [`callFuncWithParam`](#callfuncwithparam) void methods for reflections with parameter
-  - [`callStringFuncWithParam`](#callstringfuncwithparam) String methods for reflections with parameter
-  - [`callIntFuncWithParam`](#callintfuncwithparam) int methods for reflections with parameter
-  - [`callBoolFuncWithParam`](#callboolfuncwithparam) boolean methods for reflections with parameter
-  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) float methods for reflections with parameter
+  - [`payForProduct`](#payforproduct) 支付接口
+  - [`getOrderId`](#getorderid) 获取订单ID
+  - [`resetPayState`](#resetpaystate) 重置支付状态
+  - [`getPluginId`](#getpluginid) 获取插件ID
+  - [`setListener`](#setlistener) 设置支付系统的监听
+  - [`getListener`](#getlistener) 获取支付系统的监听
+  - [`isFunctionSupported`](#isfunctionsupported) 判断函数是否支持
+  - [`getPluginName`](#getpluginname) 获取插件名称
+  - [`getPluginVersion`](#getpluginversion) 获取插件版本
+  - [`getSDKVersion`](#getsdkversion) 获取 SDK 版本
+  - [`callFuncWithParam`](#callfuncwithparam) 反射调用带参数的void方法
+  - [`callStringFuncWithParam`](#callstringfuncwithparam) 反射调用带参数的 String 方法
+  - [`callIntFuncWithParam`](#callintfuncwithparam) 反射调用带参数的 Int 方法
+  - [`callBoolFuncWithParam`](#callboolfuncwithparam) 反射调用带参数的 boolean 方法
+  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) 反射调用带参数的 float 方法
 
 
 
@@ -45,7 +45,7 @@ IAP protocol
 
 ##### payForProduct
 
-pay interface
+支付接口
 
 | meta | description |
 |------|-------------|
@@ -57,7 +57,7 @@ pay interface
 
 ##### getOrderId
 
-get order ID
+获取订单ID
 
 | meta | description |
 |------|-------------|
@@ -68,7 +68,7 @@ get order ID
 
 ##### resetPayState
 
-reset the pay status
+重置支付状态
 
 | meta | description |
 |------|-------------|
@@ -78,7 +78,7 @@ reset the pay status
 
 ##### getPluginId
 
-get plugin ID
+获取插件ID
 
 | meta | description |
 |------|-------------|
@@ -89,7 +89,7 @@ get plugin ID
 
 ##### setListener
 
-set listener
+设置支付系统的监听
 
 | meta | description |
 |------|-------------|
@@ -102,7 +102,7 @@ set listener
 
 ##### getListener
 
-get listener
+获取支付系统的监听
 
 | meta | description |
 |------|-------------|
@@ -113,7 +113,7 @@ get listener
 
 ##### isFunctionSupported
 
-Check whether the function is supported
+判断函数是否支持
 
 | meta | description |
 |------|-------------|
@@ -126,7 +126,7 @@ Check whether the function is supported
 
 ##### getPluginName
 
-get plugin name
+获取插件名称
 
 | meta | description |
 |------|-------------|
@@ -137,7 +137,7 @@ get plugin name
 
 ##### getPluginVersion
 
-get plugin version
+获取插件版本
 
 | meta | description |
 |------|-------------|
@@ -148,7 +148,7 @@ get plugin version
 
 ##### getSDKVersion
 
-get SDK version
+获取 SDK 版本
 
 | meta | description |
 |------|-------------|
@@ -159,7 +159,7 @@ get SDK version
 
 ##### callFuncWithParam
 
-void methods for reflections with parameter
+反射调用带参数的void方法
 
 | meta | description |
 |------|-------------|
@@ -172,7 +172,7 @@ void methods for reflections with parameter
 
 ##### callStringFuncWithParam
 
-String methods for reflections with parameter
+反射调用带参数的 String 方法
 
 | meta | description |
 |------|-------------|
@@ -186,7 +186,7 @@ String methods for reflections with parameter
 
 ##### callIntFuncWithParam
 
-int methods for reflections with parameter
+反射调用带参数的 Int 方法
 
 | meta | description |
 |------|-------------|
@@ -200,7 +200,7 @@ int methods for reflections with parameter
 
 ##### callBoolFuncWithParam
 
-boolean methods for reflections with parameter
+反射调用带参数的 boolean 方法
 
 | meta | description |
 |------|-------------|
@@ -214,7 +214,7 @@ boolean methods for reflections with parameter
 
 ##### callFloatFuncWithParam
 
-float methods for reflections with parameter
+反射调用带参数的 float 方法
 
 | meta | description |
 |------|-------------|

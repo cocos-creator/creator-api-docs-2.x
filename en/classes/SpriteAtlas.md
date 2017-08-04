@@ -8,7 +8,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Class for sprite atlas handling.
+精灵图集资源类。
 
 ### Index
 
@@ -17,8 +17,8 @@ Class for sprite atlas handling.
   - [`_uuid`](#uuid) `String` 
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` The name of the object.
-  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
+  - [`name`](#name) `String` 该对象的名称。
+  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
 
 
 
@@ -27,11 +27,9 @@ Class for sprite atlas handling.
   - [`getTexture`](#gettexture) Returns the texture of the sprite atlas
   - [`getSpriteFrame`](#getspriteframe) Returns the sprite frame correspond to the given key in sprite atlas.
   - [`getSpriteFrames`](#getspriteframes) Returns the sprite frames in sprite atlas.
-  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -97,7 +95,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### name
 
-> The name of the object.
+> 该对象的名称。
 
 | meta | description |
 |------|-------------|
@@ -113,7 +111,7 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> Indicates whether the object is not yet destroyed.
+> 表示该对象是否可用（被销毁后将不可用）。
 
 | meta | description |
 |------|-------------|
@@ -171,11 +169,9 @@ Returns the sprite frames in sprite atlas.
 
 ##### destroy
 
-Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
 
 | meta | description |
 |------|-------------|

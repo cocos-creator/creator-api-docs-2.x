@@ -8,60 +8,56 @@ Module: [cc](../modules/cc.md)
 
 
 
-LoadingItems is the queue of items which can flow them into the loading pipeline.</br>
-Please don't construct it directly, use LoadingItems.create instead, because we use an internal pool to recycle the queues.</br>
-It hold a map of items, each entry in the map is a url to object key value pair.</br>
-Each item always contains the following property:</br>
-- id: The identification of the item, usually it's identical to url</br>
-- url: The url </br>
-- type: The type, it's the extension name of the url by default, could be specified manually too.</br>
-- error: The error happened in pipeline will be stored in this property.</br>
-- content: The content processed by the pipeline, the final result will also be stored in this property.</br>
-- complete: The flag indicate whether the item is completed by the pipeline.</br>
-- states: An object stores the states of each pipe the item go through, the state can be: Pipeline.ItemState.WORKING | Pipeline.ItemState.ERROR | Pipeline.ItemState.COMPLETE</br>
+LoadingItems 是一个加载对象队列，可以用来输送加载对象到加载管线中。</br>
+请不要直接使用 new 构造这个类的对象，你可以使用 LoadingItems.create 来创建一个新的加载队列，这样可以允许我们的内部对象池回收并重利用加载队列。
+它有一个 map 属性用来存放加载项，在 map 对象中已 url 为 key 值。</br>
+每个对象都会包含下列属性：</br>
+- id：该对象的标识，通常与 url 相同。</br>
+- url：路径 </br>
+- type: 类型，它这是默认的 URL 的扩展名，可以手动指定赋值。</br>
+- error：pipeline 中发生的错误将被保存在这个属性中。</br>
+- content: pipeline 中处理的临时结果，最终的结果也将被存储在这个属性中。</br>
+- complete：该标志表明该对象是否通过 pipeline 完成。</br>
+- states：该对象存储每个管道中对象经历的状态，状态可以是 Pipeline.ItemState.WORKING | Pipeline.ItemState.ERROR | Pipeline.ItemState.COMPLETE</br>
 </br>
-Item can hold other custom properties.</br>
-Each LoadingItems object will be destroyed for recycle after onComplete callback</br>
-So please don't hold its reference for later usage, you can copy properties in it though.
+对象可容纳其他自定义属性。</br>
+每个 LoadingItems 对象都会在 onComplete 回调之后被销毁，所以请不要持有它的引用并在结束回调之后依赖它的内容执行任何逻辑，有这种需求的话你可以提前复制它的内容。
 
 ### Index
 
 ##### Properties
 
-  - [`map`](#map) `Object` The map of all items.
-  - [`completed`](#completed) `Object` The map of completed items.
-  - [`totalCount`](#totalcount) `Number` Total count of all items.
-  - [`completedCount`](#completedcount) `Number` Total count of completed items.
-  - [`active`](#active) `Boolean` Activated or not.
+  - [`map`](#map) `Object` 存储所有加载项的对象。
+  - [`completed`](#completed) `Object` 存储已经完成的加载项。
+  - [`totalCount`](#totalcount) `Number` 所有加载项的总数。
+  - [`completedCount`](#completedcount) `Number` 所有完成加载项的总数。
+  - [`active`](#active) `Boolean` 是否启用。
 
 
 
 ##### Methods
 
-  - [`onProgress`](#onprogress) This is a callback which will be invoked while an item flow out the pipeline.
-You can pass the callback function in LoadingItems.create or set it later.
-  - [`onComplete`](#oncomplete) This is a callback which will be invoked while all items is completed,
-You can pass the callback function in LoadingItems.create or set it later.
-  - [`create`](#create) The constructor function of LoadingItems, this will use recycled LoadingItems in the internal pool if possible.
-You can pass onProgress and onComplete callbacks to visualize the loading process.
-  - [`getQueue`](#getqueue) Retrieve the LoadingItems queue object for an item.
-  - [`itemComplete`](#itemcomplete) Complete an item in the LoadingItems queue, please do not call this method unless you know what's happening.
-  - [`append`](#append) Add urls to the LoadingItems queue.
-  - [`allComplete`](#allcomplete) Complete a LoadingItems queue, please do not call this method unless you know what's happening.
-  - [`isCompleted`](#iscompleted) Check whether all items are completed.
-  - [`isItemCompleted`](#isitemcompleted) Check whether an item is completed.
-  - [`exists`](#exists) Check whether an item exists.
-  - [`getContent`](#getcontent) Returns the content of an internal item.
-  - [`getError`](#geterror) Returns the error of an internal item.
-  - [`addListener`](#addlistener) Add a listener for an item, the callback will be invoked when the item is completed.
-  - [`hasListener`](#haslistener) Check if the specified key has any registered callback. </br>
-If a callback is also specified, it will only return true if the callback is registered.
-  - [`remove`](#remove) Removes a listener. </br>
-It will only remove when key, callback, target all match correctly.
-  - [`removeAllListeners`](#removealllisteners) Removes all callbacks registered in a certain event
-type or all callbacks registered with a certain target.
-  - [`itemComplete`](#itemcomplete) Complete an item in the LoadingItems queue, please do not call this method unless you know what's happening.
-  - [`destroy`](#destroy) Destroy the LoadingItems queue, the queue object won't be garbage collected, it will be recycled, so every after destroy is not reliable.
+  - [`onProgress`](#onprogress) 这个回调函数将在 item 加载结束后被调用。你可以在构造时传递这个回调函数或者是在构造之后直接设置。
+  - [`onComplete`](#oncomplete) 该函数将在加载队列全部完成时被调用。你可以在构造时传递这个回调函数或者是在构造之后直接设置。
+  - [`create`](#create) LoadingItems 的构造函数，这种构造方式会重用内部对象缓冲池中的 LoadingItems 队列，以尽量避免对象创建。
+你可以传递 onProgress 和 onComplete 回调函数来获知加载进度信息。
+  - [`getQueue`](#getqueue) 通过 item 对象获取它的 LoadingItems 队列。
+  - [`itemComplete`](#itemcomplete) 通知 LoadingItems 队列一个 item 对象已完成，请不要调用这个函数，除非你知道自己在做什么。
+  - [`append`](#append) 向一个 LoadingItems 队列添加加载项。
+  - [`allComplete`](#allcomplete) 完成一个 LoadingItems 队列，请不要调用这个函数，除非你知道自己在做什么。
+  - [`isCompleted`](#iscompleted) 检查是否所有加载项都已经完成。
+  - [`isItemCompleted`](#isitemcompleted) 通过 id 检查指定加载项是否已经加载完成。
+  - [`exists`](#exists) 通过 id 检查加载项是否存在。
+  - [`getContent`](#getcontent) 通过 id 获取指定对象的内容。
+  - [`getError`](#geterror) 通过 id 获取指定对象的错误信息。
+  - [`addListener`](#addlistener) 监听加载项（通过 key 指定）的完成事件。
+  - [`hasListener`](#haslistener) 检查指定的加载项是否有完成事件监听器。</br>
+如果同时还指定了一个回调方法，并且回调有注册，它只会返回 true。
+  - [`remove`](#remove) 移除指定加载项已经注册的完成事件监听器。</br>
+只会删除 key, callback, target 均匹配的监听器。
+  - [`removeAllListeners`](#removealllisteners) 删除指定目标的所有完成事件监听器。
+  - [`itemComplete`](#itemcomplete) 通知 LoadingItems 队列一个 item 对象已完成，请不要调用这个函数，除非你知道自己在做什么。
+  - [`destroy`](#destroy) 销毁一个 LoadingItems 队列，这个队列对象会被内部缓冲池回收，所以销毁后的所有内部信息都是不可依赖的。
   - [`invoke`](#invoke) 
   - [`invokeAndRemove`](#invokeandremove) 
   - [`bindKey`](#bindkey) 
@@ -80,7 +76,7 @@ it will only return true if the callback is registered.
 
 ##### map
 
-> The map of all items.
+> 存储所有加载项的对象。
 
 | meta | description |
 |------|-------------|
@@ -91,7 +87,7 @@ it will only return true if the callback is registered.
 
 ##### completed
 
-> The map of completed items.
+> 存储已经完成的加载项。
 
 | meta | description |
 |------|-------------|
@@ -102,7 +98,7 @@ it will only return true if the callback is registered.
 
 ##### totalCount
 
-> Total count of all items.
+> 所有加载项的总数。
 
 | meta | description |
 |------|-------------|
@@ -113,7 +109,7 @@ it will only return true if the callback is registered.
 
 ##### completedCount
 
-> Total count of completed items.
+> 所有完成加载项的总数。
 
 | meta | description |
 |------|-------------|
@@ -124,7 +120,7 @@ it will only return true if the callback is registered.
 
 ##### active
 
-> Activated or not.
+> 是否启用。
 
 | meta | description |
 |------|-------------|
@@ -142,8 +138,7 @@ it will only return true if the callback is registered.
 
 ##### onProgress
 
-This is a callback which will be invoked while an item flow out the pipeline.
-You can pass the callback function in LoadingItems.create or set it later.
+这个回调函数将在 item 加载结束后被调用。你可以在构造时传递这个回调函数或者是在构造之后直接设置。
 
 | meta | description |
 |------|-------------|
@@ -165,8 +160,7 @@ loadingItems.onProgress = function (completedCount, totalCount, item) {
 
 ##### onComplete
 
-This is a callback which will be invoked while all items is completed,
-You can pass the callback function in LoadingItems.create or set it later.
+该函数将在加载队列全部完成时被调用。你可以在构造时传递这个回调函数或者是在构造之后直接设置。
 
 | meta | description |
 |------|-------------|
@@ -189,8 +183,8 @@ loadingItems.onComplete = function (errors, items) {
 
 ##### create
 
-The constructor function of LoadingItems, this will use recycled LoadingItems in the internal pool if possible.
-You can pass onProgress and onComplete callbacks to visualize the loading process.
+LoadingItems 的构造函数，这种构造方式会重用内部对象缓冲池中的 LoadingItems 队列，以尽量避免对象创建。
+你可以传递 onProgress 和 onComplete 回调函数来获知加载进度信息。
 
 | meta | description |
 |------|-------------|
@@ -224,7 +218,7 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 ##### getQueue
 
-Retrieve the LoadingItems queue object for an item.
+通过 item 对象获取它的 LoadingItems 队列。
 
 | meta | description |
 |------|-------------|
@@ -237,7 +231,7 @@ Retrieve the LoadingItems queue object for an item.
 
 ##### itemComplete
 
-Complete an item in the LoadingItems queue, please do not call this method unless you know what's happening.
+通知 LoadingItems 队列一个 item 对象已完成，请不要调用这个函数，除非你知道自己在做什么。
 
 | meta | description |
 |------|-------------|
@@ -249,7 +243,7 @@ Complete an item in the LoadingItems queue, please do not call this method unles
 
 ##### append
 
-Add urls to the LoadingItems queue.
+向一个 LoadingItems 队列添加加载项。
 
 | meta | description |
 |------|-------------|
@@ -262,7 +256,7 @@ Add urls to the LoadingItems queue.
 
 ##### allComplete
 
-Complete a LoadingItems queue, please do not call this method unless you know what's happening.
+完成一个 LoadingItems 队列，请不要调用这个函数，除非你知道自己在做什么。
 
 | meta | description |
 |------|-------------|
@@ -272,7 +266,7 @@ Complete a LoadingItems queue, please do not call this method unless you know wh
 
 ##### isCompleted
 
-Check whether all items are completed.
+检查是否所有加载项都已经完成。
 
 | meta | description |
 |------|-------------|
@@ -283,7 +277,7 @@ Check whether all items are completed.
 
 ##### isItemCompleted
 
-Check whether an item is completed.
+通过 id 检查指定加载项是否已经加载完成。
 
 | meta | description |
 |------|-------------|
@@ -296,7 +290,7 @@ Check whether an item is completed.
 
 ##### exists
 
-Check whether an item exists.
+通过 id 检查加载项是否存在。
 
 | meta | description |
 |------|-------------|
@@ -309,7 +303,7 @@ Check whether an item exists.
 
 ##### getContent
 
-Returns the content of an internal item.
+通过 id 获取指定对象的内容。
 
 | meta | description |
 |------|-------------|
@@ -322,7 +316,7 @@ Returns the content of an internal item.
 
 ##### getError
 
-Returns the error of an internal item.
+通过 id 获取指定对象的错误信息。
 
 | meta | description |
 |------|-------------|
@@ -335,7 +329,7 @@ Returns the error of an internal item.
 
 ##### addListener
 
-Add a listener for an item, the callback will be invoked when the item is completed.
+监听加载项（通过 key 指定）的完成事件。
 
 | meta | description |
 |------|-------------|
@@ -350,8 +344,8 @@ Add a listener for an item, the callback will be invoked when the item is comple
 
 ##### hasListener
 
-Check if the specified key has any registered callback. </br>
-If a callback is also specified, it will only return true if the callback is registered.
+检查指定的加载项是否有完成事件监听器。</br>
+如果同时还指定了一个回调方法，并且回调有注册，它只会返回 true。
 
 | meta | description |
 |------|-------------|
@@ -366,8 +360,8 @@ If a callback is also specified, it will only return true if the callback is reg
 
 ##### remove
 
-Removes a listener. </br>
-It will only remove when key, callback, target all match correctly.
+移除指定加载项已经注册的完成事件监听器。</br>
+只会删除 key, callback, target 均匹配的监听器。
 
 | meta | description |
 |------|-------------|
@@ -382,8 +376,7 @@ It will only remove when key, callback, target all match correctly.
 
 ##### removeAllListeners
 
-Removes all callbacks registered in a certain event
-type or all callbacks registered with a certain target.
+删除指定目标的所有完成事件监听器。
 
 | meta | description |
 |------|-------------|
@@ -395,7 +388,7 @@ type or all callbacks registered with a certain target.
 
 ##### itemComplete
 
-Complete an item in the LoadingItems queue, please do not call this method unless you know what's happening.
+通知 LoadingItems 队列一个 item 对象已完成，请不要调用这个函数，除非你知道自己在做什么。
 
 | meta | description |
 |------|-------------|
@@ -407,7 +400,7 @@ Complete an item in the LoadingItems queue, please do not call this method unles
 
 ##### destroy
 
-Destroy the LoadingItems queue, the queue object won't be garbage collected, it will be recycled, so every after destroy is not reliable.
+销毁一个 LoadingItems 队列，这个队列对象会被内部缓冲池回收，所以销毁后的所有内部信息都是不可依赖的。
 
 | meta | description |
 |------|-------------|

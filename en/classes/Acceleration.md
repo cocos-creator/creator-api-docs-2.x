@@ -8,7 +8,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-the device accelerometer reports values for each axis in units of g-force.
+设备重力传感器传递的各个轴的数据。
 
 ### Index
 

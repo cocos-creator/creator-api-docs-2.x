@@ -54,8 +54,8 @@ it takes effect only when you called setDesignResolutionPolicy<br/>
 Only useful on web
   - [`isRetinaEnabled`](#isretinaenabled) Check whether retina display is enabled.<br/>
 Only useful on web
-  - [`enableAntiAlias`](#enableantialias) Whether to Enable on anti-alias
-  - [`isAntiAliasEnabled`](#isantialiasenabled) Returns whether the current enable on anti-alias
+  - [`enableAntiAlias`](#enableantialias) 控制抗锯齿是否开启
+  - [`isAntiAliasEnabled`](#isantialiasenabled) 返回当前是否抗锯齿
   - [`enableAutoFullScreen`](#enableautofullscreen) If enabled, the application will try automatically to enter full screen mode on mobile devices<br/>
 You can pass true as parameter to enable it and disable it by passing false.<br/>
 Only useful on web
@@ -237,7 +237,7 @@ Only useful on web
 
 ##### enableAntiAlias
 
-Whether to Enable on anti-alias
+控制抗锯齿是否开启
 
 | meta | description |
 |------|-------------|
@@ -249,7 +249,7 @@ Whether to Enable on anti-alias
 
 ##### isAntiAliasEnabled
 
-Returns whether the current enable on anti-alias
+返回当前是否抗锯齿
 
 | meta | description |
 |------|-------------|

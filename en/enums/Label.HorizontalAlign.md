@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for text alignment.
+文本横向对齐类型
 
 ### Index
 
@@ -24,7 +24,7 @@ Enum for text alignment.
 
 ##### LEFT
 
-> Alignment left for text.
+> 文本内容左对齐。
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ Enum for text alignment.
 
 ##### CENTER
 
-> Alignment center for text.
+> 文本内容居中对齐。
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ Enum for text alignment.
 
 ##### RIGHT
 
-> Alignment right for text.
+> 文本内容右边对齐。
 
 | meta | description |
 |------|-------------|

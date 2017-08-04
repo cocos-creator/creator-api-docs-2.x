@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for fill type.
+填充类型
 
 ### Index
 
@@ -24,7 +24,7 @@ Enum for fill type.
 
 ##### HORIZONTAL
 
-> The horizontal fill.
+> 水平方向填充
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ Enum for fill type.
 
 ##### VERTICAL
 
-> The vertical fill.
+> 垂直方向填充
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ Enum for fill type.
 
 ##### RADIAL
 
-> The radial fill.
+> 径向填充
 
 | meta | description |
 |------|-------------|

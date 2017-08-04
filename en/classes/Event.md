@@ -8,54 +8,39 @@ Module: [cc](../modules/cc.md)
 
 
 
-Base class of all kinds of events.
+包含事件相关信息的对象。
 
 ### Index
 
 ##### Properties
 
-  - [`type`](#type) `String` The name of the event (case-sensitive), e.g. "click", "fire", or "submit".
-  - [`bubbles`](#bubbles) `Boolean` Indicate whether the event bubbles up through the tree or not.
-  - [`target`](#target) `Object` A reference to the target to which the event was originally dispatched.
-  - [`currentTarget`](#currenttarget) `Object` A reference to the currently registered target for the event.
-  - [`eventPhase`](#eventphase) `Number` Indicates which phase of the event flow is currently being evaluated.
-Returns an integer value represented by 4 constants:
- - Event.NONE = 0
- - Event.CAPTURING_PHASE = 1
- - Event.AT_TARGET = 2
- - Event.BUBBLING_PHASE = 3
-The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
-(http://www.w3.org/TR/DOM-Level-3-Events/#event-flow), of the DOM Level 3 Events specification.
-  - [`NO_TYPE`](#notype) `String` Code for event without type.
-  - [`TOUCH`](#touch) `String` The type code of Touch event.
-  - [`MOUSE`](#mouse) `String` The type code of Mouse event.
-  - [`KEYBOARD`](#keyboard) `String` The type code of Keyboard event.
-  - [`ACCELERATION`](#acceleration) `String` The type code of Acceleration event.
-  - [`NONE`](#none) `Number` Events not currently dispatched are in this phase
-  - [`CAPTURING_PHASE`](#capturingphase) `Number` The capturing phase comprises the journey from the root to the last node before the event target's node
-see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
-  - [`AT_TARGET`](#attarget) `Number` The target phase comprises only the event target node
-see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
-  - [`BUBBLING_PHASE`](#bubblingphase) `Number` The bubbling phase comprises any subsequent nodes encountered on the return trip to the root of the hierarchy
-see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
+  - [`type`](#type) `String` 事件类型。
+  - [`bubbles`](#bubbles) `Boolean` 表示该事件是否进行冒泡。
+  - [`target`](#target) `Object` 最初事件触发的目标
+  - [`currentTarget`](#currenttarget) `Object` 当前目标
+  - [`eventPhase`](#eventphase) `Number` 事件阶段
+  - [`NO_TYPE`](#notype) `String` 没有类型的事件
+  - [`TOUCH`](#touch) `String` 触摸事件类型
+  - [`MOUSE`](#mouse) `String` 鼠标事件类型
+  - [`KEYBOARD`](#keyboard) `String` 键盘事件类型
+  - [`ACCELERATION`](#acceleration) `String` 加速器事件类型
+  - [`NONE`](#none) `Number` 尚未派发事件阶段
+  - [`CAPTURING_PHASE`](#capturingphase) `Number` 捕获阶段，包括事件目标节点之前从根节点到最后一个节点的过程。
+  - [`AT_TARGET`](#attarget) `Number` 目标阶段仅包括事件目标节点。
+  - [`BUBBLING_PHASE`](#bubblingphase) `Number` 冒泡阶段， 包括回程遇到到层次根节点的任何后续节点。
 
 
 
 ##### Methods
 
   - [`constructor`](#constructor) 
-  - [`unuse`](#unuse) Reset the event for being stored in the object pool.
-  - [`reuse`](#reuse) Reuse the event for being used again by the object pool.
-  - [`stopPropagation`](#stoppropagation) Stops propagation for current event.
-  - [`stopPropagationImmediate`](#stoppropagationimmediate) Stops propagation for current event immediately,
-the event won't even be dispatched to the listeners attached in the current target.
-  - [`isStopped`](#isstopped) Checks whether the event has been stopped.
-  - [`getCurrentTarget`](#getcurrenttarget) <p>
-    Gets current target of the event                                                            <br/>
-    note: It only be available when the event listener is associated with node.                <br/>
-         It returns 0 when the listener is associated with fixed priority.
-</p>
-  - [`getType`](#gettype) Gets the event type.
+  - [`unuse`](#unuse) 重置对象池中存储的事件。
+  - [`reuse`](#reuse) 用于对象池再次使用的事件。
+  - [`stopPropagation`](#stoppropagation) 停止传递当前事件。
+  - [`stopPropagationImmediate`](#stoppropagationimmediate) 立即停止当前事件的传递，事件甚至不会被分派到所连接的当前目标。
+  - [`isStopped`](#isstopped) 检查该事件是否已经停止传递.
+  - [`getCurrentTarget`](#getcurrenttarget) 获取当前目标节点
+  - [`getType`](#gettype) 获取事件类型
 
 
 
@@ -67,7 +52,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### type
 
-> The name of the event (case-sensitive), e.g. "click", "fire", or "submit".
+> 事件类型。
 
 | meta | description |
 |------|-------------|
@@ -78,7 +63,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### bubbles
 
-> Indicate whether the event bubbles up through the tree or not.
+> 表示该事件是否进行冒泡。
 
 | meta | description |
 |------|-------------|
@@ -89,7 +74,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### target
 
-> A reference to the target to which the event was originally dispatched.
+> 最初事件触发的目标
 
 | meta | description |
 |------|-------------|
@@ -100,7 +85,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### currentTarget
 
-> A reference to the currently registered target for the event.
+> 当前目标
 
 | meta | description |
 |------|-------------|
@@ -111,14 +96,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### eventPhase
 
-> Indicates which phase of the event flow is currently being evaluated.
-Returns an integer value represented by 4 constants:
- - Event.NONE = 0
- - Event.CAPTURING_PHASE = 1
- - Event.AT_TARGET = 2
- - Event.BUBBLING_PHASE = 3
-The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
-(http://www.w3.org/TR/DOM-Level-3-Events/#event-flow), of the DOM Level 3 Events specification.
+> 事件阶段
 
 | meta | description |
 |------|-------------|
@@ -129,7 +107,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 
 ##### NO_TYPE
 
-> Code for event without type.
+> 没有类型的事件
 
 | meta | description |
 |------|-------------|
@@ -140,7 +118,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 
 ##### TOUCH
 
-> The type code of Touch event.
+> 触摸事件类型
 
 | meta | description |
 |------|-------------|
@@ -151,7 +129,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 
 ##### MOUSE
 
-> The type code of Mouse event.
+> 鼠标事件类型
 
 | meta | description |
 |------|-------------|
@@ -162,7 +140,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 
 ##### KEYBOARD
 
-> The type code of Keyboard event.
+> 键盘事件类型
 
 | meta | description |
 |------|-------------|
@@ -173,7 +151,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 
 ##### ACCELERATION
 
-> The type code of Acceleration event.
+> 加速器事件类型
 
 | meta | description |
 |------|-------------|
@@ -184,7 +162,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 
 ##### NONE
 
-> Events not currently dispatched are in this phase
+> 尚未派发事件阶段
 
 | meta | description |
 |------|-------------|
@@ -195,8 +173,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 
 ##### CAPTURING_PHASE
 
-> The capturing phase comprises the journey from the root to the last node before the event target's node
-see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
+> 捕获阶段，包括事件目标节点之前从根节点到最后一个节点的过程。
 
 | meta | description |
 |------|-------------|
@@ -207,8 +184,7 @@ see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
 
 ##### AT_TARGET
 
-> The target phase comprises only the event target node
-see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
+> 目标阶段仅包括事件目标节点。
 
 | meta | description |
 |------|-------------|
@@ -219,8 +195,7 @@ see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
 
 ##### BUBBLING_PHASE
 
-> The bubbling phase comprises any subsequent nodes encountered on the return trip to the root of the hierarchy
-see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
+> 冒泡阶段， 包括回程遇到到层次根节点的任何后续节点。
 
 | meta | description |
 |------|-------------|
@@ -251,7 +226,7 @@ see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
 
 ##### unuse
 
-Reset the event for being stored in the object pool.
+重置对象池中存储的事件。
 
 | meta | description |
 |------|-------------|
@@ -262,7 +237,7 @@ Reset the event for being stored in the object pool.
 
 ##### reuse
 
-Reuse the event for being used again by the object pool.
+用于对象池再次使用的事件。
 
 | meta | description |
 |------|-------------|
@@ -273,7 +248,7 @@ Reuse the event for being used again by the object pool.
 
 ##### stopPropagation
 
-Stops propagation for current event.
+停止传递当前事件。
 
 | meta | description |
 |------|-------------|
@@ -283,8 +258,7 @@ Stops propagation for current event.
 
 ##### stopPropagationImmediate
 
-Stops propagation for current event immediately,
-the event won't even be dispatched to the listeners attached in the current target.
+立即停止当前事件的传递，事件甚至不会被分派到所连接的当前目标。
 
 | meta | description |
 |------|-------------|
@@ -294,7 +268,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### isStopped
 
-Checks whether the event has been stopped.
+检查该事件是否已经停止传递.
 
 | meta | description |
 |------|-------------|
@@ -305,11 +279,7 @@ Checks whether the event has been stopped.
 
 ##### getCurrentTarget
 
-<p>
-    Gets current target of the event                                                            <br/>
-    note: It only be available when the event listener is associated with node.                <br/>
-         It returns 0 when the listener is associated with fixed priority.
-</p>
+获取当前目标节点
 
 | meta | description |
 |------|-------------|
@@ -320,7 +290,7 @@ Checks whether the event has been stopped.
 
 ##### getType
 
-Gets the event type.
+获取事件类型
 
 | meta | description |
 |------|-------------|

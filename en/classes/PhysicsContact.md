@@ -3,13 +3,12 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
 
-PhysicsContact will be generated during begin and end collision as a parameter of the collision callback.
-Note that contacts will be reused for speed up cpu time, so do not cache anything in the contact.
+物理接触会在开始和结束碰撞之间生成，并作为参数传入到碰撞回调函数中。
+注意：传入的物理接触会被系统进行重用，所以不要在使用中缓存里面的任何信息。
 
 ### Index
 
@@ -17,27 +16,27 @@ Note that contacts will be reused for speed up cpu time, so do not cache anythin
 
   - [`colliderA`](#collidera) `Collider` 
   - [`colliderB`](#colliderb) `Collider` 
-  - [`disabled`](#disabled) `Boolean` If set disabled to true, the contact will be ignored until contact end.
-If you just want to disabled contact for current time step or sub-step, please use disabledOnce.
-  - [`disabledOnce`](#disabledonce) `Boolean` Disabled contact for current time step or sub-step.
+  - [`disabled`](#disabled) `Boolean` 如果 disabled 被设置为 true，那么直到接触结束此接触都将被忽略。
+如果只是希望在当前时间步或子步中忽略此接触，请使用 disabledOnce 。
+  - [`disabledOnce`](#disabledonce) `Boolean` 在当前时间步或子步中忽略此接触。
 
 
 
 ##### Methods
 
-  - [`getWorldManifold`](#getworldmanifold) Get the world manifold.
-  - [`getManifold`](#getmanifold) Get the manifold.
-  - [`getImpulse`](#getimpulse) Get the impulses.
-Note: PhysicsImpulse can only used in onPostSolve callback.
-  - [`isTouching`](#istouching) Is this contact touching?
-  - [`setTangentSpeed`](#settangentspeed) Set the desired tangent speed for a conveyor belt behavior.
-  - [`getTangentSpeed`](#gettangentspeed) Get the desired tangent speed.
-  - [`setFriction`](#setfriction) Override the default friction mixture. You can call this in onPreSolve callback.
-  - [`getFriction`](#getfriction) Get the friction.
-  - [`resetFriction`](#resetfriction) Reset the friction mixture to the default value.
-  - [`setRestitution`](#setrestitution) Override the default restitution mixture. You can call this in onPreSolve callback.
-  - [`getRestitution`](#getrestitution) Get the restitution.
-  - [`resetRestitution`](#resetrestitution) Reset the restitution mixture to the default value.
+  - [`getWorldManifold`](#getworldmanifold) 获取世界坐标系下的碰撞信息。
+  - [`getManifold`](#getmanifold) 获取世界坐标系下的碰撞信息。
+  - [`getImpulse`](#getimpulse) 获取冲量信息
+注意：这个信息只有在 onPostSolve 回调中才能获取到
+  - [`isTouching`](#istouching) 返回碰撞体是否已经接触到。
+  - [`setTangentSpeed`](#settangentspeed) 为传送带设置期望的切线速度
+  - [`getTangentSpeed`](#gettangentspeed) 获取切线速度
+  - [`setFriction`](#setfriction) 覆盖默认的摩擦力系数。你可以在 onPreSolve 回调中调用此函数。
+  - [`getFriction`](#getfriction) 获取当前摩擦力系数
+  - [`resetFriction`](#resetfriction) 重置摩擦力系数到默认值
+  - [`setRestitution`](#setrestitution) 覆盖默认的恢复系数。你可以在 onPreSolve 回调中调用此函数。
+  - [`getRestitution`](#getrestitution) 获取当前恢复系数
+  - [`resetRestitution`](#resetrestitution) 重置恢复系数到默认值
 
 
 
@@ -71,8 +70,8 @@ Note: PhysicsImpulse can only used in onPostSolve callback.
 
 ##### disabled
 
-> If set disabled to true, the contact will be ignored until contact end.
-If you just want to disabled contact for current time step or sub-step, please use disabledOnce.
+> 如果 disabled 被设置为 true，那么直到接触结束此接触都将被忽略。
+如果只是希望在当前时间步或子步中忽略此接触，请使用 disabledOnce 。
 
 | meta | description |
 |------|-------------|
@@ -83,7 +82,7 @@ If you just want to disabled contact for current time step or sub-step, please u
 
 ##### disabledOnce
 
-> Disabled contact for current time step or sub-step.
+> 在当前时间步或子步中忽略此接触。
 
 | meta | description |
 |------|-------------|
@@ -101,7 +100,7 @@ If you just want to disabled contact for current time step or sub-step, please u
 
 ##### getWorldManifold
 
-Get the world manifold.
+获取世界坐标系下的碰撞信息。
 
 | meta | description |
 |------|-------------|
@@ -112,7 +111,7 @@ Get the world manifold.
 
 ##### getManifold
 
-Get the manifold.
+获取世界坐标系下的碰撞信息。
 
 | meta | description |
 |------|-------------|
@@ -123,8 +122,8 @@ Get the manifold.
 
 ##### getImpulse
 
-Get the impulses.
-Note: PhysicsImpulse can only used in onPostSolve callback.
+获取冲量信息
+注意：这个信息只有在 onPostSolve 回调中才能获取到
 
 | meta | description |
 |------|-------------|
@@ -135,7 +134,7 @@ Note: PhysicsImpulse can only used in onPostSolve callback.
 
 ##### isTouching
 
-Is this contact touching?
+返回碰撞体是否已经接触到。
 
 | meta | description |
 |------|-------------|
@@ -146,7 +145,7 @@ Is this contact touching?
 
 ##### setTangentSpeed
 
-Set the desired tangent speed for a conveyor belt behavior.
+为传送带设置期望的切线速度
 
 | meta | description |
 |------|-------------|
@@ -158,7 +157,7 @@ Set the desired tangent speed for a conveyor belt behavior.
 
 ##### getTangentSpeed
 
-Get the desired tangent speed.
+获取切线速度
 
 | meta | description |
 |------|-------------|
@@ -169,7 +168,7 @@ Get the desired tangent speed.
 
 ##### setFriction
 
-Override the default friction mixture. You can call this in onPreSolve callback.
+覆盖默认的摩擦力系数。你可以在 onPreSolve 回调中调用此函数。
 
 | meta | description |
 |------|-------------|
@@ -181,7 +180,7 @@ Override the default friction mixture. You can call this in onPreSolve callback.
 
 ##### getFriction
 
-Get the friction.
+获取当前摩擦力系数
 
 | meta | description |
 |------|-------------|
@@ -192,7 +191,7 @@ Get the friction.
 
 ##### resetFriction
 
-Reset the friction mixture to the default value.
+重置摩擦力系数到默认值
 
 | meta | description |
 |------|-------------|
@@ -202,7 +201,7 @@ Reset the friction mixture to the default value.
 
 ##### setRestitution
 
-Override the default restitution mixture. You can call this in onPreSolve callback.
+覆盖默认的恢复系数。你可以在 onPreSolve 回调中调用此函数。
 
 | meta | description |
 |------|-------------|
@@ -214,7 +213,7 @@ Override the default restitution mixture. You can call this in onPreSolve callba
 
 ##### getRestitution
 
-Get the restitution.
+获取当前恢复系数
 
 | meta | description |
 |------|-------------|
@@ -225,7 +224,7 @@ Get the restitution.
 
 ##### resetRestitution
 
-Reset the restitution mixture to the default value.
+重置恢复系数到默认值
 
 | meta | description |
 |------|-------------|

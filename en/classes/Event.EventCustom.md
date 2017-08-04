@@ -8,46 +8,34 @@ Module: [cc](../modules/cc.md)
 
 
 
-The Custom event
+自定义事件
 
 ### Index
 
 ##### Properties
 
-  - [`detail`](#detail) `Object` A reference to the detailed data of the event
-  - [`type`](#type) `String` The name of the event (case-sensitive), e.g. "click", "fire", or "submit".
-  - [`bubbles`](#bubbles) `Boolean` Indicate whether the event bubbles up through the tree or not.
-  - [`target`](#target) `Object` A reference to the target to which the event was originally dispatched.
-  - [`currentTarget`](#currenttarget) `Object` A reference to the currently registered target for the event.
-  - [`eventPhase`](#eventphase) `Number` Indicates which phase of the event flow is currently being evaluated.
-Returns an integer value represented by 4 constants:
- - Event.NONE = 0
- - Event.CAPTURING_PHASE = 1
- - Event.AT_TARGET = 2
- - Event.BUBBLING_PHASE = 3
-The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
-(http://www.w3.org/TR/DOM-Level-3-Events/#event-flow), of the DOM Level 3 Events specification.
+  - [`detail`](#detail) `Object` 事件的详细数据
+  - [`type`](#type) `String` 事件类型。
+  - [`bubbles`](#bubbles) `Boolean` 表示该事件是否进行冒泡。
+  - [`target`](#target) `Object` 最初事件触发的目标
+  - [`currentTarget`](#currenttarget) `Object` 当前目标
+  - [`eventPhase`](#eventphase) `Number` 事件阶段
 
 
 
 ##### Methods
 
   - [`constructor`](#constructor) 
-  - [`setUserData`](#setuserdata) Sets user data
-  - [`getUserData`](#getuserdata) Gets user data
-  - [`getEventName`](#geteventname) Gets event name
-  - [`unuse`](#unuse) Reset the event for being stored in the object pool.
-  - [`reuse`](#reuse) Reuse the event for being used again by the object pool.
-  - [`stopPropagation`](#stoppropagation) Stops propagation for current event.
-  - [`stopPropagationImmediate`](#stoppropagationimmediate) Stops propagation for current event immediately,
-the event won't even be dispatched to the listeners attached in the current target.
-  - [`isStopped`](#isstopped) Checks whether the event has been stopped.
-  - [`getCurrentTarget`](#getcurrenttarget) <p>
-    Gets current target of the event                                                            <br/>
-    note: It only be available when the event listener is associated with node.                <br/>
-         It returns 0 when the listener is associated with fixed priority.
-</p>
-  - [`getType`](#gettype) Gets the event type.
+  - [`setUserData`](#setuserdata) 设置用户数据
+  - [`getUserData`](#getuserdata) 获取用户数据
+  - [`getEventName`](#geteventname) 获取事件名称
+  - [`unuse`](#unuse) 重置对象池中存储的事件。
+  - [`reuse`](#reuse) 用于对象池再次使用的事件。
+  - [`stopPropagation`](#stoppropagation) 停止传递当前事件。
+  - [`stopPropagationImmediate`](#stoppropagationimmediate) 立即停止当前事件的传递，事件甚至不会被分派到所连接的当前目标。
+  - [`isStopped`](#isstopped) 检查该事件是否已经停止传递.
+  - [`getCurrentTarget`](#getcurrenttarget) 获取当前目标节点
+  - [`getType`](#gettype) 获取事件类型
 
 
 
@@ -59,7 +47,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### detail
 
-> A reference to the detailed data of the event
+> 事件的详细数据
 
 | meta | description |
 |------|-------------|
@@ -70,7 +58,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### type
 
-> The name of the event (case-sensitive), e.g. "click", "fire", or "submit".
+> 事件类型。
 
 | meta | description |
 |------|-------------|
@@ -81,7 +69,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### bubbles
 
-> Indicate whether the event bubbles up through the tree or not.
+> 表示该事件是否进行冒泡。
 
 | meta | description |
 |------|-------------|
@@ -92,7 +80,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### target
 
-> A reference to the target to which the event was originally dispatched.
+> 最初事件触发的目标
 
 | meta | description |
 |------|-------------|
@@ -103,7 +91,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### currentTarget
 
-> A reference to the currently registered target for the event.
+> 当前目标
 
 | meta | description |
 |------|-------------|
@@ -114,14 +102,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### eventPhase
 
-> Indicates which phase of the event flow is currently being evaluated.
-Returns an integer value represented by 4 constants:
- - Event.NONE = 0
- - Event.CAPTURING_PHASE = 1
- - Event.AT_TARGET = 2
- - Event.BUBBLING_PHASE = 3
-The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
-(http://www.w3.org/TR/DOM-Level-3-Events/#event-flow), of the DOM Level 3 Events specification.
+> 事件阶段
 
 | meta | description |
 |------|-------------|
@@ -152,7 +133,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 
 ##### setUserData
 
-Sets user data
+设置用户数据
 
 | meta | description |
 |------|-------------|
@@ -164,7 +145,7 @@ Sets user data
 
 ##### getUserData
 
-Gets user data
+获取用户数据
 
 | meta | description |
 |------|-------------|
@@ -175,7 +156,7 @@ Gets user data
 
 ##### getEventName
 
-Gets event name
+获取事件名称
 
 | meta | description |
 |------|-------------|
@@ -186,7 +167,7 @@ Gets event name
 
 ##### unuse
 
-Reset the event for being stored in the object pool.
+重置对象池中存储的事件。
 
 | meta | description |
 |------|-------------|
@@ -197,7 +178,7 @@ Reset the event for being stored in the object pool.
 
 ##### reuse
 
-Reuse the event for being used again by the object pool.
+用于对象池再次使用的事件。
 
 | meta | description |
 |------|-------------|
@@ -208,7 +189,7 @@ Reuse the event for being used again by the object pool.
 
 ##### stopPropagation
 
-Stops propagation for current event.
+停止传递当前事件。
 
 | meta | description |
 |------|-------------|
@@ -218,8 +199,7 @@ Stops propagation for current event.
 
 ##### stopPropagationImmediate
 
-Stops propagation for current event immediately,
-the event won't even be dispatched to the listeners attached in the current target.
+立即停止当前事件的传递，事件甚至不会被分派到所连接的当前目标。
 
 | meta | description |
 |------|-------------|
@@ -229,7 +209,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### isStopped
 
-Checks whether the event has been stopped.
+检查该事件是否已经停止传递.
 
 | meta | description |
 |------|-------------|
@@ -240,11 +220,7 @@ Checks whether the event has been stopped.
 
 ##### getCurrentTarget
 
-<p>
-    Gets current target of the event                                                            <br/>
-    note: It only be available when the event listener is associated with node.                <br/>
-         It returns 0 when the listener is associated with fixed priority.
-</p>
+获取当前目标节点
 
 | meta | description |
 |------|-------------|
@@ -255,7 +231,7 @@ Checks whether the event has been stopped.
 
 ##### getType
 
-Gets the event type.
+获取事件类型
 
 | meta | description |
 |------|-------------|

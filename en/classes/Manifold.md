@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -14,15 +13,15 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### Properties
 
-  - [`type`](#type) `Number` Manifold type :  0: e_circles, 1: e_faceA, 2: e_faceB
-  - [`localPoint`](#localpoint) `Vec2` The local point usage depends on the manifold type:
--e_circles: the local center of circleA
--e_faceA: the center of faceA
--e_faceB: the center of faceB
-  - [`localNormal`](#localnormal) `Vec2` -e_circles: not used
--e_faceA: the normal on polygonA
--e_faceB: the normal on polygonB
-  - [`points`](#points) `[ManifoldPoint]` the points of contact.
+  - [`type`](#type) `Number` Manifold 类型 :  0: e_circles, 1: e_faceA, 2: e_faceB
+  - [`localPoint`](#localpoint) `Vec2` 用途取决于 manifold 类型
+-e_circles: circleA 的本地中心点
+-e_faceA: faceA 的本地中心点
+-e_faceB: faceB 的本地中心点
+  - [`localNormal`](#localnormal) `Vec2` -e_circles: 没被使用到
+-e_faceA: polygonA 的法向量
+-e_faceB: polygonB 的法向量
+  - [`points`](#points) `[ManifoldPoint]` 接触点信息。
 
 
 
@@ -36,7 +35,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### type
 
-> Manifold type :  0: e_circles, 1: e_faceA, 2: e_faceB
+> Manifold 类型 :  0: e_circles, 1: e_faceA, 2: e_faceB
 
 | meta | description |
 |------|-------------|
@@ -47,10 +46,10 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### localPoint
 
-> The local point usage depends on the manifold type:
--e_circles: the local center of circleA
--e_faceA: the center of faceA
--e_faceB: the center of faceB
+> 用途取决于 manifold 类型
+-e_circles: circleA 的本地中心点
+-e_faceA: faceA 的本地中心点
+-e_faceB: faceB 的本地中心点
 
 | meta | description |
 |------|-------------|
@@ -61,9 +60,9 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### localNormal
 
-> -e_circles: not used
--e_faceA: the normal on polygonA
--e_faceB: the normal on polygonB
+> -e_circles: 没被使用到
+-e_faceA: polygonA 的法向量
+-e_faceB: polygonB 的法向量
 
 | meta | description |
 |------|-------------|
@@ -74,7 +73,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### points
 
-> the points of contact.
+> 接触点信息。
 
 | meta | description |
 |------|-------------|

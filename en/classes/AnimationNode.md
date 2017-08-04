@@ -8,29 +8,22 @@ Module: [cc](../modules/cc.md)
 
 
 
-The collection and instance of playing animations.
+动画曲线的集合，根据当前时间计算出每条曲线的状态。
 
 ### Index
 
 ##### Properties
 
-  - [`curves`](#curves) `Object[]` The curves list.
-  - [`delay`](#delay) `Number` The start delay which represents the number of seconds from an animation's start time to the start of
-the active interval.
-  - [`repeatCount`](#repeatcount) `Number` The animation's iteration count property.
-
-A real number greater than or equal to zero (including positive infinity) representing the number of times
-to repeat the animation node.
-
-Values less than zero and NaN values are treated as the value 1.0 for the purpose of timing model
-calculations.
-  - [`duration`](#duration) `Number` The iteration duration of this animation in seconds. (length)
-  - [`speed`](#speed) `Number` The animation's playback speed. 1 is normal playback speed.
-  - [`wrapMode`](#wrapmode) `WrapMode` Wrapping mode of the playing animation.
-Notice : dynamic change wrapMode will reset time and repeatCount property
-  - [`time`](#time) `Number` The current time of this animation in seconds.
-  - [`isPlaying`](#isplaying) `Boolean` Is playing or paused in play mode?
-  - [`isPaused`](#ispaused) `Boolean` Is currently paused? This can be true even if in edit mode(isPlaying == false).
+  - [`curves`](#curves) `Object[]` 曲线列表。
+  - [`delay`](#delay) `Number` 延迟多少秒播放。
+  - [`repeatCount`](#repeatcount) `Number` 迭代次数，指动画播放多少次后结束, normalize time。 如 2.5（2次半）
+  - [`duration`](#duration) `Number` 单次动画的持续时间，秒。
+  - [`speed`](#speed) `Number` 播放速率。
+  - [`wrapMode`](#wrapmode) `WrapMode` 动画循环方式。
+需要注意的是，动态修改 wrapMode 时，会重置 time 以及 repeatCount
+  - [`time`](#time) `Number` 动画当前的时间，秒。
+  - [`isPlaying`](#isplaying) `Boolean` 当前是否正在播放。
+  - [`isPaused`](#ispaused) `Boolean` 当前是否正在暂停
 
 
 
@@ -42,11 +35,11 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
   - [`onResume`](#onresume) 
   - [`onStop`](#onstop) 
   - [`onError`](#onerror) 
-  - [`play`](#play) Play this animation.
-  - [`stop`](#stop) Stop this animation.
-  - [`pause`](#pause) Pause this animation.
-  - [`resume`](#resume) Resume this animation.
-  - [`step`](#step) Perform a single frame step.
+  - [`play`](#play) 播放动画。
+  - [`stop`](#stop) 停止动画播放。
+  - [`pause`](#pause) 暂停动画。
+  - [`resume`](#resume) 重新播放动画。
+  - [`step`](#step) 执行一帧动画。
 
 
 
@@ -58,7 +51,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 ##### curves
 
-> The curves list.
+> 曲线列表。
 
 | meta | description |
 |------|-------------|
@@ -69,8 +62,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 ##### delay
 
-> The start delay which represents the number of seconds from an animation's start time to the start of
-the active interval.
+> 延迟多少秒播放。
 
 | meta | description |
 |------|-------------|
@@ -81,13 +73,7 @@ the active interval.
 
 ##### repeatCount
 
-> The animation's iteration count property.
-
-A real number greater than or equal to zero (including positive infinity) representing the number of times
-to repeat the animation node.
-
-Values less than zero and NaN values are treated as the value 1.0 for the purpose of timing model
-calculations.
+> 迭代次数，指动画播放多少次后结束, normalize time。 如 2.5（2次半）
 
 | meta | description |
 |------|-------------|
@@ -98,7 +84,7 @@ calculations.
 
 ##### duration
 
-> The iteration duration of this animation in seconds. (length)
+> 单次动画的持续时间，秒。
 
 | meta | description |
 |------|-------------|
@@ -109,7 +95,7 @@ calculations.
 
 ##### speed
 
-> The animation's playback speed. 1 is normal playback speed.
+> 播放速率。
 
 | meta | description |
 |------|-------------|
@@ -120,8 +106,8 @@ calculations.
 
 ##### wrapMode
 
-> Wrapping mode of the playing animation.
-Notice : dynamic change wrapMode will reset time and repeatCount property
+> 动画循环方式。
+需要注意的是，动态修改 wrapMode 时，会重置 time 以及 repeatCount
 
 | meta | description |
 |------|-------------|
@@ -132,7 +118,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 ##### time
 
-> The current time of this animation in seconds.
+> 动画当前的时间，秒。
 
 | meta | description |
 |------|-------------|
@@ -143,7 +129,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 ##### isPlaying
 
-> Is playing or paused in play mode?
+> 当前是否正在播放。
 
 | meta | description |
 |------|-------------|
@@ -154,7 +140,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 ##### isPaused
 
-> Is currently paused? This can be true even if in edit mode(isPlaying == false).
+> 当前是否正在暂停
 
 | meta | description |
 |------|-------------|
@@ -236,7 +222,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 ##### play
 
-Play this animation.
+播放动画。
 
 | meta | description |
 |------|-------------|
@@ -246,7 +232,7 @@ Play this animation.
 
 ##### stop
 
-Stop this animation.
+停止动画播放。
 
 | meta | description |
 |------|-------------|
@@ -256,7 +242,7 @@ Stop this animation.
 
 ##### pause
 
-Pause this animation.
+暂停动画。
 
 | meta | description |
 |------|-------------|
@@ -266,7 +252,7 @@ Pause this animation.
 
 ##### resume
 
-Resume this animation.
+重新播放动画。
 
 | meta | description |
 |------|-------------|
@@ -276,7 +262,7 @@ Resume this animation.
 
 ##### step
 
-Perform a single frame step.
+执行一帧动画。
 
 | meta | description |
 |------|-------------|

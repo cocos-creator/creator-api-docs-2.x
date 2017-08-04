@@ -9,54 +9,54 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-Representation of RGBA colors.
+cc.Color 用于表示颜色。
 
-Each color component is a floating point value with a range from 0 to 255.
+它包含 RGBA 四个以浮点数保存的颜色分量，每个的值都在 0 到 255 之间。
 
-You can also use the convenience method <a href="../modules/cc.html#method_color" class="crosslink">cc.color</a> to create a new Color.
+您也可以通过使用 <a href="../modules/cc.html#method_color" class="crosslink">cc.color</a> 的便捷方法来创建一个新的 Color。
 
 ### Index
 
 ##### Properties
 
-  - [`WHITE`](#white) `Color` Solid white, RGBA is [255, 255, 255, 255].
-  - [`BLACK`](#black) `Color` Solid black, RGBA is [0, 0, 0, 255].
-  - [`TRANSPARENT`](#transparent) `Color` Transparent, RGBA is [0, 0, 0, 0].
-  - [`GRAY`](#gray) `Color` Grey, RGBA is [127.5, 127.5, 127.5].
-  - [`RED`](#red) `Color` Solid red, RGBA is [255, 0, 0].
-  - [`GREEN`](#green) `Color` Solid green, RGBA is [0, 255, 0].
-  - [`BLUE`](#blue) `Color` Solid blue, RGBA is [0, 0, 255].
-  - [`YELLOW`](#yellow) `Color` Yellow, RGBA is [255, 235, 4].
-  - [`ORANGE`](#orange) `Color` Orange, RGBA is [255, 127, 0].
-  - [`CYAN`](#cyan) `Color` Cyan, RGBA is [0, 255, 255].
-  - [`MAGENTA`](#magenta) `Color` Magenta, RGBA is [255, 0, 255].
+  - [`WHITE`](#white) `Color` 纯白色，RGBA 是 [255, 255, 255, 255]。
+  - [`BLACK`](#black) `Color` 纯黑色，RGBA 是 [0, 0, 0, 255]。
+  - [`TRANSPARENT`](#transparent) `Color` 透明，RGBA 是 [0, 0, 0, 0]。
+  - [`GRAY`](#gray) `Color` 灰色，RGBA 是 [127.5, 127.5, 127.5]。
+  - [`RED`](#red) `Color` 纯红色，RGBA 是 [255, 0, 0]。
+  - [`GREEN`](#green) `Color` 纯绿色，RGBA 是 [0, 255, 0]。
+  - [`BLUE`](#blue) `Color` 纯蓝色，RGBA 是 [0, 0, 255]。
+  - [`YELLOW`](#yellow) `Color` 黄色，RGBA 是 [255, 235, 4]。
+  - [`ORANGE`](#orange) `Color` 橙色，RGBA 是 [255, 127, 0]。
+  - [`CYAN`](#cyan) `Color` 青色，RGBA 是 [0, 255, 255]。
+  - [`MAGENTA`](#magenta) `Color` 洋红色（品红色），RGBA 是 [255, 0, 255]。
 
 
 
 ##### Methods
 
   - [`constructor`](#constructor) 
-  - [`clone`](#clone) Clone a new color from the current color.
-  - [`equals`](#equals) TODO
-  - [`lerp`](#lerp) TODO
-  - [`toString`](#tostring) TODO
-  - [`getR`](#getr) Gets red channel value
-  - [`setR`](#setr) Sets red value and return the current color object
-  - [`getG`](#getg) Gets green channel value
-  - [`setG`](#setg) Sets green value and return the current color object
-  - [`getB`](#getb) Gets blue channel value
-  - [`setB`](#setb) Sets blue value and return the current color object
-  - [`getA`](#geta) Gets alpha channel value
-  - [`setA`](#seta) Sets alpha value and return the current color object
-  - [`toCSS`](#tocss) Convert color to css format.
-  - [`clamp`](#clamp) Clamp this color to make all components between 0 to 255。
-  - [`fromHEX`](#fromhex) Read hex string and store color data into the current color object, the hex string must be formated as rgba or rgb.
-  - [`toHEX`](#tohex) TODO
-  - [`toRGBValue`](#torgbvalue) Convert to 24bit rgb value.
-  - [`fromHSV`](#fromhsv) TODO
-  - [`toHSV`](#tohsv) TODO
-  - [`rgb2hsv`](#rgb2hsv) TODO
-  - [`hsv2rgb`](#hsv2rgb) TODO
+  - [`clone`](#clone) 克隆当前颜色。
+  - [`equals`](#equals) 判断两个颜色是否相等。
+  - [`lerp`](#lerp) 线性插值
+  - [`toString`](#tostring) 转换为方便阅读的字符串。
+  - [`getR`](#getr) 获取当前颜色的红色值。
+  - [`setR`](#setr) 设置当前的红色值，并返回当前对象。
+  - [`getG`](#getg) 获取当前颜色的绿色值。
+  - [`setG`](#setg) 设置当前的绿色值，并返回当前对象。
+  - [`getB`](#getb) 获取当前颜色的蓝色值。
+  - [`setB`](#setb) 设置当前的蓝色值，并返回当前对象。
+  - [`getA`](#geta) 获取当前颜色的透明度值。
+  - [`setA`](#seta) 设置当前的透明度，并返回当前对象。
+  - [`toCSS`](#tocss) 转换为 CSS 格式。
+  - [`clamp`](#clamp) 限制颜色数值，在 0 到 255 之间。
+  - [`fromHEX`](#fromhex) 读取 16 进制颜色。
+  - [`toHEX`](#tohex) 转换为 16 进制。
+  - [`toRGBValue`](#torgbvalue) 转换为 24bit 的 RGB 值。
+  - [`fromHSV`](#fromhsv) 读取 HSV（色彩模型）格式。
+  - [`toHSV`](#tohsv) 转换为 HSV（色彩模型）格式。
+  - [`rgb2hsv`](#rgb2hsv) RGB 转换为 HSV。
+  - [`hsv2rgb`](#hsv2rgb) HSV 转换为 RGB。
 
 
 
@@ -68,7 +68,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### WHITE
 
-> Solid white, RGBA is [255, 255, 255, 255].
+> 纯白色，RGBA 是 [255, 255, 255, 255]。
 
 | meta | description |
 |------|-------------|
@@ -79,7 +79,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### BLACK
 
-> Solid black, RGBA is [0, 0, 0, 255].
+> 纯黑色，RGBA 是 [0, 0, 0, 255]。
 
 | meta | description |
 |------|-------------|
@@ -90,7 +90,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### TRANSPARENT
 
-> Transparent, RGBA is [0, 0, 0, 0].
+> 透明，RGBA 是 [0, 0, 0, 0]。
 
 | meta | description |
 |------|-------------|
@@ -101,7 +101,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### GRAY
 
-> Grey, RGBA is [127.5, 127.5, 127.5].
+> 灰色，RGBA 是 [127.5, 127.5, 127.5]。
 
 | meta | description |
 |------|-------------|
@@ -112,7 +112,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### RED
 
-> Solid red, RGBA is [255, 0, 0].
+> 纯红色，RGBA 是 [255, 0, 0]。
 
 | meta | description |
 |------|-------------|
@@ -123,7 +123,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### GREEN
 
-> Solid green, RGBA is [0, 255, 0].
+> 纯绿色，RGBA 是 [0, 255, 0]。
 
 | meta | description |
 |------|-------------|
@@ -134,7 +134,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### BLUE
 
-> Solid blue, RGBA is [0, 0, 255].
+> 纯蓝色，RGBA 是 [0, 0, 255]。
 
 | meta | description |
 |------|-------------|
@@ -145,7 +145,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### YELLOW
 
-> Yellow, RGBA is [255, 235, 4].
+> 黄色，RGBA 是 [255, 235, 4]。
 
 | meta | description |
 |------|-------------|
@@ -156,7 +156,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### ORANGE
 
-> Orange, RGBA is [255, 127, 0].
+> 橙色，RGBA 是 [255, 127, 0]。
 
 | meta | description |
 |------|-------------|
@@ -167,7 +167,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### CYAN
 
-> Cyan, RGBA is [0, 255, 255].
+> 青色，RGBA 是 [0, 255, 255]。
 
 | meta | description |
 |------|-------------|
@@ -178,7 +178,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### MAGENTA
 
-> Magenta, RGBA is [255, 0, 255].
+> 洋红色（品红色），RGBA 是 [255, 0, 255]。
 
 | meta | description |
 |------|-------------|
@@ -211,7 +211,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 ##### clone
 
-Clone a new color from the current color.
+克隆当前颜色。
 
 | meta | description |
 |------|-------------|
@@ -228,7 +228,7 @@ var newColor = color.clone();// Color {r: 0, g: 0, b: 0, a: 255}
 
 ##### equals
 
-TODO
+判断两个颜色是否相等。
 
 | meta | description |
 |------|-------------|
@@ -250,7 +250,7 @@ cc.log(color2.equals(color1)); // false;
 
 ##### lerp
 
-TODO
+线性插值
 
 | meta | description |
 |------|-------------|
@@ -268,7 +268,7 @@ TODO
 
 ##### toString
 
-TODO
+转换为方便阅读的字符串。
 
 | meta | description |
 |------|-------------|
@@ -285,7 +285,7 @@ color.toString(); // "rgba(255, 255, 255, 255)"
 
 ##### getR
 
-Gets red channel value
+获取当前颜色的红色值。
 
 | meta | description |
 |------|-------------|
@@ -296,7 +296,7 @@ Gets red channel value
 
 ##### setR
 
-Sets red value and return the current color object
+设置当前的红色值，并返回当前对象。
 
 | meta | description |
 |------|-------------|
@@ -315,7 +315,7 @@ color.setR(255); // Color {r: 255, g: 0, b: 0, a: 255}
 
 ##### getG
 
-Gets green channel value
+获取当前颜色的绿色值。
 
 | meta | description |
 |------|-------------|
@@ -326,7 +326,7 @@ Gets green channel value
 
 ##### setG
 
-Sets green value and return the current color object
+设置当前的绿色值，并返回当前对象。
 
 | meta | description |
 |------|-------------|
@@ -345,7 +345,7 @@ color.setG(255); // Color {r: 0, g: 255, b: 0, a: 255}
 
 ##### getB
 
-Gets blue channel value
+获取当前颜色的蓝色值。
 
 | meta | description |
 |------|-------------|
@@ -356,7 +356,7 @@ Gets blue channel value
 
 ##### setB
 
-Sets blue value and return the current color object
+设置当前的蓝色值，并返回当前对象。
 
 | meta | description |
 |------|-------------|
@@ -375,7 +375,7 @@ color.setB(255); // Color {r: 0, g: 0, b: 255, a: 255}
 
 ##### getA
 
-Gets alpha channel value
+获取当前颜色的透明度值。
 
 | meta | description |
 |------|-------------|
@@ -386,7 +386,7 @@ Gets alpha channel value
 
 ##### setA
 
-Sets alpha value and return the current color object
+设置当前的透明度，并返回当前对象。
 
 | meta | description |
 |------|-------------|
@@ -405,7 +405,7 @@ color.setA(0); // Color {r: 0, g: 0, b: 0, a: 0}
 
 ##### toCSS
 
-Convert color to css format.
+转换为 CSS 格式。
 
 | meta | description |
 |------|-------------|
@@ -421,7 +421,7 @@ Convert color to css format.
 
 ##### clamp
 
-Clamp this color to make all components between 0 to 255。
+限制颜色数值，在 0 到 255 之间。
 
 | meta | description |
 |------|-------------|
@@ -438,7 +438,7 @@ cc.log(color); // (255, 0, 0, 255)
 
 ##### fromHEX
 
-Read hex string and store color data into the current color object, the hex string must be formated as rgba or rgb.
+读取 16 进制颜色。
 
 | meta | description |
 |------|-------------|
@@ -457,7 +457,7 @@ color.fromHEX("#FFFF33"); // Color {r: 255, g: 255, b: 51, a: 255};
 
 ##### toHEX
 
-TODO
+转换为 16 进制。
 
 | meta | description |
 |------|-------------|
@@ -477,7 +477,7 @@ color.toHEX("#rrggbb");  // "000000";
 
 ##### toRGBValue
 
-Convert to 24bit rgb value.
+转换为 24bit 的 RGB 值。
 
 | meta | description |
 |------|-------------|
@@ -494,7 +494,7 @@ color.toRGBValue(); // 16771844;
 
 ##### fromHSV
 
-TODO
+读取 HSV（色彩模型）格式。
 
 | meta | description |
 |------|-------------|
@@ -515,7 +515,7 @@ color.fromHSV(0, 0, 1); // Color {r: 255, g: 255, b: 255, a: 255};
 
 ##### toHSV
 
-TODO
+转换为 HSV（色彩模型）格式。
 
 | meta | description |
 |------|-------------|
@@ -532,7 +532,7 @@ color.toHSV(); // Object {h: 0.1533864541832669, s: 0.9843137254901961, v: 1};
 
 ##### rgb2hsv
 
-TODO
+RGB 转换为 HSV。
 
 | meta | description |
 |------|-------------|
@@ -552,7 +552,7 @@ cc.Color.rgb2hsv(255, 255, 255); // Object {h: 0, s: 0, v: 1};
 
 ##### hsv2rgb
 
-TODO
+HSV 转换为 RGB。
 
 | meta | description |
 |------|-------------|

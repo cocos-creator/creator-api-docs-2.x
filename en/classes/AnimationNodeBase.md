@@ -8,14 +8,14 @@ Module: [cc](../modules/cc.md)
 
 
 
-The abstract interface for all playing animation.
+所有播放动画的抽象接口。
 
 ### Index
 
 ##### Properties
 
-  - [`isPlaying`](#isplaying) `Boolean` Is playing or paused in play mode?
-  - [`isPaused`](#ispaused) `Boolean` Is currently paused? This can be true even if in edit mode(isPlaying == false).
+  - [`isPlaying`](#isplaying) `Boolean` 当前是否正在播放。
+  - [`isPaused`](#ispaused) `Boolean` 当前是否正在暂停
 
 
 
@@ -27,11 +27,11 @@ The abstract interface for all playing animation.
   - [`onResume`](#onresume) 
   - [`onStop`](#onstop) 
   - [`onError`](#onerror) 
-  - [`play`](#play) Play this animation.
-  - [`stop`](#stop) Stop this animation.
-  - [`pause`](#pause) Pause this animation.
-  - [`resume`](#resume) Resume this animation.
-  - [`step`](#step) Perform a single frame step.
+  - [`play`](#play) 播放动画。
+  - [`stop`](#stop) 停止动画播放。
+  - [`pause`](#pause) 暂停动画。
+  - [`resume`](#resume) 重新播放动画。
+  - [`step`](#step) 执行一帧动画。
 
 
 
@@ -43,7 +43,7 @@ The abstract interface for all playing animation.
 
 ##### isPlaying
 
-> Is playing or paused in play mode?
+> 当前是否正在播放。
 
 | meta | description |
 |------|-------------|
@@ -54,7 +54,7 @@ The abstract interface for all playing animation.
 
 ##### isPaused
 
-> Is currently paused? This can be true even if in edit mode(isPlaying == false).
+> 当前是否正在暂停
 
 | meta | description |
 |------|-------------|
@@ -136,7 +136,7 @@ The abstract interface for all playing animation.
 
 ##### play
 
-Play this animation.
+播放动画。
 
 | meta | description |
 |------|-------------|
@@ -146,7 +146,7 @@ Play this animation.
 
 ##### stop
 
-Stop this animation.
+停止动画播放。
 
 | meta | description |
 |------|-------------|
@@ -156,7 +156,7 @@ Stop this animation.
 
 ##### pause
 
-Pause this animation.
+暂停动画。
 
 | meta | description |
 |------|-------------|
@@ -166,7 +166,7 @@ Pause this animation.
 
 ##### resume
 
-Resume this animation.
+重新播放动画。
 
 | meta | description |
 |------|-------------|
@@ -176,7 +176,7 @@ Resume this animation.
 
 ##### step
 
-Perform a single frame step.
+执行一帧动画。
 
 | meta | description |
 |------|-------------|

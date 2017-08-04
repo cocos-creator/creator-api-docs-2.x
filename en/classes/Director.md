@@ -9,34 +9,34 @@ Module: [cc](../modules/cc.md)
 
 
 <p>
-   ATTENTION: USE cc.director INSTEAD OF cc.Director.<br/>
-   cc.director is a singleton object which manage your game's logic flow.<br/>
-   Since the cc.director is a singleton, you don't need to call any constructor or create functions,<br/>
-   the standard way to use it is by calling:<br/>
-     - cc.director.methodName(); <br/>
-
-   It creates and handle the main Window and manages how and when to execute the Scenes.<br/>
+    注意：用 cc.director 代替 cc.Director。<br/>
+    cc.director 一个管理你的游戏的逻辑流程的单例对象。<br/>
+    由于 cc.director 是一个单例，你不需要调用任何构造函数或创建函数，<br/>
+    使用它的标准方法是通过调用：<br/>
+      - cc.director.methodName();
+    <br/>
+    它创建和处理主窗口并且管理什么时候执行场景。<br/>
+    <br/>
+    cc.director 还负责：<br/>
+     - 初始化 OpenGL 环境。<br/>
+     - 设置OpenGL像素格式。(默认是 RGB565)<br/>
+     - 设置OpenGL缓冲区深度 (默认是 0-bit)<br/>
+     - 设置空白场景的颜色 (默认是 黑色)<br/>
+     - 设置投影 (默认是 3D)<br/>
+     - 设置方向 (默认是 Portrait)<br/>
    <br/>
-   The cc.director is also responsible for:<br/>
-     - initializing the OpenGL context<br/>
-     - setting the OpenGL pixel format (default on is RGB565)<br/>
-     - setting the OpenGL buffer depth (default on is 0-bit)<br/>
-     - setting the color for clear screen (default one is BLACK)<br/>
-     - setting the projection (default one is 3D)<br/>
-     - setting the orientation (default one is Portrait)<br/>
-     <br/>
-   <br/>
-   The cc.director also sets the default OpenGL context:<br/>
-     - GL_TEXTURE_2D is enabled<br/>
-     - GL_VERTEX_ARRAY is enabled<br/>
-     - GL_COLOR_ARRAY is enabled<br/>
-     - GL_TEXTURE_COORD_ARRAY is enabled<br/>
+   cc.director 设置了 OpenGL 默认环境 <br/>
+     - GL_TEXTURE_2D   启用。<br/>
+     - GL_VERTEX_ARRAY 启用。<br/>
+     - GL_COLOR_ARRAY  启用。<br/>
+     - GL_TEXTURE_COORD_ARRAY 启用。<br/>
 </p>
 <p>
-  cc.director also synchronizes timers with the refresh rate of the display.<br/>
-  Features and Limitations:<br/>
-     - Scheduled timers & drawing are synchronizes with the refresh rate of the display<br/>
-     - Only supports animation intervals of 1/60 1/30 & 1/15<br/>
+  cc.director 也同步定时器与显示器的刷新速率。
+  <br/>
+  特点和局限性: <br/>
+     - 将计时器 & 渲染与显示器的刷新频率同步。<br/>
+     - 只支持动画的间隔 1/60 1/30 & 1/15。<br/>
 </p>
 
 ### Index
@@ -45,89 +45,66 @@ Module: [cc](../modules/cc.md)
 
 ##### Methods
 
-  - [`convertToUI`](#converttoui) Converts an OpenGL coordinate to a view coordinate<br/>
-Useful to convert node points to window points for calls such as glScissor<br/>
-Implementation can be found in CCDirectorWebGL.
-  - [`getWinSize`](#getwinsize) Returns the size of the WebGL view in points.<br/>
-It takes into account any possible rotation (device orientation) of the window.
-  - [`getWinSizeInPixels`](#getwinsizeinpixels) Returns the size of the OpenGL view in pixels.<br/>
-It takes into account any possible rotation (device orientation) of the window.<br/>
-On Mac winSize and winSizeInPixels return the same value.
-  - [`getVisibleSize`](#getvisiblesize) Returns the visible size of the running scene.
-  - [`getVisibleOrigin`](#getvisibleorigin) Returns the visible origin of the running scene.
-  - [`pause`](#pause) Pause the director's ticker, only involve the game logic execution.
-It won't pause the rendering process nor the event manager.
-If you want to pause the entier game including rendering, audio and event,
-please use Game.pause
-  - [`runSceneImmediate`](#runsceneimmediate) Run a scene. Replaces the running scene with a new one or enter the first scene.<br/>
-The new scene will be launched immediately.
-  - [`runScene`](#runscene) Run a scene. Replaces the running scene with a new one or enter the first scene.
-The new scene will be launched at the end of the current frame.
-  - [`loadScene`](#loadscene) Loads the scene by its name.
-  - [`preloadScene`](#preloadscene) Preloads the scene to reduces loading time. You can call this method at any time you want.
-After calling this method, you still need to launch the scene by `cc.director.loadScene`.
-It will be totally fine to call `cc.director.loadScene` at any time even if the preloading is not
-yet finished, the scene will be launched after loaded automatically.
+  - [`convertToUI`](#converttoui) 将触摸点的 WebGL View 坐标转换为屏幕坐标。
+  - [`getWinSize`](#getwinsize) 获取视图的大小，以点为单位。
+  - [`getWinSizeInPixels`](#getwinsizeinpixels) 获取视图大小，以像素为单位。
+  - [`getVisibleSize`](#getvisiblesize) 获取运行场景的可见大小。
+  - [`getVisibleOrigin`](#getvisibleorigin) 获取视图在游戏内容中的坐标原点。
+  - [`pause`](#pause) 暂停正在运行的场景，该暂停只会停止游戏逻辑执行，但是不会停止渲染和 UI 响应。
+如果想要更彻底得暂停游戏，包含渲染，音频和事件，请使用 Game.pause。
+  - [`runSceneImmediate`](#runsceneimmediate) 立刻切换指定场景。
+  - [`runScene`](#runscene) 运行指定场景。
+  - [`loadScene`](#loadscene) 通过场景名称进行加载场景。
+  - [`preloadScene`](#preloadscene) 预加载场景，你可以在任何时候调用这个方法。
+调用完后，你仍然需要通过 `cc.director.loadScene` 来启动场景，因为这个方法不会执行场景加载操作。
+就算预加载还没完成，你也可以直接调用 `cc.director.loadScene`，加载完成后场景就会启动。
   - [`_loadSceneByUuid`](#loadscenebyuuid) Loads the scene by its uuid.
-  - [`resume`](#resume) Resume game logic execution after pause, if the current scene is not paused, nothing will happen.
-  - [`setDepthTest`](#setdepthtest) Enables or disables WebGL depth test.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js
-  - [`setClearColor`](#setclearcolor) set color for clear screen.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js
-  - [`setProjection`](#setprojection) Sets an OpenGL projection.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
-  - [`setViewport`](#setviewport) Update the view port.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
-  - [`getProjection`](#getprojection) Sets an OpenGL projection.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
-  - [`setAlphaBlending`](#setalphablending) Enables/disables OpenGL alpha blending.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
-  - [`isSendCleanupToScene`](#issendcleanuptoscene) Returns whether or not the replaced scene will receive the cleanup message.<br/>
-If the new scene is pushed, then the old scene won't receive the "cleanup" message.<br/>
-If the new scene replaces the old one, the it will receive the "cleanup" message.
-  - [`getRunningScene`](#getrunningscene) Returns current render Scene, normally you will never need to use this API.
-In most case, you probably want to use `getScene` instead.
-  - [`getScene`](#getscene) Returns current logic Scene.
-  - [`getAnimationInterval`](#getanimationinterval) Returns the FPS value.
-  - [`isDisplayStats`](#isdisplaystats) Returns whether or not to display the FPS informations.
-  - [`setDisplayStats`](#setdisplaystats) Sets whether display the FPS on the bottom-left corner.
-  - [`isNextDeltaTimeZero`](#isnextdeltatimezero) Returns whether next delta time equals to zero.
-  - [`isPaused`](#ispaused) Returns whether or not the Director is paused.
-  - [`getTotalFrames`](#gettotalframes) Returns how many frames were called since the director started.
-  - [`getScheduler`](#getscheduler) Returns the cc.Scheduler associated with this director.
-  - [`setScheduler`](#setscheduler) Sets the cc.Scheduler associated with this director.
-  - [`getActionManager`](#getactionmanager) Returns the cc.ActionManager associated with this director.
-  - [`setActionManager`](#setactionmanager) Sets the cc.ActionManager associated with this director.
+  - [`resume`](#resume) 恢复暂停场景的游戏逻辑，如果当前场景没有暂停将没任何事情发生。
+  - [`setDepthTest`](#setdepthtest) 启用/禁用深度测试（在 Canvas 渲染模式下不会生效）。
+  - [`setClearColor`](#setclearcolor) 设置场景的默认擦除颜色（支持白色全透明，但不支持透明度为中间值）。
+  - [`setProjection`](#setprojection) 设置 OpenGL 投影。
+  - [`setViewport`](#setviewport) 设置视窗（请不要主动调用这个接口，除非你知道你在做什么）。
+  - [`getProjection`](#getprojection) 获取 OpenGL 投影。
+  - [`setAlphaBlending`](#setalphablending) 启用/禁用 透明度融合。
+  - [`isSendCleanupToScene`](#issendcleanuptoscene) 更换场景时是否接收清理消息。<br>
+如果新场景是采用 push 方式进入的，那么旧的场景将不会接收到 “cleanup” 消息。<br/>
+如果新场景取代旧的场景，它将会接收到 “cleanup” 消息。</br>
+  - [`getRunningScene`](#getrunningscene) 获取当前运行的渲染场景，一般情况下，你不会需要用到这个接口，请使用 getScene。
+  - [`getScene`](#getscene) 获取当前逻辑场景。
+  - [`getAnimationInterval`](#getanimationinterval) 获取单位帧执行时间。
+  - [`isDisplayStats`](#isdisplaystats) 获取是否显示 FPS 信息。
+  - [`setDisplayStats`](#setdisplaystats) 设置是否在左下角显示 FPS。
+  - [`isNextDeltaTimeZero`](#isnextdeltatimezero) 返回下一个 “delta time” 是否等于零。
+  - [`isPaused`](#ispaused) 是否处于暂停状态。
+  - [`getTotalFrames`](#gettotalframes) 获取 director 启动以来游戏运行的总帧数。
+  - [`getScheduler`](#getscheduler) 获取和 director 相关联的 cc.Scheduler。
+  - [`setScheduler`](#setscheduler) 设置和 director 相关联的 cc.Scheduler。
+  - [`getActionManager`](#getactionmanager) 获取和 director 相关联的 cc.ActionManager（动作管理器）。
+  - [`setActionManager`](#setactionmanager) 设置和 director 相关联的 cc.ActionManager（动作管理器）。
   - [`getCollisionManager`](#getcollisionmanager) Returns the cc.CollisionManager associated with this director.
   - [`getPhysicsManager`](#getphysicsmanager) Returns the cc.PhysicsManager associated with this director.
-  - [`getDeltaTime`](#getdeltatime) Returns the delta time since last frame.
-  - [`on`](#on) Register an callback of a specific event type on the EventTarget.
-  - [`off`](#off) Removes the listeners previously registered with the same type, callback, target and or useCapture,
-if only type is passed as parameter, all listeners registered with that type will be removed.
-  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
-  - [`once`](#once) Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
-  - [`dispatchEvent`](#dispatchevent) Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
-  - [`emit`](#emit) Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
+  - [`getDeltaTime`](#getdeltatime) 获取上一帧的 “delta time”。
+  - [`on`](#on) 注册事件目标的特定事件类型回调。
+  - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
+  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
+  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
 
 
 
 ##### Events
 
-  - [`cc.Director.EVENT_PROJECTION_CHANGED`](#cc.director.eventprojectionchanged) The event projection changed of cc.Director.
-  - [`cc.Director.EVENT_BEFORE_SCENE_LOADING`](#cc.director.eventbeforesceneloading) The event which will be triggered before loading a new scene.
-  - [`cc.Director.EVENT_AFTER_SCENE_LAUNCH`](#cc.director.eventafterscenelaunch) The event which will be triggered after launching a new scene.
-  - [`cc.Director.EVENT_BEFORE_UPDATE`](#cc.director.eventbeforeupdate) The event which will be triggered at the beginning of every frame.
-  - [`cc.Director.EVENT_AFTER_UPDATE`](#cc.director.eventafterupdate) The event which will be triggered after engine and components update logic.
-  - [`cc.Director.EVENT_BEFORE_VISIT`](#cc.director.eventbeforevisit) The event which will be triggered before visiting the rendering scene graph.
-  - [`cc.Director.EVENT_AFTER_VISIT`](#cc.director.eventaftervisit) The event which will be triggered after visiting the rendering scene graph,
-the render queue is ready but not rendered at this point.
-  - [`cc.Director.EVENT_AFTER_DRAW`](#cc.director.eventafterdraw) The event which will be triggered after the rendering process.
+  - [`cc.Director.EVENT_PROJECTION_CHANGED`](#cc.director.eventprojectionchanged) cc.Director 投影变化的事件。
+  - [`cc.Director.EVENT_BEFORE_SCENE_LOADING`](#cc.director.eventbeforesceneloading) 加载新场景之前所触发的事件。
+  - [`cc.Director.EVENT_AFTER_SCENE_LAUNCH`](#cc.director.eventafterscenelaunch) 运行新场景之后所触发的事件。
+  - [`cc.Director.EVENT_BEFORE_UPDATE`](#cc.director.eventbeforeupdate) 每个帧的开始时所触发的事件。
+  - [`cc.Director.EVENT_AFTER_UPDATE`](#cc.director.eventafterupdate) 将在引擎和组件 “update” 逻辑之后所触发的事件。
+  - [`cc.Director.EVENT_BEFORE_VISIT`](#cc.director.eventbeforevisit) 访问渲染场景树之前所触发的事件。
+  - [`cc.Director.EVENT_AFTER_VISIT`](#cc.director.eventaftervisit) 访问渲染场景图之后所触发的事件，渲染队列已准备就绪，但在这一时刻还没有呈现在画布上。
+  - [`cc.Director.EVENT_AFTER_DRAW`](#cc.director.eventafterdraw) 渲染过程之后所触发的事件。
 
 
 ### Details
@@ -141,9 +118,7 @@ the render queue is ready but not rendered at this point.
 
 ##### convertToUI
 
-Converts an OpenGL coordinate to a view coordinate<br/>
-Useful to convert node points to window points for calls such as glScissor<br/>
-Implementation can be found in CCDirectorWebGL.
+将触摸点的 WebGL View 坐标转换为屏幕坐标。
 
 | meta | description |
 |------|-------------|
@@ -156,8 +131,7 @@ Implementation can be found in CCDirectorWebGL.
 
 ##### getWinSize
 
-Returns the size of the WebGL view in points.<br/>
-It takes into account any possible rotation (device orientation) of the window.
+获取视图的大小，以点为单位。
 
 | meta | description |
 |------|-------------|
@@ -168,9 +142,7 @@ It takes into account any possible rotation (device orientation) of the window.
 
 ##### getWinSizeInPixels
 
-Returns the size of the OpenGL view in pixels.<br/>
-It takes into account any possible rotation (device orientation) of the window.<br/>
-On Mac winSize and winSizeInPixels return the same value.
+获取视图大小，以像素为单位。
 
 | meta | description |
 |------|-------------|
@@ -181,7 +153,7 @@ On Mac winSize and winSizeInPixels return the same value.
 
 ##### getVisibleSize
 
-Returns the visible size of the running scene.
+获取运行场景的可见大小。
 
 | meta | description |
 |------|-------------|
@@ -192,7 +164,7 @@ Returns the visible size of the running scene.
 
 ##### getVisibleOrigin
 
-Returns the visible origin of the running scene.
+获取视图在游戏内容中的坐标原点。
 
 | meta | description |
 |------|-------------|
@@ -203,10 +175,8 @@ Returns the visible origin of the running scene.
 
 ##### pause
 
-Pause the director's ticker, only involve the game logic execution.
-It won't pause the rendering process nor the event manager.
-If you want to pause the entier game including rendering, audio and event,
-please use Game.pause
+暂停正在运行的场景，该暂停只会停止游戏逻辑执行，但是不会停止渲染和 UI 响应。
+如果想要更彻底得暂停游戏，包含渲染，音频和事件，请使用 Game.pause。
 
 | meta | description |
 |------|-------------|
@@ -216,8 +186,7 @@ please use Game.pause
 
 ##### runSceneImmediate
 
-Run a scene. Replaces the running scene with a new one or enter the first scene.<br/>
-The new scene will be launched immediately.
+立刻切换指定场景。
 
 | meta | description |
 |------|-------------|
@@ -231,8 +200,7 @@ The new scene will be launched immediately.
 
 ##### runScene
 
-Run a scene. Replaces the running scene with a new one or enter the first scene.
-The new scene will be launched at the end of the current frame.
+运行指定场景。
 
 | meta | description |
 |------|-------------|
@@ -246,7 +214,7 @@ The new scene will be launched at the end of the current frame.
 
 ##### loadScene
 
-Loads the scene by its name.
+通过场景名称进行加载场景。
 
 | meta | description |
 |------|-------------|
@@ -260,10 +228,9 @@ Loads the scene by its name.
 
 ##### preloadScene
 
-Preloads the scene to reduces loading time. You can call this method at any time you want.
-After calling this method, you still need to launch the scene by `cc.director.loadScene`.
-It will be totally fine to call `cc.director.loadScene` at any time even if the preloading is not
-yet finished, the scene will be launched after loaded automatically.
+预加载场景，你可以在任何时候调用这个方法。
+调用完后，你仍然需要通过 `cc.director.loadScene` 来启动场景，因为这个方法不会执行场景加载操作。
+就算预加载还没完成，你也可以直接调用 `cc.director.loadScene`，加载完成后场景就会启动。
 
 | meta | description |
 |------|-------------|
@@ -293,7 +260,7 @@ Loads the scene by its uuid.
 
 ##### resume
 
-Resume game logic execution after pause, if the current scene is not paused, nothing will happen.
+恢复暂停场景的游戏逻辑，如果当前场景没有暂停将没任何事情发生。
 
 | meta | description |
 |------|-------------|
@@ -303,8 +270,7 @@ Resume game logic execution after pause, if the current scene is not paused, not
 
 ##### setDepthTest
 
-Enables or disables WebGL depth test.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js
+启用/禁用深度测试（在 Canvas 渲染模式下不会生效）。
 
 | meta | description |
 |------|-------------|
@@ -316,8 +282,7 @@ Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js
 
 ##### setClearColor
 
-set color for clear screen.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js
+设置场景的默认擦除颜色（支持白色全透明，但不支持透明度为中间值）。
 
 | meta | description |
 |------|-------------|
@@ -329,8 +294,7 @@ Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js
 
 ##### setProjection
 
-Sets an OpenGL projection.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
+设置 OpenGL 投影。
 
 | meta | description |
 |------|-------------|
@@ -342,8 +306,7 @@ Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
 
 ##### setViewport
 
-Update the view port.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
+设置视窗（请不要主动调用这个接口，除非你知道你在做什么）。
 
 | meta | description |
 |------|-------------|
@@ -353,8 +316,7 @@ Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
 
 ##### getProjection
 
-Sets an OpenGL projection.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
+获取 OpenGL 投影。
 
 | meta | description |
 |------|-------------|
@@ -365,8 +327,7 @@ Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
 
 ##### setAlphaBlending
 
-Enables/disables OpenGL alpha blending.<br/>
-Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
+启用/禁用 透明度融合。
 
 | meta | description |
 |------|-------------|
@@ -378,9 +339,9 @@ Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js.
 
 ##### isSendCleanupToScene
 
-Returns whether or not the replaced scene will receive the cleanup message.<br/>
-If the new scene is pushed, then the old scene won't receive the "cleanup" message.<br/>
-If the new scene replaces the old one, the it will receive the "cleanup" message.
+更换场景时是否接收清理消息。<br>
+如果新场景是采用 push 方式进入的，那么旧的场景将不会接收到 “cleanup” 消息。<br/>
+如果新场景取代旧的场景，它将会接收到 “cleanup” 消息。</br>
 
 | meta | description |
 |------|-------------|
@@ -391,8 +352,7 @@ If the new scene replaces the old one, the it will receive the "cleanup" message
 
 ##### getRunningScene
 
-Returns current render Scene, normally you will never need to use this API.
-In most case, you probably want to use `getScene` instead.
+获取当前运行的渲染场景，一般情况下，你不会需要用到这个接口，请使用 getScene。
 
 | meta | description |
 |------|-------------|
@@ -403,7 +363,7 @@ In most case, you probably want to use `getScene` instead.
 
 ##### getScene
 
-Returns current logic Scene.
+获取当前逻辑场景。
 
 | meta | description |
 |------|-------------|
@@ -420,7 +380,7 @@ Returns current logic Scene.
 
 ##### getAnimationInterval
 
-Returns the FPS value.
+获取单位帧执行时间。
 
 | meta | description |
 |------|-------------|
@@ -431,7 +391,7 @@ Returns the FPS value.
 
 ##### isDisplayStats
 
-Returns whether or not to display the FPS informations.
+获取是否显示 FPS 信息。
 
 | meta | description |
 |------|-------------|
@@ -442,7 +402,7 @@ Returns whether or not to display the FPS informations.
 
 ##### setDisplayStats
 
-Sets whether display the FPS on the bottom-left corner.
+设置是否在左下角显示 FPS。
 
 | meta | description |
 |------|-------------|
@@ -454,7 +414,7 @@ Sets whether display the FPS on the bottom-left corner.
 
 ##### isNextDeltaTimeZero
 
-Returns whether next delta time equals to zero.
+返回下一个 “delta time” 是否等于零。
 
 | meta | description |
 |------|-------------|
@@ -465,7 +425,7 @@ Returns whether next delta time equals to zero.
 
 ##### isPaused
 
-Returns whether or not the Director is paused.
+是否处于暂停状态。
 
 | meta | description |
 |------|-------------|
@@ -476,7 +436,7 @@ Returns whether or not the Director is paused.
 
 ##### getTotalFrames
 
-Returns how many frames were called since the director started.
+获取 director 启动以来游戏运行的总帧数。
 
 | meta | description |
 |------|-------------|
@@ -487,7 +447,7 @@ Returns how many frames were called since the director started.
 
 ##### getScheduler
 
-Returns the cc.Scheduler associated with this director.
+获取和 director 相关联的 cc.Scheduler。
 
 | meta | description |
 |------|-------------|
@@ -498,7 +458,7 @@ Returns the cc.Scheduler associated with this director.
 
 ##### setScheduler
 
-Sets the cc.Scheduler associated with this director.
+设置和 director 相关联的 cc.Scheduler。
 
 | meta | description |
 |------|-------------|
@@ -510,7 +470,7 @@ Sets the cc.Scheduler associated with this director.
 
 ##### getActionManager
 
-Returns the cc.ActionManager associated with this director.
+获取和 director 相关联的 cc.ActionManager（动作管理器）。
 
 | meta | description |
 |------|-------------|
@@ -521,7 +481,7 @@ Returns the cc.ActionManager associated with this director.
 
 ##### setActionManager
 
-Sets the cc.ActionManager associated with this director.
+设置和 director 相关联的 cc.ActionManager（动作管理器）。
 
 | meta | description |
 |------|-------------|
@@ -555,7 +515,7 @@ Returns the cc.PhysicsManager associated with this director.
 
 ##### getDeltaTime
 
-Returns the delta time since last frame.
+获取上一帧的 “delta time”。
 
 | meta | description |
 |------|-------------|
@@ -566,7 +526,7 @@ Returns the delta time since last frame.
 
 ##### on
 
-Register an callback of a specific event type on the EventTarget.
+注册事件目标的特定事件类型回调。
 
 | meta | description |
 |------|-------------|
@@ -594,8 +554,7 @@ node.on(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### off
 
-Removes the listeners previously registered with the same type, callback, target and or useCapture,
-if only type is passed as parameter, all listeners registered with that type will be removed.
+删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
 
 | meta | description |
 |------|-------------|
@@ -625,10 +584,9 @@ node.off(cc.Node.EventType.TOUCH_END);
 
 ##### targetOff
 
-Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
+在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
 
 | meta | description |
 |------|-------------|
@@ -640,8 +598,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 ##### once
 
-Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
+注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
 
 | meta | description |
 |------|-------------|
@@ -668,8 +625,7 @@ node.once(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### dispatchEvent
 
-Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
+分发事件到事件流中。
 
 | meta | description |
 |------|-------------|
@@ -681,8 +637,7 @@ The event target is the EventTarget object upon which the dispatchEvent() method
 
 ##### emit
 
-Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
+该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
 
 | meta | description |
 |------|-------------|
@@ -706,7 +661,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The event projection changed of cc.Director.
+cc.Director 投影变化的事件。
 
 ### Index
 
@@ -730,7 +685,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The event which will be triggered before loading a new scene.
+加载新场景之前所触发的事件。
 
 ### Index
 
@@ -754,7 +709,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The event which will be triggered after launching a new scene.
+运行新场景之后所触发的事件。
 
 ### Index
 
@@ -778,7 +733,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The event which will be triggered at the beginning of every frame.
+每个帧的开始时所触发的事件。
 
 ### Index
 
@@ -802,7 +757,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The event which will be triggered after engine and components update logic.
+将在引擎和组件 “update” 逻辑之后所触发的事件。
 
 ### Index
 
@@ -826,7 +781,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The event which will be triggered before visiting the rendering scene graph.
+访问渲染场景树之前所触发的事件。
 
 ### Index
 
@@ -850,8 +805,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The event which will be triggered after visiting the rendering scene graph,
-the render queue is ready but not rendered at this point.
+访问渲染场景图之后所触发的事件，渲染队列已准备就绪，但在这一时刻还没有呈现在画布上。
 
 ### Index
 
@@ -875,7 +829,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The event which will be triggered after the rendering process.
+渲染过程之后所触发的事件。
 
 ### Index
 

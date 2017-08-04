@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for sprite type.
+Sprite 类型
 
 ### Index
 
@@ -25,7 +25,7 @@ Enum for sprite type.
 
 ##### SIMPLE
 
-> The simple type.
+> 普通类型
 
 | meta | description |
 |------|-------------|
@@ -36,7 +36,7 @@ Enum for sprite type.
 
 ##### SLICED
 
-> The sliced type.
+> 切片（九宫格）类型
 
 | meta | description |
 |------|-------------|
@@ -47,7 +47,7 @@ Enum for sprite type.
 
 ##### TILED
 
-> The tiled type.
+> 平铺类型
 
 | meta | description |
 |------|-------------|
@@ -58,7 +58,7 @@ Enum for sprite type.
 
 ##### FILLED
 
-> The filled type.
+> 填充类型
 
 | meta | description |
 |------|-------------|

@@ -4,6 +4,7 @@ Extends [`RawAsset`](RawAsset.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -435,7 +436,7 @@ Init with HTML element.
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:154](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L154) |
 
 ###### Parameters
-- element HTMLImageElement | HTMLCanvasElement 
+- element HTMLImageElement &#124; HTMLCanvasElement 
 
 ##### Example
 
@@ -486,7 +487,7 @@ In most case, it will return null, because we are recycling the dom image elemen
 | meta | description |
 |------|-------------|
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L201) |
-| Return 		 | HTMLImageElement | HTMLCanvasElement 
+| Return 		 | HTMLImageElement &#124; HTMLCanvasElement 
 
 
 
@@ -578,7 +579,7 @@ If the texture size is NPOT (non power of 2), then in can only use gl.CLAMP_TO_E
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:291](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L291) |
 
 ###### Parameters
-- texParams <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> texParams object or minFilter
+- texParams <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> texParams object or minFilter
 - magFilter <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - wrapS <a href="../enums/Texture2D.WrapMode.html" class="crosslink">Texture2D.WrapMode</a> 
 - wrapT <a href="../enums/Texture2D.WrapMode.html" class="crosslink">Texture2D.WrapMode</a> 

@@ -3,12 +3,11 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
 
-Enum for RayCastType.
+射线检测类型
 
 ### Index
 
@@ -26,7 +25,7 @@ Enum for RayCastType.
 
 ##### Closest
 
-> Detects closest collider on the raycast path.
+> 检测射线路径上最近的碰撞体
 
 | meta | description |
 |------|-------------|
@@ -37,8 +36,8 @@ Enum for RayCastType.
 
 ##### Any
 
-> Detects any collider on the raycast path.
-Once detects a collider, will stop the searching process.
+> 检测射线路径上任意的碰撞体。
+一旦检测到任何碰撞体，将立刻结束检测其他的碰撞体。
 
 | meta | description |
 |------|-------------|
@@ -49,9 +48,8 @@ Once detects a collider, will stop the searching process.
 
 ##### AllClosest
 
-> Detects all colliders on the raycast path.
-One collider may return several collision points(because one collider may have several fixtures,
-one fixture will return one point, the point may inside collider), AllClosest will return the closest one.
+> 检测射线路径上所有的碰撞体。
+同一个碰撞体上有可能会返回多个碰撞点(因为一个碰撞体可能由多个夹具组成，每一个夹具会返回一个碰撞点，碰撞点有可能在碰撞体内部)，AllClosest 删选同一个碰撞体上最近的哪一个碰撞点。
 
 | meta | description |
 |------|-------------|
@@ -62,8 +60,8 @@ one fixture will return one point, the point may inside collider), AllClosest wi
 
 ##### All
 
-> Detects all colliders on the raycast path.
-One collider may return several collision points, All will return all these points.
+> 检测射线路径上所有的碰撞体。
+同一个碰撞体上有可能会返回多个碰撞点，All 将返回所有这些碰撞点。
 
 | meta | description |
 |------|-------------|

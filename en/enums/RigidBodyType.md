@@ -3,12 +3,11 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
 
-Enum for RigidBodyType.
+刚体类型
 
 ### Index
 
@@ -26,7 +25,7 @@ Enum for RigidBodyType.
 
 ##### Static
 
-> zero mass, zero velocity, may be manually moved.
+> 零质量，零速度，可以手动移动。
 
 | meta | description |
 |------|-------------|
@@ -37,7 +36,7 @@ Enum for RigidBodyType.
 
 ##### Kinematic
 
-> zero mass, non-zero velocity set by user.
+> 零质量，可以被设置速度。
 
 | meta | description |
 |------|-------------|
@@ -48,7 +47,7 @@ Enum for RigidBodyType.
 
 ##### Dynamic
 
-> positive mass, non-zero velocity determined by forces.
+> 有质量，可以设置速度，力等。
 
 | meta | description |
 |------|-------------|
@@ -59,7 +58,7 @@ Enum for RigidBodyType.
 
 ##### Animated
 
-> An extension of Kinematic type, can be animated by Animation.
+> Kinematic 类型的扩展，可以被动画控制动画效果。
 
 | meta | description |
 |------|-------------|

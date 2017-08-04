@@ -4,6 +4,7 @@ Extends [`Asset`](Asset.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -273,7 +274,7 @@ SpriteFrame 类的构造函数。
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/sprites/CCSpriteFrame.js:83](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/sprites/CCSpriteFrame.js#L83) |
 
 ###### Parameters
-- filename <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
+- filename <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 - rotated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the frame is rotated in the texture
 - offset <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The offset of the frame in the texture
@@ -430,7 +431,7 @@ Add a event listener for texture loaded event.
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
-- textureOrTextureFile <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
+- textureOrTextureFile <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 - rotated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 - offset <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 

@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for Layout Resize Mode
+缩放模式
 
 ### Index
 
@@ -24,7 +24,7 @@ Enum for Layout Resize Mode
 
 ##### NONE
 
-> Don't do any scale.
+> 不做任何缩放
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ Enum for Layout Resize Mode
 
 ##### CONTAINER
 
-> The container size will be expanded with its children's size.
+> 容器的大小会根据子节点的大小自动缩放。
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ Enum for Layout Resize Mode
 
 ##### CHILDREN
 
-> Child item size will be adjusted with the container's size.
+> 子节点的大小会随着容器的大小自动缩放。
 
 | meta | description |
 |------|-------------|

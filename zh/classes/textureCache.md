@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -69,7 +70,7 @@ Returns an already created texture. Returns null if the texture doesn't exist.
 | meta | description |
 |------|-------------|
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L67) |
-| Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> | Null 
+| Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> &#124; Null 
 
 ###### Parameters
 - textureKeyName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -85,7 +86,7 @@ Returns an already created texture. Returns null if the texture doesn't exist.
 | meta | description |
 |------|-------------|
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L80) |
-| Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> | Null 
+| Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> &#124; Null 
 
 ###### Parameters
 - textureKeyName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -201,7 +202,7 @@ Cache the image data.
 
 ###### Parameters
 - path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- texture HTMLImageElement | HTMLCanvasElement 
+- texture HTMLImageElement &#124; HTMLCanvasElement 
 
 
 ##### addUIImage
@@ -218,7 +219,7 @@ If "key" is null, then a new texture will be created each time.</p>
 | Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
 
 ###### Parameters
-- image HTMLImageElement | HTMLCanvasElement 
+- image HTMLImageElement &#124; HTMLCanvasElement 
 - key <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 

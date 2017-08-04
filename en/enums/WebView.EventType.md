@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-WebView event type
+网页视图事件类型
 
 ### Index
 
@@ -24,7 +24,7 @@ WebView event type
 
 ##### LOADED
 
-> Web page Load completed.
+> 网页加载完成
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ WebView event type
 
 ##### LOADING
 
-> Web page is loading.
+> 网页加载中
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ WebView event type
 
 ##### ERROR
 
-> Web page error occurs when loading.
+> 网页加载出错
 
 | meta | description |
 |------|-------------|

@@ -8,69 +8,57 @@ Module: [cc](../modules/cc.md)
 
 
 
-The mouse event
+鼠标事件类型
 
 ### Index
 
 ##### Properties
 
-  - [`NONE`](#none) `Number` The none event code of mouse event.
-  - [`DOWN`](#down) `Number` The event type code of mouse down event.
-  - [`UP`](#up) `Number` The event type code of mouse up event.
-  - [`MOVE`](#move) `Number` The event type code of mouse move event.
-  - [`SCROLL`](#scroll) `Number` The event type code of mouse scroll event.
-  - [`BUTTON_LEFT`](#buttonleft) `Number` The tag of Mouse left button.
-  - [`BUTTON_RIGHT`](#buttonright) `Number` The tag of Mouse right button  (The right button number is 2 on browser).
-  - [`BUTTON_MIDDLE`](#buttonmiddle) `Number` The tag of Mouse middle button  (The right button number is 1 on browser).
-  - [`BUTTON_4`](#button4) `Number` The tag of Mouse button 4.
-  - [`BUTTON_5`](#button5) `Number` The tag of Mouse button 5.
-  - [`BUTTON_6`](#button6) `Number` The tag of Mouse button 6.
-  - [`BUTTON_7`](#button7) `Number` The tag of Mouse button 7.
-  - [`BUTTON_8`](#button8) `Number` The tag of Mouse button 8.
-  - [`type`](#type) `String` The name of the event (case-sensitive), e.g. "click", "fire", or "submit".
-  - [`bubbles`](#bubbles) `Boolean` Indicate whether the event bubbles up through the tree or not.
-  - [`target`](#target) `Object` A reference to the target to which the event was originally dispatched.
-  - [`currentTarget`](#currenttarget) `Object` A reference to the currently registered target for the event.
-  - [`eventPhase`](#eventphase) `Number` Indicates which phase of the event flow is currently being evaluated.
-Returns an integer value represented by 4 constants:
- - Event.NONE = 0
- - Event.CAPTURING_PHASE = 1
- - Event.AT_TARGET = 2
- - Event.BUBBLING_PHASE = 3
-The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
-(http://www.w3.org/TR/DOM-Level-3-Events/#event-flow), of the DOM Level 3 Events specification.
+  - [`NONE`](#none) `Number` 无。
+  - [`DOWN`](#down) `Number` 鼠标按下事件。
+  - [`UP`](#up) `Number` 鼠标按下后释放事件。
+  - [`MOVE`](#move) `Number` 鼠标移动事件。
+  - [`SCROLL`](#scroll) `Number` 鼠标滚轮事件。
+  - [`BUTTON_LEFT`](#buttonleft) `Number` 鼠标左键的标签。
+  - [`BUTTON_RIGHT`](#buttonright) `Number` 鼠标右键的标签。
+  - [`BUTTON_MIDDLE`](#buttonmiddle) `Number` 鼠标中键的标签。
+  - [`BUTTON_4`](#button4) `Number` 鼠标按键 4 的标签。
+  - [`BUTTON_5`](#button5) `Number` 鼠标按键 5 的标签。
+  - [`BUTTON_6`](#button6) `Number` 鼠标按键 6 的标签。
+  - [`BUTTON_7`](#button7) `Number` 鼠标按键 7 的标签。
+  - [`BUTTON_8`](#button8) `Number` 鼠标按键 8 的标签。
+  - [`type`](#type) `String` 事件类型。
+  - [`bubbles`](#bubbles) `Boolean` 表示该事件是否进行冒泡。
+  - [`target`](#target) `Object` 最初事件触发的目标
+  - [`currentTarget`](#currenttarget) `Object` 当前目标
+  - [`eventPhase`](#eventphase) `Number` 事件阶段
 
 
 
 ##### Methods
 
-  - [`setScrollData`](#setscrolldata) Sets scroll data.
-  - [`getScrollX`](#getscrollx) Returns the x axis scroll value.
-  - [`getScrollY`](#getscrolly) Returns the y axis scroll value.
-  - [`setLocation`](#setlocation) Sets cursor location.
-  - [`getLocation`](#getlocation) Returns cursor location.
-  - [`getLocationInView`](#getlocationinview) Returns the current cursor location in screen coordinates.
-  - [`getPreviousLocation`](#getpreviouslocation) Returns the previous touch location.
-  - [`getDelta`](#getdelta) Returns the delta distance from the previous location to current location.
-  - [`getDeltaX`](#getdeltax) Returns the X axis delta distance from the previous location to current location.
-  - [`getDeltaY`](#getdeltay) Returns the Y axis delta distance from the previous location to current location.
-  - [`setButton`](#setbutton) Sets mouse button.
-  - [`getButton`](#getbutton) Returns mouse button.
-  - [`getLocationX`](#getlocationx) Returns location X axis data.
-  - [`getLocationY`](#getlocationy) Returns location Y axis data.
+  - [`setScrollData`](#setscrolldata) 设置鼠标的滚动数据。
+  - [`getScrollX`](#getscrollx) 获取鼠标滚动的X轴距离，只有滚动时才有效。
+  - [`getScrollY`](#getscrolly) 获取滚轮滚动的 Y 轴距离，只有滚动时才有效。
+  - [`setLocation`](#setlocation) 设置当前鼠标位置。
+  - [`getLocation`](#getlocation) 获取鼠标位置对象，对象包含 x 和 y 属性。
+  - [`getLocationInView`](#getlocationinview) 获取当前事件在游戏窗口内的坐标位置对象，对象包含 x 和 y 属性。
+  - [`getPreviousLocation`](#getpreviouslocation) 获取鼠标点击在上一次事件时的位置对象，对象包含 x 和 y 属性。
+  - [`getDelta`](#getdelta) 获取鼠标距离上一次事件移动的距离对象，对象包含 x 和 y 属性。
+  - [`getDeltaX`](#getdeltax) 获取鼠标距离上一次事件移动的 X 轴距离。
+  - [`getDeltaY`](#getdeltay) 获取鼠标距离上一次事件移动的 Y 轴距离。
+  - [`setButton`](#setbutton) 设置鼠标按键。
+  - [`getButton`](#getbutton) 获取鼠标按键。
+  - [`getLocationX`](#getlocationx) 获取鼠标当前位置 X 轴。
+  - [`getLocationY`](#getlocationy) 获取鼠标当前位置 Y 轴。
   - [`constructor`](#constructor) 
-  - [`unuse`](#unuse) Reset the event for being stored in the object pool.
-  - [`reuse`](#reuse) Reuse the event for being used again by the object pool.
-  - [`stopPropagation`](#stoppropagation) Stops propagation for current event.
-  - [`stopPropagationImmediate`](#stoppropagationimmediate) Stops propagation for current event immediately,
-the event won't even be dispatched to the listeners attached in the current target.
-  - [`isStopped`](#isstopped) Checks whether the event has been stopped.
-  - [`getCurrentTarget`](#getcurrenttarget) <p>
-    Gets current target of the event                                                            <br/>
-    note: It only be available when the event listener is associated with node.                <br/>
-         It returns 0 when the listener is associated with fixed priority.
-</p>
-  - [`getType`](#gettype) Gets the event type.
+  - [`unuse`](#unuse) 重置对象池中存储的事件。
+  - [`reuse`](#reuse) 用于对象池再次使用的事件。
+  - [`stopPropagation`](#stoppropagation) 停止传递当前事件。
+  - [`stopPropagationImmediate`](#stoppropagationimmediate) 立即停止当前事件的传递，事件甚至不会被分派到所连接的当前目标。
+  - [`isStopped`](#isstopped) 检查该事件是否已经停止传递.
+  - [`getCurrentTarget`](#getcurrenttarget) 获取当前目标节点
+  - [`getType`](#gettype) 获取事件类型
 
 
 
@@ -82,7 +70,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### NONE
 
-> The none event code of mouse event.
+> 无。
 
 | meta | description |
 |------|-------------|
@@ -93,7 +81,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### DOWN
 
-> The event type code of mouse down event.
+> 鼠标按下事件。
 
 | meta | description |
 |------|-------------|
@@ -104,7 +92,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### UP
 
-> The event type code of mouse up event.
+> 鼠标按下后释放事件。
 
 | meta | description |
 |------|-------------|
@@ -115,7 +103,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### MOVE
 
-> The event type code of mouse move event.
+> 鼠标移动事件。
 
 | meta | description |
 |------|-------------|
@@ -126,7 +114,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### SCROLL
 
-> The event type code of mouse scroll event.
+> 鼠标滚轮事件。
 
 | meta | description |
 |------|-------------|
@@ -137,7 +125,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### BUTTON_LEFT
 
-> The tag of Mouse left button.
+> 鼠标左键的标签。
 
 | meta | description |
 |------|-------------|
@@ -148,7 +136,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### BUTTON_RIGHT
 
-> The tag of Mouse right button  (The right button number is 2 on browser).
+> 鼠标右键的标签。
 
 | meta | description |
 |------|-------------|
@@ -159,7 +147,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### BUTTON_MIDDLE
 
-> The tag of Mouse middle button  (The right button number is 1 on browser).
+> 鼠标中键的标签。
 
 | meta | description |
 |------|-------------|
@@ -170,7 +158,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### BUTTON_4
 
-> The tag of Mouse button 4.
+> 鼠标按键 4 的标签。
 
 | meta | description |
 |------|-------------|
@@ -181,7 +169,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### BUTTON_5
 
-> The tag of Mouse button 5.
+> 鼠标按键 5 的标签。
 
 | meta | description |
 |------|-------------|
@@ -192,7 +180,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### BUTTON_6
 
-> The tag of Mouse button 6.
+> 鼠标按键 6 的标签。
 
 | meta | description |
 |------|-------------|
@@ -203,7 +191,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### BUTTON_7
 
-> The tag of Mouse button 7.
+> 鼠标按键 7 的标签。
 
 | meta | description |
 |------|-------------|
@@ -214,7 +202,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### BUTTON_8
 
-> The tag of Mouse button 8.
+> 鼠标按键 8 的标签。
 
 | meta | description |
 |------|-------------|
@@ -225,7 +213,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### type
 
-> The name of the event (case-sensitive), e.g. "click", "fire", or "submit".
+> 事件类型。
 
 | meta | description |
 |------|-------------|
@@ -236,7 +224,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### bubbles
 
-> Indicate whether the event bubbles up through the tree or not.
+> 表示该事件是否进行冒泡。
 
 | meta | description |
 |------|-------------|
@@ -247,7 +235,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### target
 
-> A reference to the target to which the event was originally dispatched.
+> 最初事件触发的目标
 
 | meta | description |
 |------|-------------|
@@ -258,7 +246,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### currentTarget
 
-> A reference to the currently registered target for the event.
+> 当前目标
 
 | meta | description |
 |------|-------------|
@@ -269,14 +257,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### eventPhase
 
-> Indicates which phase of the event flow is currently being evaluated.
-Returns an integer value represented by 4 constants:
- - Event.NONE = 0
- - Event.CAPTURING_PHASE = 1
- - Event.AT_TARGET = 2
- - Event.BUBBLING_PHASE = 3
-The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
-(http://www.w3.org/TR/DOM-Level-3-Events/#event-flow), of the DOM Level 3 Events specification.
+> 事件阶段
 
 | meta | description |
 |------|-------------|
@@ -294,7 +275,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 
 ##### setScrollData
 
-Sets scroll data.
+设置鼠标的滚动数据。
 
 | meta | description |
 |------|-------------|
@@ -307,7 +288,7 @@ Sets scroll data.
 
 ##### getScrollX
 
-Returns the x axis scroll value.
+获取鼠标滚动的X轴距离，只有滚动时才有效。
 
 | meta | description |
 |------|-------------|
@@ -318,7 +299,7 @@ Returns the x axis scroll value.
 
 ##### getScrollY
 
-Returns the y axis scroll value.
+获取滚轮滚动的 Y 轴距离，只有滚动时才有效。
 
 | meta | description |
 |------|-------------|
@@ -329,7 +310,7 @@ Returns the y axis scroll value.
 
 ##### setLocation
 
-Sets cursor location.
+设置当前鼠标位置。
 
 | meta | description |
 |------|-------------|
@@ -342,7 +323,7 @@ Sets cursor location.
 
 ##### getLocation
 
-Returns cursor location.
+获取鼠标位置对象，对象包含 x 和 y 属性。
 
 | meta | description |
 |------|-------------|
@@ -353,7 +334,7 @@ Returns cursor location.
 
 ##### getLocationInView
 
-Returns the current cursor location in screen coordinates.
+获取当前事件在游戏窗口内的坐标位置对象，对象包含 x 和 y 属性。
 
 | meta | description |
 |------|-------------|
@@ -364,7 +345,7 @@ Returns the current cursor location in screen coordinates.
 
 ##### getPreviousLocation
 
-Returns the previous touch location.
+获取鼠标点击在上一次事件时的位置对象，对象包含 x 和 y 属性。
 
 | meta | description |
 |------|-------------|
@@ -375,7 +356,7 @@ Returns the previous touch location.
 
 ##### getDelta
 
-Returns the delta distance from the previous location to current location.
+获取鼠标距离上一次事件移动的距离对象，对象包含 x 和 y 属性。
 
 | meta | description |
 |------|-------------|
@@ -386,7 +367,7 @@ Returns the delta distance from the previous location to current location.
 
 ##### getDeltaX
 
-Returns the X axis delta distance from the previous location to current location.
+获取鼠标距离上一次事件移动的 X 轴距离。
 
 | meta | description |
 |------|-------------|
@@ -397,7 +378,7 @@ Returns the X axis delta distance from the previous location to current location
 
 ##### getDeltaY
 
-Returns the Y axis delta distance from the previous location to current location.
+获取鼠标距离上一次事件移动的 Y 轴距离。
 
 | meta | description |
 |------|-------------|
@@ -408,7 +389,7 @@ Returns the Y axis delta distance from the previous location to current location
 
 ##### setButton
 
-Sets mouse button.
+设置鼠标按键。
 
 | meta | description |
 |------|-------------|
@@ -420,7 +401,7 @@ Sets mouse button.
 
 ##### getButton
 
-Returns mouse button.
+获取鼠标按键。
 
 | meta | description |
 |------|-------------|
@@ -431,7 +412,7 @@ Returns mouse button.
 
 ##### getLocationX
 
-Returns location X axis data.
+获取鼠标当前位置 X 轴。
 
 | meta | description |
 |------|-------------|
@@ -442,7 +423,7 @@ Returns location X axis data.
 
 ##### getLocationY
 
-Returns location Y axis data.
+获取鼠标当前位置 Y 轴。
 
 | meta | description |
 |------|-------------|
@@ -466,7 +447,7 @@ Returns location Y axis data.
 
 ##### unuse
 
-Reset the event for being stored in the object pool.
+重置对象池中存储的事件。
 
 | meta | description |
 |------|-------------|
@@ -477,7 +458,7 @@ Reset the event for being stored in the object pool.
 
 ##### reuse
 
-Reuse the event for being used again by the object pool.
+用于对象池再次使用的事件。
 
 | meta | description |
 |------|-------------|
@@ -488,7 +469,7 @@ Reuse the event for being used again by the object pool.
 
 ##### stopPropagation
 
-Stops propagation for current event.
+停止传递当前事件。
 
 | meta | description |
 |------|-------------|
@@ -498,8 +479,7 @@ Stops propagation for current event.
 
 ##### stopPropagationImmediate
 
-Stops propagation for current event immediately,
-the event won't even be dispatched to the listeners attached in the current target.
+立即停止当前事件的传递，事件甚至不会被分派到所连接的当前目标。
 
 | meta | description |
 |------|-------------|
@@ -509,7 +489,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 ##### isStopped
 
-Checks whether the event has been stopped.
+检查该事件是否已经停止传递.
 
 | meta | description |
 |------|-------------|
@@ -520,11 +500,7 @@ Checks whether the event has been stopped.
 
 ##### getCurrentTarget
 
-<p>
-    Gets current target of the event                                                            <br/>
-    note: It only be available when the event listener is associated with node.                <br/>
-         It returns 0 when the listener is associated with fixed priority.
-</p>
+获取当前目标节点
 
 | meta | description |
 |------|-------------|
@@ -535,7 +511,7 @@ Checks whether the event has been stopped.
 
 ##### getType
 
-Gets the event type.
+获取事件类型
 
 | meta | description |
 |------|-------------|

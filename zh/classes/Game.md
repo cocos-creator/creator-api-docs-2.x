@@ -333,7 +333,7 @@ Please note that this event is not 100% guaranteed to be fired.
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:422](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L422) |
 
 ###### Parameters
-- config <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Pass configuration object or onStart function
+- config <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Pass configuration object or onStart function
 - onStart <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> function to be executed after game initialized
 
 

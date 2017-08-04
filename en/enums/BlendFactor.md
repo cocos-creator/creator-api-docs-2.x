@@ -8,8 +8,8 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-Enum for blend factor
-Refer to: http://www.andersriggelsen.dk/glblendfunc.php
+混合因子
+可参考: http://www.andersriggelsen.dk/glblendfunc.php
 
 ### Index
 
@@ -33,7 +33,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
 ##### ONE
 
-> All use
+> 全部使用
 
 | meta | description |
 |------|-------------|
@@ -44,7 +44,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
 ##### ZERO
 
-> Not all
+> 全部不用
 
 | meta | description |
 |------|-------------|
@@ -55,7 +55,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
 ##### SRC_ALPHA
 
-> Using the source alpha
+> 使用源颜色的透明度
 
 | meta | description |
 |------|-------------|
@@ -66,7 +66,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
 ##### SRC_COLOR
 
-> Using the source color
+> 使用源颜色
 
 | meta | description |
 |------|-------------|
@@ -77,7 +77,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
 ##### DST_ALPHA
 
-> Using the target alpha
+> 使用目标颜色的透明度
 
 | meta | description |
 |------|-------------|
@@ -88,7 +88,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
 ##### DST_COLOR
 
-> Using the target color
+> 使用目标颜色
 
 | meta | description |
 |------|-------------|
@@ -99,7 +99,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
 ##### ONE_MINUS_SRC_ALPHA
 
-> Minus the source alpha
+> 减去源颜色的透明度
 
 | meta | description |
 |------|-------------|
@@ -110,7 +110,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
 ##### ONE_MINUS_SRC_COLOR
 
-> Minus the source color
+> 减去源颜色
 
 | meta | description |
 |------|-------------|
@@ -121,7 +121,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
 ##### ONE_MINUS_DST_ALPHA
 
-> Minus the target alpha
+> 减去目标颜色的透明度
 
 | meta | description |
 |------|-------------|
@@ -132,7 +132,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
 ##### ONE_MINUS_DST_COLOR
 
-> Minus the target color
+> 减去目标颜色
 
 | meta | description |
 |------|-------------|

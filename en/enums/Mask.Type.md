@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-the type for mask.
+遮罩组件类型
 
 ### Index
 
@@ -24,7 +24,7 @@ the type for mask.
 
 ##### RECT
 
-> Rect mask.
+> 使用矩形作为遮罩
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ the type for mask.
 
 ##### ELLIPSE
 
-> Ellipse Mask.
+> 使用椭圆作为遮罩
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ the type for mask.
 
 ##### IMAGE_STENCIL
 
-> Image Stencil Mask.
+> 使用图像模版作为遮罩
 
 | meta | description |
 |------|-------------|

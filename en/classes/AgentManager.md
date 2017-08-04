@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-agent manager of plugin
+插件管理类
 
 ### Index
 
@@ -15,30 +15,28 @@ agent manager of plugin
 
 ##### Methods
 
-  - [`init`](#init) AppKey appSecret and privateKey are the only three parameters generated
-after the packing tool client finishes creating the game.
-The oauthLoginServer parameter is the API address provided by the game service
-to login verification
-  - [`loadAllPlugins`](#loadallplugins) load all plugins, the operation includes SDK`s initialization
-  - [`unloadAllPlugins`](#unloadallplugins) unload all plugins
-  - [`getUserPlugin`](#getuserplugin) get user system plugin
-  - [`getIAPPlugins`](#getiapplugins) get IAP system plugins
-  - [`getIAPPlugin`](#getiapplugin) get IAP system plugin
-  - [`getSocialPlugin`](#getsocialplugin) get social system plugin
-  - [`getSharePlugin`](#getshareplugin) get share system plugin
-  - [`getAnalyticsPlugin`](#getanalyticsplugin) get analytics system plugin
-  - [`getAdsPlugin`](#getadsplugin) get ads system plugin
-  - [`getPushPlugin`](#getpushplugin) get push system plugin
-  - [`getRECPlugin`](#getrecplugin) get REC system plugin
-  - [`getCrashPlugin`](#getcrashplugin) get crash system plugin
-  - [`getAdTrackingPlugin`](#getadtrackingplugin) get ad track system plugin
-  - [`getCustomPlugin`](#getcustomplugin) get custom system plugin
-  - [`getCustomParam`](#getcustomparam) get custom parameter
-  - [`getChannelId`](#getchannelid) get channel id
-  - [`isAnaylticsEnabled`](#isanaylticsenabled) get status of analytics
-  - [`setIsAnaylticsEnabled`](#setisanaylticsenabled) set whether to analytics
-  - [`end`](#end) destory instance
-  - [`getInstance`](#getinstance) get instance
+  - [`init`](#init) appKey、appSecret、privateKey是通过 AnySDK 客户端工具创建游戏后生成的。
+oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接口地址。
+  - [`loadAllPlugins`](#loadallplugins) 加载所有插件，该操作包含了 SDKs 初始化
+  - [`unloadAllPlugins`](#unloadallplugins) 卸载插件
+  - [`getUserPlugin`](#getuserplugin) 获取用户系统插件
+  - [`getIAPPlugins`](#getiapplugins) 获取支付系统插件
+  - [`getIAPPlugin`](#getiapplugin) 获取支付系统插件
+  - [`getSocialPlugin`](#getsocialplugin) 获取社交系统插件
+  - [`getSharePlugin`](#getshareplugin) 获取分享系统插件
+  - [`getAnalyticsPlugin`](#getanalyticsplugin) 获取统计系统插件
+  - [`getAdsPlugin`](#getadsplugin) 获取广告系统插件
+  - [`getPushPlugin`](#getpushplugin) 获取推送系统插件
+  - [`getRECPlugin`](#getrecplugin) 获取录屏系统插件
+  - [`getCrashPlugin`](#getcrashplugin) 获取崩溃分析系统插件
+  - [`getAdTrackingPlugin`](#getadtrackingplugin) 获取广告追踪系统插件
+  - [`getCustomPlugin`](#getcustomplugin) 获取自定义系统插件
+  - [`getCustomParam`](#getcustomparam) 获取自定义参数
+  - [`getChannelId`](#getchannelid) 获取渠道唯一表示符
+  - [`isAnaylticsEnabled`](#isanaylticsenabled) 获取统计状态
+  - [`setIsAnaylticsEnabled`](#setisanaylticsenabled) 设置是否统计
+  - [`end`](#end) 销毁单例
+  - [`getInstance`](#getinstance) 获取单例
 
 
 
@@ -53,10 +51,8 @@ to login verification
 
 ##### init
 
-AppKey appSecret and privateKey are the only three parameters generated
-after the packing tool client finishes creating the game.
-The oauthLoginServer parameter is the API address provided by the game service
-to login verification
+appKey、appSecret、privateKey是通过 AnySDK 客户端工具创建游戏后生成的。
+oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接口地址。
 
 | meta | description |
 |------|-------------|
@@ -71,7 +67,7 @@ to login verification
 
 ##### loadAllPlugins
 
-load all plugins, the operation includes SDK`s initialization
+加载所有插件，该操作包含了 SDKs 初始化
 
 | meta | description |
 |------|-------------|
@@ -84,7 +80,7 @@ load all plugins, the operation includes SDK`s initialization
 
 ##### unloadAllPlugins
 
-unload all plugins
+卸载插件
 
 | meta | description |
 |------|-------------|
@@ -94,7 +90,7 @@ unload all plugins
 
 ##### getUserPlugin
 
-get user system plugin
+获取用户系统插件
 
 | meta | description |
 |------|-------------|
@@ -105,7 +101,7 @@ get user system plugin
 
 ##### getIAPPlugins
 
-get IAP system plugins
+获取支付系统插件
 
 | meta | description |
 |------|-------------|
@@ -116,7 +112,7 @@ get IAP system plugins
 
 ##### getIAPPlugin
 
-get IAP system plugin
+获取支付系统插件
 
 | meta | description |
 |------|-------------|
@@ -127,7 +123,7 @@ get IAP system plugin
 
 ##### getSocialPlugin
 
-get social system plugin
+获取社交系统插件
 
 | meta | description |
 |------|-------------|
@@ -138,7 +134,7 @@ get social system plugin
 
 ##### getSharePlugin
 
-get share system plugin
+获取分享系统插件
 
 | meta | description |
 |------|-------------|
@@ -149,7 +145,7 @@ get share system plugin
 
 ##### getAnalyticsPlugin
 
-get analytics system plugin
+获取统计系统插件
 
 | meta | description |
 |------|-------------|
@@ -160,7 +156,7 @@ get analytics system plugin
 
 ##### getAdsPlugin
 
-get ads system plugin
+获取广告系统插件
 
 | meta | description |
 |------|-------------|
@@ -171,7 +167,7 @@ get ads system plugin
 
 ##### getPushPlugin
 
-get push system plugin
+获取推送系统插件
 
 | meta | description |
 |------|-------------|
@@ -182,7 +178,7 @@ get push system plugin
 
 ##### getRECPlugin
 
-get REC system plugin
+获取录屏系统插件
 
 | meta | description |
 |------|-------------|
@@ -193,7 +189,7 @@ get REC system plugin
 
 ##### getCrashPlugin
 
-get crash system plugin
+获取崩溃分析系统插件
 
 | meta | description |
 |------|-------------|
@@ -204,7 +200,7 @@ get crash system plugin
 
 ##### getAdTrackingPlugin
 
-get ad track system plugin
+获取广告追踪系统插件
 
 | meta | description |
 |------|-------------|
@@ -215,7 +211,7 @@ get ad track system plugin
 
 ##### getCustomPlugin
 
-get custom system plugin
+获取自定义系统插件
 
 | meta | description |
 |------|-------------|
@@ -226,7 +222,7 @@ get custom system plugin
 
 ##### getCustomParam
 
-get custom parameter
+获取自定义参数
 
 | meta | description |
 |------|-------------|
@@ -237,7 +233,7 @@ get custom parameter
 
 ##### getChannelId
 
-get channel id
+获取渠道唯一表示符
 
 | meta | description |
 |------|-------------|
@@ -248,7 +244,7 @@ get channel id
 
 ##### isAnaylticsEnabled
 
-get status of analytics
+获取统计状态
 
 | meta | description |
 |------|-------------|
@@ -259,7 +255,7 @@ get status of analytics
 
 ##### setIsAnaylticsEnabled
 
-set whether to analytics
+设置是否统计
 
 | meta | description |
 |------|-------------|
@@ -271,7 +267,7 @@ set whether to analytics
 
 ##### end
 
-destory instance
+销毁单例
 
 | meta | description |
 |------|-------------|
@@ -281,7 +277,7 @@ destory instance
 
 ##### getInstance
 
-get instance
+获取单例
 
 | meta | description |
 |------|-------------|

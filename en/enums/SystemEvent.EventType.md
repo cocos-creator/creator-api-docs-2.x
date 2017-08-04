@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The event type supported by SystemEvent
+SystemEvent 支持的事件类型
 
 ### Index
 
@@ -24,7 +24,7 @@ The event type supported by SystemEvent
 
 ##### KEY_DOWN
 
-> The event type for press the key down event, you can use its value directly: 'keydown'
+> 当按下按键时触发的事件
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ The event type supported by SystemEvent
 
 ##### KEY_UP
 
-> The event type for press the key up event, you can use its value directly: 'keyup'
+> 当松开按键时触发的事件
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ The event type supported by SystemEvent
 
 ##### DEVICEMOTION
 
-> The event type for press the devicemotion event, you can use its value directly: 'devicemotion'
+> 重力感应
 
 | meta | description |
 |------|-------------|

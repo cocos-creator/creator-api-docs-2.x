@@ -18,23 +18,18 @@
 
 ##### Methods
 
-  - [`ccclass`](#ccclass) Declare the standard [ES6 Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-as CCClass, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class/) for details.
-  - [`property`](#property) Declare property for [CCClass](/docs/editors_and_tools/creator-chapters/scripting/class/).
-  - [`executeInEditMode`](#executeineditmode) Makes a CCClass that inherit from component execute in edit mode.<br>
-By default, all components are only executed in play mode,
-which means they will not have their callback functions executed while the Editor is in edit mode.
-  - [`requireComponent`](#requirecomponent) Automatically add required component as a dependency for the CCClass that inherit from component.
-  - [`menu`](#menu) The menu path to register a component to the editors "Component" menu. Eg. "Rendering/CameraCtrl".
-  - [`executionOrder`](#executionorder) The execution order of lifecycle methods for Component.
-Those less than 0 will execute before while those greater than 0 will execute after.
-The order will only affect onLoad, onEnable, start, update and lateUpdate while onDisable and onDestroy will not be affected.
-  - [`disallowMultiple`](#disallowmultiple) Prevents Component of the same type (or subtype) to be added more than once to a Node.
-  - [`playOnFocus`](#playonfocus) If specified, the editor's scene view will keep updating this node in 60 fps when it is selected, otherwise, it will update only if necessary.<br>
-This property is only available if executeInEditMode is true.
-  - [`inspector`](#inspector) Specifying the url of the custom html to draw the component in **Properties**.
-  - [`icon`](#icon) Specifying the url of the icon to display in the editor.
-  - [`help`](#help) The custom documentation URL.
+  - [`ccclass`](#ccclass) 将标准写法的 [ES6 Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) 声明为 CCClass，具体用法请参阅[类型定义](/docs/creator/scripting/class/)。
+  - [`property`](#property) 定义 [CCClass](/docs/creator/scripting/class/) 所用的属性。
+  - [`executeInEditMode`](#executeineditmode) 允许继承自 Component 的 CCClass 在编辑器里执行。<br>
+默认情况下，所有 Component 都只会在运行时才会执行，也就是说它们的生命周期回调不会在编辑器里触发。
+  - [`requireComponent`](#requirecomponent) 为声明为 CCClass 的组件添加依赖的其它组件。当组件添加到节点上时，如果依赖的组件不存在，引擎将会自动将依赖组件添加到同一个节点，防止脚本出错。该设置在运行时同样有效。
+  - [`menu`](#menu) 将当前组件添加到组件菜单中，方便用户查找。例如 "Rendering/CameraCtrl"。
+  - [`executionOrder`](#executionorder) 设置脚本生命周期方法调用的优先级。优先级小于 0 的组件将会优先执行，优先级大于 0 的组件将会延后执行。优先级仅会影响 onLoad, onEnable, start, update 和 lateUpdate，而 onDisable 和 onDestroy 不受影响。
+  - [`disallowMultiple`](#disallowmultiple) 防止多个相同类型（或子类型）的组件被添加到同一个节点。
+  - [`playOnFocus`](#playonfocus) 当指定了 "executeInEditMode" 以后，playOnFocus 可以在选中当前组件所在的节点时，提高编辑器的场景刷新频率到 60 FPS，否则场景就只会在必要的时候进行重绘。
+  - [`inspector`](#inspector) 自定义当前组件在 **属性检查器** 中渲染时所用的网页 url。
+  - [`icon`](#icon) 自定义当前组件在编辑器中显示的图标 url。
+  - [`help`](#help) 指定当前组件的帮助文档的 url，设置过后，在 **属性检查器** 中就会出现一个帮助图标，用户点击将打开指定的网页。
   - [`mixins`](#mixins) NOTE:<br>
 The old mixins implemented in cc.Class(ES5) behaves exact the same as multiple inheritance.
 But since ES6, class constructor can't be function-called and class methods become non-enumerable,
@@ -60,8 +55,7 @@ You must manually call mixins constructor, this is different from cc.Class(ES5).
 
 ##### ccclass
 
-Declare the standard [ES6 Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-as CCClass, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class/) for details.
+将标准写法的 [ES6 Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) 声明为 CCClass，具体用法请参阅[类型定义](/docs/creator/scripting/class/)。
 
 | meta | description |
 |------|-------------|
@@ -90,7 +84,7 @@ class LoginData {
 
 ##### property
 
-Declare property for [CCClass](/docs/editors_and_tools/creator-chapters/scripting/class/).
+定义 [CCClass](/docs/creator/scripting/class/) 所用的属性。
 
 | meta | description |
 |------|-------------|
@@ -197,9 +191,8 @@ var NewScript = cc.Class({
 
 ##### executeInEditMode
 
-Makes a CCClass that inherit from component execute in edit mode.<br>
-By default, all components are only executed in play mode,
-which means they will not have their callback functions executed while the Editor is in edit mode.
+允许继承自 Component 的 CCClass 在编辑器里执行。<br>
+默认情况下，所有 Component 都只会在运行时才会执行，也就是说它们的生命周期回调不会在编辑器里触发。
 
 | meta | description |
 |------|-------------|
@@ -220,7 +213,7 @@ class NewScript extends cc.Component {
 
 ##### requireComponent
 
-Automatically add required component as a dependency for the CCClass that inherit from component.
+为声明为 CCClass 的组件添加依赖的其它组件。当组件添加到节点上时，如果依赖的组件不存在，引擎将会自动将依赖组件添加到同一个节点，防止脚本出错。该设置在运行时同样有效。
 
 | meta | description |
 |------|-------------|
@@ -243,7 +236,7 @@ class SpriteCtrl extends cc.Component {
 
 ##### menu
 
-The menu path to register a component to the editors "Component" menu. Eg. "Rendering/CameraCtrl".
+将当前组件添加到组件菜单中，方便用户查找。例如 "Rendering/CameraCtrl"。
 
 | meta | description |
 |------|-------------|
@@ -267,9 +260,7 @@ class NewScript extends cc.Component {
 
 ##### executionOrder
 
-The execution order of lifecycle methods for Component.
-Those less than 0 will execute before while those greater than 0 will execute after.
-The order will only affect onLoad, onEnable, start, update and lateUpdate while onDisable and onDestroy will not be affected.
+设置脚本生命周期方法调用的优先级。优先级小于 0 的组件将会优先执行，优先级大于 0 的组件将会延后执行。优先级仅会影响 onLoad, onEnable, start, update 和 lateUpdate，而 onDisable 和 onDestroy 不受影响。
 
 | meta | description |
 |------|-------------|
@@ -292,7 +283,7 @@ class CameraCtrl extends cc.Component {
 
 ##### disallowMultiple
 
-Prevents Component of the same type (or subtype) to be added more than once to a Node.
+防止多个相同类型（或子类型）的组件被添加到同一个节点。
 
 | meta | description |
 |------|-------------|
@@ -313,8 +304,7 @@ class CameraCtrl extends cc.Component {
 
 ##### playOnFocus
 
-If specified, the editor's scene view will keep updating this node in 60 fps when it is selected, otherwise, it will update only if necessary.<br>
-This property is only available if executeInEditMode is true.
+当指定了 "executeInEditMode" 以后，playOnFocus 可以在选中当前组件所在的节点时，提高编辑器的场景刷新频率到 60 FPS，否则场景就只会在必要的时候进行重绘。
 
 | meta | description |
 |------|-------------|
@@ -336,7 +326,7 @@ class CameraCtrl extends cc.Component {
 
 ##### inspector
 
-Specifying the url of the custom html to draw the component in **Properties**.
+自定义当前组件在 **属性检查器** 中渲染时所用的网页 url。
 
 | meta | description |
 |------|-------------|
@@ -359,7 +349,7 @@ class NewScript extends cc.Component {
 
 ##### icon
 
-Specifying the url of the icon to display in the editor.
+自定义当前组件在编辑器中显示的图标 url。
 
 | meta | description |
 |------|-------------|
@@ -382,7 +372,7 @@ class NewScript extends cc.Component {
 
 ##### help
 
-The custom documentation URL.
+指定当前组件的帮助文档的 url，设置过后，在 **属性检查器** 中就会出现一个帮助图标，用户点击将打开指定的网页。
 
 | meta | description |
 |------|-------------|

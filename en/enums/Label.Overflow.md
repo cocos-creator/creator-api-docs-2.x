@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for Overflow.
+Overflow 类型
 
 ### Index
 
@@ -25,7 +25,7 @@ Enum for Overflow.
 
 ##### NONE
 
-> NONE.
+> 不做任何限制。
 
 | meta | description |
 |------|-------------|
@@ -36,7 +36,7 @@ Enum for Overflow.
 
 ##### CLAMP
 
-> In CLAMP mode, when label content goes out of the bounding box, it will be clipped.
+> CLAMP 模式中，当文本内容超出边界框时，多余的会被截断。
 
 | meta | description |
 |------|-------------|
@@ -47,7 +47,7 @@ Enum for Overflow.
 
 ##### SHRINK
 
-> In SHRINK mode, the font size will change dynamically to adapt the content size.
+> SHRINK 模式，字体大小会动态变化，以适应内容大小。
 
 | meta | description |
 |------|-------------|
@@ -58,7 +58,7 @@ Enum for Overflow.
 
 ##### RESIZE_HEIGHT
 
-> In RESIZE_HEIGHT mode, you can only change the width of label and the height is changed automatically.
+> 在 RESIZE_HEIGHT 模式下，只能更改文本的宽度，高度是自动改变的。
 
 | meta | description |
 |------|-------------|

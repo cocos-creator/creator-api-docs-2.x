@@ -14,18 +14,18 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### Properties
 
-  - [`density`](#density) `Number` The density.
-  - [`sensor`](#sensor) `Boolean` A sensor collider collects contact information but never generates a collision response
-  - [`friction`](#friction) `Number` The friction coefficient, usually in the range [0,1].
-  - [`restitution`](#restitution) `Number` The restitution (elasticity) usually in the range [0,1].
-  - [`body`](#body) `RigidBody` Physics collider will find the rigidbody component on the node and set to this property.
+  - [`density`](#density) `Number` 密度
+  - [`sensor`](#sensor) `Boolean` 一个传感器类型的碰撞体会产生碰撞回调，但是不会发生物理碰撞效果。
+  - [`friction`](#friction) `Number` 摩擦系数，取值一般在 [0, 1] 之间
+  - [`restitution`](#restitution) `Number` 弹性系数，取值一般在 [0, 1]之间
+  - [`body`](#body) `RigidBody` 碰撞体会在初始化时查找节点上是否存在刚体，如果查找成功则赋值到这个属性上。
 
 
 
 ##### Methods
 
-  - [`apply`](#apply) Apply current changes to collider, this will regenerate inner box2d fixtures.
-  - [`getAABB`](#getaabb) Get the world aabb of the collider
+  - [`apply`](#apply) 应用当前 collider 中的修改，调用此函数会重新生成内部 box2d 的夹具。
+  - [`getAABB`](#getaabb) 获取碰撞体的世界坐标系下的包围盒
 
 
 
@@ -37,7 +37,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### density
 
-> The density.
+> 密度
 
 | meta | description |
 |------|-------------|
@@ -48,7 +48,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### sensor
 
-> A sensor collider collects contact information but never generates a collision response
+> 一个传感器类型的碰撞体会产生碰撞回调，但是不会发生物理碰撞效果。
 
 | meta | description |
 |------|-------------|
@@ -59,7 +59,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### friction
 
-> The friction coefficient, usually in the range [0,1].
+> 摩擦系数，取值一般在 [0, 1] 之间
 
 | meta | description |
 |------|-------------|
@@ -70,7 +70,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### restitution
 
-> The restitution (elasticity) usually in the range [0,1].
+> 弹性系数，取值一般在 [0, 1]之间
 
 | meta | description |
 |------|-------------|
@@ -81,7 +81,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### body
 
-> Physics collider will find the rigidbody component on the node and set to this property.
+> 碰撞体会在初始化时查找节点上是否存在刚体，如果查找成功则赋值到这个属性上。
 
 | meta | description |
 |------|-------------|
@@ -99,7 +99,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### apply
 
-Apply current changes to collider, this will regenerate inner box2d fixtures.
+应用当前 collider 中的修改，调用此函数会重新生成内部 box2d 的夹具。
 
 | meta | description |
 |------|-------------|
@@ -109,7 +109,7 @@ Apply current changes to collider, this will regenerate inner box2d fixtures.
 
 ##### getAABB
 
-Get the world aabb of the collider
+获取碰撞体的世界坐标系下的包围盒
 
 | meta | description |
 |------|-------------|

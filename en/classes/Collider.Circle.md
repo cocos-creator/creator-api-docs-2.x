@@ -7,14 +7,14 @@ Module: [cc](../modules/cc.md)
 
 
 
-Defines a Circle Collider .
+用来定义圆形碰撞体
 
 ### Index
 
 ##### Properties
 
-  - [`offset`](#offset) `Vec2` Position offset
-  - [`radius`](#radius) `Number` Circle radius
+  - [`offset`](#offset) `Vec2` 位置偏移量
+  - [`radius`](#radius) `Number` 圆形半径
 
 
 
@@ -28,7 +28,7 @@ Defines a Circle Collider .
 
 ##### offset
 
-> Position offset
+> 位置偏移量
 
 | meta | description |
 |------|-------------|
@@ -39,7 +39,7 @@ Defines a Circle Collider .
 
 ##### radius
 
-> Circle radius
+> 圆形半径
 
 | meta | description |
 |------|-------------|

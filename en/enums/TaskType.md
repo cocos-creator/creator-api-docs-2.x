@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The enum of task type
+统计系统的任务类型
 
 ### Index
 
@@ -27,7 +27,7 @@ The enum of task type
 
 ##### GUIDE_LINE
 
-> Guide line
+> 新手引导
 
 | meta | description |
 |------|-------------|
@@ -38,7 +38,7 @@ The enum of task type
 
 ##### MAIN_LINE
 
-> Main line
+> 主线
 
 | meta | description |
 |------|-------------|
@@ -49,7 +49,7 @@ The enum of task type
 
 ##### BRANCH_LINE
 
-> Branch line
+> 支线
 
 | meta | description |
 |------|-------------|
@@ -60,7 +60,7 @@ The enum of task type
 
 ##### DAILY
 
-> Daily
+> 日常
 
 | meta | description |
 |------|-------------|
@@ -71,7 +71,7 @@ The enum of task type
 
 ##### ACTIVITY
 
-> Activity
+> 活动
 
 | meta | description |
 |------|-------------|
@@ -82,7 +82,7 @@ The enum of task type
 
 ##### OTHER
 
-> Other
+> 其他
 
 | meta | description |
 |------|-------------|

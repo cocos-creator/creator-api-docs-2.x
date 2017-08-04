@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for vertical text alignment.
+文本垂直对齐类型
 
 ### Index
 
@@ -24,7 +24,7 @@ Enum for vertical text alignment.
 
 ##### TOP
 
-> Vertical alignment top for text.
+> 文本顶部对齐。
 
 | meta | description |
 |------|-------------|
@@ -35,7 +35,7 @@ Enum for vertical text alignment.
 
 ##### CENTER
 
-> Vertical alignment center for text.
+> 文本居中对齐。
 
 | meta | description |
 |------|-------------|
@@ -46,7 +46,7 @@ Enum for vertical text alignment.
 
 ##### BOTTOM
 
-> Vertical alignment bottom for text.
+> 文本底部对齐。
 
 | meta | description |
 |------|-------------|

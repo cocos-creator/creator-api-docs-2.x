@@ -7,8 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for vertical layout direction.
- Used in Grid Layout together with AxisDirection is VERTICAL
+垂直方向布局方式
 
 ### Index
 
@@ -24,7 +23,7 @@ Enum for vertical layout direction.
 
 ##### BOTTOM_TO_TOP
 
-> Items arranged from bottom to top.
+> 从下到上排列
 
 | meta | description |
 |------|-------------|
@@ -35,7 +34,7 @@ Enum for vertical layout direction.
 
 ##### TOP_TO_BOTTOM
 
-> Items arranged from top to bottom.
+> 从上到下排列
 
 | meta | description |
 |------|-------------|

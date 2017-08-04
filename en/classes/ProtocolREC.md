@@ -8,7 +8,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-REC protocol
+录屏系统协议接口
 
 ### Index
 
@@ -16,38 +16,29 @@ REC protocol
 
 ##### Methods
 
-  - [`share`](#share) share video
-  - [`startRecording`](#startrecording) Start to record video
-  - [`stopRecording`](#stoprecording) Start to record video
-  - [`setListener`](#setlistener) set listener
-  - [`getListener`](#getlistener) get listener
-  - [`pauseRecording`](#pauserecording) pause to record video
-Before to invoke, you need to verdict whether this properties existed
-  - [`resumeRecording`](#resumerecording) resume to record video
-Before to invoke, you need to verdict whether this properties existed
-  - [`isAvailable`](#isavailable) get whether the device is isAvailable
-Before to invoke, you need to verdict whether this properties existed
-  - [`isRecording`](#isrecording) get status of recording
-Before to invoke, you need to verdict whether this properties existed
-  - [`showToolBar`](#showtoolbar) show toolbar
-Before to invoke, you need to verdict whether this properties existed
-  - [`hideToolBar`](#hidetoolbar) hide toolbar
-Before to invoke, you need to verdict whether this properties existed
-  - [`showVideoCenter`](#showvideocenter) show video center
-Before to invoke, you need to verdict whether this properties existed
-  - [`enterPlatform`](#enterplatform) enter platform
-Before to invoke, you need to verdict whether this properties existed
-  - [`setMetaData`](#setmetadata) Set the video data, it is recommended to check whether are recorded firstly
-Before to invoke, you need to verdict whether this properties existed
-  - [`isFunctionSupported`](#isfunctionsupported) Check whether the function is supported
-  - [`getPluginName`](#getpluginname) get plugin name
-  - [`getPluginVersion`](#getpluginversion) get plugin version
-  - [`getSDKVersion`](#getsdkversion) get SDK version
-  - [`callFuncWithParam`](#callfuncwithparam) void methods for reflections with parameter
-  - [`callStringFuncWithParam`](#callstringfuncwithparam) String methods for reflections with parameter
-  - [`callIntFuncWithParam`](#callintfuncwithparam) int methods for reflections with parameter
-  - [`callBoolFuncWithParam`](#callboolfuncwithparam) boolean methods for reflections with parameter
-  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) float methods for reflections with parameter
+  - [`share`](#share) 分享视频
+  - [`startRecording`](#startrecording) 开始录制视频
+  - [`stopRecording`](#stoprecording) 结束录制视频
+  - [`setListener`](#setlistener) 设置录屏系统的监听
+  - [`getListener`](#getlistener) 获取录屏系统的监听
+  - [`pauseRecording`](#pauserecording) 暂停录制视频，调用前需要判断属性是否存在
+  - [`resumeRecording`](#resumerecording) 恢复录制视频，调用前需要判断属性是否存在
+  - [`isAvailable`](#isavailable) 获取设备是否可用，调用前需要判断属性是否存在
+  - [`isRecording`](#isrecording) 获取录制状态，调用前需要判断属性是否存在
+  - [`showToolBar`](#showtoolbar) 显示悬浮窗，调用前需要判断属性是否存在
+  - [`hideToolBar`](#hidetoolbar) 隐藏悬浮窗，调用前需要判断属性是否存在
+  - [`showVideoCenter`](#showvideocenter) 显示视频中心，调用前需要判断属性是否存在
+  - [`enterPlatform`](#enterplatform) 显示平台中心，调用前需要判断属性是否存在
+  - [`setMetaData`](#setmetadata) 设置视频相关数据，建议先检查是否是正在录制，调用前需要判断属性是否存在
+  - [`isFunctionSupported`](#isfunctionsupported) 判断函数是否支持
+  - [`getPluginName`](#getpluginname) 获取插件名称
+  - [`getPluginVersion`](#getpluginversion) 获取插件版本
+  - [`getSDKVersion`](#getsdkversion) 获取 SDK 版本
+  - [`callFuncWithParam`](#callfuncwithparam) 反射调用带参数的void方法
+  - [`callStringFuncWithParam`](#callstringfuncwithparam) 反射调用带参数的 String 方法
+  - [`callIntFuncWithParam`](#callintfuncwithparam) 反射调用带参数的 Int 方法
+  - [`callBoolFuncWithParam`](#callboolfuncwithparam) 反射调用带参数的 boolean 方法
+  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) 反射调用带参数的 float 方法
 
 
 
@@ -62,7 +53,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### share
 
-share video
+分享视频
 
 | meta | description |
 |------|-------------|
@@ -74,7 +65,7 @@ share video
 
 ##### startRecording
 
-Start to record video
+开始录制视频
 
 | meta | description |
 |------|-------------|
@@ -84,7 +75,7 @@ Start to record video
 
 ##### stopRecording
 
-Start to record video
+结束录制视频
 
 | meta | description |
 |------|-------------|
@@ -94,7 +85,7 @@ Start to record video
 
 ##### setListener
 
-set listener
+设置录屏系统的监听
 
 | meta | description |
 |------|-------------|
@@ -107,7 +98,7 @@ set listener
 
 ##### getListener
 
-get listener
+获取录屏系统的监听
 
 | meta | description |
 |------|-------------|
@@ -118,8 +109,7 @@ get listener
 
 ##### pauseRecording
 
-pause to record video
-Before to invoke, you need to verdict whether this properties existed
+暂停录制视频，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -129,8 +119,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### resumeRecording
 
-resume to record video
-Before to invoke, you need to verdict whether this properties existed
+恢复录制视频，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -140,8 +129,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### isAvailable
 
-get whether the device is isAvailable
-Before to invoke, you need to verdict whether this properties existed
+获取设备是否可用，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -152,8 +140,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### isRecording
 
-get status of recording
-Before to invoke, you need to verdict whether this properties existed
+获取录制状态，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -164,8 +151,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### showToolBar
 
-show toolbar
-Before to invoke, you need to verdict whether this properties existed
+显示悬浮窗，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -175,8 +161,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### hideToolBar
 
-hide toolbar
-Before to invoke, you need to verdict whether this properties existed
+隐藏悬浮窗，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -186,8 +171,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### showVideoCenter
 
-show video center
-Before to invoke, you need to verdict whether this properties existed
+显示视频中心，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -197,8 +181,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### enterPlatform
 
-enter platform
-Before to invoke, you need to verdict whether this properties existed
+显示平台中心，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -208,8 +191,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### setMetaData
 
-Set the video data, it is recommended to check whether are recorded firstly
-Before to invoke, you need to verdict whether this properties existed
+设置视频相关数据，建议先检查是否是正在录制，调用前需要判断属性是否存在
 
 | meta | description |
 |------|-------------|
@@ -221,7 +203,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 ##### isFunctionSupported
 
-Check whether the function is supported
+判断函数是否支持
 
 | meta | description |
 |------|-------------|
@@ -234,7 +216,7 @@ Check whether the function is supported
 
 ##### getPluginName
 
-get plugin name
+获取插件名称
 
 | meta | description |
 |------|-------------|
@@ -245,7 +227,7 @@ get plugin name
 
 ##### getPluginVersion
 
-get plugin version
+获取插件版本
 
 | meta | description |
 |------|-------------|
@@ -256,7 +238,7 @@ get plugin version
 
 ##### getSDKVersion
 
-get SDK version
+获取 SDK 版本
 
 | meta | description |
 |------|-------------|
@@ -267,7 +249,7 @@ get SDK version
 
 ##### callFuncWithParam
 
-void methods for reflections with parameter
+反射调用带参数的void方法
 
 | meta | description |
 |------|-------------|
@@ -280,7 +262,7 @@ void methods for reflections with parameter
 
 ##### callStringFuncWithParam
 
-String methods for reflections with parameter
+反射调用带参数的 String 方法
 
 | meta | description |
 |------|-------------|
@@ -294,7 +276,7 @@ String methods for reflections with parameter
 
 ##### callIntFuncWithParam
 
-int methods for reflections with parameter
+反射调用带参数的 Int 方法
 
 | meta | description |
 |------|-------------|
@@ -308,7 +290,7 @@ int methods for reflections with parameter
 
 ##### callBoolFuncWithParam
 
-boolean methods for reflections with parameter
+反射调用带参数的 boolean 方法
 
 | meta | description |
 |------|-------------|
@@ -322,7 +304,7 @@ boolean methods for reflections with parameter
 
 ##### callFloatFuncWithParam
 
-float methods for reflections with parameter
+反射调用带参数的 float 方法
 
 | meta | description |
 |------|-------------|

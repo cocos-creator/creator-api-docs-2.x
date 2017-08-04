@@ -8,7 +8,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-cc.game is the singleton object for game related functions.
+cc.game 是 Game 的实例，用来驱动整个游戏。
 
 ### Index
 
@@ -21,71 +21,63 @@ Please note that this event is not 100% guaranteed to be fired.
   - [`EVENT_GAME_INITED`](#eventgameinited) `String` Event triggered after game inited, at this point all engine objects and game scripts are loaded
   - [`EVENT_RENDERER_INITED`](#eventrendererinited) `String` Event triggered after renderer inited, at this point you will be able to use the render context
   - [`CONFIG_KEY`](#configkey) `Object` Key of config
-  - [`frame`](#frame) `Object` The outer frame of the game canvas, parent of cc.container.
-  - [`container`](#container) `HTMLDivElement` The container of game canvas, equals to cc.container.
-  - [`canvas`](#canvas) `HTMLCanvasElement` The canvas of the game, equals to cc._canvas.
-  - [`config`](#config) `Object` The current game configuration, including:<br/>
-1. debugMode<br/>
-     "debugMode" possible values :<br/>
-     0 - No message will be printed.                                                      <br/>
-     1 - cc.error, cc.assert, cc.warn, cc.log will print in console.                      <br/>
-     2 - cc.error, cc.assert, cc.warn will print in console.                              <br/>
-     3 - cc.error, cc.assert will print in console.                                       <br/>
-     4 - cc.error, cc.assert, cc.warn, cc.log will print on canvas, available only on web.<br/>
-     5 - cc.error, cc.assert, cc.warn will print on canvas, available only on web.        <br/>
-     6 - cc.error, cc.assert will print on canvas, available only on web.                 <br/>
-2. showFPS<br/>
-     Left bottom corner fps information will show when "showFPS" equals true, otherwise it will be hide.<br/>
-3. exposeClassName<br/>
-     Expose class name to chrome debug tools, the class intantiate performance is a little bit slower when exposed.<br/>
-4. frameRate<br/>
-     "frameRate" set the wanted frame rate for your game, but the real fps depends on your game implementation and the running environment.<br/>
-5. id<br/>
-     "gameCanvas" sets the id of your canvas element on the web page, it's useful only on web.<br/>
-6. renderMode<br/>
-     "renderMode" sets the renderer type, only useful on web :<br/>
-     0 - Automatically chosen by engine<br/>
-     1 - Forced to use canvas renderer<br/>
-     2 - Forced to use WebGL renderer, but this will be ignored on mobile browsers<br/>
-7. scenes<br/>
-     "scenes" include available scenes in the current bundle.<br/>
+  - [`frame`](#frame) `Object` 游戏画布的外框，cc.container 的父类。
+  - [`container`](#container) `HTMLDivElement` 游戏画布的容器。
+  - [`canvas`](#canvas) `HTMLCanvasElement` 游戏的画布。
+  - [`config`](#config) `Object` 当前的游戏配置，包括：                                                                  <br/>
+1. debugMode（debug 模式，但是在浏览器中这个选项会被忽略）                                <br/>
+     "debugMode" 各种设置选项的意义。                                                   <br/>
+         0 - 没有消息被打印出来。                                                       <br/>
+         1 - cc.error，cc.assert，cc.warn，cc.log 将打印在 console 中。                  <br/>
+         2 - cc.error，cc.assert，cc.warn 将打印在 console 中。                          <br/>
+         3 - cc.error，cc.assert 将打印在 console 中。                                   <br/>
+         4 - cc.error，cc.assert，cc.warn，cc.log 将打印在 canvas 中（仅适用于 web 端）。 <br/>
+         5 - cc.error，cc.assert，cc.warn 将打印在 canvas 中（仅适用于 web 端）。         <br/>
+         6 - cc.error，cc.assert 将打印在 canvas 中（仅适用于 web 端）。                  <br/>
+2. showFPS（显示 FPS）                                                            <br/>
+     当 showFPS 为 true 的时候界面的左下角将显示 fps 的信息，否则被隐藏。              <br/>
+3. exposeClassName                                                           <br/>
+     暴露类名让 Chrome DevTools 可以识别，如果开启会稍稍降低类的创建过程的性能，但对对象构造没有影响。 <br/>
+4. frameRate (帧率)                                                              <br/>
+     “frameRate” 设置想要的帧率你的游戏，但真正的FPS取决于你的游戏实现和运行环境。      <br/>
+5. id                                                                            <br/>
+     "gameCanvas" Web 页面上的 Canvas Element ID，仅适用于 web 端。                         <br/>
+6. renderMode（渲染模式）                                                         <br/>
+     “renderMode” 设置渲染器类型，仅适用于 web 端：                              <br/>
+         0 - 通过引擎自动选择。                                                     <br/>
+         1 - 强制使用 canvas 渲染。
+         2 - 强制使用 WebGL 渲染，但是在部分 Android 浏览器中这个选项会被忽略。     <br/>
+7. scenes                                                                         <br/>
+     “scenes” 当前包中可用场景。                                                   <br/>
 <br/>
-Please DO NOT modify this object directly, it won't have any effect.<br/>
+注意：请不要直接修改这个对象，它不会有任何效果。
 
 
 
 ##### Methods
 
-  - [`onStart`](#onstart) Callback when the scripts of engine have been load.
-  - [`setFrameRate`](#setframerate) Set frameRate of game.
-  - [`step`](#step) Run the game frame by frame.
-  - [`pause`](#pause) Pause the game main loop. This will pause:
-game logic execution, rendering process, event manager, background music and all audio effects.
-This is different with cc.director.pause which only pause the game logic execution.
-  - [`resume`](#resume) Resume the game from pause. This will resume:
-game logic execution, rendering process, event manager, background music and all audio effects.
-  - [`isPaused`](#ispaused) Check whether the game is paused.
-  - [`restart`](#restart) Restart game.
-  - [`end`](#end) End game, it will close the game window
-  - [`prepare`](#prepare) Prepare game.
-  - [`run`](#run) Run game with configuration object and onStart function.
-  - [`addPersistRootNode`](#addpersistrootnode) Add a persistent root node to the game, the persistent node won't be destroyed during scene transition.<br/>
-The target node must be placed in the root level of hierarchy, otherwise this API won't have any effect.
-  - [`removePersistRootNode`](#removepersistrootnode) Remove a persistent root node.
-  - [`isPersistRootNode`](#ispersistrootnode) Check whether the node is a persistent root node.
-  - [`on`](#on) Register an callback of a specific event type on the EventTarget.
-  - [`off`](#off) Removes the listeners previously registered with the same type, callback, target and or useCapture,
-if only type is passed as parameter, all listeners registered with that type will be removed.
-  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
-  - [`once`](#once) Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
-  - [`dispatchEvent`](#dispatchevent) Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
-  - [`emit`](#emit) Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
+  - [`onStart`](#onstart) 当引擎完成启动后的回调函数。
+  - [`setFrameRate`](#setframerate) 设置游戏帧率。
+  - [`step`](#step) 执行一帧游戏循环。
+  - [`pause`](#pause) 暂停游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效。这点和只暂停游戏逻辑的 cc.director.pause 不同。
+  - [`resume`](#resume) 恢复游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效。
+  - [`isPaused`](#ispaused) 判断游戏是否暂停。
+  - [`restart`](#restart) 重新开始游戏
+  - [`end`](#end) 退出游戏
+  - [`prepare`](#prepare) 准备引擎，请不要直接调用这个函数。
+  - [`run`](#run) 运行游戏，并且指定引擎配置和 onStart 的回调。
+  - [`addPersistRootNode`](#addpersistrootnode) 声明常驻根节点，该节点不会被在场景切换中被销毁。<br/>
+目标节点必须位于为层级的根节点，否则无效。
+  - [`removePersistRootNode`](#removepersistrootnode) 取消常驻根节点。
+  - [`isPersistRootNode`](#ispersistrootnode) 检查节点是否是常驻根节点。
+  - [`on`](#on) 注册事件目标的特定事件类型回调。
+  - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
+  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
+  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
 
 
 
@@ -162,7 +154,7 @@ Please note that this event is not 100% guaranteed to be fired.
 
 ##### frame
 
-> The outer frame of the game canvas, parent of cc.container.
+> 游戏画布的外框，cc.container 的父类。
 
 | meta | description |
 |------|-------------|
@@ -173,7 +165,7 @@ Please note that this event is not 100% guaranteed to be fired.
 
 ##### container
 
-> The container of game canvas, equals to cc.container.
+> 游戏画布的容器。
 
 | meta | description |
 |------|-------------|
@@ -184,7 +176,7 @@ Please note that this event is not 100% guaranteed to be fired.
 
 ##### canvas
 
-> The canvas of the game, equals to cc._canvas.
+> 游戏的画布。
 
 | meta | description |
 |------|-------------|
@@ -195,33 +187,33 @@ Please note that this event is not 100% guaranteed to be fired.
 
 ##### config
 
-> The current game configuration, including:<br/>
-1. debugMode<br/>
-     "debugMode" possible values :<br/>
-     0 - No message will be printed.                                                      <br/>
-     1 - cc.error, cc.assert, cc.warn, cc.log will print in console.                      <br/>
-     2 - cc.error, cc.assert, cc.warn will print in console.                              <br/>
-     3 - cc.error, cc.assert will print in console.                                       <br/>
-     4 - cc.error, cc.assert, cc.warn, cc.log will print on canvas, available only on web.<br/>
-     5 - cc.error, cc.assert, cc.warn will print on canvas, available only on web.        <br/>
-     6 - cc.error, cc.assert will print on canvas, available only on web.                 <br/>
-2. showFPS<br/>
-     Left bottom corner fps information will show when "showFPS" equals true, otherwise it will be hide.<br/>
-3. exposeClassName<br/>
-     Expose class name to chrome debug tools, the class intantiate performance is a little bit slower when exposed.<br/>
-4. frameRate<br/>
-     "frameRate" set the wanted frame rate for your game, but the real fps depends on your game implementation and the running environment.<br/>
-5. id<br/>
-     "gameCanvas" sets the id of your canvas element on the web page, it's useful only on web.<br/>
-6. renderMode<br/>
-     "renderMode" sets the renderer type, only useful on web :<br/>
-     0 - Automatically chosen by engine<br/>
-     1 - Forced to use canvas renderer<br/>
-     2 - Forced to use WebGL renderer, but this will be ignored on mobile browsers<br/>
-7. scenes<br/>
-     "scenes" include available scenes in the current bundle.<br/>
+> 当前的游戏配置，包括：                                                                  <br/>
+1. debugMode（debug 模式，但是在浏览器中这个选项会被忽略）                                <br/>
+     "debugMode" 各种设置选项的意义。                                                   <br/>
+         0 - 没有消息被打印出来。                                                       <br/>
+         1 - cc.error，cc.assert，cc.warn，cc.log 将打印在 console 中。                  <br/>
+         2 - cc.error，cc.assert，cc.warn 将打印在 console 中。                          <br/>
+         3 - cc.error，cc.assert 将打印在 console 中。                                   <br/>
+         4 - cc.error，cc.assert，cc.warn，cc.log 将打印在 canvas 中（仅适用于 web 端）。 <br/>
+         5 - cc.error，cc.assert，cc.warn 将打印在 canvas 中（仅适用于 web 端）。         <br/>
+         6 - cc.error，cc.assert 将打印在 canvas 中（仅适用于 web 端）。                  <br/>
+2. showFPS（显示 FPS）                                                            <br/>
+     当 showFPS 为 true 的时候界面的左下角将显示 fps 的信息，否则被隐藏。              <br/>
+3. exposeClassName                                                           <br/>
+     暴露类名让 Chrome DevTools 可以识别，如果开启会稍稍降低类的创建过程的性能，但对对象构造没有影响。 <br/>
+4. frameRate (帧率)                                                              <br/>
+     “frameRate” 设置想要的帧率你的游戏，但真正的FPS取决于你的游戏实现和运行环境。      <br/>
+5. id                                                                            <br/>
+     "gameCanvas" Web 页面上的 Canvas Element ID，仅适用于 web 端。                         <br/>
+6. renderMode（渲染模式）                                                         <br/>
+     “renderMode” 设置渲染器类型，仅适用于 web 端：                              <br/>
+         0 - 通过引擎自动选择。                                                     <br/>
+         1 - 强制使用 canvas 渲染。
+         2 - 强制使用 WebGL 渲染，但是在部分 Android 浏览器中这个选项会被忽略。     <br/>
+7. scenes                                                                         <br/>
+     “scenes” 当前包中可用场景。                                                   <br/>
 <br/>
-Please DO NOT modify this object directly, it won't have any effect.<br/>
+注意：请不要直接修改这个对象，它不会有任何效果。
 
 | meta | description |
 |------|-------------|
@@ -239,7 +231,7 @@ Please DO NOT modify this object directly, it won't have any effect.<br/>
 
 ##### onStart
 
-Callback when the scripts of engine have been load.
+当引擎完成启动后的回调函数。
 
 | meta | description |
 |------|-------------|
@@ -249,7 +241,7 @@ Callback when the scripts of engine have been load.
 
 ##### setFrameRate
 
-Set frameRate of game.
+设置游戏帧率。
 
 | meta | description |
 |------|-------------|
@@ -261,7 +253,7 @@ Set frameRate of game.
 
 ##### step
 
-Run the game frame by frame.
+执行一帧游戏循环。
 
 | meta | description |
 |------|-------------|
@@ -271,9 +263,7 @@ Run the game frame by frame.
 
 ##### pause
 
-Pause the game main loop. This will pause:
-game logic execution, rendering process, event manager, background music and all audio effects.
-This is different with cc.director.pause which only pause the game logic execution.
+暂停游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效。这点和只暂停游戏逻辑的 cc.director.pause 不同。
 
 | meta | description |
 |------|-------------|
@@ -283,8 +273,7 @@ This is different with cc.director.pause which only pause the game logic executi
 
 ##### resume
 
-Resume the game from pause. This will resume:
-game logic execution, rendering process, event manager, background music and all audio effects.
+恢复游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效。
 
 | meta | description |
 |------|-------------|
@@ -294,7 +283,7 @@ game logic execution, rendering process, event manager, background music and all
 
 ##### isPaused
 
-Check whether the game is paused.
+判断游戏是否暂停。
 
 | meta | description |
 |------|-------------|
@@ -305,7 +294,7 @@ Check whether the game is paused.
 
 ##### restart
 
-Restart game.
+重新开始游戏
 
 | meta | description |
 |------|-------------|
@@ -315,7 +304,7 @@ Restart game.
 
 ##### end
 
-End game, it will close the game window
+退出游戏
 
 | meta | description |
 |------|-------------|
@@ -325,7 +314,7 @@ End game, it will close the game window
 
 ##### prepare
 
-Prepare game.
+准备引擎，请不要直接调用这个函数。
 
 | meta | description |
 |------|-------------|
@@ -337,7 +326,7 @@ Prepare game.
 
 ##### run
 
-Run game with configuration object and onStart function.
+运行游戏，并且指定引擎配置和 onStart 的回调。
 
 | meta | description |
 |------|-------------|
@@ -350,8 +339,8 @@ Run game with configuration object and onStart function.
 
 ##### addPersistRootNode
 
-Add a persistent root node to the game, the persistent node won't be destroyed during scene transition.<br/>
-The target node must be placed in the root level of hierarchy, otherwise this API won't have any effect.
+声明常驻根节点，该节点不会被在场景切换中被销毁。<br/>
+目标节点必须位于为层级的根节点，否则无效。
 
 | meta | description |
 |------|-------------|
@@ -363,7 +352,7 @@ The target node must be placed in the root level of hierarchy, otherwise this AP
 
 ##### removePersistRootNode
 
-Remove a persistent root node.
+取消常驻根节点。
 
 | meta | description |
 |------|-------------|
@@ -375,7 +364,7 @@ Remove a persistent root node.
 
 ##### isPersistRootNode
 
-Check whether the node is a persistent root node.
+检查节点是否是常驻根节点。
 
 | meta | description |
 |------|-------------|
@@ -388,7 +377,7 @@ Check whether the node is a persistent root node.
 
 ##### on
 
-Register an callback of a specific event type on the EventTarget.
+注册事件目标的特定事件类型回调。
 
 | meta | description |
 |------|-------------|
@@ -416,8 +405,7 @@ node.on(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### off
 
-Removes the listeners previously registered with the same type, callback, target and or useCapture,
-if only type is passed as parameter, all listeners registered with that type will be removed.
+删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
 
 | meta | description |
 |------|-------------|
@@ -447,10 +435,9 @@ node.off(cc.Node.EventType.TOUCH_END);
 
 ##### targetOff
 
-Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
+在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
 
 | meta | description |
 |------|-------------|
@@ -462,8 +449,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 ##### once
 
-Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
+注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
 
 | meta | description |
 |------|-------------|
@@ -490,8 +476,7 @@ node.once(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### dispatchEvent
 
-Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
+分发事件到事件流中。
 
 | meta | description |
 |------|-------------|
@@ -503,8 +488,7 @@ The event target is the EventTarget object upon which the dispatchEvent() method
 
 ##### emit
 
-Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
+该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
 
 | meta | description |
 |------|-------------|

@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The orientation of tiled map.
+Tiled Map 地图方向。
 
 ### Index
 
@@ -39,7 +39,7 @@ The orientation of tiled map.
 
 ##### ORTHO
 
-> Orthogonal orientation.
+> 直角鸟瞰地图（90°地图）。
 
 | meta | description |
 |------|-------------|
@@ -50,7 +50,7 @@ The orientation of tiled map.
 
 ##### HEX
 
-> Hexagonal orientation.
+> 六边形地图
 
 | meta | description |
 |------|-------------|

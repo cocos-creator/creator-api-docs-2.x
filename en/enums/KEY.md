@@ -8,7 +8,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-Key map for keyboard event
+键盘事件的按键值
 
 ### Index
 
@@ -133,7 +133,7 @@ Key map for keyboard event
 
 ##### none
 
-> None
+> 没有分配
 
 | meta | description |
 |------|-------------|
@@ -144,7 +144,7 @@ Key map for keyboard event
 
 ##### back
 
-> The back key
+> 返回键
 
 | meta | description |
 |------|-------------|
@@ -155,7 +155,7 @@ Key map for keyboard event
 
 ##### menu
 
-> The menu key
+> 菜单键
 
 | meta | description |
 |------|-------------|
@@ -166,7 +166,7 @@ Key map for keyboard event
 
 ##### backspace
 
-> The backspace key
+> 退格键
 
 | meta | description |
 |------|-------------|
@@ -177,7 +177,7 @@ Key map for keyboard event
 
 ##### tab
 
-> The tab key
+> Tab 键
 
 | meta | description |
 |------|-------------|
@@ -188,7 +188,7 @@ Key map for keyboard event
 
 ##### enter
 
-> The enter key
+> 回车键
 
 | meta | description |
 |------|-------------|
@@ -199,7 +199,7 @@ Key map for keyboard event
 
 ##### shift
 
-> The shift key
+> Shift 键
 
 | meta | description |
 |------|-------------|
@@ -210,7 +210,7 @@ Key map for keyboard event
 
 ##### ctrl
 
-> The ctrl key
+> Ctrl 键
 
 | meta | description |
 |------|-------------|
@@ -221,7 +221,7 @@ Key map for keyboard event
 
 ##### alt
 
-> The alt key
+> Alt 键
 
 | meta | description |
 |------|-------------|
@@ -232,7 +232,7 @@ Key map for keyboard event
 
 ##### pause
 
-> The pause key
+> 暂停键
 
 | meta | description |
 |------|-------------|
@@ -243,7 +243,7 @@ Key map for keyboard event
 
 ##### capslock
 
-> The caps lock key
+> 大写锁定键
 
 | meta | description |
 |------|-------------|
@@ -254,7 +254,7 @@ Key map for keyboard event
 
 ##### escape
 
-> The esc key
+> ESC 键
 
 | meta | description |
 |------|-------------|
@@ -265,7 +265,7 @@ Key map for keyboard event
 
 ##### space
 
-> The space key
+> 空格键
 
 | meta | description |
 |------|-------------|
@@ -276,7 +276,7 @@ Key map for keyboard event
 
 ##### pageup
 
-> The page up key
+> 向上翻页键
 
 | meta | description |
 |------|-------------|
@@ -287,7 +287,7 @@ Key map for keyboard event
 
 ##### pagedown
 
-> The page down key
+> 向下翻页键
 
 | meta | description |
 |------|-------------|
@@ -298,7 +298,7 @@ Key map for keyboard event
 
 ##### end
 
-> The end key
+> 结束键
 
 | meta | description |
 |------|-------------|
@@ -309,7 +309,7 @@ Key map for keyboard event
 
 ##### home
 
-> The home key
+> 主菜单键
 
 | meta | description |
 |------|-------------|
@@ -320,7 +320,7 @@ Key map for keyboard event
 
 ##### left
 
-> The left key
+> 向左箭头键
 
 | meta | description |
 |------|-------------|
@@ -331,7 +331,7 @@ Key map for keyboard event
 
 ##### up
 
-> The up key
+> 向上箭头键
 
 | meta | description |
 |------|-------------|
@@ -342,7 +342,7 @@ Key map for keyboard event
 
 ##### right
 
-> The right key
+> 向右箭头键
 
 | meta | description |
 |------|-------------|
@@ -353,7 +353,7 @@ Key map for keyboard event
 
 ##### down
 
-> The down key
+> 向下箭头键
 
 | meta | description |
 |------|-------------|
@@ -364,7 +364,7 @@ Key map for keyboard event
 
 ##### select
 
-> The select key
+> Select 键
 
 | meta | description |
 |------|-------------|
@@ -375,7 +375,7 @@ Key map for keyboard event
 
 ##### insert
 
-> The insert key
+> 插入键
 
 | meta | description |
 |------|-------------|
@@ -386,7 +386,7 @@ Key map for keyboard event
 
 ##### Delete
 
-> The Delete key
+> 删除键
 
 | meta | description |
 |------|-------------|
@@ -397,7 +397,7 @@ Key map for keyboard event
 
 ##### 0
 
-> The '0' key on the top of the alphanumeric keyboard.
+> 字母键盘上的 0 键
 
 | meta | description |
 |------|-------------|
@@ -408,7 +408,7 @@ Key map for keyboard event
 
 ##### 1
 
-> The '1' key on the top of the alphanumeric keyboard.
+> 字母键盘上的 1 键
 
 | meta | description |
 |------|-------------|
@@ -419,7 +419,7 @@ Key map for keyboard event
 
 ##### 2
 
-> The '2' key on the top of the alphanumeric keyboard.
+> 字母键盘上的 2 键
 
 | meta | description |
 |------|-------------|
@@ -430,7 +430,7 @@ Key map for keyboard event
 
 ##### 3
 
-> The '3' key on the top of the alphanumeric keyboard.
+> 字母键盘上的 3 键
 
 | meta | description |
 |------|-------------|
@@ -441,7 +441,7 @@ Key map for keyboard event
 
 ##### 4
 
-> The '4' key on the top of the alphanumeric keyboard.
+> 字母键盘上的 4 键
 
 | meta | description |
 |------|-------------|
@@ -452,7 +452,7 @@ Key map for keyboard event
 
 ##### 5
 
-> The '5' key on the top of the alphanumeric keyboard.
+> 字母键盘上的 5 键
 
 | meta | description |
 |------|-------------|
@@ -463,7 +463,7 @@ Key map for keyboard event
 
 ##### 6
 
-> The '6' key on the top of the alphanumeric keyboard.
+> 字母键盘上的 6 键
 
 | meta | description |
 |------|-------------|
@@ -474,7 +474,7 @@ Key map for keyboard event
 
 ##### 7
 
-> The '7' key on the top of the alphanumeric keyboard.
+> 字母键盘上的 7 键
 
 | meta | description |
 |------|-------------|
@@ -485,7 +485,7 @@ Key map for keyboard event
 
 ##### 8
 
-> The '8' key on the top of the alphanumeric keyboard.
+> 字母键盘上的 8 键
 
 | meta | description |
 |------|-------------|
@@ -496,7 +496,7 @@ Key map for keyboard event
 
 ##### 9
 
-> The '9' key on the top of the alphanumeric keyboard.
+> 字母键盘上的 9 键
 
 | meta | description |
 |------|-------------|
@@ -507,7 +507,7 @@ Key map for keyboard event
 
 ##### a
 
-> The a key
+> A 键
 
 | meta | description |
 |------|-------------|
@@ -518,7 +518,7 @@ Key map for keyboard event
 
 ##### b
 
-> The b key
+> B 键
 
 | meta | description |
 |------|-------------|
@@ -529,7 +529,7 @@ Key map for keyboard event
 
 ##### c
 
-> The c key
+> C 键
 
 | meta | description |
 |------|-------------|
@@ -540,7 +540,7 @@ Key map for keyboard event
 
 ##### d
 
-> The d key
+> D 键
 
 | meta | description |
 |------|-------------|
@@ -551,7 +551,7 @@ Key map for keyboard event
 
 ##### e
 
-> The e key
+> E 键
 
 | meta | description |
 |------|-------------|
@@ -562,7 +562,7 @@ Key map for keyboard event
 
 ##### f
 
-> The f key
+> F 键
 
 | meta | description |
 |------|-------------|
@@ -573,7 +573,7 @@ Key map for keyboard event
 
 ##### g
 
-> The g key
+> G 键
 
 | meta | description |
 |------|-------------|
@@ -584,7 +584,7 @@ Key map for keyboard event
 
 ##### h
 
-> The h key
+> H 键
 
 | meta | description |
 |------|-------------|
@@ -595,7 +595,7 @@ Key map for keyboard event
 
 ##### i
 
-> The i key
+> I 键
 
 | meta | description |
 |------|-------------|
@@ -606,7 +606,7 @@ Key map for keyboard event
 
 ##### j
 
-> The j key
+> J 键
 
 | meta | description |
 |------|-------------|
@@ -617,7 +617,7 @@ Key map for keyboard event
 
 ##### k
 
-> The k key
+> K 键
 
 | meta | description |
 |------|-------------|
@@ -628,7 +628,7 @@ Key map for keyboard event
 
 ##### l
 
-> The l key
+> L 键
 
 | meta | description |
 |------|-------------|
@@ -639,7 +639,7 @@ Key map for keyboard event
 
 ##### m
 
-> The m key
+> M 键
 
 | meta | description |
 |------|-------------|
@@ -650,7 +650,7 @@ Key map for keyboard event
 
 ##### n
 
-> The n key
+> N 键
 
 | meta | description |
 |------|-------------|
@@ -661,7 +661,7 @@ Key map for keyboard event
 
 ##### o
 
-> The o key
+> O 键
 
 | meta | description |
 |------|-------------|
@@ -672,7 +672,7 @@ Key map for keyboard event
 
 ##### p
 
-> The p key
+> P 键
 
 | meta | description |
 |------|-------------|
@@ -683,7 +683,7 @@ Key map for keyboard event
 
 ##### q
 
-> The q key
+> Q 键
 
 | meta | description |
 |------|-------------|
@@ -694,7 +694,7 @@ Key map for keyboard event
 
 ##### r
 
-> The r key
+> R 键
 
 | meta | description |
 |------|-------------|
@@ -705,7 +705,7 @@ Key map for keyboard event
 
 ##### s
 
-> The s key
+> S 键
 
 | meta | description |
 |------|-------------|
@@ -716,7 +716,7 @@ Key map for keyboard event
 
 ##### t
 
-> The t key
+> T 键
 
 | meta | description |
 |------|-------------|
@@ -727,7 +727,7 @@ Key map for keyboard event
 
 ##### u
 
-> The u key
+> U 键
 
 | meta | description |
 |------|-------------|
@@ -738,7 +738,7 @@ Key map for keyboard event
 
 ##### v
 
-> The v key
+> V 键
 
 | meta | description |
 |------|-------------|
@@ -749,7 +749,7 @@ Key map for keyboard event
 
 ##### w
 
-> The w key
+> W 键
 
 | meta | description |
 |------|-------------|
@@ -760,7 +760,7 @@ Key map for keyboard event
 
 ##### x
 
-> The x key
+> X 键
 
 | meta | description |
 |------|-------------|
@@ -771,7 +771,7 @@ Key map for keyboard event
 
 ##### y
 
-> The y key
+> Y 键
 
 | meta | description |
 |------|-------------|
@@ -782,7 +782,7 @@ Key map for keyboard event
 
 ##### z
 
-> The z key
+> Z 键
 
 | meta | description |
 |------|-------------|
@@ -793,7 +793,7 @@ Key map for keyboard event
 
 ##### num0
 
-> The numeric keypad 0
+> 数字键盘 0
 
 | meta | description |
 |------|-------------|
@@ -804,7 +804,7 @@ Key map for keyboard event
 
 ##### num1
 
-> The numeric keypad 1
+> 数字键盘 1
 
 | meta | description |
 |------|-------------|
@@ -815,7 +815,7 @@ Key map for keyboard event
 
 ##### num2
 
-> The numeric keypad 2
+> 数字键盘 2
 
 | meta | description |
 |------|-------------|
@@ -826,7 +826,7 @@ Key map for keyboard event
 
 ##### num3
 
-> The numeric keypad 3
+> 数字键盘 3
 
 | meta | description |
 |------|-------------|
@@ -837,7 +837,7 @@ Key map for keyboard event
 
 ##### num4
 
-> The numeric keypad 4
+> 数字键盘 4
 
 | meta | description |
 |------|-------------|
@@ -848,7 +848,7 @@ Key map for keyboard event
 
 ##### num5
 
-> The numeric keypad 5
+> 数字键盘 5
 
 | meta | description |
 |------|-------------|
@@ -859,7 +859,7 @@ Key map for keyboard event
 
 ##### num6
 
-> The numeric keypad 6
+> 数字键盘 6
 
 | meta | description |
 |------|-------------|
@@ -870,7 +870,7 @@ Key map for keyboard event
 
 ##### num7
 
-> The numeric keypad 7
+> 数字键盘 7
 
 | meta | description |
 |------|-------------|
@@ -881,7 +881,7 @@ Key map for keyboard event
 
 ##### num8
 
-> The numeric keypad 8
+> 数字键盘 8
 
 | meta | description |
 |------|-------------|
@@ -892,7 +892,7 @@ Key map for keyboard event
 
 ##### num9
 
-> The numeric keypad 9
+> 数字键盘 9
 
 | meta | description |
 |------|-------------|
@@ -903,7 +903,7 @@ Key map for keyboard event
 
 ##### *
 
-> The numeric keypad '*'
+> 数字键盘 *
 
 | meta | description |
 |------|-------------|
@@ -914,7 +914,7 @@ Key map for keyboard event
 
 ##### +
 
-> The numeric keypad '+'
+> 数字键盘 +
 
 | meta | description |
 |------|-------------|
@@ -925,7 +925,7 @@ Key map for keyboard event
 
 ##### -
 
-> The numeric keypad '-'
+> 数字键盘 -
 
 | meta | description |
 |------|-------------|
@@ -936,7 +936,7 @@ Key map for keyboard event
 
 ##### numdel
 
-> The numeric keypad 'delete'
+> 数字键盘删除键
 
 | meta | description |
 |------|-------------|
@@ -947,7 +947,7 @@ Key map for keyboard event
 
 ##### /
 
-> The numeric keypad '/'
+> 数字键盘 /
 
 | meta | description |
 |------|-------------|
@@ -958,7 +958,7 @@ Key map for keyboard event
 
 ##### f1
 
-> The F1 function key
+> F1 功能键
 
 | meta | description |
 |------|-------------|
@@ -969,7 +969,7 @@ Key map for keyboard event
 
 ##### f2
 
-> The F2 function key
+> F2 功能键
 
 | meta | description |
 |------|-------------|
@@ -980,7 +980,7 @@ Key map for keyboard event
 
 ##### f3
 
-> The F3 function key
+> F3 功能键
 
 | meta | description |
 |------|-------------|
@@ -991,7 +991,7 @@ Key map for keyboard event
 
 ##### f4
 
-> The F4 function key
+> F4 功能键
 
 | meta | description |
 |------|-------------|
@@ -1002,7 +1002,7 @@ Key map for keyboard event
 
 ##### f5
 
-> The F5 function key
+> F5 功能键
 
 | meta | description |
 |------|-------------|
@@ -1013,7 +1013,7 @@ Key map for keyboard event
 
 ##### f6
 
-> The F6 function key
+> F6 功能键
 
 | meta | description |
 |------|-------------|
@@ -1024,7 +1024,7 @@ Key map for keyboard event
 
 ##### f7
 
-> The F7 function key
+> F7 功能键
 
 | meta | description |
 |------|-------------|
@@ -1035,7 +1035,7 @@ Key map for keyboard event
 
 ##### f8
 
-> The F8 function key
+> F8 功能键
 
 | meta | description |
 |------|-------------|
@@ -1046,7 +1046,7 @@ Key map for keyboard event
 
 ##### f9
 
-> The F9 function key
+> F9 功能键
 
 | meta | description |
 |------|-------------|
@@ -1057,7 +1057,7 @@ Key map for keyboard event
 
 ##### f10
 
-> The F10 function key
+> F10 功能键
 
 | meta | description |
 |------|-------------|
@@ -1068,7 +1068,7 @@ Key map for keyboard event
 
 ##### f11
 
-> The F11 function key
+> F11 功能键
 
 | meta | description |
 |------|-------------|
@@ -1079,7 +1079,7 @@ Key map for keyboard event
 
 ##### f12
 
-> The F12 function key
+> F12 功能键
 
 | meta | description |
 |------|-------------|
@@ -1090,7 +1090,7 @@ Key map for keyboard event
 
 ##### numlock
 
-> The numlock key
+> 数字锁定键
 
 | meta | description |
 |------|-------------|
@@ -1101,7 +1101,7 @@ Key map for keyboard event
 
 ##### scrolllock
 
-> The scroll lock key
+> 滚动锁定键
 
 | meta | description |
 |------|-------------|
@@ -1112,7 +1112,7 @@ Key map for keyboard event
 
 ##### ;
 
-> The ';' key.
+> 分号键
 
 | meta | description |
 |------|-------------|
@@ -1123,7 +1123,7 @@ Key map for keyboard event
 
 ##### semicolon
 
-> The ';' key.
+> 分号键
 
 | meta | description |
 |------|-------------|
@@ -1134,7 +1134,7 @@ Key map for keyboard event
 
 ##### equal
 
-> The '=' key.
+> 等于号键
 
 | meta | description |
 |------|-------------|
@@ -1145,7 +1145,7 @@ Key map for keyboard event
 
 ##### &#x3D;
 
-> The '=' key.
+> 等于号键
 
 | meta | description |
 |------|-------------|
@@ -1156,7 +1156,7 @@ Key map for keyboard event
 
 ##### ,
 
-> The ',' key.
+> 逗号键
 
 | meta | description |
 |------|-------------|
@@ -1167,7 +1167,7 @@ Key map for keyboard event
 
 ##### comma
 
-> The ',' key.
+> 逗号键
 
 | meta | description |
 |------|-------------|
@@ -1178,7 +1178,7 @@ Key map for keyboard event
 
 ##### dash
 
-> The dash '-' key.
+> 中划线键
 
 | meta | description |
 |------|-------------|
@@ -1189,7 +1189,7 @@ Key map for keyboard event
 
 ##### .
 
-> The '.' key.
+> 句号键
 
 | meta | description |
 |------|-------------|
@@ -1200,7 +1200,7 @@ Key map for keyboard event
 
 ##### period
 
-> The '.' key
+> 句号键
 
 | meta | description |
 |------|-------------|
@@ -1211,7 +1211,7 @@ Key map for keyboard event
 
 ##### forwardslash
 
-> The forward slash key
+> 正斜杠键
 
 | meta | description |
 |------|-------------|
@@ -1222,7 +1222,7 @@ Key map for keyboard event
 
 ##### grave
 
-> The grave key
+> 按键 `
 
 | meta | description |
 |------|-------------|
@@ -1233,7 +1233,7 @@ Key map for keyboard event
 
 ##### [
 
-> The '[' key
+> 按键 [
 
 | meta | description |
 |------|-------------|
@@ -1244,7 +1244,7 @@ Key map for keyboard event
 
 ##### openbracket
 
-> The '[' key
+> 按键 [
 
 | meta | description |
 |------|-------------|
@@ -1255,7 +1255,7 @@ Key map for keyboard event
 
 ##### backslash
 
-> The '\' key
+> 反斜杠键
 
 | meta | description |
 |------|-------------|
@@ -1266,7 +1266,7 @@ Key map for keyboard event
 
 ##### ]
 
-> The ']' key
+> 按键 ]
 
 | meta | description |
 |------|-------------|
@@ -1277,7 +1277,7 @@ Key map for keyboard event
 
 ##### closebracket
 
-> The ']' key
+> 按键 ]
 
 | meta | description |
 |------|-------------|
@@ -1288,7 +1288,7 @@ Key map for keyboard event
 
 ##### quote
 
-> The quote key
+> 单引号键
 
 | meta | description |
 |------|-------------|
@@ -1299,7 +1299,7 @@ Key map for keyboard event
 
 ##### dpadLeft
 
-> The dpad left key
+> 导航键 向左
 
 | meta | description |
 |------|-------------|
@@ -1310,7 +1310,7 @@ Key map for keyboard event
 
 ##### dpadRight
 
-> The dpad right key
+> 导航键 向右
 
 | meta | description |
 |------|-------------|
@@ -1321,7 +1321,7 @@ Key map for keyboard event
 
 ##### dpadUp
 
-> The dpad up key
+> 导航键 向上
 
 | meta | description |
 |------|-------------|
@@ -1332,7 +1332,7 @@ Key map for keyboard event
 
 ##### dpadDown
 
-> The dpad down key
+> 导航键 向下
 
 | meta | description |
 |------|-------------|
@@ -1343,7 +1343,7 @@ Key map for keyboard event
 
 ##### dpadCenter
 
-> The dpad center key
+> 导航键 确定键
 
 | meta | description |
 |------|-------------|

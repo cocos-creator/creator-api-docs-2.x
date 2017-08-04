@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for transition type.
+过渡类型
 
 ### Index
 
@@ -25,7 +25,7 @@ Enum for transition type.
 
 ##### NONE
 
-> The none type.
+> 不做任何过渡
 
 | meta | description |
 |------|-------------|
@@ -36,7 +36,7 @@ Enum for transition type.
 
 ##### COLOR
 
-> The color type.
+> 颜色过渡
 
 | meta | description |
 |------|-------------|
@@ -47,7 +47,7 @@ Enum for transition type.
 
 ##### SPRITE
 
-> The sprite type.
+> 精灵过渡
 
 | meta | description |
 |------|-------------|
@@ -58,7 +58,7 @@ Enum for transition type.
 
 ##### SCALE
 
-> The scale type
+> 缩放过渡
 
 | meta | description |
 |------|-------------|

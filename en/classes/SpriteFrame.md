@@ -9,23 +9,21 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-A cc.SpriteFrame has:<br/>
- - texture: A cc.Texture2D that will be used by the _ccsg.Sprite<br/>
- - rectangle: A rectangle of the texture
+一个 SpriteFrame 包含：<br/>
+ - 纹理：会被 Sprite 使用的 Texture2D 对象。<br/>
+ - 矩形：在纹理中的矩形区域。
 
 ### Index
 
 ##### Properties
 
   - [`_textureFilenameSetter`](#texturefilenamesetter) `String` Use this property to set raw texture url during loading
-  - [`insetTop`](#insettop) `Number` Top border of the sprite
-  - [`insetBottom`](#insetbottom) `Number` Bottom border of the sprite
-  - [`insetLeft`](#insetleft) `Number` Left border of the sprite
-  - [`insetRight`](#insetright) `Number` Right border of the sprite
-  - [`rawUrl`](#rawurl) `String` Returns the url of this asset's first raw file, if none of rawFile exists,
-it will returns an empty string.
-  - [`rawUrls`](#rawurls) `String[]` Returns the url of this asset's raw files, if none of rawFile exists,
-it will returns an empty array.
+  - [`insetTop`](#insettop) `Number` sprite 的顶部边框
+  - [`insetBottom`](#insetbottom) `Number` sprite 的底部边框
+  - [`insetLeft`](#insetleft) `Number` sprite 的左边边框
+  - [`insetRight`](#insetright) `Number` sprite 的左边边框
+  - [`rawUrl`](#rawurl) `String` 返回该资源的原始文件的 URL，如果不支持 RAW 文件，它将返回一个空字符串。
+  - [`rawUrls`](#rawurls) `String[]` 返回该资源的原文件的 URL 数组，如果不支持 RAW 文件，它将返回一个空数组。
   - [`_rawFiles`](#rawfiles) `String[]` 在 lite 版的 Fireball 里，raw asset 并不仅仅是在 properties 里声明了 rawType 才有，
 而是每个 asset 都能指定自己的 raw file url。这些 url 就存在 _rawFiles 字段中。
 AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
@@ -33,56 +31,47 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
   - [`_uuid`](#uuid) `String` 
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` The name of the object.
-  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
+  - [`name`](#name) `String` 该对象的名称。
+  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
 
 
 
 ##### Methods
 
-  - [`constructor`](#constructor) Constructor of SpriteFrame class.
-  - [`textureLoaded`](#textureloaded) Returns whether the texture have been loaded
+  - [`constructor`](#constructor) SpriteFrame 类的构造函数。
+  - [`textureLoaded`](#textureloaded) 返回是否已加载纹理
   - [`addLoadedEventListener`](#addloadedeventlistener) Add a event listener for texture loaded event.
-  - [`isRotated`](#isrotated) Returns whether the sprite frame is rotated in the texture.
-  - [`setRotated`](#setrotated) Set whether the sprite frame is rotated in the texture.
-  - [`getRect`](#getrect) Returns the rect of the sprite frame in the texture.
-  - [`setRect`](#setrect) Sets the rect of the sprite frame in the texture.
-  - [`getOriginalSize`](#getoriginalsize) Returns the original size of the trimmed image.
-  - [`setOriginalSize`](#setoriginalsize) Sets the original size of the trimmed image.
-  - [`getTexture`](#gettexture) Returns the texture of the frame.
-  - [`getOffset`](#getoffset) Returns the offset of the frame in the texture.
-  - [`setOffset`](#setoffset) Sets the offset of the frame in the texture.
-  - [`clone`](#clone) Clone the sprite frame.
+  - [`isRotated`](#isrotated) 获取 SpriteFrame 是否旋转
+  - [`setRotated`](#setrotated) 设置 SpriteFrame 是否旋转
+  - [`getRect`](#getrect) 获取 SpriteFrame 的纹理矩形区域
+  - [`setRect`](#setrect) 设置 SpriteFrame 的纹理矩形区域
+  - [`getOriginalSize`](#getoriginalsize) 获取修剪前的原始大小
+  - [`setOriginalSize`](#setoriginalsize) 设置修剪前的原始大小
+  - [`getTexture`](#gettexture) 获取使用的纹理实例
+  - [`getOffset`](#getoffset) 获取偏移量
+  - [`setOffset`](#setoffset) 设置偏移量
+  - [`clone`](#clone) 克隆 SpriteFrame
   - [`setTexture`](#settexture) #en Set SpriteFrame with Texture, rect, rotated, offset and originalSize.<br/>
 #zh 通过 Texture，rect，rotated，offset 和 originalSize 设置 SpriteFrame
-  - [`ensureLoadTexture`](#ensureloadtexture) If a loading scene (or prefab) is marked as `asyncLoadAssets`, all the textures of the SpriteFrame which
-associated by user's custom Components in the scene, will not preload automatically.
-These textures will be load when Sprite component is going to render the SpriteFrames.
-You can call this method if you want to load the texture early.
-  - [`clearTexture`](#cleartexture) If you do not need to use the SpriteFrame temporarily, you can call this method so that its texture could be garbage collected. Then when you need to render the SpriteFrame, you should call `ensureLoadTexture` manually to reload texture.
+  - [`ensureLoadTexture`](#ensureloadtexture) 当加载中的场景或 Prefab 被标记为 `asyncLoadAssets` 时，用户在场景中由自定义组件关联到的所有 SpriteFrame 的贴图都不会被提前加载。
+只有当 Sprite 组件要渲染这些 SpriteFrame 时，才会检查贴图是否加载。如果你希望加载过程提前，你可以手工调用这个方法。
+  - [`clearTexture`](#cleartexture) 当你暂时不再使用这个 SpriteFrame 时，可以调用这个方法来保证引用的贴图对象能被 GC。然后当你要渲染 SpriteFrame 时，你需要手动调用 `ensureLoadTexture` 来重新加载贴图。
   - [`serialize`](#serialize) 应 AssetDB 要求提供这个方法
-  - [`createNode`](#createnode) Create a new node using this asset in the scene.<br/>
-If this type of asset dont have its corresponding node type, this method should be null.
+  - [`createNode`](#createnode) 使用该资源在场景中创建一个新节点。<br/>
+如果这类资源没有相应的节点类型，该方法应该是空的。
   - [`_setRawFiles`](#setrawfiles) Set raw file names for this asset.
   - [`_preloadRawFiles`](#preloadrawfiles) Preload raw files when loading scene.
-  - [`on`](#on) Register an callback of a specific event type on the EventTarget.
-  - [`off`](#off) Removes the listeners previously registered with the same type, callback, target and or useCapture,
-if only type is passed as parameter, all listeners registered with that type will be removed.
-  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
-  - [`once`](#once) Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
-  - [`dispatchEvent`](#dispatchevent) Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
-  - [`emit`](#emit) Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
-  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+  - [`on`](#on) 注册事件目标的特定事件类型回调。
+  - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
+  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
+  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
+  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -126,7 +115,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### insetTop
 
-> Top border of the sprite
+> sprite 的顶部边框
 
 | meta | description |
 |------|-------------|
@@ -137,7 +126,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### insetBottom
 
-> Bottom border of the sprite
+> sprite 的底部边框
 
 | meta | description |
 |------|-------------|
@@ -148,7 +137,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### insetLeft
 
-> Left border of the sprite
+> sprite 的左边边框
 
 | meta | description |
 |------|-------------|
@@ -159,7 +148,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### insetRight
 
-> Right border of the sprite
+> sprite 的左边边框
 
 | meta | description |
 |------|-------------|
@@ -170,8 +159,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### rawUrl
 
-> Returns the url of this asset's first raw file, if none of rawFile exists,
-it will returns an empty string.
+> 返回该资源的原始文件的 URL，如果不支持 RAW 文件，它将返回一个空字符串。
 
 | meta | description |
 |------|-------------|
@@ -182,8 +170,7 @@ it will returns an empty string.
 
 ##### rawUrls
 
-> Returns the url of this asset's raw files, if none of rawFile exists,
-it will returns an empty array.
+> 返回该资源的原文件的 URL 数组，如果不支持 RAW 文件，它将返回一个空数组。
 
 | meta | description |
 |------|-------------|
@@ -241,7 +228,7 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 
 ##### name
 
-> The name of the object.
+> 该对象的名称。
 
 | meta | description |
 |------|-------------|
@@ -257,7 +244,7 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> Indicates whether the object is not yet destroyed.
+> 表示该对象是否可用（被销毁后将不可用）。
 
 | meta | description |
 |------|-------------|
@@ -280,7 +267,7 @@ cc.log(obj.isValid);
 
 ##### constructor
 
-Constructor of SpriteFrame class.
+SpriteFrame 类的构造函数。
 
 | meta | description |
 |------|-------------|
@@ -296,7 +283,7 @@ Constructor of SpriteFrame class.
 
 ##### textureLoaded
 
-Returns whether the texture have been loaded
+返回是否已加载纹理
 
 | meta | description |
 |------|-------------|
@@ -321,7 +308,7 @@ Add a event listener for texture loaded event.
 
 ##### isRotated
 
-Returns whether the sprite frame is rotated in the texture.
+获取 SpriteFrame 是否旋转
 
 | meta | description |
 |------|-------------|
@@ -332,7 +319,7 @@ Returns whether the sprite frame is rotated in the texture.
 
 ##### setRotated
 
-Set whether the sprite frame is rotated in the texture.
+设置 SpriteFrame 是否旋转
 
 | meta | description |
 |------|-------------|
@@ -344,7 +331,7 @@ Set whether the sprite frame is rotated in the texture.
 
 ##### getRect
 
-Returns the rect of the sprite frame in the texture.
+获取 SpriteFrame 的纹理矩形区域
 
 | meta | description |
 |------|-------------|
@@ -355,7 +342,7 @@ Returns the rect of the sprite frame in the texture.
 
 ##### setRect
 
-Sets the rect of the sprite frame in the texture.
+设置 SpriteFrame 的纹理矩形区域
 
 | meta | description |
 |------|-------------|
@@ -367,7 +354,7 @@ Sets the rect of the sprite frame in the texture.
 
 ##### getOriginalSize
 
-Returns the original size of the trimmed image.
+获取修剪前的原始大小
 
 | meta | description |
 |------|-------------|
@@ -378,7 +365,7 @@ Returns the original size of the trimmed image.
 
 ##### setOriginalSize
 
-Sets the original size of the trimmed image.
+设置修剪前的原始大小
 
 | meta | description |
 |------|-------------|
@@ -390,7 +377,7 @@ Sets the original size of the trimmed image.
 
 ##### getTexture
 
-Returns the texture of the frame.
+获取使用的纹理实例
 
 | meta | description |
 |------|-------------|
@@ -401,7 +388,7 @@ Returns the texture of the frame.
 
 ##### getOffset
 
-Returns the offset of the frame in the texture.
+获取偏移量
 
 | meta | description |
 |------|-------------|
@@ -412,7 +399,7 @@ Returns the offset of the frame in the texture.
 
 ##### setOffset
 
-Sets the offset of the frame in the texture.
+设置偏移量
 
 | meta | description |
 |------|-------------|
@@ -424,7 +411,7 @@ Sets the offset of the frame in the texture.
 
 ##### clone
 
-Clone the sprite frame.
+克隆 SpriteFrame
 
 | meta | description |
 |------|-------------|
@@ -453,10 +440,8 @@ Clone the sprite frame.
 
 ##### ensureLoadTexture
 
-If a loading scene (or prefab) is marked as `asyncLoadAssets`, all the textures of the SpriteFrame which
-associated by user's custom Components in the scene, will not preload automatically.
-These textures will be load when Sprite component is going to render the SpriteFrames.
-You can call this method if you want to load the texture early.
+当加载中的场景或 Prefab 被标记为 `asyncLoadAssets` 时，用户在场景中由自定义组件关联到的所有 SpriteFrame 的贴图都不会被提前加载。
+只有当 Sprite 组件要渲染这些 SpriteFrame 时，才会检查贴图是否加载。如果你希望加载过程提前，你可以手工调用这个方法。
 
 | meta | description |
 |------|-------------|
@@ -477,7 +462,7 @@ else {
 
 ##### clearTexture
 
-If you do not need to use the SpriteFrame temporarily, you can call this method so that its texture could be garbage collected. Then when you need to render the SpriteFrame, you should call `ensureLoadTexture` manually to reload texture.
+当你暂时不再使用这个 SpriteFrame 时，可以调用这个方法来保证引用的贴图对象能被 GC。然后当你要渲染 SpriteFrame 时，你需要手动调用 `ensureLoadTexture` 来重新加载贴图。
 
 | meta | description |
 |------|-------------|
@@ -506,8 +491,8 @@ spriteFrame.ensureLoadTexture();
 
 ##### createNode
 
-Create a new node using this asset in the scene.<br/>
-If this type of asset dont have its corresponding node type, this method should be null.
+使用该资源在场景中创建一个新节点。<br/>
+如果这类资源没有相应的节点类型，该方法应该是空的。
 
 | meta | description |
 |------|-------------|
@@ -546,7 +531,7 @@ Preload raw files when loading scene.
 
 ##### on
 
-Register an callback of a specific event type on the EventTarget.
+注册事件目标的特定事件类型回调。
 
 | meta | description |
 |------|-------------|
@@ -574,8 +559,7 @@ node.on(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### off
 
-Removes the listeners previously registered with the same type, callback, target and or useCapture,
-if only type is passed as parameter, all listeners registered with that type will be removed.
+删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
 
 | meta | description |
 |------|-------------|
@@ -605,10 +589,9 @@ node.off(cc.Node.EventType.TOUCH_END);
 
 ##### targetOff
 
-Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
+在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
 
 | meta | description |
 |------|-------------|
@@ -620,8 +603,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 ##### once
 
-Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
+注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
 
 | meta | description |
 |------|-------------|
@@ -648,8 +630,7 @@ node.once(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### dispatchEvent
 
-Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
+分发事件到事件流中。
 
 | meta | description |
 |------|-------------|
@@ -661,8 +642,7 @@ The event target is the EventTarget object upon which the dispatchEvent() method
 
 ##### emit
 
-Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
+该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
 
 | meta | description |
 |------|-------------|
@@ -675,11 +655,9 @@ The event will be created from the supplied message, you can get the "detail" ar
 
 ##### destroy
 
-Destroy this Object, and release all its own references to other objects.<br/>
-Actual object destruction will delayed until before rendering.
-<br/>
-After destroy, this CCObject is not usable any more.
-You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
+销毁该对象，并释放所有它对其它对象的引用。<br/>
+销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+实际销毁操作会延迟到当前帧渲染前执行。
 
 | meta | description |
 |------|-------------|

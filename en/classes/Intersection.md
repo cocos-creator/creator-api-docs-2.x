@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Intersection helper class
+辅助类，用于测试形状与形状是否相交
 
 ### Index
 
@@ -15,16 +15,16 @@ Intersection helper class
 
 ##### Methods
 
-  - [`lineLine`](#lineline) Test line and line
-  - [`lineRect`](#linerect) Test line and rect
-  - [`linePolygon`](#linepolygon) Test line and polygon
-  - [`rectRect`](#rectrect) Test rect and rect
-  - [`rectPolygon`](#rectpolygon) Test rect and polygon
-  - [`polygonPolygon`](#polygonpolygon) Test polygon and polygon
-  - [`circleCircle`](#circlecircle) Test circle and circle
-  - [`polygonCircle`](#polygoncircle) Test polygon and circle
-  - [`pointInPolygon`](#pointinpolygon) Test whether the point is in the polygon
-  - [`pointLineDistance`](#pointlinedistance) Calculate the distance of point to line.
+  - [`lineLine`](#lineline) 测试线段与线段是否相交
+  - [`lineRect`](#linerect) 测试线段与矩形是否相交
+  - [`linePolygon`](#linepolygon) 测试线段与多边形是否相交
+  - [`rectRect`](#rectrect) 测试矩形与矩形是否相交
+  - [`rectPolygon`](#rectpolygon) 测试矩形与多边形是否相交
+  - [`polygonPolygon`](#polygonpolygon) 测试多边形与多边形是否相交
+  - [`circleCircle`](#circlecircle) 测试圆形与圆形是否相交
+  - [`polygonCircle`](#polygoncircle) 测试矩形与圆形是否相交
+  - [`pointInPolygon`](#pointinpolygon) 测试一个点是否在一个多边形中
+  - [`pointLineDistance`](#pointlinedistance) 计算点到直线的距离。如果这是一条线段并且垂足不在线段内，则会计算点到线段端点的距离。
 
 
 
@@ -39,7 +39,7 @@ Intersection helper class
 
 ##### lineLine
 
-Test line and line
+测试线段与线段是否相交
 
 | meta | description |
 |------|-------------|
@@ -55,7 +55,7 @@ Test line and line
 
 ##### lineRect
 
-Test line and rect
+测试线段与矩形是否相交
 
 | meta | description |
 |------|-------------|
@@ -70,7 +70,7 @@ Test line and rect
 
 ##### linePolygon
 
-Test line and polygon
+测试线段与多边形是否相交
 
 | meta | description |
 |------|-------------|
@@ -85,7 +85,7 @@ Test line and polygon
 
 ##### rectRect
 
-Test rect and rect
+测试矩形与矩形是否相交
 
 | meta | description |
 |------|-------------|
@@ -99,7 +99,7 @@ Test rect and rect
 
 ##### rectPolygon
 
-Test rect and polygon
+测试矩形与多边形是否相交
 
 | meta | description |
 |------|-------------|
@@ -113,7 +113,7 @@ Test rect and polygon
 
 ##### polygonPolygon
 
-Test polygon and polygon
+测试多边形与多边形是否相交
 
 | meta | description |
 |------|-------------|
@@ -127,7 +127,7 @@ Test polygon and polygon
 
 ##### circleCircle
 
-Test circle and circle
+测试圆形与圆形是否相交
 
 | meta | description |
 |------|-------------|
@@ -141,7 +141,7 @@ Test circle and circle
 
 ##### polygonCircle
 
-Test polygon and circle
+测试矩形与圆形是否相交
 
 | meta | description |
 |------|-------------|
@@ -155,7 +155,7 @@ Test polygon and circle
 
 ##### pointInPolygon
 
-Test whether the point is in the polygon
+测试一个点是否在一个多边形中
 
 | meta | description |
 |------|-------------|
@@ -169,7 +169,7 @@ Test whether the point is in the polygon
 
 ##### pointLineDistance
 
-Calculate the distance of point to line.
+计算点到直线的距离。如果这是一条线段并且垂足不在线段内，则会计算点到线段端点的距离。
 
 | meta | description |
 |------|-------------|

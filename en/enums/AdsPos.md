@@ -7,7 +7,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 
 
-The enum of ads position
+广告位置
 
 ### Index
 
@@ -28,7 +28,7 @@ The enum of ads position
 
 ##### kPosCenter
 
-> In the center
+> 中间
 
 | meta | description |
 |------|-------------|
@@ -39,7 +39,7 @@ The enum of ads position
 
 ##### kPosTop
 
-> at the top of center
+> 上方
 
 | meta | description |
 |------|-------------|
@@ -50,7 +50,7 @@ The enum of ads position
 
 ##### kPosTopLeft
 
-> the upper left corner
+> 左上方
 
 | meta | description |
 |------|-------------|
@@ -61,7 +61,7 @@ The enum of ads position
 
 ##### kPosTopRight
 
-> the upper right corner
+> 右上方
 
 | meta | description |
 |------|-------------|
@@ -72,7 +72,7 @@ The enum of ads position
 
 ##### kPosBottom
 
-> at the bottom of the center
+> 底部
 
 | meta | description |
 |------|-------------|
@@ -83,7 +83,7 @@ The enum of ads position
 
 ##### kPosBottomLeft
 
-> the lower left corner
+> 左下方
 
 | meta | description |
 |------|-------------|
@@ -94,7 +94,7 @@ The enum of ads position
 
 ##### kPosBottomRight
 
-> the lower right corner
+> 右下方
 
 | meta | description |
 |------|-------------|

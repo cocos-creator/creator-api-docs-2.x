@@ -175,7 +175,7 @@ Useful only on web.
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:274](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L274) |
 
 ###### Parameters
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | Null The callback function
+- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; Null The callback function
 
 
 ##### setOrientation
@@ -316,7 +316,7 @@ Returns the resolution translate on View
 | meta | description |
 |------|-------------|
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:546](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L546) |
-| Return 		 | <a href="../classes/Size.html" class="crosslink">Size</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Return 		 | <a href="../classes/Size.html" class="crosslink">Size</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
 
@@ -422,7 +422,7 @@ Sets the current resolution policy
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:673](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L673) |
 
 ###### Parameters
-- resolutionPolicy <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- resolutionPolicy <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### setDesignResolutionSize
@@ -443,7 +443,7 @@ The resolution policy include: <br/>
 ###### Parameters
 - width <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution width.
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution height.
-- resolutionPolicy <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The resolution policy desired
+- resolutionPolicy <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The resolution policy desired
 
 
 ##### getDesignResolutionSize
@@ -477,7 +477,7 @@ This API will do the following:
 ###### Parameters
 - width <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution width.
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution height.
-- resolutionPolicy <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The resolution policy desired
+- resolutionPolicy <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The resolution policy desired
 
 
 ##### setViewPortInPoints

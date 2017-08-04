@@ -8,14 +8,14 @@ Module: [cc](../modules/cc.md)
 
 
 
-Defines a Polygon Collider .
+用来定义多边形碰撞体
 
 ### Index
 
 ##### Properties
 
-  - [`offset`](#offset) `Vec2` Position offset
-  - [`points`](#points) `[Vec2]` Polygon points
+  - [`offset`](#offset) `Vec2` 位置偏移量
+  - [`points`](#points) `[Vec2]` 多边形顶点数组
 
 
 
@@ -29,7 +29,7 @@ Defines a Polygon Collider .
 
 ##### offset
 
-> Position offset
+> 位置偏移量
 
 | meta | description |
 |------|-------------|
@@ -40,7 +40,7 @@ Defines a Polygon Collider .
 
 ##### points
 
-> Polygon points
+> 多边形顶点数组
 
 | meta | description |
 |------|-------------|

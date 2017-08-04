@@ -12,6 +12,22 @@
 ### Classes
 
   - [DebugMode](../classes/DebugMode.md)
+  - [NodePool](../classes/NodePool.md)
+  - [pool](../classes/pool.md)
+  - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
+  - [audioEngine](../classes/audioEngine.md)
+  - [AnimationClip](../classes/AnimationClip.md)
+  - [AnimationState](../classes/AnimationState.md)
+  - [Playable](../classes/Playable.md)
+  - [WrapMode](../classes/WrapMode.md)
+  - [AnimationNodeBase](../classes/AnimationNodeBase.md)
+  - [AnimationNode](../classes/AnimationNode.md)
+  - [Director](../classes/Director.md)
+  - [Game](../classes/Game.md)
+  - [Node.EventType](../classes/Node.EventType.md)
+  - [Node](../classes/Node.md)
+  - [Scene](../classes/Scene.md)
+  - [Scheduler](../classes/Scheduler.md)
   - [Action](../classes/Action.md)
   - [FiniteTimeAction](../classes/FiniteTimeAction.md)
   - [ActionEase](../classes/ActionEase.md)
@@ -22,20 +38,6 @@
   - [ActionInterval](../classes/ActionInterval.md)
   - [ActionManager](../classes/ActionManager.md)
   - [MotionStreak](../classes/MotionStreak.md)
-  - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
-  - [audioEngine](../classes/audioEngine.md)
-  - [Director](../classes/Director.md)
-  - [Game](../classes/Game.md)
-  - [Node.EventType](../classes/Node.EventType.md)
-  - [Node](../classes/Node.md)
-  - [Scene](../classes/Scene.md)
-  - [Scheduler](../classes/Scheduler.md)
-  - [AnimationClip](../classes/AnimationClip.md)
-  - [AnimationState](../classes/AnimationState.md)
-  - [Playable](../classes/Playable.md)
-  - [WrapMode](../classes/WrapMode.md)
-  - [AnimationNodeBase](../classes/AnimationNodeBase.md)
-  - [AnimationNode](../classes/AnimationNode.md)
   - [ParticleSystem.EmitterMode](../classes/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../classes/ParticleSystem.PositionType.md)
   - [ParticleSystem](../classes/ParticleSystem.md)
@@ -45,8 +47,16 @@
   - [TiledMap](../classes/TiledMap.md)
   - [TiledMapAsset](../classes/TiledMapAsset.md)
   - [TiledObjectGroup](../classes/TiledObjectGroup.md)
-  - [NodePool](../classes/NodePool.md)
-  - [pool](../classes/pool.md)
+  - [Camera](../classes/Camera.md)
+  - [Collider.Box](../classes/Collider.Box.md)
+  - [BoxCollider](../classes/BoxCollider.md)
+  - [Collider.Circle](../classes/Collider.Circle.md)
+  - [CircleCollider](../classes/CircleCollider.md)
+  - [Collider](../classes/Collider.md)
+  - [CollisionManager](../classes/CollisionManager.md)
+  - [Intersection](../classes/Intersection.md)
+  - [Collider.Polygon](../classes/Collider.Polygon.md)
+  - [PolygonCollider](../classes/PolygonCollider.md)
   - [Asset](../classes/Asset.md)
   - [AudioClip](../classes/AudioClip.md)
   - [BitmapFont](../classes/BitmapFont.md)
@@ -62,35 +72,13 @@
   - [SpriteAtlas](../classes/SpriteAtlas.md)
   - [TTFFont](../classes/TTFFont.md)
   - [TextAsset](../classes/TextAsset.md)
-  - [EventTarget](../classes/EventTarget.md)
-  - [Event](../classes/Event.md)
-  - [Event.EventCustom](../classes/Event.EventCustom.md)
-  - [Camera](../classes/Camera.md)
-  - [Collider.Box](../classes/Collider.Box.md)
-  - [BoxCollider](../classes/BoxCollider.md)
-  - [Collider.Circle](../classes/Collider.Circle.md)
-  - [CircleCollider](../classes/CircleCollider.md)
-  - [Collider](../classes/Collider.md)
-  - [CollisionManager](../classes/CollisionManager.md)
-  - [Intersection](../classes/Intersection.md)
-  - [Collider.Polygon](../classes/Collider.Polygon.md)
-  - [PolygonCollider](../classes/PolygonCollider.md)
-  - [Event.EventMouse](../classes/Event.EventMouse.md)
-  - [Event.EventTouch](../classes/Event.EventTouch.md)
-  - [Event.EventAcceleration](../classes/Event.EventAcceleration.md)
-  - [Event.EventKeyboard](../classes/Event.EventKeyboard.md)
-  - [EventListener](../classes/EventListener.md)
-  - [eventManager](../classes/eventManager.md)
-  - [SystemEvent.EventType](../classes/SystemEvent.EventType.md)
-  - [SystemEvent](../classes/SystemEvent.md)
-  - [Touch](../classes/Touch.md)
   - [Animation](../classes/Animation.md)
   - [AudioSource](../classes/AudioSource.md)
   - [BlockInputEvents](../classes/BlockInputEvents.md)
   - [Button.Transition](../classes/Button.Transition.md)
   - [Button](../classes/Button.md)
-  - [Component](../classes/Component.md)
   - [Canvas](../classes/Canvas.md)
+  - [Component](../classes/Component.md)
   - [Component.EventHandler](../classes/Component.EventHandler.md)
   - [EditBox.KeyboardReturnType](../classes/EditBox.KeyboardReturnType.md)
   - [EditBox.InputMode](../classes/EditBox.InputMode.md)
@@ -145,6 +133,18 @@
   - [Graphics](../classes/Graphics.md)
   - [Graphics.LineCap](../classes/Graphics.LineCap.md)
   - [Graphics.LineJoin](../classes/Graphics.LineJoin.md)
+  - [EventTarget](../classes/EventTarget.md)
+  - [Event](../classes/Event.md)
+  - [Event.EventCustom](../classes/Event.EventCustom.md)
+  - [Event.EventMouse](../classes/Event.EventMouse.md)
+  - [Event.EventTouch](../classes/Event.EventTouch.md)
+  - [Event.EventAcceleration](../classes/Event.EventAcceleration.md)
+  - [Event.EventKeyboard](../classes/Event.EventKeyboard.md)
+  - [EventListener](../classes/EventListener.md)
+  - [eventManager](../classes/eventManager.md)
+  - [SystemEvent.EventType](../classes/SystemEvent.EventType.md)
+  - [SystemEvent](../classes/SystemEvent.md)
+  - [Touch](../classes/Touch.md)
   - [WorldManifold](../classes/WorldManifold.md)
   - [ManifoldPoint](../classes/ManifoldPoint.md)
   - [Manifold](../classes/Manifold.md)
@@ -162,12 +162,6 @@
   - [LoadingItems](../classes/LoadingItems.md)
   - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
   - [Pipeline](../classes/Pipeline.md)
-  - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
-  - [Texture2D](../classes/Texture2D.md)
-  - [TextureAtlas](../classes/TextureAtlas.md)
-  - [textureCache](../classes/textureCache.md)
-  - [SpriteFrame](../classes/SpriteFrame.md)
-  - [_BaseNode](../classes/_BaseNode.md)
   - [inputManager](../classes/inputManager.md)
   - [KEY](../classes/KEY.md)
   - [ImageFormat](../classes/ImageFormat.md)
@@ -190,6 +184,12 @@
   - [CallbacksInvoker](../classes/CallbacksInvoker.md)
   - [Details](../classes/Details.md)
   - [url](../classes/url.md)
+  - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
+  - [Texture2D](../classes/Texture2D.md)
+  - [TextureAtlas](../classes/TextureAtlas.md)
+  - [textureCache](../classes/textureCache.md)
+  - [SpriteFrame](../classes/SpriteFrame.md)
+  - [_BaseNode](../classes/_BaseNode.md)
   - [AffineTransform](../classes/AffineTransform.md)
   - [Color](../classes/Color.md)
   - [Rect](../classes/Rect.md)
@@ -208,8 +208,8 @@
   - [V3F_C4B_T2F_Quad](../classes/V3F_C4B_T2F_Quad.md)
   - [V2F_C4B_T2F](../classes/V2F_C4B_T2F.md)
   - [V2F_C4B_T2F_Triangle](../classes/V2F_C4B_T2F_Triangle.md)
-  - [ValueType](../classes/ValueType.md)
   - [Vec2](../classes/Vec2.md)
+  - [ValueType](../classes/ValueType.md)
   - [DistanceJoint](../classes/DistanceJoint.md)
   - [Joint](../classes/Joint.md)
   - [MotorJoint](../classes/MotorJoint.md)
@@ -233,7 +233,6 @@
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
   - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
-  - [SystemEvent.EventType](../enums/SystemEvent.EventType.md)
   - [Button.Transition](../enums/Button.Transition.md)
   - [EditBox.KeyboardReturnType](../enums/EditBox.KeyboardReturnType.md)
   - [EditBox.InputMode](../enums/EditBox.InputMode.md)
@@ -264,15 +263,16 @@
   - [WebView.EventType](../enums/WebView.EventType.md)
   - [Graphics.LineCap](../enums/Graphics.LineCap.md)
   - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
+  - [SystemEvent.EventType](../enums/SystemEvent.EventType.md)
   - [DrawBits](../enums/DrawBits.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [RayCastType](../enums/RayCastType.md)
   - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
-  - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
   - [KEY](../enums/KEY.md)
   - [ImageFormat](../enums/ImageFormat.md)
   - [macro](../enums/macro.md)
   - [Flags](../enums/Flags.md)
+  - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
   - [BlendFactor](../enums/BlendFactor.md)
   - [TextAlignment](../enums/TextAlignment.md)
 
@@ -443,10 +443,6 @@ EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
   - [`delayTime`](#delaytime) 
   - [`reverseTime`](#reversetime) 反转目标动作的时间轴。
   - [`targetedAction`](#targetedaction) 用已有动作和一个新的目标节点创建动作。
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
   - [`Class`](#class) 定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
   - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
   - [`isChildClassOf`](#ischildclassof) Checks whether subclass is child of superclass or equals to superclass
@@ -478,6 +474,10 @@ It is recommended to not use this function every frame instead cache the result 
   - [`instantiate`](#instantiate) 克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
 
 （Instantiate 时，function 和 dom 等非可序列化对象会直接保留原有引用，Asset 会直接进行浅拷贝，可序列化类型会进行深拷贝。）
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
   - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
 Alpha 通道是可选的。默认值是 255。
   - [`colorEqual`](#colorequal) 判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
@@ -595,7 +595,7 @@ If you post a bug to forum, please attach this flag.
 
 | meta | description |
 |------|-------------|
-| Type | CanvasRenderingContext2D | WebGLRenderingContext |
+| Type | CanvasRenderingContext2D &#124; WebGLRenderingContext |
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:47](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L47) |
 
 
@@ -820,7 +820,7 @@ member: {
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:264](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L264) |
 
 ###### Parameters
-- obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | Any A JavaScript string containing zero or more substitution strings.
+- obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings.
 - subst Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
 
 
@@ -867,7 +867,7 @@ var newAction = cc.speed(action, 0.5);
 | meta | description |
 |------|-------------|
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:561](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L561) |
-| Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> | Null 
+| Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> &#124; Null 
 
 ###### Parameters
 - followedNode <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -1722,7 +1722,7 @@ var flipYAction = cc.flipY(true);
 | Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
 
 ###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -1768,7 +1768,7 @@ var finish = cc.callFunc(this.removeFromParentAndCleanup, this._grossini,  true)
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
-- actionOrActionArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
+- actionOrActionArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
 - tempArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 ##### Example
@@ -1831,7 +1831,7 @@ var repeat = cc.repeatForever(cc.rotateBy(1.0, 360));
 | Return 		 | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 ###### Parameters
-- actionOrActionArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
+- actionOrActionArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
 - tempArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 ##### Example
@@ -1895,7 +1895,7 @@ var actionBy = cc.rotateBy(2, 360);
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- deltaPos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- deltaPos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - deltaY <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -1916,7 +1916,7 @@ var actionTo = cc.moveBy(2, cc.p(windowSize.width - 40, windowSize.height - 40))
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -1979,7 +1979,7 @@ var actionBy = cc.skewBy(2, 0, -90);
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - jumps <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2003,7 +2003,7 @@ var actionBy = cc.jumpBy(2, 300, 0, 50, 4);
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - jumps <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2095,7 +2095,7 @@ var actionTo = cc.scaleTo(2, 0.5, 2);
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 - sx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sx  scale parameter in X
-- sy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | Null sy scale parameter in Y, if Null equal to sx
+- sy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; Null sy scale parameter in Y, if Null equal to sx
 
 ##### Example
 
@@ -2279,23 +2279,6 @@ var delay = cc.delayTime(1);
 ###### Parameters
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
 - action <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-
-
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> | Null 
-
-###### Parameters
-- path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- referenceNode <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 ##### Class
@@ -2628,7 +2611,7 @@ cc.log(cc.isValid(target));
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
-- data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
+- data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
 - details <a href="../classes/Details.html" class="crosslink">Details</a> additional loading result
 - options <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
@@ -2642,10 +2625,10 @@ cc.log(cc.isValid(target));
 | meta | description |
 |------|-------------|
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js:35](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js#L35) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ###### Parameters
-- original <a href="../classes/Prefab.html" class="crosslink">Prefab</a> | <a href="../classes/Node.html" class="crosslink">Node</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
+- original <a href="../classes/Prefab.html" class="crosslink">Prefab</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
 
 ##### Example
 
@@ -2659,6 +2642,23 @@ var scene = cc.director.getScene();
 var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
+
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
+| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+
+###### Parameters
+- path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- referenceNode <a href="../classes/Node.html" class="crosslink">Node</a> 
+
 
 ##### color
 
@@ -3712,7 +3712,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 | Return 		 | <a href="../classes/Size.html" class="crosslink">Size</a> 
 
 ###### Parameters
-- w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="../classes/Size.html" class="crosslink">Size</a> width or a size object
+- w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> width or a size object
 - h <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> height
 
 ##### Example
@@ -3789,7 +3789,7 @@ cc.sizeEqualToSize(a, b);// return false;
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -3811,7 +3811,7 @@ var v4 = cc.v2({x: 100, y: 100});
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
+- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example

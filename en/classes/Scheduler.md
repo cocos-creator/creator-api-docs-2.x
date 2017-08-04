@@ -7,80 +7,76 @@ Module: [cc](../modules/cc.md)
 
 
 
-Scheduler is responsible of triggering the scheduled callbacks.<br/>
-You should not use NSTimer. Instead use this class.<br/>
-<br/>
-There are 2 different types of callbacks (selectors):<br/>
-    - update callback: the 'update' callback will be called every frame. You can customize the priority.<br/>
-    - custom callback: A custom callback will be called every frame, or with a custom interval of time<br/>
-<br/>
-The 'custom selectors' should be avoided when possible. It is faster,
-and consumes less memory to use the 'update callback'. *
+Scheduler 是负责触发回调函数的类。<br/>
+通常情况下，建议使用 cc.director.getScheduler() 来获取系统定时器。<br/>
+有两种不同类型的定时器：<br/>
+    - update 定时器：每一帧都会触发。您可以自定义优先级。<br/>
+    - 自定义定时器：自定义定时器可以每一帧或者自定义的时间间隔触发。<br/>
+如果希望每帧都触发，应该使用 update 定时器，使用 update 定时器更快，而且消耗更少的内存。
 
 ### Index
 
 ##### Properties
 
-  - [`PRIORITY_SYSTEM`](#prioritysystem) `Number` Priority level reserved for system services.
-  - [`PRIORITY_NON_SYSTEM`](#prioritynonsystem) `Number` Minimum priority level for user scheduling.
+  - [`PRIORITY_SYSTEM`](#prioritysystem) `Number` 系统服务的优先级。
+  - [`PRIORITY_NON_SYSTEM`](#prioritynonsystem) `Number` 用户调度最低优先级。
 
 
 
 ##### Methods
 
-  - [`setTimeScale`](#settimescale) Modifies the time of all scheduled callbacks.<br/>
-You can use this property to create a 'slow motion' or 'fast forward' effect.<br/>
-Default is 1.0. To create a 'slow motion' effect, use values below 1.0.<br/>
-To create a 'fast forward' effect, use values higher than 1.0.<br/>
-Note：It will affect EVERY scheduled selector / action.
-  - [`getTimeScale`](#gettimescale) Returns time scale of scheduler.
-  - [`update`](#update) 'update' the scheduler. (You should NEVER call this method, unless you know what you are doing.)
-  - [`scheduleCallbackForTarget`](#schedulecallbackfortarget) <p>
-  The scheduled method will be called every 'interval' seconds.</br>
-  If paused is YES, then it won't be called until it is resumed.<br/>
-  If 'interval' is 0, it will be called every frame, but if so, it recommended to use 'scheduleUpdateForTarget:' instead.<br/>
-  If the callback function is already scheduled, then only the interval parameter will be updated without re-scheduling it again.<br/>
-  repeat let the action be repeated repeat + 1 times, use cc.macro.REPEAT_FOREVER to let the action run continuously<br/>
-  delay is the amount of time the action will wait before it'll start<br/>
-</p>
-  - [`schedule`](#schedule) The schedule
-  - [`scheduleUpdate`](#scheduleupdate) Schedules the update callback for a given target,
-the callback will be invoked every frame after schedule started.
-  - [`unschedule`](#unschedule) Unschedules a callback for a callback and a given target.
-If you want to unschedule the "update", use `unscheduleUpdate()`
-  - [`unscheduleUpdate`](#unscheduleupdate) Unschedules the update callback for a given target.
-  - [`unscheduleAllForTarget`](#unscheduleallfortarget) Unschedules all scheduled callbacks for a given target.
-This also includes the "update" callback.
-  - [`unscheduleAll`](#unscheduleall) Unschedules all scheduled callbacks from all targets including the system callbacks.<br/>
-You should NEVER call this method, unless you know what you are doing.
-  - [`unscheduleAllWithMinPriority`](#unscheduleallwithminpriority) Unschedules all callbacks from all targets with a minimum priority.<br/>
-You should only call this with `PRIORITY_NON_SYSTEM_MIN` or higher.
-  - [`isScheduled`](#isscheduled) Checks whether a callback for a given target is scheduled.
-  - [`pauseAllTargets`](#pausealltargets) Pause all selectors from all targets.<br/>
-You should NEVER call this method, unless you know what you are doing.
-  - [`pauseAllTargetsWithMinPriority`](#pausealltargetswithminpriority) Pause all selectors from all targets with a minimum priority. <br/>
-You should only call this with kCCPriorityNonSystemMin or higher.
-  - [`resumeTargets`](#resumetargets) Resume selectors on a set of targets.<br/>
-This can be useful for undoing a call to pauseAllCallbacks.
-  - [`pauseTarget`](#pausetarget) Pauses the target.<br/>
-All scheduled selectors/update for a given target won't be 'ticked' until the target is resumed.<br/>
-If the target is not present, nothing happens.
-  - [`resumeTarget`](#resumetarget) Resumes the target.<br/>
-The 'target' will be unpaused, so all schedule selectors/update will be 'ticked' again.<br/>
-If the target is not present, nothing happens.
-  - [`isTargetPaused`](#istargetpaused) Returns whether or not the target is paused.
-  - [`scheduleUpdateForTarget`](#scheduleupdatefortarget) Schedules the 'update' callback_fn for a given target with a given priority.<br/>
-The 'update' callback_fn will be called every frame.<br/>
-The lower the priority, the earlier it is called.
-  - [`unscheduleCallbackForTarget`](#unschedulecallbackfortarget) Unschedule a callback function for a given target.<br/>
-If you want to unschedule the "update", use unscheduleUpdateForTarget.
-  - [`unscheduleUpdateForTarget`](#unscheduleupdatefortarget) Unschedules the update callback function for a given target.
-  - [`unscheduleAllCallbacksForTarget`](#unscheduleallcallbacksfortarget) Unschedules all function callbacks for a given target.<br/>
-This also includes the "update" callback function.
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) Unschedules all function callbacks from all targets. <br/>
-You should NEVER call this method, unless you know what you are doing.
-  - [`unscheduleAllCallbacksWithMinPriority`](#unscheduleallcallbackswithminpriority) Unschedules all function callbacks from all targets with a minimum priority.<br/>
-You should only call this with kCCPriorityNonSystemMin or higher.
+  - [`setTimeScale`](#settimescale) 设置时间间隔的缩放比例。<br/>
+您可以使用这个方法来创建一个 “slow motion（慢动作）” 或 “fast forward（快进）” 的效果。<br/>
+默认是 1.0。要创建一个 “slow motion（慢动作）” 效果,使用值低于 1.0。<br/>
+要使用 “fast forward（快进）” 效果，使用值大于 1.0。<br/>
+注意：它影响该 Scheduler 下管理的所有定时器。
+  - [`getTimeScale`](#gettimescale) 获取时间间隔的缩放比例。
+  - [`update`](#update) update 调度函数。(不应该直接调用这个方法，除非完全了解这么做的结果)
+  - [`scheduleCallbackForTarget`](#schedulecallbackfortarget) 指定回调函数，调用对象等信息来添加一个新的定时器。</br>
+当时间间隔达到指定值时，设置的回调函数将会被调用。</br>
+如果 paused 值为 true，那么直到 resume 被调用才开始计时。</br>
+如果 interval 值为 0，那么回调函数每一帧都会被调用，但如果是这样，
+建议使用 scheduleUpdateForTarget 代替。</br>
+如果回调函数已经被定时器使用，那么只会更新之前定时器的时间间隔参数，不会设置新的定时器。<br/>
+repeat 值可以让定时器触发 repeat + 1 次，使用 cc.macro.REPEAT_FOREVER
+可以让定时器一直循环触发。<br/>
+delay 值指定延迟时间，定时器会在延迟指定的时间之后开始计时。
+  - [`schedule`](#schedule) 定时器
+  - [`scheduleUpdate`](#scheduleupdate) 使用指定的优先级为指定的对象设置 update 定时器。
+update 定时器每一帧都会被触发。优先级的值越低，定时器被触发的越早。
+  - [`unschedule`](#unschedule) 根据指定的回调函数和调用对象。
+如果需要取消 update 定时器，请使用 unscheduleUpdate()。
+  - [`unscheduleUpdate`](#unscheduleupdate) 取消指定对象的 update 定时器。
+  - [`unscheduleAllForTarget`](#unscheduleallfortarget) 取消指定对象的所有定时器，包括 update 定时器。
+  - [`unscheduleAll`](#unscheduleall) 取消所有对象的所有定时器，包括系统定时器。<br/>
+不用调用此函数，除非你确定你在做什么。
+  - [`unscheduleAllWithMinPriority`](#unscheduleallwithminpriority) 取消所有优先级的值大于指定优先级的定时器。<br/>
+你应该只取消优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
+  - [`isScheduled`](#isscheduled) 检查指定的回调函数和回调对象组合是否存在定时器。
+  - [`pauseAllTargets`](#pausealltargets) 暂停所有对象的所有定时器。<br/>
+不要调用这个方法，除非你知道你正在做什么。
+  - [`pauseAllTargetsWithMinPriority`](#pausealltargetswithminpriority) 暂停所有优先级的值大于指定优先级的定时器。<br/>
+你应该只暂停优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
+  - [`resumeTargets`](#resumetargets) 恢复指定数组中所有对象的定时器。<br/>
+这个函数是 pauseAllCallbacks 的逆操作。
+  - [`pauseTarget`](#pausetarget) 暂停指定对象的定时器。<br/>
+指定对象的所有定时器都会被暂停。<br/>
+如果指定的对象没有定时器，什么也不会发生。
+  - [`resumeTarget`](#resumetarget) 恢复指定对象的所有定时器。<br/>
+指定对象的所有定时器将继续工作。<br/>
+如果指定的对象没有定时器，什么也不会发生。
+  - [`isTargetPaused`](#istargetpaused) 返回指定对象的定时器是否暂停了。
+  - [`scheduleUpdateForTarget`](#scheduleupdatefortarget) 为指定对象设置 update 定时器。<br/>
+update 定时器每一帧都会被调用。<br/>
+优先级的值越低，越早被调用。
+  - [`unscheduleCallbackForTarget`](#unschedulecallbackfortarget) 根据指定的回调函数和调用对象对象取消相应的定时器。<br/>
+如果需要取消 update 定时器，请使用 unscheduleUpdateForTarget()。
+  - [`unscheduleUpdateForTarget`](#unscheduleupdatefortarget) 取消指定对象的所有定时器。
+  - [`unscheduleAllCallbacksForTarget`](#unscheduleallcallbacksfortarget) 取消指定对象的所有定时器，包括 update 定时器。
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消所有对象的所有定时器。<br/>
+不要调用这个方法，除非你知道你正在做什么。
+  - [`unscheduleAllCallbacksWithMinPriority`](#unscheduleallcallbackswithminpriority) 取消所有优先级的值大于指定优先级的所有对象的所有定时器。<br/>
+你应该只暂停优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
 
 
 
@@ -92,7 +88,7 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 
 ##### PRIORITY_SYSTEM
 
-> Priority level reserved for system services.
+> 系统服务的优先级。
 
 | meta | description |
 |------|-------------|
@@ -103,7 +99,7 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 
 ##### PRIORITY_NON_SYSTEM
 
-> Minimum priority level for user scheduling.
+> 用户调度最低优先级。
 
 | meta | description |
 |------|-------------|
@@ -121,11 +117,11 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 
 ##### setTimeScale
 
-Modifies the time of all scheduled callbacks.<br/>
-You can use this property to create a 'slow motion' or 'fast forward' effect.<br/>
-Default is 1.0. To create a 'slow motion' effect, use values below 1.0.<br/>
-To create a 'fast forward' effect, use values higher than 1.0.<br/>
-Note：It will affect EVERY scheduled selector / action.
+设置时间间隔的缩放比例。<br/>
+您可以使用这个方法来创建一个 “slow motion（慢动作）” 或 “fast forward（快进）” 的效果。<br/>
+默认是 1.0。要创建一个 “slow motion（慢动作）” 效果,使用值低于 1.0。<br/>
+要使用 “fast forward（快进）” 效果，使用值大于 1.0。<br/>
+注意：它影响该 Scheduler 下管理的所有定时器。
 
 | meta | description |
 |------|-------------|
@@ -137,7 +133,7 @@ Note：It will affect EVERY scheduled selector / action.
 
 ##### getTimeScale
 
-Returns time scale of scheduler.
+获取时间间隔的缩放比例。
 
 | meta | description |
 |------|-------------|
@@ -148,7 +144,7 @@ Returns time scale of scheduler.
 
 ##### update
 
-'update' the scheduler. (You should NEVER call this method, unless you know what you are doing.)
+update 调度函数。(不应该直接调用这个方法，除非完全了解这么做的结果)
 
 | meta | description |
 |------|-------------|
@@ -160,14 +156,15 @@ Returns time scale of scheduler.
 
 ##### scheduleCallbackForTarget
 
-<p>
-  The scheduled method will be called every 'interval' seconds.</br>
-  If paused is YES, then it won't be called until it is resumed.<br/>
-  If 'interval' is 0, it will be called every frame, but if so, it recommended to use 'scheduleUpdateForTarget:' instead.<br/>
-  If the callback function is already scheduled, then only the interval parameter will be updated without re-scheduling it again.<br/>
-  repeat let the action be repeated repeat + 1 times, use cc.macro.REPEAT_FOREVER to let the action run continuously<br/>
-  delay is the amount of time the action will wait before it'll start<br/>
-</p>
+指定回调函数，调用对象等信息来添加一个新的定时器。</br>
+当时间间隔达到指定值时，设置的回调函数将会被调用。</br>
+如果 paused 值为 true，那么直到 resume 被调用才开始计时。</br>
+如果 interval 值为 0，那么回调函数每一帧都会被调用，但如果是这样，
+建议使用 scheduleUpdateForTarget 代替。</br>
+如果回调函数已经被定时器使用，那么只会更新之前定时器的时间间隔参数，不会设置新的定时器。<br/>
+repeat 值可以让定时器触发 repeat + 1 次，使用 cc.macro.REPEAT_FOREVER
+可以让定时器一直循环触发。<br/>
+delay 值指定延迟时间，定时器会在延迟指定的时间之后开始计时。
 
 | meta | description |
 |------|-------------|
@@ -188,7 +185,7 @@ Returns time scale of scheduler.
 
 ##### schedule
 
-The schedule
+定时器
 
 | meta | description |
 |------|-------------|
@@ -208,8 +205,8 @@ The schedule
 
 ##### scheduleUpdate
 
-Schedules the update callback for a given target,
-the callback will be invoked every frame after schedule started.
+使用指定的优先级为指定的对象设置 update 定时器。
+update 定时器每一帧都会被触发。优先级的值越低，定时器被触发的越早。
 
 | meta | description |
 |------|-------------|
@@ -224,8 +221,8 @@ the callback will be invoked every frame after schedule started.
 
 ##### unschedule
 
-Unschedules a callback for a callback and a given target.
-If you want to unschedule the "update", use `unscheduleUpdate()`
+根据指定的回调函数和调用对象。
+如果需要取消 update 定时器，请使用 unscheduleUpdate()。
 
 | meta | description |
 |------|-------------|
@@ -238,7 +235,7 @@ If you want to unschedule the "update", use `unscheduleUpdate()`
 
 ##### unscheduleUpdate
 
-Unschedules the update callback for a given target.
+取消指定对象的 update 定时器。
 
 | meta | description |
 |------|-------------|
@@ -250,8 +247,7 @@ Unschedules the update callback for a given target.
 
 ##### unscheduleAllForTarget
 
-Unschedules all scheduled callbacks for a given target.
-This also includes the "update" callback.
+取消指定对象的所有定时器，包括 update 定时器。
 
 | meta | description |
 |------|-------------|
@@ -263,8 +259,8 @@ This also includes the "update" callback.
 
 ##### unscheduleAll
 
-Unschedules all scheduled callbacks from all targets including the system callbacks.<br/>
-You should NEVER call this method, unless you know what you are doing.
+取消所有对象的所有定时器，包括系统定时器。<br/>
+不用调用此函数，除非你确定你在做什么。
 
 | meta | description |
 |------|-------------|
@@ -274,8 +270,8 @@ You should NEVER call this method, unless you know what you are doing.
 
 ##### unscheduleAllWithMinPriority
 
-Unschedules all callbacks from all targets with a minimum priority.<br/>
-You should only call this with `PRIORITY_NON_SYSTEM_MIN` or higher.
+取消所有优先级的值大于指定优先级的定时器。<br/>
+你应该只取消优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
 
 | meta | description |
 |------|-------------|
@@ -288,7 +284,7 @@ You should only call this with `PRIORITY_NON_SYSTEM_MIN` or higher.
 
 ##### isScheduled
 
-Checks whether a callback for a given target is scheduled.
+检查指定的回调函数和回调对象组合是否存在定时器。
 
 | meta | description |
 |------|-------------|
@@ -302,8 +298,8 @@ Checks whether a callback for a given target is scheduled.
 
 ##### pauseAllTargets
 
-Pause all selectors from all targets.<br/>
-You should NEVER call this method, unless you know what you are doing.
+暂停所有对象的所有定时器。<br/>
+不要调用这个方法，除非你知道你正在做什么。
 
 | meta | description |
 |------|-------------|
@@ -313,8 +309,8 @@ You should NEVER call this method, unless you know what you are doing.
 
 ##### pauseAllTargetsWithMinPriority
 
-Pause all selectors from all targets with a minimum priority. <br/>
-You should only call this with kCCPriorityNonSystemMin or higher.
+暂停所有优先级的值大于指定优先级的定时器。<br/>
+你应该只暂停优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
 
 | meta | description |
 |------|-------------|
@@ -326,8 +322,8 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 
 ##### resumeTargets
 
-Resume selectors on a set of targets.<br/>
-This can be useful for undoing a call to pauseAllCallbacks.
+恢复指定数组中所有对象的定时器。<br/>
+这个函数是 pauseAllCallbacks 的逆操作。
 
 | meta | description |
 |------|-------------|
@@ -339,9 +335,9 @@ This can be useful for undoing a call to pauseAllCallbacks.
 
 ##### pauseTarget
 
-Pauses the target.<br/>
-All scheduled selectors/update for a given target won't be 'ticked' until the target is resumed.<br/>
-If the target is not present, nothing happens.
+暂停指定对象的定时器。<br/>
+指定对象的所有定时器都会被暂停。<br/>
+如果指定的对象没有定时器，什么也不会发生。
 
 | meta | description |
 |------|-------------|
@@ -353,9 +349,9 @@ If the target is not present, nothing happens.
 
 ##### resumeTarget
 
-Resumes the target.<br/>
-The 'target' will be unpaused, so all schedule selectors/update will be 'ticked' again.<br/>
-If the target is not present, nothing happens.
+恢复指定对象的所有定时器。<br/>
+指定对象的所有定时器将继续工作。<br/>
+如果指定的对象没有定时器，什么也不会发生。
 
 | meta | description |
 |------|-------------|
@@ -367,7 +363,7 @@ If the target is not present, nothing happens.
 
 ##### isTargetPaused
 
-Returns whether or not the target is paused.
+返回指定对象的定时器是否暂停了。
 
 | meta | description |
 |------|-------------|
@@ -380,9 +376,9 @@ Returns whether or not the target is paused.
 
 ##### scheduleUpdateForTarget
 
-Schedules the 'update' callback_fn for a given target with a given priority.<br/>
-The 'update' callback_fn will be called every frame.<br/>
-The lower the priority, the earlier it is called.
+为指定对象设置 update 定时器。<br/>
+update 定时器每一帧都会被调用。<br/>
+优先级的值越低，越早被调用。
 
 | meta | description |
 |------|-------------|
@@ -400,8 +396,8 @@ The lower the priority, the earlier it is called.
 
 ##### unscheduleCallbackForTarget
 
-Unschedule a callback function for a given target.<br/>
-If you want to unschedule the "update", use unscheduleUpdateForTarget.
+根据指定的回调函数和调用对象对象取消相应的定时器。<br/>
+如果需要取消 update 定时器，请使用 unscheduleUpdateForTarget()。
 
 | meta | description |
 |------|-------------|
@@ -418,7 +414,7 @@ If you want to unschedule the "update", use unscheduleUpdateForTarget.
 
 ##### unscheduleUpdateForTarget
 
-Unschedules the update callback function for a given target.
+取消指定对象的所有定时器。
 
 | meta | description |
 |------|-------------|
@@ -434,8 +430,7 @@ Unschedules the update callback function for a given target.
 
 ##### unscheduleAllCallbacksForTarget
 
-Unschedules all function callbacks for a given target.<br/>
-This also includes the "update" callback function.
+取消指定对象的所有定时器，包括 update 定时器。
 
 | meta | description |
 |------|-------------|
@@ -448,8 +443,8 @@ This also includes the "update" callback function.
 
 ##### unscheduleAllCallbacks
 
-Unschedules all function callbacks from all targets. <br/>
-You should NEVER call this method, unless you know what you are doing.
+取消所有对象的所有定时器。<br/>
+不要调用这个方法，除非你知道你正在做什么。
 
 | meta | description |
 |------|-------------|
@@ -460,8 +455,8 @@ You should NEVER call this method, unless you know what you are doing.
 
 ##### unscheduleAllCallbacksWithMinPriority
 
-Unschedules all function callbacks from all targets with a minimum priority.<br/>
-You should only call this with kCCPriorityNonSystemMin or higher.
+取消所有优先级的值大于指定优先级的所有对象的所有定时器。<br/>
+你应该只暂停优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
 
 | meta | description |
 |------|-------------|

@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for PageView Indicator direction
+页面视图指示器的摆放方向
 
 ### Index
 
@@ -23,7 +23,7 @@ Enum for PageView Indicator direction
 
 ##### HORIZONTAL
 
-> The horizontal direction.
+> 水平方向
 
 | meta | description |
 |------|-------------|
@@ -34,7 +34,7 @@ Enum for PageView Indicator direction
 
 ##### VERTICAL
 
-> The vertical direction.
+> 垂直方向
 
 | meta | description |
 |------|-------------|

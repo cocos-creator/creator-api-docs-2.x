@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The Page View Size Mode
+页面视图每个页面统一的大小类型
 
 ### Index
 
@@ -23,7 +23,7 @@ The Page View Size Mode
 
 ##### Unified
 
-> Each page is unified in size
+> 每个页面统一大小
 
 | meta | description |
 |------|-------------|
@@ -34,7 +34,7 @@ The Page View Size Mode
 
 ##### Free
 
-> Each page is in free size
+> 每个页面大小随意
 
 | meta | description |
 |------|-------------|

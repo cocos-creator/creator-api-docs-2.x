@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-The Page View Direction
+页面视图滚动类型
 
 ### Index
 
@@ -23,7 +23,7 @@ The Page View Direction
 
 ##### Horizontal
 
-> Horizontal scroll.
+> 水平滚动
 
 | meta | description |
 |------|-------------|
@@ -34,7 +34,7 @@ The Page View Direction
 
 ##### Vertical
 
-> Vertical scroll.
+> 垂直滚动
 
 | meta | description |
 |------|-------------|

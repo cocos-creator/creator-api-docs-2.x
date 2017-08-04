@@ -7,29 +7,23 @@ Module: [cc](../modules/cc.md)
 
 
 
-Component will register a event to target component's handler.
-And it will trigger the handler when a certain event occurs.
 
-!@zh
-“EventHandler” 类用来设置场景中的事件回调，
-该类允许用户设置回调目标节点，目标组件名，组件方法名，
-并可通过 emit 方法调用目标函数。
 
 ### Index
 
 ##### Properties
 
-  - [`target`](#target) `Node` Event target
-  - [`component`](#component) `String` Component name
-  - [`handler`](#handler) `String` Event handler
-  - [`customEventData`](#customeventdata) `String` Custom Event Data
+  - [`target`](#target) `Node` 目标节点
+  - [`component`](#component) `String` 目标组件名
+  - [`handler`](#handler) `String` 响应事件函数名
+  - [`customEventData`](#customeventdata) `String` 自定义事件数据
 
 
 
 ##### Methods
 
   - [`emitEvents`](#emitevents) 
-  - [`emit`](#emit) Emit event with params
+  - [`emit`](#emit) 触发目标组件上的指定 handler 函数，该参数是回调函数的参数值（可不填）。
 
 
 
@@ -41,7 +35,7 @@ And it will trigger the handler when a certain event occurs.
 
 ##### target
 
-> Event target
+> 目标节点
 
 | meta | description |
 |------|-------------|
@@ -52,7 +46,7 @@ And it will trigger the handler when a certain event occurs.
 
 ##### component
 
-> Component name
+> 目标组件名
 
 | meta | description |
 |------|-------------|
@@ -63,7 +57,7 @@ And it will trigger the handler when a certain event occurs.
 
 ##### handler
 
-> Event handler
+> 响应事件函数名
 
 | meta | description |
 |------|-------------|
@@ -74,7 +68,7 @@ And it will trigger the handler when a certain event occurs.
 
 ##### customEventData
 
-> Custom Event Data
+> 自定义事件数据
 
 | meta | description |
 |------|-------------|
@@ -105,7 +99,7 @@ And it will trigger the handler when a certain event occurs.
 
 ##### emit
 
-Emit event with params
+触发目标组件上的指定 handler 函数，该参数是回调函数的参数值（可不填）。
 
 | meta | description |
 |------|-------------|

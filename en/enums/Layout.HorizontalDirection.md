@@ -7,8 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for horizontal layout direction.
- Used in Grid Layout together with AxisDirection is HORIZONTAL
+水平方向布局方式
 
 ### Index
 
@@ -24,7 +23,7 @@ Enum for horizontal layout direction.
 
 ##### LEFT_TO_RIGHT
 
-> Items arranged from left to right.
+> 从左往右排列
 
 | meta | description |
 |------|-------------|
@@ -35,7 +34,7 @@ Enum for horizontal layout direction.
 
 ##### RIGHT_TO_LEFT
 
-> Items arranged from right to left.
+> 从右往左排列
 
 | meta | description |
 |------|-------------|

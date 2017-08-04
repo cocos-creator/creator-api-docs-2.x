@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-Enum for ScrollView event type.
+滚动视图事件类型
 
 ### Index
 
@@ -33,7 +33,7 @@ Enum for ScrollView event type.
 
 ##### SCROLL_TO_TOP
 
-> The event emmitted when ScrollView scroll to the top boundary of inner container
+> 滚动视图滚动到顶部边界事件
 
 | meta | description |
 |------|-------------|
@@ -44,7 +44,7 @@ Enum for ScrollView event type.
 
 ##### SCROLL_TO_BOTTOM
 
-> The event emmitted when ScrollView scroll to the bottom boundary of inner container
+> 滚动视图滚动到底部边界事件
 
 | meta | description |
 |------|-------------|
@@ -55,7 +55,7 @@ Enum for ScrollView event type.
 
 ##### SCROLL_TO_LEFT
 
-> The event emmitted when ScrollView scroll to the left boundary of inner container
+> 滚动视图滚动到左边界事件
 
 | meta | description |
 |------|-------------|
@@ -66,7 +66,7 @@ Enum for ScrollView event type.
 
 ##### SCROLL_TO_RIGHT
 
-> The event emmitted when ScrollView scroll to the right boundary of inner container
+> 滚动视图滚动到右边界事件
 
 | meta | description |
 |------|-------------|
@@ -77,7 +77,7 @@ Enum for ScrollView event type.
 
 ##### SCROLLING
 
-> The event emmitted when ScrollView is scrolling
+> 滚动视图正在滚动时发出的事件
 
 | meta | description |
 |------|-------------|
@@ -88,7 +88,7 @@ Enum for ScrollView event type.
 
 ##### BOUNCE_TOP
 
-> The event emmitted when ScrollView scroll to the top boundary of inner container and start bounce
+> 滚动视图滚动到顶部边界并且开始回弹时发出的事件
 
 | meta | description |
 |------|-------------|
@@ -99,7 +99,7 @@ Enum for ScrollView event type.
 
 ##### BOUNCE_BOTTOM
 
-> The event emmitted when ScrollView scroll to the bottom boundary of inner container and start bounce
+> 滚动视图滚动到底部边界并且开始回弹时发出的事件
 
 | meta | description |
 |------|-------------|
@@ -110,7 +110,7 @@ Enum for ScrollView event type.
 
 ##### BOUNCE_LEFT
 
-> The event emmitted when ScrollView scroll to the left boundary of inner container and start bounce
+> 滚动视图滚动到左边界并且开始回弹时发出的事件
 
 | meta | description |
 |------|-------------|
@@ -121,7 +121,7 @@ Enum for ScrollView event type.
 
 ##### BOUNCE_RIGHT
 
-> The event emmitted when ScrollView scroll to the right boundary of inner container and start bounce
+> 滚动视图滚动到右边界并且开始回弹时发出的事件
 
 | meta | description |
 |------|-------------|
@@ -132,7 +132,7 @@ Enum for ScrollView event type.
 
 ##### AUTOSCROLL_ENDED
 
-> The event emmitted when ScrollView scroll ended
+> 滚动视图滚动滚动结束的时候发出的事件
 
 | meta | description |
 |------|-------------|
@@ -143,7 +143,7 @@ Enum for ScrollView event type.
 
 ##### TOUCH_UP
 
-> The event emmitted when user release the touch
+> 当用户松手的时候会发出一个事件
 
 | meta | description |
 |------|-------------|
@@ -154,7 +154,7 @@ Enum for ScrollView event type.
 
 ##### AUTOSCROLL_ENDED_WITH_THRESHOLD
 
-> The event emmitted when ScrollView scroll ended with a threshold
+> 滚动视图滚动快要结束的时候发出的事件
 
 | meta | description |
 |------|-------------|
