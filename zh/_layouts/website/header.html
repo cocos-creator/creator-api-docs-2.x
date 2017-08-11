@@ -1,0 +1,17 @@
+{% extends template.self %}
+{% block book_header %}
+<div class="book-header" role="navigation">
+    <a href="http://cocos.com" target="_blank"><img src="http://forum.cocos.com/images/logo.png" height="30" /></a>
+    <a href="#"><i class="fa fa-caret-square-o-up"></i>Creator API</a>
+    <a href="#"><i class="fa fa-book"></i>Cocos2d-x Programming Guide</a>                
+    <a href="#"><i class="fa fa-book"></i>Cocos2d-x API</a>        
+    {% if glossary.path %}
+    <a href="{{ ('/' + glossary.path)|resolveFile }}" class="btn pull-left" aria-label="{{ "GLOSSARY_OPEN"|t }}"><i class="fa fa-sort-alpha-asc"></i></a>
+    {% endif %}
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="{{ "/"|resolveFile }}" >{{ page.title }}</a>
+    </h1>
+</div>
+{% endblock %}

@@ -2,7 +2,8 @@
     "plugins":[
         "-lunr", "-search",
         "search-pro@git+https://github.com/cocos-creator/gitbook-plugin-search-pro.git#master",
-        "anchorjs" 
+        "anchorjs",
+        "sharing"
     ],
     "pluginsConfig": {
         "search": {
@@ -10,6 +11,30 @@
         },
         "lunr": {
             "maxIndexSize": 1000000000
-        }
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": true,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": true,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "qzone", "linkedin",
+                "pocket", "stumbleupon"
+            ]
+        }        
     }
 }
