@@ -1,7 +1,7 @@
 {
     "plugins":[
         "-lunr", "-search",
-        "search-pro@git+https://github.com/cocos-creator/gitbook-plugin-search-pro.git#master",
+        "search-title",
         "anchorjs",
         "sharing"
     ],
