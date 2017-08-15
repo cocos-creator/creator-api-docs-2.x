@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-动画使用的循环模式。
+Specifies how time is treated when it is outside of the keyframe range of an Animation.
 
 ### Index
 
@@ -28,77 +28,80 @@ Module: [cc](../modules/cc.md)
 
 ##### Default
 
-> 向 Animation Component 或者 AnimationClip 查找 wrapMode
+> Reads the default wrap mode set higher up.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:23](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L23) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:23](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L23) |
 
 
 
 ##### Normal
 
-> 动画只播放一遍
+> All iterations are played as specified.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:30](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L30) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:30](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L30) |
 
 
 
 ##### Reverse
 
-> 从最后一帧或结束位置开始反向播放，到第一帧或开始位置停止
+> All iterations are played in the reverse direction from the way they are specified.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L37) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:37](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L37) |
 
 
 
 ##### Loop
 
-> 循环播放
+> When time reaches the end of the animation, time will continue at the beginning.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L44) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:44](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L44) |
 
 
 
 ##### LoopReverse
 
-> 反向循环播放
+> All iterations are played in the reverse direction from the way they are specified.
+And when time reaches the start of the animation, time will continue at the ending.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L51) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:51](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L51) |
 
 
 
 ##### PingPong
 
-> 从第一帧播放到最后一帧，然后反向播放回第一帧，到第一帧后再正向播放，如此循环
+> Even iterations are played as specified, odd iterations are played in the reverse direction from the way they
+are specified.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:59](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L59) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:59](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L59) |
 
 
 
 ##### PingPongReverse
 
-> 从最后一帧开始反向播放，其他同 PingPong
+> Even iterations are played in the reverse direction from the way they are specified, odd iterations are played
+as specified.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L67) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:67](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L67) |
 
 

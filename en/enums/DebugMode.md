@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-调试模式
+Enum for debug modes.
 
 ### Index
 
@@ -28,77 +28,77 @@ Module: [cc](../modules/cc.md)
 
 ##### NONE
 
-> 禁止模式，禁止显示任何日志信息。
+> The debug mode none.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:80](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L80) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:80](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L80) |
 
 
 
 ##### INFO
 
-> 信息模式，在 console 中显示所有日志。
+> The debug mode info.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:88](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L88) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:88](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L88) |
 
 
 
 ##### WARN
 
-> 警告模式，在 console 中只显示 warn 级别以上的（包含 error）日志。
+> The debug mode warn.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:96](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L96) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:96](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L96) |
 
 
 
 ##### ERROR
 
-> 错误模式，在 console 中只显示 error 日志。
+> The debug mode error.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:104](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L104) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:104](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L104) |
 
 
 
 ##### INFO_FOR_WEB_PAGE
 
-> 信息模式（仅 WEB 端有效），在画面上输出所有信息。
+> The debug mode info for web page.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:112](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L112) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:112](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L112) |
 
 
 
 ##### WARN_FOR_WEB_PAGE
 
-> 警告模式（仅 WEB 端有效），在画面上输出 warn 级别以上的（包含 error）信息。
+> The debug mode warn for web page.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:120](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L120) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:120](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L120) |
 
 
 
 ##### ERROR_FOR_WEB_PAGE
 
-> 错误模式（仅 WEB 端有效），在画面上输出 error 信息。
+> The debug mode error for web page.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:128](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L128) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:128](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L128) |
 
 

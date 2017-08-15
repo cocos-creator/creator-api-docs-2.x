@@ -64,7 +64,7 @@
 
 ##### Properties
 
-  - [`agentManager`](#agentmanager) `anysdk.AgentManager` 插件管理对象
+  - [`agentManager`](#agentmanager) `anysdk.AgentManager` agent manager of plugin
 
 
 
@@ -78,12 +78,12 @@
 
 ##### agentManager
 
-> 插件管理对象
+> agent manager of plugin
 
 | meta | description |
 |------|-------------|
 | Type | anysdk.AgentManager |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:39](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L39) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:39](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L39) |
 
 
 

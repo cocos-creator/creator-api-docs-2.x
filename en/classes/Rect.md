@@ -9,7 +9,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-通过位置和宽高定义的 2D 矩形。
+A 2D rectangle defined by x, y position and width, height.
 
 ### Index
 
@@ -19,31 +19,29 @@ Parent Module: [cc](../modules/cc.md)
   - [`y`](#y) `Number` 
   - [`width`](#width) `Number` 
   - [`height`](#height) `Number` 
-  - [`xMin`](#xmin) `Number` 矩形 x 轴上的最小值。
-  - [`yMin`](#ymin) `Number` 矩形 y 轴上的最小值。
-  - [`xMax`](#xmax) `Number` 矩形 x 轴上的最大值。
-  - [`yMax`](#ymax) `Number` 矩形 y 轴上的最大值。
-  - [`center`](#center) `Vec2` 矩形的中心点。
-  - [`origin`](#origin) `Vec2` 矩形的 x 和 y 坐标。
-  - [`size`](#size) `Size` 矩形的大小。
+  - [`xMin`](#xmin) `Number` TODO
+  - [`yMin`](#ymin) `Number` TODO
+  - [`xMax`](#xmax) `Number` TODO
+  - [`yMax`](#ymax) `Number` TODO
+  - [`center`](#center) `Vec2` The position of the center of the rectangle.
+  - [`origin`](#origin) `Vec2` The X and Y position of the rectangle.
+  - [`size`](#size) `Size` Width and height of the rectangle.
 
 
 
 ##### Methods
 
-  - [`constructor`](#constructor) cc.Rect类的构造函数。可以通过 <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> 简便方法进行创建。
-  - [`fromMinMax`](#fromminmax) 根据指定 2 个坐标创建出一个矩形区域。
-  - [`contain`](#contain) 判断 2 个矩形是否有包含。<br/>
-返回 1 为 a 包含 b，如果 -1 为 b 包含 a,
-0 这则都不包含。
-  - [`clone`](#clone) 克隆一个新的 Rect。
-  - [`equals`](#equals) 是否等于指定的矩形。
-  - [`lerp`](#lerp) 线性插值
-  - [`toString`](#tostring) 转换为方便阅读的字符串
-  - [`intersects`](#intersects) 当前矩形与指定矩形是否相交。
-  - [`contains`](#contains) 当前矩形是否包含指定坐标点。
-Returns true if the point inside this rectangle.
-  - [`containsRect`](#containsrect) 当前矩形是否包含指定矩形。
+  - [`constructor`](#constructor) Constructor of cc.Rect class.
+see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for convenience method.
+  - [`fromMinMax`](#fromminmax) Creates a rectangle from two coordinate values.
+  - [`contain`](#contain) Checks if rect contains.
+  - [`clone`](#clone) TODO
+  - [`equals`](#equals) TODO
+  - [`lerp`](#lerp) TODO
+  - [`toString`](#tostring) TODO
+  - [`intersects`](#intersects) TODO
+  - [`contains`](#contains) TODO
+  - [`containsRect`](#containsrect) Returns true if the other rect totally inside this rectangle.
 
 
 
@@ -60,7 +58,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L66) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:66](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L66) |
 
 
 
@@ -71,7 +69,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:69](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L69) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:69](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L69) |
 
 
 
@@ -82,7 +80,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:72](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L72) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:72](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L72) |
 
 
 
@@ -93,84 +91,84 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L75) |
 
 
 
 ##### xMin
 
-> 矩形 x 轴上的最小值。
+> TODO
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:215](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L215) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:215](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L215) |
 
 
 
 ##### yMin
 
-> 矩形 y 轴上的最小值。
+> TODO
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L229) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:229](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L229) |
 
 
 
 ##### xMax
 
-> 矩形 x 轴上的最大值。
+> TODO
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L243) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:243](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L243) |
 
 
 
 ##### yMax
 
-> 矩形 y 轴上的最大值。
+> TODO
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L254) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:254](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L254) |
 
 
 
 ##### center
 
-> 矩形的中心点。
+> The position of the center of the rectangle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:265](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L265) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:265](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L265) |
 
 
 
 ##### origin
 
-> 矩形的 x 和 y 坐标。
+> The X and Y position of the rectangle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:281](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L281) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:281](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L281) |
 
 
 
 ##### size
 
-> 矩形的大小。
+> Width and height of the rectangle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:296](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L296) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:296](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L296) |
 
 
 
@@ -183,11 +181,12 @@ Returns true if the point inside this rectangle.
 
 ##### constructor
 
-cc.Rect类的构造函数。可以通过 <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> 简便方法进行创建。
+Constructor of cc.Rect class.
+see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for convenience method.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:38](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L38) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:38](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L38) |
 
 ###### Parameters
 - x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -198,11 +197,11 @@ cc.Rect类的构造函数。可以通过 <a href="../modules/cc.html#method_rect
 
 ##### fromMinMax
 
-根据指定 2 个坐标创建出一个矩形区域。
+Creates a rectangle from two coordinate values.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:79](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L79) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:79](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L79) |
 | Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ###### Parameters
@@ -217,13 +216,11 @@ cc.Rect.fromMinMax(cc.v2(10, 10), cc.v2(20, 20)); // Rect {x: 10, y: 10, width: 
 
 ##### contain
 
-判断 2 个矩形是否有包含。<br/>
-返回 1 为 a 包含 b，如果 -1 为 b 包含 a,
-0 这则都不包含。
+Checks if rect contains.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:99](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L99) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:99](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L99) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -243,11 +240,11 @@ cc.Rect.contain(a, c); //  0;
 
 ##### clone
 
-克隆一个新的 Rect。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:138](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L138) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:138](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L138) |
 | Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 
@@ -260,11 +257,11 @@ a.clone();// Rect {x: 0, y: 0, width: 10, height: 10}
 
 ##### equals
 
-是否等于指定的矩形。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:151](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L151) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:151](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L151) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -280,11 +277,11 @@ a.equals(b);// true;
 
 ##### lerp
 
-线性插值
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:170](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L170) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:170](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L170) |
 | Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ###### Parameters
@@ -307,11 +304,11 @@ update (dt) {
 
 ##### toString
 
-转换为方便阅读的字符串
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L201) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:201](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L201) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
@@ -324,11 +321,11 @@ a.toString();// "(0.00, 0.00, 10.00, 10.00)";
 
 ##### intersects
 
-当前矩形与指定矩形是否相交。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:311](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L311) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:311](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L311) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -343,12 +340,11 @@ a.intersects(b);// true
 
 ##### contains
 
-当前矩形是否包含指定坐标点。
-Returns true if the point inside this rectangle.
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:326](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L326) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:326](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L326) |
 
 ###### Parameters
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -363,11 +359,11 @@ a.contains(b);// true
 
 ##### containsRect
 
-当前矩形是否包含指定矩形。
+Returns true if the other rect totally inside this rectangle.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:345](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L345) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:345](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L345) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 

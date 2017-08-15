@@ -7,7 +7,7 @@ Module: [sp](../modules/sp.md)
 
 
 
-骨骼动画事件类型。
+The event type of spine skeleton animation.
 
 ### Index
 
@@ -25,44 +25,44 @@ Module: [sp](../modules/sp.md)
 
 ##### START
 
-> 开始播放骨骼动画。
+> The play spine skeleton animation start type.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js:74](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js#L74) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js:74](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js#L74) |
 
 
 
 ##### END
 
-> 播放骨骼动画结束。
+> The play spine skeleton animation finish type.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js:85](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js#L85) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js:85](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js#L85) |
 
 
 
 ##### COMPLETE
 
-> 播放骨骼动画完成。
+> The play spine skeleton animation complete type.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js:96](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js#L96) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js:96](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js#L96) |
 
 
 
 ##### EVENT
 
-> 骨骼动画事件。
+> The spine skeleton animation event type.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js:102](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js#L102) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js:102](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js#L102) |
 
 

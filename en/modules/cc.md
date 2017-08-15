@@ -21,6 +21,14 @@
   - [ActionInstant](../classes/ActionInstant.md)
   - [ActionInterval](../classes/ActionInterval.md)
   - [ActionManager](../classes/ActionManager.md)
+  - [AnimationClip](../classes/AnimationClip.md)
+  - [AnimationState](../classes/AnimationState.md)
+  - [Playable](../classes/Playable.md)
+  - [WrapMode](../classes/WrapMode.md)
+  - [AnimationNodeBase](../classes/AnimationNodeBase.md)
+  - [AnimationNode](../classes/AnimationNode.md)
+  - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
+  - [audioEngine](../classes/audioEngine.md)
   - [Director](../classes/Director.md)
   - [Game](../classes/Game.md)
   - [Node.EventType](../classes/Node.EventType.md)
@@ -31,14 +39,6 @@
   - [ParticleSystem.EmitterMode](../classes/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../classes/ParticleSystem.PositionType.md)
   - [ParticleSystem](../classes/ParticleSystem.md)
-  - [AnimationClip](../classes/AnimationClip.md)
-  - [AnimationState](../classes/AnimationState.md)
-  - [Playable](../classes/Playable.md)
-  - [WrapMode](../classes/WrapMode.md)
-  - [AnimationNodeBase](../classes/AnimationNodeBase.md)
-  - [AnimationNode](../classes/AnimationNode.md)
-  - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
-  - [audioEngine](../classes/audioEngine.md)
   - [TMXObject](../classes/TMXObject.md)
   - [TiledLayer](../classes/TiledLayer.md)
   - [TiledMap.Orientation](../classes/TiledMap.Orientation.md)
@@ -47,7 +47,6 @@
   - [TiledObjectGroup](../classes/TiledObjectGroup.md)
   - [NodePool](../classes/NodePool.md)
   - [pool](../classes/pool.md)
-  - [Camera](../classes/Camera.md)
   - [Asset](../classes/Asset.md)
   - [AudioClip](../classes/AudioClip.md)
   - [BitmapFont](../classes/BitmapFont.md)
@@ -63,6 +62,16 @@
   - [SpriteAtlas](../classes/SpriteAtlas.md)
   - [TTFFont](../classes/TTFFont.md)
   - [TextAsset](../classes/TextAsset.md)
+  - [Camera](../classes/Camera.md)
+  - [Collider.Box](../classes/Collider.Box.md)
+  - [BoxCollider](../classes/BoxCollider.md)
+  - [Collider.Circle](../classes/Collider.Circle.md)
+  - [CircleCollider](../classes/CircleCollider.md)
+  - [Collider](../classes/Collider.md)
+  - [CollisionManager](../classes/CollisionManager.md)
+  - [Intersection](../classes/Intersection.md)
+  - [Collider.Polygon](../classes/Collider.Polygon.md)
+  - [PolygonCollider](../classes/PolygonCollider.md)
   - [Animation](../classes/Animation.md)
   - [AudioSource](../classes/AudioSource.md)
   - [BlockInputEvents](../classes/BlockInputEvents.md)
@@ -121,21 +130,9 @@
   - [WebView.EventType](../classes/WebView.EventType.md)
   - [WebView](../classes/WebView.md)
   - [Widget](../classes/Widget.md)
-  - [Collider.Box](../classes/Collider.Box.md)
-  - [BoxCollider](../classes/BoxCollider.md)
-  - [Collider.Circle](../classes/Collider.Circle.md)
-  - [CircleCollider](../classes/CircleCollider.md)
-  - [Collider](../classes/Collider.md)
-  - [CollisionManager](../classes/CollisionManager.md)
-  - [Intersection](../classes/Intersection.md)
-  - [Collider.Polygon](../classes/Collider.Polygon.md)
-  - [PolygonCollider](../classes/PolygonCollider.md)
   - [EventTarget](../classes/EventTarget.md)
   - [Event](../classes/Event.md)
   - [Event.EventCustom](../classes/Event.EventCustom.md)
-  - [Graphics](../classes/Graphics.md)
-  - [Graphics.LineCap](../classes/Graphics.LineCap.md)
-  - [Graphics.LineJoin](../classes/Graphics.LineJoin.md)
   - [Event.EventMouse](../classes/Event.EventMouse.md)
   - [Event.EventTouch](../classes/Event.EventTouch.md)
   - [Event.EventAcceleration](../classes/Event.EventAcceleration.md)
@@ -145,6 +142,15 @@
   - [SystemEvent.EventType](../classes/SystemEvent.EventType.md)
   - [SystemEvent](../classes/SystemEvent.md)
   - [Touch](../classes/Touch.md)
+  - [Graphics](../classes/Graphics.md)
+  - [Graphics.LineCap](../classes/Graphics.LineCap.md)
+  - [Graphics.LineJoin](../classes/Graphics.LineJoin.md)
+  - [loader](../classes/loader.md)
+  - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
+  - [Pipeline.Loader](../classes/Pipeline.Loader.md)
+  - [LoadingItems](../classes/LoadingItems.md)
+  - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
+  - [Pipeline](../classes/Pipeline.md)
   - [WorldManifold](../classes/WorldManifold.md)
   - [ManifoldPoint](../classes/ManifoldPoint.md)
   - [Manifold](../classes/Manifold.md)
@@ -156,16 +162,6 @@
   - [RigidBodyType](../classes/RigidBodyType.md)
   - [RayCastType](../classes/RayCastType.md)
   - [RigidBody](../classes/RigidBody.md)
-  - [loader](../classes/loader.md)
-  - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
-  - [Pipeline.Loader](../classes/Pipeline.Loader.md)
-  - [LoadingItems](../classes/LoadingItems.md)
-  - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
-  - [Pipeline](../classes/Pipeline.md)
-  - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
-  - [Texture2D](../classes/Texture2D.md)
-  - [TextureAtlas](../classes/TextureAtlas.md)
-  - [textureCache](../classes/textureCache.md)
   - [inputManager](../classes/inputManager.md)
   - [KEY](../classes/KEY.md)
   - [ImageFormat](../classes/ImageFormat.md)
@@ -189,6 +185,10 @@
   - [Details](../classes/Details.md)
   - [url](../classes/url.md)
   - [SpriteFrame](../classes/SpriteFrame.md)
+  - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
+  - [Texture2D](../classes/Texture2D.md)
+  - [TextureAtlas](../classes/TextureAtlas.md)
+  - [textureCache](../classes/textureCache.md)
   - [_BaseNode](../classes/_BaseNode.md)
   - [AffineTransform](../classes/AffineTransform.md)
   - [Color](../classes/Color.md)
@@ -228,10 +228,10 @@
 ### Enums
 
   - [DebugMode](../enums/DebugMode.md)
-  - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
-  - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
   - [WrapMode](../enums/WrapMode.md)
   - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
+  - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
+  - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
   - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
   - [Button.Transition](../enums/Button.Transition.md)
   - [EditBox.KeyboardReturnType](../enums/EditBox.KeyboardReturnType.md)
@@ -261,18 +261,18 @@
   - [VideoPlayer.EventType](../enums/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../enums/VideoPlayer.ResourceType.md)
   - [WebView.EventType](../enums/WebView.EventType.md)
+  - [SystemEvent.EventType](../enums/SystemEvent.EventType.md)
   - [Graphics.LineCap](../enums/Graphics.LineCap.md)
   - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
-  - [SystemEvent.EventType](../enums/SystemEvent.EventType.md)
+  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
   - [DrawBits](../enums/DrawBits.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [RayCastType](../enums/RayCastType.md)
-  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
-  - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
   - [KEY](../enums/KEY.md)
   - [ImageFormat](../enums/ImageFormat.md)
   - [macro](../enums/macro.md)
   - [Flags](../enums/Flags.md)
+  - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
   - [BlendFactor](../enums/BlendFactor.md)
   - [TextAlignment](../enums/TextAlignment.md)
 
@@ -288,11 +288,11 @@ If you post a bug to forum, please attach this flag.
   - [`_renderContext`](#rendercontext) `CanvasRenderingContext2D|WebGLRenderingContext` main Canvas 2D/3D Context of game engine
   - [`_canvas`](#canvas) `HTMLCanvasElement` Main canvas of game engine
   - [`container`](#container) `HTMLDivElement` The element contains the game canvas
-  - [`view`](#view) `View` cc.view 是全局的视图对象。
-  - [`director`](#director) `Director` 导演类。
-  - [`winSize`](#winsize) `Size` cc.winSize 为当前的游戏窗口的大小。
+  - [`view`](#view) `View` cc.view is the shared view object.
+  - [`director`](#director) `Director` Director
+  - [`winSize`](#winsize) `Size` cc.winSize is the alias object for the size of the current game window.
   - [`game`](#game) `Game` 
-  - [`systemEvent`](#systemevent) `SystemEvent` 系统事件单例，方便全局使用
+  - [`systemEvent`](#systemevent) `SystemEvent` The System event singleton for global usage
   - [`Integer`](#integer) `string` Specify that the input value must be integer in Inspector.
 Also used to indicates that the elements in array should be type integer.
   - [`Float`](#float) `string` Indicates that the elements in array should be type double.
@@ -303,152 +303,177 @@ Also used to indicates that the elements in array should be type integer.
 
 ##### Methods
 
-  - [`_initDebugSetting`](#initdebugsetting) 设置调试模式。
-  - [`error`](#error) 输出错误消息到 Cocos Creator 编辑器的 Console 或运行时页面端的 Console 中。<br/>
-- 在 Cocos Creator 中，错误信息显示是红色的。<br/>
-- 在 Chrome 中，错误信息有红色的图标以及红色的消息文本。<br/>
-  - [`warn`](#warn) 输出警告消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。<br/>
-- 在 Cocos Creator 中，警告信息显示是黄色的。<br/>
-- 在 Chrome 中，警告信息有着黄色的图标以及黄色的消息文本。<br/>
-  - [`log`](#log) 输出一条消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
-  - [`info`](#info) 输出一条信息消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
-- 在 Cocos Creator 中，Info 信息显示是蓝色的。<br/>
-- 在 Firefox 和  Chrome 中，Info 信息有着小 “i” 图标。
-  - [`speed`](#speed) 修改目标动作的速率。
-  - [`follow`](#follow) 追踪目标节点的位置。
+  - [`_initDebugSetting`](#initdebugsetting) Init Debug setting.
+  - [`error`](#error) Outputs an error message to the Cocos Creator Console (editor) or Web Console (runtime).<br/>
+- In Cocos Creator, error is red.<br/>
+- In Chrome, error have a red icon along with red message text.<br/>
+  - [`warn`](#warn) Outputs a warning message to the Cocos Creator Console (editor) or Web Console (runtime).
+- In Cocos Creator, warning is yellow.
+- In Chrome, warning have a yellow warning icon with the message text.
+  - [`log`](#log) Outputs a message to the Cocos Creator Console (editor) or Web Console (runtime).
+  - [`info`](#info) Outputs an informational message to the Cocos Creator Console (editor) or Web Console (runtime).
+- In Cocos Creator, info is blue.
+- In Firefox and Chrome, a small "i" icon is displayed next to these items in the Web Console's log.
+  - [`speed`](#speed) Creates the speed action which changes the speed of an action, making it take longer (speed > 1)
+or less (speed < 1) time. <br/>
+Useful to simulate 'slow motion' or 'fast forward' effect.
+  - [`follow`](#follow) Create a follow action which makes its target follows another node.
   - [`setPoints`](#setpoints) Points setter
-  - [`cardinalSplineTo`](#cardinalsplineto) 按基数样条曲线轨迹移动到目标位置。
+  - [`cardinalSplineTo`](#cardinalsplineto) Creates an action with a Cardinal Spline array of points and tension.
   - [`updatePosition`](#updateposition) update position of target
-  - [`cardinalSplineBy`](#cardinalsplineby) 按基数样条曲线轨迹移动指定的距离。
-  - [`catmullRomTo`](#catmullromto) 按 Catmull Rom 样条曲线轨迹移动到目标位置。
-  - [`catmullRomBy`](#catmullromby) 按 Catmull Rom 样条曲线轨迹移动指定的距离。
-  - [`easeIn`](#easein) 创建 easeIn 缓动对象，由慢到快。
-  - [`easeOut`](#easeout) 创建 easeOut 缓动对象，由快到慢。
-  - [`easeInOut`](#easeinout) 创建 easeInOut 缓动对象，慢到快，然后慢。
-  - [`easeExponentialIn`](#easeexponentialin) 创建 easeExponentialIn 缓动对象。<br />
-EaseExponentialIn 是按指数函数缓动进入的动作。<br />
-参考 easeInExpo：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeExponentialOut`](#easeexponentialout) 创建 easeExponentialOut 缓动对象。<br />
-EaseExponentialOut 是按指数函数缓动退出的动作。<br />
-参考 easeOutExpo：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeExponentialInOut`](#easeexponentialinout) 创建 easeExponentialInOut 缓动对象。<br />
-EaseExponentialInOut 是按指数函数缓动进入并退出的动作。<br />
-参考 easeInOutExpo：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeSineIn`](#easesinein) 创建 EaseSineIn 缓动对象。<br />
-EaseSineIn 是按正弦函数缓动进入的动作。<br />
-参考 easeInSine：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeSineOut`](#easesineout) 创建 EaseSineOut 缓动对象。<br />
-EaseSineIn 是按正弦函数缓动退出的动作。<br />
-参考 easeOutSine：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeSineInOut`](#easesineinout) 创建 easeSineInOut 缓动对象。<br />
-EaseSineIn 是按正弦函数缓动进入并退出的动作。<br />
-参考 easeInOutSine：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeElasticIn`](#easeelasticin) 创建 easeElasticIn 缓动对象。<br />
-EaseElasticIn 是按弹性曲线缓动进入的动作。<br />
-参数 easeInElastic：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeElasticOut`](#easeelasticout) 创建 easeElasticOut 缓动对象。<br />
-EaseElasticOut 是按弹性曲线缓动退出的动作。<br />
-参考 easeOutElastic：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeElasticInOut`](#easeelasticinout) 创建 easeElasticInOut 缓动对象。<br />
-EaseElasticInOut 是按弹性曲线缓动进入并退出的动作。<br />
-参考 easeInOutElastic：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeBounceIn`](#easebouncein) 创建 easeBounceIn 缓动对象。<br />
-EaseBounceIn 是按弹跳动作缓动进入的动作。
-  - [`easeBounceOut`](#easebounceout) 创建 easeBounceOut 缓动对象。<br />
-EaseBounceOut 是按弹跳动作缓动退出的动作。
-  - [`easeBounceInOut`](#easebounceinout) 创建 easeBounceInOut 缓动对象。<br />
-EaseBounceInOut 是按弹跳动作缓动进入并退出的动作。
-  - [`easeBackIn`](#easebackin) 创建 easeBackIn 缓动对象。<br />
-easeBackIn 是在相反的方向缓慢移动，然后加速到正确的方向。<br />
-  - [`easeBackOut`](#easebackout) 创建 easeBackOut 缓动对象。<br />
-easeBackOut 快速移动超出目标，然后慢慢回到目标点。
-  - [`easeBackInOut`](#easebackinout) 创建 easeBackInOut 缓动对象。<br />
-  - [`easeBezierAction`](#easebezieraction) 创建 easeBezierAction 缓动对象。<br />
-EaseBezierAction 是按贝塞尔曲线缓动的动作。
-  - [`easeQuadraticActionIn`](#easequadraticactionin) 创建 easeQuadraticActionIn 缓动对象。<br />
-EaseQuadraticIn是按二次函数缓动进入的动作。<br />
-参考 easeInQuad：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeQuadraticActionOut`](#easequadraticactionout) 创建 easeQuadraticActionOut 缓动对象。<br />
-EaseQuadraticOut 是按二次函数缓动退出的动作。<br />
-参考 easeOutQuad：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeQuadraticActionInOut`](#easequadraticactioninout) 创建 easeQuadraticActionInOut 缓动对象。<br />
-EaseQuadraticInOut 是按二次函数缓动进入并退出的动作。<br />
-参考 easeInOutQuad：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeQuarticActionIn`](#easequarticactionin) 创建 easeQuarticActionIn 缓动对象。<br />
-EaseQuarticIn 是按四次函数缓动进入的动作。<br />
-参考 easeIntQuart：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeQuarticActionOut`](#easequarticactionout) 创建 easeQuarticActionOut 缓动对象。<br />
-EaseQuarticOut 是按四次函数缓动退出的动作。<br />
-参考 easeOutQuart：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeQuarticActionInOut`](#easequarticactioninout) 创建 easeQuarticActionInOut 缓动对象。<br />
-EaseQuarticInOut 是按四次函数缓动进入并退出的动作。<br />
-参考 easeInOutQuart：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeQuinticActionIn`](#easequinticactionin) 创建 easeQuinticActionIn 缓动对象。<br />
-EaseQuinticIn 是按五次函数缓动进的动作。<br />
-参考 easeInQuint：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeQuinticActionOut`](#easequinticactionout) 创建 easeQuinticActionOut 缓动对象。<br />
-EaseQuinticOut 是按五次函数缓动退出的动作
-参考 easeOutQuint：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeQuinticActionInOut`](#easequinticactioninout) 创建 easeQuinticActionInOut 缓动对象。<br />
-EaseQuinticInOut是按五次函数缓动进入并退出的动作。<br />
-参考 easeInOutQuint：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeCircleActionIn`](#easecircleactionin) 创建 easeCircleActionIn 缓动对象。<br />
-EaseCircleIn是按圆形曲线缓动进入的动作。<br />
-参考 easeInCirc：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeCircleActionOut`](#easecircleactionout) 创建 easeCircleActionOut 缓动对象。<br />
-EaseCircleOut是按圆形曲线缓动退出的动作。<br />
-参考 easeOutCirc：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeCircleActionInOut`](#easecircleactioninout) 创建 easeCircleActionInOut 缓动对象。<br />
-EaseCircleInOut 是按圆形曲线缓动进入并退出的动作。<br />
-参考 easeInOutCirc：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeCubicActionIn`](#easecubicactionin) 创建 easeCubicActionIn 缓动对象。<br />
-EaseCubicIn 是按三次函数缓动进入的动作。<br />
-参考 easeInCubic：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeCubicActionOut`](#easecubicactionout) 创建 easeCubicActionOut 缓动对象。<br />
-EaseCubicOut 是按三次函数缓动退出的动作。<br />
-参考 easeOutCubic：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`easeCubicActionInOut`](#easecubicactioninout) 创建 easeCubicActionInOut 缓动对象。<br />
-EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
-参考 easeInOutCubic：http://www.zhihu.com/question/21981571/answer/19925418
-  - [`show`](#show) 立即显示。
-  - [`hide`](#hide) 立即隐藏。
-  - [`toggleVisibility`](#togglevisibility) 显隐状态切换。
-  - [`removeSelf`](#removeself) 从父节点移除自身。
-  - [`flipX`](#flipx) X轴翻转。
-  - [`flipY`](#flipy) Y轴翻转。
-  - [`place`](#place) 放置在目标位置。
-  - [`callFunc`](#callfunc) 执行回调函数。
-  - [`sequence`](#sequence) 顺序执行动作，创建的动作将按顺序依次运行。
-  - [`repeat`](#repeat) 重复动作，可以按一定次数重复一个动，如果想永远重复一个动作请使用 repeatForever 动作来完成。
-  - [`repeatForever`](#repeatforever) 永远地重复一个动作，有限次数内重复一个动作请使用 repeat 动作，由于这个动作不会停止，所以不能被添加到 cc.sequence 或 cc.spawn 中。
-  - [`spawn`](#spawn) 同步执行动作，同步执行一组动作。
-  - [`rotateTo`](#rotateto) 旋转到目标角度，通过逐帧修改它的 rotation 属性，旋转方向将由最短的角度决定。
-  - [`rotateBy`](#rotateby) 旋转指定的角度。
-  - [`moveBy`](#moveby) 移动指定的距离。
-  - [`moveTo`](#moveto) 移动到目标位置。
-  - [`skewTo`](#skewto) 偏斜到目标角度。
-  - [`skewBy`](#skewby) 偏斜指定的角度。
-  - [`jumpBy`](#jumpby) 用跳跃的方式移动指定的距离。
-  - [`jumpTo`](#jumpto) 用跳跃的方式移动到目标位置。
-  - [`bezierBy`](#bezierby) 按贝赛尔曲线轨迹移动指定的距离。
-  - [`bezierTo`](#bezierto) 按贝赛尔曲线轨迹移动到目标位置。
-  - [`scaleTo`](#scaleto) 将节点大小缩放到指定的倍数。
-  - [`scaleBy`](#scaleby) 按指定的倍数缩放节点大小。
-  - [`blink`](#blink) 闪烁（基于透明度）。
-  - [`fadeTo`](#fadeto) 修改透明度到指定值。
-  - [`fadeIn`](#fadein) 渐显效果。
-  - [`fadeOut`](#fadeout) 渐隐效果。
-  - [`tintTo`](#tintto) 修改颜色到指定值。
-  - [`tintBy`](#tintby) 按照指定的增量修改颜色。
-  - [`delayTime`](#delaytime) 
-  - [`reverseTime`](#reversetime) 反转目标动作的时间轴。
-  - [`targetedAction`](#targetedaction) 用已有动作和一个新的目标节点创建动作。
-  - [`Class`](#class) 定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
+  - [`cardinalSplineBy`](#cardinalsplineby) Creates an action with a Cardinal Spline array of points and tension.
+  - [`catmullRomTo`](#catmullromto) Creates an action with a Cardinal Spline array of points and tension.
+  - [`catmullRomBy`](#catmullromby) Creates an action with a Cardinal Spline array of points and tension.
+  - [`easeIn`](#easein) Creates the action easing object with the rate parameter. <br />
+From slow to fast.
+  - [`easeOut`](#easeout) Creates the action easing object with the rate parameter. <br />
+From fast to slow.
+  - [`easeInOut`](#easeinout) Creates the action easing object with the rate parameter. <br />
+Slow to fast then to slow.
+  - [`easeExponentialIn`](#easeexponentialin) Creates the action easing object with the rate parameter. <br />
+Reference easeInExpo: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeExponentialOut`](#easeexponentialout) Creates the action easing object. <br />
+Reference easeOutExpo: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeExponentialInOut`](#easeexponentialinout) Creates an EaseExponentialInOut action easing object. <br />
+Reference easeInOutExpo: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeSineIn`](#easesinein) Creates an EaseSineIn action. <br />
+Reference easeInSine: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeSineOut`](#easesineout) Creates an EaseSineOut action easing object. <br />
+Reference easeOutSine: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeSineInOut`](#easesineinout) Creates the action easing object. <br />
+Reference easeInOutSine: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeElasticIn`](#easeelasticin) Creates the action easing obejct with the period in radians (default is 0.3). <br />
+Reference easeInElastic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeElasticOut`](#easeelasticout) Creates the action easing object with the period in radians (default is 0.3). <br />
+Reference easeOutElastic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeElasticInOut`](#easeelasticinout) Creates the action easing object with the period in radians (default is 0.3). <br />
+Reference easeInOutElastic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeBounceIn`](#easebouncein) Creates the action easing object. <br />
+Eased bounce effect at the beginning.
+  - [`easeBounceOut`](#easebounceout) Creates the action easing object. <br />
+Eased bounce effect at the ending.
+  - [`easeBounceInOut`](#easebounceinout) Creates the action easing object. <br />
+Eased bounce effect at the begining and ending.
+  - [`easeBackIn`](#easebackin) Creates the action easing object. <br />
+In the opposite direction to move slowly, and then accelerated to the right direction.
+  - [`easeBackOut`](#easebackout) Creates the action easing object. <br />
+Fast moving more than the finish, and then slowly back to the finish.
+  - [`easeBackInOut`](#easebackinout) Creates the action easing object. <br />
+Begining of cc.EaseBackIn. Ending of cc.EaseBackOut.
+  - [`easeBezierAction`](#easebezieraction) Creates the action easing object. <br />
+Into the 4 reference point. <br />
+To calculate the motion curve.
+  - [`easeQuadraticActionIn`](#easequadraticactionin) Creates the action easing object. <br />
+Reference easeInQuad: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeQuadraticActionOut`](#easequadraticactionout) Creates the action easing object. <br />
+Reference easeOutQuad: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeQuadraticActionInOut`](#easequadraticactioninout) Creates the action easing object. <br />
+Reference easeInOutQuad: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeQuarticActionIn`](#easequarticactionin) Creates the action easing object. <br />
+Reference easeIntQuart: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeQuarticActionOut`](#easequarticactionout) Creates the action easing object. <br />
+Reference easeOutQuart: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeQuarticActionInOut`](#easequarticactioninout) Creates the action easing object.  <br />
+Reference easeInOutQuart: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeQuinticActionIn`](#easequinticactionin) Creates the action easing object. <br />
+Reference easeInQuint: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeQuinticActionOut`](#easequinticactionout) Creates the action easing object. <br />
+Reference easeOutQuint: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeQuinticActionInOut`](#easequinticactioninout) Creates the action easing object. <br />
+Reference easeInOutQuint: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeCircleActionIn`](#easecircleactionin) Creates the action easing object. <br />
+Reference easeInCirc: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeCircleActionOut`](#easecircleactionout) Creates the action easing object. <br />
+Reference easeOutCirc: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeCircleActionInOut`](#easecircleactioninout) Creates the action easing object. <br />
+Reference easeInOutCirc: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeCubicActionIn`](#easecubicactionin) Creates the action easing object. <br />
+Reference easeInCubic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeCubicActionOut`](#easecubicactionout) Creates the action easing object. <br />
+Reference easeOutCubic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`easeCubicActionInOut`](#easecubicactioninout) Creates the action easing object. <br />
+Reference easeInOutCubic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+  - [`show`](#show) Show the Node.
+  - [`hide`](#hide) Hide the node.
+  - [`toggleVisibility`](#togglevisibility) Toggles the visibility of a node.
+  - [`removeSelf`](#removeself) Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
+  - [`flipX`](#flipx) Create a FlipX action to flip or unflip the target.
+  - [`flipY`](#flipy) Create a FlipY action to flip or unflip the target.
+  - [`place`](#place) Creates a Place action with a position.
+  - [`callFunc`](#callfunc) Creates the action with the callback.
+  - [`sequence`](#sequence) Helper constructor to create an array of sequenceable actions
+The created action will run actions sequentially, one after another.
+  - [`repeat`](#repeat) Creates a Repeat action. Times is an unsigned integer between 1 and pow(2,30)
+  - [`repeatForever`](#repeatforever) Create a acton which repeat forever, as it runs forever, it can't be added into cc.sequence and cc.spawn.
+  - [`spawn`](#spawn) Create a spawn action which runs several actions in parallel.
+  - [`rotateTo`](#rotateto) Rotates a Node object to a certain angle by modifying its rotation property. <br/>
+The direction will be decided by the shortest angle.
+  - [`rotateBy`](#rotateby) Rotates a Node object clockwise a number of degrees by modifying its rotation property.
+Relative to its properties to modify.
+  - [`moveBy`](#moveby) Moves a Node object x,y pixels by modifying its position property.                                  <br/>
+x and y are relative to the position of the object.                                                     <br/>
+Several MoveBy actions can be concurrently called, and the resulting                                  <br/>
+movement will be the sum of individual movements.
+  - [`moveTo`](#moveto) Moves a Node object to the position x,y. x and y are absolute coordinates by modifying its position property. <br/>
+Several MoveTo actions can be concurrently called, and the resulting                                            <br/>
+movement will be the sum of individual movements.
+  - [`skewTo`](#skewto) Create a action which skews a Node object to given angles by modifying its skewX and skewY properties.
+Changes to the specified value.
+  - [`skewBy`](#skewby) Skews a Node object by skewX and skewY degrees. <br />
+Relative to its property modification.
+  - [`jumpBy`](#jumpby) Moves a Node object simulating a parabolic jump movement by modifying it's position property.
+Relative to its movement.
+  - [`jumpTo`](#jumpto) Moves a Node object to a parabolic position simulating a jump movement by modifying its position property. <br />
+Jump to the specified location.
+  - [`bezierBy`](#bezierby) An action that moves the target with a cubic Bezier curve by a certain distance.
+Relative to its movement.
+  - [`bezierTo`](#bezierto) An action that moves the target with a cubic Bezier curve to a destination point.
+  - [`scaleTo`](#scaleto) Scales a Node object to a zoom factor by modifying it's scale property.
+  - [`scaleBy`](#scaleby) Scales a Node object a zoom factor by modifying it's scale property.
+Relative to its changes.
+  - [`blink`](#blink) Blinks a Node object by modifying it's visible property.
+  - [`fadeTo`](#fadeto) Fades an object that implements the cc.RGBAProtocol protocol.
+It modifies the opacity from the current value to a custom one.
+  - [`fadeIn`](#fadein) Fades In an object that implements the cc.RGBAProtocol protocol. It modifies the opacity from 0 to 255.
+  - [`fadeOut`](#fadeout) Fades Out an object that implements the cc.RGBAProtocol protocol. It modifies the opacity from 255 to 0.
+  - [`tintTo`](#tintto) Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
+  - [`tintBy`](#tintby) Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
+Relative to their own color change.
+  - [`delayTime`](#delaytime) Delays the action a certain amount of seconds.
+延迟指定的时间量。
+  - [`reverseTime`](#reversetime) Executes an action in reverse order, from time=duration to time=0.
+  - [`targetedAction`](#targetedaction) Create an action with the specified action and forced target.
+  - [`Class`](#class) Defines a CCClass using the given specification, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class.html) for details.
   - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
   - [`isChildClassOf`](#ischildclassof) Checks whether subclass is child of superclass or equals to superclass
   - [`getInheritanceChain`](#getinheritancechain) Return all super classes
-  - [`Enum`](#enum) 定义一个枚举类型。<br/>
-用户可以把枚举值设为任意的整数，如果设为 -1，系统将会分配为上一个枚举值 + 1。
+  - [`Enum`](#enum) Define an enum type. <br/>
+If a enum item has a value of -1, it will be given an Integer number according to it's order in the list.<br/>
+Otherwise it will use the value specified by user who writes the enum definition.
   - [`getList`](#getlist) 
   - [`setAccelerometerEnabled`](#setaccelerometerenabled) whether enable accelerometer event
   - [`setAccelerometerInterval`](#setaccelerometerinterval) set accelerometer interval value
@@ -466,96 +491,91 @@ EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
  The number of calls per frame are displayed on the screen when the CCDirector's stats are enabled.<br/>
 </p>
   - [`checkGLErrorDebug`](#checkglerrordebug) Check webgl error.Error will be shown in console if exists.
-  - [`isValid`](#isvalid) 检查该对象是否不为 null 并且尚未销毁。
-  - [`deserialize`](#deserialize) 将 JSON 反序列化为对象实例。
-
-当指定了 target 选项时，如果 target 引用的其它 asset 的 uuid 不变，则不会改变 target 对 asset 的引用，
-也不会将 uuid 保存到 result 对象中。
-  - [`instantiate`](#instantiate) 克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
-
-（Instantiate 时，function 和 dom 等非可序列化对象会直接保留原有引用，Asset 会直接进行浅拷贝，可序列化类型会进行深拷贝。）
+  - [`isValid`](#isvalid) Checks whether the object is non-nil and not yet destroyed.
+  - [`deserialize`](#deserialize) Deserialize json to cc.Asset
+  - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
   - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
 It will traverse the hierarchy by splitting the path using '/' character.
 This function will still returns the node even if it is inactive.
 It is recommended to not use this function every frame instead cache the result at startup.
-  - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
-Alpha 通道是可选的。默认值是 255。
-  - [`colorEqual`](#colorequal) 判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
-  - [`hexToColor`](#hextocolor) 16 进制转换为 Color
-  - [`colorToHex`](#colortohex) Color 转换为 16进制。
-  - [`pNeg`](#pneg) 返回相反的向量。
-  - [`pAdd`](#padd) 返回两个向量的和。
-  - [`pSub`](#psub) 返回两个向量的差。
-  - [`pMult`](#pmult) 向量缩放。
-  - [`pMidpoint`](#pmidpoint) 两个向量之间的中心点。
-  - [`pDot`](#pdot) 两个向量之间进行点乘。
-  - [`pCross`](#pcross) 两个向量之间进行叉乘。
-  - [`pPerp`](#pperp) 返回逆时针旋转 90 度后的新向量。
-  - [`pRPerp`](#prperp) 将指定向量顺时针旋转 90 度并返回。
-  - [`pProject`](#pproject) 返回 v1 在 v2 上的投影向量。
-  - [`pLengthSQ`](#plengthsq) 返回指定向量长度的平方。
-  - [`pDistanceSQ`](#pdistancesq) 返回两个点之间距离的平方。
-  - [`pLength`](#plength) 返回指定向量的长度.
-  - [`pDistance`](#pdistance) 返回指定 2 个向量之间的距离。
-  - [`pNormalize`](#pnormalize) 返回一个长度为 1 的标准化过后的向量。
-  - [`pForAngle`](#pforangle) 将弧度转换为一个标准化后的向量，返回坐标 x = cos(a) , y = sin(a)。
-  - [`pToAngle`](#ptoangle) 返回指定向量的弧度。
-  - [`clampf`](#clampf) 限定浮点数的最大最小值。<br/>
-数值大于 max_inclusive 则返回 max_inclusive。<br/>
-数值小于 min_inclusive 则返回 min_inclusive。<br/>
-否则返回自身。
-  - [`clamp01`](#clamp01) 限定浮点数的取值范围为 0 ~ 1 之间。
-  - [`pClamp`](#pclamp) 返回指定限制区域后的向量。<br/>
-向量大于 max_inclusive 则返回 max_inclusive。<br/>
-向量小于 min_inclusive 则返回 min_inclusive。<br/>
-否则返回自身。
-  - [`pFromSize`](#pfromsize) 快速转换 cc.Size 为 cc.Vec2。
-  - [`pCompOp`](#pcompop) 通过运行指定的数学运算函数来计算指定的向量。
-  - [`pLerp`](#plerp) 两个点 A 和 B 之间的线性插值。 <br />
+  - [`color`](#color) The convenience method to create a new Color/Color:method
+Alpha channel is optional. Default value is 255.
+  - [`colorEqual`](#colorequal) returns true if both ccColor3B are equal. Otherwise it returns false.
+  - [`hexToColor`](#hextocolor) convert a string of color for style to Color.
+e.g. "#ff06ff"  to : cc.color(255,6,255)。
+  - [`colorToHex`](#colortohex) convert Color to a string of color for style.
+e.g.  cc.color(255,6,255)  to : "#ff06ff"
+  - [`pNeg`](#pneg) Returns opposite of Vec2.
+  - [`pAdd`](#padd) Calculates sum of two points.
+  - [`pSub`](#psub) Calculates difference of two points.
+  - [`pMult`](#pmult) Returns point multiplied by given factor.
+  - [`pMidpoint`](#pmidpoint) Calculates midpoint between two points.
+  - [`pDot`](#pdot) Calculates dot product of two points.
+  - [`pCross`](#pcross) Calculates cross product of two points.
+  - [`pPerp`](#pperp) Calculates perpendicular of v, rotated 90 degrees counter-clockwise -- cross(v, perp(v)) greater than 0.
+  - [`pRPerp`](#prperp) Calculates perpendicular of v, rotated 90 degrees clockwise -- cross(v, rperp(v)) smaller than 0.
+  - [`pProject`](#pproject) Calculates the projection of v1 over v2.
+  - [`pLengthSQ`](#plengthsq) Calculates the square length of a cc.Vec2 (not calling sqrt() ).
+  - [`pDistanceSQ`](#pdistancesq) Calculates the square distance between two points (not calling sqrt() ).
+  - [`pLength`](#plength) Calculates distance between point an origin.
+  - [`pDistance`](#pdistance) Calculates the distance between two points.
+  - [`pNormalize`](#pnormalize) Returns this vector with a magnitude of 1.
+  - [`pForAngle`](#pforangle) Converts radians to a normalized vector.
+  - [`pToAngle`](#ptoangle) Converts a vector to radians.
+  - [`clampf`](#clampf) Clamp a value between from and to.
+  - [`clamp01`](#clamp01) Clamp a value between 0 and 1.
+  - [`pClamp`](#pclamp) Clamp a point between from and to.
+  - [`pFromSize`](#pfromsize) Quickly convert cc.Size to a cc.Vec2.
+  - [`pCompOp`](#pcompop) Run a math operation function on each point component <br />
+Math.abs, Math.fllor, Math.ceil, Math.round.
+  - [`pLerp`](#plerp) Linear Interpolation between two points a and b.<br />
 alpha == 0 ? a <br />
 alpha == 1 ? b <br />
-否则这个数值在 a ~ b 之间。
-  - [`pFuzzyEqual`](#pfuzzyequal) 近似判断两个点是否相等。<br/>
-判断 2 个向量是否在指定数值的范围之内，如果在则返回 true，反之则返回 false。
-  - [`pCompMult`](#pcompmult) 计算两个向量的每个分量的乘积， a.x * b.x, a.y * b.y。
-  - [`pAngleSigned`](#panglesigned) 返回两个向量之间带正负号的弧度。
-  - [`pAngle`](#pangle) 获取当前向量与指定向量之间的弧度角。
-  - [`pRotateByAngle`](#protatebyangle) 返回给定向量围绕指定轴心顺时针旋转一定弧度后的结果。
-  - [`pLineIntersect`](#plineintersect) 返回 A 为起点 B 为终点线段 1 所在直线和 C 为起点 D 为终点线段 2 所在的直线是否相交，<br />
-如果相交返回 true，反之则为 false，参数 retP 是返回交点在线段 1、线段 2 上的比例。
-  - [`pSegmentIntersect`](#psegmentintersect) 返回线段 A - B 和线段 C - D 是否相交。
-  - [`pIntersectPoint`](#pintersectpoint) 返回线段 A - B 和线段 C - D 的交点。
-  - [`pSameAs`](#psameas) 检查指定的 2 个向量是否相等。
-  - [`pZeroIn`](#pzeroin) 设置指定向量归 0。
-  - [`pIn`](#pin) 令 v1 向量等同于 v2。
-  - [`pMultIn`](#pmultin) 向量缩放，结果保存到第一个向量。
-  - [`pSubIn`](#psubin) 向量减法，结果保存到第一个向量。
-  - [`pAddIn`](#paddin) 向量加法，结果保存到第一个向量。
-  - [`pNormalizeIn`](#pnormalizein) 规范化 v 向量，设置 v 向量长度为 1。
-  - [`rect`](#rect) 该方法用来快速创建一个新的矩形。Rect/Rect:method
-  - [`rectEqualToRect`](#rectequaltorect) 判断两个矩形是否相等。
-  - [`rectContainsRect`](#rectcontainsrect) 检查 rect1 矩形是否包含 rect2 矩形。 <br/>
-注意：如果要允许 rect1 和 rect2 的边界重合，应该用 cc.rectOverlapsRect
-  - [`rectGetMaxX`](#rectgetmaxx) 返回矩形在 x 轴上的最大值
-  - [`rectGetMidX`](#rectgetmidx) 返回矩形在 x 轴上的中点。
-  - [`rectGetMinX`](#rectgetminx) 返回矩形在 x 轴上的最小值。
-  - [`rectGetMaxY`](#rectgetmaxy) 返回矩形在 y 轴上的最大值。
-  - [`rectGetMidY`](#rectgetmidy) 返回矩形在 y 轴上的中点。
-  - [`rectGetMinY`](#rectgetminy) 返回矩形在 y 轴上的最小值。
-  - [`rectContainsPoint`](#rectcontainspoint) 检查一个矩形是否包含某个坐标点。
-  - [`rectIntersectsRect`](#rectintersectsrect) 检查一个矩形是否与另一个相交。
-  - [`rectOverlapsRect`](#rectoverlapsrect) 检查一个矩形是否重叠另一个。
-  - [`rectUnion`](#rectunion) 返回一个包含两个指定矩形的最小矩形。
-  - [`rectIntersection`](#rectintersection) 返回 2 个矩形重叠的部分。
-  - [`size`](#size) 创建一个 cc.Size 对象的帮助函数。<br/>
-注意：可以使用 cc.p 或者是 cc.v2 代替，它们将很快取代 cc.Size。
-  - [`sizeEqualToSize`](#sizeequaltosize) 检查 Size 对象是否等于另一个。
+otherwise a value between a..b.
+  - [`pFuzzyEqual`](#pfuzzyequal) TODO
+  - [`pCompMult`](#pcompmult) Multiplies a nd b components, a.x*b.x, a.y*b.y.
+  - [`pAngleSigned`](#panglesigned) TODO
+  - [`pAngle`](#pangle) TODO
+  - [`pRotateByAngle`](#protatebyangle) Rotates a point counter clockwise by the angle around a pivot.
+  - [`pLineIntersect`](#plineintersect) A general line-line intersection test
+indicating successful intersection of a line<br />
+note that to truly test intersection for segments we have to make<br />
+sure that s & t lie within [0..1] and for rays, make sure s & t > 0<br />
+the hit point is        p3 + t * (p4 - p3);<br />
+the hit point also is    p1 + s * (p2 - p1);
+  - [`pSegmentIntersect`](#psegmentintersect) ccpSegmentIntersect return YES if Segment A-B intersects with segment C-D.
+  - [`pIntersectPoint`](#pintersectpoint) ccpIntersectPoint return the intersection point of line A-B, C-D.
+  - [`pSameAs`](#psameas) check to see if both points are equal.
+  - [`pZeroIn`](#pzeroin) sets the position of the point to 0.
+  - [`pIn`](#pin) copies the position of one point to another.
+  - [`pMultIn`](#pmultin) multiplies the point with the given factor (inplace).
+  - [`pSubIn`](#psubin) subtracts one point from another (inplace).
+  - [`pAddIn`](#paddin) adds one point to another (inplace).
+  - [`pNormalizeIn`](#pnormalizein) normalizes the point (inplace).
+  - [`rect`](#rect) The convenience method to create a new Rect.
+see Rect/Rect:method
+  - [`rectEqualToRect`](#rectequaltorect) Check whether a rect's value equals to another.
+  - [`rectContainsRect`](#rectcontainsrect) Check whether the rect1 contains rect2.
+  - [`rectGetMaxX`](#rectgetmaxx) Returns the rightmost x-value of a rect.
+  - [`rectGetMidX`](#rectgetmidx) Return the midpoint x-value of a rect.
+  - [`rectGetMinX`](#rectgetminx) Returns the leftmost x-value of a rect.
+  - [`rectGetMaxY`](#rectgetmaxy) Return the topmost y-value of a rect.
+  - [`rectGetMidY`](#rectgetmidy) Return the midpoint y-value of `rect'.
+  - [`rectGetMinY`](#rectgetminy) Return the bottommost y-value of a rect.
+  - [`rectContainsPoint`](#rectcontainspoint) Check whether a rect contains a point.
+  - [`rectIntersectsRect`](#rectintersectsrect) Check whether a rect intersect with another.
+  - [`rectOverlapsRect`](#rectoverlapsrect) Check whether a rect overlaps another.
+  - [`rectUnion`](#rectunion) Returns the smallest rectangle that contains the two source rectangles.
+  - [`rectIntersection`](#rectintersection) Returns the overlapping portion of 2 rectangles.
+  - [`size`](#size) Helper function that creates a cc.Size.<br/>
+Please use cc.p or cc.v2 instead, it will soon replace cc.Size.
+  - [`sizeEqualToSize`](#sizeequaltosize) Check whether a point's value equals to another.
   - [`V3F_C4B_T2F_QuadZero`](#v3fc4bt2fquadzero) 
   - [`V3F_C4B_T2F_QuadCopy`](#v3fc4bt2fquadcopy) 
   - [`V3F_C4B_T2F_QuadsCopy`](#v3fc4bt2fquadscopy) 
-  - [`v2`](#v2) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
-  - [`p`](#p) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
-  - [`pointEqualToPoint`](#pointequaltopoint) 判断两个向量是否相等。
+  - [`v2`](#v2) The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
+  - [`p`](#p) The convenience method to creates a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
+  - [`pointEqualToPoint`](#pointequaltopoint) Check whether a point's value equals to another.
 
 
 
@@ -574,7 +594,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:31](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L31) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCBoot.js:31](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCBoot.js#L31) |
 
 
 
@@ -585,7 +605,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | DrawingPrimitive |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:41](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L41) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCBoot.js:41](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCBoot.js#L41) |
 
 
 
@@ -595,8 +615,8 @@ If you post a bug to forum, please attach this flag.
 
 | meta | description |
 |------|-------------|
-| Type | CanvasRenderingContext2D | WebGLRenderingContext |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:47](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L47) |
+| Type | CanvasRenderingContext2D &#124; WebGLRenderingContext |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCBoot.js:47](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCBoot.js#L47) |
 
 
 
@@ -607,7 +627,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | HTMLCanvasElement |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:54](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L54) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCBoot.js:54](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCBoot.js#L54) |
 
 
 
@@ -618,40 +638,40 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | HTMLDivElement |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:60](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L60) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCBoot.js:60](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCBoot.js#L60) |
 
 
 
 ##### view
 
-> cc.view 是全局的视图对象。
+> cc.view is the shared view object.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/View.html" class="crosslink">View</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:360](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L360) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:362](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L362) |
 
 
 
 ##### director
 
-> 导演类。
+> Director
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Director.html" class="crosslink">Director</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:368](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L368) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:370](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L370) |
 
 
 
 ##### winSize
 
-> cc.winSize 为当前的游戏窗口的大小。
+> cc.winSize is the alias object for the size of the current game window.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:377](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L377) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:379](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L379) |
 
 
 
@@ -662,18 +682,18 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Game.html" class="crosslink">Game</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:785](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L785) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:787](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L787) |
 
 
 
 ##### systemEvent
 
-> 系统事件单例，方便全局使用
+> The System event singleton for global usage
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L166) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js:166](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js#L166) |
 
 
 
@@ -685,7 +705,7 @@ Also used to indicates that the elements in array should be type integer.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:152](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L152) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/attribute.js:152](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/attribute.js#L152) |
 
 ##### Examples
 
@@ -706,7 +726,7 @@ member: {
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L171) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/attribute.js:171](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/attribute.js#L171) |
 
 ##### Examples
 
@@ -727,7 +747,7 @@ member: {
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:196](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L196) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/attribute.js:196](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/attribute.js#L196) |
 
 ##### Examples
 
@@ -748,7 +768,7 @@ member: {
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:214](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L214) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/attribute.js:214](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/attribute.js#L214) |
 
 ##### Examples
 
@@ -771,11 +791,11 @@ member: {
 
 ##### _initDebugSetting
 
-设置调试模式。
+Init Debug setting.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:144](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L144) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:144](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L144) |
 
 ###### Parameters
 - mode <a href="../enums/DebugMode.html" class="crosslink">DebugMode</a> 
@@ -783,69 +803,71 @@ member: {
 
 ##### error
 
-输出错误消息到 Cocos Creator 编辑器的 Console 或运行时页面端的 Console 中。<br/>
-- 在 Cocos Creator 中，错误信息显示是红色的。<br/>
-- 在 Chrome 中，错误信息有红色的图标以及红色的消息文本。<br/>
+Outputs an error message to the Cocos Creator Console (editor) or Web Console (runtime).<br/>
+- In Cocos Creator, error is red.<br/>
+- In Chrome, error have a red icon along with red message text.<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:189](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L189) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:189](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L189) |
 
 ###### Parameters
-- obj Any A JavaScript string containing zero or more substitution strings.
+- msg Any A JavaScript string containing zero or more substitution strings.
 - subst Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
 
 
 ##### warn
 
-输出警告消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。<br/>
-- 在 Cocos Creator 中，警告信息显示是黄色的。<br/>
-- 在 Chrome 中，警告信息有着黄色的图标以及黄色的消息文本。<br/>
+Outputs a warning message to the Cocos Creator Console (editor) or Web Console (runtime).
+- In Cocos Creator, warning is yellow.
+- In Chrome, warning have a yellow warning icon with the message text.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:233](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L233) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:233](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L233) |
 
 ###### Parameters
-- obj Any A JavaScript string containing zero or more substitution strings.
+- msg Any A JavaScript string containing zero or more substitution strings.
 - subst Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
 
 
 ##### log
 
-输出一条消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
+Outputs a message to the Cocos Creator Console (editor) or Web Console (runtime).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:264](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L264) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:264](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L264) |
 
 ###### Parameters
-- obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | Any A JavaScript string containing zero or more substitution strings.
+- msg <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings.
 - subst Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
 
 
 ##### info
 
-输出一条信息消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
-- 在 Cocos Creator 中，Info 信息显示是蓝色的。<br/>
-- 在 Firefox 和  Chrome 中，Info 信息有着小 “i” 图标。
+Outputs an informational message to the Cocos Creator Console (editor) or Web Console (runtime).
+- In Cocos Creator, info is blue.
+- In Firefox and Chrome, a small "i" icon is displayed next to these items in the Web Console's log.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:283](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L283) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js:283](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/CCDebugger.js#L283) |
 
 ###### Parameters
-- obj Any A JavaScript string containing zero or more substitution strings.
+- msg Any A JavaScript string containing zero or more substitution strings.
 - subst Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
 
 
 ##### speed
 
-修改目标动作的速率。
+Creates the speed action which changes the speed of an action, making it take longer (speed > 1)
+or less (speed < 1) time. <br/>
+Useful to simulate 'slow motion' or 'fast forward' effect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:366](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L366) |
 | Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> 
 
 ###### Parameters
@@ -862,12 +884,12 @@ var newAction = cc.speed(action, 0.5);
 
 ##### follow
 
-追踪目标节点的位置。
+Create a follow action which makes its target follows another node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:561](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L561) |
-| Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> | Null 
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:561](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L561) |
+| Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> &#124; Null 
 
 ###### Parameters
 - followedNode <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -892,7 +914,7 @@ Points setter
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L224) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js:224](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js#L224) |
 
 ###### Parameters
 - points <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -900,11 +922,11 @@ Points setter
 
 ##### cardinalSplineTo
 
-按基数样条曲线轨迹移动到目标位置。
+Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L234) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js:234](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js#L234) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -925,7 +947,7 @@ update position of target
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L318) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js:318](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js#L318) |
 
 ###### Parameters
 - newPos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -933,11 +955,11 @@ update position of target
 
 ##### cardinalSplineBy
 
-按基数样条曲线轨迹移动指定的距离。
+Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L339) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js:339](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js#L339) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -948,11 +970,11 @@ update position of target
 
 ##### catmullRomTo
 
-按 Catmull Rom 样条曲线轨迹移动到目标位置。
+Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L385) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js:385](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js#L385) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -967,11 +989,11 @@ var action1 = cc.catmullRomTo(3, array);
 
 ##### catmullRomBy
 
-按 Catmull Rom 样条曲线轨迹移动指定的距离。
+Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:433](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L433) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js:433](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionCatmullRom.js#L433) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -986,11 +1008,12 @@ var action1 = cc.catmullRomBy(3, array);
 
 ##### easeIn
 
-创建 easeIn 缓动对象，由慢到快。
+Creates the action easing object with the rate parameter. <br />
+From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L197) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:197](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L197) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ###### Parameters
@@ -1004,11 +1027,12 @@ action.easing(cc.easeIn(3.0));
 
 ##### easeOut
 
-创建 easeOut 缓动对象，由快到慢。
+Creates the action easing object with the rate parameter. <br />
+From fast to slow.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:247](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L247) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:247](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L247) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ###### Parameters
@@ -1022,11 +1046,12 @@ action.easing(cc.easeOut(3.0));
 
 ##### easeInOut
 
-创建 easeInOut 缓动对象，慢到快，然后慢。
+Creates the action easing object with the rate parameter. <br />
+Slow to fast then to slow.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:301](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L301) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:301](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L301) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ###### Parameters
@@ -1040,13 +1065,13 @@ action.easing(cc.easeInOut(3.0));
 
 ##### easeExponentialIn
 
-创建 easeExponentialIn 缓动对象。<br />
-EaseExponentialIn 是按指数函数缓动进入的动作。<br />
-参考 easeInExpo：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object with the rate parameter. <br />
+Reference easeInExpo: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:366](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L366) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1058,13 +1083,13 @@ action.easing(cc.easeExponentialIn());
 
 ##### easeExponentialOut
 
-创建 easeExponentialOut 缓动对象。<br />
-EaseExponentialOut 是按指数函数缓动退出的动作。<br />
-参考 easeOutExpo：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeOutExpo: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:421](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L421) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:421](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L421) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1076,13 +1101,13 @@ action.easing(cc.easeExponentialOut());
 
 ##### easeExponentialInOut
 
-创建 easeExponentialInOut 缓动对象。<br />
-EaseExponentialInOut 是按指数函数缓动进入并退出的动作。<br />
-参考 easeInOutExpo：http://www.zhihu.com/question/21981571/answer/19925418
+Creates an EaseExponentialInOut action easing object. <br />
+Reference easeInOutExpo: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:491](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L491) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:491](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L491) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1094,13 +1119,13 @@ action.easing(cc.easeExponentialInOut());
 
 ##### easeSineIn
 
-创建 EaseSineIn 缓动对象。<br />
-EaseSineIn 是按正弦函数缓动进入的动作。<br />
-参考 easeInSine：http://www.zhihu.com/question/21981571/answer/19925418
+Creates an EaseSineIn action. <br />
+Reference easeInSine: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:546](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L546) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:546](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L546) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1112,13 +1137,13 @@ action.easing(cc.easeSineIn());
 
 ##### easeSineOut
 
-创建 EaseSineOut 缓动对象。<br />
-EaseSineIn 是按正弦函数缓动退出的动作。<br />
-参考 easeOutSine：http://www.zhihu.com/question/21981571/answer/19925418
+Creates an EaseSineOut action easing object. <br />
+Reference easeOutSine: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:602](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L602) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:602](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L602) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1130,13 +1155,13 @@ action.easing(cc.easeSineOut());
 
 ##### easeSineInOut
 
-创建 easeSineInOut 缓动对象。<br />
-EaseSineIn 是按正弦函数缓动进入并退出的动作。<br />
-参考 easeInOutSine：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeInOutSine: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:658](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L658) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:658](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L658) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1148,13 +1173,13 @@ action.easing(cc.easeSineInOut());
 
 ##### easeElasticIn
 
-创建 easeElasticIn 缓动对象。<br />
-EaseElasticIn 是按弹性曲线缓动进入的动作。<br />
-参数 easeInElastic：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing obejct with the period in radians (default is 0.3). <br />
+Reference easeInElastic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:787](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L787) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:787](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L787) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ###### Parameters
@@ -1169,13 +1194,13 @@ action.easing(cc.easeElasticIn(3.0));
 
 ##### easeElasticOut
 
-创建 easeElasticOut 缓动对象。<br />
-EaseElasticOut 是按弹性曲线缓动退出的动作。<br />
-参考 easeOutElastic：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object with the period in radians (default is 0.3). <br />
+Reference easeOutElastic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:867](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L867) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:867](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L867) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ###### Parameters
@@ -1190,13 +1215,13 @@ action.easing(cc.easeElasticOut(3.0));
 
 ##### easeElasticInOut
 
-创建 easeElasticInOut 缓动对象。<br />
-EaseElasticInOut 是按弹性曲线缓动进入并退出的动作。<br />
-参考 easeInOutElastic：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object with the period in radians (default is 0.3). <br />
+Reference easeInOutElastic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:943](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L943) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:943](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L943) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ###### Parameters
@@ -1211,12 +1236,12 @@ action.easing(cc.easeElasticInOut(3.0));
 
 ##### easeBounceIn
 
-创建 easeBounceIn 缓动对象。<br />
-EaseBounceIn 是按弹跳动作缓动进入的动作。
+Creates the action easing object. <br />
+Eased bounce effect at the beginning.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1081](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1081) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1081](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1081) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1229,12 +1254,12 @@ action.easing(cc.easeBounceIn());
 
 ##### easeBounceOut
 
-创建 easeBounceOut 缓动对象。<br />
-EaseBounceOut 是按弹跳动作缓动退出的动作。
+Creates the action easing object. <br />
+Eased bounce effect at the ending.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1136](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1136) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1136](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1136) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1247,12 +1272,12 @@ action.easing(cc.easeBounceOut());
 
 ##### easeBounceInOut
 
-创建 easeBounceInOut 缓动对象。<br />
-EaseBounceInOut 是按弹跳动作缓动进入并退出的动作。
+Creates the action easing object. <br />
+Eased bounce effect at the begining and ending.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1204) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1204](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1204) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1265,12 +1290,12 @@ action.easing(cc.easeBounceInOut());
 
 ##### easeBackIn
 
-创建 easeBackIn 缓动对象。<br />
-easeBackIn 是在相反的方向缓慢移动，然后加速到正确的方向。<br />
+Creates the action easing object. <br />
+In the opposite direction to move slowly, and then accelerated to the right direction.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1261](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1261) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1261](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1261) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1283,12 +1308,12 @@ action.easing(cc.easeBackIn());
 
 ##### easeBackOut
 
-创建 easeBackOut 缓动对象。<br />
-easeBackOut 快速移动超出目标，然后慢慢回到目标点。
+Creates the action easing object. <br />
+Fast moving more than the finish, and then slowly back to the finish.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1319) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1319](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1319) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1301,11 +1326,12 @@ action.easing(cc.easeBackOut());
 
 ##### easeBackInOut
 
-创建 easeBackInOut 缓动对象。<br />
+Creates the action easing object. <br />
+Begining of cc.EaseBackIn. Ending of cc.EaseBackOut.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1387) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1387](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1387) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1318,12 +1344,13 @@ action.easing(cc.easeBackInOut());
 
 ##### easeBezierAction
 
-创建 easeBezierAction 缓动对象。<br />
-EaseBezierAction 是按贝塞尔曲线缓动的动作。
+Creates the action easing object. <br />
+Into the 4 reference point. <br />
+To calculate the motion curve.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1469](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1469) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1469](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1469) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ###### Parameters
@@ -1341,13 +1368,13 @@ action.easing(cc.easeBezierAction(0.5, 0.5, 1.0, 1.0));
 
 ##### easeQuadraticActionIn
 
-创建 easeQuadraticActionIn 缓动对象。<br />
-EaseQuadraticIn是按二次函数缓动进入的动作。<br />
-参考 easeInQuad：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeInQuad: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1539](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1539) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1539](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1539) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1360,13 +1387,13 @@ action.easing(cc.easeQuadraticActionIn());
 
 ##### easeQuadraticActionOut
 
-创建 easeQuadraticActionOut 缓动对象。<br />
-EaseQuadraticOut 是按二次函数缓动退出的动作。<br />
-参考 easeOutQuad：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeOutQuad: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1597](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1597) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1597](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1597) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1379,13 +1406,13 @@ action.easing(cc.easeQuadraticActionOut());
 
 ##### easeQuadraticActionInOut
 
-创建 easeQuadraticActionInOut 缓动对象。<br />
-EaseQuadraticInOut 是按二次函数缓动进入并退出的动作。<br />
-参考 easeInOutQuad：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeInOutQuad: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1663](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1663) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1663](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1663) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1398,13 +1425,13 @@ action.easing(cc.easeQuadraticActionInOut());
 
 ##### easeQuarticActionIn
 
-创建 easeQuarticActionIn 缓动对象。<br />
-EaseQuarticIn 是按四次函数缓动进入的动作。<br />
-参考 easeIntQuart：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeIntQuart: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1720](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1720) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1720](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1720) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1417,13 +1444,13 @@ action.easing(cc.easeQuarticActionIn());
 
 ##### easeQuarticActionOut
 
-创建 easeQuarticActionOut 缓动对象。<br />
-EaseQuarticOut 是按四次函数缓动退出的动作。<br />
-参考 easeOutQuart：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeOutQuart: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1779](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1779) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1779](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1779) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1436,26 +1463,26 @@ action.easing(cc.QuarticActionOut());
 
 ##### easeQuarticActionInOut
 
-创建 easeQuarticActionInOut 缓动对象。<br />
-EaseQuarticInOut 是按四次函数缓动进入并退出的动作。<br />
-参考 easeInOutQuart：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object.  <br />
+Reference easeInOutQuart: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1840](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1840) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1840](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1840) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
 
 ##### easeQuinticActionIn
 
-创建 easeQuinticActionIn 缓动对象。<br />
-EaseQuinticIn 是按五次函数缓动进的动作。<br />
-参考 easeInQuint：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeInQuint: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1895](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1895) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1895](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1895) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1468,13 +1495,13 @@ action.easing(cc.easeQuinticActionIn());
 
 ##### easeQuinticActionOut
 
-创建 easeQuinticActionOut 缓动对象。<br />
-EaseQuinticOut 是按五次函数缓动退出的动作
-参考 easeOutQuint：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeOutQuint: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1954](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1954) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:1954](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L1954) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1487,13 +1514,13 @@ action.easing(cc.easeQuadraticActionOut());
 
 ##### easeQuinticActionInOut
 
-创建 easeQuinticActionInOut 缓动对象。<br />
-EaseQuinticInOut是按五次函数缓动进入并退出的动作。<br />
-参考 easeInOutQuint：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeInOutQuint: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2016](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2016) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:2016](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L2016) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1506,13 +1533,13 @@ action.easing(cc.easeQuinticActionInOut());
 
 ##### easeCircleActionIn
 
-创建 easeCircleActionIn 缓动对象。<br />
-EaseCircleIn是按圆形曲线缓动进入的动作。<br />
-参考 easeInCirc：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeInCirc: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2074](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2074) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:2074](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L2074) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1525,26 +1552,26 @@ action.easing(cc.easeCircleActionIn());
 
 ##### easeCircleActionOut
 
-创建 easeCircleActionOut 缓动对象。<br />
-EaseCircleOut是按圆形曲线缓动退出的动作。<br />
-参考 easeOutCirc：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeOutCirc: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2133](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2133) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:2133](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L2133) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
 
 ##### easeCircleActionInOut
 
-创建 easeCircleActionInOut 缓动对象。<br />
-EaseCircleInOut 是按圆形曲线缓动进入并退出的动作。<br />
-参考 easeInOutCirc：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeInOutCirc: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2195](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2195) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:2195](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L2195) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1557,13 +1584,13 @@ action.easing(cc.easeCircleActionInOut());
 
 ##### easeCubicActionIn
 
-创建 easeCubicActionIn 缓动对象。<br />
-EaseCubicIn 是按三次函数缓动进入的动作。<br />
-参考 easeInCubic：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeInCubic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2253](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2253) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:2253](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L2253) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1576,13 +1603,13 @@ action.easing(cc.easeCubicActionIn());
 
 ##### easeCubicActionOut
 
-创建 easeCubicActionOut 缓动对象。<br />
-EaseCubicOut 是按三次函数缓动退出的动作。<br />
-参考 easeOutCubic：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeOutCubic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2312](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2312) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:2312](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L2312) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -1595,24 +1622,24 @@ action.easing(cc.easeCubicActionOut());
 
 ##### easeCubicActionInOut
 
-创建 easeCubicActionInOut 缓动对象。<br />
-EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
-参考 easeInOutCubic：http://www.zhihu.com/question/21981571/answer/19925418
+Creates the action easing object. <br />
+Reference easeInOutCubic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2374](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2374) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js:2374](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionEase.js#L2374) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
 
 ##### show
 
-立即显示。
+Show the Node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L97) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js:97](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js#L97) |
 | Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
 
 
@@ -1625,11 +1652,11 @@ var showAction = cc.show();
 
 ##### hide
 
-立即隐藏。
+Hide the node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L134) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js:134](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js#L134) |
 | Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
 
 
@@ -1642,11 +1669,11 @@ var hideAction = cc.hide();
 
 ##### toggleVisibility
 
-显隐状态切换。
+Toggles the visibility of a node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L171) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js:171](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js#L171) |
 | Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
 
 
@@ -1659,11 +1686,11 @@ var toggleVisibilityAction = cc.toggleVisibility();
 
 ##### removeSelf
 
-从父节点移除自身。
+Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:221](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L221) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js:221](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js#L221) |
 | Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
 
 ###### Parameters
@@ -1678,11 +1705,11 @@ var removeSelfAction = cc.removeSelf();
 
 ##### flipX
 
-X轴翻转。
+Create a FlipX action to flip or unflip the target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:279](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L279) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js:279](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js#L279) |
 | Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
 
 ###### Parameters
@@ -1696,11 +1723,11 @@ var flipXAction = cc.flipX(true);
 
 ##### flipY
 
-Y轴翻转。
+Create a FlipY action to flip or unflip the target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:335](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L335) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js:335](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js#L335) |
 | Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
 
 ###### Parameters
@@ -1714,15 +1741,15 @@ var flipYAction = cc.flipY(true);
 
 ##### place
 
-放置在目标位置。
+Creates a Place action with a position.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js:399](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js#L399) |
 | Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
 
 ###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -1735,11 +1762,11 @@ var placeAction = cc.place(200, 200);
 
 ##### callFunc
 
-执行回调函数。
+Creates the action with the callback.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:509](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L509) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js:509](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInstant.js#L509) |
 | Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
 
 ###### Parameters
@@ -1760,15 +1787,16 @@ var finish = cc.callFunc(this.removeFromParentAndCleanup, this._grossini,  true)
 
 ##### sequence
 
-顺序执行动作，创建的动作将按顺序依次运行。
+Helper constructor to create an array of sequenceable actions
+The created action will run actions sequentially, one after another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:433](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L433) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:433](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L433) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
-- actionOrActionArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
+- actionOrActionArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
 - tempArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 ##### Example
@@ -1784,11 +1812,11 @@ var seq = cc.sequence(actArray);
 
 ##### repeat
 
-重复动作，可以按一定次数重复一个动，如果想永远重复一个动作请使用 repeatForever 动作来完成。
+Creates a Repeat action. Times is an unsigned integer between 1 and pow(2,30)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:611](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L611) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:611](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L611) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -1804,11 +1832,11 @@ var rep = cc.repeat(cc.sequence(jump2, jump1), 5);
 
 ##### repeatForever
 
-永远地重复一个动作，有限次数内重复一个动作请使用 repeat 动作，由于这个动作不会停止，所以不能被添加到 cc.sequence 或 cc.spawn 中。
+Create a acton which repeat forever, as it runs forever, it can't be added into cc.sequence and cc.spawn.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:714](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L714) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:714](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L714) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -1823,15 +1851,15 @@ var repeat = cc.repeatForever(cc.rotateBy(1.0, 360));
 
 ##### spawn
 
-同步执行动作，同步执行一组动作。
+Create a spawn action which runs several actions in parallel.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:828](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L828) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:828](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L828) |
 | Return 		 | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 ###### Parameters
-- actionOrActionArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
+- actionOrActionArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
 - tempArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 ##### Example
@@ -1844,11 +1872,12 @@ todo:It should be the direct use new
 
 ##### rotateTo
 
-旋转到目标角度，通过逐帧修改它的 rotation 属性，旋转方向将由最短的角度决定。
+Rotates a Node object to a certain angle by modifying its rotation property. <br/>
+The direction will be decided by the shortest angle.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:949](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L949) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:949](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L949) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -1865,11 +1894,12 @@ var rotateTo = cc.rotateTo(2, 61.0);
 
 ##### rotateBy
 
-旋转指定的角度。
+Rotates a Node object clockwise a number of degrees by modifying its rotation property.
+Relative to its properties to modify.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1036](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1036) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1036](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1036) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -1886,16 +1916,19 @@ var actionBy = cc.rotateBy(2, 360);
 
 ##### moveBy
 
-移动指定的距离。
+Moves a Node object x,y pixels by modifying its position property.                                  <br/>
+x and y are relative to the position of the object.                                                     <br/>
+Several MoveBy actions can be concurrently called, and the resulting                                  <br/>
+movement will be the sum of individual movements.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1155) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1155](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1155) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- deltaPos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- deltaPos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - deltaY <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -1907,16 +1940,18 @@ var actionTo = cc.moveBy(2, cc.p(windowSize.width - 40, windowSize.height - 40))
 
 ##### moveTo
 
-移动到目标位置。
+Moves a Node object to the position x,y. x and y are absolute coordinates by modifying its position property. <br/>
+Several MoveTo actions can be concurrently called, and the resulting                                            <br/>
+movement will be the sum of individual movements.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1233](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1233) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1233](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1233) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -1928,11 +1963,12 @@ var actionBy = cc.moveTo(2, cc.p(80, 80));
 
 ##### skewTo
 
-偏斜到目标角度。
+Create a action which skews a Node object to given angles by modifying its skewX and skewY properties.
+Changes to the specified value.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1327](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1327) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1327](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1327) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -1949,11 +1985,12 @@ var actionTo = cc.skewTo(2, 37.2, -37.2);
 
 ##### skewBy
 
-偏斜指定的角度。
+Skews a Node object by skewX and skewY degrees. <br />
+Relative to its property modification.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1401](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1401) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1401](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1401) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -1970,16 +2007,17 @@ var actionBy = cc.skewBy(2, 0, -90);
 
 ##### jumpBy
 
-用跳跃的方式移动指定的距离。
+Moves a Node object simulating a parabolic jump movement by modifying it's position property.
+Relative to its movement.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1530](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1530) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1530](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1530) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - jumps <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1994,16 +2032,17 @@ var actionBy = cc.jumpBy(2, 300, 0, 50, 4);
 
 ##### jumpTo
 
-用跳跃的方式移动到目标位置。
+Moves a Node object to a parabolic position simulating a jump movement by modifying its position property. <br />
+Jump to the specified location.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1613](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1613) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1613](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1613) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - jumps <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2018,11 +2057,12 @@ var actionTo = cc.jumpTo(2, 300, 300, 50, 4);
 
 ##### bezierBy
 
-按贝赛尔曲线轨迹移动指定的距离。
+An action that moves the target with a cubic Bezier curve by a certain distance.
+Relative to its movement.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1759](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1759) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1759](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1759) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2039,11 +2079,11 @@ var bezierForward = cc.bezierBy(3, bezier);
 
 ##### bezierTo
 
-按贝赛尔曲线轨迹移动到目标位置。
+An action that moves the target with a cubic Bezier curve to a destination point.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1828](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1828) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1828](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1828) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2060,11 +2100,11 @@ var bezierTo = cc.bezierTo(2, bezier);
 
 ##### scaleTo
 
-将节点大小缩放到指定的倍数。
+Scales a Node object to a zoom factor by modifying it's scale property.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1913](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1913) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1913](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1913) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2085,17 +2125,18 @@ var actionTo = cc.scaleTo(2, 0.5, 2);
 
 ##### scaleBy
 
-按指定的倍数缩放节点大小。
+Scales a Node object a zoom factor by modifying it's scale property.
+Relative to its changes.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1960](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1960) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:1960](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L1960) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 - sx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sx  scale parameter in X
-- sy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | Null sy scale parameter in Y, if Null equal to sx
+- sy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; Null sy scale parameter in Y, if Null equal to sx
 
 ##### Example
 
@@ -2109,11 +2150,11 @@ var actionBy2 = cc.scaleBy(2, 0.25, 4.5);
 
 ##### blink
 
-闪烁（基于透明度）。
+Blinks a Node object by modifying it's visible property.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2045](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2045) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:2045](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L2045) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2129,11 +2170,12 @@ var action = cc.blink(2, 10);
 
 ##### fadeTo
 
-修改透明度到指定值。
+Fades an object that implements the cc.RGBAProtocol protocol.
+It modifies the opacity from the current value to a custom one.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2111) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:2111](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L2111) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2149,11 +2191,11 @@ var action = cc.fadeTo(1.0, 0);
 
 ##### fadeIn
 
-渐显效果。
+Fades In an object that implements the cc.RGBAProtocol protocol. It modifies the opacity from 0 to 255.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2166) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:2166](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L2166) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2168,11 +2210,11 @@ var action = cc.fadeIn(1.0);
 
 ##### fadeOut
 
-渐隐效果。
+Fades Out an object that implements the cc.RGBAProtocol protocol. It modifies the opacity from 255 to 0.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2213) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:2213](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L2213) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2187,11 +2229,11 @@ var action = cc.fadeOut(1.0);
 
 ##### tintTo
 
-修改颜色到指定值。
+Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2300](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2300) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:2300](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L2300) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2209,11 +2251,12 @@ var action = cc.tintTo(2, 255, 0, 255);
 
 ##### tintBy
 
-按照指定的增量修改颜色。
+Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
+Relative to their own color change.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2393](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2393) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:2393](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L2393) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2231,11 +2274,12 @@ var action = cc.tintBy(2, -127, -255, -127);
 
 ##### delayTime
 
-
+Delays the action a certain amount of seconds.
+延迟指定的时间量。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:2434](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L2434) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2250,11 +2294,11 @@ var delay = cc.delayTime(1);
 
 ##### reverseTime
 
-反转目标动作的时间轴。
+Executes an action in reverse order, from time=duration to time=0.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2517](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2517) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:2517](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L2517) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2269,11 +2313,11 @@ var delay = cc.delayTime(1);
 
 ##### targetedAction
 
-用已有动作和一个新的目标节点创建动作。
+Create an action with the specified action and forced target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2774](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2774) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:2774](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L2774) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -2283,11 +2327,11 @@ var delay = cc.delayTime(1);
 
 ##### Class
 
-定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
+Defines a CCClass using the given specification, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class.html) for details.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:726](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L726) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCClass.js:726](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCClass.js#L726) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
 ###### Parameters
@@ -2377,7 +2421,7 @@ Checks whether the constructor is created by cc.Class
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:891](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L891) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCClass.js:891](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCClass.js#L891) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -2390,7 +2434,7 @@ Checks whether subclass is child of superclass or equals to superclass
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:928](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L928) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCClass.js:928](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCClass.js#L928) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -2404,7 +2448,7 @@ Return all super classes
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:963](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L963) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCClass.js:963](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCClass.js#L963) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
 
 ###### Parameters
@@ -2413,12 +2457,13 @@ Return all super classes
 
 ##### Enum
 
-定义一个枚举类型。<br/>
-用户可以把枚举值设为任意的整数，如果设为 -1，系统将会分配为上一个枚举值 + 1。
+Define an enum type. <br/>
+If a enum item has a value of -1, it will be given an Integer number according to it's order in the list.<br/>
+Otherwise it will use the value specified by user who writes the enum definition.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js:33](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js#L33) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCEnum.js:33](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCEnum.js#L33) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -2426,7 +2471,56 @@ Return all super classes
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/platform/CCEnum/Enum.js
+```js
+// JavaScript:
+
+var WrapMode = cc.Enum({
+    Repeat: -1,
+    Clamp: -1
+});
+
+// Texture.WrapMode.Repeat == 0
+// Texture.WrapMode.Clamp == 1
+// Texture.WrapMode[0] == "Repeat"
+// Texture.WrapMode[1] == "Clamp"
+
+var FlagType = cc.Enum({
+    Flag1: 1,
+    Flag2: 2,
+    Flag3: 4,
+    Flag4: 8,
+});
+
+var AtlasSizeList = cc.Enum({
+    128: 128,
+    256: 256,
+    512: 512,
+    1024: 1024,
+});
+
+// TypeScript:
+
+// If used in TypeScript, just define a TypeScript enum:
+enum Direction {
+    Up,
+    Down,
+    Left,
+    Right
+}
+
+// If you need to inspect the enum in Properties panel, you can call cc.Enum:
+const {ccclass, property} = cc._decorator;
+
+@ccclass
+class NewScript extends cc.Component {
+    @property({
+        default: Direction.Up,
+        type: cc.Enum(Direction)    // call cc.Enum
+    })
+    direction: Direction = Direction.Up;
+}
+
+```
 
 ##### getList
 
@@ -2434,7 +2528,7 @@ Return all super classes
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js:89](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js#L89) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCEnum.js:89](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCEnum.js#L89) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
 
 ###### Parameters
@@ -2447,7 +2541,7 @@ whether enable accelerometer event
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js#L37) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCInputExtension.js:37](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCInputExtension.js#L37) |
 
 ###### Parameters
 - isEnable <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -2459,7 +2553,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js:58](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js#L58) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCInputExtension.js:58](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCInputExtension.js#L58) |
 
 ###### Parameters
 - interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2473,7 +2567,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1949](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1949) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1949](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1949) |
 
 ###### Parameters
 - a <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number A
@@ -2482,7 +2576,13 @@ set accelerometer interval value
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/platform/CCMacro/lerp.js
+```js
+----
+lerp
+cc.lerp(2,10,0.5)//returns 6
+cc.lerp(2,10,0.2)//returns 3.6
+
+```
 
 ##### rand
 
@@ -2490,7 +2590,7 @@ get a random number from 0 to 0xffffff
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1963](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1963) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1963](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1963) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -2501,7 +2601,7 @@ returns a random float between -1 and 1
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1972](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1972) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1972](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1972) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -2512,7 +2612,7 @@ returns a random float between 0 and 1, use Math.random directly
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1981](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1981) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1981](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1981) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -2523,7 +2623,7 @@ converts degrees to radians
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1988](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1988) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1988](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1988) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -2536,7 +2636,7 @@ converts radians to degrees
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1998](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1998) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1998](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1998) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -2549,7 +2649,7 @@ Helpful macro that setups the GL server state, the correct GL program and sets t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2008](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2008) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:2008](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L2008) |
 
 ###### Parameters
 - node <a href="../classes/Node.html" class="crosslink">Node</a> setup node
@@ -2564,7 +2664,7 @@ Helpful macro that setups the GL server state, the correct GL program and sets t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2060](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2060) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:2060](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L2060) |
 
 ###### Parameters
 - addNumber <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2576,17 +2676,17 @@ Check webgl error.Error will be shown in console if exists.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2072](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2072) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:2072](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L2072) |
 
 
 
 ##### isValid
 
-检查该对象是否不为 null 并且尚未销毁。
+Checks whether the object is non-nil and not yet destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L447) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -2600,35 +2700,30 @@ cc.log(cc.isValid(target));
 
 ##### deserialize
 
-将 JSON 反序列化为对象实例。
-
-当指定了 target 选项时，如果 target 引用的其它 asset 的 uuid 不变，则不会改变 target 对 asset 的引用，
-也不会将 uuid 保存到 result 对象中。
+Deserialize json to cc.Asset
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:643](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L643) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/deserialize.js:643](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/deserialize.js#L643) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
-- data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
+- data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
 - details <a href="../classes/Details.html" class="crosslink">Details</a> additional loading result
 - options <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
 ##### instantiate
 
-克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
-
-（Instantiate 时，function 和 dom 等非可序列化对象会直接保留原有引用，Asset 会直接进行浅拷贝，可序列化类型会进行深拷贝。）
+Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js:35](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js#L35) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/instantiate.js:35](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/instantiate.js#L35) |
+| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ###### Parameters
-- original <a href="../classes/Prefab.html" class="crosslink">Prefab</a> | <a href="../classes/Node.html" class="crosslink">Node</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
+- original <a href="../classes/Prefab.html" class="crosslink">Prefab</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
 
 ##### Example
 
@@ -2652,8 +2747,8 @@ It is recommended to not use this function every frame instead cache the result 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> | Null 
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/utils/find.js#L29) |
+| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
 
 ###### Parameters
 - path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -2662,12 +2757,12 @@ It is recommended to not use this function every frame instead cache the result 
 
 ##### color
 
-通过该方法来创建一个新的 Color/Color:method 对象。
-Alpha 通道是可选的。默认值是 255。
+The convenience method to create a new Color/Color:method
+Alpha channel is optional. Default value is 255.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:620](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L620) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCColor.js:620](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCColor.js#L620) |
 | Return 		 | <a href="../classes/Color.html" class="crosslink">Color</a> 
 
 ###### Parameters
@@ -2678,15 +2773,24 @@ Alpha 通道是可选的。默认值是 255。
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/value-types/CCColor/color.js
+```js
+-----------------------
+// 1. All channels seperately as parameters
+var color1 = new cc.Color(255, 255, 255, 255);
+// 2. Convert a hex string to a color
+var color2 = new cc.Color("#000000");
+// 3. An color object as parameter
+var color3 = new cc.Color({r: 255, g: 255, b: 255, a: 255});
+
+```
 
 ##### colorEqual
 
-判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
+returns true if both ccColor3B are equal. Otherwise it returns false.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:651](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L651) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCColor.js:651](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCColor.js#L651) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -2701,11 +2805,12 @@ cc.log(cc.colorEqual(cc.Color.RED, new cc.Color(255, 0, 0))); // true
 
 ##### hexToColor
 
-16 进制转换为 Color
+convert a string of color for style to Color.
+e.g. "#ff06ff"  to : cc.color(255,6,255)。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:670](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L670) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCColor.js:670](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCColor.js#L670) |
 | Return 		 | <a href="../classes/Color.html" class="crosslink">Color</a> 
 
 ###### Parameters
@@ -2719,11 +2824,12 @@ cc.hexToColor("#FFFF33"); // Color {r: 255, g: 255, b: 51, a: 255};
 
 ##### colorToHex
 
-Color 转换为 16进制。
+convert Color to a string of color for style.
+e.g.  cc.color(255,6,255)  to : "#ff06ff"
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:690](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L690) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCColor.js:690](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCColor.js#L690) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ###### Parameters
@@ -2738,11 +2844,11 @@ cc.colorToHex(color); // #ff06ff;
 
 ##### pNeg
 
-返回相反的向量。
+Returns opposite of Vec2.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:46](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L46) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:46](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L46) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -2756,11 +2862,11 @@ cc.pNeg(cc.v2(10, 10));// Vec2 {x: -10, y: -10};
 
 ##### pAdd
 
-返回两个向量的和。
+Calculates sum of two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:59](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L59) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:59](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L59) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -2775,11 +2881,11 @@ cc.pAdd(cc.v2(1, 1), cc.v2(2, 2));// Vec2 {x: 3, y: 3};
 
 ##### pSub
 
-返回两个向量的差。
+Calculates difference of two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:73](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L73) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:73](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L73) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -2794,11 +2900,11 @@ cc.pSub(cc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 15, y: 15};
 
 ##### pMult
 
-向量缩放。
+Returns point multiplied by given factor.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:87](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L87) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:87](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L87) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -2813,11 +2919,11 @@ cc.pMult(cc.v2(5, 5), 4); // Vec2 {x: 20, y: 20};
 
 ##### pMidpoint
 
-两个向量之间的中心点。
+Calculates midpoint between two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L101) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:101](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L101) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -2832,11 +2938,11 @@ cc.pMidpoint(cc.v2(10, 10), cc.v2(5, 5)); // Vec2 {x: 7.5, y: 7.5};
 
 ##### pDot
 
-两个向量之间进行点乘。
+Calculates dot product of two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:115](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L115) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:115](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L115) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -2851,11 +2957,11 @@ cc.pDot(cc.v2(20, 20), cc.v2(5, 5)); // 200;
 
 ##### pCross
 
-两个向量之间进行叉乘。
+Calculates cross product of two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:129](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L129) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:129](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L129) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -2870,11 +2976,11 @@ cc.pCross(cc.v2(20, 20), cc.v2(5, 5)); // 0;
 
 ##### pPerp
 
-返回逆时针旋转 90 度后的新向量。
+Calculates perpendicular of v, rotated 90 degrees counter-clockwise -- cross(v, perp(v)) greater than 0.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:143](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L143) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:143](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L143) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -2888,11 +2994,11 @@ cc.pPerp(cc.v2(20, 20)); // Vec2 {x: -20, y: 20};
 
 ##### pRPerp
 
-将指定向量顺时针旋转 90 度并返回。
+Calculates perpendicular of v, rotated 90 degrees clockwise -- cross(v, rperp(v)) smaller than 0.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:156](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L156) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:156](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L156) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -2906,11 +3012,11 @@ cc.pRPerp(cc.v2(20, 20)); // Vec2 {x: 20, y: -20};
 
 ##### pProject
 
-返回 v1 在 v2 上的投影向量。
+Calculates the projection of v1 over v2.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L169) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:169](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L169) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -2927,11 +3033,11 @@ cc.pProject(v1, v2); // Vec2 {x: 20, y: 20};
 
 ##### pLengthSQ
 
-返回指定向量长度的平方。
+Calculates the square length of a cc.Vec2 (not calling sqrt() ).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:185](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L185) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:185](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L185) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -2945,11 +3051,11 @@ cc.pLengthSQ(cc.v2(20, 20)); // 800;
 
 ##### pDistanceSQ
 
-返回两个点之间距离的平方。
+Calculates the square distance between two points (not calling sqrt() ).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:198](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L198) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:198](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L198) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -2966,11 +3072,11 @@ cc.pDistanceSQ(point1, point2); // 450;
 
 ##### pLength
 
-返回指定向量的长度.
+Calculates distance between point an origin.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:214](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L214) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:214](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L214) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -2984,11 +3090,11 @@ cc.pLength(cc.v2(20, 20)); // 28.284271247461902;
 
 ##### pDistance
 
-返回指定 2 个向量之间的距离。
+Calculates the distance between two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:227](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L227) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:227](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L227) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3005,11 +3111,11 @@ cc.pDistance(v1, v2); // 21.213203435596427;
 
 ##### pNormalize
 
-返回一个长度为 1 的标准化过后的向量。
+Returns this vector with a magnitude of 1.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L243) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:243](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L243) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -3023,11 +3129,11 @@ cc.pNormalize(cc.v2(20, 20)); // Vec2 {x: 0.7071067811865475, y: 0.7071067811865
 
 ##### pForAngle
 
-将弧度转换为一个标准化后的向量，返回坐标 x = cos(a) , y = sin(a)。
+Converts radians to a normalized vector.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L257) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:257](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L257) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -3041,11 +3147,11 @@ cc.pForAngle(20); // Vec2 {x: 0.40808206181339196, y: 0.9129452507276277};
 
 ##### pToAngle
 
-返回指定向量的弧度。
+Converts a vector to radians.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:270](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L270) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:270](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L270) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3059,14 +3165,11 @@ cc.pToAngle(cc.v2(20, 20)); // 0.7853981633974483;
 
 ##### clampf
 
-限定浮点数的最大最小值。<br/>
-数值大于 max_inclusive 则返回 max_inclusive。<br/>
-数值小于 min_inclusive 则返回 min_inclusive。<br/>
-否则返回自身。
+Clamp a value between from and to.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:283](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L283) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:283](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L283) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3084,11 +3187,11 @@ var v3 = cc.clampf(10, 0, 20); // 10;
 
 ##### clamp01
 
-限定浮点数的取值范围为 0 ~ 1 之间。
+Clamp a value between 0 and 1.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:309](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L309) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:309](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L309) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3104,14 +3207,11 @@ var v3 = cc.clampf(0.5); // 0.5;
 
 ##### pClamp
 
-返回指定限制区域后的向量。<br/>
-向量大于 max_inclusive 则返回 max_inclusive。<br/>
-向量小于 min_inclusive 则返回 min_inclusive。<br/>
-否则返回自身。
+Clamp a point between from and to.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:324](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L324) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:324](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L324) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -3131,11 +3231,11 @@ var v3 = cc.pClamp(cc.v2(10, 10), min_inclusive, max_inclusive); // Vec2 {x: 10,
 
 ##### pFromSize
 
-快速转换 cc.Size 为 cc.Vec2。
+Quickly convert cc.Size to a cc.Vec2.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:347](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L347) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:347](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L347) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -3149,11 +3249,12 @@ cc.pFromSize(new cc.size(20, 20)); // Vec2 {x: 20, y: 20};
 
 ##### pCompOp
 
-通过运行指定的数学运算函数来计算指定的向量。
+Run a math operation function on each point component <br />
+Math.abs, Math.fllor, Math.ceil, Math.round.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:360](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L360) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:360](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L360) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -3168,14 +3269,14 @@ cc.pCompOp(cc.p(-10, -10), Math.abs); // Vec2 {x: 10, y: 10};
 
 ##### pLerp
 
-两个点 A 和 B 之间的线性插值。 <br />
+Linear Interpolation between two points a and b.<br />
 alpha == 0 ? a <br />
 alpha == 1 ? b <br />
-否则这个数值在 a ~ b 之间。
+otherwise a value between a..b.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:376](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L376) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:376](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L376) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -3191,12 +3292,11 @@ cc.pLerp(cc.v2(20, 20), cc.v2(5, 5), 0.5); // Vec2 {x: 12.5, y: 12.5};
 
 ##### pFuzzyEqual
 
-近似判断两个点是否相等。<br/>
-判断 2 个向量是否在指定数值的范围之内，如果在则返回 true，反之则返回 false。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:399](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L399) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -3215,11 +3315,11 @@ var b2 = cc.pFuzzyEqual(a, b, 18); // true;
 
 ##### pCompMult
 
-计算两个向量的每个分量的乘积， a.x * b.x, a.y * b.y。
+Multiplies a nd b components, a.x*b.x, a.y*b.y.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:423](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L423) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:423](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L423) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -3234,11 +3334,11 @@ cc.pCompMult(acc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 100, y: 100};
 
 ##### pAngleSigned
 
-返回两个向量之间带正负号的弧度。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L437) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:437](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3248,11 +3348,11 @@ cc.pCompMult(acc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 100, y: 100};
 
 ##### pAngle
 
-获取当前向量与指定向量之间的弧度角。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:454](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L454) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:454](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L454) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3262,11 +3362,11 @@ cc.pCompMult(acc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 100, y: 100};
 
 ##### pRotateByAngle
 
-返回给定向量围绕指定轴心顺时针旋转一定弧度后的结果。
+Rotates a point counter clockwise by the angle around a pivot.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:468](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L468) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:468](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L468) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -3277,12 +3377,16 @@ cc.pCompMult(acc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 100, y: 100};
 
 ##### pLineIntersect
 
-返回 A 为起点 B 为终点线段 1 所在直线和 C 为起点 D 为终点线段 2 所在的直线是否相交，<br />
-如果相交返回 true，反之则为 false，参数 retP 是返回交点在线段 1、线段 2 上的比例。
+A general line-line intersection test
+indicating successful intersection of a line<br />
+note that to truly test intersection for segments we have to make<br />
+sure that s & t lie within [0..1] and for rays, make sure s & t > 0<br />
+the hit point is        p3 + t * (p4 - p3);<br />
+the hit point also is    p1 + s * (p2 - p1);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:486](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L486) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:486](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L486) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -3296,11 +3400,11 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 
 ##### pSegmentIntersect
 
-返回线段 A - B 和线段 C - D 是否相交。
+ccpSegmentIntersect return YES if Segment A-B intersects with segment C-D.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L537) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:537](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L537) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -3312,11 +3416,11 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 
 ##### pIntersectPoint
 
-返回线段 A - B 和线段 C - D 的交点。
+ccpIntersectPoint return the intersection point of line A-B, C-D.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:555](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L555) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:555](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L555) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -3328,11 +3432,11 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 
 ##### pSameAs
 
-检查指定的 2 个向量是否相等。
+check to see if both points are equal.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:579](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L579) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:579](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L579) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -3342,11 +3446,11 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 
 ##### pZeroIn
 
-设置指定向量归 0。
+sets the position of the point to 0.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:598](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L598) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:598](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L598) |
 
 ###### Parameters
 - v <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3354,11 +3458,11 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 
 ##### pIn
 
-令 v1 向量等同于 v2。
+copies the position of one point to another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L609) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:609](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L609) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3367,11 +3471,11 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 
 ##### pMultIn
 
-向量缩放，结果保存到第一个向量。
+multiplies the point with the given factor (inplace).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:621](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L621) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:621](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L621) |
 
 ###### Parameters
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3380,11 +3484,11 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 
 ##### pSubIn
 
-向量减法，结果保存到第一个向量。
+subtracts one point from another (inplace).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:633](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L633) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:633](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L633) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3393,11 +3497,11 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 
 ##### pAddIn
 
-向量加法，结果保存到第一个向量。
+adds one point to another (inplace).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:645](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L645) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:645](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L645) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3406,11 +3510,11 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 
 ##### pNormalizeIn
 
-规范化 v 向量，设置 v 向量长度为 1。
+normalizes the point (inplace).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:657](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L657) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js:657](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCPointExtension.js#L657) |
 
 ###### Parameters
 - v <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3418,11 +3522,12 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 
 ##### rect
 
-该方法用来快速创建一个新的矩形。Rect/Rect:method
+The convenience method to create a new Rect.
+see Rect/Rect:method
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:369](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L369) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:369](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L369) |
 | Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ###### Parameters
@@ -3439,11 +3544,11 @@ var a = new cc.Rect(0 , 0, 10, 0);
 
 ##### rectEqualToRect
 
-判断两个矩形是否相等。
+Check whether a rect's value equals to another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:391](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L391) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:391](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L391) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -3462,12 +3567,11 @@ cc.rectEqualToRect(b, c); // true;
 
 ##### rectContainsRect
 
-检查 rect1 矩形是否包含 rect2 矩形。 <br/>
-注意：如果要允许 rect1 和 rect2 的边界重合，应该用 cc.rectOverlapsRect
+Check whether the rect1 contains rect2.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:413](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L413) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:413](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L413) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -3484,11 +3588,11 @@ cc.rectContainsRect(a, b); // true;
 
 ##### rectGetMaxX
 
-返回矩形在 x 轴上的最大值
+Returns the rightmost x-value of a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:435](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L435) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:435](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L435) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3503,11 +3607,11 @@ cc.rectGetMaxX(a); // 30;
 
 ##### rectGetMidX
 
-返回矩形在 x 轴上的中点。
+Return the midpoint x-value of a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:449](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L449) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:449](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L449) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3522,11 +3626,11 @@ cc.rectGetMidX(a); // 20;
 
 ##### rectGetMinX
 
-返回矩形在 x 轴上的最小值。
+Returns the leftmost x-value of a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:462](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L462) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:462](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L462) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3541,11 +3645,11 @@ cc.rectGetMinX(a); // 10;
 
 ##### rectGetMaxY
 
-返回矩形在 y 轴上的最大值。
+Return the topmost y-value of a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:476](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L476) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:476](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L476) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3560,11 +3664,11 @@ cc.rectGetMaxY(a); // 30;
 
 ##### rectGetMidY
 
-返回矩形在 y 轴上的中点。
+Return the midpoint y-value of `rect'.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:490](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L490) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:490](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L490) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3579,11 +3683,11 @@ cc.rectGetMidY(a); // 20;
 
 ##### rectGetMinY
 
-返回矩形在 y 轴上的最小值。
+Return the bottommost y-value of a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:504](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L504) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:504](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L504) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -3598,11 +3702,11 @@ cc.rectGetMinY(a); // 10;
 
 ##### rectContainsPoint
 
-检查一个矩形是否包含某个坐标点。
+Check whether a rect contains a point.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:518](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L518) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:518](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L518) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -3619,11 +3723,11 @@ cc.rectContainsPoint(a, b); // true;
 
 ##### rectIntersectsRect
 
-检查一个矩形是否与另一个相交。
+Check whether a rect intersect with another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:535](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L535) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:535](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L535) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -3640,11 +3744,11 @@ cc.rectIntersectsRect(a, b); // true;
 
 ##### rectOverlapsRect
 
-检查一个矩形是否重叠另一个。
+Check whether a rect overlaps another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:555](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L555) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:555](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L555) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -3661,11 +3765,11 @@ cc.rectOverlapsRect(a, b); // true;
 
 ##### rectUnion
 
-返回一个包含两个指定矩形的最小矩形。
+Returns the smallest rectangle that contains the two source rectangles.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:574](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L574) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:574](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L574) |
 | Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ###### Parameters
@@ -3682,11 +3786,11 @@ cc.rectUnion(a, b); // Rect {x: 0, y: 10, width: 20, height: 20};
 
 ##### rectIntersection
 
-返回 2 个矩形重叠的部分。
+Returns the overlapping portion of 2 rectangles.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L595) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:595](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L595) |
 | Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ###### Parameters
@@ -3703,29 +3807,35 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 
 ##### size
 
-创建一个 cc.Size 对象的帮助函数。<br/>
-注意：可以使用 cc.p 或者是 cc.v2 代替，它们将很快取代 cc.Size。
+Helper function that creates a cc.Size.<br/>
+Please use cc.p or cc.v2 instead, it will soon replace cc.Size.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:157](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L157) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCSize.js:157](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCSize.js#L157) |
 | Return 		 | <a href="../classes/Size.html" class="crosslink">Size</a> 
 
 ###### Parameters
-- w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="../classes/Size.html" class="crosslink">Size</a> width or a size object
+- w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> width or a size object
 - h <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> height
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/value-types/CCSize/size.js
+```js
+var size1 = cc.size();
+var size2 = cc.size(100,100);
+var size3 = cc.size(size2);
+var size4 = cc.size({width: 100, height: 100});
+
+```
 
 ##### sizeEqualToSize
 
-检查 Size 对象是否等于另一个。
+Check whether a point's value equals to another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:174](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L174) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCSize.js:174](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCSize.js#L174) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -3748,7 +3858,7 @@ cc.sizeEqualToSize(a, b);// return false;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:501](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L501) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js:501](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js#L501) |
 | Return 		 | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
 
 
@@ -3759,7 +3869,7 @@ cc.sizeEqualToSize(a, b);// return false;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:509](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L509) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js:509](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js#L509) |
 | Return 		 | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
 
 ###### Parameters
@@ -3772,7 +3882,7 @@ cc.sizeEqualToSize(a, b);// return false;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:536](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L536) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js:536](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js#L536) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ###### Parameters
@@ -3781,15 +3891,15 @@ cc.sizeEqualToSize(a, b);// return false;
 
 ##### v2
 
-通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
+The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:592](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L592) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:592](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L592) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -3803,15 +3913,15 @@ var v4 = cc.v2({x: 100, y: 100});
 
 ##### p
 
-通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
+The convenience method to creates a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L609) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:609](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L609) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
+- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -3825,11 +3935,11 @@ var point4 = cc.p({x: 100, y: 100});
 
 ##### pointEqualToPoint
 
-判断两个向量是否相等。
+Check whether a point's value equals to another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:627](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L627) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:627](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L627) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters

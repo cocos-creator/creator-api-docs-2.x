@@ -8,7 +8,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-cc.game 是 Game 的实例，用来驱动整个游戏。
+cc.game is the singleton object for game related functions.
 
 ### Index
 
@@ -21,63 +21,71 @@ Please note that this event is not 100% guaranteed to be fired.
   - [`EVENT_GAME_INITED`](#eventgameinited) `String` Event triggered after game inited, at this point all engine objects and game scripts are loaded
   - [`EVENT_RENDERER_INITED`](#eventrendererinited) `String` Event triggered after renderer inited, at this point you will be able to use the render context
   - [`CONFIG_KEY`](#configkey) `Object` Key of config
-  - [`frame`](#frame) `Object` 游戏画布的外框，cc.container 的父类。
-  - [`container`](#container) `HTMLDivElement` 游戏画布的容器。
-  - [`canvas`](#canvas) `HTMLCanvasElement` 游戏的画布。
-  - [`config`](#config) `Object` 当前的游戏配置，包括：                                                                  <br/>
-1. debugMode（debug 模式，但是在浏览器中这个选项会被忽略）                                <br/>
-     "debugMode" 各种设置选项的意义。                                                   <br/>
-         0 - 没有消息被打印出来。                                                       <br/>
-         1 - cc.error，cc.assert，cc.warn，cc.log 将打印在 console 中。                  <br/>
-         2 - cc.error，cc.assert，cc.warn 将打印在 console 中。                          <br/>
-         3 - cc.error，cc.assert 将打印在 console 中。                                   <br/>
-         4 - cc.error，cc.assert，cc.warn，cc.log 将打印在 canvas 中（仅适用于 web 端）。 <br/>
-         5 - cc.error，cc.assert，cc.warn 将打印在 canvas 中（仅适用于 web 端）。         <br/>
-         6 - cc.error，cc.assert 将打印在 canvas 中（仅适用于 web 端）。                  <br/>
-2. showFPS（显示 FPS）                                                            <br/>
-     当 showFPS 为 true 的时候界面的左下角将显示 fps 的信息，否则被隐藏。              <br/>
-3. exposeClassName                                                           <br/>
-     暴露类名让 Chrome DevTools 可以识别，如果开启会稍稍降低类的创建过程的性能，但对对象构造没有影响。 <br/>
-4. frameRate (帧率)                                                              <br/>
-     “frameRate” 设置想要的帧率你的游戏，但真正的FPS取决于你的游戏实现和运行环境。      <br/>
-5. id                                                                            <br/>
-     "gameCanvas" Web 页面上的 Canvas Element ID，仅适用于 web 端。                         <br/>
-6. renderMode（渲染模式）                                                         <br/>
-     “renderMode” 设置渲染器类型，仅适用于 web 端：                              <br/>
-         0 - 通过引擎自动选择。                                                     <br/>
-         1 - 强制使用 canvas 渲染。
-         2 - 强制使用 WebGL 渲染，但是在部分 Android 浏览器中这个选项会被忽略。     <br/>
-7. scenes                                                                         <br/>
-     “scenes” 当前包中可用场景。                                                   <br/>
+  - [`frame`](#frame) `Object` The outer frame of the game canvas, parent of cc.container.
+  - [`container`](#container) `HTMLDivElement` The container of game canvas, equals to cc.container.
+  - [`canvas`](#canvas) `HTMLCanvasElement` The canvas of the game, equals to cc._canvas.
+  - [`config`](#config) `Object` The current game configuration, including:<br/>
+1. debugMode<br/>
+     "debugMode" possible values :<br/>
+     0 - No message will be printed.                                                      <br/>
+     1 - cc.error, cc.assert, cc.warn, cc.log will print in console.                      <br/>
+     2 - cc.error, cc.assert, cc.warn will print in console.                              <br/>
+     3 - cc.error, cc.assert will print in console.                                       <br/>
+     4 - cc.error, cc.assert, cc.warn, cc.log will print on canvas, available only on web.<br/>
+     5 - cc.error, cc.assert, cc.warn will print on canvas, available only on web.        <br/>
+     6 - cc.error, cc.assert will print on canvas, available only on web.                 <br/>
+2. showFPS<br/>
+     Left bottom corner fps information will show when "showFPS" equals true, otherwise it will be hide.<br/>
+3. exposeClassName<br/>
+     Expose class name to chrome debug tools, the class intantiate performance is a little bit slower when exposed.<br/>
+4. frameRate<br/>
+     "frameRate" set the wanted frame rate for your game, but the real fps depends on your game implementation and the running environment.<br/>
+5. id<br/>
+     "gameCanvas" sets the id of your canvas element on the web page, it's useful only on web.<br/>
+6. renderMode<br/>
+     "renderMode" sets the renderer type, only useful on web :<br/>
+     0 - Automatically chosen by engine<br/>
+     1 - Forced to use canvas renderer<br/>
+     2 - Forced to use WebGL renderer, but this will be ignored on mobile browsers<br/>
+7. scenes<br/>
+     "scenes" include available scenes in the current bundle.<br/>
 <br/>
-注意：请不要直接修改这个对象，它不会有任何效果。
+Please DO NOT modify this object directly, it won't have any effect.<br/>
 
 
 
 ##### Methods
 
-  - [`onStart`](#onstart) 当引擎完成启动后的回调函数。
-  - [`setFrameRate`](#setframerate) 设置游戏帧率。
-  - [`step`](#step) 执行一帧游戏循环。
-  - [`pause`](#pause) 暂停游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效。这点和只暂停游戏逻辑的 cc.director.pause 不同。
-  - [`resume`](#resume) 恢复游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效。
-  - [`isPaused`](#ispaused) 判断游戏是否暂停。
-  - [`restart`](#restart) 重新开始游戏
-  - [`end`](#end) 退出游戏
-  - [`prepare`](#prepare) 准备引擎，请不要直接调用这个函数。
-  - [`run`](#run) 运行游戏，并且指定引擎配置和 onStart 的回调。
-  - [`addPersistRootNode`](#addpersistrootnode) 声明常驻根节点，该节点不会被在场景切换中被销毁。<br/>
-目标节点必须位于为层级的根节点，否则无效。
-  - [`removePersistRootNode`](#removepersistrootnode) 取消常驻根节点。
-  - [`isPersistRootNode`](#ispersistrootnode) 检查节点是否是常驻根节点。
-  - [`on`](#on) 注册事件目标的特定事件类型回调。
-  - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
-  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
-这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
-这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
-  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
-  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
+  - [`onStart`](#onstart) Callback when the scripts of engine have been load.
+  - [`setFrameRate`](#setframerate) Set frameRate of game.
+  - [`step`](#step) Run the game frame by frame.
+  - [`pause`](#pause) Pause the game main loop. This will pause:
+game logic execution, rendering process, event manager, background music and all audio effects.
+This is different with cc.director.pause which only pause the game logic execution.
+  - [`resume`](#resume) Resume the game from pause. This will resume:
+game logic execution, rendering process, event manager, background music and all audio effects.
+  - [`isPaused`](#ispaused) Check whether the game is paused.
+  - [`restart`](#restart) Restart game.
+  - [`end`](#end) End game, it will close the game window
+  - [`prepare`](#prepare) Prepare game.
+  - [`run`](#run) Run game with configuration object and onStart function.
+  - [`addPersistRootNode`](#addpersistrootnode) Add a persistent root node to the game, the persistent node won't be destroyed during scene transition.<br/>
+The target node must be placed in the root level of hierarchy, otherwise this API won't have any effect.
+  - [`removePersistRootNode`](#removepersistrootnode) Remove a persistent root node.
+  - [`isPersistRootNode`](#ispersistrootnode) Check whether the node is a persistent root node.
+  - [`on`](#on) Register an callback of a specific event type on the EventTarget.
+  - [`off`](#off) Removes the listeners previously registered with the same type, callback, target and or useCapture,
+if only type is passed as parameter, all listeners registered with that type will be removed.
+  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target (passed as parameter).
+This is not for removing all listeners in the current event target,
+and this is not for removing all listeners the target parameter have registered.
+It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
+  - [`once`](#once) Register an callback of a specific event type on the EventTarget,
+the callback will remove itself after the first time it is triggered.
+  - [`dispatchEvent`](#dispatchevent) Dispatches an event into the event flow.
+The event target is the EventTarget object upon which the dispatchEvent() method is called.
+  - [`emit`](#emit) Send an event to this object directly, this method will not propagate the event to any other objects.
+The event will be created from the supplied message, you can get the "detail" argument from event.detail.
 
 
 
@@ -95,7 +103,7 @@ Please note that this event is not 100% guaranteed to be fired.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:45](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L45) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:45](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L45) |
 
 ##### Examples
 
@@ -115,7 +123,7 @@ Please note that this event is not 100% guaranteed to be fired.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:58](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L58) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:58](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L58) |
 
 
 
@@ -126,7 +134,7 @@ Please note that this event is not 100% guaranteed to be fired.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L66) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:66](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L66) |
 
 
 
@@ -137,7 +145,7 @@ Please note that this event is not 100% guaranteed to be fired.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:73](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L73) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:73](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L73) |
 
 
 
@@ -148,77 +156,77 @@ Please note that this event is not 100% guaranteed to be fired.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:87](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L87) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:87](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L87) |
 
 
 
 ##### frame
 
-> 游戏画布的外框，cc.container 的父类。
+> The outer frame of the game canvas, parent of cc.container.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L125) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:125](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L125) |
 
 
 
 ##### container
 
-> 游戏画布的容器。
+> The container of game canvas, equals to cc.container.
 
 | meta | description |
 |------|-------------|
 | Type | HTMLDivElement |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:132](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L132) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:132](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L132) |
 
 
 
 ##### canvas
 
-> 游戏的画布。
+> The canvas of the game, equals to cc._canvas.
 
 | meta | description |
 |------|-------------|
 | Type | HTMLCanvasElement |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:139](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L139) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:139](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L139) |
 
 
 
 ##### config
 
-> 当前的游戏配置，包括：                                                                  <br/>
-1. debugMode（debug 模式，但是在浏览器中这个选项会被忽略）                                <br/>
-     "debugMode" 各种设置选项的意义。                                                   <br/>
-         0 - 没有消息被打印出来。                                                       <br/>
-         1 - cc.error，cc.assert，cc.warn，cc.log 将打印在 console 中。                  <br/>
-         2 - cc.error，cc.assert，cc.warn 将打印在 console 中。                          <br/>
-         3 - cc.error，cc.assert 将打印在 console 中。                                   <br/>
-         4 - cc.error，cc.assert，cc.warn，cc.log 将打印在 canvas 中（仅适用于 web 端）。 <br/>
-         5 - cc.error，cc.assert，cc.warn 将打印在 canvas 中（仅适用于 web 端）。         <br/>
-         6 - cc.error，cc.assert 将打印在 canvas 中（仅适用于 web 端）。                  <br/>
-2. showFPS（显示 FPS）                                                            <br/>
-     当 showFPS 为 true 的时候界面的左下角将显示 fps 的信息，否则被隐藏。              <br/>
-3. exposeClassName                                                           <br/>
-     暴露类名让 Chrome DevTools 可以识别，如果开启会稍稍降低类的创建过程的性能，但对对象构造没有影响。 <br/>
-4. frameRate (帧率)                                                              <br/>
-     “frameRate” 设置想要的帧率你的游戏，但真正的FPS取决于你的游戏实现和运行环境。      <br/>
-5. id                                                                            <br/>
-     "gameCanvas" Web 页面上的 Canvas Element ID，仅适用于 web 端。                         <br/>
-6. renderMode（渲染模式）                                                         <br/>
-     “renderMode” 设置渲染器类型，仅适用于 web 端：                              <br/>
-         0 - 通过引擎自动选择。                                                     <br/>
-         1 - 强制使用 canvas 渲染。
-         2 - 强制使用 WebGL 渲染，但是在部分 Android 浏览器中这个选项会被忽略。     <br/>
-7. scenes                                                                         <br/>
-     “scenes” 当前包中可用场景。                                                   <br/>
+> The current game configuration, including:<br/>
+1. debugMode<br/>
+     "debugMode" possible values :<br/>
+     0 - No message will be printed.                                                      <br/>
+     1 - cc.error, cc.assert, cc.warn, cc.log will print in console.                      <br/>
+     2 - cc.error, cc.assert, cc.warn will print in console.                              <br/>
+     3 - cc.error, cc.assert will print in console.                                       <br/>
+     4 - cc.error, cc.assert, cc.warn, cc.log will print on canvas, available only on web.<br/>
+     5 - cc.error, cc.assert, cc.warn will print on canvas, available only on web.        <br/>
+     6 - cc.error, cc.assert will print on canvas, available only on web.                 <br/>
+2. showFPS<br/>
+     Left bottom corner fps information will show when "showFPS" equals true, otherwise it will be hide.<br/>
+3. exposeClassName<br/>
+     Expose class name to chrome debug tools, the class intantiate performance is a little bit slower when exposed.<br/>
+4. frameRate<br/>
+     "frameRate" set the wanted frame rate for your game, but the real fps depends on your game implementation and the running environment.<br/>
+5. id<br/>
+     "gameCanvas" sets the id of your canvas element on the web page, it's useful only on web.<br/>
+6. renderMode<br/>
+     "renderMode" sets the renderer type, only useful on web :<br/>
+     0 - Automatically chosen by engine<br/>
+     1 - Forced to use canvas renderer<br/>
+     2 - Forced to use WebGL renderer, but this will be ignored on mobile browsers<br/>
+7. scenes<br/>
+     "scenes" include available scenes in the current bundle.<br/>
 <br/>
-注意：请不要直接修改这个对象，它不会有任何效果。
+Please DO NOT modify this object directly, it won't have any effect.<br/>
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:147](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L147) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:147](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L147) |
 
 
 
@@ -231,21 +239,21 @@ Please note that this event is not 100% guaranteed to be fired.
 
 ##### onStart
 
-当引擎完成启动后的回调函数。
+Callback when the scripts of engine have been load.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:209](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L209) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:209](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L209) |
 
 
 
 ##### setFrameRate
 
-设置游戏帧率。
+Set frameRate of game.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:220](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L220) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:220](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L220) |
 
 ###### Parameters
 - frameRate <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -253,72 +261,75 @@ Please note that this event is not 100% guaranteed to be fired.
 
 ##### step
 
-执行一帧游戏循环。
+Run the game frame by frame.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:237](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L237) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:237](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L237) |
 
 
 
 ##### pause
 
-暂停游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效。这点和只暂停游戏逻辑的 cc.director.pause 不同。
+Pause the game main loop. This will pause:
+game logic execution, rendering process, event manager, background music and all audio effects.
+This is different with cc.director.pause which only pause the game logic execution.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L246) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:246](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L246) |
 
 
 
 ##### resume
 
-恢复游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效。
+Resume the game from pause. This will resume:
+game logic execution, rendering process, event manager, background music and all audio effects.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:266](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L266) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:266](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L266) |
 
 
 
 ##### isPaused
 
-判断游戏是否暂停。
+Check whether the game is paused.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:283](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L283) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:283](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L283) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 
 ##### restart
 
-重新开始游戏
+Restart game.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:293](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L293) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:293](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L293) |
 
 
 
 ##### end
 
-退出游戏
+End game, it will close the game window
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:312](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L312) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:314](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L314) |
 
 
 
 ##### prepare
 
-准备引擎，请不要直接调用这个函数。
+Prepare game.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:322](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L322) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:324](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L324) |
 
 ###### Parameters
 - cb <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -326,25 +337,25 @@ Please note that this event is not 100% guaranteed to be fired.
 
 ##### run
 
-运行游戏，并且指定引擎配置和 onStart 的回调。
+Run game with configuration object and onStart function.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:422](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L422) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:424](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L424) |
 
 ###### Parameters
-- config <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Pass configuration object or onStart function
+- config <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Pass configuration object or onStart function
 - onStart <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> function to be executed after game initialized
 
 
 ##### addPersistRootNode
 
-声明常驻根节点，该节点不会被在场景切换中被销毁。<br/>
-目标节点必须位于为层级的根节点，否则无效。
+Add a persistent root node to the game, the persistent node won't be destroyed during scene transition.<br/>
+The target node must be placed in the root level of hierarchy, otherwise this API won't have any effect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:446](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L446) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:448](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L448) |
 
 ###### Parameters
 - node <a href="../classes/Node.html" class="crosslink">Node</a> The node to be made persistent
@@ -352,11 +363,11 @@ Please note that this event is not 100% guaranteed to be fired.
 
 ##### removePersistRootNode
 
-取消常驻根节点。
+Remove a persistent root node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:482](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L482) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:484](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L484) |
 
 ###### Parameters
 - node <a href="../classes/Node.html" class="crosslink">Node</a> The node to be removed from persistent node list
@@ -364,11 +375,11 @@ Please note that this event is not 100% guaranteed to be fired.
 
 ##### isPersistRootNode
 
-检查节点是否是常驻根节点。
+Check whether the node is a persistent root node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:498](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L498) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js:500](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCGame.js#L500) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -377,11 +388,11 @@ Please note that this event is not 100% guaranteed to be fired.
 
 ##### on
 
-注册事件目标的特定事件类型回调。
+Register an callback of a specific event type on the EventTarget.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:157](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L157) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js:157](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js#L157) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
 ###### Parameters
@@ -405,11 +416,12 @@ node.on(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### off
 
-删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
+Removes the listeners previously registered with the same type, callback, target and or useCapture,
+if only type is passed as parameter, all listeners registered with that type will be removed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:209](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L209) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js:209](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js#L209) |
 
 ###### Parameters
 - type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -435,13 +447,14 @@ node.off(cc.Node.EventType.TOUCH_END);
 
 ##### targetOff
 
-在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
-这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
-这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
+Removes all callbacks previously registered with the same target (passed as parameter).
+This is not for removing all listeners in the current event target,
+and this is not for removing all listeners the target parameter have registered.
+It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L257) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js:257](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js#L257) |
 
 ###### Parameters
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -449,11 +462,12 @@ node.off(cc.Node.EventType.TOUCH_END);
 
 ##### once
 
-注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+Register an callback of a specific event type on the EventTarget,
+the callback will remove itself after the first time it is triggered.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:277](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L277) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js:277](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js#L277) |
 
 ###### Parameters
 - type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -476,11 +490,12 @@ node.once(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### dispatchEvent
 
-分发事件到事件流中。
+Dispatches an event into the event flow.
+The event target is the EventTarget object upon which the dispatchEvent() method is called.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:311](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L311) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js:311](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js#L311) |
 
 ###### Parameters
 - event <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
@@ -488,11 +503,12 @@ node.once(cc.Node.EventType.TOUCH_END, function (event) {
 
 ##### emit
 
-该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
+Send an event to this object directly, this method will not propagate the event to any other objects.
+The event will be created from the supplied message, you can get the "detail" argument from event.detail.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:325](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L325) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js:325](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event-target.js#L325) |
 
 ###### Parameters
 - message <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send

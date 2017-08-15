@@ -43,14 +43,21 @@ cc.pool 是一个单例对象，用作为对象缓存池。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:60](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L60) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCPool.js:60](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCPool.js#L60) |
 
 ###### Parameters
 - obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The need put in pool object.
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/extensions/ccpool/putInPool.js
+```js
+---------------------------------
+var sp = new _ccsg.Sprite("a.png");
+this.addChild(sp);
+cc.pool.putInPool(sp);
+cc.pool.getFromPool(_ccsg.Sprite, "a.png");
+
+```
 
 ##### hasObject
 
@@ -58,7 +65,7 @@ cc.pool 是一个单例对象，用作为对象缓存池。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:82](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L82) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCPool.js:82](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCPool.js#L82) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -71,7 +78,7 @@ cc.pool 是一个单例对象，用作为对象缓存池。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:98](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L98) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCPool.js:98](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCPool.js#L98) |
 
 
 
@@ -81,7 +88,7 @@ cc.pool 是一个单例对象，用作为对象缓存池。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:119](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L119) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCPool.js:119](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCPool.js#L119) |
 | Return 		 | Any 
 
 
@@ -92,16 +99,12 @@ cc.pool 是一个单例对象，用作为对象缓存池。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:143](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L143) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCPool.js:143](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCPool.js#L143) |
 
 
 
 
-�池中的对象，如果对象池没有可用对象，则返回空。
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:885](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L885) |
+m/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js:887](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js#L887) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; Null 
 
 
@@ -112,7 +115,7 @@ cc.pool 是一个单例对象，用作为对象缓存池。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:903](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L903) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js:905](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js#L905) |
 
 
 
@@ -122,7 +125,7 @@ cc.pool 是一个单例对象，用作为对象缓存池。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:919](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L919) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js:921](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js#L921) |
 
 
 

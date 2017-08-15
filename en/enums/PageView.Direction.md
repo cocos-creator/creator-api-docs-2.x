@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-页面视图滚动类型
+The Page View Direction
 
 ### Index
 
@@ -23,22 +23,22 @@ Module: [cc](../modules/cc.md)
 
 ##### Horizontal
 
-> 水平滚动
+> Horizontal scroll.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L55) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCPageView.js:55](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCPageView.js#L55) |
 
 
 
 ##### Vertical
 
-> 垂直滚动
+> Vertical scroll.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L61) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCPageView.js:61](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCPageView.js#L61) |
 
 

@@ -7,27 +7,34 @@ Module: [cc](../modules/cc.md)
 
 
 
-封装用户的事件处理逻辑。
-注意：这是一个抽象类，开发者不应该直接实例化这个类，请参考 <a href="../classes/EventListener.html#method_create" class="crosslink">cc.EventListener.create</a>。
+<p>
+    The base class of event listener.                                                                        <br/>
+    If you need custom listener which with different callback, you need to inherit this class.               <br/>
+    For instance, you could refer to EventListenerAcceleration, EventListenerKeyboard,                       <br/>
+     EventListenerTouchOneByOne, EventListenerCustom.
+</p>
 
 ### Index
 
 ##### Properties
 
-  - [`UNKNOWN`](#unknown) `Number` 未知的事件监听器类型
-  - [`KEYBOARD`](#keyboard) `Number` 键盘事件监听器类型
-  - [`ACCELERATION`](#acceleration) `Number` 加速器事件监听器类型
+  - [`UNKNOWN`](#unknown) `Number` The type code of unknown event listener.
+  - [`KEYBOARD`](#keyboard) `Number` The type code of keyboard event listener.
+  - [`ACCELERATION`](#acceleration) `Number` The type code of acceleration event listener.
 
 
 
 ##### Methods
 
   - [`constructor`](#constructor) Constructor
-  - [`checkAvailable`](#checkavailable) 检测监听器是否有效
-  - [`clone`](#clone) 克隆监听器,它的子类必须重写此方法。
-  - [`setEnabled`](#setenabled) 启用或禁用监听器。
-  - [`isEnabled`](#isenabled) 检查监听器是否可用。
-  - [`create`](#create) 通过指定不同的 Event 对象来设置想要创建的事件监听器。
+  - [`checkAvailable`](#checkavailable) Checks whether the listener is available.
+  - [`clone`](#clone) Clones the listener, its subclasses have to override this method.
+  - [`setEnabled`](#setenabled) Enables or disables the listener
+  - [`isEnabled`](#isenabled) Checks whether the listener is enabled
+  - [`create`](#create) Create a EventListener object with configuration including the event type, handlers and other parameters.
+In handlers, this refer to the event listener object itself.
+You can also pass custom parameters in the configuration object,
+all custom parameters will be polyfilled into the event listener object and can be accessed in handlers.
 
 
 
@@ -39,34 +46,34 @@ Module: [cc](../modules/cc.md)
 
 ##### UNKNOWN
 
-> 未知的事件监听器类型
+> The type code of unknown event listener.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:252](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L252) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js:252](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js#L252) |
 
 
 
 ##### KEYBOARD
 
-> 键盘事件监听器类型
+> The type code of keyboard event listener.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:276](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L276) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js:276](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js#L276) |
 
 
 
 ##### ACCELERATION
 
-> 加速器事件监听器类型
+> The type code of acceleration event listener.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L292) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js:292](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js#L292) |
 
 
 
@@ -83,7 +90,7 @@ Constructor
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L44) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js:44](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js#L44) |
 
 ###### Parameters
 - type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -93,33 +100,33 @@ Constructor
 
 ##### checkAvailable
 
-检测监听器是否有效
+Checks whether the listener is available.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:173](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L173) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js:173](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js#L173) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 
 ##### clone
 
-克隆监听器,它的子类必须重写此方法。
+Clones the listener, its subclasses have to override this method.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L183) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js:183](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js#L183) |
 | Return 		 | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
 
 
 
 ##### setEnabled
 
-启用或禁用监听器。
+Enables or disables the listener
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:193](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L193) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js:193](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js#L193) |
 
 ###### Parameters
 - enabled <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -127,22 +134,25 @@ Constructor
 
 ##### isEnabled
 
-检查监听器是否可用。
+Checks whether the listener is enabled
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:207](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L207) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js:207](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js#L207) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 
 ##### create
 
-通过指定不同的 Event 对象来设置想要创建的事件监听器。
+Create a EventListener object with configuration including the event type, handlers and other parameters.
+In handlers, this refer to the event listener object itself.
+You can also pass custom parameters in the configuration object,
+all custom parameters will be polyfilled into the event listener object and can be accessed in handlers.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L453) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js:453](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventListener.js#L453) |
 | Return 		 | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
 
 ###### Parameters
@@ -150,6 +160,25 @@ Constructor
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/event-manager/CCEventListener/create.js
+```js
+// Create KEYBOARD EventListener.
+cc.EventListener.create({
+    event: cc.EventListener.KEYBOARD,
+    onKeyPressed: function (keyCode, event) {
+        cc.log('pressed key: ' + keyCode);
+    },
+    onKeyReleased: function (keyCode, event) {
+        cc.log('released key: ' + keyCode);
+    }
+});
+
+// Create ACCELERATION EventListener.
+cc.EventListener.create({
+    event: cc.EventListener.ACCELERATION,
+    callback: function (acc, event) {
+        cc.log('acc: ' + keyCode);
+    }
+});
+```
 
 

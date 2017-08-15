@@ -8,20 +8,28 @@ Module: [sp](../modules/sp.md)
 
 
 
-Spine 的 骨骼数据。
+The skeleton data of spine.
 
 ### Index
 
 ##### Properties
 
-  - [`skeletonJson`](#skeletonjson) `Object` 可查看 Spine 官方文档 http://zh.esotericsoftware.com/spine-json-format
+  - [`skeletonJson`](#skeletonjson) `Object` See http://en.esotericsoftware.com/spine-json-format
   - [`atlasText`](#atlastext) `String` 
   - [`textures`](#textures) `Texture2D[]` 
-  - [`scale`](#scale) `Number` 可查看 Spine 官方文档： http://zh.esotericsoftware.com/spine-using-runtimes#Scaling
+  - [`scale`](#scale) `Number` A scale can be specified on the JSON or binary loader which will scale the bone positions,
+image sizes, and animation translations.
+This can be useful when using different sized images than were used when designing the skeleton
+in Spine. For example, if using images that are half the size than were used in Spine,
+a scale of 0.5 can be used. This is commonly used for games that can run with either low or high
+resolution texture atlases.
+see http://en.esotericsoftware.com/spine-using-runtimes#Scaling
   - [`_skeletonData`](#skeletondata) `sp.spine.SkeletonData` 
   - [`_atlasCache`](#atlascache) `sp.spine.Atlas` 
-  - [`rawUrl`](#rawurl) `String` 返回该资源的原始文件的 URL，如果不支持 RAW 文件，它将返回一个空字符串。
-  - [`rawUrls`](#rawurls) `String[]` 返回该资源的原文件的 URL 数组，如果不支持 RAW 文件，它将返回一个空数组。
+  - [`rawUrl`](#rawurl) `String` Returns the url of this asset's first raw file, if none of rawFile exists,
+it will returns an empty string.
+  - [`rawUrls`](#rawurls) `String[]` Returns the url of this asset's raw files, if none of rawFile exists,
+it will returns an empty array.
   - [`_rawFiles`](#rawfiles) `String[]` 在 lite 版的 Fireball 里，raw asset 并不仅仅是在 properties 里声明了 rawType 才有，
 而是每个 asset 都能指定自己的 raw file url。这些 url 就存在 _rawFiles 字段中。
 AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
@@ -29,24 +37,26 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
   - [`_uuid`](#uuid) `String` 
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` 该对象的名称。
-  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
+  - [`name`](#name) `String` The name of the object.
+  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
 
 
 
 ##### Methods
 
-  - [`getRuntimeData`](#getruntimedata) 获取 Spine Runtime 使用的 SkeletonData。<br>
-返回一个 <a href="../modules/sp.spine.html">sp.spine</a>.SkeletonData 对象。
+  - [`getRuntimeData`](#getruntimedata) Get the included SkeletonData used in spine runtime.<br>
+Returns a <a href="../modules/sp.spine.html">sp.spine</a>.SkeletonData object.
   - [`_getAtlas`](#getatlas) 
   - [`serialize`](#serialize) 应 AssetDB 要求提供这个方法
-  - [`createNode`](#createnode) 使用该资源在场景中创建一个新节点。<br/>
-如果这类资源没有相应的节点类型，该方法应该是空的。
+  - [`createNode`](#createnode) Create a new node using this asset in the scene.<br/>
+If this type of asset dont have its corresponding node type, this method should be null.
   - [`_setRawFiles`](#setrawfiles) Set raw file names for this asset.
   - [`_preloadRawFiles`](#preloadrawfiles) Preload raw files when loading scene.
-  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
-销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
-实际销毁操作会延迟到当前帧渲染前执行。
+  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
+Actual object destruction will delayed until before rendering.
+<br/>
+After destroy, this CCObject is not usable any more.
+You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -79,12 +89,12 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### skeletonJson
 
-> 可查看 Spine 官方文档 http://zh.esotericsoftware.com/spine-json-format
+> See http://en.esotericsoftware.com/spine-json-format
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:93](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L93) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js:93](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js#L93) |
 
 
 
@@ -95,7 +105,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:110](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js:110](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js#L110) |
 
 
 
@@ -106,18 +116,24 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Texture2D.html" class="crosslink">Texture2D[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:130](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L130) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js:130](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js#L130) |
 
 
 
 ##### scale
 
-> 可查看 Spine 官方文档： http://zh.esotericsoftware.com/spine-using-runtimes#Scaling
+> A scale can be specified on the JSON or binary loader which will scale the bone positions,
+image sizes, and animation translations.
+This can be useful when using different sized images than were used when designing the skeleton
+in Spine. For example, if using images that are half the size than were used in Spine,
+a scale of 0.5 can be used. This is commonly used for games that can run with either low or high
+resolution texture atlases.
+see http://en.esotericsoftware.com/spine-using-runtimes#Scaling
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:138](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L138) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js:138](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js#L138) |
 
 
 
@@ -128,7 +144,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | sp.spine.SkeletonData |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:173](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L173) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js:173](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js#L173) |
 
 
 
@@ -139,29 +155,31 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | sp.spine.Atlas |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:178](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L178) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js:178](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js#L178) |
 
 
 
 ##### rawUrl
 
-> 返回该资源的原始文件的 URL，如果不支持 RAW 文件，它将返回一个空字符串。
+> Returns the url of this asset's first raw file, if none of rawFile exists,
+it will returns an empty string.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:53](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L53) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js:53](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js#L53) |
 
 
 
 ##### rawUrls
 
-> 返回该资源的原文件的 URL 数组，如果不支持 RAW 文件，它将返回一个空数组。
+> Returns the url of this asset's raw files, if none of rawFile exists,
+it will returns an empty array.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:77](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L77) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js:77](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js#L77) |
 
 
 
@@ -175,7 +193,7 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:104](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L104) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js:104](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js#L104) |
 
 
 
@@ -186,7 +204,7 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCRawAsset.js:48](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCRawAsset.js#L48) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCRawAsset.js:48](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCRawAsset.js#L48) |
 
 
 
@@ -197,7 +215,7 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L50) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L50) |
 
 
 
@@ -208,18 +226,18 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L57) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L57) |
 
 
 
 ##### name
 
-> 该对象的名称。
+> The name of the object.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L208) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L208) |
 
 ##### Examples
 
@@ -230,12 +248,12 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> 表示该对象是否可用（被销毁后将不可用）。
+> Indicates whether the object is not yet destroyed.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L225) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L225) |
 
 ##### Examples
 
@@ -253,12 +271,12 @@ cc.log(obj.isValid);
 
 ##### getRuntimeData
 
-获取 Spine Runtime 使用的 SkeletonData。<br>
-返回一个 <a href="../modules/sp.spine.html">sp.spine</a>.SkeletonData 对象。
+Get the included SkeletonData used in spine runtime.<br>
+Returns a <a href="../modules/sp.spine.html">sp.spine</a>.SkeletonData object.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:189](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L189) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js:189](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js#L189) |
 | Return 		 | sp.spine.SkeletonData 
 
 ###### Parameters
@@ -271,7 +289,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:264](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L264) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js:264](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/SkeletonData.js#L264) |
 | Return 		 | sp.spine.Atlas 
 
 ###### Parameters
@@ -284,19 +302,19 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:143](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L143) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js:143](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js#L143) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 
 ##### createNode
 
-使用该资源在场景中创建一个新节点。<br/>
-如果这类资源没有相应的节点类型，该方法应该是空的。
+Create a new node using this asset in the scene.<br/>
+If this type of asset dont have its corresponding node type, this method should be null.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:154](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L154) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js:154](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js#L154) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -310,7 +328,7 @@ Set raw file names for this asset.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L168) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js:168](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js#L168) |
 
 ###### Parameters
 - rawFiles <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> 
@@ -322,7 +340,7 @@ Preload raw files when loading scene.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L179) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js:179](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/assets/CCAsset.js#L179) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -331,13 +349,15 @@ Preload raw files when loading scene.
 
 ##### destroy
 
-销毁该对象，并释放所有它对其它对象的引用。<br/>
-销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
-实际销毁操作会延迟到当前帧渲染前执行。
+Destroy this Object, and release all its own references to other objects.<br/>
+Actual object destruction will delayed until before rendering.
+<br/>
+After destroy, this CCObject is not usable any more.
+You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L246) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L246) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -370,7 +390,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L366) |
 
 
 
@@ -380,7 +400,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L399) |
 
 
 
@@ -390,7 +410,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L424) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -403,7 +423,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L434) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

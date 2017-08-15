@@ -47,134 +47,143 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 
 ##### Properties
 
-  - [`preview`](#preview) `Boolean` 在编辑器模式下预览粒子，启用后选中粒子时，粒子将自动播放。
-  - [`custom`](#custom) `Boolean` 是否自定义粒子属性。
-  - [`file`](#file) `string` plist 格式的粒子配置文件。
+  - [`preview`](#preview) `Boolean` Play particle in edit mode.
+  - [`custom`](#custom) `Boolean` If set custom to true, then use custom properties insteadof read particle file.
+  - [`file`](#file) `string` The plist file.
   - [`texture`](#texture) `Texture2D` .
-  - [`particleCount`](#particlecount) `Number` 当前播放的粒子数量。
-  - [`srcBlendFactor`](#srcblendfactor) `BlendFactor` 指定原图混合模式。
-  - [`dstBlendFactor`](#dstblendfactor) `BlendFactor` 指定目标的混合模式。
-  - [`playOnLoad`](#playonload) `Boolean` 如果设置为 true 运行时会自动发射粒子。
-  - [`autoRemoveOnFinish`](#autoremoveonfinish) `Boolean` 粒子播放完毕后自动销毁所在的节点。
-  - [`active`](#active) `Boolean` 是否激活粒子。
-  - [`totalParticles`](#totalparticles) `Number` 粒子最大数量。
-  - [`duration`](#duration) `Number` 发射器生存时间，单位秒，-1表示持续发射。
-  - [`emissionRate`](#emissionrate) `Number` 每秒发射的粒子数目。
-  - [`life`](#life) `Number` 粒子的运行时间。
-  - [`lifeVar`](#lifevar) `Number` 粒子的运行时间变化范围。
-  - [`startColor`](#startcolor) `Color` 粒子初始颜色。
-  - [`startColorVar`](#startcolorvar) `Color` 粒子初始颜色变化范围。
-  - [`endColor`](#endcolor) `Color` 粒子结束颜色。
-  - [`endColorVar`](#endcolorvar) `Color` 粒子结束颜色变化范围。
-  - [`angle`](#angle) `Number` 粒子角度。
-  - [`angleVar`](#anglevar) `Number` 粒子角度变化范围。
-  - [`startSize`](#startsize) `Number` 粒子的初始大小。
-  - [`startSizeVar`](#startsizevar) `Number` 粒子初始大小的变化范围。
-  - [`endSize`](#endsize) `Number` 粒子结束时的大小。
-  - [`endSizeVar`](#endsizevar) `Number` 粒子结束大小的变化范围。
-  - [`startSpin`](#startspin) `Number` 粒子开始自旋角度。
-  - [`startSpinVar`](#startspinvar) `Number` 粒子开始自旋角度变化范围。
-  - [`endSpin`](#endspin) `Number` 粒子结束自旋角度。
-  - [`endSpinVar`](#endspinvar) `Number` 粒子结束自旋角度变化范围。
-  - [`sourcePos`](#sourcepos) `Vec2` 发射器位置。
-  - [`posVar`](#posvar) `Vec2` 发射器位置的变化范围。（横向和纵向）
-  - [`positionType`](#positiontype) `ParticleSystem.PositionType` 粒子位置类型。
-  - [`emitterMode`](#emittermode) `ParticleSystem.EmitterMode` 发射器类型。
-  - [`gravity`](#gravity) `Vec2` 重力。
-  - [`speed`](#speed) `Number` 速度。
-  - [`speedVar`](#speedvar) `Number` 速度变化范围。
-  - [`tangentialAccel`](#tangentialaccel) `Number` 每个粒子的切向加速度，即垂直于重力方向的加速度，只有在重力模式下可用。
-  - [`tangentialAccelVar`](#tangentialaccelvar) `Number` 每个粒子的切向加速度变化范围。
-  - [`radialAccel`](#radialaccel) `Number` 粒子径向加速度，即平行于重力方向的加速度，只有在重力模式下可用。
-  - [`radialAccelVar`](#radialaccelvar) `Number` 粒子径向加速度变化范围。
-  - [`rotationIsDir`](#rotationisdir) `Boolean` 每个粒子的旋转是否等于其方向，只有在重力模式下可用。
-  - [`startRadius`](#startradius) `Number` 初始半径，表示粒子出生时相对发射器的距离，只有在半径模式下可用。
-  - [`startRadiusVar`](#startradiusvar) `Number` 初始半径变化范围。
-  - [`endRadius`](#endradius) `Number` 结束半径，只有在半径模式下可用。
-  - [`endRadiusVar`](#endradiusvar) `Number` 结束半径变化范围。
-  - [`rotatePerS`](#rotatepers) `Number` 粒子每秒围绕起始点的旋转角度，只有在半径模式下可用。
-  - [`rotatePerSVar`](#rotatepersvar) `Number` 粒子每秒围绕起始点的旋转角度变化范围。
-  - [`DURATION_INFINITY`](#durationinfinity) `Number` 表示发射器永久存在
-  - [`START_SIZE_EQUAL_TO_END_SIZE`](#startsizeequaltoendsize) `Number` 表示粒子的起始大小等于结束大小。
-  - [`START_RADIUS_EQUAL_TO_END_RADIUS`](#startradiusequaltoendradius) `Number` 表示粒子的起始半径等于结束半径。
+  - [`particleCount`](#particlecount) `Number` Current quantity of particles that are being simulated.
+  - [`srcBlendFactor`](#srcblendfactor) `BlendFactor` Specify the source Blend Factor.
+  - [`dstBlendFactor`](#dstblendfactor) `BlendFactor` Specify the destination Blend Factor.
+  - [`playOnLoad`](#playonload) `Boolean` If set to true, the particle system will automatically start playing on onLoad.
+  - [`autoRemoveOnFinish`](#autoremoveonfinish) `Boolean` Indicate whether the owner node will be auto-removed when it has no particles left.
+  - [`active`](#active) `Boolean` Indicate whether the particle system is activated.
+  - [`totalParticles`](#totalparticles) `Number` Maximum particles of the system.
+  - [`duration`](#duration) `Number` How many seconds the emitter wil run. -1 means 'forever'.
+  - [`emissionRate`](#emissionrate) `Number` Emission rate of the particles.
+  - [`life`](#life) `Number` Life of each particle setter.
+  - [`lifeVar`](#lifevar) `Number` Variation of life.
+  - [`startColor`](#startcolor) `Color` Start color of each particle.
+  - [`startColorVar`](#startcolorvar) `Color` Variation of the start color.
+  - [`endColor`](#endcolor) `Color` Ending color of each particle.
+  - [`endColorVar`](#endcolorvar) `Color` Variation of the end color.
+  - [`angle`](#angle) `Number` Angle of each particle setter.
+  - [`angleVar`](#anglevar) `Number` Variation of angle of each particle setter.
+  - [`startSize`](#startsize) `Number` Start size in pixels of each particle.
+  - [`startSizeVar`](#startsizevar) `Number` Variation of start size in pixels.
+  - [`endSize`](#endsize) `Number` End size in pixels of each particle.
+  - [`endSizeVar`](#endsizevar) `Number` Variation of end size in pixels.
+  - [`startSpin`](#startspin) `Number` Start angle of each particle.
+  - [`startSpinVar`](#startspinvar) `Number` Variation of start angle.
+  - [`endSpin`](#endspin) `Number` End angle of each particle.
+  - [`endSpinVar`](#endspinvar) `Number` Variation of end angle.
+  - [`sourcePos`](#sourcepos) `Vec2` Source position of the emitter.
+  - [`posVar`](#posvar) `Vec2` Variation of source position.
+  - [`positionType`](#positiontype) `ParticleSystem.PositionType` Particles movement type.
+  - [`emitterMode`](#emittermode) `ParticleSystem.EmitterMode` Particles emitter modes.
+  - [`gravity`](#gravity) `Vec2` Gravity of the emitter.
+  - [`speed`](#speed) `Number` Speed of the emitter.
+  - [`speedVar`](#speedvar) `Number` Variation of the speed.
+  - [`tangentialAccel`](#tangentialaccel) `Number` Tangential acceleration of each particle. Only available in 'Gravity' mode.
+  - [`tangentialAccelVar`](#tangentialaccelvar) `Number` Variation of the tangential acceleration.
+  - [`radialAccel`](#radialaccel) `Number` Acceleration of each particle. Only available in 'Gravity' mode.
+  - [`radialAccelVar`](#radialaccelvar) `Number` Variation of the radial acceleration.
+  - [`rotationIsDir`](#rotationisdir) `Boolean` Indicate whether the rotation of each particle equals to its direction. Only available in 'Gravity' mode.
+  - [`startRadius`](#startradius) `Number` Starting radius of the particles. Only available in 'Radius' mode.
+  - [`startRadiusVar`](#startradiusvar) `Number` Variation of the starting radius.
+  - [`endRadius`](#endradius) `Number` Ending radius of the particles. Only available in 'Radius' mode.
+  - [`endRadiusVar`](#endradiusvar) `Number` Variation of the ending radius.
+  - [`rotatePerS`](#rotatepers) `Number` Number of degress to rotate a particle around the source pos per second. Only available in 'Radius' mode.
+  - [`rotatePerSVar`](#rotatepersvar) `Number` Variation of the degress to rotate a particle around the source pos per second.
+  - [`DURATION_INFINITY`](#durationinfinity) `Number` The Particle emitter lives forever.
+  - [`START_SIZE_EQUAL_TO_END_SIZE`](#startsizeequaltoendsize) `Number` The starting size of the particle is equal to the ending size.
+  - [`START_RADIUS_EQUAL_TO_END_RADIUS`](#startradiusequaltoendradius) `Number` The starting radius of the particle is equal to the ending radius.
   - [`_sgNode`](#sgnode) `_ccsg.Node` Reference to the instance of _ccsg.Node
 If it is possible to return null from your overloaded _createSgNode,
 then you should always check for null before using this property and reimplement `__preload`.
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
-  - [`node`](#node) `Node` 该组件被附加到的节点。组件总会附加到一个节点。
-  - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
+  - [`node`](#node) `Node` The node this component is attached to. A component is always attached to a node.
+  - [`uuid`](#uuid) `String` The uuid for editor.
   - [`_enabled`](#enabled) `Boolean` 
-  - [`enabled`](#enabled) `Boolean` 表示该组件自身是否启用。
-  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` 表示该组件是否被启用并且所在的节点也处于激活状态。
-  - [`_isOnLoadCalled`](#isonloadcalled) `Number` 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
+  - [`enabled`](#enabled) `Boolean` indicates whether this component is enabled or not.
+  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` indicates whether this component is enabled and its node is also active in the hierarchy.
+  - [`_isOnLoadCalled`](#isonloadcalled) `Number` Returns a value which used to indicate the onLoad get called or not.
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` 该对象的名称。
-  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
+  - [`name`](#name) `String` The name of the object.
+  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
 
 
 
 ##### Methods
 
-  - [`addParticle`](#addparticle) 添加一个粒子到发射器中。
-  - [`stopSystem`](#stopsystem) 停止发射器发射粒子，发射出去的粒子将继续运行，直至粒子生命结束。
-  - [`resetSystem`](#resetsystem) 杀死所有存在的粒子，然后重新启动粒子发射器。
-  - [`isFull`](#isfull) 发射器中粒子是否大于等于设置的总粒子数量。
-  - [`setDisplayFrame`](#setdisplayframe) <p> 设置一个新的精灵帧为粒子。</br>
-警告：这个函数只是试验，请使用 setTextureWithRect 实现。
+  - [`addParticle`](#addparticle) Add a particle to the emitter.
+  - [`stopSystem`](#stopsystem) Stop emitting particles. Running particles will continue to run until they die.
+  - [`resetSystem`](#resetsystem) Kill all living particles.
+  - [`isFull`](#isfull) Whether or not the system is full.
+  - [`setDisplayFrame`](#setdisplayframe) <p> Sets a new CCSpriteFrame as particle.</br>
+WARNING: this method is experimental. Use setTextureWithRect instead.
 </p>
-  - [`setTextureWithRect`](#settexturewithrect) 设置一张新贴图和关联的矩形。
+  - [`setTextureWithRect`](#settexturewithrect) Sets a new texture with a rect. The rect is in texture position and size.
   - [`_createSgNode`](#createsgnode) Create and returns your new scene graph node (SGNode) to add to scene graph.
 You should call the setContentSize of the SGNode if its size should be the same with the node's.
   - [`_initSgNode`](#initsgnode) 
   - [`_removeSgNode`](#removesgnode) 
-  - [`update`](#update) 如果该组件启用，则每帧调用 update。
-  - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
+  - [`update`](#update) Update is called every frame, if the Component is enabled.
+  - [`lateUpdate`](#lateupdate) LateUpdate is called every frame, if the Component is enabled.
   - [`__preload`](#preload) `__preload` is called before every onLoad.
 It is used to initialize the builtin components internally,
 to avoid checking whether onLoad is called before every public method calls.
 This method should be removed if script priority is supported.
-  - [`onLoad`](#onload) 当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
-  - [`start`](#start) 如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
-  - [`onEnable`](#onenable) 当该组件被启用，并且它的节点也激活时。
-  - [`onDisable`](#ondisable) 当该组件被禁用或节点变为无效时调用。
-  - [`onDestroy`](#ondestroy) 当该组件被销毁时调用
+  - [`onLoad`](#onload) When attaching to an active node or its node first activated.
+onLoad is always called before any start functions, this allows you to order initialization of scripts.
+  - [`start`](#start) Called before all scripts' update if the Component is enabled the first time.
+Usually used to initialize some logic which need to be called after all components' `onload` methods called.
+  - [`onEnable`](#onenable) Called when this component becomes enabled and its node is active.
+  - [`onDisable`](#ondisable) Called when this component becomes disabled or its node becomes inactive.
+  - [`onDestroy`](#ondestroy) Called when this component will be destroyed.
   - [`onFocusInEditor`](#onfocusineditor) 
   - [`onLostFocusInEditor`](#onlostfocusineditor) 
-  - [`resetInEditor`](#resetineditor) 用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
-  - [`addComponent`](#addcomponent) 向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
-  - [`getComponent`](#getcomponent) 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
-传入参数也可以是脚本的名称。
-  - [`getComponents`](#getcomponents) 返回节点上指定类型的所有组件。
-  - [`getComponentInChildren`](#getcomponentinchildren) 递归查找所有子节点中第一个匹配指定类型的组件。
-  - [`getComponentsInChildren`](#getcomponentsinchildren) 递归查找自身或所有子节点中指定类型的组件
-  - [`_getLocalBounds`](#getlocalbounds) 如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
-以便编辑器的场景视图可以正确地执行点选测试。
-  - [`onRestore`](#onrestore) onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
+  - [`resetInEditor`](#resetineditor) Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
+  - [`addComponent`](#addcomponent) Adds a component class to the node. You can also add component to node by passing in the name of the script.
+  - [`getComponent`](#getcomponent) Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
+You can also get component in the node by passing in the name of the script.
+  - [`getComponents`](#getcomponents) Returns all components of supplied Type in the node.
+  - [`getComponentInChildren`](#getcomponentinchildren) Returns the component of supplied type in any of its children using depth first search.
+  - [`getComponentsInChildren`](#getcomponentsinchildren) Returns the components of supplied type in self or any of its children using depth first search.
+  - [`_getLocalBounds`](#getlocalbounds) If the component's bounding box is different from the node's, you can implement this method to supply
+a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
+  - [`onRestore`](#onrestore) onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
+an undo operation on this component.<br/>
 <br/>
-如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
+If the component contains the "internal state", short for "temporary member variables which not included<br/>
+in its CCClass properties", then you may need to implement this function.<br/>
 <br/>
-编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
-然而，在极端的情况下，它可能无法良好运作。<br/>
-那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
-一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
-这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
+The editor will call the getset accessors of your component to record/restore the component's state<br/>
+for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
+this function to manually synchronize your component's "internal states" with its public properties.<br/>
+Once you implement this function, all the getset accessors of your component will not be called when<br/>
+the user performs an undo/redo operation. Which means that only the properties with default value<br/>
+will be recorded or restored by editor.<br/>
 <br/>
-同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
-于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
-一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
-这意味着仅仅指定了默认值的属性将被编辑器重置。
+Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
+to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
+properties in this function. Once you implement this function, all the getset accessors of your component<br/>
+will not be called during reset operation. Which means that only the properties with default value<br/>
+will be reset by editor.
+
+This function is only called in editor mode.
+  - [`schedule`](#schedule) Schedules a custom selector.<br/>
+If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
+  - [`scheduleOnce`](#scheduleonce) Schedules a callback function that runs only once, with a delay of 0 or larger.
+  - [`unschedule`](#unschedule) Unschedules a custom callback function.
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
+Actions are not affected by this method.
+  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
+Actual object destruction will delayed until before rendering.
 <br/>
-此方法仅在编辑器下会被调用。
-  - [`schedule`](#schedule) 调度一个自定义的回调函数。<br/>
-如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
-  - [`scheduleOnce`](#scheduleonce) 调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
-  - [`unschedule`](#unschedule) 取消调度一个自定义的回调函数。
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
-  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
-销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
-实际销毁操作会延迟到当前帧渲染前执行。
+After destroy, this CCObject is not usable any more.
+You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -207,34 +216,34 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### preview
 
-> 在编辑器模式下预览粒子，启用后选中粒子时，粒子将自动播放。
+> Play particle in edit mode.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:99](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L99) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:99](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L99) |
 
 
 
 ##### custom
 
-> 是否自定义粒子属性。
+> If set custom to true, then use custom properties insteadof read particle file.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:119](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L119) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:119](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L119) |
 
 
 
 ##### file
 
-> plist 格式的粒子配置文件。
+> The plist file.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:153](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L153) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:153](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L153) |
 
 
 
@@ -245,513 +254,513 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:187](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L187) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:187](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L187) |
 
 
 
 ##### particleCount
 
-> 当前播放的粒子数量。
+> Current quantity of particles that are being simulated.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:212](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L212) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:212](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L212) |
 
 
 
 ##### srcBlendFactor
 
-> 指定原图混合模式。
+> Specify the source Blend Factor.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/BlendFactor.html" class="crosslink">BlendFactor</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:228](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L228) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:228](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L228) |
 
 
 
 ##### dstBlendFactor
 
-> 指定目标的混合模式。
+> Specify the destination Blend Factor.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/BlendFactor.html" class="crosslink">BlendFactor</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:249](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L249) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:249](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L249) |
 
 
 
 ##### playOnLoad
 
-> 如果设置为 true 运行时会自动发射粒子。
+> If set to true, the particle system will automatically start playing on onLoad.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:270](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L270) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:270](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L270) |
 
 
 
 ##### autoRemoveOnFinish
 
-> 粒子播放完毕后自动销毁所在的节点。
+> Indicate whether the owner node will be auto-removed when it has no particles left.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:279](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L279) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:279](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L279) |
 
 
 
 ##### active
 
-> 是否激活粒子。
+> Indicate whether the particle system is activated.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:301](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L301) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:301](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L301) |
 
 
 
 ##### totalParticles
 
-> 粒子最大数量。
+> Maximum particles of the system.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:317](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L317) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:317](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L317) |
 
 
 
 ##### duration
 
-> 发射器生存时间，单位秒，-1表示持续发射。
+> How many seconds the emitter wil run. -1 means 'forever'.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:324](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L324) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:324](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L324) |
 
 
 
 ##### emissionRate
 
-> 每秒发射的粒子数目。
+> Emission rate of the particles.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:331](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L331) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:331](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L331) |
 
 
 
 ##### life
 
-> 粒子的运行时间。
+> Life of each particle setter.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:338](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L338) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:338](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L338) |
 
 
 
 ##### lifeVar
 
-> 粒子的运行时间变化范围。
+> Variation of life.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:345](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L345) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:345](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L345) |
 
 
 
 ##### startColor
 
-> 粒子初始颜色。
+> Start color of each particle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:353](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L353) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:353](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L353) |
 
 
 
 ##### startColorVar
 
-> 粒子初始颜色变化范围。
+> Variation of the start color.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:360](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L360) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:360](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L360) |
 
 
 
 ##### endColor
 
-> 粒子结束颜色。
+> Ending color of each particle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:367](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L367) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:367](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L367) |
 
 
 
 ##### endColorVar
 
-> 粒子结束颜色变化范围。
+> Variation of the end color.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:374](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L374) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:374](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L374) |
 
 
 
 ##### angle
 
-> 粒子角度。
+> Angle of each particle setter.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:382](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L382) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:382](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L382) |
 
 
 
 ##### angleVar
 
-> 粒子角度变化范围。
+> Variation of angle of each particle setter.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:389](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L389) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:389](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L389) |
 
 
 
 ##### startSize
 
-> 粒子的初始大小。
+> Start size in pixels of each particle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:396](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L396) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:396](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L396) |
 
 
 
 ##### startSizeVar
 
-> 粒子初始大小的变化范围。
+> Variation of start size in pixels.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L403) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:403](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L403) |
 
 
 
 ##### endSize
 
-> 粒子结束时的大小。
+> End size in pixels of each particle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:410](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L410) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:410](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L410) |
 
 
 
 ##### endSizeVar
 
-> 粒子结束大小的变化范围。
+> Variation of end size in pixels.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:417](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L417) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:417](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L417) |
 
 
 
 ##### startSpin
 
-> 粒子开始自旋角度。
+> Start angle of each particle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:424](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L424) |
 
 
 
 ##### startSpinVar
 
-> 粒子开始自旋角度变化范围。
+> Variation of start angle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:431](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L431) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:431](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L431) |
 
 
 
 ##### endSpin
 
-> 粒子结束自旋角度。
+> End angle of each particle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L438) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:438](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L438) |
 
 
 
 ##### endSpinVar
 
-> 粒子结束自旋角度变化范围。
+> Variation of end angle.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:445](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L445) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:445](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L445) |
 
 
 
 ##### sourcePos
 
-> 发射器位置。
+> Source position of the emitter.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L453) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:453](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L453) |
 
 
 
 ##### posVar
 
-> 发射器位置的变化范围。（横向和纵向）
+> Variation of source position.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:461](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L461) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:461](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L461) |
 
 
 
 ##### positionType
 
-> 粒子位置类型。
+> Particles movement type.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/ParticleSystem.PositionType.html" class="crosslink">ParticleSystem.PositionType</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:469](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L469) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:469](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L469) |
 
 
 
 ##### emitterMode
 
-> 发射器类型。
+> Particles emitter modes.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/ParticleSystem.EmitterMode.html" class="crosslink">ParticleSystem.EmitterMode</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:476](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L476) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:476](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L476) |
 
 
 
 ##### gravity
 
-> 重力。
+> Gravity of the emitter.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:486](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L486) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:486](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L486) |
 
 
 
 ##### speed
 
-> 速度。
+> Speed of the emitter.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:493](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L493) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:493](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L493) |
 
 
 
 ##### speedVar
 
-> 速度变化范围。
+> Variation of the speed.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:500](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L500) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:500](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L500) |
 
 
 
 ##### tangentialAccel
 
-> 每个粒子的切向加速度，即垂直于重力方向的加速度，只有在重力模式下可用。
+> Tangential acceleration of each particle. Only available in 'Gravity' mode.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:507](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L507) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:507](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L507) |
 
 
 
 ##### tangentialAccelVar
 
-> 每个粒子的切向加速度变化范围。
+> Variation of the tangential acceleration.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:514](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L514) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:514](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L514) |
 
 
 
 ##### radialAccel
 
-> 粒子径向加速度，即平行于重力方向的加速度，只有在重力模式下可用。
+> Acceleration of each particle. Only available in 'Gravity' mode.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:521](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L521) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:521](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L521) |
 
 
 
 ##### radialAccelVar
 
-> 粒子径向加速度变化范围。
+> Variation of the radial acceleration.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:528](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L528) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:528](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L528) |
 
 
 
 ##### rotationIsDir
 
-> 每个粒子的旋转是否等于其方向，只有在重力模式下可用。
+> Indicate whether the rotation of each particle equals to its direction. Only available in 'Gravity' mode.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:536](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L536) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:536](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L536) |
 
 
 
 ##### startRadius
 
-> 初始半径，表示粒子出生时相对发射器的距离，只有在半径模式下可用。
+> Starting radius of the particles. Only available in 'Radius' mode.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:546](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L546) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:546](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L546) |
 
 
 
 ##### startRadiusVar
 
-> 初始半径变化范围。
+> Variation of the starting radius.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:553](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L553) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:553](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L553) |
 
 
 
 ##### endRadius
 
-> 结束半径，只有在半径模式下可用。
+> Ending radius of the particles. Only available in 'Radius' mode.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:560](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L560) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:560](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L560) |
 
 
 
 ##### endRadiusVar
 
-> 结束半径变化范围。
+> Variation of the ending radius.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:567](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L567) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:567](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L567) |
 
 
 
 ##### rotatePerS
 
-> 粒子每秒围绕起始点的旋转角度，只有在半径模式下可用。
+> Number of degress to rotate a particle around the source pos per second. Only available in 'Radius' mode.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:574](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L574) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:574](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L574) |
 
 
 
 ##### rotatePerSVar
 
-> 粒子每秒围绕起始点的旋转角度变化范围。
+> Variation of the degress to rotate a particle around the source pos per second.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:581](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L581) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:581](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L581) |
 
 
 
 ##### DURATION_INFINITY
 
-> 表示发射器永久存在
+> The Particle emitter lives forever.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:708](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L708) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:708](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L708) |
 
 
 
 ##### START_SIZE_EQUAL_TO_END_SIZE
 
-> 表示粒子的起始大小等于结束大小。
+> The starting size of the particle is equal to the ending size.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:718](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L718) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:718](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L718) |
 
 
 
 ##### START_RADIUS_EQUAL_TO_END_RADIUS
 
-> 表示粒子的起始半径等于结束半径。
+> The starting radius of the particle is equal to the ending radius.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:728](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L728) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:728](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L728) |
 
 
 
@@ -764,7 +773,7 @@ then you should always check for null before using this property and reimplement
 | meta | description |
 |------|-------------|
 | Type | _ccsg.Node |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRendererUnderSG.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRendererUnderSG.js#L41) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCRendererUnderSG.js:41](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCRendererUnderSG.js#L41) |
 
 
 
@@ -776,18 +785,18 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L61) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L61) |
 
 
 
 ##### node
 
-> 该组件被附加到的节点。组件总会附加到一个节点。
+> The node this component is attached to. A component is always attached to a node.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L75) |
 
 ##### Examples
 
@@ -798,12 +807,12 @@ cc.log(comp.node);
 
 ##### uuid
 
-> 组件的 uuid，用于编辑器。
+> The uuid for editor.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L111) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L111) |
 
 ##### Examples
 
@@ -819,18 +828,18 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L159) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L159) |
 
 
 
 ##### enabled
 
-> 表示该组件自身是否启用。
+> indicates whether this component is enabled or not.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L166) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L166) |
 
 ##### Examples
 
@@ -842,12 +851,12 @@ cc.log(comp.enabled);
 
 ##### enabledInHierarchy
 
-> 表示该组件是否被启用并且所在的节点也处于激活状态。
+> indicates whether this component is enabled and its node is also active in the hierarchy.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L197) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L197) |
 
 ##### Examples
 
@@ -858,12 +867,12 @@ cc.log(comp.enabledInHierarchy);
 
 ##### _isOnLoadCalled
 
-> 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
+> Returns a value which used to indicate the onLoad get called or not.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L213) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L213) |
 
 ##### Examples
 
@@ -879,7 +888,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L50) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L50) |
 
 
 
@@ -890,18 +899,18 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L57) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L57) |
 
 
 
 ##### name
 
-> 该对象的名称。
+> The name of the object.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L208) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L208) |
 
 ##### Examples
 
@@ -912,12 +921,12 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> 表示该对象是否可用（被销毁后将不可用）。
+> Indicates whether the object is not yet destroyed.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L225) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L225) |
 
 ##### Examples
 
@@ -935,22 +944,22 @@ cc.log(obj.isValid);
 
 ##### addParticle
 
-添加一个粒子到发射器中。
+Add a particle to the emitter.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:829](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L829) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:829](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L829) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 
 ##### stopSystem
 
-停止发射器发射粒子，发射出去的粒子将继续运行，直至粒子生命结束。
+Stop emitting particles. Running particles will continue to run until they die.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:839](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L839) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:839](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L839) |
 
 
 ##### Example
@@ -962,11 +971,11 @@ myParticleSystem.stopSystem();
 
 ##### resetSystem
 
-杀死所有存在的粒子，然后重新启动粒子发射器。
+Kill all living particles.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:851](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L851) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:851](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L851) |
 
 
 ##### Example
@@ -978,24 +987,24 @@ myParticleSystem.resetSystem();
 
 ##### isFull
 
-发射器中粒子是否大于等于设置的总粒子数量。
+Whether or not the system is full.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:863](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L863) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:863](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L863) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 
 ##### setDisplayFrame
 
-<p> 设置一个新的精灵帧为粒子。</br>
-警告：这个函数只是试验，请使用 setTextureWithRect 实现。
+<p> Sets a new CCSpriteFrame as particle.</br>
+WARNING: this method is experimental. Use setTextureWithRect instead.
 </p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:873](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L873) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:873](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L873) |
 
 ###### Parameters
 - spriteFrame <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> 
@@ -1003,11 +1012,11 @@ myParticleSystem.resetSystem();
 
 ##### setTextureWithRect
 
-设置一张新贴图和关联的矩形。
+Sets a new texture with a rect. The rect is in texture position and size.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:896](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L896) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:896](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L896) |
 
 ###### Parameters
 - texture <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
@@ -1021,7 +1030,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L65) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js:65](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js#L65) |
 | Return 		 | _ccsg.Node 
 
 
@@ -1032,7 +1041,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js#L75) |
 
 
 
@@ -1042,17 +1051,17 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L81) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js:81](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js#L81) |
 
 
 
 ##### update
 
-如果该组件启用，则每帧调用 update。
+Update is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L234) |
 
 ###### Parameters
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -1060,11 +1069,11 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 ##### lateUpdate
 
-如果该组件启用，则每帧调用 LateUpdate。
+LateUpdate is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L243) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L243) |
 
 
 
@@ -1077,57 +1086,59 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L251) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L251) |
 
 
 
 ##### onLoad
 
-当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
+When attaching to an active node or its node first activated.
+onLoad is always called before any start functions, this allows you to order initialization of scripts.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L262) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L262) |
 
 
 
 ##### start
 
-如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
+Called before all scripts' update if the Component is enabled the first time.
+Usually used to initialize some logic which need to be called after all components' `onload` methods called.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L273) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L273) |
 
 
 
 ##### onEnable
 
-当该组件被启用，并且它的节点也激活时。
+Called when this component becomes enabled and its node is active.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L284) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L284) |
 
 
 
 ##### onDisable
 
-当该组件被禁用或节点变为无效时调用。
+Called when this component becomes disabled or its node becomes inactive.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L292) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L292) |
 
 
 
 ##### onDestroy
 
-当该组件被销毁时调用
+Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L300) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L300) |
 
 
 
@@ -1137,7 +1148,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L308) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L308) |
 
 
 
@@ -1147,31 +1158,31 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L313) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L313) |
 
 
 
 ##### resetInEditor
 
-用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
+Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L318) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L318) |
 
 
 
 ##### addComponent
 
-向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
+Adds a component class to the node. You can also add component to node by passing in the name of the script.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L328) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
 ##### Example
 
@@ -1182,16 +1193,16 @@ var test = node.addComponent("Test");
 
 ##### getComponent
 
-获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
-传入参数也可以是脚本的名称。
+Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
+You can also get component in the node by passing in the name of the script.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L346) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -1204,15 +1215,15 @@ var test = node.getComponent("Test");
 
 ##### getComponents
 
-返回节点上指定类型的所有组件。
+Returns all components of supplied Type in the node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L370) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -1223,15 +1234,15 @@ var tests = node.getComponents("Test");
 
 ##### getComponentInChildren
 
-递归查找所有子节点中第一个匹配指定类型的组件。
+Returns the component of supplied type in any of its children using depth first search.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L388) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -1242,15 +1253,15 @@ var Test = node.getComponentInChildren("Test");
 
 ##### getComponentsInChildren
 
-递归查找自身或所有子节点中指定类型的组件
+Returns the components of supplied type in self or any of its children using depth first search.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L406) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -1261,12 +1272,12 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### _getLocalBounds
 
-如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
-以便编辑器的场景视图可以正确地执行点选测试。
+If the component's bounding box is different from the node's, you can implement this method to supply
+a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L426) |
 
 ###### Parameters
 - out_rect <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -1274,37 +1285,41 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### onRestore
 
-onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
+onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
+an undo operation on this component.<br/>
 <br/>
-如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
+If the component contains the "internal state", short for "temporary member variables which not included<br/>
+in its CCClass properties", then you may need to implement this function.<br/>
 <br/>
-编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
-然而，在极端的情况下，它可能无法良好运作。<br/>
-那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
-一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
-这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
+The editor will call the getset accessors of your component to record/restore the component's state<br/>
+for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
+this function to manually synchronize your component's "internal states" with its public properties.<br/>
+Once you implement this function, all the getset accessors of your component will not be called when<br/>
+the user performs an undo/redo operation. Which means that only the properties with default value<br/>
+will be recorded or restored by editor.<br/>
 <br/>
-同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
-于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
-一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
-这意味着仅仅指定了默认值的属性将被编辑器重置。
-<br/>
-此方法仅在编辑器下会被调用。
+Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
+to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
+properties in this function. Once you implement this function, all the getset accessors of your component<br/>
+will not be called during reset operation. Which means that only the properties with default value<br/>
+will be reset by editor.
+
+This function is only called in editor mode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L439) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L439) |
 
 
 
 ##### schedule
 
-调度一个自定义的回调函数。<br/>
-如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
+Schedules a custom selector.<br/>
+If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L541) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -1323,11 +1338,11 @@ this.schedule(timeCallback, 1);
 
 ##### scheduleOnce
 
-调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
+Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L570) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1344,11 +1359,11 @@ this.scheduleOnce(timeCallback, 2);
 
 ##### unschedule
 
-取消调度一个自定义的回调函数。
+Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L587) |
 
 ###### Parameters
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1361,11 +1376,12 @@ this.unschedule(_callback);
 
 ##### unscheduleAllCallbacks
 
-取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
+unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
+Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L603) |
 
 
 ##### Example
@@ -1376,13 +1392,15 @@ this.unscheduleAllCallbacks();
 
 ##### destroy
 
-销毁该对象，并释放所有它对其它对象的引用。<br/>
-销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
-实际销毁操作会延迟到当前帧渲染前执行。
+Destroy this Object, and release all its own references to other objects.<br/>
+Actual object destruction will delayed until before rendering.
+<br/>
+After destroy, this CCObject is not usable any more.
+You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L246) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L246) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -1415,7 +1433,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L366) |
 
 
 
@@ -1425,7 +1443,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L399) |
 
 
 
@@ -1435,7 +1453,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L424) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -1448,7 +1466,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L434) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

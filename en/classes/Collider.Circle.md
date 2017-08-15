@@ -7,14 +7,14 @@ Module: [cc](../modules/cc.md)
 
 
 
-用来定义圆形碰撞体
+Defines a Circle Collider .
 
 ### Index
 
 ##### Properties
 
-  - [`offset`](#offset) `Vec2` 位置偏移量
-  - [`radius`](#radius) `Number` 圆形半径
+  - [`offset`](#offset) `Vec2` Position offset
+  - [`radius`](#radius) `Number` Circle radius
 
 
 
@@ -28,23 +28,23 @@ Module: [cc](../modules/cc.md)
 
 ##### offset
 
-> 位置偏移量
+> Position offset
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCCircleCollider.js:39](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCCircleCollider.js#L39) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCCircleCollider.js:39](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCCircleCollider.js#L39) |
 
 
 
 ##### radius
 
-> 圆形半径
+> Circle radius
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCCircleCollider.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCCircleCollider.js#L55) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCCircleCollider.js:55](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCCircleCollider.js#L55) |
 
 
 

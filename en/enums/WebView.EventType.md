@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-网页视图事件类型
+WebView event type
 
 ### Index
 
@@ -24,33 +24,33 @@ Module: [cc](../modules/cc.md)
 
 ##### LOADED
 
-> 网页加载完成
+> Web page Load completed.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:35](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L35) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCWebView.js:35](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCWebView.js#L35) |
 
 
 
 ##### LOADING
 
-> 网页加载中
+> Web page is loading.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L41) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCWebView.js:41](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCWebView.js#L41) |
 
 
 
 ##### ERROR
 
-> 网页加载出错
+> Web page error occurs when loading.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L47) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCWebView.js:47](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCWebView.js#L47) |
 
 

@@ -8,7 +8,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-渲染 TMX layer。
+Render the TMX layer.
 
 ### Index
 
@@ -16,106 +16,116 @@ Module: [cc](../modules/cc.md)
 
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
-  - [`node`](#node) `Node` 该组件被附加到的节点。组件总会附加到一个节点。
-  - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
+  - [`node`](#node) `Node` The node this component is attached to. A component is always attached to a node.
+  - [`uuid`](#uuid) `String` The uuid for editor.
   - [`_enabled`](#enabled) `Boolean` 
-  - [`enabled`](#enabled) `Boolean` 表示该组件自身是否启用。
-  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` 表示该组件是否被启用并且所在的节点也处于激活状态。
-  - [`_isOnLoadCalled`](#isonloadcalled) `Number` 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
+  - [`enabled`](#enabled) `Boolean` indicates whether this component is enabled or not.
+  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` indicates whether this component is enabled and its node is also active in the hierarchy.
+  - [`_isOnLoadCalled`](#isonloadcalled) `Number` Returns a value which used to indicate the onLoad get called or not.
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` 该对象的名称。
-  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
+  - [`name`](#name) `String` The name of the object.
+  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
 
 
 
 ##### Methods
 
-  - [`getLayerName`](#getlayername) 获取层的名称。
-  - [`SetLayerName`](#setlayername) 设置层的名称
-  - [`getProperty`](#getproperty) 获取指定属性名的值。
-  - [`getPositionAt`](#getpositionat) 获取指定 tile 的像素坐标。
-  - [`removeTileAt`](#removetileat) 删除指定坐标上的 tile。
-  - [`setTileGID`](#settilegid) 设置给定坐标的 tile 的 gid (gid = tile 全局 id)，
-tile 的 GID 可以使用方法 “tileGIDAt” 来获得。<br />
-如果一个 tile 已经放在那个位置，那么它将被删除。
-  - [`getTileGIDAt`](#gettilegidat) 通过给定的 tile 坐标、flags（可选）返回 tile 的 GID. <br />
-如果它返回 0，则表示该 tile 为空。<br />
-该方法要求 tile 地图之前没有被释放过(如：没有调用过layer.releaseMap()).
-  - [`getTileAt`](#gettileat) 通过指定的 tile 坐标获取对应的 tile(Sprite)。 返回的 tile(Sprite) 应是已经添加到 TMXLayer，请不要重复添加。<br/>
-这个 tile(Sprite) 如同其他的 Sprite 一样，可以旋转、缩放、翻转、透明化、设置颜色等。<br/>
-你可以通过调用以下方法来对它进行删除:<br/>
-1. layer.removeChild(sprite, cleanup);<br/>
-2. 或 layer.removeTileAt(cc.v2(x,y));
-  - [`releaseMap`](#releasemap) 从内存中释放包含 tile 位置信息的地图。<br />
-除了在运行时想要知道 tiles 的位置信息外，你都可安全的调用此方法。<br />
-如果你之后还要调用 layer.tileGIDAt(), 请不要释放地图.
-  - [`setContentSize`](#setcontentsize) 设置未转换的 layer 大小。
-  - [`getTexture`](#gettexture) 获取纹理。
-  - [`setTexture`](#settexture) 设置纹理。
-  - [`setTileOpacity`](#settileopacity) 设置所有 Tile 的透明度
-  - [`getLayerSize`](#getlayersize) 获得层大小。
-  - [`setLayerSize`](#setlayersize) 设置层大小。
-  - [`getMapTileSize`](#getmaptilesize) 获取 tile 的大小( tile 的大小可能会有所不同)。
-  - [`setMapTileSize`](#setmaptilesize) 设置 tile 的大小。
-  - [`getTiles`](#gettiles) 获取地图 tiles。
-  - [`setTiles`](#settiles) 设置地图 tiles
-  - [`getTileSet`](#gettileset) 获取 layer 的 Tileset 信息。
-  - [`setTileSet`](#settileset) 设置 layer 的 Tileset 信息。
-  - [`getLayerOrientation`](#getlayerorientation) 获取 Layer 方向(同地图方向)。
-  - [`setLayerOrientation`](#setlayerorientation) 设置 Layer 方向(同地图方向)。
-  - [`getProperties`](#getproperties) 获取 layer 的属性，可以使用 Tiled 编辑器添加属性。
-  - [`setProperties`](#setproperties) 设置层属性。
+  - [`getLayerName`](#getlayername) Gets the layer name.
+  - [`SetLayerName`](#setlayername) Set the layer name.
+  - [`getProperty`](#getproperty) Return the value for the specific property name.
+  - [`getPositionAt`](#getpositionat) Returns the position in pixels of a given tile coordinate.
+  - [`removeTileAt`](#removetileat) Removes a tile at given tile coordinate.
+  - [`setTileGID`](#settilegid) Sets the tile gid (gid = tile global id) at a given tile coordinate.<br />
+The Tile GID can be obtained by using the method "tileGIDAt" or by using the TMX editor . Tileset Mgr +1.<br />
+If a tile is already placed at that position, then it will be removed.
+  - [`getTileGIDAt`](#gettilegidat) Returns the tile gid at a given tile coordinate. <br />
+if it returns 0, it means that the tile is empty. <br />
+This method requires the the tile map has not been previously released (eg. don't call layer.releaseMap())<br />
+  - [`getTileAt`](#gettileat) Returns the tile (_ccsg.Sprite) at a given a tile coordinate. <br/>
+The returned _ccsg.Sprite will be already added to the _ccsg.TMXLayer. Don't add it again.<br/>
+The _ccsg.Sprite can be treated like any other _ccsg.Sprite: rotated, scaled, translated, opacity, color, etc. <br/>
+You can remove either by calling: <br/>
+- layer.removeChild(sprite, cleanup); <br/>
+- or layer.removeTileAt(ccp(x,y));
+  - [`releaseMap`](#releasemap) Dealloc the map that contains the tile position from memory. <br />
+Unless you want to know at runtime the tiles positions, you can safely call this method. <br />
+If you are going to call layer.getTileGIDAt() then, don't release the map.
+  - [`setContentSize`](#setcontentsize) Sets the untransformed size of the _ccsg.TMXLayer.
+  - [`getTexture`](#gettexture) Return texture of cc.SpriteBatchNode.
+  - [`setTexture`](#settexture) Set the texture of cc.SpriteBatchNode.
+  - [`setTileOpacity`](#settileopacity) Set the opacity of all tiles
+  - [`getLayerSize`](#getlayersize) Gets layer size.
+  - [`setLayerSize`](#setlayersize) Set layer size.
+  - [`getMapTileSize`](#getmaptilesize) Size of the map's tile (could be different from the tile's size).
+  - [`setMapTileSize`](#setmaptilesize) Set the map tile size.
+  - [`getTiles`](#gettiles) Pointer to the map of tiles.
+  - [`setTiles`](#settiles) Pointer to the map of tiles.
+  - [`getTileSet`](#gettileset) Tile set information for the layer.
+  - [`setTileSet`](#settileset) Tile set information for the layer.
+  - [`getLayerOrientation`](#getlayerorientation) Layer orientation, which is the same as the map orientation.
+  - [`setLayerOrientation`](#setlayerorientation) Layer orientation, which is the same as the map orientation.
+  - [`getProperties`](#getproperties) properties from the layer. They can be added using Tiled.
+  - [`setProperties`](#setproperties) properties from the layer. They can be added using Tiled.
   - [`_createSgNode`](#createsgnode) Create and returns your new scene graph node (SGNode) to add to scene graph.
 You should call the setContentSize of the SGNode if its size should be the same with the node's.
   - [`_initSgNode`](#initsgnode) 
   - [`_removeSgNode`](#removesgnode) 
-  - [`update`](#update) 如果该组件启用，则每帧调用 update。
-  - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
+  - [`update`](#update) Update is called every frame, if the Component is enabled.
+  - [`lateUpdate`](#lateupdate) LateUpdate is called every frame, if the Component is enabled.
   - [`__preload`](#preload) `__preload` is called before every onLoad.
 It is used to initialize the builtin components internally,
 to avoid checking whether onLoad is called before every public method calls.
 This method should be removed if script priority is supported.
-  - [`onLoad`](#onload) 当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
-  - [`start`](#start) 如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
-  - [`onEnable`](#onenable) 当该组件被启用，并且它的节点也激活时。
-  - [`onDisable`](#ondisable) 当该组件被禁用或节点变为无效时调用。
-  - [`onDestroy`](#ondestroy) 当该组件被销毁时调用
+  - [`onLoad`](#onload) When attaching to an active node or its node first activated.
+onLoad is always called before any start functions, this allows you to order initialization of scripts.
+  - [`start`](#start) Called before all scripts' update if the Component is enabled the first time.
+Usually used to initialize some logic which need to be called after all components' `onload` methods called.
+  - [`onEnable`](#onenable) Called when this component becomes enabled and its node is active.
+  - [`onDisable`](#ondisable) Called when this component becomes disabled or its node becomes inactive.
+  - [`onDestroy`](#ondestroy) Called when this component will be destroyed.
   - [`onFocusInEditor`](#onfocusineditor) 
   - [`onLostFocusInEditor`](#onlostfocusineditor) 
-  - [`resetInEditor`](#resetineditor) 用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
-  - [`addComponent`](#addcomponent) 向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
-  - [`getComponent`](#getcomponent) 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
-传入参数也可以是脚本的名称。
-  - [`getComponents`](#getcomponents) 返回节点上指定类型的所有组件。
-  - [`getComponentInChildren`](#getcomponentinchildren) 递归查找所有子节点中第一个匹配指定类型的组件。
-  - [`getComponentsInChildren`](#getcomponentsinchildren) 递归查找自身或所有子节点中指定类型的组件
-  - [`_getLocalBounds`](#getlocalbounds) 如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
-以便编辑器的场景视图可以正确地执行点选测试。
-  - [`onRestore`](#onrestore) onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
+  - [`resetInEditor`](#resetineditor) Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
+  - [`addComponent`](#addcomponent) Adds a component class to the node. You can also add component to node by passing in the name of the script.
+  - [`getComponent`](#getcomponent) Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
+You can also get component in the node by passing in the name of the script.
+  - [`getComponents`](#getcomponents) Returns all components of supplied Type in the node.
+  - [`getComponentInChildren`](#getcomponentinchildren) Returns the component of supplied type in any of its children using depth first search.
+  - [`getComponentsInChildren`](#getcomponentsinchildren) Returns the components of supplied type in self or any of its children using depth first search.
+  - [`_getLocalBounds`](#getlocalbounds) If the component's bounding box is different from the node's, you can implement this method to supply
+a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
+  - [`onRestore`](#onrestore) onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
+an undo operation on this component.<br/>
 <br/>
-如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
+If the component contains the "internal state", short for "temporary member variables which not included<br/>
+in its CCClass properties", then you may need to implement this function.<br/>
 <br/>
-编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
-然而，在极端的情况下，它可能无法良好运作。<br/>
-那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
-一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
-这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
+The editor will call the getset accessors of your component to record/restore the component's state<br/>
+for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
+this function to manually synchronize your component's "internal states" with its public properties.<br/>
+Once you implement this function, all the getset accessors of your component will not be called when<br/>
+the user performs an undo/redo operation. Which means that only the properties with default value<br/>
+will be recorded or restored by editor.<br/>
 <br/>
-同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
-于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
-一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
-这意味着仅仅指定了默认值的属性将被编辑器重置。
+Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
+to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
+properties in this function. Once you implement this function, all the getset accessors of your component<br/>
+will not be called during reset operation. Which means that only the properties with default value<br/>
+will be reset by editor.
+
+This function is only called in editor mode.
+  - [`schedule`](#schedule) Schedules a custom selector.<br/>
+If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
+  - [`scheduleOnce`](#scheduleonce) Schedules a callback function that runs only once, with a delay of 0 or larger.
+  - [`unschedule`](#unschedule) Unschedules a custom callback function.
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
+Actions are not affected by this method.
+  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
+Actual object destruction will delayed until before rendering.
 <br/>
-此方法仅在编辑器下会被调用。
-  - [`schedule`](#schedule) 调度一个自定义的回调函数。<br/>
-如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
-  - [`scheduleOnce`](#scheduleonce) 调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
-  - [`unschedule`](#unschedule) 取消调度一个自定义的回调函数。
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
-  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
-销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
-实际销毁操作会延迟到当前帧渲染前执行。
+After destroy, this CCObject is not usable any more.
+You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -154,18 +164,18 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L61) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L61) |
 
 
 
 ##### node
 
-> 该组件被附加到的节点。组件总会附加到一个节点。
+> The node this component is attached to. A component is always attached to a node.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L75) |
 
 ##### Examples
 
@@ -176,12 +186,12 @@ cc.log(comp.node);
 
 ##### uuid
 
-> 组件的 uuid，用于编辑器。
+> The uuid for editor.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L111) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L111) |
 
 ##### Examples
 
@@ -197,18 +207,18 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L159) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L159) |
 
 
 
 ##### enabled
 
-> 表示该组件自身是否启用。
+> indicates whether this component is enabled or not.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L166) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L166) |
 
 ##### Examples
 
@@ -220,12 +230,12 @@ cc.log(comp.enabled);
 
 ##### enabledInHierarchy
 
-> 表示该组件是否被启用并且所在的节点也处于激活状态。
+> indicates whether this component is enabled and its node is also active in the hierarchy.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L197) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L197) |
 
 ##### Examples
 
@@ -236,12 +246,12 @@ cc.log(comp.enabledInHierarchy);
 
 ##### _isOnLoadCalled
 
-> 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
+> Returns a value which used to indicate the onLoad get called or not.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L213) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L213) |
 
 ##### Examples
 
@@ -257,7 +267,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L50) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L50) |
 
 
 
@@ -268,18 +278,18 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L57) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L57) |
 
 
 
 ##### name
 
-> 该对象的名称。
+> The name of the object.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L208) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L208) |
 
 ##### Examples
 
@@ -290,12 +300,12 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> 表示该对象是否可用（被销毁后将不可用）。
+> Indicates whether the object is not yet destroyed.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L225) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L225) |
 
 ##### Examples
 
@@ -313,11 +323,11 @@ cc.log(obj.isValid);
 
 ##### getLayerName
 
-获取层的名称。
+Gets the layer name.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:98](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L98) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:98](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L98) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
@@ -330,11 +340,11 @@ cc.log(layerName);
 
 ##### SetLayerName
 
-设置层的名称
+Set the layer name.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:114](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L114) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:114](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L114) |
 
 ###### Parameters
 - layerName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -347,11 +357,11 @@ tiledLayer.setLayerName("New Layer");
 
 ##### getProperty
 
-获取指定属性名的值。
+Return the value for the specific property name.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:128](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L128) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:128](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L128) |
 | Return 		 | Any 
 
 ###### Parameters
@@ -366,15 +376,15 @@ cc.log(property);
 
 ##### getPositionAt
 
-获取指定 tile 的像素坐标。
+Returns the position in pixels of a given tile coordinate.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:146](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L146) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:146](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L146) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -388,14 +398,14 @@ cc.log("Pos: " + pos);
 
 ##### removeTileAt
 
-删除指定坐标上的 tile。
+Removes a tile at given tile coordinate.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L169) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:169](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L169) |
 
 ###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -407,17 +417,17 @@ tiledLayer.removeTileAt(0, 0);
 
 ##### setTileGID
 
-设置给定坐标的 tile 的 gid (gid = tile 全局 id)，
-tile 的 GID 可以使用方法 “tileGIDAt” 来获得。<br />
-如果一个 tile 已经放在那个位置，那么它将被删除。
+Sets the tile gid (gid = tile global id) at a given tile coordinate.<br />
+The Tile GID can be obtained by using the method "tileGIDAt" or by using the TMX editor . Tileset Mgr +1.<br />
+If a tile is already placed at that position, then it will be removed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:187](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L187) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:187](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L187) |
 
 ###### Parameters
 - gid <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- posOrX <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
+- posOrX <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> position or x
 - flagsOrY <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> flags or y
 - flags <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
@@ -429,17 +439,17 @@ tiledLayer.setTileGID(1001, 10, 10, 1)
 
 ##### getTileGIDAt
 
-通过给定的 tile 坐标、flags（可选）返回 tile 的 GID. <br />
-如果它返回 0，则表示该 tile 为空。<br />
-该方法要求 tile 地图之前没有被释放过(如：没有调用过layer.releaseMap()).
+Returns the tile gid at a given tile coordinate. <br />
+if it returns 0, it means that the tile is empty. <br />
+This method requires the the tile map has not been previously released (eg. don't call layer.releaseMap())<br />
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:236](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L236) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:236](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L236) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -450,19 +460,20 @@ var tileGid = tiledLayer.getTileGIDAt(0, 0);
 
 ##### getTileAt
 
-通过指定的 tile 坐标获取对应的 tile(Sprite)。 返回的 tile(Sprite) 应是已经添加到 TMXLayer，请不要重复添加。<br/>
-这个 tile(Sprite) 如同其他的 Sprite 一样，可以旋转、缩放、翻转、透明化、设置颜色等。<br/>
-你可以通过调用以下方法来对它进行删除:<br/>
-1. layer.removeChild(sprite, cleanup);<br/>
-2. 或 layer.removeTileAt(cc.v2(x,y));
+Returns the tile (_ccsg.Sprite) at a given a tile coordinate. <br/>
+The returned _ccsg.Sprite will be already added to the _ccsg.TMXLayer. Don't add it again.<br/>
+The _ccsg.Sprite can be treated like any other _ccsg.Sprite: rotated, scaled, translated, opacity, color, etc. <br/>
+You can remove either by calling: <br/>
+- layer.removeChild(sprite, cleanup); <br/>
+- or layer.removeTileAt(ccp(x,y));
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:261](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L261) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:261](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L261) |
 | Return 		 | _ccsg.Sprite 
 
 ###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Example
@@ -474,13 +485,13 @@ cc.log(title);
 
 ##### releaseMap
 
-从内存中释放包含 tile 位置信息的地图。<br />
-除了在运行时想要知道 tiles 的位置信息外，你都可安全的调用此方法。<br />
-如果你之后还要调用 layer.tileGIDAt(), 请不要释放地图.
+Dealloc the map that contains the tile position from memory. <br />
+Unless you want to know at runtime the tiles positions, you can safely call this method. <br />
+If you are going to call layer.getTileGIDAt() then, don't release the map.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L292) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:292](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L292) |
 
 
 ##### Example
@@ -491,14 +502,14 @@ tiledLayer.releaseMap();
 
 ##### setContentSize
 
-设置未转换的 layer 大小。
+Sets the untransformed size of the _ccsg.TMXLayer.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:311](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L311) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:311](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L311) |
 
 ###### Parameters
-- size <a href="../classes/Size.html" class="crosslink">Size</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The untransformed size of the _ccsg.TMXLayer or The untransformed size's width of the TMXLayer.
+- size <a href="../classes/Size.html" class="crosslink">Size</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The untransformed size of the _ccsg.TMXLayer or The untransformed size's width of the TMXLayer.
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The untransformed size's height of the _ccsg.TMXLayer.
 
 ##### Example
@@ -509,11 +520,11 @@ tiledLayer.setContentSize(100, 100);
 
 ##### getTexture
 
-获取纹理。
+Return texture of cc.SpriteBatchNode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L328) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:328](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L328) |
 | Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
 
 
@@ -526,11 +537,11 @@ cc.log("Texture: " + texture);
 
 ##### setTexture
 
-设置纹理。
+Set the texture of cc.SpriteBatchNode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:344](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L344) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:344](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L344) |
 
 ###### Parameters
 - texture <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
@@ -543,11 +554,11 @@ tiledLayer.setTexture(texture);
 
 ##### setTileOpacity
 
-设置所有 Tile 的透明度
+Set the opacity of all tiles
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:358](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L358) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:358](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L358) |
 
 ###### Parameters
 - opacity <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -560,11 +571,11 @@ tiledLayer.setTileOpacity(128);
 
 ##### getLayerSize
 
-获得层大小。
+Gets layer size.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:376](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L376) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:376](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L376) |
 | Return 		 | <a href="../classes/Size.html" class="crosslink">Size</a> 
 
 
@@ -577,11 +588,11 @@ cc.log("layer size: " + size);
 
 ##### setLayerSize
 
-设置层大小。
+Set layer size.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:392](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L392) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:392](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L392) |
 
 ###### Parameters
 - layerSize <a href="../classes/Size.html" class="crosslink">Size</a> 
@@ -594,11 +605,11 @@ tiledLayer.setLayerSize(new cc.size(5, 5));
 
 ##### getMapTileSize
 
-获取 tile 的大小( tile 的大小可能会有所不同)。
+Size of the map's tile (could be different from the tile's size).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L406) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:406](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L406) |
 | Return 		 | <a href="../classes/Size.html" class="crosslink">Size</a> 
 
 
@@ -611,11 +622,11 @@ cc.log("MapTile size: " + mapTileSize);
 
 ##### setMapTileSize
 
-设置 tile 的大小。
+Set the map tile size.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:422](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L422) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:422](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L422) |
 
 ###### Parameters
 - tileSize <a href="../classes/Size.html" class="crosslink">Size</a> 
@@ -628,11 +639,11 @@ tiledLayer.setMapTileSize(new cc.size(10, 10));
 
 ##### getTiles
 
-获取地图 tiles。
+Pointer to the map of tiles.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:436](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L436) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:436](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L436) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
@@ -644,11 +655,11 @@ var tiles = tiledLayer.getTiles();
 
 ##### setTiles
 
-设置地图 tiles
+Pointer to the map of tiles.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:451](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L451) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:451](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L451) |
 
 ###### Parameters
 - tiles <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -661,11 +672,11 @@ tiledLayer.setTiles(tiles);
 
 ##### getTileSet
 
-获取 layer 的 Tileset 信息。
+Tile set information for the layer.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:465](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L465) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:465](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L465) |
 | Return 		 | TMXTilesetInfo 
 
 
@@ -677,11 +688,11 @@ var tileset = tiledLayer.getTileSet();
 
 ##### setTileSet
 
-设置 layer 的 Tileset 信息。
+Tile set information for the layer.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:480](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L480) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:480](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L480) |
 
 ###### Parameters
 - tileset TMXTilesetInfo 
@@ -694,11 +705,11 @@ tiledLayer.setTileSet(tileset);
 
 ##### getLayerOrientation
 
-获取 Layer 方向(同地图方向)。
+Layer orientation, which is the same as the map orientation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:494](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L494) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:494](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L494) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -711,11 +722,11 @@ cc.log("Layer Orientation: " + orientation);
 
 ##### setLayerOrientation
 
-设置 Layer 方向(同地图方向)。
+Layer orientation, which is the same as the map orientation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:510](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L510) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:510](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L510) |
 
 ###### Parameters
 - orientation <a href="../enums/TiledMap.Orientation.html" class="crosslink">TiledMap.Orientation</a> 
@@ -728,11 +739,11 @@ tiledLayer.setLayerOrientation(TiledMap.Orientation.ORTHO);
 
 ##### getProperties
 
-获取 layer 的属性，可以使用 Tiled 编辑器添加属性。
+properties from the layer. They can be added using Tiled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:524](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L524) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:524](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L524) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
@@ -745,11 +756,11 @@ cc.log("Properties: " + properties);
 
 ##### setProperties
 
-设置层属性。
+properties from the layer. They can be added using Tiled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js:540](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledLayer.js#L540) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js:540](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCTiledLayer.js#L540) |
 
 ###### Parameters
 - properties <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -767,7 +778,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L65) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js:65](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js#L65) |
 | Return 		 | _ccsg.Node 
 
 
@@ -778,7 +789,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js#L75) |
 
 
 
@@ -788,17 +799,17 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L81) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js:81](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js#L81) |
 
 
 
 ##### update
 
-如果该组件启用，则每帧调用 update。
+Update is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L234) |
 
 ###### Parameters
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -806,11 +817,11 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 ##### lateUpdate
 
-如果该组件启用，则每帧调用 LateUpdate。
+LateUpdate is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L243) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L243) |
 
 
 
@@ -823,57 +834,59 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L251) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L251) |
 
 
 
 ##### onLoad
 
-当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
+When attaching to an active node or its node first activated.
+onLoad is always called before any start functions, this allows you to order initialization of scripts.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L262) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L262) |
 
 
 
 ##### start
 
-如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
+Called before all scripts' update if the Component is enabled the first time.
+Usually used to initialize some logic which need to be called after all components' `onload` methods called.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L273) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L273) |
 
 
 
 ##### onEnable
 
-当该组件被启用，并且它的节点也激活时。
+Called when this component becomes enabled and its node is active.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L284) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L284) |
 
 
 
 ##### onDisable
 
-当该组件被禁用或节点变为无效时调用。
+Called when this component becomes disabled or its node becomes inactive.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L292) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L292) |
 
 
 
 ##### onDestroy
 
-当该组件被销毁时调用
+Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L300) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L300) |
 
 
 
@@ -883,7 +896,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L308) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L308) |
 
 
 
@@ -893,31 +906,31 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L313) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L313) |
 
 
 
 ##### resetInEditor
 
-用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
+Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L318) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L318) |
 
 
 
 ##### addComponent
 
-向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
+Adds a component class to the node. You can also add component to node by passing in the name of the script.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L328) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
 ##### Example
 
@@ -928,16 +941,16 @@ var test = node.addComponent("Test");
 
 ##### getComponent
 
-获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
-传入参数也可以是脚本的名称。
+Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
+You can also get component in the node by passing in the name of the script.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L346) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -950,15 +963,15 @@ var test = node.getComponent("Test");
 
 ##### getComponents
 
-返回节点上指定类型的所有组件。
+Returns all components of supplied Type in the node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L370) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -969,15 +982,15 @@ var tests = node.getComponents("Test");
 
 ##### getComponentInChildren
 
-递归查找所有子节点中第一个匹配指定类型的组件。
+Returns the component of supplied type in any of its children using depth first search.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L388) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -988,15 +1001,15 @@ var Test = node.getComponentInChildren("Test");
 
 ##### getComponentsInChildren
 
-递归查找自身或所有子节点中指定类型的组件
+Returns the components of supplied type in self or any of its children using depth first search.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L406) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -1007,12 +1020,12 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### _getLocalBounds
 
-如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
-以便编辑器的场景视图可以正确地执行点选测试。
+If the component's bounding box is different from the node's, you can implement this method to supply
+a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L426) |
 
 ###### Parameters
 - out_rect <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -1020,37 +1033,41 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### onRestore
 
-onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
+onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
+an undo operation on this component.<br/>
 <br/>
-如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
+If the component contains the "internal state", short for "temporary member variables which not included<br/>
+in its CCClass properties", then you may need to implement this function.<br/>
 <br/>
-编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
-然而，在极端的情况下，它可能无法良好运作。<br/>
-那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
-一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
-这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
+The editor will call the getset accessors of your component to record/restore the component's state<br/>
+for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
+this function to manually synchronize your component's "internal states" with its public properties.<br/>
+Once you implement this function, all the getset accessors of your component will not be called when<br/>
+the user performs an undo/redo operation. Which means that only the properties with default value<br/>
+will be recorded or restored by editor.<br/>
 <br/>
-同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
-于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
-一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
-这意味着仅仅指定了默认值的属性将被编辑器重置。
-<br/>
-此方法仅在编辑器下会被调用。
+Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
+to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
+properties in this function. Once you implement this function, all the getset accessors of your component<br/>
+will not be called during reset operation. Which means that only the properties with default value<br/>
+will be reset by editor.
+
+This function is only called in editor mode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L439) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L439) |
 
 
 
 ##### schedule
 
-调度一个自定义的回调函数。<br/>
-如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
+Schedules a custom selector.<br/>
+If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L541) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -1069,11 +1086,11 @@ this.schedule(timeCallback, 1);
 
 ##### scheduleOnce
 
-调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
+Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L570) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1090,11 +1107,11 @@ this.scheduleOnce(timeCallback, 2);
 
 ##### unschedule
 
-取消调度一个自定义的回调函数。
+Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L587) |
 
 ###### Parameters
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1107,11 +1124,12 @@ this.unschedule(_callback);
 
 ##### unscheduleAllCallbacks
 
-取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
+unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
+Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L603) |
 
 
 ##### Example
@@ -1122,13 +1140,15 @@ this.unscheduleAllCallbacks();
 
 ##### destroy
 
-销毁该对象，并释放所有它对其它对象的引用。<br/>
-销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
-实际销毁操作会延迟到当前帧渲染前执行。
+Destroy this Object, and release all its own references to other objects.<br/>
+Actual object destruction will delayed until before rendering.
+<br/>
+After destroy, this CCObject is not usable any more.
+You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L246) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L246) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -1161,7 +1181,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L366) |
 
 
 
@@ -1171,7 +1191,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L399) |
 
 
 
@@ -1181,7 +1201,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L424) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -1194,7 +1214,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L434) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

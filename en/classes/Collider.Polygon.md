@@ -1,21 +1,21 @@
 ## `Collider.Polygon` Class
 
 
-Defined in: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L29)
+Defined in: [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCPolygonCollider.js:29](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCPolygonCollider.js#L29)
 
 Module: [cc](../modules/cc.md)
 
 
 
 
-用来定义多边形碰撞体
+Defines a Polygon Collider .
 
 ### Index
 
 ##### Properties
 
-  - [`offset`](#offset) `Vec2` 位置偏移量
-  - [`points`](#points) `[Vec2]` 多边形顶点数组
+  - [`offset`](#offset) `Vec2` Position offset
+  - [`points`](#points) `[Vec2]` Polygon points
 
 
 
@@ -29,23 +29,23 @@ Module: [cc](../modules/cc.md)
 
 ##### offset
 
-> 位置偏移量
+> Position offset
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L44) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCPolygonCollider.js:44](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCPolygonCollider.js#L44) |
 
 
 
 ##### points
 
-> 多边形顶点数组
+> Polygon points
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">[Vec2]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L60) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCPolygonCollider.js:60](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCPolygonCollider.js#L60) |
 
 
 

@@ -8,101 +8,114 @@ Module: [cc](../modules/cc.md)
 
 
 
-Toggle 是一个 CheckBox，当它和 ToggleGroup 一起使用的时候，可以变成 RadioButton。
+The toggle component is a CheckBox, when it used together with a ToggleGroup, it
+could be treated as a RadioButton.
 
 ### Index
 
 ##### Properties
 
-  - [`isChecked`](#ischecked) `Boolean` 如果这个设置为 true，则 check mark 组件会处于 enabled 状态，否则处于 disabled 状态。
-  - [`toggleGroup`](#togglegroup) `ToggleGroup` Toggle 所属的 ToggleGroup，这个属性是可选的。如果这个属性为 null，则 Toggle 是一个 CheckBox，
-否则，Toggle 是一个 RadioButton。
-  - [`checkMark`](#checkmark) `Sprite` Toggle 处于选中状态时显示的图片
-  - [`checkEvents`](#checkevents) `Component.EventHandler[]` Toggle 按钮的点击事件列表。
-  - [`interactable`](#interactable) `Boolean` 按钮事件是否被响应，如果为 false，则按钮将被禁用。
-  - [`enableAutoGrayEffect`](#enableautograyeffect) `Boolean` 如果这个标记为 true，当 button 的 interactable 属性为 false 的时候，会使用内置 shader 让 button 的 target 节点的 sprite 组件变灰
-  - [`transition`](#transition) `Button.Transition` 按钮状态改变时过渡方式。
-  - [`normalColor`](#normalcolor) `Color` 普通状态下按钮所显示的颜色。
-  - [`pressedColor`](#pressedcolor) `Color` 按下状态时按钮所显示的颜色。
-  - [`hoverColor`](#hovercolor) `Color` 悬停状态下按钮所显示的颜色。
-  - [`disabledColor`](#disabledcolor) `Color` 禁用状态下按钮所显示的颜色。
-  - [`duration`](#duration) `Number` 颜色过渡和缩放过渡时所需时间
-  - [`zoomScale`](#zoomscale) `Number` 当用户点击按钮后，按钮会缩放到一个值，这个值等于 Button 原始 scale * zoomScale
-  - [`normalSprite`](#normalsprite) `SpriteFrame` 普通状态下按钮所显示的 Sprite 。
-  - [`pressedSprite`](#pressedsprite) `SpriteFrame` 按下状态时按钮所显示的 Sprite 。
-  - [`hoverSprite`](#hoversprite) `SpriteFrame` 悬停状态下按钮所显示的 Sprite 。
-  - [`disabledSprite`](#disabledsprite) `SpriteFrame` 禁用状态下按钮所显示的 Sprite 。
-  - [`target`](#target) `Node` 需要过渡的目标。
-当前按钮状态改变规则：
--如果 Transition type 选择 Button.Transition.NONE，按钮不做任何过渡。
--如果 Transition type 选择 Button.Transition.COLOR，按钮会对目标颜色进行颜色之间的过渡。
--如果 Transition type 选择 Button.Transition.Sprite，按钮会对目标 Sprite 进行 Sprite 之间的过渡。
-  - [`clickEvents`](#clickevents) `Component.EventHandler[]` 按钮的点击事件列表。
+  - [`isChecked`](#ischecked) `Boolean` When this value is true, the check mark component will be enabled, otherwise
+the check mark component will be disabled.
+  - [`toggleGroup`](#togglegroup) `ToggleGroup` The toggle group which the toggle belongs to, when it is null, the toggle is a CheckBox.
+Otherwise, the toggle is a RadioButton.
+  - [`checkMark`](#checkmark) `Sprite` The image used for the checkmark.
+  - [`checkEvents`](#checkevents) `Component.EventHandler[]` If Toggle is clicked, it will trigger event's handler
+  - [`interactable`](#interactable) `Boolean` Whether the Button is disabled.
+If true, the Button will trigger event and do transition.
+  - [`enableAutoGrayEffect`](#enableautograyeffect) `Boolean` When this flag is true, Button target sprite will turn gray when interactable is false.
+  - [`transition`](#transition) `Button.Transition` Transition type
+  - [`normalColor`](#normalcolor) `Color` Normal state color.
+  - [`pressedColor`](#pressedcolor) `Color` Pressed state color
+  - [`hoverColor`](#hovercolor) `Color` Hover state color
+  - [`disabledColor`](#disabledcolor) `Color` Disabled state color
+  - [`duration`](#duration) `Number` Color and Scale transition duration
+  - [`zoomScale`](#zoomscale) `Number` When user press the button, the button will zoom to a scale.
+The final scale of the button  equals (button original scale * zoomScale)
+  - [`normalSprite`](#normalsprite) `SpriteFrame` Normal state sprite
+  - [`pressedSprite`](#pressedsprite) `SpriteFrame` Pressed state sprite
+  - [`hoverSprite`](#hoversprite) `SpriteFrame` Hover state sprite
+  - [`disabledSprite`](#disabledsprite) `SpriteFrame` Disabled state sprite
+  - [`target`](#target) `Node` Transition target.
+When Button state changed:
+ If Transition type is Button.Transition.NONE, Button will do nothing
+ If Transition type is Button.Transition.COLOR, Button will change target's color
+ If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite
+  - [`clickEvents`](#clickevents) `Component.EventHandler[]` If Button is clicked, it will trigger event's handler
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
-  - [`node`](#node) `Node` 该组件被附加到的节点。组件总会附加到一个节点。
-  - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
+  - [`node`](#node) `Node` The node this component is attached to. A component is always attached to a node.
+  - [`uuid`](#uuid) `String` The uuid for editor.
   - [`_enabled`](#enabled) `Boolean` 
-  - [`enabled`](#enabled) `Boolean` 表示该组件自身是否启用。
-  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` 表示该组件是否被启用并且所在的节点也处于激活状态。
-  - [`_isOnLoadCalled`](#isonloadcalled) `Number` 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
+  - [`enabled`](#enabled) `Boolean` indicates whether this component is enabled or not.
+  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` indicates whether this component is enabled and its node is also active in the hierarchy.
+  - [`_isOnLoadCalled`](#isonloadcalled) `Number` Returns a value which used to indicate the onLoad get called or not.
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` 该对象的名称。
-  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
+  - [`name`](#name) `String` The name of the object.
+  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
 
 
 
 ##### Methods
 
-  - [`check`](#check) 使 toggle 按钮处于选中状态
-  - [`uncheck`](#uncheck) 使 toggle 按钮处于未选中状态
-  - [`update`](#update) 如果该组件启用，则每帧调用 update。
-  - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
+  - [`check`](#check) Make the toggle button checked.
+  - [`uncheck`](#uncheck) Make the toggle button unchecked.
+  - [`update`](#update) Update is called every frame, if the Component is enabled.
+  - [`lateUpdate`](#lateupdate) LateUpdate is called every frame, if the Component is enabled.
   - [`__preload`](#preload) `__preload` is called before every onLoad.
 It is used to initialize the builtin components internally,
 to avoid checking whether onLoad is called before every public method calls.
 This method should be removed if script priority is supported.
-  - [`onLoad`](#onload) 当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
-  - [`start`](#start) 如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
-  - [`onEnable`](#onenable) 当该组件被启用，并且它的节点也激活时。
-  - [`onDisable`](#ondisable) 当该组件被禁用或节点变为无效时调用。
-  - [`onDestroy`](#ondestroy) 当该组件被销毁时调用
+  - [`onLoad`](#onload) When attaching to an active node or its node first activated.
+onLoad is always called before any start functions, this allows you to order initialization of scripts.
+  - [`start`](#start) Called before all scripts' update if the Component is enabled the first time.
+Usually used to initialize some logic which need to be called after all components' `onload` methods called.
+  - [`onEnable`](#onenable) Called when this component becomes enabled and its node is active.
+  - [`onDisable`](#ondisable) Called when this component becomes disabled or its node becomes inactive.
+  - [`onDestroy`](#ondestroy) Called when this component will be destroyed.
   - [`onFocusInEditor`](#onfocusineditor) 
   - [`onLostFocusInEditor`](#onlostfocusineditor) 
-  - [`resetInEditor`](#resetineditor) 用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
-  - [`addComponent`](#addcomponent) 向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
-  - [`getComponent`](#getcomponent) 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
-传入参数也可以是脚本的名称。
-  - [`getComponents`](#getcomponents) 返回节点上指定类型的所有组件。
-  - [`getComponentInChildren`](#getcomponentinchildren) 递归查找所有子节点中第一个匹配指定类型的组件。
-  - [`getComponentsInChildren`](#getcomponentsinchildren) 递归查找自身或所有子节点中指定类型的组件
-  - [`_getLocalBounds`](#getlocalbounds) 如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
-以便编辑器的场景视图可以正确地执行点选测试。
-  - [`onRestore`](#onrestore) onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
+  - [`resetInEditor`](#resetineditor) Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
+  - [`addComponent`](#addcomponent) Adds a component class to the node. You can also add component to node by passing in the name of the script.
+  - [`getComponent`](#getcomponent) Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
+You can also get component in the node by passing in the name of the script.
+  - [`getComponents`](#getcomponents) Returns all components of supplied Type in the node.
+  - [`getComponentInChildren`](#getcomponentinchildren) Returns the component of supplied type in any of its children using depth first search.
+  - [`getComponentsInChildren`](#getcomponentsinchildren) Returns the components of supplied type in self or any of its children using depth first search.
+  - [`_getLocalBounds`](#getlocalbounds) If the component's bounding box is different from the node's, you can implement this method to supply
+a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
+  - [`onRestore`](#onrestore) onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
+an undo operation on this component.<br/>
 <br/>
-如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
+If the component contains the "internal state", short for "temporary member variables which not included<br/>
+in its CCClass properties", then you may need to implement this function.<br/>
 <br/>
-编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
-然而，在极端的情况下，它可能无法良好运作。<br/>
-那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
-一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
-这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
+The editor will call the getset accessors of your component to record/restore the component's state<br/>
+for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
+this function to manually synchronize your component's "internal states" with its public properties.<br/>
+Once you implement this function, all the getset accessors of your component will not be called when<br/>
+the user performs an undo/redo operation. Which means that only the properties with default value<br/>
+will be recorded or restored by editor.<br/>
 <br/>
-同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
-于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
-一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
-这意味着仅仅指定了默认值的属性将被编辑器重置。
+Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
+to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
+properties in this function. Once you implement this function, all the getset accessors of your component<br/>
+will not be called during reset operation. Which means that only the properties with default value<br/>
+will be reset by editor.
+
+This function is only called in editor mode.
+  - [`schedule`](#schedule) Schedules a custom selector.<br/>
+If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
+  - [`scheduleOnce`](#scheduleonce) Schedules a callback function that runs only once, with a delay of 0 or larger.
+  - [`unschedule`](#unschedule) Unschedules a custom callback function.
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
+Actions are not affected by this method.
+  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
+Actual object destruction will delayed until before rendering.
 <br/>
-此方法仅在编辑器下会被调用。
-  - [`schedule`](#schedule) 调度一个自定义的回调函数。<br/>
-如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
-  - [`scheduleOnce`](#scheduleonce) 调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
-  - [`unschedule`](#unschedule) 取消调度一个自定义的回调函数。
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
-  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
-销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
-实际销毁操作会延迟到当前帧渲染前执行。
+After destroy, this CCObject is not usable any more.
+You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -129,8 +142,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### Events
 
-  - [`toggle`](#toggle) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
-  - [`click`](#click) 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+  - [`toggle`](#toggle) Note: This event is emitted from the node to which the component belongs.
+  - [`click`](#click) Note: This event is emitted from the node to which the component belongs.
 
 
 ### Details
@@ -141,215 +154,218 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### isChecked
 
-> 如果这个设置为 true，则 check mark 组件会处于 enabled 状态，否则处于 disabled 状态。
+> When this value is true, the check mark component will be enabled, otherwise
+the check mark component will be disabled.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js:46](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js#L46) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js:46](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js#L46) |
 
 
 
 ##### toggleGroup
 
-> Toggle 所属的 ToggleGroup，这个属性是可选的。如果这个属性为 null，则 Toggle 是一个 CheckBox，
-否则，Toggle 是一个 RadioButton。
+> The toggle group which the toggle belongs to, when it is null, the toggle is a CheckBox.
+Otherwise, the toggle is a RadioButton.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/ToggleGroup.html" class="crosslink">ToggleGroup</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js#L60) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js:60](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js#L60) |
 
 
 
 ##### checkMark
 
-> Toggle 处于选中状态时显示的图片
+> The image used for the checkmark.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Sprite.html" class="crosslink">Sprite</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js:73](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js#L73) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js:73](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js#L73) |
 
 
 
 ##### checkEvents
 
-> Toggle 按钮的点击事件列表。
+> If Toggle is clicked, it will trigger event's handler
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js:84](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js#L84) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js:84](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js#L84) |
 
 
 
 ##### interactable
 
-> 按钮事件是否被响应，如果为 false，则按钮将被禁用。
+> Whether the Button is disabled.
+If true, the Button will trigger event and do transition.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:153](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L153) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:153](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L153) |
 
 
 
 ##### enableAutoGrayEffect
 
-> 如果这个标记为 true，当 button 的 interactable 属性为 false 的时候，会使用内置 shader 让 button 的 target 节点的 sprite 组件变灰
+> When this flag is true, Button target sprite will turn gray when interactable is false.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:191](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L191) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:191](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L191) |
 
 
 
 ##### transition
 
-> 按钮状态改变时过渡方式。
+> Transition type
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/Button.Transition.html" class="crosslink">Button.Transition</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L204) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:204](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L204) |
 
 
 
 ##### normalColor
 
-> 普通状态下按钮所显示的颜色。
+> Normal state color.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:219](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L219) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:219](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L219) |
 
 
 
 ##### pressedColor
 
-> 按下状态时按钮所显示的颜色。
+> Pressed state color
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:233](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L233) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:233](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L233) |
 
 
 
 ##### hoverColor
 
-> 悬停状态下按钮所显示的颜色。
+> Hover state color
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:244](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L244) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:244](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L244) |
 
 
 
 ##### disabledColor
 
-> 禁用状态下按钮所显示的颜色。
+> Disabled state color
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:255](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L255) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:255](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L255) |
 
 
 
 ##### duration
 
-> 颜色过渡和缩放过渡时所需时间
+> Color and Scale transition duration
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:269](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L269) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:269](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L269) |
 
 
 
 ##### zoomScale
 
-> 当用户点击按钮后，按钮会缩放到一个值，这个值等于 Button 原始 scale * zoomScale
+> When user press the button, the button will zoom to a scale.
+The final scale of the button  equals (button original scale * zoomScale)
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:280](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L280) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:280](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L280) |
 
 
 
 ##### normalSprite
 
-> 普通状态下按钮所显示的 Sprite 。
+> Normal state sprite
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L292) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:292](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L292) |
 
 
 
 ##### pressedSprite
 
-> 按下状态时按钮所显示的 Sprite 。
+> Pressed state sprite
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:307](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L307) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:307](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L307) |
 
 
 
 ##### hoverSprite
 
-> 悬停状态下按钮所显示的 Sprite 。
+> Hover state sprite
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L319) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:319](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L319) |
 
 
 
 ##### disabledSprite
 
-> 禁用状态下按钮所显示的 Sprite 。
+> Disabled state sprite
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:331](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L331) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:331](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L331) |
 
 
 
 ##### target
 
-> 需要过渡的目标。
-当前按钮状态改变规则：
--如果 Transition type 选择 Button.Transition.NONE，按钮不做任何过渡。
--如果 Transition type 选择 Button.Transition.COLOR，按钮会对目标颜色进行颜色之间的过渡。
--如果 Transition type 选择 Button.Transition.Sprite，按钮会对目标 Sprite 进行 Sprite 之间的过渡。
+> Transition target.
+When Button state changed:
+ If Transition type is Button.Transition.NONE, Button will do nothing
+ If Transition type is Button.Transition.COLOR, Button will change target's color
+ If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L346) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:346](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L346) |
 
 
 
 ##### clickEvents
 
-> 按钮的点击事件列表。
+> If Button is clicked, it will trigger event's handler
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L370) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:370](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L370) |
 
 
 
@@ -361,18 +377,18 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L61) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L61) |
 
 
 
 ##### node
 
-> 该组件被附加到的节点。组件总会附加到一个节点。
+> The node this component is attached to. A component is always attached to a node.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L75) |
 
 ##### Examples
 
@@ -383,12 +399,12 @@ cc.log(comp.node);
 
 ##### uuid
 
-> 组件的 uuid，用于编辑器。
+> The uuid for editor.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L111) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L111) |
 
 ##### Examples
 
@@ -404,18 +420,18 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L159) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L159) |
 
 
 
 ##### enabled
 
-> 表示该组件自身是否启用。
+> indicates whether this component is enabled or not.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L166) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L166) |
 
 ##### Examples
 
@@ -427,12 +443,12 @@ cc.log(comp.enabled);
 
 ##### enabledInHierarchy
 
-> 表示该组件是否被启用并且所在的节点也处于激活状态。
+> indicates whether this component is enabled and its node is also active in the hierarchy.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L197) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L197) |
 
 ##### Examples
 
@@ -443,12 +459,12 @@ cc.log(comp.enabledInHierarchy);
 
 ##### _isOnLoadCalled
 
-> 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
+> Returns a value which used to indicate the onLoad get called or not.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L213) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L213) |
 
 ##### Examples
 
@@ -464,7 +480,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L50) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L50) |
 
 
 
@@ -475,18 +491,18 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L57) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L57) |
 
 
 
 ##### name
 
-> 该对象的名称。
+> The name of the object.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L208) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L208) |
 
 ##### Examples
 
@@ -497,12 +513,12 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> 表示该对象是否可用（被销毁后将不可用）。
+> Indicates whether the object is not yet destroyed.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L225) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L225) |
 
 ##### Examples
 
@@ -520,31 +536,31 @@ cc.log(obj.isValid);
 
 ##### check
 
-使 toggle 按钮处于选中状态
+Make the toggle button checked.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js:181](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js#L181) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js:181](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js#L181) |
 
 
 
 ##### uncheck
 
-使 toggle 按钮处于未选中状态
+Make the toggle button unchecked.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js:202](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggle.js#L202) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js:202](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCToggle.js#L202) |
 
 
 
 ##### update
 
-如果该组件启用，则每帧调用 update。
+Update is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L234) |
 
 ###### Parameters
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -552,11 +568,11 @@ cc.log(obj.isValid);
 
 ##### lateUpdate
 
-如果该组件启用，则每帧调用 LateUpdate。
+LateUpdate is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L243) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L243) |
 
 
 
@@ -569,57 +585,59 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L251) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L251) |
 
 
 
 ##### onLoad
 
-当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
+When attaching to an active node or its node first activated.
+onLoad is always called before any start functions, this allows you to order initialization of scripts.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L262) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L262) |
 
 
 
 ##### start
 
-如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
+Called before all scripts' update if the Component is enabled the first time.
+Usually used to initialize some logic which need to be called after all components' `onload` methods called.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L273) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L273) |
 
 
 
 ##### onEnable
 
-当该组件被启用，并且它的节点也激活时。
+Called when this component becomes enabled and its node is active.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L284) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L284) |
 
 
 
 ##### onDisable
 
-当该组件被禁用或节点变为无效时调用。
+Called when this component becomes disabled or its node becomes inactive.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L292) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L292) |
 
 
 
 ##### onDestroy
 
-当该组件被销毁时调用
+Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L300) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L300) |
 
 
 
@@ -629,7 +647,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L308) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L308) |
 
 
 
@@ -639,31 +657,31 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L313) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L313) |
 
 
 
 ##### resetInEditor
 
-用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
+Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L318) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L318) |
 
 
 
 ##### addComponent
 
-向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
+Adds a component class to the node. You can also add component to node by passing in the name of the script.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L328) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
 ##### Example
 
@@ -674,16 +692,16 @@ var test = node.addComponent("Test");
 
 ##### getComponent
 
-获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
-传入参数也可以是脚本的名称。
+Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
+You can also get component in the node by passing in the name of the script.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L346) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -696,15 +714,15 @@ var test = node.getComponent("Test");
 
 ##### getComponents
 
-返回节点上指定类型的所有组件。
+Returns all components of supplied Type in the node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L370) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -715,15 +733,15 @@ var tests = node.getComponents("Test");
 
 ##### getComponentInChildren
 
-递归查找所有子节点中第一个匹配指定类型的组件。
+Returns the component of supplied type in any of its children using depth first search.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L388) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -734,15 +752,15 @@ var Test = node.getComponentInChildren("Test");
 
 ##### getComponentsInChildren
 
-递归查找自身或所有子节点中指定类型的组件
+Returns the components of supplied type in self or any of its children using depth first search.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L406) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -753,12 +771,12 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### _getLocalBounds
 
-如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
-以便编辑器的场景视图可以正确地执行点选测试。
+If the component's bounding box is different from the node's, you can implement this method to supply
+a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L426) |
 
 ###### Parameters
 - out_rect <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -766,37 +784,41 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### onRestore
 
-onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
+onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
+an undo operation on this component.<br/>
 <br/>
-如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
+If the component contains the "internal state", short for "temporary member variables which not included<br/>
+in its CCClass properties", then you may need to implement this function.<br/>
 <br/>
-编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
-然而，在极端的情况下，它可能无法良好运作。<br/>
-那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
-一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
-这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
+The editor will call the getset accessors of your component to record/restore the component's state<br/>
+for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
+this function to manually synchronize your component's "internal states" with its public properties.<br/>
+Once you implement this function, all the getset accessors of your component will not be called when<br/>
+the user performs an undo/redo operation. Which means that only the properties with default value<br/>
+will be recorded or restored by editor.<br/>
 <br/>
-同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
-于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
-一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
-这意味着仅仅指定了默认值的属性将被编辑器重置。
-<br/>
-此方法仅在编辑器下会被调用。
+Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
+to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
+properties in this function. Once you implement this function, all the getset accessors of your component<br/>
+will not be called during reset operation. Which means that only the properties with default value<br/>
+will be reset by editor.
+
+This function is only called in editor mode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L439) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L439) |
 
 
 
 ##### schedule
 
-调度一个自定义的回调函数。<br/>
-如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
+Schedules a custom selector.<br/>
+If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L541) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -815,11 +837,11 @@ this.schedule(timeCallback, 1);
 
 ##### scheduleOnce
 
-调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
+Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L570) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -836,11 +858,11 @@ this.scheduleOnce(timeCallback, 2);
 
 ##### unschedule
 
-取消调度一个自定义的回调函数。
+Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L587) |
 
 ###### Parameters
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -853,11 +875,12 @@ this.unschedule(_callback);
 
 ##### unscheduleAllCallbacks
 
-取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
+unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
+Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L603) |
 
 
 ##### Example
@@ -868,13 +891,15 @@ this.unscheduleAllCallbacks();
 
 ##### destroy
 
-销毁该对象，并释放所有它对其它对象的引用。<br/>
-销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
-实际销毁操作会延迟到当前帧渲染前执行。
+Destroy this Object, and release all its own references to other objects.<br/>
+Actual object destruction will delayed until before rendering.
+<br/>
+After destroy, this CCObject is not usable any more.
+You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L246) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L246) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -907,7 +932,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L366) |
 
 
 
@@ -917,7 +942,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L399) |
 
 
 
@@ -927,7 +952,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L424) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -940,7 +965,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L434) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
@@ -960,7 +985,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+Note: This event is emitted from the node to which the component belongs.
 
 ### Index
 
@@ -984,7 +1009,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+Note: This event is emitted from the node to which the component belongs.
 
 ### Index
 

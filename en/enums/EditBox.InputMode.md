@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-输入模式
+The EditBox's InputMode defines the type of text that the user is allowed to enter.
 
 ### Index
 
@@ -28,77 +28,78 @@ Module: [cc](../modules/cc.md)
 
 ##### ANY
 
-> 用户可以输入任何文本，包括换行符。
+> TODO
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L70) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js:70](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js#L70) |
 
 
 
 ##### EMAIL_ADDR
 
-> 允许用户输入一个电子邮件地址。
+> The user is allowed to enter an e-mail address.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js#L75) |
 
 
 
 ##### NUMERIC
 
-> 允许用户输入一个整数值。
+> The user is allowed to enter an integer value.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L80) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js:80](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js#L80) |
 
 
 
 ##### PHONE_NUMBER
 
-> 允许用户输入一个电话号码。
+> The user is allowed to enter a phone number.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:85](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L85) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js:85](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js#L85) |
 
 
 
 ##### URL
 
-> 允许用户输入一个 URL。
+> The user is allowed to enter a URL.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L90) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js:90](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js#L90) |
 
 
 
 ##### DECIMAL
 
-> 允许用户输入一个实数。
+> The user is allowed to enter a real number value.
+This extends kEditBoxInputModeNumeric by allowing a decimal point.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L95) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js:95](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js#L95) |
 
 
 
 ##### SINGLE_LINE
 
-> 除了换行符以外，用户可以输入任何文本。
+> The user is allowed to enter any text, except for line breaks.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:103](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L103) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js:103](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCEditBox.js#L103) |
 
 

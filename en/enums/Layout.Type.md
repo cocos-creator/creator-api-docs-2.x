@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-布局类型
+Enum for Layout type
 
 ### Index
 
@@ -25,44 +25,44 @@ Module: [cc](../modules/cc.md)
 
 ##### NONE
 
-> 取消布局
+> None Layout
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L36) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:36](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L36) |
 
 
 
 ##### HORIZONTAL
 
-> 水平布局
+> Horizontal Layout
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:42](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L42) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:42](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L42) |
 
 
 
 ##### VERTICAL
 
-> 垂直布局
+> Vertical Layout
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L49) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:49](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L49) |
 
 
 
 ##### GRID
 
-> 网格布局
+> Grid Layout
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L55) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:55](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L55) |
 
 

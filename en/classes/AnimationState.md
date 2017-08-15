@@ -8,25 +8,32 @@ Module: [cc](../modules/cc.md)
 
 
 
-AnimationState 完全控制动画播放过程。<br/>
-大多数情况下 动画组件 是足够和易于使用的。如果您需要更多的动画控制接口，请使用 AnimationState。
+The AnimationState gives full control over animation playback process.
+In most cases the Animation Component is sufficient and easier to use. Use the AnimationState if you need full control.
 
 ### Index
 
 ##### Properties
 
-  - [`clip`](#clip) `AnimationClip` 此动画状态正在播放的剪辑。
-  - [`name`](#name) `String` 动画的名字
-  - [`curves`](#curves) `Object[]` 曲线列表。
-  - [`delay`](#delay) `Number` 延迟多少秒播放。
-  - [`repeatCount`](#repeatcount) `Number` 迭代次数，指动画播放多少次后结束, normalize time。 如 2.5（2次半）
-  - [`duration`](#duration) `Number` 单次动画的持续时间，秒。
-  - [`speed`](#speed) `Number` 播放速率。
-  - [`wrapMode`](#wrapmode) `WrapMode` 动画循环方式。
-需要注意的是，动态修改 wrapMode 时，会重置 time 以及 repeatCount
-  - [`time`](#time) `Number` 动画当前的时间，秒。
-  - [`isPlaying`](#isplaying) `Boolean` 当前是否正在播放。
-  - [`isPaused`](#ispaused) `Boolean` 当前是否正在暂停
+  - [`clip`](#clip) `AnimationClip` The clip that is being played by this animation state.
+  - [`name`](#name) `String` The name of the playing animation.
+  - [`curves`](#curves) `Object[]` The curves list.
+  - [`delay`](#delay) `Number` The start delay which represents the number of seconds from an animation's start time to the start of
+the active interval.
+  - [`repeatCount`](#repeatcount) `Number` The animation's iteration count property.
+
+A real number greater than or equal to zero (including positive infinity) representing the number of times
+to repeat the animation node.
+
+Values less than zero and NaN values are treated as the value 1.0 for the purpose of timing model
+calculations.
+  - [`duration`](#duration) `Number` The iteration duration of this animation in seconds. (length)
+  - [`speed`](#speed) `Number` The animation's playback speed. 1 is normal playback speed.
+  - [`wrapMode`](#wrapmode) `WrapMode` Wrapping mode of the playing animation.
+Notice : dynamic change wrapMode will reset time and repeatCount property
+  - [`time`](#time) `Number` The current time of this animation in seconds.
+  - [`isPlaying`](#isplaying) `Boolean` Is playing or paused in play mode?
+  - [`isPaused`](#ispaused) `Boolean` Is currently paused? This can be true even if in edit mode(isPlaying == false).
 
 
 
@@ -39,11 +46,11 @@ AnimationState 完全控制动画播放过程。<br/>
   - [`onResume`](#onresume) 
   - [`onStop`](#onstop) 
   - [`onError`](#onerror) 
-  - [`play`](#play) 播放动画。
-  - [`stop`](#stop) 停止动画播放。
-  - [`pause`](#pause) 暂停动画。
-  - [`resume`](#resume) 重新播放动画。
-  - [`step`](#step) 执行一帧动画。
+  - [`play`](#play) Play this animation.
+  - [`stop`](#stop) Stop this animation.
+  - [`pause`](#pause) Pause this animation.
+  - [`resume`](#resume) Resume this animation.
+  - [`step`](#step) Perform a single frame step.
 
 
 
@@ -55,123 +62,130 @@ AnimationState 完全控制动画播放过程。<br/>
 
 ##### clip
 
-> 此动画状态正在播放的剪辑。
+> The clip that is being played by this animation state.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js:46](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js#L46) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/animation-state.js:46](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/animation-state.js#L46) |
 
 
 
 ##### name
 
-> 动画的名字
+> The name of the playing animation.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js#L57) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/animation-state.js:57](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/animation-state.js#L57) |
 
 
 
 ##### curves
 
-> 曲线列表。
+> The curves list.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:145](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L145) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:145](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L145) |
 
 
 
 ##### delay
 
-> 延迟多少秒播放。
+> The start delay which represents the number of seconds from an animation's start time to the start of
+the active interval.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L155) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:155](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L155) |
 
 
 
 ##### repeatCount
 
-> 迭代次数，指动画播放多少次后结束, normalize time。 如 2.5（2次半）
+> The animation's iteration count property.
+
+A real number greater than or equal to zero (including positive infinity) representing the number of times
+to repeat the animation node.
+
+Values less than zero and NaN values are treated as the value 1.0 for the purpose of timing model
+calculations.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L166) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:166](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L166) |
 
 
 
 ##### duration
 
-> 单次动画的持续时间，秒。
+> The iteration duration of this animation in seconds. (length)
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L183) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:183](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L183) |
 
 
 
 ##### speed
 
-> 播放速率。
+> The animation's playback speed. 1 is normal playback speed.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:193](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L193) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:193](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L193) |
 
 
 
 ##### wrapMode
 
-> 动画循环方式。
-需要注意的是，动态修改 wrapMode 时，会重置 time 以及 repeatCount
+> Wrapping mode of the playing animation.
+Notice : dynamic change wrapMode will reset time and repeatCount property
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/WrapMode.html" class="crosslink">WrapMode</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:202](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L202) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:202](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L202) |
 
 
 
 ##### time
 
-> 动画当前的时间，秒。
+> The current time of this animation in seconds.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:250](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L250) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:250](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L250) |
 
 
 
 ##### isPlaying
 
-> 当前是否正在播放。
+> Is playing or paused in play mode?
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:18](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L18) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:18](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L18) |
 
 
 
 ##### isPaused
 
-> 当前是否正在暂停
+> Is currently paused? This can be true even if in edit mode(isPlaying == false).
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:30](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L30) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:30](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L30) |
 
 
 
@@ -188,7 +202,7 @@ AnimationState 完全控制动画播放过程。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js:20](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js#L20) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/animation-state.js:20](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/animation-state.js#L20) |
 
 ###### Parameters
 - clip <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> 
@@ -201,7 +215,7 @@ AnimationState 完全控制动画播放过程。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:114](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L114) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:114](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L114) |
 
 ###### Parameters
 - deltaTime <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -213,7 +227,7 @@ AnimationState 完全控制动画播放过程。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:45](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L45) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:45](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L45) |
 
 
 
@@ -223,7 +237,7 @@ AnimationState 完全控制动画播放过程。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L50) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:50](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L50) |
 
 
 
@@ -233,7 +247,7 @@ AnimationState 完全控制动画播放过程。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L55) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:55](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L55) |
 
 
 
@@ -243,7 +257,7 @@ AnimationState 完全控制动画播放过程。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L60) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:60](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L60) |
 
 
 
@@ -253,7 +267,7 @@ AnimationState 完全控制动画播放过程。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L65) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:65](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L65) |
 
 ###### Parameters
 - errorCode <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -261,51 +275,51 @@ AnimationState 完全控制动画播放过程。<br/>
 
 ##### play
 
-播放动画。
+Play this animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:74](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L74) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:74](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L74) |
 
 
 
 ##### stop
 
-停止动画播放。
+Stop this animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L95) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:95](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L95) |
 
 
 
 ##### pause
 
-暂停动画。
+Pause this animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:110](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L110) |
 
 
 
 ##### resume
 
-重新播放动画。
+Resume this animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:122](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L122) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:122](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L122) |
 
 
 
 ##### step
 
-执行一帧动画。
+Perform a single frame step.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L134) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:134](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L134) |
 
 
 

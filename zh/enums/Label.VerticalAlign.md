@@ -29,7 +29,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:58](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L58) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLabel.js:58](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLabel.js#L58) |
 
 
 
@@ -40,7 +40,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:63](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L63) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLabel.js:63](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLabel.js#L63) |
 
 
 
@@ -51,6 +51,6 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:68](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L68) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLabel.js:68](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLabel.js#L68) |
 
 

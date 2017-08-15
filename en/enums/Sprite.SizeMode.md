@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-精灵尺寸调整模式
+Sprite Size can track trimmed size, raw size or none.
 
 ### Index
 
@@ -24,33 +24,33 @@ Module: [cc](../modules/cc.md)
 
 ##### CUSTOM
 
-> 使用节点预设的尺寸
+> Use the customized node size.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L88) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js:88](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js#L88) |
 
 
 
 ##### TRIMMED
 
-> 自动适配为精灵裁剪后的尺寸
+> Match the trimmed size of the sprite frame automatically.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L94) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js:94](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js#L94) |
 
 
 
 ##### RAW
 
-> 自动适配为精灵原图尺寸
+> Match the raw size of the sprite frame automatically.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L100) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js:100](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js#L100) |
 
 

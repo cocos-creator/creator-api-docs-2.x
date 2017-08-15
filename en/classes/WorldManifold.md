@@ -13,8 +13,8 @@ Module: [cc](../modules/cc.md)
 
 ##### Properties
 
-  - [`points`](#points) `[Vec2]` 碰撞点集合
-  - [`normal`](#normal) `Vec2` 世界坐标系下由 A 指向 B 的向量
+  - [`points`](#points) `[Vec2]` world contact point (point of intersection)
+  - [`normal`](#normal) `Vec2` world vector pointing from A to B
 
 
 
@@ -28,23 +28,23 @@ Module: [cc](../modules/cc.md)
 
 ##### points
 
-> 碰撞点集合
+> world contact point (point of intersection)
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">[Vec2]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:24](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L24) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:24](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L24) |
 
 
 
 ##### normal
 
-> 世界坐标系下由 A 指向 B 的向量
+> world vector pointing from A to B
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L41) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:41](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L41) |
 
 
 

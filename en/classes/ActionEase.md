@@ -8,7 +8,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-所有缓动动作基类，用于修饰 ActionInterval。
+Base class for Easing actions.
 
 ### Index
 
@@ -16,19 +16,26 @@ Module: [cc](../modules/cc.md)
 
 ##### Methods
 
-  - [`easing`](#easing) 缓动运动。
-  - [`repeat`](#repeat) 重复动作可以按一定次数重复一个动作，使用 RepeatForever 动作来永远重复一个动作。
-  - [`repeatForever`](#repeatforever) 永远地重复一个动作，有限次数内重复一个动作请使用 Repeat 动作。
-  - [`getDuration`](#getduration) 获取动作以秒为单位的持续时间。
-  - [`setDuration`](#setduration) 设置动作以秒为单位的持续时间。
-  - [`reverse`](#reverse) 返回一个新的动作，执行与原动作完全相反的动作。
-  - [`clone`](#clone) 返回一个克隆的动作。
-  - [`isDone`](#isdone) 如果动作已完成就返回 true。
-  - [`getTarget`](#gettarget) 获取当前目标节点。
-  - [`setTarget`](#settarget) 设置目标节点。
-  - [`getOriginalTarget`](#getoriginaltarget) 获取原始目标节点。
-  - [`getTag`](#gettag) 获取用于识别动作的标签。
-  - [`setTag`](#settag) 设置标签，用于识别动作。
+  - [`easing`](#easing) Implementation of ease motion.
+  - [`repeat`](#repeat) Repeats an action a number of times.
+To repeat an action forever use the CCRepeatForever action.
+  - [`repeatForever`](#repeatforever) Repeats an action for ever.  <br/>
+To repeat the an action for a limited number of times use the Repeat action. <br/>
+  - [`getDuration`](#getduration) get duration of the action. (seconds).
+  - [`setDuration`](#setduration) set duration of the action. (seconds).
+  - [`reverse`](#reverse) Returns a reversed action. <br />
+For example: <br />
+- The action will be x coordinates of 0 move to 100. <br />
+- The reversed action will be x of 100 move to 0.
+- Will be rewritten
+  - [`clone`](#clone) to copy object with deep copy.
+returns a clone of action.
+  - [`isDone`](#isdone) return true if the action has finished.
+  - [`getTarget`](#gettarget) get the target.
+  - [`setTarget`](#settarget) The action will modify the target properties.
+  - [`getOriginalTarget`](#getoriginaltarget) get the original target.
+  - [`getTag`](#gettag) get tag number.
+  - [`setTag`](#settag) set tag number.
 
 
 
@@ -43,11 +50,11 @@ Module: [cc](../modules/cc.md)
 
 ##### easing
 
-缓动运动。
+Implementation of ease motion.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L124) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:124](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L124) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -61,11 +68,12 @@ action.easing(cc.easeIn(3.0));
 
 ##### repeat
 
-重复动作可以按一定次数重复一个动作，使用 RepeatForever 动作来永远重复一个动作。
+Repeats an action a number of times.
+To repeat an action forever use the CCRepeatForever action.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:252](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L252) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:252](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L252) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
@@ -74,33 +82,34 @@ action.easing(cc.easeIn(3.0));
 
 ##### repeatForever
 
-永远地重复一个动作，有限次数内重复一个动作请使用 Repeat 动作。
+Repeats an action for ever.  <br/>
+To repeat the an action for a limited number of times use the Repeat action. <br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:272](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L272) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js:272](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCActionInterval.js#L272) |
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 
 
 ##### getDuration
 
-获取动作以秒为单位的持续时间。
+get duration of the action. (seconds).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:200](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L200) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:200](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L200) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### setDuration
 
-设置动作以秒为单位的持续时间。
+set duration of the action. (seconds).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:210](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L210) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:210](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L210) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -108,55 +117,60 @@ action.easing(cc.easeIn(3.0));
 
 ##### reverse
 
-返回一个新的动作，执行与原动作完全相反的动作。
+Returns a reversed action. <br />
+For example: <br />
+- The action will be x coordinates of 0 move to 100. <br />
+- The reversed action will be x of 100 move to 0.
+- Will be rewritten
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:220](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L220) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:220](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L220) |
 | Return 		 | Null 
 
 
 
 ##### clone
 
-返回一个克隆的动作。
+to copy object with deep copy.
+returns a clone of action.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:236](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L236) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:236](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L236) |
 | Return 		 | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 
 
 ##### isDone
 
-如果动作已完成就返回 true。
+return true if the action has finished.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L65) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:65](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L65) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 
 ##### getTarget
 
-获取当前目标节点。
+get the target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L97) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:97](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L97) |
 | Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 
 ##### setTarget
 
-设置目标节点。
+The action will modify the target properties.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L107) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:107](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L107) |
 
 ###### Parameters
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -164,33 +178,33 @@ action.easing(cc.easeIn(3.0));
 
 ##### getOriginalTarget
 
-获取原始目标节点。
+get the original target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L117) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:117](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L117) |
 | Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 
 ##### getTag
 
-获取用于识别动作的标签。
+get tag number.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L134) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:134](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L134) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### setTag
 
-设置标签，用于识别动作。
+set tag number.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:144](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L144) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js:144](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/actions/CCAction.js#L144) |
 
 ###### Parameters
 - tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

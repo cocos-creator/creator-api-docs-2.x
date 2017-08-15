@@ -8,8 +8,8 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移旋转，缩放转变所组成。<br/>
-请不要直接使用它的构造，请使用 cc.affineTransformMake 函数代替。
+cc.AffineTransform class represent an affine transform matrix. It's composed basically by translation, rotation, scale transformations.<br/>
+Please do not use its constructor directly, use cc.affineTransformMake alias function instead.
 
 ### Index
 
@@ -17,25 +17,26 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 
 ##### Methods
 
-  - [`affineTransformMake`](#affinetransformmake) 用在矩阵中的所有内容创建一个 cc.AffineTransform 对象。
-  - [`affineTransformClone`](#affinetransformclone) 克隆指定的 cc.AffineTransform 对象。
-  - [`pointApplyAffineTransform`](#pointapplyaffinetransform) 对一个点应用矩阵变换。
-  - [`sizeApplyAffineTransform`](#sizeapplyaffinetransform) 应用 Size 到仿射变换矩阵上。
-  - [`affineTransformMakeIdentity`](#affinetransformmakeidentity) 单位矩阵：<br/>
+  - [`affineTransformMake`](#affinetransformmake) Create a cc.AffineTransform object with all contents in the matrix.
+  - [`affineTransformClone`](#affinetransformclone) Clone a cc.AffineTransform object from the specified transform.
+  - [`pointApplyAffineTransform`](#pointapplyaffinetransform) Apply the affine transformation on a point.
+  - [`sizeApplyAffineTransform`](#sizeapplyaffinetransform) Apply the affine transformation on a size.
+  - [`affineTransformMakeIdentity`](#affinetransformmakeidentity) Create a identity transformation matrix: <br/>
 [ 1, 0, 0, <br/>
   0, 1, 0 ]
-  - [`rectApplyAffineTransform`](#rectapplyaffinetransform) 应用 Rect 到仿射变换矩阵上。
-  - [`obbApplyAffineTransform`](#obbapplyaffinetransform) 应用 Rect 到仿射变换矩阵上, 并转换为有向包围盒
-  - [`affineTransformTranslate`](#affinetransformtranslate) 基于一个基础矩阵加上一个平移操作来创建一个新的矩阵。
-  - [`affineTransformScale`](#affinetransformscale) 创建一个基础变换矩阵，并在此基础上进行了 Scale 仿射变换。
-  - [`affineTransformRotate`](#affinetransformrotate) 创建一个基础变换矩阵，并在此基础上进行了 Rotation 仿射变换。
-  - [`affineTransformConcat`](#affinetransformconcat) 拼接两个矩阵，并返回结果：<br/>
+  - [`rectApplyAffineTransform`](#rectapplyaffinetransform) Apply the affine transformation on a rect.
+  - [`obbApplyAffineTransform`](#obbapplyaffinetransform) Apply the affine transformation on a rect, and truns to an Oriented Bounding Box.
+  - [`affineTransformTranslate`](#affinetransformtranslate) Create a new affine transformation with a base transformation matrix and a translation based on it.
+  - [`affineTransformScale`](#affinetransformscale) Create a new affine transformation with a base transformation matrix and a scale based on it.
+  - [`affineTransformRotate`](#affinetransformrotate) Create a new affine transformation with a base transformation matrix and a rotation based on it.
+  - [`affineTransformConcat`](#affinetransformconcat) Concatenate a transform matrix to another and return the result:<br/>
 t' = t1 * t2
-  - [`affineTransformConcatIn`](#affinetransformconcatin) 拼接两个矩阵，将结果保存到第一个矩阵。<br/>
+  - [`affineTransformConcatIn`](#affinetransformconcatin) Concatenate a transform matrix to another<br/>
+The results are reflected in the first matrix.<br/>
 t' = t1 * t2
-  - [`affineTransformEqualToTransform`](#affinetransformequaltotransform) 判断两个矩阵是否相等。
-  - [`affineTransformInvert`](#affinetransforminvert) 求逆矩阵。
-  - [`affineTransformInvert`](#affinetransforminvert) 求逆矩阵并存入用户传入的矩阵对象参数。
+  - [`affineTransformEqualToTransform`](#affinetransformequaltotransform) Return true if an affine transform equals to another, false otherwise.
+  - [`affineTransformInvert`](#affinetransforminvert) Get the invert transform of an AffineTransform object.
+  - [`affineTransformInvert`](#affinetransforminvert) Put the invert transform of an AffineTransform object into the out AffineTransform object.
 
 
 
@@ -50,11 +51,11 @@ t' = t1 * t2
 
 ##### affineTransformMake
 
-用在矩阵中的所有内容创建一个 cc.AffineTransform 对象。
+Create a cc.AffineTransform object with all contents in the matrix.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L55) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:55](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L55) |
 | Return 		 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
 
 ###### Parameters
@@ -68,11 +69,11 @@ t' = t1 * t2
 
 ##### affineTransformClone
 
-克隆指定的 cc.AffineTransform 对象。
+Clone a cc.AffineTransform object from the specified transform.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:71](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L71) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:71](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L71) |
 | Return 		 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
 
 ###### Parameters
@@ -81,26 +82,26 @@ t' = t1 * t2
 
 ##### pointApplyAffineTransform
 
-对一个点应用矩阵变换。
+Apply the affine transformation on a point.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L82) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:82](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L82) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
-- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x.
-- transOrY <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> transform matrix or y.
+- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x.
+- transOrY <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> transform matrix or y.
 - t <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> transform matrix or y.
 
 
 ##### sizeApplyAffineTransform
 
-应用 Size 到仿射变换矩阵上。
+Apply the affine transformation on a size.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L124) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:124](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L124) |
 | Return 		 | <a href="../classes/Size.html" class="crosslink">Size</a> 
 
 ###### Parameters
@@ -110,24 +111,24 @@ t' = t1 * t2
 
 ##### affineTransformMakeIdentity
 
-单位矩阵：<br/>
+Create a identity transformation matrix: <br/>
 [ 1, 0, 0, <br/>
   0, 1, 0 ]
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:136](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L136) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:136](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L136) |
 | Return 		 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
 
 
 
 ##### rectApplyAffineTransform
 
-应用 Rect 到仿射变换矩阵上。
+Apply the affine transformation on a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L168) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:168](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L168) |
 | Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ###### Parameters
@@ -137,11 +138,11 @@ t' = t1 * t2
 
 ##### obbApplyAffineTransform
 
-应用 Rect 到仿射变换矩阵上, 并转换为有向包围盒
+Apply the affine transformation on a rect, and truns to an Oriented Bounding Box.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:223](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L223) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:223](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L223) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -154,11 +155,11 @@ t' = t1 * t2
 
 ##### affineTransformTranslate
 
-基于一个基础矩阵加上一个平移操作来创建一个新的矩阵。
+Create a new affine transformation with a base transformation matrix and a translation based on it.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L257) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:257](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L257) |
 | Return 		 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
 
 ###### Parameters
@@ -169,11 +170,11 @@ t' = t1 * t2
 
 ##### affineTransformScale
 
-创建一个基础变换矩阵，并在此基础上进行了 Scale 仿射变换。
+Create a new affine transformation with a base transformation matrix and a scale based on it.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:277](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L277) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:277](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L277) |
 | Return 		 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
 
 ###### Parameters
@@ -184,11 +185,11 @@ t' = t1 * t2
 
 ##### affineTransformRotate
 
-创建一个基础变换矩阵，并在此基础上进行了 Rotation 仿射变换。
+Create a new affine transformation with a base transformation matrix and a rotation based on it.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:290](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L290) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:290](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L290) |
 | Return 		 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
 
 ###### Parameters
@@ -198,12 +199,12 @@ t' = t1 * t2
 
 ##### affineTransformConcat
 
-拼接两个矩阵，并返回结果：<br/>
+Concatenate a transform matrix to another and return the result:<br/>
 t' = t1 * t2
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:310](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L310) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:310](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L310) |
 | Return 		 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
 
 ###### Parameters
@@ -213,12 +214,13 @@ t' = t1 * t2
 
 ##### affineTransformConcatIn
 
-拼接两个矩阵，将结果保存到第一个矩阵。<br/>
+Concatenate a transform matrix to another<br/>
+The results are reflected in the first matrix.<br/>
 t' = t1 * t2
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:331](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L331) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:331](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L331) |
 | Return 		 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
 
 ###### Parameters
@@ -228,11 +230,11 @@ t' = t1 * t2
 
 ##### affineTransformEqualToTransform
 
-判断两个矩阵是否相等。
+Return true if an affine transform equals to another, false otherwise.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:355](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L355) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:355](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L355) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -242,11 +244,11 @@ t' = t1 * t2
 
 ##### affineTransformInvert
 
-求逆矩阵。
+Get the invert transform of an AffineTransform object.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:367](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L367) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:367](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L367) |
 | Return 		 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
 
 ###### Parameters
@@ -255,11 +257,11 @@ t' = t1 * t2
 
 ##### affineTransformInvert
 
-求逆矩阵并存入用户传入的矩阵对象参数。
+Put the invert transform of an AffineTransform object into the out AffineTransform object.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js:380](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCAffineTransform.js#L380) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js:380](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCAffineTransform.js#L380) |
 
 ###### Parameters
 - t <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 

@@ -1,6 +1,6 @@
 # Index
 
-Cocos Creator v1.5.x
+Cocos Creator v1.6.x
 
 Welcome to Cocos Creator JavaScript engine API reference. You can search anything in top left search filed.
 

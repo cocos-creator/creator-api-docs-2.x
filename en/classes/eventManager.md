@@ -7,9 +7,12 @@ Module: [cc](../modules/cc.md)
 
 
 
-事件管理器，它主要管理事件监听器注册和派发系统事件。
-原始设计中，它支持鼠标，触摸，键盘，陀螺仪和自定义事件。
-在 Creator 的设计中，鼠标，触摸和自定义事件的监听和派发请参考 http://cocos.com/docs/creator/scripting/events.html。
+<p>
+ cc.eventManager is a singleton object which manages event listener subscriptions and event dispatching. <br/>
+                                                                                                             <br/>
+ The EventListener list is managed in such way so that event listeners can be added and removed          <br/>
+ while events are being dispatched.
+</p>
 
 ### Index
 
@@ -17,27 +20,22 @@ Module: [cc](../modules/cc.md)
 
 ##### Methods
 
-  - [`pauseTarget`](#pausetarget) 暂停传入的 node 相关的所有监听器的事件响应。
-  - [`resumeTarget`](#resumetarget) 恢复传入的 node 相关的所有监听器的事件响应。
-  - [`hasEventListener`](#haseventlistener) 查询指定的事件 ID 是否存在
-  - [`addListener`](#addlistener) 将事件监听器添加到事件管理器中。<br/>
-如果参数 “nodeOrPriority” 是节点，优先级由 node 的渲染顺序决定，显示在上层的节点将优先收到事件。<br/>
-如果参数 “nodeOrPriority” 是数字，优先级则固定为该参数的数值，数字越小，优先级越高。<br/>
-  - [`removeListener`](#removelistener) 移除一个已添加的监听器。
-  - [`removeListeners`](#removelisteners) 移除注册到 eventManager 中指定类型的所有事件监听器。<br/>
-1. 如果传入的第一个参数类型是 Node，那么事件管理器将移除与该对象相关的所有事件监听器。
-（如果第二参数 recursive 是 true 的话，就会连同该对象的子控件上所有的事件监听器也一并移除）<br/>
-2. 如果传入的第一个参数类型是 Number（该类型 EventListener 中定义的事件类型），
-那么事件管理器将移除该类型的所有事件监听器。<br/>
-
-下列是目前存在监听器类型：       <br/>
-cc.EventListener.UNKNOWN       <br/>
-cc.EventListener.KEYBOARD      <br/>
-cc.EventListener.ACCELERATION，<br/>
-  - [`removeAllListeners`](#removealllisteners) 移除所有事件监听器。
-  - [`setPriority`](#setpriority) 设置 FixedPriority 类型监听器的优先级。
-  - [`setEnabled`](#setenabled) 启用或禁用事件管理器，禁用后不会分发任何事件。
-  - [`isEnabled`](#isenabled) 检测事件管理器是否启用。
+  - [`pauseTarget`](#pausetarget) Pauses all listeners which are associated the specified target.
+  - [`resumeTarget`](#resumetarget) Resumes all listeners which are associated the specified target.
+  - [`hasEventListener`](#haseventlistener) Query whether the specified event listener id has been added.
+  - [`addListener`](#addlistener) <p>
+Adds a event listener for a specified event.<br/>
+if the parameter "nodeOrPriority" is a node,
+it means to add a event listener for a specified event with the priority of scene graph.<br/>
+if the parameter "nodeOrPriority" is a Number,
+it means to add a event listener for a specified event with the fixed priority.<br/>
+</p>
+  - [`removeListener`](#removelistener) Remove a listener.
+  - [`removeListeners`](#removelisteners) Removes all listeners with the same event listener type or removes all listeners of a node.
+  - [`removeAllListeners`](#removealllisteners) Removes all listeners
+  - [`setPriority`](#setpriority) Sets listener's priority with fixed value.
+  - [`setEnabled`](#setenabled) Whether to enable dispatching events
+  - [`isEnabled`](#isenabled) Checks whether dispatching events is enabled
 
 
 
@@ -52,11 +50,11 @@ cc.EventListener.ACCELERATION，<br/>
 
 ##### pauseTarget
 
-暂停传入的 node 相关的所有监听器的事件响应。
+Pauses all listeners which are associated the specified target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:140](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L140) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js:140](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js#L140) |
 
 ###### Parameters
 - node <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -65,11 +63,11 @@ cc.EventListener.ACCELERATION，<br/>
 
 ##### resumeTarget
 
-恢复传入的 node 相关的所有监听器的事件响应。
+Resumes all listeners which are associated the specified target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:164](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L164) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js:164](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js#L164) |
 
 ###### Parameters
 - node <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -78,87 +76,106 @@ cc.EventListener.ACCELERATION，<br/>
 
 ##### hasEventListener
 
-查询指定的事件 ID 是否存在
+Query whether the specified event listener id has been added.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:717](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L717) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js:717](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js#L717) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
-- listenerID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The listener id.
+- listenerID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The listener id.
 
 
 ##### addListener
 
-将事件监听器添加到事件管理器中。<br/>
-如果参数 “nodeOrPriority” 是节点，优先级由 node 的渲染顺序决定，显示在上层的节点将优先收到事件。<br/>
-如果参数 “nodeOrPriority” 是数字，优先级则固定为该参数的数值，数字越小，优先级越高。<br/>
+<p>
+Adds a event listener for a specified event.<br/>
+if the parameter "nodeOrPriority" is a node,
+it means to add a event listener for a specified event with the priority of scene graph.<br/>
+if the parameter "nodeOrPriority" is a Number,
+it means to add a event listener for a specified event with the fixed priority.<br/>
+</p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:728](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L728) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js:728](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js#L728) |
 | Return 		 | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
 
 ###### Parameters
-- listener <a href="../classes/EventListener.html" class="crosslink">EventListener</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The listener of a specified event or a object of some event parameters.
-- nodeOrPriority <a href="../classes/Node.html" class="crosslink">Node</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The priority of the listener is based on the draw order of this node or fixedPriority The fixed priority of the listener.
+- listener <a href="../classes/EventListener.html" class="crosslink">EventListener</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The listener of a specified event or a object of some event parameters.
+- nodeOrPriority <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The priority of the listener is based on the draw order of this node or fixedPriority The fixed priority of the listener.
 
 
 ##### removeListener
 
-移除一个已添加的监听器。
+Remove a listener.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:805](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L805) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js:805](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js#L805) |
 
 ###### Parameters
 - listener <a href="../classes/EventListener.html" class="crosslink">EventListener</a> an event listener or a registered node target
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/event-manager/CCEventManager/removeListener.js
+```js
+
+// 1. remove eventManager add Listener;
+var mouseListener1 = cc.eventManager.addListener({
+    event: cc.EventListener.MOUSE,
+    onMouseDown:  function(keyCode, event){ },
+    onMouseUp: function(keyCode, event){ },
+    onMouseMove: function () { },
+    onMouseScroll: function () { }
+}, node);
+
+cc.eventManager.removeListener(mouseListener1);
+
+// 2. remove eventListener create Listener;
+var mouseListener2 = cc.EventListener.create({
+    event: cc.EventListener.MOUSE,
+    onMouseDown:  function(keyCode, event){ },
+    onMouseUp: function(keyCode, event){ },
+    onMouseMove: function () { },
+    onMouseScroll: function () { }
+});
+
+cc.eventManager.removeListener(mouseListener2);
+
+```
 
 ##### removeListeners
 
-移除注册到 eventManager 中指定类型的所有事件监听器。<br/>
-1. 如果传入的第一个参数类型是 Node，那么事件管理器将移除与该对象相关的所有事件监听器。
-（如果第二参数 recursive 是 true 的话，就会连同该对象的子控件上所有的事件监听器也一并移除）<br/>
-2. 如果传入的第一个参数类型是 Number（该类型 EventListener 中定义的事件类型），
-那么事件管理器将移除该类型的所有事件监听器。<br/>
-
-下列是目前存在监听器类型：       <br/>
-cc.EventListener.UNKNOWN       <br/>
-cc.EventListener.KEYBOARD      <br/>
-cc.EventListener.ACCELERATION，<br/>
+Removes all listeners with the same event listener type or removes all listeners of a node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:899](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L899) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js:899](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js#L899) |
 
 ###### Parameters
-- listenerType <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> | <a href="../classes/Node.html" class="crosslink">Node</a> listenerType or a node
+- listenerType <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> listenerType or a node
 - recursive <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### removeAllListeners
 
-移除所有事件监听器。
+Removes all listeners
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:983](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L983) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js:983](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js#L983) |
 
 
 
 ##### setPriority
 
-设置 FixedPriority 类型监听器的优先级。
+Sets listener's priority with fixed value.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:996](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L996) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js:996](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js#L996) |
 
 ###### Parameters
 - listener <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
@@ -167,11 +184,11 @@ cc.EventListener.ACCELERATION，<br/>
 
 ##### setEnabled
 
-启用或禁用事件管理器，禁用后不会分发任何事件。
+Whether to enable dispatching events
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:1026](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L1026) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js:1026](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js#L1026) |
 
 ###### Parameters
 - enabled <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -179,11 +196,11 @@ cc.EventListener.ACCELERATION，<br/>
 
 ##### isEnabled
 
-检测事件管理器是否启用。
+Checks whether dispatching events is enabled
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:1036](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L1036) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js:1036](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEventManager.js#L1036) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 

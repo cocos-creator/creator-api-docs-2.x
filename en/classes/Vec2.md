@@ -9,7 +9,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-表示 2D 向量和坐标
+Representation of 2D vectors and points.
 
 ### Index
 
@@ -17,45 +17,46 @@ Parent Module: [cc](../modules/cc.md)
 
   - [`x`](#x) `Number` 
   - [`y`](#y) `Number` 
-  - [`ONE`](#one) `Vec2` 新 Vec2 对象。
-  - [`ZERO`](#zero) `Vec2` 返回 x = 0 和 y = 0 的 Vec2 对象。
-  - [`UP`](#up) `Vec2` 返回 x = 0 和 y = 1 的 Vec2 对象。
-  - [`RIGHT`](#right) `Vec2` 返回 x = 1 和 y = 0 的 Vec2 对象。
+  - [`ONE`](#one) `Vec2` return a Vec2 object with x = 1 and y = 1.
+  - [`ZERO`](#zero) `Vec2` return a Vec2 object with x = 0 and y = 0.
+  - [`UP`](#up) `Vec2` return a Vec2 object with x = 0 and y = 1.
+  - [`RIGHT`](#right) `Vec2` return a Vec2 object with x = 1 and y = 0.
 
 
 
 ##### Methods
 
-  - [`constructor`](#constructor) 构造函数，可查看 Cc/vec2:method 或者 <a href="../modules/cc.html#method_p" class="crosslink">cc.p</a>
-  - [`clone`](#clone) 克隆一个 Vec2 值
-  - [`set`](#set) 设置向量值。
-  - [`equals`](#equals) 当前的向量是否与指定的向量相等。
-  - [`toString`](#tostring) 转换为方便阅读的字符串。
-  - [`lerp`](#lerp) 线性插值。
-  - [`addSelf`](#addself) 向量加法。如果你想保存结果到另一个向量，使用 add() 代替。
-  - [`add`](#add) 向量加法，并返回新结果。
-  - [`subSelf`](#subself) 向量减法。如果你想保存结果到另一个向量，可使用 sub() 代替。
-  - [`sub`](#sub) 向量减法，并返回新结果。
-  - [`mulSelf`](#mulself) 缩放当前向量。如果你想结果保存到另一个向量，可使用 mul() 代替。
-  - [`mul`](#mul) 缩放当前向量，并返回新结果。
-  - [`scaleSelf`](#scaleself) 分量相乘。
-  - [`scale`](#scale) 分量相乘，并返回新的结果。
-  - [`divSelf`](#divself) 向量除法。如果你想结果保存到另一个向量，可使用 div() 代替。
-  - [`div`](#div) 向量除法，并返回新的结果。
-  - [`negSelf`](#negself) 向量取反。如果你想结果保存到另一个向量，可使用 neg() 代替。
-  - [`neg`](#neg) 返回取反后的新向量。
-  - [`dot`](#dot) 当前向量与指定向量进行点乘。
-  - [`cross`](#cross) 当前向量与指定向量进行叉乘。
-  - [`mag`](#mag) 返回该向量的长度。
-  - [`magSqr`](#magsqr) 返回该向量的长度平方。
-  - [`normalizeSelf`](#normalizeself) 向量归一化，让这个向量的长度为 1。
-  - [`normalize`](#normalize) 返回归一化后的向量。<br/>
+  - [`constructor`](#constructor) Constructor
+see Cc/vec2:method or <a href="../modules/cc.html#method_p" class="crosslink">cc.p</a>
+  - [`clone`](#clone) clone a Vec2 value
+  - [`set`](#set) TODO
+  - [`equals`](#equals) TODO
+  - [`toString`](#tostring) TODO
+  - [`lerp`](#lerp) TODO
+  - [`addSelf`](#addself) Adds this vector. If you want to save result to another vector, use add() instead.
+  - [`add`](#add) Adds two vectors, and returns the new result.
+  - [`subSelf`](#subself) Subtracts one vector from this. If you want to save result to another vector, use sub() instead.
+  - [`sub`](#sub) Subtracts one vector from this, and returns the new result.
+  - [`mulSelf`](#mulself) Multiplies this by a number. If you want to save result to another vector, use mul() instead.
+  - [`mul`](#mul) Multiplies by a number, and returns the new result.
+  - [`scaleSelf`](#scaleself) Multiplies two vectors.
+  - [`scale`](#scale) Multiplies two vectors, and returns the new result.
+  - [`divSelf`](#divself) Divides by a number. If you want to save result to another vector, use div() instead.
+  - [`div`](#div) Divides by a number, and returns the new result.
+  - [`negSelf`](#negself) Negates the components. If you want to save result to another vector, use neg() instead.
+  - [`neg`](#neg) Negates the components, and returns the new result.
+  - [`dot`](#dot) Dot product
+  - [`cross`](#cross) Cross product
+  - [`mag`](#mag) Returns the length of this vector.
+  - [`magSqr`](#magsqr) Returns the squared length of this vector.
+  - [`normalizeSelf`](#normalizeself) Make the length of this vector to 1.
+  - [`normalize`](#normalize) Returns this vector with a magnitude of 1.<br/>
 <br/>
-注意，当前向量不变，并返回一个新的归一化向量。如果你想来归一化当前向量，可使用 normalizeSelf 函数。
-  - [`angle`](#angle) 夹角的弧度。
-  - [`signAngle`](#signangle) 带方向的夹角的弧度。
-  - [`rotate`](#rotate) 返回旋转给定弧度后的新向量。
-  - [`rotateSelf`](#rotateself) 按指定弧度旋转向量。
+Note that the current vector is unchanged and a new normalized vector is returned. If you want to normalize the current vector, use normalizeSelf function.
+  - [`angle`](#angle) Get angle in radian between this and vector.
+  - [`signAngle`](#signangle) Get angle in radian between this and vector with direction.
+  - [`rotate`](#rotate) rotate
+  - [`rotateSelf`](#rotateself) rotate self
 
 
 
@@ -72,7 +73,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:62](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L62) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:62](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L62) |
 
 
 
@@ -83,51 +84,51 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L65) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:65](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L65) |
 
 
 
 ##### ONE
 
-> 新 Vec2 对象。
+> return a Vec2 object with x = 1 and y = 1.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L541) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:541](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L541) |
 
 
 
 ##### ZERO
 
-> 返回 x = 0 和 y = 0 的 Vec2 对象。
+> return a Vec2 object with x = 0 and y = 0.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:552](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L552) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:552](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L552) |
 
 
 
 ##### UP
 
-> 返回 x = 0 和 y = 1 的 Vec2 对象。
+> return a Vec2 object with x = 0 and y = 1.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:563](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L563) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:563](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L563) |
 
 
 
 ##### RIGHT
 
-> 返回 x = 1 和 y = 0 的 Vec2 对象。
+> return a Vec2 object with x = 1 and y = 0.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:574](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L574) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:574](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L574) |
 
 
 
@@ -140,11 +141,12 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### constructor
 
-构造函数，可查看 Cc/vec2:method 或者 <a href="../modules/cc.html#method_p" class="crosslink">cc.p</a>
+Constructor
+see Cc/vec2:method or <a href="../modules/cc.html#method_p" class="crosslink">cc.p</a>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L41) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:41](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L41) |
 
 ###### Parameters
 - x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -153,22 +155,22 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### clone
 
-克隆一个 Vec2 值
+clone a Vec2 value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:72](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L72) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:72](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L72) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 
 ##### set
 
-设置向量值。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L82) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:82](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L82) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -177,11 +179,11 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### equals
 
-当前的向量是否与指定的向量相等。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:96](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L96) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:96](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L96) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -190,22 +192,22 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### toString
 
-转换为方便阅读的字符串。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L107) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:107](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L107) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
 
 
 
 ##### lerp
 
-线性插值。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:120](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L120) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:120](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L120) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -216,11 +218,11 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### addSelf
 
-向量加法。如果你想保存结果到另一个向量，使用 add() 代替。
+Adds this vector. If you want to save result to another vector, use add() instead.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:138](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L138) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:138](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L138) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -235,11 +237,11 @@ v.addSelf(cc.v2(5, 5));// return Vec2 {x: 15, y: 15};
 
 ##### add
 
-向量加法，并返回新结果。
+Adds two vectors, and returns the new result.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L155) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:155](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L155) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -257,11 +259,11 @@ v.add(cc.v2(5, 5), v1);  // return Vec2 {x: 15, y: 15};
 
 ##### subSelf
 
-向量减法。如果你想保存结果到另一个向量，可使用 sub() 代替。
+Subtracts one vector from this. If you want to save result to another vector, use sub() instead.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:175](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L175) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:175](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L175) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -276,11 +278,11 @@ v.subSelf(cc.v2(5, 5));// return Vec2 {x: 5, y: 5};
 
 ##### sub
 
-向量减法，并返回新结果。
+Subtracts one vector from this, and returns the new result.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:192](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L192) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:192](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L192) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -298,11 +300,11 @@ v.sub(cc.v2(5, 5), v1);  // return Vec2 {x: 5, y: 5};
 
 ##### mulSelf
 
-缩放当前向量。如果你想结果保存到另一个向量，可使用 mul() 代替。
+Multiplies this by a number. If you want to save result to another vector, use mul() instead.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:212](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L212) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:212](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L212) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -317,11 +319,11 @@ v.mulSelf(5);// return Vec2 {x: 50, y: 50};
 
 ##### mul
 
-缩放当前向量，并返回新结果。
+Multiplies by a number, and returns the new result.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L229) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:229](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L229) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -339,11 +341,11 @@ v.mul(5, v1);  // return Vec2 {x: 50, y: 50};
 
 ##### scaleSelf
 
-分量相乘。
+Multiplies two vectors.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:249](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L249) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:249](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L249) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -358,11 +360,11 @@ v.scaleSelf(cc.v2(5, 5));// return Vec2 {x: 50, y: 50};
 
 ##### scale
 
-分量相乘，并返回新的结果。
+Multiplies two vectors, and returns the new result.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:266](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L266) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:266](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L266) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -380,11 +382,11 @@ v.scale(cc.v2(5, 5), v1);  // return Vec2 {x: 50, y: 50};
 
 ##### divSelf
 
-向量除法。如果你想结果保存到另一个向量，可使用 div() 代替。
+Divides by a number. If you want to save result to another vector, use div() instead.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:286](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L286) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:286](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L286) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -399,11 +401,11 @@ v.divSelf(5); // return Vec2 {x: 2, y: 2};
 
 ##### div
 
-向量除法，并返回新的结果。
+Divides by a number, and returns the new result.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:303](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L303) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:303](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L303) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -421,11 +423,11 @@ v.div(5, v1);  // return Vec2 {x: 2, y: 2};
 
 ##### negSelf
 
-向量取反。如果你想结果保存到另一个向量，可使用 neg() 代替。
+Negates the components. If you want to save result to another vector, use neg() instead.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:323](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L323) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:323](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L323) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
@@ -438,11 +440,11 @@ v.negSelf(); // return Vec2 {x: -10, y: -10};
 
 ##### neg
 
-返回取反后的新向量。
+Negates the components, and returns the new result.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L339) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:339](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L339) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -458,11 +460,11 @@ v.neg(v1);  // return Vec2 {x: -10, y: -10};
 
 ##### dot
 
-当前向量与指定向量进行点乘。
+Dot product
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:357](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L357) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:357](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L357) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 ###### Parameters
@@ -477,11 +479,11 @@ v.dot(cc.v2(5, 5)); // return 100;
 
 ##### cross
 
-当前向量与指定向量进行叉乘。
+Cross product
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:371](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L371) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:371](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L371) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 ###### Parameters
@@ -496,11 +498,11 @@ v.cross(cc.v2(5, 5)); // return 0;
 
 ##### mag
 
-返回该向量的长度。
+Returns the length of this vector.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L385) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:385](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L385) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 
@@ -513,11 +515,11 @@ v.mag(); // return 14.142135623730951;
 
 ##### magSqr
 
-返回该向量的长度平方。
+Returns the squared length of this vector.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:398](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L398) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:398](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L398) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 
@@ -530,11 +532,11 @@ v.magSqr(); // return 200;
 
 ##### normalizeSelf
 
-向量归一化，让这个向量的长度为 1。
+Make the length of this vector to 1.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:411](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L411) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:411](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L411) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
@@ -547,13 +549,13 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 
 ##### normalize
 
-返回归一化后的向量。<br/>
+Returns this vector with a magnitude of 1.<br/>
 <br/>
-注意，当前向量不变，并返回一个新的归一化向量。如果你想来归一化当前向量，可使用 normalizeSelf 函数。
+Note that the current vector is unchanged and a new normalized vector is returned. If you want to normalize the current vector, use normalizeSelf function.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L438) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:438](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L438) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -562,11 +564,11 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 
 ##### angle
 
-夹角的弧度。
+Get angle in radian between this and vector.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:461](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L461) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:461](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L461) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 ###### Parameters
@@ -575,11 +577,11 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 
 ##### signAngle
 
-带方向的夹角的弧度。
+Get angle in radian between this and vector with direction.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:483](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L483) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:483](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L483) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 ###### Parameters
@@ -588,11 +590,11 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 
 ##### rotate
 
-返回旋转给定弧度后的新向量。
+rotate
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:499](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L499) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:499](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L499) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -602,11 +604,11 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 
 ##### rotateSelf
 
-按指定弧度旋转向量。
+rotate self
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:514](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L514) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js:514](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCVec2.js#L514) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters

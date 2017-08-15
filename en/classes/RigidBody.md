@@ -14,115 +14,133 @@ Module: [cc](../modules/cc.md)
 
 ##### Properties
 
-  - [`enabledContactListener`](#enabledcontactlistener) `Boolean` 是否启用接触接听器。
-当 collider 产生碰撞时，只有开启了接触接听器才会调用相应的回调函数
-  - [`bullet`](#bullet) `Boolean` 这个刚体是否是一个快速移动的刚体，并且需要禁止穿过其他快速移动的刚体？
-需要注意的是 :
- - 所有刚体都被禁止从 运动刚体 和 静态刚体 中穿过。此选项只关注于 动态刚体。
- - 应该尽量少的使用此选项，因为它会增加程序处理时间。
-  - [`type`](#type) `RigidBodyType` 刚体类型： Static, Kinematic, Dynamic or Animated.
-  - [`allowSleep`](#allowsleep) `Boolean` 如果此刚体永远都不应该进入睡眠，那么设置这个属性为 false。
-需要注意这将使 CPU 占用率提高。
-  - [`gravityScale`](#gravityscale) `Number` 缩放应用在此刚体上的重力值
-  - [`linearDamping`](#lineardamping) `Number` Linear damping 用于衰减刚体的线性速度。衰减系数可以大于 1，但是当衰减系数比较大的时候，衰减的效果会变得比较敏感。
-  - [`angularDamping`](#angulardamping) `Number` Angular damping 用于衰减刚体的角速度。衰减系数可以大于 1，但是当衰减系数比较大的时候，衰减的效果会变得比较敏感。
-  - [`linearVelocity`](#linearvelocity) `Vec2` 刚体在世界坐标下的线性速度
-  - [`angularVelocity`](#angularvelocity) `Number` 刚体的角速度
-  - [`fixedRotation`](#fixedrotation) `Boolean` 是否禁止此刚体进行旋转
-  - [`awake`](#awake) `Boolean` 是否立刻唤醒此刚体
-  - [`active`](#active) `Boolean` 设置刚体的激活状态。一个非激活状态下的刚体是不会被模拟和碰撞的，不管它是否处于睡眠状态下。
-如果刚体处于激活状态下，所有夹具会被添加到 粗测阶段（broad-phase）。
-如果刚体处于非激活状态下，所有夹具会被从 粗测阶段（broad-phase）中移除。
-在非激活状态下的夹具不会参与到碰撞，射线，或者查找中
-链接到非激活状态下刚体的关节也是非激活的。
+  - [`enabledContactListener`](#enabledcontactlistener) `Boolean` Should enabled contact listener?
+When a collision is trigger, the collision callback will only be called when enabled contact listener.
+  - [`bullet`](#bullet) `Boolean` Is this a fast moving body that should be prevented from tunneling through
+other moving bodies?
+Note :
+- All bodies are prevented from tunneling through kinematic and static bodies. This setting is only considered on dynamic bodies.
+- You should use this flag sparingly since it increases processing time.
+  - [`type`](#type) `RigidBodyType` Rigidbody type : Static, Kinematic, Dynamic or Animated.
+  - [`allowSleep`](#allowsleep) `Boolean` Set this flag to false if this body should never fall asleep.
+Note that this increases CPU usage.
+  - [`gravityScale`](#gravityscale) `Number` Scale the gravity applied to this body.
+  - [`linearDamping`](#lineardamping) `Number` Linear damping is use to reduce the linear velocity.
+The damping parameter can be larger than 1, but the damping effect becomes sensitive to the
+time step when the damping parameter is large.
+  - [`angularDamping`](#angulardamping) `Number` Angular damping is use to reduce the angular velocity. The damping parameter
+can be larger than 1 but the damping effect becomes sensitive to the
+time step when the damping parameter is large.
+  - [`linearVelocity`](#linearvelocity) `Vec2` The linear velocity of the body's origin in world co-ordinates.
+  - [`angularVelocity`](#angularvelocity) `Number` The angular velocity of the body.
+  - [`fixedRotation`](#fixedrotation) `Boolean` Should this body be prevented from rotating?
+  - [`awake`](#awake) `Boolean` Is this body initially awake or sleeping?
+  - [`active`](#active) `Boolean` Set the active state of the body. An inactive body is not
+simulated and cannot be collided with or woken up.
+If body is active, all fixtures will be added to the
+broad-phase.
+If body is inactive, all fixtures will be removed from
+the broad-phase and all contacts will be destroyed.
+Fixtures on an inactive body are implicitly inactive and will
+not participate in collisions, ray-casts, or queries.
+Joints connected to an inactive body are implicitly inactive.
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
-  - [`node`](#node) `Node` 该组件被附加到的节点。组件总会附加到一个节点。
-  - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
+  - [`node`](#node) `Node` The node this component is attached to. A component is always attached to a node.
+  - [`uuid`](#uuid) `String` The uuid for editor.
   - [`_enabled`](#enabled) `Boolean` 
-  - [`enabled`](#enabled) `Boolean` 表示该组件自身是否启用。
-  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` 表示该组件是否被启用并且所在的节点也处于激活状态。
-  - [`_isOnLoadCalled`](#isonloadcalled) `Number` 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
+  - [`enabled`](#enabled) `Boolean` indicates whether this component is enabled or not.
+  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` indicates whether this component is enabled and its node is also active in the hierarchy.
+  - [`_isOnLoadCalled`](#isonloadcalled) `Number` Returns a value which used to indicate the onLoad get called or not.
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` 该对象的名称。
-  - [`isValid`](#isvalid) `Boolean` 表示该对象是否可用（被销毁后将不可用）。
+  - [`name`](#name) `String` The name of the object.
+  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
 
 
 
 ##### Methods
 
-  - [`onBeginContact`](#onbegincontact) 碰撞回调。
-如果你的脚本中实现了这个函数，那么它将会在两个碰撞体开始接触时被调用。
-  - [`onEndContact`](#onendcontact) 碰撞回调。
-如果你的脚本中实现了这个函数，那么它将会在两个碰撞体停止接触时被调用。
-  - [`onPreSolve`](#onpresolve) 碰撞回调。
-如果你的脚本中实现了这个函数，那么它将会在接触更新时被调用。
-你可以在接触被处理前根据他包含的信息作出相应的处理，比如将这个接触禁用掉。
-注意：回调只会为醒着的刚体调用。
-注意：接触点为零的时候也有可能被调用。
-注意：感知体(sensor)的回调不会被调用。
-  - [`onPostSolve`](#onpostsolve) 碰撞回调。
-如果你的脚本中实现了这个函数，那么它将会在接触更新完后被调用。
-你可以在这个回调中从接触信息中获取到冲量信息。
-  - [`getLocalPoint`](#getlocalpoint) 将一个给定的世界坐标系下的点转换为刚体本地坐标系下的点
-  - [`getWorldPoint`](#getworldpoint) 将一个给定的刚体本地坐标系下的点转换为世界坐标系下的点
-  - [`getWorldVector`](#getworldvector) 将一个给定的世界坐标系下的向量转换为刚体本地坐标系下的向量
-  - [`getLocalVector`](#getlocalvector) 将一个给定的世界坐标系下的点转换为刚体本地坐标系下的点
-  - [`getWorldPosition`](#getworldposition) 获取刚体世界坐标系下的原点值
-  - [`getWorldRotation`](#getworldrotation) 获取刚体世界坐标系下的旋转值。
-  - [`getLocalCenter`](#getlocalcenter) 获取刚体本地坐标系下的质心
-  - [`getWorldCenter`](#getworldcenter) 获取刚体世界坐标系下的质心
-  - [`getLinearVelocityFromWorldPoint`](#getlinearvelocityfromworldpoint) 获取刚体上指定点的线性速度
-  - [`getMass`](#getmass) 获取刚体的质量。
-  - [`getInertia`](#getinertia) 获取刚体本地坐标系下原点的旋转惯性
-  - [`getInertia`](#getinertia) 获取链接到此刚体的所有关节
-  - [`update`](#update) 如果该组件启用，则每帧调用 update。
-  - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
+  - [`onBeginContact`](#onbegincontact) Collision callback.
+Called when two collider begin to touch.
+  - [`onEndContact`](#onendcontact) Collision callback.
+Called when two collider cease to touch.
+  - [`onPreSolve`](#onpresolve) Collision callback.
+This is called when a contact is updated.
+This allows you to inspect a contact before it goes to the solver(e.g. disable contact).
+Note: this is called only for awake bodies.
+Note: this is called even when the number of contact points is zero.
+Note: this is not called for sensors.
+  - [`onPostSolve`](#onpostsolve) Collision callback.
+This is called after a contact is updated.
+You can get the impulses from the contact in this callback.
+  - [`getLocalPoint`](#getlocalpoint) Gets a local point relative to the body's origin given a world point.
+  - [`getWorldPoint`](#getworldpoint) Get the world coordinates of a point given the local coordinates.
+  - [`getWorldVector`](#getworldvector) Get the world coordinates of a vector given the local coordinates.
+  - [`getLocalVector`](#getlocalvector) Gets a local vector relative to the body's origin given a world vector.
+  - [`getWorldPosition`](#getworldposition) Get the world body origin position.
+  - [`getWorldRotation`](#getworldrotation) Get the world body rotation angle.
+  - [`getLocalCenter`](#getlocalcenter) Get the local position of the center of mass.
+  - [`getWorldCenter`](#getworldcenter) Get the world position of the center of mass.
+  - [`getLinearVelocityFromWorldPoint`](#getlinearvelocityfromworldpoint) Get the world linear velocity of a world point attached to this body.
+  - [`getMass`](#getmass) Get total mass of the body.
+  - [`getInertia`](#getinertia) Get the rotational inertia of the body about the local origin.
+  - [`getInertia`](#getinertia) Get all the joints connect to the rigidbody.
+  - [`update`](#update) Update is called every frame, if the Component is enabled.
+  - [`lateUpdate`](#lateupdate) LateUpdate is called every frame, if the Component is enabled.
   - [`__preload`](#preload) `__preload` is called before every onLoad.
 It is used to initialize the builtin components internally,
 to avoid checking whether onLoad is called before every public method calls.
 This method should be removed if script priority is supported.
-  - [`onLoad`](#onload) 当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
-  - [`start`](#start) 如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
-  - [`onEnable`](#onenable) 当该组件被启用，并且它的节点也激活时。
-  - [`onDisable`](#ondisable) 当该组件被禁用或节点变为无效时调用。
-  - [`onDestroy`](#ondestroy) 当该组件被销毁时调用
+  - [`onLoad`](#onload) When attaching to an active node or its node first activated.
+onLoad is always called before any start functions, this allows you to order initialization of scripts.
+  - [`start`](#start) Called before all scripts' update if the Component is enabled the first time.
+Usually used to initialize some logic which need to be called after all components' `onload` methods called.
+  - [`onEnable`](#onenable) Called when this component becomes enabled and its node is active.
+  - [`onDisable`](#ondisable) Called when this component becomes disabled or its node becomes inactive.
+  - [`onDestroy`](#ondestroy) Called when this component will be destroyed.
   - [`onFocusInEditor`](#onfocusineditor) 
   - [`onLostFocusInEditor`](#onlostfocusineditor) 
-  - [`resetInEditor`](#resetineditor) 用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
-  - [`addComponent`](#addcomponent) 向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
-  - [`getComponent`](#getcomponent) 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
-传入参数也可以是脚本的名称。
-  - [`getComponents`](#getcomponents) 返回节点上指定类型的所有组件。
-  - [`getComponentInChildren`](#getcomponentinchildren) 递归查找所有子节点中第一个匹配指定类型的组件。
-  - [`getComponentsInChildren`](#getcomponentsinchildren) 递归查找自身或所有子节点中指定类型的组件
-  - [`_getLocalBounds`](#getlocalbounds) 如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
-以便编辑器的场景视图可以正确地执行点选测试。
-  - [`onRestore`](#onrestore) onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
+  - [`resetInEditor`](#resetineditor) Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
+  - [`addComponent`](#addcomponent) Adds a component class to the node. You can also add component to node by passing in the name of the script.
+  - [`getComponent`](#getcomponent) Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
+You can also get component in the node by passing in the name of the script.
+  - [`getComponents`](#getcomponents) Returns all components of supplied Type in the node.
+  - [`getComponentInChildren`](#getcomponentinchildren) Returns the component of supplied type in any of its children using depth first search.
+  - [`getComponentsInChildren`](#getcomponentsinchildren) Returns the components of supplied type in self or any of its children using depth first search.
+  - [`_getLocalBounds`](#getlocalbounds) If the component's bounding box is different from the node's, you can implement this method to supply
+a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
+  - [`onRestore`](#onrestore) onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
+an undo operation on this component.<br/>
 <br/>
-如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
+If the component contains the "internal state", short for "temporary member variables which not included<br/>
+in its CCClass properties", then you may need to implement this function.<br/>
 <br/>
-编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
-然而，在极端的情况下，它可能无法良好运作。<br/>
-那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
-一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
-这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
+The editor will call the getset accessors of your component to record/restore the component's state<br/>
+for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
+this function to manually synchronize your component's "internal states" with its public properties.<br/>
+Once you implement this function, all the getset accessors of your component will not be called when<br/>
+the user performs an undo/redo operation. Which means that only the properties with default value<br/>
+will be recorded or restored by editor.<br/>
 <br/>
-同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
-于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
-一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
-这意味着仅仅指定了默认值的属性将被编辑器重置。
+Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
+to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
+properties in this function. Once you implement this function, all the getset accessors of your component<br/>
+will not be called during reset operation. Which means that only the properties with default value<br/>
+will be reset by editor.
+
+This function is only called in editor mode.
+  - [`schedule`](#schedule) Schedules a custom selector.<br/>
+If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
+  - [`scheduleOnce`](#scheduleonce) Schedules a callback function that runs only once, with a delay of 0 or larger.
+  - [`unschedule`](#unschedule) Unschedules a custom callback function.
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
+Actions are not affected by this method.
+  - [`destroy`](#destroy) Destroy this Object, and release all its own references to other objects.<br/>
+Actual object destruction will delayed until before rendering.
 <br/>
-此方法仅在编辑器下会被调用。
-  - [`schedule`](#schedule) 调度一个自定义的回调函数。<br/>
-如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
-  - [`scheduleOnce`](#scheduleonce) 调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
-  - [`unschedule`](#unschedule) 取消调度一个自定义的回调函数。
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
-  - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
-销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
-实际销毁操作会延迟到当前帧渲染前执行。
+After destroy, this CCObject is not usable any more.
+You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
   - [`_destruct`](#destruct) Clear all references in the instance.
 
 NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
@@ -155,142 +173,151 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 ##### enabledContactListener
 
-> 是否启用接触接听器。
-当 collider 产生碰撞时，只有开启了接触接听器才会调用相应的回调函数
+> Should enabled contact listener?
+When a collision is trigger, the collision callback will only be called when enabled contact listener.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L75) |
 
 
 
 ##### bullet
 
-> 这个刚体是否是一个快速移动的刚体，并且需要禁止穿过其他快速移动的刚体？
-需要注意的是 :
- - 所有刚体都被禁止从 运动刚体 和 静态刚体 中穿过。此选项只关注于 动态刚体。
- - 应该尽量少的使用此选项，因为它会增加程序处理时间。
+> Is this a fast moving body that should be prevented from tunneling through
+other moving bodies?
+Note :
+- All bodies are prevented from tunneling through kinematic and static bodies. This setting is only considered on dynamic bodies.
+- You should use this flag sparingly since it increases processing time.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:149](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L149) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:149](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L149) |
 
 
 
 ##### type
 
-> 刚体类型： Static, Kinematic, Dynamic or Animated.
+> Rigidbody type : Static, Kinematic, Dynamic or Animated.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/RigidBodyType.html" class="crosslink">RigidBodyType</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L169) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:169](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L169) |
 
 
 
 ##### allowSleep
 
-> 如果此刚体永远都不应该进入睡眠，那么设置这个属性为 false。
-需要注意这将使 CPU 占用率提高。
+> Set this flag to false if this body should never fall asleep.
+Note that this increases CPU usage.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L197) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:197](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L197) |
 
 
 
 ##### gravityScale
 
-> 缩放应用在此刚体上的重力值
+> Scale the gravity applied to this body.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L224) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:224](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L224) |
 
 
 
 ##### linearDamping
 
-> Linear damping 用于衰减刚体的线性速度。衰减系数可以大于 1，但是当衰减系数比较大的时候，衰减的效果会变得比较敏感。
+> Linear damping is use to reduce the linear velocity.
+The damping parameter can be larger than 1, but the damping effect becomes sensitive to the
+time step when the damping parameter is large.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:245](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L245) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:245](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L245) |
 
 
 
 ##### angularDamping
 
-> Angular damping 用于衰减刚体的角速度。衰减系数可以大于 1，但是当衰减系数比较大的时候，衰减的效果会变得比较敏感。
+> Angular damping is use to reduce the angular velocity. The damping parameter
+can be larger than 1 but the damping effect becomes sensitive to the
+time step when the damping parameter is large.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:268](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L268) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:268](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L268) |
 
 
 
 ##### linearVelocity
 
-> 刚体在世界坐标下的线性速度
+> The linear velocity of the body's origin in world co-ordinates.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:291](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L291) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:291](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L291) |
 
 
 
 ##### angularVelocity
 
-> 刚体的角速度
+> The angular velocity of the body.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:322](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L322) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:322](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L322) |
 
 
 
 ##### fixedRotation
 
-> 是否禁止此刚体进行旋转
+> Should this body be prevented from rotating?
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L346) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:346](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L346) |
 
 
 
 ##### awake
 
-> 是否立刻唤醒此刚体
+> Is this body initially awake or sleeping?
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:367](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L367) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:367](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L367) |
 
 
 
 ##### active
 
-> 设置刚体的激活状态。一个非激活状态下的刚体是不会被模拟和碰撞的，不管它是否处于睡眠状态下。
-如果刚体处于激活状态下，所有夹具会被添加到 粗测阶段（broad-phase）。
-如果刚体处于非激活状态下，所有夹具会被从 粗测阶段（broad-phase）中移除。
-在非激活状态下的夹具不会参与到碰撞，射线，或者查找中
-链接到非激活状态下刚体的关节也是非激活的。
+> Set the active state of the body. An inactive body is not
+simulated and cannot be collided with or woken up.
+If body is active, all fixtures will be added to the
+broad-phase.
+If body is inactive, all fixtures will be removed from
+the broad-phase and all contacts will be destroyed.
+Fixtures on an inactive body are implicitly inactive and will
+not participate in collisions, ray-casts, or queries.
+Joints connected to an inactive body are implicitly inactive.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L387) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:387](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L387) |
 
 
 
@@ -302,18 +329,18 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L61) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L61) |
 
 
 
 ##### node
 
-> 该组件被附加到的节点。组件总会附加到一个节点。
+> The node this component is attached to. A component is always attached to a node.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L75) |
 
 ##### Examples
 
@@ -324,12 +351,12 @@ cc.log(comp.node);
 
 ##### uuid
 
-> 组件的 uuid，用于编辑器。
+> The uuid for editor.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L111) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L111) |
 
 ##### Examples
 
@@ -345,18 +372,18 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L159) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L159) |
 
 
 
 ##### enabled
 
-> 表示该组件自身是否启用。
+> indicates whether this component is enabled or not.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L166) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L166) |
 
 ##### Examples
 
@@ -368,12 +395,12 @@ cc.log(comp.enabled);
 
 ##### enabledInHierarchy
 
-> 表示该组件是否被启用并且所在的节点也处于激活状态。
+> indicates whether this component is enabled and its node is also active in the hierarchy.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L197) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L197) |
 
 ##### Examples
 
@@ -384,12 +411,12 @@ cc.log(comp.enabledInHierarchy);
 
 ##### _isOnLoadCalled
 
-> 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
+> Returns a value which used to indicate the onLoad get called or not.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L213) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L213) |
 
 ##### Examples
 
@@ -405,7 +432,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L50) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L50) |
 
 
 
@@ -416,18 +443,18 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L57) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L57) |
 
 
 
 ##### name
 
-> 该对象的名称。
+> The name of the object.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L208) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L208) |
 
 ##### Examples
 
@@ -438,12 +465,12 @@ obj.name = "New Obj";
 
 ##### isValid
 
-> 表示该对象是否可用（被销毁后将不可用）。
+> Indicates whether the object is not yet destroyed.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L225) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L225) |
 
 ##### Examples
 
@@ -461,12 +488,12 @@ cc.log(obj.isValid);
 
 ##### onBeginContact
 
-碰撞回调。
-如果你的脚本中实现了这个函数，那么它将会在两个碰撞体开始接触时被调用。
+Collision callback.
+Called when two collider begin to touch.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L90) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:90](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L90) |
 
 ###### Parameters
 - contact <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
@@ -476,12 +503,12 @@ cc.log(obj.isValid);
 
 ##### onEndContact
 
-碰撞回调。
-如果你的脚本中实现了这个函数，那么它将会在两个碰撞体停止接触时被调用。
+Collision callback.
+Called when two collider cease to touch.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:102](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L102) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:102](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L102) |
 
 ###### Parameters
 - contact <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
@@ -491,16 +518,16 @@ cc.log(obj.isValid);
 
 ##### onPreSolve
 
-碰撞回调。
-如果你的脚本中实现了这个函数，那么它将会在接触更新时被调用。
-你可以在接触被处理前根据他包含的信息作出相应的处理，比如将这个接触禁用掉。
-注意：回调只会为醒着的刚体调用。
-注意：接触点为零的时候也有可能被调用。
-注意：感知体(sensor)的回调不会被调用。
+Collision callback.
+This is called when a contact is updated.
+This allows you to inspect a contact before it goes to the solver(e.g. disable contact).
+Note: this is called only for awake bodies.
+Note: this is called even when the number of contact points is zero.
+Note: this is not called for sensors.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:114](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L114) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:114](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L114) |
 
 ###### Parameters
 - contact <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
@@ -510,13 +537,13 @@ cc.log(obj.isValid);
 
 ##### onPostSolve
 
-碰撞回调。
-如果你的脚本中实现了这个函数，那么它将会在接触更新完后被调用。
-你可以在这个回调中从接触信息中获取到冲量信息。
+Collision callback.
+This is called after a contact is updated.
+You can get the impulses from the contact in this callback.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L134) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:134](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L134) |
 
 ###### Parameters
 - contact <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
@@ -526,11 +553,11 @@ cc.log(obj.isValid);
 
 ##### getLocalPoint
 
-将一个给定的世界坐标系下的点转换为刚体本地坐标系下的点
+Gets a local point relative to the body's origin given a world point.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:420](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L420) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:420](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L420) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -540,11 +567,11 @@ cc.log(obj.isValid);
 
 ##### getWorldPoint
 
-将一个给定的刚体本地坐标系下的点转换为世界坐标系下的点
+Get the world coordinates of a point given the local coordinates.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:441](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L441) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:441](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L441) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -554,11 +581,11 @@ cc.log(obj.isValid);
 
 ##### getWorldVector
 
-将一个给定的世界坐标系下的向量转换为刚体本地坐标系下的向量
+Get the world coordinates of a vector given the local coordinates.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:462](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L462) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:462](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L462) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -568,11 +595,11 @@ cc.log(obj.isValid);
 
 ##### getLocalVector
 
-将一个给定的世界坐标系下的点转换为刚体本地坐标系下的点
+Gets a local vector relative to the body's origin given a world vector.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:483](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L483) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:483](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L483) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -582,11 +609,11 @@ cc.log(obj.isValid);
 
 ##### getWorldPosition
 
-获取刚体世界坐标系下的原点值
+Get the world body origin position.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:504](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L504) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:504](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L504) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -595,44 +622,44 @@ cc.log(obj.isValid);
 
 ##### getWorldRotation
 
-获取刚体世界坐标系下的旋转值。
+Get the world body rotation angle.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:523](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L523) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:523](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L523) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### getLocalCenter
 
-获取刚体本地坐标系下的质心
+Get the local position of the center of mass.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:538](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L538) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:538](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L538) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 
 ##### getWorldCenter
 
-获取刚体世界坐标系下的质心
+Get the world position of the center of mass.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:556](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L556) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:556](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L556) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 
 ##### getLinearVelocityFromWorldPoint
 
-获取刚体上指定点的线性速度
+Get the world linear velocity of a world point attached to this body.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:574](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L574) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:574](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L574) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ###### Parameters
@@ -642,44 +669,44 @@ cc.log(obj.isValid);
 
 ##### getMass
 
-获取刚体的质量。
+Get total mass of the body.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L595) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:595](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L595) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### getInertia
 
-获取刚体本地坐标系下原点的旋转惯性
+Get the rotational inertia of the body about the local origin.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:607](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L607) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:607](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L607) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### getInertia
 
-获取链接到此刚体的所有关节
+Get all the joints connect to the rigidbody.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:619](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L619) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js:619](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCRigidBody.js#L619) |
 | Return 		 | <a href="../classes/Joint.html" class="crosslink">[Joint]</a> 
 
 
 
 ##### update
 
-如果该组件启用，则每帧调用 update。
+Update is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L234) |
 
 ###### Parameters
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -687,11 +714,11 @@ cc.log(obj.isValid);
 
 ##### lateUpdate
 
-如果该组件启用，则每帧调用 LateUpdate。
+LateUpdate is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L243) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L243) |
 
 
 
@@ -704,57 +731,59 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L251) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L251) |
 
 
 
 ##### onLoad
 
-当附加到一个激活的节点上或者其节点第一次激活时候调用。onLoad 总是会在任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。
+When attaching to an active node or its node first activated.
+onLoad is always called before any start functions, this allows you to order initialization of scripts.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L262) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L262) |
 
 
 
 ##### start
 
-如果该组件第一次启用，则在所有组件的 update 之前调用。通常用于需要在所有组件的 onLoad 初始化完毕后执行的逻辑。
+Called before all scripts' update if the Component is enabled the first time.
+Usually used to initialize some logic which need to be called after all components' `onload` methods called.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L273) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L273) |
 
 
 
 ##### onEnable
 
-当该组件被启用，并且它的节点也激活时。
+Called when this component becomes enabled and its node is active.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L284) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L284) |
 
 
 
 ##### onDisable
 
-当该组件被禁用或节点变为无效时调用。
+Called when this component becomes disabled or its node becomes inactive.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L292) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L292) |
 
 
 
 ##### onDestroy
 
-当该组件被销毁时调用
+Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L300) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L300) |
 
 
 
@@ -764,7 +793,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L308) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L308) |
 
 
 
@@ -774,31 +803,31 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L313) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L313) |
 
 
 
 ##### resetInEditor
 
-用来初始化组件或节点的一些属性，当该组件被第一次添加到节点上或用户点击了它的 Reset 菜单时调用。这个回调只会在编辑器下调用。
+Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used. This function is only called in editor.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L318) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L318) |
 
 
 
 ##### addComponent
 
-向节点添加一个组件类，你还可以通过传入脚本的名称来添加组件。
+Adds a component class to the node. You can also add component to node by passing in the name of the script.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L328) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
 ##### Example
 
@@ -809,16 +838,16 @@ var test = node.addComponent("Test");
 
 ##### getComponent
 
-获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
-传入参数也可以是脚本的名称。
+Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
+You can also get component in the node by passing in the name of the script.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L346) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -831,15 +860,15 @@ var test = node.getComponent("Test");
 
 ##### getComponents
 
-返回节点上指定类型的所有组件。
+Returns all components of supplied Type in the node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L370) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -850,15 +879,15 @@ var tests = node.getComponents("Test");
 
 ##### getComponentInChildren
 
-递归查找所有子节点中第一个匹配指定类型的组件。
+Returns the component of supplied type in any of its children using depth first search.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L388) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -869,15 +898,15 @@ var Test = node.getComponentInChildren("Test");
 
 ##### getComponentsInChildren
 
-递归查找自身或所有子节点中指定类型的组件
+Returns the components of supplied type in self or any of its children using depth first search.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L406) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Example
 
@@ -888,12 +917,12 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### _getLocalBounds
 
-如果组件的包围盒与节点不同，您可以实现该方法以提供自定义的轴向对齐的包围盒（AABB），
-以便编辑器的场景视图可以正确地执行点选测试。
+If the component's bounding box is different from the node's, you can implement this method to supply
+a custom axis aligned bounding box (AABB), so the editor's scene view can perform hit test properly.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L426) |
 
 ###### Parameters
 - out_rect <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -901,37 +930,41 @@ var tests = node.getComponentsInChildren("Test");
 
 ##### onRestore
 
-onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消操作后调用的。<br/>
+onRestore is called after the user clicks the Reset item in the Inspector's context menu or performs
+an undo operation on this component.<br/>
 <br/>
-如果组件包含了“内部状态”（不在 CCClass 属性中定义的临时成员变量），那么你可能需要实现该方法。<br/>
+If the component contains the "internal state", short for "temporary member variables which not included<br/>
+in its CCClass properties", then you may need to implement this function.<br/>
 <br/>
-编辑器执行撤销/重做操作时，将调用组件的 get set 来录制和还原组件的状态。
-然而，在极端的情况下，它可能无法良好运作。<br/>
-那么你就应该实现这个方法，手动根据组件的属性同步“内部状态”。
-一旦你实现这个方法，当用户撤销或重做时，组件的所有 get set 都不会再被调用。
-这意味着仅仅指定了默认值的属性将被编辑器记录和还原。<br/>
+The editor will call the getset accessors of your component to record/restore the component's state<br/>
+for undo/redo operation. However, in extreme cases, it may not works well. Then you should implement<br/>
+this function to manually synchronize your component's "internal states" with its public properties.<br/>
+Once you implement this function, all the getset accessors of your component will not be called when<br/>
+the user performs an undo/redo operation. Which means that only the properties with default value<br/>
+will be recorded or restored by editor.<br/>
 <br/>
-同样的，编辑可能无法在极端情况下正确地重置您的组件。<br/>
-于是如果你需要支持组件重置菜单，你需要在该方法中手工同步组件属性到“内部状态”。<br/>
-一旦你实现这个方法，组件的所有 get set 都不会在重置操作时被调用。
-这意味着仅仅指定了默认值的属性将被编辑器重置。
-<br/>
-此方法仅在编辑器下会被调用。
+Similarly, the editor may failed to reset your component correctly in extreme cases. Then if you need<br/>
+to support the reset menu, you should manually synchronize your component's "internal states" with its<br/>
+properties in this function. Once you implement this function, all the getset accessors of your component<br/>
+will not be called during reset operation. Which means that only the properties with default value<br/>
+will be reset by editor.
+
+This function is only called in editor mode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L439) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L439) |
 
 
 
 ##### schedule
 
-调度一个自定义的回调函数。<br/>
-如果回调函数已调度，那么将不会重复调度它，只会更新时间间隔参数。
+Schedules a custom selector.<br/>
+If the selector is already scheduled, then the interval parameter will be updated without scheduling it again.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L541) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -950,11 +983,11 @@ this.schedule(timeCallback, 1);
 
 ##### scheduleOnce
 
-调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
+Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L570) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -971,11 +1004,11 @@ this.scheduleOnce(timeCallback, 2);
 
 ##### unschedule
 
-取消调度一个自定义的回调函数。
+Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L587) |
 
 ###### Parameters
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -988,11 +1021,12 @@ this.unschedule(_callback);
 
 ##### unscheduleAllCallbacks
 
-取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
+unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function.<br/>
+Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L603) |
 
 
 ##### Example
@@ -1003,13 +1037,15 @@ this.unscheduleAllCallbacks();
 
 ##### destroy
 
-销毁该对象，并释放所有它对其它对象的引用。<br/>
-销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
-实际销毁操作会延迟到当前帧渲染前执行。
+Destroy this Object, and release all its own references to other objects.<br/>
+Actual object destruction will delayed until before rendering.
+<br/>
+After destroy, this CCObject is not usable any more.
+You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L246) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L246) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -1042,7 +1078,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L366) |
 
 
 
@@ -1052,7 +1088,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L399) |
 
 
 
@@ -1062,7 +1098,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L424) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -1075,7 +1111,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L434) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

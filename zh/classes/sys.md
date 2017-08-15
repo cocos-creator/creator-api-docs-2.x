@@ -126,7 +126,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:39](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L39) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:39](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L39) |
 
 
 
@@ -137,7 +137,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:46](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L46) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:46](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L46) |
 
 
 
@@ -148,7 +148,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:53](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L53) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:53](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L53) |
 
 
 
@@ -159,7 +159,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L60) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:60](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L60) |
 
 
 
@@ -170,7 +170,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L67) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:67](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L67) |
 
 
 
@@ -181,7 +181,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:74](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L74) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:74](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L74) |
 
 
 
@@ -192,7 +192,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L81) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:81](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L81) |
 
 
 
@@ -203,7 +203,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L88) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:88](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L88) |
 
 
 
@@ -214,7 +214,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L95) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:95](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L95) |
 
 
 
@@ -225,7 +225,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:102](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L102) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:102](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L102) |
 
 
 
@@ -236,7 +236,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:109](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L109) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:109](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L109) |
 
 
 
@@ -247,7 +247,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:116](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L116) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:116](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L116) |
 
 
 
@@ -258,7 +258,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L123) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:123](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L123) |
 
 
 
@@ -269,7 +269,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L130) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:130](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L130) |
 
 
 
@@ -280,7 +280,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:137](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L137) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:137](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L137) |
 
 
 
@@ -291,7 +291,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:144](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L144) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:144](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L144) |
 
 
 
@@ -302,7 +302,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:151](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L151) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:151](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L151) |
 
 
 
@@ -313,7 +313,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:158](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L158) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:158](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L158) |
 
 
 
@@ -324,7 +324,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:165](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L165) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:165](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L165) |
 
 
 
@@ -335,7 +335,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:172](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L172) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:172](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L172) |
 
 
 
@@ -346,7 +346,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L179) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:179](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L179) |
 
 
 
@@ -357,7 +357,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:184](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L184) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:184](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L184) |
 
 
 
@@ -368,7 +368,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:189](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L189) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:189](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L189) |
 
 
 
@@ -379,7 +379,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:194](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L194) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:194](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L194) |
 
 
 
@@ -390,7 +390,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:199](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L199) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:199](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L199) |
 
 
 
@@ -401,7 +401,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L204) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:204](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L204) |
 
 
 
@@ -412,7 +412,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:209](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L209) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:209](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L209) |
 
 
 
@@ -423,7 +423,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:214](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L214) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:214](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L214) |
 
 
 
@@ -434,7 +434,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:219](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L219) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:219](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L219) |
 
 
 
@@ -445,7 +445,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L224) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:224](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L224) |
 
 
 
@@ -456,7 +456,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L229) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:229](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L229) |
 
 
 
@@ -467,7 +467,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L235) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:235](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L235) |
 
 
 
@@ -478,7 +478,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:241](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L241) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:241](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L241) |
 
 
 
@@ -489,7 +489,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:247](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L247) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:247](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L247) |
 
 
 
@@ -500,7 +500,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:253](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L253) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:253](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L253) |
 
 
 
@@ -511,7 +511,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:259](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L259) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:259](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L259) |
 
 
 
@@ -522,7 +522,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:265](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L265) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:265](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L265) |
 
 
 
@@ -533,7 +533,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:271](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L271) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:271](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L271) |
 
 
 
@@ -544,7 +544,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:277](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L277) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:277](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L277) |
 
 
 
@@ -555,7 +555,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:283](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L283) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:283](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L283) |
 
 
 
@@ -566,7 +566,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:289](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L289) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:289](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L289) |
 
 
 
@@ -577,7 +577,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:295](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L295) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:295](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L295) |
 
 
 
@@ -588,7 +588,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:301](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L301) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:301](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L301) |
 
 
 
@@ -599,7 +599,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:307](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L307) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:307](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L307) |
 
 
 
@@ -610,7 +610,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:313](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L313) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:313](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L313) |
 
 
 
@@ -621,7 +621,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L319) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:319](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L319) |
 
 
 
@@ -632,7 +632,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:326](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L326) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:326](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L326) |
 
 
 
@@ -643,7 +643,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:333](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L333) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:333](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L333) |
 
 
 
@@ -654,7 +654,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:340](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L340) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:340](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L340) |
 
 
 
@@ -665,7 +665,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:347](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L347) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:347](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L347) |
 
 
 
@@ -676,7 +676,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:354](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L354) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:354](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L354) |
 
 
 
@@ -687,7 +687,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:361](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L361) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:361](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L361) |
 
 
 
@@ -698,7 +698,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:368](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L368) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:368](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L368) |
 
 
 
@@ -709,7 +709,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:375](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L375) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:375](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L375) |
 
 
 
@@ -720,7 +720,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:382](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L382) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:382](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L382) |
 
 
 
@@ -731,7 +731,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:389](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L389) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:389](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L389) |
 
 
 
@@ -742,7 +742,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:396](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L396) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:396](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L396) |
 
 
 
@@ -753,7 +753,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L403) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:403](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L403) |
 
 
 
@@ -764,7 +764,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:410](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L410) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:410](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L410) |
 
 
 
@@ -775,7 +775,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:417](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L417) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:417](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L417) |
 
 
 
@@ -786,7 +786,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:424](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L424) |
 
 
 
@@ -797,7 +797,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:431](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L431) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:431](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L431) |
 
 
 
@@ -808,7 +808,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L438) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:438](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L438) |
 
 
 
@@ -819,7 +819,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:445](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L445) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:445](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L445) |
 
 
 
@@ -830,7 +830,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:452](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L452) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:452](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L452) |
 
 
 
@@ -841,7 +841,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:459](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L459) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:459](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L459) |
 
 
 
@@ -852,7 +852,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:466](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L466) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:466](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L466) |
 
 
 
@@ -863,7 +863,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:473](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L473) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:473](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L473) |
 
 
 
@@ -874,7 +874,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:481](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L481) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:481](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L481) |
 
 
 
@@ -885,7 +885,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:487](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L487) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:487](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L487) |
 
 
 
@@ -896,7 +896,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:520](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L520) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:520](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L520) |
 
 
 
@@ -907,7 +907,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:526](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L526) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:526](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L526) |
 
 
 
@@ -918,7 +918,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L537) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:537](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L537) |
 
 
 
@@ -929,7 +929,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:571](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L571) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:571](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L571) |
 
 
 
@@ -940,7 +940,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:576](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L576) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:576](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L576) |
 
 
 
@@ -951,7 +951,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:581](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L581) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:581](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L581) |
 
 
 
@@ -962,7 +962,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L587) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:587](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L587) |
 
 
 
@@ -973,7 +973,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:617](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L617) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:617](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L617) |
 
 
 
@@ -984,7 +984,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:635](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L635) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:635](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L635) |
 
 
 
@@ -995,7 +995,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:700](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L700) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:700](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L700) |
 
 
 
@@ -1006,7 +1006,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:774](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L774) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:774](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L774) |
 
 
 
@@ -1023,7 +1023,7 @@ Forces the garbage collection, only available in JSB
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:882](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L882) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:882](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L882) |
 
 
 
@@ -1033,7 +1033,7 @@ Dumps rooted objects, only available in JSB
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:890](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L890) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:890](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L890) |
 
 
 
@@ -1043,7 +1043,7 @@ Restart the JS VM, only available in JSB
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:898](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L898) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:898](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L898) |
 
 
 
@@ -1053,7 +1053,7 @@ Clean a script in the JS VM, only available in JSB
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:906](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L906) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:906](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L906) |
 
 ###### Parameters
 - jsfile <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1067,7 +1067,7 @@ In native engine, it will return true if the JS object and the correspond native
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:915](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L915) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:915](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L915) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -1080,7 +1080,7 @@ Dump system informations
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:928](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L928) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:928](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L928) |
 
 
 
@@ -1090,7 +1090,7 @@ Open a url in browser
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:947](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L947) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:947](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L947) |
 
 ###### Parameters
 - url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1102,7 +1102,7 @@ Get the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:956](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L956) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js:956](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCSys.js#L956) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 

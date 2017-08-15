@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-缩放模式
+Enum for Layout Resize Mode
 
 ### Index
 
@@ -24,33 +24,33 @@ Module: [cc](../modules/cc.md)
 
 ##### NONE
 
-> 不做任何缩放
+> Don't do any scale.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:69](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L69) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:69](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L69) |
 
 
 
 ##### CONTAINER
 
-> 容器的大小会根据子节点的大小自动缩放。
+> The container size will be expanded with its children's size.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L75) |
 
 
 
 ##### CHILDREN
 
-> 子节点的大小会随着容器的大小自动缩放。
+> Child item size will be adjusted with the container's size.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L81) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:81](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L81) |
 
 

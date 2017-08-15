@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-发射模式
+Enum for emitter modes
 
 ### Index
 
@@ -23,12 +23,12 @@ Module: [cc](../modules/cc.md)
 
 ##### GRAVITY
 
-> 重力模式，模拟重力，可让粒子围绕一个中心点移近或移远。
+> Uses gravity, speed, radial and tangential acceleration.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L44) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:44](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L44) |
 
 
 
@@ -39,6 +39,6 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L50) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:50](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L50) |
 
 

@@ -8,44 +8,56 @@ Module: [cc](../modules/cc.md)
 
 
 
-触摸事件
+The touch event
 
 ### Index
 
 ##### Properties
 
-  - [`touch`](#touch) `Touch` 当前触点对象
-  - [`type`](#type) `String` 事件类型。
-  - [`bubbles`](#bubbles) `Boolean` 表示该事件是否进行冒泡。
-  - [`target`](#target) `Object` 最初事件触发的目标
-  - [`currentTarget`](#currenttarget) `Object` 当前目标
-  - [`eventPhase`](#eventphase) `Number` 事件阶段
+  - [`touch`](#touch) `Touch` The current touch object
+  - [`type`](#type) `String` The name of the event (case-sensitive), e.g. "click", "fire", or "submit".
+  - [`bubbles`](#bubbles) `Boolean` Indicate whether the event bubbles up through the tree or not.
+  - [`target`](#target) `Object` A reference to the target to which the event was originally dispatched.
+  - [`currentTarget`](#currenttarget) `Object` A reference to the currently registered target for the event.
+  - [`eventPhase`](#eventphase) `Number` Indicates which phase of the event flow is currently being evaluated.
+Returns an integer value represented by 4 constants:
+ - Event.NONE = 0
+ - Event.CAPTURING_PHASE = 1
+ - Event.AT_TARGET = 2
+ - Event.BUBBLING_PHASE = 3
+The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
+(http://www.w3.org/TR/DOM-Level-3-Events/#event-flow), of the DOM Level 3 Events specification.
 
 
 
 ##### Methods
 
   - [`constructor`](#constructor) 
-  - [`getEventCode`](#geteventcode) 获取事件类型。
-  - [`getTouches`](#gettouches) 获取触摸点的列表。
-  - [`setLocation`](#setlocation) 设置当前触点位置
-  - [`getLocation`](#getlocation) 获取触点位置。
-  - [`getLocationInView`](#getlocationinview) 获取当前触点在游戏窗口中的位置。
-  - [`getPreviousLocation`](#getpreviouslocation) 获取触点在上一次事件时的位置对象，对象包含 x 和 y 属性。
-  - [`getStartLocation`](#getstartlocation) 获获取触点落下时的位置对象，对象包含 x 和 y 属性。
-  - [`getID`](#getid) 触点的标识 ID，可以用来在多点触摸中跟踪触点。
-  - [`getDelta`](#getdelta) 获取触点距离上一次事件移动的距离对象，对象包含 x 和 y 属性。
-  - [`getDeltaX`](#getdeltax) 获取触点距离上一次事件移动的 x 轴距离。
-  - [`getDeltaY`](#getdeltay) 获取触点距离上一次事件移动的 y 轴距离。
-  - [`getLocationX`](#getlocationx) 获取当前触点 X 轴位置。
-  - [`getLocationY`](#getlocationy) 获取当前触点 Y 轴位置。
-  - [`unuse`](#unuse) 重置对象池中存储的事件。
-  - [`reuse`](#reuse) 用于对象池再次使用的事件。
-  - [`stopPropagation`](#stoppropagation) 停止传递当前事件。
-  - [`stopPropagationImmediate`](#stoppropagationimmediate) 立即停止当前事件的传递，事件甚至不会被分派到所连接的当前目标。
-  - [`isStopped`](#isstopped) 检查该事件是否已经停止传递.
-  - [`getCurrentTarget`](#getcurrenttarget) 获取当前目标节点
-  - [`getType`](#gettype) 获取事件类型
+  - [`getEventCode`](#geteventcode) Returns event code.
+  - [`getTouches`](#gettouches) Returns touches of event.
+  - [`setLocation`](#setlocation) Sets touch location.
+  - [`getLocation`](#getlocation) Returns touch location.
+  - [`getLocationInView`](#getlocationinview) Returns the current touch location in screen coordinates.
+  - [`getPreviousLocation`](#getpreviouslocation) Returns the previous touch location.
+  - [`getStartLocation`](#getstartlocation) Returns the start touch location.
+  - [`getID`](#getid) Returns the id of cc.Touch.
+  - [`getDelta`](#getdelta) Returns the delta distance from the previous location to current location.
+  - [`getDeltaX`](#getdeltax) Returns the X axis delta distance from the previous location to current location.
+  - [`getDeltaY`](#getdeltay) Returns the Y axis delta distance from the previous location to current location.
+  - [`getLocationX`](#getlocationx) Returns location X axis data.
+  - [`getLocationY`](#getlocationy) Returns location Y axis data.
+  - [`unuse`](#unuse) Reset the event for being stored in the object pool.
+  - [`reuse`](#reuse) Reuse the event for being used again by the object pool.
+  - [`stopPropagation`](#stoppropagation) Stops propagation for current event.
+  - [`stopPropagationImmediate`](#stoppropagationimmediate) Stops propagation for current event immediately,
+the event won't even be dispatched to the listeners attached in the current target.
+  - [`isStopped`](#isstopped) Checks whether the event has been stopped.
+  - [`getCurrentTarget`](#getcurrenttarget) <p>
+    Gets current target of the event                                                            <br/>
+    note: It only be available when the event listener is associated with node.                <br/>
+         It returns 0 when the listener is associated with fixed priority.
+</p>
+  - [`getType`](#gettype) Gets the event type.
 
 
 
@@ -57,67 +69,74 @@ Module: [cc](../modules/cc.md)
 
 ##### touch
 
-> 当前触点对象
+> The current touch object
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Touch.html" class="crosslink">Touch</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:336](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L336) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:336](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L336) |
 
 
 
 ##### type
 
-> 事件类型。
+> The name of the event (case-sensitive), e.g. "click", "fire", or "submit".
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L43) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:43](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L43) |
 
 
 
 ##### bubbles
 
-> 表示该事件是否进行冒泡。
+> Indicate whether the event bubbles up through the tree or not.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L51) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:51](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L51) |
 
 
 
 ##### target
 
-> 最初事件触发的目标
+> A reference to the target to which the event was originally dispatched.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:59](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L59) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:59](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L59) |
 
 
 
 ##### currentTarget
 
-> 当前目标
+> A reference to the currently registered target for the event.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L67) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:67](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L67) |
 
 
 
 ##### eventPhase
 
-> 事件阶段
+> Indicates which phase of the event flow is currently being evaluated.
+Returns an integer value represented by 4 constants:
+ - Event.NONE = 0
+ - Event.CAPTURING_PHASE = 1
+ - Event.AT_TARGET = 2
+ - Event.BUBBLING_PHASE = 3
+The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
+(http://www.w3.org/TR/DOM-Level-3-Events/#event-flow), of the DOM Level 3 Events specification.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L75) |
 
 
 
@@ -134,7 +153,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:327](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L327) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:327](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L327) |
 
 ###### Parameters
 - touchArr <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> The array of the touches
@@ -143,33 +162,33 @@ Module: [cc](../modules/cc.md)
 
 ##### getEventCode
 
-获取事件类型。
+Returns event code.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:351](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L351) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:351](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L351) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### getTouches
 
-获取触摸点的列表。
+Returns touches of event.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:361](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L361) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:361](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L361) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
 
 ##### setLocation
 
-设置当前触点位置
+Sets touch location.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L379) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:379](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L379) |
 
 ###### Parameters
 - x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -178,185 +197,190 @@ Module: [cc](../modules/cc.md)
 
 ##### getLocation
 
-获取触点位置。
+Returns touch location.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:390](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L390) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:390](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L390) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 
 ##### getLocationInView
 
-获取当前触点在游戏窗口中的位置。
+Returns the current touch location in screen coordinates.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:400](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L400) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:400](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L400) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 
 ##### getPreviousLocation
 
-获取触点在上一次事件时的位置对象，对象包含 x 和 y 属性。
+Returns the previous touch location.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:410](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L410) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:410](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L410) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 
 ##### getStartLocation
 
-获获取触点落下时的位置对象，对象包含 x 和 y 属性。
+Returns the start touch location.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:420](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L420) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:420](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L420) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 
 ##### getID
 
-触点的标识 ID，可以用来在多点触摸中跟踪触点。
+Returns the id of cc.Touch.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:430](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L430) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:430](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L430) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### getDelta
 
-获取触点距离上一次事件移动的距离对象，对象包含 x 和 y 属性。
+Returns the delta distance from the previous location to current location.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:440](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L440) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:440](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L440) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 
 ##### getDeltaX
 
-获取触点距离上一次事件移动的 x 轴距离。
+Returns the X axis delta distance from the previous location to current location.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:450](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L450) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:450](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L450) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### getDeltaY
 
-获取触点距离上一次事件移动的 y 轴距离。
+Returns the Y axis delta distance from the previous location to current location.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:460](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L460) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:460](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L460) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### getLocationX
 
-获取当前触点 X 轴位置。
+Returns location X axis data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:470](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L470) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:470](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L470) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### getLocationY
 
-获取当前触点 Y 轴位置。
+Returns location Y axis data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js:480](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEvent.js#L480) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js:480](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCEvent.js#L480) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### unuse
 
-重置对象池中存储的事件。
+Reset the event for being stored in the object pool.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:110](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L110) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 
 ##### reuse
 
-用于对象池再次使用的事件。
+Reuse the event for being used again by the object pool.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L125) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:125](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L125) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 
 ##### stopPropagation
 
-停止传递当前事件。
+Stops propagation for current event.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:136](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L136) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:136](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L136) |
 
 
 
 ##### stopPropagationImmediate
 
-立即停止当前事件的传递，事件甚至不会被分派到所连接的当前目标。
+Stops propagation for current event immediately,
+the event won't even be dispatched to the listeners attached in the current target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:145](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L145) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:145](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L145) |
 
 
 
 ##### isStopped
 
-检查该事件是否已经停止传递.
+Checks whether the event has been stopped.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L155) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:155](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L155) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 
 ##### getCurrentTarget
 
-获取当前目标节点
+<p>
+    Gets current target of the event                                                            <br/>
+    note: It only be available when the event listener is associated with node.                <br/>
+         It returns 0 when the listener is associated with fixed priority.
+</p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:165](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L165) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:165](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L165) |
 | Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 
 ##### getType
 
-获取事件类型
+Gets the event type.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:180](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L180) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:180](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L180) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 

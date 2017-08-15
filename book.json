@@ -5,6 +5,9 @@
         "anchorjs",
         "sharing"
     ],
+    "styles": {
+        "website": "./styles/website.css"
+    },  
     "pluginsConfig": {
         "search": {
             "maxIndexSize": 1000000000
@@ -32,8 +35,7 @@
             "whatsapp": false,
             "all": [
                 "facebook", "google", "twitter",
-                "weibo", "qzone", "linkedin",
-                "pocket", "stumbleupon"
+                "weibo" 
             ]
         }        
     }

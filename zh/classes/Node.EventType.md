@@ -41,7 +41,7 @@ Node 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L61) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js:61](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js#L61) |
 
 
 
@@ -52,7 +52,7 @@ Node 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:69](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L69) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js:69](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js#L69) |
 
 
 
@@ -63,7 +63,7 @@ Node 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:77](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L77) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js:77](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js#L77) |
 
 
 
@@ -74,7 +74,7 @@ Node 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:85](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L85) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js:85](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js#L85) |
 
 
 
@@ -85,7 +85,7 @@ Node 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L94) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js:94](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js#L94) |
 
 
 
@@ -96,7 +96,7 @@ Node 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:102](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L102) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js:102](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js#L102) |
 
 
 
@@ -107,7 +107,7 @@ Node 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js:110](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js#L110) |
 
 
 
@@ -118,7 +118,7 @@ Node 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L118) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js:118](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js#L118) |
 
 
 
@@ -129,7 +129,7 @@ Node 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:126](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L126) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js:126](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js#L126) |
 
 
 
@@ -140,7 +140,7 @@ Node 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L134) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js:134](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCNode.js#L134) |
 
 
 

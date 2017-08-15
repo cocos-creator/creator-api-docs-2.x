@@ -7,76 +7,80 @@ Module: [cc](../modules/cc.md)
 
 
 
-Scheduler 是负责触发回调函数的类。<br/>
-通常情况下，建议使用 cc.director.getScheduler() 来获取系统定时器。<br/>
-有两种不同类型的定时器：<br/>
-    - update 定时器：每一帧都会触发。您可以自定义优先级。<br/>
-    - 自定义定时器：自定义定时器可以每一帧或者自定义的时间间隔触发。<br/>
-如果希望每帧都触发，应该使用 update 定时器，使用 update 定时器更快，而且消耗更少的内存。
+Scheduler is responsible of triggering the scheduled callbacks.<br/>
+You should not use NSTimer. Instead use this class.<br/>
+<br/>
+There are 2 different types of callbacks (selectors):<br/>
+    - update callback: the 'update' callback will be called every frame. You can customize the priority.<br/>
+    - custom callback: A custom callback will be called every frame, or with a custom interval of time<br/>
+<br/>
+The 'custom selectors' should be avoided when possible. It is faster,
+and consumes less memory to use the 'update callback'. *
 
 ### Index
 
 ##### Properties
 
-  - [`PRIORITY_SYSTEM`](#prioritysystem) `Number` 系统服务的优先级。
-  - [`PRIORITY_NON_SYSTEM`](#prioritynonsystem) `Number` 用户调度最低优先级。
+  - [`PRIORITY_SYSTEM`](#prioritysystem) `Number` Priority level reserved for system services.
+  - [`PRIORITY_NON_SYSTEM`](#prioritynonsystem) `Number` Minimum priority level for user scheduling.
 
 
 
 ##### Methods
 
-  - [`setTimeScale`](#settimescale) 设置时间间隔的缩放比例。<br/>
-您可以使用这个方法来创建一个 “slow motion（慢动作）” 或 “fast forward（快进）” 的效果。<br/>
-默认是 1.0。要创建一个 “slow motion（慢动作）” 效果,使用值低于 1.0。<br/>
-要使用 “fast forward（快进）” 效果，使用值大于 1.0。<br/>
-注意：它影响该 Scheduler 下管理的所有定时器。
-  - [`getTimeScale`](#gettimescale) 获取时间间隔的缩放比例。
-  - [`update`](#update) update 调度函数。(不应该直接调用这个方法，除非完全了解这么做的结果)
-  - [`scheduleCallbackForTarget`](#schedulecallbackfortarget) 指定回调函数，调用对象等信息来添加一个新的定时器。</br>
-当时间间隔达到指定值时，设置的回调函数将会被调用。</br>
-如果 paused 值为 true，那么直到 resume 被调用才开始计时。</br>
-如果 interval 值为 0，那么回调函数每一帧都会被调用，但如果是这样，
-建议使用 scheduleUpdateForTarget 代替。</br>
-如果回调函数已经被定时器使用，那么只会更新之前定时器的时间间隔参数，不会设置新的定时器。<br/>
-repeat 值可以让定时器触发 repeat + 1 次，使用 cc.macro.REPEAT_FOREVER
-可以让定时器一直循环触发。<br/>
-delay 值指定延迟时间，定时器会在延迟指定的时间之后开始计时。
-  - [`schedule`](#schedule) 定时器
-  - [`scheduleUpdate`](#scheduleupdate) 使用指定的优先级为指定的对象设置 update 定时器。
-update 定时器每一帧都会被触发。优先级的值越低，定时器被触发的越早。
-  - [`unschedule`](#unschedule) 根据指定的回调函数和调用对象。
-如果需要取消 update 定时器，请使用 unscheduleUpdate()。
-  - [`unscheduleUpdate`](#unscheduleupdate) 取消指定对象的 update 定时器。
-  - [`unscheduleAllForTarget`](#unscheduleallfortarget) 取消指定对象的所有定时器，包括 update 定时器。
-  - [`unscheduleAll`](#unscheduleall) 取消所有对象的所有定时器，包括系统定时器。<br/>
-不用调用此函数，除非你确定你在做什么。
-  - [`unscheduleAllWithMinPriority`](#unscheduleallwithminpriority) 取消所有优先级的值大于指定优先级的定时器。<br/>
-你应该只取消优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
-  - [`isScheduled`](#isscheduled) 检查指定的回调函数和回调对象组合是否存在定时器。
-  - [`pauseAllTargets`](#pausealltargets) 暂停所有对象的所有定时器。<br/>
-不要调用这个方法，除非你知道你正在做什么。
-  - [`pauseAllTargetsWithMinPriority`](#pausealltargetswithminpriority) 暂停所有优先级的值大于指定优先级的定时器。<br/>
-你应该只暂停优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
-  - [`resumeTargets`](#resumetargets) 恢复指定数组中所有对象的定时器。<br/>
-这个函数是 pauseAllCallbacks 的逆操作。
-  - [`pauseTarget`](#pausetarget) 暂停指定对象的定时器。<br/>
-指定对象的所有定时器都会被暂停。<br/>
-如果指定的对象没有定时器，什么也不会发生。
-  - [`resumeTarget`](#resumetarget) 恢复指定对象的所有定时器。<br/>
-指定对象的所有定时器将继续工作。<br/>
-如果指定的对象没有定时器，什么也不会发生。
-  - [`isTargetPaused`](#istargetpaused) 返回指定对象的定时器是否暂停了。
-  - [`scheduleUpdateForTarget`](#scheduleupdatefortarget) 为指定对象设置 update 定时器。<br/>
-update 定时器每一帧都会被调用。<br/>
-优先级的值越低，越早被调用。
-  - [`unscheduleCallbackForTarget`](#unschedulecallbackfortarget) 根据指定的回调函数和调用对象对象取消相应的定时器。<br/>
-如果需要取消 update 定时器，请使用 unscheduleUpdateForTarget()。
-  - [`unscheduleUpdateForTarget`](#unscheduleupdatefortarget) 取消指定对象的所有定时器。
-  - [`unscheduleAllCallbacksForTarget`](#unscheduleallcallbacksfortarget) 取消指定对象的所有定时器，包括 update 定时器。
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消所有对象的所有定时器。<br/>
-不要调用这个方法，除非你知道你正在做什么。
-  - [`unscheduleAllCallbacksWithMinPriority`](#unscheduleallcallbackswithminpriority) 取消所有优先级的值大于指定优先级的所有对象的所有定时器。<br/>
-你应该只暂停优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
+  - [`setTimeScale`](#settimescale) Modifies the time of all scheduled callbacks.<br/>
+You can use this property to create a 'slow motion' or 'fast forward' effect.<br/>
+Default is 1.0. To create a 'slow motion' effect, use values below 1.0.<br/>
+To create a 'fast forward' effect, use values higher than 1.0.<br/>
+Note：It will affect EVERY scheduled selector / action.
+  - [`getTimeScale`](#gettimescale) Returns time scale of scheduler.
+  - [`update`](#update) 'update' the scheduler. (You should NEVER call this method, unless you know what you are doing.)
+  - [`scheduleCallbackForTarget`](#schedulecallbackfortarget) <p>
+  The scheduled method will be called every 'interval' seconds.</br>
+  If paused is YES, then it won't be called until it is resumed.<br/>
+  If 'interval' is 0, it will be called every frame, but if so, it recommended to use 'scheduleUpdateForTarget:' instead.<br/>
+  If the callback function is already scheduled, then only the interval parameter will be updated without re-scheduling it again.<br/>
+  repeat let the action be repeated repeat + 1 times, use cc.macro.REPEAT_FOREVER to let the action run continuously<br/>
+  delay is the amount of time the action will wait before it'll start<br/>
+</p>
+  - [`schedule`](#schedule) The schedule
+  - [`scheduleUpdate`](#scheduleupdate) Schedules the update callback for a given target,
+the callback will be invoked every frame after schedule started.
+  - [`unschedule`](#unschedule) Unschedules a callback for a callback and a given target.
+If you want to unschedule the "update", use `unscheduleUpdate()`
+  - [`unscheduleUpdate`](#unscheduleupdate) Unschedules the update callback for a given target.
+  - [`unscheduleAllForTarget`](#unscheduleallfortarget) Unschedules all scheduled callbacks for a given target.
+This also includes the "update" callback.
+  - [`unscheduleAll`](#unscheduleall) Unschedules all scheduled callbacks from all targets including the system callbacks.<br/>
+You should NEVER call this method, unless you know what you are doing.
+  - [`unscheduleAllWithMinPriority`](#unscheduleallwithminpriority) Unschedules all callbacks from all targets with a minimum priority.<br/>
+You should only call this with `PRIORITY_NON_SYSTEM_MIN` or higher.
+  - [`isScheduled`](#isscheduled) Checks whether a callback for a given target is scheduled.
+  - [`pauseAllTargets`](#pausealltargets) Pause all selectors from all targets.<br/>
+You should NEVER call this method, unless you know what you are doing.
+  - [`pauseAllTargetsWithMinPriority`](#pausealltargetswithminpriority) Pause all selectors from all targets with a minimum priority. <br/>
+You should only call this with kCCPriorityNonSystemMin or higher.
+  - [`resumeTargets`](#resumetargets) Resume selectors on a set of targets.<br/>
+This can be useful for undoing a call to pauseAllCallbacks.
+  - [`pauseTarget`](#pausetarget) Pauses the target.<br/>
+All scheduled selectors/update for a given target won't be 'ticked' until the target is resumed.<br/>
+If the target is not present, nothing happens.
+  - [`resumeTarget`](#resumetarget) Resumes the target.<br/>
+The 'target' will be unpaused, so all schedule selectors/update will be 'ticked' again.<br/>
+If the target is not present, nothing happens.
+  - [`isTargetPaused`](#istargetpaused) Returns whether or not the target is paused.
+  - [`scheduleUpdateForTarget`](#scheduleupdatefortarget) Schedules the 'update' callback_fn for a given target with a given priority.<br/>
+The 'update' callback_fn will be called every frame.<br/>
+The lower the priority, the earlier it is called.
+  - [`unscheduleCallbackForTarget`](#unschedulecallbackfortarget) Unschedule a callback function for a given target.<br/>
+If you want to unschedule the "update", use unscheduleUpdateForTarget.
+  - [`unscheduleUpdateForTarget`](#unscheduleupdatefortarget) Unschedules the update callback function for a given target.
+  - [`unscheduleAllCallbacksForTarget`](#unscheduleallcallbacksfortarget) Unschedules all function callbacks for a given target.<br/>
+This also includes the "update" callback function.
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) Unschedules all function callbacks from all targets. <br/>
+You should NEVER call this method, unless you know what you are doing.
+  - [`unscheduleAllCallbacksWithMinPriority`](#unscheduleallcallbackswithminpriority) Unschedules all function callbacks from all targets with a minimum priority.<br/>
+You should only call this with kCCPriorityNonSystemMin or higher.
 
 
 
@@ -88,23 +92,23 @@ update 定时器每一帧都会被调用。<br/>
 
 ##### PRIORITY_SYSTEM
 
-> 系统服务的优先级。
+> Priority level reserved for system services.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1128](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1128) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:1128](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L1128) |
 
 
 
 ##### PRIORITY_NON_SYSTEM
 
-> 用户调度最低优先级。
+> Minimum priority level for user scheduling.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1137](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1137) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:1137](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L1137) |
 
 
 
@@ -117,15 +121,15 @@ update 定时器每一帧都会被调用。<br/>
 
 ##### setTimeScale
 
-设置时间间隔的缩放比例。<br/>
-您可以使用这个方法来创建一个 “slow motion（慢动作）” 或 “fast forward（快进）” 的效果。<br/>
-默认是 1.0。要创建一个 “slow motion（慢动作）” 效果,使用值低于 1.0。<br/>
-要使用 “fast forward（快进）” 效果，使用值大于 1.0。<br/>
-注意：它影响该 Scheduler 下管理的所有定时器。
+Modifies the time of all scheduled callbacks.<br/>
+You can use this property to create a 'slow motion' or 'fast forward' effect.<br/>
+Default is 1.0. To create a 'slow motion' effect, use values below 1.0.<br/>
+To create a 'fast forward' effect, use values higher than 1.0.<br/>
+Note：It will affect EVERY scheduled selector / action.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:358](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L358) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:358](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L358) |
 
 ###### Parameters
 - timeScale <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -133,22 +137,22 @@ update 定时器每一帧都会被调用。<br/>
 
 ##### getTimeScale
 
-获取时间间隔的缩放比例。
+Returns time scale of scheduler.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:378](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L378) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:378](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L378) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 
 ##### update
 
-update 调度函数。(不应该直接调用这个方法，除非完全了解这么做的结果)
+'update' the scheduler. (You should NEVER call this method, unless you know what you are doing.)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L388) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:388](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L388) |
 
 ###### Parameters
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> delta time
@@ -156,19 +160,18 @@ update 调度函数。(不应该直接调用这个方法，除非完全了解这
 
 ##### scheduleCallbackForTarget
 
-指定回调函数，调用对象等信息来添加一个新的定时器。</br>
-当时间间隔达到指定值时，设置的回调函数将会被调用。</br>
-如果 paused 值为 true，那么直到 resume 被调用才开始计时。</br>
-如果 interval 值为 0，那么回调函数每一帧都会被调用，但如果是这样，
-建议使用 scheduleUpdateForTarget 代替。</br>
-如果回调函数已经被定时器使用，那么只会更新之前定时器的时间间隔参数，不会设置新的定时器。<br/>
-repeat 值可以让定时器触发 repeat + 1 次，使用 cc.macro.REPEAT_FOREVER
-可以让定时器一直循环触发。<br/>
-delay 值指定延迟时间，定时器会在延迟指定的时间之后开始计时。
+<p>
+  The scheduled method will be called every 'interval' seconds.</br>
+  If paused is YES, then it won't be called until it is resumed.<br/>
+  If 'interval' is 0, it will be called every frame, but if so, it recommended to use 'scheduleUpdateForTarget:' instead.<br/>
+  If the callback function is already scheduled, then only the interval parameter will be updated without re-scheduling it again.<br/>
+  repeat let the action be repeated repeat + 1 times, use cc.macro.REPEAT_FOREVER to let the action run continuously<br/>
+  delay is the amount of time the action will wait before it'll start<br/>
+</p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:478](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L478) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:478](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L478) |
 | Deprecated | since v3.4 please use .schedule |
 
 ###### Parameters
@@ -181,15 +184,20 @@ delay 值指定延迟时间，定时器会在延迟指定的时间之后开始�
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/CCScheduler/scheduleCallbackForTarget.js
+```js
+//register a schedule to scheduler
+var scheduler = cc.director.getScheduler();
+scheduler.scheduleCallbackForTarget(this, function, interval, repeat, delay, !this._isRunning);
+
+```
 
 ##### schedule
 
-定时器
+The schedule
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:516](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L516) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:516](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L516) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -201,16 +209,20 @@ delay 值指定延迟时间，定时器会在延迟指定的时间之后开始�
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/CCScheduler/schedule.js
+```js
+//register a schedule to scheduler
+cc.director.getScheduler().schedule(callback, this, interval, !this._isRunning);
+
+```
 
 ##### scheduleUpdate
 
-使用指定的优先级为指定的对象设置 update 定时器。
-update 定时器每一帧都会被触发。优先级的值越低，定时器被触发的越早。
+Schedules the update callback for a given target,
+the callback will be invoked every frame after schedule started.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:580](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L580) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:580](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L580) |
 
 ###### Parameters
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -221,12 +233,12 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### unschedule
 
-根据指定的回调函数和调用对象。
-如果需要取消 update 定时器，请使用 unscheduleUpdate()。
+Unschedules a callback for a callback and a given target.
+If you want to unschedule the "update", use `unscheduleUpdate()`
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:634](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L634) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:634](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L634) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to be unscheduled
@@ -235,11 +247,11 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### unscheduleUpdate
 
-取消指定对象的 update 定时器。
+Unschedules the update callback for a given target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:683](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L683) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:683](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L683) |
 
 ###### Parameters
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be unscheduled.
@@ -247,11 +259,12 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### unscheduleAllForTarget
 
-取消指定对象的所有定时器，包括 update 定时器。
+Unschedules all scheduled callbacks for a given target.
+This also includes the "update" callback.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:705](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L705) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:705](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L705) |
 
 ###### Parameters
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be unscheduled.
@@ -259,23 +272,23 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### unscheduleAll
 
-取消所有对象的所有定时器，包括系统定时器。<br/>
-不用调用此函数，除非你确定你在做什么。
+Unschedules all scheduled callbacks from all targets including the system callbacks.<br/>
+You should NEVER call this method, unless you know what you are doing.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:745](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L745) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:745](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L745) |
 
 
 
 ##### unscheduleAllWithMinPriority
 
-取消所有优先级的值大于指定优先级的定时器。<br/>
-你应该只取消优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
+Unschedules all callbacks from all targets with a minimum priority.<br/>
+You should only call this with `PRIORITY_NON_SYSTEM_MIN` or higher.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:758](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L758) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:758](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L758) |
 
 ###### Parameters
 - minPriority <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The minimum priority of selector to be unscheduled. Which means, all selectors which
@@ -284,11 +297,11 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### isScheduled
 
-检查指定的回调函数和回调对象组合是否存在定时器。
+Checks whether a callback for a given target is scheduled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:812](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L812) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:812](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L812) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -298,23 +311,23 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### pauseAllTargets
 
-暂停所有对象的所有定时器。<br/>
-不要调用这个方法，除非你知道你正在做什么。
+Pause all selectors from all targets.<br/>
+You should NEVER call this method, unless you know what you are doing.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:850](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L850) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:850](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L850) |
 
 
 
 ##### pauseAllTargetsWithMinPriority
 
-暂停所有优先级的值大于指定优先级的定时器。<br/>
-你应该只暂停优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
+Pause all selectors from all targets with a minimum priority. <br/>
+You should only call this with kCCPriorityNonSystemMin or higher.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:863](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L863) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:863](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L863) |
 
 ###### Parameters
 - minPriority <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -322,12 +335,12 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### resumeTargets
 
-恢复指定数组中所有对象的定时器。<br/>
-这个函数是 pauseAllCallbacks 的逆操作。
+Resume selectors on a set of targets.<br/>
+This can be useful for undoing a call to pauseAllCallbacks.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:923](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L923) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:923](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L923) |
 
 ###### Parameters
 - targetsToResume <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -335,13 +348,13 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### pauseTarget
 
-暂停指定对象的定时器。<br/>
-指定对象的所有定时器都会被暂停。<br/>
-如果指定的对象没有定时器，什么也不会发生。
+Pauses the target.<br/>
+All scheduled selectors/update for a given target won't be 'ticked' until the target is resumed.<br/>
+If the target is not present, nothing happens.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:942](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L942) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:942](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L942) |
 
 ###### Parameters
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -349,13 +362,13 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### resumeTarget
 
-恢复指定对象的所有定时器。<br/>
-指定对象的所有定时器将继续工作。<br/>
-如果指定的对象没有定时器，什么也不会发生。
+Resumes the target.<br/>
+The 'target' will be unpaused, so all schedule selectors/update will be 'ticked' again.<br/>
+If the target is not present, nothing happens.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:973](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L973) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:973](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L973) |
 
 ###### Parameters
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -363,11 +376,11 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### isTargetPaused
 
-返回指定对象的定时器是否暂停了。
+Returns whether or not the target is paused.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1006](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1006) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:1006](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L1006) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -376,13 +389,13 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 ##### scheduleUpdateForTarget
 
-为指定对象设置 update 定时器。<br/>
-update 定时器每一帧都会被调用。<br/>
-优先级的值越低，越早被调用。
+Schedules the 'update' callback_fn for a given target with a given priority.<br/>
+The 'update' callback_fn will be called every frame.<br/>
+The lower the priority, the earlier it is called.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1030](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1030) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:1030](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L1030) |
 | Deprecated | since v3.4 please use .scheduleUpdate |
 
 ###### Parameters
@@ -392,16 +405,21 @@ update 定时器每一帧都会被调用。<br/>
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/CCScheduler/scheduleUpdateForTarget.js
+```js
+//register this object to scheduler
+var scheduler = cc.director.getScheduler();
+scheduler.scheduleUpdateForTarget(this, priority, !this._isRunning );
+
+```
 
 ##### unscheduleCallbackForTarget
 
-根据指定的回调函数和调用对象对象取消相应的定时器。<br/>
-如果需要取消 update 定时器，请使用 unscheduleUpdateForTarget()。
+Unschedule a callback function for a given target.<br/>
+If you want to unschedule the "update", use unscheduleUpdateForTarget.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1051](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1051) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:1051](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L1051) |
 | Deprecated | since v3.4 please use .unschedule |
 
 ###### Parameters
@@ -410,15 +428,20 @@ update 定时器每一帧都会被调用。<br/>
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/CCScheduler/unscheduleCallbackForTarget.js
+```js
+//unschedule a callback of target
+var scheduler = cc.director.getScheduler();
+scheduler.unscheduleCallbackForTarget(this, callback);
+
+```
 
 ##### unscheduleUpdateForTarget
 
-取消指定对象的所有定时器。
+Unschedules the update callback function for a given target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1069](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1069) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:1069](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L1069) |
 | Deprecated | since v3.4 please use .unschedule |
 
 ###### Parameters
@@ -426,15 +449,21 @@ update 定时器每一帧都会被调用。<br/>
 
 ##### Example
 
-```Not found for the example path: utils/api/engine/docs/cocos2d/core/CCScheduler/unscheduleUpdateForTarget.js
+```js
+//unschedules the "update" method.
+var scheduler = cc.director.getScheduler();
+scheduler.unscheduleUpdateForTarget(this);
+
+```
 
 ##### unscheduleAllCallbacksForTarget
 
-取消指定对象的所有定时器，包括 update 定时器。
+Unschedules all function callbacks for a given target.<br/>
+This also includes the "update" callback function.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1082](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1082) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:1082](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L1082) |
 | Deprecated | since v3.4 please use unscheduleAllForTarget |
 
 ###### Parameters
@@ -443,24 +472,24 @@ update 定时器每一帧都会被调用。<br/>
 
 ##### unscheduleAllCallbacks
 
-取消所有对象的所有定时器。<br/>
-不要调用这个方法，除非你知道你正在做什么。
+Unschedules all function callbacks from all targets. <br/>
+You should NEVER call this method, unless you know what you are doing.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1096](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1096) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:1096](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L1096) |
 | Deprecated | since v3.4 please use .unscheduleAllWithMinPriority |
 
 
 
 ##### unscheduleAllCallbacksWithMinPriority
 
-取消所有优先级的值大于指定优先级的所有对象的所有定时器。<br/>
-你应该只暂停优先级的值大于 PRIORITY_NON_SYSTEM_MIN 的定时器。
+Unschedules all function callbacks from all targets with a minimum priority.<br/>
+You should only call this with kCCPriorityNonSystemMin or higher.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1111) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js:1111](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/CCScheduler.js#L1111) |
 | Deprecated | since v3.4 please use .unscheduleAllWithMinPriority |
 
 ###### Parameters

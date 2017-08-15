@@ -8,7 +8,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-设备重力传感器传递的各个轴的数据。
+the device accelerometer reports values for each axis in units of g-force.
 
 ### Index
 
@@ -35,7 +35,7 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L36) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypes.js:36](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypes.js#L36) |
 
 ###### Parameters
 - x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

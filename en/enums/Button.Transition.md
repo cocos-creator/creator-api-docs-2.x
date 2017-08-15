@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-过渡类型
+Enum for transition type.
 
 ### Index
 
@@ -25,44 +25,44 @@ Module: [cc](../modules/cc.md)
 
 ##### NONE
 
-> 不做任何过渡
+> The none type.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:34](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L34) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:34](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L34) |
 
 
 
 ##### COLOR
 
-> 颜色过渡
+> The color type.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L41) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:41](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L41) |
 
 
 
 ##### SPRITE
 
-> 精灵过渡
+> The sprite type.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:48](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L48) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:48](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L48) |
 
 
 
 ##### SCALE
 
-> 缩放过渡
+> The scale type
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:54](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L54) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js:54](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCButton.js#L54) |
 
 

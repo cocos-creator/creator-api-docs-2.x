@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-SystemEvent 支持的事件类型
+The event type supported by SystemEvent
 
 ### Index
 
@@ -24,33 +24,33 @@ SystemEvent 支持的事件类型
 
 ##### KEY_DOWN
 
-> 当按下按键时触发的事件
+> The event type for press the key down event, you can use its value directly: 'keydown'
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:39](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L39) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js:39](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js#L39) |
 
 
 
 ##### KEY_UP
 
-> 当松开按键时触发的事件
+> The event type for press the key up event, you can use its value directly: 'keyup'
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L47) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js:47](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js#L47) |
 
 
 
 ##### DEVICEMOTION
 
-> 重力感应
+> The event type for press the devicemotion event, you can use its value directly: 'devicemotion'
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L55) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js:55](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js#L55) |
 
 

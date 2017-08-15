@@ -15,20 +15,20 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### Properties
 
-  - [`offset`](#offset) `Vec2` 位置偏移量
-  - [`radius`](#radius) `Number` 圆形半径
-  - [`density`](#density) `Number` 密度
-  - [`sensor`](#sensor) `Boolean` 一个传感器类型的碰撞体会产生碰撞回调，但是不会发生物理碰撞效果。
-  - [`friction`](#friction) `Number` 摩擦系数，取值一般在 [0, 1] 之间
-  - [`restitution`](#restitution) `Number` 弹性系数，取值一般在 [0, 1]之间
-  - [`body`](#body) `RigidBody` 碰撞体会在初始化时查找节点上是否存在刚体，如果查找成功则赋值到这个属性上。
+  - [`offset`](#offset) `Vec2` Position offset
+  - [`radius`](#radius) `Number` Circle radius
+  - [`density`](#density) `Number` The density.
+  - [`sensor`](#sensor) `Boolean` A sensor collider collects contact information but never generates a collision response
+  - [`friction`](#friction) `Number` The friction coefficient, usually in the range [0,1].
+  - [`restitution`](#restitution) `Number` The restitution (elasticity) usually in the range [0,1].
+  - [`body`](#body) `RigidBody` Physics collider will find the rigidbody component on the node and set to this property.
 
 
 
 ##### Methods
 
-  - [`apply`](#apply) 应用当前 collider 中的修改，调用此函数会重新生成内部 box2d 的夹具。
-  - [`getAABB`](#getaabb) 获取碰撞体的世界坐标系下的包围盒
+  - [`apply`](#apply) Apply current changes to collider, this will regenerate inner box2d fixtures.
+  - [`getAABB`](#getaabb) Get the world aabb of the collider
 
 
 
@@ -40,78 +40,78 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### offset
 
-> 位置偏移量
+> Position offset
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCCircleCollider.js:39](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCCircleCollider.js#L39) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCCircleCollider.js:39](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCCircleCollider.js#L39) |
 
 
 
 ##### radius
 
-> 圆形半径
+> Circle radius
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCCircleCollider.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCCircleCollider.js#L55) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCCircleCollider.js:55](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCCircleCollider.js#L55) |
 
 
 
 ##### density
 
-> 密度
+> The density.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:52](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L52) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js:52](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js#L52) |
 
 
 
 ##### sensor
 
-> 一个传感器类型的碰撞体会产生碰撞回调，但是不会发生物理碰撞效果。
+> A sensor collider collects contact information but never generates a collision response
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L70) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js:70](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js#L70) |
 
 
 
 ##### friction
 
-> 摩擦系数，取值一般在 [0, 1] 之间
+> The friction coefficient, usually in the range [0,1].
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L88) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js:88](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js#L88) |
 
 
 
 ##### restitution
 
-> 弹性系数，取值一般在 [0, 1]之间
+> The restitution (elasticity) usually in the range [0,1].
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L106) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js:106](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js#L106) |
 
 
 
 ##### body
 
-> 碰撞体会在初始化时查找节点上是否存在刚体，如果查找成功则赋值到这个属性上。
+> Physics collider will find the rigidbody component on the node and set to this property.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/RigidBody.html" class="crosslink">RigidBody</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L124) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js:124](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js#L124) |
 
 
 
@@ -124,21 +124,21 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### apply
 
-应用当前 collider 中的修改，调用此函数会重新生成内部 box2d 的夹具。
+Apply current changes to collider, this will regenerate inner box2d fixtures.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:250](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L250) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js:250](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js#L250) |
 
 
 
 ##### getAABB
 
-获取碰撞体的世界坐标系下的包围盒
+Get the world aabb of the collider
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:262](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L262) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js:262](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/collider/CCPhysicsCollider.js#L262) |
 
 
 

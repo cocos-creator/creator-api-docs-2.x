@@ -7,7 +7,8 @@ Module: [cc](../modules/cc.md)
 
 
 
-布局轴向，只用于 GRID 布局。
+Enum for Grid Layout start axis direction.
+The items in grid layout will be arranged in each axis at first.;
 
 ### Index
 
@@ -23,22 +24,22 @@ Module: [cc](../modules/cc.md)
 
 ##### HORIZONTAL
 
-> 进行水平方向布局
+> The horizontal axis.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:96](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L96) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:96](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L96) |
 
 
 
 ##### VERTICAL
 
-> 进行垂直方向布局
+> The vertical axis.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:102](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L102) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:102](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L102) |
 
 

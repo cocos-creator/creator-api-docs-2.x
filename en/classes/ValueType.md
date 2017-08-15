@@ -1,7 +1,7 @@
 ## `ValueType` Class
 
 
-Defined in: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:31](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L31)
+Defined in: [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCValueType.js:31](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCValueType.js#L31)
 
 Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
@@ -9,7 +9,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-所有值类型的基类。
+The base class of all value types.
 
 ### Index
 
@@ -17,11 +17,11 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### Methods
 
-  - [`clone`](#clone) 克隆当前值，该方法返回一个新对象，新对象的值和原对象相等。
-  - [`equals`](#equals) 当前对象是否等于指定对象。
-  - [`lerp`](#lerp) 线性插值。<br/>
-当 ratio = 0 时返回自身，ratio = 1 时返回目标，ratio = 0.5 返回自身和目标的平均值。。
-  - [`toString`](#tostring) 转换为方便阅读的字符串。
+  - [`clone`](#clone) This method returns an exact copy of current value.
+  - [`equals`](#equals) Compares this object with the other one.
+  - [`lerp`](#lerp) Linearly interpolates between this value to to value by ratio which is in the range [0, 1].
+When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns the average of this and to.
+  - [`toString`](#tostring) TODO
 
 
 
@@ -36,22 +36,22 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### clone
 
-克隆当前值，该方法返回一个新对象，新对象的值和原对象相等。
+This method returns an exact copy of current value.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L43) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCValueType.js:43](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCValueType.js#L43) |
 | Return 		 | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
 
 
 
 ##### equals
 
-当前对象是否等于指定对象。
+Compares this object with the other one.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:54](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L54) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCValueType.js:54](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCValueType.js#L54) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -60,12 +60,12 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### lerp
 
-线性插值。<br/>
-当 ratio = 0 时返回自身，ratio = 1 时返回目标，ratio = 0.5 返回自身和目标的平均值。。
+Linearly interpolates between this value to to value by ratio which is in the range [0, 1].
+When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns the average of this and to.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L66) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCValueType.js:66](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCValueType.js#L66) |
 | Return 		 | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
 
 ###### Parameters
@@ -75,11 +75,11 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### toString
 
-转换为方便阅读的字符串。
+TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:84](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L84) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCValueType.js:84](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCValueType.js#L84) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
 
 

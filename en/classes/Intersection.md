@@ -7,7 +7,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-辅助类，用于测试形状与形状是否相交
+Intersection helper class
 
 ### Index
 
@@ -15,16 +15,16 @@ Module: [cc](../modules/cc.md)
 
 ##### Methods
 
-  - [`lineLine`](#lineline) 测试线段与线段是否相交
-  - [`lineRect`](#linerect) 测试线段与矩形是否相交
-  - [`linePolygon`](#linepolygon) 测试线段与多边形是否相交
-  - [`rectRect`](#rectrect) 测试矩形与矩形是否相交
-  - [`rectPolygon`](#rectpolygon) 测试矩形与多边形是否相交
-  - [`polygonPolygon`](#polygonpolygon) 测试多边形与多边形是否相交
-  - [`circleCircle`](#circlecircle) 测试圆形与圆形是否相交
-  - [`polygonCircle`](#polygoncircle) 测试矩形与圆形是否相交
-  - [`pointInPolygon`](#pointinpolygon) 测试一个点是否在一个多边形中
-  - [`pointLineDistance`](#pointlinedistance) 计算点到直线的距离。如果这是一条线段并且垂足不在线段内，则会计算点到线段端点的距离。
+  - [`lineLine`](#lineline) Test line and line
+  - [`lineRect`](#linerect) Test line and rect
+  - [`linePolygon`](#linepolygon) Test line and polygon
+  - [`rectRect`](#rectrect) Test rect and rect
+  - [`rectPolygon`](#rectpolygon) Test rect and polygon
+  - [`polygonPolygon`](#polygonpolygon) Test polygon and polygon
+  - [`circleCircle`](#circlecircle) Test circle and circle
+  - [`polygonCircle`](#polygoncircle) Test polygon and circle
+  - [`pointInPolygon`](#pointinpolygon) Test whether the point is in the polygon
+  - [`pointLineDistance`](#pointlinedistance) Calculate the distance of point to line.
 
 
 
@@ -39,11 +39,11 @@ Module: [cc](../modules/cc.md)
 
 ##### lineLine
 
-测试线段与线段是否相交
+Test line and line
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:12](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L12) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:12](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L12) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -55,11 +55,11 @@ Module: [cc](../modules/cc.md)
 
 ##### lineRect
 
-测试线段与矩形是否相交
+Test line and rect
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L43) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:43](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L43) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -70,11 +70,11 @@ Module: [cc](../modules/cc.md)
 
 ##### linePolygon
 
-测试线段与多边形是否相交
+Test line and polygon
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L75) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -85,11 +85,11 @@ Module: [cc](../modules/cc.md)
 
 ##### rectRect
 
-测试矩形与矩形是否相交
+Test rect and rect
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L100) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:100](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L100) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -99,11 +99,11 @@ Module: [cc](../modules/cc.md)
 
 ##### rectPolygon
 
-测试矩形与多边形是否相交
+Test rect and polygon
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L130) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:130](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L130) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -113,11 +113,11 @@ Module: [cc](../modules/cc.md)
 
 ##### polygonPolygon
 
-测试多边形与多边形是否相交
+Test polygon and polygon
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:182](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L182) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:182](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L182) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -127,11 +127,11 @@ Module: [cc](../modules/cc.md)
 
 ##### circleCircle
 
-测试圆形与圆形是否相交
+Test circle and circle
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:221](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L221) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:221](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L221) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -141,11 +141,11 @@ Module: [cc](../modules/cc.md)
 
 ##### polygonCircle
 
-测试矩形与圆形是否相交
+Test polygon and circle
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:238](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L238) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:238](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L238) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -155,11 +155,11 @@ Module: [cc](../modules/cc.md)
 
 ##### pointInPolygon
 
-测试一个点是否在一个多边形中
+Test whether the point is in the polygon
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:267](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L267) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:267](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L267) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -169,11 +169,11 @@ Module: [cc](../modules/cc.md)
 
 ##### pointLineDistance
 
-计算点到直线的距离。如果这是一条线段并且垂足不在线段内，则会计算点到线段端点的距离。
+Calculate the distance of point to line.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:297](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L297) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:297](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L297) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters

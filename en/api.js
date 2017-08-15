@@ -4,67 +4,67 @@ window.apimeta = {
       "name": "AccountGender",
       "namespace": "anysdk.AccountGender",
       "module": "anysdk",
-      "description": "统计系统的账号性别"
+      "description": "The enum of gender"
     },
     {
       "name": "AccountOperate",
       "namespace": "anysdk.AccountOperate",
       "module": "anysdk",
-      "description": "统计系统的账号操作"
+      "description": "The enum of account operation"
     },
     {
       "name": "AccountType",
       "namespace": "anysdk.AccountType",
       "module": "anysdk",
-      "description": "统计系统的账号类型"
+      "description": "The enum of account type"
     },
     {
       "name": "AdsPos",
       "namespace": "anysdk.AdsPos",
       "module": "anysdk",
-      "description": "广告位置"
+      "description": "The enum of ads position"
     },
     {
       "name": "AdsResultCode",
       "namespace": "anysdk.AdsResultCode",
       "module": "anysdk",
-      "description": "广告系统回调"
+      "description": "The callback of ads system"
     },
     {
       "name": "AdsType",
       "namespace": "anysdk.AdsType",
       "module": "anysdk",
-      "description": "广告类型"
+      "description": "The enum of ads type"
     },
     {
       "name": "AnimationEventType",
       "namespace": "sp.AnimationEventType",
       "module": "sp",
-      "description": "骨骼动画事件类型。"
+      "description": "The event type of spine skeleton animation."
     },
     {
       "name": "BlendFactor",
       "namespace": "cc.BlendFactor",
       "module": "cc",
-      "description": "混合因子\n可参考: http://www.andersriggelsen.dk/glblendfunc.php"
+      "description": "Enum for blend factor\nRefer to: http://www.andersriggelsen.dk/glblendfunc.php"
     },
     {
       "name": "Button.Transition",
       "namespace": "cc.Button.Transition",
       "module": "cc",
-      "description": "过渡类型"
+      "description": "Enum for transition type."
     },
     {
       "name": "CustomResultCode",
       "namespace": "anysdk.CustomResultCode",
       "module": "anysdk",
-      "description": "自定义系统回调"
+      "description": "The callback of custom system"
     },
     {
       "name": "DebugMode",
       "namespace": "cc.DebugMode",
       "module": "cc",
-      "description": "调试模式"
+      "description": "Enum for debug modes."
     },
     {
       "name": "DrawBits",
@@ -76,31 +76,31 @@ window.apimeta = {
       "name": "EditBox.InputFlag",
       "namespace": "cc.EditBox.InputFlag",
       "module": "cc",
-      "description": "定义了一些用于设置文本显示和文本格式化的标志位。"
+      "description": "Enum for the EditBox's input flags"
     },
     {
       "name": "EditBox.InputMode",
       "namespace": "cc.EditBox.InputMode",
       "module": "cc",
-      "description": "输入模式"
+      "description": "The EditBox's InputMode defines the type of text that the user is allowed to enter."
     },
     {
       "name": "EditBox.KeyboardReturnType",
       "namespace": "cc.EditBox.KeyboardReturnType",
       "module": "cc",
-      "description": "键盘的返回键类型"
+      "description": "Enum for keyboard return types"
     },
     {
       "name": "Graphics.LineCap",
       "namespace": "cc.Graphics.LineCap",
       "module": "cc",
-      "description": "线段末端属性"
+      "description": "Enum for LineCap."
     },
     {
       "name": "Graphics.LineJoin",
       "namespace": "cc.Graphics.LineJoin",
       "module": "cc",
-      "description": "线段拐角属性"
+      "description": "Enum for LineJoin."
     },
     {
       "name": "ImageFormat",
@@ -112,151 +112,151 @@ window.apimeta = {
       "name": "KEY",
       "namespace": "cc.KEY",
       "module": "cc",
-      "description": "键盘事件的按键值"
+      "description": "Key map for keyboard event"
     },
     {
       "name": "Label.HorizontalAlign",
       "namespace": "cc.Label.HorizontalAlign",
       "module": "cc",
-      "description": "文本横向对齐类型"
+      "description": "Enum for text alignment."
     },
     {
       "name": "Label.Overflow",
       "namespace": "cc.Label.Overflow",
       "module": "cc",
-      "description": "Overflow 类型"
+      "description": "Enum for Overflow."
     },
     {
       "name": "Label.Type",
       "namespace": "cc.Label.Type",
       "module": "cc",
-      "description": "Type 类型"
+      "description": "Enum for font type."
     },
     {
       "name": "Label.VerticalAlign",
       "namespace": "cc.Label.VerticalAlign",
       "module": "cc",
-      "description": "文本垂直对齐类型"
+      "description": "Enum for vertical text alignment."
     },
     {
       "name": "Layout.AxisDirection",
       "namespace": "cc.Layout.AxisDirection",
       "module": "cc",
-      "description": "布局轴向，只用于 GRID 布局。"
+      "description": "Enum for Grid Layout start axis direction.\nThe items in grid layout will be arranged in each axis at first.;"
     },
     {
       "name": "Layout.HorizontalDirection",
       "namespace": "cc.Layout.HorizontalDirection",
       "module": "cc",
-      "description": "水平方向布局方式"
+      "description": "Enum for horizontal layout direction.\n Used in Grid Layout together with AxisDirection is HORIZONTAL"
     },
     {
       "name": "Layout.ResizeMode",
       "namespace": "cc.Layout.ResizeMode",
       "module": "cc",
-      "description": "缩放模式"
+      "description": "Enum for Layout Resize Mode"
     },
     {
       "name": "Layout.Type",
       "namespace": "cc.Layout.Type",
       "module": "cc",
-      "description": "布局类型"
+      "description": "Enum for Layout type"
     },
     {
       "name": "Layout.VerticalDirection",
       "namespace": "cc.Layout.VerticalDirection",
       "module": "cc",
-      "description": "垂直方向布局方式"
+      "description": "Enum for vertical layout direction.\n Used in Grid Layout together with AxisDirection is VERTICAL"
     },
     {
       "name": "LoadingItems.ItemState",
       "namespace": "cc.LoadingItems.ItemState",
       "module": "cc",
-      "description": "LoadingItems 队列中的加载项状态，状态的值可能是 LoadingItems.ItemState.WORKING | LoadingItems.ItemState.COMPLETET | LoadingItems.ItemState.ERROR"
+      "description": "The item states of the LoadingItems, its value could be LoadingItems.ItemState.WORKING | LoadingItems.ItemState.COMPLETET | LoadingItems.ItemState.ERROR"
     },
     {
       "name": "Mask.Type",
       "namespace": "cc.Mask.Type",
       "module": "cc",
-      "description": "遮罩组件类型"
+      "description": "the type for mask."
     },
     {
       "name": "PageView.Direction",
       "namespace": "cc.PageView.Direction",
       "module": "cc",
-      "description": "页面视图滚动类型"
+      "description": "The Page View Direction"
     },
     {
       "name": "PageView.EventType",
       "namespace": "cc.PageView.EventType",
       "module": "cc",
-      "description": "滚动视图事件类型"
+      "description": "Enum for ScrollView event type."
     },
     {
       "name": "PageView.SizeMode",
       "namespace": "cc.PageView.SizeMode",
       "module": "cc",
-      "description": "页面视图每个页面统一的大小类型"
+      "description": "The Page View Size Mode"
     },
     {
       "name": "PageViewIndicator.Direction",
       "namespace": "cc.PageViewIndicator.Direction",
       "module": "cc",
-      "description": "页面视图指示器的摆放方向"
+      "description": "Enum for PageView Indicator direction"
     },
     {
       "name": "ParticleSystem.EmitterMode",
       "namespace": "cc.ParticleSystem.EmitterMode",
       "module": "cc",
-      "description": "发射模式"
+      "description": "Enum for emitter modes"
     },
     {
       "name": "ParticleSystem.PositionType",
       "namespace": "cc.ParticleSystem.PositionType",
       "module": "cc",
-      "description": "粒子位置类型"
+      "description": "Enum for particles movement type."
     },
     {
       "name": "PayResultCode",
       "namespace": "anysdk.PayResultCode",
       "module": "anysdk",
-      "description": "支付系统支付请求回调"
+      "description": "The callback of requesting reStringge"
     },
     {
       "name": "ProgressBar.Mode",
       "namespace": "cc.ProgressBar.Mode",
       "module": "cc",
-      "description": "进度条模式"
+      "description": "Enum for ProgressBar mode"
     },
     {
       "name": "PushActionResultCode",
       "namespace": "anysdk.PushActionResultCode",
       "module": "anysdk",
-      "description": "推送系统回调"
+      "description": "The callback of push system"
     },
     {
       "name": "RECResultCode",
       "namespace": "anysdk.RECResultCode",
       "module": "anysdk",
-      "description": "录屏系统回调"
+      "description": "The callback of REC system"
     },
     {
       "name": "RayCastType",
       "namespace": "cc.RayCastType",
       "module": "cc",
-      "description": "射线检测类型"
+      "description": "Enum for RayCastType."
     },
     {
       "name": "RigidBodyType",
       "namespace": "cc.RigidBodyType",
       "module": "cc",
-      "description": "刚体类型"
+      "description": "Enum for RigidBodyType."
     },
     {
       "name": "ScrollView.EventType",
       "namespace": "cc.ScrollView.EventType",
       "module": "cc",
-      "description": "滚动视图事件类型"
+      "description": "Enum for ScrollView event type."
     },
     {
       "name": "Scrollbar.Direction",
@@ -268,49 +268,49 @@ window.apimeta = {
       "name": "ShareResultCode",
       "namespace": "anysdk.ShareResultCode",
       "module": "anysdk",
-      "description": "分享系统回调"
+      "description": "The callback of share system"
     },
     {
       "name": "Slider.Direction",
       "namespace": "cc.Slider.Direction",
       "module": "cc",
-      "description": "滑动器方向"
+      "description": "The Slider Direction"
     },
     {
       "name": "SocialRetCode",
       "namespace": "anysdk.SocialRetCode",
       "module": "anysdk",
-      "description": "社交系统回调"
+      "description": "The callback of social system"
     },
     {
       "name": "Sprite.FillType",
       "namespace": "cc.Sprite.FillType",
       "module": "cc",
-      "description": "填充类型"
+      "description": "Enum for fill type."
     },
     {
       "name": "Sprite.SizeMode",
       "namespace": "cc.Sprite.SizeMode",
       "module": "cc",
-      "description": "精灵尺寸调整模式"
+      "description": "Sprite Size can track trimmed size, raw size or none."
     },
     {
       "name": "Sprite.SpriteType",
       "namespace": "cc.Sprite.SpriteType",
       "module": "cc",
-      "description": "Sprite 类型"
+      "description": "Enum for sprite type."
     },
     {
       "name": "SystemEvent.EventType",
       "namespace": "cc.SystemEvent.EventType",
       "module": "cc",
-      "description": "SystemEvent 支持的事件类型"
+      "description": "The event type supported by SystemEvent"
     },
     {
       "name": "TaskType",
       "namespace": "anysdk.TaskType",
       "module": "anysdk",
-      "description": "统计系统的任务类型"
+      "description": "The enum of task type"
     },
     {
       "name": "TextAlignment",
@@ -328,49 +328,49 @@ window.apimeta = {
       "name": "TiledMap.Orientation",
       "namespace": "cc.TiledMap.Orientation",
       "module": "cc",
-      "description": "Tiled Map 地图方向。"
+      "description": "The orientation of tiled map."
     },
     {
       "name": "ToolBarPlace",
       "namespace": "anysdk.ToolBarPlace",
       "module": "anysdk",
-      "description": "用户系统悬浮窗位置"
+      "description": "The toolbar position of user type"
     },
     {
       "name": "UserActionResultCode",
       "namespace": "anysdk.UserActionResultCode",
       "module": "anysdk",
-      "description": "用户系统回调"
+      "description": "The callback of user system"
     },
     {
       "name": "VideoPlayer.EventType",
       "namespace": "cc.VideoPlayer.EventType",
       "module": "cc",
-      "description": "视频事件类型"
+      "description": "Video event type"
     },
     {
       "name": "VideoPlayer.ResourceType",
       "namespace": "cc.VideoPlayer.ResourceType",
       "module": "cc",
-      "description": "视频来源"
+      "description": "Enum for video resouce type type."
     },
     {
       "name": "WebView.EventType",
       "namespace": "cc.WebView.EventType",
       "module": "cc",
-      "description": "网页视图事件类型"
+      "description": "WebView event type"
     },
     {
       "name": "WrapMode",
       "namespace": "cc.WrapMode",
       "module": "cc",
-      "description": "动画使用的循环模式。"
+      "description": "Specifies how time is treated when it is outside of the keyframe range of an Animation."
     },
     {
       "name": "audioEngine.AudioState",
       "namespace": "cc.audioEngine.AudioState",
       "module": "cc",
-      "description": "声音播放状态"
+      "description": "Audio state."
     },
     {
       "name": "macro",
@@ -384,211 +384,211 @@ window.apimeta = {
       "name": "Acceleration",
       "namespace": "cc.Acceleration",
       "module": "cc",
-      "description": "设备重力传感器传递的各个轴的数据。"
+      "description": "the device accelerometer reports values for each axis in units of g-force."
     },
     {
       "name": "Action",
       "namespace": "cc.Action",
       "module": "cc",
-      "description": "Action 类是所有动作类型的基类。"
+      "description": "Base class cc.Action for action classes."
     },
     {
       "name": "ActionEase",
       "namespace": "cc.ActionEase",
       "module": "cc",
-      "description": "所有缓动动作基类，用于修饰 ActionInterval。"
+      "description": "Base class for Easing actions."
     },
     {
       "name": "ActionInstant",
       "namespace": "cc.ActionInstant",
       "module": "cc",
-      "description": "即时动作，这种动作立即就会执行，继承自 FiniteTimeAction。"
+      "description": "Instant actions are immediate actions. They don't have a duration like the ActionInterval actions."
     },
     {
       "name": "ActionInterval",
       "namespace": "cc.ActionInterval",
       "module": "cc",
-      "description": "时间间隔动作，这种动作在已定时间内完成，继承 FiniteTimeAction。"
+      "description": "<p> An interval action is an action that takes place within a certain period of time. <br/>\nIt has an start time, and a finish time. The finish time is the parameter<br/>\nduration plus the start time.</p>\n\n<p>These CCActionInterval actions have some interesting properties, like:<br/>\n- They can run normally (default)  <br/>\n- They can run reversed with the reverse method   <br/>\n- They can run with the time altered with the Accelerate, AccelDeccel and Speed actions. </p>\n\n<p>For example, you can simulate a Ping Pong effect running the action normally and<br/>\nthen running it again in Reverse mode. </p>"
     },
     {
       "name": "ActionManager",
       "namespace": "cc.ActionManager",
       "module": "cc",
-      "description": "cc.ActionManager 是可以管理动作的单例类。<br/>\n通常你并不需要直接使用这个类，99%的情况您将使用 CCNode 的接口。<br/>\n但也有一些情况下，您可能需要使用这个类。 <br/>\n例如：\n - 当你想要运行一个动作，但目标不是 CCNode 类型时。 <br/>\n - 当你想要暂停/恢复动作时。 <br/>"
+      "description": "cc.ActionManager is a class that can manage actions.<br/>\nNormally you won't need to use this class directly. 99% of the cases you will use the CCNode interface,\nwhich uses this class's singleton object.\nBut there are some cases where you might need to use this class. <br/>\nExamples:<br/>\n- When you want to run an action where the target is different from a CCNode.<br/>\n- When you want to pause / resume the actions<br/>"
     },
     {
       "name": "AffineTransform",
       "namespace": "cc.AffineTransform",
       "module": "cc",
-      "description": "cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移旋转，缩放转变所组成。<br/>\n请不要直接使用它的构造，请使用 cc.affineTransformMake 函数代替。"
+      "description": "cc.AffineTransform class represent an affine transform matrix. It's composed basically by translation, rotation, scale transformations.<br/>\nPlease do not use its constructor directly, use cc.affineTransformMake alias function instead."
     },
     {
       "name": "AgentManager",
       "namespace": "anysdk.AgentManager",
       "module": "anysdk",
-      "description": "插件管理类"
+      "description": "agent manager of plugin"
     },
     {
       "name": "Animation",
       "namespace": "cc.Animation",
       "module": "cc",
-      "description": "Animation 组件用于播放动画。\n\nAnimation 提供了一系列可注册的事件：\n - play : 开始播放时\n - stop : 停止播放时\n - pause : 暂停播放时\n - resume : 恢复播放时\n - lastframe : 假如动画循环次数大于 1，当动画播放到最后一帧时\n - finished : 动画播放完成时"
+      "description": "The animation component is used to play back animations.\n\nAnimation provide several events to register：\n - play : Emit when begin playing animation\n - stop : Emit when stop playing animation\n - pause : Emit when pause animation\n - resume : Emit when resume animation\n - lastframe : If animation repeat count is larger than 1, emit when animation play to the last frame\n - finished : Emit when finish playing animation"
     },
     {
       "name": "AnimationClip",
       "namespace": "cc.AnimationClip",
       "module": "cc",
-      "description": "动画剪辑，用于存储动画数据。"
+      "description": "Class for animation data handling."
     },
     {
       "name": "AnimationNode",
       "namespace": "cc.AnimationNode",
       "module": "cc",
-      "description": "动画曲线的集合，根据当前时间计算出每条曲线的状态。"
+      "description": "The collection and instance of playing animations."
     },
     {
       "name": "AnimationNodeBase",
       "namespace": "cc.AnimationNodeBase",
       "module": "cc",
-      "description": "所有播放动画的抽象接口。"
+      "description": "The abstract interface for all playing animation."
     },
     {
       "name": "AnimationState",
       "namespace": "cc.AnimationState",
       "module": "cc",
-      "description": "AnimationState 完全控制动画播放过程。<br/>\n大多数情况下 动画组件 是足够和易于使用的。如果您需要更多的动画控制接口，请使用 AnimationState。"
+      "description": "The AnimationState gives full control over animation playback process.\nIn most cases the Animation Component is sufficient and easier to use. Use the AnimationState if you need full control."
     },
     {
       "name": "ArmatureDisplay",
       "namespace": "dragonBones.ArmatureDisplay",
       "module": "dragonBones",
-      "description": "DragonBones 骨骼动画 <br/>\n<br/>\n(Armature Display 具有对骨骼数据的引用并且存储了骨骼实例的状态，\n它由当前的骨骼动作，slot 颜色，和可见的 slot attachments 组成。<br/>\n多个 Armature Display 可以使用相同的骨骼数据，其中包括所有的动画，皮肤和 attachments。)<br/>"
+      "description": "The Armature Display of DragonBones <br/>\n<br/>\n(Armature Display has a reference to a DragonBonesAsset and stores the state for ArmatureDisplay instance,\nwhich consists of the current pose's bone SRT, slot colors, and which slot attachments are visible. <br/>\nMultiple Armature Display can use the same DragonBonesAsset which includes all animations, skins, and attachments.) <br/>"
     },
     {
       "name": "Asset",
       "namespace": "cc.Asset",
       "module": "cc",
-      "description": "资源基类，该类可以被实例化。<br/>\n\n您可能需要重写：<br/>\n- createNode <br/>\n- cc.Object._serialize<br/>\n- cc.Object._deserialize<br/>"
+      "description": "Base class for handling assets used in Fireball. This class can be instantiate.\n\nYou may want to override:<br/>\n- createNode<br/>\n- cc.Object._serialize<br/>\n- cc.Object._deserialize<br/>"
     },
     {
       "name": "AudioClip",
       "namespace": "cc.AudioClip",
       "module": "cc",
-      "description": "音频资源类。"
+      "description": "Class for audio data handling."
     },
     {
       "name": "AudioSource",
       "namespace": "cc.AudioSource",
       "module": "cc",
-      "description": "音频源组件，能对音频剪辑。"
+      "description": "Audio Source."
     },
     {
       "name": "BitmapFont",
       "namespace": "cc.BitmapFont",
       "module": "cc",
-      "description": "位图字体资源类。"
+      "description": "Class for BitmapFont handling."
     },
     {
       "name": "BlendFunc",
       "namespace": "cc.BlendFunc",
       "module": "cc",
-      "description": "图像的混合方式。"
+      "description": "Blend Function used for textures."
     },
     {
       "name": "BlockInputEvents",
       "namespace": "cc.BlockInputEvents",
       "module": "cc",
-      "description": "该组件将拦截所属节点 bounding box 内的所有输入事件（鼠标和触摸），防止输入穿透到下层节点，一般用于上层 UI 的背景。<br>\n该组件没有任何 API 接口，直接添加到场景即可生效。"
+      "description": "This component will block all input events (mouse and touch) within the bounding box of the node, preventing the input from penetrating into the underlying node, typically for the background of the top UI.<br>\nThis component does not have any API interface and can be added directly to the scene to take effect."
     },
     {
       "name": "BoxCollider",
       "namespace": "cc.BoxCollider",
       "module": "cc",
-      "description": "包围盒碰撞组件"
+      "description": "Box Collider."
     },
     {
       "name": "Button",
       "namespace": "cc.Button",
       "module": "cc",
-      "description": "按钮组件。可以被按下,或者点击。</br>\n\n按钮可以通过修改 Transition 来设置按钮状态过渡的方式：</br>\n  -Button.Transition.NONE   // 不做任何过渡</br>\n  -Button.Transition.COLOR  // 进行颜色之间过渡</br>\n  -Button.Transition.SPRITE // 进行精灵之间过渡</br>\n  -Button.Transition.SCALE // 进行缩放过渡</br>\n\n按钮可以绑定事件（但是必须要在按钮的 Node 上才能绑定事件）：</br>\n  // 以下事件可以在全平台上都触发</br>\n  -cc.Node.EventType.TOUCH_START  // 按下时事件</br>\n  -cc.Node.EventType.TOUCH_Move   // 按住移动后事件</br>\n  -cc.Node.EventType.TOUCH_END    // 按下后松开后事件</br>\n  -cc.Node.EventType.TOUCH_CANCEL // 按下取消事件</br>\n  // 以下事件只在 PC 平台上触发</br>\n  -cc.Node.EventType.MOUSE_DOWN  // 鼠标按下时事件</br>\n  -cc.Node.EventType.MOUSE_MOVE  // 鼠标按住移动后事件</br>\n  -cc.Node.EventType.MOUSE_ENTER // 鼠标进入目标事件</br>\n  -cc.Node.EventType.MOUSE_LEAVE // 鼠标离开目标事件</br>\n  -cc.Node.EventType.MOUSE_UP    // 鼠标松开事件</br>\n  -cc.Node.EventType.MOUSE_WHEEL // 鼠标滚轮事件</br>"
+      "description": "Button has 4 Transition types\nWhen Button state changed:\n If Transition type is Button.Transition.NONE, Button will do nothing\n If Transition type is Button.Transition.COLOR, Button will change target's color\n If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite\n If Transition type is Button.Transition.SCALE, Button will change target node's scale\n\nButton will trigger 5 events:\n Button.EVENT_TOUCH_DOWN\n Button.EVENT_TOUCH_UP\n Button.EVENT_HOVER_IN\n Button.EVENT_HOVER_MOVE\n Button.EVENT_HOVER_OUT"
     },
     {
       "name": "CallbacksInvoker",
       "namespace": "cc.CallbacksInvoker",
       "module": "cc",
-      "description": "CallbacksInvoker 用来根据 Key 管理并调用回调方法。"
+      "description": "The callbacks invoker to handle and invoke callbacks by key."
     },
     {
       "name": "Camera",
       "namespace": "cc.Camera",
       "module": "cc",
-      "description": "摄像机在制作卷轴或是其他需要移动屏幕的游戏时比较有用，使用摄像机将会比移动节点来移动屏幕更加高效。"
+      "description": "Camera is usefull when making reel game or other games which need scroll screen.\nUsing camera will be more efficient than moving node to scroll screen.\nCamera"
     },
     {
       "name": "Canvas",
       "namespace": "cc.Canvas",
       "module": "cc",
-      "description": ": 作为 UI 根节点，为所有子节点提供视窗四边的位置信息以供对齐，另外提供屏幕适配策略接口，方便从编辑器设置。\n注：由于本节点的尺寸会跟随屏幕拉伸，所以 anchorPoint 只支持 (0.5, 0.5)，否则适配不同屏幕时坐标会有偏差。"
+      "description": ""
     },
     {
       "name": "CircleCollider",
       "namespace": "cc.CircleCollider",
       "module": "cc",
-      "description": "圆形碰撞组件"
+      "description": "Circle Collider."
     },
     {
       "name": "CoffeeScript",
       "namespace": "cc.CoffeeScript",
       "module": "cc",
-      "description": "CoffeeScript 资源类。"
+      "description": "Class for coffeescript handling."
     },
     {
       "name": "Collider",
       "namespace": "cc.Collider",
       "module": "cc",
-      "description": "碰撞组件基类"
+      "description": "Collider component base class."
     },
     {
       "name": "Collider.Box",
       "namespace": "cc.Collider.Box",
       "module": "cc",
-      "description": "用来定义包围盒碰撞体"
+      "description": "Defines a Box Collider ."
     },
     {
       "name": "Collider.Circle",
       "namespace": "cc.Collider.Circle",
       "module": "cc",
-      "description": "用来定义圆形碰撞体"
+      "description": "Defines a Circle Collider ."
     },
     {
       "name": "Collider.Polygon",
       "namespace": "cc.Collider.Polygon",
       "module": "cc",
-      "description": "用来定义多边形碰撞体"
+      "description": "Defines a Polygon Collider ."
     },
     {
       "name": "CollisionManager",
       "namespace": "cc.CollisionManager",
       "module": "cc",
-      "description": "一个简单的碰撞组件管理类，用于处理节点之间的碰撞组件是否产生了碰撞，并调用相应回调函数。"
+      "description": "A simple collision manager class.\nIt will calculate whether the collider collides other colliders, if collides then call the callbacks."
     },
     {
       "name": "Color",
       "namespace": "cc.Color",
       "module": "cc",
-      "description": "cc.Color 用于表示颜色。\n\n它包含 RGBA 四个以浮点数保存的颜色分量，每个的值都在 0 到 255 之间。\n\n您也可以通过使用 <a href=\"../modules/cc.html#method_color\" class=\"crosslink\">cc.color</a> 的便捷方法来创建一个新的 Color。"
+      "description": "Representation of RGBA colors.\n\nEach color component is a floating point value with a range from 0 to 255.\n\nYou can also use the convenience method <a href=\"../modules/cc.html#method_color\" class=\"crosslink\">cc.color</a> to create a new Color."
     },
     {
       "name": "Component",
       "namespace": "cc.Component",
       "module": "cc",
-      "description": "所有附加到节点的基类。<br/>\n<br/>\n注意：不允许使用组件的子类构造参数，因为组件是由引擎创建的。"
+      "description": "Base class for everything attached to Node(Entity).<br/>\n<br/>\nNOTE: Not allowed to use construction parameters for Component's subclasses,\n      because Component is created by the engine."
     },
     {
       "name": "Component.EventHandler",
       "namespace": "cc.Component.EventHandler",
       "module": "cc",
-      "description": ""
+      "description": "Component will register a event to target component's handler.\nAnd it will trigger the handler when a certain event occurs.\n\n!@zh\n“EventHandler” 类用来设置场景中的事件回调，\n该类允许用户设置回调目标节点，目标组件名，组件方法名，\n并可通过 emit 方法调用目标函数。"
     },
     {
       "name": "ContainerStrategy",
@@ -606,55 +606,55 @@ window.apimeta = {
       "name": "Details",
       "namespace": "cc.Details",
       "module": "cc",
-      "description": "包含反序列化时的一些信息"
+      "description": "Contains information collected during deserialization"
     },
     {
       "name": "Director",
       "namespace": "cc.Director",
       "module": "cc",
-      "description": "<p>\n    注意：用 cc.director 代替 cc.Director。<br/>\n    cc.director 一个管理你的游戏的逻辑流程的单例对象。<br/>\n    由于 cc.director 是一个单例，你不需要调用任何构造函数或创建函数，<br/>\n    使用它的标准方法是通过调用：<br/>\n      - cc.director.methodName();\n    <br/>\n    它创建和处理主窗口并且管理什么时候执行场景。<br/>\n    <br/>\n    cc.director 还负责：<br/>\n     - 初始化 OpenGL 环境。<br/>\n     - 设置OpenGL像素格式。(默认是 RGB565)<br/>\n     - 设置OpenGL缓冲区深度 (默认是 0-bit)<br/>\n     - 设置空白场景的颜色 (默认是 黑色)<br/>\n     - 设置投影 (默认是 3D)<br/>\n     - 设置方向 (默认是 Portrait)<br/>\n   <br/>\n   cc.director 设置了 OpenGL 默认环境 <br/>\n     - GL_TEXTURE_2D   启用。<br/>\n     - GL_VERTEX_ARRAY 启用。<br/>\n     - GL_COLOR_ARRAY  启用。<br/>\n     - GL_TEXTURE_COORD_ARRAY 启用。<br/>\n</p>\n<p>\n  cc.director 也同步定时器与显示器的刷新速率。\n  <br/>\n  特点和局限性: <br/>\n     - 将计时器 & 渲染与显示器的刷新频率同步。<br/>\n     - 只支持动画的间隔 1/60 1/30 & 1/15。<br/>\n</p>"
+      "description": "<p>\n   ATTENTION: USE cc.director INSTEAD OF cc.Director.<br/>\n   cc.director is a singleton object which manage your game's logic flow.<br/>\n   Since the cc.director is a singleton, you don't need to call any constructor or create functions,<br/>\n   the standard way to use it is by calling:<br/>\n     - cc.director.methodName(); <br/>\n\n   It creates and handle the main Window and manages how and when to execute the Scenes.<br/>\n   <br/>\n   The cc.director is also responsible for:<br/>\n     - initializing the OpenGL context<br/>\n     - setting the OpenGL pixel format (default on is RGB565)<br/>\n     - setting the OpenGL buffer depth (default on is 0-bit)<br/>\n     - setting the color for clear screen (default one is BLACK)<br/>\n     - setting the projection (default one is 3D)<br/>\n     - setting the orientation (default one is Portrait)<br/>\n     <br/>\n   <br/>\n   The cc.director also sets the default OpenGL context:<br/>\n     - GL_TEXTURE_2D is enabled<br/>\n     - GL_VERTEX_ARRAY is enabled<br/>\n     - GL_COLOR_ARRAY is enabled<br/>\n     - GL_TEXTURE_COORD_ARRAY is enabled<br/>\n</p>\n<p>\n  cc.director also synchronizes timers with the refresh rate of the display.<br/>\n  Features and Limitations:<br/>\n     - Scheduled timers & drawing are synchronizes with the refresh rate of the display<br/>\n     - Only supports animation intervals of 1/60 1/30 & 1/15<br/>\n</p>"
     },
     {
       "name": "DistanceJoint",
       "namespace": "cc.DistanceJoint",
       "module": "cc",
-      "description": "距离关节通过一个固定的长度来约束关节链接的两个刚体。你可以将它想象成一个无质量，坚固的木棍。"
+      "description": "A distance joint constrains two points on two bodies\nto remain at a fixed distance from each other. You can view\nthis as a massless, rigid rod."
     },
     {
       "name": "DragonBonesAsset",
       "namespace": "dragonBones.DragonBonesAsset",
       "module": "dragonBones",
-      "description": "dragonBones 的 骨骼数据。"
+      "description": "The skeleton data of dragonBones."
     },
     {
       "name": "DragonBonesAtlasAsset",
       "namespace": "dragonBones.DragonBonesAtlasAsset",
       "module": "dragonBones",
-      "description": "dragonBones 的骨骼纹理数据。"
+      "description": "The skeleton atlas data of dragonBones."
     },
     {
       "name": "EaseBounce",
       "namespace": "cc.EaseBounce",
       "module": "cc",
-      "description": "反弹缓动动作基类。"
+      "description": "cc.EaseBounce abstract class."
     },
     {
       "name": "EaseElastic",
       "namespace": "cc.EaseElastic",
       "module": "cc",
-      "description": "弹性缓动动作基类。"
+      "description": "Ease Elastic abstract class."
     },
     {
       "name": "EaseRateAction",
       "namespace": "cc.EaseRateAction",
       "module": "cc",
-      "description": "拥有速率属性的缓动动作基类。"
+      "description": "Base class for Easing actions with rate parameters"
     },
     {
       "name": "EditBox",
       "namespace": "cc.EditBox",
       "module": "cc",
-      "description": "EditBox 组件，用于获取用户的输入文本。"
+      "description": "cc.EditBox is a component for inputing text, you can use it to gather small amounts of text from users."
     },
     {
       "name": "EqualToFrame",
@@ -672,67 +672,67 @@ window.apimeta = {
       "name": "Event",
       "namespace": "cc.Event",
       "module": "cc",
-      "description": "包含事件相关信息的对象。"
+      "description": "Base class of all kinds of events."
     },
     {
       "name": "Event.EventAcceleration",
       "namespace": "cc.Event.EventAcceleration",
       "module": "cc",
-      "description": "加速度事件"
+      "description": "The acceleration event"
     },
     {
       "name": "Event.EventCustom",
       "namespace": "cc.Event.EventCustom",
       "module": "cc",
-      "description": "自定义事件"
+      "description": "The Custom event"
     },
     {
       "name": "Event.EventKeyboard",
       "namespace": "cc.Event.EventKeyboard",
       "module": "cc",
-      "description": "键盘事件"
+      "description": "The keyboard event"
     },
     {
       "name": "Event.EventMouse",
       "namespace": "cc.Event.EventMouse",
       "module": "cc",
-      "description": "鼠标事件类型"
+      "description": "The mouse event"
     },
     {
       "name": "Event.EventTouch",
       "namespace": "cc.Event.EventTouch",
       "module": "cc",
-      "description": "触摸事件"
+      "description": "The touch event"
     },
     {
       "name": "EventListener",
       "namespace": "cc.EventListener",
       "module": "cc",
-      "description": "封装用户的事件处理逻辑。\n注意：这是一个抽象类，开发者不应该直接实例化这个类，请参考 <a href=\"../classes/EventListener.html#method_create\" class=\"crosslink\">cc.EventListener.create</a>。"
+      "description": "<p>\n    The base class of event listener.                                                                        <br/>\n    If you need custom listener which with different callback, you need to inherit this class.               <br/>\n    For instance, you could refer to EventListenerAcceleration, EventListenerKeyboard,                       <br/>\n     EventListenerTouchOneByOne, EventListenerCustom.\n</p>"
     },
     {
       "name": "EventTarget",
       "namespace": "cc.EventTarget",
       "module": "cc",
-      "description": "事件目标是事件触发时，分派的事件对象，Node 是最常见的事件目标，\n但是其他对象也可以是事件目标。<br/>"
+      "description": "EventTarget is an object to which an event is dispatched when something has occurred.\nEntity are the most common event targets, but other objects can be event targets too.\n\nEvent targets are an important part of the Fireball event model.\nThe event target serves as the focal point for how events flow through the scene graph.\nWhen an event such as a mouse click or a keypress occurs, Fireball dispatches an event object\ninto the event flow from the root of the hierarchy. The event object then makes its way through\nthe scene graph until it reaches the event target, at which point it begins its return trip through\nthe scene graph. This round-trip journey to the event target is conceptually divided into three phases:\n- The capture phase comprises the journey from the root to the last node before the event target's node\n- The target phase comprises only the event target node\n- The bubbling phase comprises any subsequent nodes encountered on the return trip to the root of the tree\nSee also: http://www.w3.org/TR/DOM-Level-3-Events/#event-flow\n\nEvent targets can implement the following methods:\n - _getCapturingTargets\n - _getBubblingTargets"
     },
     {
       "name": "FiniteTimeAction",
       "namespace": "cc.FiniteTimeAction",
       "module": "cc",
-      "description": "有限时间动作，这种动作拥有时长 duration 属性。"
+      "description": "Base class actions that do have a finite time duration. <br/>\nPossible actions: <br/>\n- An action with a duration of 0 seconds. <br/>\n- An action with a duration of 35.5 seconds.\n\nInfinite time actions are valid"
     },
     {
       "name": "Font",
       "namespace": "cc.Font",
       "module": "cc",
-      "description": "字体资源类。"
+      "description": "Class for Font handling."
     },
     {
       "name": "Game",
       "namespace": "cc.Game",
       "module": "cc",
-      "description": "cc.game 是 Game 的实例，用来驱动整个游戏。"
+      "description": "cc.game is the singleton object for game related functions."
     },
     {
       "name": "Graphics",
@@ -744,43 +744,43 @@ window.apimeta = {
       "name": "Intersection",
       "namespace": "cc.Intersection",
       "module": "cc",
-      "description": "辅助类，用于测试形状与形状是否相交"
+      "description": "Intersection helper class"
     },
     {
       "name": "Joint",
       "namespace": "cc.Joint",
       "module": "cc",
-      "description": "关节类的基类"
+      "description": "Base class for joints to connect rigidbody."
     },
     {
       "name": "Label",
       "namespace": "cc.Label",
       "module": "cc",
-      "description": "文字标签组件"
+      "description": "The Label Component."
     },
     {
       "name": "LabelAtlas",
       "namespace": "cc.LabelAtlas",
       "module": "cc",
-      "description": "艺术数字字体资源类。"
+      "description": "Class for LabelAtlas handling."
     },
     {
       "name": "LabelOutline",
       "namespace": "cc.LabelOutline",
       "module": "cc",
-      "description": "描边效果组件,用于字体描边,只能用于系统字体"
+      "description": "Outline effect used to change the display, only used for TTF font"
     },
     {
       "name": "Layout",
       "namespace": "cc.Layout",
       "module": "cc",
-      "description": "Layout 组件相当于一个容器，能自动对它的所有子节点进行统一排版。"
+      "description": "The Layout is a container component, use it to arrange child elements easily."
     },
     {
       "name": "LoadingItems",
       "namespace": "cc.LoadingItems",
       "module": "cc",
-      "description": "LoadingItems 是一个加载对象队列，可以用来输送加载对象到加载管线中。</br>\n请不要直接使用 new 构造这个类的对象，你可以使用 LoadingItems.create 来创建一个新的加载队列，这样可以允许我们的内部对象池回收并重利用加载队列。\n它有一个 map 属性用来存放加载项，在 map 对象中已 url 为 key 值。</br>\n每个对象都会包含下列属性：</br>\n- id：该对象的标识，通常与 url 相同。</br>\n- url：路径 </br>\n- type: 类型，它这是默认的 URL 的扩展名，可以手动指定赋值。</br>\n- error：pipeline 中发生的错误将被保存在这个属性中。</br>\n- content: pipeline 中处理的临时结果，最终的结果也将被存储在这个属性中。</br>\n- complete：该标志表明该对象是否通过 pipeline 完成。</br>\n- states：该对象存储每个管道中对象经历的状态，状态可以是 Pipeline.ItemState.WORKING | Pipeline.ItemState.ERROR | Pipeline.ItemState.COMPLETE</br>\n</br>\n对象可容纳其他自定义属性。</br>\n每个 LoadingItems 对象都会在 onComplete 回调之后被销毁，所以请不要持有它的引用并在结束回调之后依赖它的内容执行任何逻辑，有这种需求的话你可以提前复制它的内容。"
+      "description": "LoadingItems is the queue of items which can flow them into the loading pipeline.</br>\nPlease don't construct it directly, use LoadingItems.create instead, because we use an internal pool to recycle the queues.</br>\nIt hold a map of items, each entry in the map is a url to object key value pair.</br>\nEach item always contains the following property:</br>\n- id: The identification of the item, usually it's identical to url</br>\n- url: The url </br>\n- type: The type, it's the extension name of the url by default, could be specified manually too.</br>\n- error: The error happened in pipeline will be stored in this property.</br>\n- content: The content processed by the pipeline, the final result will also be stored in this property.</br>\n- complete: The flag indicate whether the item is completed by the pipeline.</br>\n- states: An object stores the states of each pipe the item go through, the state can be: Pipeline.ItemState.WORKING | Pipeline.ItemState.ERROR | Pipeline.ItemState.COMPLETE</br>\n</br>\nItem can hold other custom properties.</br>\nEach LoadingItems object will be destroyed for recycle after onComplete callback</br>\nSo please don't hold its reference for later usage, you can copy properties in it though."
     },
     {
       "name": "Manifold",
@@ -792,49 +792,49 @@ window.apimeta = {
       "name": "ManifoldPoint",
       "namespace": "cc.ManifoldPoint",
       "module": "cc",
-      "description": "ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接触点的详细信息。\n注意：信息中的冲量用于系统内部缓存，提供的接触力可能不是很准确，特别是高速移动中的碰撞信息。"
+      "description": "A manifold point is a contact point belonging to a contact manifold.\nIt holds details related to the geometry and dynamics of the contact points.\nNote: the impulses are used for internal caching and may not\nprovide reliable contact forces, especially for high speed collisions."
     },
     {
       "name": "Mask",
       "namespace": "cc.Mask",
       "module": "cc",
-      "description": "遮罩组件"
+      "description": "The Mask Component"
     },
     {
       "name": "MotionStreak",
       "namespace": "cc.MotionStreak",
       "module": "cc",
-      "description": "运动轨迹，用于游戏对象的运动轨迹上实现拖尾渐隐效果。"
+      "description": "cc.MotionStreak manages a Ribbon based on it's motion in absolute space.                 <br/>\nYou construct it with a fadeTime, minimum segment size, texture path, texture            <br/>\nlength and color. The fadeTime controls how long it takes each vertex in                 <br/>\nthe streak to fade out, the minimum segment size it how many pixels the                  <br/>\nstreak will move before adding a new ribbon segment, and the texture                     <br/>\nlength is the how many pixels the texture is stretched across. The texture               <br/>\nis vertically aligned along the streak segment."
     },
     {
       "name": "MotorJoint",
       "namespace": "cc.MotorJoint",
       "module": "cc",
-      "description": "马达关节被用来控制两个刚体间的相对运动。\n一个典型的例子是用来控制一个动态刚体相对于地面的运动。"
+      "description": "A motor joint is used to control the relative motion\nbetween two bodies. A typical usage is to control the movement\nof a dynamic body with respect to the ground."
     },
     {
       "name": "MouseJoint",
       "namespace": "cc.MouseJoint",
       "module": "cc",
-      "description": "鼠标关节用于使刚体上的一个点追踪一个指定的世界坐标系下的位置。\n鼠标关节可以指定一个最大的里来施加一个柔和的约束。\n鼠标关节会自动使用 mouse region 节点来注册鼠标事件，并且在触摸移动事件中移动选中的刚体。\n注意：一般鼠标关节只在测试环境中使用。"
+      "description": "A mouse joint is used to make a point on a body track a\nspecified world point. This a soft constraint with a maximum\nforce. This allows the constraint to stretch and without\napplying huge forces.\nMouse Joint will auto register the touch event with the mouse region node,\nand move the choosed rigidbody in touch move event.\nNote : generally mouse joint only used in test bed."
     },
     {
       "name": "Node",
       "namespace": "cc.Node",
       "module": "cc",
-      "description": "Cocos Creator 场景中的所有节点类。节点也继承了 <a href=\"../classes/EventTarget.html\" class=\"crosslink\">EventTarget</a>，它允许节点发送事件。<br/>\n支持的节点事件，请参阅 <a href=\"../classes/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>。"
+      "description": "Class of all entities in Cocos Creator scenes.<br/>\nNode also inherits from <a href=\"../classes/EventTarget.html\" class=\"crosslink\">Event Target</a>, it permits Node to dispatch events.\nFor events supported by Node, please refer to <a href=\"../classes/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>"
     },
     {
       "name": "Node.EventType",
       "namespace": "cc.Node.EventType",
       "module": "cc",
-      "description": "Node 支持的事件类型"
+      "description": "The event type supported by Node"
     },
     {
       "name": "NodePool",
       "namespace": "cc.NodePool",
       "module": "cc",
-      "description": "cc.NodePool 是用于管理节点对象的对象缓存池。<br/>\n它可以帮助您提高游戏性能，适用于优化对象的反复创建和销毁<br/>\n以前 cocos2d-x 中的 cc.pool 和新的节点事件注册系统不兼容，因此请使用 cc.NodePool 来代替。\n\n新的 NodePool 需要实例化之后才能使用，每种不同的节点对象池需要一个不同的对象池实例，这里的种类对应于游戏中的节点设计，一个 prefab 相当于一个种类的节点。<br/>\n在创建缓冲池时，可以传入一个包含 unuse, reuse 函数的组件类型用于节点的回收和复用逻辑。<br/>\n\n一些常见的用例是：<br/>\n     1.在游戏中的子弹（死亡很快，频繁创建，对其他对象无副作用）<br/>\n     2.糖果粉碎传奇中的木块（频繁创建）。\n     等等...."
+      "description": "cc.NodePool is the cache pool designed for node type.<br/>\n It can helps you to improve your game performance for objects which need frequent release and recreate operations<br/>\n\nIt's recommended to create cc.NodePool instances by node type, the type corresponds to node type in game design, not the class,\nfor example, a prefab is a specific node type. <br/>\nWhen you create a node pool, you can pass a Component which contains `unuse`, `reuse` functions to control the content of node.<br/>\n\nSome common use case is :<br/>\n     1. Bullets in game (die very soon, massive creation and recreation, no side effect on other objects)<br/>\n     2. Blocks in candy crash (massive creation and recreation)<br/>\n     etc..."
     },
     {
       "name": "OriginalContainer",
@@ -846,13 +846,13 @@ window.apimeta = {
       "name": "PageView",
       "namespace": "cc.PageView",
       "module": "cc",
-      "description": "页面视图组件"
+      "description": "The PageView control"
     },
     {
       "name": "PageViewIndicator",
       "namespace": "cc.PageViewIndicator",
       "module": "cc",
-      "description": "页面视图每页标记组件"
+      "description": "The Page View Indicator Component"
     },
     {
       "name": "ParticleSystem",
@@ -888,19 +888,19 @@ window.apimeta = {
       "name": "PhysicsContact",
       "namespace": "cc.PhysicsContact",
       "module": "cc",
-      "description": "物理接触会在开始和结束碰撞之间生成，并作为参数传入到碰撞回调函数中。\n注意：传入的物理接触会被系统进行重用，所以不要在使用中缓存里面的任何信息。"
+      "description": "PhysicsContact will be generated during begin and end collision as a parameter of the collision callback.\nNote that contacts will be reused for speed up cpu time, so do not cache anything in the contact."
     },
     {
       "name": "PhysicsImpulse",
       "namespace": "cc.PhysicsImpulse",
       "module": "cc",
-      "description": "用于返回给回调的接触冲量。"
+      "description": "Contact impulses for reporting."
     },
     {
       "name": "PhysicsManager",
       "namespace": "cc.PhysicsManager",
       "module": "cc",
-      "description": "物理系统将 box2d 作为内部物理系统，并且隐藏了大部分 box2d 实现细节（比如创建刚体，同步刚体信息到节点中等）。\n你可以通过物理系统访问一些 box2d 常用的功能，比如点击测试，射线测试，设置测试信息等。\n物理系统还管理碰撞信息的分发，她会在产生碰撞时，将碰撞信息分发到各个碰撞回调中。\n注意：你需要先在刚体中开启碰撞接听才会产生相应的碰撞回调。"
+      "description": "Physics manager uses box2d as the inner physics system, and hide most box2d implement details(creating rigidbody, synchronize rigidbody info to node).\nYou can visit some common box2d function through physics manager(hit testing, raycast, debug info).\nPhysics manager distributes the collision information to each collision callback when collision is produced.\nNote: You need first enable the collision listener in the rigidbody."
     },
     {
       "name": "PhysicsPolygonCollider",
@@ -918,7 +918,7 @@ window.apimeta = {
       "name": "Pipeline",
       "namespace": "cc.Pipeline",
       "module": "cc",
-      "description": "pipeline 描述了一系列的操作，每个操作都被称为 pipe。</br>\n它被设计来做加载过程的流程管理。所以 item 应该是 url，并且该 url 将是在处理中的每个 item 的身份标识。</br>\n一个 item 列表可以在 pipeline 中流动，它将输出加载项经过所有 pipe 之后的结果。</br>\n它们穿过 pipeline 就像水在管子里流动，将会按顺序流过每个 pipe。</br>\n最后当所有加载项都流出 pipeline 时，整个加载流程就结束了。"
+      "description": "A pipeline describes a sequence of manipulations, each manipulation is called a pipe.</br>\nIt's designed for loading process. so items should be urls, and the url will be the identity of each item during the process.</br>\nA list of items can flow in the pipeline and it will output the results of all pipes.</br>\nThey flow in the pipeline like water in tubes, they go through pipe by pipe separately.</br>\nFinally all items will flow out the pipeline and the process is finished."
     },
     {
       "name": "Pipeline.Downloader",
@@ -942,43 +942,43 @@ window.apimeta = {
       "name": "PluginParam",
       "namespace": "anysdk.PluginParam",
       "module": "anysdk",
-      "description": "数据结构类"
+      "description": "Data structure class"
     },
     {
       "name": "PluginProtocol",
       "namespace": "anysdk.PluginProtocol",
       "module": "anysdk",
-      "description": "插件协议"
+      "description": "plugin protocol"
     },
     {
       "name": "PolygonCollider",
       "namespace": "cc.PolygonCollider",
       "module": "cc",
-      "description": "多边形碰撞组件"
+      "description": "Polygon Collider."
     },
     {
       "name": "Pool",
       "namespace": "js.Pool",
       "module": "js",
-      "description": "长度固定的对象缓存池，可以用来缓存各种对象类型。<br/>\n这个对象池的实现非常精简，它可以帮助您提高游戏性能，适用于优化对象的反复创建和销毁。"
+      "description": "A fixed-length object pool designed for general type.<br>\nThe implementation of this object pool is very simple,\nit can helps you to improve your game performance for objects which need frequent release and recreate operations<br/>"
     },
     {
       "name": "Prefab",
       "namespace": "cc.Prefab",
       "module": "cc",
-      "description": "预制资源类。"
+      "description": "Class for prefab handling."
     },
     {
       "name": "PrismaticJoint",
       "namespace": "cc.PrismaticJoint",
       "module": "cc",
-      "description": "移动关节指定了只能在一个方向上移动刚体。\n你可以开启关节限制来设置刚体运行移动的间距，也可以开启马达来使用关节马达驱动刚体的运行。"
+      "description": "A prismatic joint. This joint provides one degree of freedom: translation\nalong an axis fixed in rigidbody. Relative rotation is prevented. You can\nuse a joint limit to restrict the range of motion and a joint motor to\ndrive the motion or to model joint friction."
     },
     {
       "name": "ProgressBar",
       "namespace": "cc.ProgressBar",
       "module": "cc",
-      "description": "进度条组件，可用于显示加载资源时的进度。"
+      "description": "Visual indicator of progress in some operation.\nDisplays a bar to the user representing how far the operation has progressed."
     },
     {
       "name": "ProportionalToFrame",
@@ -996,67 +996,67 @@ window.apimeta = {
       "name": "ProtocolAdTracking",
       "namespace": "anysdk.ProtocolAdTracking",
       "module": "anysdk",
-      "description": "广告追踪系统协议接口"
+      "description": "ad tracking protocol"
     },
     {
       "name": "ProtocolAds",
       "namespace": "anysdk.ProtocolAds",
       "module": "anysdk",
-      "description": "广告系统协议接口"
+      "description": "ads protocol"
     },
     {
       "name": "ProtocolAnalytics",
       "namespace": "anysdk.ProtocolAnalytics",
       "module": "anysdk",
-      "description": "统计系统协议接口"
+      "description": "analytics protocol"
     },
     {
       "name": "ProtocolCrash",
       "namespace": "anysdk.ProtocolCrash",
       "module": "anysdk",
-      "description": "崩溃分析系统协议接口"
+      "description": "crash protocol"
     },
     {
       "name": "ProtocolCustom",
       "namespace": "anysdk.ProtocolCustom",
       "module": "anysdk",
-      "description": "自定义系统协议接口"
+      "description": "custom protocol"
     },
     {
       "name": "ProtocolIAP",
       "namespace": "anysdk.ProtocolIAP",
       "module": "anysdk",
-      "description": "支付系统协议接口"
+      "description": "IAP protocol"
     },
     {
       "name": "ProtocolPush",
       "namespace": "anysdk.ProtocolPush",
       "module": "anysdk",
-      "description": "推送系统协议接口"
+      "description": "push protocol"
     },
     {
       "name": "ProtocolREC",
       "namespace": "anysdk.ProtocolREC",
       "module": "anysdk",
-      "description": "录屏系统协议接口"
+      "description": "REC protocol"
     },
     {
       "name": "ProtocolShare",
       "namespace": "anysdk.ProtocolShare",
       "module": "anysdk",
-      "description": "分享系统协议接口"
+      "description": "share protocol"
     },
     {
       "name": "ProtocolSocial",
       "namespace": "anysdk.ProtocolSocial",
       "module": "anysdk",
-      "description": "社交系统协议接口"
+      "description": "social protocol"
     },
     {
       "name": "ProtocolUser",
       "namespace": "anysdk.ProtocolUser",
       "module": "anysdk",
-      "description": "用户系统协议接口"
+      "description": "user protocol"
     },
     {
       "name": "Quad2",
@@ -1074,13 +1074,13 @@ window.apimeta = {
       "name": "RawAsset",
       "namespace": "cc.RawAsset",
       "module": "cc",
-      "description": "注册用的资源基类。<br/>\n你可能要重写：<br/>\n- createNode (static)"
+      "description": "The base class for registering asset types.\n\nYou may want to override:\n- createNode (static)"
     },
     {
       "name": "Rect",
       "namespace": "cc.Rect",
       "module": "cc",
-      "description": "通过位置和宽高定义的 2D 矩形。"
+      "description": "A 2D rectangle defined by x, y position and width, height."
     },
     {
       "name": "ResolutionPolicy",
@@ -1092,13 +1092,13 @@ window.apimeta = {
       "name": "RevoluteJoint",
       "namespace": "cc.RevoluteJoint",
       "module": "cc",
-      "description": "旋转关节可以约束两个刚体围绕一个点来进行旋转。\n你可以通过开启关节限制来限制旋转的最大角度和最小角度。\n你可以通过开启马达来施加一个扭矩力来驱动这两个刚体在这一点上的相对速度。"
+      "description": "A revolute joint constrains two bodies to share a common point while they\nare free to rotate about the point. The relative rotation about the shared\npoint is the joint angle. You can limit the relative rotation with\na joint limit that specifies a lower and upper angle. You can use a motor\nto drive the relative rotation about the shared point. A maximum motor torque\nis provided so that infinite forces are not generated."
     },
     {
       "name": "RichText",
       "namespace": "cc.RichText",
       "module": "cc",
-      "description": "富文本组件"
+      "description": "The RichText Component."
     },
     {
       "name": "RigidBody",
@@ -1110,103 +1110,103 @@ window.apimeta = {
       "name": "RopeJoint",
       "namespace": "cc.RopeJoint",
       "module": "cc",
-      "description": "绳子关节只指定两个刚体间的最大距离，没有其他的效果。\n注意：如果你试图动态修改关节的长度，这有可能会得到一些意外的效果。"
+      "description": "A rope joint enforces a maximum distance between two points\non two bodies. It has no other effect.\nWarning: if you attempt to change the maximum length during\nthe simulation you will get some non-physical behavior."
     },
     {
       "name": "Scene",
       "namespace": "cc.Scene",
       "module": "cc",
-      "description": "cc.Scene 是 cc.Node 的子类，仅作为一个抽象的概念。<br/>\ncc.Scene 和 cc.Node 有点不同，用户不应直接修改 cc.Scene。"
+      "description": "cc.Scene is a subclass of cc.Node that is used only as an abstract concept.<br/>\ncc.Scene and cc.Node are almost identical with the difference that users can not modify cc.Scene manually."
     },
     {
       "name": "SceneAsset",
       "namespace": "cc.SceneAsset",
       "module": "cc",
-      "description": "场景资源类。"
+      "description": "Class for scene handling."
     },
     {
       "name": "Scheduler",
       "namespace": "cc.Scheduler",
       "module": "cc",
-      "description": "Scheduler 是负责触发回调函数的类。<br/>\n通常情况下，建议使用 cc.director.getScheduler() 来获取系统定时器。<br/>\n有两种不同类型的定时器：<br/>\n    - update 定时器：每一帧都会触发。您可以自定义优先级。<br/>\n    - 自定义定时器：自定义定时器可以每一帧或者自定义的时间间隔触发。<br/>\n如果希望每帧都触发，应该使用 update 定时器，使用 update 定时器更快，而且消耗更少的内存。"
+      "description": "Scheduler is responsible of triggering the scheduled callbacks.<br/>\nYou should not use NSTimer. Instead use this class.<br/>\n<br/>\nThere are 2 different types of callbacks (selectors):<br/>\n    - update callback: the 'update' callback will be called every frame. You can customize the priority.<br/>\n    - custom callback: A custom callback will be called every frame, or with a custom interval of time<br/>\n<br/>\nThe 'custom selectors' should be avoided when possible. It is faster,\nand consumes less memory to use the 'update callback'. *"
     },
     {
       "name": "ScrollView",
       "namespace": "cc.ScrollView",
       "module": "cc",
-      "description": "滚动视图组件"
+      "description": "Layout container for a view hierarchy that can be scrolled by the user,\nallowing it to be larger than the physical display."
     },
     {
       "name": "Scrollbar",
       "namespace": "cc.Scrollbar",
       "module": "cc",
-      "description": "滚动条组件"
+      "description": "The Scrollbar control allows the user to scroll an image or other view that is too large to see completely"
     },
     {
       "name": "Size",
       "namespace": "cc.Size",
       "module": "cc",
-      "description": "cc.Size 是 size 对象的类。<br/>\n请不要使用它的构造函数创建的 size，<br/>\n使用 <a href=\"../modules/cc.html#method_size\" class=\"crosslink\">size</a> 别名函数。<br/>\n它不久将被取消，请使用cc.Vec2代替。"
+      "description": "cc.Size is the class for size object,<br/>\nplease do not use its constructor to create sizes,<br/>\nuse <a href=\"../modules/cc.html#method_size\" class=\"crosslink\">size</a> alias function instead.<br/>\nIt will be deprecated soon, please use cc.Vec2 instead."
     },
     {
       "name": "Skeleton",
       "namespace": "sp.Skeleton",
       "module": "sp",
-      "description": "Spine 骨骼动画 <br/>\n<br/>\n(Skeleton 具有对骨骼数据的引用并且存储了骨骼实例的状态，\n它由当前的骨骼动作，slot 颜色，和可见的 slot attachments 组成。<br/>\n多个 Skeleton 可以使用相同的骨骼数据，其中包括所有的动画，皮肤和 attachments。"
+      "description": "The skeleton of Spine <br/>\n<br/>\n(Skeleton has a reference to a SkeletonData and stores the state for skeleton instance,\nwhich consists of the current pose's bone SRT, slot colors, and which slot attachments are visible. <br/>\nMultiple skeletons can use the same SkeletonData which includes all animations, skins, and attachments.) <br/>"
     },
     {
       "name": "SkeletonData",
       "namespace": "sp.SkeletonData",
       "module": "sp",
-      "description": "Spine 的 骨骼数据。"
+      "description": "The skeleton data of spine."
     },
     {
       "name": "Slider",
       "namespace": "cc.Slider",
       "module": "cc",
-      "description": "滑动器组件"
+      "description": "The Slider Control"
     },
     {
       "name": "Sprite",
       "namespace": "cc.Sprite",
       "module": "cc",
-      "description": "该组件用于在场景中渲染精灵。"
+      "description": "Renders a sprite in the scene."
     },
     {
       "name": "SpriteAtlas",
       "namespace": "cc.SpriteAtlas",
       "module": "cc",
-      "description": "精灵图集资源类。"
+      "description": "Class for sprite atlas handling."
     },
     {
       "name": "SpriteDistortion",
       "namespace": "cc.SpriteDistortion",
       "module": "cc",
-      "description": "扭曲效果组件,用于改变SIMPLE类型sprite的渲染,只有当sprite组件已经添加后,才能起作用."
+      "description": "A distortion used to change the rendering of simple sprite.If will take effect after sprite component is added."
     },
     {
       "name": "SpriteFrame",
       "namespace": "cc.SpriteFrame",
       "module": "cc",
-      "description": "一个 SpriteFrame 包含：<br/>\n - 纹理：会被 Sprite 使用的 Texture2D 对象。<br/>\n - 矩形：在纹理中的矩形区域。"
+      "description": "A cc.SpriteFrame has:<br/>\n - texture: A cc.Texture2D that will be used by the _ccsg.Sprite<br/>\n - rectangle: A rectangle of the texture"
     },
     {
       "name": "SystemEvent",
       "namespace": "cc.SystemEvent",
       "module": "cc",
-      "description": "系统事件，它目前支持按键事件和重力感应事件"
+      "description": "The System event, it currently supports the key events and accelerometer events"
     },
     {
       "name": "TMXObject",
       "namespace": "cc.TMXObject",
       "module": "cc",
-      "description": "渲染 tmx object。"
+      "description": "Renders the TMX object."
     },
     {
       "name": "TTFFont",
       "namespace": "cc.TTFFont",
       "module": "cc",
-      "description": "TTF 字体资源类。"
+      "description": "Class for TTFFont handling."
     },
     {
       "name": "Tex2F",
@@ -1218,7 +1218,7 @@ window.apimeta = {
       "name": "TextAsset",
       "namespace": "cc.TextAsset",
       "module": "cc",
-      "description": "文本资源类。"
+      "description": "Class for text file."
     },
     {
       "name": "Texture2D",
@@ -1236,13 +1236,13 @@ window.apimeta = {
       "name": "TiledLayer",
       "namespace": "cc.TiledLayer",
       "module": "cc",
-      "description": "渲染 TMX layer。"
+      "description": "Render the TMX layer."
     },
     {
       "name": "TiledMap",
       "namespace": "cc.TiledMap",
       "module": "cc",
-      "description": "在场景中渲染一个 tmx 格式的 Tile Map。"
+      "description": "Renders a TMX Tile Map in the scene."
     },
     {
       "name": "TiledMapAsset",
@@ -1254,31 +1254,31 @@ window.apimeta = {
       "name": "TiledObjectGroup",
       "namespace": "cc.TiledObjectGroup",
       "module": "cc",
-      "description": "渲染 tmx object group。"
+      "description": "Renders the TMX object group."
     },
     {
       "name": "Toggle",
       "namespace": "cc.Toggle",
       "module": "cc",
-      "description": "Toggle 是一个 CheckBox，当它和 ToggleGroup 一起使用的时候，可以变成 RadioButton。"
+      "description": "The toggle component is a CheckBox, when it used together with a ToggleGroup, it\ncould be treated as a RadioButton."
     },
     {
       "name": "ToggleGroup",
       "namespace": "cc.ToggleGroup",
       "module": "cc",
-      "description": "ToggleGroup 不是一个可见的 UI 组件，它可以用来修改一组 Toggle  组件的行为。当一组 Toggle 属于同一个 ToggleGroup 的时候，\n任何时候只能有一个 Toggle 处于选中状态。"
+      "description": "ToggleGroup is not a visiable UI component but a way to modify the behavior of a set of Toggles.\nToggles that belong to the same group could only have one of them to be switched on at a time."
     },
     {
       "name": "Touch",
       "namespace": "cc.Touch",
       "module": "cc",
-      "description": "封装了触摸相关的信息。"
+      "description": "The touch event class"
     },
     {
       "name": "TypeScript",
       "namespace": "cc.TypeScript",
       "module": "cc",
-      "description": "TypeScript 资源类。"
+      "description": "Class for TypeScript handling."
     },
     {
       "name": "V2F_C4B_T2F",
@@ -1308,13 +1308,13 @@ window.apimeta = {
       "name": "ValueType",
       "namespace": "cc.ValueType",
       "module": "cc",
-      "description": "所有值类型的基类。"
+      "description": "The base class of all value types."
     },
     {
       "name": "Vec2",
       "namespace": "cc.Vec2",
       "module": "cc",
-      "description": "表示 2D 向量和坐标"
+      "description": "Representation of 2D vectors and points."
     },
     {
       "name": "Vertex2F",
@@ -1332,7 +1332,7 @@ window.apimeta = {
       "name": "VideoPlayer",
       "namespace": "cc.VideoPlayer",
       "module": "cc",
-      "description": "Video 组件，用于在游戏中播放视频"
+      "description": "cc.VideoPlayer is a component for playing videos, you can use it for showing videos in your game."
     },
     {
       "name": "View",
@@ -1344,7 +1344,7 @@ window.apimeta = {
       "name": "ViewGroup",
       "namespace": "cc.ViewGroup",
       "module": "cc",
-      "description": "ViewGroup的事件处理比较特殊，因为 ViewGroup 里面的子节点关心的事件跟 ViewGroup 本身可能不一样。\n为了让子节点能够正确地处理事件，ViewGroup 需要注册 capture 阶段的事件，并且合理地处理 ViewGroup 之间的事件传递。\n请参考 ScrollView 的实现来获取更多信息。"
+      "description": "Handling touch events in a ViewGroup takes special care,\nbecause it's common for a ViewGroup to have children that are targets for different touch events than the ViewGroup itself.\nTo make sure that each view correctly receives the touch events intended for it,\nViewGroup should register capture phase event and handle the event propagation properly.\nPlease refer to Scrollview for more  information."
     },
     {
       "name": "WebGLColor",
@@ -1356,25 +1356,25 @@ window.apimeta = {
       "name": "WebView",
       "namespace": "cc.WebView",
       "module": "cc",
-      "description": "WebView 组件，用于在游戏中显示网页"
+      "description": "cc.WebView is a component for display web pages in the game"
     },
     {
       "name": "WeldJoint",
       "namespace": "cc.WeldJoint",
       "module": "cc",
-      "description": "熔接关节相当于将两个刚体粘在了一起。\n熔接关节可能会使某些东西失真，因为约束求解器算出的都是近似值。"
+      "description": "A weld joint essentially glues two bodies together. A weld joint may\ndistort somewhat because the island constraint solver is approximate."
     },
     {
       "name": "WheelJoint",
       "namespace": "cc.WheelJoint",
       "module": "cc",
-      "description": "轮子关节提供两个维度的自由度：旋转和沿着指定方向上位置的移动。\n你可以通过开启关节马达来使用马达驱动刚体的旋转。\n轮组关节是专门为机动车类型设计的。"
+      "description": "A wheel joint. This joint provides two degrees of freedom: translation\nalong an axis fixed in bodyA and rotation in the plane. You can use a joint motor to drive\nthe rotation or to model rotational friction.\nThis joint is designed for vehicle suspensions."
     },
     {
       "name": "Widget",
       "namespace": "cc.Widget",
       "module": "cc",
-      "description": "Widget 组件，用于设置和适配其相对于父节点的边距，Widget 通常被用于 UI 界面，也可以用于其他地方。\nWidget 会自动调整当前节点的坐标和宽高，不过目前调整后的结果要到下一帧才能在脚本里获取到，除非你先手动调用 <a href=\"../classes/Widget.html#method_updateAlignment\" class=\"crosslink\">updateAlignment</a>。"
+      "description": "Stores and manipulate the anchoring based on its parent.\nWidget are used for GUI but can also be used for other things.\nWidget will adjust current node's position and size automatically, but the results after adjustment can not be obtained until the next frame unless you call <a href=\"../classes/Widget.html#method_updateAlignment\" class=\"crosslink\">updateAlignment</a> manually."
     },
     {
       "name": "WorldManifold",
@@ -1392,13 +1392,13 @@ window.apimeta = {
       "name": "audioEngine",
       "namespace": "cc.audioEngine",
       "module": "cc",
-      "description": "cc.audioengine是单例对象。<br/>\n主要用来播放音频，播放的时候会返回一个 audioID，之后都可以通过这个 audioID 来操作这个音频对象。<br/>\n不使用的时候，请使用 cc.audioEngine.uncache(filePath); 进行资源释放 <br/>\n注意：<br/>\n在 Android 系统浏览器上，不同浏览器，不同版本的效果不尽相同。<br/>\n比如说：大多数浏览器都需要用户物理交互才可以开始播放音效，有一些不支持 WebAudio，<br/>\n有一些不支持多音轨播放。总之如果对音乐依赖比较强，请做尽可能多的测试。"
+      "description": "cc.audioEngine is the singleton object, it provide simple audio APIs."
     },
     {
       "name": "eventManager",
       "namespace": "cc.eventManager",
       "module": "cc",
-      "description": "事件管理器，它主要管理事件监听器注册和派发系统事件。\n原始设计中，它支持鼠标，触摸，键盘，陀螺仪和自定义事件。\n在 Creator 的设计中，鼠标，触摸和自定义事件的监听和派发请参考 http://cocos.com/docs/creator/scripting/events.html。"
+      "description": "<p>\n cc.eventManager is a singleton object which manages event listener subscriptions and event dispatching. <br/>\n                                                                                                             <br/>\n The EventListener list is managed in such way so that event listeners can be added and removed          <br/>\n while events are being dispatched.\n</p>"
     },
     {
       "name": "inputManager",
@@ -1416,7 +1416,7 @@ window.apimeta = {
       "name": "pool",
       "namespace": "cc.pool",
       "module": "cc",
-      "description": "首先请注意，在 Creator 中我们强烈不建议使用 cc.pool 来管理 cc.Node 节点对象，请使用 <a href=\"../classes/NodePool.html\" class=\"crosslink\">cc.NodePool</a> 代替\n因为 cc.pool 是面向类来设计的，而 cc.Node 中使用 Component 来进行组合，它的类永远都一样，实际却千差万别。\n\ncc.pool 是一个单例对象，用作为对象缓存池。<br/>\n它可以帮助您提高游戏性能，适用于优化对象的反复创建和销毁<br/>"
+      "description": "Attention: In creator, it's strongly not recommended to use cc.pool to manager cc.Node.\n We provided <a href=\"../classes/NodePool.html\" class=\"crosslink\">cc.NodePool</a> instead.\n\n cc.pool is a singleton object serves as an object cache pool.<br/>\n It can helps you to improve your game performance for objects which need frequent release and recreate operations<br/>"
     },
     {
       "name": "screen",
@@ -1453,29 +1453,29 @@ window.apimeta = {
     {
       "name": "GLOBAL-MACROS",
       "namespace": "GLOBAL-MACROS",
-      "description": "这里是一些用来判断执行环境的宏，这些宏都是全局变量，直接访问即可。<br>\n在项目构建时，这些宏将会被预处理并根据构建的平台剔除不需要的代码，例如\n\n    if (CC_DEBUG) {\n        cc.log('debug');\n    }\n    else {\n        cc.log('release');\n    }\n\n在构建后会只剩下\n\n    cc.log('release');\n\n（好棒棒）<br>\n<br>\n如需判断脚本是否运行于指定平台，可以用如下表达式：\n\n    {\n        \"编辑器\":  CC_EDITOR,\n        \"编辑器 或 预览\":  CC_DEV,\n        \"编辑器 或 预览 或 构建调试\":  CC_DEBUG,\n        \"网页预览\":  CC_PREVIEW && !CC_JSB,\n        \"模拟器预览\":  CC_PREVIEW && CC_JSB,\n        \"构建调试\":  CC_BUILD && CC_DEBUG,\n        \"构建发行\":  CC_BUILD && !CC_DEBUG,\n    }"
+      "description": "Here are some of the macro used to determine the execution environment, these macros are global variables, can be accessed directly.<br>\nWhen the project is built, these macros will be preprocessed and discard unreachable code based on the built platform, for example:\n\n    if (CC_DEBUG) {\n        cc.log('debug');\n    }\n    else {\n        cc.log('release');\n    }\n\nAfter build will become:\n\n    cc.log('release');\n\n<br>\nTo determine whether the script is running on the specified platform, you can use the following expression:\n\n    {\n        \"editor\":  CC_EDITOR,\n        \"editor or preview\":  CC_DEV,\n        \"editor or preview or build in debug mode\":  CC_DEBUG,\n        \"web preview\":  CC_PREVIEW && !CC_JSB,\n        \"simulator preview\":  CC_PREVIEW && CC_JSB,\n        \"build in debug mode\":  CC_BUILD && CC_DEBUG,\n        \"build in release mode\":  CC_BUILD && !CC_DEBUG,\n    }"
     },
     {
       "name": "_decorator",
       "namespace": "cc._decorator",
       "module": "cc",
-      "description": "一些 JavaScript 装饰器，目前可以通过 \"cc._decorator\" 来访问。\n（这些 API 仍不完全稳定，有可能随着 JavaScript 装饰器的标准实现而调整）"
+      "description": "Some JavaScript decorators which can be accessed with \"cc._decorator\"."
     },
     {
       "name": "anysdk",
       "namespace": "anysdk",
-      "description": "AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程，不改变任何 SDK 的功能、特性、参数等，对于最终玩家而言是完全透明无感知的。\n目的是让 CP 商能有更多时间更专注于游戏本身的品质，所有 SDK 的接入工作统统交给我们吧。第三方 SDK 包括了渠道SDK、用户系统、支付系统、广告系统、统计系统、分享系统等等。"
+      "description": "AnySDK is a third party solution that offers game developers SDK integration without making changes to the SDK's features or parameters.It can do all of this while remaining invisible to your end user.Our goal is to handle all the tedious SDK integration work for you so that you can use your time to focus on the game itself.No matter if it’s the channel SDK, user system, payment system, ad system, statistics system, sharing system or any other type of SDK: we’ll take care of it for you."
     },
     {
       "name": "cc",
       "namespace": "cc",
       "module": "js",
-      "description": "Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属性和常量都在这个命名空间中定义。"
+      "description": "The main namespace of Cocos2d-JS, all engine core classes, functions, properties and constants are defined in this namespace."
     },
     {
       "name": "dragonBones",
       "namespace": "dragonBones",
-      "description": "DragonBones 的全局的命名空间，\n与 DragonBones 相关的所有的类，函数，属性，常量都在这个命名空间中定义。"
+      "description": "The global main namespace of DragonBones, all classes, functions,\nproperties and constants of DragonBones are defined in this namespace"
     },
     {
       "name": "js",
@@ -1486,12 +1486,12 @@ window.apimeta = {
     {
       "name": "sp",
       "namespace": "sp",
-      "description": "Spine 的全局的命名空间，\n与 Spine 相关的所有的类，函数，属性，常量都在这个命名空间中定义。"
+      "description": "The global main namespace of Spine, all classes, functions,\nproperties and constants of Spine are defined in this namespace"
     },
     {
       "name": "sp.spine",
       "namespace": "sp.spine",
-      "description": "sp.spine 模块是 Spine 官方运行库的 API 入口，由 Spine 官方统一实现和维护，具体用法请参考：[http://zh.esotericsoftware.com/spine-using-runtimes](http://zh.esotericsoftware.com/spine-using-runtimes)"
+      "description": "`sp.spine` is the namespace for official Spine Runtime, which officially implemented and maintained by Spine.<br>\nPlease refer to the official documentation for its detailed usage: [http://en.esotericsoftware.com/spine-using-runtimes](http://en.esotericsoftware.com/spine-using-runtimes)"
     }
   ]
 }
