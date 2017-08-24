@@ -53,7 +53,7 @@ This function will invoke the reuse function of poolHandlerComp if exist.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js:75](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js#L75) |
 
 
 
@@ -70,7 +70,7 @@ Constructor for creating a pool for a specific node template (usually a prefab).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js:56](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js#L56) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js:56](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js#L56) |
 
 ###### Parameters
 - poolHandlerComp <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> !#en The constructor or the class name of the component to control the unuse/reuse logic. !#zh 处理节点回收和复用事件逻辑的组件类型或名称。
@@ -93,7 +93,7 @@ The current available size in the pool
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js:87](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js#L87) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js:87](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js#L87) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -104,7 +104,7 @@ Destroy all cached nodes in the pool
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js:97](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js#L97) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js:97](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js#L97) |
 
 
 
@@ -116,7 +116,7 @@ It will also invoke unuse method of the poolHandlerComp if exist.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js:110](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js:110](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js#L110) |
 
 ###### Parameters
 - obj <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -135,7 +135,7 @@ This function will invoke the reuse function of poolHandlerComp if exist.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js:138](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/ccpool/CCNodePool.js#L138) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js:138](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCNodePool.js#L138) |
 | Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
 
 ###### Parameters

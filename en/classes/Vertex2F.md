@@ -37,7 +37,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js:127](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js#L127) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:127](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L127) |
 
 
 
@@ -54,7 +54,7 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js:112](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js#L112) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:112](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L112) |
 
 ###### Parameters
 - x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

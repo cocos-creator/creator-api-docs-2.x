@@ -71,7 +71,8 @@ all event callbacks will be removed in _onPreDestroy
 返回一个 <a href="../modules/sp.spine.html">sp.spine</a>.Attachment 对象。
   - [`setAttachment`](#setattachment) 通过 slot 和 attachment 的名字来设置 attachment。
 Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮肤。
-  - [`setSkeletonData`](#setskeletondata) 设置 Skeleton 中的 Skeleton Data。
+  - [`setSkeletonData`](#setskeletondata) 设置底层运行时用到的 SkeletonData。<br>
+这个接口有别于 `skeletonData` 属性，这个接口传入的是 Spine runtime 提供的原始数据，而 skeletonData 的类型是 Creator 提供的资源类型。
   - [`setAnimationStateData`](#setanimationstatedata) 设置动画状态数据。<br>
 参数是 <a href="../modules/sp.spine.html">sp.spine</a>.AnimationStateData。
   - [`setMix`](#setmix) 为所有关键帧设定混合及混合时间（从当前值开始差值）。
@@ -184,7 +185,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:102](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L102) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:102](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L102) |
 
 
 
@@ -197,7 +198,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SkeletonData.html" class="crosslink">SkeletonData</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:130](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L130) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:130](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L130) |
 
 
 
@@ -208,7 +209,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:167](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L167) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:167](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L167) |
 
 
 
@@ -219,7 +220,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:177](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L177) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:177](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L177) |
 
 
 
@@ -230,7 +231,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:187](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L187) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:187](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L187) |
 
 
 
@@ -241,7 +242,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:210](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L210) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:210](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L210) |
 
 
 
@@ -252,7 +253,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:308](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L308) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:308](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L308) |
 
 
 
@@ -264,7 +265,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:319](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L319) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:319](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L319) |
 
 
 
@@ -275,7 +276,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:342](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L342) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:342](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L342) |
 
 
 
@@ -286,7 +287,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:358](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L358) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:358](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L358) |
 
 
 
@@ -297,7 +298,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:375](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L375) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:375](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L375) |
 
 
 
@@ -310,7 +311,7 @@ then you should always check for null before using this property and reimplement
 | meta | description |
 |------|-------------|
 | Type | _ccsg.Node |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCRendererUnderSG.js:41](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCRendererUnderSG.js#L41) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRendererUnderSG.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRendererUnderSG.js#L41) |
 
 
 
@@ -322,7 +323,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L61) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L61) |
 
 
 
@@ -333,7 +334,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L75) |
 
 ##### Examples
 
@@ -349,7 +350,7 @@ cc.log(comp.node);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L111) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L111) |
 
 ##### Examples
 
@@ -365,7 +366,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L159) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L159) |
 
 
 
@@ -376,7 +377,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L166) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L166) |
 
 ##### Examples
 
@@ -393,7 +394,7 @@ cc.log(comp.enabled);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L197) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L197) |
 
 ##### Examples
 
@@ -409,7 +410,7 @@ cc.log(comp.enabledInHierarchy);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L213) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L213) |
 
 ##### Examples
 
@@ -425,7 +426,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L50) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L50) |
 
 
 
@@ -436,7 +437,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L57) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L57) |
 
 
 
@@ -447,7 +448,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L208) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L208) |
 
 ##### Examples
 
@@ -463,7 +464,7 @@ obj.name = "New Obj";
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L225) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L225) |
 
 ##### Examples
 
@@ -486,7 +487,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:518](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L518) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:518](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L518) |
 
 
 ##### Example
@@ -505,7 +506,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:536](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L536) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:536](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L536) |
 
 
 
@@ -516,7 +517,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:547](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L547) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:547](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L547) |
 
 
 
@@ -527,7 +528,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:562](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L562) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:562](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L562) |
 
 
 
@@ -539,7 +540,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:577](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L577) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:577](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L577) |
 | Return 		 | sp.spine.Bone 
 
 ###### Parameters
@@ -553,7 +554,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:598](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L598) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:598](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L598) |
 | Return 		 | sp.spine.Slot 
 
 ###### Parameters
@@ -568,7 +569,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:617](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L617) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:617](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L617) |
 | Return 		 | sp.spine.Skin 
 
 ###### Parameters
@@ -582,7 +583,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:639](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L639) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:639](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L639) |
 | Return 		 | sp.spine.Attachment 
 
 ###### Parameters
@@ -597,7 +598,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:660](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L660) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:660](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L660) |
 
 ###### Parameters
 - slotName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -606,11 +607,12 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 ##### setSkeletonData
 
-设置 Skeleton 中的 Skeleton Data。
+设置底层运行时用到的 SkeletonData。<br>
+这个接口有别于 `skeletonData` 属性，这个接口传入的是 Spine runtime 提供的原始数据，而 skeletonData 的类型是 Creator 提供的资源类型。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:677](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L677) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:677](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L677) |
 
 ###### Parameters
 - skeletonData sp.spine.SkeletonData 
@@ -624,7 +626,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:704](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L704) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:708](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L708) |
 
 ###### Parameters
 - stateData sp.spine.AnimationStateData 
@@ -636,7 +638,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:718](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L718) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:722](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L722) |
 
 ###### Parameters
 - fromAnimation <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -650,7 +652,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:734](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L734) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:738](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L738) |
 
 ###### Parameters
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -664,7 +666,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:747](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L747) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:751](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L751) |
 | Return 		 | sp.spine.TrackEntry 
 
 ###### Parameters
@@ -680,7 +682,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:776](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L776) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:780](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L780) |
 | Return 		 | sp.spine.TrackEntry 
 
 ###### Parameters
@@ -696,7 +698,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:795](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L795) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:799](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L799) |
 | Return 		 | sp.spine.Animation 
 
 ###### Parameters
@@ -710,7 +712,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:809](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L809) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:813](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L813) |
 | Return 		 | sp.spine.TrackEntry 
 
 ###### Parameters
@@ -723,7 +725,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:825](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L825) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:829](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L829) |
 
 
 
@@ -733,7 +735,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:836](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L836) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:840](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L840) |
 
 ###### Parameters
 - trackIndex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -745,7 +747,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:870](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L870) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:874](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L874) |
 
 ###### Parameters
 - listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -757,7 +759,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:883](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L883) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:887](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L887) |
 
 ###### Parameters
 - listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -769,7 +771,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:896](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L896) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:900](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L900) |
 
 ###### Parameters
 - listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -781,7 +783,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:909](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L909) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:913](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L913) |
 
 ###### Parameters
 - listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -793,7 +795,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:922](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L922) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:926](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L926) |
 
 ###### Parameters
 - listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -805,7 +807,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:935](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L935) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:939](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L939) |
 
 ###### Parameters
 - listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -817,7 +819,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:948](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L948) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:952](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L952) |
 
 ###### Parameters
 - entry sp.spine.TrackEntry 
@@ -830,7 +832,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:961](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L961) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:965](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L965) |
 
 ###### Parameters
 - entry sp.spine.TrackEntry 
@@ -843,7 +845,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:974](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L974) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:978](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L978) |
 
 ###### Parameters
 - entry sp.spine.TrackEntry 
@@ -856,7 +858,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:987](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L987) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:991](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L991) |
 
 ###### Parameters
 - entry sp.spine.TrackEntry 
@@ -869,7 +871,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:1000](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L1000) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:1004](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L1004) |
 
 ###### Parameters
 - entry sp.spine.TrackEntry 
@@ -882,7 +884,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js:1013](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/Skeleton.js#L1013) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:1017](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L1017) |
 
 ###### Parameters
 - entry sp.spine.TrackEntry 
@@ -896,7 +898,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js:65](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js#L65) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L65) |
 | Return 		 | _ccsg.Node 
 
 
@@ -907,7 +909,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L75) |
 
 
 
@@ -917,7 +919,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js:81](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSGComponent.js#L81) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L81) |
 
 
 
@@ -927,7 +929,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L234) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
 
 ###### Parameters
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -939,7 +941,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L243) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L243) |
 
 
 
@@ -952,7 +954,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L251) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L251) |
 
 
 
@@ -962,7 +964,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L262) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L262) |
 
 
 
@@ -972,7 +974,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L273) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L273) |
 
 
 
@@ -982,7 +984,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L284) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L284) |
 
 
 
@@ -992,7 +994,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L292) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L292) |
 
 
 
@@ -1002,7 +1004,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L300) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L300) |
 
 
 
@@ -1012,7 +1014,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L308) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L308) |
 
 
 
@@ -1022,7 +1024,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L313) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L313) |
 
 
 
@@ -1032,7 +1034,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L318) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L318) |
 
 
 
@@ -1042,7 +1044,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L328) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
@@ -1062,7 +1064,7 @@ var test = node.addComponent("Test");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L346) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
@@ -1083,7 +1085,7 @@ var test = node.getComponent("Test");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L370) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
@@ -1102,7 +1104,7 @@ var tests = node.getComponents("Test");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L388) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
 
 ###### Parameters
@@ -1121,7 +1123,7 @@ var Test = node.getComponentInChildren("Test");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L406) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
 | Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
 
 ###### Parameters
@@ -1141,7 +1143,7 @@ var tests = node.getComponentsInChildren("Test");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L426) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
 
 ###### Parameters
 - out_rect <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -1168,7 +1170,7 @@ onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L439) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L439) |
 
 
 
@@ -1179,7 +1181,7 @@ onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L541) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -1202,7 +1204,7 @@ this.schedule(timeCallback, 1);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L570) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1223,7 +1225,7 @@ this.scheduleOnce(timeCallback, 2);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L587) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
 
 ###### Parameters
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1240,7 +1242,7 @@ this.unschedule(_callback);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCComponent.js#L603) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
 
 
 ##### Example
@@ -1257,7 +1259,7 @@ this.unscheduleAllCallbacks();
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L246) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L246) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -1290,7 +1292,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
 
 
 
@@ -1300,7 +1302,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
 
 
 
@@ -1310,7 +1312,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -1323,7 +1325,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

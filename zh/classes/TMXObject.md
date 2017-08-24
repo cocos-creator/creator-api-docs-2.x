@@ -38,7 +38,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCSGTMXObject.js:70](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCSGTMXObject.js#L70) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L70) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
@@ -49,7 +49,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCSGTMXObject.js:80](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCSGTMXObject.js#L80) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L80) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -60,7 +60,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCSGTMXObject.js:90](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCSGTMXObject.js#L90) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L90) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -71,7 +71,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCSGTMXObject.js:100](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCSGTMXObject.js#L100) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L100) |
 
 ###### Parameters
 - name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -83,7 +83,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCSGTMXObject.js:110](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/tilemap/CCSGTMXObject.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L110) |
 
 ###### Parameters
 - props <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 

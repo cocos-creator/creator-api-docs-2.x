@@ -33,7 +33,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:23](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L23) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:23](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L23) |
 
 
 
@@ -44,7 +44,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:30](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L30) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:30](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L30) |
 
 
 
@@ -55,7 +55,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:37](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L37) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L37) |
 
 
 
@@ -66,7 +66,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:44](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L44) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L44) |
 
 
 
@@ -77,7 +77,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:51](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L51) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L51) |
 
 
 
@@ -88,7 +88,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:59](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L59) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:59](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L59) |
 
 
 
@@ -99,6 +99,6 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:67](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L67) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L67) |
 
 

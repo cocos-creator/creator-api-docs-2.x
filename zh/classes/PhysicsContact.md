@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -53,7 +54,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Collider.html" class="crosslink">Collider</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:453](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L453) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L453) |
 
 
 
@@ -64,7 +65,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Collider.html" class="crosslink">Collider</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:456](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L456) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:456](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L456) |
 
 
 
@@ -76,7 +77,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:459](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L459) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:459](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L459) |
 
 
 
@@ -87,7 +88,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:468](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L468) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:468](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L468) |
 
 
 
@@ -104,7 +105,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:213](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L213) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L213) |
 | Return 		 | <a href="../classes/WorldManifold.html" class="crosslink">WorldManifold</a> 
 
 
@@ -115,7 +116,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:273](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L273) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L273) |
 | Return 		 | <a href="../classes/Manifold.html" class="crosslink">Manifold</a> 
 
 
@@ -127,7 +128,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:337](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L337) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:337](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L337) |
 | Return 		 | <a href="../classes/PhysicsImpulse.html" class="crosslink">PhysicsImpulse</a> 
 
 
@@ -138,7 +139,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:479](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L479) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:479](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L479) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -149,7 +150,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:491](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L491) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:491](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L491) |
 
 ###### Parameters
 - tangentSpeed <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -161,7 +162,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:502](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L502) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:502](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L502) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -172,7 +173,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:515](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L515) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:515](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L515) |
 
 ###### Parameters
 - friction <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -184,7 +185,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:526](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L526) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:526](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L526) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -195,7 +196,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:537](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L537) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L537) |
 
 
 
@@ -205,7 +206,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:547](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L547) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:547](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L547) |
 
 ###### Parameters
 - restitution <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -217,7 +218,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:558](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L558) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:558](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L558) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -228,7 +229,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js:569](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsContact.js#L569) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:569](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L569) |
 
 
 

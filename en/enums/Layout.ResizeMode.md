@@ -29,7 +29,7 @@ Enum for Layout Resize Mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:69](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L69) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:69](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L69) |
 
 
 
@@ -40,7 +40,7 @@ Enum for Layout Resize Mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L75) |
 
 
 
@@ -51,6 +51,6 @@ Enum for Layout Resize Mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js:81](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCLayout.js#L81) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L81) |
 
 

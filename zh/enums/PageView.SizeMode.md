@@ -28,7 +28,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCPageView.js:35](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCPageView.js#L35) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:35](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L35) |
 
 
 
@@ -39,6 +39,6 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCPageView.js:41](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCPageView.js#L41) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L41) |
 
 

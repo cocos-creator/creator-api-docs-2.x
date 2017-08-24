@@ -29,7 +29,7 @@ The item states of the LoadingItems, its value could be LoadingItems.ItemState.W
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/load-pipeline/loading-items.js:294](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/load-pipeline/loading-items.js#L294) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:272](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L272) |
 
 
 
@@ -40,7 +40,7 @@ The item states of the LoadingItems, its value could be LoadingItems.ItemState.W
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/load-pipeline/loading-items.js:298](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/load-pipeline/loading-items.js#L298) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:276](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L276) |
 
 
 
@@ -51,6 +51,6 @@ The item states of the LoadingItems, its value could be LoadingItems.ItemState.W
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/load-pipeline/loading-items.js:302](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/load-pipeline/loading-items.js#L302) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:280](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L280) |
 
 

@@ -44,7 +44,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:45](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L45) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:45](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L45) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
@@ -55,7 +55,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:57](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L57) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L57) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -66,7 +66,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:67](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L67) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L67) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -77,7 +77,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:77](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L77) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:77](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L77) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
@@ -88,7 +88,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:89](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L89) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:89](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L89) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
@@ -99,7 +99,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:101](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L101) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L101) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
@@ -110,7 +110,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:111](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L111) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L111) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
@@ -121,7 +121,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:121](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L121) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:121](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L121) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
@@ -132,7 +132,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:131](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L131) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:131](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L131) |
 | Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
@@ -143,7 +143,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:141](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L141) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:141](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L141) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -154,7 +154,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js:151](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCTouch.js#L151) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js:151](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCTouch.js#L151) |
 
 ###### Parameters
 - id <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

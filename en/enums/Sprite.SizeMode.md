@@ -29,7 +29,7 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js:88](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js#L88) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L88) |
 
 
 
@@ -40,7 +40,7 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js:94](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js#L94) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L94) |
 
 
 
@@ -51,6 +51,6 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js:100](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js#L100) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L100) |
 
 

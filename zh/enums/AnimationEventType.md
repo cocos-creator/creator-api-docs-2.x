@@ -30,7 +30,7 @@ Module: [sp](../modules/sp.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js:74](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js#L74) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js:74](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js#L74) |
 
 
 
@@ -41,7 +41,7 @@ Module: [sp](../modules/sp.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js:85](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js#L85) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js:85](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js#L85) |
 
 
 
@@ -52,7 +52,7 @@ Module: [sp](../modules/sp.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js:96](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js#L96) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js:96](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js#L96) |
 
 
 
@@ -63,6 +63,6 @@ Module: [sp](../modules/sp.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js:102](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/spine/index.js#L102) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js:102](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/index.js#L102) |
 
 

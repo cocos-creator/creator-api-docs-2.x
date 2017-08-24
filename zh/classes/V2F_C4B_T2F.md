@@ -37,7 +37,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js:579](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js#L579) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:579](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L579) |
 
 
 
@@ -54,7 +54,7 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js:556](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCTypesWebGL.js#L556) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:556](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L556) |
 
 ###### Parameters
 - vertices <a href="../classes/Vertex2F.html" class="crosslink">Vertex2F</a> 

@@ -41,7 +41,7 @@
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js:91](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js#L91) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:91](https:/github.com/cocos-creator/engine/blob/master/index.js#L91) |
 
 
 
@@ -52,7 +52,7 @@
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js:94](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js#L94) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:94](https:/github.com/cocos-creator/engine/blob/master/index.js#L94) |
 
 
 
@@ -63,7 +63,7 @@
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js:97](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js#L97) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:97](https:/github.com/cocos-creator/engine/blob/master/index.js#L97) |
 
 
 
@@ -74,7 +74,7 @@
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js:100](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js#L100) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:100](https:/github.com/cocos-creator/engine/blob/master/index.js#L100) |
 
 
 
@@ -85,7 +85,7 @@
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js:103](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js#L103) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:103](https:/github.com/cocos-creator/engine/blob/master/index.js#L103) |
 
 
 
@@ -96,7 +96,7 @@
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js:106](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js#L106) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:106](https:/github.com/cocos-creator/engine/blob/master/index.js#L106) |
 
 
 
@@ -107,7 +107,7 @@
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js:109](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/index.js#L109) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:109](https:/github.com/cocos-creator/engine/blob/master/index.js#L109) |
 
 
 

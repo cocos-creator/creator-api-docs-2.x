@@ -131,7 +131,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1149](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1149) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1149](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1149) |
 
 
 
@@ -142,7 +142,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1155](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1155) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1155) |
 
 
 
@@ -153,7 +153,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1162](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1162) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1162](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1162) |
 
 
 
@@ -164,7 +164,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1169](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1169) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1169) |
 
 
 
@@ -175,7 +175,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1176](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1176) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1176](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1176) |
 
 
 
@@ -186,7 +186,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1183](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1183) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1183) |
 
 
 
@@ -197,7 +197,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1190](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1190) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1190](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1190) |
 
 
 
@@ -208,7 +208,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1197](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1197) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1197) |
 
 
 
@@ -219,7 +219,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1204](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1204) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1204) |
 
 
 
@@ -230,7 +230,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1211](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1211) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1211](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1211) |
 
 
 
@@ -241,7 +241,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1217](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1217) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1217) |
 
 
 
@@ -252,7 +252,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1224](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1224) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1224) |
 
 
 
@@ -263,7 +263,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1230](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1230) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1230](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1230) |
 
 
 
@@ -274,7 +274,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1236](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1236) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1236](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1236) |
 
 
 
@@ -285,7 +285,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1242](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1242) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1242](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1242) |
 
 
 
@@ -296,7 +296,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1248](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1248) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1248](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1248) |
 
 
 
@@ -307,7 +307,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1254](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1254) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1254) |
 
 
 
@@ -318,7 +318,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1260](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1260) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1260](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1260) |
 
 
 
@@ -329,7 +329,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1266](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1266) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1266](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1266) |
 
 
 
@@ -340,7 +340,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1272](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1272) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1272](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1272) |
 
 
 
@@ -351,7 +351,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1278](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1278) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1278](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1278) |
 
 
 
@@ -362,7 +362,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1284](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1284) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1284) |
 
 
 
@@ -373,7 +373,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1290](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1290) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1290](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1290) |
 
 
 
@@ -384,7 +384,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1296](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1296) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1296](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1296) |
 
 
 
@@ -395,7 +395,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1302](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1302) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1302](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1302) |
 
 
 
@@ -406,7 +406,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1309](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1309) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1309](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1309) |
 
 
 
@@ -417,7 +417,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1319](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1319) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1319) |
 
 
 
@@ -428,7 +428,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1326](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1326) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1326](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1326) |
 
 
 
@@ -439,7 +439,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1333](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1333) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1333](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1333) |
 
 
 
@@ -450,7 +450,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1340](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1340) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1340](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1340) |
 
 
 
@@ -461,7 +461,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1347](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1347) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1347](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1347) |
 
 
 
@@ -472,7 +472,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1354](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1354) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1354](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1354) |
 
 
 
@@ -483,7 +483,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1361](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1361) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1361](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1361) |
 
 
 
@@ -494,7 +494,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1377](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1377) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1377](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1377) |
 
 
 
@@ -505,7 +505,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1382](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1382) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1382](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1382) |
 
 
 
@@ -516,7 +516,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1387](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1387) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1387) |
 
 
 
@@ -527,7 +527,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1392](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1392) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1392](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1392) |
 
 
 
@@ -538,7 +538,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1397](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1397) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1397](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1397) |
 
 
 
@@ -549,7 +549,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1403](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1403) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1403) |
 
 
 
@@ -560,7 +560,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1411](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1411) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1411](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1411) |
 
 
 
@@ -571,7 +571,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1416](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1416) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1416](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1416) |
 
 
 
@@ -582,7 +582,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1421](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1421) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1421](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1421) |
 
 
 
@@ -593,7 +593,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1426](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1426) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1426) |
 
 
 
@@ -604,7 +604,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1433](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1433) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1433](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1433) |
 
 
 
@@ -615,7 +615,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1438](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1438) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1438) |
 
 
 
@@ -626,7 +626,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1443](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1443) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1443](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1443) |
 
 
 
@@ -637,7 +637,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1448](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1448) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1448](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1448) |
 
 
 
@@ -648,7 +648,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1453](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1453) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1453) |
 
 
 
@@ -659,7 +659,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1458](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1458) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1458](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1458) |
 
 
 
@@ -670,7 +670,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1463](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1463) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1463](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1463) |
 
 
 
@@ -681,7 +681,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1468](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1468) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1468](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1468) |
 
 
 
@@ -692,7 +692,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1473](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1473) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1473](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1473) |
 
 
 
@@ -703,7 +703,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1480](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1480) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1480](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1480) |
 
 
 
@@ -714,7 +714,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1485](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1485) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1485](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1485) |
 
 
 
@@ -725,7 +725,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1490](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1490) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1490](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1490) |
 
 
 
@@ -736,7 +736,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1495](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1495) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1495](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1495) |
 
 
 
@@ -747,7 +747,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1500](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1500) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1500](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1500) |
 
 
 
@@ -758,7 +758,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1505](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1505) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1505](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1505) |
 
 
 
@@ -769,7 +769,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1510](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1510) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1510](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1510) |
 
 
 
@@ -780,7 +780,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1515](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1515) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1515](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1515) |
 
 
 
@@ -791,7 +791,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1520](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1520) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1520](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1520) |
 
 
 
@@ -802,7 +802,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1525](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1525) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1525](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1525) |
 
 
 
@@ -813,7 +813,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1530](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1530) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1530](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1530) |
 
 
 
@@ -824,7 +824,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1537](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1537) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1537) |
 
 
 
@@ -835,7 +835,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1542](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1542) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1542](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1542) |
 
 
 
@@ -846,7 +846,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1547](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1547) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1547](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1547) |
 
 
 
@@ -857,7 +857,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1552](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1552) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1552](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1552) |
 
 
 
@@ -868,7 +868,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1557](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1557) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1557](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1557) |
 
 
 
@@ -879,7 +879,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1562](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1562) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1562](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1562) |
 
 
 
@@ -890,7 +890,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1567](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1567) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1567](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1567) |
 
 
 
@@ -901,7 +901,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1572](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1572) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1572](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1572) |
 
 
 
@@ -912,7 +912,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1577](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1577) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1577](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1577) |
 
 
 
@@ -923,7 +923,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1584](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1584) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1584](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1584) |
 
 
 
@@ -934,7 +934,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1589](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1589) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1589](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1589) |
 
 
 
@@ -945,7 +945,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1594](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1594) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1594](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1594) |
 
 
 
@@ -956,7 +956,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1601](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1601) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1601](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1601) |
 
 
 
@@ -967,7 +967,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1608](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1608) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1608](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1608) |
 
 
 
@@ -978,7 +978,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1614](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1614) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1614](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1614) |
 
 
 
@@ -989,7 +989,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1620](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1620) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1620](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1620) |
 
 
 
@@ -1000,7 +1000,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1627](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1627) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1627](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1627) |
 
 
 
@@ -1011,7 +1011,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1634](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1634) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1634](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1634) |
 
 
 
@@ -1038,7 +1038,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1642](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1642) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1642](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1642) |
 
 
 
@@ -1050,7 +1050,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1665](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1665) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1665](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1665) |
 
 
 
@@ -1068,7 +1068,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1672](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1672) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1672](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1672) |
 
 
 
@@ -1085,7 +1085,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1685](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1685) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1685](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1685) |
 
 
 
@@ -1102,7 +1102,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1697](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1697) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1697](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1697) |
 
 
 
@@ -1115,7 +1115,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1709](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1709) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1709](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1709) |
 
 
 
@@ -1132,7 +1132,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1717](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1717) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1717](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1717) |
 
 
 
@@ -1149,7 +1149,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1729](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1729) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1729](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1729) |
 
 
 
@@ -1167,7 +1167,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1741](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1741) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1741](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1741) |
 
 
 
@@ -1189,7 +1189,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1754](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1754) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1754](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1754) |
 | Deprecated | This value will be removed in 1.1 and NPOT textures will be loaded by default if the device supports it. |
 
 
@@ -1207,7 +1207,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1773](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1773) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1773](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1773) |
 
 
 
@@ -1226,7 +1226,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1785](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1785) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1785](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1785) |
 
 
 
@@ -1242,7 +1242,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1799](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1799) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1799](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1799) |
 
 
 
@@ -1258,7 +1258,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1810](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1810) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1810](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1810) |
 
 
 
@@ -1273,7 +1273,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1821](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1821) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1821](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1821) |
 
 
 
@@ -1294,7 +1294,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1831](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1831) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1831](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1831) |
 
 
 
@@ -1311,7 +1311,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1848](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1848) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1848](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1848) |
 
 
 
@@ -1322,7 +1322,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1870](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1870) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1870](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1870) |
 
 
 
@@ -1334,7 +1334,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1879](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1879) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1879](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1879) |
 
 
 
@@ -1345,7 +1345,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1891](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1891) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1891](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1891) |
 
 
 
@@ -1356,7 +1356,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1901](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1901) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1901](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1901) |
 
 
 
@@ -1369,7 +1369,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1911](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1911) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1911](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1911) |
 
 
 
@@ -1380,6 +1380,6 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js:1927](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCMacro.js#L1927) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1927](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1927) |
 
 

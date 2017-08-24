@@ -1,7 +1,7 @@
 ## `Event` Class
 
 
-Defined in: [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:31](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L31)
+Defined in: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:31](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L31)
 
 Module: [cc](../modules/cc.md)
 
@@ -57,7 +57,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:43](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L43) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L43) |
 
 
 
@@ -68,7 +68,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:51](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L51) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L51) |
 
 
 
@@ -79,7 +79,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:59](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L59) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:59](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L59) |
 
 
 
@@ -90,7 +90,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:67](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L67) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L67) |
 
 
 
@@ -101,7 +101,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L75) |
 
 
 
@@ -112,7 +112,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:192](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L192) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:192](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L192) |
 
 
 
@@ -123,7 +123,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:201](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L201) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L201) |
 
 
 
@@ -134,7 +134,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:209](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L209) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:209](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L209) |
 
 
 
@@ -145,7 +145,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:217](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L217) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L217) |
 
 
 
@@ -156,7 +156,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:225](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L225) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L225) |
 
 
 
@@ -167,7 +167,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:235](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L235) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L235) |
 
 
 
@@ -178,7 +178,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:243](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L243) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L243) |
 
 
 
@@ -189,7 +189,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:253](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L253) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:253](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L253) |
 
 
 
@@ -200,7 +200,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:263](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L263) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:263](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L263) |
 
 
 
@@ -217,7 +217,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:37](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L37) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L37) |
 
 ###### Parameters
 - type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the event (case-sensitive), e.g. "click", "fire", or "submit"
@@ -230,7 +230,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:110](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L110) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
@@ -241,7 +241,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:125](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L125) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L125) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
@@ -252,7 +252,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:136](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L136) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:136](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L136) |
 
 
 
@@ -262,7 +262,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:145](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L145) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:145](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L145) |
 
 
 
@@ -272,7 +272,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:155](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L155) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L155) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -283,7 +283,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:165](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L165) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:165](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L165) |
 | Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
@@ -294,7 +294,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js:180](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event/event.js#L180) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:180](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L180) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 

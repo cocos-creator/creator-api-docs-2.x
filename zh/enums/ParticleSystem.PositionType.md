@@ -29,7 +29,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:64](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L64) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:64](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L64) |
 
 
 
@@ -40,7 +40,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:73](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L73) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:73](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L73) |
 
 
 
@@ -51,6 +51,6 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js:83](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/particle/CCParticleSystem.js#L83) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:83](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L83) |
 
 

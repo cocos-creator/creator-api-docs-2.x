@@ -60,7 +60,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:66](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L66) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L66) |
 
 
 
@@ -71,7 +71,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:69](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L69) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:69](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L69) |
 
 
 
@@ -82,7 +82,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:72](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L72) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:72](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L72) |
 
 
 
@@ -93,7 +93,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L75) |
 
 
 
@@ -104,7 +104,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:215](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L215) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:215](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L215) |
 
 
 
@@ -115,7 +115,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:229](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L229) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L229) |
 
 
 
@@ -126,7 +126,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:243](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L243) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L243) |
 
 
 
@@ -137,7 +137,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:254](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L254) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L254) |
 
 
 
@@ -148,7 +148,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:265](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L265) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:265](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L265) |
 
 
 
@@ -159,7 +159,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:281](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L281) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:281](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L281) |
 
 
 
@@ -170,7 +170,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:296](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L296) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:296](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L296) |
 
 
 
@@ -187,7 +187,7 @@ cc.Rect类的构造函数。可以通过 <a href="../modules/cc.html#method_rect
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:38](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L38) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:38](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L38) |
 
 ###### Parameters
 - x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -202,7 +202,7 @@ cc.Rect类的构造函数。可以通过 <a href="../modules/cc.html#method_rect
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:79](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L79) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:79](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L79) |
 | Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ###### Parameters
@@ -223,7 +223,7 @@ cc.Rect.fromMinMax(cc.v2(10, 10), cc.v2(20, 20)); // Rect {x: 10, y: 10, width: 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:99](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L99) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:99](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L99) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -247,7 +247,7 @@ cc.Rect.contain(a, c); //  0;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:138](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L138) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:138](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L138) |
 | Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 
@@ -264,7 +264,7 @@ a.clone();// Rect {x: 0, y: 0, width: 10, height: 10}
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:151](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L151) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:151](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L151) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -284,7 +284,7 @@ a.equals(b);// true;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:170](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L170) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:170](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L170) |
 | Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ###### Parameters
@@ -311,7 +311,7 @@ update (dt) {
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:201](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L201) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L201) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
@@ -328,7 +328,7 @@ a.toString();// "(0.00, 0.00, 10.00, 10.00)";
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:311](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L311) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:311](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L311) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -348,7 +348,7 @@ Returns true if the point inside this rectangle.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:326](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L326) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:326](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L326) |
 
 ###### Parameters
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -367,7 +367,7 @@ a.contains(b);// true
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js:345](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/value-types/CCRect.js#L345) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:345](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L345) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 

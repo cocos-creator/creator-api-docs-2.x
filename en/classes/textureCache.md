@@ -58,7 +58,7 @@ Description
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:58](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L58) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:58](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L58) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
@@ -69,7 +69,7 @@ Returns an already created texture. Returns null if the texture doesn't exist.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:67](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L67) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L67) |
 | Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> &#124; Null 
 
 ###### Parameters
@@ -89,7 +89,7 @@ Returns an already created texture. Returns null if the texture doesn't exist.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:80](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L80) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L80) |
 | Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> &#124; Null 
 
 ###### Parameters
@@ -109,7 +109,7 @@ var key = cc.textureCache.getTextureForKey("hello.png");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:110](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L110) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ###### Parameters
@@ -130,7 +130,7 @@ var cacheTextureForColor = cc.textureCache.getTextureColors(texture);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:131](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L131) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:131](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L131) |
 | Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D[]</a> 
 
 
@@ -145,7 +145,7 @@ In the long term: it will be the same</p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:146](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L146) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:146](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L146) |
 
 
 ##### Example
@@ -162,7 +162,7 @@ Deletes a texture from the cache given a texture.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:164](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L164) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:164](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L164) |
 
 ###### Parameters
 - texture HTMLImageElement 
@@ -181,7 +181,7 @@ Deletes a texture from the cache given a its key name.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:183](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L183) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L183) |
 
 ###### Parameters
 - textureKeyName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -204,7 +204,7 @@ Supported image extensions: .png, .jpg, .gif</p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:199](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L199) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:199](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L199) |
 | Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
 
 ###### Parameters
@@ -226,7 +226,7 @@ Cache the image data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:215](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L215) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:215](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L215) |
 
 ###### Parameters
 - path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -243,7 +243,7 @@ If "key" is null, then a new texture will be created each time.</p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js:234](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureCache.js#L234) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L234) |
 | Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
 
 ###### Parameters

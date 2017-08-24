@@ -30,7 +30,7 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsTypes.js:18](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsTypes.js#L18) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsTypes.js:18](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsTypes.js#L18) |
 
 
 
@@ -41,7 +41,7 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsTypes.js:26](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsTypes.js#L26) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsTypes.js:26](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsTypes.js#L26) |
 
 
 
@@ -52,7 +52,7 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsTypes.js:34](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsTypes.js#L34) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsTypes.js:34](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsTypes.js#L34) |
 
 
 
@@ -63,6 +63,6 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsTypes.js:42](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/physics/CCPhysicsTypes.js#L42) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsTypes.js:42](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsTypes.js#L42) |
 
 

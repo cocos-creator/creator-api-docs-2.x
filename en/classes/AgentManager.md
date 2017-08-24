@@ -60,7 +60,7 @@ to login verification
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:58](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L58) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:58](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L58) |
 
 ###### Parameters
 - appKey <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -75,7 +75,7 @@ load all plugins, the operation includes SDK`s initialization
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:76](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L76) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:76](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L76) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -88,7 +88,7 @@ unload all plugins
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:88](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L88) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:88](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L88) |
 
 
 
@@ -98,7 +98,7 @@ get user system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:98](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L98) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:98](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L98) |
 | Return 		 | anysdk.ProtocolUser 
 
 
@@ -109,7 +109,7 @@ get IAP system plugins
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:110](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:110](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L110) |
 | Return 		 | anysdk.ProtocolIAP 
 
 
@@ -120,7 +120,7 @@ get IAP system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:122](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L122) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:122](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L122) |
 | Return 		 | anysdk.ProtocolIAP 
 
 
@@ -131,7 +131,7 @@ get social system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:134](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L134) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:134](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L134) |
 | Return 		 | anysdk.ProtocolSocial 
 
 
@@ -142,7 +142,7 @@ get share system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:146](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L146) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:146](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L146) |
 | Return 		 | anysdk.ProtocolShare 
 
 
@@ -153,7 +153,7 @@ get analytics system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:158](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L158) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:158](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L158) |
 | Return 		 | anysdk.ProtocolAnalytics 
 
 
@@ -164,7 +164,7 @@ get ads system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:170](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L170) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:170](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L170) |
 | Return 		 | anysdk.ProtocolAds 
 
 
@@ -175,7 +175,7 @@ get push system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:182](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L182) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:182](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L182) |
 | Return 		 | anysdk.ProtocolPush 
 
 
@@ -186,7 +186,7 @@ get REC system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:194](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L194) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:194](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L194) |
 | Return 		 | anysdk.ProtocolREC 
 
 
@@ -197,7 +197,7 @@ get crash system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:206](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L206) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:206](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L206) |
 | Return 		 | anysdk.ProtocolCrash 
 
 
@@ -208,7 +208,7 @@ get ad track system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:218](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L218) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:218](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L218) |
 | Return 		 | anysdk.ProtocolAdTracking 
 
 
@@ -219,7 +219,7 @@ get custom system plugin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:230](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L230) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:230](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L230) |
 | Return 		 | anysdk.ProtocolCustom 
 
 
@@ -230,7 +230,7 @@ get custom parameter
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:242](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L242) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:242](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L242) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
@@ -241,7 +241,7 @@ get channel id
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:254](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L254) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:254](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L254) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
@@ -252,7 +252,7 @@ get status of analytics
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:266](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L266) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:266](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L266) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 
@@ -263,7 +263,7 @@ set whether to analytics
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:278](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L278) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:278](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L278) |
 
 ###### Parameters
 - enabled <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
@@ -275,7 +275,7 @@ destory instance
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:289](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L289) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:289](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L289) |
 
 
 
@@ -285,7 +285,7 @@ get instance
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js:300](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/extensions/anysdk/jsb_anysdk.js#L300) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:300](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L300) |
 | Return 		 | anysdk.AgentManager 
 
 

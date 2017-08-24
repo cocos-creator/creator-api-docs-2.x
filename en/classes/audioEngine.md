@@ -55,7 +55,7 @@ Play audio.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:92](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L92) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:92](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L92) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -76,7 +76,7 @@ Set audio loop.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:126](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L126) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:126](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L126) |
 
 ###### Parameters
 - audioID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -95,7 +95,7 @@ Get audio cycle state.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:143](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L143) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:143](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L143) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -114,7 +114,7 @@ Set the volume of audio.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:160](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L160) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:160](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L160) |
 
 ###### Parameters
 - audioID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -133,7 +133,7 @@ The volume of the music max value is 1.0,the min value is 0.0 .
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:183](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L183) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L183) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -152,7 +152,7 @@ Set current time
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:200](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L200) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:200](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L200) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -172,7 +172,7 @@ Get current time
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:226](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L226) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:226](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L226) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -191,7 +191,7 @@ Get audio duration
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:243](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L243) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L243) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ###### Parameters
@@ -210,7 +210,7 @@ Get audio state
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:260](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L260) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:260](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L260) |
 | Return 		 | <a href="../enums/audioEngine.AudioState.html" class="crosslink">audioEngine.AudioState</a> 
 
 ###### Parameters
@@ -229,7 +229,7 @@ Set Audio finish callback
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:277](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L277) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:277](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L277) |
 
 ###### Parameters
 - audioID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -248,7 +248,7 @@ Pause playing audio.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:296](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L296) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:296](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L296) |
 
 ###### Parameters
 - audioID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The return value of function play.
@@ -266,7 +266,7 @@ Pause all playing audio
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:314](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L314) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:314](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L314) |
 
 
 ##### Example
@@ -282,7 +282,7 @@ Resume playing audio.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:333](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L333) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:333](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L333) |
 
 ###### Parameters
 - audioID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The return value of function play.
@@ -296,7 +296,7 @@ Resume all playing audio.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:352](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L352) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:352](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L352) |
 
 
 ##### Example
@@ -312,7 +312,7 @@ Stop playing audio.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:369](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L369) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:369](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L369) |
 
 ###### Parameters
 - audioID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The return value of function play.
@@ -330,7 +330,7 @@ Stop all playing audio.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:387](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L387) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L387) |
 
 
 ##### Example
@@ -346,7 +346,7 @@ Set up an audio can generate a few examples.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:405](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L405) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:405](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L405) |
 
 ###### Parameters
 - num <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> a number of instances to be created from within an audio
@@ -364,7 +364,7 @@ Getting audio can produce several examples.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:418](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L418) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:418](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L418) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -381,7 +381,7 @@ Unload the preloaded audio from internal buffer.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:431](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L431) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:431](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L431) |
 
 ###### Parameters
 - filePath <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -399,7 +399,7 @@ Unload all audio from internal buffer.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:453](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L453) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L453) |
 
 
 ##### Example
@@ -415,7 +415,7 @@ Preload audio file.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:475](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L475) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:475](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L475) |
 
 ###### Parameters
 - filePath Unknown The file path of an audio.
@@ -434,7 +434,7 @@ Set a size, the unit is KB，Over this size is directly resolved into DOM nodes
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js:493](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudioEngine.js#L493) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:493](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L493) |
 
 ###### Parameters
 - kb Unknown The file path of an audio.

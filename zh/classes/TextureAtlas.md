@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -93,7 +94,7 @@ n + start can't be greater than the capacity of the atlas</p>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:698](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L698) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:698](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L698) |
 
 
 
@@ -104,7 +105,7 @@ n + start can't be greater than the capacity of the atlas</p>
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:704](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L704) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:704](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L704) |
 
 
 
@@ -115,7 +116,7 @@ n + start can't be greater than the capacity of the atlas</p>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:710](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L710) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:710](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L710) |
 
 
 
@@ -126,7 +127,7 @@ n + start can't be greater than the capacity of the atlas</p>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:717](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L717) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:717](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L717) |
 
 
 
@@ -137,7 +138,7 @@ n + start can't be greater than the capacity of the atlas</p>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:724](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L724) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:724](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L724) |
 
 
 
@@ -156,7 +157,7 @@ Constructor of cc.TextureAtlas
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:47](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L47) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L47) |
 
 ###### Parameters
 - fileName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
@@ -181,7 +182,7 @@ Quantity of quads that are going to be drawn.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:77](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L77) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:77](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L77) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -192,7 +193,7 @@ Quantity of quads that can be stored with the current texture atlas size.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:87](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L87) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:87](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L87) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -203,7 +204,7 @@ Texture of the texture atlas.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:96](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L96) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:96](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L96) |
 | Return 		 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
 
 
@@ -214,7 +215,7 @@ Set texture for texture atlas.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:105](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L105) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:105](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L105) |
 
 ###### Parameters
 - texture <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
@@ -226,7 +227,7 @@ specify if the array buffer of the VBO needs to be updated.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:114](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L114) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:114](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L114) |
 
 ###### Parameters
 - dirty <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -238,7 +239,7 @@ whether or not the array buffer of the VBO needs to be updated.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:123](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L123) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L123) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -249,7 +250,7 @@ Quads that are going to be rendered.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:132](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L132) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:132](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L132) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
@@ -260,7 +261,7 @@ Quads that are going to be rendered.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:141](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L141) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:141](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L141) |
 
 ###### Parameters
 - quads <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -274,7 +275,7 @@ WARNING: Do not reinitialize the TextureAtlas because it will leak memory. </p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:203](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L203) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:203](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L203) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -299,7 +300,7 @@ WARNING: Do not reinitialize the TextureAtlas because it will leak memory</p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:224](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L224) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L224) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -323,7 +324,7 @@ index must be between 0 and the atlas capacity - 1 </p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:265](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L265) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:265](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L265) |
 
 ###### Parameters
 - quad <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
@@ -337,7 +338,7 @@ index must be between 0 and the atlas capacity - 1 </p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:281](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L281) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:281](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L281) |
 
 ###### Parameters
 - quad <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
@@ -354,7 +355,7 @@ index must be between 0 and the atlas capacity - 1 </p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:308](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L308) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:308](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L308) |
 
 ###### Parameters
 - quads <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -369,7 +370,7 @@ This operation is faster than removing and inserting in a quad in 2 different st
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:348](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L348) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:348](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L348) |
 
 ###### Parameters
 - fromIndex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -383,7 +384,7 @@ The capacity remains the same, but the total number of quads to be drawn is redu
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:381](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L381) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:381](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L381) |
 
 ###### Parameters
 - index <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -395,7 +396,7 @@ Removes a given number of quads at a given index.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:402](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L402) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:402](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L402) |
 
 ###### Parameters
 - index <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -410,7 +411,7 @@ The total number of quads to be drawn will be 0</p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:424](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L424) |
 
 
 
@@ -424,7 +425,7 @@ no used for js</p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:439](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L439) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:439](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L439) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -438,7 +439,7 @@ don't use this unless you know what you're doing.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:513](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L513) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:513](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L513) |
 
 ###### Parameters
 - amount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -450,7 +451,7 @@ Moves an amount of quads from oldIndex at newIndex.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:523](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L523) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:523](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L523) |
 
 ###### Parameters
 - oldIndex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -465,7 +466,7 @@ Used internally by CCParticleBatchNode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:567](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L567) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:567](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L567) |
 
 ###### Parameters
 - index <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -479,7 +480,7 @@ n + start can't be greater than the capacity of the atlas</p>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js:591](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/textures/CCTextureAtlas.js#L591) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js:591](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureAtlas.js#L591) |
 
 ###### Parameters
 - n <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

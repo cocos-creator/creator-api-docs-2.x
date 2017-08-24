@@ -29,7 +29,7 @@ SystemEvent 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js:39](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js#L39) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:39](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L39) |
 
 
 
@@ -40,7 +40,7 @@ SystemEvent 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js:47](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js#L47) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L47) |
 
 
 
@@ -51,6 +51,6 @@ SystemEvent 支持的事件类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js:55](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/event-manager/CCSystemEvent.js#L55) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L55) |
 
 

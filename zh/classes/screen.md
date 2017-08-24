@@ -40,7 +40,7 @@ initialize
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCScreen.js:80](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCScreen.js#L80) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L80) |
 
 
 
@@ -50,7 +50,7 @@ return true if it's full now.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCScreen.js:101](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCScreen.js#L101) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L101) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -61,7 +61,7 @@ change the screen to full mode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCScreen.js:114](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCScreen.js#L114) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:114](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L114) |
 
 ###### Parameters
 - element Element 
@@ -74,7 +74,7 @@ exit the full mode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCScreen.js:139](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCScreen.js#L139) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:139](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L139) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -85,7 +85,7 @@ Automatically request full screen with a touch/click event
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCScreen.js:148](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/CCScreen.js#L148) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:148](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L148) |
 
 ###### Parameters
 - element Element 

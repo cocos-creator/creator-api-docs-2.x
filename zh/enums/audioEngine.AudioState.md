@@ -30,7 +30,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudio.js:70](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudio.js#L70) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L70) |
 
 
 
@@ -41,7 +41,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudio.js:74](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudio.js#L74) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:74](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L74) |
 
 
 
@@ -52,7 +52,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudio.js:78](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudio.js#L78) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:78](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L78) |
 
 
 
@@ -63,6 +63,6 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudio.js:82](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/audio/CCAudio.js#L82) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L82) |
 
 

@@ -43,7 +43,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:12](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L12) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:12](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L12) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -59,7 +59,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:43](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L43) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L43) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -74,7 +74,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:75](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L75) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L75) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -89,7 +89,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:100](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L100) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L100) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -103,7 +103,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:130](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L130) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L130) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -117,7 +117,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:182](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L182) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:182](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L182) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -131,7 +131,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:221](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L221) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:221](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L221) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -145,7 +145,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:238](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L238) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:238](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L238) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -159,7 +159,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:267](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L267) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:267](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L267) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters
@@ -173,7 +173,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js:297](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/collider/CCIntersection.js#L297) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:297](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L297) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 ###### Parameters

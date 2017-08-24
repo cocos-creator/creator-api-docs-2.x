@@ -1,54 +1,34 @@
-## `Pool` Class
+## `pool` Class
 
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [js](../modules/js.md)
 
 
+Deprecated: !#en Please use cc.NodePool instead !#zh 请使用 cc.NodePool 代替
 
 
-A fixed-length object pool designed for general type.<br>
-The implementation of this object pool is very simple,
-it can helps you to improve your game performance for objects which need frequent release and recreate operations<br/>
+Attention: In creator, it's strongly not recommended to use cc.pool to manager cc.Node.
+ We provided <a href="../classes/NodePool.html" class="crosslink">cc.NodePool</a> instead.
+
+ cc.pool is a singleton object serves as an object cache pool.<br/>
+ It can helps you to improve your game performance for objects which need frequent release and recreate operations<br/>
 
 ### Index
-
-##### Properties
-
-  - [`count`](#count) `Number` The current number of available objects, the default is 0, it will gradually increase with the recycle of the object,
-the maximum will not exceed the size specified when the constructor is called.
 
 
 
 ##### Methods
 
-  - [`constructor`](#constructor) Constructor for creating an object pool for the specific object type.
-You can pass a callback argument for process the cleanup logic when the object is recycled.
-  - [`get`](#get) Get and initialize an object from pool. This method defaults to null and requires the user to implement it.
-  - [`_get`](#get) Get an object from pool, if no available object in the pool, null will be returned.
-  - [`put`](#put) Put an object into the pool.
-  - [`resize`](#resize) Resize the pool.
+  - [`putInPool`](#putinpool) Put the obj in pool.
+  - [`hasObject`](#hasobject) Check if this kind of obj has already in pool.
+  - [`removeObject`](#removeobject) Remove the obj if you want to delete it.
+  - [`getFromPool`](#getfrompool) Get the obj from pool.
+  - [`drainAllPools`](#drainallpools) Remove all objs in pool and reset the pool.
 
 
 
 ### Details
-
-
-#### Properties
-
-
-##### count
-
-> The current number of available objects, the default is 0, it will gradually increase with the recycle of the object,
-the maximum will not exceed the size specified when the constructor is called.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js:877](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js#L877) |
-
-
 
 
 
@@ -57,28 +37,74 @@ the maximum will not exceed the size specified when the constructor is called.
 #### Methods
 
 
-##### constructor
+##### putInPool
 
-Constructor for creating an object pool for the specific object type.
-You can pass a callback argument for process the cleanup logic when the object is recycled.
+Put the obj in pool.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js:842](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js#L842) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:60](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L60) |
 
 ###### Parameters
-- cleanupFunc <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> the callback method used to process the cleanup logic when the object is recycled.
-	- obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-- size <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> initializes the length of the array
+- obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The need put in pool object.
 
+##### Example
 
-##### get
+```js
+---------------------------------
+var sp = new _ccsg.Sprite("a.png");
+this.addChild(sp);
+cc.pool.putInPool(sp);
+cc.pool.getFromPool(_ccsg.Sprite, "a.png");
 
-Get and initialize an object from pool. This method defaults to null and requires the user to implement it.
+```
+
+##### hasObject
+
+Check if this kind of obj has already in pool.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js:867](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js#L867) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:82](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L82) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+###### Parameters
+- objClass <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The check object class.
+
+
+##### removeObject
+
+Remove the obj if you want to delete it.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:98](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L98) |
+
+
+
+##### getFromPool
+
+Get the obj from pool.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:119](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L119) |
+| Return 		 | Any 
+
+
+
+##### drainAllPools
+
+Remove all objs in pool and reset the pool.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:143](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L143) |
+
+
+
+
+core/platform/js.js#L886) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ###### Parameters
@@ -91,7 +117,7 @@ Get an object from pool, if no available object in the pool, null will be return
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js:887](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js#L887) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:906](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L906) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; Null 
 
 
@@ -102,7 +128,7 @@ Put an object into the pool.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js:905](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js#L905) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:924](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L924) |
 
 
 
@@ -112,7 +138,7 @@ Resize the pool.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js:921](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/platform/js.js#L921) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:940](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L940) |
 
 
 

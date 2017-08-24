@@ -30,7 +30,7 @@ Sprite 类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js:36](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js#L36) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L36) |
 
 
 
@@ -41,7 +41,7 @@ Sprite 类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js:41](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js#L41) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L41) |
 
 
 
@@ -52,7 +52,7 @@ Sprite 类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js:46](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js#L46) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:46](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L46) |
 
 
 
@@ -63,6 +63,6 @@ Sprite 类型
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js:51](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/core/components/CCSprite.js#L51) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L51) |
 
 

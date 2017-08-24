@@ -48,7 +48,7 @@ The abstract interface for all playing animation.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:18](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L18) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:18](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L18) |
 
 
 
@@ -59,7 +59,7 @@ The abstract interface for all playing animation.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:30](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L30) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:30](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L30) |
 
 
 
@@ -76,7 +76,7 @@ The abstract interface for all playing animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js:114](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/types.js#L114) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:114](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L114) |
 
 ###### Parameters
 - deltaTime <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -88,7 +88,7 @@ The abstract interface for all playing animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:45](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L45) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:45](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L45) |
 
 
 
@@ -98,7 +98,7 @@ The abstract interface for all playing animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:50](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L50) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L50) |
 
 
 
@@ -108,7 +108,7 @@ The abstract interface for all playing animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:55](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L55) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L55) |
 
 
 
@@ -118,7 +118,7 @@ The abstract interface for all playing animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:60](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L60) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L60) |
 
 
 
@@ -128,7 +128,7 @@ The abstract interface for all playing animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:65](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L65) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L65) |
 
 ###### Parameters
 - errorCode <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -140,7 +140,7 @@ Play this animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:74](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L74) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:74](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L74) |
 
 
 
@@ -150,7 +150,7 @@ Stop this animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:95](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L95) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L95) |
 
 
 
@@ -160,7 +160,7 @@ Pause this animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:110](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L110) |
 
 
 
@@ -170,7 +170,7 @@ Resume this animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:122](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L122) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:122](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L122) |
 
 
 
@@ -180,7 +180,7 @@ Perform a single frame step.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js:134](https:/github.com/cocos-creator/engine/blob/master/utils/api/engine/cocos2d/animation/playable.js#L134) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L134) |
 
 
 
