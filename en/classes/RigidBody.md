@@ -85,7 +85,22 @@ You can get the impulses from the contact in this callback.
   - [`getLinearVelocityFromWorldPoint`](#getlinearvelocityfromworldpoint) Get the world linear velocity of a world point attached to this body.
   - [`getMass`](#getmass) Get total mass of the body.
   - [`getInertia`](#getinertia) Get the rotational inertia of the body about the local origin.
-  - [`getInertia`](#getinertia) Get all the joints connect to the rigidbody.
+  - [`getJointList`](#getjointlist) Get all the joints connect to the rigidbody.
+  - [`applyForce`](#applyforce) Apply a force at a world point. If the force is not
+applied at the center of mass, it will generate a torque and
+affect the angular velocity.
+  - [`applyForceToCenter`](#applyforcetocenter) Apply a force to the center of mass.
+  - [`applyTorque`](#applytorque) Apply a torque. This affects the angular velocity.
+  - [`applyLinearImpulse`](#applylinearimpulse) Apply a impulse at a world point, This immediately modifies the velocity.
+If the impulse is not applied at the center of mass, it will generate a torque and
+affect the angular velocity.
+  - [`applyAngularImpulse`](#applyangularimpulse) Apply an angular impulse.
+  - [`syncPosition`](#syncposition) Synchronize node's world position to box2d rigidbody's position.
+If enableAnimated is true and rigidbody's type is Animated type,
+will set linear velocity instead of directly set rigidbody's position.
+  - [`syncRotation`](#syncrotation) Synchronize node's world angle to box2d rigidbody's angle.
+If enableAnimated is true and rigidbody's type is Animated type,
+will set angular velocity instead of directly set rigidbody's angle.
   - [`update`](#update) Update is called every frame, if the Component is enabled.
   - [`lateUpdate`](#lateupdate) LateUpdate is called every frame, if the Component is enabled.
   - [`__preload`](#preload) `__preload` is called before every onLoad.
@@ -689,7 +704,7 @@ Get the rotational inertia of the body about the local origin.
 
 
 
-##### getInertia
+##### getJointList
 
 Get all the joints connect to the rigidbody.
 
@@ -698,6 +713,105 @@ Get all the joints connect to the rigidbody.
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:619](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L619) |
 | Return 		 | <a href="../classes/Joint.html" class="crosslink">[Joint]</a> 
 
+
+
+##### applyForce
+
+Apply a force at a world point. If the force is not
+applied at the center of mass, it will generate a torque and
+affect the angular velocity.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:663](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L663) |
+
+###### Parameters
+- force <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world force vector.
+- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world position.
+- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body.
+
+
+##### applyForceToCenter
+
+Apply a force to the center of mass.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:683](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L683) |
+
+###### Parameters
+- force <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world force vector.
+- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body.
+
+
+##### applyTorque
+
+Apply a torque. This affects the angular velocity.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:699](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L699) |
+
+###### Parameters
+- torque <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> about the z-axis (out of the screen), usually in N-m.
+- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body
+
+
+##### applyLinearImpulse
+
+Apply a impulse at a world point, This immediately modifies the velocity.
+If the impulse is not applied at the center of mass, it will generate a torque and
+affect the angular velocity.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:714](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L714) |
+
+###### Parameters
+- impulse <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world impulse vector, usually in N-seconds or kg-m/s.
+- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world position
+- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> alse wake up the body
+
+
+##### applyAngularImpulse
+
+Apply an angular impulse.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:735](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L735) |
+
+###### Parameters
+- impulse <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the angular impulse in units of kg*m*m/s
+- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body
+
+
+##### syncPosition
+
+Synchronize node's world position to box2d rigidbody's position.
+If enableAnimated is true and rigidbody's type is Animated type,
+will set linear velocity instead of directly set rigidbody's position.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:750](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L750) |
+
+###### Parameters
+- enableAnimated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+
+##### syncRotation
+
+Synchronize node's world angle to box2d rigidbody's angle.
+If enableAnimated is true and rigidbody's type is Animated type,
+will set angular velocity instead of directly set rigidbody's angle.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L795) |
+
+###### Parameters
+- enableAnimated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### update
@@ -1078,7 +1192,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -1088,7 +1202,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -1098,7 +1212,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -1111,7 +1225,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

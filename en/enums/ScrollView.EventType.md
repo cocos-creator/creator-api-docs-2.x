@@ -22,9 +22,10 @@ Enum for ScrollView event type.
   - `BOUNCE_BOTTOM`
   - `BOUNCE_LEFT`
   - `BOUNCE_RIGHT`
-  - `AUTOSCROLL_ENDED`
+  - `SCROLL_ENDED`
   - `TOUCH_UP`
   - `AUTOSCROLL_ENDED_WITH_THRESHOLD`
+  - `SCROLL_BEGAN`
 
 ### Details
 
@@ -130,9 +131,9 @@ Enum for ScrollView event type.
 
 
 
-##### AUTOSCROLL_ENDED
+##### SCROLL_ENDED
 
-> The event emmitted when ScrollView scroll ended
+> The event emmitted when ScrollView auto scroll ended
 
 | meta | description |
 |------|-------------|
@@ -154,11 +155,22 @@ Enum for ScrollView event type.
 
 ##### AUTOSCROLL_ENDED_WITH_THRESHOLD
 
-> The event emmitted when ScrollView scroll ended with a threshold
+> The event emmitted when ScrollView auto scroll ended with a threshold
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L117) |
+
+
+
+##### SCROLL_BEGAN
+
+> The event emmitted when ScrollView scroll began
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L123) |
 
 

@@ -434,7 +434,7 @@ Parameter playTimes specify the repeat times of the animation.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:447](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L447) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:455](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L455) |
 | Return 		 | dragonBones.AnimationState 
 
 ###### Parameters
@@ -448,7 +448,7 @@ Get the all armature names in the DragonBones Data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:477](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L477) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:485](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L485) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
@@ -459,7 +459,7 @@ Get the all animation names of specified armature.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:493](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L493) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:501](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L501) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ###### Parameters
@@ -472,7 +472,7 @@ Add event listener for the DragonBones Event.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:518](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L518) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:526](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L526) |
 
 ###### Parameters
 - eventType dragonBones.EventObject 
@@ -486,7 +486,7 @@ Remove the event listener for the DragonBones Event.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:534](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L534) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:542](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L542) |
 
 ###### Parameters
 - eventType dragonBones.EventObject 
@@ -500,7 +500,7 @@ Build the armature for specified name.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:550](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L550) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:558](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L558) |
 | Return 		 | dragonBones.Armature 
 
 ###### Parameters
@@ -513,7 +513,7 @@ Get the current armature object of the ArmatureDisplay.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:567](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L567) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:575](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L575) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -928,7 +928,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -938,7 +938,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -948,7 +948,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -961,7 +961,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

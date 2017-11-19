@@ -21,6 +21,8 @@ The RichText Component.
   - [`maxWidth`](#maxwidth) `Number` The maximize width of the RichText
   - [`lineHeight`](#lineheight) `Number` Line Height of RichText.
   - [`imageAtlas`](#imageatlas) `SpriteAtlas` The image atlas for the img tag. For each src value in the img tag, there should be a valid spriteFrame in the image atlas.
+  - [`handleTouchEvent`](#handletouchevent) `Boolean` Once checked, the RichText will block all input events (mouse and touch) within
+the bounding box of the node, preventing the input from penetrating into the underlying node.
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
   - [`node`](#node) `Node` The node this component is attached to. A component is always attached to a node.
@@ -130,7 +132,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:86](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L86) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:87](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L87) |
 
 
 
@@ -141,7 +143,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/TextAlignment.html" class="crosslink">TextAlignment</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L100) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L101) |
 
 
 
@@ -152,7 +154,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L118) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:119](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L119) |
 
 
 
@@ -163,7 +165,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | cc.TTFFont |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L134) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:135](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L135) |
 
 
 
@@ -174,7 +176,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:154](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L154) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L155) |
 
 
 
@@ -185,7 +187,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:170](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L170) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L171) |
 
 
 
@@ -196,7 +198,19 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SpriteAtlas.html" class="crosslink">SpriteAtlas</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:186](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L186) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:187](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L187) |
+
+
+
+##### handleTouchEvent
+
+> Once checked, the RichText will block all input events (mouse and touch) within
+the bounding box of the node, preventing the input from penetrating into the underlying node.
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js:204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRichText.js#L204) |
 
 
 
@@ -743,7 +757,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -753,7 +767,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -763,7 +777,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -776,7 +790,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

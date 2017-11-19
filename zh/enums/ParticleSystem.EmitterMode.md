@@ -28,7 +28,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L44) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L41) |
 
 
 
@@ -39,6 +39,6 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L50) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L47) |
 
 

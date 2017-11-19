@@ -295,16 +295,10 @@ window.apimeta = {
       "description": "精灵尺寸调整模式"
     },
     {
-      "name": "Sprite.SpriteType",
-      "namespace": "cc.Sprite.SpriteType",
+      "name": "Sprite.Type",
+      "namespace": "cc.Sprite.Type",
       "module": "cc",
       "description": "Sprite 类型"
-    },
-    {
-      "name": "SystemEvent.EventType",
-      "namespace": "cc.SystemEvent.EventType",
-      "module": "cc",
-      "description": "SystemEvent 支持的事件类型"
     },
     {
       "name": "TaskType",
@@ -317,6 +311,18 @@ window.apimeta = {
       "namespace": "cc.TextAlignment",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "Texture2D.Filter",
+      "namespace": "cc.Texture2D.Filter",
+      "module": "cc",
+      "description": "The texture filter mode"
+    },
+    {
+      "name": "Texture2D.PixelFormat",
+      "namespace": "cc.Texture2D.PixelFormat",
+      "module": "cc",
+      "description": "The texture pixel format, default value is RGBA8888"
     },
     {
       "name": "Texture2D.WrapMode",
@@ -439,18 +445,6 @@ window.apimeta = {
       "namespace": "cc.AnimationClip",
       "module": "cc",
       "description": "动画剪辑，用于存储动画数据。"
-    },
-    {
-      "name": "AnimationNode",
-      "namespace": "cc.AnimationNode",
-      "module": "cc",
-      "description": "动画曲线的集合，根据当前时间计算出每条曲线的状态。"
-    },
-    {
-      "name": "AnimationNodeBase",
-      "namespace": "cc.AnimationNodeBase",
-      "module": "cc",
-      "description": "所有播放动画的抽象接口。"
     },
     {
       "name": "AnimationState",
@@ -774,7 +768,7 @@ window.apimeta = {
       "name": "Layout",
       "namespace": "cc.Layout",
       "module": "cc",
-      "description": "Layout 组件相当于一个容器，能自动对它的所有子节点进行统一排版。"
+      "description": "Layout 组件相当于一个容器，能自动对它的所有子节点进行统一排版。<br>\n注意：<br>\n1.不会考虑子节点的缩放和旋转。<br>\n2.对 Layout 设置后结果需要到下一帧才会更新，除非你设置完以后手动调用 <a href=\"../classes/Layout.html#method_updateLayout\" class=\"crosslink\">updateLayout</a>。"
     },
     {
       "name": "LoadingItems",
@@ -1197,6 +1191,12 @@ window.apimeta = {
       "description": "系统事件，它目前支持按键事件和重力感应事件"
     },
     {
+      "name": "SystemEvent.EventType",
+      "namespace": "cc.SystemEvent.EventType",
+      "module": "cc",
+      "description": "SystemEvent 支持的事件类型"
+    },
+    {
       "name": "TMXObject",
       "namespace": "cc.TMXObject",
       "module": "cc",
@@ -1225,12 +1225,6 @@ window.apimeta = {
       "namespace": "cc.Texture2D",
       "module": "cc",
       "description": "<p>\nThis class allows to easily create OpenGL or Canvas 2D textures from images, text or raw data.                                    <br/>\nThe created cc.Texture2D object will always have power-of-two dimensions.                                                <br/>\nDepending on how you create the cc.Texture2D object, the actual image area of the texture might be smaller than the texture dimensions <br/>\n i.e. \"contentSize\" != (pixelsWide, pixelsHigh) and (maxS, maxT) != (1.0, 1.0).                                           <br/>\nBe aware that the content of the generated textures will be upside-down! </p>"
-    },
-    {
-      "name": "TextureAtlas",
-      "namespace": "cc.TextureAtlas",
-      "module": "cc",
-      "description": "<p>A class that implements a Texture Atlas. <br />\nSupported features: <br />\nThe atlas file can be a PNG, JPG. <br />\nQuads can be updated in runtime <br />\nQuads can be added in runtime <br />\nQuads can be removed in runtime <br />\nQuads can be re-ordered in runtime <br />\nThe TextureAtlas capacity can be increased or decreased in runtime.</p>"
     },
     {
       "name": "TiledLayer",
@@ -1399,12 +1393,6 @@ window.apimeta = {
       "namespace": "cc.eventManager",
       "module": "cc",
       "description": "事件管理器，它主要管理事件监听器注册和派发系统事件。\n原始设计中，它支持鼠标，触摸，键盘，陀螺仪和自定义事件。\n在 Creator 的设计中，鼠标，触摸和自定义事件的监听和派发请参考 http://cocos.com/docs/creator/scripting/events.html。"
-    },
-    {
-      "name": "inputManager",
-      "namespace": "cc.inputManager",
-      "module": "cc",
-      "description": "<p>\n This class manages all events of input. include: touch, mouse, accelerometer, keyboard                                       <br/>\n</p>"
     },
     {
       "name": "loader",

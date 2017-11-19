@@ -4,7 +4,6 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -77,7 +76,17 @@ all event callbacks will be removed in _onPreDestroy
   - [`getLinearVelocityFromWorldPoint`](#getlinearvelocityfromworldpoint) 获取刚体上指定点的线性速度
   - [`getMass`](#getmass) 获取刚体的质量。
   - [`getInertia`](#getinertia) 获取刚体本地坐标系下原点的旋转惯性
-  - [`getInertia`](#getinertia) 获取链接到此刚体的所有关节
+  - [`getJointList`](#getjointlist) 获取链接到此刚体的所有关节
+  - [`applyForce`](#applyforce) 施加一个力到刚体上的一个点。如果力没有施加到刚体的质心上，还会产生一个扭矩并且影响到角速度。
+  - [`applyForceToCenter`](#applyforcetocenter) 施加一个力到刚体上的质心上。
+  - [`applyTorque`](#applytorque) 施加一个扭矩力，将影响刚体的角速度
+  - [`applyLinearImpulse`](#applylinearimpulse) 施加冲量到刚体上的一个点，将立即改变刚体的线性速度。
+如果冲量施加到的点不是刚体的质心，那么将产生一个扭矩并影响刚体的角速度。
+  - [`applyAngularImpulse`](#applyangularimpulse) 施加一个角速度冲量。
+  - [`syncPosition`](#syncposition) 同步节点的世界坐标到 box2d 刚体的坐标上。
+如果 enableAnimated 是 true，并且刚体的类型是 Animated ，那么将设置刚体的线性速度来代替直接设置刚体的位置。
+  - [`syncRotation`](#syncrotation) 同步节点的世界旋转角度值到 box2d 刚体的旋转值上。
+如果 enableAnimated 是 true，并且刚体的类型是 Animated ，那么将设置刚体的角速度来代替直接设置刚体的角度。
   - [`update`](#update) 如果该组件启用，则每帧调用 update。
   - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad.
@@ -663,7 +672,7 @@ cc.log(obj.isValid);
 
 
 
-##### getInertia
+##### getJointList
 
 获取链接到此刚体的所有关节
 
@@ -672,6 +681,100 @@ cc.log(obj.isValid);
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:619](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L619) |
 | Return 		 | <a href="../classes/Joint.html" class="crosslink">[Joint]</a> 
 
+
+
+##### applyForce
+
+施加一个力到刚体上的一个点。如果力没有施加到刚体的质心上，还会产生一个扭矩并且影响到角速度。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:663](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L663) |
+
+###### Parameters
+- force <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world force vector.
+- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world position.
+- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body.
+
+
+##### applyForceToCenter
+
+施加一个力到刚体上的质心上。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:683](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L683) |
+
+###### Parameters
+- force <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world force vector.
+- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body.
+
+
+##### applyTorque
+
+施加一个扭矩力，将影响刚体的角速度
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:699](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L699) |
+
+###### Parameters
+- torque <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> about the z-axis (out of the screen), usually in N-m.
+- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body
+
+
+##### applyLinearImpulse
+
+施加冲量到刚体上的一个点，将立即改变刚体的线性速度。
+如果冲量施加到的点不是刚体的质心，那么将产生一个扭矩并影响刚体的角速度。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:714](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L714) |
+
+###### Parameters
+- impulse <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world impulse vector, usually in N-seconds or kg-m/s.
+- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world position
+- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> alse wake up the body
+
+
+##### applyAngularImpulse
+
+施加一个角速度冲量。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:735](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L735) |
+
+###### Parameters
+- impulse <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the angular impulse in units of kg*m*m/s
+- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body
+
+
+##### syncPosition
+
+同步节点的世界坐标到 box2d 刚体的坐标上。
+如果 enableAnimated 是 true，并且刚体的类型是 Animated ，那么将设置刚体的线性速度来代替直接设置刚体的位置。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:750](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L750) |
+
+###### Parameters
+- enableAnimated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+
+##### syncRotation
+
+同步节点的世界旋转角度值到 box2d 刚体的旋转值上。
+如果 enableAnimated 是 true，并且刚体的类型是 Animated ，那么将设置刚体的角速度来代替直接设置刚体的角度。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L795) |
+
+###### Parameters
+- enableAnimated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### update
@@ -1043,7 +1146,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -1053,7 +1156,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -1063,7 +1166,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -1076,7 +1179,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

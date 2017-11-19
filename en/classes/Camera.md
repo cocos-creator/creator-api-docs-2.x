@@ -41,6 +41,9 @@ all event callbacks will be removed in _onPreDestroy
   - [`addTarget`](#addtarget) Add the specified target to camera.
   - [`removeTarget`](#removetarget) Remove the specified target from camera.
   - [`getTargets`](#gettargets) Get all camera targets.
+  - [`getNodeToCameraTransform`](#getnodetocameratransform) Returns the matrix that transform the node's (local) space coordinates into the camera's space coordinates.
+  - [`getCameraToWorldPoint`](#getcameratoworldpoint) Conver a camera coordinates point to world coordinates.
+  - [`containsNode`](#containsnode) Check whether the node is in the camera.
   - [`_createSgNode`](#createsgnode) Create and returns your new scene graph node (SGNode) to add to scene graph.
 You should call the setContentSize of the SGNode if its size should be the same with the node's.
   - [`_initSgNode`](#initsgnode) 
@@ -336,7 +339,7 @@ Add the specified target to camera.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L197) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L201) |
 
 ###### Parameters
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -348,7 +351,7 @@ Remove the specified target from camera.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:214](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L214) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:218](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L218) |
 
 ###### Parameters
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -360,9 +363,48 @@ Get all camera targets.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:231](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L231) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L235) |
 | Return 		 | <a href="../classes/Node.html" class="crosslink">[Node]</a> 
 
+
+
+##### getNodeToCameraTransform
+
+Returns the matrix that transform the node's (local) space coordinates into the camera's space coordinates.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:247](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L247) |
+| Return 		 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
+
+###### Parameters
+- node <a href="../classes/Node.html" class="crosslink">Node</a> the node which should transform
+
+
+##### getCameraToWorldPoint
+
+Conver a camera coordinates point to world coordinates.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:264](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L264) |
+| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+###### Parameters
+- point <a href="../classes/Node.html" class="crosslink">Node</a> the point which should transform
+
+
+##### containsNode
+
+Check whether the node is in the camera.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:280](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L280) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+###### Parameters
+- node <a href="../classes/Node.html" class="crosslink">Node</a> the node which need to check
 
 
 ##### _createSgNode
@@ -775,7 +817,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -785,7 +827,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -795,7 +837,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -808,7 +850,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

@@ -96,14 +96,13 @@ Predefined constants
   - `SELECTED_TAG`
   - `DISABLE_TAG`
   - `FIX_ARTIFACTS_BY_STRECHING_TEXEL`
+  - `FIX_ARTIFACTS_BY_STRECHING_TEXEL_TMX`
   - `DIRECTOR_STATS_POSITION`
   - `DIRECTOR_FPS_INTERVAL`
   - `COCOSNODE_RENDER_SUBPIXEL`
   - `SPRITEBATCHNODE_RENDER_SUBPIXEL`
   - `AUTO_PREMULTIPLIED_ALPHA_FOR_PNG`
   - `OPTIMIZE_BLEND_FUNC_FOR_PREMULTIPLIED_ALPHA`
-  - `TEXTURE_ATLAS_USE_TRIANGLE_STRIP`
-  - `TEXTURE_ATLAS_USE_VAO`
   - `TEXTURE_NPOT_SUPPORT`
   - `USE_LA88_LABELS`
   - `SPRITE_DEBUG_DRAW`
@@ -117,6 +116,8 @@ Predefined constants
   - `ENABLE_TILEDMAP_CULLING`
   - `DOWNLOAD_MAX_CONCURRENT`
   - `ENABLE_TRANSPARENT_CANVAS`
+  - `ENABLE_WEBGL_ANTIALIAS`
+  - `ENABLE_CULLING`
   - `BLEND_SRC`
 
 ### Details
@@ -1029,7 +1030,32 @@ Predefined constants
                                                                                  <br/>
  Affected nodes:                                                                 <br/>
      - _ccsg.Sprite                                                              <br/>
-     - _ccsg.TMXTiledMap                                                         <br/>
+                                                                                 <br/>
+ Disabled by default. To enabled set it to 1. <br/>
+ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to CCConfig.h
+</p>
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1642](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1642) |
+
+
+
+##### FIX_ARTIFACTS_BY_STRECHING_TEXEL_TMX
+
+> <p>
+  If enabled, the texture coordinates will be calculated by using this formula: <br/>
+     - texCoord.left = (rect.x*2+1) / (texture.wide*2);                  <br/>
+     - texCoord.right = texCoord.left + (rect.width*2-2)/(texture.wide*2); <br/>
+                                                                                <br/>
+ The same for bottom and top.                                                   <br/>
+                                                                                <br/>
+ This formula prevents artifacts by using 99% of the texture.                   <br/>
+ The "correct" way to prevent artifacts is by expand the texture's border with the same color by 1 pixel<br/>
+                                                                                 <br/>
+ Affected nodes:                                                                 <br/>
+     - _ccsg.TMXLayer                                                       <br/>
                                                                                  <br/>
  Enabled by default. To disabled set it to 0. <br/>
  To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to CCConfig.h
@@ -1038,7 +1064,7 @@ Predefined constants
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1642](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1642) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1664](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1664) |
 
 
 
@@ -1050,7 +1076,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1665](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1665) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1686](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1686) |
 
 
 
@@ -1068,7 +1094,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1672](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1672) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1693](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1693) |
 
 
 
@@ -1085,7 +1111,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1685](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1685) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1706](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1706) |
 
 
 
@@ -1102,7 +1128,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1697](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1697) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1718](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1718) |
 
 
 
@@ -1115,7 +1141,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1709](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1709) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1730](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1730) |
 
 
 
@@ -1132,42 +1158,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1717](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1717) |
-
-
-
-##### TEXTURE_ATLAS_USE_TRIANGLE_STRIP
-
-> <p>
-  Use GL_TRIANGLE_STRIP instead of GL_TRIANGLES when rendering the texture atlas.<br/>
-  It seems it is the recommend way, but it is much slower, so, enable it at your own risk<br/>
-  <br/>
-  To enable set it to a value different than 0. Disabled by default.<br/>
-  To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to CCConfig.h
-</p>
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1729](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1729) |
-
-
-
-##### TEXTURE_ATLAS_USE_VAO
-
-> <p>
-   By default, cc.TextureAtlas (used by many cocos2d classes) will use VAO (Vertex Array Objects).<br/>
-   Apple recommends its usage but they might consume a lot of memory, specially if you use many of them.<br/>
-   So for certain cases, where you might need hundreds of VAO objects, it might be a good idea to disable it.<br/>
-   <br/>
-   To disable it set it to 0. disable by default.(Not Supported on WebGL)<br/>
-   To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to CCConfig.h
-</p>
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1741](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1741) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1738](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1738) |
 
 
 
@@ -1189,7 +1180,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1754](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1754) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1750](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1750) |
 | Deprecated | This value will be removed in 1.1 and NPOT textures will be loaded by default if the device supports it. |
 
 
@@ -1207,7 +1198,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1773](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1773) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1769](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1769) |
 
 
 
@@ -1226,7 +1217,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1785](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1785) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1781](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1781) |
 
 
 
@@ -1242,7 +1233,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1799](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1799) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1795) |
 
 
 
@@ -1258,7 +1249,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1810](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1810) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1806](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1806) |
 
 
 
@@ -1273,7 +1264,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1821](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1821) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1817](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1817) |
 
 
 
@@ -1294,7 +1285,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1831](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1831) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1827](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1827) |
 
 
 
@@ -1312,7 +1303,7 @@ You can modify this value to have a better behavior if you find it's not enough.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1848](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1848) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1844](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1844) |
 
 
 
@@ -1323,7 +1314,7 @@ You can modify this value to have a better behavior if you find it's not enough.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1870](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1870) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1866](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1866) |
 
 
 
@@ -1336,18 +1327,18 @@ Modify the JS macro value won't have any effect.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1879](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1879) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1875](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1875) |
 
 
 
 ##### ENABLE_TILEDMAP_CULLING
 
-> Whether or not enabled tiled map auto culling.
+> Whether or not enabled tiled map auto culling. If you set the TiledMap skew or rotation, then need to manually disable this, otherwise, the rendering will be wrong.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1891](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1891) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1887](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1887) |
 
 
 
@@ -1358,7 +1349,7 @@ Modify the JS macro value won't have any effect.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1901](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1901) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1897](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1897) |
 
 
 
@@ -1372,7 +1363,35 @@ Web only.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1911](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1911) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1907](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1907) |
+
+
+
+##### ENABLE_WEBGL_ANTIALIAS
+
+> Boolean that indicates if the WebGL context is created with `antialias` option turned on,
+default value is true, most game need it for the picture to eliminate the hard edges,
+but in some case, if you are trying to apply pixel art or using tilemaps, then you may need to turn it off.
+You can set it to false before `cc.game.run`.
+Web only.
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1922](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1922) |
+
+
+
+##### ENABLE_CULLING
+
+> Whether or not enable auto culling.
+If your game have more dynamic objects, we suggest to disable auto culling.
+If your game have more static objects, we suggest to enable auto culling.
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1939](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1939) |
 
 
 
@@ -1383,6 +1402,6 @@ Web only.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1927](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1927) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1973](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1973) |
 
 

@@ -1,4 +1,4 @@
-### `SystemEvent.EventType` Enum
+## `SystemEvent.EventType` Class
 
 
 
@@ -13,11 +13,16 @@ The event type supported by SystemEvent
 
 ##### Properties
 
-  - `KEY_DOWN`
-  - `KEY_UP`
-  - `DEVICEMOTION`
+  - [`KEY_DOWN`](#keydown) `String` The event type for press the key down event, you can use its value directly: 'keydown'
+  - [`KEY_UP`](#keyup) `String` The event type for press the key up event, you can use its value directly: 'keyup'
+  - [`DEVICEMOTION`](#devicemotion) `String` The event type for press the devicemotion event, you can use its value directly: 'devicemotion'
+
+
+
+
 
 ### Details
+
 
 #### Properties
 
@@ -52,5 +57,9 @@ The event type supported by SystemEvent
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L55) |
+
+
+
+
 
 

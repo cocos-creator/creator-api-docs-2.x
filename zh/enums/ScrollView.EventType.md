@@ -22,9 +22,10 @@ Module: [cc](../modules/cc.md)
   - `BOUNCE_BOTTOM`
   - `BOUNCE_LEFT`
   - `BOUNCE_RIGHT`
-  - `AUTOSCROLL_ENDED`
+  - `SCROLL_ENDED`
   - `TOUCH_UP`
   - `AUTOSCROLL_ENDED_WITH_THRESHOLD`
+  - `SCROLL_BEGAN`
 
 ### Details
 
@@ -130,9 +131,9 @@ Module: [cc](../modules/cc.md)
 
 
 
-##### AUTOSCROLL_ENDED
+##### SCROLL_ENDED
 
-> 滚动视图滚动滚动结束的时候发出的事件
+> 滚动视图滚动结束的时候发出的事件
 
 | meta | description |
 |------|-------------|
@@ -154,11 +155,22 @@ Module: [cc](../modules/cc.md)
 
 ##### AUTOSCROLL_ENDED_WITH_THRESHOLD
 
-> 滚动视图滚动快要结束的时候发出的事件
+> 滚动视图自动滚动快要结束的时候发出的事件
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L117) |
+
+
+
+##### SCROLL_BEGAN
+
+> 滚动视图滚动开始时发出的事件
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L123) |
 
 

@@ -36,10 +36,14 @@ all event callbacks will be removed in _onPreDestroy
 
 ##### Methods
 
-  - [`setJavascriptInterfaceScheme`](#setjavascriptinterfacescheme) 设置 javascript 接口方案。
-注意：目前只能在 Android 和 iOS 上使用。
-  - [`setOnJSCallback`](#setonjscallback) 当加载 URL 以 JavaScript 接口方案开始时调用这个回调函数。
-注意：目前只能在 Android 和 iOS 上使用。
+  - [`setJavascriptInterfaceScheme`](#setjavascriptinterfacescheme) 设置 JavaScript 接口方案（与 'setOnJSCallback' 配套使用）。<br/>
+注意：只支持 Android 和 iOS ，Web 端用法请前往官方文档查看。<br/>
+详情请参阅官方文档
+  - [`setOnJSCallback`](#setonjscallback) 当加载 URL 以 JavaScript 接口方案开始时调用这个回调函数。<br/>
+注意：只支持 Android 和 iOS，Web 端用法请前往官方文档查看。
+详情请参阅官方文档
+  - [`evaluateJS`](#evaluatejs) 执行 WebView 内部页面脚本（详情请参阅官方文档） <br/>
+注意：需要自行解决跨域问题
   - [`destroy`](#destroy) 如果你不再使用 WebView，并且组件未添加到场景中，那么你必须手动对组件或所在节点调用 destroy。
 这样才能移除网页上的 DOM 节点，避免 Web 平台内存泄露。
   - [`_createSgNode`](#createsgnode) Create and returns your new scene graph node (SGNode) to add to scene graph.
@@ -133,7 +137,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:71](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L71) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:74](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L74) |
 
 
 
@@ -144,7 +148,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:91](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L91) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L94) |
 
 
 
@@ -328,12 +332,13 @@ cc.log(obj.isValid);
 
 ##### setJavascriptInterfaceScheme
 
-设置 javascript 接口方案。
-注意：目前只能在 Android 和 iOS 上使用。
+设置 JavaScript 接口方案（与 'setOnJSCallback' 配套使用）。<br/>
+注意：只支持 Android 和 iOS ，Web 端用法请前往官方文档查看。<br/>
+详情请参阅官方文档
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:162](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L162) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:180](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L180) |
 
 ###### Parameters
 - scheme <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -341,15 +346,29 @@ cc.log(obj.isValid);
 
 ##### setOnJSCallback
 
-当加载 URL 以 JavaScript 接口方案开始时调用这个回调函数。
-注意：目前只能在 Android 和 iOS 上使用。
+当加载 URL 以 JavaScript 接口方案开始时调用这个回调函数。<br/>
+注意：只支持 Android 和 iOS，Web 端用法请前往官方文档查看。
+详情请参阅官方文档
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:177](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L177) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:198](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L198) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+
+
+##### evaluateJS
+
+执行 WebView 内部页面脚本（详情请参阅官方文档） <br/>
+注意：需要自行解决跨域问题
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L217) |
+
+###### Parameters
+- str <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### destroy
@@ -359,7 +378,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:226](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L226) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js:267](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCWebView.js#L267) |
 
 
 ##### Example
@@ -753,7 +772,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -763,7 +782,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -773,7 +792,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -786,7 +805,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

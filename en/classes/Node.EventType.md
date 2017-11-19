@@ -52,7 +52,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:69](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L69) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:68](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L68) |
 
 
 
@@ -63,7 +63,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:77](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L77) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L75) |
 
 
 
@@ -74,7 +74,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:85](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L85) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L82) |
 
 
 
@@ -85,7 +85,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L94) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L90) |
 
 
 
@@ -96,7 +96,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:102](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L102) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L97) |
 
 
 
@@ -107,7 +107,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L110) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:104](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L104) |
 
 
 
@@ -118,7 +118,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L118) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L111) |
 
 
 
@@ -129,7 +129,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:126](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L126) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L118) |
 
 
 
@@ -140,7 +140,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L134) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L125) |
 
 
 

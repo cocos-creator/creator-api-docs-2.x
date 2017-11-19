@@ -33,7 +33,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:80](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L80) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:40](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L40) |
 
 
 
@@ -44,7 +44,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:88](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L88) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:48](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L48) |
 
 
 
@@ -55,7 +55,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:96](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L96) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:56](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L56) |
 
 
 
@@ -66,7 +66,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:104](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L104) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:64](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L64) |
 
 
 
@@ -77,7 +77,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:112](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L112) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:72](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L72) |
 
 
 
@@ -88,7 +88,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:120](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L120) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:80](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L80) |
 
 
 
@@ -99,6 +99,6 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:128](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L128) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:88](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L88) |
 
 

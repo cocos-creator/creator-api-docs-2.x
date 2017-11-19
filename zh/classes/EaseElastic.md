@@ -69,7 +69,7 @@ action.easing(cc.easeIn(3.0));
 | Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 
 ###### Parameters
-- times Unknown 
+- times <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### repeatForever

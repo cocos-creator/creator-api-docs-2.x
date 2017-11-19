@@ -136,7 +136,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/Mask.Type.html" class="crosslink">Mask.Type</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:84](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L84) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L88) |
 
 ##### Examples
 
@@ -152,7 +152,7 @@ mask.type = cc.Mask.Type.RECT;
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:105](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L105) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:109](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L109) |
 
 ##### Examples
 
@@ -171,7 +171,7 @@ This default to 1 (so alpha test is disabled).
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L123) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:127](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L127) |
 
 
 
@@ -182,7 +182,7 @@ This default to 1 (so alpha test is disabled).
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:152](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L152) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:156](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L156) |
 
 
 
@@ -193,7 +193,7 @@ This default to 1 (so alpha test is disabled).
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:172](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L172) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:176](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L176) |
 
 
 
@@ -783,7 +783,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -793,7 +793,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -803,7 +803,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -816,7 +816,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

@@ -1,4 +1,4 @@
-### `Sprite.SpriteType` Enum
+### `Sprite.Type` Enum
 
 
 

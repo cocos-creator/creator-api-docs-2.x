@@ -1,6 +1,6 @@
 # Index
 
-Cocos Creator v1.6.x
+Cocos Creator v1.7.x
 
 Welcome to Cocos Creator JavaScript engine API reference. You can search anything in top left search filed.
 
@@ -29,8 +29,6 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`AgentManager`](classes/AgentManager.md) from [anysdk](modules/anysdk.md)
 - [`Animation`](classes/Animation.md) from [cc](modules/cc.md)
 - [`AnimationClip`](classes/AnimationClip.md) from [cc](modules/cc.md)
-- [`AnimationNode`](classes/AnimationNode.md) from [cc](modules/cc.md)
-- [`AnimationNodeBase`](classes/AnimationNodeBase.md) from [cc](modules/cc.md)
 - [`AnimationState`](classes/AnimationState.md) from [cc](modules/cc.md)
 - [`ArmatureDisplay`](classes/ArmatureDisplay.md) from [dragonBones](modules/dragonBones.md)
 - [`array`](classes/array.md) from [js](modules/js.md)
@@ -82,7 +80,6 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`Font`](classes/Font.md) from [cc](modules/cc.md)
 - [`Game`](classes/Game.md) from [cc](modules/cc.md)
 - [`Graphics`](classes/Graphics.md) from [cc](modules/cc.md)
-- [`inputManager`](classes/inputManager.md) from [cc](modules/cc.md)
 - [`Intersection`](classes/Intersection.md) from [cc](modules/cc.md)
 - [`Joint`](classes/Joint.md) from [cc](modules/cc.md)
 - [`Label`](classes/Label.md) from [cc](modules/cc.md)
@@ -120,8 +117,8 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`PluginParam`](classes/PluginParam.md) from [anysdk](modules/anysdk.md)
 - [`PluginProtocol`](classes/PluginProtocol.md) from [anysdk](modules/anysdk.md)
 - [`PolygonCollider`](classes/PolygonCollider.md) from [cc](modules/cc.md)
-- [`Pool`](classes/Pool.md) from [js](modules/js.md)
 - [`pool`](classes/pool.md) from [cc](modules/cc.md)
+- [`Pool`](classes/Pool.md) from [js](modules/js.md)
 - [`Prefab`](classes/Prefab.md) from [cc](modules/cc.md)
 - [`PrismaticJoint`](classes/PrismaticJoint.md) from [cc](modules/cc.md)
 - [`ProgressBar`](classes/ProgressBar.md) from [cc](modules/cc.md)
@@ -163,10 +160,10 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`SpriteFrame`](classes/SpriteFrame.md) from [cc](modules/cc.md)
 - [`sys`](classes/sys.md) from [cc](modules/cc.md)
 - [`SystemEvent`](classes/SystemEvent.md) from [cc](modules/cc.md)
+- [`SystemEvent.EventType`](classes/SystemEvent.EventType.md) from [cc](modules/cc.md)
 - [`Tex2F`](classes/Tex2F.md) from [cc](modules/cc.md)
 - [`TextAsset`](classes/TextAsset.md) from [cc](modules/cc.md)
 - [`Texture2D`](classes/Texture2D.md) from [cc](modules/cc.md)
-- [`TextureAtlas`](classes/TextureAtlas.md) from [cc](modules/cc.md)
 - [`textureCache`](classes/textureCache.md) from [cc](modules/cc.md)
 - [`TiledLayer`](classes/TiledLayer.md) from [cc](modules/cc.md)
 - [`TiledMap`](classes/TiledMap.md) from [cc](modules/cc.md)
@@ -251,10 +248,11 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`SocialRetCode`](enums/SocialRetCode.md) from [anysdk](modules/anysdk.md)
 - [`Sprite.FillType`](enums/Sprite.FillType.md) from [cc](modules/cc.md)
 - [`Sprite.SizeMode`](enums/Sprite.SizeMode.md) from [cc](modules/cc.md)
-- [`Sprite.SpriteType`](enums/Sprite.SpriteType.md) from [cc](modules/cc.md)
-- [`SystemEvent.EventType`](enums/SystemEvent.EventType.md) from [cc](modules/cc.md)
+- [`Sprite.Type`](enums/Sprite.Type.md) from [cc](modules/cc.md)
 - [`TaskType`](enums/TaskType.md) from [anysdk](modules/anysdk.md)
 - [`TextAlignment`](enums/TextAlignment.md) from [cc](modules/cc.md)
+- [`Texture2D.Filter`](enums/Texture2D.Filter.md) from [cc](modules/cc.md)
+- [`Texture2D.PixelFormat`](enums/Texture2D.PixelFormat.md) from [cc](modules/cc.md)
 - [`Texture2D.WrapMode`](enums/Texture2D.WrapMode.md) from [cc](modules/cc.md)
 - [`TiledMap.Orientation`](enums/TiledMap.Orientation.md) from [cc](modules/cc.md)
 - [`ToolBarPlace`](enums/ToolBarPlace.md) from [anysdk](modules/anysdk.md)
@@ -263,58 +261,3 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`VideoPlayer.ResourceType`](enums/VideoPlayer.ResourceType.md) from [cc](modules/cc.md)
 - [`WebView.EventType`](enums/WebView.EventType.md) from [cc](modules/cc.md)
 - [`WrapMode`](enums/WrapMode.md) from [cc](modules/cc.md)
-
-## Editor API
-
-- [AssetDB](editor/asset-db.md)
-
-### Main Process
-
-- [Editor](editor/main/editor.md)
-- [Editor (Console Module)](editor/main/console.md)
-- [Editor.App](editor/main/app.md)
-- [Editor.Debugger](editor/main/debugger.md)
-- [Editor.DevTools](editor/main/devtools.md)
-- [Editor.Dialog](editor/main/dialog.md)
-- [Editor.Ipc](editor/main/ipc.md)
-- [Editor.MainMenu](editor/main/main-menu.md)
-- [Editor.Menu](editor/main/menu.md)
-- [Editor.Package](editor/main/package.md)
-- [Editor.Panel](editor/main/panel.md)
-- [Editor.Profile](editor/main/profile.md)
-- [Editor.Protocol](editor/main/protocol.md)
-- [Editor.Window](editor/main/window.md)
-- [Editor.Worker](editor/main/worker.md)
-
-### Renderer Process (Web Page)
-
-- [Editor](editor/renderer/editor.md)
-- [Editor (Console Module)](editor/renderer/console.md)
-- [Editor.Audio](editor/renderer/audio.md)
-- [Editor.Dialog](editor/renderer/dialog.md)
-- [Editor.Ipc](editor/renderer/ipc.md)
-- [Editor.MainMenu](editor/renderer/main-menu.md)
-- [Editor.Menu](editor/renderer/menu.md)
-- [Editor.Package](editor/renderer/package.md)
-- [Editor.Panel](editor/renderer/panel.md)
-- [Editor.Protocol](editor/renderer/protocol.md)
-- [Editor.Window](editor/renderer/window.md)
-- [Editor.UI (DOM Utils Module)](editor/renderer/ui/dom-utils.md)
-- [Editor.UI (Element Utils Module)](editor/renderer/ui/element-utils.md)
-- [Editor.UI (Focus Module)](editor/renderer/ui/focus-mgr.md)
-- [Editor.UI (Resources Module)](editor/renderer/ui/resource-mgr.md)
-- [Editor.UI.Settings](editor/renderer/ui/settings.md)
-- [Editor.UI.DockUtils](editor/renderer/ui/dock-utils.md)
-- [Editor.UI.DragDrop](editor/renderer/ui/drag-drop.md)
-
-### Modules for Both Processes
-
-- [Editor](editor/share/editor.md)
-- [Editor.Easing](editor/share/easing.md)
-- [Editor.IpcListener](editor/share/ipc-listener.md)
-- [Editor.JS](editor/share/js-utils.md)
-- [Editor.Math](editor/share/math.md)
-- [Editor.Selection](editor/share/selection.md)
-- [Editor.Undo](editor/share/undo.md)
-- [Editor.Utils](editor/share/utils.md)
-- [Editor.i18n](editor/share/i18n.md)

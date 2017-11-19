@@ -295,16 +295,10 @@ window.apimeta = {
       "description": "Sprite Size can track trimmed size, raw size or none."
     },
     {
-      "name": "Sprite.SpriteType",
-      "namespace": "cc.Sprite.SpriteType",
+      "name": "Sprite.Type",
+      "namespace": "cc.Sprite.Type",
       "module": "cc",
       "description": "Enum for sprite type."
-    },
-    {
-      "name": "SystemEvent.EventType",
-      "namespace": "cc.SystemEvent.EventType",
-      "module": "cc",
-      "description": "The event type supported by SystemEvent"
     },
     {
       "name": "TaskType",
@@ -317,6 +311,18 @@ window.apimeta = {
       "namespace": "cc.TextAlignment",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "Texture2D.Filter",
+      "namespace": "cc.Texture2D.Filter",
+      "module": "cc",
+      "description": "The texture filter mode"
+    },
+    {
+      "name": "Texture2D.PixelFormat",
+      "namespace": "cc.Texture2D.PixelFormat",
+      "module": "cc",
+      "description": "The texture pixel format, default value is RGBA8888"
     },
     {
       "name": "Texture2D.WrapMode",
@@ -439,18 +445,6 @@ window.apimeta = {
       "namespace": "cc.AnimationClip",
       "module": "cc",
       "description": "Class for animation data handling."
-    },
-    {
-      "name": "AnimationNode",
-      "namespace": "cc.AnimationNode",
-      "module": "cc",
-      "description": "The collection and instance of playing animations."
-    },
-    {
-      "name": "AnimationNodeBase",
-      "namespace": "cc.AnimationNodeBase",
-      "module": "cc",
-      "description": "The abstract interface for all playing animation."
     },
     {
       "name": "AnimationState",
@@ -774,7 +768,7 @@ window.apimeta = {
       "name": "Layout",
       "namespace": "cc.Layout",
       "module": "cc",
-      "description": "The Layout is a container component, use it to arrange child elements easily."
+      "description": "The Layout is a container component, use it to arrange child elements easily.<br>\nNote：<br>\n1.Scaling and rotation of child nodes are not considered.<br>\n2.After setting the Layout, the results need to be updated until the next frame,\nunless you manually call <a href=\"../classes/Layout.html#method_updateLayout\" class=\"crosslink\">updateLayout</a>。"
     },
     {
       "name": "LoadingItems",
@@ -1197,6 +1191,12 @@ window.apimeta = {
       "description": "The System event, it currently supports the key events and accelerometer events"
     },
     {
+      "name": "SystemEvent.EventType",
+      "namespace": "cc.SystemEvent.EventType",
+      "module": "cc",
+      "description": "The event type supported by SystemEvent"
+    },
+    {
       "name": "TMXObject",
       "namespace": "cc.TMXObject",
       "module": "cc",
@@ -1225,12 +1225,6 @@ window.apimeta = {
       "namespace": "cc.Texture2D",
       "module": "cc",
       "description": "<p>\nThis class allows to easily create OpenGL or Canvas 2D textures from images, text or raw data.                                    <br/>\nThe created cc.Texture2D object will always have power-of-two dimensions.                                                <br/>\nDepending on how you create the cc.Texture2D object, the actual image area of the texture might be smaller than the texture dimensions <br/>\n i.e. \"contentSize\" != (pixelsWide, pixelsHigh) and (maxS, maxT) != (1.0, 1.0).                                           <br/>\nBe aware that the content of the generated textures will be upside-down! </p>"
-    },
-    {
-      "name": "TextureAtlas",
-      "namespace": "cc.TextureAtlas",
-      "module": "cc",
-      "description": "<p>A class that implements a Texture Atlas. <br />\nSupported features: <br />\nThe atlas file can be a PNG, JPG. <br />\nQuads can be updated in runtime <br />\nQuads can be added in runtime <br />\nQuads can be removed in runtime <br />\nQuads can be re-ordered in runtime <br />\nThe TextureAtlas capacity can be increased or decreased in runtime.</p>"
     },
     {
       "name": "TiledLayer",
@@ -1399,12 +1393,6 @@ window.apimeta = {
       "namespace": "cc.eventManager",
       "module": "cc",
       "description": "<p>\n cc.eventManager is a singleton object which manages event listener subscriptions and event dispatching. <br/>\n                                                                                                             <br/>\n The EventListener list is managed in such way so that event listeners can be added and removed          <br/>\n while events are being dispatched.\n</p>"
-    },
-    {
-      "name": "inputManager",
-      "namespace": "cc.inputManager",
-      "module": "cc",
-      "description": "<p>\n This class manages all events of input. include: touch, mouse, accelerometer, keyboard                                       <br/>\n</p>"
     },
     {
       "name": "loader",

@@ -1006,7 +1006,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:774](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L774) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:768](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L768) |
 
 
 
@@ -1023,7 +1023,7 @@ Forces the garbage collection, only available in JSB
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:882](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L882) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:876](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L876) |
 
 
 
@@ -1033,7 +1033,7 @@ Dumps rooted objects, only available in JSB
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:890](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L890) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:884](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L884) |
 
 
 
@@ -1043,7 +1043,7 @@ Restart the JS VM, only available in JSB
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:898](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L898) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:892](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L892) |
 
 
 
@@ -1053,7 +1053,7 @@ Clean a script in the JS VM, only available in JSB
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:906](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L906) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:900](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L900) |
 
 ###### Parameters
 - jsfile <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1067,7 +1067,7 @@ In native engine, it will return true if the JS object and the correspond native
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:915](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L915) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:909](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L909) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 ###### Parameters
@@ -1080,7 +1080,7 @@ Dump system informations
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:928](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L928) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:922](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L922) |
 
 
 
@@ -1090,7 +1090,7 @@ Open a url in browser
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:947](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L947) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:941](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L941) |
 
 ###### Parameters
 - url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1102,7 +1102,7 @@ Get the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:956](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L956) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:950](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L950) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 

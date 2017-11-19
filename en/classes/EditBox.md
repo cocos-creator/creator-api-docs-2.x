@@ -34,10 +34,10 @@ If you pass ANY, it will create a multiline EditBox.
 !zh 输入框总是可见，并且永远在游戏视图的上面
 Note: only available on Web at the moment.
   - [`tabIndex`](#tabindex) `Number` Set the tabIndex of the DOM input element, only useful on Web.
-  - [`editingDidBegan`](#editingdidbegan) `Component.EventHandler` The event handler to be called when EditBox began to edit text.
-  - [`textChanged`](#textchanged) `Component.EventHandler` The event handler to be called when EditBox text changes.
-  - [`editingDidEnded`](#editingdidended) `Component.EventHandler` The event handler to be called when EditBox edit ends.
-  - [`editingReturn`](#editingreturn) `Component.EventHandler` The event handler to be called when return key is pressed. Windows is not supported.
+  - [`editingDidBegan`](#editingdidbegan) `Component.EventHandler[]` The event handler to be called when EditBox began to edit text.
+  - [`textChanged`](#textchanged) `Component.EventHandler[]` The event handler to be called when EditBox text changes.
+  - [`editingDidEnded`](#editingdidended) `Component.EventHandler[]` The event handler to be called when EditBox edit ends.
+  - [`editingReturn`](#editingreturn) `Component.EventHandler[]` The event handler to be called when return key is pressed. Windows is not supported.
   - [`_sgNode`](#sgnode) `_ccsg.Node` Reference to the instance of _ccsg.Node
 If it is possible to return null from your overloaded _createSgNode,
 then you should always check for null before using this property and reimplement `__preload`.
@@ -321,7 +321,7 @@ Note: only available on Web at the moment.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler</a> |
+| Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:398](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L398) |
 
 
@@ -332,7 +332,7 @@ Note: only available on Web at the moment.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler</a> |
+| Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:408](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L408) |
 
 
@@ -343,7 +343,7 @@ Note: only available on Web at the moment.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler</a> |
+| Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:418](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L418) |
 
 
@@ -354,7 +354,7 @@ Note: only available on Web at the moment.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler</a> |
+| Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:428](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L428) |
 
 
@@ -566,6 +566,7 @@ Otherwise, the created DOM element won't be removed from web page.
 | meta | description |
 |------|-------------|
 | Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:638](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L638) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### Example
@@ -966,7 +967,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -976,7 +977,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -986,7 +987,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -999,7 +1000,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

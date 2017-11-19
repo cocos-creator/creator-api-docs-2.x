@@ -60,6 +60,12 @@ all event callbacks will be removed in _onPreDestroy
 回调的事件里将会附上发送事件的 AnimationState。
 当播放一个动画时，会自动将事件注册到对应的 AnimationState 上，停止播放时会将事件从这个 AnimationState 上取消注册。
   - [`off`](#off) 取消注册动画事件回调。
+  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
+  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
   - [`update`](#update) 如果该组件启用，则每帧调用 update。
   - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad.
@@ -103,12 +109,6 @@ This method should be removed if script priority is supported.
   - [`scheduleOnce`](#scheduleonce) 调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
   - [`unschedule`](#unschedule) 取消调度一个自定义的回调函数。
   - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。动作不受此方法影响。
-  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
-这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
-这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
-  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
-  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
   - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。<br/>
 销毁后，CCObject 不再可用。您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
 实际销毁操作会延迟到当前帧渲染前执行。
@@ -357,7 +357,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L201) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L204) |
 | Return 		 | <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip[]</a> 
 
 
@@ -368,7 +368,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:211](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L211) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:214](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L214) |
 | Return 		 | <a href="../classes/AnimationState.html" class="crosslink">AnimationState</a> 
 
 ###### Parameters
@@ -388,7 +388,7 @@ animCtrl.play("linear");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:228](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L228) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:231](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L231) |
 | Return 		 | <a href="../classes/AnimationState.html" class="crosslink">AnimationState</a> 
 
 ###### Parameters
@@ -410,7 +410,7 @@ animCtrl.playAdditive("linear_2");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:269](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L269) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:272](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L272) |
 
 ###### Parameters
 - name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The animation to stop, if not supplied then stops all playing animations.
@@ -422,7 +422,7 @@ animCtrl.playAdditive("linear_2");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:291](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L291) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:294](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L294) |
 
 ###### Parameters
 - name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The animation to pauses, if not supplied then pauses all playing animations.
@@ -434,7 +434,7 @@ animCtrl.playAdditive("linear_2");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:312](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L312) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:315](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L315) |
 
 ###### Parameters
 - name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The animation to resumes, if not supplied then resumes all paused animations.
@@ -446,7 +446,7 @@ animCtrl.playAdditive("linear_2");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:333](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L333) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:336](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L336) |
 
 ###### Parameters
 - time <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The time to go to
@@ -459,7 +459,7 @@ animCtrl.playAdditive("linear_2");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:353](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L353) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:356](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L356) |
 | Return 		 | <a href="../classes/AnimationState.html" class="crosslink">AnimationState</a> 
 
 ###### Parameters
@@ -472,7 +472,7 @@ animCtrl.playAdditive("linear_2");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:382](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L382) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L385) |
 | Return 		 | <a href="../classes/AnimationState.html" class="crosslink">AnimationState</a> 
 
 ###### Parameters
@@ -488,7 +488,7 @@ animCtrl.playAdditive("linear_2");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:423](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L423) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L426) |
 
 ###### Parameters
 - clip <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> 
@@ -501,7 +501,7 @@ animCtrl.playAdditive("linear_2");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:477](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L477) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:480](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L480) |
 
 ###### Parameters
 - name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -515,7 +515,7 @@ animCtrl.playAdditive("linear_2");
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:500](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L500) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:503](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L503) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
 ###### Parameters
@@ -523,7 +523,7 @@ animCtrl.playAdditive("linear_2");
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
                              The callback is ignored if it is a duplicate (the callbacks are unique).
 	- event <a href="../classes/Event.html" class="crosslink">Event</a> event
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to invoke the callback, can be null
+- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
 - useCapture <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
                              from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
                              When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
@@ -547,12 +547,12 @@ animation.on('play', this.onPlay, this);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:554](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L554) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:550](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L550) |
 
 ###### Parameters
 - type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to remove.
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to invoke the callback, if it's not given, only callback without target will be removed
+- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, if it's not given, only callback without target will be removed
 - useCapture <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Specifies whether the callback being removed was registered as a capturing callback or not.
                              If not specified, useCapture defaults to false. If a callback was registered twice,
                              one with capture and one without, each must be removed separately. Removal of a capturing callback
@@ -564,6 +564,72 @@ animation.on('play', this.onPlay, this);
 // unregister event to all animation
 animation.off('play', this.onPlay, this);
 ```
+
+##### targetOff
+
+在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:329](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L329) |
+
+###### Parameters
+- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
+
+
+##### once
+
+注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:351](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L351) |
+
+###### Parameters
+- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
+- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
+                             The callback is ignored if it is a duplicate (the callbacks are unique).
+	- event <a href="../classes/Event.html" class="crosslink">Event</a> event
+- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
+- useCapture <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
+                             from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
+                             When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
+                             Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
+
+##### Example
+
+```js
+node.once(cc.Node.EventType.TOUCH_END, function (event) {
+    cc.log("this is callback");
+}, node);
+```
+
+##### dispatchEvent
+
+分发事件到事件流中。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:396](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L396) |
+
+###### Parameters
+- event <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
+
+
+##### emit
+
+该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:410](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L410) |
+
+###### Parameters
+- message <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send
+- detail Any whatever argument the message needs
+
 
 ##### update
 
@@ -893,72 +959,6 @@ this.unschedule(_callback);
 this.unscheduleAllCallbacks();
 ```
 
-##### targetOff
-
-在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
-这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
-这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L257) |
-
-###### Parameters
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
-
-
-##### once
-
-注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:277](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L277) |
-
-###### Parameters
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
-                             The callback is ignored if it is a duplicate (the callbacks are unique).
-	- event <a href="../classes/Event.html" class="crosslink">Event</a> event
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to invoke the callback, can be null
-- useCapture <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
-                             from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
-                             When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
-                             Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
-
-##### Example
-
-```js
-node.once(cc.Node.EventType.TOUCH_END, function (event) {
-    cc.log("this is callback");
-}, node);
-```
-
-##### dispatchEvent
-
-分发事件到事件流中。
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:311](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L311) |
-
-###### Parameters
-- event <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
-
-
-##### emit
-
-该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:325](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L325) |
-
-###### Parameters
-- message <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send
-- detail Any whatever argument the message needs
-
-
 ##### destroy
 
 销毁该对象，并释放所有它对其它对象的引用。<br/>
@@ -1000,7 +1000,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -1010,7 +1010,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -1020,7 +1020,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -1033,7 +1033,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

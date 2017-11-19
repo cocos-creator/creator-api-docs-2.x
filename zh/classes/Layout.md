@@ -8,7 +8,10 @@ Module: [cc](../modules/cc.md)
 
 
 
-Layout 组件相当于一个容器，能自动对它的所有子节点进行统一排版。
+Layout 组件相当于一个容器，能自动对它的所有子节点进行统一排版。<br>
+注意：<br>
+1.不会考虑子节点的缩放和旋转。<br>
+2.对 Layout 设置后结果需要到下一帧才会更新，除非你设置完以后手动调用 <a href="../classes/Layout.html#method_updateLayout" class="crosslink">updateLayout</a>。
 
 ### Index
 
@@ -44,6 +47,7 @@ all event callbacks will be removed in _onPreDestroy
 
 ##### Methods
 
+  - [`updateLayout`](#updatelayout) 立即执行更新布局
   - [`update`](#update) 如果该组件启用，则每帧调用 update。
   - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad.
@@ -127,7 +131,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/Layout.Type.html" class="crosslink">Layout.Type</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:180](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L180) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:189](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L189) |
 
 
 
@@ -138,7 +142,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/Layout.ResizeMode.html" class="crosslink">Layout.ResizeMode</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:207](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L207) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:216](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L216) |
 
 
 
@@ -149,7 +153,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:238](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L238) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:247](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L247) |
 
 
 
@@ -160,7 +164,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/Layout.AxisDirection.html" class="crosslink">Layout.AxisDirection</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:253](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L253) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:262](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L262) |
 
 
 
@@ -171,7 +175,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:279](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L279) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:288](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L288) |
 
 
 
@@ -182,7 +186,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L292) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:301](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L301) |
 
 
 
@@ -193,7 +197,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:305](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L305) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:314](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L314) |
 
 
 
@@ -204,7 +208,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L318) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:327](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L327) |
 
 
 
@@ -215,7 +219,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:331](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L331) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:340](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L340) |
 
 
 
@@ -226,7 +230,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:344](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L344) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:353](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L353) |
 
 
 
@@ -237,7 +241,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/Layout.VerticalDirection.html" class="crosslink">Layout.VerticalDirection</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:357](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L357) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L366) |
 
 
 
@@ -248,7 +252,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/Layout.HorizontalDirection.html" class="crosslink">Layout.HorizontalDirection</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:374](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L374) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:383](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L383) |
 
 
 
@@ -259,7 +263,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:938](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L938) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:960](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L960) |
 
 
 
@@ -427,6 +431,25 @@ cc.log(obj.isValid);
 <!-- Method Block -->
 #### Methods
 
+
+##### updateLayout
+
+立即执行更新布局
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:938](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L938) |
+
+
+##### Example
+
+```js
+layout.type = cc.Layout.HORIZONTAL;
+layout.node.addChild(childNode);
+cc.log(childNode.x); // not yet changed
+layout.updateLayout();
+cc.log(childNode.x); // changed
+```
 
 ##### update
 
@@ -797,7 +820,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L366) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -807,7 +830,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L399) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -817,7 +840,7 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L424) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 | Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
 
 ###### Parameters
@@ -830,7 +853,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:434](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L434) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

@@ -29,7 +29,7 @@ Enum for particles movement type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:64](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L64) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L61) |
 
 
 
@@ -41,7 +41,7 @@ Use case: Attach an emitter to an sprite, and you want that the emitter follows 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:73](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L73) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L70) |
 
 
 
@@ -52,6 +52,6 @@ Use case: Attach an emitter to an sprite, and you want that the emitter follows 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:83](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L83) |
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L80) |
 
 
