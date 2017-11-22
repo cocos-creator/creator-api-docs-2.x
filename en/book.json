@@ -7,7 +7,7 @@
         "navlinks": [
             {
                 "name": "Creator Manual",
-                "link": "#"
+                "link": "http://docs.cocos.com/creator/manual/en/"
             },
             {
                 "name": "Creator Engine API",
