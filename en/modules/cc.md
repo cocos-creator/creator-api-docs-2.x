@@ -27,13 +27,13 @@
   - [WrapMode](../classes/WrapMode.md)
   - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
   - [audioEngine](../classes/audioEngine.md)
-  - [MotionStreak](../classes/MotionStreak.md)
   - [Director](../classes/Director.md)
+  - [Game](../classes/Game.md)
   - [Node.EventType](../classes/Node.EventType.md)
   - [Node](../classes/Node.md)
-  - [Game](../classes/Game.md)
   - [Scene](../classes/Scene.md)
   - [Scheduler](../classes/Scheduler.md)
+  - [MotionStreak](../classes/MotionStreak.md)
   - [ParticleSystem.EmitterMode](../classes/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../classes/ParticleSystem.PositionType.md)
   - [ParticleSystem](../classes/ParticleSystem.md)
@@ -45,6 +45,7 @@
   - [TiledObjectGroup](../classes/TiledObjectGroup.md)
   - [NodePool](../classes/NodePool.md)
   - [pool](../classes/pool.md)
+  - [Camera](../classes/Camera.md)
   - [Asset](../classes/Asset.md)
   - [AudioClip](../classes/AudioClip.md)
   - [BitmapFont](../classes/BitmapFont.md)
@@ -57,10 +58,9 @@
   - [_JavaScript](../classes/_JavaScript.md)
   - [CoffeeScript](../classes/CoffeeScript.md)
   - [TypeScript](../classes/TypeScript.md)
-  - [SpriteAtlas](../classes/SpriteAtlas.md)
   - [TTFFont](../classes/TTFFont.md)
   - [TextAsset](../classes/TextAsset.md)
-  - [Camera](../classes/Camera.md)
+  - [SpriteAtlas](../classes/SpriteAtlas.md)
   - [Animation](../classes/Animation.md)
   - [AudioSource](../classes/AudioSource.md)
   - [BlockInputEvents](../classes/BlockInputEvents.md)
@@ -111,23 +111,14 @@
   - [Sprite](../classes/Sprite.md)
   - [SpriteDistortion](../classes/SpriteDistortion.md)
   - [Toggle](../classes/Toggle.md)
+  - [ToggleGroup](../classes/ToggleGroup.md)
   - [VideoPlayer.EventType](../classes/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../classes/VideoPlayer.ResourceType.md)
   - [VideoPlayer](../classes/VideoPlayer.md)
-  - [ToggleGroup](../classes/ToggleGroup.md)
   - [ViewGroup](../classes/ViewGroup.md)
   - [WebView.EventType](../classes/WebView.EventType.md)
   - [WebView](../classes/WebView.md)
   - [Widget](../classes/Widget.md)
-  - [Collider.Box](../classes/Collider.Box.md)
-  - [BoxCollider](../classes/BoxCollider.md)
-  - [Collider.Circle](../classes/Collider.Circle.md)
-  - [CircleCollider](../classes/CircleCollider.md)
-  - [Collider](../classes/Collider.md)
-  - [CollisionManager](../classes/CollisionManager.md)
-  - [Intersection](../classes/Intersection.md)
-  - [Collider.Polygon](../classes/Collider.Polygon.md)
-  - [PolygonCollider](../classes/PolygonCollider.md)
   - [EventTarget](../classes/EventTarget.md)
   - [Event](../classes/Event.md)
   - [Event.EventCustom](../classes/Event.EventCustom.md)
@@ -143,23 +134,54 @@
   - [Graphics](../classes/Graphics.md)
   - [Graphics.LineCap](../classes/Graphics.LineCap.md)
   - [Graphics.LineJoin](../classes/Graphics.LineJoin.md)
+  - [WorldManifold](../classes/WorldManifold.md)
+  - [ManifoldPoint](../classes/ManifoldPoint.md)
+  - [Manifold](../classes/Manifold.md)
+  - [PhysicsImpulse](../classes/PhysicsImpulse.md)
+  - [PhysicsContact](../classes/PhysicsContact.md)
+  - [RigidBodyType](../classes/RigidBodyType.md)
+  - [RayCastType](../classes/RayCastType.md)
+  - [PhysicsManager](../classes/PhysicsManager.md)
+  - [DrawBits](../classes/DrawBits.md)
+  - [PhysicsRayCastResult](../classes/PhysicsRayCastResult.md)
+  - [RigidBody](../classes/RigidBody.md)
   - [loader](../classes/loader.md)
   - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
   - [Pipeline.Loader](../classes/Pipeline.Loader.md)
   - [LoadingItems](../classes/LoadingItems.md)
   - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
   - [Pipeline](../classes/Pipeline.md)
-  - [WorldManifold](../classes/WorldManifold.md)
-  - [ManifoldPoint](../classes/ManifoldPoint.md)
-  - [Manifold](../classes/Manifold.md)
-  - [PhysicsImpulse](../classes/PhysicsImpulse.md)
-  - [PhysicsContact](../classes/PhysicsContact.md)
-  - [PhysicsManager](../classes/PhysicsManager.md)
-  - [DrawBits](../classes/DrawBits.md)
-  - [PhysicsRayCastResult](../classes/PhysicsRayCastResult.md)
-  - [RigidBodyType](../classes/RigidBodyType.md)
-  - [RayCastType](../classes/RayCastType.md)
-  - [RigidBody](../classes/RigidBody.md)
+  - [SpriteFrame](../classes/SpriteFrame.md)
+  - [_BaseNode](../classes/_BaseNode.md)
+  - [Collider.Box](../classes/Collider.Box.md)
+  - [BoxCollider](../classes/BoxCollider.md)
+  - [Collider.Circle](../classes/Collider.Circle.md)
+  - [CircleCollider](../classes/CircleCollider.md)
+  - [Collider](../classes/Collider.md)
+  - [CollisionManager](../classes/CollisionManager.md)
+  - [Intersection](../classes/Intersection.md)
+  - [Collider.Polygon](../classes/Collider.Polygon.md)
+  - [PolygonCollider](../classes/PolygonCollider.md)
+  - [AffineTransform](../classes/AffineTransform.md)
+  - [Color](../classes/Color.md)
+  - [Rect](../classes/Rect.md)
+  - [Size](../classes/Size.md)
+  - [Acceleration](../classes/Acceleration.md)
+  - [BlendFunc](../classes/BlendFunc.md)
+  - [BlendFactor](../classes/BlendFactor.md)
+  - [TextAlignment](../classes/TextAlignment.md)
+  - [WebGLColor](../classes/WebGLColor.md)
+  - [Vertex2F](../classes/Vertex2F.md)
+  - [Vertex3F](../classes/Vertex3F.md)
+  - [Tex2F](../classes/Tex2F.md)
+  - [Quad2](../classes/Quad2.md)
+  - [Quad3](../classes/Quad3.md)
+  - [V3F_C4B_T2F](../classes/V3F_C4B_T2F.md)
+  - [V3F_C4B_T2F_Quad](../classes/V3F_C4B_T2F_Quad.md)
+  - [V2F_C4B_T2F](../classes/V2F_C4B_T2F.md)
+  - [V2F_C4B_T2F_Triangle](../classes/V2F_C4B_T2F_Triangle.md)
+  - [ValueType](../classes/ValueType.md)
+  - [Vec2](../classes/Vec2.md)
   - [KEY](../classes/KEY.md)
   - [ImageFormat](../classes/ImageFormat.md)
   - [macro](../classes/macro.md)
@@ -181,33 +203,11 @@
   - [CallbacksInvoker](../classes/CallbacksInvoker.md)
   - [Details](../classes/Details.md)
   - [url](../classes/url.md)
-  - [SpriteFrame](../classes/SpriteFrame.md)
   - [Texture2D.PixelFormat](../classes/Texture2D.PixelFormat.md)
   - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
   - [Texture2D.Filter](../classes/Texture2D.Filter.md)
   - [Texture2D](../classes/Texture2D.md)
   - [textureCache](../classes/textureCache.md)
-  - [_BaseNode](../classes/_BaseNode.md)
-  - [AffineTransform](../classes/AffineTransform.md)
-  - [Color](../classes/Color.md)
-  - [Rect](../classes/Rect.md)
-  - [Size](../classes/Size.md)
-  - [Acceleration](../classes/Acceleration.md)
-  - [BlendFunc](../classes/BlendFunc.md)
-  - [BlendFactor](../classes/BlendFactor.md)
-  - [TextAlignment](../classes/TextAlignment.md)
-  - [WebGLColor](../classes/WebGLColor.md)
-  - [Vertex2F](../classes/Vertex2F.md)
-  - [Vertex3F](../classes/Vertex3F.md)
-  - [Tex2F](../classes/Tex2F.md)
-  - [Quad2](../classes/Quad2.md)
-  - [Quad3](../classes/Quad3.md)
-  - [V3F_C4B_T2F](../classes/V3F_C4B_T2F.md)
-  - [V3F_C4B_T2F_Quad](../classes/V3F_C4B_T2F_Quad.md)
-  - [V2F_C4B_T2F](../classes/V2F_C4B_T2F.md)
-  - [V2F_C4B_T2F_Triangle](../classes/V2F_C4B_T2F_Triangle.md)
-  - [ValueType](../classes/ValueType.md)
-  - [Vec2](../classes/Vec2.md)
   - [PhysicsBoxCollider](../classes/PhysicsBoxCollider.md)
   - [PhysicsChainCollider](../classes/PhysicsChainCollider.md)
   - [PhysicsCircleCollider](../classes/PhysicsCircleCollider.md)
@@ -261,10 +261,12 @@
   - [WebView.EventType](../enums/WebView.EventType.md)
   - [Graphics.LineCap](../enums/Graphics.LineCap.md)
   - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
-  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
-  - [DrawBits](../enums/DrawBits.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [RayCastType](../enums/RayCastType.md)
+  - [DrawBits](../enums/DrawBits.md)
+  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
+  - [BlendFactor](../enums/BlendFactor.md)
+  - [TextAlignment](../enums/TextAlignment.md)
   - [KEY](../enums/KEY.md)
   - [ImageFormat](../enums/ImageFormat.md)
   - [macro](../enums/macro.md)
@@ -272,8 +274,6 @@
   - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
   - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
   - [Texture2D.Filter](../enums/Texture2D.Filter.md)
-  - [BlendFactor](../enums/BlendFactor.md)
-  - [TextAlignment](../enums/TextAlignment.md)
 
 
 ### Index
@@ -465,51 +465,17 @@ Relative to their own color change.
 延迟指定的时间量。
   - [`reverseTime`](#reversetime) Executes an action in reverse order, from time=duration to time=0.
   - [`targetedAction`](#targetedaction) Create an action with the specified action and forced target.
-  - [`Class`](#class) Defines a CCClass using the given specification, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class.html) for details.
-  - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
-  - [`isChildClassOf`](#ischildclassof) Checks whether subclass is child of superclass or equals to superclass
-  - [`getInheritanceChain`](#getinheritancechain) Return all super classes
-  - [`Enum`](#enum) Define an enum type. <br/>
-If a enum item has a value of -1, it will be given an Integer number according to it's order in the list.<br/>
-Otherwise it will use the value specified by user who writes the enum definition.
-  - [`getList`](#getlist) 
-  - [`setAccelerometerEnabled`](#setaccelerometerenabled) whether enable accelerometer event
-  - [`setAccelerometerInterval`](#setaccelerometerinterval) set accelerometer interval value
-  - [`handleTouchesBegin`](#handletouchesbegin) 
-  - [`handleTouchesMove`](#handletouchesmove) 
-  - [`handleTouchesEnd`](#handletouchesend) 
-  - [`handleTouchesCancel`](#handletouchescancel) 
-  - [`getSetOfTouchesEndOrCancel`](#getsetoftouchesendorcancel) 
-  - [`getHTMLElementPosition`](#gethtmlelementposition) 
-  - [`getPreTouch`](#getpretouch) 
-  - [`setPreTouch`](#setpretouch) 
-  - [`getTouchByXY`](#gettouchbyxy) 
-  - [`getTouchByXY`](#gettouchbyxy) 
-  - [`getPointByEvent`](#getpointbyevent) 
-  - [`getTouchesByEvent`](#gettouchesbyevent) 
-  - [`registerSystemEvent`](#registersystemevent) 
-  - [`update`](#update) 
-  - [`lerp`](#lerp) <p>
-    Linear interpolation between 2 numbers, the ratio sets how much it is biased to each end
-</p>
-  - [`rand`](#rand) get a random number from 0 to 0xffffff
-  - [`randomMinus1To1`](#randomminus1to1) returns a random float between -1 and 1
-  - [`random0To1`](#random0to1) returns a random float between 0 and 1, use Math.random directly
-  - [`degreesToRadians`](#degreestoradians) converts degrees to radians
-  - [`radiansToDegrees`](#radianstodegrees) converts radians to degrees
-  - [`nodeDrawSetup`](#nodedrawsetup) Helpful macro that setups the GL server state, the correct GL program and sets the Model View Projection matrix
-  - [`incrementGLDraws`](#incrementgldraws) <p>
- Increments the GL Draws counts by one.<br/>
- The number of calls per frame are displayed on the screen when the CCDirector's stats are enabled.<br/>
-</p>
-  - [`checkGLErrorDebug`](#checkglerrordebug) Check webgl error.Error will be shown in console if exists.
-  - [`isValid`](#isvalid) Checks whether the object is non-nil and not yet destroyed.
-  - [`deserialize`](#deserialize) Deserialize json to cc.Asset
-  - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
   - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
 It will traverse the hierarchy by splitting the path using '/' character.
 This function will still returns the node even if it is inactive.
 It is recommended to not use this function every frame instead cache the result at startup.
+  - [`color`](#color) The convenience method to create a new Color/Color:method
+Alpha channel is optional. Default value is 255.
+  - [`colorEqual`](#colorequal) returns true if both ccColor3B are equal. Otherwise it returns false.
+  - [`hexToColor`](#hextocolor) convert a string of color for style to Color.
+e.g. "#ff06ff"  to : cc.color(255,6,255)。
+  - [`colorToHex`](#colortohex) convert Color to a string of color for style.
+e.g.  cc.color(255,6,255)  to : "#ff06ff"
   - [`pNeg`](#pneg) Returns opposite of Vec2.
   - [`pAdd`](#padd) Calculates sum of two points.
   - [`pSub`](#psub) Calculates difference of two points.
@@ -557,13 +523,6 @@ the hit point also is    p1 + s * (p2 - p1);
   - [`pSubIn`](#psubin) subtracts one point from another (inplace).
   - [`pAddIn`](#paddin) adds one point to another (inplace).
   - [`pNormalizeIn`](#pnormalizein) normalizes the point (inplace).
-  - [`color`](#color) The convenience method to create a new Color/Color:method
-Alpha channel is optional. Default value is 255.
-  - [`colorEqual`](#colorequal) returns true if both ccColor3B are equal. Otherwise it returns false.
-  - [`hexToColor`](#hextocolor) convert a string of color for style to Color.
-e.g. "#ff06ff"  to : cc.color(255,6,255)。
-  - [`colorToHex`](#colortohex) convert Color to a string of color for style.
-e.g.  cc.color(255,6,255)  to : "#ff06ff"
   - [`rect`](#rect) The convenience method to create a new Rect.
 see Rect/Rect:method
   - [`rectEqualToRect`](#rectequaltorect) Check whether a rect's value equals to another.
@@ -588,6 +547,47 @@ Please use cc.p or cc.v2 instead, it will soon replace cc.Size.
   - [`v2`](#v2) The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
   - [`p`](#p) The convenience method to creates a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
   - [`pointEqualToPoint`](#pointequaltopoint) Check whether a point's value equals to another.
+  - [`Class`](#class) Defines a CCClass using the given specification, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class.html) for details.
+  - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
+  - [`isChildClassOf`](#ischildclassof) Checks whether subclass is child of superclass or equals to superclass
+  - [`getInheritanceChain`](#getinheritancechain) Return all super classes
+  - [`Enum`](#enum) Define an enum type. <br/>
+If a enum item has a value of -1, it will be given an Integer number according to it's order in the list.<br/>
+Otherwise it will use the value specified by user who writes the enum definition.
+  - [`getList`](#getlist) 
+  - [`setAccelerometerEnabled`](#setaccelerometerenabled) whether enable accelerometer event
+  - [`setAccelerometerInterval`](#setaccelerometerinterval) set accelerometer interval value
+  - [`handleTouchesBegin`](#handletouchesbegin) 
+  - [`handleTouchesMove`](#handletouchesmove) 
+  - [`handleTouchesEnd`](#handletouchesend) 
+  - [`handleTouchesCancel`](#handletouchescancel) 
+  - [`getSetOfTouchesEndOrCancel`](#getsetoftouchesendorcancel) 
+  - [`getHTMLElementPosition`](#gethtmlelementposition) 
+  - [`getPreTouch`](#getpretouch) 
+  - [`setPreTouch`](#setpretouch) 
+  - [`getTouchByXY`](#gettouchbyxy) 
+  - [`getTouchByXY`](#gettouchbyxy) 
+  - [`getPointByEvent`](#getpointbyevent) 
+  - [`getTouchesByEvent`](#gettouchesbyevent) 
+  - [`registerSystemEvent`](#registersystemevent) 
+  - [`update`](#update) 
+  - [`lerp`](#lerp) <p>
+    Linear interpolation between 2 numbers, the ratio sets how much it is biased to each end
+</p>
+  - [`rand`](#rand) get a random number from 0 to 0xffffff
+  - [`randomMinus1To1`](#randomminus1to1) returns a random float between -1 and 1
+  - [`random0To1`](#random0to1) returns a random float between 0 and 1, use Math.random directly
+  - [`degreesToRadians`](#degreestoradians) converts degrees to radians
+  - [`radiansToDegrees`](#radianstodegrees) converts radians to degrees
+  - [`nodeDrawSetup`](#nodedrawsetup) Helpful macro that setups the GL server state, the correct GL program and sets the Model View Projection matrix
+  - [`incrementGLDraws`](#incrementgldraws) <p>
+ Increments the GL Draws counts by one.<br/>
+ The number of calls per frame are displayed on the screen when the CCDirector's stats are enabled.<br/>
+</p>
+  - [`checkGLErrorDebug`](#checkglerrordebug) Check webgl error.Error will be shown in console if exists.
+  - [`isValid`](#isvalid) Checks whether the object is non-nil and not yet destroyed.
+  - [`deserialize`](#deserialize) Deserialize json to cc.Asset
+  - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
 
 
 
@@ -2326,600 +2326,6 @@ Create an action with the specified action and forced target.
 - action <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 
-##### Class
-
-Defines a CCClass using the given specification, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class.html) for details.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:828](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L828) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-
-###### Parameters
-- options <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-	- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The class name used for serialization.
-	- extends <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The base class.
-	- ctor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The constructor.
-	- __ctor__ <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The same as ctor, but less encapsulated.
-	- properties <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The property definitions.
-	- statics <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The static members.
-	- mixins <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
-	- editor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> attributes for Component listed below.
-		- executeInEditMode <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Allows the current component to run in edit mode. By default, all components are executed only at runtime, meaning that they will not have their callback functions executed while the Editor is in edit mode.
-		- requireComponent <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Automatically add required component as a dependency.
-		- menu <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The menu path to register a component to the editors "Component" menu. Eg. "Rendering/Camera".
-		- executionOrder <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The execution order of lifecycle methods for Component. Those less than 0 will execute before while those greater than 0 will execute after. The order will only affect onLoad, onEnable, start, update and lateUpdate while onDisable and onDestroy will not be affected.
-		- disallowMultiple <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If specified to a type, prevents Component of the same type (or subtype) to be added more than once to a Node.
-		- playOnFocus <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> This property is only available when executeInEditMode is set. If specified, the editor's scene view will keep updating this node in 60 fps when it is selected, otherwise, it will update only if necessary.
-		- inspector <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Customize the page url used by the current component to render in the Properties.
-		- icon <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Customize the icon that the current component displays in the editor.
-		- help <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The custom documentation URL
-	- update <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_update" class="crosslink">update</a>
-	- lateUpdate <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_lateUpdate" class="crosslink">lateUpdate</a>
-	- onLoad <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onLoad" class="crosslink">onLoad</a>
-	- start <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_start" class="crosslink">start</a>
-	- onEnable <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onEnable" class="crosslink">onEnable</a>
-	- onDisable <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onDisable" class="crosslink">onDisable</a>
-	- onDestroy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onDestroy" class="crosslink">onDestroy</a>
-	- onFocusInEditor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onFocusInEditor" class="crosslink">onFocusInEditor</a>
-	- onLostFocusInEditor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onLostFocusInEditor" class="crosslink">onLostFocusInEditor</a>
-	- resetInEditor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_resetInEditor" class="crosslink">resetInEditor</a>
-	- onRestore <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> for Component only, see <a href="../classes/Component.html#method_onRestore" class="crosslink">onRestore</a>
-	- _getLocalBounds <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> for Component only, see <a href="../classes/Component.html#method__getLocalBounds" class="crosslink">_getLocalBounds</a>
-
-##### Example
-
-```js
-// define base class
-var Node = cc.Class();
-
-// define sub class
-var Sprite = cc.Class({
-name: 'Sprite',
-extends: Node,
-ctor: function () {
-this.url = "";
-this.id = 0;
-},
-
-statics: {
-// define static members
-count: 0,
-getBounds: function (spriteList) {
-// compute bounds...
-}
-},
-
-properties {
-width: {
-default: 128,
-type: 'Integer',
-tooltip: 'The width of sprite'
-},
-height: 128,
-size: {
-get: function () {
-return cc.v2(this.width, this.height);
-}
-}
-},
-
-load: function () {
-// load this.url...
-};
-});
-
-// instantiate
-
-var obj = new Sprite();
-obj.url = 'sprite.png';
-obj.load();
-```
-
-##### _isCCClass
-
-Checks whether the constructor is created by cc.Class
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:992](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L992) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-###### Parameters
-- constructor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-
-
-##### isChildClassOf
-
-Checks whether subclass is child of superclass or equals to superclass
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:1029](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L1029) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-###### Parameters
-- subclass <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-- superclass <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-
-
-##### getInheritanceChain
-
-Return all super classes
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:1064](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L1064) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
-
-###### Parameters
-- constructor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-
-
-##### Enum
-
-Define an enum type. <br/>
-If a enum item has a value of -1, it will be given an Integer number according to it's order in the list.<br/>
-Otherwise it will use the value specified by user who writes the enum definition.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js:33](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js#L33) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-
-###### Parameters
-- obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> a JavaScript literal object containing enum names and values, or a TypeScript enum type
-
-##### Example
-
-```js
-// JavaScript:
-
-var WrapMode = cc.Enum({
-    Repeat: -1,
-    Clamp: -1
-});
-
-// Texture.WrapMode.Repeat == 0
-// Texture.WrapMode.Clamp == 1
-// Texture.WrapMode[0] == "Repeat"
-// Texture.WrapMode[1] == "Clamp"
-
-var FlagType = cc.Enum({
-    Flag1: 1,
-    Flag2: 2,
-    Flag3: 4,
-    Flag4: 8,
-});
-
-var AtlasSizeList = cc.Enum({
-    128: 128,
-    256: 256,
-    512: 512,
-    1024: 1024,
-});
-
-// TypeScript:
-
-// If used in TypeScript, just define a TypeScript enum:
-enum Direction {
-    Up,
-    Down,
-    Left,
-    Right
-}
-
-// If you need to inspect the enum in Properties panel, you can call cc.Enum:
-const {ccclass, property} = cc._decorator;
-
-@ccclass
-class NewScript extends cc.Component {
-    @property({
-        default: Direction.Up,
-        type: cc.Enum(Direction)    // call cc.Enum
-    })
-    direction: Direction = Direction.Up;
-}
-
-```
-
-##### getList
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js:89](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js#L89) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
-
-###### Parameters
-- enumDef <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the enum type defined from cc.Enum
-
-
-##### setAccelerometerEnabled
-
-whether enable accelerometer event
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js#L37) |
-
-###### Parameters
-- isEnable <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-
-##### setAccelerometerInterval
-
-set accelerometer interval value
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js:58](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js#L58) |
-
-###### Parameters
-- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### handleTouchesBegin
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L95) |
-
-###### Parameters
-- touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### handleTouchesMove
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L130) |
-
-###### Parameters
-- touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### handleTouchesEnd
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:162](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L162) |
-
-###### Parameters
-- touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### handleTouchesCancel
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:176](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L176) |
-
-###### Parameters
-- touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### getSetOfTouchesEndOrCancel
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:190](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L190) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-###### Parameters
-- touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### getHTMLElementPosition
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:216](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L216) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-
-###### Parameters
-- element <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
-
-
-##### getPreTouch
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L254) |
-| Return 		 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-
-###### Parameters
-- touch <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-
-
-##### setPreTouch
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:274](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L274) |
-
-###### Parameters
-- touch <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-
-
-##### getTouchByXY
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:299](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L299) |
-| Return 		 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-
-###### Parameters
-- tx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- ty <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### getTouchByXY
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:316](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L316) |
-| Return 		 | <a href="../classes/Event.EventMouse.html" class="crosslink">Event.EventMouse</a> 
-
-###### Parameters
-- location <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- eventType <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### getPointByEvent
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:334](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L334) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-###### Parameters
-- event <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### getTouchesByEvent
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:349](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L349) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-###### Parameters
-- event <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### registerSystemEvent
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L387) |
-
-###### Parameters
-- element <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
-
-
-##### update
-
-
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:548](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L548) |
-
-###### Parameters
-- dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### lerp
-
-<p>
-    Linear interpolation between 2 numbers, the ratio sets how much it is biased to each end
-</p>
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1995](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1995) |
-
-###### Parameters
-- a <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number A
-- b <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number B
-- r <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> ratio between 0 and 1
-
-##### Example
-
-```js
-----
-lerp
-cc.lerp(2,10,0.5)//returns 6
-cc.lerp(2,10,0.2)//returns 3.6
-
-```
-
-##### rand
-
-get a random number from 0 to 0xffffff
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2009](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2009) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-
-##### randomMinus1To1
-
-returns a random float between -1 and 1
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2018](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2018) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-
-##### random0To1
-
-returns a random float between 0 and 1, use Math.random directly
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2027](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2027) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-
-##### degreesToRadians
-
-converts degrees to radians
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2034](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2034) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-###### Parameters
-- angle <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### radiansToDegrees
-
-converts radians to degrees
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2044](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2044) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-###### Parameters
-- angle <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### nodeDrawSetup
-
-Helpful macro that setups the GL server state, the correct GL program and sets the Model View Projection matrix
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2054](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2054) |
-
-###### Parameters
-- node <a href="../classes/Node.html" class="crosslink">Node</a> setup node
-
-
-##### incrementGLDraws
-
-<p>
- Increments the GL Draws counts by one.<br/>
- The number of calls per frame are displayed on the screen when the CCDirector's stats are enabled.<br/>
-</p>
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2106) |
-
-###### Parameters
-- addNumber <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### checkGLErrorDebug
-
-Check webgl error.Error will be shown in console if exists.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2118) |
-
-
-
-##### isValid
-
-Checks whether the object is non-nil and not yet destroyed.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:460](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L460) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-###### Parameters
-- value Any 
-
-##### Example
-
-```js
-cc.log(cc.isValid(target));
-```
-
-##### deserialize
-
-Deserialize json to cc.Asset
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:809](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L809) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-
-###### Parameters
-- data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
-- details <a href="../classes/Details.html" class="crosslink">Details</a> additional loading result
-- options <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-
-
-##### instantiate
-
-Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js:35](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js#L35) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-
-###### Parameters
-- original <a href="../classes/Prefab.html" class="crosslink">Prefab</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
-
-##### Example
-
-```js
-// instantiate node from prefab
-var scene = cc.director.getScene();
-var node = cc.instantiate(prefabAsset);
-node.parent = scene;
-// clone node
-var scene = cc.director.getScene();
-var node = cc.instantiate(targetNode);
-node.parent = scene;
-```
-
 ##### find
 
 Finds a node by hierarchy path, the path is case-sensitive.
@@ -2936,6 +2342,93 @@ It is recommended to not use this function every frame instead cache the result 
 - path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - referenceNode <a href="../classes/Node.html" class="crosslink">Node</a> 
 
+
+##### color
+
+The convenience method to create a new Color/Color:method
+Alpha channel is optional. Default value is 255.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:620](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L620) |
+| Return 		 | <a href="../classes/Color.html" class="crosslink">Color</a> 
+
+###### Parameters
+- r <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- g <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- b <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- a <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Example
+
+```js
+-----------------------
+// 1. All channels seperately as parameters
+var color1 = new cc.Color(255, 255, 255, 255);
+// 2. Convert a hex string to a color
+var color2 = new cc.Color("#000000");
+// 3. An color object as parameter
+var color3 = new cc.Color({r: 255, g: 255, b: 255, a: 255});
+
+```
+
+##### colorEqual
+
+returns true if both ccColor3B are equal. Otherwise it returns false.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:651](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L651) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+###### Parameters
+- color1 <a href="../classes/Color.html" class="crosslink">Color</a> 
+- color2 <a href="../classes/Color.html" class="crosslink">Color</a> 
+
+##### Example
+
+```js
+cc.log(cc.colorEqual(cc.Color.RED, new cc.Color(255, 0, 0))); // true
+```
+
+##### hexToColor
+
+convert a string of color for style to Color.
+e.g. "#ff06ff"  to : cc.color(255,6,255)。
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:670](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L670) |
+| Return 		 | <a href="../classes/Color.html" class="crosslink">Color</a> 
+
+###### Parameters
+- hex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+
+##### Example
+
+```js
+cc.hexToColor("#FFFF33"); // Color {r: 255, g: 255, b: 51, a: 255};
+```
+
+##### colorToHex
+
+convert Color to a string of color for style.
+e.g.  cc.color(255,6,255)  to : "#ff06ff"
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:690](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L690) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+
+###### Parameters
+- color <a href="../classes/Color.html" class="crosslink">Color</a> 
+
+##### Example
+
+```js
+var color = new cc.Color(255, 6, 255)
+cc.colorToHex(color); // #ff06ff;
+```
 
 ##### pNeg
 
@@ -3615,93 +3108,6 @@ normalizes the point (inplace).
 - v <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
-##### color
-
-The convenience method to create a new Color/Color:method
-Alpha channel is optional. Default value is 255.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:620](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L620) |
-| Return 		 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-
-###### Parameters
-- r <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- g <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- b <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- a <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Example
-
-```js
------------------------
-// 1. All channels seperately as parameters
-var color1 = new cc.Color(255, 255, 255, 255);
-// 2. Convert a hex string to a color
-var color2 = new cc.Color("#000000");
-// 3. An color object as parameter
-var color3 = new cc.Color({r: 255, g: 255, b: 255, a: 255});
-
-```
-
-##### colorEqual
-
-returns true if both ccColor3B are equal. Otherwise it returns false.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:651](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L651) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-###### Parameters
-- color1 <a href="../classes/Color.html" class="crosslink">Color</a> 
-- color2 <a href="../classes/Color.html" class="crosslink">Color</a> 
-
-##### Example
-
-```js
-cc.log(cc.colorEqual(cc.Color.RED, new cc.Color(255, 0, 0))); // true
-```
-
-##### hexToColor
-
-convert a string of color for style to Color.
-e.g. "#ff06ff"  to : cc.color(255,6,255)。
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:670](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L670) |
-| Return 		 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-
-###### Parameters
-- hex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-
-##### Example
-
-```js
-cc.hexToColor("#FFFF33"); // Color {r: 255, g: 255, b: 51, a: 255};
-```
-
-##### colorToHex
-
-convert Color to a string of color for style.
-e.g.  cc.color(255,6,255)  to : "#ff06ff"
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:690](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L690) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-
-###### Parameters
-- color <a href="../classes/Color.html" class="crosslink">Color</a> 
-
-##### Example
-
-```js
-var color = new cc.Color(255, 6, 255)
-cc.colorToHex(color); // #ff06ff;
-```
-
 ##### rect
 
 The convenience method to create a new Rect.
@@ -4128,5 +3534,599 @@ Check whether a point's value equals to another.
 - point1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - point2 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
+
+##### Class
+
+Defines a CCClass using the given specification, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class.html) for details.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:828](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L828) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+
+###### Parameters
+- options <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+	- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The class name used for serialization.
+	- extends <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The base class.
+	- ctor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The constructor.
+	- __ctor__ <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The same as ctor, but less encapsulated.
+	- properties <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The property definitions.
+	- statics <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The static members.
+	- mixins <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
+	- editor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> attributes for Component listed below.
+		- executeInEditMode <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Allows the current component to run in edit mode. By default, all components are executed only at runtime, meaning that they will not have their callback functions executed while the Editor is in edit mode.
+		- requireComponent <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Automatically add required component as a dependency.
+		- menu <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The menu path to register a component to the editors "Component" menu. Eg. "Rendering/Camera".
+		- executionOrder <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The execution order of lifecycle methods for Component. Those less than 0 will execute before while those greater than 0 will execute after. The order will only affect onLoad, onEnable, start, update and lateUpdate while onDisable and onDestroy will not be affected.
+		- disallowMultiple <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If specified to a type, prevents Component of the same type (or subtype) to be added more than once to a Node.
+		- playOnFocus <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> This property is only available when executeInEditMode is set. If specified, the editor's scene view will keep updating this node in 60 fps when it is selected, otherwise, it will update only if necessary.
+		- inspector <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Customize the page url used by the current component to render in the Properties.
+		- icon <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Customize the icon that the current component displays in the editor.
+		- help <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The custom documentation URL
+	- update <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_update" class="crosslink">update</a>
+	- lateUpdate <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_lateUpdate" class="crosslink">lateUpdate</a>
+	- onLoad <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onLoad" class="crosslink">onLoad</a>
+	- start <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_start" class="crosslink">start</a>
+	- onEnable <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onEnable" class="crosslink">onEnable</a>
+	- onDisable <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onDisable" class="crosslink">onDisable</a>
+	- onDestroy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onDestroy" class="crosslink">onDestroy</a>
+	- onFocusInEditor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onFocusInEditor" class="crosslink">onFocusInEditor</a>
+	- onLostFocusInEditor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onLostFocusInEditor" class="crosslink">onLostFocusInEditor</a>
+	- resetInEditor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_resetInEditor" class="crosslink">resetInEditor</a>
+	- onRestore <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> for Component only, see <a href="../classes/Component.html#method_onRestore" class="crosslink">onRestore</a>
+	- _getLocalBounds <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> for Component only, see <a href="../classes/Component.html#method__getLocalBounds" class="crosslink">_getLocalBounds</a>
+
+##### Example
+
+```js
+// define base class
+var Node = cc.Class();
+
+// define sub class
+var Sprite = cc.Class({
+name: 'Sprite',
+extends: Node,
+ctor: function () {
+this.url = "";
+this.id = 0;
+},
+
+statics: {
+// define static members
+count: 0,
+getBounds: function (spriteList) {
+// compute bounds...
+}
+},
+
+properties {
+width: {
+default: 128,
+type: 'Integer',
+tooltip: 'The width of sprite'
+},
+height: 128,
+size: {
+get: function () {
+return cc.v2(this.width, this.height);
+}
+}
+},
+
+load: function () {
+// load this.url...
+};
+});
+
+// instantiate
+
+var obj = new Sprite();
+obj.url = 'sprite.png';
+obj.load();
+```
+
+##### _isCCClass
+
+Checks whether the constructor is created by cc.Class
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:992](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L992) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+###### Parameters
+- constructor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+
+
+##### isChildClassOf
+
+Checks whether subclass is child of superclass or equals to superclass
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:1029](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L1029) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+###### Parameters
+- subclass <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- superclass <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+
+
+##### getInheritanceChain
+
+Return all super classes
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:1064](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L1064) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
+
+###### Parameters
+- constructor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+
+
+##### Enum
+
+Define an enum type. <br/>
+If a enum item has a value of -1, it will be given an Integer number according to it's order in the list.<br/>
+Otherwise it will use the value specified by user who writes the enum definition.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js:33](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js#L33) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+
+###### Parameters
+- obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> a JavaScript literal object containing enum names and values, or a TypeScript enum type
+
+##### Example
+
+```js
+// JavaScript:
+
+var WrapMode = cc.Enum({
+    Repeat: -1,
+    Clamp: -1
+});
+
+// Texture.WrapMode.Repeat == 0
+// Texture.WrapMode.Clamp == 1
+// Texture.WrapMode[0] == "Repeat"
+// Texture.WrapMode[1] == "Clamp"
+
+var FlagType = cc.Enum({
+    Flag1: 1,
+    Flag2: 2,
+    Flag3: 4,
+    Flag4: 8,
+});
+
+var AtlasSizeList = cc.Enum({
+    128: 128,
+    256: 256,
+    512: 512,
+    1024: 1024,
+});
+
+// TypeScript:
+
+// If used in TypeScript, just define a TypeScript enum:
+enum Direction {
+    Up,
+    Down,
+    Left,
+    Right
+}
+
+// If you need to inspect the enum in Properties panel, you can call cc.Enum:
+const {ccclass, property} = cc._decorator;
+
+@ccclass
+class NewScript extends cc.Component {
+    @property({
+        default: Direction.Up,
+        type: cc.Enum(Direction)    // call cc.Enum
+    })
+    direction: Direction = Direction.Up;
+}
+
+```
+
+##### getList
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js:89](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js#L89) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
+
+###### Parameters
+- enumDef <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the enum type defined from cc.Enum
+
+
+##### setAccelerometerEnabled
+
+whether enable accelerometer event
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js#L37) |
+
+###### Parameters
+- isEnable <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+
+##### setAccelerometerInterval
+
+set accelerometer interval value
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js:58](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js#L58) |
+
+###### Parameters
+- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### handleTouchesBegin
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L95) |
+
+###### Parameters
+- touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### handleTouchesMove
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L130) |
+
+###### Parameters
+- touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### handleTouchesEnd
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:162](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L162) |
+
+###### Parameters
+- touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### handleTouchesCancel
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:176](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L176) |
+
+###### Parameters
+- touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### getSetOfTouchesEndOrCancel
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:190](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L190) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+###### Parameters
+- touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### getHTMLElementPosition
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:216](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L216) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+
+###### Parameters
+- element <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
+
+
+##### getPreTouch
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L254) |
+| Return 		 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+
+###### Parameters
+- touch <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+
+
+##### setPreTouch
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:274](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L274) |
+
+###### Parameters
+- touch <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+
+
+##### getTouchByXY
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:299](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L299) |
+| Return 		 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+
+###### Parameters
+- tx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- ty <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### getTouchByXY
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:316](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L316) |
+| Return 		 | <a href="../classes/Event.EventMouse.html" class="crosslink">Event.EventMouse</a> 
+
+###### Parameters
+- location <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- eventType <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### getPointByEvent
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:334](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L334) |
+| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+###### Parameters
+- event <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### getTouchesByEvent
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:349](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L349) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+###### Parameters
+- event <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### registerSystemEvent
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L387) |
+
+###### Parameters
+- element <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
+
+
+##### update
+
+
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:548](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L548) |
+
+###### Parameters
+- dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### lerp
+
+<p>
+    Linear interpolation between 2 numbers, the ratio sets how much it is biased to each end
+</p>
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1995](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1995) |
+
+###### Parameters
+- a <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number A
+- b <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number B
+- r <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> ratio between 0 and 1
+
+##### Example
+
+```js
+----
+lerp
+cc.lerp(2,10,0.5)//returns 6
+cc.lerp(2,10,0.2)//returns 3.6
+
+```
+
+##### rand
+
+get a random number from 0 to 0xffffff
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2009](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2009) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+
+##### randomMinus1To1
+
+returns a random float between -1 and 1
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2018](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2018) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+
+##### random0To1
+
+returns a random float between 0 and 1, use Math.random directly
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2027](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2027) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+
+##### degreesToRadians
+
+converts degrees to radians
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2034](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2034) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+###### Parameters
+- angle <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### radiansToDegrees
+
+converts radians to degrees
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2044](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2044) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+###### Parameters
+- angle <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### nodeDrawSetup
+
+Helpful macro that setups the GL server state, the correct GL program and sets the Model View Projection matrix
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2054](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2054) |
+
+###### Parameters
+- node <a href="../classes/Node.html" class="crosslink">Node</a> setup node
+
+
+##### incrementGLDraws
+
+<p>
+ Increments the GL Draws counts by one.<br/>
+ The number of calls per frame are displayed on the screen when the CCDirector's stats are enabled.<br/>
+</p>
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2106) |
+
+###### Parameters
+- addNumber <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### checkGLErrorDebug
+
+Check webgl error.Error will be shown in console if exists.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2118) |
+
+
+
+##### isValid
+
+Checks whether the object is non-nil and not yet destroyed.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:460](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L460) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+###### Parameters
+- value Any 
+
+##### Example
+
+```js
+cc.log(cc.isValid(target));
+```
+
+##### deserialize
+
+Deserialize json to cc.Asset
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:809](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L809) |
+| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+
+###### Parameters
+- data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
+- details <a href="../classes/Details.html" class="crosslink">Details</a> additional loading result
+- options <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+
+
+##### instantiate
+
+Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
+
+| meta | description |
+|------|-------------|
+| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js:35](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js#L35) |
+| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+
+###### Parameters
+- original <a href="../classes/Prefab.html" class="crosslink">Prefab</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
+
+##### Example
+
+```js
+// instantiate node from prefab
+var scene = cc.director.getScene();
+var node = cc.instantiate(prefabAsset);
+node.parent = scene;
+// clone node
+var scene = cc.director.getScene();
+var node = cc.instantiate(targetNode);
+node.parent = scene;
+```
 
 

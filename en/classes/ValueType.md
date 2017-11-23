@@ -4,7 +4,6 @@
 Defined in: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:31](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L31)
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
