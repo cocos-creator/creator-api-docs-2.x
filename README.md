@@ -16,11 +16,7 @@ gitbook install
 gitbook serve
 ```
 
-## Customize Style and Template
-
-To customize styles, modify [zh/styles/website.css](zh/styles/website.css) and [en/styles/website.css](en/styles/website.css).
-
-To change HTML templates, change the content in [zh/_layouts](zh/_layouts) and [en/_layouts](en/_layouts). Check out [Templating Guide](https://toolchain.gitbook.com/templating/) for gitbook.
+See [https://github.com/cocos-creator/creator-docs](https://github.com/cocos-creator/creator-docs) for details of build and templates.
 
 ## Contribution
 
