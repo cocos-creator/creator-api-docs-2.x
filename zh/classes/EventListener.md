@@ -1,8 +1,8 @@
-## `EventListener` Class
+## `EventListener` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
@@ -10,9 +10,9 @@ Module: [cc](../modules/cc.md)
 封装用户的事件处理逻辑。
 注意：这是一个抽象类，开发者不应该直接实例化这个类，请参考 <a href="../classes/EventListener.html#method_create" class="crosslink">cc.EventListener.create</a>。
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`UNKNOWN`](#unknown) `Number` 未知的事件监听器类型
   - [`KEYBOARD`](#keyboard) `Number` 键盘事件监听器类型
@@ -20,7 +20,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-##### Methods
+##### 方法
 
   - [`constructor`](#constructor) Constructor
   - [`checkAvailable`](#checkavailable) 检测监听器是否有效
@@ -34,7 +34,7 @@ Module: [cc](../modules/cc.md)
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### UNKNOWN
@@ -43,8 +43,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:252](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L252) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:252](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L252) |
 
 
 
@@ -54,8 +54,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:276](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L276) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:276](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L276) |
 
 
 
@@ -65,8 +65,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L292) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L292) |
 
 
 
@@ -74,7 +74,7 @@ Module: [cc](../modules/cc.md)
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### constructor
@@ -83,9 +83,9 @@ Constructor
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L44) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L44) |
 
-###### Parameters
+###### 参数列表
 - type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - listenerID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -97,8 +97,8 @@ Constructor
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:173](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L173) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:173](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L173) |
 
 
 
@@ -108,8 +108,8 @@ Constructor
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L183) |
-| Return 		 | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
+| 返回 | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L183) |
 
 
 
@@ -119,9 +119,9 @@ Constructor
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:193](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L193) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:193](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L193) |
 
-###### Parameters
+###### 参数列表
 - enabled <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -131,8 +131,8 @@ Constructor
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:207](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L207) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:207](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L207) |
 
 
 
@@ -142,13 +142,13 @@ Constructor
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L453) |
-| Return 		 | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
+| 返回 | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L453) |
 
-###### Parameters
+###### 参数列表
 - argObj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a json object
 
-##### Example
+##### 示例
 
 ```js
 // Create KEYBOARD EventListener.

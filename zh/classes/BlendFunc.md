@@ -1,20 +1,20 @@
-## `BlendFunc` Class
+## `BlendFunc` 类型
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 
 
 图像的混合方式。
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`constructor`](#constructor) 
 
@@ -26,7 +26,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### constructor
@@ -35,9 +35,9 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:56](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L56) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:56](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L56) |
 
-###### Parameters
+###### 参数列表
 - src1 <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> source blend function
 - dst1 <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> destination blend function
 

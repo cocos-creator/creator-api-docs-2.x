@@ -1,24 +1,24 @@
-### `Layout.VerticalDirection` Enum
+### `Layout.VerticalDirection` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 垂直方向布局方式
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `BOTTOM_TO_TOP`
   - `TOP_TO_BOTTOM`
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### BOTTOM_TO_TOP
@@ -27,8 +27,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L117) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L117) |
 
 
 
@@ -38,7 +38,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L123) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L123) |
 
 

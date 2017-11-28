@@ -1,18 +1,18 @@
-## `Details` Class
+## `Details` 类型
 
 
 
-Module: [_decorator](../modules/_decorator.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [_decorator](../modules/_decorator.md)
+父模块: [cc](../modules/cc.md)
 
 
 
 
 包含反序列化时的一些信息
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`uuidList`](#uuidlist) `String[]` list of the depends assets' uuid
   - [`uuidObjList`](#uuidobjlist) `Object[]` the obj list whose field needs to load asset by uuid
@@ -21,7 +21,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-##### Methods
+##### 方法
 
   - [`reset`](#reset) 
   - [`getUuidOf`](#getuuidof) 
@@ -32,7 +32,7 @@ Parent Module: [cc](../modules/cc.md)
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### uuidList
@@ -41,8 +41,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L50) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L50) |
 
 
 
@@ -52,8 +52,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L55) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L55) |
 
 
 
@@ -63,8 +63,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L60) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L60) |
 
 
 
@@ -74,8 +74,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L66) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L66) |
 
 
 
@@ -83,7 +83,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### reset
@@ -92,7 +92,7 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:72](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L72) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:72](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L72) |
 
 
 
@@ -102,10 +102,10 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:93](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L93) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:93](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L93) |
 
-###### Parameters
+###### 参数列表
 - obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - propName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
@@ -116,9 +116,9 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L107) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L107) |
 
-###### Parameters
+###### 参数列表
 - obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - propName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - uuid <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 

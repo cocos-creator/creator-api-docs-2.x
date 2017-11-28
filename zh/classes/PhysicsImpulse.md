@@ -1,17 +1,17 @@
-## `PhysicsImpulse` Class
+## `PhysicsImpulse` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 用于返回给回调的接触冲量。
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`normalImpulses`](#normalimpulses) `Unknown` 法线方向的冲量
   - [`tangentImpulses`](#tangentimpulses) `Unknown` 切线方向的冲量
@@ -23,7 +23,7 @@ Module: [cc](../modules/cc.md)
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### normalImpulses
@@ -32,8 +32,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | Unknown |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:160](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L160) |
+| 类型 | Unknown |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:160](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L160) |
 
 
 
@@ -43,8 +43,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | Unknown |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L168) |
+| 类型 | Unknown |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L168) |
 
 
 

@@ -1,18 +1,18 @@
-## `Collider.Polygon` Class
+## `Collider.Polygon` 类型
 
 
-Defined in: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L29)
+定义于: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L29)
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 用来定义多边形碰撞体
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`offset`](#offset) `Vec2` 位置偏移量
   - [`points`](#points) `[Vec2]` 多边形顶点数组
@@ -24,7 +24,7 @@ Module: [cc](../modules/cc.md)
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### offset
@@ -33,8 +33,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L44) |
+| 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L44) |
 
 
 
@@ -44,8 +44,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Vec2.html" class="crosslink">[Vec2]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L60) |
+| 类型 | <a href="../classes/Vec2.html" class="crosslink">[Vec2]</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L60) |
 
 
 

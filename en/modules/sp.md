@@ -6,7 +6,8 @@
 
 
 
-
+The global main namespace of Spine, all classes, functions,
+properties and constants of Spine are defined in this namespace
 
 
 ### Classes

@@ -1,17 +1,17 @@
-### `RECResultCode` Enum
+### `RECResultCode` 枚举
 
 
 
-Module: [anysdk](../modules/anysdk.md)
+模块: [anysdk](../modules/anysdk.md)
 
 
 
 
 录屏系统回调
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `kRECInitSuccess`
   - `kRECInitFail`
@@ -27,7 +27,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### kRECInitSuccess
@@ -36,8 +36,8 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2715](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2715) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2715](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2715) |
 
 
 
@@ -47,8 +47,8 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2722](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2722) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2722](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2722) |
 
 
 
@@ -58,8 +58,8 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2729](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2729) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2729](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2729) |
 
 
 
@@ -69,8 +69,8 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2736](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2736) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2736](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2736) |
 
 
 
@@ -80,8 +80,8 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2743](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2743) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2743](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2743) |
 
 
 
@@ -91,8 +91,8 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2750](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2750) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2750](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2750) |
 
 
 
@@ -102,8 +102,8 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2757](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2757) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2757](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2757) |
 
 
 
@@ -113,8 +113,8 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2764](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2764) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2764](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2764) |
 
 
 
@@ -124,8 +124,8 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2771](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2771) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2771](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2771) |
 
 
 
@@ -135,8 +135,8 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2778](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2778) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2778](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2778) |
 
 
 
@@ -146,7 +146,7 @@ Module: [anysdk](../modules/anysdk.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2785](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2785) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:2785](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L2785) |
 
 

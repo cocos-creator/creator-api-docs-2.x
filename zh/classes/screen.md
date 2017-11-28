@@ -1,9 +1,9 @@
-## `screen` Class
+## `screen` 类型
 
 
 
-Module: [_decorator](../modules/_decorator.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [_decorator](../modules/_decorator.md)
+父模块: [cc](../modules/cc.md)
 
 
 
@@ -11,11 +11,11 @@ Parent Module: [cc](../modules/cc.md)
 The fullscreen API provides an easy way for web content to be presented using the user's entire screen.
 It's invalid on safari, QQbrowser and android browser
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`init`](#init) initialize
   - [`fullScreen`](#fullscreen) return true if it's full now.
@@ -31,7 +31,7 @@ It's invalid on safari, QQbrowser and android browser
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### init
@@ -40,7 +40,7 @@ initialize
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L80) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L80) |
 
 
 
@@ -50,8 +50,8 @@ return true if it's full now.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L101) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L101) |
 
 
 
@@ -61,9 +61,9 @@ change the screen to full mode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:114](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L114) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:114](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L114) |
 
-###### Parameters
+###### 参数列表
 - element Element 
 - onFullScreenChange <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
@@ -74,8 +74,8 @@ exit the full mode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:139](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L139) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:139](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L139) |
 
 
 
@@ -85,9 +85,9 @@ Automatically request full screen with a touch/click event
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:148](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L148) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:148](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L148) |
 
-###### Parameters
+###### 参数列表
 - element Element 
 - onFullScreenChange <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 

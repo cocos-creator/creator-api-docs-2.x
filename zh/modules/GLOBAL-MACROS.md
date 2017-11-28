@@ -1,20 +1,46 @@
 
-## `GLOBAL-MACROS` Module
+## `GLOBAL-MACROS` 模块
 
 
 
 
 
 
+这里是一些用来判断执行环境的宏，这些宏都是全局变量，直接访问即可。<br>
+在项目构建时，这些宏将会被预处理并根据构建的平台剔除不需要的代码，例如
+
+    if (CC_DEBUG) {
+        cc.log('debug');
+    }
+    else {
+        cc.log('release');
+    }
+
+在构建后会只剩下
+
+    cc.log('release');
+
+（好棒棒）<br>
+<br>
+如需判断脚本是否运行于指定平台，可以用如下表达式：
+
+    {
+        "编辑器":  CC_EDITOR,
+        "编辑器 或 预览":  CC_DEV,
+        "编辑器 或 预览 或 构建调试":  CC_DEBUG,
+        "网页预览":  CC_PREVIEW && !CC_JSB,
+        "模拟器预览":  CC_PREVIEW && CC_JSB,
+        "构建调试":  CC_BUILD && CC_DEBUG,
+        "构建发行":  CC_BUILD && !CC_DEBUG,
+    }
 
 
 
 
 
+### 索引
 
-### Index
-
-##### Properties
+##### 属性（properties）
 
   - [`CC_EDITOR`](#cceditor) `Boolean` Running in the editor.
   - [`CC_PREVIEW`](#ccpreview) `Boolean` Preview in browser or simulator.
@@ -31,7 +57,7 @@
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### CC_EDITOR
@@ -40,8 +66,8 @@
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:91](https:/github.com/cocos-creator/engine/blob/master/index.js#L91) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/index.js:91](https:/github.com/cocos-creator/engine/blob/master/index.js#L91) |
 
 
 
@@ -51,8 +77,8 @@
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:94](https:/github.com/cocos-creator/engine/blob/master/index.js#L94) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/index.js:94](https:/github.com/cocos-creator/engine/blob/master/index.js#L94) |
 
 
 
@@ -62,8 +88,8 @@
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:97](https:/github.com/cocos-creator/engine/blob/master/index.js#L97) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/index.js:97](https:/github.com/cocos-creator/engine/blob/master/index.js#L97) |
 
 
 
@@ -73,8 +99,8 @@
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:100](https:/github.com/cocos-creator/engine/blob/master/index.js#L100) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/index.js:100](https:/github.com/cocos-creator/engine/blob/master/index.js#L100) |
 
 
 
@@ -84,8 +110,8 @@
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:103](https:/github.com/cocos-creator/engine/blob/master/index.js#L103) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/index.js:103](https:/github.com/cocos-creator/engine/blob/master/index.js#L103) |
 
 
 
@@ -95,8 +121,8 @@
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:106](https:/github.com/cocos-creator/engine/blob/master/index.js#L106) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/index.js:106](https:/github.com/cocos-creator/engine/blob/master/index.js#L106) |
 
 
 
@@ -106,8 +132,8 @@
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/index.js:109](https:/github.com/cocos-creator/engine/blob/master/index.js#L109) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/index.js:109](https:/github.com/cocos-creator/engine/blob/master/index.js#L109) |
 
 
 

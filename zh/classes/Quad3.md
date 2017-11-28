@@ -1,20 +1,20 @@
-## `Quad3` Class
+## `Quad3` 类型
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 
 
 A 3D Quad. 4 * 3 floats
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`constructor`](#constructor) 
 
@@ -26,7 +26,7 @@ A 3D Quad. 4 * 3 floats
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### constructor
@@ -35,9 +35,9 @@ A 3D Quad. 4 * 3 floats
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L318) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L318) |
 
-###### Parameters
+###### 参数列表
 - bl1 <a href="../classes/Vertex3F.html" class="crosslink">Vertex3F</a> 
 - br1 <a href="../classes/Vertex3F.html" class="crosslink">Vertex3F</a> 
 - tl1 <a href="../classes/Vertex3F.html" class="crosslink">Vertex3F</a> 

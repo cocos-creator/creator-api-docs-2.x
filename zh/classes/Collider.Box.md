@@ -1,17 +1,17 @@
-## `Collider.Box` Class
+## `Collider.Box` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 用来定义包围盒碰撞体
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`offset`](#offset) `Vec2` 位置偏移量
   - [`size`](#size) `Size` 包围盒大小
@@ -23,7 +23,7 @@ Module: [cc](../modules/cc.md)
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### offset
@@ -32,8 +32,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCBoxCollider.js:40](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCBoxCollider.js#L40) |
+| 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCBoxCollider.js:40](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCBoxCollider.js#L40) |
 
 
 
@@ -43,8 +43,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCBoxCollider.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCBoxCollider.js#L57) |
+| 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCBoxCollider.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCBoxCollider.js#L57) |
 
 
 

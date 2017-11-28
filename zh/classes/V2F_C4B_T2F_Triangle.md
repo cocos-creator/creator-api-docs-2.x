@@ -1,20 +1,20 @@
-## `V2F_C4B_T2F_Triangle` Class
+## `V2F_C4B_T2F_Triangle` 类型
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 
 
 
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`constructor`](#constructor) 
 
@@ -26,7 +26,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### constructor
@@ -35,9 +35,9 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:619](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L619) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:619](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L619) |
 
-###### Parameters
+###### 参数列表
 - a <a href="../classes/V2F_C4B_T2F.html" class="crosslink">V2F_C4B_T2F</a> 
 - b <a href="../classes/V2F_C4B_T2F.html" class="crosslink">V2F_C4B_T2F</a> 
 - c <a href="../classes/V2F_C4B_T2F.html" class="crosslink">V2F_C4B_T2F</a> 

@@ -33,7 +33,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:40](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L40) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:40](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L40) |
 
 
 
@@ -44,7 +44,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:48](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L48) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:48](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L48) |
 
 
 
@@ -55,7 +55,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:56](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L56) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:56](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L56) |
 
 
 
@@ -66,7 +66,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:64](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L64) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:64](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L64) |
 
 
 
@@ -77,7 +77,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:72](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L72) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:72](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L72) |
 
 
 
@@ -88,7 +88,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:80](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L80) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:80](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L80) |
 
 
 
@@ -99,6 +99,6 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:88](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L88) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:88](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L88) |
 
 
