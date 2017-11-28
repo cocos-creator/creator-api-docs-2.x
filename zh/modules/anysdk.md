@@ -1,15 +1,16 @@
 
-## `anysdk` Module
+## `anysdk` 模块
 
 
 
 
 
 
+AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程，不改变任何 SDK 的功能、特性、参数等，对于最终玩家而言是完全透明无感知的。
+目的是让 CP 商能有更多时间更专注于游戏本身的品质，所有 SDK 的接入工作统统交给我们吧。第三方 SDK 包括了渠道SDK、用户系统、支付系统、广告系统、统计系统、分享系统等等。
 
 
-
-### Classes
+### 类型
 
   - [AgentManager](../classes/AgentManager.md)
   - [PluginProtocol](../classes/PluginProtocol.md)
@@ -41,7 +42,7 @@
   - [CustomResultCode](../classes/CustomResultCode.md)
   - [RECResultCode](../classes/RECResultCode.md)
 
-### Enums
+### 枚举
 
   - [UserActionResultCode](../enums/UserActionResultCode.md)
   - [ToolBarPlace](../enums/ToolBarPlace.md)
@@ -60,9 +61,9 @@
   - [RECResultCode](../enums/RECResultCode.md)
 
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`agentManager`](#agentmanager) `anysdk.AgentManager` 插件管理对象
 
@@ -73,7 +74,7 @@
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### agentManager
@@ -82,8 +83,8 @@
 
 | meta | description |
 |------|-------------|
-| Type | anysdk.AgentManager |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:39](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L39) |
+| 类型 | anysdk.AgentManager |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:39](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L39) |
 
 
 

@@ -1,9 +1,9 @@
-## `ResolutionPolicy` Class
+## `ResolutionPolicy` 类型
 
 
 
-Module: [_decorator](../modules/_decorator.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [_decorator](../modules/_decorator.md)
+父模块: [cc](../modules/cc.md)
 
 
 
@@ -11,9 +11,9 @@ Parent Module: [cc](../modules/cc.md)
 <p>cc.ResolutionPolicy class is the root strategy class of scale strategy,
 its main task is to maintain the compatibility with Cocos2d-x</p>
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`EXACT_FIT`](#exactfit) `Number` The entire application is visible in the specified area without trying to preserve the original aspect ratio.<br/>
 Distortion can occur, and the application may appear stretched or compressed.
@@ -33,7 +33,7 @@ aspect ratios
 
 
 
-##### Methods
+##### 方法
 
   - [`constructor`](#constructor) 
   - [`preApply`](#preapply) Manipulation before applying the resolution policy
@@ -49,7 +49,7 @@ The target view can then apply these value to itself, it's preferred not to modi
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### EXACT_FIT
@@ -59,8 +59,8 @@ Distortion can occur, and the application may appear stretched or compressed.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1420](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1420) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1420](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1420) |
 
 
 
@@ -71,8 +71,8 @@ while maintaining the original aspect ratio of the application.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1429](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1429) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1429](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1429) |
 
 
 
@@ -83,8 +83,8 @@ aspect ratio of the application. Borders can appear on two sides of the applicat
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1438) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1438) |
 
 
 
@@ -97,8 +97,8 @@ aspect ratios
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1447) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1447) |
 
 
 
@@ -111,8 +111,8 @@ aspect ratios
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1458](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1458) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1458](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1458) |
 
 
 
@@ -122,8 +122,8 @@ aspect ratios
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1469](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1469) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1469](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1469) |
 
 
 
@@ -131,7 +131,7 @@ aspect ratios
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### constructor
@@ -140,9 +140,9 @@ aspect ratios
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1342](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1342) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1342](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1342) |
 
-###### Parameters
+###### 参数列表
 - containerStg <a href="../classes/ContainerStrategy.html" class="crosslink">ContainerStrategy</a> The container strategy
 - contentStg <a href="../classes/ContentStrategy.html" class="crosslink">ContentStrategy</a> The content strategy
 
@@ -153,9 +153,9 @@ Manipulation before applying the resolution policy
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1361](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1361) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1361](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1361) |
 
-###### Parameters
+###### 参数列表
 - view <a href="../classes/View.html" class="crosslink">View</a> The target view
 
 
@@ -167,10 +167,10 @@ The target view can then apply these value to itself, it's preferred not to modi
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1371](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1371) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1371](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1371) |
 
-###### Parameters
+###### 参数列表
 - view <a href="../classes/View.html" class="crosslink">View</a> The target view
 - designedResolution <a href="../classes/Size.html" class="crosslink">Size</a> The user defined design resolution
 
@@ -181,9 +181,9 @@ Manipulation after appyling the strategy
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1385) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1385) |
 
-###### Parameters
+###### 参数列表
 - view <a href="../classes/View.html" class="crosslink">View</a> The target view
 
 
@@ -193,9 +193,9 @@ Setup the container's scale strategy
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1395](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1395) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1395](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1395) |
 
-###### Parameters
+###### 参数列表
 - containerStg <a href="../classes/ContainerStrategy.html" class="crosslink">ContainerStrategy</a> 
 
 
@@ -205,9 +205,9 @@ Setup the content's scale strategy
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1405](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1405) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1405](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1405) |
 
-###### Parameters
+###### 参数列表
 - contentStg <a href="../classes/ContentStrategy.html" class="crosslink">ContentStrategy</a> 
 
 

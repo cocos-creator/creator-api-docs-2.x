@@ -1,20 +1,20 @@
-## `V3F_C4B_T2F` Class
+## `V3F_C4B_T2F` 类型
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 
 
 
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`constructor`](#constructor) 
   - [`BYTES_PER_ELEMENT`](#bytesperelement) 
@@ -27,7 +27,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### constructor
@@ -36,9 +36,9 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:350](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L350) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:350](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L350) |
 
-###### Parameters
+###### 参数列表
 - vertices <a href="../classes/Vertex3F.html" class="crosslink">Vertex3F</a> 
 - colors <a href="../classes/Color.html" class="crosslink">Color</a> 
 - texCoords <a href="../classes/Tex2F.html" class="crosslink">Tex2F</a> 
@@ -52,7 +52,7 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:374](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L374) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:374](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L374) |
 
 
 

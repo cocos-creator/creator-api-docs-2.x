@@ -30,7 +30,7 @@ Enum for Layout type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L36) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L36) |
 
 
 
@@ -41,7 +41,7 @@ Enum for Layout type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:42](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L42) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:42](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L42) |
 
 
 
@@ -52,7 +52,7 @@ Enum for Layout type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L49) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L49) |
 
 
 
@@ -63,6 +63,6 @@ Enum for Layout type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L55) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L55) |
 
 

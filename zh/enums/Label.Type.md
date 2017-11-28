@@ -1,17 +1,17 @@
-### `Label.Type` Enum
+### `Label.Type` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 Type 类型
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `TTF`
   - `BMFont`
@@ -19,7 +19,7 @@ Type 类型
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### TTF
@@ -28,8 +28,8 @@ Type 类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L107) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L107) |
 
 
 
@@ -39,8 +39,8 @@ Type 类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:112](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L112) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:112](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L112) |
 
 
 
@@ -50,7 +50,7 @@ Type 类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L117) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L117) |
 
 

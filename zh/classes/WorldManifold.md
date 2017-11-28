@@ -1,17 +1,17 @@
-## `WorldManifold` Class
+## `WorldManifold` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`points`](#points) `[Vec2]` 碰撞点集合
   - [`normal`](#normal) `Vec2` 世界坐标系下由 A 指向 B 的向量
@@ -23,7 +23,7 @@ Module: [cc](../modules/cc.md)
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### points
@@ -32,8 +32,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Vec2.html" class="crosslink">[Vec2]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:24](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L24) |
+| 类型 | <a href="../classes/Vec2.html" class="crosslink">[Vec2]</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:24](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L24) |
 
 
 
@@ -43,8 +43,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L41) |
+| 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L41) |
 
 
 

@@ -1,17 +1,17 @@
-### `WrapMode` Enum
+### `WrapMode` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 动画使用的循环模式。
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `Default`
   - `Normal`
@@ -23,7 +23,7 @@ Module: [cc](../modules/cc.md)
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### Default
@@ -32,8 +32,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:22](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L22) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:22](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L22) |
 
 
 
@@ -43,8 +43,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L29) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L29) |
 
 
 
@@ -54,8 +54,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L36) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L36) |
 
 
 
@@ -65,8 +65,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L43) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L43) |
 
 
 
@@ -76,8 +76,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L50) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L50) |
 
 
 
@@ -87,8 +87,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:58](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L58) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:58](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L58) |
 
 
 
@@ -98,7 +98,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L66) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/types.js#L66) |
 
 

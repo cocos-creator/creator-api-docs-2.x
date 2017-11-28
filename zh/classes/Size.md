@@ -1,9 +1,9 @@
-## `Size` Class
+## `Size` 类型
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 
@@ -13,9 +13,9 @@ cc.Size 是 size 对象的类。<br/>
 使用 <a href="../modules/cc.html#method_size" class="crosslink">size</a> 别名函数。<br/>
 它不久将被取消，请使用cc.Vec2代替。
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`width`](#width) `Number` 
   - [`height`](#height) `Number` 
@@ -23,7 +23,7 @@ cc.Size 是 size 对象的类。<br/>
 
 
 
-##### Methods
+##### 方法
 
   - [`constructor`](#constructor) 
   - [`clone`](#clone) 克隆 size 对象。
@@ -36,7 +36,7 @@ cc.Size 是 size 对象的类。<br/>
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### width
@@ -45,8 +45,8 @@ cc.Size 是 size 对象的类。<br/>
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:63](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L63) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:63](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L63) |
 
 
 
@@ -56,8 +56,8 @@ cc.Size 是 size 对象的类。<br/>
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L66) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L66) |
 
 
 
@@ -67,8 +67,8 @@ cc.Size 是 size 对象的类。<br/>
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L70) |
+| 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L70) |
 
 
 
@@ -76,7 +76,7 @@ cc.Size 是 size 对象的类。<br/>
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### constructor
@@ -85,9 +85,9 @@ cc.Size 是 size 对象的类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L47) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L47) |
 
-###### Parameters
+###### 参数列表
 - width <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> 
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
@@ -98,11 +98,11 @@ cc.Size 是 size 对象的类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:84](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L84) |
-| Return 		 | <a href="../classes/Size.html" class="crosslink">Size</a> 
+| 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:84](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L84) |
 
 
-##### Example
+##### 示例
 
 ```js
 var a = new cc.size(10, 10);
@@ -115,13 +115,13 @@ a.clone();// return Size {width: 0, height: 0};
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L97) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L97) |
 
-###### Parameters
+###### 参数列表
 - other <a href="../classes/Size.html" class="crosslink">Size</a> 
 
-##### Example
+##### 示例
 
 ```js
 var a = new cc.size(10, 10);
@@ -134,15 +134,15 @@ a.equals(new cc.size(10, 10));// return true;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:113](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L113) |
-| Return 		 | <a href="../classes/Size.html" class="crosslink">Size</a> 
+| 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:113](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L113) |
 
-###### Parameters
+###### 参数列表
 - to <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 - ratio <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the interpolation coefficient.
 - out <a href="../classes/Size.html" class="crosslink">Size</a> optional, the receiving vector.
 
-##### Example
+##### 示例
 
 ```js
 var a = new cc.size(10, 10);
@@ -161,11 +161,11 @@ update (dt) {
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:140](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L140) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:140](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L140) |
 
 
-##### Example
+##### 示例
 
 ```js
 var a = new cc.size(10, 10);

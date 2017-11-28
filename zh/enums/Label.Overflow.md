@@ -1,17 +1,17 @@
-### `Label.Overflow` Enum
+### `Label.Overflow` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 Overflow 类型
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `NONE`
   - `CLAMP`
@@ -20,7 +20,7 @@ Overflow 类型
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### NONE
@@ -29,8 +29,8 @@ Overflow 类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L80) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L80) |
 
 
 
@@ -40,8 +40,8 @@ Overflow 类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:85](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L85) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:85](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L85) |
 
 
 
@@ -51,8 +51,8 @@ Overflow 类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L90) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L90) |
 
 
 
@@ -62,7 +62,7 @@ Overflow 类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L95) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L95) |
 
 

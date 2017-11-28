@@ -1,8 +1,8 @@
-## `ActionManager` Class
+## `ActionManager` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
@@ -14,11 +14,11 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
  - 当你想要运行一个动作，但目标不是 CCNode 类型时。 <br/>
  - 当你想要暂停/恢复动作时。 <br/>
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`addAction`](#addaction) 增加一个动作，同时还需要提供动作的目标对象，目标对象是否暂停作为参数。<br/>
 如果目标已存在，动作将会被直接添加到现有的节点中。<br/>
@@ -52,7 +52,7 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### addAction
@@ -64,9 +64,9 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L101) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L101) |
 
-###### Parameters
+###### 参数列表
 - action <a href="../classes/Action.html" class="crosslink">Action</a> 
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
 - paused <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -78,7 +78,7 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:140](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L140) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:140](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L140) |
 
 
 
@@ -89,9 +89,9 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:153](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L153) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:153](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L153) |
 
-###### Parameters
+###### 参数列表
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
 - forceDelete <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
@@ -102,9 +102,9 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:174](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L174) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:174](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L174) |
 
-###### Parameters
+###### 参数列表
 - action <a href="../classes/Action.html" class="crosslink">Action</a> 
 
 
@@ -114,9 +114,9 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:202](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L202) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:202](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L202) |
 
-###### Parameters
+###### 参数列表
 - tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
 
@@ -127,10 +127,10 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L229) |
-| Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> &#124; Null 
+| 返回 | <a href="../classes/Action.html" class="crosslink">Action</a> &#124; Null 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L229) |
 
-###### Parameters
+###### 参数列表
 - tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
 
@@ -145,10 +145,10 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:256](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L256) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:256](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L256) |
 
-###### Parameters
+###### 参数列表
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
@@ -158,9 +158,9 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:281](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L281) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:281](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L281) |
 
-###### Parameters
+###### 参数列表
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
@@ -170,9 +170,9 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L292) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L292) |
 
-###### Parameters
+###### 参数列表
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
@@ -182,8 +182,8 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:304](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L304) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:304](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L304) |
 
 
 
@@ -193,9 +193,9 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:323](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L323) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:323](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L323) |
 
-###### Parameters
+###### 参数列表
 - targetsToResume <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
@@ -205,9 +205,9 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L339) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L339) |
 
-###### Parameters
+###### 参数列表
 - targetsToPause <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
@@ -218,7 +218,7 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:355](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L355) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:355](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L355) |
 
 
 
@@ -228,9 +228,9 @@ ActionManager 主循环。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:402](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L402) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:402](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L402) |
 
-###### Parameters
+###### 参数列表
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> delta time in seconds
 
 

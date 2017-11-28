@@ -1,18 +1,18 @@
-### `TextAlignment` Enum
+### `TextAlignment` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 
 
 
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `LEFT`
   - `CENTER`
@@ -20,7 +20,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### LEFT
@@ -29,8 +29,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L179) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L179) |
 
 
 
@@ -40,8 +40,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L183) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L183) |
 
 
 
@@ -51,7 +51,7 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:187](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L187) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:187](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L187) |
 
 

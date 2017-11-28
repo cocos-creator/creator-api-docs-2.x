@@ -1,17 +1,17 @@
-## `SystemEvent.EventType` Class
+## `SystemEvent.EventType` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 SystemEvent 支持的事件类型
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`KEY_DOWN`](#keydown) `String` 当按下按键时触发的事件
   - [`KEY_UP`](#keyup) `String` 当松开按键时触发的事件
@@ -24,7 +24,7 @@ SystemEvent 支持的事件类型
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### KEY_DOWN
@@ -33,8 +33,8 @@ SystemEvent 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:39](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L39) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:39](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L39) |
 
 
 
@@ -44,8 +44,8 @@ SystemEvent 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L47) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L47) |
 
 
 
@@ -55,8 +55,8 @@ SystemEvent 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L55) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L55) |
 
 
 

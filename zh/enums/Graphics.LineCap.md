@@ -1,17 +1,17 @@
-### `Graphics.LineCap` Enum
+### `Graphics.LineCap` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 线段末端属性
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `BUTT`
   - `ROUND`
@@ -19,7 +19,7 @@ Module: [cc](../modules/cc.md)
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### BUTT
@@ -28,8 +28,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L37) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L37) |
 
 
 
@@ -39,8 +39,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L44) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L44) |
 
 
 
@@ -50,7 +50,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L51) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L51) |
 
 

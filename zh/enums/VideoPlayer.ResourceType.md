@@ -1,24 +1,24 @@
-### `VideoPlayer.ResourceType` Enum
+### `VideoPlayer.ResourceType` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 视频来源
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `REMOTE`
   - `LOCAL`
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### REMOTE
@@ -27,8 +27,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L61) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L61) |
 
 
 
@@ -38,7 +38,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L67) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L67) |
 
 

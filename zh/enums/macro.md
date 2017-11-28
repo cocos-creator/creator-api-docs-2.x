@@ -1,18 +1,18 @@
-### `macro` Enum
+### `macro` 枚举
 
 
 
-Module: [_decorator](../modules/_decorator.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [_decorator](../modules/_decorator.md)
+父模块: [cc](../modules/cc.md)
 
 
 
 
 Predefined constants
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `INVALID_INDEX`
   - `NODE_TAG_INVALID`
@@ -122,7 +122,7 @@ Predefined constants
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### INVALID_INDEX
@@ -131,8 +131,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1149](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1149) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1149](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1149) |
 
 
 
@@ -142,8 +142,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1155) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1155) |
 
 
 
@@ -153,8 +153,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1162](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1162) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1162](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1162) |
 
 
 
@@ -164,8 +164,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1169) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1169) |
 
 
 
@@ -175,8 +175,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1176](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1176) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1176](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1176) |
 
 
 
@@ -186,8 +186,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1183) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1183) |
 
 
 
@@ -197,8 +197,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1190](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1190) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1190](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1190) |
 
 
 
@@ -208,8 +208,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1197) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1197) |
 
 
 
@@ -219,8 +219,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1204) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1204) |
 
 
 
@@ -230,8 +230,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1211](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1211) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1211](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1211) |
 
 
 
@@ -241,8 +241,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1217) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1217) |
 
 
 
@@ -252,8 +252,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1224) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1224) |
 
 
 
@@ -263,8 +263,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1230](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1230) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1230](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1230) |
 
 
 
@@ -274,8 +274,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1236](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1236) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1236](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1236) |
 
 
 
@@ -285,8 +285,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1242](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1242) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1242](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1242) |
 
 
 
@@ -296,8 +296,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1248](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1248) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1248](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1248) |
 
 
 
@@ -307,8 +307,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1254) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1254) |
 
 
 
@@ -318,8 +318,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1260](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1260) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1260](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1260) |
 
 
 
@@ -329,8 +329,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1266](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1266) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1266](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1266) |
 
 
 
@@ -340,8 +340,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1272](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1272) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1272](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1272) |
 
 
 
@@ -351,8 +351,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1278](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1278) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1278](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1278) |
 
 
 
@@ -362,8 +362,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1284) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1284) |
 
 
 
@@ -373,8 +373,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1290](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1290) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1290](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1290) |
 
 
 
@@ -384,8 +384,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1296](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1296) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1296](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1296) |
 
 
 
@@ -395,8 +395,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1302](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1302) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1302](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1302) |
 
 
 
@@ -406,8 +406,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1309](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1309) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1309](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1309) |
 
 
 
@@ -417,8 +417,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1319) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1319) |
 
 
 
@@ -428,8 +428,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1326](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1326) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1326](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1326) |
 
 
 
@@ -439,8 +439,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1333](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1333) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1333](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1333) |
 
 
 
@@ -450,8 +450,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1340](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1340) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1340](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1340) |
 
 
 
@@ -461,8 +461,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1347](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1347) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1347](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1347) |
 
 
 
@@ -472,8 +472,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1354](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1354) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1354](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1354) |
 
 
 
@@ -483,8 +483,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1361](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1361) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1361](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1361) |
 
 
 
@@ -494,8 +494,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1377](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1377) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1377](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1377) |
 
 
 
@@ -505,8 +505,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1382](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1382) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1382](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1382) |
 
 
 
@@ -516,8 +516,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1387) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1387) |
 
 
 
@@ -527,8 +527,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1392](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1392) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1392](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1392) |
 
 
 
@@ -538,8 +538,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1397](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1397) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1397](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1397) |
 
 
 
@@ -549,8 +549,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1403) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1403) |
 
 
 
@@ -560,8 +560,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1411](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1411) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1411](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1411) |
 
 
 
@@ -571,8 +571,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1416](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1416) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1416](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1416) |
 
 
 
@@ -582,8 +582,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1421](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1421) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1421](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1421) |
 
 
 
@@ -593,8 +593,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1426) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1426) |
 
 
 
@@ -604,8 +604,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1433](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1433) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1433](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1433) |
 
 
 
@@ -615,8 +615,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1438) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1438) |
 
 
 
@@ -626,8 +626,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1443](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1443) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1443](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1443) |
 
 
 
@@ -637,8 +637,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1448](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1448) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1448](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1448) |
 
 
 
@@ -648,8 +648,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1453) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1453) |
 
 
 
@@ -659,8 +659,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1458](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1458) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1458](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1458) |
 
 
 
@@ -670,8 +670,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1463](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1463) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1463](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1463) |
 
 
 
@@ -681,8 +681,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1468](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1468) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1468](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1468) |
 
 
 
@@ -692,8 +692,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1473](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1473) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1473](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1473) |
 
 
 
@@ -703,8 +703,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1480](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1480) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1480](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1480) |
 
 
 
@@ -714,8 +714,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1485](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1485) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1485](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1485) |
 
 
 
@@ -725,8 +725,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1490](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1490) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1490](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1490) |
 
 
 
@@ -736,8 +736,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1495](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1495) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1495](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1495) |
 
 
 
@@ -747,8 +747,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1500](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1500) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1500](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1500) |
 
 
 
@@ -758,8 +758,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1505](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1505) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1505](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1505) |
 
 
 
@@ -769,8 +769,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1510](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1510) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1510](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1510) |
 
 
 
@@ -780,8 +780,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1515](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1515) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1515](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1515) |
 
 
 
@@ -791,8 +791,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1520](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1520) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1520](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1520) |
 
 
 
@@ -802,8 +802,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1525](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1525) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1525](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1525) |
 
 
 
@@ -813,8 +813,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1530](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1530) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1530](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1530) |
 
 
 
@@ -824,8 +824,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1537) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1537) |
 
 
 
@@ -835,8 +835,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1542](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1542) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1542](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1542) |
 
 
 
@@ -846,8 +846,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1547](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1547) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1547](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1547) |
 
 
 
@@ -857,8 +857,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1552](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1552) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1552](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1552) |
 
 
 
@@ -868,8 +868,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1557](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1557) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1557](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1557) |
 
 
 
@@ -879,8 +879,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1562](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1562) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1562](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1562) |
 
 
 
@@ -890,8 +890,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1567](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1567) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1567](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1567) |
 
 
 
@@ -901,8 +901,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1572](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1572) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1572](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1572) |
 
 
 
@@ -912,8 +912,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1577](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1577) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1577](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1577) |
 
 
 
@@ -923,8 +923,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1584](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1584) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1584](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1584) |
 
 
 
@@ -934,8 +934,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1589](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1589) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1589](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1589) |
 
 
 
@@ -945,8 +945,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1594](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1594) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1594](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1594) |
 
 
 
@@ -956,8 +956,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1601](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1601) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1601](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1601) |
 
 
 
@@ -967,8 +967,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1608](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1608) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1608](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1608) |
 
 
 
@@ -978,8 +978,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1614](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1614) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1614](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1614) |
 
 
 
@@ -989,8 +989,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1620](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1620) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1620](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1620) |
 
 
 
@@ -1000,8 +1000,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1627](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1627) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1627](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1627) |
 
 
 
@@ -1011,8 +1011,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1634](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1634) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1634](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1634) |
 
 
 
@@ -1037,8 +1037,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1642](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1642) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1642](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1642) |
 
 
 
@@ -1063,8 +1063,8 @@ Predefined constants
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1664](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1664) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1664](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1664) |
 
 
 
@@ -1075,8 +1075,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1686](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1686) |
+| 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1686](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1686) |
 
 
 
@@ -1093,8 +1093,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1693](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1693) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1693](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1693) |
 
 
 
@@ -1110,8 +1110,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1706](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1706) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1706](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1706) |
 
 
 
@@ -1127,8 +1127,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1718](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1718) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1718](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1718) |
 
 
 
@@ -1140,8 +1140,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1730](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1730) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1730](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1730) |
 
 
 
@@ -1157,8 +1157,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1738](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1738) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1738](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1738) |
 
 
 
@@ -1179,9 +1179,9 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1750](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1750) |
-| Deprecated | This value will be removed in 1.1 and NPOT textures will be loaded by default if the device supports it. |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1750](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1750) |
+| 废弃（Deprecated） | This value will be removed in 1.1 and NPOT textures will be loaded by default if the device supports it. |
 
 
 
@@ -1197,8 +1197,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1769](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1769) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1769](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1769) |
 
 
 
@@ -1216,8 +1216,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1781](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1781) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1781](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1781) |
 
 
 
@@ -1232,8 +1232,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1795) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1795) |
 
 
 
@@ -1248,8 +1248,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1806](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1806) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1806](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1806) |
 
 
 
@@ -1263,8 +1263,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1817](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1817) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1817](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1817) |
 
 
 
@@ -1284,8 +1284,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1827](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1827) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1827](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1827) |
 
 
 
@@ -1301,8 +1301,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1844](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1844) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1844](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1844) |
 
 
 
@@ -1312,8 +1312,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1866](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1866) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1866](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1866) |
 
 
 
@@ -1324,8 +1324,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1875](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1875) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1875](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1875) |
 
 
 
@@ -1335,8 +1335,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1887](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1887) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1887](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1887) |
 
 
 
@@ -1346,8 +1346,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1897](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1897) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1897](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1897) |
 
 
 
@@ -1359,8 +1359,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1907](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1907) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1907](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1907) |
 
 
 
@@ -1372,8 +1372,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1922](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1922) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1922](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1922) |
 
 
 
@@ -1385,8 +1385,8 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1939](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1939) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1939](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1939) |
 
 
 
@@ -1396,7 +1396,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1973](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1973) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1973](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1973) |
 
 
