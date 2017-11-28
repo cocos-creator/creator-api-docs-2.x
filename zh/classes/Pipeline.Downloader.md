@@ -1,8 +1,8 @@
-## `Pipeline.Downloader` Class
+## `Pipeline.Downloader` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
@@ -16,11 +16,11 @@ The downloader pipe, it can download several types of files:
 All unknown type will be downloaded as plain text.
 You can pass custom supported types in the constructor.
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`constructor`](#constructor) Constructor of Downloader, you can pass custom supported types.
   - [`addHandlers`](#addhandlers) Add custom supported types handler or modify existing type handler.
@@ -33,7 +33,7 @@ You can pass custom supported types in the constructor.
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### constructor
@@ -42,12 +42,12 @@ Constructor of Downloader, you can pass custom supported types.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js:264](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js#L264) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js:264](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js#L264) |
 
-###### Parameters
+###### 参数列表
 - extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
-##### Example
+##### 示例
 
 ```js
 var downloader = new Downloader({
@@ -62,9 +62,9 @@ Add custom supported types handler or modify existing type handler.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js:286](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js#L286) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js:286](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js#L286) |
 
-###### Parameters
+###### 参数列表
 - extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
 

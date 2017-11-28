@@ -1,9 +1,9 @@
-## `LoadingItems` Class
+## `LoadingItems` 类型
 
-Extends [`CallbacksInvoker`](CallbacksInvoker.md)
+继承于 [`CallbacksInvoker`](CallbacksInvoker.md)
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
@@ -23,9 +23,9 @@ LoadingItems 是一个加载对象队列，可以用来输送加载对象到加�
 对象可容纳其他自定义属性。</br>
 每个 LoadingItems 对象都会在 onComplete 回调之后被销毁，所以请不要持有它的引用并在结束回调之后依赖它的内容执行任何逻辑，有这种需求的话你可以提前复制它的内容。
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`map`](#map) `Object` 存储所有加载项的对象。
   - [`completed`](#completed) `Object` 存储已经完成的加载项。
@@ -35,7 +35,7 @@ LoadingItems 是一个加载对象队列，可以用来输送加载对象到加�
 
 
 
-##### Methods
+##### 方法
 
   - [`onProgress`](#onprogress) 这个回调函数将在 item 加载结束后被调用。你可以在构造时传递这个回调函数或者是在构造之后直接设置。
   - [`onComplete`](#oncomplete) 该函数将在加载队列全部完成时被调用。你可以在构造时传递这个回调函数或者是在构造之后直接设置。
@@ -69,7 +69,7 @@ it will only return true if the callback is registered.
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### map
@@ -78,8 +78,8 @@ it will only return true if the callback is registered.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:211](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L211) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:211](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L211) |
 
 
 
@@ -89,8 +89,8 @@ it will only return true if the callback is registered.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:219](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L219) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:219](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L219) |
 
 
 
@@ -100,8 +100,8 @@ it will only return true if the callback is registered.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:227](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L227) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:227](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L227) |
 
 
 
@@ -111,8 +111,8 @@ it will only return true if the callback is registered.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L235) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L235) |
 
 
 
@@ -122,8 +122,8 @@ it will only return true if the callback is registered.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L243) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L243) |
 
 
 
@@ -131,7 +131,7 @@ it will only return true if the callback is registered.
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### onProgress
@@ -140,14 +140,14 @@ it will only return true if the callback is registered.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:178](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L178) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:178](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L178) |
 
-###### Parameters
+###### 参数列表
 - completedCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The number of the items that are already completed.
 - totalCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The total number of the items.
 - item <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The latest item which flow out the pipeline.
 
-##### Example
+##### 示例
 
 ```js
 loadingItems.onProgress = function (completedCount, totalCount, item) {
@@ -162,13 +162,13 @@ loadingItems.onProgress = function (completedCount, totalCount, item) {
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:194](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L194) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:194](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L194) |
 
-###### Parameters
+###### 参数列表
 - errors <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> All errored urls will be stored in this array, if no error happened, then it will be null
 - items <a href="../classes/LoadingItems.html" class="crosslink">LoadingItems</a> All items.
 
-##### Example
+##### 示例
 
 ```js
 loadingItems.onComplete = function (errors, items) {
@@ -186,16 +186,16 @@ LoadingItems 的构造函数，这种构造方式会重用内部对象缓冲池�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:291](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L291) |
-| Return 		 | <a href="../classes/LoadingItems.html" class="crosslink">LoadingItems</a> 
+| 返回 | <a href="../classes/LoadingItems.html" class="crosslink">LoadingItems</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:291](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L291) |
 
-###### Parameters
+###### 参数列表
 - pipeline <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> The pipeline to process the queue.
 - urlList <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> The items array.
 - onProgress <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The progression callback, refer to LoadingItems.onProgress
 - onComplete <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The completion callback, refer to LoadingItems.onComplete
 
-##### Example
+##### 示例
 
 ```js
 LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, totalCount, item) {
@@ -220,10 +220,10 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:358](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L358) |
-| Return 		 | <a href="../classes/LoadingItems.html" class="crosslink">LoadingItems</a> 
+| 返回 | <a href="../classes/LoadingItems.html" class="crosslink">LoadingItems</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:358](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L358) |
 
-###### Parameters
+###### 参数列表
 - item <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The item to query
 
 
@@ -233,9 +233,9 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L370) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L370) |
 
-###### Parameters
+###### 参数列表
 - item <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The item which has completed
 
 
@@ -245,10 +245,10 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L438) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L438) |
 
-###### Parameters
+###### 参数列表
 - urlList <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> The url list to be appended, the url can be object or string
 
 
@@ -258,7 +258,7 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:522](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L522) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:522](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L522) |
 
 
 
@@ -268,8 +268,8 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:534](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L534) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:534](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L534) |
 
 
 
@@ -279,10 +279,10 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:544](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L544) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:544](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L544) |
 
-###### Parameters
+###### 参数列表
 - id <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The item's id.
 
 
@@ -292,10 +292,10 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:555](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L555) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:555](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L555) |
 
-###### Parameters
+###### 参数列表
 - id <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The item's id.
 
 
@@ -305,10 +305,10 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:566](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L566) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:566](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L566) |
 
-###### Parameters
+###### 参数列表
 - id <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The item's id.
 
 
@@ -318,10 +318,10 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:588](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L588) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:588](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L588) |
 
-###### Parameters
+###### 参数列表
 - id <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The item's id.
 
 
@@ -331,10 +331,10 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L609) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L609) |
 
-###### Parameters
+###### 参数列表
 - key <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> can be null
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> can be null
@@ -347,10 +347,10 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:620](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L620) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:620](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L620) |
 
-###### Parameters
+###### 参数列表
 - key <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -363,10 +363,10 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:635](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L635) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:635](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L635) |
 
-###### Parameters
+###### 参数列表
 - key <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -378,9 +378,9 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:650](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L650) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:650](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L650) |
 
-###### Parameters
+###### 参数列表
 - key <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The event key to be removed or the target to be removed
 
 
@@ -390,9 +390,9 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:682](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L682) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:682](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L682) |
 
-###### Parameters
+###### 参数列表
 - id <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The item url
 
 
@@ -402,7 +402,7 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:722](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L722) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js:722](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loading-items.js#L722) |
 
 
 
@@ -412,9 +412,9 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js#L229) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js#L229) |
 
-###### Parameters
+###### 参数列表
 - key <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - p1 Any 
 - p2 Any 
@@ -429,9 +429,9 @@ LoadingItems.create(cc.loader, ['a.png', 'b.plist'], function (completedCount, t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js:96](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js#L96) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js:96](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js#L96) |
 
-###### Parameters
+###### 参数列表
 - key <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> can be null
@@ -444,10 +444,10 @@ it will only return true if the callback is registered.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js#L111) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js#L111) |
 
-###### Parameters
+###### 参数列表
 - key <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -459,9 +459,9 @@ Removes all callbacks registered in a certain event type or all callbacks regist
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js:147](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js#L147) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js:147](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/callbacks-invoker.js#L147) |
 
-###### Parameters
+###### 参数列表
 - keyOrTarget <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The event key to be removed or the target to be removed
 
 

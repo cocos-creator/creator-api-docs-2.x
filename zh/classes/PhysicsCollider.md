@@ -1,18 +1,18 @@
-## `PhysicsCollider` Class
+## `PhysicsCollider` 类型
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 
 
 
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`density`](#density) `Number` 密度
   - [`sensor`](#sensor) `Boolean` 一个传感器类型的碰撞体会产生碰撞回调，但是不会发生物理碰撞效果。
@@ -22,7 +22,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-##### Methods
+##### 方法
 
   - [`apply`](#apply) 应用当前 collider 中的修改，调用此函数会重新生成内部 box2d 的夹具。
   - [`getAABB`](#getaabb) 获取碰撞体的世界坐标系下的包围盒
@@ -32,7 +32,7 @@ Parent Module: [cc](../modules/cc.md)
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### density
@@ -41,8 +41,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:52](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L52) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:52](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L52) |
 
 
 
@@ -52,8 +52,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L70) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L70) |
 
 
 
@@ -63,8 +63,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L88) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L88) |
 
 
 
@@ -74,8 +74,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L106) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L106) |
 
 
 
@@ -85,8 +85,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/RigidBody.html" class="crosslink">RigidBody</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L124) |
+| 类型 | <a href="../classes/RigidBody.html" class="crosslink">RigidBody</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L124) |
 
 
 
@@ -94,7 +94,7 @@ Parent Module: [cc](../modules/cc.md)
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### apply
@@ -103,7 +103,7 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:256](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L256) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:256](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L256) |
 
 
 
@@ -113,7 +113,7 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:268](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L268) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js:268](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/collider/CCPhysicsCollider.js#L268) |
 
 
 

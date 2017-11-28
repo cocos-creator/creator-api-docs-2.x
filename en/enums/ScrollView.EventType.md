@@ -39,7 +39,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L51) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L51) |
 
 
 
@@ -50,7 +50,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L57) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L57) |
 
 
 
@@ -61,7 +61,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:63](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L63) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:63](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L63) |
 
 
 
@@ -72,7 +72,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:69](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L69) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:69](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L69) |
 
 
 
@@ -83,7 +83,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L75) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L75) |
 
 
 
@@ -94,7 +94,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L81) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L81) |
 
 
 
@@ -105,7 +105,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:87](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L87) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:87](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L87) |
 
 
 
@@ -116,7 +116,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:93](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L93) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:93](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L93) |
 
 
 
@@ -127,7 +127,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:99](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L99) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:99](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L99) |
 
 
 
@@ -138,7 +138,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:105](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L105) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:105](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L105) |
 
 
 
@@ -149,7 +149,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L111) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L111) |
 
 
 
@@ -160,7 +160,7 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L117) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L117) |
 
 
 
@@ -171,6 +171,6 @@ Enum for ScrollView event type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L123) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L123) |
 
 

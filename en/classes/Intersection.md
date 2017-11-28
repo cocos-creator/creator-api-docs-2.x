@@ -43,8 +43,8 @@ Test line and line
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:12](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L12) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:12](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L12) |
 
 ###### Parameters
 - a1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The start point of the first line
@@ -59,8 +59,8 @@ Test line and rect
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L43) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L43) |
 
 ###### Parameters
 - a1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The start point of the line
@@ -74,8 +74,8 @@ Test line and polygon
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L75) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L75) |
 
 ###### Parameters
 - a1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The start point of the line
@@ -89,8 +89,8 @@ Test rect and rect
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L100) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L100) |
 
 ###### Parameters
 - a <a href="../classes/Rect.html" class="crosslink">Rect</a> The first rect
@@ -103,8 +103,8 @@ Test rect and polygon
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L130) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L130) |
 
 ###### Parameters
 - a <a href="../classes/Rect.html" class="crosslink">Rect</a> The rect
@@ -117,8 +117,8 @@ Test polygon and polygon
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:182](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L182) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:182](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L182) |
 
 ###### Parameters
 - a <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> The first polygon, a set of points
@@ -131,8 +131,8 @@ Test circle and circle
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:221](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L221) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:221](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L221) |
 
 ###### Parameters
 - a <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Object contains position and radius
@@ -145,8 +145,8 @@ Test polygon and circle
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:238](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L238) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:238](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L238) |
 
 ###### Parameters
 - polygon <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> The Polygon, a set of points
@@ -159,8 +159,8 @@ Test whether the point is in the polygon
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:267](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L267) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:267](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L267) |
 
 ###### Parameters
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The point
@@ -173,8 +173,8 @@ Calculate the distance of point to line.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:297](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L297) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js:297](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCIntersection.js#L297) |
 
 ###### Parameters
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The point

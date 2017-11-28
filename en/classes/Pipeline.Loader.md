@@ -43,12 +43,12 @@ Constructor of Loader, you can pass custom supported types.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js:122](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js#L122) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js:122](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js#L122) |
 
 ###### Parameters
 - extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
-##### Example
+##### Examples
 
 ```js
 var loader = new Loader({
@@ -63,7 +63,7 @@ Add custom supported types handler or modify existing type handler.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js:142](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js#L142) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js:142](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js#L142) |
 
 ###### Parameters
 - extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler

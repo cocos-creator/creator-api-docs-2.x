@@ -1,24 +1,25 @@
-### `Texture2D.Filter` Enum
+### `Texture2D.Filter` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 
 
 The texture filter mode
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `LINEAR`
   - `NEAREST`
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### LINEAR
@@ -27,8 +28,8 @@ The texture filter mode
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L171) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L171) |
 
 
 
@@ -38,7 +39,7 @@ The texture filter mode
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:178](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L178) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:178](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L178) |
 
 

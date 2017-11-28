@@ -1,17 +1,17 @@
-### `Layout.Type` Enum
+### `Layout.Type` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 布局类型
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `NONE`
   - `HORIZONTAL`
@@ -20,7 +20,7 @@ Module: [cc](../modules/cc.md)
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### NONE
@@ -29,8 +29,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L36) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L36) |
 
 
 
@@ -40,8 +40,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:42](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L42) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:42](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L42) |
 
 
 
@@ -51,8 +51,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L49) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L49) |
 
 
 
@@ -62,7 +62,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L55) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L55) |
 
 

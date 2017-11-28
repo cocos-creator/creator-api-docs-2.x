@@ -53,7 +53,7 @@ Note: PhysicsImpulse can only used in onPostSolve callback.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Collider.html" class="crosslink">Collider</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L453) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L453) |
 
 
 
@@ -64,7 +64,7 @@ Note: PhysicsImpulse can only used in onPostSolve callback.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Collider.html" class="crosslink">Collider</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:456](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L456) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:456](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L456) |
 
 
 
@@ -76,7 +76,7 @@ If you just want to disabled contact for current time step or sub-step, please u
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:459](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L459) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:459](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L459) |
 
 
 
@@ -87,7 +87,7 @@ If you just want to disabled contact for current time step or sub-step, please u
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:468](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L468) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:468](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L468) |
 
 
 
@@ -104,8 +104,8 @@ Get the world manifold.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L213) |
-| Return 		 | <a href="../classes/WorldManifold.html" class="crosslink">WorldManifold</a> 
+| Returns | <a href="../classes/WorldManifold.html" class="crosslink">WorldManifold</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L213) |
 
 
 
@@ -115,8 +115,8 @@ Get the manifold.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L273) |
-| Return 		 | <a href="../classes/Manifold.html" class="crosslink">Manifold</a> 
+| Returns | <a href="../classes/Manifold.html" class="crosslink">Manifold</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L273) |
 
 
 
@@ -127,8 +127,8 @@ Note: PhysicsImpulse can only used in onPostSolve callback.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:337](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L337) |
-| Return 		 | <a href="../classes/PhysicsImpulse.html" class="crosslink">PhysicsImpulse</a> 
+| Returns | <a href="../classes/PhysicsImpulse.html" class="crosslink">PhysicsImpulse</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:337](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L337) |
 
 
 
@@ -138,8 +138,8 @@ Is this contact touching?
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:479](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L479) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:479](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L479) |
 
 
 
@@ -149,7 +149,7 @@ Set the desired tangent speed for a conveyor belt behavior.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:491](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L491) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:491](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L491) |
 
 ###### Parameters
 - tangentSpeed <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -161,8 +161,8 @@ Get the desired tangent speed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:502](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L502) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:502](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L502) |
 
 
 
@@ -172,7 +172,7 @@ Override the default friction mixture. You can call this in onPreSolve callback.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:515](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L515) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:515](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L515) |
 
 ###### Parameters
 - friction <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -184,8 +184,8 @@ Get the friction.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:526](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L526) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:526](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L526) |
 
 
 
@@ -195,7 +195,7 @@ Reset the friction mixture to the default value.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L537) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L537) |
 
 
 
@@ -205,7 +205,7 @@ Override the default restitution mixture. You can call this in onPreSolve callba
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:547](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L547) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:547](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L547) |
 
 ###### Parameters
 - restitution <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -217,8 +217,8 @@ Get the restitution.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:558](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L558) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:558](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L558) |
 
 
 
@@ -228,7 +228,7 @@ Reset the restitution mixture to the default value.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:569](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L569) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:569](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L569) |
 
 
 

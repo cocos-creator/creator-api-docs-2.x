@@ -193,7 +193,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/PageView.SizeMode.html" class="crosslink">PageView.SizeMode</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L111) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L111) |
 
 
 
@@ -204,7 +204,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/PageView.Direction.html" class="crosslink">PageView.Direction</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L125) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L125) |
 
 
 
@@ -216,7 +216,7 @@ release the next page will automatically scroll, less than the restore
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:139](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L139) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:139](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L139) |
 
 
 
@@ -229,7 +229,7 @@ if the calculated velocity is larger than the threshold, then it will trigger pa
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:154](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L154) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:154](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L154) |
 
 
 
@@ -240,7 +240,7 @@ if the calculated velocity is larger than the threshold, then it will trigger pa
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L171) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L171) |
 
 
 
@@ -251,7 +251,7 @@ if the calculated velocity is larger than the threshold, then it will trigger pa
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/PageViewIndicator.html" class="crosslink">PageViewIndicator</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L183) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L183) |
 
 
 
@@ -262,7 +262,7 @@ if the calculated velocity is larger than the threshold, then it will trigger pa
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:199](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L199) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:199](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L199) |
 
 
 
@@ -273,7 +273,7 @@ if the calculated velocity is larger than the threshold, then it will trigger pa
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:210](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L210) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:210](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L210) |
 
 
 
@@ -284,7 +284,7 @@ if the calculated velocity is larger than the threshold, then it will trigger pa
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:200](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L200) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:200](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L200) |
 
 
 
@@ -295,7 +295,7 @@ if the calculated velocity is larger than the threshold, then it will trigger pa
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:211](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L211) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:211](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L211) |
 
 
 
@@ -306,7 +306,7 @@ if the calculated velocity is larger than the threshold, then it will trigger pa
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:222](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L222) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:222](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L222) |
 
 
 
@@ -317,7 +317,7 @@ if the calculated velocity is larger than the threshold, then it will trigger pa
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:233](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L233) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:233](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L233) |
 
 
 
@@ -329,7 +329,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L243) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L243) |
 
 
 
@@ -340,7 +340,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:258](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L258) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:258](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L258) |
 
 
 
@@ -351,7 +351,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:269](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L269) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:269](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L269) |
 
 
 
@@ -362,7 +362,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Scrollbar.html" class="crosslink">Scrollbar</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:280](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L280) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:280](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L280) |
 
 
 
@@ -373,7 +373,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Scrollbar.html" class="crosslink">Scrollbar</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:298](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L298) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:298](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L298) |
 
 
 
@@ -384,7 +384,7 @@ A value of 0 will never stop the movement until it reaches to the boundary of sc
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:316](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L316) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:316](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L316) |
 
 
 
@@ -396,7 +396,7 @@ It's set to true by default.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:327](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L327) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:327](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L327) |
 
 
 
@@ -408,7 +408,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L61) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L61) |
 
 
 
@@ -419,7 +419,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L75) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L75) |
 
 ##### Examples
 
@@ -435,7 +435,7 @@ cc.log(comp.node);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L111) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L111) |
 
 ##### Examples
 
@@ -451,7 +451,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L159) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:159](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L159) |
 
 
 
@@ -462,7 +462,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L166) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L166) |
 
 ##### Examples
 
@@ -479,7 +479,7 @@ cc.log(comp.enabled);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L197) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L197) |
 
 ##### Examples
 
@@ -495,7 +495,7 @@ cc.log(comp.enabledInHierarchy);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L213) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:213](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L213) |
 
 ##### Examples
 
@@ -511,7 +511,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L50) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L50) |
 
 
 
@@ -522,7 +522,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L57) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L57) |
 
 
 
@@ -533,7 +533,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L208) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L208) |
 
 ##### Examples
 
@@ -549,7 +549,7 @@ obj.name = "New Obj";
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L225) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L225) |
 
 ##### Examples
 
@@ -571,8 +571,8 @@ Returns current page index
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L257) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L257) |
 
 
 
@@ -582,7 +582,7 @@ Set current page index
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:267](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L267) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:267](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L267) |
 
 ###### Parameters
 - index <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -594,8 +594,8 @@ Returns all pages of pageview
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:277](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L277) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node[]</a> 
+| Returns | <a href="../classes/Node.html" class="crosslink">Node[]</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:277](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L277) |
 
 
 
@@ -605,7 +605,7 @@ At the end of the current page view to insert a new view
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:287](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L287) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:287](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L287) |
 
 ###### Parameters
 - page <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -617,7 +617,7 @@ Inserts a page in the specified location
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:301](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L301) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:301](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L301) |
 
 ###### Parameters
 - page <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -630,7 +630,7 @@ Removes a page from PageView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:321](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L321) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:321](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L321) |
 
 ###### Parameters
 - page <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -642,7 +642,7 @@ Removes a page at index of PageView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:337](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L337) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:337](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L337) |
 
 ###### Parameters
 - index <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -654,7 +654,7 @@ Removes all pages from PageView
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:353](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L353) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:353](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L353) |
 
 
 
@@ -664,7 +664,7 @@ Scroll PageView to index.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:367](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L367) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:367](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L367) |
 
 ###### Parameters
 - idx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> index of page.
@@ -677,14 +677,14 @@ Scroll the content to the bottom boundary of ScrollView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:345](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L345) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:345](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L345) |
 
 ###### Parameters
 - timeInSecond <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Scroll time in second, if you don't pass timeInSecond,
 the content will jump to the bottom boundary immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Scroll to the bottom of the view.
@@ -697,14 +697,14 @@ Scroll the content to the top boundary of ScrollView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L370) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L370) |
 
 ###### Parameters
 - timeInSecond <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Scroll time in second, if you don't pass timeInSecond,
 the content will jump to the top boundary immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Scroll to the top of the view.
@@ -717,14 +717,14 @@ Scroll the content to the left boundary of ScrollView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:395](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L395) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:395](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L395) |
 
 ###### Parameters
 - timeInSecond <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Scroll time in second, if you don't pass timeInSecond,
 the content will jump to the left boundary immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Scroll to the left of the view.
@@ -737,14 +737,14 @@ Scroll the content to the right boundary of ScrollView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:420](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L420) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:420](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L420) |
 
 ###### Parameters
 - timeInSecond <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Scroll time in second, if you don't pass timeInSecond,
 the content will jump to the right boundary immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Scroll to the right of the view.
@@ -757,14 +757,14 @@ Scroll the content to the top left boundary of ScrollView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:445](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L445) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:445](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L445) |
 
 ###### Parameters
 - timeInSecond <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Scroll time in second, if you don't pass timeInSecond,
 the content will jump to the top left boundary immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Scroll to the upper left corner of the view.
@@ -777,14 +777,14 @@ Scroll the content to the top right boundary of ScrollView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:470](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L470) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:470](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L470) |
 
 ###### Parameters
 - timeInSecond <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Scroll time in second, if you don't pass timeInSecond,
 the content will jump to the top right boundary immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Scroll to the top right corner of the view.
@@ -797,14 +797,14 @@ Scroll the content to the bottom left boundary of ScrollView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:495](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L495) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:495](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L495) |
 
 ###### Parameters
 - timeInSecond <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Scroll time in second, if you don't pass timeInSecond,
 the content will jump to the bottom left boundary immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Scroll to the lower left corner of the view.
@@ -817,14 +817,14 @@ Scroll the content to the bottom right boundary of ScrollView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:520](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L520) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:520](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L520) |
 
 ###### Parameters
 - timeInSecond <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Scroll time in second, if you don't pass timeInSecond,
 the content will jump to the bottom right boundary immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Scroll to the lower right corner of the view.
@@ -838,7 +838,7 @@ Scroll with an offset related to the ScrollView's top left origin, if timeInSeco
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:546](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L546) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:546](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L546) |
 
 ###### Parameters
 - offset <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A Vec2, the value of which each axis between 0 and maxScrollOffset
@@ -846,7 +846,7 @@ Scroll with an offset related to the ScrollView's top left origin, if timeInSeco
 the content will jump to the specific offset of ScrollView immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Scroll to middle position in 0.1 second in x-axis
@@ -860,8 +860,8 @@ Get the positive offset value corresponds to the content's top left boundary.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:580](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L580) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:580](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L580) |
 
 
 
@@ -871,8 +871,8 @@ Get the maximize available  scroll offset
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:593](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L593) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:593](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L593) |
 
 
 
@@ -882,7 +882,7 @@ Scroll the content to the horizontal percent position of ScrollView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:610](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L610) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:610](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L610) |
 
 ###### Parameters
 - percent <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> A value between 0 and 1.
@@ -890,7 +890,7 @@ Scroll the content to the horizontal percent position of ScrollView.
 the content will jump to the horizontal percent position of ScrollView immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Scroll to middle position.
@@ -903,7 +903,7 @@ Scroll the content to the percent position of ScrollView in any direction.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:636](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L636) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:636](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L636) |
 
 ###### Parameters
 - anchor <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A point which will be clamp between cc.p(0,0) and cc.p(1,1).
@@ -911,7 +911,7 @@ Scroll the content to the percent position of ScrollView in any direction.
 the content will jump to the percent position of ScrollView immediately.
 - attenuated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the scroll acceleration attenuated, default is true.
 
-##### Example
+##### Examples
 
 ```js
 // Vertical scroll to the bottom of the view.
@@ -927,7 +927,7 @@ Scroll the content to the vertical percent position of ScrollView.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:665](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L665) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:665](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L665) |
 
 ###### Parameters
 - percent <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> A value between 0 and 1.
@@ -944,7 +944,7 @@ Stop auto scroll immediately
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:690](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L690) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:690](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L690) |
 
 
 
@@ -954,7 +954,7 @@ Modify the content position.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:700](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L700) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:700](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L700) |
 
 ###### Parameters
 - position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The position in content's parent space.
@@ -966,8 +966,8 @@ Query the content's position in its parent space.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:715](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L715) |
-| Return 		 | Position 
+| Returns | Position 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:715](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L715) |
 
 
 
@@ -977,8 +977,8 @@ Query whether the user is currently dragging the ScrollView to scroll it
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:725](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L725) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:725](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L725) |
 
 
 
@@ -988,8 +988,8 @@ Query whether the ScrollView is currently scrolling because of a bounceback or i
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:735](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L735) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js:735](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCScrollView.js#L735) |
 
 
 
@@ -999,7 +999,7 @@ Update is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
 
 ###### Parameters
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -1011,7 +1011,7 @@ LateUpdate is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L243) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L243) |
 
 
 
@@ -1024,7 +1024,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L251) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:251](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L251) |
 
 
 
@@ -1035,7 +1035,7 @@ onLoad is always called before any start functions, this allows you to order ini
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L262) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:262](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L262) |
 
 
 
@@ -1046,7 +1046,7 @@ Usually used to initialize some logic which need to be called after all componen
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L273) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L273) |
 
 
 
@@ -1056,7 +1056,7 @@ Called when this component becomes enabled and its node is active.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L284) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L284) |
 
 
 
@@ -1066,7 +1066,7 @@ Called when this component becomes disabled or its node becomes inactive.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L292) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L292) |
 
 
 
@@ -1076,7 +1076,7 @@ Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L300) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:300](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L300) |
 
 
 
@@ -1086,7 +1086,7 @@ Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L308) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:308](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L308) |
 
 
 
@@ -1096,7 +1096,7 @@ Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L313) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:313](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L313) |
 
 
 
@@ -1106,7 +1106,7 @@ Called to initialize the component or node’s properties when adding the compon
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L318) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L318) |
 
 
 
@@ -1116,13 +1116,13 @@ Adds a component class to the node. You can also add component to node by passin
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
-| Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
+| Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
 
 ###### Parameters
 - typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
-##### Example
+##### Examples
 
 ```js
 var sprite = node.addComponent(cc.Sprite);
@@ -1136,13 +1136,13 @@ You can also get component in the node by passing in the name of the script.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
-| Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
+| Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
 
 ###### Parameters
 - typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
-##### Example
+##### Examples
 
 ```js
 // get sprite component.
@@ -1157,13 +1157,13 @@ Returns all components of supplied Type in the node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
-| Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
+| Returns | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
 
 ###### Parameters
 - typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
-##### Example
+##### Examples
 
 ```js
 var sprites = node.getComponents(cc.Sprite);
@@ -1176,13 +1176,13 @@ Returns the component of supplied type in any of its children using depth first 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
-| Return 		 | <a href="../classes/Component.html" class="crosslink">Component</a> 
+| Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
 
 ###### Parameters
 - typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
-##### Example
+##### Examples
 
 ```js
 var sprite = node.getComponentInChildren(cc.Sprite);
@@ -1195,13 +1195,13 @@ Returns the components of supplied type in self or any of its children using dep
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
-| Return 		 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
+| Returns | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
 
 ###### Parameters
 - typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
-##### Example
+##### Examples
 
 ```js
 var sprites = node.getComponentsInChildren(cc.Sprite);
@@ -1215,7 +1215,7 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
 
 ###### Parameters
 - out_rect <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -1246,7 +1246,7 @@ This function is only called in editor mode.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L439) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:439](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L439) |
 
 
 
@@ -1257,7 +1257,7 @@ If the selector is already scheduled, then the interval parameter will be update
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -1265,7 +1265,7 @@ If the selector is already scheduled, then the interval parameter will be update
 - repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use kCCRepeatForever for tick infinitely.
 - delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
-##### Example
+##### Examples
 
 ```js
 var timeCallback = function (dt) {
@@ -1280,13 +1280,13 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
 - delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
-##### Example
+##### Examples
 
 ```js
 var timeCallback = function (dt) {
@@ -1301,12 +1301,12 @@ Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
 
 ###### Parameters
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
 
-##### Example
+##### Examples
 
 ```js
 this.unschedule(_callback);
@@ -1319,10 +1319,10 @@ Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
 
 
-##### Example
+##### Examples
 
 ```js
 this.unscheduleAllCallbacks();
@@ -1338,11 +1338,11 @@ You can use cc.isValid(obj) to check whether the object is destroyed before acce
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L246) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L246) |
 
 
-##### Example
+##### Examples
 
 ```js
 obj.destroy();
@@ -1371,7 +1371,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -1381,7 +1381,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -1391,8 +1391,8 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 
 ###### Parameters
 - exporting <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -1404,7 +1404,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

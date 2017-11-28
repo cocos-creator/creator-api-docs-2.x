@@ -1,20 +1,20 @@
-## `SystemEvent` Class
+## `SystemEvent` 类型
 
-Extends [`EventTarget`](EventTarget.md)
+继承于 [`EventTarget`](EventTarget.md)
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 系统事件，它目前支持按键事件和重力感应事件
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`on`](#on) 注册事件目标的特定事件类型回调。
   - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
@@ -33,7 +33,7 @@ Module: [cc](../modules/cc.md)
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### on
@@ -42,10 +42,10 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L217) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L217) |
 
-###### Parameters
+###### 参数列表
 - type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
                              The callback is ignored if it is a duplicate (the callbacks are unique).
@@ -56,7 +56,7 @@ Module: [cc](../modules/cc.md)
                              When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
                              Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
 
-##### Example
+##### 示例
 
 ```js
 node.on(cc.Node.EventType.TOUCH_END, function (event) {
@@ -70,9 +70,9 @@ node.on(cc.Node.EventType.TOUCH_END, function (event) {
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:274](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L274) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:274](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L274) |
 
-###### Parameters
+###### 参数列表
 - type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to remove.
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, if it's not given, only callback without target will be removed
@@ -81,7 +81,7 @@ node.on(cc.Node.EventType.TOUCH_END, function (event) {
                              one with capture and one without, each must be removed separately. Removal of a capturing callback
                              does not affect a non-capturing version of the same listener, and vice versa.
 
-##### Example
+##### 示例
 
 ```js
 // register touchEnd eventListener
@@ -102,9 +102,9 @@ node.off(cc.Node.EventType.TOUCH_END);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:329](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L329) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:329](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L329) |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
 
 
@@ -114,9 +114,9 @@ node.off(cc.Node.EventType.TOUCH_END);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:351](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L351) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:351](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L351) |
 
-###### Parameters
+###### 参数列表
 - type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
                              The callback is ignored if it is a duplicate (the callbacks are unique).
@@ -127,7 +127,7 @@ node.off(cc.Node.EventType.TOUCH_END);
                              When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
                              Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
 
-##### Example
+##### 示例
 
 ```js
 node.once(cc.Node.EventType.TOUCH_END, function (event) {
@@ -141,9 +141,9 @@ node.once(cc.Node.EventType.TOUCH_END, function (event) {
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:396](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L396) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:396](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L396) |
 
-###### Parameters
+###### 参数列表
 - event <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
 
 
@@ -153,9 +153,9 @@ node.once(cc.Node.EventType.TOUCH_END, function (event) {
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:410](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L410) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:410](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L410) |
 
-###### Parameters
+###### 参数列表
 - message <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send
 - detail Any whatever argument the message needs
 

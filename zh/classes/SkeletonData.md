@@ -1,18 +1,18 @@
-## `SkeletonData` Class
+## `SkeletonData` 类型
 
-Extends [`Asset`](Asset.md)
+继承于 [`Asset`](Asset.md)
 
 
-Module: [sp](../modules/sp.md)
+模块: [sp](../modules/sp.md)
 
 
 
 
 Spine 的 骨骼数据。
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`skeletonJson`](#skeletonjson) `Object` 可查看 Spine 官方文档 http://zh.esotericsoftware.com/spine-json-format
   - [`atlasText`](#atlastext) `String` 
@@ -34,7 +34,7 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 
 
 
-##### Methods
+##### 方法
 
   - [`getRuntimeData`](#getruntimedata) 获取 Spine Runtime 使用的 SkeletonData。<br>
 返回一个 <a href="../modules/sp.spine.html">sp.spine</a>.SkeletonData 对象。
@@ -74,7 +74,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### skeletonJson
@@ -83,8 +83,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:93](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L93) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:93](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L93) |
 
 
 
@@ -94,8 +94,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:110](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L110) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:110](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L110) |
 
 
 
@@ -105,8 +105,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Texture2D.html" class="crosslink">Texture2D[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:130](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L130) |
+| 类型 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D[]</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:130](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L130) |
 
 
 
@@ -116,8 +116,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:138](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L138) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:138](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L138) |
 
 
 
@@ -127,8 +127,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Type | sp.spine.SkeletonData |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:173](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L173) |
+| 类型 | sp.spine.SkeletonData |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:173](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L173) |
 
 
 
@@ -138,8 +138,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Type | sp.spine.Atlas |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:178](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L178) |
+| 类型 | sp.spine.Atlas |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:178](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L178) |
 
 
 
@@ -149,8 +149,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:53](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L53) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:53](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L53) |
 
 
 
@@ -160,8 +160,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:77](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L77) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:77](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L77) |
 
 
 
@@ -174,8 +174,8 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:104](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L104) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:104](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L104) |
 
 
 
@@ -185,8 +185,8 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCRawAsset.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCRawAsset.js#L49) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCRawAsset.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCRawAsset.js#L49) |
 
 
 
@@ -196,8 +196,8 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L50) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:50](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L50) |
 
 
 
@@ -207,8 +207,8 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L57) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L57) |
 
 
 
@@ -218,10 +218,10 @@ AssetLibrary 并不会帮你加载这些 url，除非你声明了 rawType。
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L208) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L208) |
 
-##### Examples
+##### 示例
 
 ```js
 obj.name = "New Obj";
@@ -234,10 +234,10 @@ obj.name = "New Obj";
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L225) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L225) |
 
-##### Examples
+##### 示例
 
 ```js
 cc.log(obj.isValid);
@@ -248,7 +248,7 @@ cc.log(obj.isValid);
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### getRuntimeData
@@ -258,10 +258,10 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:189](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L189) |
-| Return 		 | sp.spine.SkeletonData 
+| 返回 | sp.spine.SkeletonData 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:189](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L189) |
 
-###### Parameters
+###### 参数列表
 - quiet <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -271,10 +271,10 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:264](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L264) |
-| Return 		 | sp.spine.Atlas 
+| 返回 | sp.spine.Atlas 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js:264](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/SkeletonData.js#L264) |
 
-###### Parameters
+###### 参数列表
 - quiet <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 
@@ -284,8 +284,8 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:143](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L143) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:143](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L143) |
 
 
 
@@ -296,9 +296,9 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:154](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L154) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:154](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L154) |
 
-###### Parameters
+###### 参数列表
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 	- error <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> null or the error info
 	- node <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the created node or null
@@ -310,9 +310,9 @@ Set raw file names for this asset.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L168) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L168) |
 
-###### Parameters
+###### 参数列表
 - rawFiles <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> 
 
 
@@ -322,9 +322,9 @@ Preload raw files when loading scene.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L179) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/assets/CCAsset.js#L179) |
 
-###### Parameters
+###### 参数列表
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 	- error <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> 
 
@@ -337,11 +337,11 @@ Preload raw files when loading scene.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L246) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L246) |
 
 
-##### Example
+##### 示例
 
 ```js
 obj.destroy();
@@ -370,7 +370,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:379](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L379) |
 
 
 
@@ -380,7 +380,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:412](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L412) |
 
 
 
@@ -390,10 +390,10 @@ The customized serialization for this object. (Editor Only)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 
-###### Parameters
+###### 参数列表
 - exporting <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
@@ -403,9 +403,9 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
-###### Parameters
+###### 参数列表
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
 - ctx _Deserializer 
 

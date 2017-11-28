@@ -1,8 +1,8 @@
-## `Scheduler` Class
+## `Scheduler` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
@@ -14,16 +14,16 @@ Scheduler 是负责触发回调函数的类。<br/>
     - 自定义定时器：自定义定时器可以每一帧或者自定义的时间间隔触发。<br/>
 如果希望每帧都触发，应该使用 update 定时器，使用 update 定时器更快，而且消耗更少的内存。
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`PRIORITY_SYSTEM`](#prioritysystem) `Number` 系统服务的优先级。
   - [`PRIORITY_NON_SYSTEM`](#prioritynonsystem) `Number` 用户调度最低优先级。
 
 
 
-##### Methods
+##### 方法
 
   - [`setTimeScale`](#settimescale) 设置时间间隔的缩放比例。<br/>
 您可以使用这个方法来创建一个 “slow motion（慢动作）” 或 “fast forward（快进）” 的效果。<br/>
@@ -83,7 +83,7 @@ update 定时器每一帧都会被调用。<br/>
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### PRIORITY_SYSTEM
@@ -92,8 +92,8 @@ update 定时器每一帧都会被调用。<br/>
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1128](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1128) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1128](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1128) |
 
 
 
@@ -103,8 +103,8 @@ update 定时器每一帧都会被调用。<br/>
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1137](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1137) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1137](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1137) |
 
 
 
@@ -112,7 +112,7 @@ update 定时器每一帧都会被调用。<br/>
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### setTimeScale
@@ -125,9 +125,9 @@ update 定时器每一帧都会被调用。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:358](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L358) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:358](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L358) |
 
-###### Parameters
+###### 参数列表
 - timeScale <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -137,8 +137,8 @@ update 定时器每一帧都会被调用。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:378](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L378) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:378](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L378) |
 
 
 
@@ -148,9 +148,9 @@ update 调度函数。(不应该直接调用这个方法，除非完全了解这
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L388) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L388) |
 
-###### Parameters
+###### 参数列表
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> delta time
 
 
@@ -168,10 +168,10 @@ delay 值指定延迟时间，定时器会在延迟指定的时间之后开始�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:478](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L478) |
-| Deprecated | since v3.4 please use .schedule |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:478](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L478) |
+| 废弃（Deprecated） | since v3.4 please use .schedule |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 - interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -179,7 +179,7 @@ delay 值指定延迟时间，定时器会在延迟指定的时间之后开始�
 - delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - paused <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
-##### Example
+##### 示例
 
 ```js
 //register a schedule to scheduler
@@ -194,9 +194,9 @@ scheduler.scheduleCallbackForTarget(this, function, interval, repeat, delay, !th
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:516](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L516) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:516](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L516) |
 
-###### Parameters
+###### 参数列表
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -204,7 +204,7 @@ scheduler.scheduleCallbackForTarget(this, function, interval, repeat, delay, !th
 - delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - paused <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
-##### Example
+##### 示例
 
 ```js
 //register a schedule to scheduler
@@ -219,9 +219,9 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:580](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L580) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:580](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L580) |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - priority <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - paused <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -235,9 +235,9 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:634](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L634) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:634](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L634) |
 
-###### Parameters
+###### 参数列表
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to be unscheduled
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target bound to the callback.
 
@@ -248,9 +248,9 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:683](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L683) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:683](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L683) |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be unscheduled.
 
 
@@ -260,9 +260,9 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:705](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L705) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:705](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L705) |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be unscheduled.
 
 
@@ -273,7 +273,7 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:745](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L745) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:745](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L745) |
 
 
 
@@ -284,9 +284,9 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:758](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L758) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:758](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L758) |
 
-###### Parameters
+###### 参数列表
 - minPriority <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The minimum priority of selector to be unscheduled. Which means, all selectors which
        priority is higher than minPriority will be unscheduled.
 
@@ -297,10 +297,10 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:812](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L812) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:812](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L812) |
 
-###### Parameters
+###### 参数列表
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to check.
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target of the callback.
 
@@ -312,7 +312,7 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:850](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L850) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:850](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L850) |
 
 
 
@@ -323,9 +323,9 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:863](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L863) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:863](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L863) |
 
-###### Parameters
+###### 参数列表
 - minPriority <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
@@ -336,9 +336,9 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:923](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L923) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:923](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L923) |
 
-###### Parameters
+###### 参数列表
 - targetsToResume <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
@@ -350,9 +350,9 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:942](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L942) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:942](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L942) |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -364,9 +364,9 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:973](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L973) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:973](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L973) |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -376,10 +376,10 @@ update 定时器每一帧都会被触发。优先级的值越低，定时器被�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1006](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1006) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1006](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1006) |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -391,15 +391,15 @@ update 定时器每一帧都会被调用。<br/>
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1030](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1030) |
-| Deprecated | since v3.4 please use .scheduleUpdate |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1030](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1030) |
+| 废弃（Deprecated） | since v3.4 please use .scheduleUpdate |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - priority <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - paused <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
-##### Example
+##### 示例
 
 ```js
 //register this object to scheduler
@@ -415,14 +415,14 @@ scheduler.scheduleUpdateForTarget(this, priority, !this._isRunning );
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1051](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1051) |
-| Deprecated | since v3.4 please use .unschedule |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1051](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1051) |
+| 废弃（Deprecated） | since v3.4 please use .unschedule |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> callback[Function] or key[String]
 
-##### Example
+##### 示例
 
 ```js
 //unschedule a callback of target
@@ -437,13 +437,13 @@ scheduler.unscheduleCallbackForTarget(this, callback);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1069](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1069) |
-| Deprecated | since v3.4 please use .unschedule |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1069](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1069) |
+| 废弃（Deprecated） | since v3.4 please use .unschedule |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
-##### Example
+##### 示例
 
 ```js
 //unschedules the "update" method.
@@ -458,10 +458,10 @@ scheduler.unscheduleUpdateForTarget(this);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1082](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1082) |
-| Deprecated | since v3.4 please use unscheduleAllForTarget |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1082](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1082) |
+| 废弃（Deprecated） | since v3.4 please use unscheduleAllForTarget |
 
-###### Parameters
+###### 参数列表
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
@@ -472,8 +472,8 @@ scheduler.unscheduleUpdateForTarget(this);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1096](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1096) |
-| Deprecated | since v3.4 please use .unscheduleAllWithMinPriority |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1096](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1096) |
+| 废弃（Deprecated） | since v3.4 please use .unscheduleAllWithMinPriority |
 
 
 
@@ -484,10 +484,10 @@ scheduler.unscheduleUpdateForTarget(this);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1111) |
-| Deprecated | since v3.4 please use .unscheduleAllWithMinPriority |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1111) |
+| 废弃（Deprecated） | since v3.4 please use .unscheduleAllWithMinPriority |
 
-###### Parameters
+###### 参数列表
 - minPriority <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 

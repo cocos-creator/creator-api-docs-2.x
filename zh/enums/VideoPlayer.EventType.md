@@ -1,17 +1,17 @@
-### `VideoPlayer.EventType` Enum
+### `VideoPlayer.EventType` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 视频事件类型
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `PLAYING`
   - `PAUSED`
@@ -20,7 +20,7 @@ Module: [cc](../modules/cc.md)
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### PLAYING
@@ -29,8 +29,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:32](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L32) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:32](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L32) |
 
 
 
@@ -40,8 +40,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L37) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L37) |
 
 
 
@@ -51,8 +51,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:42](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L42) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:42](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L42) |
 
 
 
@@ -62,7 +62,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L47) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L47) |
 
 

@@ -1,24 +1,24 @@
-## `Action` Class
+## `Action` 类型
 
 
-Defined in: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:34](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L34)
+定义于: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:34](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L34)
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 Action 类是所有动作类型的基类。
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`TAG_INVALID`](#taginvalid) `Number` 默认动作标签。
 
 
 
-##### Methods
+##### 方法
 
   - [`clone`](#clone) 返回一个克隆的动作。
   - [`isDone`](#isdone) 如果动作已完成就返回 true。
@@ -33,7 +33,7 @@ Action 类是所有动作类型的基类。
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### TAG_INVALID
@@ -42,8 +42,8 @@ Action 类是所有动作类型的基类。
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:167](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L167) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:167](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L167) |
 
 
 
@@ -51,7 +51,7 @@ Action 类是所有动作类型的基类。
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### clone
@@ -60,8 +60,8 @@ Action 类是所有动作类型的基类。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L49) |
-| Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> 
+| 返回 | <a href="../classes/Action.html" class="crosslink">Action</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L49) |
 
 
 
@@ -71,8 +71,8 @@ Action 类是所有动作类型的基类。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L65) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L65) |
 
 
 
@@ -82,8 +82,8 @@ Action 类是所有动作类型的基类。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L97) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> 
+| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L97) |
 
 
 
@@ -93,9 +93,9 @@ Action 类是所有动作类型的基类。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L107) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L107) |
 
-###### Parameters
+###### 参数列表
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
@@ -105,8 +105,8 @@ Action 类是所有动作类型的基类。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L117) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> 
+| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L117) |
 
 
 
@@ -116,8 +116,8 @@ Action 类是所有动作类型的基类。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L134) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L134) |
 
 
 
@@ -127,9 +127,9 @@ Action 类是所有动作类型的基类。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:144](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L144) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:144](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L144) |
 
-###### Parameters
+###### 参数列表
 - tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 

@@ -1,17 +1,17 @@
-### `DrawBits` Enum
+### `DrawBits` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `e_aabbBit`
   - `e_pairBit`
@@ -21,7 +21,7 @@ Module: [cc](../modules/cc.md)
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### e_aabbBit
@@ -30,8 +30,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js#L609) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js#L609) |
 
 
 
@@ -41,8 +41,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js:616](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js#L616) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js:616](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js#L616) |
 
 
 
@@ -52,8 +52,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js:623](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js#L623) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js:623](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js#L623) |
 
 
 
@@ -63,8 +63,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js:630](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js#L630) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js:630](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js#L630) |
 
 
 
@@ -74,7 +74,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js:637](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js#L637) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js:637](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsManager.js#L637) |
 
 

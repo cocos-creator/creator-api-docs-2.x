@@ -30,7 +30,7 @@ Enum for Overflow.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L80) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L80) |
 
 
 
@@ -41,7 +41,7 @@ Enum for Overflow.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:85](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L85) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:85](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L85) |
 
 
 
@@ -52,7 +52,7 @@ Enum for Overflow.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L90) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L90) |
 
 
 
@@ -63,6 +63,6 @@ Enum for Overflow.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L95) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L95) |
 
 
