@@ -129,7 +129,7 @@ The volume of the music max value is 1.0,the min value is 0.0 .
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L179) |
 
 ###### Parameters
@@ -274,9 +274,12 @@ Resume playing audio.
 
 ###### Parameters
 - audioID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The return value of function play.
-//example
-cc.audioEngine.resume(audioID);
 
+##### Examples
+
+```js
+cc.audioEngine.resume(audioID);
+```
 
 ##### resumeAll
 

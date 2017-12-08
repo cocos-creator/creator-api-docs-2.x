@@ -339,7 +339,7 @@ Add the specified target to camera.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L201) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:207](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L207) |
 
 ###### Parameters
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -351,7 +351,7 @@ Remove the specified target from camera.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:218](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L218) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L224) |
 
 ###### Parameters
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -364,7 +364,7 @@ Get all camera targets.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">[Node]</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L235) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:241](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L241) |
 
 
 
@@ -375,7 +375,7 @@ Returns the matrix that transform the node's (local) space coordinates into the 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:247](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L247) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:253](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L253) |
 
 ###### Parameters
 - node <a href="../classes/Node.html" class="crosslink">Node</a> the node which should transform
@@ -388,7 +388,7 @@ Conver a camera coordinates point to world coordinates.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:264](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L264) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:270](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L270) |
 
 ###### Parameters
 - point <a href="../classes/Node.html" class="crosslink">Node</a> the point which should transform
@@ -401,7 +401,7 @@ Check whether the node is in the camera.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:280](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L280) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:286](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L286) |
 
 ###### Parameters
 - node <a href="../classes/Node.html" class="crosslink">Node</a> the node which need to check
@@ -707,8 +707,8 @@ If the selector is already scheduled, then the interval parameter will be update
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
-- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame. If interval = 0, it's recommended to use scheduleUpdate() instead.
-- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use kCCRepeatForever for tick infinitely.
+- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
+- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
 - delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### Examples
@@ -726,7 +726,7 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -747,7 +747,7 @@ Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### Parameters
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -765,7 +765,7 @@ Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:611](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L611) |
 
 
 ##### Examples

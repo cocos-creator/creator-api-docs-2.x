@@ -135,7 +135,7 @@ cc.audioEngine.setVolume(id, 0.5);
 
 | meta | description |
 |------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L179) |
 
 ###### 参数列表
@@ -280,9 +280,12 @@ cc.audioEngine.pauseAll();
 
 ###### 参数列表
 - audioID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The return value of function play.
-//example
-cc.audioEngine.resume(audioID);
 
+##### 示例
+
+```js
+cc.audioEngine.resume(audioID);
+```
 
 ##### resumeAll
 

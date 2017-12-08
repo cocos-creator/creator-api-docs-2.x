@@ -144,7 +144,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../enums/VideoPlayer.ResourceType.html" class="crosslink">VideoPlayer.ResourceType</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L95) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L110) |
 
 
 
@@ -155,7 +155,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:113](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L113) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:128](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L128) |
 
 
 
@@ -166,7 +166,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L134) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:149](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L149) |
 
 
 
@@ -177,7 +177,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:153](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L153) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L168) |
 
 
 
@@ -188,7 +188,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:174](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L174) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:189](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L189) |
 
 
 
@@ -199,7 +199,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:188](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L188) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:203](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L203) |
 
 
 
@@ -210,7 +210,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:202](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L202) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L217) |
 
 
 
@@ -398,7 +398,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:306](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L306) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:321](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L321) |
 
 
 
@@ -408,7 +408,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:317](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L317) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:332](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L332) |
 
 
 
@@ -418,7 +418,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L328) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:343](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L343) |
 
 
 
@@ -428,7 +428,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L339) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:354](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L354) |
 
 
 
@@ -439,7 +439,7 @@ cc.log(obj.isValid);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:350](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L350) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:365](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L365) |
 
 
 
@@ -450,7 +450,7 @@ cc.log(obj.isValid);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:363](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L363) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:378](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L378) |
 
 
 
@@ -462,7 +462,7 @@ cc.log(obj.isValid);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:376](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L376) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:391](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L391) |
 
 
 ##### 示例
@@ -767,8 +767,8 @@ onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消
 
 ###### 参数列表
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
-- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame. If interval = 0, it's recommended to use scheduleUpdate() instead.
-- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use kCCRepeatForever for tick infinitely.
+- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
+- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
 - delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### 示例
@@ -786,7 +786,7 @@ this.schedule(timeCallback, 1);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### 参数列表
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -807,7 +807,7 @@ this.scheduleOnce(timeCallback, 2);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### 参数列表
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -824,7 +824,7 @@ this.unschedule(_callback);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:611](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L611) |
 
 
 ##### 示例

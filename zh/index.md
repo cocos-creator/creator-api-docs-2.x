@@ -171,6 +171,7 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`TiledObjectGroup`](classes/TiledObjectGroup.md) from [cc](modules/cc.md)
 - [`TMXObject`](classes/TMXObject.md) from [cc](modules/cc.md)
 - [`Toggle`](classes/Toggle.md) from [cc](modules/cc.md)
+- [`ToggleContainer`](classes/ToggleContainer.md) from [cc](modules/cc.md)
 - [`ToggleGroup`](classes/ToggleGroup.md) from [cc](modules/cc.md)
 - [`Touch`](classes/Touch.md) from [cc](modules/cc.md)
 - [`TTFFont`](classes/TTFFont.md) from [cc](modules/cc.md)

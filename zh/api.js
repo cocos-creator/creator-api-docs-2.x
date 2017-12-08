@@ -1257,6 +1257,12 @@ window.apimeta = {
       "description": "Toggle 是一个 CheckBox，当它和 ToggleGroup 一起使用的时候，可以变成 RadioButton。"
     },
     {
+      "name": "ToggleContainer",
+      "namespace": "cc.ToggleContainer",
+      "module": "cc",
+      "description": "ToggleContainer 不是一个可见的 UI 组件，它可以用来修改一组 Toggle 组件的行为。</br>\n当一组 Toggle 属于同一个 ToggleContainer 的时候，任何时候只能有一个 Toggle 处于选中状态。</br>\n注意：所有包含 Toggle 组件的一级子节点都会自动被添加到该容器中"
+    },
+    {
       "name": "ToggleGroup",
       "namespace": "cc.ToggleGroup",
       "module": "cc",

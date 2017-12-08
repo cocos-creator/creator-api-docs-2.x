@@ -12,6 +12,8 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 ### 类型
 
   - [DebugMode](../classes/DebugMode.md)
+  - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
+  - [audioEngine](../classes/audioEngine.md)
   - [Action](../classes/Action.md)
   - [FiniteTimeAction](../classes/FiniteTimeAction.md)
   - [ActionEase](../classes/ActionEase.md)
@@ -25,24 +27,22 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [AnimationState](../classes/AnimationState.md)
   - [Playable](../classes/Playable.md)
   - [WrapMode](../classes/WrapMode.md)
-  - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
-  - [audioEngine](../classes/audioEngine.md)
-  - [Director](../classes/Director.md)
-  - [Game](../classes/Game.md)
-  - [Node.EventType](../classes/Node.EventType.md)
-  - [Node](../classes/Node.md)
-  - [Scene](../classes/Scene.md)
-  - [Scheduler](../classes/Scheduler.md)
   - [MotionStreak](../classes/MotionStreak.md)
-  - [ParticleSystem.EmitterMode](../classes/ParticleSystem.EmitterMode.md)
-  - [ParticleSystem.PositionType](../classes/ParticleSystem.PositionType.md)
-  - [ParticleSystem](../classes/ParticleSystem.md)
   - [TMXObject](../classes/TMXObject.md)
   - [TiledLayer](../classes/TiledLayer.md)
   - [TiledMap.Orientation](../classes/TiledMap.Orientation.md)
   - [TiledMap](../classes/TiledMap.md)
   - [TiledMapAsset](../classes/TiledMapAsset.md)
   - [TiledObjectGroup](../classes/TiledObjectGroup.md)
+  - [ParticleSystem.EmitterMode](../classes/ParticleSystem.EmitterMode.md)
+  - [ParticleSystem.PositionType](../classes/ParticleSystem.PositionType.md)
+  - [ParticleSystem](../classes/ParticleSystem.md)
+  - [Director](../classes/Director.md)
+  - [Game](../classes/Game.md)
+  - [Scene](../classes/Scene.md)
+  - [Node.EventType](../classes/Node.EventType.md)
+  - [Node](../classes/Node.md)
+  - [Scheduler](../classes/Scheduler.md)
   - [NodePool](../classes/NodePool.md)
   - [pool](../classes/pool.md)
   - [Camera](../classes/Camera.md)
@@ -70,6 +70,9 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [SpriteAtlas](../classes/SpriteAtlas.md)
   - [TTFFont](../classes/TTFFont.md)
   - [TextAsset](../classes/TextAsset.md)
+  - [EventTarget](../classes/EventTarget.md)
+  - [Event](../classes/Event.md)
+  - [Event.EventCustom](../classes/Event.EventCustom.md)
   - [Event.EventMouse](../classes/Event.EventMouse.md)
   - [Event.EventTouch](../classes/Event.EventTouch.md)
   - [Event.EventAcceleration](../classes/Event.EventAcceleration.md)
@@ -79,9 +82,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [SystemEvent.EventType](../classes/SystemEvent.EventType.md)
   - [SystemEvent](../classes/SystemEvent.md)
   - [Touch](../classes/Touch.md)
-  - [EventTarget](../classes/EventTarget.md)
-  - [Event](../classes/Event.md)
-  - [Event.EventCustom](../classes/Event.EventCustom.md)
   - [Graphics](../classes/Graphics.md)
   - [Graphics.LineCap](../classes/Graphics.LineCap.md)
   - [Graphics.LineJoin](../classes/Graphics.LineJoin.md)
@@ -97,12 +97,12 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [EditBox.InputMode](../classes/EditBox.InputMode.md)
   - [EditBox.InputFlag](../classes/EditBox.InputFlag.md)
   - [EditBox](../classes/EditBox.md)
-  - [LabelOutline](../classes/LabelOutline.md)
   - [Label.HorizontalAlign](../classes/Label.HorizontalAlign.md)
   - [Label.VerticalAlign](../classes/Label.VerticalAlign.md)
   - [Label.Overflow](../classes/Label.Overflow.md)
   - [Label.Type](../classes/Label.Type.md)
   - [Label](../classes/Label.md)
+  - [LabelOutline](../classes/LabelOutline.md)
   - [Layout.Type](../classes/Layout.Type.md)
   - [Layout.ResizeMode](../classes/Layout.ResizeMode.md)
   - [Layout.AxisDirection](../classes/Layout.AxisDirection.md)
@@ -135,6 +135,7 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [Sprite](../classes/Sprite.md)
   - [SpriteDistortion](../classes/SpriteDistortion.md)
   - [Toggle](../classes/Toggle.md)
+  - [ToggleContainer](../classes/ToggleContainer.md)
   - [ToggleGroup](../classes/ToggleGroup.md)
   - [VideoPlayer.EventType](../classes/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../classes/VideoPlayer.ResourceType.md)
@@ -143,12 +144,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [WebView.EventType](../classes/WebView.EventType.md)
   - [WebView](../classes/WebView.md)
   - [Widget](../classes/Widget.md)
-  - [loader](../classes/loader.md)
-  - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
-  - [Pipeline.Loader](../classes/Pipeline.Loader.md)
-  - [LoadingItems](../classes/LoadingItems.md)
-  - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
-  - [Pipeline](../classes/Pipeline.md)
   - [WorldManifold](../classes/WorldManifold.md)
   - [ManifoldPoint](../classes/ManifoldPoint.md)
   - [Manifold](../classes/Manifold.md)
@@ -160,6 +155,19 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [RigidBodyType](../classes/RigidBodyType.md)
   - [RayCastType](../classes/RayCastType.md)
   - [RigidBody](../classes/RigidBody.md)
+  - [loader](../classes/loader.md)
+  - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
+  - [Pipeline.Loader](../classes/Pipeline.Loader.md)
+  - [LoadingItems](../classes/LoadingItems.md)
+  - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
+  - [Pipeline](../classes/Pipeline.md)
+  - [SpriteFrame](../classes/SpriteFrame.md)
+  - [Texture2D.PixelFormat](../classes/Texture2D.PixelFormat.md)
+  - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
+  - [Texture2D.Filter](../classes/Texture2D.Filter.md)
+  - [Texture2D](../classes/Texture2D.md)
+  - [textureCache](../classes/textureCache.md)
+  - [_BaseNode](../classes/_BaseNode.md)
   - [KEY](../classes/KEY.md)
   - [ImageFormat](../classes/ImageFormat.md)
   - [macro](../classes/macro.md)
@@ -181,13 +189,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [CallbacksInvoker](../classes/CallbacksInvoker.md)
   - [Details](../classes/Details.md)
   - [url](../classes/url.md)
-  - [SpriteFrame](../classes/SpriteFrame.md)
-  - [Texture2D.PixelFormat](../classes/Texture2D.PixelFormat.md)
-  - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
-  - [Texture2D.Filter](../classes/Texture2D.Filter.md)
-  - [Texture2D](../classes/Texture2D.md)
-  - [textureCache](../classes/textureCache.md)
-  - [_BaseNode](../classes/_BaseNode.md)
   - [AffineTransform](../classes/AffineTransform.md)
   - [Color](../classes/Color.md)
   - [Rect](../classes/Rect.md)
@@ -209,13 +210,13 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [ValueType](../classes/ValueType.md)
   - [Vec2](../classes/Vec2.md)
   - [PhysicsBoxCollider](../classes/PhysicsBoxCollider.md)
-  - [PhysicsCircleCollider](../classes/PhysicsCircleCollider.md)
   - [PhysicsChainCollider](../classes/PhysicsChainCollider.md)
+  - [PhysicsCircleCollider](../classes/PhysicsCircleCollider.md)
   - [PhysicsCollider](../classes/PhysicsCollider.md)
   - [PhysicsPolygonCollider](../classes/PhysicsPolygonCollider.md)
   - [DistanceJoint](../classes/DistanceJoint.md)
-  - [MotorJoint](../classes/MotorJoint.md)
   - [Joint](../classes/Joint.md)
+  - [MotorJoint](../classes/MotorJoint.md)
   - [MouseJoint](../classes/MouseJoint.md)
   - [PrismaticJoint](../classes/PrismaticJoint.md)
   - [RevoluteJoint](../classes/RevoluteJoint.md)
@@ -226,11 +227,11 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 ### 枚举
 
   - [DebugMode](../enums/DebugMode.md)
-  - [WrapMode](../enums/WrapMode.md)
   - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
+  - [WrapMode](../enums/WrapMode.md)
+  - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
-  - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
   - [Graphics.LineCap](../enums/Graphics.LineCap.md)
   - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
   - [Button.Transition](../enums/Button.Transition.md)
@@ -261,17 +262,17 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [VideoPlayer.EventType](../enums/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../enums/VideoPlayer.ResourceType.md)
   - [WebView.EventType](../enums/WebView.EventType.md)
-  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
   - [DrawBits](../enums/DrawBits.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [RayCastType](../enums/RayCastType.md)
+  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
+  - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
+  - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
+  - [Texture2D.Filter](../enums/Texture2D.Filter.md)
   - [KEY](../enums/KEY.md)
   - [ImageFormat](../enums/ImageFormat.md)
   - [macro](../enums/macro.md)
   - [Flags](../enums/Flags.md)
-  - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
-  - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
-  - [Texture2D.Filter](../enums/Texture2D.Filter.md)
   - [BlendFactor](../enums/BlendFactor.md)
   - [TextAlignment](../enums/TextAlignment.md)
 
@@ -441,6 +442,10 @@ EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
   - [`delayTime`](#delaytime) 
   - [`reverseTime`](#reversetime) 反转目标动作的时间轴。
   - [`targetedAction`](#targetedaction) 用已有动作和一个新的目标节点创建动作。
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
   - [`Class`](#class) 定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
   - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
   - [`isChildClassOf`](#ischildclassof) Checks whether subclass is child of superclass or equals to superclass
@@ -486,10 +491,6 @@ EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
   - [`instantiate`](#instantiate) 克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
 
 （Instantiate 时，function 和 dom 等非可序列化对象会直接保留原有引用，Asset 会直接进行浅拷贝，可序列化类型会进行深拷贝。）
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
   - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
 Alpha 通道是可选的。默认值是 255。
   - [`colorEqual`](#colorequal) 判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
@@ -2282,6 +2283,23 @@ var delay = cc.delayTime(1);
 - action <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
+
+###### 参数列表
+- path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- referenceNode <a href="../classes/Node.html" class="crosslink">Node</a> 
+
+
 ##### Class
 
 定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
@@ -2879,23 +2897,6 @@ var scene = cc.director.getScene();
 var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
-
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
-
-###### 参数列表
-- path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- referenceNode <a href="../classes/Node.html" class="crosslink">Node</a> 
-
 
 ##### color
 

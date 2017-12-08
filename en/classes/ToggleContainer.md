@@ -1,4 +1,4 @@
-## `Animation` Class
+## `ToggleContainer` Class
 
 Extends [`Component`](Component.md)
 
@@ -8,24 +8,18 @@ Module: [cc](../modules/cc.md)
 
 
 
-The animation component is used to play back animations.
-
-Animation provide several events to register：
- - play : Emit when begin playing animation
- - stop : Emit when stop playing animation
- - pause : Emit when pause animation
- - resume : Emit when resume animation
- - lastframe : If animation repeat count is larger than 1, emit when animation play to the last frame
- - finished : Emit when finish playing animation
+ToggleContainer is not a visiable UI component but a way to modify the behavior of a set of Toggles. </br>
+Toggles that belong to the same group could only have one of them to be switched on at a time.</br>
+Note: All the first layer child node containing the toggle component will auto be added to the container
 
 ### Index
 
 ##### Properties
 
-  - [`defaultClip`](#defaultclip) `AnimationClip` Animation will play the default clip when start game.
-  - [`currentClip`](#currentclip) `AnimationClip` Current played clip.
-  - [`_clips`](#clips) `AnimationClip[]` All the clips used in this animation.
-  - [`playOnLoad`](#playonload) `Boolean` Whether the animation should auto play the default clip when start game.
+  - [`allowSwitchOff`](#allowswitchoff) `Boolean` If this setting is true, a toggle could be switched off and on when pressed.
+If it is false, it will make sure there is always only one toggle could be switched on
+and the already switched on toggle can't be switched off.
+  - [`toggleItems`](#toggleitems) `Toggle[]` Read only property, return the toggle items array reference managed by ToggleContainer.
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
   - [`node`](#node) `Node` The node this component is attached to. A component is always attached to a node.
@@ -43,36 +37,6 @@ all event callbacks will be removed in _onPreDestroy
 
 ##### Methods
 
-  - [`getClips`](#getclips) Get all the clips used in this animation.
-  - [`play`](#play) Plays an animation and stop other animations.
-  - [`playAdditive`](#playadditive) Plays an additive animation, it will not stop other animations.
-If there are other animations playing, then will play several animations at the same time.
-  - [`stop`](#stop) Stops an animation named name. If no name is supplied then stops all playing animations that were started with this Animation. <br/>
-Stopping an animation also Rewinds it to the Start.
-  - [`pause`](#pause) Pauses an animation named name. If no name is supplied then pauses all playing animations that were started with this Animation.
-  - [`resume`](#resume) Resumes an animation named name. If no name is supplied then resumes all paused animations that were started with this Animation.
-  - [`setCurrentTime`](#setcurrenttime) Make an animation named name go to the specified time. If no name is supplied then make all animations go to the specified time.
-  - [`getAnimationState`](#getanimationstate) Returns the animation state named name. If no animation with the specified name, the function will return null.
-  - [`addClip`](#addclip) Adds a clip to the animation with name newName. If a clip with that name already exists it will be replaced with the new clip.
-  - [`removeClip`](#removeclip) Remove clip from the animation list. This will remove the clip and any animation states based on it.
-If there are animation states depand on the clip are playing or clip is defaultClip, it will not delete the clip.
-But if force is true, then will always remove the clip and any animation states based on it. If clip is defaultClip, defaultClip will be reset to null
-  - [`sample`](#sample) Samples animations at the current state.<br/>
-This is useful when you explicitly want to set up some animation state, and sample it once.
-  - [`on`](#on) Register animation event callback.
-The event arguments will provide the AnimationState which emit the event.
-When play an animation, will auto register the event callback to the AnimationState, and unregister the event callback from the AnimationState when animation stopped.
-  - [`off`](#off) Unregister animation event callback.
-  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
-  - [`once`](#once) Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
-  - [`dispatchEvent`](#dispatchevent) Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
-  - [`emit`](#emit) Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
   - [`update`](#update) Update is called every frame, if the Component is enabled.
   - [`lateUpdate`](#lateupdate) LateUpdate is called every frame, if the Component is enabled.
   - [`__preload`](#preload) `__preload` is called before every onLoad.
@@ -158,47 +122,27 @@ NOTE: this method will not clear the getter or setter functions which defined in
 #### Properties
 
 
-##### defaultClip
+##### allowSwitchOff
 
-> Animation will play the default clip when start game.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L95) |
-
-
-
-##### currentClip
-
-> Current played clip.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L130) |
-
-
-
-##### _clips
-
-> All the clips used in this animation.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip[]</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:147](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L147) |
-
-
-
-##### playOnLoad
-
-> Whether the animation should auto play the default clip when start game.
+> If this setting is true, a toggle could be switched off and on when pressed.
+If it is false, it will make sure there is always only one toggle could be switched on
+and the already switched on toggle can't be switched off.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:161](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L161) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleContainer.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleContainer.js#L49) |
+
+
+
+##### toggleItems
+
+> Read only property, return the toggle items array reference managed by ToggleContainer.
+
+| meta | description |
+|------|-------------|
+| Type | <a href="../classes/Toggle.html" class="crosslink">Toggle[]</a> |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleContainer.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleContainer.js#L110) |
 
 
 
@@ -365,293 +309,6 @@ cc.log(obj.isValid);
 
 <!-- Method Block -->
 #### Methods
-
-
-##### getClips
-
-Get all the clips used in this animation.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip[]</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L204) |
-
-
-
-##### play
-
-Plays an animation and stop other animations.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/AnimationState.html" class="crosslink">AnimationState</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:214](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L214) |
-
-###### Parameters
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of animation to play. If no name is supplied then the default animation will be played.
-- startTime <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> play an animation from startTime
-
-##### Examples
-
-```js
-var animCtrl = this.node.getComponent(cc.Animation);
-animCtrl.play("linear");
-```
-
-##### playAdditive
-
-Plays an additive animation, it will not stop other animations.
-If there are other animations playing, then will play several animations at the same time.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/AnimationState.html" class="crosslink">AnimationState</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:231](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L231) |
-
-###### Parameters
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of animation to play. If no name is supplied then the default animation will be played.
-- startTime <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> play an animation from startTime
-
-##### Examples
-
-```js
-// linear_1 and linear_2 at the same time playing.
-var animCtrl = this.node.getComponent(cc.Animation);
-animCtrl.playAdditive("linear_1");
-animCtrl.playAdditive("linear_2");
-```
-
-##### stop
-
-Stops an animation named name. If no name is supplied then stops all playing animations that were started with this Animation. <br/>
-Stopping an animation also Rewinds it to the Start.
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:272](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L272) |
-
-###### Parameters
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The animation to stop, if not supplied then stops all playing animations.
-
-
-##### pause
-
-Pauses an animation named name. If no name is supplied then pauses all playing animations that were started with this Animation.
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:294](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L294) |
-
-###### Parameters
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The animation to pauses, if not supplied then pauses all playing animations.
-
-
-##### resume
-
-Resumes an animation named name. If no name is supplied then resumes all paused animations that were started with this Animation.
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:315](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L315) |
-
-###### Parameters
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The animation to resumes, if not supplied then resumes all paused animations.
-
-
-##### setCurrentTime
-
-Make an animation named name go to the specified time. If no name is supplied then make all animations go to the specified time.
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:336](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L336) |
-
-###### Parameters
-- time <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The time to go to
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Specified animation name, if not supplied then make all animations go to the time.
-
-
-##### getAnimationState
-
-Returns the animation state named name. If no animation with the specified name, the function will return null.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/AnimationState.html" class="crosslink">AnimationState</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:356](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L356) |
-
-###### Parameters
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-
-
-##### addClip
-
-Adds a clip to the animation with name newName. If a clip with that name already exists it will be replaced with the new clip.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/AnimationState.html" class="crosslink">AnimationState</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L385) |
-
-###### Parameters
-- clip <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> the clip to add
-- newName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-
-
-##### removeClip
-
-Remove clip from the animation list. This will remove the clip and any animation states based on it.
-If there are animation states depand on the clip are playing or clip is defaultClip, it will not delete the clip.
-But if force is true, then will always remove the clip and any animation states based on it. If clip is defaultClip, defaultClip will be reset to null
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L426) |
-
-###### Parameters
-- clip <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> 
-- force <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If force is true, then will always remove the clip and any animation states based on it.
-
-
-##### sample
-
-Samples animations at the current state.<br/>
-This is useful when you explicitly want to set up some animation state, and sample it once.
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:480](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L480) |
-
-###### Parameters
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-
-
-##### on
-
-Register animation event callback.
-The event arguments will provide the AnimationState which emit the event.
-When play an animation, will auto register the event callback to the AnimationState, and unregister the event callback from the AnimationState when animation stopped.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:503](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L503) |
-
-###### Parameters
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
-                             The callback is ignored if it is a duplicate (the callbacks are unique).
-	- event <a href="../classes/Event.html" class="crosslink">Event</a> event
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
-- useCapture <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
-                             from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
-                             When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
-                             Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
-
-##### Examples
-
-```js
-onPlay: function (event) {
-    var state = event.detail;    // state instanceof cc.AnimationState
-    var type = event.type;       // type === 'play';
-}
-
-// register event to all animation
-animation.on('play', this.onPlay, this);
-```
-
-##### off
-
-Unregister animation event callback.
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js:550](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCAnimation.js#L550) |
-
-###### Parameters
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to remove.
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, if it's not given, only callback without target will be removed
-- useCapture <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Specifies whether the callback being removed was registered as a capturing callback or not.
-                             If not specified, useCapture defaults to false. If a callback was registered twice,
-                             one with capture and one without, each must be removed separately. Removal of a capturing callback
-                             does not affect a non-capturing version of the same listener, and vice versa.
-
-##### Examples
-
-```js
-// unregister event to all animation
-animation.off('play', this.onPlay, this);
-```
-
-##### targetOff
-
-Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:329](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L329) |
-
-###### Parameters
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
-
-
-##### once
-
-Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:351](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L351) |
-
-###### Parameters
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
-                             The callback is ignored if it is a duplicate (the callbacks are unique).
-	- event <a href="../classes/Event.html" class="crosslink">Event</a> event
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
-- useCapture <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
-                             from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
-                             When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
-                             Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
-
-##### Examples
-
-```js
-node.once(cc.Node.EventType.TOUCH_END, function (event) {
-    cc.log("this is callback");
-}, node);
-```
-
-##### dispatchEvent
-
-Dispatches an event into the event flow.
-The event target is the EventTarget object upon which the dispatchEvent() method is called.
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:396](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L396) |
-
-###### Parameters
-- event <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
-
-
-##### emit
-
-Send an event to this object directly, this method will not propagate the event to any other objects.
-The event will be created from the supplied message, you can get the "detail" argument from event.detail.
-
-| meta | description |
-|------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js:410](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event-target.js#L410) |
-
-###### Parameters
-- message <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send
-- detail Any whatever argument the message needs
 
 
 ##### update
