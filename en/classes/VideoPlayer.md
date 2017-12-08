@@ -152,7 +152,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/VideoPlayer.ResourceType.html" class="crosslink">VideoPlayer.ResourceType</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L95) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L110) |
 
 
 
@@ -163,7 +163,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:113](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L113) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:128](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L128) |
 
 
 
@@ -174,7 +174,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L134) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:149](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L149) |
 
 
 
@@ -185,7 +185,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:153](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L153) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L168) |
 
 
 
@@ -196,7 +196,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:174](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L174) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:189](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L189) |
 
 
 
@@ -207,7 +207,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:188](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L188) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:203](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L203) |
 
 
 
@@ -218,7 +218,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:202](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L202) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L217) |
 
 
 
@@ -406,7 +406,7 @@ If a video is paused, call this method could resume playing. If a video is stopp
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:306](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L306) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:321](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L321) |
 
 
 
@@ -416,7 +416,7 @@ If a video is paused, call this method to resume playing.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:317](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L317) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:332](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L332) |
 
 
 
@@ -426,7 +426,7 @@ If a video is playing, call this method to pause playing.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L328) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:343](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L343) |
 
 
 
@@ -436,7 +436,7 @@ If a video is playing, call this method to stop playing immediately.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L339) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:354](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L354) |
 
 
 
@@ -447,7 +447,7 @@ Gets the duration of the video
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:350](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L350) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:365](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L365) |
 
 
 
@@ -458,7 +458,7 @@ Determine whether video is playing or not.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:363](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L363) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:378](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L378) |
 
 
 
@@ -471,7 +471,7 @@ Otherwise, the created DOM element won't be removed from web page.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:376](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L376) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:391](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L391) |
 
 
 ##### Examples
@@ -782,8 +782,8 @@ If the selector is already scheduled, then the interval parameter will be update
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
-- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame. If interval = 0, it's recommended to use scheduleUpdate() instead.
-- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use kCCRepeatForever for tick infinitely.
+- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
+- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
 - delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### Examples
@@ -801,7 +801,7 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -822,7 +822,7 @@ Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### Parameters
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -840,7 +840,7 @@ Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:611](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L611) |
 
 
 ##### Examples

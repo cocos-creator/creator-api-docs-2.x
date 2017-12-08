@@ -236,7 +236,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1560](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1560) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1562](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1562) |
 
 
 
@@ -247,7 +247,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1569](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1569) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1571](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1571) |
 
 
 
@@ -258,7 +258,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1578) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1580](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1580) |
 
 
 
@@ -269,7 +269,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1587) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1589](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1589) |
 
 
 

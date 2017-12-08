@@ -328,7 +328,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L201) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:207](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L207) |
 
 ###### 参数列表
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -340,7 +340,7 @@ cc.log(obj.isValid);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:218](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L218) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L224) |
 
 ###### 参数列表
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -353,7 +353,7 @@ cc.log(obj.isValid);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">[Node]</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L235) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:241](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L241) |
 
 
 
@@ -364,7 +364,7 @@ cc.log(obj.isValid);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:247](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L247) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:253](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L253) |
 
 ###### 参数列表
 - node <a href="../classes/Node.html" class="crosslink">Node</a> the node which should transform
@@ -377,7 +377,7 @@ cc.log(obj.isValid);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:264](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L264) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:270](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L270) |
 
 ###### 参数列表
 - point <a href="../classes/Node.html" class="crosslink">Node</a> the point which should transform
@@ -390,7 +390,7 @@ cc.log(obj.isValid);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:280](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L280) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js:286](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/camera/CCCamera.js#L286) |
 
 ###### 参数列表
 - node <a href="../classes/Node.html" class="crosslink">Node</a> the node which need to check
@@ -690,8 +690,8 @@ onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消
 
 ###### 参数列表
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
-- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame. If interval = 0, it's recommended to use scheduleUpdate() instead.
-- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use kCCRepeatForever for tick infinitely.
+- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
+- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
 - delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### 示例
@@ -709,7 +709,7 @@ this.schedule(timeCallback, 1);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### 参数列表
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -730,7 +730,7 @@ this.scheduleOnce(timeCallback, 2);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### 参数列表
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -747,7 +747,7 @@ this.unschedule(_callback);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:611](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L611) |
 
 
 ##### 示例

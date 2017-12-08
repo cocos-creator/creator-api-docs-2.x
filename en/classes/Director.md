@@ -260,7 +260,7 @@ the render queue is ready but not rendered at this point.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1560](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1560) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1562](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1562) |
 
 
 
@@ -271,7 +271,7 @@ the render queue is ready but not rendered at this point.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1569](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1569) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1571](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1571) |
 
 
 
@@ -282,7 +282,7 @@ the render queue is ready but not rendered at this point.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1578) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1580](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1580) |
 
 
 
@@ -293,7 +293,7 @@ the render queue is ready but not rendered at this point.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1587) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1589](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1589) |
 
 
 

@@ -28,7 +28,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L61) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:76](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L76) |
 
 
 
@@ -39,6 +39,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L67) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCVideoPlayer.js#L82) |
 
 

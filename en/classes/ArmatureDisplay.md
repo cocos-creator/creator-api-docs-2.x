@@ -194,7 +194,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:155](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L155) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:156](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L156) |
 
 
 
@@ -205,7 +205,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:170](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L170) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:171](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L171) |
 
 
 
@@ -216,7 +216,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:236](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L236) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:237](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L237) |
 
 
 
@@ -230,7 +230,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:252](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L252) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:253](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L253) |
 
 
 
@@ -241,7 +241,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:269](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L269) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:270](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L270) |
 
 
 
@@ -435,7 +435,7 @@ Parameter playTimes specify the repeat times of the animation.
 | meta | description |
 |------|-------------|
 | Returns | dragonBones.AnimationState 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:455](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L455) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:472](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L472) |
 
 ###### Parameters
 - animName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -449,7 +449,7 @@ Get the all armature names in the DragonBones Data.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:485](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L485) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:502](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L502) |
 
 
 
@@ -460,7 +460,7 @@ Get the all animation names of specified armature.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:501](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L501) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:518](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L518) |
 
 ###### Parameters
 - armatureName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -472,7 +472,7 @@ Add event listener for the DragonBones Event.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:526](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L526) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:543](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L543) |
 
 ###### Parameters
 - eventType dragonBones.EventObject 
@@ -486,7 +486,7 @@ Remove the event listener for the DragonBones Event.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:542](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L542) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:559](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L559) |
 
 ###### Parameters
 - eventType dragonBones.EventObject 
@@ -501,7 +501,7 @@ Build the armature for specified name.
 | meta | description |
 |------|-------------|
 | Returns | dragonBones.Armature 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:558](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L558) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:575](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L575) |
 
 ###### Parameters
 - armatureName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -514,7 +514,7 @@ Get the current armature object of the ArmatureDisplay.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:575](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L575) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:592](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L592) |
 
 
 
@@ -818,8 +818,8 @@ If the selector is already scheduled, then the interval parameter will be update
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
-- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame. If interval = 0, it's recommended to use scheduleUpdate() instead.
-- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use kCCRepeatForever for tick infinitely.
+- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
+- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
 - delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### Examples
@@ -837,7 +837,7 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L570) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### Parameters
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -858,7 +858,7 @@ Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:587](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L587) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### Parameters
 - callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -876,7 +876,7 @@ Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L603) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:611](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L611) |
 
 
 ##### Examples

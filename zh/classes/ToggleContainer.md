@@ -1,6 +1,6 @@
-## `Graphics` 类型
+## `ToggleContainer` 类型
 
-继承于 [`_RendererUnderSG`](_RendererUnderSG.md)
+继承于 [`Component`](Component.md)
 
 
 模块: [cc](../modules/cc.md)
@@ -8,21 +8,16 @@
 
 
 
-
+ToggleContainer 不是一个可见的 UI 组件，它可以用来修改一组 Toggle 组件的行为。</br>
+当一组 Toggle 属于同一个 ToggleContainer 的时候，任何时候只能有一个 Toggle 处于选中状态。</br>
+注意：所有包含 Toggle 组件的一级子节点都会自动被添加到该容器中
 
 ### 索引
 
 ##### 属性（properties）
 
-  - [`lineWidth`](#linewidth) `Number` 当前线条宽度
-  - [`lineJoin`](#linejoin) `Graphics.LineJoin` lineJoin 用来设置2个长度不为0的相连部分（线段，圆弧，曲线）如何连接在一起的属性。
-  - [`lineCap`](#linecap) `Graphics.LineCap` lineCap 指定如何绘制每一条线段末端。
-  - [`strokeColor`](#strokecolor) `Color` 线段颜色
-  - [`fillColor`](#fillcolor) `Color` 填充颜色
-  - [`miterLimit`](#miterlimit) `Number` 设置斜接面限制比例
-  - [`_sgNode`](#sgnode) `_ccsg.Node` Reference to the instance of _ccsg.Node
-If it is possible to return null from your overloaded _createSgNode,
-then you should always check for null before using this property and reimplement `__preload`.
+  - [`allowSwitchOff`](#allowswitchoff) `Boolean` 如果这个设置为 true， 那么 toggle 按钮在被点击的时候可以反复地被选中和未选中。
+  - [`toggleItems`](#toggleitems) `Toggle[]` 只读属性，返回 ToggleContainer 管理的 toggle 数组引用
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,
 all event callbacks will be removed in _onPreDestroy
   - [`node`](#node) `Node` 该组件被附加到的节点。组件总会附加到一个节点。
@@ -40,24 +35,6 @@ all event callbacks will be removed in _onPreDestroy
 
 ##### 方法
 
-  - [`moveTo`](#moveto) 移动路径起点到坐标(x, y)
-  - [`lineTo`](#lineto) 绘制直线路径
-  - [`bezierCurveTo`](#beziercurveto) 绘制三次贝赛尔曲线路径
-  - [`quadraticCurveTo`](#quadraticcurveto) 绘制二次贝赛尔曲线路径
-  - [`arc`](#arc) 绘制圆弧路径。圆弧路径的圆心在 (cx, cy) 位置，半径为 r ，根据 counterclockwise （默认为false）指定的方向从 startAngle 开始绘制，到 endAngle 结束。
-  - [`ellipse`](#ellipse) 绘制椭圆路径。
-  - [`circle`](#circle) 绘制圆形路径。
-  - [`rect`](#rect) 绘制矩形路径。
-  - [`roundRect`](#roundrect) 绘制圆角矩形路径。
-  - [`fillRect`](#fillrect) 绘制填充矩形。
-  - [`clear`](#clear) 擦除之前绘制的所有内容的方法。
-  - [`close`](#close) 将笔点返回到当前路径起始点的。它尝试从当前点到起始点绘制一条直线。
-  - [`stroke`](#stroke) 根据当前的画线样式，绘制当前或已经存在的路径。
-  - [`fill`](#fill) 根据当前的画线样式，填充当前或已经存在的路径。
-  - [`_createSgNode`](#createsgnode) Create and returns your new scene graph node (SGNode) to add to scene graph.
-You should call the setContentSize of the SGNode if its size should be the same with the node's.
-  - [`_initSgNode`](#initsgnode) 
-  - [`_removeSgNode`](#removesgnode) 
   - [`update`](#update) 如果该组件启用，则每帧调用 update。
   - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad.
@@ -134,82 +111,25 @@ NOTE: this method will not clear the getter or setter functions which defined in
 #### 属性（properties）
 
 
-##### lineWidth
+##### allowSwitchOff
 
-> 当前线条宽度
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:53](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L53) |
-
-
-
-##### lineJoin
-
-> lineJoin 用来设置2个长度不为0的相连部分（线段，圆弧，曲线）如何连接在一起的属性。
+> 如果这个设置为 true， 那么 toggle 按钮在被点击的时候可以反复地被选中和未选中。
 
 | meta | description |
 |------|-------------|
-| 类型 | <a href="../enums/Graphics.LineJoin.html" class="crosslink">Graphics.LineJoin</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L70) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleContainer.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleContainer.js#L49) |
 
 
 
-##### lineCap
+##### toggleItems
 
-> lineCap 指定如何绘制每一条线段末端。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../enums/Graphics.LineCap.html" class="crosslink">Graphics.LineCap</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L88) |
-
-
-
-##### strokeColor
-
-> 线段颜色
+> 只读属性，返回 ToggleContainer 管理的 toggle 数组引用
 
 | meta | description |
 |------|-------------|
-| 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L106) |
-
-
-
-##### fillColor
-
-> 填充颜色
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L123) |
-
-
-
-##### miterLimit
-
-> 设置斜接面限制比例
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:140](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L140) |
-
-
-
-##### _sgNode
-
-> Reference to the instance of _ccsg.Node
-If it is possible to return null from your overloaded _createSgNode,
-then you should always check for null before using this property and reimplement `__preload`.
-
-| meta | description |
-|------|-------------|
-| 类型 | _ccsg.Node |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRendererUnderSG.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCRendererUnderSG.js#L41) |
+| 类型 | <a href="../classes/Toggle.html" class="crosslink">Toggle[]</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleContainer.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleContainer.js#L110) |
 
 
 
@@ -376,230 +296,6 @@ cc.log(obj.isValid);
 
 <!-- Method Block -->
 #### 方法
-
-
-##### moveTo
-
-移动路径起点到坐标(x, y)
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:188](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L188) |
-
-###### 参数列表
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the end point.
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the end point.
-
-
-##### lineTo
-
-绘制直线路径
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:199](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L199) |
-
-###### 参数列表
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the end point.
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the end point.
-
-
-##### bezierCurveTo
-
-绘制三次贝赛尔曲线路径
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:210](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L210) |
-
-###### 参数列表
-- c1x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the first control point.
-- c1y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for first control point.
-- c2x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the second control point.
-- c2y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the second control point.
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the end point.
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the end point.
-
-
-##### quadraticCurveTo
-
-绘制二次贝赛尔曲线路径
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L225) |
-
-###### 参数列表
-- cx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the control point.
-- cy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the control point.
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the end point.
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the end point.
-
-
-##### arc
-
-绘制圆弧路径。圆弧路径的圆心在 (cx, cy) 位置，半径为 r ，根据 counterclockwise （默认为false）指定的方向从 startAngle 开始绘制，到 endAngle 结束。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:238](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L238) |
-
-###### 参数列表
-- cx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the center point.
-- cy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the center point.
-- r <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The arc's radius.
-- startAngle <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The angle at which the arc starts, measured clockwise from the positive x axis and expressed in radians.
-- endAngle <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The angle at which the arc ends, measured clockwise from the positive x axis and expressed in radians.
-- counterclockwise <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> An optional Boolean which, if true, causes the arc to be drawn counter-clockwise between the two angles. By default it is drawn clockwise.
-
-
-##### ellipse
-
-绘制椭圆路径。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L254) |
-
-###### 参数列表
-- cx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the center point.
-- cy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the center point.
-- rx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The ellipse's x-axis radius.
-- ry <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The ellipse's y-axis radius.
-
-
-##### circle
-
-绘制圆形路径。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:267](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L267) |
-
-###### 参数列表
-- cx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the center point.
-- cy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the center point.
-- r <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The circle's radius.
-
-
-##### rect
-
-绘制矩形路径。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:279](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L279) |
-
-###### 参数列表
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the rectangle starting point.
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the rectangle starting point.
-- w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The rectangle's width.
-- h <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The rectangle's height.
-
-
-##### roundRect
-
-绘制圆角矩形路径。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L292) |
-
-###### 参数列表
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the rectangle starting point.
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the rectangle starting point.
-- w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The rectangles width.
-- h <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The rectangle's height.
-- r <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The radius of the rectangle.
-
-
-##### fillRect
-
-绘制填充矩形。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:306](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L306) |
-
-###### 参数列表
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x axis of the coordinate for the rectangle starting point.
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y axis of the coordinate for the rectangle starting point.
-- w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The rectangle's width.
-- h <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The rectangle's height.
-
-
-##### clear
-
-擦除之前绘制的所有内容的方法。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L319) |
-
-###### 参数列表
-- clean <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether to clean the graphics inner cache.
-
-
-##### close
-
-将笔点返回到当前路径起始点的。它尝试从当前点到起始点绘制一条直线。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:329](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L329) |
-
-
-
-##### stroke
-
-根据当前的画线样式，绘制当前或已经存在的路径。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:338](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L338) |
-
-
-
-##### fill
-
-根据当前的画线样式，填充当前或已经存在的路径。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js:347](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/graphics.js#L347) |
-
-
-
-##### _createSgNode
-
-Create and returns your new scene graph node (SGNode) to add to scene graph.
-You should call the setContentSize of the SGNode if its size should be the same with the node's.
-
-| meta | description |
-|------|-------------|
-| 返回 | _ccsg.Node 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L65) |
-
-
-
-##### _initSgNode
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L75) |
-
-
-
-##### _removeSgNode
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSGComponent.js#L81) |
-
 
 
 ##### update
