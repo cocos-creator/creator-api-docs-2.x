@@ -1,0 +1,9 @@
+config/
+gulpfile.js
+.markdownlint.json
+package.json
+.gitignore
+.bookignore
+README.md
+asset-db.md
+editor-index.md
