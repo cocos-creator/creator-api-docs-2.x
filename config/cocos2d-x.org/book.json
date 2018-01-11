@@ -1,0 +1,47 @@
+{
+    "plugins":[
+        "-lunr", "-search",
+        "search-title",
+        "github-issue-feedback-language-custom",
+        "anchorjs",
+        "sharing"
+    ],
+    "styles": {
+        "website": "./styles/website.css"
+    },  
+    "pluginsConfig": {
+        "github-issue-feedback-language-custom": {
+            "repo": "cocos-creator/creator-api-docs",
+            "branch": "master"
+        },        
+        "search": {
+            "maxIndexSize": 100000000
+        },
+        "lunr": {
+            "maxIndexSize": 100000000
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": true,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": true,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo" 
+            ]
+        }        
+    }
+}
