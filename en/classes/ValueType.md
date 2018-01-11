@@ -39,8 +39,8 @@ This method returns an exact copy of current value.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L43) |
-| Return 		 | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
+| Returns | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L43) |
 
 
 
@@ -50,8 +50,8 @@ Compares this object with the other one.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:54](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L54) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:54](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L54) |
 
 ###### Parameters
 - other <a href="../classes/ValueType.html" class="crosslink">ValueType</a>  
@@ -64,8 +64,8 @@ When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L66) |
-| Return 		 | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
+| Returns | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L66) |
 
 ###### Parameters
 - to <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value
@@ -78,8 +78,8 @@ TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:84](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L84) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:84](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L84) |
 
 
 

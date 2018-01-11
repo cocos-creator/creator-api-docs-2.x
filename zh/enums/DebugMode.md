@@ -1,17 +1,17 @@
-### `DebugMode` Enum
+### `DebugMode` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 调试模式
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `NONE`
   - `INFO`
@@ -23,7 +23,7 @@ Module: [cc](../modules/cc.md)
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### NONE
@@ -32,8 +32,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:40](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L40) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:40](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L40) |
 
 
 
@@ -43,8 +43,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:48](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L48) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:48](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L48) |
 
 
 
@@ -54,8 +54,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:56](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L56) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:56](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L56) |
 
 
 
@@ -65,8 +65,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:64](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L64) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:64](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L64) |
 
 
 
@@ -76,8 +76,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:72](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L72) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:72](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L72) |
 
 
 
@@ -87,8 +87,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:80](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L80) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:80](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L80) |
 
 
 
@@ -98,7 +98,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:88](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L88) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:88](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L88) |
 
 

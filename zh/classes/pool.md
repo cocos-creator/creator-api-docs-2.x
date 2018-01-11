@@ -1,9 +1,9 @@
-## `Pool` Class
+## `Pool` 类型
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [js](../modules/js.md)
+模块: [cc](../modules/cc.md)
+父模块: [js](../modules/js.md)
 
 
 
@@ -11,15 +11,15 @@ Parent Module: [js](../modules/js.md)
 长度固定的对象缓存池，可以用来缓存各种对象类型。<br/>
 这个对象池的实现非常精简，它可以帮助您提高游戏性能，适用于优化对象的反复创建和销毁。
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`count`](#count) `Number` 当前可用对象数量，一开始默认是 0，随着对象的回收会逐渐增大，最大不会超过调用构造函数时指定的 size。
 
 
 
-##### Methods
+##### 方法
 
   - [`constructor`](#constructor) 使用构造函数来创建一个指定对象类型的对象池，您可以传递一个回调函数，用于处理对象回收时的清理逻辑。
   - [`get`](#get) 获取并初始化对象池中的对象。这个方法默认为空，需要用户自己实现。
@@ -32,7 +32,7 @@ Parent Module: [js](../modules/js.md)
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### count
@@ -41,8 +41,8 @@ Parent Module: [js](../modules/js.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:894](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L894) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:894](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L894) |
 
 
 
@@ -50,7 +50,7 @@ Parent Module: [js](../modules/js.md)
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### constructor
@@ -59,9 +59,9 @@ Parent Module: [js](../modules/js.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:859](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L859) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:859](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L859) |
 
-###### Parameters
+###### 参数列表
 - cleanupFunc <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> the callback method used to process the cleanup logic when the object is recycled.
 	- obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - size <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> initializes the length of the array
@@ -73,10 +73,10 @@ Parent Module: [js](../modules/js.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:884](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L884) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:884](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L884) |
 
-###### Parameters
+###### 参数列表
 - params Any parameters to used to initialize the object
 
 
@@ -86,8 +86,8 @@ Parent Module: [js](../modules/js.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:904](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L904) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; Null 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; Null 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:904](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L904) |
 
 
 
@@ -97,7 +97,7 @@ Parent Module: [js](../modules/js.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:922](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L922) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:922](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L922) |
 
 
 
@@ -107,7 +107,7 @@ Parent Module: [js](../modules/js.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:938](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L938) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:938](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L938) |
 
 
 

@@ -1,19 +1,19 @@
-## `TMXObject` Class
+## `TMXObject` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 渲染 tmx object。
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`getObjectName`](#getobjectname) 获取对象的名称
   - [`getProperty`](#getproperty) 获取对象的属性
@@ -29,7 +29,7 @@ Module: [cc](../modules/cc.md)
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### getObjectName
@@ -38,8 +38,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:71](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L71) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:71](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L71) |
 
 
 
@@ -49,8 +49,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L81) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L81) |
 
 
 
@@ -60,8 +60,8 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:91](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L91) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:91](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L91) |
 
 
 
@@ -71,9 +71,9 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L101) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L101) |
 
-###### Parameters
+###### 参数列表
 - name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
@@ -83,9 +83,9 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L111) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L111) |
 
-###### Parameters
+###### 参数列表
 - props <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 

@@ -1,17 +1,17 @@
-## `Node.EventType` Class
+## `Node.EventType` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
 
 Node 支持的事件类型
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - [`TOUCH_START`](#touchstart) `String` 当手指触摸到屏幕时。
   - [`TOUCH_MOVE`](#touchmove) `String` 当手指在屏幕上目标节点区域内移动时。
@@ -31,7 +31,7 @@ Node 支持的事件类型
 ### Details
 
 
-#### Properties
+#### 属性（properties）
 
 
 ##### TOUCH_START
@@ -40,8 +40,8 @@ Node 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L61) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L61) |
 
 
 
@@ -51,8 +51,8 @@ Node 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:68](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L68) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:68](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L68) |
 
 
 
@@ -62,8 +62,8 @@ Node 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L75) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L75) |
 
 
 
@@ -73,8 +73,8 @@ Node 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L82) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L82) |
 
 
 
@@ -84,8 +84,8 @@ Node 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L90) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L90) |
 
 
 
@@ -95,8 +95,8 @@ Node 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L97) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L97) |
 
 
 
@@ -106,8 +106,8 @@ Node 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:104](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L104) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:104](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L104) |
 
 
 
@@ -117,8 +117,8 @@ Node 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L111) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L111) |
 
 
 
@@ -128,8 +128,8 @@ Node 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L118) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L118) |
 
 
 
@@ -139,8 +139,8 @@ Node 支持的事件类型
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L125) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCNode.js#L125) |
 
 
 

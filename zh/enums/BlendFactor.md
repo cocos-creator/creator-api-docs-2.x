@@ -1,9 +1,9 @@
-### `BlendFactor` Enum
+### `BlendFactor` 枚举
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 
@@ -11,9 +11,9 @@ Parent Module: [cc](../modules/cc.md)
 混合因子
 可参考: http://www.andersriggelsen.dk/glblendfunc.php
 
-### Index
+### 索引
 
-##### Properties
+##### 属性（properties）
 
   - `ONE`
   - `ZERO`
@@ -28,7 +28,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ### Details
 
-#### Properties
+#### 属性（properties）
 
 
 ##### ONE
@@ -37,8 +37,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:76](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L76) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:76](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L76) |
 
 
 
@@ -48,8 +48,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L82) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L82) |
 
 
 
@@ -59,8 +59,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L88) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L88) |
 
 
 
@@ -70,8 +70,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L94) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L94) |
 
 
 
@@ -81,8 +81,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L100) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L100) |
 
 
 
@@ -92,8 +92,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L106) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L106) |
 
 
 
@@ -103,8 +103,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:112](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L112) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:112](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L112) |
 
 
 
@@ -114,8 +114,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L118) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L118) |
 
 
 
@@ -125,8 +125,8 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L124) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L124) |
 
 
 
@@ -136,7 +136,7 @@ Parent Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L130) |
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L130) |
 
 

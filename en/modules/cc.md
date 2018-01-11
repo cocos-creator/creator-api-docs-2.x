@@ -6,7 +6,7 @@
 
 
 
-
+The main namespace of Cocos2d-JS, all engine core classes, functions, properties and constants are defined in this namespace.
 
 
 ### Classes
@@ -14,29 +14,29 @@
   - [DebugMode](../classes/DebugMode.md)
   - [Action](../classes/Action.md)
   - [FiniteTimeAction](../classes/FiniteTimeAction.md)
+  - [ActionInstant](../classes/ActionInstant.md)
   - [ActionEase](../classes/ActionEase.md)
   - [EaseRateAction](../classes/EaseRateAction.md)
   - [EaseElastic](../classes/EaseElastic.md)
   - [EaseBounce](../classes/EaseBounce.md)
-  - [ActionInstant](../classes/ActionInstant.md)
   - [ActionInterval](../classes/ActionInterval.md)
   - [ActionManager](../classes/ActionManager.md)
-  - [AnimationClip](../classes/AnimationClip.md)
-  - [AnimationState](../classes/AnimationState.md)
-  - [Playable](../classes/Playable.md)
-  - [WrapMode](../classes/WrapMode.md)
-  - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
-  - [audioEngine](../classes/audioEngine.md)
   - [Director](../classes/Director.md)
   - [Game](../classes/Game.md)
   - [Node.EventType](../classes/Node.EventType.md)
   - [Node](../classes/Node.md)
   - [Scene](../classes/Scene.md)
   - [Scheduler](../classes/Scheduler.md)
-  - [MotionStreak](../classes/MotionStreak.md)
+  - [AnimationClip](../classes/AnimationClip.md)
+  - [AnimationState](../classes/AnimationState.md)
+  - [Playable](../classes/Playable.md)
+  - [WrapMode](../classes/WrapMode.md)
+  - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
+  - [audioEngine](../classes/audioEngine.md)
   - [ParticleSystem.EmitterMode](../classes/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../classes/ParticleSystem.PositionType.md)
   - [ParticleSystem](../classes/ParticleSystem.md)
+  - [MotionStreak](../classes/MotionStreak.md)
   - [TMXObject](../classes/TMXObject.md)
   - [TiledLayer](../classes/TiledLayer.md)
   - [TiledMap.Orientation](../classes/TiledMap.Orientation.md)
@@ -46,10 +46,19 @@
   - [NodePool](../classes/NodePool.md)
   - [pool](../classes/pool.md)
   - [Camera](../classes/Camera.md)
+  - [Collider.Box](../classes/Collider.Box.md)
+  - [BoxCollider](../classes/BoxCollider.md)
+  - [Collider.Circle](../classes/Collider.Circle.md)
+  - [CircleCollider](../classes/CircleCollider.md)
+  - [Collider](../classes/Collider.md)
+  - [CollisionManager](../classes/CollisionManager.md)
+  - [Intersection](../classes/Intersection.md)
+  - [Collider.Polygon](../classes/Collider.Polygon.md)
+  - [PolygonCollider](../classes/PolygonCollider.md)
   - [Asset](../classes/Asset.md)
   - [AudioClip](../classes/AudioClip.md)
-  - [BitmapFont](../classes/BitmapFont.md)
   - [Font](../classes/Font.md)
+  - [BitmapFont](../classes/BitmapFont.md)
   - [LabelAtlas](../classes/LabelAtlas.md)
   - [Prefab](../classes/Prefab.md)
   - [RawAsset](../classes/RawAsset.md)
@@ -58,9 +67,21 @@
   - [_JavaScript](../classes/_JavaScript.md)
   - [CoffeeScript](../classes/CoffeeScript.md)
   - [TypeScript](../classes/TypeScript.md)
-  - [TTFFont](../classes/TTFFont.md)
-  - [TextAsset](../classes/TextAsset.md)
   - [SpriteAtlas](../classes/SpriteAtlas.md)
+  - [TextAsset](../classes/TextAsset.md)
+  - [TTFFont](../classes/TTFFont.md)
+  - [Graphics](../classes/Graphics.md)
+  - [Graphics.LineCap](../classes/Graphics.LineCap.md)
+  - [Graphics.LineJoin](../classes/Graphics.LineJoin.md)
+  - [EventTarget](../classes/EventTarget.md)
+  - [Event](../classes/Event.md)
+  - [Event.EventCustom](../classes/Event.EventCustom.md)
+  - [loader](../classes/loader.md)
+  - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
+  - [Pipeline.Loader](../classes/Pipeline.Loader.md)
+  - [LoadingItems](../classes/LoadingItems.md)
+  - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
+  - [Pipeline](../classes/Pipeline.md)
   - [Animation](../classes/Animation.md)
   - [AudioSource](../classes/AudioSource.md)
   - [BlockInputEvents](../classes/BlockInputEvents.md)
@@ -68,11 +89,11 @@
   - [Button](../classes/Button.md)
   - [Canvas](../classes/Canvas.md)
   - [Component](../classes/Component.md)
-  - [Component.EventHandler](../classes/Component.EventHandler.md)
   - [EditBox.KeyboardReturnType](../classes/EditBox.KeyboardReturnType.md)
   - [EditBox.InputMode](../classes/EditBox.InputMode.md)
   - [EditBox.InputFlag](../classes/EditBox.InputFlag.md)
   - [EditBox](../classes/EditBox.md)
+  - [Component.EventHandler](../classes/Component.EventHandler.md)
   - [Label.HorizontalAlign](../classes/Label.HorizontalAlign.md)
   - [Label.VerticalAlign](../classes/Label.VerticalAlign.md)
   - [Label.Overflow](../classes/Label.Overflow.md)
@@ -111,6 +132,7 @@
   - [Sprite](../classes/Sprite.md)
   - [SpriteDistortion](../classes/SpriteDistortion.md)
   - [Toggle](../classes/Toggle.md)
+  - [ToggleContainer](../classes/ToggleContainer.md)
   - [ToggleGroup](../classes/ToggleGroup.md)
   - [VideoPlayer.EventType](../classes/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../classes/VideoPlayer.ResourceType.md)
@@ -119,21 +141,6 @@
   - [WebView.EventType](../classes/WebView.EventType.md)
   - [WebView](../classes/WebView.md)
   - [Widget](../classes/Widget.md)
-  - [EventTarget](../classes/EventTarget.md)
-  - [Event](../classes/Event.md)
-  - [Event.EventCustom](../classes/Event.EventCustom.md)
-  - [Event.EventMouse](../classes/Event.EventMouse.md)
-  - [Event.EventTouch](../classes/Event.EventTouch.md)
-  - [Event.EventAcceleration](../classes/Event.EventAcceleration.md)
-  - [Event.EventKeyboard](../classes/Event.EventKeyboard.md)
-  - [EventListener](../classes/EventListener.md)
-  - [eventManager](../classes/eventManager.md)
-  - [SystemEvent.EventType](../classes/SystemEvent.EventType.md)
-  - [SystemEvent](../classes/SystemEvent.md)
-  - [Touch](../classes/Touch.md)
-  - [Graphics](../classes/Graphics.md)
-  - [Graphics.LineCap](../classes/Graphics.LineCap.md)
-  - [Graphics.LineJoin](../classes/Graphics.LineJoin.md)
   - [WorldManifold](../classes/WorldManifold.md)
   - [ManifoldPoint](../classes/ManifoldPoint.md)
   - [Manifold](../classes/Manifold.md)
@@ -145,23 +152,22 @@
   - [DrawBits](../classes/DrawBits.md)
   - [PhysicsRayCastResult](../classes/PhysicsRayCastResult.md)
   - [RigidBody](../classes/RigidBody.md)
-  - [loader](../classes/loader.md)
-  - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
-  - [Pipeline.Loader](../classes/Pipeline.Loader.md)
-  - [LoadingItems](../classes/LoadingItems.md)
-  - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
-  - [Pipeline](../classes/Pipeline.md)
-  - [SpriteFrame](../classes/SpriteFrame.md)
+  - [Event.EventMouse](../classes/Event.EventMouse.md)
+  - [Event.EventTouch](../classes/Event.EventTouch.md)
+  - [Event.EventAcceleration](../classes/Event.EventAcceleration.md)
+  - [Event.EventKeyboard](../classes/Event.EventKeyboard.md)
+  - [EventListener](../classes/EventListener.md)
+  - [eventManager](../classes/eventManager.md)
+  - [SystemEvent.EventType](../classes/SystemEvent.EventType.md)
+  - [SystemEvent](../classes/SystemEvent.md)
+  - [Touch](../classes/Touch.md)
   - [_BaseNode](../classes/_BaseNode.md)
-  - [Collider.Box](../classes/Collider.Box.md)
-  - [BoxCollider](../classes/BoxCollider.md)
-  - [Collider.Circle](../classes/Collider.Circle.md)
-  - [CircleCollider](../classes/CircleCollider.md)
-  - [Collider](../classes/Collider.md)
-  - [CollisionManager](../classes/CollisionManager.md)
-  - [Intersection](../classes/Intersection.md)
-  - [Collider.Polygon](../classes/Collider.Polygon.md)
-  - [PolygonCollider](../classes/PolygonCollider.md)
+  - [Texture2D.PixelFormat](../classes/Texture2D.PixelFormat.md)
+  - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
+  - [Texture2D.Filter](../classes/Texture2D.Filter.md)
+  - [Texture2D](../classes/Texture2D.md)
+  - [textureCache](../classes/textureCache.md)
+  - [SpriteFrame](../classes/SpriteFrame.md)
   - [AffineTransform](../classes/AffineTransform.md)
   - [Color](../classes/Color.md)
   - [Rect](../classes/Rect.md)
@@ -203,11 +209,6 @@
   - [CallbacksInvoker](../classes/CallbacksInvoker.md)
   - [Details](../classes/Details.md)
   - [url](../classes/url.md)
-  - [Texture2D.PixelFormat](../classes/Texture2D.PixelFormat.md)
-  - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
-  - [Texture2D.Filter](../classes/Texture2D.Filter.md)
-  - [Texture2D](../classes/Texture2D.md)
-  - [textureCache](../classes/textureCache.md)
   - [PhysicsBoxCollider](../classes/PhysicsBoxCollider.md)
   - [PhysicsChainCollider](../classes/PhysicsChainCollider.md)
   - [PhysicsCircleCollider](../classes/PhysicsCircleCollider.md)
@@ -231,6 +232,9 @@
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
   - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
+  - [Graphics.LineCap](../enums/Graphics.LineCap.md)
+  - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
+  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
   - [Button.Transition](../enums/Button.Transition.md)
   - [EditBox.KeyboardReturnType](../enums/EditBox.KeyboardReturnType.md)
   - [EditBox.InputMode](../enums/EditBox.InputMode.md)
@@ -259,21 +263,18 @@
   - [VideoPlayer.EventType](../enums/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../enums/VideoPlayer.ResourceType.md)
   - [WebView.EventType](../enums/WebView.EventType.md)
-  - [Graphics.LineCap](../enums/Graphics.LineCap.md)
-  - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [RayCastType](../enums/RayCastType.md)
   - [DrawBits](../enums/DrawBits.md)
-  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
+  - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
+  - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
+  - [Texture2D.Filter](../enums/Texture2D.Filter.md)
   - [BlendFactor](../enums/BlendFactor.md)
   - [TextAlignment](../enums/TextAlignment.md)
   - [KEY](../enums/KEY.md)
   - [ImageFormat](../enums/ImageFormat.md)
   - [macro](../enums/macro.md)
   - [Flags](../enums/Flags.md)
-  - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
-  - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
-  - [Texture2D.Filter](../enums/Texture2D.Filter.md)
 
 
 ### Index
@@ -322,6 +323,14 @@ Useful to simulate 'slow motion' or 'fast forward' effect.
   - [`cardinalSplineBy`](#cardinalsplineby) Creates an action with a Cardinal Spline array of points and tension.
   - [`catmullRomTo`](#catmullromto) Creates an action with a Cardinal Spline array of points and tension.
   - [`catmullRomBy`](#catmullromby) Creates an action with a Cardinal Spline array of points and tension.
+  - [`show`](#show) Show the Node.
+  - [`hide`](#hide) Hide the node.
+  - [`toggleVisibility`](#togglevisibility) Toggles the visibility of a node.
+  - [`removeSelf`](#removeself) Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
+  - [`flipX`](#flipx) Create a FlipX action to flip or unflip the target.
+  - [`flipY`](#flipy) Create a FlipY action to flip or unflip the target.
+  - [`place`](#place) Creates a Place action with a position.
+  - [`callFunc`](#callfunc) Creates the action with the callback.
   - [`easeIn`](#easein) Creates the action easing object with the rate parameter. <br />
 From slow to fast.
   - [`easeOut`](#easeout) Creates the action easing object with the rate parameter. <br />
@@ -415,14 +424,6 @@ http://www.zhihu.com/question/21981571/answer/19925418
   - [`easeCubicActionInOut`](#easecubicactioninout) Creates the action easing object. <br />
 Reference easeInOutCubic: <br />
 http://www.zhihu.com/question/21981571/answer/19925418
-  - [`show`](#show) Show the Node.
-  - [`hide`](#hide) Hide the node.
-  - [`toggleVisibility`](#togglevisibility) Toggles the visibility of a node.
-  - [`removeSelf`](#removeself) Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
-  - [`flipX`](#flipx) Create a FlipX action to flip or unflip the target.
-  - [`flipY`](#flipy) Create a FlipY action to flip or unflip the target.
-  - [`place`](#place) Creates a Place action with a position.
-  - [`callFunc`](#callfunc) Creates the action with the callback.
   - [`sequence`](#sequence) Helper constructor to create an array of sequenceable actions
 The created action will run actions sequentially, one after another.
   - [`repeat`](#repeat) Creates a Repeat action. Times is an unsigned integer between 1 and pow(2,30)
@@ -606,7 +607,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:31](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L31) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:31](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L31) |
 
 
 
@@ -617,7 +618,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | CanvasRenderingContext2D &#124; WebGLRenderingContext |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:41](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L41) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:41](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L41) |
 
 
 
@@ -628,7 +629,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | HTMLCanvasElement |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:48](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L48) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:48](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L48) |
 
 
 
@@ -639,7 +640,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | HTMLDivElement |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:54](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L54) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCBoot.js:54](https:/github.com/cocos-creator/engine/blob/master/CCBoot.js#L54) |
 
 
 
@@ -650,7 +651,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/View.html" class="crosslink">View</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:369](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L369) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:369](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L369) |
 
 
 
@@ -661,7 +662,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Director.html" class="crosslink">Director</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:377](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L377) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:377](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L377) |
 
 
 
@@ -672,7 +673,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:386](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L386) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:386](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L386) |
 
 
 
@@ -683,7 +684,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Game.html" class="crosslink">Game</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L795) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L795) |
 
 
 
@@ -694,7 +695,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L166) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCSystemEvent.js#L166) |
 
 
 
@@ -706,7 +707,7 @@ Also used to indicates that the elements in array should be type integer.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:152](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L152) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:152](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L152) |
 
 ##### Examples
 
@@ -727,7 +728,7 @@ member: {
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L171) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L171) |
 
 ##### Examples
 
@@ -748,7 +749,7 @@ member: {
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:196](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L196) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:196](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L196) |
 
 ##### Examples
 
@@ -769,7 +770,7 @@ member: {
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:214](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L214) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js:214](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/attribute.js#L214) |
 
 ##### Examples
 
@@ -796,7 +797,7 @@ Init Debug setting.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:102](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L102) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:102](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L102) |
 
 ###### Parameters
 - mode <a href="../enums/DebugMode.html" class="crosslink">DebugMode</a> 
@@ -810,7 +811,7 @@ Outputs an error message to the Cocos Creator Console (editor) or Web Console (r
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:180](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L180) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:180](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L180) |
 
 ###### Parameters
 - msg Any A JavaScript string containing zero or more substitution strings.
@@ -825,7 +826,7 @@ Outputs a warning message to the Cocos Creator Console (editor) or Web Console (
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:224](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L224) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:224](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L224) |
 
 ###### Parameters
 - msg Any A JavaScript string containing zero or more substitution strings.
@@ -838,7 +839,7 @@ Outputs a message to the Cocos Creator Console (editor) or Web Console (runtime)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:255](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L255) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:255](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L255) |
 
 ###### Parameters
 - msg <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings.
@@ -853,7 +854,7 @@ Outputs an informational message to the Cocos Creator Console (editor) or Web Co
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:281](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L281) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js:281](https:/github.com/cocos-creator/engine/blob/master/CCDebugger.js#L281) |
 
 ###### Parameters
 - msg Any A JavaScript string containing zero or more substitution strings.
@@ -868,14 +869,14 @@ Useful to simulate 'slow motion' or 'fast forward' effect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L366) |
-| Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> 
+| Returns | <a href="../classes/Action.html" class="crosslink">Action</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L366) |
 
 ###### Parameters
 - action <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
 - speed <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // change the target action speed;
@@ -889,14 +890,14 @@ Create a follow action which makes its target follows another node.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:561](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L561) |
-| Return 		 | <a href="../classes/Action.html" class="crosslink">Action</a> &#124; Null 
+| Returns | <a href="../classes/Action.html" class="crosslink">Action</a> &#124; Null 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:561](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L561) |
 
 ###### Parameters
 - followedNode <a href="../classes/Node.html" class="crosslink">Node</a> 
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -915,7 +916,7 @@ Points setter
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L224) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:224](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L224) |
 
 ###### Parameters
 - points <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -927,15 +928,15 @@ Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L234) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L234) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - points <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> array of control points
 - tension <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 //create a cc.CardinalSplineTo
@@ -948,7 +949,7 @@ update position of target
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L318) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L318) |
 
 ###### Parameters
 - newPos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -960,8 +961,8 @@ Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L339) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L339) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -975,14 +976,14 @@ Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L385) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L385) |
 
 ###### Parameters
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - points <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
-##### Example
+##### Examples
 
 ```js
 var action1 = cc.catmullRomTo(3, array);
@@ -994,17 +995,169 @@ Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:433](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L433) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js:433](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionCatmullRom.js#L433) |
 
 ###### Parameters
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - points <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
-##### Example
+##### Examples
 
 ```js
 var action1 = cc.catmullRomBy(3, array);
+```
+
+##### show
+
+Show the Node.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L97) |
+
+
+##### Examples
+
+```js
+// example
+var showAction = cc.show();
+```
+
+##### hide
+
+Hide the node.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L134) |
+
+
+##### Examples
+
+```js
+// example
+var hideAction = cc.hide();
+```
+
+##### toggleVisibility
+
+Toggles the visibility of a node.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L171) |
+
+
+##### Examples
+
+```js
+// example
+var toggleVisibilityAction = cc.toggleVisibility();
+```
+
+##### removeSelf
+
+Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:221](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L221) |
+
+###### Parameters
+- isNeedCleanUp  <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+##### Examples
+
+```js
+// example
+var removeSelfAction = cc.removeSelf();
+```
+
+##### flipX
+
+Create a FlipX action to flip or unflip the target.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:279](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L279) |
+
+###### Parameters
+- flip <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Indicate whether the target should be flipped or not
+
+##### Examples
+
+```js
+var flipXAction = cc.flipX(true);
+```
+
+##### flipY
+
+Create a FlipY action to flip or unflip the target.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:335](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L335) |
+
+###### Parameters
+- flip <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+##### Examples
+
+```js
+var flipYAction = cc.flipY(true);
+```
+
+##### place
+
+Creates a Place action with a position.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L399) |
+
+###### Parameters
+- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+var placeAction = cc.place(cc.p(200, 200));
+var placeAction = cc.place(200, 200);
+```
+
+##### callFunc
+
+Creates the action with the callback.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:509](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L509) |
+
+###### Parameters
+- selector <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- selectorTarget <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+- data Any data for function, it accepts all data types.
+
+##### Examples
+
+```js
+// example
+// CallFunc without data
+var finish = cc.callFunc(this.removeSprite, this);
+
+// CallFunc with data
+var finish = cc.callFunc(this.removeFromParentAndCleanup, this._grossini,  true);
 ```
 
 ##### easeIn
@@ -1014,13 +1167,13 @@ From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L197) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L197) |
 
 ###### Parameters
 - rate <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 action.easing(cc.easeIn(3.0));
@@ -1033,13 +1186,13 @@ From fast to slow.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:247](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L247) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:247](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L247) |
 
 ###### Parameters
 - rate <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 action.easing(cc.easeOut(3.0));
@@ -1052,13 +1205,13 @@ Slow to fast then to slow.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:301](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L301) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:301](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L301) |
 
 ###### Parameters
 - rate <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 action.easing(cc.easeInOut(3.0));
@@ -1072,11 +1225,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L366) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:366](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L366) |
 
 
-##### Example
+##### Examples
 
 ```js
 action.easing(cc.easeExponentialIn());
@@ -1090,11 +1243,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:421](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L421) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:421](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L421) |
 
 
-##### Example
+##### Examples
 
 ```js
 action.easing(cc.easeExponentialOut());
@@ -1108,11 +1261,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:491](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L491) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:491](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L491) |
 
 
-##### Example
+##### Examples
 
 ```js
 action.easing(cc.easeExponentialInOut());
@@ -1126,11 +1279,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:546](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L546) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:546](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L546) |
 
 
-##### Example
+##### Examples
 
 ```js
 action.easing(cc.easeSineIn());
@@ -1144,11 +1297,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:602](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L602) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:602](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L602) |
 
 
-##### Example
+##### Examples
 
 ```js
 action.easing(cc.easeSineOut());
@@ -1162,11 +1315,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:658](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L658) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:658](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L658) |
 
 
-##### Example
+##### Examples
 
 ```js
 action.easing(cc.easeSineInOut());
@@ -1180,13 +1333,13 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:787](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L787) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:787](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L787) |
 
 ###### Parameters
 - period <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1201,13 +1354,13 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:867](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L867) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:867](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L867) |
 
 ###### Parameters
 - period <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1222,13 +1375,13 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:943](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L943) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:943](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L943) |
 
 ###### Parameters
 - period <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1242,11 +1395,11 @@ Eased bounce effect at the beginning.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1081](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1081) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1081](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1081) |
 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1260,11 +1413,11 @@ Eased bounce effect at the ending.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1136](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1136) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1136](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1136) |
 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1278,11 +1431,11 @@ Eased bounce effect at the begining and ending.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1204) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1204](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1204) |
 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1296,11 +1449,11 @@ In the opposite direction to move slowly, and then accelerated to the right dire
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1261](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1261) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1261](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1261) |
 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1314,11 +1467,11 @@ Fast moving more than the finish, and then slowly back to the finish.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1319) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1319) |
 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1332,11 +1485,11 @@ Begining of cc.EaseBackIn. Ending of cc.EaseBackOut.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1387) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1387) |
 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1351,8 +1504,8 @@ To calculate the motion curve.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1469](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1469) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1469](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1469) |
 
 ###### Parameters
 - p0 <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The first bezier parameter
@@ -1360,7 +1513,7 @@ To calculate the motion curve.
 - p2 <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The third bezier parameter
 - p3 <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The fourth bezier parameter
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1375,11 +1528,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1539](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1539) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1539](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1539) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1394,11 +1547,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1597](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1597) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1597](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1597) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1413,11 +1566,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1663](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1663) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1663](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1663) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1432,11 +1585,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1720](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1720) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1720](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1720) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1451,11 +1604,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1779](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1779) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1779](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1779) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1470,8 +1623,8 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1840](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1840) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1840](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1840) |
 
 
 
@@ -1483,11 +1636,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1895](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1895) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1895](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1895) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1502,11 +1655,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1954](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1954) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:1954](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L1954) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1521,11 +1674,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2016](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2016) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2016](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2016) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1540,11 +1693,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2074](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2074) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2074](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2074) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1559,8 +1712,8 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2133](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2133) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2133](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2133) |
 
 
 
@@ -1572,11 +1725,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2195](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2195) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2195](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2195) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1591,11 +1744,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2253](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2253) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2253](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2253) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1610,11 +1763,11 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2312](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2312) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2312](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2312) |
 
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -1629,162 +1782,10 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2374](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2374) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js:2374](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionEase.js#L2374) |
 
 
-
-##### show
-
-Show the Node.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L97) |
-| Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-
-
-##### Example
-
-```js
-// example
-var showAction = cc.show();
-```
-
-##### hide
-
-Hide the node.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L134) |
-| Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-
-
-##### Example
-
-```js
-// example
-var hideAction = cc.hide();
-```
-
-##### toggleVisibility
-
-Toggles the visibility of a node.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L171) |
-| Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-
-
-##### Example
-
-```js
-// example
-var toggleVisibilityAction = cc.toggleVisibility();
-```
-
-##### removeSelf
-
-Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:221](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L221) |
-| Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-
-###### Parameters
-- isNeedCleanUp  <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-##### Example
-
-```js
-// example
-var removeSelfAction = cc.removeSelf();
-```
-
-##### flipX
-
-Create a FlipX action to flip or unflip the target.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:279](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L279) |
-| Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-
-###### Parameters
-- flip <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Indicate whether the target should be flipped or not
-
-##### Example
-
-```js
-var flipXAction = cc.flipX(true);
-```
-
-##### flipY
-
-Create a FlipY action to flip or unflip the target.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:335](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L335) |
-| Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-
-###### Parameters
-- flip <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-##### Example
-
-```js
-var flipYAction = cc.flipY(true);
-```
-
-##### place
-
-Creates a Place action with a position.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L399) |
-| Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-
-###### Parameters
-- pos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Example
-
-```js
-// example
-var placeAction = cc.place(cc.p(200, 200));
-var placeAction = cc.place(200, 200);
-```
-
-##### callFunc
-
-Creates the action with the callback.
-
-| meta | description |
-|------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js:509](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInstant.js#L509) |
-| Return 		 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-
-###### Parameters
-- selector <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
-- selectorTarget <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-- data Any data for function, it accepts all data types.
-
-##### Example
-
-```js
-// example
-// CallFunc without data
-var finish = cc.callFunc(this.removeSprite, this);
-
-// CallFunc with data
-var finish = cc.callFunc(this.removeFromParentAndCleanup, this._grossini,  true);
-```
 
 ##### sequence
 
@@ -1793,14 +1794,14 @@ The created action will run actions sequentially, one after another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:435](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L435) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:435](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L435) |
 
 ###### Parameters
 - actionOrActionArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
 - tempArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1817,14 +1818,14 @@ Creates a Repeat action. Times is an unsigned integer between 1 and pow(2,30)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:613](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L613) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:613](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L613) |
 
 ###### Parameters
 - action <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 - times <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1837,13 +1838,13 @@ Create a acton which repeat forever, as it runs forever, it can't be added into 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:716](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L716) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:716](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L716) |
 
 ###### Parameters
 - action <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1856,14 +1857,14 @@ Create a spawn action which runs several actions in parallel.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:830](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L830) |
-| Return 		 | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
+| Returns | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:830](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L830) |
 
 ###### Parameters
 - actionOrActionArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
 - tempArray <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1878,15 +1879,15 @@ The direction will be decided by the shortest angle.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:951](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L951) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:951](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L951) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 - deltaAngleX <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> deltaAngleX in degrees.
 - deltaAngleY <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> deltaAngleY in degrees.
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1900,15 +1901,15 @@ Relative to its properties to modify.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1038](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1038) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1038](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1038) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 - deltaAngleX <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> deltaAngleX in degrees
 - deltaAngleY <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> deltaAngleY in degrees
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1924,15 +1925,15 @@ movement will be the sum of individual movements.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1157](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1157) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1157](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1157) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 - deltaPos <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - deltaY <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1947,15 +1948,15 @@ movement will be the sum of individual movements.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1235) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1235) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 - position <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1969,15 +1970,15 @@ Changes to the specified value.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1329](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1329) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1329](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1329) |
 
 ###### Parameters
 - t <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
 - sx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - sy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -1991,15 +1992,15 @@ Relative to its property modification.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1403) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1403) |
 
 ###### Parameters
 - t <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
 - sx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sx skew in degrees for X axis
 - sy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sy skew in degrees for Y axis
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2013,8 +2014,8 @@ Relative to its movement.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1532](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1532) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1532](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1532) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2023,7 +2024,7 @@ Relative to its movement.
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - jumps <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2038,8 +2039,8 @@ Jump to the specified location.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1615](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1615) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1615](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1615) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2048,7 +2049,7 @@ Jump to the specified location.
 - height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - jumps <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2063,14 +2064,14 @@ Relative to its movement.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1761](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1761) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1761](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1761) |
 
 ###### Parameters
 - t <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
 - c <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> Array of points
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2084,14 +2085,14 @@ An action that moves the target with a cubic Bezier curve to a destination point
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1830](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1830) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1830](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1830) |
 
 ###### Parameters
 - t <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - c <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> Array of points
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2105,15 +2106,15 @@ Scales a Node object to a zoom factor by modifying it's scale property.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1915](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1915) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1915](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1915) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - sx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> scale parameter in X
 - sy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> scale parameter in Y, if Null equal to sx
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2131,15 +2132,15 @@ Relative to its changes.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1962](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1962) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:1962](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L1962) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 - sx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sx  scale parameter in X
 - sy <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; Null sy scale parameter in Y, if Null equal to sx
 
-##### Example
+##### Examples
 
 ```js
 // example without sy, it scales by 2 both in X and Y
@@ -2155,14 +2156,14 @@ Blinks a Node object by modifying it's visible property.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2047](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2047) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2047](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2047) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 - blinks <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> blinks in times
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2176,14 +2177,14 @@ It modifies the opacity from the current value to a custom one.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2113](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2113) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2113](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2113) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - opacity <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255, 0 is transparent
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2196,13 +2197,13 @@ Fades In an object that implements the cc.RGBAProtocol protocol. It modifies the
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2168) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2168) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 
-##### Example
+##### Examples
 
 ```js
 //example
@@ -2215,13 +2216,13 @@ Fades Out an object that implements the cc.RGBAProtocol protocol. It modifies th
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2215](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2215) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2215](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2215) |
 
 ###### Parameters
 - d <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2234,8 +2235,8 @@ Tints a Node that implements the cc.NodeRGB protocol from current tint to a cust
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2302](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2302) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2302](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2302) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2243,7 +2244,7 @@ Tints a Node that implements the cc.NodeRGB protocol from current tint to a cust
 - green <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255
 - blue <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2257,8 +2258,8 @@ Relative to their own color change.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2395](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2395) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2395](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2395) |
 
 ###### Parameters
 - duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -2266,7 +2267,7 @@ Relative to their own color change.
 - deltaGreen <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - deltaBlue <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2280,13 +2281,13 @@ Delays the action a certain amount of seconds.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2436](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2436) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2436](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2436) |
 
 ###### Parameters
 - d <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2299,13 +2300,13 @@ Executes an action in reverse order, from time=duration to time=0.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2519](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2519) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2519](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2519) |
 
 ###### Parameters
 - action <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
-##### Example
+##### Examples
 
 ```js
 // example
@@ -2318,8 +2319,8 @@ Create an action with the specified action and forced target.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2776](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2776) |
-| Return 		 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:2776](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L2776) |
 
 ###### Parameters
 - target <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -2335,8 +2336,8 @@ It is recommended to not use this function every frame instead cache the result 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
 
 ###### Parameters
 - path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -2350,8 +2351,8 @@ Alpha channel is optional. Default value is 255.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:620](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L620) |
-| Return 		 | <a href="../classes/Color.html" class="crosslink">Color</a> 
+| Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:620](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L620) |
 
 ###### Parameters
 - r <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2359,7 +2360,7 @@ Alpha channel is optional. Default value is 255.
 - b <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - a <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 -----------------------
@@ -2378,14 +2379,14 @@ returns true if both ccColor3B are equal. Otherwise it returns false.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:651](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L651) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:651](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L651) |
 
 ###### Parameters
 - color1 <a href="../classes/Color.html" class="crosslink">Color</a> 
 - color2 <a href="../classes/Color.html" class="crosslink">Color</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.log(cc.colorEqual(cc.Color.RED, new cc.Color(255, 0, 0))); // true
@@ -2398,13 +2399,13 @@ e.g. "#ff06ff"  to : cc.color(255,6,255)。
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:670](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L670) |
-| Return 		 | <a href="../classes/Color.html" class="crosslink">Color</a> 
+| Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:670](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L670) |
 
 ###### Parameters
 - hex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.hexToColor("#FFFF33"); // Color {r: 255, g: 255, b: 51, a: 255};
@@ -2417,13 +2418,13 @@ e.g.  cc.color(255,6,255)  to : "#ff06ff"
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:690](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L690) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:690](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L690) |
 
 ###### Parameters
 - color <a href="../classes/Color.html" class="crosslink">Color</a> 
 
-##### Example
+##### Examples
 
 ```js
 var color = new cc.Color(255, 6, 255)
@@ -2436,13 +2437,13 @@ Returns opposite of Vec2.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:46](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L46) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:46](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L46) |
 
 ###### Parameters
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pNeg(cc.v2(10, 10));// Vec2 {x: -10, y: -10};
@@ -2454,14 +2455,14 @@ Calculates sum of two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:59](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L59) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:59](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L59) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - v2 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pAdd(cc.v2(1, 1), cc.v2(2, 2));// Vec2 {x: 3, y: 3};
@@ -2473,14 +2474,14 @@ Calculates difference of two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:73](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L73) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:73](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L73) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - v2 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pSub(cc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 15, y: 15};
@@ -2492,14 +2493,14 @@ Returns point multiplied by given factor.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:87](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L87) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:87](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L87) |
 
 ###### Parameters
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - floatVar <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pMult(cc.v2(5, 5), 4); // Vec2 {x: 20, y: 20};
@@ -2511,14 +2512,14 @@ Calculates midpoint between two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L101) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L101) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - v2 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pMidpoint(cc.v2(10, 10), cc.v2(5, 5)); // Vec2 {x: 7.5, y: 7.5};
@@ -2530,14 +2531,14 @@ Calculates dot product of two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:115](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L115) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:115](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L115) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - v2 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pDot(cc.v2(20, 20), cc.v2(5, 5)); // 200;
@@ -2549,14 +2550,14 @@ Calculates cross product of two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:129](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L129) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:129](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L129) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - v2 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pCross(cc.v2(20, 20), cc.v2(5, 5)); // 0;
@@ -2568,13 +2569,13 @@ Calculates perpendicular of v, rotated 90 degrees counter-clockwise -- cross(v, 
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:143](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L143) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:143](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L143) |
 
 ###### Parameters
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pPerp(cc.v2(20, 20)); // Vec2 {x: -20, y: 20};
@@ -2586,13 +2587,13 @@ Calculates perpendicular of v, rotated 90 degrees clockwise -- cross(v, rperp(v)
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:156](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L156) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:156](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L156) |
 
 ###### Parameters
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pRPerp(cc.v2(20, 20)); // Vec2 {x: 20, y: -20};
@@ -2604,14 +2605,14 @@ Calculates the projection of v1 over v2.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L169) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L169) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - v2 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 var v1 = cc.v2(20, 20);
@@ -2625,13 +2626,13 @@ Calculates the square length of a cc.Vec2 (not calling sqrt() ).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:185](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L185) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:185](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L185) |
 
 ###### Parameters
 - v <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pLengthSQ(cc.v2(20, 20)); // 800;
@@ -2643,14 +2644,14 @@ Calculates the square distance between two points (not calling sqrt() ).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:198](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L198) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:198](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L198) |
 
 ###### Parameters
 - point1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - point2 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 var point1 = cc.v2(20, 20);
@@ -2664,13 +2665,13 @@ Calculates distance between point an origin.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:214](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L214) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:214](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L214) |
 
 ###### Parameters
 - v <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pLength(cc.v2(20, 20)); // 28.284271247461902;
@@ -2682,14 +2683,14 @@ Calculates the distance between two points.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:227](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L227) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:227](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L227) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - v2 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 var v1 = cc.v2(20, 20);
@@ -2703,13 +2704,13 @@ Returns this vector with a magnitude of 1.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L243) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L243) |
 
 ###### Parameters
 - v <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pNormalize(cc.v2(20, 20)); // Vec2 {x: 0.7071067811865475, y: 0.7071067811865475};
@@ -2721,13 +2722,13 @@ Converts radians to a normalized vector.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L257) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L257) |
 
 ###### Parameters
 - a <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pForAngle(20); // Vec2 {x: 0.40808206181339196, y: 0.9129452507276277};
@@ -2739,13 +2740,13 @@ Converts a vector to radians.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:270](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L270) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:270](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L270) |
 
 ###### Parameters
 - v <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pToAngle(cc.v2(20, 20)); // 0.7853981633974483;
@@ -2757,15 +2758,15 @@ Clamp a value between from and to.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:283](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L283) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:283](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L283) |
 
 ###### Parameters
 - value <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - min_inclusive <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - max_inclusive <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 var v1 = cc.clampf(20, 0, 20); // 20;
@@ -2779,13 +2780,13 @@ Clamp a value between 0 and 1.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:309](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L309) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:309](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L309) |
 
 ###### Parameters
 - value <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 var v1 = cc.clampf(20);  // 1;
@@ -2799,15 +2800,15 @@ Clamp a point between from and to.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:324](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L324) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:324](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L324) |
 
 ###### Parameters
 - p <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - min_inclusive <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - max_inclusive <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 var min_inclusive = cc.v2(0, 0);
@@ -2823,13 +2824,13 @@ Quickly convert cc.Size to a cc.Vec2.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:347](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L347) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:347](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L347) |
 
 ###### Parameters
 - s <a href="../classes/Size.html" class="crosslink">Size</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pFromSize(new cc.size(20, 20)); // Vec2 {x: 20, y: 20};
@@ -2842,14 +2843,14 @@ Math.abs, Math.fllor, Math.ceil, Math.round.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:360](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L360) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:360](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L360) |
 
 ###### Parameters
 - p <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - opFunc <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pCompOp(cc.p(-10, -10), Math.abs); // Vec2 {x: 10, y: 10};
@@ -2864,15 +2865,15 @@ otherwise a value between a..b.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:376](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L376) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:376](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L376) |
 
 ###### Parameters
 - a <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - b <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - alpha <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pLerp(cc.v2(20, 20), cc.v2(5, 5), 0.5); // Vec2 {x: 12.5, y: 12.5};
@@ -2884,15 +2885,15 @@ TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L399) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L399) |
 
 ###### Parameters
 - a <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - b <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - variance <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = cc.v2(20, 20);
@@ -2907,14 +2908,14 @@ Multiplies a nd b components, a.x*b.x, a.y*b.y.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:423](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L423) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:423](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L423) |
 
 ###### Parameters
 - a <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - b <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 cc.pCompMult(acc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 100, y: 100};
@@ -2926,8 +2927,8 @@ TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L437) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L437) |
 
 ###### Parameters
 - a <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -2940,8 +2941,8 @@ TODO
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:454](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L454) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:454](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L454) |
 
 ###### Parameters
 - a <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -2954,8 +2955,8 @@ Rotates a point counter clockwise by the angle around a pivot.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:468](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L468) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:468](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L468) |
 
 ###### Parameters
 - v <a href="../classes/Vec2.html" class="crosslink">Vec2</a> v is the point to rotate
@@ -2974,8 +2975,8 @@ the hit point also is    p1 + s * (p2 - p1);
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:486](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L486) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:486](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L486) |
 
 ###### Parameters
 - A <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A is the startpoint for the first line P1 = (p1 - p2).
@@ -2992,8 +2993,8 @@ ccpSegmentIntersect return YES if Segment A-B intersects with segment C-D.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L537) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L537) |
 
 ###### Parameters
 - A <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3008,8 +3009,8 @@ ccpIntersectPoint return the intersection point of line A-B, C-D.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:555](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L555) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:555](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L555) |
 
 ###### Parameters
 - A <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3024,8 +3025,8 @@ check to see if both points are equal.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:579](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L579) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:579](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L579) |
 
 ###### Parameters
 - A <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A ccp a
@@ -3038,7 +3039,7 @@ sets the position of the point to 0.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:598](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L598) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:598](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L598) |
 
 ###### Parameters
 - v <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3050,7 +3051,7 @@ copies the position of one point to another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L609) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L609) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3063,7 +3064,7 @@ multiplies the point with the given factor (inplace).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:621](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L621) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:621](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L621) |
 
 ###### Parameters
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3076,7 +3077,7 @@ subtracts one point from another (inplace).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:633](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L633) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:633](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L633) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3089,7 +3090,7 @@ adds one point to another (inplace).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:645](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L645) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:645](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L645) |
 
 ###### Parameters
 - v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3102,7 +3103,7 @@ normalizes the point (inplace).
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:657](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L657) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js:657](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCPointExtension.js#L657) |
 
 ###### Parameters
 - v <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3115,8 +3116,8 @@ see Rect/Rect:method
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:369](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L369) |
-| Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:369](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L369) |
 
 ###### Parameters
 - x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -3124,7 +3125,7 @@ see Rect/Rect:method
 - w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - h <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0 , 0, 10, 0);
@@ -3136,14 +3137,14 @@ Check whether a rect's value equals to another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:391](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L391) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:391](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L391) |
 
 ###### Parameters
 - rect1 <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 - rect2 <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0, 0, 10, 10);
@@ -3159,14 +3160,14 @@ Check whether the rect1 contains rect2.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:413](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L413) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:413](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L413) |
 
 ###### Parameters
 - rect1 <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 - rect2 <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0, 0, 20, 20);
@@ -3180,13 +3181,13 @@ Returns the rightmost x-value of a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:435](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L435) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:435](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L435) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(10, 0, 20, 20);
@@ -3199,13 +3200,13 @@ Return the midpoint x-value of a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:449](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L449) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:449](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L449) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(10, 0, 20, 20);
@@ -3218,13 +3219,13 @@ Returns the leftmost x-value of a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:462](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L462) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:462](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L462) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(10, 0, 20, 20);
@@ -3237,13 +3238,13 @@ Return the topmost y-value of a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:476](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L476) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:476](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L476) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0, 10, 20, 20);
@@ -3256,13 +3257,13 @@ Return the midpoint y-value of `rect'.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:490](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L490) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:490](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L490) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0, 10, 20, 20);
@@ -3275,13 +3276,13 @@ Return the bottommost y-value of a rect.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:504](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L504) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:504](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L504) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0, 10, 20, 20);
@@ -3294,14 +3295,14 @@ Check whether a rect contains a point.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:518](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L518) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:518](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L518) |
 
 ###### Parameters
 - rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 - point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0, 10, 20, 20);
@@ -3315,14 +3316,14 @@ Check whether a rect intersect with another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:535](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L535) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:535](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L535) |
 
 ###### Parameters
 - rectA <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 - rectB <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0, 10, 20, 20);
@@ -3336,14 +3337,14 @@ Check whether a rect overlaps another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:555](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L555) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:555](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L555) |
 
 ###### Parameters
 - rectA <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 - rectB <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0, 10, 20, 20);
@@ -3357,14 +3358,14 @@ Returns the smallest rectangle that contains the two source rectangles.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:574](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L574) |
-| Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:574](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L574) |
 
 ###### Parameters
 - rectA <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 - rectB <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0, 10, 20, 20);
@@ -3378,14 +3379,14 @@ Returns the overlapping portion of 2 rectangles.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L595) |
-| Return 		 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L595) |
 
 ###### Parameters
 - rectA <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 - rectB <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.Rect(0, 10, 20, 20);
@@ -3400,14 +3401,14 @@ Please use cc.p or cc.v2 instead, it will soon replace cc.Size.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:157](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L157) |
-| Return 		 | <a href="../classes/Size.html" class="crosslink">Size</a> 
+| Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:157](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L157) |
 
 ###### Parameters
 - w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> width or a size object
 - h <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> height
 
-##### Example
+##### Examples
 
 ```js
 var size1 = cc.size();
@@ -3423,14 +3424,14 @@ Check whether a point's value equals to another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:174](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L174) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:174](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L174) |
 
 ###### Parameters
 - size1 <a href="../classes/Size.html" class="crosslink">Size</a> 
 - size2 <a href="../classes/Size.html" class="crosslink">Size</a> 
 
-##### Example
+##### Examples
 
 ```js
 var a = new cc.size(10, 10);
@@ -3446,8 +3447,8 @@ cc.sizeEqualToSize(a, b);// return false;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:501](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L501) |
-| Return 		 | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
+| Returns | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:501](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L501) |
 
 
 
@@ -3457,8 +3458,8 @@ cc.sizeEqualToSize(a, b);// return false;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:509](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L509) |
-| Return 		 | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
+| Returns | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:509](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L509) |
 
 ###### Parameters
 - sourceQuad <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
@@ -3470,8 +3471,8 @@ cc.sizeEqualToSize(a, b);// return false;
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:536](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L536) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:536](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L536) |
 
 ###### Parameters
 - sourceQuads <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3483,14 +3484,14 @@ The convenience method to create a new <a href="../classes/Vec2.html" class="cro
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:592](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L592) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:592](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L592) |
 
 ###### Parameters
 - x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 var v1 = cc.v2();
@@ -3505,14 +3506,14 @@ The convenience method to creates a new <a href="../classes/Vec2.html" class="cr
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L609) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L609) |
 
 ###### Parameters
 - x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
 - y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Example
+##### Examples
 
 ```js
 var point1 = cc.p();
@@ -3527,8 +3528,8 @@ Check whether a point's value equals to another.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:627](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L627) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:627](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L627) |
 
 ###### Parameters
 - point1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3541,15 +3542,15 @@ Defines a CCClass using the given specification, please see [Class](/docs/editor
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:828](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L828) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:828](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L828) |
 
 ###### Parameters
 - options <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 	- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The class name used for serialization.
 	- extends <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The base class.
 	- ctor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The constructor.
-	- __ctor__ <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The same as ctor, but less encapsulated.
+	- &amp;#95;&amp;#95;ctor&amp;#95;&amp;#95; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The same as ctor, but less encapsulated.
 	- properties <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The property definitions.
 	- statics <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The static members.
 	- mixins <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
@@ -3576,7 +3577,7 @@ Defines a CCClass using the given specification, please see [Class](/docs/editor
 	- onRestore <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> for Component only, see <a href="../classes/Component.html#method_onRestore" class="crosslink">onRestore</a>
 	- _getLocalBounds <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> for Component only, see <a href="../classes/Component.html#method__getLocalBounds" class="crosslink">_getLocalBounds</a>
 
-##### Example
+##### Examples
 
 ```js
 // define base class
@@ -3631,8 +3632,8 @@ Checks whether the constructor is created by cc.Class
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:992](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L992) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:992](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L992) |
 
 ###### Parameters
 - constructor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -3644,8 +3645,8 @@ Checks whether subclass is child of superclass or equals to superclass
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:1029](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L1029) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:1029](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L1029) |
 
 ###### Parameters
 - subclass <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -3658,8 +3659,8 @@ Return all super classes
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:1064](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L1064) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js:1064](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClass.js#L1064) |
 
 ###### Parameters
 - constructor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -3673,13 +3674,13 @@ Otherwise it will use the value specified by user who writes the enum definition
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js:33](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js#L33) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js:33](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js#L33) |
 
 ###### Parameters
 - obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> a JavaScript literal object containing enum names and values, or a TypeScript enum type
 
-##### Example
+##### Examples
 
 ```js
 // JavaScript:
@@ -3738,8 +3739,8 @@ class NewScript extends cc.Component {
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js:89](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js#L89) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js:89](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCEnum.js#L89) |
 
 ###### Parameters
 - enumDef <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the enum type defined from cc.Enum
@@ -3751,7 +3752,7 @@ whether enable accelerometer event
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js#L37) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js#L37) |
 
 ###### Parameters
 - isEnable <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -3763,7 +3764,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js:58](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js#L58) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js:58](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputExtension.js#L58) |
 
 ###### Parameters
 - interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -3775,7 +3776,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L95) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L95) |
 
 ###### Parameters
 - touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3787,7 +3788,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L130) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L130) |
 
 ###### Parameters
 - touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3799,7 +3800,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:162](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L162) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:162](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L162) |
 
 ###### Parameters
 - touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3811,7 +3812,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:176](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L176) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:176](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L176) |
 
 ###### Parameters
 - touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3823,8 +3824,8 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:190](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L190) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:190](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L190) |
 
 ###### Parameters
 - touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3836,8 +3837,8 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:216](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L216) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:216](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L216) |
 
 ###### Parameters
 - element <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
@@ -3849,8 +3850,8 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L254) |
-| Return 		 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+| Returns | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L254) |
 
 ###### Parameters
 - touch <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3862,7 +3863,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:274](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L274) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:274](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L274) |
 
 ###### Parameters
 - touch <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3874,8 +3875,8 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:299](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L299) |
-| Return 		 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+| Returns | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:299](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L299) |
 
 ###### Parameters
 - tx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -3889,8 +3890,8 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:316](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L316) |
-| Return 		 | <a href="../classes/Event.EventMouse.html" class="crosslink">Event.EventMouse</a> 
+| Returns | <a href="../classes/Event.EventMouse.html" class="crosslink">Event.EventMouse</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:316](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L316) |
 
 ###### Parameters
 - location <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3904,8 +3905,8 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:334](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L334) |
-| Return 		 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:334](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L334) |
 
 ###### Parameters
 - event <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3918,8 +3919,8 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:349](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L349) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:349](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L349) |
 
 ###### Parameters
 - event <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3932,7 +3933,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L387) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L387) |
 
 ###### Parameters
 - element <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
@@ -3944,7 +3945,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:548](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L548) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:548](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L548) |
 
 ###### Parameters
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -3958,14 +3959,14 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1995](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1995) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1995](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1995) |
 
 ###### Parameters
 - a <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number A
 - b <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number B
 - r <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> ratio between 0 and 1
 
-##### Example
+##### Examples
 
 ```js
 ----
@@ -3981,8 +3982,8 @@ get a random number from 0 to 0xffffff
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2009](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2009) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2009](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2009) |
 
 
 
@@ -3992,8 +3993,8 @@ returns a random float between -1 and 1
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2018](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2018) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2018](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2018) |
 
 
 
@@ -4003,8 +4004,8 @@ returns a random float between 0 and 1, use Math.random directly
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2027](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2027) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2027](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2027) |
 
 
 
@@ -4014,8 +4015,8 @@ converts degrees to radians
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2034](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2034) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2034](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2034) |
 
 ###### Parameters
 - angle <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -4027,8 +4028,8 @@ converts radians to degrees
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2044](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2044) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2044](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2044) |
 
 ###### Parameters
 - angle <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -4040,7 +4041,7 @@ Helpful macro that setups the GL server state, the correct GL program and sets t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2054](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2054) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2054](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2054) |
 
 ###### Parameters
 - node <a href="../classes/Node.html" class="crosslink">Node</a> setup node
@@ -4055,7 +4056,7 @@ Helpful macro that setups the GL server state, the correct GL program and sets t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2106) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2106) |
 
 ###### Parameters
 - addNumber <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -4067,7 +4068,7 @@ Check webgl error.Error will be shown in console if exists.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2118) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2118) |
 
 
 
@@ -4077,13 +4078,13 @@ Checks whether the object is non-nil and not yet destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:460](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L460) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:460](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L460) |
 
 ###### Parameters
 - value Any 
 
-##### Example
+##### Examples
 
 ```js
 cc.log(cc.isValid(target));
@@ -4095,8 +4096,8 @@ Deserialize json to cc.Asset
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:809](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L809) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js:809](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/deserialize.js#L809) |
 
 ###### Parameters
 - data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
@@ -4110,13 +4111,13 @@ Clones the object `original` and returns the clone, or instantiate a node from t
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js:35](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js#L35) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js:35](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/instantiate.js#L35) |
 
 ###### Parameters
 - original <a href="../classes/Prefab.html" class="crosslink">Prefab</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
 
-##### Example
+##### Examples
 
 ```js
 // instantiate node from prefab

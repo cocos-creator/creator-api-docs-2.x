@@ -1,0 +1,23 @@
+{
+  "name": "creator-api-docs",
+  "version": "1.0.0",
+  "description": "This repo is for hosting Cocos Creator API website with [Gitbook](https://gitbook.com).",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "commander": "^2.12.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "build": "gitbook build",
+    "upload": "gulp publish --dest /Volumes/creator/api",
+    "publish": "npm run build && npm run upload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/cocos-creator/creator-api-docs.git"
+  },
+  "author": "Cocos Creator",
+  "license": "ISC"
+}

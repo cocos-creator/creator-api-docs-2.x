@@ -28,7 +28,7 @@ The Page View Direction
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L55) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L55) |
 
 
 
@@ -39,6 +39,6 @@ The Page View Direction
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L61) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCPageView.js#L61) |
 
 

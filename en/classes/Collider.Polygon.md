@@ -34,7 +34,7 @@ Defines a Polygon Collider .
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L44) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L44) |
 
 
 
@@ -45,7 +45,7 @@ Defines a Polygon Collider .
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">[Vec2]</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L60) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/collider/CCPolygonCollider.js#L60) |
 
 
 

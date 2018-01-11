@@ -29,7 +29,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L179) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L179) |
 
 
 
@@ -40,7 +40,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L183) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L183) |
 
 
 
@@ -51,6 +51,6 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:187](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L187) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:187](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L187) |
 
 

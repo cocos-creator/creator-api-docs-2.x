@@ -72,7 +72,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L43) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L43) |
 
 
 
@@ -83,7 +83,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L51) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L51) |
 
 
 
@@ -94,7 +94,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:59](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L59) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:59](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L59) |
 
 
 
@@ -105,7 +105,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L67) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:67](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L67) |
 
 
 
@@ -123,7 +123,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L75) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L75) |
 
 
 
@@ -134,7 +134,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:192](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L192) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:192](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L192) |
 
 
 
@@ -145,7 +145,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L201) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L201) |
 
 
 
@@ -156,7 +156,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:209](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L209) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:209](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L209) |
 
 
 
@@ -167,7 +167,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L217) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L217) |
 
 
 
@@ -178,7 +178,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L225) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:225](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L225) |
 
 
 
@@ -189,7 +189,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L235) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:235](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L235) |
 
 
 
@@ -201,7 +201,7 @@ see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L243) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:243](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L243) |
 
 
 
@@ -213,7 +213,7 @@ see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:253](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L253) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:253](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L253) |
 
 
 
@@ -225,7 +225,7 @@ see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:263](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L263) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:263](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L263) |
 
 
 
@@ -242,7 +242,7 @@ see http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L37) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L37) |
 
 ###### Parameters
 - type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the event (case-sensitive), e.g. "click", "fire", or "submit"
@@ -255,8 +255,8 @@ Reset the event for being stored in the object pool.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L110) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:110](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L110) |
 
 
 
@@ -266,8 +266,8 @@ Reuse the event for being used again by the object pool.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L125) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L125) |
 
 
 
@@ -277,7 +277,7 @@ Stops propagation for current event.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:136](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L136) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:136](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L136) |
 
 
 
@@ -288,7 +288,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:145](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L145) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:145](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L145) |
 
 
 
@@ -298,8 +298,8 @@ Checks whether the event has been stopped.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L155) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L155) |
 
 
 
@@ -313,8 +313,8 @@ Checks whether the event has been stopped.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:165](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L165) |
-| Return 		 | <a href="../classes/Node.html" class="crosslink">Node</a> 
+| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:165](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L165) |
 
 
 
@@ -324,8 +324,8 @@ Gets the event type.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:180](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L180) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:180](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L180) |
 
 
 

@@ -1,8 +1,8 @@
-## `Pipeline.Loader` Class
+## `Pipeline.Loader` 类型
 
 
 
-Module: [cc](../modules/cc.md)
+模块: [cc](../modules/cc.md)
 
 
 
@@ -17,11 +17,11 @@ The loader pipe, it can load several types of files:
 It will not interfere with items of unknown type.
 You can pass custom supported types in the constructor.
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`constructor`](#constructor) Constructor of Loader, you can pass custom supported types.
   - [`addHandlers`](#addhandlers) Add custom supported types handler or modify existing type handler.
@@ -34,7 +34,7 @@ You can pass custom supported types in the constructor.
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### constructor
@@ -43,12 +43,12 @@ Constructor of Loader, you can pass custom supported types.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js:122](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js#L122) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js:122](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js#L122) |
 
-###### Parameters
+###### 参数列表
 - extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
-##### Example
+##### 示例
 
 ```js
 var loader = new Loader({
@@ -63,9 +63,9 @@ Add custom supported types handler or modify existing type handler.
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js:142](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js#L142) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js:142](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js#L142) |
 
-###### Parameters
+###### 参数列表
 - extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
 

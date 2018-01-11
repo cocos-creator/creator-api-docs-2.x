@@ -1257,6 +1257,12 @@ window.apimeta = {
       "description": "The toggle component is a CheckBox, when it used together with a ToggleGroup, it\ncould be treated as a RadioButton."
     },
     {
+      "name": "ToggleContainer",
+      "namespace": "cc.ToggleContainer",
+      "module": "cc",
+      "description": "ToggleContainer is not a visiable UI component but a way to modify the behavior of a set of Toggles. </br>\nToggles that belong to the same group could only have one of them to be switched on at a time.</br>\nNote: All the first layer child node containing the toggle component will auto be added to the container"
+    },
+    {
       "name": "ToggleGroup",
       "namespace": "cc.ToggleGroup",
       "module": "cc",

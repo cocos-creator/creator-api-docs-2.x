@@ -29,7 +29,7 @@ Enum for vertical layout direction.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L117) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L117) |
 
 
 
@@ -40,6 +40,6 @@ Enum for vertical layout direction.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L123) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L123) |
 
 

@@ -1,19 +1,19 @@
-## `AgentManager` Class
+## `AgentManager` 类型
 
 
 
-Module: [anysdk](../modules/anysdk.md)
+模块: [anysdk](../modules/anysdk.md)
 
 
 
 
 插件管理类
 
-### Index
+### 索引
 
 
 
-##### Methods
+##### 方法
 
   - [`init`](#init) appKey、appSecret、privateKey是通过 AnySDK 客户端工具创建游戏后生成的。
 oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接口地址。
@@ -46,7 +46,7 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 
 <!-- Method Block -->
-#### Methods
+#### 方法
 
 
 ##### init
@@ -56,9 +56,9 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:58](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L58) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:58](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L58) |
 
-###### Parameters
+###### 参数列表
 - appKey <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - appSecret <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - privateKey <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -71,9 +71,9 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:76](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L76) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:76](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L76) |
 
-###### Parameters
+###### 参数列表
 - callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 - target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> The object to bind to.
 
@@ -84,7 +84,7 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:88](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L88) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:88](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L88) |
 
 
 
@@ -94,8 +94,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:98](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L98) |
-| Return 		 | anysdk.ProtocolUser 
+| 返回 | anysdk.ProtocolUser 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:98](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L98) |
 
 
 
@@ -105,8 +105,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:110](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L110) |
-| Return 		 | anysdk.ProtocolIAP 
+| 返回 | anysdk.ProtocolIAP 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:110](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L110) |
 
 
 
@@ -116,8 +116,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:122](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L122) |
-| Return 		 | anysdk.ProtocolIAP 
+| 返回 | anysdk.ProtocolIAP 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:122](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L122) |
 
 
 
@@ -127,8 +127,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:134](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L134) |
-| Return 		 | anysdk.ProtocolSocial 
+| 返回 | anysdk.ProtocolSocial 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:134](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L134) |
 
 
 
@@ -138,8 +138,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:146](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L146) |
-| Return 		 | anysdk.ProtocolShare 
+| 返回 | anysdk.ProtocolShare 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:146](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L146) |
 
 
 
@@ -149,8 +149,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:158](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L158) |
-| Return 		 | anysdk.ProtocolAnalytics 
+| 返回 | anysdk.ProtocolAnalytics 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:158](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L158) |
 
 
 
@@ -160,8 +160,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:170](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L170) |
-| Return 		 | anysdk.ProtocolAds 
+| 返回 | anysdk.ProtocolAds 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:170](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L170) |
 
 
 
@@ -171,8 +171,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:182](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L182) |
-| Return 		 | anysdk.ProtocolPush 
+| 返回 | anysdk.ProtocolPush 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:182](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L182) |
 
 
 
@@ -182,8 +182,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:194](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L194) |
-| Return 		 | anysdk.ProtocolREC 
+| 返回 | anysdk.ProtocolREC 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:194](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L194) |
 
 
 
@@ -193,8 +193,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:206](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L206) |
-| Return 		 | anysdk.ProtocolCrash 
+| 返回 | anysdk.ProtocolCrash 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:206](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L206) |
 
 
 
@@ -204,8 +204,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:218](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L218) |
-| Return 		 | anysdk.ProtocolAdTracking 
+| 返回 | anysdk.ProtocolAdTracking 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:218](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L218) |
 
 
 
@@ -215,8 +215,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:230](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L230) |
-| Return 		 | anysdk.ProtocolCustom 
+| 返回 | anysdk.ProtocolCustom 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:230](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L230) |
 
 
 
@@ -226,8 +226,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:242](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L242) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:242](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L242) |
 
 
 
@@ -237,8 +237,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:254](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L254) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:254](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L254) |
 
 
 
@@ -248,8 +248,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:266](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L266) |
-| Return 		 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:266](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L266) |
 
 
 
@@ -259,9 +259,9 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:278](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L278) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:278](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L278) |
 
-###### Parameters
+###### 参数列表
 - enabled <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
 
 
@@ -271,7 +271,7 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:289](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L289) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:289](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L289) |
 
 
 
@@ -281,8 +281,8 @@ oauthLoginServer参数是游戏服务提供的用来做登陆验证转发的接�
 
 | meta | description |
 |------|-------------|
-| Defined | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:300](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L300) |
-| Return 		 | anysdk.AgentManager 
+| 返回 | anysdk.AgentManager 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:300](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L300) |
 
 
 
