@@ -8,15 +8,41 @@ The markdown files we use in this repo is generated from [Cocos Creator Engine](
 
 The markdown sources should be put into `en` and `zh` folders according to the language. A list of all sources with link should be generated as `index.md` in each folder.
 
-## Preview Book
+## Requirements
+
+This documentation site is powered by [GitBook](https://www.gitbook.com/). You can check out the online version [here](http://docs.cocos.com/creator/api).
+
+You need [Node.js](https://nodejs.org/en/) and npm to be able to build the site.
+
+To install gitbook:
 
 ```bash
 npm install gitbook-cli -g
+```
+
+Install gitbook plugins:
+
+```bash
 gitbook install
+```
+
+## Preview and Build
+
+To preview the doc, run the following command:
+
+```bash
 gitbook serve
 ```
 
-See [https://github.com/cocos-creator/creator-docs](https://github.com/cocos-creator/creator-docs) for details of build and templates.
+If you just want to build the markdown to html, use this command:
+
+```bash
+gitbook build
+```
+
+If you need to publish to the website, you'd better build it on Mac. If use Windows, some redundant .md file will also generated.
+
+See [https://github.com/cocos-creator/creator-docs](https://github.com/cocos-creator/creator-docs) for details of templates.
 
 ## Contribution
 
