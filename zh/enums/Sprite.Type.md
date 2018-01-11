@@ -5,22 +5,16 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 Sprite 类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `SIMPLE`
   - `SLICED`
   - `TILED`
   - `FILLED`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### SIMPLE

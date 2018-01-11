@@ -5,19 +5,13 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 滚动视图事件类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `PAGE_TURNING`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### PAGE_TURNING

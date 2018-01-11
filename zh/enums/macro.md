@@ -6,14 +6,10 @@
 父模块: [cc](../modules/cc.md)
 
 
-
-
 Predefined constants
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `INVALID_INDEX`
   - `NODE_TAG_INVALID`
   - `PI`
@@ -116,13 +112,10 @@ Predefined constants
   - `ENABLE_TILEDMAP_CULLING`
   - `DOWNLOAD_MAX_CONCURRENT`
   - `ENABLE_TRANSPARENT_CANVAS`
-  - `ENABLE_WEBGL_ANTIALIAS`
   - `ENABLE_CULLING`
   - `BLEND_SRC`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### INVALID_INDEX
@@ -1364,19 +1357,6 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 
 
 
-##### ENABLE_WEBGL_ANTIALIAS
-
-> 用于设置在创建 WebGL Context 时是否开启 `antialias` 选项，默认值是 true，大多数游戏都更适合这样的效果，
-但是如果你需要实现像素风格，或是使用 Tiledmap，那么你可能需要手动设置这个值为 false，你可以在 `cc.game.run` 之前设置这个值，否则它不会生效。
-仅支持 Web
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1922](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1922) |
-
-
-
 ##### ENABLE_CULLING
 
 > 是否开启自动裁减功能，开启裁减功能将会把在屏幕外的物体从渲染队列中去除掉。
@@ -1386,7 +1366,7 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1939](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1939) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1923](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1923) |
 
 
 
@@ -1397,6 +1377,6 @@ To modify it, in Web engine please refer to CCMacro.js, in JSB please refer to C
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1973](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1973) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1957](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1957) |
 
 

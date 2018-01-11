@@ -5,14 +5,10 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 统计系统的任务类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `GUIDE_LINE`
   - `MAIN_LINE`
   - `BRANCH_LINE`
@@ -21,8 +17,6 @@
   - `OTHER`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### GUIDE_LINE

@@ -6,9 +6,8 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 在场景中渲染一个 tmx 格式的 Tile Map。
+
 
 ### 索引
 

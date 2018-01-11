@@ -5,20 +5,14 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 发射模式
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `GRAVITY`
   - `RADIUS`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### GRAVITY

@@ -3,11 +3,11 @@
 
 
 Module: [cc](../modules/cc.md)
-
-
+Parent Module: [cc](../modules/cc.md)
 
 
 Blend Function used for textures.
+
 
 ### Index
 

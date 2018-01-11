@@ -5,12 +5,11 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 A manifold point is a contact point belonging to a contact manifold.
 It holds details related to the geometry and dynamics of the contact points.
 Note: the impulses are used for internal caching and may not
 provide reliable contact forces, especially for high speed collisions.
+
 
 ### Index
 

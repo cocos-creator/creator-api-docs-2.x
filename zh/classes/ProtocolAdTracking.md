@@ -6,9 +6,8 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 广告追踪系统协议接口
+
 
 ### 索引
 

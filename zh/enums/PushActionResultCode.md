@@ -5,20 +5,14 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 推送系统回调
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `kPushReceiveMessage`
   - `kPushExtensionCode`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### kPushReceiveMessage

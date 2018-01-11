@@ -5,22 +5,16 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 刚体类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `Static`
   - `Kinematic`
   - `Dynamic`
   - `Animated`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### Static

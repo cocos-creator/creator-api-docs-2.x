@@ -7,8 +7,6 @@ Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 
-
-
 A mouse joint is used to make a point on a body track a
 specified world point. This a soft constraint with a maximum
 force. This allows the constraint to stretch and without
@@ -16,6 +14,7 @@ applying huge forces.
 Mouse Joint will auto register the touch event with the mouse region node,
 and move the choosed rigidbody in touch move event.
 Note : generally mouse joint only used in test bed.
+
 
 ### Index
 

@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for LineCap.
 
+
 ### Index
-
-##### Properties
-
   - `BUTT`
   - `ROUND`
   - `SQUARE`
 
 ### Details
-
-#### Properties
 
 
 ##### BUTT

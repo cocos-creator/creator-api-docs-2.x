@@ -5,22 +5,16 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 射线检测类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `Closest`
   - `Any`
   - `AllClosest`
   - `All`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### Closest

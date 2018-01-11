@@ -3,16 +3,13 @@
 
 
 Module: [cc](../modules/cc.md)
-
-
+Parent Module: [cc](../modules/cc.md)
 
 
 The texture pixel format, default value is RGBA8888
 
+
 ### Index
-
-##### Properties
-
   - `RGB565`
   - `RGB5A1`
   - `RGBA4444`
@@ -23,8 +20,6 @@ The texture pixel format, default value is RGBA8888
   - `AI88`
 
 ### Details
-
-#### Properties
 
 
 ##### RGB565

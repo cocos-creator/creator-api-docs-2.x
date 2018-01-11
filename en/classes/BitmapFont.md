@@ -6,9 +6,8 @@ Extends [`RawAsset`](RawAsset.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Class for BitmapFont handling.
+
 
 ### Index
 

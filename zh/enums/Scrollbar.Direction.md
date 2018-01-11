@@ -5,20 +5,14 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 Enum for Scrollbar direction
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `HORIZONTAL`
   - `VERTICAL`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### HORIZONTAL

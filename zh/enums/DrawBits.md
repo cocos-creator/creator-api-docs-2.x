@@ -8,11 +8,7 @@
 
 
 
-
 ### 索引
-
-##### 属性（properties）
-
   - `e_aabbBit`
   - `e_pairBit`
   - `e_centerOfMassBit`
@@ -20,8 +16,6 @@
   - `e_shapeBit`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### e_aabbBit

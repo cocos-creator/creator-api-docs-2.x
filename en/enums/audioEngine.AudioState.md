@@ -5,22 +5,16 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Audio state.
 
+
 ### Index
-
-##### Properties
-
   - `ERROR`
   - `INITIALZING`
   - `PLAYING`
   - `PAUSED`
 
 ### Details
-
-#### Properties
 
 
 ##### ERROR
@@ -30,7 +24,7 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L70) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:71](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L71) |
 
 
 
@@ -41,7 +35,7 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:74](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L74) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L75) |
 
 
 
@@ -52,7 +46,7 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:78](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L78) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:79](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L79) |
 
 
 
@@ -63,6 +57,6 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L82) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:83](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L83) |
 
 

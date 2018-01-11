@@ -5,20 +5,14 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 视频来源
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `REMOTE`
   - `LOCAL`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### REMOTE

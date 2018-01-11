@@ -5,21 +5,15 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 统计系统的账号操作
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `LOGIN`
   - `LOGOUT`
   - `REGISTER`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### LOGIN

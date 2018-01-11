@@ -5,20 +5,14 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for emitter modes
 
+
 ### Index
-
-##### Properties
-
   - `GRAVITY`
   - `RADIUS`
 
 ### Details
-
-#### Properties
 
 
 ##### GRAVITY

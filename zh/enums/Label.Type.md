@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 Type 类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `TTF`
   - `BMFont`
   - `SystemFont`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### TTF

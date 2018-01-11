@@ -6,9 +6,8 @@ Extends [`PluginProtocol`](PluginProtocol.md)
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 ad tracking protocol
+
 
 ### Index
 

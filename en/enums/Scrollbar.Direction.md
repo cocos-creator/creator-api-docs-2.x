@@ -5,20 +5,14 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for Scrollbar direction
 
+
 ### Index
-
-##### Properties
-
   - `HORIZONTAL`
   - `VERTICAL`
 
 ### Details
-
-#### Properties
 
 
 ##### HORIZONTAL

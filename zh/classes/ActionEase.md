@@ -6,9 +6,8 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 所有缓动动作基类，用于修饰 ActionInterval。
+
 
 ### 索引
 

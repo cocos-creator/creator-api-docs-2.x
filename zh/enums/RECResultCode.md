@@ -5,14 +5,10 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 录屏系统回调
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `kRECInitSuccess`
   - `kRECInitFail`
   - `kRECStartRecording`
@@ -26,8 +22,6 @@
   - `kRECExtension`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### kRECInitSuccess

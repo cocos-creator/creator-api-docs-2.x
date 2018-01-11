@@ -6,14 +6,13 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 资源基类，该类可以被实例化。<br/>
 
 您可能需要重写：<br/>
 - createNode <br/>
 - cc.Object._serialize<br/>
 - cc.Object._deserialize<br/>
+
 
 ### 索引
 

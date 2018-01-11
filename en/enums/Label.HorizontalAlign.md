@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for text alignment.
 
+
 ### Index
-
-##### Properties
-
   - `LEFT`
   - `CENTER`
   - `RIGHT`
 
 ### Details
-
-#### Properties
 
 
 ##### LEFT

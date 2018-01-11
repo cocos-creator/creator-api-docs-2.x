@@ -5,9 +5,8 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 The touch event class
+
 
 ### Index
 

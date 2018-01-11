@@ -6,11 +6,10 @@ Module: [cc](../modules/cc.md)
 Parent Module: [js](../modules/js.md)
 
 
-
-
 A fixed-length object pool designed for general type.<br>
 The implementation of this object pool is very simple,
 it can helps you to improve your game performance for objects which need frequent release and recreate operations<br/>
+
 
 ### Index
 

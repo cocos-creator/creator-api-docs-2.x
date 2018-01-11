@@ -5,14 +5,10 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 用户系统回调
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `kInitSuccess`
   - `kInitFail`
   - `kLoginSuccess`
@@ -43,8 +39,6 @@
   - `kOpenBBSFail`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### kInitSuccess

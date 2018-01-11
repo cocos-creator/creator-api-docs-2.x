@@ -6,14 +6,10 @@
 父模块: [cc](../modules/cc.md)
 
 
-
-
 Image formats
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `JPG`
   - `PNG`
   - `TIFF`
@@ -27,8 +23,6 @@ Image formats
   - `UNKNOWN`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### JPG

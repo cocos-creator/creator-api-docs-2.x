@@ -3,23 +3,18 @@
 
 
 模块: [cc](../modules/cc.md)
-
-
+父模块: [cc](../modules/cc.md)
 
 
 The texture wrap mode
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `REPEAT`
   - `CLAMP_TO_EDGE`
   - `MIRRORED_REPEAT`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### REPEAT

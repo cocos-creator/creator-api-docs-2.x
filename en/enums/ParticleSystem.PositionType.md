@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for particles movement type.
 
+
 ### Index
-
-##### Properties
-
   - `FREE`
   - `RELATIVE`
   - `GROUPED`
 
 ### Details
-
-#### Properties
 
 
 ##### FREE

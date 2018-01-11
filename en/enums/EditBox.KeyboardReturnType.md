@@ -5,14 +5,10 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for keyboard return types
 
+
 ### Index
-
-##### Properties
-
   - `DEFAULT`
   - `DONE`
   - `SEND`
@@ -20,8 +16,6 @@ Enum for keyboard return types
   - `GO`
 
 ### Details
-
-#### Properties
 
 
 ##### DEFAULT

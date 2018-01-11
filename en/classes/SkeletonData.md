@@ -6,9 +6,8 @@ Extends [`Asset`](Asset.md)
 Module: [sp](../modules/sp.md)
 
 
-
-
 The skeleton data of spine.
+
 
 ### Index
 

@@ -6,9 +6,8 @@ Extends [`Component`](Component.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 The Slider Control
+
 
 ### Index
 
@@ -763,9 +762,8 @@ Init this object from the custom serialized data.
 Module: [cc](../modules/cc.md)
 
 
-
-
 Note: This event is emitted from the node to which the component belongs.
+
 
 ### Index
 

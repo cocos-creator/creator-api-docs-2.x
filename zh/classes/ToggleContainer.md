@@ -6,11 +6,10 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 ToggleContainer 不是一个可见的 UI 组件，它可以用来修改一组 Toggle 组件的行为。</br>
 当一组 Toggle 属于同一个 ToggleContainer 的时候，任何时候只能有一个 Toggle 处于选中状态。</br>
 注意：所有包含 Toggle 组件的一级子节点都会自动被添加到该容器中
+
 
 ### 索引
 

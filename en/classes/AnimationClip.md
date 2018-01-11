@@ -6,9 +6,8 @@ Extends [`Asset`](Asset.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Class for animation data handling.
+
 
 ### Index
 

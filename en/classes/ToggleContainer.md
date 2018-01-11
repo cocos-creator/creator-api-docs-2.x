@@ -6,11 +6,10 @@ Extends [`Component`](Component.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 ToggleContainer is not a visiable UI component but a way to modify the behavior of a set of Toggles. </br>
 Toggles that belong to the same group could only have one of them to be switched on at a time.</br>
 Note: All the first layer child node containing the toggle component will auto be added to the container
+
 
 ### Index
 

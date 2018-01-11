@@ -5,21 +5,15 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 统计系统的账号性别
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `MALE`
   - `FEMALE`
   - `UNKNOWN`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### MALE

@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for Layout Resize Mode
 
+
 ### Index
-
-##### Properties
-
   - `NONE`
   - `CONTAINER`
   - `CHILDREN`
 
 ### Details
-
-#### Properties
 
 
 ##### NONE

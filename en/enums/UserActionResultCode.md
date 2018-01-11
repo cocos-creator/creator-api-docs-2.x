@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The callback of user system
 
+
 ### Index
-
-##### Properties
-
   - `kInitSuccess`
   - `kInitFail`
   - `kLoginSuccess`
@@ -43,8 +39,6 @@ The callback of user system
   - `kOpenBBSFail`
 
 ### Details
-
-#### Properties
 
 
 ##### kInitSuccess

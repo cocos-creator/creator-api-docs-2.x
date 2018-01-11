@@ -3,23 +3,18 @@
 
 
 Module: [cc](../modules/cc.md)
-
-
+Parent Module: [cc](../modules/cc.md)
 
 
 The texture wrap mode
 
+
 ### Index
-
-##### Properties
-
   - `REPEAT`
   - `CLAMP_TO_EDGE`
   - `MIRRORED_REPEAT`
 
 ### Details
-
-#### Properties
 
 
 ##### REPEAT

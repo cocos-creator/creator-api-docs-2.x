@@ -6,9 +6,8 @@ Extends [`_RendererInSG`](_RendererInSG.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 The Mask Component
+
 
 ### Index
 

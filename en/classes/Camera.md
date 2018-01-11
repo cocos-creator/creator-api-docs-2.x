@@ -6,11 +6,10 @@ Extends [`_RendererUnderSG`](_RendererUnderSG.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Camera is usefull when making reel game or other games which need scroll screen.
 Using camera will be more efficient than moving node to scroll screen.
 Camera
+
 
 ### Index
 

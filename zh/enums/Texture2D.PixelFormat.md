@@ -3,16 +3,13 @@
 
 
 模块: [cc](../modules/cc.md)
-
-
+父模块: [cc](../modules/cc.md)
 
 
 The texture pixel format, default value is RGBA8888
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `RGB565`
   - `RGB5A1`
   - `RGBA4444`
@@ -23,8 +20,6 @@ The texture pixel format, default value is RGBA8888
   - `AI88`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### RGB565

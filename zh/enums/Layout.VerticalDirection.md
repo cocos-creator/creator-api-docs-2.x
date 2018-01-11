@@ -5,20 +5,14 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 垂直方向布局方式
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `BOTTOM_TO_TOP`
   - `TOP_TO_BOTTOM`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### BOTTOM_TO_TOP

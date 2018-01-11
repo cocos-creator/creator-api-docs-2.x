@@ -10,7 +10,6 @@
 
 
 
-
 ### 索引
 
 
@@ -38,7 +37,7 @@ Manipulation before appling the strategy
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1021](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1021) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1037](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1037) |
 
 ###### 参数列表
 - view <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -50,7 +49,7 @@ Function to apply this strategy
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1029](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1029) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1045](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1045) |
 
 ###### 参数列表
 - view <a href="../classes/View.html" class="crosslink">View</a> 
@@ -63,7 +62,7 @@ Manipulation after applying the strategy
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1038](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1038) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1054](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1054) |
 
 ###### 参数列表
 - view <a href="../classes/View.html" class="crosslink">View</a> The target view

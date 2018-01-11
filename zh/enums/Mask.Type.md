@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 遮罩组件类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `RECT`
   - `ELLIPSE`
   - `IMAGE_STENCIL`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### RECT

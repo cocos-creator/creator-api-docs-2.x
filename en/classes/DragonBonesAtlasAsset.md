@@ -6,9 +6,8 @@ Extends [`Asset`](Asset.md)
 Module: [dragonBones](../modules/dragonBones.md)
 
 
-
-
 The skeleton atlas data of dragonBones.
+
 
 ### Index
 

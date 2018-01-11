@@ -6,13 +6,12 @@ Extends [`_RendererUnderSG`](_RendererUnderSG.md)
 Module: [sp](../modules/sp.md)
 
 
-
-
 The skeleton of Spine <br/>
 <br/>
 (Skeleton has a reference to a SkeletonData and stores the state for skeleton instance,
 which consists of the current pose's bone SRT, slot colors, and which slot attachments are visible. <br/>
 Multiple skeletons can use the same SkeletonData which includes all animations, skins, and attachments.) <br/>
+
 
 ### Index
 

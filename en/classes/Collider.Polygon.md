@@ -6,9 +6,8 @@ Defined in: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/col
 Module: [cc](../modules/cc.md)
 
 
-
-
 Defines a Polygon Collider .
+
 
 ### Index
 

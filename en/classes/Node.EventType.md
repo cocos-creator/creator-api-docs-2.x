@@ -5,9 +5,8 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 The event type supported by Node
+
 
 ### Index
 

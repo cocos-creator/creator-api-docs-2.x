@@ -3,14 +3,14 @@
 
 
 Module: [cc](../modules/cc.md)
-
-
+Parent Module: [cc](../modules/cc.md)
 
 
 cc.Size is the class for size object,<br/>
 please do not use its constructor to create sizes,<br/>
 use <a href="../modules/cc.html#method_size" class="crosslink">size</a> alias function instead.<br/>
 It will be deprecated soon, please use cc.Vec2 instead.
+
 
 ### Index
 

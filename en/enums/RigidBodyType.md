@@ -5,22 +5,16 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for RigidBodyType.
 
+
 ### Index
-
-##### Properties
-
   - `Static`
   - `Kinematic`
   - `Dynamic`
   - `Animated`
 
 ### Details
-
-#### Properties
 
 
 ##### Static

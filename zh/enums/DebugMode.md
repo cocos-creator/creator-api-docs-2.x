@@ -5,14 +5,10 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 调试模式
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `NONE`
   - `INFO`
   - `WARN`
@@ -22,8 +18,6 @@
   - `ERROR_FOR_WEB_PAGE`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### NONE

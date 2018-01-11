@@ -6,14 +6,13 @@ Extends [`RawAsset`](RawAsset.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Base class for handling assets used in Fireball. This class can be instantiate.
 
 You may want to override:<br/>
 - createNode<br/>
 - cc.Object._serialize<br/>
 - cc.Object._deserialize<br/>
+
 
 ### Index
 

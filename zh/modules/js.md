@@ -384,7 +384,7 @@ A string tool to construct a string with format string.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:577](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L577) |
 
 ###### 参数列表
-- msg <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings.
+- msg <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings (%s).
 - subst Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
 
 ##### 示例

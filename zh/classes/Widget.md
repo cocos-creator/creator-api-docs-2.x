@@ -6,10 +6,9 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 Widget 组件，用于设置和适配其相对于父节点的边距，Widget 通常被用于 UI 界面，也可以用于其他地方。
 Widget 会自动调整当前节点的坐标和宽高，不过目前调整后的结果要到下一帧才能在脚本里获取到，除非你先手动调用 <a href="../classes/Widget.html#method_updateAlignment" class="crosslink">updateAlignment</a>。
+
 
 ### 索引
 

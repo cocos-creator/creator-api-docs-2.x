@@ -6,8 +6,6 @@ Extends [`Component`](Component.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 The animation component is used to play back animations.
 
 Animation provide several events to register：
@@ -17,6 +15,7 @@ Animation provide several events to register：
  - resume : Emit when resume animation
  - lastframe : If animation repeat count is larger than 1, emit when animation play to the last frame
  - finished : Emit when finish playing animation
+
 
 ### Index
 

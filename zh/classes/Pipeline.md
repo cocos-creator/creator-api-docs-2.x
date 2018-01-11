@@ -5,13 +5,12 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 pipeline 描述了一系列的操作，每个操作都被称为 pipe。</br>
 它被设计来做加载过程的流程管理。所以 item 应该是 url，并且该 url 将是在处理中的每个 item 的身份标识。</br>
 一个 item 列表可以在 pipeline 中流动，它将输出加载项经过所有 pipe 之后的结果。</br>
 它们穿过 pipeline 就像水在管子里流动，将会按顺序流过每个 pipe。</br>
 最后当所有加载项都流出 pipeline 时，整个加载流程就结束了。
+
 
 ### 索引
 

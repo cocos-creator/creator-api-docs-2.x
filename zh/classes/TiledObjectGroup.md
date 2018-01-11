@@ -6,9 +6,8 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 渲染 tmx object group。
+
 
 ### 索引
 

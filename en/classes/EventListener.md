@@ -5,14 +5,13 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 <p>
     The base class of event listener.                                                                        <br/>
     If you need custom listener which with different callback, you need to inherit this class.               <br/>
     For instance, you could refer to EventListenerAcceleration, EventListenerKeyboard,                       <br/>
      EventListenerTouchOneByOne, EventListenerCustom.
 </p>
+
 
 ### Index
 

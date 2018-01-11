@@ -5,9 +5,8 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Renders the TMX object.
+
 
 ### Index
 

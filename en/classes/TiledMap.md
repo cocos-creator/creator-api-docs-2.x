@@ -6,9 +6,8 @@ Extends [`Component`](Component.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Renders a TMX Tile Map in the scene.
+
 
 ### Index
 

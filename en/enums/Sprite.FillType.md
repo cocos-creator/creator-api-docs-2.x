@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for fill type.
 
+
 ### Index
-
-##### Properties
-
   - `HORIZONTAL`
   - `VERTICAL`
   - `RADIAL`
 
 ### Details
-
-#### Properties
 
 
 ##### HORIZONTAL

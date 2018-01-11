@@ -6,14 +6,10 @@ Module: [_decorator](../modules/_decorator.md)
 Parent Module: [cc](../modules/cc.md)
 
 
-
-
 Predefined constants
 
+
 ### Index
-
-##### Properties
-
   - `INVALID_INDEX`
   - `NODE_TAG_INVALID`
   - `PI`
@@ -116,13 +112,10 @@ Predefined constants
   - `ENABLE_TILEDMAP_CULLING`
   - `DOWNLOAD_MAX_CONCURRENT`
   - `ENABLE_TRANSPARENT_CANVAS`
-  - `ENABLE_WEBGL_ANTIALIAS`
   - `ENABLE_CULLING`
   - `BLEND_SRC`
 
 ### Details
-
-#### Properties
 
 
 ##### INVALID_INDEX
@@ -1367,21 +1360,6 @@ Web only.
 
 
 
-##### ENABLE_WEBGL_ANTIALIAS
-
-> Boolean that indicates if the WebGL context is created with `antialias` option turned on,
-default value is true, most game need it for the picture to eliminate the hard edges,
-but in some case, if you are trying to apply pixel art or using tilemaps, then you may need to turn it off.
-You can set it to false before `cc.game.run`.
-Web only.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1922](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1922) |
-
-
-
 ##### ENABLE_CULLING
 
 > Whether or not enable auto culling.
@@ -1391,7 +1369,7 @@ If your game have more static objects, we suggest to enable auto culling.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1939](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1939) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1923](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1923) |
 
 
 
@@ -1402,6 +1380,6 @@ If your game have more static objects, we suggest to enable auto culling.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1973](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1973) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1957](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1957) |
 
 

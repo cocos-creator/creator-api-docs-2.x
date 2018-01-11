@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 The item states of the LoadingItems, its value could be LoadingItems.ItemState.WORKING | LoadingItems.ItemState.COMPLETET | LoadingItems.ItemState.ERROR
 
+
 ### Index
-
-##### Properties
-
   - `WORKING`
   - `COMPLETET`
   - `ERROR`
 
 ### Details
-
-#### Properties
 
 
 ##### WORKING

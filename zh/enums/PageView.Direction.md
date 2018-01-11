@@ -5,20 +5,14 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 页面视图滚动类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `Horizontal`
   - `Vertical`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### Horizontal

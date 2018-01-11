@@ -4,8 +4,7 @@ Extends [`ValueType`](ValueType.md)
 
 
 Module: [cc](../modules/cc.md)
-
-
+Parent Module: [cc](../modules/cc.md)
 
 
 Representation of RGBA colors.
@@ -13,6 +12,7 @@ Representation of RGBA colors.
 Each color component is a floating point value with a range from 0 to 255.
 
 You can also use the convenience method <a href="../modules/cc.html#method_color" class="crosslink">cc.color</a> to create a new Color.
+
 
 ### Index
 

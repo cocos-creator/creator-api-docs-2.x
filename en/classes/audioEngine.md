@@ -5,9 +5,8 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 cc.audioEngine is the singleton object, it provide simple audio APIs.
+
 
 ### Index
 

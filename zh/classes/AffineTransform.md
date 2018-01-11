@@ -6,10 +6,9 @@
 父模块: [cc](../modules/cc.md)
 
 
-
-
 cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移旋转，缩放转变所组成。<br/>
 请不要直接使用它的构造，请使用 cc.affineTransformMake 函数代替。
+
 
 ### 索引
 

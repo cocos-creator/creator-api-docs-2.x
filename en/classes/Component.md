@@ -6,12 +6,11 @@ Extends [`Object`](Object.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Base class for everything attached to Node(Entity).<br/>
 <br/>
 NOTE: Not allowed to use construction parameters for Component's subclasses,
       because Component is created by the engine.
+
 
 ### Index
 

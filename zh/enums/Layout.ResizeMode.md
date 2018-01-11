@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 缩放模式
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `NONE`
   - `CONTAINER`
   - `CHILDREN`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### NONE

@@ -6,9 +6,8 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 时间间隔动作，这种动作在已定时间内完成，继承 FiniteTimeAction。
+
 
 ### 索引
 

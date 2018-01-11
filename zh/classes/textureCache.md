@@ -3,11 +3,11 @@
 
 
 模块: [cc](../modules/cc.md)
-
-
+父模块: [cc](../modules/cc.md)
 
 
 cc.textureCache is a singleton object, it's the global cache for cc.Texture2D
+
 
 ### 索引
 

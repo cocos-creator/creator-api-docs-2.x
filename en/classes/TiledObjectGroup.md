@@ -6,9 +6,8 @@ Extends [`_SGComponent`](_SGComponent.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Renders the TMX object group.
+
 
 ### Index
 

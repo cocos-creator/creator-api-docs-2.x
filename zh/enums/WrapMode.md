@@ -5,14 +5,10 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 动画使用的循环模式。
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `Default`
   - `Normal`
   - `Reverse`
@@ -22,8 +18,6 @@
   - `PingPongReverse`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### Default

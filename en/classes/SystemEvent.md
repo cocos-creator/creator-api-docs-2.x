@@ -6,9 +6,8 @@ Extends [`EventTarget`](EventTarget.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 The System event, it currently supports the key events and accelerometer events
+
 
 ### Index
 

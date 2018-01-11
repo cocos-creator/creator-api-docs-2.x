@@ -6,8 +6,6 @@ Extends [`Component`](Component.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Button has 4 Transition types
 When Button state changed:
  If Transition type is Button.Transition.NONE, Button will do nothing
@@ -21,6 +19,7 @@ Button will trigger 5 events:
  Button.EVENT_HOVER_IN
  Button.EVENT_HOVER_MOVE
  Button.EVENT_HOVER_OUT
+
 
 ### Index
 
@@ -284,7 +283,7 @@ The final scale of the button  equals (button original scale * zoomScale)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L319) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:323](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L323) |
 
 
 
@@ -295,7 +294,7 @@ The final scale of the button  equals (button original scale * zoomScale)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:331](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L331) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L339) |
 
 
 
@@ -310,7 +309,7 @@ When Button state changed:
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L346) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:354](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L354) |
 
 
 
@@ -321,7 +320,7 @@ When Button state changed:
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L370) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:378](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L378) |
 
 
 
@@ -919,9 +918,8 @@ Init this object from the custom serialized data.
 Module: [cc](../modules/cc.md)
 
 
-
-
 Note: This event is emitted from the node to which the component belongs.
+
 
 ### Index
 

@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The callback of share system
 
+
 ### Index
-
-##### Properties
-
   - `kShareSuccess`
   - `kShareFail`
   - `kShareCancel`
@@ -20,8 +16,6 @@ The callback of share system
   - `kShareExtension`
 
 ### Details
-
-#### Properties
 
 
 ##### kShareSuccess

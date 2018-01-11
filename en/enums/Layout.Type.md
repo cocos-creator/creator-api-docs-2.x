@@ -5,22 +5,16 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for Layout type
 
+
 ### Index
-
-##### Properties
-
   - `NONE`
   - `HORIZONTAL`
   - `VERTICAL`
   - `GRID`
 
 ### Details
-
-#### Properties
 
 
 ##### NONE

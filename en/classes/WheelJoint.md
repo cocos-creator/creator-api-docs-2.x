@@ -7,12 +7,11 @@ Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 
-
-
 A wheel joint. This joint provides two degrees of freedom: translation
 along an axis fixed in bodyA and rotation in the plane. You can use a joint motor to drive
 the rotation or to model rotational friction.
 This joint is designed for vehicle suspensions.
+
 
 ### Index
 

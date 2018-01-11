@@ -5,19 +5,13 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The callback of custom system
 
+
 ### Index
-
-##### Properties
-
   - `kCustomExtension`
 
 ### Details
-
-#### Properties
 
 
 ##### kCustomExtension

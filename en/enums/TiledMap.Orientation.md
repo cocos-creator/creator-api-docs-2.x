@@ -5,14 +5,10 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 The orientation of tiled map.
 
+
 ### Index
-
-##### Properties
-
   - `ORTHO`
   - `HEX`
   - `ISO`
@@ -33,8 +29,6 @@ The orientation of tiled map.
   - `STAGGERINDEX_EVEN`
 
 ### Details
-
-#### Properties
 
 
 ##### ORTHO

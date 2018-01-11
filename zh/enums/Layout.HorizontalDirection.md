@@ -5,20 +5,14 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 水平方向布局方式
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `LEFT_TO_RIGHT`
   - `RIGHT_TO_LEFT`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### LEFT_TO_RIGHT

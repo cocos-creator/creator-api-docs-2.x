@@ -6,10 +6,9 @@ Extends [`Component`](Component.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 ToggleGroup is not a visiable UI component but a way to modify the behavior of a set of Toggles.
 Toggles that belong to the same group could only have one of them to be switched on at a time.
+
 
 ### Index
 
@@ -130,7 +129,7 @@ and the already switched on toggle can't be switched off.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js:48](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js#L48) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js#L49) |
 
 
 
@@ -141,7 +140,7 @@ and the already switched on toggle can't be switched off.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js#L60) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js#L61) |
 
 
 

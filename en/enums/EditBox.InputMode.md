@@ -5,14 +5,10 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 The EditBox's InputMode defines the type of text that the user is allowed to enter.
 
+
 ### Index
-
-##### Properties
-
   - `ANY`
   - `EMAIL_ADDR`
   - `NUMERIC`
@@ -22,8 +18,6 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
   - `SINGLE_LINE`
 
 ### Details
-
-#### Properties
 
 
 ##### ANY

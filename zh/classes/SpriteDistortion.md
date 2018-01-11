@@ -6,9 +6,8 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 扭曲效果组件,用于改变SIMPLE类型sprite的渲染,只有当sprite组件已经添加后,才能起作用.
+
 
 ### 索引
 

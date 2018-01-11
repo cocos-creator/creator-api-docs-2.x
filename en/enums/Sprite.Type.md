@@ -5,22 +5,16 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for sprite type.
 
+
 ### Index
-
-##### Properties
-
   - `SIMPLE`
   - `SLICED`
   - `TILED`
   - `FILLED`
 
 ### Details
-
-#### Properties
 
 
 ##### SIMPLE

@@ -5,14 +5,10 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for ScrollView event type.
 
+
 ### Index
-
-##### Properties
-
   - `SCROLL_TO_TOP`
   - `SCROLL_TO_BOTTOM`
   - `SCROLL_TO_LEFT`
@@ -28,8 +24,6 @@ Enum for ScrollView event type.
   - `SCROLL_BEGAN`
 
 ### Details
-
-#### Properties
 
 
 ##### SCROLL_TO_TOP

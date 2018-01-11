@@ -6,9 +6,8 @@ Extends [`FiniteTimeAction`](FiniteTimeAction.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Instant actions are immediate actions. They don't have a duration like the ActionInterval actions.
+
 
 ### Index
 

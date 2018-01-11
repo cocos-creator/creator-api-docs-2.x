@@ -6,15 +6,11 @@
 父模块: [cc](../modules/cc.md)
 
 
-
-
 混合因子
 可参考: http://www.andersriggelsen.dk/glblendfunc.php
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `ONE`
   - `ZERO`
   - `SRC_ALPHA`
@@ -27,8 +23,6 @@
   - `ONE_MINUS_DST_COLOR`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### ONE

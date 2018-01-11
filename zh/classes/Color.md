@@ -7,13 +7,12 @@
 父模块: [cc](../modules/cc.md)
 
 
-
-
 cc.Color 用于表示颜色。
 
 它包含 RGBA 四个以浮点数保存的颜色分量，每个的值都在 0 到 255 之间。
 
 您也可以通过使用 <a href="../modules/cc.html#method_color" class="crosslink">cc.color</a> 的便捷方法来创建一个新的 Color。
+
 
 ### 索引
 

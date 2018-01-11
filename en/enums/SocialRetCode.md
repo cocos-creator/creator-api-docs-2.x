@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The callback of social system
 
+
 ### Index
-
-##### Properties
-
   - `kScoreSubmitSucceed`
   - `kScoreSubmitfail`
   - `kAchUnlockSucceed`
@@ -30,8 +26,6 @@ The callback of social system
   - `kSocialSubscriptionFail`
 
 ### Details
-
-#### Properties
 
 
 ##### kScoreSubmitSucceed

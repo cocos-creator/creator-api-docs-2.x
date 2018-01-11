@@ -6,9 +6,8 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 Toggle 是一个 CheckBox，当它和 ToggleGroup 一起使用的时候，可以变成 RadioButton。
+
 
 ### 索引
 
@@ -312,7 +311,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:319](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L319) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:323](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L323) |
 
 
 
@@ -323,7 +322,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:331](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L331) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L339) |
 
 
 
@@ -338,7 +337,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L346) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:354](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L354) |
 
 
 
@@ -349,7 +348,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L370) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js:378](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCButton.js#L378) |
 
 
 
@@ -958,9 +957,8 @@ Init this object from the custom serialized data.
 模块: [cc](../modules/cc.md)
 
 
-
-
 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+
 
 ### 索引
 
@@ -982,9 +980,8 @@ Init this object from the custom serialized data.
 模块: [cc](../modules/cc.md)
 
 
-
-
 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+
 
 ### 索引
 

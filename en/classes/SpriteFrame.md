@@ -4,13 +4,13 @@ Extends [`Asset`](Asset.md)
 
 
 Module: [cc](../modules/cc.md)
-
-
+Parent Module: [cc](../modules/cc.md)
 
 
 A cc.SpriteFrame has:<br/>
  - texture: A cc.Texture2D that will be used by the _ccsg.Sprite<br/>
  - rectangle: A rectangle of the texture
+
 
 ### Index
 

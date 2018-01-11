@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for horizontal layout direction.
  Used in Grid Layout together with AxisDirection is HORIZONTAL
 
+
 ### Index
-
-##### Properties
-
   - `LEFT_TO_RIGHT`
   - `RIGHT_TO_LEFT`
 
 ### Details
-
-#### Properties
 
 
 ##### LEFT_TO_RIGHT

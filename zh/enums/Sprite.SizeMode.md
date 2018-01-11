@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 精灵尺寸调整模式
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `CUSTOM`
   - `TRIMMED`
   - `RAW`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### CUSTOM

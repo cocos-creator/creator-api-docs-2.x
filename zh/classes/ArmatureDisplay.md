@@ -6,13 +6,12 @@
 模块: [dragonBones](../modules/dragonBones.md)
 
 
-
-
 DragonBones 骨骼动画 <br/>
 <br/>
 (Armature Display 具有对骨骼数据的引用并且存储了骨骼实例的状态，
 它由当前的骨骼动作，slot 颜色，和可见的 slot attachments 组成。<br/>
 多个 Armature Display 可以使用相同的骨骼数据，其中包括所有的动画，皮肤和 attachments。)<br/>
+
 
 ### 索引
 
@@ -426,7 +425,7 @@ playTimes 指定播放动画的次数。
 | meta | description |
 |------|-------------|
 | 返回 | dragonBones.AnimationState 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:472](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L472) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:474](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L474) |
 
 ###### 参数列表
 - animName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -440,7 +439,7 @@ playTimes 指定播放动画的次数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:502](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L502) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:504](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L504) |
 
 
 
@@ -451,7 +450,7 @@ playTimes 指定播放动画的次数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:518](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L518) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:520](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L520) |
 
 ###### 参数列表
 - armatureName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -463,7 +462,7 @@ playTimes 指定播放动画的次数。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:543](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L543) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:545](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L545) |
 
 ###### 参数列表
 - eventType dragonBones.EventObject 
@@ -477,7 +476,7 @@ playTimes 指定播放动画的次数。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:559](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L559) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:561](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L561) |
 
 ###### 参数列表
 - eventType dragonBones.EventObject 
@@ -492,7 +491,7 @@ playTimes 指定播放动画的次数。
 | meta | description |
 |------|-------------|
 | 返回 | dragonBones.Armature 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:575](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L575) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:577](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L577) |
 
 ###### 参数列表
 - armatureName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -505,7 +504,7 @@ playTimes 指定播放动画的次数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:592](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L592) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:594](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L594) |
 
 
 

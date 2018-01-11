@@ -5,14 +5,10 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for the EditBox's input flags
 
+
 ### Index
-
-##### Properties
-
   - `PASSWORD`
   - `SENSITIVE`
   - `INITIAL_CAPS_WORD`
@@ -20,8 +16,6 @@ Enum for the EditBox's input flags
   - `INITIAL_CAPS_ALL_CHARACTERS`
 
 ### Details
-
-#### Properties
 
 
 ##### PASSWORD

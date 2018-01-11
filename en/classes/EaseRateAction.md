@@ -6,9 +6,8 @@ Extends [`ActionEase`](ActionEase.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Base class for Easing actions with rate parameters
+
 
 ### Index
 

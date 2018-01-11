@@ -6,10 +6,9 @@ Extends [`Component`](Component.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Visual indicator of progress in some operation.
 Displays a bar to the user representing how far the operation has progressed.
+
 
 ### Index
 

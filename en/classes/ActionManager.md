@@ -5,8 +5,6 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 cc.ActionManager is a class that can manage actions.<br/>
 Normally you won't need to use this class directly. 99% of the cases you will use the CCNode interface,
 which uses this class's singleton object.
@@ -14,6 +12,7 @@ But there are some cases where you might need to use this class. <br/>
 Examples:<br/>
 - When you want to run an action where the target is different from a CCNode.<br/>
 - When you want to pause / resume the actions<br/>
+
 
 ### Index
 

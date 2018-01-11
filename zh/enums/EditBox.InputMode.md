@@ -5,14 +5,10 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 输入模式
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `ANY`
   - `EMAIL_ADDR`
   - `NUMERIC`
@@ -22,8 +18,6 @@
   - `SINGLE_LINE`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### ANY

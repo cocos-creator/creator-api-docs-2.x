@@ -6,9 +6,8 @@ Extends [`ActionEase`](ActionEase.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 cc.EaseBounce abstract class.
+
 
 ### Index
 

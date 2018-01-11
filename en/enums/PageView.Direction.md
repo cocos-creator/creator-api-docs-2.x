@@ -5,20 +5,14 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 The Page View Direction
 
+
 ### Index
-
-##### Properties
-
   - `Horizontal`
   - `Vertical`
 
 ### Details
-
-#### Properties
 
 
 ##### Horizontal

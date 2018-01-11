@@ -5,8 +5,6 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 cc.NodePool is the cache pool designed for node type.<br/>
  It can helps you to improve your game performance for objects which need frequent release and recreate operations<br/>
 
@@ -18,6 +16,7 @@ Some common use case is :<br/>
      1. Bullets in game (die very soon, massive creation and recreation, no side effect on other objects)<br/>
      2. Blocks in candy crash (massive creation and recreation)<br/>
      etc...
+
 
 ### Index
 

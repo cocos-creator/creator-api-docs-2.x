@@ -5,14 +5,10 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 社交系统回调
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `kScoreSubmitSucceed`
   - `kScoreSubmitfail`
   - `kAchUnlockSucceed`
@@ -30,8 +26,6 @@
   - `kSocialSubscriptionFail`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### kScoreSubmitSucceed

@@ -6,8 +6,6 @@ Extends [`CallbacksInvoker`](CallbacksInvoker.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 LoadingItems is the queue of items which can flow them into the loading pipeline.</br>
 Please don't construct it directly, use LoadingItems.create instead, because we use an internal pool to recycle the queues.</br>
 It hold a map of items, each entry in the map is a url to object key value pair.</br>
@@ -23,6 +21,7 @@ Each item always contains the following property:</br>
 Item can hold other custom properties.</br>
 Each LoadingItems object will be destroyed for recycle after onComplete callback</br>
 So please don't hold its reference for later usage, you can copy properties in it though.
+
 
 ### Index
 

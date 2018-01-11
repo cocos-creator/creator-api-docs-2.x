@@ -6,9 +6,8 @@ Defined in: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/
 Module: [cc](../modules/cc.md)
 
 
-
-
 Base class cc.Action for action classes.
+
 
 ### Index
 

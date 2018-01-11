@@ -3,17 +3,14 @@
 
 
 Module: [cc](../modules/cc.md)
-
-
+Parent Module: [cc](../modules/cc.md)
 
 
 Enum for blend factor
 Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 
+
 ### Index
-
-##### Properties
-
   - `ONE`
   - `ZERO`
   - `SRC_ALPHA`
@@ -26,8 +23,6 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
   - `ONE_MINUS_DST_COLOR`
 
 ### Details
-
-#### Properties
 
 
 ##### ONE

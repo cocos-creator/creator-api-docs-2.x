@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The toolbar position of user type
 
+
 ### Index
-
-##### Properties
-
   - `kToolBarTopLeft`
   - `kToolBarTopRight`
   - `kToolBarMidLeft`
@@ -21,8 +17,6 @@ The toolbar position of user type
   - `kToolBarBottomRight`
 
 ### Details
-
-#### Properties
 
 
 ##### kToolBarTopLeft

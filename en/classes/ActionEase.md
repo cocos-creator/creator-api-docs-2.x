@@ -6,9 +6,8 @@ Extends [`ActionInterval`](ActionInterval.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Base class for Easing actions.
+
 
 ### Index
 

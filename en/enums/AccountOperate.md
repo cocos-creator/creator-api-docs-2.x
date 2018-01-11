@@ -5,21 +5,15 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The enum of account operation
 
+
 ### Index
-
-##### Properties
-
   - `LOGIN`
   - `LOGOUT`
   - `REGISTER`
 
 ### Details
-
-#### Properties
 
 
 ##### LOGIN

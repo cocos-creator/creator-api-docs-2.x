@@ -5,14 +5,10 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Video event type
 
+
 ### Index
-
-##### Properties
-
   - `PLAYING`
   - `PAUSED`
   - `STOPPED`
@@ -22,8 +18,6 @@ Video event type
   - `READY_TO_PLAY`
 
 ### Details
-
-#### Properties
 
 
 ##### PLAYING

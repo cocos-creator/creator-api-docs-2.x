@@ -6,8 +6,6 @@ Extends [`_RendererUnderSG`](_RendererUnderSG.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Particle System base class. <br/>
 Attributes of a Particle System:<br/>
  - emmision rate of the particles<br/>
@@ -42,6 +40,7 @@ cocos2d supports all the variables used by Particle Designer plus a bit more:  <
  - radial acceleration (Gravity mode)                                   <br/>
  - radius direction (Radius mode) (Particle Designer supports outwards to inwards direction only) <br/>
 It is possible to customize any of the above mentioned properties in runtime. Example:   <br/>
+
 
 ### Index
 

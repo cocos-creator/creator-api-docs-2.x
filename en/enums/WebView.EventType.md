@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 WebView event type
 
+
 ### Index
-
-##### Properties
-
   - `LOADED`
   - `LOADING`
   - `ERROR`
 
 ### Details
-
-#### Properties
 
 
 ##### LOADED

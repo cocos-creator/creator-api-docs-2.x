@@ -5,19 +5,13 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for ScrollView event type.
 
+
 ### Index
-
-##### Properties
-
   - `PAGE_TURNING`
 
 ### Details
-
-#### Properties
 
 
 ##### PAGE_TURNING

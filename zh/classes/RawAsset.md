@@ -6,11 +6,10 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 注册用的资源基类。<br/>
 你可能要重写：<br/>
 - createNode (static)
+
 
 ### 索引
 

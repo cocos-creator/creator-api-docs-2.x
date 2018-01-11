@@ -5,14 +5,10 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 广告类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `AD_TYPE_BANNER`
   - `AD_TYPE_FULLSCREEN`
   - `AD_TYPE_MOREAPP`
@@ -22,8 +18,6 @@
   - `AD_TYPE_NATIVEADVANCED`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### AD_TYPE_BANNER

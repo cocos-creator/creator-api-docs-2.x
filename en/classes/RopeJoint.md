@@ -7,12 +7,11 @@ Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 
-
-
 A rope joint enforces a maximum distance between two points
 on two bodies. It has no other effect.
 Warning: if you attempt to change the maximum length during
 the simulation you will get some non-physical behavior.
+
 
 ### Index
 

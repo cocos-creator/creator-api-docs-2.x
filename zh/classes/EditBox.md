@@ -6,9 +6,8 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 EditBox 组件，用于获取用户的输入文本。
+
 
 ### 索引
 
@@ -1000,9 +999,8 @@ Init this object from the custom serialized data.
 模块: [cc](../modules/cc.md)
 
 
-
-
 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+
 
 ### 索引
 
@@ -1024,9 +1022,8 @@ Init this object from the custom serialized data.
 模块: [cc](../modules/cc.md)
 
 
-
-
 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+
 
 ### 索引
 
@@ -1048,9 +1045,8 @@ Init this object from the custom serialized data.
 模块: [cc](../modules/cc.md)
 
 
-
-
 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+
 
 ### 索引
 
@@ -1072,9 +1068,8 @@ Init this object from the custom serialized data.
 模块: [cc](../modules/cc.md)
 
 
-
-
 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
+
 
 ### 索引
 

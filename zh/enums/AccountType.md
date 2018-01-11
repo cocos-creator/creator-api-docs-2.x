@@ -5,14 +5,10 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 统计系统的账号类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `ANONYMOUS`
   - `REGISTED`
   - `SINA_WEIBO`
@@ -21,8 +17,6 @@
   - `ND91`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### ANONYMOUS

@@ -6,13 +6,12 @@ Extends [`_RendererUnderSG`](_RendererUnderSG.md)
 Module: [dragonBones](../modules/dragonBones.md)
 
 
-
-
 The Armature Display of DragonBones <br/>
 <br/>
 (Armature Display has a reference to a DragonBonesAsset and stores the state for ArmatureDisplay instance,
 which consists of the current pose's bone SRT, slot colors, and which slot attachments are visible. <br/>
 Multiple Armature Display can use the same DragonBonesAsset which includes all animations, skins, and attachments.) <br/>
+
 
 ### Index
 
@@ -435,7 +434,7 @@ Parameter playTimes specify the repeat times of the animation.
 | meta | description |
 |------|-------------|
 | Returns | dragonBones.AnimationState 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:472](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L472) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:474](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L474) |
 
 ###### Parameters
 - animName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -449,7 +448,7 @@ Get the all armature names in the DragonBones Data.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:502](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L502) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:504](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L504) |
 
 
 
@@ -460,7 +459,7 @@ Get the all animation names of specified armature.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:518](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L518) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:520](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L520) |
 
 ###### Parameters
 - armatureName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -472,7 +471,7 @@ Add event listener for the DragonBones Event.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:543](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L543) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:545](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L545) |
 
 ###### Parameters
 - eventType dragonBones.EventObject 
@@ -486,7 +485,7 @@ Remove the event listener for the DragonBones Event.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:559](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L559) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:561](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L561) |
 
 ###### Parameters
 - eventType dragonBones.EventObject 
@@ -501,7 +500,7 @@ Build the armature for specified name.
 | meta | description |
 |------|-------------|
 | Returns | dragonBones.Armature 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:575](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L575) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:577](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L577) |
 
 ###### Parameters
 - armatureName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -514,7 +513,7 @@ Get the current armature object of the ArmatureDisplay.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:592](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L592) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js:594](https:/github.com/cocos-creator/engine/blob/master/extensions/dragonbones/ArmatureDisplay.js#L594) |
 
 
 

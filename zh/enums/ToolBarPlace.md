@@ -5,14 +5,10 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 用户系统悬浮窗位置
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `kToolBarTopLeft`
   - `kToolBarTopRight`
   - `kToolBarMidLeft`
@@ -21,8 +17,6 @@
   - `kToolBarBottomRight`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### kToolBarTopLeft

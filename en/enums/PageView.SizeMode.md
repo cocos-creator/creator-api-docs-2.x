@@ -5,20 +5,14 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 The Page View Size Mode
 
+
 ### Index
-
-##### Properties
-
   - `Unified`
   - `Free`
 
 ### Details
-
-#### Properties
 
 
 ##### Unified

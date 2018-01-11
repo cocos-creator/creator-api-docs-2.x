@@ -5,14 +5,10 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for debug modes.
 
+
 ### Index
-
-##### Properties
-
   - `NONE`
   - `INFO`
   - `WARN`
@@ -22,8 +18,6 @@ Enum for debug modes.
   - `ERROR_FOR_WEB_PAGE`
 
 ### Details
-
-#### Properties
 
 
 ##### NONE

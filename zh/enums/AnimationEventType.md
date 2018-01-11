@@ -5,22 +5,16 @@
 模块: [sp](../modules/sp.md)
 
 
-
-
 骨骼动画事件类型。
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `START`
   - `END`
   - `COMPLETE`
   - `EVENT`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### START

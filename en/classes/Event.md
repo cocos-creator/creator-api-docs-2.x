@@ -6,9 +6,8 @@ Defined in: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/eve
 Module: [cc](../modules/cc.md)
 
 
-
-
 Base class of all kinds of events.
+
 
 ### Index
 

@@ -6,9 +6,8 @@ Extends [`_RendererUnderSG`](_RendererUnderSG.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 The Label Component.
+
 
 ### Index
 

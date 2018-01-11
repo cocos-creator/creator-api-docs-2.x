@@ -5,22 +5,16 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for RayCastType.
 
+
 ### Index
-
-##### Properties
-
   - `Closest`
   - `Any`
   - `AllClosest`
   - `All`
 
 ### Details
-
-#### Properties
 
 
 ##### Closest

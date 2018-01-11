@@ -5,20 +5,14 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 滑动器方向
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `Horizontal`
   - `Vertical`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### Horizontal

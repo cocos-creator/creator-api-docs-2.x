@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 线段拐角属性
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `BEVEL`
   - `ROUND`
   - `MITER`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### BEVEL

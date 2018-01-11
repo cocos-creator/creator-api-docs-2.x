@@ -5,10 +5,9 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 A simple collision manager class.
 It will calculate whether the collider collides other colliders, if collides then call the callbacks.
+
 
 ### Index
 

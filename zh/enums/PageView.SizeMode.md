@@ -5,20 +5,14 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 页面视图每个页面统一的大小类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `Unified`
   - `Free`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### Unified

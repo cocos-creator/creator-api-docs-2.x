@@ -5,22 +5,16 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 Overflow 类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `NONE`
   - `CLAMP`
   - `SHRINK`
   - `RESIZE_HEIGHT`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### NONE

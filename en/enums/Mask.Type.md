@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 the type for mask.
 
+
 ### Index
-
-##### Properties
-
   - `RECT`
   - `ELLIPSE`
   - `IMAGE_STENCIL`
 
 ### Details
-
-#### Properties
 
 
 ##### RECT

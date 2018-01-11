@@ -6,9 +6,8 @@ Module: [_decorator](../modules/_decorator.md)
 Parent Module: [cc](../modules/cc.md)
 
 
-
-
 Contains information collected during deserialization
+
 
 ### Index
 

@@ -5,20 +5,14 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 页面视图指示器的摆放方向
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `HORIZONTAL`
   - `VERTICAL`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### HORIZONTAL

@@ -6,9 +6,8 @@ Extends [`Component`](Component.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 The Page View Indicator Component
+
 
 ### Index
 

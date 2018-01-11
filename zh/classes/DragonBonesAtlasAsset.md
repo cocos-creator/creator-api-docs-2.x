@@ -6,9 +6,8 @@
 模块: [dragonBones](../modules/dragonBones.md)
 
 
-
-
 dragonBones 的骨骼纹理数据。
+
 
 ### 索引
 

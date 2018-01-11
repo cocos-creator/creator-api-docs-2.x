@@ -5,20 +5,14 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 布局轴向，只用于 GRID 布局。
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `HORIZONTAL`
   - `VERTICAL`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### HORIZONTAL

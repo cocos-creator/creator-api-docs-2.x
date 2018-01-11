@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for Grid Layout start axis direction.
 The items in grid layout will be arranged in each axis at first.;
 
+
 ### Index
-
-##### Properties
-
   - `HORIZONTAL`
   - `VERTICAL`
 
 ### Details
-
-#### Properties
 
 
 ##### HORIZONTAL

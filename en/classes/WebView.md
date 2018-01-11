@@ -6,9 +6,8 @@ Extends [`_RendererUnderSG`](_RendererUnderSG.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 cc.WebView is a component for display web pages in the game
+
 
 ### Index
 
@@ -843,9 +842,8 @@ Init this object from the custom serialized data.
 Module: [cc](../modules/cc.md)
 
 
-
-
 Note: This event is emitted from the node to which the component belongs.
+
 
 ### Index
 
@@ -867,9 +865,8 @@ Note: This event is emitted from the node to which the component belongs.
 Module: [cc](../modules/cc.md)
 
 
-
-
 Note: This event is emitted from the node to which the component belongs.
+
 
 ### Index
 
@@ -891,9 +888,8 @@ Note: This event is emitted from the node to which the component belongs.
 Module: [cc](../modules/cc.md)
 
 
-
-
 Note: This event is emitted from the node to which the component belongs.
+
 
 ### Index
 

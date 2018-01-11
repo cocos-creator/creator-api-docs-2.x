@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 粒子位置类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `FREE`
   - `RELATIVE`
   - `GROUPED`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### FREE

@@ -6,14 +6,10 @@ Module: [_decorator](../modules/_decorator.md)
 Parent Module: [cc](../modules/cc.md)
 
 
-
-
 Key map for keyboard event
 
+
 ### Index
-
-##### Properties
-
   - `none`
   - `back`
   - `menu`
@@ -127,8 +123,6 @@ Key map for keyboard event
   - `dpadCenter`
 
 ### Details
-
-#### Properties
 
 
 ##### none

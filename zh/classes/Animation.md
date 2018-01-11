@@ -6,8 +6,6 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 Animation 组件用于播放动画。
 
 Animation 提供了一系列可注册的事件：
@@ -17,6 +15,7 @@ Animation 提供了一系列可注册的事件：
  - resume : 恢复播放时
  - lastframe : 假如动画循环次数大于 1，当动画播放到最后一帧时
  - finished : 动画播放完成时
+
 
 ### 索引
 

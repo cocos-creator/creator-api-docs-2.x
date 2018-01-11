@@ -5,14 +5,10 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 Tiled Map 地图方向。
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `ORTHO`
   - `HEX`
   - `ISO`
@@ -33,8 +29,6 @@ Tiled Map 地图方向。
   - `STAGGERINDEX_EVEN`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### ORTHO

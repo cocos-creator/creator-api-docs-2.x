@@ -5,22 +5,16 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for Overflow.
 
+
 ### Index
-
-##### Properties
-
   - `NONE`
   - `CLAMP`
   - `SHRINK`
   - `RESIZE_HEIGHT`
 
 ### Details
-
-#### Properties
 
 
 ##### NONE

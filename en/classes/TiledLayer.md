@@ -6,9 +6,8 @@ Extends [`_SGComponent`](_SGComponent.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Render the TMX layer.
+
 
 ### Index
 

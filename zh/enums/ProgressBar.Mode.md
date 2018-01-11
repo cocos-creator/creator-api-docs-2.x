@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 进度条模式
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `HORIZONTAL`
   - `VERTICAL`
   - `FILLED`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### HORIZONTAL

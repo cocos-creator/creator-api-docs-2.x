@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 网页视图事件类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `LOADED`
   - `LOADING`
   - `ERROR`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### LOADED

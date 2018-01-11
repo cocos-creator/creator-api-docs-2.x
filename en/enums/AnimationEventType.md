@@ -5,22 +5,16 @@
 Module: [sp](../modules/sp.md)
 
 
-
-
 The event type of spine skeleton animation.
 
+
 ### Index
-
-##### Properties
-
   - `START`
   - `END`
   - `COMPLETE`
   - `EVENT`
 
 ### Details
-
-#### Properties
 
 
 ##### START

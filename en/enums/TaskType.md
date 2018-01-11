@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The enum of task type
 
+
 ### Index
-
-##### Properties
-
   - `GUIDE_LINE`
   - `MAIN_LINE`
   - `BRANCH_LINE`
@@ -21,8 +17,6 @@ The enum of task type
   - `OTHER`
 
 ### Details
-
-#### Properties
 
 
 ##### GUIDE_LINE

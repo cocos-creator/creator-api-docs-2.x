@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The callback of ads system
 
+
 ### Index
-
-##### Properties
-
   - `kAdsReceived`
   - `kAdsShown`
   - `kAdsDismissed`
@@ -27,8 +23,6 @@ The callback of ads system
   - `kAdsExtension`
 
 ### Details
-
-#### Properties
 
 
 ##### kAdsReceived

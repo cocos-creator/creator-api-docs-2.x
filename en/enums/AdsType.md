@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The enum of ads type
 
+
 ### Index
-
-##### Properties
-
   - `AD_TYPE_BANNER`
   - `AD_TYPE_FULLSCREEN`
   - `AD_TYPE_MOREAPP`
@@ -22,8 +18,6 @@ The enum of ads type
   - `AD_TYPE_NATIVEADVANCED`
 
 ### Details
-
-#### Properties
 
 
 ##### AD_TYPE_BANNER

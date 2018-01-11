@@ -6,14 +6,10 @@
 父模块: [cc](../modules/cc.md)
 
 
-
-
 键盘事件的按键值
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `none`
   - `back`
   - `menu`
@@ -127,8 +123,6 @@
   - `dpadCenter`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### none

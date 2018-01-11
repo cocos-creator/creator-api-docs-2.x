@@ -5,14 +5,10 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 定义了一些用于设置文本显示和文本格式化的标志位。
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `PASSWORD`
   - `SENSITIVE`
   - `INITIAL_CAPS_WORD`
@@ -20,8 +16,6 @@
   - `INITIAL_CAPS_ALL_CHARACTERS`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### PASSWORD

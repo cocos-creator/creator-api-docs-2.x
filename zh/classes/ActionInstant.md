@@ -6,9 +6,8 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 即时动作，这种动作立即就会执行，继承自 FiniteTimeAction。
+
 
 ### 索引
 

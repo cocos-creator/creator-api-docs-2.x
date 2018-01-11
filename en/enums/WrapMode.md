@@ -5,14 +5,10 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Specifies how time is treated when it is outside of the keyframe range of an Animation.
 
+
 ### Index
-
-##### Properties
-
   - `Default`
   - `Normal`
   - `Reverse`
@@ -22,8 +18,6 @@ Specifies how time is treated when it is outside of the keyframe range of an Ani
   - `PingPongReverse`
 
 ### Details
-
-#### Properties
 
 
 ##### Default

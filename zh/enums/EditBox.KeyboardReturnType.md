@@ -5,14 +5,10 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 键盘的返回键类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `DEFAULT`
   - `DONE`
   - `SEND`
@@ -20,8 +16,6 @@
   - `GO`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### DEFAULT

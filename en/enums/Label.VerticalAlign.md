@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for vertical text alignment.
 
+
 ### Index
-
-##### Properties
-
   - `TOP`
   - `CENTER`
   - `BOTTOM`
 
 ### Details
-
-#### Properties
 
 
 ##### TOP

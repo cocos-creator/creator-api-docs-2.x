@@ -6,9 +6,8 @@ Extends [`Component`](Component.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Outline effect used to change the display, only used for TTF font
+
 
 ### Index
 

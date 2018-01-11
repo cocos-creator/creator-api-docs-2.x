@@ -6,13 +6,12 @@
 模块: [sp](../modules/sp.md)
 
 
-
-
 Spine 骨骼动画 <br/>
 <br/>
 (Skeleton 具有对骨骼数据的引用并且存储了骨骼实例的状态，
 它由当前的骨骼动作，slot 颜色，和可见的 slot attachments 组成。<br/>
 多个 Skeleton 可以使用相同的骨骼数据，其中包括所有的动画，皮肤和 attachments。
+
 
 ### 索引
 

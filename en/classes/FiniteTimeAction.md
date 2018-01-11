@@ -6,14 +6,13 @@ Extends [`Action`](Action.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Base class actions that do have a finite time duration. <br/>
 Possible actions: <br/>
 - An action with a duration of 0 seconds. <br/>
 - An action with a duration of 35.5 seconds.
 
 Infinite time actions are valid
+
 
 ### Index
 

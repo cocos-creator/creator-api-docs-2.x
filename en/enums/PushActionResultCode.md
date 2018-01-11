@@ -5,20 +5,14 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The callback of push system
 
+
 ### Index
-
-##### Properties
-
   - `kPushReceiveMessage`
   - `kPushExtensionCode`
 
 ### Details
-
-#### Properties
 
 
 ##### kPushReceiveMessage

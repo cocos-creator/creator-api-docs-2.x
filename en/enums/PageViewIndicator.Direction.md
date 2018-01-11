@@ -5,20 +5,14 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for PageView Indicator direction
 
+
 ### Index
-
-##### Properties
-
   - `HORIZONTAL`
   - `VERTICAL`
 
 ### Details
-
-#### Properties
 
 
 ##### HORIZONTAL

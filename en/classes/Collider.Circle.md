@@ -5,9 +5,8 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Defines a Circle Collider .
+
 
 ### Index
 

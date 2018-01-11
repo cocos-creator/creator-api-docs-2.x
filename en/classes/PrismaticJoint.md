@@ -7,12 +7,11 @@ Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 
-
-
 A prismatic joint. This joint provides one degree of freedom: translation
 along an axis fixed in rigidbody. Relative rotation is prevented. You can
 use a joint limit to restrict the range of motion and a joint motor to
 drive the motion or to model joint friction.
+
 
 ### Index
 

@@ -5,22 +5,16 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 过渡类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `NONE`
   - `COLOR`
   - `SPRITE`
   - `SCALE`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### NONE

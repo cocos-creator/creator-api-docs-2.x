@@ -6,8 +6,6 @@ Defined in: [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/eve
 Module: [cc](../modules/cc.md)
 
 
-
-
 EventTarget is an object to which an event is dispatched when something has occurred.
 Entity are the most common event targets, but other objects can be event targets too.
 
@@ -25,6 +23,7 @@ See also: http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
 Event targets can implement the following methods:
  - _getCapturingTargets
  - _getBubblingTargets
+
 
 ### Index
 

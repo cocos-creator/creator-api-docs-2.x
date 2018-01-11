@@ -3,22 +3,17 @@
 
 
 模块: [cc](../modules/cc.md)
-
-
+父模块: [cc](../modules/cc.md)
 
 
 The texture filter mode
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `LINEAR`
   - `NEAREST`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### LINEAR

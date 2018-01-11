@@ -5,14 +5,10 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 分享系统回调
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `kShareSuccess`
   - `kShareFail`
   - `kShareCancel`
@@ -20,8 +16,6 @@
   - `kShareExtension`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### kShareSuccess

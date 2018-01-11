@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for vertical layout direction.
  Used in Grid Layout together with AxisDirection is VERTICAL
 
+
 ### Index
-
-##### Properties
-
   - `BOTTOM_TO_TOP`
   - `TOP_TO_BOTTOM`
 
 ### Details
-
-#### Properties
 
 
 ##### BOTTOM_TO_TOP

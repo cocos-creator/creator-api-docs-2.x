@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 填充类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `HORIZONTAL`
   - `VERTICAL`
   - `RADIAL`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### HORIZONTAL

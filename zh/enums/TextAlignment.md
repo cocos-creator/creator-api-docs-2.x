@@ -9,18 +9,12 @@
 
 
 
-
 ### 索引
-
-##### 属性（properties）
-
   - `LEFT`
   - `CENTER`
   - `RIGHT`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### LEFT

@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 文本横向对齐类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `LEFT`
   - `CENTER`
   - `RIGHT`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### LEFT

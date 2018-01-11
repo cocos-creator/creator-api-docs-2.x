@@ -5,10 +5,9 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 封装用户的事件处理逻辑。
 注意：这是一个抽象类，开发者不应该直接实例化这个类，请参考 <a href="../classes/EventListener.html#method_create" class="crosslink">cc.EventListener.create</a>。
+
 
 ### 索引
 

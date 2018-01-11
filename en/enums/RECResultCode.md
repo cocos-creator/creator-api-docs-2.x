@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The callback of REC system
 
+
 ### Index
-
-##### Properties
-
   - `kRECInitSuccess`
   - `kRECInitFail`
   - `kRECStartRecording`
@@ -26,8 +22,6 @@ The callback of REC system
   - `kRECExtension`
 
 ### Details
-
-#### Properties
 
 
 ##### kRECInitSuccess

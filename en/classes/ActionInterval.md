@@ -6,8 +6,6 @@ Extends [`FiniteTimeAction`](FiniteTimeAction.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 <p> An interval action is an action that takes place within a certain period of time. <br/>
 It has an start time, and a finish time. The finish time is the parameter<br/>
 duration plus the start time.</p>
@@ -19,6 +17,7 @@ duration plus the start time.</p>
 
 <p>For example, you can simulate a Ping Pong effect running the action normally and<br/>
 then running it again in Reverse mode. </p>
+
 
 ### Index
 

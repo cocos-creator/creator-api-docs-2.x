@@ -4,13 +4,13 @@
 
 
 模块: [cc](../modules/cc.md)
-
-
+父模块: [cc](../modules/cc.md)
 
 
 一个 SpriteFrame 包含：<br/>
  - 纹理：会被 Sprite 使用的 Texture2D 对象。<br/>
  - 矩形：在纹理中的矩形区域。
+
 
 ### 索引
 

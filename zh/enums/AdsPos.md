@@ -5,14 +5,10 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 广告位置
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `kPosCenter`
   - `kPosTop`
   - `kPosTopLeft`
@@ -22,8 +18,6 @@
   - `kPosBottomRight`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### kPosCenter

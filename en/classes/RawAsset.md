@@ -6,12 +6,11 @@ Extends [`Object`](Object.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 The base class for registering asset types.
 
 You may want to override:
 - createNode (static)
+
 
 ### Index
 

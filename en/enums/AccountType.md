@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The enum of account type
 
+
 ### Index
-
-##### Properties
-
   - `ANONYMOUS`
   - `REGISTED`
   - `SINA_WEIBO`
@@ -21,8 +17,6 @@ The enum of account type
   - `ND91`
 
 ### Details
-
-#### Properties
 
 
 ##### ANONYMOUS

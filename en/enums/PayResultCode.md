@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The callback of requesting reStringge
 
+
 ### Index
-
-##### Properties
-
   - `kPaySuccess`
   - `kPayFail`
   - `kPayCancel`
@@ -28,8 +24,6 @@ The callback of requesting reStringge
   - `kRequestFail`
 
 ### Details
-
-#### Properties
 
 
 ##### kPaySuccess

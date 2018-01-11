@@ -5,20 +5,14 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for video resouce type type.
 
+
 ### Index
-
-##### Properties
-
   - `REMOTE`
   - `LOCAL`
 
 ### Details
-
-#### Properties
 
 
 ##### REMOTE

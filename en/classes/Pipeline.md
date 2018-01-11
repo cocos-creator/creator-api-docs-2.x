@@ -5,13 +5,12 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 A pipeline describes a sequence of manipulations, each manipulation is called a pipe.</br>
 It's designed for loading process. so items should be urls, and the url will be the identity of each item during the process.</br>
 A list of items can flow in the pipeline and it will output the results of all pipes.</br>
 They flow in the pipeline like water in tubes, they go through pipe by pipe separately.</br>
 Finally all items will flow out the pipeline and the process is finished.
+
 
 ### Index
 

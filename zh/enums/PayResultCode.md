@@ -5,14 +5,10 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 支付系统支付请求回调
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `kPaySuccess`
   - `kPayFail`
   - `kPayCancel`
@@ -28,8 +24,6 @@
   - `kRequestFail`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### kPaySuccess

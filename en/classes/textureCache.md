@@ -3,11 +3,11 @@
 
 
 Module: [cc](../modules/cc.md)
-
-
+Parent Module: [cc](../modules/cc.md)
 
 
 cc.textureCache is a singleton object, it's the global cache for cc.Texture2D
+
 
 ### Index
 

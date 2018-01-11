@@ -5,14 +5,10 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 视频事件类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `PLAYING`
   - `PAUSED`
   - `STOPPED`
@@ -22,8 +18,6 @@
   - `READY_TO_PLAY`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### PLAYING

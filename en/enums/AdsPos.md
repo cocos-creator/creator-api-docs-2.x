@@ -5,14 +5,10 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The enum of ads position
 
+
 ### Index
-
-##### Properties
-
   - `kPosCenter`
   - `kPosTop`
   - `kPosTopLeft`
@@ -22,8 +18,6 @@ The enum of ads position
   - `kPosBottomRight`
 
 ### Details
-
-#### Properties
 
 
 ##### kPosCenter

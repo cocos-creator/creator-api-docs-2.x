@@ -6,8 +6,6 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 <p>
     注意：用 cc.director 代替 cc.Director。<br/>
     cc.director 一个管理你的游戏的逻辑流程的单例对象。<br/>
@@ -39,6 +37,7 @@
      - 只支持动画的间隔 1/60 1/30 & 1/15。<br/>
 </p>
 
+
 ### 索引
 
 ##### 属性（properties）
@@ -63,7 +62,8 @@
 
   - [`convertToUI`](#converttoui) 将触摸点的 WebGL View 坐标转换为屏幕坐标。
   - [`getWinSize`](#getwinsize) 获取视图的大小，以点为单位。
-  - [`getWinSizeInPixels`](#getwinsizeinpixels) 获取视图大小，以像素为单位。
+  - [`getWinSizeInPixels`](#getwinsizeinpixels) 获取视图大小，以像素为单位（这里的像素指的是资源分辨率。
+如果要获取屏幕物理分辨率，需要用 cc.view.getFrameSize()）
   - [`getVisibleSize`](#getvisiblesize) 获取运行场景的可见大小。
   - [`getVisibleOrigin`](#getvisibleorigin) 获取视图在游戏内容中的坐标原点。
   - [`pause`](#pause) 暂停正在运行的场景，该暂停只会停止游戏逻辑执行，但是不会停止渲染和 UI 响应。
@@ -137,7 +137,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1270](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1270) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1274](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1274) |
 
 
 
@@ -148,7 +148,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1286](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1286) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1290](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1290) |
 
 
 
@@ -159,7 +159,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1302](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1302) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1306](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1306) |
 
 
 
@@ -170,7 +170,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1318) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1322](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1322) |
 
 
 
@@ -181,7 +181,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1333](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1333) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1337](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1337) |
 
 
 
@@ -192,7 +192,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1348](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1348) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1352](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1352) |
 
 
 
@@ -203,7 +203,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1363](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1363) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1367](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1367) |
 
 
 
@@ -214,7 +214,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1381](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1381) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1385) |
 
 
 
@@ -225,7 +225,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1399) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1403) |
 
 
 
@@ -236,7 +236,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1562](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1562) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1566](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1566) |
 
 
 
@@ -247,7 +247,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1571](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1571) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1575](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1575) |
 
 
 
@@ -258,7 +258,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1580](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1580) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1584](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1584) |
 
 
 
@@ -269,7 +269,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1589](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1589) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1593](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1593) |
 
 
 
@@ -306,7 +306,8 @@
 
 ##### getWinSizeInPixels
 
-获取视图大小，以像素为单位。
+获取视图大小，以像素为单位（这里的像素指的是资源分辨率。
+如果要获取屏幕物理分辨率，需要用 cc.view.getFrameSize()）
 
 | meta | description |
 |------|-------------|
@@ -322,7 +323,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:365](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L365) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:369](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L369) |
 
 
 
@@ -333,7 +334,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:373](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L373) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:377](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L377) |
 
 
 
@@ -344,7 +345,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:389](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L389) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:393](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L393) |
 
 
 
@@ -354,7 +355,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:533](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L533) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:537](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L537) |
 
 ###### 参数列表
 - scene <a href="../classes/Scene.html" class="crosslink">Scene</a> The need run scene.
@@ -368,7 +369,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:642](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L642) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:646](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L646) |
 
 ###### 参数列表
 - scene <a href="../classes/Scene.html" class="crosslink">Scene</a> The need run scene.
@@ -383,7 +384,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:699](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L699) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:703](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L703) |
 
 ###### 参数列表
 - sceneName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the scene to load.
@@ -398,7 +399,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:747](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L747) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:751](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L751) |
 
 ###### 参数列表
 - sceneName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the scene to preload.
@@ -412,7 +413,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:782](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L782) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:786](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L786) |
 
 ###### 参数列表
 - uuid <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the uuid of the scene asset to load
@@ -428,7 +429,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:845](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L845) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:849](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L849) |
 
 
 
@@ -438,7 +439,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:876](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L876) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:880](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L880) |
 
 ###### 参数列表
 - on <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -451,7 +452,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:886](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L886) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:890](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L890) |
 
 ###### 参数列表
 - clearColor <a href="../classes/Color.html" class="crosslink">Color</a> 
@@ -463,7 +464,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:972](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L972) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:976](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L976) |
 
 ###### 参数列表
 - projection <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -475,7 +476,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:982](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L982) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:986](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L986) |
 
 
 
@@ -486,7 +487,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1002](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1002) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1006](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1006) |
 
 
 
@@ -496,7 +497,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1012](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1012) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1016](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1016) |
 
 ###### 参数列表
 - on <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -511,7 +512,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1022](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1022) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1026](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1026) |
 
 
 
@@ -522,7 +523,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Scene.html" class="crosslink">Scene</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1038](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1038) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1042](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1042) |
 
 
 
@@ -533,7 +534,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Scene.html" class="crosslink">Scene</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1051](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1051) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1055](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1055) |
 
 
 ##### 示例
@@ -550,7 +551,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1064](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1064) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1068](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1068) |
 
 
 
@@ -561,7 +562,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1074](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1074) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1078](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1078) |
 
 
 
@@ -571,7 +572,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1084](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1084) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1088](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1088) |
 
 ###### 参数列表
 - displayStats <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -584,7 +585,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1097](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1097) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1101) |
 
 
 
@@ -595,7 +596,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1107) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1111) |
 
 
 
@@ -606,7 +607,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1117) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1121](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1121) |
 
 
 
@@ -617,7 +618,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Scheduler.html" class="crosslink">Scheduler</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1171](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1171) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1175](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1175) |
 
 
 
@@ -627,7 +628,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1181](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1181) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1185](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1185) |
 
 ###### 参数列表
 - scheduler <a href="../classes/Scheduler.html" class="crosslink">Scheduler</a> 
@@ -640,7 +641,7 @@ Loads the scene by its uuid.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionManager.html" class="crosslink">ActionManager</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1193](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1193) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1197](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1197) |
 
 
 
@@ -650,7 +651,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1202](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1202) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1206](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1206) |
 
 ###### 参数列表
 - actionManager <a href="../classes/ActionManager.html" class="crosslink">ActionManager</a> 
@@ -663,7 +664,7 @@ Returns the cc.CollisionManager associated with this director.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/CollisionManager.html" class="crosslink">CollisionManager</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1228](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1228) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1232](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1232) |
 
 
 
@@ -674,7 +675,7 @@ Returns the cc.PhysicsManager associated with this director.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/PhysicsManager.html" class="crosslink">PhysicsManager</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1237](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1237) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1241](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1241) |
 
 
 
@@ -685,7 +686,7 @@ Returns the cc.PhysicsManager associated with this director.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1246) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js:1250](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCDirector.js#L1250) |
 
 
 
@@ -824,9 +825,8 @@ node.once(cc.Node.EventType.TOUCH_END, function (event) {
 模块: [cc](../modules/cc.md)
 
 
-
-
 cc.Director 投影变化的事件。
+
 
 ### 索引
 
@@ -848,9 +848,8 @@ cc.Director 投影变化的事件。
 模块: [cc](../modules/cc.md)
 
 
-
-
 加载新场景之前所触发的事件。
+
 
 ### 索引
 
@@ -872,9 +871,8 @@ cc.Director 投影变化的事件。
 模块: [cc](../modules/cc.md)
 
 
-
-
 运行新场景之后所触发的事件。
+
 
 ### 索引
 
@@ -896,9 +894,8 @@ cc.Director 投影变化的事件。
 模块: [cc](../modules/cc.md)
 
 
-
-
 每个帧的开始时所触发的事件。
+
 
 ### 索引
 
@@ -920,9 +917,8 @@ cc.Director 投影变化的事件。
 模块: [cc](../modules/cc.md)
 
 
-
-
 将在引擎和组件 “update” 逻辑之后所触发的事件。
+
 
 ### 索引
 
@@ -944,9 +940,8 @@ cc.Director 投影变化的事件。
 模块: [cc](../modules/cc.md)
 
 
-
-
 访问渲染场景树之前所触发的事件。
+
 
 ### 索引
 
@@ -968,9 +963,8 @@ cc.Director 投影变化的事件。
 模块: [cc](../modules/cc.md)
 
 
-
-
 访问渲染场景图之后所触发的事件，渲染队列已准备就绪，但在这一时刻还没有呈现在画布上。
+
 
 ### 索引
 
@@ -992,9 +986,8 @@ cc.Director 投影变化的事件。
 模块: [cc](../modules/cc.md)
 
 
-
-
 渲染过程之后所触发的事件。
+
 
 ### 索引
 

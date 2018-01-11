@@ -5,21 +5,15 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 The enum of gender
 
+
 ### Index
-
-##### Properties
-
   - `MALE`
   - `FEMALE`
   - `UNKNOWN`
 
 ### Details
-
-#### Properties
 
 
 ##### MALE

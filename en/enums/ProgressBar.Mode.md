@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for ProgressBar mode
 
+
 ### Index
-
-##### Properties
-
   - `HORIZONTAL`
   - `VERTICAL`
   - `FILLED`
 
 ### Details
-
-#### Properties
 
 
 ##### HORIZONTAL

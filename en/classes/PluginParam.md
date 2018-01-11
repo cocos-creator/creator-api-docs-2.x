@@ -5,9 +5,8 @@
 Module: [anysdk](../modules/anysdk.md)
 
 
-
-
 Data structure class
+
 
 ### Index
 

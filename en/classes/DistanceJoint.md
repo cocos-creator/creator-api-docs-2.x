@@ -7,11 +7,10 @@ Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 
-
-
 A distance joint constrains two points on two bodies
 to remain at a fixed distance from each other. You can view
 this as a massless, rigid rod.
+
 
 ### Index
 

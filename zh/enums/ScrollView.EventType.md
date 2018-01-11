@@ -5,14 +5,10 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 滚动视图事件类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `SCROLL_TO_TOP`
   - `SCROLL_TO_BOTTOM`
   - `SCROLL_TO_LEFT`
@@ -28,8 +24,6 @@
   - `SCROLL_BEGAN`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### SCROLL_TO_TOP

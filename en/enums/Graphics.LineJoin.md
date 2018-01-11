@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for LineJoin.
 
+
 ### Index
-
-##### Properties
-
   - `BEVEL`
   - `ROUND`
   - `MITER`
 
 ### Details
-
-#### Properties
 
 
 ##### BEVEL

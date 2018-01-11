@@ -6,14 +6,10 @@ Module: [_decorator](../modules/_decorator.md)
 Parent Module: [cc](../modules/cc.md)
 
 
-
-
 Image formats
 
+
 ### Index
-
-##### Properties
-
   - `JPG`
   - `PNG`
   - `TIFF`
@@ -27,8 +23,6 @@ Image formats
   - `UNKNOWN`
 
 ### Details
-
-#### Properties
 
 
 ##### JPG

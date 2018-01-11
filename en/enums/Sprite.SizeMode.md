@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Sprite Size can track trimmed size, raw size or none.
 
+
 ### Index
-
-##### Properties
-
   - `CUSTOM`
   - `TRIMMED`
   - `RAW`
 
 ### Details
-
-#### Properties
 
 
 ##### CUSTOM

@@ -5,19 +5,13 @@
 模块: [anysdk](../modules/anysdk.md)
 
 
-
-
 自定义系统回调
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `kCustomExtension`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### kCustomExtension

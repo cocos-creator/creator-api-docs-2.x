@@ -5,21 +5,15 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for font type.
 
+
 ### Index
-
-##### Properties
-
   - `TTF`
   - `BMFont`
   - `SystemFont`
 
 ### Details
-
-#### Properties
 
 
 ##### TTF

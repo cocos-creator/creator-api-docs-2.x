@@ -6,10 +6,9 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 ToggleGroup 不是一个可见的 UI 组件，它可以用来修改一组 Toggle  组件的行为。当一组 Toggle 属于同一个 ToggleGroup 的时候，
 任何时候只能有一个 Toggle 处于选中状态。
+
 
 ### 索引
 
@@ -117,7 +116,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js:48](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js#L48) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js#L49) |
 
 
 
@@ -128,7 +127,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js:60](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js#L60) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCToggleGroup.js#L61) |
 
 
 

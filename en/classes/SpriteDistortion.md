@@ -6,9 +6,8 @@ Extends [`Component`](Component.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 A distortion used to change the rendering of simple sprite.If will take effect after sprite component is added.
+
 
 ### Index
 

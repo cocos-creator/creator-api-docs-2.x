@@ -5,22 +5,16 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Enum for transition type.
 
+
 ### Index
-
-##### Properties
-
   - `NONE`
   - `COLOR`
   - `SPRITE`
   - `SCALE`
 
 ### Details
-
-#### Properties
 
 
 ##### NONE

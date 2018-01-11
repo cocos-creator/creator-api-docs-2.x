@@ -8,11 +8,7 @@ Module: [cc](../modules/cc.md)
 
 
 
-
 ### Index
-
-##### Properties
-
   - `e_aabbBit`
   - `e_pairBit`
   - `e_centerOfMassBit`
@@ -20,8 +16,6 @@ Module: [cc](../modules/cc.md)
   - `e_shapeBit`
 
 ### Details
-
-#### Properties
 
 
 ##### e_aabbBit

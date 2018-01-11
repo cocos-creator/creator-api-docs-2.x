@@ -12,8 +12,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 ### 类型
 
   - [DebugMode](../classes/DebugMode.md)
-  - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
-  - [audioEngine](../classes/audioEngine.md)
   - [Action](../classes/Action.md)
   - [FiniteTimeAction](../classes/FiniteTimeAction.md)
   - [ActionEase](../classes/ActionEase.md)
@@ -27,22 +25,24 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [AnimationState](../classes/AnimationState.md)
   - [Playable](../classes/Playable.md)
   - [WrapMode](../classes/WrapMode.md)
+  - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
+  - [audioEngine](../classes/audioEngine.md)
+  - [Director](../classes/Director.md)
+  - [Game](../classes/Game.md)
+  - [Node.EventType](../classes/Node.EventType.md)
+  - [Node](../classes/Node.md)
+  - [Scene](../classes/Scene.md)
+  - [Scheduler](../classes/Scheduler.md)
   - [MotionStreak](../classes/MotionStreak.md)
+  - [ParticleSystem.EmitterMode](../classes/ParticleSystem.EmitterMode.md)
+  - [ParticleSystem.PositionType](../classes/ParticleSystem.PositionType.md)
+  - [ParticleSystem](../classes/ParticleSystem.md)
   - [TMXObject](../classes/TMXObject.md)
   - [TiledLayer](../classes/TiledLayer.md)
   - [TiledMap.Orientation](../classes/TiledMap.Orientation.md)
   - [TiledMap](../classes/TiledMap.md)
   - [TiledMapAsset](../classes/TiledMapAsset.md)
   - [TiledObjectGroup](../classes/TiledObjectGroup.md)
-  - [ParticleSystem.EmitterMode](../classes/ParticleSystem.EmitterMode.md)
-  - [ParticleSystem.PositionType](../classes/ParticleSystem.PositionType.md)
-  - [ParticleSystem](../classes/ParticleSystem.md)
-  - [Director](../classes/Director.md)
-  - [Game](../classes/Game.md)
-  - [Scene](../classes/Scene.md)
-  - [Node.EventType](../classes/Node.EventType.md)
-  - [Node](../classes/Node.md)
-  - [Scheduler](../classes/Scheduler.md)
   - [NodePool](../classes/NodePool.md)
   - [pool](../classes/pool.md)
   - [Camera](../classes/Camera.md)
@@ -73,18 +73,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [EventTarget](../classes/EventTarget.md)
   - [Event](../classes/Event.md)
   - [Event.EventCustom](../classes/Event.EventCustom.md)
-  - [Event.EventMouse](../classes/Event.EventMouse.md)
-  - [Event.EventTouch](../classes/Event.EventTouch.md)
-  - [Event.EventAcceleration](../classes/Event.EventAcceleration.md)
-  - [Event.EventKeyboard](../classes/Event.EventKeyboard.md)
-  - [EventListener](../classes/EventListener.md)
-  - [eventManager](../classes/eventManager.md)
-  - [SystemEvent.EventType](../classes/SystemEvent.EventType.md)
-  - [SystemEvent](../classes/SystemEvent.md)
-  - [Touch](../classes/Touch.md)
-  - [Graphics](../classes/Graphics.md)
-  - [Graphics.LineCap](../classes/Graphics.LineCap.md)
-  - [Graphics.LineJoin](../classes/Graphics.LineJoin.md)
   - [Animation](../classes/Animation.md)
   - [AudioSource](../classes/AudioSource.md)
   - [BlockInputEvents](../classes/BlockInputEvents.md)
@@ -144,6 +132,24 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [WebView.EventType](../classes/WebView.EventType.md)
   - [WebView](../classes/WebView.md)
   - [Widget](../classes/Widget.md)
+  - [Graphics](../classes/Graphics.md)
+  - [Graphics.LineCap](../classes/Graphics.LineCap.md)
+  - [Graphics.LineJoin](../classes/Graphics.LineJoin.md)
+  - [Event.EventMouse](../classes/Event.EventMouse.md)
+  - [Event.EventTouch](../classes/Event.EventTouch.md)
+  - [Event.EventAcceleration](../classes/Event.EventAcceleration.md)
+  - [Event.EventKeyboard](../classes/Event.EventKeyboard.md)
+  - [EventListener](../classes/EventListener.md)
+  - [eventManager](../classes/eventManager.md)
+  - [SystemEvent.EventType](../classes/SystemEvent.EventType.md)
+  - [SystemEvent](../classes/SystemEvent.md)
+  - [Touch](../classes/Touch.md)
+  - [loader](../classes/loader.md)
+  - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
+  - [Pipeline.Loader](../classes/Pipeline.Loader.md)
+  - [LoadingItems](../classes/LoadingItems.md)
+  - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
+  - [Pipeline](../classes/Pipeline.md)
   - [WorldManifold](../classes/WorldManifold.md)
   - [ManifoldPoint](../classes/ManifoldPoint.md)
   - [Manifold](../classes/Manifold.md)
@@ -155,19 +161,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [RigidBodyType](../classes/RigidBodyType.md)
   - [RayCastType](../classes/RayCastType.md)
   - [RigidBody](../classes/RigidBody.md)
-  - [loader](../classes/loader.md)
-  - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
-  - [Pipeline.Loader](../classes/Pipeline.Loader.md)
-  - [LoadingItems](../classes/LoadingItems.md)
-  - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
-  - [Pipeline](../classes/Pipeline.md)
-  - [SpriteFrame](../classes/SpriteFrame.md)
-  - [Texture2D.PixelFormat](../classes/Texture2D.PixelFormat.md)
-  - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
-  - [Texture2D.Filter](../classes/Texture2D.Filter.md)
-  - [Texture2D](../classes/Texture2D.md)
-  - [textureCache](../classes/textureCache.md)
-  - [_BaseNode](../classes/_BaseNode.md)
   - [KEY](../classes/KEY.md)
   - [ImageFormat](../classes/ImageFormat.md)
   - [macro](../classes/macro.md)
@@ -189,6 +182,13 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [CallbacksInvoker](../classes/CallbacksInvoker.md)
   - [Details](../classes/Details.md)
   - [url](../classes/url.md)
+  - [SpriteFrame](../classes/SpriteFrame.md)
+  - [Texture2D.PixelFormat](../classes/Texture2D.PixelFormat.md)
+  - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
+  - [Texture2D.Filter](../classes/Texture2D.Filter.md)
+  - [Texture2D](../classes/Texture2D.md)
+  - [textureCache](../classes/textureCache.md)
+  - [_BaseNode](../classes/_BaseNode.md)
   - [AffineTransform](../classes/AffineTransform.md)
   - [Color](../classes/Color.md)
   - [Rect](../classes/Rect.md)
@@ -227,13 +227,11 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 ### 枚举
 
   - [DebugMode](../enums/DebugMode.md)
-  - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [WrapMode](../enums/WrapMode.md)
-  - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
+  - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
-  - [Graphics.LineCap](../enums/Graphics.LineCap.md)
-  - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
+  - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
   - [Button.Transition](../enums/Button.Transition.md)
   - [EditBox.KeyboardReturnType](../enums/EditBox.KeyboardReturnType.md)
   - [EditBox.InputMode](../enums/EditBox.InputMode.md)
@@ -262,17 +260,19 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [VideoPlayer.EventType](../enums/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../enums/VideoPlayer.ResourceType.md)
   - [WebView.EventType](../enums/WebView.EventType.md)
+  - [Graphics.LineCap](../enums/Graphics.LineCap.md)
+  - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
+  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
   - [DrawBits](../enums/DrawBits.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [RayCastType](../enums/RayCastType.md)
-  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
-  - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
-  - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
-  - [Texture2D.Filter](../enums/Texture2D.Filter.md)
   - [KEY](../enums/KEY.md)
   - [ImageFormat](../enums/ImageFormat.md)
   - [macro](../enums/macro.md)
   - [Flags](../enums/Flags.md)
+  - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
+  - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
+  - [Texture2D.Filter](../enums/Texture2D.Filter.md)
   - [BlendFactor](../enums/BlendFactor.md)
   - [TextAlignment](../enums/TextAlignment.md)
 
@@ -442,10 +442,6 @@ EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
   - [`delayTime`](#delaytime) 
   - [`reverseTime`](#reversetime) 反转目标动作的时间轴。
   - [`targetedAction`](#targetedaction) 用已有动作和一个新的目标节点创建动作。
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
   - [`Class`](#class) 定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
   - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
   - [`isChildClassOf`](#ischildclassof) Checks whether subclass is child of superclass or equals to superclass
@@ -491,6 +487,10 @@ It is recommended to not use this function every frame instead cache the result 
   - [`instantiate`](#instantiate) 克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
 
 （Instantiate 时，function 和 dom 等非可序列化对象会直接保留原有引用，Asset 会直接进行浅拷贝，可序列化类型会进行深拷贝。）
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
   - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
 Alpha 通道是可选的。默认值是 255。
   - [`colorEqual`](#colorequal) 判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
@@ -631,7 +631,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/View.html" class="crosslink">View</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:369](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L369) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:377](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L377) |
 
 
 
@@ -642,7 +642,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Director.html" class="crosslink">Director</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:377](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L377) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L385) |
 
 
 
@@ -653,7 +653,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:386](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L386) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:394](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L394) |
 
 
 
@@ -664,7 +664,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Game.html" class="crosslink">Game</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L795) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:820](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L820) |
 
 
 
@@ -2283,23 +2283,6 @@ var delay = cc.delayTime(1);
 - action <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
-
-###### 参数列表
-- path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- referenceNode <a href="../classes/Node.html" class="crosslink">Node</a> 
-
-
 ##### Class
 
 定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
@@ -2314,7 +2297,7 @@ It is recommended to not use this function every frame instead cache the result 
 	- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The class name used for serialization.
 	- extends <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The base class.
 	- ctor <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The constructor.
-	- &amp;#95;&amp;#95;ctor&amp;#95;&amp;#95; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The same as ctor, but less encapsulated.
+	- __ctor__ <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The same as ctor, but less encapsulated.
 	- properties <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The property definitions.
 	- statics <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The static members.
 	- mixins <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
@@ -2539,7 +2522,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L95) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:96](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L96) |
 
 ###### 参数列表
 - touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -2551,7 +2534,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L130) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:131](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L131) |
 
 ###### 参数列表
 - touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -2563,7 +2546,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:162](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L162) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:163](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L163) |
 
 ###### 参数列表
 - touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -2575,7 +2558,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:176](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L176) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:177](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L177) |
 
 ###### 参数列表
 - touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -2588,7 +2571,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:190](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L190) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:191](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L191) |
 
 ###### 参数列表
 - touches <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -2601,7 +2584,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:216](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L216) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:217](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L217) |
 
 ###### 参数列表
 - element <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
@@ -2614,7 +2597,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:254](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L254) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:264](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L264) |
 
 ###### 参数列表
 - touch <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -2626,7 +2609,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:274](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L274) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:284](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L284) |
 
 ###### 参数列表
 - touch <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -2639,7 +2622,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:299](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L299) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:309](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L309) |
 
 ###### 参数列表
 - tx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2654,7 +2637,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Event.EventMouse.html" class="crosslink">Event.EventMouse</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:316](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L316) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:326](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L326) |
 
 ###### 参数列表
 - location <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -2669,7 +2652,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:334](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L334) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:344](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L344) |
 
 ###### 参数列表
 - event <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -2683,7 +2666,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:349](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L349) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:365](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L365) |
 
 ###### 参数列表
 - event <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -2696,7 +2679,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:387](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L387) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L403) |
 
 ###### 参数列表
 - element <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
@@ -2708,7 +2691,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:548](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L548) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js:573](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCInputManager.js#L573) |
 
 ###### 参数列表
 - dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2722,7 +2705,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1995](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1995) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1979](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1979) |
 
 ###### 参数列表
 - a <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number A
@@ -2746,7 +2729,7 @@ get a random number from 0 to 0xffffff
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2009](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2009) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1993](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1993) |
 
 
 
@@ -2757,7 +2740,7 @@ returns a random float between -1 and 1
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2018](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2018) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2002](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2002) |
 
 
 
@@ -2768,7 +2751,7 @@ returns a random float between 0 and 1, use Math.random directly
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2027](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2027) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2011](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2011) |
 
 
 
@@ -2779,7 +2762,7 @@ converts degrees to radians
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2034](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2034) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2018](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2018) |
 
 ###### 参数列表
 - angle <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2792,7 +2775,7 @@ converts radians to degrees
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2044](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2044) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2028](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2028) |
 
 ###### 参数列表
 - angle <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2804,7 +2787,7 @@ Helpful macro that setups the GL server state, the correct GL program and sets t
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2054](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2054) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2038](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2038) |
 
 ###### 参数列表
 - node <a href="../classes/Node.html" class="crosslink">Node</a> setup node
@@ -2819,7 +2802,7 @@ Helpful macro that setups the GL server state, the correct GL program and sets t
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2106) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2090](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2090) |
 
 ###### 参数列表
 - addNumber <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2831,7 +2814,7 @@ Check webgl error.Error will be shown in console if exists.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2118) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:2102](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L2102) |
 
 
 
@@ -2897,6 +2880,23 @@ var scene = cc.director.getScene();
 var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
+
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
+
+###### 参数列表
+- path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- referenceNode <a href="../classes/Node.html" class="crosslink">Node</a> 
+
 
 ##### color
 

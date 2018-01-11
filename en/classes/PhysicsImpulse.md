@@ -5,9 +5,8 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Contact impulses for reporting.
+
 
 ### Index
 

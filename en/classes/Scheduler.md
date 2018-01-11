@@ -5,8 +5,6 @@
 Module: [cc](../modules/cc.md)
 
 
-
-
 Scheduler is responsible of triggering the scheduled callbacks.<br/>
 You should not use NSTimer. Instead use this class.<br/>
 <br/>
@@ -16,6 +14,7 @@ There are 2 different types of callbacks (selectors):<br/>
 <br/>
 The 'custom selectors' should be avoided when possible. It is faster,
 and consumes less memory to use the 'update callback'. *
+
 
 ### Index
 

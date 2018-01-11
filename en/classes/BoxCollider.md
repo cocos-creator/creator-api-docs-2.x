@@ -6,9 +6,8 @@ Extends [`Collider`](Collider.md)
 Module: [cc](../modules/cc.md)
 
 
-
-
 Box Collider.
+
 
 ### Index
 

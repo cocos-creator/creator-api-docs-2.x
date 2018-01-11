@@ -5,22 +5,16 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 布局类型
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `NONE`
   - `HORIZONTAL`
   - `VERTICAL`
   - `GRID`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### NONE

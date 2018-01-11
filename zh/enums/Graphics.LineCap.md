@@ -5,21 +5,15 @@
 模块: [cc](../modules/cc.md)
 
 
-
-
 线段末端属性
 
+
 ### 索引
-
-##### 属性（properties）
-
   - `BUTT`
   - `ROUND`
   - `SQUARE`
 
 ### Details
-
-#### 属性（properties）
 
 
 ##### BUTT
