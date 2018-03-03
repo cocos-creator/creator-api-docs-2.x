@@ -14,6 +14,9 @@ The Custom event
 ##### Properties
 
   - [`detail`](#detail) `Object` A reference to the detailed data of the event
+  - [`keyCode`](#keycode) `Number` The keyCode read-only property represents a system and implementation dependent numerical code identifying the unmodified value of the pressed key. </br>
+This is usually the decimal ASCII (RFC 20) or Windows 1252 code corresponding to the key.</br>
+If the key can't be identified, this value is 0.</br>
   - [`type`](#type) `String` The name of the event (case-sensitive), e.g. "click", "fire", or "submit".
   - [`bubbles`](#bubbles) `Boolean` Indicate whether the event bubbles up through the tree or not.
   - [`target`](#target) `Object` A reference to the target to which the event was originally dispatched.
@@ -64,6 +67,19 @@ the event won't even be dispatched to the listeners attached in the current targ
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:290](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L290) |
+
+
+
+##### keyCode
+
+> The keyCode read-only property represents a system and implementation dependent numerical code identifying the unmodified value of the pressed key. </br>
+This is usually the decimal ASCII (RFC 20) or Windows 1252 code corresponding to the key.</br>
+If the key can't be identified, this value is 0.</br>
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:332](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L332) |
 
 
 
@@ -145,8 +161,8 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:282](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L282) |
 
 ###### Parameters
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the event (case-sensitive), e.g. "click", "fire", or "submit"
-- bubbles <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> A boolean indicating whether the event bubbles up through the tree or not
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the event (case-sensitive), e.g. "click", "fire", or "submit"
+- `bubbles` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> A boolean indicating whether the event bubbles up through the tree or not
 
 
 ##### setUserData
@@ -158,7 +174,7 @@ Sets user data
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:303](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L303) |
 
 ###### Parameters
-- data Any 
+- `data` Any 
 
 
 ##### getUserData

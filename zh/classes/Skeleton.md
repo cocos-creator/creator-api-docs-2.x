@@ -543,7 +543,7 @@ cc.log(bone.worldX); // return -23.12;
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:576](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L576) |
 
 ###### 参数列表
-- boneName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### findSlot
@@ -557,7 +557,7 @@ cc.log(bone.worldX); // return -23.12;
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:597](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L597) |
 
 ###### 参数列表
-- slotName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### setSkin
@@ -572,7 +572,7 @@ cc.log(bone.worldX); // return -23.12;
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:616](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L616) |
 
 ###### 参数列表
-- skinName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `skinName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### getAttachment
@@ -586,8 +586,8 @@ cc.log(bone.worldX); // return -23.12;
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:638](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L638) |
 
 ###### 参数列表
-- slotName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- attachmentName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `attachmentName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### setAttachment
@@ -600,8 +600,8 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:659](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L659) |
 
 ###### 参数列表
-- slotName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- attachmentName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `attachmentName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### setSkeletonData
@@ -614,8 +614,8 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:676](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L676) |
 
 ###### 参数列表
-- skeletonData sp.spine.SkeletonData 
-- ownsSkeletonData sp.spine.SkeletonData 
+- `skeletonData` sp.spine.SkeletonData 
+- `ownsSkeletonData` sp.spine.SkeletonData 
 
 
 ##### setAnimationStateData
@@ -628,7 +628,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:707](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L707) |
 
 ###### 参数列表
-- stateData sp.spine.AnimationStateData 
+- `stateData` sp.spine.AnimationStateData 
 
 
 ##### setMix
@@ -640,9 +640,9 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:721](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L721) |
 
 ###### 参数列表
-- fromAnimation <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- toAnimation <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `fromAnimation` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `toAnimation` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### setAnimationListener
@@ -654,8 +654,8 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:737](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L737) |
 
 ###### 参数列表
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
 
 ##### setAnimation
@@ -669,9 +669,9 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:750](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L750) |
 
 ###### 参数列表
-- trackIndex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- loop <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `loop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### addAnimation
@@ -685,10 +685,10 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:779](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L779) |
 
 ###### 参数列表
-- trackIndex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- loop <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-- delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `loop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `delay` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### findAnimation
@@ -701,7 +701,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:798](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L798) |
 
 ###### 参数列表
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### getCurrent
@@ -715,7 +715,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:812](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L812) |
 
 ###### 参数列表
-- trackIndex Unknown 
+- `trackIndex` Unknown 
 
 
 ##### clearTracks
@@ -737,7 +737,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:839](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L839) |
 
 ###### 参数列表
-- trackIndex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+- `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 
 ##### setStartListener
@@ -749,7 +749,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:873](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L873) |
 
 ###### 参数列表
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setInterruptListener
@@ -761,7 +761,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:886](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L886) |
 
 ###### 参数列表
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setEndListener
@@ -773,7 +773,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:899](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L899) |
 
 ###### 参数列表
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setDisposeListener
@@ -785,7 +785,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:912](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L912) |
 
 ###### 参数列表
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setCompleteListener
@@ -797,7 +797,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:925](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L925) |
 
 ###### 参数列表
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setEventListener
@@ -809,7 +809,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:938](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L938) |
 
 ###### 参数列表
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackStartListener
@@ -821,8 +821,8 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:951](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L951) |
 
 ###### 参数列表
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackInterruptListener
@@ -834,8 +834,8 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:964](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L964) |
 
 ###### 参数列表
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackEndListener
@@ -847,8 +847,8 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:977](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L977) |
 
 ###### 参数列表
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackDisposeListener
@@ -860,8 +860,8 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:990](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L990) |
 
 ###### 参数列表
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackCompleteListener
@@ -873,8 +873,8 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:1003](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L1003) |
 
 ###### 参数列表
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackEventListener
@@ -886,8 +886,8 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:1016](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L1016) |
 
 ###### 参数列表
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### _createSgNode
@@ -931,7 +931,7 @@ You should call the setContentSize of the SGNode if its size should be the same 
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
 
 ###### 参数列表
-- dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
 
 
 ##### lateUpdate
@@ -1047,7 +1047,7 @@ This method should be removed if script priority is supported.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
 
 ###### 参数列表
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
 ##### 示例
 
@@ -1067,7 +1067,7 @@ var test = node.addComponent("Test");
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
 
 ###### 参数列表
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### 示例
 
@@ -1088,7 +1088,7 @@ var test = node.getComponent("Test");
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
 
 ###### 参数列表
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### 示例
 
@@ -1107,7 +1107,7 @@ var tests = node.getComponents("Test");
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
 
 ###### 参数列表
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### 示例
 
@@ -1126,7 +1126,7 @@ var Test = node.getComponentInChildren("Test");
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
 
 ###### 参数列表
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### 示例
 
@@ -1145,7 +1145,7 @@ var tests = node.getComponentsInChildren("Test");
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
 
 ###### 参数列表
-- out_rect <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
+- `out_rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
 
 
 ##### onRestore
@@ -1183,10 +1183,10 @@ onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
 
 ###### 参数列表
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
-- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
-- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
-- delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
+- `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
+- `repeat` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
+- `delay` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### 示例
 
@@ -1206,8 +1206,8 @@ this.schedule(timeCallback, 1);
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### 参数列表
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
-- delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
+- `delay` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### 示例
 
@@ -1227,7 +1227,7 @@ this.scheduleOnce(timeCallback, 2);
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### 参数列表
-- callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
+- `callback_fn` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
 
 ##### 示例
 
@@ -1315,7 +1315,7 @@ The customized serialization for this object. (Editor Only)
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 
 ###### 参数列表
-- exporting <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### _deserialize
@@ -1327,8 +1327,8 @@ Init this object from the custom serialized data.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### 参数列表
-- data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
-- ctx _Deserializer 
+- `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
+- `ctx` _Deserializer 
 
 
 

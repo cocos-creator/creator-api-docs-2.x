@@ -188,10 +188,10 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:38](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L38) |
 
 ###### Parameters
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- h <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### fromMinMax
@@ -204,8 +204,8 @@ Creates a rectangle from two coordinate values.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:79](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L79) |
 
 ###### Parameters
-- v1 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- v2 <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ##### Examples
 
@@ -223,8 +223,8 @@ Checks if rect contains.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:99](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L99) |
 
 ###### Parameters
-- a <a href="../classes/Rect.html" class="crosslink">Rect</a> Rect a
-- b <a href="../classes/Rect.html" class="crosslink">Rect</a> Rect b
+- `a` <a href="../classes/Rect.html" class="crosslink">Rect</a> Rect a
+- `b` <a href="../classes/Rect.html" class="crosslink">Rect</a> Rect b
 
 ##### Examples
 
@@ -264,7 +264,7 @@ TODO
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:151](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L151) |
 
 ###### Parameters
-- other <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `other` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ##### Examples
 
@@ -284,9 +284,9 @@ TODO
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:170](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L170) |
 
 ###### Parameters
-- to <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-- ratio <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the interpolation coefficient.
-- out <a href="../classes/Rect.html" class="crosslink">Rect</a> optional, the receiving vector.
+- `to` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `ratio` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the interpolation coefficient.
+- `out` <a href="../classes/Rect.html" class="crosslink">Rect</a> optional, the receiving vector.
 
 ##### Examples
 
@@ -327,7 +327,7 @@ TODO
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:311](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L311) |
 
 ###### Parameters
-- rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ##### Examples
 
@@ -346,7 +346,7 @@ TODO
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:326](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L326) |
 
 ###### Parameters
-- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ##### Examples
 
@@ -365,13 +365,13 @@ Returns true if the other rect totally inside this rectangle.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js:345](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCRect.js#L345) |
 
 ###### Parameters
-- rect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 ##### Examples
 
 ```js
-var a = new cc.Rect(0, 0, 10, 10);
-var b = new cc.Rect(0, 0, 20, 20);
+var a = new cc.Rect(0, 0, 20, 20);
+var b = new cc.Rect(0, 0, 10, 10);
 a.containsRect(b);// true
 ```
 

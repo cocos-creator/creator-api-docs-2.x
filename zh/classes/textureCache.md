@@ -66,7 +66,7 @@ Returns an already created texture. Returns null if the texture doesn't exist.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:53](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L53) |
 
 ###### 参数列表
-- textureKeyName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `textureKeyName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### 示例
 
@@ -86,7 +86,7 @@ Returns an already created texture. Returns null if the texture doesn't exist.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L66) |
 
 ###### 参数列表
-- textureKeyName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `textureKeyName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### 示例
 
@@ -106,7 +106,7 @@ var key = cc.textureCache.getTextureForKey("hello.png");
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:96](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L96) |
 
 ###### 参数列表
-- texture HTMLImageElement 
+- `texture` HTMLImageElement 
 
 ##### 示例
 
@@ -157,7 +157,7 @@ Deletes a texture from the cache given a texture.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:150](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L150) |
 
 ###### 参数列表
-- texture HTMLImageElement 
+- `texture` HTMLImageElement 
 
 ##### 示例
 
@@ -176,7 +176,7 @@ Deletes a texture from the cache given a its key name.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L169) |
 
 ###### 参数列表
-- textureKeyName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `textureKeyName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### 示例
 
@@ -200,9 +200,9 @@ Supported image extensions: .png, .jpg, .gif</p>
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:185](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L185) |
 
 ###### 参数列表
-- url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- cb <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `cb` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ##### 示例
 
@@ -221,8 +221,8 @@ Cache the image data.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTextureCache.js#L201) |
 
 ###### 参数列表
-- path <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- texture HTMLImageElement &#124; HTMLCanvasElement 
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `texture` HTMLImageElement &#124; HTMLCanvasElement 
 
 
 

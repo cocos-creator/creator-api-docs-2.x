@@ -1398,7 +1398,7 @@ window.apimeta = {
       "name": "eventManager",
       "namespace": "cc.eventManager",
       "module": "cc",
-      "description": "<p>\n cc.eventManager is a singleton object which manages event listener subscriptions and event dispatching. <br/>\n                                                                                                             <br/>\n The EventListener list is managed in such way so that event listeners can be added and removed          <br/>\n while events are being dispatched.\n</p>"
+      "description": "This class has been deprecated, please use cc.systemEvent or cc.EventTarget instead. See [Listen to and launch events](../../../manual/en/scripting/events.md) for details.<br>\n<br>\ncc.eventManager is a singleton object which manages event listener subscriptions and event dispatching.\nThe EventListener list is managed in such way so that event listeners can be added and removed\nwhile events are being dispatched."
     },
     {
       "name": "loader",

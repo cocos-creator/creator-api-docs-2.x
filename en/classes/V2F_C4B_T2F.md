@@ -56,11 +56,11 @@ Parent Module: [cc](../modules/cc.md)
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:556](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L556) |
 
 ###### Parameters
-- vertices <a href="../classes/Vertex2F.html" class="crosslink">Vertex2F</a> 
-- colors <a href="../classes/Color.html" class="crosslink">Color</a> 
-- texCoords <a href="../classes/Tex2F.html" class="crosslink">Tex2F</a> 
-- arrayBuffer <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-- offset <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `vertices` <a href="../classes/Vertex2F.html" class="crosslink">Vertex2F</a> 
+- `colors` <a href="../classes/Color.html" class="crosslink">Color</a> 
+- `texCoords` <a href="../classes/Tex2F.html" class="crosslink">Tex2F</a> 
+- `arrayBuffer` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `offset` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 

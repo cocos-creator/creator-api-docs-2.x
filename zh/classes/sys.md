@@ -62,8 +62,10 @@ System variables
   - [`EDITOR_PAGE`](#editorpage) `Number` Indicates whether executes in editor's window process (Electron's renderer context)
   - [`EDITOR_CORE`](#editorcore) `Number` Indicates whether executes in editor's main process (Electron's browser context)
   - [`WECHAT_GAME`](#wechatgame) `Number` 
+  - [`QQ_PLAY`](#qqplay) `Number` 
   - [`BROWSER_TYPE_WECHAT`](#browsertypewechat) `String` BROWSER_TYPE_WECHAT
   - [`BROWSER_TYPE_WECHAT_GAME`](#browsertypewechatgame) `String` BROWSER_TYPE_WECHAT_GAME
+  - [`BROWSER_TYPE_QQ_PLAY`](#browsertypeqqplay) `String` BROWSER_TYPE_QQ_PLAY
   - [`BROWSER_TYPE_ANDROID`](#browsertypeandroid) `String` 
   - [`BROWSER_TYPE_IE`](#browsertypeie) `String` 
   - [`BROWSER_TYPE_QQ`](#browsertypeqq) `String` 
@@ -659,6 +661,17 @@ In native engine, it will return true if the JS object and the correspond native
 
 
 
+##### QQ_PLAY
+
+> 
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L346) |
+
+
+
 ##### BROWSER_TYPE_WECHAT
 
 > BROWSER_TYPE_WECHAT
@@ -666,7 +679,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:347](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L347) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:353](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L353) |
 
 
 
@@ -677,7 +690,18 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:354](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L354) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:360](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L360) |
+
+
+
+##### BROWSER_TYPE_QQ_PLAY
+
+> BROWSER_TYPE_QQ_PLAY
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:367](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L367) |
 
 
 
@@ -688,7 +712,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:361](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L361) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:374](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L374) |
 
 
 
@@ -699,7 +723,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:368](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L368) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:381](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L381) |
 
 
 
@@ -710,7 +734,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:375](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L375) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L388) |
 
 
 
@@ -721,7 +745,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:382](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L382) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:395](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L395) |
 
 
 
@@ -732,7 +756,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:389](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L389) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:402](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L402) |
 
 
 
@@ -743,7 +767,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:396](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L396) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:409](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L409) |
 
 
 
@@ -754,7 +778,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L403) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:416](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L416) |
 
 
 
@@ -765,7 +789,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:410](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L410) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:423](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L423) |
 
 
 
@@ -776,7 +800,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:417](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L417) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:430](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L430) |
 
 
 
@@ -787,7 +811,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:424](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L424) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L437) |
 
 
 
@@ -798,7 +822,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:431](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L431) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:444](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L444) |
 
 
 
@@ -809,7 +833,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L438) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:451](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L451) |
 
 
 
@@ -820,7 +844,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:445](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L445) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:458](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L458) |
 
 
 
@@ -831,7 +855,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:452](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L452) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:465](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L465) |
 
 
 
@@ -842,7 +866,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:459](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L459) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:472](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L472) |
 
 
 
@@ -853,7 +877,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:466](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L466) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:479](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L479) |
 
 
 
@@ -864,7 +888,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:473](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L473) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:486](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L486) |
 
 
 
@@ -875,7 +899,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:480](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L480) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:493](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L493) |
 
 
 
@@ -886,7 +910,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:487](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L487) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:500](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L500) |
 
 
 
@@ -897,7 +921,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:496](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L496) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:509](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L509) |
 
 
 
@@ -908,7 +932,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:502](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L502) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:515](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L515) |
 
 
 
@@ -919,7 +943,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:592](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L592) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:639](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L639) |
 
 
 
@@ -930,7 +954,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:598](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L598) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:645](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L645) |
 
 
 
@@ -941,7 +965,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:609](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L609) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:656](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L656) |
 
 
 
@@ -952,7 +976,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:643](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L643) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:690](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L690) |
 
 
 
@@ -963,7 +987,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:648](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L648) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:695](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L695) |
 
 
 
@@ -974,7 +998,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:653](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L653) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:700](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L700) |
 
 
 
@@ -985,7 +1009,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:659](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L659) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:706](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L706) |
 
 
 
@@ -996,7 +1020,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:691](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L691) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:740](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L740) |
 
 
 
@@ -1007,7 +1031,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:709](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L709) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:758](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L758) |
 
 
 
@@ -1018,7 +1042,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:757](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L757) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:806](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L806) |
 
 
 
@@ -1029,7 +1053,7 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:825](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L825) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:874](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L874) |
 
 
 
@@ -1046,7 +1070,7 @@ Forces the garbage collection, only available in JSB
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:932](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L932) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:981](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L981) |
 
 
 
@@ -1056,7 +1080,7 @@ Dumps rooted objects, only available in JSB
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:940](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L940) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:989](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L989) |
 
 
 
@@ -1066,7 +1090,7 @@ Restart the JS VM, only available in JSB
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:948](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L948) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:997](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L997) |
 
 
 
@@ -1076,10 +1100,10 @@ Clean a script in the JS VM, only available in JSB
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:956](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L956) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:1005](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L1005) |
 
 ###### 参数列表
-- jsfile <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `jsfile` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### isObjectValid
@@ -1091,10 +1115,10 @@ In native engine, it will return true if the JS object and the correspond native
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:965](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L965) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:1014](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L1014) |
 
 ###### 参数列表
-- obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 
 ##### dump
@@ -1103,7 +1127,7 @@ Dump system informations
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:978](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L978) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:1027](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L1027) |
 
 
 
@@ -1113,10 +1137,10 @@ Open a url in browser
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:997](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L997) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:1046](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L1046) |
 
 ###### 参数列表
-- url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### now
@@ -1126,7 +1150,7 @@ Get the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:1006](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L1006) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js:1055](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCSys.js#L1055) |
 
 
 

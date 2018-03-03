@@ -332,7 +332,7 @@ Set the map size.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js:279](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js#L279) |
 
 ###### Parameters
-- mapSize <a href="../classes/Size.html" class="crosslink">Size</a> 
+- `mapSize` <a href="../classes/Size.html" class="crosslink">Size</a> 
 
 ##### Examples
 
@@ -366,7 +366,7 @@ Set the tile size.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js:304](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js#L304) |
 
 ###### Parameters
-- tileSize <a href="../classes/Size.html" class="crosslink">Size</a> 
+- `tileSize` <a href="../classes/Size.html" class="crosslink">Size</a> 
 
 ##### Examples
 
@@ -400,7 +400,7 @@ map orientation.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js:329](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js#L329) |
 
 ###### Parameters
-- orientation <a href="../enums/TiledMap.Orientation.html" class="crosslink">TiledMap.Orientation</a> 
+- `orientation` <a href="../enums/TiledMap.Orientation.html" class="crosslink">TiledMap.Orientation</a> 
 
 ##### Examples
 
@@ -455,7 +455,7 @@ Set the map properties.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js:381](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js#L381) |
 
 ###### Parameters
-- properties <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
+- `properties` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
 
 ##### Examples
 
@@ -492,7 +492,7 @@ return the cc.TiledLayer for the specific layer.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js#L426) |
 
 ###### Parameters
-- layerName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `layerName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -511,7 +511,7 @@ Return the TMXObjectGroup for the specific group.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js:449](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js#L449) |
 
 ###### Parameters
-- groupName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `groupName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -530,7 +530,7 @@ Return the value for the specific property name.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js:472](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js#L472) |
 
 ###### Parameters
-- propertyName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `propertyName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -549,7 +549,7 @@ Return properties dictionary for tile GID.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js:486](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCTiledMap.js#L486) |
 
 ###### Parameters
-- GID <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `GID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Examples
 
@@ -567,7 +567,7 @@ Update is called every frame, if the Component is enabled.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
 
 ###### Parameters
-- dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
 
 
 ##### lateUpdate
@@ -685,7 +685,7 @@ Adds a component class to the node. You can also add component to node by passin
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
 ##### Examples
 
@@ -705,7 +705,7 @@ You can also get component in the node by passing in the name of the script.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -726,7 +726,7 @@ Returns all components of supplied Type in the node.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -745,7 +745,7 @@ Returns the component of supplied type in any of its children using depth first 
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -764,7 +764,7 @@ Returns the components of supplied type in self or any of its children using dep
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -783,7 +783,7 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
 
 ###### Parameters
-- out_rect <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
+- `out_rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
 
 
 ##### onRestore
@@ -825,10 +825,10 @@ If the selector is already scheduled, then the interval parameter will be update
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
 
 ###### Parameters
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
-- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
-- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
-- delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
+- `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
+- `repeat` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
+- `delay` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### Examples
 
@@ -848,8 +848,8 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### Parameters
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
-- delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
+- `delay` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### Examples
 
@@ -869,7 +869,7 @@ Unschedules a custom callback function.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### Parameters
-- callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
+- `callback_fn` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
 
 ##### Examples
 
@@ -960,7 +960,7 @@ The customized serialization for this object. (Editor Only)
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 
 ###### Parameters
-- exporting <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### _deserialize
@@ -972,8 +972,8 @@ Init this object from the custom serialized data.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
-- data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
-- ctx _Deserializer 
+- `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
+- `ctx` _Deserializer 
 
 
 

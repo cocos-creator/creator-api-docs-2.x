@@ -132,10 +132,10 @@ Sets view's target-densitydpi for android mobile browser. it can be set to:     
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:237](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L237) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:239](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L239) |
 
 ###### 参数列表
-- densityDPI <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `densityDPI` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### getTargetDensityDPI
@@ -145,7 +145,7 @@ Returns the current target-densitydpi value of cc.view.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:255](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L255) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L257) |
 
 
 
@@ -156,10 +156,10 @@ Useful only on web.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:264](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L264) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:266](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L266) |
 
 ###### 参数列表
-- enabled <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether enable automatic resize with browser's resize event
+- `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether enable automatic resize with browser's resize event
 
 
 ##### setResizeCallback
@@ -171,10 +171,10 @@ Useful only on web.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:288](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L288) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:290](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L290) |
 
 ###### 参数列表
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; Null The callback function
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; Null The callback function
 
 
 ##### setOrientation
@@ -187,10 +187,10 @@ in native, you need to set the application orientation in native project setting
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:302](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L302) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:304](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L304) |
 
 ###### 参数列表
-- orientation <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Possible values: cc.macro.ORIENTATION_LANDSCAPE | cc.macro.ORIENTATION_PORTRAIT | cc.macro.ORIENTATION_AUTO
+- `orientation` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Possible values: cc.macro.ORIENTATION_LANDSCAPE | cc.macro.ORIENTATION_PORTRAIT | cc.macro.ORIENTATION_AUTO
 
 
 ##### adjustViewPort
@@ -202,10 +202,10 @@ Only useful on web
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:417](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L417) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:419](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L419) |
 
 ###### 参数列表
-- enabled <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable automatic modification to "viewport" meta
+- `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable automatic modification to "viewport" meta
 
 
 ##### enableRetina
@@ -216,10 +216,10 @@ Only useful on web
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:429](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L429) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:431](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L431) |
 
 ###### 参数列表
-- enabled <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable or disable retina display
+- `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable or disable retina display
 
 
 ##### isRetinaEnabled
@@ -230,7 +230,7 @@ Only useful on web
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:440](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L440) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:442](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L442) |
 
 
 
@@ -240,10 +240,10 @@ Only useful on web
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:450](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L450) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:452](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L452) |
 
 ###### 参数列表
-- enabled <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable or not anti-alias
+- `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable or not anti-alias
 
 
 ##### isAntiAliasEnabled
@@ -253,7 +253,7 @@ Only useful on web
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:490](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L490) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:492](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L492) |
 
 
 
@@ -265,10 +265,10 @@ Only useful on web
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:499](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L499) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:501](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L501) |
 
 ###### 参数列表
-- enabled <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable or disable auto full screen on mobile devices
+- `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable or disable auto full screen on mobile devices
 
 
 ##### isAutoFullScreenEnabled
@@ -279,7 +279,7 @@ Only useful on web
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:520](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L520) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:522](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L522) |
 
 
 
@@ -291,7 +291,7 @@ this name is for the compatibility with cocos2d-x, subclass must implement this 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:530](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L530) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:532](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L532) |
 
 
 
@@ -301,11 +301,11 @@ Sets the resolution translate on View.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:550](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L550) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:552](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L552) |
 
 ###### 参数列表
-- offsetLeft <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- offsetTop <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `offsetLeft` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `offsetTop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### getContentTranslateLeftTop
@@ -315,7 +315,7 @@ Returns the resolution translate on View
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:560](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L560) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:562](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L562) |
 
 
 
@@ -328,7 +328,7 @@ On web, it returns the size of the canvas's outer DOM element.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:603](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L603) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:605](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L605) |
 
 
 
@@ -339,11 +339,11 @@ On web, it sets the size of the canvas's outer DOM element.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:614](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L614) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:616](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L616) |
 
 ###### 参数列表
-- width <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `height` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### getVisibleSize
@@ -353,7 +353,7 @@ Returns the visible area size of the view port.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:630](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L630) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:632](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L632) |
 
 
 
@@ -364,7 +364,7 @@ Returns the visible area size of the view port.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:639](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L639) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:641](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L641) |
 
 
 
@@ -375,7 +375,7 @@ Returns the visible origin of the view port.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:649](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L649) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:651](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L651) |
 
 
 
@@ -386,7 +386,7 @@ Returns the visible origin of the view port.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:658](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L658) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:660](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L660) |
 
 
 
@@ -397,7 +397,7 @@ Returns whether developer can set content's scale factor.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:668](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L668) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:670](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L670) |
 
 
 
@@ -408,7 +408,7 @@ Returns the current resolution policy
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:677](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L677) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:679](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L679) |
 
 
 
@@ -418,10 +418,10 @@ Sets the current resolution policy
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:687](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L687) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:689](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L689) |
 
 ###### 参数列表
-- resolutionPolicy <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `resolutionPolicy` <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### setDesignResolutionSize
@@ -437,12 +437,12 @@ The resolution policy include: <br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:714](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L714) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:716](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L716) |
 
 ###### 参数列表
-- width <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution width.
-- height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution height.
-- resolutionPolicy <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The resolution policy desired
+- `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution width.
+- `height` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution height.
+- `resolutionPolicy` <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The resolution policy desired
 
 
 ##### getDesignResolutionSize
@@ -453,7 +453,7 @@ Default resolution size is the same as 'getFrameSize'.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:804](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L804) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:806](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L806) |
 
 
 
@@ -471,12 +471,12 @@ This API will do the following:
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:814](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L814) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:816](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L816) |
 
 ###### 参数列表
-- width <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution width.
-- height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution height.
-- resolutionPolicy <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The resolution policy desired
+- `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution width.
+- `height` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution height.
+- `resolutionPolicy` <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The resolution policy desired
 
 
 ##### setViewPortInPoints
@@ -485,13 +485,13 @@ Sets view port rectangle with points.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:845](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L845) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:847](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L847) |
 
 ###### 参数列表
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> width
-- h <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> height
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> width
+- `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> height
 
 
 ##### setScissorInPoints
@@ -500,13 +500,13 @@ Sets Scissor rectangle with points.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:861](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L861) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:863](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L863) |
 
 ###### 参数列表
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- w <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- h <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### isScissorEnabled
@@ -516,7 +516,7 @@ Returns whether GL_SCISSOR_TEST is enable
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:890](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L890) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:892](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L892) |
 
 
 
@@ -527,7 +527,7 @@ Returns the current scissor rectangle
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:899](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L899) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:901](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L901) |
 
 
 
@@ -537,10 +537,10 @@ Sets the name of the view
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:919](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L919) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:921](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L921) |
 
 ###### 参数列表
-- viewName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `viewName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### getViewName
@@ -550,7 +550,7 @@ Returns the name of the view
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:930](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L930) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:932](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L932) |
 
 
 
@@ -561,7 +561,7 @@ Returns the view port rectangle.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:939](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L939) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:941](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L941) |
 
 
 
@@ -572,7 +572,7 @@ Returns scale factor of the horizontal direction (X axis).
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:948](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L948) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:950](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L950) |
 
 
 
@@ -583,7 +583,7 @@ Returns scale factor of the vertical direction (Y axis).
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:957](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L957) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:959](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L959) |
 
 
 
@@ -594,7 +594,7 @@ Returns device pixel ratio for retina display.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:966](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L966) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:968](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L968) |
 
 
 
@@ -605,12 +605,12 @@ Returns the real location in view for a translation based on a related position
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:975](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L975) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:977](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L977) |
 
 ###### 参数列表
-- tx <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The X axis translation
-- ty <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The Y axis translation
-- relatedPos <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The related position object including "left", "top", "width", "height" informations
+- `tx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The X axis translation
+- `ty` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The Y axis translation
+- `relatedPos` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The related position object including "left", "top", "width", "height" informations
 
 
 ##### _getInstance
@@ -620,7 +620,7 @@ Returns the real location in view for a translation based on a related position
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/View.html" class="crosslink">View</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1017](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1017) |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1019](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1019) |
 
 
 

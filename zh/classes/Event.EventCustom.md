@@ -14,6 +14,9 @@
 ##### 属性（properties）
 
   - [`detail`](#detail) `Object` 事件的详细数据
+  - [`keyCode`](#keycode) `Number` keyCode 是只读属性它表示一个系统和依赖于实现的数字代码，可以识别按键的未修改值。</br>
+这通常是十进制 ASCII (RFC20) 或者 Windows 1252 代码，所对应的密钥。</br>
+如果无法识别该键，则该值为 0。
   - [`type`](#type) `String` 事件类型。
   - [`bubbles`](#bubbles) `Boolean` 表示该事件是否进行冒泡。
   - [`target`](#target) `Object` 最初事件触发的目标
@@ -52,6 +55,19 @@
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:290](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L290) |
+
+
+
+##### keyCode
+
+> keyCode 是只读属性它表示一个系统和依赖于实现的数字代码，可以识别按键的未修改值。</br>
+这通常是十进制 ASCII (RFC20) 或者 Windows 1252 代码，所对应的密钥。</br>
+如果无法识别该键，则该值为 0。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:332](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L332) |
 
 
 
@@ -126,8 +142,8 @@
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:282](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L282) |
 
 ###### 参数列表
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the event (case-sensitive), e.g. "click", "fire", or "submit"
-- bubbles <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> A boolean indicating whether the event bubbles up through the tree or not
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the event (case-sensitive), e.g. "click", "fire", or "submit"
+- `bubbles` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> A boolean indicating whether the event bubbles up through the tree or not
 
 
 ##### setUserData
@@ -139,7 +155,7 @@
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js:303](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event/event.js#L303) |
 
 ###### 参数列表
-- data Any 
+- `data` Any 
 
 
 ##### getUserData

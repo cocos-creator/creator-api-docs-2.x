@@ -74,7 +74,7 @@ cc.loader 中提供了另一种删除资源及其依赖的清理方法，请参�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L111) |
 
 ###### 参数列表
-- pipes <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `pipes` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ##### 示例
 
@@ -99,8 +99,8 @@ var pipeline = new Pipeline([
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L155) |
 
 ###### 参数列表
-- pipe <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted
-- index <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The index to insert
+- `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The index to insert
 
 
 ##### insertPipeAfter
@@ -115,8 +115,8 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:198](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L198) |
 
 ###### 参数列表
-- refPipe <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing pipe in the pipeline.
-- newPipe <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted.
+- `refPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing pipe in the pipeline.
+- `newPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted.
 
 
 ##### appendPipe
@@ -129,7 +129,7 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:215](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L215) |
 
 ###### 参数列表
-- pipe <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be appended
+- `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be appended
 
 
 ##### flowIn
@@ -146,7 +146,7 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:239](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L239) |
 
 ###### 参数列表
-- items <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `items` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ##### 示例
 
@@ -176,8 +176,8 @@ pipeline.flowIn([
 | 废弃（Deprecated） | since v1.3 |
 
 ###### 参数列表
-- urlList <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- `urlList` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
 
 ##### copyItemStates
@@ -193,8 +193,8 @@ pipeline.flowIn([
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:324](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L324) |
 
 ###### 参数列表
-- srcItem <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
-- dstItems <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> A single destination item or an array of destination items
+- `srcItem` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
+- `dstItems` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> A single destination item or an array of destination items
 
 
 ##### isFlowing
@@ -231,7 +231,7 @@ pipeline.flowIn([
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:375](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L375) |
 
 ###### 参数列表
-- id <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
+- `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
 
 
 ##### removeItem
@@ -246,7 +246,7 @@ cc.loader 中提供了另一种删除资源及其依赖的清理方法，请参�
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:395](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L395) |
 
 ###### 参数列表
-- id <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
+- `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
 
 
 ##### clear

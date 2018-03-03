@@ -45,7 +45,7 @@ Constructor of Loader, you can pass custom supported types.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js:123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js#L123) |
 
 ###### Parameters
-- extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
+- `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
 ##### Examples
 
@@ -65,7 +65,7 @@ Add custom supported types handler or modify existing type handler.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js:143](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/loader.js#L143) |
 
 ###### Parameters
-- extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
+- `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
 
 

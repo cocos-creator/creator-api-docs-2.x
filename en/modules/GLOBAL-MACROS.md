@@ -49,6 +49,7 @@ To determine whether the script is running on the specified platform, you can us
   - [`CC_JSB`](#ccjsb) `Boolean` Running in native platform (mobile app, desktop app, or simulator).
   - [`CC_TEST`](#cctest) `Boolean` Running in the engine's unit test.
   - [`CC_WECHATGAME`](#ccwechatgame) `Boolean` Running in the Wechat's mini game.
+  - [`CC_QQPLAY`](#ccqqplay) `Boolean` Running in the bricks.
 
 
 
@@ -145,6 +146,17 @@ To determine whether the script is running on the specified platform, you can us
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/index.js:112](https:/github.com/cocos-creator/engine/blob/master/index.js#L112) |
+
+
+
+##### CC_QQPLAY
+
+> Running in the bricks.
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/index.js:115](https:/github.com/cocos-creator/engine/blob/master/index.js#L115) |
 
 
 

@@ -95,7 +95,7 @@ Action 类是所有动作类型的基类。
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L107) |
 
 ###### 参数列表
-- target <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 ##### getOriginalTarget
@@ -129,7 +129,7 @@ Action 类是所有动作类型的基类。
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:144](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L144) |
 
 ###### 参数列表
-- tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 

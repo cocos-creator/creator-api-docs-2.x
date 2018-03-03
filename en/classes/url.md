@@ -70,7 +70,7 @@ Returns the url of raw assets, you will only need this if the raw asset is insid
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js#L66) |
 
 ###### Parameters
-- url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -91,7 +91,7 @@ Returns the url of builtin raw assets. This method can only used in editor.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js#L94) |
 
 ###### Parameters
-- url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 

@@ -148,8 +148,8 @@ see Cc/vec2:method or <a href="../modules/cc.html#method_p" class="crosslink">cc
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L41) |
 
 ###### Parameters
-- x <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-- y <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 
 ##### clone
@@ -173,7 +173,7 @@ TODO
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L82) |
 
 ###### Parameters
-- newValue <a href="../classes/Vec2.html" class="crosslink">Vec2</a> !#en new value to set. !#zh 要设置的新值
+- `newValue` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> !#en new value to set. !#zh 要设置的新值
 
 
 ##### equals
@@ -186,7 +186,7 @@ TODO
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:96](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L96) |
 
 ###### Parameters
-- other <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `other` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 ##### toString
@@ -210,9 +210,9 @@ TODO
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:120](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L120) |
 
 ###### Parameters
-- to <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- ratio <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> the interpolation coefficient
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `to` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `ratio` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> the interpolation coefficient
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 
 ##### addSelf
@@ -225,7 +225,7 @@ Adds this vector. If you want to save result to another vector, use add() instea
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:138](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L138) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ##### Examples
 
@@ -244,8 +244,8 @@ Adds two vectors, and returns the new result.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L155) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 ##### Examples
 
@@ -266,7 +266,7 @@ Subtracts one vector from this. If you want to save result to another vector, us
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:175](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L175) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ##### Examples
 
@@ -285,8 +285,8 @@ Subtracts one vector from this, and returns the new result.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:192](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L192) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 ##### Examples
 
@@ -307,7 +307,7 @@ Multiplies this by a number. If you want to save result to another vector, use m
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:212](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L212) |
 
 ###### Parameters
-- num <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+- `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 ##### Examples
 
@@ -326,8 +326,8 @@ Multiplies by a number, and returns the new result.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L229) |
 
 ###### Parameters
-- num <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 ##### Examples
 
@@ -348,7 +348,7 @@ Multiplies two vectors.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:249](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L249) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ##### Examples
 
@@ -367,8 +367,8 @@ Multiplies two vectors, and returns the new result.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:266](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L266) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 ##### Examples
 
@@ -389,7 +389,7 @@ Divides by a number. If you want to save result to another vector, use div() ins
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:286](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L286) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ##### Examples
 
@@ -408,8 +408,8 @@ Divides by a number, and returns the new result.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:303](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L303) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 ##### Examples
 
@@ -447,7 +447,7 @@ Negates the components, and returns the new result.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L339) |
 
 ###### Parameters
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 ##### Examples
 
@@ -467,7 +467,7 @@ Dot product
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:357](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L357) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ##### Examples
 
@@ -486,7 +486,7 @@ Cross product
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:371](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L371) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 ##### Examples
 
@@ -558,7 +558,7 @@ Note that the current vector is unchanged and a new normalized vector is returne
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:438](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L438) |
 
 ###### Parameters
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 
 ##### angle
@@ -571,7 +571,7 @@ Get angle in radian between this and vector.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:461](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L461) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 ##### signAngle
@@ -584,7 +584,7 @@ Get angle in radian between this and vector with direction.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:483](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L483) |
 
 ###### Parameters
-- vector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 ##### rotate
@@ -597,8 +597,8 @@ rotate
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:499](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L499) |
 
 ###### Parameters
-- radians <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `radians` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 
 ##### rotateSelf
@@ -611,7 +611,7 @@ rotate self
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js:514](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCVec2.js#L514) |
 
 ###### Parameters
-- radians <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+- `radians` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 
 

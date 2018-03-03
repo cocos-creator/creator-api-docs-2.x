@@ -87,8 +87,8 @@ cc.Size 是 size 对象的类。<br/>
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L47) |
 
 ###### 参数列表
-- width <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> 
-- height <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> 
+- `height` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### clone
@@ -118,7 +118,7 @@ a.clone();// return Size {width: 0, height: 0};
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L97) |
 
 ###### 参数列表
-- other <a href="../classes/Size.html" class="crosslink">Size</a> 
+- `other` <a href="../classes/Size.html" class="crosslink">Size</a> 
 
 ##### 示例
 
@@ -137,9 +137,9 @@ a.equals(new cc.size(10, 10));// return true;
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js:113](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCSize.js#L113) |
 
 ###### 参数列表
-- to <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-- ratio <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the interpolation coefficient.
-- out <a href="../classes/Size.html" class="crosslink">Size</a> optional, the receiving vector.
+- `to` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `ratio` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the interpolation coefficient.
+- `out` <a href="../classes/Size.html" class="crosslink">Size</a> optional, the receiving vector.
 
 ##### 示例
 

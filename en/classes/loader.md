@@ -135,7 +135,7 @@ It's used to identify an asset's type, and determine how to download it.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:99](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L99) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L101) |
 
 
 
@@ -148,7 +148,7 @@ You can add your own download function with addDownloadHandlers
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L107) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:109](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L109) |
 
 
 
@@ -161,7 +161,7 @@ You can add your own download function with addLoadHandlers
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:116](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L116) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L118) |
 
 
 
@@ -179,7 +179,7 @@ Gets a new XMLHttpRequest instance.
 | meta | description |
 |------|-------------|
 | Returns | XMLHttpRequest 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:146](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L146) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:148](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L148) |
 
 
 
@@ -189,10 +189,10 @@ Add custom supported types handler or modify existing type handler for download 
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:153](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L153) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L155) |
 
 ###### Parameters
-- extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
+- `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
 ##### Examples
 
@@ -209,10 +209,10 @@ Add custom supported types handler or modify existing type handler for load proc
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:167](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L167) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:169](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L169) |
 
 ###### Parameters
-- extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
+- `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
 ##### Examples
 
@@ -232,15 +232,15 @@ The only difference is when user pass a single url as resources, the complete ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:181](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L181) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L183) |
 
 ###### Parameters
-- resources <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Url list in an array
-- progressCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when progression change
-	- completedCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The number of the items that are already completed
-	- totalCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The total number of the items
-	- item <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The latest item which flow out the pipeline
-- completeCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when all resources loaded
+- `resources` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Url list in an array
+- `progressCallback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when progression change
+	- `completedCount` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The number of the items that are already completed
+	- `totalCount` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The total number of the items
+	- `item` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The latest item which flow out the pipeline
+- `completeCallback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when all resources loaded
 
 ##### Examples
 
@@ -276,19 +276,19 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:400](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L400) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:402](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L402) |
 
 ###### Parameters
-- url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target resource.
+- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target resource.
                       The url is relative to the "resources" folder, extensions must be omitted.
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be loaded if this argument is supplied.
-- progressCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when progression change.
-	- completedCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The number of the items that are already completed.
-	- totalCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The total number of the items.
-	- item <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The latest item which flow out the pipeline.
-- completeCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when the resource loaded.
-	- error <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> The error info or null if loaded successfully.
-	- resource <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The loaded resource if it can be found otherwise returns null.
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be loaded if this argument is supplied.
+- `progressCallback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when progression change.
+	- `completedCount` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The number of the items that are already completed.
+	- `totalCount` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The total number of the items.
+	- `item` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The latest item which flow out the pipeline.
+- `completeCallback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when the resource loaded.
+	- `error` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> The error info or null if loaded successfully.
+	- `resource` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The loaded resource if it can be found otherwise returns null.
 
 ##### Examples
 
@@ -318,20 +318,20 @@ This method is like <a href="../classes/loader.html#method_loadRes" class="cross
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:523](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L523) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:525](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L525) |
 
 ###### Parameters
-- urls <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> Array of URLs of the target resource.
+- `urls` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> Array of URLs of the target resource.
                          The url is relative to the "resources" folder, extensions must be omitted.
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be loaded if this argument is supplied.
-- progressCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when progression change.
-	- completedCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The number of the items that are already completed.
-	- totalCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The total number of the items.
-	- item <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The latest item which flow out the pipeline.
-- completeCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> A callback which is called when all assets have been loaded, or an error occurs.
-	- error <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> If one of the asset failed, the complete callback is immediately called
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be loaded if this argument is supplied.
+- `progressCallback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when progression change.
+	- `completedCount` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The number of the items that are already completed.
+	- `totalCount` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The total number of the items.
+	- `item` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The latest item which flow out the pipeline.
+- `completeCallback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> A callback which is called when all assets have been loaded, or an error occurs.
+	- `error` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> If one of the asset failed, the complete callback is immediately called
                                         with the error. If all assets are loaded successfully, error will be null.
-	- assets <a href="../classes/Asset.html" class="crosslink">Asset[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> An array of all loaded assets.
+	- `assets` <a href="../classes/Asset.html" class="crosslink">Asset[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> An array of all loaded assets.
                                                     If nothing to load, assets will be an empty array.
 
 ##### Examples
@@ -358,22 +358,22 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:581](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L581) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:583](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L583) |
 
 ###### Parameters
-- url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target folder.
+- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target folder.
                       The url is relative to the "resources" folder, extensions must be omitted.
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be loaded if this argument is supplied.
-- progressCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when progression change.
-	- completedCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The number of the items that are already completed.
-	- totalCount <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The total number of the items.
-	- item <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The latest item which flow out the pipeline.
-- completeCallback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> A callback which is called when all assets have been loaded, or an error occurs.
-	- error <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> If one of the asset failed, the complete callback is immediately called
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be loaded if this argument is supplied.
+- `progressCallback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when progression change.
+	- `completedCount` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The number of the items that are already completed.
+	- `totalCount` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The total number of the items.
+	- `item` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The latest item which flow out the pipeline.
+- `completeCallback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> A callback which is called when all assets have been loaded, or an error occurs.
+	- `error` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> If one of the asset failed, the complete callback is immediately called
                                         with the error. If all assets are loaded successfully, error will be null.
-	- assets <a href="../classes/Asset.html" class="crosslink">Asset[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> An array of all loaded assets.
+	- `assets` <a href="../classes/Asset.html" class="crosslink">Asset[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> An array of all loaded assets.
                                             If nothing to load, assets will be an empty array.
-	- urls <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> An array that lists all the URLs of loaded assets.
+	- `urls` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> An array that lists all the URLs of loaded assets.
 
 ##### Examples
 
@@ -411,11 +411,11 @@ After loaded, you can acquire them by passing the url to this API.
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:643](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L643) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:645](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L645) |
 
 ###### Parameters
-- url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be returned if this argument is supplied.
+- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be returned if this argument is supplied.
 
 
 ##### getDependsRecursively
@@ -430,10 +430,10 @@ Here is some examples:
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:680](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L680) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:682](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L682) |
 
 ###### Parameters
-- owner <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The owner asset or the resource url or the asset's uuid
+- `owner` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The owner asset or the resource url or the asset's uuid
 
 ##### Examples
 
@@ -463,10 +463,10 @@ If you only want to remove the cache of an asset, please use Pipeline/removeItem
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:721](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L721) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:723](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L723) |
 
 ###### Parameters
-- asset <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ##### Examples
 
@@ -494,10 +494,10 @@ Release the asset by its object. Refer to <a href="../classes/loader.html#method
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:791](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L791) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L795) |
 
 ###### Parameters
-- asset <a href="../classes/Asset.html" class="crosslink">Asset</a> 
+- `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> 
 
 
 ##### releaseRes
@@ -506,11 +506,11 @@ Release the asset loaded by <a href="../classes/loader.html#method_loadRes" clas
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:805](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L805) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:809](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L809) |
 
 ###### Parameters
-- url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be released if this argument is supplied.
+- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be released if this argument is supplied.
 
 
 ##### releaseResDir
@@ -519,11 +519,11 @@ Release the all assets loaded by <a href="../classes/loader.html#method_loadResD
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:823](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L823) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:827](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L827) |
 
 ###### Parameters
-- url <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be released if this argument is supplied.
+- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be released if this argument is supplied.
 
 
 ##### releaseAll
@@ -532,7 +532,7 @@ Resource all assets. Refer to <a href="../classes/loader.html#method_release" cl
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:839](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L839) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:843](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L843) |
 
 
 
@@ -549,11 +549,11 @@ See: <a href="../classes/loader.html#method_setAutoReleaseRecursively" class="cr
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:860](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L860) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:864](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L864) |
 
 ###### Parameters
-- assetOrUrlOrUuid <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
-- autoRelease <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> indicates whether should release automatically
+- `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
+- `autoRelease` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> indicates whether should release automatically
 
 ##### Examples
 
@@ -579,11 +579,11 @@ See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:900](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L900) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:904](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L904) |
 
 ###### Parameters
-- assetOrUrlOrUuid <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
-- autoRelease <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> indicates whether should release automatically
+- `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
+- `autoRelease` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> indicates whether should release automatically
 
 ##### Examples
 
@@ -605,10 +605,10 @@ See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:948](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L948) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js:952](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/CCLoader.js#L952) |
 
 ###### Parameters
-- assetOrUrl <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url
+- `assetOrUrl` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url
 
 
 ##### constructor
@@ -624,7 +624,7 @@ It can also include `async` property to identify whether it's an asynchronous pr
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L111) |
 
 ###### Parameters
-- pipes <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `pipes` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ##### Examples
 
@@ -649,8 +649,8 @@ A pipe must contain an `id` in string and a `handle` function, the id must be un
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:155](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L155) |
 
 ###### Parameters
-- pipe <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted
-- index <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The index to insert
+- `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The index to insert
 
 
 ##### insertPipeAfter
@@ -665,8 +665,8 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:198](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L198) |
 
 ###### Parameters
-- refPipe <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing pipe in the pipeline.
-- newPipe <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted.
+- `refPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing pipe in the pipeline.
+- `newPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted.
 
 
 ##### appendPipe
@@ -679,7 +679,7 @@ A pipe must contain an `id` in string and a `handle` function, the id must be un
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:215](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L215) |
 
 ###### Parameters
-- pipe <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be appended
+- `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be appended
 
 
 ##### flowIn
@@ -696,7 +696,7 @@ The object can contain any supplementary property as you want. </br>
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:239](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L239) |
 
 ###### Parameters
-- items <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `items` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ##### Examples
 
@@ -727,8 +727,8 @@ found in the configuration file, and finish the loader pipe only after all depen
 | Deprecated | since v1.3 |
 
 ###### Parameters
-- urlList <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- `urlList` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
 
 ##### copyItemStates
@@ -746,8 +746,8 @@ For example, an unzip pipe will generate more items, but you won't want them to 
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:324](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L324) |
 
 ###### Parameters
-- srcItem <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
-- dstItems <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> A single destination item or an array of destination items
+- `srcItem` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
+- `dstItems` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> A single destination item or an array of destination items
 
 
 ##### isFlowing
@@ -784,7 +784,7 @@ Returns an item in pipeline.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:375](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L375) |
 
 ###### Parameters
-- id <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
+- `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
 
 
 ##### removeItem
@@ -800,7 +800,7 @@ please refer to <a href="../classes/loader.html#method_release" class="crosslink
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js:395](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/pipeline.js#L395) |
 
 ###### Parameters
-- id <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
+- `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
 
 
 ##### clear

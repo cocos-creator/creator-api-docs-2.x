@@ -63,8 +63,8 @@ change the screen to full mode.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:114](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L114) |
 
 ###### 参数列表
-- element Element 
-- onFullScreenChange <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- `element` Element 
+- `onFullScreenChange` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
 
 ##### exitFullScreen
@@ -87,8 +87,8 @@ Automatically request full screen with a touch/click event
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js:148](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCScreen.js#L148) |
 
 ###### 参数列表
-- element Element 
-- onFullScreenChange <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- `element` Element 
+- `onFullScreenChange` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
 
 

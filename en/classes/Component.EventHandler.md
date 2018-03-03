@@ -98,8 +98,8 @@ And it will trigger the handler when a certain event occurs.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponentEventHandler.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponentEventHandler.js#L95) |
 
 ###### Parameters
-- events <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> 
-- params Any 
+- `events` <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> 
+- `params` Any 
 
 
 ##### emit
@@ -111,7 +111,7 @@ Emit event with params
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponentEventHandler.js:119](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponentEventHandler.js#L119) |
 
 ###### Parameters
-- params <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `params` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ##### Examples
 

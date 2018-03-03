@@ -92,8 +92,8 @@
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponentEventHandler.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponentEventHandler.js#L95) |
 
 ###### 参数列表
-- events <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> 
-- params Any 
+- `events` <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> 
+- `params` Any 
 
 
 ##### emit
@@ -105,7 +105,7 @@
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponentEventHandler.js:119](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponentEventHandler.js#L119) |
 
 ###### 参数列表
-- params <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `params` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ##### 示例
 

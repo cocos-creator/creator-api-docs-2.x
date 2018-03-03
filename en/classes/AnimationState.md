@@ -162,7 +162,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js:386](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js#L386) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js:374](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js#L374) |
 
 
 
@@ -173,7 +173,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js:397](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js#L397) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js:385](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js#L385) |
 
 
 
@@ -215,8 +215,8 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js:25](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/animation-state.js#L25) |
 
 ###### Parameters
-- clip <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> 
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `clip` <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> 
+- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### onPlay
@@ -268,7 +268,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/animation/playable.js#L65) |
 
 ###### Parameters
-- errorCode <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
+- `errorCode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
 
 
 ##### play

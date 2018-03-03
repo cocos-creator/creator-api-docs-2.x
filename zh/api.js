@@ -1398,7 +1398,7 @@ window.apimeta = {
       "name": "eventManager",
       "namespace": "cc.eventManager",
       "module": "cc",
-      "description": "事件管理器，它主要管理事件监听器注册和派发系统事件。\n原始设计中，它支持鼠标，触摸，键盘，陀螺仪和自定义事件。\n在 Creator 的设计中，鼠标，触摸和自定义事件的监听和派发请参考 http://cocos.com/docs/creator/scripting/events.html。"
+      "description": "该类已废弃，请使用 cc.systemEvent 或 cc.EventTarget 代替，详见 [监听和发射事件](../../../manual/zh/scripting/events.md)。<br>\n<br>\n事件管理器，它主要管理事件监听器注册和派发系统事件。"
     },
     {
       "name": "loader",

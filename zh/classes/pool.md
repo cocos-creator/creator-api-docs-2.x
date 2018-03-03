@@ -45,7 +45,7 @@ cc.pool 是一个单例对象，用作为对象缓存池。<br/>
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:60](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L60) |
 
 ###### 参数列表
-- obj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The need put in pool object.
+- `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The need put in pool object.
 
 ##### 示例
 
@@ -68,7 +68,7 @@ cc.pool.getFromPool(_ccsg.Sprite, "a.png");
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js:82](https:/github.com/cocos-creator/engine/blob/master/extensions/ccpool/CCPool.js#L82) |
 
 ###### 参数列表
-- objClass <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The check object class.
+- `objClass` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The check object class.
 
 
 ##### removeObject
@@ -103,7 +103,7 @@ cc.pool.getFromPool(_ccsg.Sprite, "a.png");
 
 
 
-��则返回空。
+象，则返回空。
 
 | meta | description |
 |------|-------------|

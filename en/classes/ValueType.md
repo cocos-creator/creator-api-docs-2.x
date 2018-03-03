@@ -54,7 +54,7 @@ Compares this object with the other one.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:54](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L54) |
 
 ###### Parameters
-- other <a href="../classes/ValueType.html" class="crosslink">ValueType</a>  
+- `other` <a href="../classes/ValueType.html" class="crosslink">ValueType</a>  
 
 
 ##### lerp
@@ -68,8 +68,8 @@ When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns 
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCValueType.js#L66) |
 
 ###### Parameters
-- to <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value
-- ratio <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> the interpolation coefficient
+- `to` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value
+- `ratio` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> the interpolation coefficient
 
 
 ##### toString

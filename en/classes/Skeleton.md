@@ -555,7 +555,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.Bone object.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:576](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L576) |
 
 ###### Parameters
-- boneName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### findSlot
@@ -569,7 +569,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.Slot object.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:597](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L597) |
 
 ###### Parameters
-- slotName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### setSkin
@@ -585,7 +585,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.Skin object.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:616](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L616) |
 
 ###### Parameters
-- skinName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `skinName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### getAttachment
@@ -600,8 +600,8 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.Attachment object.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:638](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L638) |
 
 ###### Parameters
-- slotName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- attachmentName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `attachmentName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### setAttachment
@@ -614,8 +614,8 @@ The skeleton looks first in its skin, then in the skeleton data’s default skin
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:659](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L659) |
 
 ###### Parameters
-- slotName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- attachmentName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `attachmentName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### setSkeletonData
@@ -628,8 +628,8 @@ This method is different from the `skeletonData` property. This method is passed
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:676](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L676) |
 
 ###### Parameters
-- skeletonData sp.spine.SkeletonData 
-- ownsSkeletonData sp.spine.SkeletonData 
+- `skeletonData` sp.spine.SkeletonData 
+- `ownsSkeletonData` sp.spine.SkeletonData 
 
 
 ##### setAnimationStateData
@@ -642,7 +642,7 @@ The parameter type is <a href="../modules/sp.spine.html">sp.spine</a>.AnimationS
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:707](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L707) |
 
 ###### Parameters
-- stateData sp.spine.AnimationStateData 
+- `stateData` sp.spine.AnimationStateData 
 
 
 ##### setMix
@@ -655,9 +655,9 @@ interpolated for the specified time and mixed with the current values.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:721](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L721) |
 
 ###### Parameters
-- fromAnimation <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- toAnimation <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `fromAnimation` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `toAnimation` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### setAnimationListener
@@ -669,8 +669,8 @@ Sets event listener.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:737](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L737) |
 
 ###### Parameters
-- target <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
 
 ##### setAnimation
@@ -684,9 +684,9 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.TrackEntry object.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:750](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L750) |
 
 ###### Parameters
-- trackIndex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- loop <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `loop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### addAnimation
@@ -700,10 +700,10 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.TrackEntry object.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:779](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L779) |
 
 ###### Parameters
-- trackIndex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- loop <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-- delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `loop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `delay` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### findAnimation
@@ -716,7 +716,7 @@ Find animation with specified name.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:798](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L798) |
 
 ###### Parameters
-- name <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### getCurrent
@@ -730,7 +730,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.TrackEntry object.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:812](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L812) |
 
 ###### Parameters
-- trackIndex Unknown 
+- `trackIndex` Unknown 
 
 
 ##### clearTracks
@@ -752,7 +752,7 @@ Clears track of animation state by trackIndex.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:839](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L839) |
 
 ###### Parameters
-- trackIndex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+- `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 
 ##### setStartListener
@@ -764,7 +764,7 @@ Set the start event listener.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:873](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L873) |
 
 ###### Parameters
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setInterruptListener
@@ -776,7 +776,7 @@ Set the interrupt event listener.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:886](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L886) |
 
 ###### Parameters
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setEndListener
@@ -788,7 +788,7 @@ Set the end event listener.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:899](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L899) |
 
 ###### Parameters
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setDisposeListener
@@ -800,7 +800,7 @@ Set the dispose event listener.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:912](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L912) |
 
 ###### Parameters
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setCompleteListener
@@ -812,7 +812,7 @@ Set the complete event listener.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:925](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L925) |
 
 ###### Parameters
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setEventListener
@@ -824,7 +824,7 @@ Set the animation event listener.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:938](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L938) |
 
 ###### Parameters
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackStartListener
@@ -836,8 +836,8 @@ Set the start event listener for specified TrackEntry (only supported on Web).
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:951](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L951) |
 
 ###### Parameters
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackInterruptListener
@@ -849,8 +849,8 @@ Set the interrupt event listener for specified TrackEntry (only supported on Web
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:964](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L964) |
 
 ###### Parameters
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackEndListener
@@ -862,8 +862,8 @@ Set the end event listener for specified TrackEntry (only supported on Web).
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:977](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L977) |
 
 ###### Parameters
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackDisposeListener
@@ -875,8 +875,8 @@ Set the dispose event listener for specified TrackEntry (only supported on Web).
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:990](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L990) |
 
 ###### Parameters
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackCompleteListener
@@ -888,8 +888,8 @@ Set the complete event listener for specified TrackEntry (only supported on Web)
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:1003](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L1003) |
 
 ###### Parameters
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### setTrackEventListener
@@ -901,8 +901,8 @@ Set the event listener for specified TrackEntry (only supported on Web).
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js:1016](https:/github.com/cocos-creator/engine/blob/master/extensions/spine/Skeleton.js#L1016) |
 
 ###### Parameters
-- entry sp.spine.TrackEntry 
-- listener <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `entry` sp.spine.TrackEntry 
+- `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
 ##### _createSgNode
@@ -946,7 +946,7 @@ Update is called every frame, if the Component is enabled.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
 
 ###### Parameters
-- dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
 
 
 ##### lateUpdate
@@ -1064,7 +1064,7 @@ Adds a component class to the node. You can also add component to node by passin
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
 ##### Examples
 
@@ -1084,7 +1084,7 @@ You can also get component in the node by passing in the name of the script.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -1105,7 +1105,7 @@ Returns all components of supplied Type in the node.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -1124,7 +1124,7 @@ Returns the component of supplied type in any of its children using depth first 
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -1143,7 +1143,7 @@ Returns the components of supplied type in self or any of its children using dep
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -1162,7 +1162,7 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
 
 ###### Parameters
-- out_rect <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
+- `out_rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
 
 
 ##### onRestore
@@ -1204,10 +1204,10 @@ If the selector is already scheduled, then the interval parameter will be update
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
 
 ###### Parameters
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
-- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
-- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
-- delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
+- `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
+- `repeat` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
+- `delay` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### Examples
 
@@ -1227,8 +1227,8 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### Parameters
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
-- delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
+- `delay` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### Examples
 
@@ -1248,7 +1248,7 @@ Unschedules a custom callback function.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### Parameters
-- callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
+- `callback_fn` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
 
 ##### Examples
 
@@ -1339,7 +1339,7 @@ The customized serialization for this object. (Editor Only)
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 
 ###### Parameters
-- exporting <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### _deserialize
@@ -1351,8 +1351,8 @@ Init this object from the custom serialized data.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
-- data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
-- ctx _Deserializer 
+- `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
+- `ctx` _Deserializer 
 
 
 

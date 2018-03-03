@@ -510,9 +510,9 @@ Called when two collider begin to touch.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L90) |
 
 ###### Parameters
-- contact <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
-- selfCollider <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to this rigidbody
-- otherCollider <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to another rigidbody
+- `contact` <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
+- `selfCollider` <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to this rigidbody
+- `otherCollider` <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to another rigidbody
 
 
 ##### onEndContact
@@ -525,9 +525,9 @@ Called when two collider cease to touch.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:102](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L102) |
 
 ###### Parameters
-- contact <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
-- selfCollider <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to this rigidbody
-- otherCollider <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to another rigidbody
+- `contact` <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
+- `selfCollider` <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to this rigidbody
+- `otherCollider` <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to another rigidbody
 
 
 ##### onPreSolve
@@ -544,9 +544,9 @@ Note: this is not called for sensors.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:114](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L114) |
 
 ###### Parameters
-- contact <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
-- selfCollider <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to this rigidbody
-- otherCollider <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to another rigidbody
+- `contact` <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
+- `selfCollider` <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to this rigidbody
+- `otherCollider` <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to another rigidbody
 
 
 ##### onPostSolve
@@ -560,9 +560,9 @@ You can get the impulses from the contact in this callback.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L134) |
 
 ###### Parameters
-- contact <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
-- selfCollider <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to this rigidbody
-- otherCollider <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to another rigidbody
+- `contact` <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
+- `selfCollider` <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to this rigidbody
+- `otherCollider` <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> the collider belong to another rigidbody
 
 
 ##### getLocalPoint
@@ -575,8 +575,8 @@ Gets a local point relative to the body's origin given a world point.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:420](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L420) |
 
 ###### Parameters
-- worldPoint <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a point in world coordinates.
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving point
+- `worldPoint` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a point in world coordinates.
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving point
 
 
 ##### getWorldPoint
@@ -589,8 +589,8 @@ Get the world coordinates of a point given the local coordinates.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:441](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L441) |
 
 ###### Parameters
-- localPoint <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a point in local coordinates.
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving point
+- `localPoint` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a point in local coordinates.
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving point
 
 
 ##### getWorldVector
@@ -603,8 +603,8 @@ Get the world coordinates of a vector given the local coordinates.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:462](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L462) |
 
 ###### Parameters
-- localVector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a vector in world coordinates.
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `localVector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a vector in world coordinates.
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 
 ##### getLocalVector
@@ -617,8 +617,8 @@ Gets a local vector relative to the body's origin given a world vector.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:483](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L483) |
 
 ###### Parameters
-- worldVector <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a vector in world coordinates.
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
+- `worldVector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a vector in world coordinates.
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
 
 
 ##### getWorldPosition
@@ -631,7 +631,7 @@ Get the world body origin position.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:504](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L504) |
 
 ###### Parameters
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving point
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving point
 
 
 ##### getWorldRotation
@@ -677,8 +677,8 @@ Get the world linear velocity of a world point attached to this body.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:574](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L574) |
 
 ###### Parameters
-- worldPoint <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a point in world coordinates.
-- out <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving point
+- `worldPoint` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a point in world coordinates.
+- `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving point
 
 
 ##### getMass
@@ -725,9 +725,9 @@ affect the angular velocity.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:663](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L663) |
 
 ###### Parameters
-- force <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world force vector.
-- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world position.
-- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body.
+- `force` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world force vector.
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world position.
+- `wake` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body.
 
 
 ##### applyForceToCenter
@@ -739,8 +739,8 @@ Apply a force to the center of mass.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:683](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L683) |
 
 ###### Parameters
-- force <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world force vector.
-- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body.
+- `force` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world force vector.
+- `wake` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body.
 
 
 ##### applyTorque
@@ -752,8 +752,8 @@ Apply a torque. This affects the angular velocity.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:699](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L699) |
 
 ###### Parameters
-- torque <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> about the z-axis (out of the screen), usually in N-m.
-- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body
+- `torque` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> about the z-axis (out of the screen), usually in N-m.
+- `wake` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body
 
 
 ##### applyLinearImpulse
@@ -767,9 +767,9 @@ affect the angular velocity.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:714](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L714) |
 
 ###### Parameters
-- impulse <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world impulse vector, usually in N-seconds or kg-m/s.
-- point <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world position
-- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> alse wake up the body
+- `impulse` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world impulse vector, usually in N-seconds or kg-m/s.
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world position
+- `wake` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> alse wake up the body
 
 
 ##### applyAngularImpulse
@@ -781,8 +781,8 @@ Apply an angular impulse.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:735](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L735) |
 
 ###### Parameters
-- impulse <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the angular impulse in units of kg*m*m/s
-- wake <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body
+- `impulse` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the angular impulse in units of kg*m*m/s
+- `wake` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> also wake up the body
 
 
 ##### syncPosition
@@ -796,7 +796,7 @@ will set linear velocity instead of directly set rigidbody's position.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:750](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L750) |
 
 ###### Parameters
-- enableAnimated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `enableAnimated` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### syncRotation
@@ -810,7 +810,7 @@ will set angular velocity instead of directly set rigidbody's angle.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js:795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCRigidBody.js#L795) |
 
 ###### Parameters
-- enableAnimated <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `enableAnimated` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### update
@@ -822,7 +822,7 @@ Update is called every frame, if the Component is enabled.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:234](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L234) |
 
 ###### Parameters
-- dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
 
 
 ##### lateUpdate
@@ -940,7 +940,7 @@ Adds a component class to the node. You can also add component to node by passin
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:328](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L328) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
 
 ##### Examples
 
@@ -960,7 +960,7 @@ You can also get component in the node by passing in the name of the script.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L346) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -981,7 +981,7 @@ Returns all components of supplied Type in the node.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:370](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L370) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -1000,7 +1000,7 @@ Returns the component of supplied type in any of its children using depth first 
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:388](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L388) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -1019,7 +1019,7 @@ Returns the components of supplied type in self or any of its children using dep
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:406](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L406) |
 
 ###### Parameters
-- typeOrClassName <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 ##### Examples
 
@@ -1038,7 +1038,7 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L426) |
 
 ###### Parameters
-- out_rect <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
+- `out_rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
 
 
 ##### onRestore
@@ -1080,10 +1080,10 @@ If the selector is already scheduled, then the interval parameter will be update
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:541](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541) |
 
 ###### Parameters
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
-- interval <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
-- repeat <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
-- delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
+- `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Tick interval in seconds. 0 means tick every frame.
+- `repeat` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The selector will be executed (repeat + 1) times, you can use cc.macro.REPEAT_FOREVER for tick infinitely.
+- `delay` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### Examples
 
@@ -1103,8 +1103,8 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:578](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### Parameters
-- callback <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
-- delay <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
+- `delay` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The amount of time that the first tick will wait before execution.
 
 ##### Examples
 
@@ -1124,7 +1124,7 @@ Unschedules a custom callback function.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js:595](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### Parameters
-- callback_fn <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
+- `callback_fn` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
 
 ##### Examples
 
@@ -1215,7 +1215,7 @@ The customized serialization for this object. (Editor Only)
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L437) |
 
 ###### Parameters
-- exporting <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### _deserialize
@@ -1227,8 +1227,8 @@ Init this object from the custom serialized data.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js:447](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCObject.js#L447) |
 
 ###### Parameters
-- data <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
-- ctx _Deserializer 
+- `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
+- `ctx` _Deserializer 
 
 
 

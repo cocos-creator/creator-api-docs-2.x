@@ -177,7 +177,7 @@ initialize
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCVisibleRect.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCVisibleRect.js#L49) |
 
 ###### 参数列表
-- visibleRect <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `visibleRect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
 
 
 

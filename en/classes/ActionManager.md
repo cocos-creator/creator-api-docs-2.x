@@ -67,9 +67,9 @@ When the target is paused, the queued actions won't be 'ticked'.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L101) |
 
 ###### Parameters
-- action <a href="../classes/Action.html" class="crosslink">Action</a> 
-- target <a href="../classes/Node.html" class="crosslink">Node</a> 
-- paused <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `action` <a href="../classes/Action.html" class="crosslink">Action</a> 
+- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `paused` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### removeAllActions
@@ -92,8 +92,8 @@ All the actions that belongs to the target will be removed.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:153](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L153) |
 
 ###### Parameters
-- target <a href="../classes/Node.html" class="crosslink">Node</a> 
-- forceDelete <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `forceDelete` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### removeAction
@@ -105,7 +105,7 @@ Removes an action given an action reference.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:174](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L174) |
 
 ###### Parameters
-- action <a href="../classes/Action.html" class="crosslink">Action</a> 
+- `action` <a href="../classes/Action.html" class="crosslink">Action</a> 
 
 
 ##### removeActionByTag
@@ -117,8 +117,8 @@ Removes an action given its tag and the target.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:202](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L202) |
 
 ###### Parameters
-- tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- target <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 ##### getActionByTag
@@ -131,8 +131,8 @@ Gets an action given its tag an a target.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L229) |
 
 ###### Parameters
-- tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- target <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 ##### getNumberOfRunningActionsInTarget
@@ -149,7 +149,7 @@ Example: <br/>
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:256](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L256) |
 
 ###### Parameters
-- target <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 ##### pauseTarget
@@ -161,7 +161,7 @@ Pauses the target: all running actions and newly added actions will be paused.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:281](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L281) |
 
 ###### Parameters
-- target <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 ##### resumeTarget
@@ -173,7 +173,7 @@ Resumes the target. All queued actions will be resumed.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L292) |
 
 ###### Parameters
-- target <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 ##### pauseAllRunningActions
@@ -196,7 +196,7 @@ Resume a set of targets (convenience function to reverse a pauseAllRunningAction
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:323](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L323) |
 
 ###### Parameters
-- targetsToResume <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `targetsToResume` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
 ##### pauseTargets
@@ -208,7 +208,7 @@ Pause a set of targets.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L339) |
 
 ###### Parameters
-- targetsToPause <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `targetsToPause` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
 ##### purgeSharedManager
@@ -231,7 +231,7 @@ The ActionManager update。
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:402](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L402) |
 
 ###### Parameters
-- dt <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> delta time in seconds
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> delta time in seconds
 
 
 

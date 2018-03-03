@@ -37,10 +37,10 @@ Manipulation before appling the strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1037](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1037) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1039](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1039) |
 
 ###### Parameters
-- view <a href="../classes/View.html" class="crosslink">View</a> The target view
+- `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
 
 
 ##### apply
@@ -49,11 +49,11 @@ Function to apply this strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1045](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1045) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1047](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1047) |
 
 ###### Parameters
-- view <a href="../classes/View.html" class="crosslink">View</a> 
-- designedResolution <a href="../classes/Size.html" class="crosslink">Size</a> 
+- `view` <a href="../classes/View.html" class="crosslink">View</a> 
+- `designedResolution` <a href="../classes/Size.html" class="crosslink">Size</a> 
 
 
 ##### postApply
@@ -62,10 +62,10 @@ Manipulation after applying the strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1054](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1054) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1056](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1056) |
 
 ###### Parameters
-- view <a href="../classes/View.html" class="crosslink">View</a> The target view
+- `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
 
 
 

@@ -57,7 +57,7 @@ Implementation of ease motion.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L124) |
 
 ###### Parameters
-- easeObj <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- `easeObj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
 ##### Examples
 
@@ -76,7 +76,7 @@ To repeat an action forever use the CCRepeatForever action.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:252](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L252) |
 
 ###### Parameters
-- times <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `times` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### repeatForever
@@ -111,7 +111,7 @@ set duration of the action. (seconds).
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:210](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L210) |
 
 ###### Parameters
-- duration <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### reverse
@@ -172,7 +172,7 @@ The action will modify the target properties.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L107) |
 
 ###### Parameters
-- target <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 ##### getOriginalTarget
@@ -206,7 +206,7 @@ set tag number.
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:144](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L144) |
 
 ###### Parameters
-- tag <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 

@@ -44,7 +44,7 @@ Constructor of Downloader, you can pass custom supported types.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js:271](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js#L271) |
 
 ###### 参数列表
-- extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
+- `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
 ##### 示例
 
@@ -64,7 +64,7 @@ Add custom supported types handler or modify existing type handler.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js:294](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/load-pipeline/downloader.js#L294) |
 
 ###### 参数列表
-- extMap <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
+- `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
 
 
 

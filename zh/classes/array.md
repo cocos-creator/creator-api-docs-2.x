@@ -50,8 +50,8 @@ Removes the array item at the specified index.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:654](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L654) |
 
 ###### 参数列表
-- array Any 
-- index <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `array` Any 
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### fastRemoveAt
@@ -64,8 +64,8 @@ It's faster but the order of the array will be changed.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:664](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L664) |
 
 ###### 参数列表
-- array Any 
-- index <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `array` Any 
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### remove
@@ -78,8 +78,8 @@ Removes the first occurrence of a specific object from the array.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:680](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L680) |
 
 ###### 参数列表
-- array Any 
-- value Any 
+- `array` Any 
+- `value` Any 
 
 
 ##### fastRemove
@@ -92,8 +92,8 @@ It's faster but the order of the array will be changed.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:698](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L698) |
 
 ###### 参数列表
-- array Any 
-- value <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `array` Any 
+- `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### verifyType
@@ -106,8 +106,8 @@ Verify array's Type
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:713](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L713) |
 
 ###### 参数列表
-- array <a href="../classes/array.html" class="crosslink">array</a> 
-- type <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- `array` <a href="../classes/array.html" class="crosslink">array</a> 
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 
 
 ##### removeArray
@@ -119,8 +119,8 @@ Removes from array all values in minusArr. For each Value in minusArr, the first
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:732](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L732) |
 
 ###### 参数列表
-- array <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> Source Array
-- minusArr <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> minus Array
+- `array` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> Source Array
+- `minusArr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> minus Array
 
 
 ##### appendObjectsAt
@@ -133,9 +133,9 @@ Inserts some objects at index
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:744](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L744) |
 
 ###### 参数列表
-- array <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-- addObjs <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-- index <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `array` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `addObjs` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### indexOf
@@ -150,8 +150,8 @@ Baidu developers, if you ever see this documentation, here is the standard: http
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:757](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L757) |
 
 ###### 参数列表
-- searchElement Any Element to locate in the array.
-- fromIndex <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The index to start the search at
+- `searchElement` Any Element to locate in the array.
+- `fromIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The index to start the search at
 
 
 ##### contains
@@ -164,8 +164,8 @@ Determines whether the array contains a specific value.
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:769](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L769) |
 
 ###### 参数列表
-- array Any 
-- value Any 
+- `array` Any 
+- `value` Any 
 
 
 ##### copy
@@ -178,7 +178,7 @@ Copy an array's item to a new array (its performance is better than Array.slice)
 | 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js:780](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/js.js#L780) |
 
 ###### 参数列表
-- array <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `array` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 
 
