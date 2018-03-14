@@ -12,6 +12,10 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 ### Classes
 
   - [DebugMode](../classes/DebugMode.md)
+  - [AnimationClip](../classes/AnimationClip.md)
+  - [AnimationState](../classes/AnimationState.md)
+  - [Playable](../classes/Playable.md)
+  - [WrapMode](../classes/WrapMode.md)
   - [Action](../classes/Action.md)
   - [FiniteTimeAction](../classes/FiniteTimeAction.md)
   - [ActionEase](../classes/ActionEase.md)
@@ -23,14 +27,10 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [ActionManager](../classes/ActionManager.md)
   - [audioEngine.AudioState](../classes/audioEngine.AudioState.md)
   - [audioEngine](../classes/audioEngine.md)
-  - [AnimationClip](../classes/AnimationClip.md)
-  - [AnimationState](../classes/AnimationState.md)
-  - [Playable](../classes/Playable.md)
-  - [WrapMode](../classes/WrapMode.md)
+  - [MotionStreak](../classes/MotionStreak.md)
   - [ParticleSystem.EmitterMode](../classes/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../classes/ParticleSystem.PositionType.md)
   - [ParticleSystem](../classes/ParticleSystem.md)
-  - [MotionStreak](../classes/MotionStreak.md)
   - [Director](../classes/Director.md)
   - [Game](../classes/Game.md)
   - [Node.EventType](../classes/Node.EventType.md)
@@ -70,11 +70,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [Intersection](../classes/Intersection.md)
   - [Collider.Polygon](../classes/Collider.Polygon.md)
   - [PolygonCollider](../classes/PolygonCollider.md)
-  - [EventTarget](../classes/EventTarget.md)
-  - [Event](../classes/Event.md)
-  - [Event.EventCustom](../classes/Event.EventCustom.md)
-  - [SystemEvent.EventType](../classes/SystemEvent.EventType.md)
-  - [SystemEvent](../classes/SystemEvent.md)
   - [Animation](../classes/Animation.md)
   - [AudioSource](../classes/AudioSource.md)
   - [BlockInputEvents](../classes/BlockInputEvents.md)
@@ -134,6 +129,11 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [WebView.EventType](../classes/WebView.EventType.md)
   - [WebView](../classes/WebView.md)
   - [Widget](../classes/Widget.md)
+  - [EventTarget](../classes/EventTarget.md)
+  - [Event](../classes/Event.md)
+  - [Event.EventCustom](../classes/Event.EventCustom.md)
+  - [SystemEvent.EventType](../classes/SystemEvent.EventType.md)
+  - [SystemEvent](../classes/SystemEvent.md)
   - [Event.EventMouse](../classes/Event.EventMouse.md)
   - [Event.EventTouch](../classes/Event.EventTouch.md)
   - [Event.EventAcceleration](../classes/Event.EventAcceleration.md)
@@ -144,6 +144,12 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [Graphics](../classes/Graphics.md)
   - [Graphics.LineCap](../classes/Graphics.LineCap.md)
   - [Graphics.LineJoin](../classes/Graphics.LineJoin.md)
+  - [loader](../classes/loader.md)
+  - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
+  - [Pipeline.Loader](../classes/Pipeline.Loader.md)
+  - [LoadingItems](../classes/LoadingItems.md)
+  - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
+  - [Pipeline](../classes/Pipeline.md)
   - [WorldManifold](../classes/WorldManifold.md)
   - [ManifoldPoint](../classes/ManifoldPoint.md)
   - [Manifold](../classes/Manifold.md)
@@ -155,13 +161,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [RigidBodyType](../classes/RigidBodyType.md)
   - [RayCastType](../classes/RayCastType.md)
   - [RigidBody](../classes/RigidBody.md)
-  - [loader](../classes/loader.md)
-  - [Pipeline.Downloader](../classes/Pipeline.Downloader.md)
-  - [Pipeline.Loader](../classes/Pipeline.Loader.md)
-  - [LoadingItems](../classes/LoadingItems.md)
-  - [LoadingItems.ItemState](../classes/LoadingItems.ItemState.md)
-  - [Pipeline](../classes/Pipeline.md)
-  - [SpriteFrame](../classes/SpriteFrame.md)
   - [KEY](../classes/KEY.md)
   - [ImageFormat](../classes/ImageFormat.md)
   - [macro](../classes/macro.md)
@@ -183,11 +182,13 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [CallbacksInvoker](../classes/CallbacksInvoker.md)
   - [Details](../classes/Details.md)
   - [url](../classes/url.md)
+  - [SpriteFrame](../classes/SpriteFrame.md)
   - [Texture2D.PixelFormat](../classes/Texture2D.PixelFormat.md)
   - [Texture2D.WrapMode](../classes/Texture2D.WrapMode.md)
   - [Texture2D.Filter](../classes/Texture2D.Filter.md)
   - [Texture2D](../classes/Texture2D.md)
   - [textureCache](../classes/textureCache.md)
+  - [_BaseNode](../classes/_BaseNode.md)
   - [AffineTransform](../classes/AffineTransform.md)
   - [Color](../classes/Color.md)
   - [Rect](../classes/Rect.md)
@@ -208,7 +209,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [V2F_C4B_T2F_Triangle](../classes/V2F_C4B_T2F_Triangle.md)
   - [ValueType](../classes/ValueType.md)
   - [Vec2](../classes/Vec2.md)
-  - [_BaseNode](../classes/_BaseNode.md)
   - [PhysicsBoxCollider](../classes/PhysicsBoxCollider.md)
   - [PhysicsChainCollider](../classes/PhysicsChainCollider.md)
   - [PhysicsCircleCollider](../classes/PhysicsCircleCollider.md)
@@ -227,8 +227,8 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 ### Enums
 
   - [DebugMode](../enums/DebugMode.md)
-  - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [WrapMode](../enums/WrapMode.md)
+  - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
   - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
@@ -262,10 +262,10 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [WebView.EventType](../enums/WebView.EventType.md)
   - [Graphics.LineCap](../enums/Graphics.LineCap.md)
   - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
+  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
   - [DrawBits](../enums/DrawBits.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [RayCastType](../enums/RayCastType.md)
-  - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
   - [KEY](../enums/KEY.md)
   - [ImageFormat](../enums/ImageFormat.md)
   - [macro](../enums/macro.md)
@@ -519,6 +519,10 @@ Otherwise it will use the value specified by user who writes the enum definition
   - [`isValid`](#isvalid) Checks whether the object is non-nil and not yet destroyed.
   - [`deserialize`](#deserialize) Deserialize json to cc.Asset
   - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
   - [`color`](#color) The convenience method to create a new Color/Color:method
 Alpha channel is optional. Default value is 255.
   - [`colorEqual`](#colorequal) returns true if both ccColor3B are equal. Otherwise it returns false.
@@ -597,10 +601,6 @@ Please use cc.p or cc.v2 instead, it will soon replace cc.Size.
   - [`v2`](#v2) The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
   - [`p`](#p) The convenience method to creates a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
   - [`pointEqualToPoint`](#pointequaltopoint) Check whether a point's value equals to another.
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
 
 
 
@@ -696,7 +696,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Game.html" class="crosslink">Game</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:826](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L826) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js:829](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCGame.js#L829) |
 
 
 
@@ -3087,6 +3087,23 @@ var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
 
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
+
+###### Parameters
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
+
+
 ##### color
 
 The convenience method to create a new Color/Color:method
@@ -4277,23 +4294,6 @@ Check whether a point's value equals to another.
 ###### Parameters
 - `point1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - `point2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js:29](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/utils/find.js#L29) |
-
-###### Parameters
-- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 

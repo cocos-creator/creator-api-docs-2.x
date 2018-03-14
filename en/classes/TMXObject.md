@@ -51,6 +51,8 @@ Get the property of object
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 | Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L81) |
 
+###### Parameters
+- `propertyName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
 
 ##### getProperties
@@ -60,7 +62,7 @@ Get the properties of object
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:91](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L91) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:92](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L92) |
 
 
 
@@ -70,7 +72,7 @@ Set the object name
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L101) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:102](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L102) |
 
 ###### Parameters
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -82,7 +84,7 @@ Set the properties of the object
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L111) |
+| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js:112](https:/github.com/cocos-creator/engine/blob/master/cocos2d/tilemap/CCSGTMXObject.js#L112) |
 
 ###### Parameters
 - `props` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 

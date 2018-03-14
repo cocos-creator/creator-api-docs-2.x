@@ -1,6 +1,6 @@
 # 索引
 
-Cocos Creator v1.8.0
+Cocos Creator v1.9.0
 
 Welcome to Cocos Creator JavaScript engine API reference. You can search anything in top left search filed.
 
@@ -117,8 +117,8 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`PluginParam`](classes/PluginParam.md) from [anysdk](modules/anysdk.md)
 - [`PluginProtocol`](classes/PluginProtocol.md) from [anysdk](modules/anysdk.md)
 - [`PolygonCollider`](classes/PolygonCollider.md) from [cc](modules/cc.md)
-- [`Pool`](classes/Pool.md) from [js](modules/js.md)
 - [`pool`](classes/pool.md) from [cc](modules/cc.md)
+- [`Pool`](classes/Pool.md) from [js](modules/js.md)
 - [`Prefab`](classes/Prefab.md) from [cc](modules/cc.md)
 - [`PrismaticJoint`](classes/PrismaticJoint.md) from [cc](modules/cc.md)
 - [`ProgressBar`](classes/ProgressBar.md) from [cc](modules/cc.md)
