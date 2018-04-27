@@ -36,5 +36,33 @@
         // console.log('after: ' + path);    
         location.assign(path);
     }
+    // this method is used to avoid the possibility of failure of the URL's anchor on WAN
+    function makeSureAnchorJumped () {
+        var anchor = window.location.href.split('#')[1];
+        if (anchor) {
+            var element = document.getElementById(anchor);
+            if (element) {
+                var topPos = element.offsetTop;
+                // for Safari browers
+                document.body.scrollTop = topPos;
+                // for IE, Chrome, FireFox, Opera browers
+                document.documentElement.scrollTop = topPos;
+            }
+        }                              
+    }
+
+    function avoidOnLoadConflict (onLoad) {
+        if (!window.onload) {
+            window.onload = onLoad;
+        }
+        else {
+            var oldFunc = window.onload;
+            window.onload = function () {
+                oldFunc();
+                onLoad();            
+            };
+        }
+    }
+    avoidOnLoadConflict(makeSureAnchorJumped);
     </script>
 {% endblock %}
