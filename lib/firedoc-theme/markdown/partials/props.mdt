@@ -1,0 +1,28 @@
+
+##### {{name}}
+
+> {{{description}}}
+
+| meta | description |
+|------|-------------|
+| {{i18n.TYPE}} | {{#crossLink type}}{{/crossLink}} |
+{{#if default}}
+| {{i18n.DEFAULTS}} | {{default}} |
+{{/if}}
+{{> field-info}}
+
+{{#example}}
+##### {{../i18n.EXAMPLES}}
+
+{{{.}}}
+{{/example}}
+
+{{#if subprops}}
+
+##### {{i18n.SUB_PROPERTIES}}
+
+{{#subprops}}
+- {{name}} `{{#crossLink type}}{{/crossLink}}` {{description}}
+{{/subprops}}
+
+{{/if}}

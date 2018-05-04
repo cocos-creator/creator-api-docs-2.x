@@ -1,0 +1,31 @@
+# {{i18n.INDEX}}
+
+Cocos Creator v{{getVersion}}
+
+Welcome to Cocos Creator JavaScript engine API reference. You can search anything in top left search filed.
+
+All enums and classes are under `cc` module if not specified otherwise.
+
+{{#if modules}}
+### {{i18n.sidebar.MODULES}}
+
+{{#modules}}
+- [`{{name}}`](modules/{{encodeName name}}.md)
+{{/modules}}
+{{/if}}
+
+{{#if classes}}
+### {{i18n.sidebar.CLASSES}}
+
+{{#classes}}
+- [`{{name}}`](classes/{{name}}.md) from [{{module}}](modules/{{module}}.md)
+{{/classes}}
+{{/if}}
+
+{{#if enums}}
+### {{i18n.sidebar.ENUMS}}
+
+{{#enums}}
+- [`{{name}}`](enums/{{name}}.md) from [{{module}}](modules/{{module}}.md)
+{{/enums}}
+{{/if}}

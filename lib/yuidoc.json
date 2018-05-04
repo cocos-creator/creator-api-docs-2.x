@@ -1,0 +1,20 @@
+{
+  "name": "Cocos Creator API",
+  "description": "",
+  "version": "1.6.x",
+  "url": "http://cocos.com/creator",
+  "logo": "",
+  "options": {
+    "version": "1.9.0",
+    "sourceURL": {
+        "org": "cocos-creator",
+        "repo": "engine",
+        "branch": "master"
+    },
+    "paths": [
+      "temp-src"
+    ],
+    "linkNatives": true,
+    "tabtospace": 4
+  }
+}

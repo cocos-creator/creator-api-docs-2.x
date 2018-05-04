@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="keywords" content="">
+  <meta name="content" content="">
+  <meta name="renderer" content="webkit">
+  <title>{{htmlTitle}}</title>
+  <link type="text/css" rel="stylesheet" media="(max-width:960px)" href="{{assets}}/wp-content/themes/cocos/css/oth.css?v=0.1" />
+  <link type="text/css" rel="stylesheet" media="(min-width:961px)" href="{{assets}}/wp-content/themes/cocos/css/style.css?v=0.1" media="all">
+  <link rel="stylesheet" href="{{assets}}/vendor/prettify/prettify-min.css">
+  <link rel="stylesheet" href="{{assets}}/css/main.css" id="site_styles">
+  <link rel="shortcut icon" type="image/ico" href="{{assets}}/favicon.ico">
+  <link rel="stylesheet" href="{{assets}}/css/solarized_light.css">
+  <script src="{{assets}}/vendor/yui-min.js"></script>
+</head>
+<body>
+  <script type="text/javascript" src="https://passport.cocos.com/sso/get_sso_header?client_id=215"></script>
+  <header class="">
+
+    <div class='header-bottm'>
+      <div class='header-bottm-container'>
+          <a class='logo' href="http://www.cocos.com/"><img src="{{assets}}/wp-content/themes/cocos/img/logo.png"></a>
+          <a class='language' href="http://www.cocos2d-x.org/" target='_blank'>EN</a>
+          <a class='m-menu' href="javascript:;"><img src="{{assets}}/wp-content/themes/cocos/img/m-nav.png"></a>
+          <ul class='nav tt'>
+              <li><a href="http://www.cocos.com/">首页</a ></li>
+              <li><a href="http://www.cocos.com/?cat=10">博客</a ></li>
+              <li><a href="http://www.cocos.com/creator">产品</a ></li>
+              <li><a href="http://www.cocos.com/download" >下载</a ></li>
+              <li class="current"><a href="http://www.cocos.com/docs/" class="current">文档</a ></li>
+              <li><a href="http://forum.cocos.com">论坛</a ></li>
+          </ul>
+      </div>
+    </div>
+
+  </header>
+  <div class="document-nav" style='z-index:500'>
+    <ul>
+          <li class='now-tab'>Cocos Creator<b><i></i></b></li>
+          <li class='fl current'><a href="http://www.cocos.com/docs/creator/" class="creator">Cocos Creator</a></li>
+          <li class='fl'><a href="http://www.cocos.com/docs/cocos2d-x/" class="cocos2d">Cocos2d-x</a></li>
+          <li class='fl'><a href="http://www.cocos.com/docs/anysdk/">AnySDK</a></li>
+          <li class='fl' style='display:none;'><a href="#">其它</a></li>
+
+        <li class='fr'><span class='now-tab' href="javascript:;">文档<b><i></i></b></span><a href="{{@root.base}}/../index.html">文档</a><a href="{{@root.base}}/../video-tutorial/index.html">视频</a><a href="{{@root.base}}/index.html">API</a>
+        </li>
+    </ul>
+  </div>
+  <div class='document-container' style='min-height:500px;'>
+    <div id="doc">
+      <div id="bd" class="main-body">
+        <div id="docs-sidebar" class="sidebar apidocs">{{>sidebar}}</div>
+          <div id="docs-main" class="apidocs">
+            <div id="top-anchor"></div>
+            <div class="content container">{{>layout_content}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<footer>
+      <div class='footer-container'>
+        <ul>
+            <li><a href="http://www.cocos.com/category/blog/all">博客</a></li>
+            <li><a href="http://www.cocos.com/?cat=10">新闻</a></li>
+            <li><a href="http://www.cocos.com/?cat=12">活动</a></li>
+            <li><a href="http://www.cocos.com/?cat=14">技术</a></li>
+        </ul>
+        <ul>
+            <li><a href="http://www.cocos.com/creator">产品</a></li>
+            <li><a href="http://www.cocos.com/creator">Cocos Creator</a></li>
+            <li><a href="http://www.cocos.com/cocos2dx">Cocos2d-x</a></li>
+            <li><a href="http://www.cocos.com/anysdk">AnySDK</a></li>
+        </ul>
+        <ul>
+            <li><a href="http://www.cocos.com/download">下载</a></li>
+            <li><a href="http://www.cocos.com/download">Cocos Creator</a></li>
+            <li><a href="http://www.cocos.com/download">Cocos2d-x</a></li>
+            <li><a href="http://www.cocos.com/download">AnySDK</a></li>
+        </ul>
+        <ul>
+            <li><a href="http://www.cocos.com/docs/">文档</a></li>
+            <li><a href="http://www.cocos.com/docs/">帮助文档</a></li>
+            <li><a href="http://www.cocos.com/docs/tutorial">教程</a></li>
+            <li><a href="http://www.cocos.com/docs/api">API</a></li>
+        </ul>
+        <ul>
+            <li><a href="http://forum.cocos.com">论坛</a></li>
+            <li><a href="http://forum.cocos.com">技术论坛</a></li>
+        </ul>
+        <ul>
+          <li><a href="javascript:;">联系我们</a></li>
+          <li class='contact'>
+            <a href="http://weibo.com/cocos2dx?is_hot=1"></a>
+            <a href="javascript:;" class='wechat'><img src="http://www.cocos.com/wp-content/themes/cocos/img/wechat.png"></a>
+            <a href="javascript:;" class='qq'><img src="http://www.cocos.com/wp-content/themes/cocos/img/qq.png"></a>
+          </li>
+          <li><a>技术咨询邮箱：support@cocos.com</a></li>
+        </ul>
+      </div>
+      <div class='bah'>
+          2015 @ Cocos.com 闽ICP备14002653号-6
+      </div>
+  </footer>
+  <script src="{{assets}}/vendor/prettify/prettify-min.js"></script>
+  <script>prettyPrint();</script>
+  <script src="{{assets}}/vendor/jquery.min.js"></script>
+  <script src="{{assets}}/vendor/jquery-scrollto.js"></script>
+  <script src="{{assets}}/vendor/highlight.min.js"></script>
+  <script src="{{assets}}/js/yui-prettify.js"></script>
+  <script src="{{assets}}/../api.js"></script>
+  <script src="{{assets}}/js/api-list.js"></script>
+  {{!-- <script src="{{assets}}/js/apidocs.js"></script> --}}
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="{{assets}}/wp-content/themes/cocos/js/zepto.js"></script>
+  <script type="text/javascript" src="{{assets}}/wp-content/themes/cocos/js/main.js"></script>
+  <script>
+      document.querySelector('html').style.fontSize = document.documentElement.clientWidth / 320 * 50 + 'px';
+    </script>
+    <input type='hidden' id='client_id' value='215'>
+    <input type='hidden' id='sso_server_url' value='https://passport.cocos.com/'>
+        <input type='hidden' id='base_url' value='http://www.cocos.com/'>
+<script type="text/javascript" src="http://www.cocos.com/wp-content/themes/cocos/js/ssoclient.js?ver=0000000825"></script>
+</body>
+</html>
