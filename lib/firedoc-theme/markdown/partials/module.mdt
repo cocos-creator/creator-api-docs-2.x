@@ -1,0 +1,115 @@
+
+## `{{name}}` {{i18n.MODULE}}
+
+{{#extra}}
+  {{#selleck}}
+  [User Guide & Examples](/yui/docs/{{name}})
+  {{/selleck}}
+{{/extra}}
+
+{{#if requires}}
+### Requires
+{{#requires}}
+- {{#crossLinkModule .}}{{/crossLinkModule}}
+{{/requires}}
+{{/if}}
+
+{{#if foundAt}}
+{{i18n.DEFINED_IN}} [{{getSourceFile file}}:{{{line}}}]({{getSourceFile file}}#L{{{line}}})
+{{/if}}
+
+{{#if since}}
+{{i18n.AVAILABLE_SINCE}} {{since}}
+{{/if}}
+
+{{#if deprecated}}
+  {{#if deprecationMessage}}
+{{i18n.DEPRECATED}}: {{deprecationMessage}}
+  {{else}}
+This module is deprecated.
+  {{/if}}
+{{/if}}
+
+{{{description}}}
+
+{{#example}}
+### {{i18n.EXAMPLES}}
+{{{.}}}
+{{/example}}
+
+{{#if hasClasses}}
+### {{i18n.sidebar.CLASSES}}
+
+  {{#classes}}
+  - [{{name}}](../classes/{{name}}.md)
+  {{/classes}}
+{{/if}}
+
+{{#if hasEnum}}
+### {{i18n.sidebar.ENUMS}}
+
+  {{#classes}}
+  {{#if isEnum}}
+  - [{{name}}](../enums/{{name}}.md)
+  {{/if}}
+  {{/classes}}
+{{/if}}
+
+{{#if subModules}}
+### {{i18n.SUBMODULE}}
+
+  {{#subModules}}
+  - [{{name}}]({{name}}.md) {{{description}}}
+  {{/subModules}}
+{{/if}}
+
+{{#if members}}
+{{> items-index}}
+{{/if}}
+
+### Details
+
+{{#if members.properties}}
+
+#### {{i18n.PROPERTIES}}
+
+{{#members.properties}}
+{{> props}}
+{{/members.properties}}
+
+{{/if}}
+
+{{#if members.attributes}}
+
+#### {{i18n.ATTRIBUTES}}
+
+{{#members.attributes}}
+{{> attrs}}
+{{/members.attributes}}
+
+{{/if}}
+
+{{#if members.methods}}
+
+<!-- Method Block -->
+#### {{i18n.METHODS}}
+
+{{#is_constructor}}
+##### {{i18n.CONSTRUCTOR}}
+{{> method}}
+{{/is_constructor}}
+{{#members.methods}}
+{{> method}}
+{{/members.methods}}
+
+{{/if}}
+
+{{#if members.events}}
+
+#### {{i18n.EVENTS}}
+
+{{#members.events}}
+{{> events}}
+{{/members.events}}
+
+{{/if}}

@@ -1,0 +1,81 @@
+## `{{name}}` {{i18n.CLASS}}
+
+{{#if extends}}
+{{i18n.EXTENDS_FOR}} [`{{extends}}`]({{extends}}.md)
+{{/if}}
+
+{{#if foundAt}}
+{{i18n.DEFINED_IN}}: [{{getSourceFile file}}:{{{line}}}]({{getSourceFile file}}#L{{{line}}})
+{{/if}}
+
+{{#if module}}
+  {{#if submodule}}
+{{i18n.MODULE}}: [{{submodule}}](../modules/{{submodule}}.md)
+{{i18n.PARENT_MODULE}}: [{{module}}](../modules/{{module}}.md)
+  {{else}}
+{{i18n.MODULE}}: [{{module}}](../modules/{{module}}.md)
+  {{/if}}
+{{/if}}
+
+{{#if deprecated}}
+  {{#if deprecationMessage}}
+{{i18n.DEPRECATED}}: {{deprecationMessage}}
+  {{else}}
+{{i18n.DEPRECATED_CLASS_DESC}}
+  {{/if}}
+{{/if}}
+
+{{{description}}}
+
+{{#if since}}
+{{i18n.AVAILABLE_SINCE}} {{since}}
+{{/if}}
+
+{{> items-index}}
+
+### Details
+
+{{#if members.properties}}
+
+#### {{i18n.PROPERTIES}}
+
+{{#members.properties}}
+{{> props}}
+{{/members.properties}}
+
+{{/if}}
+
+{{#if members.attributes}}
+
+#### {{i18n.ATTRUBUTES}}
+
+{{#members.attributes}}
+{{> attrs}}
+{{/members.attributes}}
+
+{{/if}}
+
+{{#if members.methods}}
+
+<!-- Method Block -->
+#### {{i18n.METHODS}}
+
+{{#is_constructor}}
+##### {{i18n.CONSTRUCTOR}}
+{{> method}}
+{{/is_constructor}}
+{{#members.methods}}
+{{> method}}
+{{/members.methods}}
+
+{{/if}}
+
+{{#if members.events}}
+
+#### {{i18n.EVENTS}}
+
+{{#members.events}}
+{{> events}}
+{{/members.events}}
+
+{{/if}}

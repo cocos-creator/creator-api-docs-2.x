@@ -1,0 +1,44 @@
+
+`{{name}}`: {{#crossLink type}}{{/crossLink}}
+
+{{#if overwritten_from}}
+> {{i18n.INHERITED_FROM}} {{overwritten_from/class}} {{#if foundAt}}but overwritten in{{/if}} `{{{file}}}:{{{line}}}`
+{{else}}
+{{#if extended_from}}
+> {{i18n.INHERITED_FROM}} `{{extended_from}}`
+{{/if}}
+{{i18n.DEFINED_IN}} [{{getSourceFile file}}:{{{line}}}]({{getSourceFile file}}#L{{{line}}})
+{{/if}}
+
+{{#if deprecationMessage}}
+**{{i18n.DEPRECATED}}**: {{deprecationMessage}}
+{{/if}}
+
+{{#if since}}
+{{i18n.AVAILABLE_SINCE}} {{since}}
+{{/if}}
+
+---------------------
+
+{{{description}}}
+
+{{#if default}}
+**{{i18n.DEFAULTS}}**: {{default}}
+{{/if}}
+
+{{#if emit}}
+##### Fires event `{{name}}Change`
+
+Fires when the value for the configuration attribute `{{{name}}}` is
+changed. You can listen for the event using the `on` method if you
+wish to be notified before the attribute's value has changed, or
+using the `after` method if you wish to be notified after the
+attribute's value has changed.
+
+{{/if}}
+
+{{#if example}}
+##### {{i18n.EXAMPLES}}
+
+{{{example}}}
+{{/if}}

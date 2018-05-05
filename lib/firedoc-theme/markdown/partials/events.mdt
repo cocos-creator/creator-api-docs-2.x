@@ -1,0 +1,159 @@
+### `{{name}}` Event
+
+{{#if extends}}
+{{i18n.EXTENDS_FOR}} `{{extends}}`
+{{/if}}
+
+{{#if foundAt}}
+{{i18n.DEFINED_IN}}: [{{getSourceFile file}}:{{{line}}}]({{getSourceFile file}}#L{{{line}}})
+{{/if}}
+
+{{#if module}}
+  {{#if submodule}}
+{{i18n.MODULE}}: [{{submodule}}](../modules/{{submodule}}.md)
+{{i18n.PARENT_MODULE}}: [{{module}}](../modules/{{module}}.md)
+  {{else}}
+{{i18n.MODULE}}: [{{module}}](../modules/{{module}}.md)
+  {{/if}}
+{{/if}}
+
+{{#if deprecated}}
+  {{#if deprecationMessage}}
+{{i18n.DEPRECATED}}: {{deprecationMessage}}
+  {{else}}
+This event is deprecated.
+  {{/if}}
+{{/if}}
+
+{{{description}}}
+
+{{#if since}}
+{{i18n.AVAILABLE_SINCE}} {{since}}
+{{/if}}
+
+### {{i18n.INDEX}}
+
+{{#if properties}}
+##### {{i18n.PROPERTIES}}
+
+{{#properties}}
+  - `{{name}}`
+{{/properties}}
+
+{{/if}}
+
+{{#if attrs}}
+##### {{i18n.ATTRUBUTES}}
+
+{{#attrs}}
+  - `{{name}}`
+{{/attrs}}
+
+{{/if}}
+
+{{#if methods}}
+##### {{i18n.METHODS}}
+
+{{#is_constructor}}
+  - `{{name}}` **{{i18n.CONSTRUCTOR}}**
+{{/is_constructor}}
+
+{{#methods}}
+  - `{{name}}`
+{{/methods}}
+
+{{/if}}
+
+{{#if events}}
+
+##### {{i18n.EVENTS}}
+
+{{#events}}
+  - `{{name}}`
+{{/events}}
+
+{{/if}}
+
+{{#if extends}}
+
+### {{i18n.INHERITED_MEMBERS}}
+
+##### {{i18n.PROPERTIES}}
+
+{{#inheritedItems.properties}}
+- `{{name}}`
+{{/inheritedItems.properties}}
+
+##### {{i18n.ATTRUBUTES}}
+
+{{#inheritedItems.attrs}}
+- `{{name}}`
+{{/inheritedItems.attrs}}
+
+##### {{i18n.METHODS}}
+
+{{#inheritedItems.methods}}
+- `{{name}}
+{{/inheritedItems.methods}}
+
+##### {{i18n.EVENTS}}
+
+{{#inheritedItems.events}}
+- `{{name}}
+{{/inheritedItems.events}}
+
+{{/if}}
+
+{{#if children}}
+
+### Inheritance tree
+
+{{/if}}
+
+### Details
+
+{{#if properties}}
+
+#### {{i18n.PROPERTIES}}
+
+{{#properties}}
+{{> props}}
+{{/properties}}
+
+{{/if}}
+
+{{#if attrs}}
+
+#### {{i18n.ATTRUBUTES}}
+
+{{#attrs}}
+{{> attrs}}
+{{/attrs}}
+
+{{/if}}
+
+{{#if methods}}
+
+<!-- Method Block -->
+#### {{i18n.METHODS}}
+
+{{#is_constructor}}
+##### {{i18n.CONSTRUCTOR}}
+{{> method}}
+{{/is_constructor}}
+
+{{#methods}}
+{{> method}}
+{{/methods}}
+
+{{/if}}
+
+{{#if events}}
+
+#### {{i18n.EVENTS}}
+
+{{#events}}
+{{> events}}
+{{/events}}
+
+{{/if}}

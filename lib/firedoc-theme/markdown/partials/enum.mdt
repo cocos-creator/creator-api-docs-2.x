@@ -1,0 +1,47 @@
+### `{{name}}` {{i18n.ENUM}}
+
+{{#if extends}}
+{{i18n.EXTENDS_FOR}} `{{extends}}`
+{{/if}}
+
+{{#if foundAt}}
+{{i18n.DEFINED_IN}}: [{{getSourceFile file}}:{{{line}}}]({{getSourceFile file}}#L{{{line}}})
+{{/if}}
+
+{{#if module}}
+  {{#if submodule}}
+{{i18n.MODULE}}: [{{submodule}}](../modules/{{submodule}}.md)
+{{i18n.PARENT_MODULE}}: [{{module}}](../modules/{{module}}.md)
+  {{else}}
+{{i18n.MODULE}}: [{{module}}](../modules/{{module}}.md)
+  {{/if}}
+{{/if}}
+
+{{#if deprecated}}
+  {{#if deprecationMessage}}
+{{i18n.DEPRECATED}}: {{deprecationMessage}}
+  {{else}}
+This enum is deprecated.
+  {{/if}}
+{{/if}}
+
+{{{description}}}
+
+{{#if since}}
+{{i18n.AVAILABLE_SINCE}} {{since}}
+{{/if}}
+
+{{#if members.properties}}
+### {{i18n.INDEX}}
+{{#members.properties}}
+  - `{{name}}`
+{{/members.properties}}
+{{/if}}
+
+### Details
+
+{{#if members.properties}}
+{{#members.properties}}
+{{> props}}
+{{/members.properties}}
+{{/if}}

@@ -1,0 +1,14 @@
+{{#if overwritten_from}}
+| {{i18n.OVERWRITTEN}} | inherited from {{overwritten_from/class}} but overwritten in `{{{file}}}:{{{line}}}` |
+{{else}}
+  {{#if extended_from}}
+| {{i18n.EXTENDS_FOR}} | `{{extended_from}}` |
+  {{/if}}
+{{/if}}
+| {{i18n.DEFINED_IN}} | [{{getSourceFile file}}:{{{line}}}]({{getSourceFile file}}#L{{{line}}}) |
+{{#if deprecationMessage}}
+| {{i18n.options.DEPRECATED}} | {{deprecationMessage}} |
+{{/if}}
+{{#if since}}
+| {{i18n.AVAILABLE_SINCE}} | {{since}} |
+{{/if}}

@@ -1,0 +1,34 @@
+
+##### {{name}}
+
+{{{description}}}
+
+| meta | description |
+|------|-------------|
+{{#if return}}
+| {{i18n.RETURNS}} | {{#return}}{{#crossLink type}}{{/crossLink}} {{{descrition}}}{{/return}}
+{{/if}}
+{{> field-info}}
+
+{{#if params}}
+###### {{i18n.PARAMETERS}}
+{{#params}}
+- `{{name}}` {{#crossLink type}}{{/crossLink}} {{{description}}}
+	{{#if props}}
+	{{#props}}
+	- `{{name}}` {{#crossLink type}}{{/crossLink}} {{{description}}}
+		{{#if props}}
+		{{#props}}
+		- `{{name}}` {{#crossLink type}}{{/crossLink}} {{{description}}}
+		{{/props}}
+		{{/if}}
+	{{/props}}
+	{{/if}}
+{{/params}}
+{{/if}}
+
+{{#example}}
+##### {{../i18n.EXAMPLES}}
+
+{{{.}}}
+{{/example}}

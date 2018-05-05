@@ -1,0 +1,41 @@
+### {{i18n.INDEX}}
+
+{{#if members.properties}}
+##### {{i18n.PROPERTIES}}
+
+{{#members.properties}}
+  - [`{{name}}`](#{{markdownLink}}) `{{type}}` {{{description}}}
+{{/members.properties}}
+
+{{/if}}
+
+{{#if members.attributes}}
+##### {{i18n.ATTRIBUTES}}
+
+{{#members.attributes}}
+  - [`{{name}}`](#{{markdownLink}}) {{{description}}}
+{{/members.attributes}}
+
+{{/if}}
+
+{{#if members.methods}}
+##### {{i18n.METHODS}}
+
+{{#is_constructor}}
+  - [`{{name}}` **{{i18n.CONSTRUCTOR}}**](#{{markdownLink}}) {{{description}}}
+{{/is_constructor}}
+{{#members.methods}}
+  - [`{{name}}`](#{{markdownLink}}) {{{description}}}
+{{/members.methods}}
+
+{{/if}}
+
+{{#if members.events}}
+
+##### {{i18n.EVENTS}}
+
+{{#members.events}}
+  - [`{{name}}`](#{{markdownLink}}) {{{description}}}
+{{/members.events}}
+
+{{/if}}

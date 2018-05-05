@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "This repo is for hosting Cocos Creator API website with [Gitbook](https://gitbook.com).",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "commander": "^2.12.2",
     "del": "^3.0.0",
+    "event-stream": "^3.3.4",
+    "firedoc": "github:cocos-creator/firedoc#gitbook",
+    "fs-extra": "^6.0.0",
     "gulp": "^3.9.1"
   },
   "scripts": {
+    "build-md-zh": "gulp build-md --lang zh --engine ../fireball/engine",
+    "build-md-en": "gulp build-md --lang en --engine ../fireball/engine",
+    "build-md": "npm run build-md-zh && npm run build-md-en",
+    "build-tsd": "gulp build-tsd --engine ../fireball/engine --dest ../fireball/utils/api/creator.d.ts",
     "build": "gitbook build",
     "upload": "gulp publish --dest /Volumes/creator/api",
     "publish": "npm run build && npm run upload"

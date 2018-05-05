@@ -2,21 +2,16 @@
 
 This repo is for hosting Cocos Creator Engine API website with [Gitbook](https://gitbook.com).
 
-## Markdown Source
-
-The markdown files we use in this repo is generated from [Cocos Creator Engine](https://github.com/cocos-creator/engine) repo, with the help of [Firedoc](https://github.com/cocos-creator/firedoc).
-
-The markdown sources should be put into `en` and `zh` folders according to the language. A list of all sources with link should be generated as `index.md` in each folder.
-
 ## Requirements
 
 This documentation site is powered by [GitBook](https://www.gitbook.com/). You can check out the online version [here](http://docs.cocos.com/creator/api).
 
 You need [Node.js](https://nodejs.org/en/) and npm to be able to build the site.
 
-To install gitbook:
+To install modules:
 
 ```bash
+npm install
 npm install gitbook-cli -g
 ```
 
@@ -24,6 +19,20 @@ Install gitbook plugins:
 
 ```bash
 gitbook install
+```
+
+## Markdown Source
+
+The markdown files we use in this repo is generated from [Cocos Creator Engine](https://github.com/cocos-creator/engine) repo, with the help of [Firedoc](https://github.com/cocos-creator/firedoc).
+
+The markdown sources will be put into `en` and `zh` folders according to the language. A list of all sources with link should be generated as `index.md` in each folder.
+
+Change API version. Open `lib/yuidoc.json`, modify `options.version`.
+
+Run the following command to generate markdown files:
+
+```bash
+npm run build-md
 ```
 
 ## Preview and Build
