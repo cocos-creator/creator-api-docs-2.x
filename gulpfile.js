@@ -115,3 +115,54 @@ gulp.task('build-md', ['cp-apisrc'], function (cb) {
         fs.writeFileSync(indexPath, content, 'utf8');
     });
 });
+
+gulp.task('build-tsd', ['cp-apisrc'], function (cb) {
+
+    const TSD_FOOTER =
+`declare let jsb: any;
+/** Running in the editor. */
+declare let CC_EDITOR: boolean;
+/** Preview in browser or simulator. */
+declare let CC_PREVIEW: boolean;
+/** Running in the editor or preview. */
+declare let CC_DEV: boolean;
+/** Running in the editor or preview, or build in debug mode. */
+declare let CC_DEBUG: boolean;
+/** Running in published project. */
+declare let CC_BUILD: boolean;
+/** Running in native platform (mobile app, desktop app, or simulator). */
+declare let CC_JSB: boolean;
+/** Running in the engine's unit test. */
+declare let CC_TEST: boolean;
+/** Running in the Wechat's mini game. */
+declare let CC_WECHATGAME: boolean;
+/** Running in the bricks. */
+declare let CC_QQPLAY: boolean;
+`;
+
+    program
+        .option('--engine <path to engine>')
+        .option('--dest <tsd path>')
+        .parse(process.argv);
+
+    let { engine, dest } = program;
+
+    let tsdGen = require('./lib/tsd-generator');
+    let cwd = process.cwd();
+    process.chdir('lib');
+    tsdGen.generateTsd('temp-src/engine', function (err, output) {
+        process.chdir(cwd);
+        if (err) {
+            console.log(err.stack || err);
+        }
+        else {
+            // add dragonBones.d.ts
+            output += fs.readFileSync(join(engine, 'extensions/dragonbones/lib/dragonBones.d.ts')) + '\n';
+            output += TSD_FOOTER;
+
+            fs.writeFileSync(dest, output, 'utf8');
+            console.log('Generate tsd file complete, dest path: ' + dest);
+        }
+        cb();
+    });
+});
