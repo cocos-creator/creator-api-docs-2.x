@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs-extra');
-const { join, resolve } = require('path');
+const { join, resolve, dirname } = require('path');
 const { spawn } = require('child_process');
 const del = require('del');
 const gulp = require('gulp');
@@ -160,6 +160,7 @@ declare let CC_QQPLAY: boolean;
             output += fs.readFileSync(join(engine, 'extensions/dragonbones/lib/dragonBones.d.ts')) + '\n';
             output += TSD_FOOTER;
 
+            fs.ensureDirSync(dirname(dest));
             fs.writeFileSync(dest, output, 'utf8');
             console.log('Generate tsd file complete, dest path: ' + dest);
         }
