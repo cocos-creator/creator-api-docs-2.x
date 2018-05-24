@@ -2,7 +2,7 @@
 
 const fs = require('fs-extra');
 const { join, resolve, dirname } = require('path');
-const { spawn } = require('child_process');
+const { spawn, execSync } = require('child_process');
 const del = require('del');
 const gulp = require('gulp');
 const es = require('event-stream');
@@ -85,6 +85,9 @@ gulp.task('build-md', ['cp-apisrc'], function (cb) {
 
     // generate md
 
+    var commitId = execSync('git log --format="%H" -n 1', {
+        cwd: program.engine
+    }).toString().trim().replace(/"/g, '');
     var args = [
         '../node_modules/firedoc/bin/firedoc.js',
         'build',
@@ -95,7 +98,9 @@ gulp.task('build-md', ['cp-apisrc'], function (cb) {
         '-L',
         program.lang,
         '-D',
-        dest
+        dest,
+        '-C',
+        commitId
     ];
     // console.log('running node with args', args);
     var child = spawn('node', args, {
