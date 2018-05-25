@@ -5,7 +5,7 @@
 | {{i18n.EXTENDS_FOR}} | `{{extended_from}}` |
   {{/if}}
 {{/if}}
-| {{i18n.DEFINED_IN}} | [{{getSourceFile file}}:{{{line}}}]({{getSourceFile file}}#L{{{line}}}) |
+| {{i18n.DEFINED_IN}} | [{{getRelativeUrl file}}:{{{line}}}]({{getSourceFile file}}#L{{{line}}}) |
 {{#if deprecationMessage}}
 | {{i18n.options.DEPRECATED}} | {{deprecationMessage}} |
 {{/if}}
