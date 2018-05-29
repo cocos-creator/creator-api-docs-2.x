@@ -84,6 +84,7 @@
         * [.clearImports(url, [cb])](#module_AssetDB.clearImports)
         * [.register(extname, folder, metaCtor)](#module_AssetDB.register)
         * [.unregister(metaCtor)](#module_AssetDB.unregister)
+        * [.setDefaultMetaType(metaCtor)](#module_AssetDB.setDefaultMetaType)
         * [.getRelativePath(fspath)](#module_AssetDB.getRelativePath) ⇒ <code>string</code>
         * [.getAssetBackupPath(filePath)](#module_AssetDB.getAssetBackupPath)
         * [.setEventCallback(cb)](#module_AssetDB.setEventCallback)
@@ -459,6 +460,17 @@ Unregister meta type
 ```js
 Editor.assetdb.unregister( PngMeta );
 ```
+<a name="module_AssetDB.setDefaultMetaType"></a>
+
+### AssetDB.setDefaultMetaType(metaCtor)
+Set default meta type
+
+**Kind**: static method of [<code>AssetDB</code>](#module_AssetDB)  
+
+| Param | Type |
+| --- | --- |
+| metaCtor | <code>function</code> | 
+
 <a name="module_AssetDB.getRelativePath"></a>
 
 ### AssetDB.getRelativePath(fspath) ⇒ <code>string</code>

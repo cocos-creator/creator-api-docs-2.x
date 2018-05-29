@@ -17,9 +17,9 @@ gulp.task('publish', function (done) {
         return done('dest not supplied');
     }
 
-    var del = join(dest, '*');
-    console.log('deleting ' + del);
-    del.sync(del, { force: true });
+    var delPattern = join(dest, '*');
+    console.log('deleting ' + delPattern);
+    del.sync(delPattern, { force: true });
 
     console.log('copying _book/**/* to ' + dest);
     gulp.src('_book/**/*', {
