@@ -4,7 +4,8 @@
         "search-title",
         "github-issue-feedback-language-custom",
         "anchorjs",
-        "sharing"
+        "sharing",
+        "splitter"
     ],
     "styles": {
         "website": "./styles/website.css"
