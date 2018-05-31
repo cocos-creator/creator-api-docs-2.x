@@ -30,7 +30,6 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width:100%;
   position: absolute;
 }
 .cocos-navbar ul li {
@@ -107,11 +106,4 @@
 }
 .cocos-navbar:hover h1 {
   opacity: 1;
-}
-
-.version-link {
-  width:10%;
-  margin-right:5%;
-  font-weight:bold;
-  font-size: 1.2em;
 }
