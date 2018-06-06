@@ -53,6 +53,14 @@ If you need to publish to the website, you'd better build it on Mac. If use Wind
 
 See [https://github.com/cocos-creator/creator-docs](https://github.com/cocos-creator/creator-docs) for details of templates.
 
+### Create a new api-docs version switch button
+
+If you want to increase a new button to switch the docs, firstly you should have the new version of API docs. Download the new branch engine to your local space, and build the new API docs through by the cmd. 
+
+Then you need to find several files named `book.json` in zh and en file path, changing those version prototypes. Changing the name as your want API version at first, then add you want to create new API version number and link as the new member of the links prototype.
+
+如果你想要创建并且增加一个新的 API 版本，首先你需要构建新版本 API 文档，通过拷贝你需要的 engine 分支到本地目录，由命令行构建出对应的引擎 API 文档，之后你需要在 zh 和 en 文件夹下分别找到名为 `book.json` 的文件，你需要改变文件内的 version 属性，首先是修改 name 属性为你新版本 API 的编号，其次是增加一组新的 links 成员，内容包括你的 API 版本与对应的网址链接。
+
 ## Contribution
 
 If you found any error or problem for document contents, or you'd like to submit your modification to the source. Please go to [Cocos Creator engine repo](https://github.com/cocos-creator/engine) and submit a pull request.
