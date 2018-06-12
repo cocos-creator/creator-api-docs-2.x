@@ -1,4 +1,5 @@
 /config/
+/lib/
 gulpfile.js
 .markdownlint.json
 package.json
@@ -7,3 +8,5 @@ package.json
 /README.md
 /asset-db.md
 /editor-index.md
+*.orig
+*.less

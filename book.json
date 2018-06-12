@@ -9,7 +9,7 @@
     ],
     "styles": {
         "website": "./styles/website.css"
-    },  
+    },
     "pluginsConfig": {
         "github-issue-feedback-language-custom": {
             "repo": "cocos-creator/creator-api-docs",
