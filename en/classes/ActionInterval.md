@@ -25,26 +25,19 @@ then running it again in Reverse mode. </p>
 
 ##### Methods
 
-  - [`easing`](#easing) Implementation of ease motion.
-  - [`repeat`](#repeat) Repeats an action a number of times.
-To repeat an action forever use the CCRepeatForever action.
-  - [`repeatForever`](#repeatforever) Repeats an action for ever.  <br/>
-To repeat the an action for a limited number of times use the Repeat action. <br/>
-  - [`getDuration`](#getduration) get duration of the action. (seconds).
-  - [`setDuration`](#setduration) set duration of the action. (seconds).
-  - [`reverse`](#reverse) Returns a reversed action. <br />
-For example: <br />
-- The action will be x coordinates of 0 move to 100. <br />
-- The reversed action will be x of 100 move to 0.
-- Will be rewritten
-  - [`clone`](#clone) to copy object with deep copy.
-returns a clone of action.
-  - [`isDone`](#isdone) return true if the action has finished.
-  - [`getTarget`](#gettarget) get the target.
-  - [`setTarget`](#settarget) The action will modify the target properties.
-  - [`getOriginalTarget`](#getoriginaltarget) get the original target.
-  - [`getTag`](#gettag) get tag number.
-  - [`setTag`](#settag) set tag number.
+  - [`easing`](#easing) 
+  - [`repeat`](#repeat) 
+  - [`repeatForever`](#repeatforever) 
+  - [`getDuration`](#getduration) 
+  - [`setDuration`](#setduration) 
+  - [`reverse`](#reverse) 
+  - [`clone`](#clone) 
+  - [`isDone`](#isdone) 
+  - [`getTarget`](#gettarget) 
+  - [`setTarget`](#settarget) 
+  - [`getOriginalTarget`](#getoriginaltarget) 
+  - [`getTag`](#gettag) 
+  - [`setTag`](#settag) 
 
 
 
@@ -64,7 +57,7 @@ Implementation of ease motion.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L124) |
+| Defined in | [cocos2d/actions/CCActionInterval.js:121](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCActionInterval.js#L121) |
 
 ###### Parameters
 - `easeObj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -83,7 +76,7 @@ To repeat an action forever use the CCRepeatForever action.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:252](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L252) |
+| Defined in | [cocos2d/actions/CCActionInterval.js:249](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCActionInterval.js#L249) |
 
 ###### Parameters
 - `times` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -97,7 +90,7 @@ To repeat the an action for a limited number of times use the Repeat action. <br
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js:272](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionInterval.js#L272) |
+| Defined in | [cocos2d/actions/CCActionInterval.js:269](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCActionInterval.js#L269) |
 
 
 
@@ -108,7 +101,7 @@ get duration of the action. (seconds).
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:200](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L200) |
+| Defined in | [cocos2d/actions/CCAction.js:205](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCAction.js#L205) |
 
 
 
@@ -118,7 +111,7 @@ set duration of the action. (seconds).
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:210](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L210) |
+| Defined in | [cocos2d/actions/CCAction.js:215](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCAction.js#L215) |
 
 ###### Parameters
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -135,7 +128,7 @@ For example: <br />
 | meta | description |
 |------|-------------|
 | Returns | Null 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:220](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L220) |
+| Defined in | [cocos2d/actions/CCAction.js:225](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCAction.js#L225) |
 
 
 
@@ -147,7 +140,7 @@ returns a clone of action.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:236](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L236) |
+| Defined in | [cocos2d/actions/CCAction.js:241](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCAction.js#L241) |
 
 
 
@@ -158,7 +151,7 @@ return true if the action has finished.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L65) |
+| Defined in | [cocos2d/actions/CCAction.js:70](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCAction.js#L70) |
 
 
 
@@ -169,7 +162,7 @@ get the target.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:97](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L97) |
+| Defined in | [cocos2d/actions/CCAction.js:102](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCAction.js#L102) |
 
 
 
@@ -179,7 +172,7 @@ The action will modify the target properties.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L107) |
+| Defined in | [cocos2d/actions/CCAction.js:112](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCAction.js#L112) |
 
 ###### Parameters
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -192,7 +185,7 @@ get the original target.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L117) |
+| Defined in | [cocos2d/actions/CCAction.js:122](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCAction.js#L122) |
 
 
 
@@ -203,7 +196,7 @@ get tag number.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:134](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L134) |
+| Defined in | [cocos2d/actions/CCAction.js:139](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCAction.js#L139) |
 
 
 
@@ -213,7 +206,7 @@ set tag number.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js:144](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCAction.js#L144) |
+| Defined in | [cocos2d/actions/CCAction.js:149](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/actions/CCAction.js#L149) |
 
 ###### Parameters
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

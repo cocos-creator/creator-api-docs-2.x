@@ -12,59 +12,29 @@ AnySDK is a third party solution that offers game developers SDK integration wit
 ### Classes
 
   - [AgentManager](../classes/AgentManager.md)
-  - [PluginProtocol](../classes/PluginProtocol.md)
-  - [ProtocolUser](../classes/ProtocolUser.md)
-  - [ProtocolIAP](../classes/ProtocolIAP.md)
-  - [ProtocolAnalytics](../classes/ProtocolAnalytics.md)
-  - [ProtocolShare](../classes/ProtocolShare.md)
-  - [ProtocolAds](../classes/ProtocolAds.md)
-  - [ProtocolSocial](../classes/ProtocolSocial.md)
-  - [ProtocolPush](../classes/ProtocolPush.md)
-  - [ProtocolCrash](../classes/ProtocolCrash.md)
-  - [ProtocolREC](../classes/ProtocolREC.md)
-  - [ProtocolAdTracking](../classes/ProtocolAdTracking.md)
-  - [ProtocolCustom](../classes/ProtocolCustom.md)
   - [PluginParam](../classes/PluginParam.md)
-  - [UserActionResultCode](../classes/UserActionResultCode.md)
-  - [ToolBarPlace](../classes/ToolBarPlace.md)
-  - [PayResultCode](../classes/PayResultCode.md)
-  - [AccountType](../classes/AccountType.md)
-  - [AccountOperate](../classes/AccountOperate.md)
-  - [AccountGender](../classes/AccountGender.md)
-  - [TaskType](../classes/TaskType.md)
-  - [ShareResultCode](../classes/ShareResultCode.md)
-  - [SocialRetCode](../classes/SocialRetCode.md)
-  - [AdsResultCode](../classes/AdsResultCode.md)
-  - [AdsPos](../classes/AdsPos.md)
-  - [AdsType](../classes/AdsType.md)
-  - [PushActionResultCode](../classes/PushActionResultCode.md)
-  - [CustomResultCode](../classes/CustomResultCode.md)
-  - [RECResultCode](../classes/RECResultCode.md)
+  - [PluginProtocol](../classes/PluginProtocol.md)
+  - [ProtocolAds](../classes/ProtocolAds.md)
+  - [ProtocolAdTracking](../classes/ProtocolAdTracking.md)
+  - [ProtocolAnalytics](../classes/ProtocolAnalytics.md)
+  - [ProtocolCrash](../classes/ProtocolCrash.md)
+  - [ProtocolCustom](../classes/ProtocolCustom.md)
+  - [ProtocolIAP](../classes/ProtocolIAP.md)
+  - [ProtocolPush](../classes/ProtocolPush.md)
+  - [ProtocolREC](../classes/ProtocolREC.md)
+  - [ProtocolShare](../classes/ProtocolShare.md)
+  - [ProtocolSocial](../classes/ProtocolSocial.md)
+  - [ProtocolUser](../classes/ProtocolUser.md)
 
 ### Enums
 
-  - [UserActionResultCode](../enums/UserActionResultCode.md)
-  - [ToolBarPlace](../enums/ToolBarPlace.md)
-  - [PayResultCode](../enums/PayResultCode.md)
-  - [AccountType](../enums/AccountType.md)
-  - [AccountOperate](../enums/AccountOperate.md)
-  - [AccountGender](../enums/AccountGender.md)
-  - [TaskType](../enums/TaskType.md)
-  - [ShareResultCode](../enums/ShareResultCode.md)
-  - [SocialRetCode](../enums/SocialRetCode.md)
-  - [AdsResultCode](../enums/AdsResultCode.md)
-  - [AdsPos](../enums/AdsPos.md)
-  - [AdsType](../enums/AdsType.md)
-  - [PushActionResultCode](../enums/PushActionResultCode.md)
-  - [CustomResultCode](../enums/CustomResultCode.md)
-  - [RECResultCode](../enums/RECResultCode.md)
 
 
 ### Index
 
 ##### Properties
 
-  - [`agentManager`](#agentmanager) `anysdk.AgentManager` agent manager of plugin
+  - [`agentManager`](#agentmanager) `anysdk.AgentManager` 
 
 
 
@@ -83,7 +53,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
 | meta | description |
 |------|-------------|
 | Type | anysdk.AgentManager |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:39](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L39) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 

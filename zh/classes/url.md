@@ -13,15 +13,15 @@
 
 ##### 属性（properties）
 
-  - [`_rawAssets`](#rawassets) `Object` The base url of raw assets.
-  - [`_builtinRawAssets`](#builtinrawassets) `Object` The base url of builtin raw assets.
+  - [`_rawAssets`](#rawassets) `Object` 
+  - [`_builtinRawAssets`](#builtinrawassets) `Object` 
 
 
 
 ##### 方法
 
-  - [`raw`](#raw) Returns the url of raw assets, you will only need this if the raw asset is inside the "resources" folder.
-  - [`builtinRaw`](#builtinraw) Returns the url of builtin raw assets. This method can only used in editor.
+  - [`raw`](#raw) 
+  - [`builtinRaw`](#builtinraw) 
 
 
 
@@ -38,7 +38,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js:38](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js#L38) |
+| 定义于 | [cocos2d/core/platform/url.js:39](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/url.js#L39) |
 
 
 
@@ -49,7 +49,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js:46](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js#L46) |
+| 定义于 | [cocos2d/core/platform/url.js:47](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/url.js#L47) |
 
 
 
@@ -67,7 +67,7 @@ Returns the url of raw assets, you will only need this if the raw asset is insid
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js#L66) |
+| 定义于 | [cocos2d/core/platform/url.js:69](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/url.js#L69) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -88,7 +88,7 @@ Returns the url of builtin raw assets. This method can only used in editor.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/url.js#L94) |
+| 定义于 | [cocos2d/core/platform/url.js:105](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/url.js#L105) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 

@@ -6,8 +6,8 @@ Module: [_decorator](../modules/_decorator.md)
 Parent Module: [cc](../modules/cc.md)
 
 
-<p>cc.ContainerStrategy class is the root strategy class of container's scale strategy,
-it controls the behavior of how to scale the cc.container and cc.game.canvas object</p>
+<p>cc.game.containerStrategy class is the root strategy class of container's scale strategy,
+it controls the behavior of how to scale the cc.game.container and cc.game.canvas object</p>
 
 
 ### Index
@@ -16,9 +16,9 @@ it controls the behavior of how to scale the cc.container and cc.game.canvas obj
 
 ##### Methods
 
-  - [`preApply`](#preapply) Manipulation before appling the strategy
-  - [`apply`](#apply) Function to apply this strategy
-  - [`postApply`](#postapply) Manipulation after applying the strategy
+  - [`preApply`](#preapply) 
+  - [`apply`](#apply) 
+  - [`postApply`](#postapply) 
 
 
 
@@ -37,7 +37,7 @@ Manipulation before appling the strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1039](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1039) |
+| Defined in | [cocos2d/core/platform/CCView.js:1021](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCView.js#L1021) |
 
 ###### Parameters
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -49,7 +49,7 @@ Function to apply this strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1047](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1047) |
+| Defined in | [cocos2d/core/platform/CCView.js:1031](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCView.js#L1031) |
 
 ###### Parameters
 - `view` <a href="../classes/View.html" class="crosslink">View</a> 
@@ -62,7 +62,7 @@ Manipulation after applying the strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1056](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1056) |
+| Defined in | [cocos2d/core/platform/CCView.js:1042](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCView.js#L1042) |
 
 ###### Parameters
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view

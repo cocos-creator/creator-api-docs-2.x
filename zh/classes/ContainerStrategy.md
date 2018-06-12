@@ -6,8 +6,8 @@
 父模块: [cc](../modules/cc.md)
 
 
-<p>cc.ContainerStrategy class is the root strategy class of container's scale strategy,
-it controls the behavior of how to scale the cc.container and cc.game.canvas object</p>
+<p>cc.game.containerStrategy class is the root strategy class of container's scale strategy,
+it controls the behavior of how to scale the cc.game.container and cc.game.canvas object</p>
 
 
 ### 索引
@@ -16,9 +16,9 @@ it controls the behavior of how to scale the cc.container and cc.game.canvas obj
 
 ##### 方法
 
-  - [`preApply`](#preapply) Manipulation before appling the strategy
-  - [`apply`](#apply) Function to apply this strategy
-  - [`postApply`](#postapply) Manipulation after applying the strategy
+  - [`preApply`](#preapply) 
+  - [`apply`](#apply) 
+  - [`postApply`](#postapply) 
 
 
 
@@ -33,11 +33,11 @@ it controls the behavior of how to scale the cc.container and cc.game.canvas obj
 
 ##### preApply
 
-Manipulation before appling the strategy
+在应用策略之前的操作
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1039](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1039) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1021](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCView.js#L1021) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -45,11 +45,11 @@ Manipulation before appling the strategy
 
 ##### apply
 
-Function to apply this strategy
+策略应用方法
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1047](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1047) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1031](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCView.js#L1031) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> 
@@ -58,11 +58,11 @@ Function to apply this strategy
 
 ##### postApply
 
-Manipulation after applying the strategy
+策略调用之后的操作
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1056](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1056) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1042](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCView.js#L1042) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view

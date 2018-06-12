@@ -24,7 +24,7 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:71](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L71) |
+| Defined in | [cocos2d/audio/CCAudio.js:68](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/audio/CCAudio.js#L68) |
 
 
 
@@ -35,7 +35,7 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L75) |
+| Defined in | [cocos2d/audio/CCAudio.js:72](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/audio/CCAudio.js#L72) |
 
 
 
@@ -46,7 +46,7 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:79](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L79) |
+| Defined in | [cocos2d/audio/CCAudio.js:76](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/audio/CCAudio.js#L76) |
 
 
 
@@ -57,6 +57,6 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js:83](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudio.js#L83) |
+| Defined in | [cocos2d/audio/CCAudio.js:80](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/audio/CCAudio.js#L80) |
 
 

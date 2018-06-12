@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 键盘的返回键类型
@@ -14,6 +15,7 @@
   - `SEND`
   - `SEARCH`
   - `GO`
+  - `NEXT`
 
 ### Details
 
@@ -25,7 +27,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L37) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:35](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L35) |
 
 
 
@@ -36,7 +38,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:42](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L42) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:41](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L41) |
 
 
 
@@ -47,7 +49,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L47) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:47](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L47) |
 
 
 
@@ -58,7 +60,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:52](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L52) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:53](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L53) |
 
 
 
@@ -69,6 +71,17 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L57) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:59](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L59) |
+
+
+
+##### NEXT
+
+> 下一个类型
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [cocos2d/core/components/editbox/types.js:65](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L65) |
 
 
