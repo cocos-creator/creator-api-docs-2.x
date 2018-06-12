@@ -5,11 +5,11 @@
   "url": "http://cocos.com/creator",
   "logo": "",
   "options": {
-    "version": "1.9.0",
+    "version": "2.0.0",
     "sourceURL": {
         "org": "cocos-creator",
         "repo": "engine",
-        "branch": "master"
+        "branch": "next"
     },
     "paths": [
       "temp-src"
