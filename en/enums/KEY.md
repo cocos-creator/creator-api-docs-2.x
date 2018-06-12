@@ -132,7 +132,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:39](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L39) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:363](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L363) |
 
 
 
@@ -143,7 +143,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L49) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:373](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L373) |
 
 
 
@@ -154,7 +154,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L57) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:381](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L381) |
 
 
 
@@ -165,7 +165,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:66](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L66) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:390](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L390) |
 
 
 
@@ -176,7 +176,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L75) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:399](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L399) |
 
 
 
@@ -187,7 +187,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:84](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L84) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:408](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L408) |
 
 
 
@@ -198,7 +198,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:93](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L93) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:417](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L417) |
 
 
 
@@ -209,7 +209,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:102](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L102) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:426](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L426) |
 
 
 
@@ -220,7 +220,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:111](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L111) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:435](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L435) |
 
 
 
@@ -231,7 +231,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:120](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L120) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:444](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L444) |
 
 
 
@@ -242,7 +242,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:129](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L129) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:453](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L453) |
 
 
 
@@ -253,7 +253,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:138](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L138) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:462](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L462) |
 
 
 
@@ -264,7 +264,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:147](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L147) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:471](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L471) |
 
 
 
@@ -275,7 +275,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:156](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L156) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:480](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L480) |
 
 
 
@@ -286,7 +286,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:165](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L165) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:489](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L489) |
 
 
 
@@ -297,7 +297,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:174](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L174) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:498](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L498) |
 
 
 
@@ -308,7 +308,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L183) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:507](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L507) |
 
 
 
@@ -319,7 +319,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:192](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L192) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:516](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L516) |
 
 
 
@@ -330,7 +330,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:201](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L201) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:525](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L525) |
 
 
 
@@ -341,7 +341,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:210](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L210) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:534](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L534) |
 
 
 
@@ -352,7 +352,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:219](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L219) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:543](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L543) |
 
 
 
@@ -363,7 +363,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:228](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L228) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:552](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L552) |
 
 
 
@@ -374,7 +374,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:237](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L237) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:561](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L561) |
 
 
 
@@ -385,7 +385,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:246](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L246) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:570](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L570) |
 
 
 
@@ -396,7 +396,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:255](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L255) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:579](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L579) |
 
 
 
@@ -407,7 +407,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:264](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L264) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:588](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L588) |
 
 
 
@@ -418,7 +418,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:273](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L273) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:597](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L597) |
 
 
 
@@ -429,7 +429,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:282](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L282) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:606](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L606) |
 
 
 
@@ -440,7 +440,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:291](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L291) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:615](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L615) |
 
 
 
@@ -451,7 +451,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:300](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L300) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:624](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L624) |
 
 
 
@@ -462,7 +462,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:309](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L309) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:633](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L633) |
 
 
 
@@ -473,7 +473,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L318) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:642](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L642) |
 
 
 
@@ -484,7 +484,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:327](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L327) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:651](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L651) |
 
 
 
@@ -495,7 +495,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:336](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L336) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:660](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L660) |
 
 
 
@@ -506,7 +506,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:345](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L345) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:669](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L669) |
 
 
 
@@ -517,7 +517,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:354](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L354) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:678](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L678) |
 
 
 
@@ -528,7 +528,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:363](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L363) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:687](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L687) |
 
 
 
@@ -539,7 +539,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:372](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L372) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:696](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L696) |
 
 
 
@@ -550,7 +550,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:381](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L381) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:705](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L705) |
 
 
 
@@ -561,7 +561,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:390](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L390) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:714](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L714) |
 
 
 
@@ -572,7 +572,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:399](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L399) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:723](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L723) |
 
 
 
@@ -583,7 +583,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:408](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L408) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:732](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L732) |
 
 
 
@@ -594,7 +594,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:417](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L417) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:741](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L741) |
 
 
 
@@ -605,7 +605,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:426](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L426) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:750](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L750) |
 
 
 
@@ -616,7 +616,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:435](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L435) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:759](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L759) |
 
 
 
@@ -627,7 +627,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:444](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L444) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:768](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L768) |
 
 
 
@@ -638,7 +638,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L453) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:777](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L777) |
 
 
 
@@ -649,7 +649,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:462](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L462) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:786](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L786) |
 
 
 
@@ -660,7 +660,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:471](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L471) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:795](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L795) |
 
 
 
@@ -671,7 +671,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:480](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L480) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:804](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L804) |
 
 
 
@@ -682,7 +682,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:489](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L489) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:813](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L813) |
 
 
 
@@ -693,7 +693,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:498](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L498) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:822](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L822) |
 
 
 
@@ -704,7 +704,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:507](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L507) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:831](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L831) |
 
 
 
@@ -715,7 +715,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:516](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L516) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:840](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L840) |
 
 
 
@@ -726,7 +726,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:525](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L525) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:849](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L849) |
 
 
 
@@ -737,7 +737,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:534](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L534) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:858](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L858) |
 
 
 
@@ -748,7 +748,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:543](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L543) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:867](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L867) |
 
 
 
@@ -759,7 +759,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:552](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L552) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:876](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L876) |
 
 
 
@@ -770,7 +770,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:561](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L561) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:885](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L885) |
 
 
 
@@ -781,7 +781,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:570](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L570) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:894](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L894) |
 
 
 
@@ -792,7 +792,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:579](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L579) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:903](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L903) |
 
 
 
@@ -803,7 +803,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:588](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L588) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:912](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L912) |
 
 
 
@@ -814,7 +814,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:597](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L597) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:921](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L921) |
 
 
 
@@ -825,7 +825,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:606](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L606) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:930](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L930) |
 
 
 
@@ -836,7 +836,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:615](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L615) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:939](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L939) |
 
 
 
@@ -847,7 +847,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:624](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L624) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:948](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L948) |
 
 
 
@@ -858,7 +858,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:633](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L633) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:957](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L957) |
 
 
 
@@ -869,7 +869,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:642](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L642) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:966](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L966) |
 
 
 
@@ -880,7 +880,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:651](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L651) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:975](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L975) |
 
 
 
@@ -891,7 +891,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:660](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L660) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:984](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L984) |
 
 
 
@@ -902,7 +902,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:669](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L669) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:993](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L993) |
 
 
 
@@ -913,7 +913,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:678](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L678) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1002](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1002) |
 
 
 
@@ -924,7 +924,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:687](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L687) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1011](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1011) |
 
 
 
@@ -935,7 +935,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:696](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L696) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1020](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1020) |
 
 
 
@@ -946,7 +946,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:705](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L705) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1029](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1029) |
 
 
 
@@ -957,7 +957,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:714](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L714) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1038](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1038) |
 
 
 
@@ -968,7 +968,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:723](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L723) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1047](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1047) |
 
 
 
@@ -979,7 +979,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:732](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L732) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1056](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1056) |
 
 
 
@@ -990,7 +990,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:741](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L741) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1065](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1065) |
 
 
 
@@ -1001,7 +1001,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:750](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L750) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1074](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1074) |
 
 
 
@@ -1012,7 +1012,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:759](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L759) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1083](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1083) |
 
 
 
@@ -1023,7 +1023,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:768](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L768) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1092](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1092) |
 
 
 
@@ -1034,7 +1034,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:777](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L777) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1101](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1101) |
 
 
 
@@ -1045,7 +1045,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:786](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L786) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1110](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1110) |
 
 
 
@@ -1056,7 +1056,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:795](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L795) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1119](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1119) |
 
 
 
@@ -1067,7 +1067,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:804](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L804) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1128](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1128) |
 
 
 
@@ -1078,7 +1078,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:813](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L813) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1137](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1137) |
 
 
 
@@ -1089,7 +1089,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:822](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L822) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1146](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1146) |
 
 
 
@@ -1100,7 +1100,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:831](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L831) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1155](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1155) |
 
 
 
@@ -1111,7 +1111,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:840](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L840) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1164](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1164) |
 
 
 
@@ -1122,7 +1122,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:849](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L849) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1173](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1173) |
 
 
 
@@ -1133,7 +1133,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:858](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L858) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1182](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1182) |
 
 
 
@@ -1144,7 +1144,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:867](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L867) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1191](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1191) |
 
 
 
@@ -1155,7 +1155,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:876](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L876) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1200](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1200) |
 
 
 
@@ -1166,7 +1166,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:885](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L885) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1209](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1209) |
 
 
 
@@ -1177,7 +1177,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:894](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L894) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1218](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1218) |
 
 
 
@@ -1188,7 +1188,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:903](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L903) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1227](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1227) |
 
 
 
@@ -1199,7 +1199,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:912](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L912) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1236](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1236) |
 
 
 
@@ -1210,7 +1210,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:921](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L921) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1245](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1245) |
 
 
 
@@ -1221,7 +1221,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:930](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L930) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1254](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1254) |
 
 
 
@@ -1232,7 +1232,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:939](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L939) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1263](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1263) |
 
 
 
@@ -1243,7 +1243,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:948](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L948) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1272](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1272) |
 
 
 
@@ -1254,7 +1254,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:957](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L957) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1281](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1281) |
 
 
 
@@ -1265,7 +1265,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:966](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L966) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1290](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1290) |
 
 
 
@@ -1276,7 +1276,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:975](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L975) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1299](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1299) |
 
 
 
@@ -1287,7 +1287,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:984](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L984) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1308](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1308) |
 
 
 
@@ -1298,7 +1298,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:995](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L995) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1319](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1319) |
 
 
 
@@ -1309,7 +1309,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1004](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1004) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1328](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1328) |
 
 
 
@@ -1320,7 +1320,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1013](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1013) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1337](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1337) |
 
 
 
@@ -1331,7 +1331,7 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1022](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1022) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1346](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1346) |
 
 
 
@@ -1342,6 +1342,6 @@ Key map for keyboard event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js:1031](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCMacro.js#L1031) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1355](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1355) |
 
 

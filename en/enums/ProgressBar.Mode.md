@@ -23,7 +23,7 @@ Enum for ProgressBar mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCProgressBar.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCProgressBar.js#L36) |
+| Defined in | [cocos2d/core/components/CCProgressBar.js:39](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCProgressBar.js#L39) |
 
 
 
@@ -34,7 +34,7 @@ Enum for ProgressBar mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCProgressBar.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCProgressBar.js#L43) |
+| Defined in | [cocos2d/core/components/CCProgressBar.js:46](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCProgressBar.js#L46) |
 
 
 
@@ -45,6 +45,6 @@ Enum for ProgressBar mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCProgressBar.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCProgressBar.js#L49) |
+| Defined in | [cocos2d/core/components/CCProgressBar.js:52](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCProgressBar.js#L52) |
 
 

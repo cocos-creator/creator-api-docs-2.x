@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 定义了一些用于设置文本显示和文本格式化的标志位。
@@ -14,6 +15,7 @@
   - `INITIAL_CAPS_WORD`
   - `INITIAL_CAPS_SENTENCE`
   - `INITIAL_CAPS_ALL_CHARACTERS`
+  - `DEFAULT`
 
 ### Details
 
@@ -25,7 +27,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:116](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L116) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:134](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L134) |
 
 
 
@@ -37,7 +39,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L124) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:143](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L143) |
 
 
 
@@ -48,7 +50,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:135](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L135) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:155](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L155) |
 
 
 
@@ -59,7 +61,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:143](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L143) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:164](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L164) |
 
 
 
@@ -70,6 +72,17 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:151](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L151) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:173](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L173) |
+
+
+
+##### DEFAULT
+
+> Don't do anything with the input text.
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [cocos2d/core/components/editbox/types.js:179](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L179) |
 
 

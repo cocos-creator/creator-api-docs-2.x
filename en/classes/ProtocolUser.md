@@ -15,49 +15,35 @@ user protocol
 
 ##### Methods
 
-  - [`login`](#login) login interface
-  - [`isLogined`](#islogined) get status of login
-  - [`getUserID`](#getuserid) get user ID
-  - [`getPluginId`](#getpluginid) get plugin ID
-  - [`setListener`](#setlistener) set listener
-  - [`getListener`](#getlistener) get listener
-  - [`logout`](#logout) logout
-Before to invoke, you need to verdict whether this properties existed
-  - [`showToolBar`](#showtoolbar) show toolbar
-Before to invoke, you need to verdict whether this properties existed
-  - [`hideToolBar`](#hidetoolbar) hide toolbar
-Before to invoke, you need to verdict whether this properties existed
-  - [`enterPlatform`](#enterplatform) enter platform
-Before to invoke, you need to verdict whether this properties existed
-  - [`exit`](#exit) show exit page
-Before to invoke, you need to verdict whether this properties existed
-  - [`pause`](#pause) show pause page
-Before to invoke, you need to verdict whether this properties existed
-  - [`realNameRegister`](#realnameregister) Real-name registration
-Before to invoke, you need to verdict whether this properties existed
-  - [`antiAddictionQuery`](#antiaddictionquery) Anti-addiction query
-Before to invoke, you need to verdict whether this properties existed
-  - [`submitLoginGameRole`](#submitlogingamerole) submit game role information
-Before to invoke, you need to verdict whether this properties existed
-  - [`getUserInfo`](#getuserinfo) get user information
-Before to invoke, you need to verdict whether this properties existed
-  - [`getAvailableLoginType`](#getavailablelogintype) set login type
-Before to invoke, you need to verdict whether this properties existed
-  - [`setLoginType`](#setlogintype) set login type
-Before to invoke, you need to verdict whether this properties existed
-  - [`sendToDesktop`](#sendtodesktop) send to desktop
-Before to invoke, you need to verdict whether this properties existed
-  - [`openBBS`](#openbbs) open bbs
-Before to invoke, you need to verdict whether this properties existed
-  - [`isFunctionSupported`](#isfunctionsupported) Check whether the function is supported
-  - [`getPluginName`](#getpluginname) get plugin name
-  - [`getPluginVersion`](#getpluginversion) get plugin version
-  - [`getSDKVersion`](#getsdkversion) get SDK version
-  - [`callFuncWithParam`](#callfuncwithparam) void methods for reflections with parameter
-  - [`callStringFuncWithParam`](#callstringfuncwithparam) String methods for reflections with parameter
-  - [`callIntFuncWithParam`](#callintfuncwithparam) int methods for reflections with parameter
-  - [`callBoolFuncWithParam`](#callboolfuncwithparam) boolean methods for reflections with parameter
-  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) float methods for reflections with parameter
+  - [`login`](#login) 
+  - [`isLogined`](#islogined) 
+  - [`getUserID`](#getuserid) 
+  - [`getPluginId`](#getpluginid) 
+  - [`setListener`](#setlistener) 
+  - [`getListener`](#getlistener) 
+  - [`logout`](#logout) 
+  - [`showToolBar`](#showtoolbar) 
+  - [`hideToolBar`](#hidetoolbar) 
+  - [`enterPlatform`](#enterplatform) 
+  - [`exit`](#exit) 
+  - [`pause`](#pause) 
+  - [`realNameRegister`](#realnameregister) 
+  - [`antiAddictionQuery`](#antiaddictionquery) 
+  - [`submitLoginGameRole`](#submitlogingamerole) 
+  - [`getUserInfo`](#getuserinfo) 
+  - [`getAvailableLoginType`](#getavailablelogintype) 
+  - [`setLoginType`](#setlogintype) 
+  - [`sendToDesktop`](#sendtodesktop) 
+  - [`openBBS`](#openbbs) 
+  - [`isFunctionSupported`](#isfunctionsupported) 
+  - [`getPluginName`](#getpluginname) 
+  - [`getPluginVersion`](#getpluginversion) 
+  - [`getSDKVersion`](#getsdkversion) 
+  - [`callFuncWithParam`](#callfuncwithparam) 
+  - [`callStringFuncWithParam`](#callstringfuncwithparam) 
+  - [`callIntFuncWithParam`](#callintfuncwithparam) 
+  - [`callBoolFuncWithParam`](#callboolfuncwithparam) 
+  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) 
 
 
 
@@ -76,7 +62,7 @@ login interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:462](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L462) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:463](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L463) |
 
 ###### Parameters
 - `args` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> optional arguments
@@ -89,7 +75,7 @@ get status of login
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:473](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L473) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:474](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L474) |
 
 
 
@@ -100,7 +86,7 @@ get user ID
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:486](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L486) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:487](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L487) |
 
 
 
@@ -111,7 +97,7 @@ get plugin ID
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:499](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L499) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:500](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L500) |
 
 
 
@@ -121,7 +107,7 @@ set listener
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:511](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L511) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:512](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L512) |
 
 ###### Parameters
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -135,7 +121,7 @@ get listener
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:523](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L523) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:524](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L524) |
 
 
 
@@ -146,7 +132,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:535](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L535) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:536](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L536) |
 
 
 
@@ -157,7 +143,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:546](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L546) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:547](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L547) |
 
 ###### Parameters
 - `place` anysdk.ToolBarPlace 
@@ -170,7 +156,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:558](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L558) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:559](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L559) |
 
 
 
@@ -181,7 +167,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:569](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L569) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:570](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L570) |
 
 
 
@@ -192,7 +178,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:580](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L580) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:581](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L581) |
 
 
 
@@ -203,7 +189,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:591](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L591) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:592](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L592) |
 
 
 
@@ -214,7 +200,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:602](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L602) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:603](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L603) |
 
 
 
@@ -225,7 +211,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:613](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L613) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:614](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L614) |
 
 
 
@@ -236,7 +222,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:624](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L624) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:625](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L625) |
 
 ###### Parameters
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -249,7 +235,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:635](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L635) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:636](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L636) |
 
 ###### Parameters
 - `info` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -262,7 +248,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:647](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L647) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:648](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L648) |
 
 ###### Parameters
 - `info` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -275,7 +261,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:659](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L659) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:660](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L660) |
 
 ###### Parameters
 - `loginType` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -288,7 +274,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:672](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L672) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:673](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L673) |
 
 
 
@@ -299,7 +285,7 @@ Before to invoke, you need to verdict whether this properties existed
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:683](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L683) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:684](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L684) |
 
 
 
@@ -310,7 +296,7 @@ Check whether the function is supported
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:327](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L327) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:328](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L328) |
 
 ###### Parameters
 - `functionName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -323,7 +309,7 @@ get plugin name
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:341](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L341) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:342](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L342) |
 
 
 
@@ -334,7 +320,7 @@ get plugin version
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:353](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L353) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:354](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L354) |
 
 
 
@@ -345,7 +331,7 @@ get SDK version
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:365](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L365) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:366](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L366) |
 
 
 
@@ -355,7 +341,7 @@ void methods for reflections with parameter
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:377](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L377) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:378](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L378) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -369,7 +355,7 @@ String methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:390](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L390) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:391](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L391) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -383,7 +369,7 @@ int methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:405](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L405) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:406](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L406) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -397,7 +383,7 @@ boolean methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:420](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L420) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:421](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L421) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -411,7 +397,7 @@ float methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:435](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L435) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:436](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L436) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 

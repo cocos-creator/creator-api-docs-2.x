@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 输入模式
@@ -27,7 +28,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L70) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:80](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L80) |
 
 
 
@@ -38,7 +39,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L75) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:86](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L86) |
 
 
 
@@ -49,7 +50,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L80) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:92](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L92) |
 
 
 
@@ -60,7 +61,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:85](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L85) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:98](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L98) |
 
 
 
@@ -71,7 +72,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:90](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L90) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:104](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L104) |
 
 
 
@@ -82,7 +83,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:95](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L95) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:110](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L110) |
 
 
 
@@ -93,6 +94,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:103](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L103) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:119](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/editbox/types.js#L119) |
 
 

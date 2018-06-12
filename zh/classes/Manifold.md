@@ -13,15 +13,10 @@
 
 ##### 属性（properties）
 
-  - [`type`](#type) `Number` Manifold 类型 :  0: e_circles, 1: e_faceA, 2: e_faceB
-  - [`localPoint`](#localpoint) `Vec2` 用途取决于 manifold 类型
--e_circles: circleA 的本地中心点
--e_faceA: faceA 的本地中心点
--e_faceB: faceB 的本地中心点
-  - [`localNormal`](#localnormal) `Vec2` -e_circles: 没被使用到
--e_faceA: polygonA 的法向量
--e_faceB: polygonB 的法向量
-  - [`points`](#points) `[ManifoldPoint]` 接触点信息。
+  - [`type`](#type) `Number` 
+  - [`localPoint`](#localpoint) `Vec2` 
+  - [`localNormal`](#localnormal) `Vec2` 
+  - [`points`](#points) `[ManifoldPoint]` 
 
 
 
@@ -40,7 +35,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L106) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:125](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsContact.js#L125) |
 
 
 
@@ -54,7 +49,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:115](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L115) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:134](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsContact.js#L134) |
 
 
 
@@ -67,7 +62,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:129](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L129) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:148](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsContact.js#L148) |
 
 
 
@@ -78,7 +73,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/ManifoldPoint.html" class="crosslink">[ManifoldPoint]</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:142](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L142) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:161](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsContact.js#L161) |
 
 
 

@@ -55,6 +55,12 @@ window.apimeta = {
       "description": "Enum for transition type."
     },
     {
+      "name": "Camera.ClearFlags",
+      "namespace": "cc.Camera.ClearFlags",
+      "module": "cc",
+      "description": "Values for Camera.clearFlags, determining what to clear when rendering a Camera."
+    },
+    {
       "name": "CustomResultCode",
       "namespace": "anysdk.CustomResultCode",
       "module": "anysdk",
@@ -181,6 +187,18 @@ window.apimeta = {
       "description": "the type for mask."
     },
     {
+      "name": "NetworkType",
+      "namespace": "cc.NetworkType",
+      "module": "cc",
+      "description": "Network type enumeration"
+    },
+    {
+      "name": "Node.EventType",
+      "namespace": "cc.Node.EventType",
+      "module": "cc",
+      "description": "The event type supported by Node"
+    },
+    {
       "name": "PageView.Direction",
       "namespace": "cc.PageView.Direction",
       "module": "cc",
@@ -221,6 +239,12 @@ window.apimeta = {
       "namespace": "anysdk.PayResultCode",
       "module": "anysdk",
       "description": "The callback of requesting reStringge"
+    },
+    {
+      "name": "Prefab.OptimizationPolicy",
+      "namespace": "cc.Prefab.OptimizationPolicy",
+      "module": "cc",
+      "description": "An enumeration used with the Prefab.optimizationPolicy\nto specify how to optimize the instantiate operation."
     },
     {
       "name": "ProgressBar.Mode",
@@ -322,7 +346,7 @@ window.apimeta = {
       "name": "Texture2D.PixelFormat",
       "namespace": "cc.Texture2D.PixelFormat",
       "module": "cc",
-      "description": "The texture pixel format, default value is RGBA8888"
+      "description": "The texture pixel format, default value is RGBA8888,\nyou should note that textures loaded by normal image files (png, jpg) can only support RGBA8888 format,\nother formats are supported by compressed file types or raw data."
     },
     {
       "name": "Texture2D.WrapMode",
@@ -349,6 +373,12 @@ window.apimeta = {
       "description": "The callback of user system"
     },
     {
+      "name": "VerticalTextAlignment",
+      "namespace": "cc.VerticalTextAlignment",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "VideoPlayer.EventType",
       "namespace": "cc.VideoPlayer.EventType",
       "module": "cc",
@@ -365,6 +395,12 @@ window.apimeta = {
       "namespace": "cc.WebView.EventType",
       "module": "cc",
       "description": "WebView event type"
+    },
+    {
+      "name": "Widget.AlignMode",
+      "namespace": "cc.Widget.AlignMode",
+      "module": "cc",
+      "description": "Enum for Widget's alignment mode, indicating when the widget should refresh."
     },
     {
       "name": "WrapMode",
@@ -387,22 +423,10 @@ window.apimeta = {
   ],
   "classes": [
     {
-      "name": "Acceleration",
-      "namespace": "cc.Acceleration",
-      "module": "cc",
-      "description": "the device accelerometer reports values for each axis in units of g-force."
-    },
-    {
       "name": "Action",
       "namespace": "cc.Action",
       "module": "cc",
       "description": "Base class cc.Action for action classes."
-    },
-    {
-      "name": "ActionEase",
-      "namespace": "cc.ActionEase",
-      "module": "cc",
-      "description": "Base class for Easing actions."
     },
     {
       "name": "ActionInstant",
@@ -426,7 +450,7 @@ window.apimeta = {
       "name": "AffineTransform",
       "namespace": "cc.AffineTransform",
       "module": "cc",
-      "description": "cc.AffineTransform class represent an affine transform matrix. It's composed basically by translation, rotation, scale transformations.<br/>\nPlease do not use its constructor directly, use cc.affineTransformMake alias function instead."
+      "description": "AffineTransform class represent an affine transform matrix. It's composed basically by translation, rotation, scale transformations.<br/>"
     },
     {
       "name": "AgentManager",
@@ -462,7 +486,7 @@ window.apimeta = {
       "name": "Asset",
       "namespace": "cc.Asset",
       "module": "cc",
-      "description": "Base class for handling assets used in Fireball. This class can be instantiate.\n\nYou may want to override:<br/>\n- createNode<br/>\n- cc.Object._serialize<br/>\n- cc.Object._deserialize<br/>"
+      "description": "Base class for handling assets used in Creator.<br/>\n\nYou may want to override:<br/>\n- createNode<br/>\n- getset functions of _nativeAsset<br/>\n- cc.Object._serialize<br/>\n- cc.Object._deserialize<br/>"
     },
     {
       "name": "AudioClip",
@@ -483,12 +507,6 @@ window.apimeta = {
       "description": "Class for BitmapFont handling."
     },
     {
-      "name": "BlendFunc",
-      "namespace": "cc.BlendFunc",
-      "module": "cc",
-      "description": "Blend Function used for textures."
-    },
-    {
       "name": "BlockInputEvents",
       "namespace": "cc.BlockInputEvents",
       "module": "cc",
@@ -504,7 +522,7 @@ window.apimeta = {
       "name": "Button",
       "namespace": "cc.Button",
       "module": "cc",
-      "description": "Button has 4 Transition types\nWhen Button state changed:\n If Transition type is Button.Transition.NONE, Button will do nothing\n If Transition type is Button.Transition.COLOR, Button will change target's color\n If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite\n If Transition type is Button.Transition.SCALE, Button will change target node's scale\n\nButton will trigger 5 events:\n Button.EVENT_TOUCH_DOWN\n Button.EVENT_TOUCH_UP\n Button.EVENT_HOVER_IN\n Button.EVENT_HOVER_MOVE\n Button.EVENT_HOVER_OUT"
+      "description": "Button has 4 Transition types<br/>\nWhen Button state changed:<br/>\n If Transition type is Button.Transition.NONE, Button will do nothing<br/>\n If Transition type is Button.Transition.COLOR, Button will change target's color<br/>\n If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite<br/>\n If Transition type is Button.Transition.SCALE, Button will change target node's scale<br/>\n\nButton will trigger 5 events:<br/>\n Button.EVENT_TOUCH_DOWN<br/>\n Button.EVENT_TOUCH_UP<br/>\n Button.EVENT_HOVER_IN<br/>\n Button.EVENT_HOVER_MOVE<br/>\n Button.EVENT_HOVER_OUT<br/>"
     },
     {
       "name": "CallbacksInvoker",
@@ -588,7 +606,7 @@ window.apimeta = {
       "name": "ContainerStrategy",
       "namespace": "cc.ContainerStrategy",
       "module": "cc",
-      "description": "<p>cc.ContainerStrategy class is the root strategy class of container's scale strategy,\nit controls the behavior of how to scale the cc.container and cc.game.canvas object</p>"
+      "description": "<p>cc.game.containerStrategy class is the root strategy class of container's scale strategy,\nit controls the behavior of how to scale the cc.game.container and cc.game.canvas object</p>"
     },
     {
       "name": "ContentStrategy",
@@ -625,24 +643,6 @@ window.apimeta = {
       "namespace": "dragonBones.DragonBonesAtlasAsset",
       "module": "dragonBones",
       "description": "The skeleton atlas data of dragonBones."
-    },
-    {
-      "name": "EaseBounce",
-      "namespace": "cc.EaseBounce",
-      "module": "cc",
-      "description": "cc.EaseBounce abstract class."
-    },
-    {
-      "name": "EaseElastic",
-      "namespace": "cc.EaseElastic",
-      "module": "cc",
-      "description": "Ease Elastic abstract class."
-    },
-    {
-      "name": "EaseRateAction",
-      "namespace": "cc.EaseRateAction",
-      "module": "cc",
-      "description": "Base class for Easing actions with rate parameters"
     },
     {
       "name": "EditBox",
@@ -699,12 +699,6 @@ window.apimeta = {
       "description": "The touch event"
     },
     {
-      "name": "EventListener",
-      "namespace": "cc.EventListener",
-      "module": "cc",
-      "description": "<p>\n    The base class of event listener.                                                                        <br/>\n    If you need custom listener which with different callback, you need to inherit this class.               <br/>\n    For instance, you could refer to EventListenerAcceleration, EventListenerKeyboard,                       <br/>\n     EventListenerTouchOneByOne, EventListenerCustom.\n</p>"
-    },
-    {
       "name": "EventTarget",
       "namespace": "cc.EventTarget",
       "module": "cc",
@@ -747,6 +741,12 @@ window.apimeta = {
       "description": "Base class for joints to connect rigidbody."
     },
     {
+      "name": "JsonAsset",
+      "namespace": "cc.JsonAsset",
+      "module": "cc",
+      "description": "Class for JSON file. When the JSON file is loaded, this object is returned.\nThe parsed JSON object can be accessed through the `json` attribute in it.<br>\nIf you want to get the original JSON text, you should modify the extname to `.txt`\nso that it is loaded as a `TextAsset` instead of a `JsonAsset`."
+    },
+    {
       "name": "Label",
       "namespace": "cc.Label",
       "module": "cc",
@@ -774,7 +774,7 @@ window.apimeta = {
       "name": "LoadingItems",
       "namespace": "cc.LoadingItems",
       "module": "cc",
-      "description": "LoadingItems is the queue of items which can flow them into the loading pipeline.</br>\nPlease don't construct it directly, use LoadingItems.create instead, because we use an internal pool to recycle the queues.</br>\nIt hold a map of items, each entry in the map is a url to object key value pair.</br>\nEach item always contains the following property:</br>\n- id: The identification of the item, usually it's identical to url</br>\n- url: The url </br>\n- type: The type, it's the extension name of the url by default, could be specified manually too.</br>\n- error: The error happened in pipeline will be stored in this property.</br>\n- content: The content processed by the pipeline, the final result will also be stored in this property.</br>\n- complete: The flag indicate whether the item is completed by the pipeline.</br>\n- states: An object stores the states of each pipe the item go through, the state can be: Pipeline.ItemState.WORKING | Pipeline.ItemState.ERROR | Pipeline.ItemState.COMPLETE</br>\n</br>\nItem can hold other custom properties.</br>\nEach LoadingItems object will be destroyed for recycle after onComplete callback</br>\nSo please don't hold its reference for later usage, you can copy properties in it though."
+      "description": "LoadingItems is the queue of items which can flow them into the loading pipeline.<br/>\nPlease don't construct it directly, use LoadingItems.create instead, because we use an internal pool to recycle the queues.<br/>\nIt hold a map of items, each entry in the map is a url to object key value pair.<br/>\nEach item always contains the following property:<br/>\n- id: The identification of the item, usually it's identical to url<br/>\n- url: The url <br/>\n- type: The type, it's the extension name of the url by default, could be specified manually too.<br/>\n- error: The error happened in pipeline will be stored in this property.<br/>\n- content: The content processed by the pipeline, the final result will also be stored in this property.<br/>\n- complete: The flag indicate whether the item is completed by the pipeline.<br/>\n- states: An object stores the states of each pipe the item go through, the state can be: Pipeline.ItemState.WORKING | Pipeline.ItemState.ERROR | Pipeline.ItemState.COMPLETE<br/>\n<br/>\nItem can hold other custom properties.<br/>\nEach LoadingItems object will be destroyed for recycle after onComplete callback<br/>\nSo please don't hold its reference for later usage, you can copy properties in it though."
     },
     {
       "name": "Manifold",
@@ -816,13 +816,7 @@ window.apimeta = {
       "name": "Node",
       "namespace": "cc.Node",
       "module": "cc",
-      "description": "Class of all entities in Cocos Creator scenes.<br/>\nNode also inherits from <a href=\"../classes/EventTarget.html\" class=\"crosslink\">Event Target</a>, it permits Node to dispatch events.\nFor events supported by Node, please refer to <a href=\"../classes/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>"
-    },
-    {
-      "name": "Node.EventType",
-      "namespace": "cc.Node.EventType",
-      "module": "cc",
-      "description": "The event type supported by Node"
+      "description": "Class of all entities in Cocos Creator scenes.<br/>\nFor events supported by Node, please refer to <a href=\"../enums/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>"
     },
     {
       "name": "NodePool",
@@ -847,6 +841,12 @@ window.apimeta = {
       "namespace": "cc.PageViewIndicator",
       "module": "cc",
       "description": "The Page View Indicator Component"
+    },
+    {
+      "name": "ParticleAsset",
+      "namespace": "cc.ParticleAsset",
+      "module": "cc",
+      "description": "Class for particle asset handling."
     },
     {
       "name": "ParticleSystem",
@@ -912,7 +912,7 @@ window.apimeta = {
       "name": "Pipeline",
       "namespace": "cc.Pipeline",
       "module": "cc",
-      "description": "A pipeline describes a sequence of manipulations, each manipulation is called a pipe.</br>\nIt's designed for loading process. so items should be urls, and the url will be the identity of each item during the process.</br>\nA list of items can flow in the pipeline and it will output the results of all pipes.</br>\nThey flow in the pipeline like water in tubes, they go through pipe by pipe separately.</br>\nFinally all items will flow out the pipeline and the process is finished."
+      "description": "A pipeline describes a sequence of manipulations, each manipulation is called a pipe.<br/>\nIt's designed for loading process. so items should be urls, and the url will be the identity of each item during the process.<br/>\nA list of items can flow in the pipeline and it will output the results of all pipes.<br/>\nThey flow in the pipeline like water in tubes, they go through pipe by pipe separately.<br/>\nFinally all items will flow out the pipeline and the process is finished."
     },
     {
       "name": "Pipeline.Downloader",
@@ -967,6 +967,12 @@ window.apimeta = {
       "namespace": "cc.PrismaticJoint",
       "module": "cc",
       "description": "A prismatic joint. This joint provides one degree of freedom: translation\nalong an axis fixed in rigidbody. Relative rotation is prevented. You can\nuse a joint limit to restrict the range of motion and a joint motor to\ndrive the motion or to model joint friction."
+    },
+    {
+      "name": "PrivateNode",
+      "namespace": "cc.PrivateNode",
+      "module": "cc",
+      "description": "Class of private entities in Cocos Creator scenes.<br/>\nThe PrivateNode is hidden in editor, and completely transparent to users.<br/>\nIt's normally used as Node's private content created by components in parent node.<br/>\nSo in theory private nodes are not children, they are part of the parent node.<br/>\nPrivate node have two important characteristics:<br/>\n1. It has the minimum z index and cannot be modified, because they can't be displayed over real children.<br/>\n2. The positioning of private nodes is also special, they will consider the left bottom corner of the parent node's bounding box as the origin of local coordinates.<br/>\n   In this way, they can be easily kept inside the bounding box.<br/>\nCurrently, it's used by RichText component and TileMap component."
     },
     {
       "name": "ProgressBar",
@@ -1053,28 +1059,34 @@ window.apimeta = {
       "description": "user protocol"
     },
     {
-      "name": "Quad2",
-      "namespace": "cc.Quad2",
+      "name": "Quat",
+      "namespace": "cc.Quat",
       "module": "cc",
-      "description": ""
-    },
-    {
-      "name": "Quad3",
-      "namespace": "cc.Quad3",
-      "module": "cc",
-      "description": "A 3D Quad. 4 * 3 floats"
+      "description": "Representation of 2D vectors and points."
     },
     {
       "name": "RawAsset",
       "namespace": "cc.RawAsset",
       "module": "cc",
-      "description": "The base class for registering asset types.\n\nYou may want to override:\n- createNode (static)"
+      "description": "The base class for registering asset types."
     },
     {
       "name": "Rect",
       "namespace": "cc.Rect",
       "module": "cc",
       "description": "A 2D rectangle defined by x, y position and width, height."
+    },
+    {
+      "name": "RenderComponent",
+      "namespace": "cc.RenderComponent",
+      "module": "cc",
+      "description": "Base class for components which supports rendering features."
+    },
+    {
+      "name": "RenderTexture",
+      "namespace": "cc.RenderTexture",
+      "module": "cc",
+      "description": "Render textures are textures that can be rendered to."
     },
     {
       "name": "ResolutionPolicy",
@@ -1173,12 +1185,6 @@ window.apimeta = {
       "description": "Class for sprite atlas handling."
     },
     {
-      "name": "SpriteDistortion",
-      "namespace": "cc.SpriteDistortion",
-      "module": "cc",
-      "description": "A distortion used to change the rendering of simple sprite.If will take effect after sprite component is added."
-    },
-    {
       "name": "SpriteFrame",
       "namespace": "cc.SpriteFrame",
       "module": "cc",
@@ -1197,22 +1203,10 @@ window.apimeta = {
       "description": "The event type supported by SystemEvent"
     },
     {
-      "name": "TMXObject",
-      "namespace": "cc.TMXObject",
-      "module": "cc",
-      "description": "Renders the TMX object."
-    },
-    {
       "name": "TTFFont",
       "namespace": "cc.TTFFont",
       "module": "cc",
       "description": "Class for TTFFont handling."
-    },
-    {
-      "name": "Tex2F",
-      "namespace": "cc.Tex2F",
-      "module": "cc",
-      "description": ""
     },
     {
       "name": "TextAsset",
@@ -1224,7 +1218,7 @@ window.apimeta = {
       "name": "Texture2D",
       "namespace": "cc.Texture2D",
       "module": "cc",
-      "description": "<p>\nThis class allows to easily create OpenGL or Canvas 2D textures from images, text or raw data.                                    <br/>\nThe created cc.Texture2D object will always have power-of-two dimensions.                                                <br/>\nDepending on how you create the cc.Texture2D object, the actual image area of the texture might be smaller than the texture dimensions <br/>\n i.e. \"contentSize\" != (pixelsWide, pixelsHigh) and (maxS, maxT) != (1.0, 1.0).                                           <br/>\nBe aware that the content of the generated textures will be upside-down! </p>"
+      "description": "This class allows to easily create OpenGL or Canvas 2D textures from images or raw data."
     },
     {
       "name": "TiledLayer",
@@ -1251,6 +1245,12 @@ window.apimeta = {
       "description": "Renders the TMX object group."
     },
     {
+      "name": "TiledTile",
+      "namespace": "cc.TiledTile",
+      "module": "cc",
+      "description": "TiledTile can control the specified map tile.\nIt will apply the node rotation, scale, translate to the map tile.\nYou can change the TiledTile's gid to change the map tile's style."
+    },
+    {
       "name": "Toggle",
       "namespace": "cc.Toggle",
       "module": "cc",
@@ -1260,7 +1260,7 @@ window.apimeta = {
       "name": "ToggleContainer",
       "namespace": "cc.ToggleContainer",
       "module": "cc",
-      "description": "ToggleContainer is not a visiable UI component but a way to modify the behavior of a set of Toggles. </br>\nToggles that belong to the same group could only have one of them to be switched on at a time.</br>\nNote: All the first layer child node containing the toggle component will auto be added to the container"
+      "description": "ToggleContainer is not a visiable UI component but a way to modify the behavior of a set of Toggles. <br/>\nToggles that belong to the same group could only have one of them to be switched on at a time.<br/>\nNote: All the first layer child node containing the toggle component will auto be added to the container"
     },
     {
       "name": "ToggleGroup",
@@ -1281,30 +1281,6 @@ window.apimeta = {
       "description": "Class for TypeScript handling."
     },
     {
-      "name": "V2F_C4B_T2F",
-      "namespace": "cc.V2F_C4B_T2F",
-      "module": "cc",
-      "description": ""
-    },
-    {
-      "name": "V2F_C4B_T2F_Triangle",
-      "namespace": "cc.V2F_C4B_T2F_Triangle",
-      "module": "cc",
-      "description": ""
-    },
-    {
-      "name": "V3F_C4B_T2F",
-      "namespace": "cc.V3F_C4B_T2F",
-      "module": "cc",
-      "description": ""
-    },
-    {
-      "name": "V3F_C4B_T2F_Quad",
-      "namespace": "cc.V3F_C4B_T2F_Quad",
-      "module": "cc",
-      "description": ""
-    },
-    {
       "name": "ValueType",
       "namespace": "cc.ValueType",
       "module": "cc",
@@ -1317,16 +1293,10 @@ window.apimeta = {
       "description": "Representation of 2D vectors and points."
     },
     {
-      "name": "Vertex2F",
-      "namespace": "cc.Vertex2F",
+      "name": "Vec3",
+      "namespace": "cc.Vec3",
       "module": "cc",
-      "description": ""
-    },
-    {
-      "name": "Vertex3F",
-      "namespace": "cc.Vertex3F",
-      "module": "cc",
-      "description": ""
+      "description": "Representation of 3D vectors and points."
     },
     {
       "name": "VideoPlayer",
@@ -1345,12 +1315,6 @@ window.apimeta = {
       "namespace": "cc.ViewGroup",
       "module": "cc",
       "description": "Handling touch events in a ViewGroup takes special care,\nbecause it's common for a ViewGroup to have children that are targets for different touch events than the ViewGroup itself.\nTo make sure that each view correctly receives the touch events intended for it,\nViewGroup should register capture phase event and handle the event propagation properly.\nPlease refer to Scrollview for more  information."
-    },
-    {
-      "name": "WebGLColor",
-      "namespace": "cc.WebGLColor",
-      "module": "cc",
-      "description": ""
     },
     {
       "name": "WebView",
@@ -1395,10 +1359,10 @@ window.apimeta = {
       "description": "cc.audioEngine is the singleton object, it provide simple audio APIs."
     },
     {
-      "name": "eventManager",
-      "namespace": "cc.eventManager",
+      "name": "constructor",
+      "namespace": "cc.Acceleration",
       "module": "cc",
-      "description": "This class has been deprecated, please use cc.systemEvent or cc.EventTarget instead. See [Listen to and launch events](../../../manual/en/scripting/events.md) for details.<br>\n<br>\ncc.eventManager is a singleton object which manages event listener subscriptions and event dispatching.\nThe EventListener list is managed in such way so that event listeners can be added and removed\nwhile events are being dispatched."
+      "description": "the device accelerometer reports values for each axis in units of g-force."
     },
     {
       "name": "loader",
@@ -1407,10 +1371,16 @@ window.apimeta = {
       "description": "Loader for resource loading process. It's a singleton object."
     },
     {
-      "name": "pool",
-      "namespace": "cc.pool",
+      "name": "misc",
+      "namespace": "cc.misc",
       "module": "cc",
-      "description": "Attention: In creator, it's strongly not recommended to use cc.pool to manager cc.Node.\n We provided <a href=\"../classes/NodePool.html\" class=\"crosslink\">cc.NodePool</a> instead.\n\n cc.pool is a singleton object serves as an object cache pool.<br/>\n It can helps you to improve your game performance for objects which need frequent release and recreate operations<br/>"
+      "description": "misc utilities"
+    },
+    {
+      "name": "path",
+      "namespace": "cc.path",
+      "module": "cc",
+      "description": "The module provides utilities for working with file and directory paths"
     },
     {
       "name": "screen",
@@ -1423,12 +1393,6 @@ window.apimeta = {
       "namespace": "cc.sys",
       "module": "cc",
       "description": "System variables"
-    },
-    {
-      "name": "textureCache",
-      "namespace": "cc.textureCache",
-      "module": "cc",
-      "description": "cc.textureCache is a singleton object, it's the global cache for cc.Texture2D"
     },
     {
       "name": "url",

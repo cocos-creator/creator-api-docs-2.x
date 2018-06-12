@@ -23,7 +23,7 @@ Type 类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:107](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L107) |
+| 定义于 | [cocos2d/core/components/CCLabel.js:118](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCLabel.js#L118) |
 
 
 
@@ -34,7 +34,7 @@ Type 类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:112](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L112) |
+| 定义于 | [cocos2d/core/components/CCLabel.js:123](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCLabel.js#L123) |
 
 
 
@@ -45,6 +45,6 @@ Type 类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L117) |
+| 定义于 | [cocos2d/core/components/CCLabel.js:128](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCLabel.js#L128) |
 
 

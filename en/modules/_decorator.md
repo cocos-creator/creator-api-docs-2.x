@@ -18,34 +18,18 @@ Some JavaScript decorators which can be accessed with "cc._decorator".
 
 ##### Methods
 
-  - [`ccclass`](#ccclass) Declare the standard [ES6 Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-as CCClass, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class/) for details.
-  - [`property`](#property) Declare property for [CCClass](/docs/editors_and_tools/creator-chapters/scripting/class/).
-  - [`executeInEditMode`](#executeineditmode) Makes a CCClass that inherit from component execute in edit mode.<br>
-By default, all components are only executed in play mode,
-which means they will not have their callback functions executed while the Editor is in edit mode.
-  - [`requireComponent`](#requirecomponent) Automatically add required component as a dependency for the CCClass that inherit from component.
-  - [`menu`](#menu) The menu path to register a component to the editors "Component" menu. Eg. "Rendering/CameraCtrl".
-  - [`executionOrder`](#executionorder) The execution order of lifecycle methods for Component.
-Those less than 0 will execute before while those greater than 0 will execute after.
-The order will only affect onLoad, onEnable, start, update and lateUpdate while onDisable and onDestroy will not be affected.
-  - [`disallowMultiple`](#disallowmultiple) Prevents Component of the same type (or subtype) to be added more than once to a Node.
-  - [`playOnFocus`](#playonfocus) If specified, the editor's scene view will keep updating this node in 60 fps when it is selected, otherwise, it will update only if necessary.<br>
-This property is only available if executeInEditMode is true.
-  - [`inspector`](#inspector) Specifying the url of the custom html to draw the component in **Properties**.
-  - [`icon`](#icon) Specifying the url of the icon to display in the editor.
-  - [`help`](#help) The custom documentation URL.
-  - [`mixins`](#mixins) NOTE:<br>
-The old mixins implemented in cc.Class(ES5) behaves exact the same as multiple inheritance.
-But since ES6, class constructor can't be function-called and class methods become non-enumerable,
-so we can not mix in ES6 Classes.<br>
-See:<br>
-[https://esdiscuss.org/topic/traits-are-now-impossible-in-es6-until-es7-since-rev32](https://esdiscuss.org/topic/traits-are-now-impossible-in-es6-until-es7-since-rev32)<br>
-One possible solution (but IDE unfriendly):<br>
-[http://justinfagnani.com/2015/12/21/real-mixins-with-javascript-classes](http://justinfagnani.com/2015/12/21/real-mixins-with-javascript-classes/)<br>
-<br>
-NOTE:<br>
-You must manually call mixins constructor, this is different from cc.Class(ES5).
+  - [`ccclass`](#ccclass) 
+  - [`property`](#property) 
+  - [`executeInEditMode`](#executeineditmode) 
+  - [`requireComponent`](#requirecomponent) 
+  - [`menu`](#menu) 
+  - [`executionOrder`](#executionorder) 
+  - [`disallowMultiple`](#disallowmultiple) 
+  - [`playOnFocus`](#playonfocus) 
+  - [`inspector`](#inspector) 
+  - [`icon`](#icon) 
+  - [`help`](#help) 
+  - [`mixins`](#mixins) 
 
 
 
@@ -65,7 +49,7 @@ as CCClass, please see [Class](/docs/editors_and_tools/creator-chapters/scriptin
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:230](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L230) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:243](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L243) |
 
 ###### Parameters
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The class name used for serialization.
@@ -94,12 +78,11 @@ Declare property for [CCClass](/docs/editors_and_tools/creator-chapters/scriptin
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:302](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L302) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:315](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L315) |
 
 ###### Parameters
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> an object with some property attributes
 	- `type` Any 
-	- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 	- `visible` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 	- `displayName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 	- `tooltip` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -153,8 +136,8 @@ class NewScript extends cc.Component {
     @property(cc.Vec2)
     offsets = [];
 
-    @property(cc.Texture2D)
-    texture = "";
+    @property(cc.SpriteFrame)
+    frame = null;
 }
 
 // above is equivalent to (上面的代码相当于):
@@ -194,9 +177,9 @@ var NewScript = cc.Class({
             type: cc.Vec2
         }
 
-        texture: {
-            default: "",
-            url: cc.Texture2D
+        frame: {
+            default: null,
+            type: cc.SpriteFrame
         },
     }
 });
@@ -210,7 +193,7 @@ which means they will not have their callback functions executed while the Edito
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:449](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L449) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:461](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L461) |
 
 
 ##### Examples
@@ -231,7 +214,7 @@ Automatically add required component as a dependency for the CCClass that inheri
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:473](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L473) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:485](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L485) |
 
 ###### Parameters
 - `requiredComponent` <a href="../classes/Component.html" class="crosslink">Component</a> 
@@ -254,7 +237,7 @@ The menu path to register a component to the editors "Component" menu. Eg. "Rend
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:494](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L494) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:506](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L506) |
 
 ###### Parameters
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The path is the menu represented like a pathname.
@@ -280,7 +263,7 @@ The order will only affect onLoad, onEnable, start, update and lateUpdate while 
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:516](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L516) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:528](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L528) |
 
 ###### Parameters
 - `order` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The execution order of lifecycle methods for Component. Those less than 0 will execute before while those greater than 0 will execute after.
@@ -303,7 +286,7 @@ Prevents Component of the same type (or subtype) to be added more than once to a
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:539](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L539) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:551](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L551) |
 
 
 ##### Examples
@@ -325,7 +308,7 @@ This property is only available if executeInEditMode is true.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:560](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L560) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:572](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L572) |
 
 
 ##### Examples
@@ -347,7 +330,7 @@ Specifying the url of the custom html to draw the component in **Properties**.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:583](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L583) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:595](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L595) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -370,7 +353,7 @@ Specifying the url of the icon to display in the editor.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:604](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L604) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:616](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L616) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -393,7 +376,7 @@ The custom documentation URL.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:626](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L626) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:638](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L638) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -426,7 +409,7 @@ You must manually call mixins constructor, this is different from cc.Class(ES5).
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js:649](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCClassDecorator.js#L649) |
+| Defined in | [cocos2d/core/platform/CCClassDecorator.js:661](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCClassDecorator.js#L661) |
 
 ###### Parameters
 - `ctor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> constructors to mix, only support ES5 constructors or classes defined by using `cc.Class`,

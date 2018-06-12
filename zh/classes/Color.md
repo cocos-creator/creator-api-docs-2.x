@@ -18,44 +18,41 @@ cc.Color 用于表示颜色。
 
 ##### 属性（properties）
 
-  - [`WHITE`](#white) `Color` 纯白色，RGBA 是 [255, 255, 255, 255]。
-  - [`BLACK`](#black) `Color` 纯黑色，RGBA 是 [0, 0, 0, 255]。
-  - [`TRANSPARENT`](#transparent) `Color` 透明，RGBA 是 [0, 0, 0, 0]。
-  - [`GRAY`](#gray) `Color` 灰色，RGBA 是 [127.5, 127.5, 127.5]。
-  - [`RED`](#red) `Color` 纯红色，RGBA 是 [255, 0, 0]。
-  - [`GREEN`](#green) `Color` 纯绿色，RGBA 是 [0, 255, 0]。
-  - [`BLUE`](#blue) `Color` 纯蓝色，RGBA 是 [0, 0, 255]。
-  - [`YELLOW`](#yellow) `Color` 黄色，RGBA 是 [255, 235, 4]。
-  - [`ORANGE`](#orange) `Color` 橙色，RGBA 是 [255, 127, 0]。
-  - [`CYAN`](#cyan) `Color` 青色，RGBA 是 [0, 255, 255]。
-  - [`MAGENTA`](#magenta) `Color` 洋红色（品红色），RGBA 是 [255, 0, 255]。
+  - [`WHITE`](#white) `Color` 
+  - [`BLACK`](#black) `Color` 
+  - [`TRANSPARENT`](#transparent) `Color` 
+  - [`GRAY`](#gray) `Color` 
+  - [`RED`](#red) `Color` 
+  - [`GREEN`](#green) `Color` 
+  - [`BLUE`](#blue) `Color` 
+  - [`YELLOW`](#yellow) `Color` 
+  - [`ORANGE`](#orange) `Color` 
+  - [`CYAN`](#cyan) `Color` 
+  - [`MAGENTA`](#magenta) `Color` 
 
 
 
 ##### 方法
 
   - [`constructor`](#constructor) 
-  - [`clone`](#clone) 克隆当前颜色。
-  - [`equals`](#equals) 判断两个颜色是否相等。
-  - [`lerp`](#lerp) 线性插值
-  - [`toString`](#tostring) 转换为方便阅读的字符串。
-  - [`getR`](#getr) 获取当前颜色的红色值。
-  - [`setR`](#setr) 设置当前的红色值，并返回当前对象。
-  - [`getG`](#getg) 获取当前颜色的绿色值。
-  - [`setG`](#setg) 设置当前的绿色值，并返回当前对象。
-  - [`getB`](#getb) 获取当前颜色的蓝色值。
-  - [`setB`](#setb) 设置当前的蓝色值，并返回当前对象。
-  - [`getA`](#geta) 获取当前颜色的透明度值。
-  - [`setA`](#seta) 设置当前的透明度，并返回当前对象。
-  - [`toCSS`](#tocss) 转换为 CSS 格式。
-  - [`clamp`](#clamp) 限制颜色数值，在 0 到 255 之间。
-  - [`fromHEX`](#fromhex) 读取 16 进制颜色。
-  - [`toHEX`](#tohex) 转换为 16 进制。
-  - [`toRGBValue`](#torgbvalue) 转换为 24bit 的 RGB 值。
-  - [`fromHSV`](#fromhsv) 读取 HSV（色彩模型）格式。
-  - [`toHSV`](#tohsv) 转换为 HSV（色彩模型）格式。
-  - [`rgb2hsv`](#rgb2hsv) RGB 转换为 HSV。
-  - [`hsv2rgb`](#hsv2rgb) HSV 转换为 RGB。
+  - [`clone`](#clone) 
+  - [`equals`](#equals) 
+  - [`lerp`](#lerp) 
+  - [`toString`](#tostring) 
+  - [`getR`](#getr) 
+  - [`setR`](#setr) 
+  - [`getG`](#getg) 
+  - [`setG`](#setg) 
+  - [`getB`](#getb) 
+  - [`setB`](#setb) 
+  - [`getA`](#geta) 
+  - [`setA`](#seta) 
+  - [`toCSS`](#tocss) 
+  - [`fromHEX`](#fromhex) 
+  - [`toHEX`](#tohex) 
+  - [`toRGBValue`](#torgbvalue) 
+  - [`fromHSV`](#fromhsv) 
+  - [`toHSV`](#tohsv) 
 
 
 
@@ -72,7 +69,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:77](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L77) |
+| 定义于 | [cocos2d/core/value-types/color.js:78](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L78) |
 
 
 
@@ -83,7 +80,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:85](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L85) |
+| 定义于 | [cocos2d/core/value-types/color.js:86](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L86) |
 
 
 
@@ -94,7 +91,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:93](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L93) |
+| 定义于 | [cocos2d/core/value-types/color.js:94](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L94) |
 
 
 
@@ -105,7 +102,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L101) |
+| 定义于 | [cocos2d/core/value-types/color.js:102](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L102) |
 
 
 
@@ -116,7 +113,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:109](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L109) |
+| 定义于 | [cocos2d/core/value-types/color.js:110](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L110) |
 
 
 
@@ -127,7 +124,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:117](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L117) |
+| 定义于 | [cocos2d/core/value-types/color.js:118](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L118) |
 
 
 
@@ -138,7 +135,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L125) |
+| 定义于 | [cocos2d/core/value-types/color.js:126](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L126) |
 
 
 
@@ -149,7 +146,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:133](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L133) |
+| 定义于 | [cocos2d/core/value-types/color.js:134](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L134) |
 
 
 
@@ -160,7 +157,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:141](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L141) |
+| 定义于 | [cocos2d/core/value-types/color.js:142](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L142) |
 
 
 
@@ -171,7 +168,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:149](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L149) |
+| 定义于 | [cocos2d/core/value-types/color.js:150](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L150) |
 
 
 
@@ -182,7 +179,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:157](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L157) |
+| 定义于 | [cocos2d/core/value-types/color.js:158](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L158) |
 
 
 
@@ -199,7 +196,7 @@ cc.Color 用于表示颜色。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:52](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L52) |
+| 定义于 | [cocos2d/core/value-types/color.js:53](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L53) |
 
 ###### 参数列表
 - `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> red component of the color, default value is 0.
@@ -215,7 +212,7 @@ cc.Color 用于表示颜色。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:176](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L176) |
+| 定义于 | [cocos2d/core/value-types/color.js:177](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L177) |
 
 
 ##### 示例
@@ -232,7 +229,7 @@ var newColor = color.clone();// Color {r: 0, g: 0, b: 0, a: 255}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:191](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L191) |
+| 定义于 | [cocos2d/core/value-types/color.js:192](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L192) |
 
 ###### 参数列表
 - `other` <a href="../classes/Color.html" class="crosslink">Color</a> 
@@ -254,7 +251,7 @@ cc.log(color2.equals(color1)); // false;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:208](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L208) |
+| 定义于 | [cocos2d/core/value-types/color.js:209](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L209) |
 
 ###### 参数列表
 - `to` <a href="../classes/Color.html" class="crosslink">Color</a> 
@@ -263,18 +260,7 @@ cc.log(color2.equals(color1)); // false;
 
 ##### 示例
 
-```js
-// Converts a white color to a black one trough time.
-update: function (dt) {
-    var color = this.node.color;
-    if (color.equals(cc.Color.BLACK)) {
-        return;
-    }
-    this.ratio += dt * 0.1;
-    this.node.color = cc.Color.WHITE.lerp(cc.Color.BLACK, ratio);
-}
-
-```
+```Not found for the example path: temp-src/engine/docs/utils/api/engine/docs/cocos2d/core/value-types/CCColor/lerp.js
 
 ##### toString
 
@@ -283,7 +269,7 @@ update: function (dt) {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:231](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L231) |
+| 定义于 | [cocos2d/core/value-types/color.js:232](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L232) |
 
 
 ##### 示例
@@ -300,7 +286,7 @@ color.toString(); // "rgba(255, 255, 255, 255)"
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:248](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L248) |
+| 定义于 | [cocos2d/core/value-types/color.js:249](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L249) |
 
 
 
@@ -311,7 +297,7 @@ color.toString(); // "rgba(255, 255, 255, 255)"
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:257](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L257) |
+| 定义于 | [cocos2d/core/value-types/color.js:258](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L258) |
 
 ###### 参数列表
 - `red` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the new Red component.
@@ -330,7 +316,7 @@ color.setR(255); // Color {r: 255, g: 0, b: 0, a: 255}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:271](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L271) |
+| 定义于 | [cocos2d/core/value-types/color.js:272](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L272) |
 
 
 
@@ -341,7 +327,7 @@ color.setR(255); // Color {r: 255, g: 0, b: 0, a: 255}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:280](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L280) |
+| 定义于 | [cocos2d/core/value-types/color.js:281](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L281) |
 
 ###### 参数列表
 - `green` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the new Green component.
@@ -360,7 +346,7 @@ color.setG(255); // Color {r: 0, g: 255, b: 0, a: 255}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:294](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L294) |
+| 定义于 | [cocos2d/core/value-types/color.js:295](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L295) |
 
 
 
@@ -371,7 +357,7 @@ color.setG(255); // Color {r: 0, g: 255, b: 0, a: 255}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:303](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L303) |
+| 定义于 | [cocos2d/core/value-types/color.js:304](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L304) |
 
 ###### 参数列表
 - `blue` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the new Blue component.
@@ -390,7 +376,7 @@ color.setB(255); // Color {r: 0, g: 0, b: 255, a: 255}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:317](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L317) |
+| 定义于 | [cocos2d/core/value-types/color.js:318](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L318) |
 
 
 
@@ -401,7 +387,7 @@ color.setB(255); // Color {r: 0, g: 0, b: 255, a: 255}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:326](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L326) |
+| 定义于 | [cocos2d/core/value-types/color.js:327](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L327) |
 
 ###### 参数列表
 - `alpha` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the new Alpha component.
@@ -420,38 +406,14 @@ color.setA(0); // Color {r: 0, g: 0, b: 0, a: 0}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:346](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L346) |
+| 定义于 | [cocos2d/core/value-types/color.js:347](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L347) |
 
 ###### 参数列表
 - `opt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> "rgba", "rgb", "#rgb" or "#rrggbb".
 
 ##### 示例
 
-```js
-var color = cc.Color.BLACK;
-color.toCSS();          // "#000";
-color.toCSS("rgba");    // "rgba(0,0,0,1.00)";
-color.toCSS("rgb");     // "rgba(0,0,0)";
-color.toCSS("#rgb");    // "#000";
-color.toCSS("#rrggbb"); // "#000000";
-```
-
-##### clamp
-
-限制颜色数值，在 0 到 255 之间。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:375](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L375) |
-
-
-##### 示例
-
-```js
-var color = new cc.Color(1000, 0, 0, 255);
-color.clamp();
-cc.log(color); // (255, 0, 0, 255)
-```
+```Not found for the example path: temp-src/engine/docs/utils/api/engine/docs/cocos2d/core/value-types/CCColor/toCSS.js
 
 ##### fromHEX
 
@@ -460,7 +422,7 @@ cc.log(color); // (255, 0, 0, 255)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:389](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L389) |
+| 定义于 | [cocos2d/core/value-types/color.js:376](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L376) |
 
 ###### 参数列表
 - `hexString` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -479,7 +441,7 @@ color.fromHEX("#FFFF33"); // Color {r: 255, g: 255, b: 51, a: 255};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:409](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L409) |
+| 定义于 | [cocos2d/core/value-types/color.js:397](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L397) |
 
 ###### 参数列表
 - `fmt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> "#rgb" or "#rrggbb".
@@ -499,7 +461,7 @@ color.toHEX("#rrggbb");  // "000000";
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:444](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L444) |
+| 定义于 | [cocos2d/core/value-types/color.js:433](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L433) |
 
 
 ##### 示例
@@ -516,7 +478,7 @@ color.toRGBValue(); // 16771844;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:457](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L457) |
+| 定义于 | [cocos2d/core/value-types/color.js:446](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L446) |
 
 ###### 参数列表
 - `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -537,7 +499,7 @@ color.fromHSV(0, 0, 1); // Color {r: 255, g: 255, b: 255, a: 255};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:476](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L476) |
+| 定义于 | [cocos2d/core/value-types/color.js:524](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/value-types/color.js#L524) |
 
 
 ##### 示例
@@ -545,46 +507,6 @@ color.fromHSV(0, 0, 1); // Color {r: 255, g: 255, b: 255, a: 255};
 ```js
 var color = cc.Color.YELLOW;
 color.toHSV(); // Object {h: 0.1533864541832669, s: 0.9843137254901961, v: 1};
-```
-
-##### rgb2hsv
-
-RGB 转换为 HSV。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:504](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L504) |
-
-###### 参数列表
-- `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> red, must be [0, 255].
-- `g` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> red, must be [0, 255].
-- `b` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> red, must be [0, 255].
-
-##### 示例
-
-```js
-cc.Color.rgb2hsv(255, 255, 255); // Object {h: 0, s: 0, v: 1};
-```
-
-##### hsv2rgb
-
-HSV 转换为 RGB。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js:538](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCColor.js#L538) |
-
-###### 参数列表
-- `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `s` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `v` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-cc.Color.hsv2rgb(0, 0, 1); // Object {r: 255, g: 255, b: 255};
 ```
 
 

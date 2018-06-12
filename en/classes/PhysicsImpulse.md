@@ -12,8 +12,8 @@ Contact impulses for reporting.
 
 ##### Properties
 
-  - [`normalImpulses`](#normalimpulses) `Unknown` Normal impulses.
-  - [`tangentImpulses`](#tangentimpulses) `Unknown` Tangent impulses
+  - [`normalImpulses`](#normalimpulses) `Unknown` 
+  - [`tangentImpulses`](#tangentimpulses) `Unknown` 
 
 
 
@@ -32,7 +32,7 @@ Contact impulses for reporting.
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:160](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L160) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:179](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsContact.js#L179) |
 
 
 
@@ -43,7 +43,7 @@ Contact impulses for reporting.
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:168](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L168) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:187](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsContact.js#L187) |
 
 
 

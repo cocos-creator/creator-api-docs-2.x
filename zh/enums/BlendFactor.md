@@ -2,7 +2,7 @@
 
 
 
-模块: [cc](../modules/cc.md)
+模块: [_decorator](../modules/_decorator.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -32,7 +32,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:76](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L76) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:1448](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1448) |
 
 
 
@@ -43,7 +43,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L82) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:1454](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1454) |
 
 
 
@@ -54,7 +54,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L88) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:1460](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1460) |
 
 
 
@@ -65,7 +65,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L94) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:1466](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1466) |
 
 
 
@@ -76,7 +76,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L100) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:1472](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1472) |
 
 
 
@@ -87,7 +87,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L106) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:1478](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1478) |
 
 
 
@@ -98,7 +98,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:112](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L112) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:1484](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1484) |
 
 
 
@@ -109,7 +109,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L118) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:1490](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1490) |
 
 
 
@@ -120,7 +120,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L124) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:1496](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1496) |
 
 
 
@@ -131,6 +131,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L130) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:1502](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCMacro.js#L1502) |
 
 

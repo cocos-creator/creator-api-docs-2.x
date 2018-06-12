@@ -3,10 +3,11 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
-The texture pixel format, default value is RGBA8888
+The texture pixel format, default value is RGBA8888,
+you should note that textures loaded by normal image files (png, jpg) can only support RGBA8888 format,
+other formats are supported by compressed file types or raw data.
 
 
 ### Index
@@ -24,45 +25,45 @@ The texture pixel format, default value is RGBA8888
 
 ##### RGB565
 
-> 16-bit texture without Alpha channel, not supported yet
+> 16-bit texture without Alpha channel
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L80) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:73](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/assets/CCTexture2D.js#L73) |
 
 
 
 ##### RGB5A1
 
-> 16-bit textures: RGB5A1, not supported yet
+> 16-bit textures: RGB5A1
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:87](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L87) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:80](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/assets/CCTexture2D.js#L80) |
 
 
 
 ##### RGBA4444
 
-> 16-bit textures: RGBA4444, not supported yet
+> 16-bit textures: RGBA4444
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L94) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:87](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/assets/CCTexture2D.js#L87) |
 
 
 
 ##### RGB888
 
-> 24-bit texture: RGB888, not supported yet
+> 24-bit texture: RGB888
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L101) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:94](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/assets/CCTexture2D.js#L94) |
 
 
 
@@ -73,39 +74,39 @@ The texture pixel format, default value is RGBA8888
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:108](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L108) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:101](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/assets/CCTexture2D.js#L101) |
 
 
 
 ##### A8
 
-> 8-bit textures used as masks, not supported yet
+> 8-bit textures used as masks
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:115](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L115) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:108](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/assets/CCTexture2D.js#L108) |
 
 
 
 ##### I8
 
-> 8-bit intensity texture, not supported yet
+> 8-bit intensity texture
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:122](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L122) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:115](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/assets/CCTexture2D.js#L115) |
 
 
 
 ##### AI88
 
-> 16-bit textures used as masks, not supported yet
+> 16-bit textures used as masks
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js:129](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/textures/CCTexture2D.js#L129) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:122](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/assets/CCTexture2D.js#L122) |
 
 
