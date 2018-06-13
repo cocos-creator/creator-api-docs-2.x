@@ -53,6 +53,18 @@ If you need to publish to the website, you'd better build it on Mac. If use Wind
 
 See [https://github.com/cocos-creator/creator-docs](https://github.com/cocos-creator/creator-docs) for details of templates.
 
+If you want to quick preview your api docs, there is a command pretty useful.
+
+```bash
+npm run preview -- -o file1,file2,file3...
+// build completely
+npm run preview
+```
+
+Please, change the `file1,file2,file3...` to the files' name you want to check, then only the specified files will be rebuilt so you can preview quickly without waiting. And if you to ignore the files' name param, this command will build the complete docs.
+
+这个命令需要你修改 `file1,file2,file3` 为你想要快速构建的文档名称，然后它就会快速构建指定的文档内容，大量减少您预览构建的时间。同时这个命令也支持完整的构建全部文档，只要您在执行时不要填入任何文档名称。
+
 ### Create a new api-docs version switch button
 
 If you want to increase a new button to switch the docs, firstly you should have the new version of API docs. Download the new branch engine to your local space, and build the new API docs through by the cmd. 
