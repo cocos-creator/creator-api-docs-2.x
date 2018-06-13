@@ -18,7 +18,9 @@
     "build-tsd": "gulp build-tsd --engine ../fireball/engine --dest ../fireball/utils/api/creator.d.ts",
     "build": "gitbook build",
     "upload": "gulp publish --dest /Volumes/creator/api",
-    "publish": "npm run build && npm run upload"
+    "publish": "npm run build && npm run upload",
+    "preview": "gulp preview",
+    "restore-ignore": "gulp restore-ignore"
   },
   "repository": {
     "type": "git",
