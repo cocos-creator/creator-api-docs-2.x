@@ -36,61 +36,57 @@
     </nav>
     {{ super() }}
 {% endblock %}
-{% block book_inner %}
-    <div class="page-wrapper" tabindex="-1" role="main">
-            {% include "website/header.html" %}
-        <div class="page-inner">
-            {% block search_results %}
-                <section class="normal markdown-section">
-                {% block page %}
-                {{ page.content|safe }}
-                {% endblock %}
-                </section>
-            {% endblock %}
-        </div>
-    </div>
-{% endblock %}
 {% block javascript %}
     {{ super() }}
     <script type="text/javascript">
-    function toggleLanguage () {
-        var path = location.href;
-        // console.log(path);
-        if (path.indexOf('/zh') !== -1) {
-            path = path.replace(/\/zh[\/$\s]/i, '/en/');
-        } else if (path.indexOf('/en') !== -1) {
-            path = path.replace(/\/en[\/$\s]/i, '/zh/');
-        }
-        // console.log('after: ' + path);    
-        location.assign(path);
-    }
-    // this method is used to avoid the possibility of failure of the URL's anchor on WAN
-    function makeSureAnchorJumped () {
-        var anchor = window.location.href.split('#')[1];
-        if (anchor) {
-            var element = document.getElementById(anchor);
-            if (element) {
-                var topPos = element.offsetTop;
-                // for Safari browers
-                document.body.scrollTop = topPos;
-                // for IE, Chrome, FireFox, Opera browers
-                document.documentElement.scrollTop = topPos;
+    (function () {
+        function toggleLanguage () {
+            var path = location.href;
+            // console.log(path);
+            if (path.indexOf('/zh') !== -1) {
+                path = path.replace(/\/zh[\/$\s]/i, '/en/');
+            } else if (path.indexOf('/en') !== -1) {
+                path = path.replace(/\/en[\/$\s]/i, '/zh/');
             }
-        }                              
-    }
+            // console.log('after: ' + path);    
+            location.assign(path);
+        }
 
-    function avoidOnLoadConflict (onLoad) {
-        if (!window.onload) {
-            window.onload = onLoad;
+        // this method is used to avoid the possibility of failure of the URL's anchor on WAN
+        function makeSureAnchorJumped () {
+            var anchor = window.location.href.split('#')[1];
+            if (anchor) {
+                var element = document.getElementById(anchor);
+                if (element) {
+                    var topPos = element.offsetTop;
+                    // for Safari browers
+                    document.body.scrollTop = topPos;
+                    // for IE, Chrome, FireFox, Opera browers
+                    document.documentElement.scrollTop = topPos;
+                }
+            }                              
         }
-        else {
-            var oldFunc = window.onload;
-            window.onload = function () {
-                oldFunc();
-                onLoad();            
-            };
+
+        function avoidOnLoadConflict (onLoad) {
+            if (!window.onload) {
+                window.onload = onLoad;
+            }
+            else {
+                var oldFunc = window.onload;
+                window.onload = function () {
+                    oldFunc();
+                    onLoad();            
+                };
+            }
         }
-    }
-    avoidOnLoadConflict(makeSureAnchorJumped);
+        avoidOnLoadConflict(makeSureAnchorJumped);
+        
+        // 避免 API 文档开启时文档下滑遮挡导航栏问题 
+        var pageInner = document.getElementsByClassName('page-wrapper')[0]; 
+        var header = document.getElementById('book-header'); 
+        var bar = document.getElementById('navbar'); 
+        pageInner.appendChild(header); 
+        pageInner.appendChild(bar);
+    })();
     </script>
 {% endblock %}
