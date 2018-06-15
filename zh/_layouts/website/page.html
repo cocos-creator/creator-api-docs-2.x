@@ -39,8 +39,7 @@
 {% block javascript %}
     {{ super() }}
     <script type="text/javascript">
-    (function () {
-        function toggleLanguage () {
+    function toggleLanguage () {
             var path = location.href;
             // console.log(path);
             if (path.indexOf('/zh') !== -1) {
@@ -50,8 +49,8 @@
             }
             // console.log('after: ' + path);    
             location.assign(path);
-        }
-
+    }
+    (function () {
         // this method is used to avoid the possibility of failure of the URL's anchor on WAN
         function makeSureAnchorJumped () {
             var anchor = window.location.href.split('#')[1];
