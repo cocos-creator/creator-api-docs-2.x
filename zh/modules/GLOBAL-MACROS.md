@@ -41,15 +41,15 @@
 
 ##### 属性（properties）
 
-  - [`CC_EDITOR`](#cceditor) `Boolean` 
-  - [`CC_PREVIEW`](#ccpreview) `Boolean` 
-  - [`CC_DEV`](#ccdev) `Boolean` 
-  - [`CC_DEBUG`](#ccdebug) `Boolean` 
-  - [`CC_BUILD`](#ccbuild) `Boolean` 
-  - [`CC_JSB`](#ccjsb) `Boolean` 
-  - [`CC_TEST`](#cctest) `Boolean` 
-  - [`CC_WECHATGAME`](#ccwechatgame) `Boolean` 
-  - [`CC_QQPLAY`](#ccqqplay) `Boolean` 
+  - [`CC_EDITOR`](#cceditor) `Boolean` Running in the editor.
+  - [`CC_PREVIEW`](#ccpreview) `Boolean` Preview in browser or simulator.
+  - [`CC_DEV`](#ccdev) `Boolean` Running in the editor or preview.
+  - [`CC_DEBUG`](#ccdebug) `Boolean` Running in the editor or preview, or build in debug mode.
+  - [`CC_BUILD`](#ccbuild) `Boolean` Running in published project.
+  - [`CC_JSB`](#ccjsb) `Boolean` Running in native platform (mobile app, desktop app, or simulator).
+  - [`CC_TEST`](#cctest) `Boolean` Running in the engine's unit test.
+  - [`CC_WECHATGAME`](#ccwechatgame) `Boolean` Running in the Wechat's mini game.
+  - [`CC_QQPLAY`](#ccqqplay) `Boolean` Running in the bricks.
 
 
 
@@ -68,7 +68,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [predefine.js:90](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/predefine.js#L90) |
+| 定义于 | [predefine.js:90](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/predefine.js#L90) |
 
 
 
@@ -79,7 +79,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [predefine.js:93](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/predefine.js#L93) |
+| 定义于 | [predefine.js:93](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/predefine.js#L93) |
 
 
 
@@ -90,7 +90,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [predefine.js:96](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/predefine.js#L96) |
+| 定义于 | [predefine.js:96](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/predefine.js#L96) |
 
 
 
@@ -101,7 +101,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [predefine.js:99](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/predefine.js#L99) |
+| 定义于 | [predefine.js:99](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/predefine.js#L99) |
 
 
 
@@ -112,7 +112,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [predefine.js:102](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/predefine.js#L102) |
+| 定义于 | [predefine.js:102](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/predefine.js#L102) |
 
 
 
@@ -123,7 +123,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [predefine.js:105](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/predefine.js#L105) |
+| 定义于 | [predefine.js:105](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/predefine.js#L105) |
 
 
 
@@ -134,7 +134,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [predefine.js:108](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/predefine.js#L108) |
+| 定义于 | [predefine.js:108](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/predefine.js#L108) |
 
 
 
@@ -145,7 +145,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [predefine.js:111](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/predefine.js#L111) |
+| 定义于 | [predefine.js:111](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/predefine.js#L111) |
 
 
 
@@ -156,7 +156,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [predefine.js:114](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/predefine.js#L114) |
+| 定义于 | [predefine.js:114](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/predefine.js#L114) |
 
 
 

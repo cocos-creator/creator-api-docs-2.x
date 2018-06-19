@@ -15,12 +15,12 @@ The module provides utilities for working with file and directory paths
 
 ##### Methods
 
-  - [`join`](#join) 
-  - [`extname`](#extname) 
-  - [`mainFileName`](#mainfilename) 
-  - [`basename`](#basename) 
-  - [`dirname`](#dirname) 
-  - [`changeExtname`](#changeextname) 
+  - [`join`](#join) Join strings to be a path.
+  - [`extname`](#extname) Get the ext name of a path including '.', like '.png'.
+  - [`mainFileName`](#mainfilename) Get the main name of a file name
+  - [`basename`](#basename) Get the file name of a file path.
+  - [`dirname`](#dirname) Get dirname of a file path.
+  - [`changeExtname`](#changeextname) Change extname of a file path.
 
 
 
@@ -40,7 +40,7 @@ Join strings to be a path.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/utils/CCPath.js:43](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/utils/CCPath.js#L43) |
+| Defined in | [cocos2d/core/utils/CCPath.js:43](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/CCPath.js#L43) |
 
 
 ##### Examples
@@ -62,7 +62,7 @@ Get the ext name of a path including '.', like '.png'.
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/utils/CCPath.js:59](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/utils/CCPath.js#L59) |
+| Defined in | [cocos2d/core/utils/CCPath.js:59](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/CCPath.js#L59) |
 
 ###### Parameters
 - `pathStr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -85,7 +85,7 @@ Get the main name of a file name
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/utils/CCPath.js:72](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/utils/CCPath.js#L72) |
+| Defined in | [cocos2d/core/utils/CCPath.js:72](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/CCPath.js#L72) |
 
 ###### Parameters
 - `fileName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -98,7 +98,7 @@ Get the file name of a file path.
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/utils/CCPath.js:89](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/utils/CCPath.js#L89) |
+| Defined in | [cocos2d/core/utils/CCPath.js:89](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/CCPath.js#L89) |
 
 ###### Parameters
 - `pathStr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -123,7 +123,7 @@ Get dirname of a file path.
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/utils/CCPath.js:110](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/utils/CCPath.js#L110) |
+| Defined in | [cocos2d/core/utils/CCPath.js:110](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/CCPath.js#L110) |
 
 ###### Parameters
 - `pathStr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -150,7 +150,7 @@ Change extname of a file path.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/utils/CCPath.js:123](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/utils/CCPath.js#L123) |
+| Defined in | [cocos2d/core/utils/CCPath.js:123](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/CCPath.js#L123) |
 
 ###### Parameters
 - `pathStr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 

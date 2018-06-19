@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 The downloader pipe, it can download several types of files:
@@ -21,8 +22,8 @@ You can pass custom supported types in the constructor.
 
 ##### 方法
 
-  - [`constructor`](#constructor) 
-  - [`addHandlers`](#addhandlers) 
+  - [`constructor`](#constructor) Constructor of Downloader, you can pass custom supported types.
+  - [`addHandlers`](#addhandlers) Add custom supported types handler or modify existing type handler.
 
 
 
@@ -41,7 +42,7 @@ Constructor of Downloader, you can pass custom supported types.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/downloader.js:272](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/load-pipeline/downloader.js#L272) |
+| 定义于 | [cocos2d/core/load-pipeline/downloader.js:272](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/load-pipeline/downloader.js#L272) |
 
 ###### 参数列表
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
@@ -61,7 +62,7 @@ Add custom supported types handler or modify existing type handler.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/downloader.js:295](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/load-pipeline/downloader.js#L295) |
+| 定义于 | [cocos2d/core/load-pipeline/downloader.js:295](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/load-pipeline/downloader.js#L295) |
 
 ###### 参数列表
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
