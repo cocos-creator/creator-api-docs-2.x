@@ -12,21 +12,21 @@
 
 ##### 属性（properties）
 
-  - [`enabled`](#enabled) `Boolean` 
-  - [`enabledDrawBoundingBox`](#enableddrawboundingbox) `Boolean` 
-  - [`enabledDebugDraw`](#enableddebugdraw) `Boolean` 
+  - [`enabled`](#enabled) `Boolean` 是否开启碰撞管理，默认为不开启
+  - [`enabledDrawBoundingBox`](#enableddrawboundingbox) `Boolean` 是否绘制碰撞组件的包围盒，默认为不绘制
+  - [`enabledDebugDraw`](#enableddebugdraw) `Boolean` 是否绘制碰撞组件的形状，默认为不绘制
 
 
 
 ##### 方法
 
-  - [`hasEventListener`](#haseventlistener) 
-  - [`on`](#on) 
-  - [`off`](#off) 
-  - [`targetOff`](#targetoff) 
-  - [`once`](#once) 
-  - [`emit`](#emit) 
-  - [`dispatchEvent`](#dispatchevent) 
+  - [`hasEventListener`](#haseventlistener) 检查事件目标对象是否有为特定类型的事件注册的回调。
+  - [`on`](#on) 注册事件目标的特定事件类型回调。
+  - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
+  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`emit`](#emit) 通过事件名发送自定义事件
+  - [`dispatchEvent`](#dispatchevent) 通过事件对象派发事件
 
 
 
@@ -43,7 +43,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:120](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/collider/CCCollisionManager.js#L120) |
+| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:120](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/collider/CCCollisionManager.js#L120) |
 
 
 
@@ -54,7 +54,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:128](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/collider/CCCollisionManager.js#L128) |
+| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:128](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/collider/CCCollisionManager.js#L128) |
 
 
 
@@ -65,7 +65,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:463](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/collider/CCCollisionManager.js#L463) |
+| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:462](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/collider/CCCollisionManager.js#L462) |
 
 
 
@@ -83,7 +83,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L69) |
+| 定义于 | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L68) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -96,7 +96,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L77) |
+| 定义于 | [cocos2d/core/event/event-target.js:76](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L76) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -119,7 +119,7 @@ eventTarget.on('fire', function (event) {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:114](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L114) |
+| 定义于 | [cocos2d/core/event/event-target.js:113](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L113) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -147,7 +147,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:148](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L148) |
+| 定义于 | [cocos2d/core/event/event-target.js:147](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L147) |
 
 ###### 参数列表
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -159,7 +159,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:161](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L161) |
+| 定义于 | [cocos2d/core/event/event-target.js:160](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L160) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -178,22 +178,25 @@ eventTarget.once('fire', function (event) {
 
 ##### emit
 
-通过事件名和 detail 发送自定义事件
+通过事件名发送自定义事件
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:194](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L194) |
+| 定义于 | [cocos2d/core/event/event-target.js:193](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L193) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
-- `detail` Any whatever argument the message needs
-- `target` Any the target which emit this event
+- `arg1` Any First argument
+- `arg2` Any Second argument
+- `arg3` Any Third argument
+- `arg4` Any Fourth argument
+- `arg5` Any Fifth argument
 
 ##### 示例
 
 ```js
-eventTarget.emit('fire', {data: 'test'});
-eventTarget.emit('fire', null, target);
+eventTarget.emit('fire', event);
+eventTarget.emit('fire', message, emitter);
 ```
 
 ##### dispatchEvent
@@ -202,7 +205,7 @@ eventTarget.emit('fire', null, target);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:229](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L229) |
+| 定义于 | [cocos2d/core/event/event-target.js:213](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L213) |
 
 ###### 参数列表
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  

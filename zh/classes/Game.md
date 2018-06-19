@@ -13,45 +13,45 @@ cc.game 是 Game 的实例，用来驱动整个游戏。
 
 ##### 属性（properties）
 
-  - [`EVENT_HIDE`](#eventhide) `String` 
-  - [`EVENT_SHOW`](#eventshow) `String` 
-  - [`EVENT_GAME_INITED`](#eventgameinited) `String` 
-  - [`EVENT_RENDERER_INITED`](#eventrendererinited) `String` 
-  - [`RENDER_TYPE_CANVAS`](#rendertypecanvas) `Number` 
-  - [`RENDER_TYPE_WEBGL`](#rendertypewebgl) `Number` 
-  - [`RENDER_TYPE_OPENGL`](#rendertypeopengl) `Number` 
-  - [`CONFIG_KEY`](#configkey) `Object` 
-  - [`frame`](#frame) `Object` 
-  - [`container`](#container) `HTMLDivElement` 
-  - [`canvas`](#canvas) `HTMLCanvasElement` 
-  - [`renderType`](#rendertype) `Number` 
-  - [`config`](#config) `Object` 
+  - [`EVENT_HIDE`](#eventhide) `String` 游戏进入后台时触发的事件。
+  - [`EVENT_SHOW`](#eventshow) `String` 游戏进入前台运行时触发的事件。
+  - [`EVENT_GAME_INITED`](#eventgameinited) `String` Event triggered after game inited, at this point all engine objects and game scripts are loaded
+  - [`EVENT_RENDERER_INITED`](#eventrendererinited) `String` Event triggered after renderer inited, at this point you will be able to use the render context
+  - [`RENDER_TYPE_CANVAS`](#rendertypecanvas) `Number` Web Canvas 2d API as renderer backend
+  - [`RENDER_TYPE_WEBGL`](#rendertypewebgl) `Number` WebGL API as renderer backend
+  - [`RENDER_TYPE_OPENGL`](#rendertypeopengl) `Number` OpenGL API as renderer backend
+  - [`CONFIG_KEY`](#configkey) `Object` Key of config
+  - [`frame`](#frame) `Object` 游戏画布的外框，container 的父容器。
+  - [`container`](#container) `HTMLDivElement` 游戏画布的容器。
+  - [`canvas`](#canvas) `HTMLCanvasElement` 游戏的画布。
+  - [`renderType`](#rendertype) `Number` 游戏的渲染器类型。
+  - [`config`](#config) `Object` "debugMode" 各种设置选项的意义。
 
 
 
 ##### 方法
 
-  - [`onStart`](#onstart) 
-  - [`setFrameRate`](#setframerate) 
-  - [`getFrameRate`](#getframerate) 
-  - [`step`](#step) 
-  - [`pause`](#pause) 
-  - [`resume`](#resume) 
-  - [`isPaused`](#ispaused) 
-  - [`restart`](#restart) 
-  - [`end`](#end) 
-  - [`prepare`](#prepare) 
-  - [`run`](#run) 
-  - [`addPersistRootNode`](#addpersistrootnode) 
-  - [`removePersistRootNode`](#removepersistrootnode) 
-  - [`isPersistRootNode`](#ispersistrootnode) 
-  - [`hasEventListener`](#haseventlistener) 
-  - [`on`](#on) 
-  - [`off`](#off) 
-  - [`targetOff`](#targetoff) 
-  - [`once`](#once) 
-  - [`emit`](#emit) 
-  - [`dispatchEvent`](#dispatchevent) 
+  - [`onStart`](#onstart) 当引擎完成启动后的回调函数。
+  - [`setFrameRate`](#setframerate) 设置游戏帧率。
+  - [`getFrameRate`](#getframerate) 获取设置的游戏帧率（不等同于实际帧率）。
+  - [`step`](#step) 执行一帧游戏循环。
+  - [`pause`](#pause) 暂停游戏主循环。
+  - [`resume`](#resume) 恢复游戏主循环。
+  - [`isPaused`](#ispaused) 判断游戏是否暂停。
+  - [`restart`](#restart) 重新开始游戏
+  - [`end`](#end) 退出游戏
+  - [`prepare`](#prepare) 准备引擎，请不要直接调用这个函数。
+  - [`run`](#run) 运行游戏，并且指定引擎配置和 onStart 的回调。
+  - [`addPersistRootNode`](#addpersistrootnode) 声明常驻根节点，该节点不会被在场景切换中被销毁。
+  - [`removePersistRootNode`](#removepersistrootnode) 取消常驻根节点。
+  - [`isPersistRootNode`](#ispersistrootnode) 检查节点是否是常驻根节点。
+  - [`hasEventListener`](#haseventlistener) 检查事件目标对象是否有为特定类型的事件注册的回调。
+  - [`on`](#on) 注册事件目标的特定事件类型回调。
+  - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
+  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`emit`](#emit) 通过事件名发送自定义事件
+  - [`dispatchEvent`](#dispatchevent) 通过事件对象派发事件
 
 
 
@@ -70,7 +70,7 @@ cc.game 是 Game 的实例，用来驱动整个游戏。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/CCGame.js:48](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L48) |
+| 定义于 | [cocos2d/core/CCGame.js:48](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L48) |
 
 ##### 示例
 
@@ -94,7 +94,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/CCGame.js:65](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L65) |
+| 定义于 | [cocos2d/core/CCGame.js:65](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L65) |
 
 
 
@@ -105,7 +105,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/CCGame.js:78](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L78) |
+| 定义于 | [cocos2d/core/CCGame.js:78](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L78) |
 
 
 
@@ -116,7 +116,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/CCGame.js:86](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L86) |
+| 定义于 | [cocos2d/core/CCGame.js:86](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L86) |
 
 
 
@@ -127,7 +127,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCGame.js:94](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L94) |
+| 定义于 | [cocos2d/core/CCGame.js:94](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L94) |
 
 
 
@@ -138,7 +138,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCGame.js:101](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L101) |
+| 定义于 | [cocos2d/core/CCGame.js:101](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L101) |
 
 
 
@@ -149,7 +149,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCGame.js:108](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L108) |
+| 定义于 | [cocos2d/core/CCGame.js:108](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L108) |
 
 
 
@@ -160,7 +160,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/CCGame.js:119](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L119) |
+| 定义于 | [cocos2d/core/CCGame.js:119](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L119) |
 
 
 
@@ -171,7 +171,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/CCGame.js:157](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L157) |
+| 定义于 | [cocos2d/core/CCGame.js:157](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L157) |
 
 
 
@@ -182,7 +182,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | HTMLDivElement |
-| 定义于 | [cocos2d/core/CCGame.js:164](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L164) |
+| 定义于 | [cocos2d/core/CCGame.js:164](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L164) |
 
 
 
@@ -193,7 +193,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | HTMLCanvasElement |
-| 定义于 | [cocos2d/core/CCGame.js:171](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L171) |
+| 定义于 | [cocos2d/core/CCGame.js:171](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L171) |
 
 
 
@@ -204,7 +204,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCGame.js:179](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L179) |
+| 定义于 | [cocos2d/core/CCGame.js:179](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L179) |
 
 
 
@@ -241,7 +241,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/CCGame.js:187](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L187) |
+| 定义于 | [cocos2d/core/CCGame.js:187](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L187) |
 
 
 
@@ -258,7 +258,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:249](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L249) |
+| 定义于 | [cocos2d/core/CCGame.js:249](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L249) |
 
 
 
@@ -268,7 +268,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:260](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L260) |
+| 定义于 | [cocos2d/core/CCGame.js:260](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L260) |
 
 ###### 参数列表
 - `frameRate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -281,7 +281,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/CCGame.js:277](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L277) |
+| 定义于 | [cocos2d/core/CCGame.js:277](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L277) |
 
 
 
@@ -291,7 +291,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:287](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L287) |
+| 定义于 | [cocos2d/core/CCGame.js:287](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L287) |
 
 
 
@@ -301,7 +301,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:296](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L296) |
+| 定义于 | [cocos2d/core/CCGame.js:296](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L296) |
 
 
 
@@ -311,7 +311,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:316](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L316) |
+| 定义于 | [cocos2d/core/CCGame.js:316](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L316) |
 
 
 
@@ -322,7 +322,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/CCGame.js:333](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L333) |
+| 定义于 | [cocos2d/core/CCGame.js:333](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L333) |
 
 
 
@@ -332,7 +332,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:343](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L343) |
+| 定义于 | [cocos2d/core/CCGame.js:343](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L343) |
 
 
 
@@ -342,7 +342,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:370](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L370) |
+| 定义于 | [cocos2d/core/CCGame.js:370](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L370) |
 
 
 
@@ -352,7 +352,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:380](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L380) |
+| 定义于 | [cocos2d/core/CCGame.js:380](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L380) |
 
 ###### 参数列表
 - `cb` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -364,7 +364,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:481](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L481) |
+| 定义于 | [cocos2d/core/CCGame.js:481](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L481) |
 
 ###### 参数列表
 - `config` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Pass configuration object or onStart function
@@ -378,7 +378,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:505](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L505) |
+| 定义于 | [cocos2d/core/CCGame.js:505](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L505) |
 
 ###### 参数列表
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> The node to be made persistent
@@ -390,7 +390,7 @@ on native platforms, it corresponds to enter foreground event.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:541](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L541) |
+| 定义于 | [cocos2d/core/CCGame.js:541](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L541) |
 
 ###### 参数列表
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> The node to be removed from persistent node list
@@ -403,7 +403,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/CCGame.js:557](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/CCGame.js#L557) |
+| 定义于 | [cocos2d/core/CCGame.js:557](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/CCGame.js#L557) |
 
 ###### 参数列表
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> The node to be checked
@@ -416,7 +416,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L69) |
+| 定义于 | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L68) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -429,7 +429,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L77) |
+| 定义于 | [cocos2d/core/event/event-target.js:76](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L76) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -452,7 +452,7 @@ eventTarget.on('fire', function (event) {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:114](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L114) |
+| 定义于 | [cocos2d/core/event/event-target.js:113](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L113) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -480,7 +480,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:148](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L148) |
+| 定义于 | [cocos2d/core/event/event-target.js:147](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L147) |
 
 ###### 参数列表
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -492,7 +492,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:161](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L161) |
+| 定义于 | [cocos2d/core/event/event-target.js:160](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L160) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -511,22 +511,25 @@ eventTarget.once('fire', function (event) {
 
 ##### emit
 
-通过事件名和 detail 发送自定义事件
+通过事件名发送自定义事件
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:194](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L194) |
+| 定义于 | [cocos2d/core/event/event-target.js:193](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L193) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
-- `detail` Any whatever argument the message needs
-- `target` Any the target which emit this event
+- `arg1` Any First argument
+- `arg2` Any Second argument
+- `arg3` Any Third argument
+- `arg4` Any Fourth argument
+- `arg5` Any Fifth argument
 
 ##### 示例
 
 ```js
-eventTarget.emit('fire', {data: 'test'});
-eventTarget.emit('fire', null, target);
+eventTarget.emit('fire', event);
+eventTarget.emit('fire', message, emitter);
 ```
 
 ##### dispatchEvent
@@ -535,7 +538,7 @@ eventTarget.emit('fire', null, target);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:229](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L229) |
+| 定义于 | [cocos2d/core/event/event-target.js:213](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L213) |
 
 ###### 参数列表
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  

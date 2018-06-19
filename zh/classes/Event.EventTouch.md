@@ -4,6 +4,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 触摸事件
@@ -13,38 +14,38 @@
 
 ##### 属性（properties）
 
-  - [`touch`](#touch) `Touch` 
-  - [`type`](#type) `String` 
-  - [`bubbles`](#bubbles) `Boolean` 
-  - [`target`](#target) `Object` 
-  - [`currentTarget`](#currenttarget) `Object` 
-  - [`eventPhase`](#eventphase) `Number` 
+  - [`touch`](#touch) `Touch` 当前触点对象
+  - [`type`](#type) `String` 事件类型。
+  - [`bubbles`](#bubbles) `Boolean` 表示该事件是否进行冒泡。
+  - [`target`](#target) `Object` 最初事件触发的目标
+  - [`currentTarget`](#currenttarget) `Object` 当前目标
+  - [`eventPhase`](#eventphase) `Number` 事件阶段
 
 
 
 ##### 方法
 
   - [`constructor`](#constructor) 
-  - [`getEventCode`](#geteventcode) 
-  - [`getTouches`](#gettouches) 
-  - [`setLocation`](#setlocation) 
-  - [`getLocation`](#getlocation) 
-  - [`getLocationInView`](#getlocationinview) 
-  - [`getPreviousLocation`](#getpreviouslocation) 
-  - [`getStartLocation`](#getstartlocation) 
-  - [`getID`](#getid) 
-  - [`getDelta`](#getdelta) 
-  - [`getDeltaX`](#getdeltax) 
-  - [`getDeltaY`](#getdeltay) 
-  - [`getLocationX`](#getlocationx) 
-  - [`getLocationY`](#getlocationy) 
-  - [`unuse`](#unuse) 
-  - [`reuse`](#reuse) 
-  - [`stopPropagation`](#stoppropagation) 
-  - [`stopPropagationImmediate`](#stoppropagationimmediate) 
-  - [`isStopped`](#isstopped) 
-  - [`getCurrentTarget`](#getcurrenttarget) 
-  - [`getType`](#gettype) 
+  - [`getEventCode`](#geteventcode) 获取事件类型。
+  - [`getTouches`](#gettouches) 获取触摸点的列表。
+  - [`setLocation`](#setlocation) 设置当前触点位置
+  - [`getLocation`](#getlocation) 获取触点位置。
+  - [`getLocationInView`](#getlocationinview) 获取当前触点在游戏窗口中的位置。
+  - [`getPreviousLocation`](#getpreviouslocation) 获取触点在上一次事件时的位置对象，对象包含 x 和 y 属性。
+  - [`getStartLocation`](#getstartlocation) 获获取触点落下时的位置对象，对象包含 x 和 y 属性。
+  - [`getID`](#getid) 触点的标识 ID，可以用来在多点触摸中跟踪触点。
+  - [`getDelta`](#getdelta) 获取触点距离上一次事件移动的距离对象，对象包含 x 和 y 属性。
+  - [`getDeltaX`](#getdeltax) 获取触点距离上一次事件移动的 x 轴距离。
+  - [`getDeltaY`](#getdeltay) 获取触点距离上一次事件移动的 y 轴距离。
+  - [`getLocationX`](#getlocationx) 获取当前触点 X 轴位置。
+  - [`getLocationY`](#getlocationy) 获取当前触点 Y 轴位置。
+  - [`unuse`](#unuse) 重置对象池中存储的事件。
+  - [`reuse`](#reuse) 用于对象池再次使用的事件。
+  - [`stopPropagation`](#stoppropagation) 停止传递当前事件。
+  - [`stopPropagationImmediate`](#stoppropagationimmediate) 立即停止当前事件的传递，事件甚至不会被分派到所连接的当前目标。
+  - [`isStopped`](#isstopped) 检查该事件是否已经停止传递.
+  - [`getCurrentTarget`](#getcurrenttarget) 获取当前目标节点
+  - [`getType`](#gettype) 获取事件类型
 
 
 
@@ -61,7 +62,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Touch.html" class="crosslink">Touch</a> |
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:337](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L337) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:337](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L337) |
 
 
 
@@ -72,7 +73,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/event/event.js:44](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L44) |
+| 定义于 | [cocos2d/core/event/event.js:44](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L44) |
 
 
 
@@ -83,7 +84,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/event/event.js:52](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L52) |
+| 定义于 | [cocos2d/core/event/event.js:52](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L52) |
 
 
 
@@ -94,7 +95,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/event/event.js:60](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L60) |
+| 定义于 | [cocos2d/core/event/event.js:60](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L60) |
 
 
 
@@ -105,7 +106,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/event/event.js:68](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L68) |
+| 定义于 | [cocos2d/core/event/event.js:68](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L68) |
 
 
 
@@ -116,7 +117,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/event/event.js:76](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L76) |
+| 定义于 | [cocos2d/core/event/event.js:76](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L76) |
 
 
 
@@ -133,7 +134,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:328](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L328) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:328](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L328) |
 
 ###### 参数列表
 - `touchArr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> The array of the touches
@@ -147,7 +148,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:352](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L352) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:352](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L352) |
 
 
 
@@ -158,7 +159,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:362](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L362) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:362](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L362) |
 
 
 
@@ -168,7 +169,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:380](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L380) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:380](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L380) |
 
 ###### 参数列表
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -182,7 +183,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:391](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L391) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:391](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L391) |
 
 
 
@@ -193,7 +194,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:401](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L401) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:401](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L401) |
 
 
 
@@ -204,7 +205,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:411](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L411) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:411](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L411) |
 
 
 
@@ -215,7 +216,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:421](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L421) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:421](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L421) |
 
 
 
@@ -226,7 +227,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:431](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L431) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:431](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L431) |
 
 
 
@@ -237,7 +238,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:441](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L441) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:441](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L441) |
 
 
 
@@ -248,7 +249,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:451](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L451) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:451](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L451) |
 
 
 
@@ -259,7 +260,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:461](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L461) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:461](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L461) |
 
 
 
@@ -270,7 +271,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:471](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L471) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:471](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L471) |
 
 
 
@@ -281,7 +282,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEvent.js:481](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L481) |
+| 定义于 | [cocos2d/core/event-manager/CCEvent.js:481](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L481) |
 
 
 
@@ -292,7 +293,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/event/event.js:111](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L111) |
+| 定义于 | [cocos2d/core/event/event.js:111](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L111) |
 
 
 
@@ -303,7 +304,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/event/event.js:126](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L126) |
+| 定义于 | [cocos2d/core/event/event.js:126](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L126) |
 
 
 
@@ -313,7 +314,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event.js:137](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L137) |
+| 定义于 | [cocos2d/core/event/event.js:137](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L137) |
 
 
 
@@ -323,7 +324,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event.js:146](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L146) |
+| 定义于 | [cocos2d/core/event/event.js:146](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L146) |
 
 
 
@@ -334,7 +335,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/event/event.js:156](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L156) |
+| 定义于 | [cocos2d/core/event/event.js:156](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L156) |
 
 
 
@@ -345,7 +346,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| 定义于 | [cocos2d/core/event/event.js:166](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L166) |
+| 定义于 | [cocos2d/core/event/event.js:166](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L166) |
 
 
 
@@ -356,7 +357,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/event/event.js:181](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L181) |
+| 定义于 | [cocos2d/core/event/event.js:181](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L181) |
 
 
 

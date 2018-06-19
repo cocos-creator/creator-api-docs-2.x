@@ -15,8 +15,8 @@ the device accelerometer reports values for each axis in units of g-force.
 
 ##### Methods
 
-  - [`setAccelerometerEnabled`](#setaccelerometerenabled) 
-  - [`setAccelerometerInterval`](#setaccelerometerinterval) 
+  - [`setAccelerometerEnabled`](#setaccelerometerenabled) whether enable accelerometer event
+  - [`setAccelerometerInterval`](#setaccelerometerinterval) set accelerometer interval value
 
 
 
@@ -35,7 +35,7 @@ whether enable accelerometer event
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCInputExtension.js:57](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCInputExtension.js#L57) |
+| Defined in | [cocos2d/core/platform/CCInputExtension.js:57](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCInputExtension.js#L57) |
 
 ###### Parameters
 - `isEnable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -47,7 +47,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCInputExtension.js:81](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCInputExtension.js#L81) |
+| Defined in | [cocos2d/core/platform/CCInputExtension.js:81](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCInputExtension.js#L81) |
 
 ###### Parameters
 - `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

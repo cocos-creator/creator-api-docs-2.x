@@ -27,7 +27,7 @@ Specifies how time is treated when it is outside of the keyframe range of an Ani
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/types.js:47](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/animation/types.js#L47) |
+| Defined in | [cocos2d/animation/types.js:47](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/animation/types.js#L47) |
 
 
 
@@ -38,7 +38,7 @@ Specifies how time is treated when it is outside of the keyframe range of an Ani
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/types.js:54](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/animation/types.js#L54) |
+| Defined in | [cocos2d/animation/types.js:54](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/animation/types.js#L54) |
 
 
 
@@ -49,7 +49,7 @@ Specifies how time is treated when it is outside of the keyframe range of an Ani
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/types.js:61](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/animation/types.js#L61) |
+| Defined in | [cocos2d/animation/types.js:61](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/animation/types.js#L61) |
 
 
 
@@ -60,7 +60,7 @@ Specifies how time is treated when it is outside of the keyframe range of an Ani
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/types.js:68](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/animation/types.js#L68) |
+| Defined in | [cocos2d/animation/types.js:68](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/animation/types.js#L68) |
 
 
 
@@ -72,7 +72,7 @@ And when time reaches the start of the animation, time will continue at the endi
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/types.js:75](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/animation/types.js#L75) |
+| Defined in | [cocos2d/animation/types.js:75](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/animation/types.js#L75) |
 
 
 
@@ -84,7 +84,7 @@ are specified.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/types.js:83](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/animation/types.js#L83) |
+| Defined in | [cocos2d/animation/types.js:83](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/animation/types.js#L83) |
 
 
 
@@ -96,6 +96,6 @@ as specified.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/types.js:91](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/animation/types.js#L91) |
+| Defined in | [cocos2d/animation/types.js:91](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/animation/types.js#L91) |
 
 

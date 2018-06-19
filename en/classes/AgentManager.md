@@ -14,27 +14,27 @@ agent manager of plugin
 
 ##### Methods
 
-  - [`init`](#init) 
-  - [`loadAllPlugins`](#loadallplugins) 
-  - [`unloadAllPlugins`](#unloadallplugins) 
-  - [`getUserPlugin`](#getuserplugin) 
-  - [`getIAPPlugins`](#getiapplugins) 
-  - [`getIAPPlugin`](#getiapplugin) 
-  - [`getSocialPlugin`](#getsocialplugin) 
-  - [`getSharePlugin`](#getshareplugin) 
-  - [`getAnalyticsPlugin`](#getanalyticsplugin) 
-  - [`getAdsPlugin`](#getadsplugin) 
-  - [`getPushPlugin`](#getpushplugin) 
-  - [`getRECPlugin`](#getrecplugin) 
-  - [`getCrashPlugin`](#getcrashplugin) 
-  - [`getAdTrackingPlugin`](#getadtrackingplugin) 
-  - [`getCustomPlugin`](#getcustomplugin) 
-  - [`getCustomParam`](#getcustomparam) 
-  - [`getChannelId`](#getchannelid) 
-  - [`isAnaylticsEnabled`](#isanaylticsenabled) 
-  - [`setIsAnaylticsEnabled`](#setisanaylticsenabled) 
-  - [`end`](#end) 
-  - [`getInstance`](#getinstance) 
+  - [`init`](#init) after the packing tool client finishes creating the game.
+  - [`loadAllPlugins`](#loadallplugins) load all plugins, the operation includes SDK`s initialization
+  - [`unloadAllPlugins`](#unloadallplugins) unload all plugins
+  - [`getUserPlugin`](#getuserplugin) get user system plugin
+  - [`getIAPPlugins`](#getiapplugins) get IAP system plugins
+  - [`getIAPPlugin`](#getiapplugin) get IAP system plugin
+  - [`getSocialPlugin`](#getsocialplugin) get social system plugin
+  - [`getSharePlugin`](#getshareplugin) get share system plugin
+  - [`getAnalyticsPlugin`](#getanalyticsplugin) get analytics system plugin
+  - [`getAdsPlugin`](#getadsplugin) get ads system plugin
+  - [`getPushPlugin`](#getpushplugin) get push system plugin
+  - [`getRECPlugin`](#getrecplugin) get REC system plugin
+  - [`getCrashPlugin`](#getcrashplugin) get crash system plugin
+  - [`getAdTrackingPlugin`](#getadtrackingplugin) get ad track system plugin
+  - [`getCustomPlugin`](#getcustomplugin) get custom system plugin
+  - [`getCustomParam`](#getcustomparam) get custom parameter
+  - [`getChannelId`](#getchannelid) get channel id
+  - [`isAnaylticsEnabled`](#isanaylticsenabled) get status of analytics
+  - [`setIsAnaylticsEnabled`](#setisanaylticsenabled) set whether to analytics
+  - [`end`](#end) destory instance
+  - [`getInstance`](#getinstance) get instance
 
 
 
@@ -56,7 +56,7 @@ to login verification
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:59](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L59) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:59](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L59) |
 
 ###### Parameters
 - `appKey` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -71,7 +71,7 @@ load all plugins, the operation includes SDK`s initialization
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:77](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L77) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:77](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L77) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -84,7 +84,7 @@ unload all plugins
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:89](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L89) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:89](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L89) |
 
 
 
@@ -95,7 +95,7 @@ get user system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolUser 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:99](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L99) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:99](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L99) |
 
 
 
@@ -106,7 +106,7 @@ get IAP system plugins
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolIAP 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:111](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L111) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:111](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L111) |
 
 
 
@@ -117,7 +117,7 @@ get IAP system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolIAP 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:123](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L123) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:123](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L123) |
 
 
 
@@ -128,7 +128,7 @@ get social system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolSocial 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:135](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L135) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:135](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L135) |
 
 
 
@@ -139,7 +139,7 @@ get share system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolShare 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:147](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L147) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:147](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L147) |
 
 
 
@@ -150,7 +150,7 @@ get analytics system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolAnalytics 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:159](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L159) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:159](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L159) |
 
 
 
@@ -161,7 +161,7 @@ get ads system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolAds 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:171](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L171) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:171](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L171) |
 
 
 
@@ -172,7 +172,7 @@ get push system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolPush 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:183](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L183) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:183](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L183) |
 
 
 
@@ -183,7 +183,7 @@ get REC system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolREC 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:195](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L195) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:195](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L195) |
 
 
 
@@ -194,7 +194,7 @@ get crash system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolCrash 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:207](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L207) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:207](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L207) |
 
 
 
@@ -205,7 +205,7 @@ get ad track system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolAdTracking 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:219](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L219) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:219](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L219) |
 
 
 
@@ -216,7 +216,7 @@ get custom system plugin
 | meta | description |
 |------|-------------|
 | Returns | anysdk.ProtocolCustom 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:231](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L231) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:231](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L231) |
 
 
 
@@ -227,7 +227,7 @@ get custom parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:243](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L243) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:243](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L243) |
 
 
 
@@ -238,7 +238,7 @@ get channel id
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:255](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L255) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:255](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L255) |
 
 
 
@@ -249,7 +249,7 @@ get status of analytics
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:267](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L267) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:267](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L267) |
 
 
 
@@ -259,7 +259,7 @@ set whether to analytics
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:279](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L279) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:279](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L279) |
 
 ###### Parameters
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
@@ -271,7 +271,7 @@ destory instance
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:290](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L290) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:290](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L290) |
 
 
 
@@ -282,7 +282,7 @@ get instance
 | meta | description |
 |------|-------------|
 | Returns | anysdk.AgentManager 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:301](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L301) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:301](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L301) |
 
 
 

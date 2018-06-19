@@ -12,9 +12,9 @@ SystemEvent 支持的事件类型
 
 ##### 属性（properties）
 
-  - [`KEY_DOWN`](#keydown) `String` 
-  - [`KEY_UP`](#keyup) `String` 
-  - [`DEVICEMOTION`](#devicemotion) `String` 
+  - [`KEY_DOWN`](#keydown) `String` 当按下按键时触发的事件
+  - [`KEY_UP`](#keyup) `String` 当松开按键时触发的事件
+  - [`DEVICEMOTION`](#devicemotion) `String` 重力感应
 
 
 
@@ -33,7 +33,7 @@ SystemEvent 支持的事件类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/event/system-event.js:42](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/system-event.js#L42) |
+| 定义于 | [cocos2d/core/event/system-event.js:42](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/system-event.js#L42) |
 
 
 
@@ -44,7 +44,7 @@ SystemEvent 支持的事件类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/event/system-event.js:50](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/system-event.js#L50) |
+| 定义于 | [cocos2d/core/event/system-event.js:50](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/system-event.js#L50) |
 
 
 
@@ -55,7 +55,7 @@ SystemEvent 支持的事件类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/event/system-event.js:58](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/system-event.js#L58) |
+| 定义于 | [cocos2d/core/event/system-event.js:58](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/system-event.js#L58) |
 
 
 

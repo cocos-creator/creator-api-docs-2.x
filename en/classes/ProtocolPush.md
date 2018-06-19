@@ -15,23 +15,23 @@ push protocol
 
 ##### Methods
 
-  - [`startPush`](#startpush) 
-  - [`closePush`](#closepush) 
-  - [`delAlias`](#delalias) 
-  - [`setAlias`](#setalias) 
-  - [`delTags`](#deltags) 
-  - [`setTags`](#settags) 
-  - [`setListener`](#setlistener) 
-  - [`getListener`](#getlistener) 
-  - [`isFunctionSupported`](#isfunctionsupported) 
-  - [`getPluginName`](#getpluginname) 
-  - [`getPluginVersion`](#getpluginversion) 
-  - [`getSDKVersion`](#getsdkversion) 
-  - [`callFuncWithParam`](#callfuncwithparam) 
-  - [`callStringFuncWithParam`](#callstringfuncwithparam) 
-  - [`callIntFuncWithParam`](#callintfuncwithparam) 
-  - [`callBoolFuncWithParam`](#callboolfuncwithparam) 
-  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) 
+  - [`startPush`](#startpush) start Push services
+  - [`closePush`](#closepush) close Push services
+  - [`delAlias`](#delalias) delete alias
+  - [`setAlias`](#setalias) set alias
+  - [`delTags`](#deltags) delete tags
+  - [`setTags`](#settags) set tags
+  - [`setListener`](#setlistener) set listener
+  - [`getListener`](#getlistener) get listener
+  - [`isFunctionSupported`](#isfunctionsupported) Check whether the function is supported
+  - [`getPluginName`](#getpluginname) get plugin name
+  - [`getPluginVersion`](#getpluginversion) get plugin version
+  - [`getSDKVersion`](#getsdkversion) get SDK version
+  - [`callFuncWithParam`](#callfuncwithparam) void methods for reflections with parameter
+  - [`callStringFuncWithParam`](#callstringfuncwithparam) String methods for reflections with parameter
+  - [`callIntFuncWithParam`](#callintfuncwithparam) int methods for reflections with parameter
+  - [`callBoolFuncWithParam`](#callboolfuncwithparam) boolean methods for reflections with parameter
+  - [`callFloatFuncWithParam`](#callfloatfuncwithparam) float methods for reflections with parameter
 
 
 
@@ -50,7 +50,7 @@ start Push services
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1337](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L1337) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1337](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L1337) |
 
 
 
@@ -60,7 +60,7 @@ close Push services
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1347](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L1347) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1347](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L1347) |
 
 
 
@@ -70,7 +70,7 @@ delete alias
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1357](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L1357) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1357](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L1357) |
 
 ###### Parameters
 - `alias` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -82,7 +82,7 @@ set alias
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1368](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L1368) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1368](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L1368) |
 
 ###### Parameters
 - `alias` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -94,7 +94,7 @@ delete tags
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1379](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L1379) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1379](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L1379) |
 
 ###### Parameters
 - `tags` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: list
@@ -106,7 +106,7 @@ set tags
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1390](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L1390) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1390](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L1390) |
 
 ###### Parameters
 - `tags` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: list
@@ -118,7 +118,7 @@ set listener
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1401](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L1401) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1401](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L1401) |
 
 ###### Parameters
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -132,7 +132,7 @@ get listener
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1413](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L1413) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1413](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L1413) |
 
 
 
@@ -143,7 +143,7 @@ Check whether the function is supported
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:328](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L328) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:328](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L328) |
 
 ###### Parameters
 - `functionName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -156,7 +156,7 @@ get plugin name
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:342](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L342) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:342](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L342) |
 
 
 
@@ -167,7 +167,7 @@ get plugin version
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:354](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L354) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:354](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L354) |
 
 
 
@@ -178,7 +178,7 @@ get SDK version
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:366](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L366) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:366](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L366) |
 
 
 
@@ -188,7 +188,7 @@ void methods for reflections with parameter
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:378](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L378) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:378](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L378) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -202,7 +202,7 @@ String methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:391](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L391) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:391](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L391) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -216,7 +216,7 @@ int methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:406](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L406) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:406](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L406) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -230,7 +230,7 @@ boolean methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:421](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L421) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:421](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L421) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -244,7 +244,7 @@ float methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:436](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L436) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:436](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L436) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 

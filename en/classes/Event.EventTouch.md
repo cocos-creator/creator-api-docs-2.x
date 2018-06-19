@@ -4,6 +4,7 @@ Extends [`Event`](Event.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 The touch event
@@ -13,38 +14,38 @@ The touch event
 
 ##### Properties
 
-  - [`touch`](#touch) `Touch` 
-  - [`type`](#type) `String` 
-  - [`bubbles`](#bubbles) `Boolean` 
-  - [`target`](#target) `Object` 
-  - [`currentTarget`](#currenttarget) `Object` 
-  - [`eventPhase`](#eventphase) `Number` 
+  - [`touch`](#touch) `Touch` The current touch object
+  - [`type`](#type) `String` The name of the event (case-sensitive), e.g.
+  - [`bubbles`](#bubbles) `Boolean` Indicate whether the event bubbles up through the tree or not.
+  - [`target`](#target) `Object` A reference to the target to which the event was originally dispatched.
+  - [`currentTarget`](#currenttarget) `Object` A reference to the currently registered target for the event.
+  - [`eventPhase`](#eventphase) `Number` Indicates which phase of the event flow is currently being evaluated.
 
 
 
 ##### Methods
 
   - [`constructor`](#constructor) 
-  - [`getEventCode`](#geteventcode) 
-  - [`getTouches`](#gettouches) 
-  - [`setLocation`](#setlocation) 
-  - [`getLocation`](#getlocation) 
-  - [`getLocationInView`](#getlocationinview) 
-  - [`getPreviousLocation`](#getpreviouslocation) 
-  - [`getStartLocation`](#getstartlocation) 
-  - [`getID`](#getid) 
-  - [`getDelta`](#getdelta) 
-  - [`getDeltaX`](#getdeltax) 
-  - [`getDeltaY`](#getdeltay) 
-  - [`getLocationX`](#getlocationx) 
-  - [`getLocationY`](#getlocationy) 
-  - [`unuse`](#unuse) 
-  - [`reuse`](#reuse) 
-  - [`stopPropagation`](#stoppropagation) 
-  - [`stopPropagationImmediate`](#stoppropagationimmediate) 
-  - [`isStopped`](#isstopped) 
-  - [`getCurrentTarget`](#getcurrenttarget) 
-  - [`getType`](#gettype) 
+  - [`getEventCode`](#geteventcode) Returns event code.
+  - [`getTouches`](#gettouches) Returns touches of event.
+  - [`setLocation`](#setlocation) Sets touch location.
+  - [`getLocation`](#getlocation) Returns touch location.
+  - [`getLocationInView`](#getlocationinview) Returns the current touch location in screen coordinates.
+  - [`getPreviousLocation`](#getpreviouslocation) Returns the previous touch location.
+  - [`getStartLocation`](#getstartlocation) Returns the start touch location.
+  - [`getID`](#getid) Returns the id of cc.Touch.
+  - [`getDelta`](#getdelta) Returns the delta distance from the previous location to current location.
+  - [`getDeltaX`](#getdeltax) Returns the X axis delta distance from the previous location to current location.
+  - [`getDeltaY`](#getdeltay) Returns the Y axis delta distance from the previous location to current location.
+  - [`getLocationX`](#getlocationx) Returns location X axis data.
+  - [`getLocationY`](#getlocationy) Returns location Y axis data.
+  - [`unuse`](#unuse) Reset the event for being stored in the object pool.
+  - [`reuse`](#reuse) Reuse the event for being used again by the object pool.
+  - [`stopPropagation`](#stoppropagation) Stops propagation for current event.
+  - [`stopPropagationImmediate`](#stoppropagationimmediate) Stops propagation for current event immediately,...
+  - [`isStopped`](#isstopped) Checks whether the event has been stopped.
+  - [`getCurrentTarget`](#getcurrenttarget) note: It only be available when the event listener is associated with node.
+  - [`getType`](#gettype) Gets the event type.
 
 
 
@@ -61,7 +62,7 @@ The touch event
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Touch.html" class="crosslink">Touch</a> |
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:337](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L337) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:337](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L337) |
 
 
 
@@ -72,7 +73,7 @@ The touch event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/event/event.js:44](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L44) |
+| Defined in | [cocos2d/core/event/event.js:44](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L44) |
 
 
 
@@ -83,7 +84,7 @@ The touch event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/event/event.js:52](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L52) |
+| Defined in | [cocos2d/core/event/event.js:52](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L52) |
 
 
 
@@ -94,7 +95,7 @@ The touch event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/event/event.js:60](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L60) |
+| Defined in | [cocos2d/core/event/event.js:60](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L60) |
 
 
 
@@ -105,7 +106,7 @@ The touch event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/event/event.js:68](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L68) |
+| Defined in | [cocos2d/core/event/event.js:68](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L68) |
 
 
 
@@ -123,7 +124,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/event/event.js:76](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L76) |
+| Defined in | [cocos2d/core/event/event.js:76](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L76) |
 
 
 
@@ -140,7 +141,7 @@ The phases are explained in the [section 3.1, Event dispatch and DOM event flow]
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:328](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L328) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:328](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L328) |
 
 ###### Parameters
 - `touchArr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> The array of the touches
@@ -154,7 +155,7 @@ Returns event code.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:352](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L352) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:352](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L352) |
 
 
 
@@ -165,7 +166,7 @@ Returns touches of event.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:362](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L362) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:362](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L362) |
 
 
 
@@ -175,7 +176,7 @@ Sets touch location.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:380](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L380) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:380](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L380) |
 
 ###### Parameters
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -189,7 +190,7 @@ Returns touch location.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:391](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L391) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:391](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L391) |
 
 
 
@@ -200,7 +201,7 @@ Returns the current touch location in screen coordinates.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:401](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L401) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:401](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L401) |
 
 
 
@@ -211,7 +212,7 @@ Returns the previous touch location.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:411](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L411) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:411](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L411) |
 
 
 
@@ -222,7 +223,7 @@ Returns the start touch location.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:421](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L421) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:421](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L421) |
 
 
 
@@ -233,7 +234,7 @@ Returns the id of cc.Touch.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:431](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L431) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:431](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L431) |
 
 
 
@@ -244,7 +245,7 @@ Returns the delta distance from the previous location to current location.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:441](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L441) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:441](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L441) |
 
 
 
@@ -255,7 +256,7 @@ Returns the X axis delta distance from the previous location to current location
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:451](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L451) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:451](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L451) |
 
 
 
@@ -266,7 +267,7 @@ Returns the Y axis delta distance from the previous location to current location
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:461](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L461) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:461](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L461) |
 
 
 
@@ -277,7 +278,7 @@ Returns location X axis data.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:471](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L471) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:471](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L471) |
 
 
 
@@ -288,7 +289,7 @@ Returns location Y axis data.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/event-manager/CCEvent.js:481](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event-manager/CCEvent.js#L481) |
+| Defined in | [cocos2d/core/event-manager/CCEvent.js:481](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event-manager/CCEvent.js#L481) |
 
 
 
@@ -299,7 +300,7 @@ Reset the event for being stored in the object pool.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/event/event.js:111](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L111) |
+| Defined in | [cocos2d/core/event/event.js:111](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L111) |
 
 
 
@@ -310,7 +311,7 @@ Reuse the event for being used again by the object pool.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/event/event.js:126](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L126) |
+| Defined in | [cocos2d/core/event/event.js:126](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L126) |
 
 
 
@@ -320,7 +321,7 @@ Stops propagation for current event.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event.js:137](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L137) |
+| Defined in | [cocos2d/core/event/event.js:137](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L137) |
 
 
 
@@ -331,7 +332,7 @@ the event won't even be dispatched to the listeners attached in the current targ
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event.js:146](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L146) |
+| Defined in | [cocos2d/core/event/event.js:146](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L146) |
 
 
 
@@ -342,7 +343,7 @@ Checks whether the event has been stopped.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/event/event.js:156](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L156) |
+| Defined in | [cocos2d/core/event/event.js:156](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L156) |
 
 
 
@@ -357,7 +358,7 @@ Checks whether the event has been stopped.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| Defined in | [cocos2d/core/event/event.js:166](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L166) |
+| Defined in | [cocos2d/core/event/event.js:166](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L166) |
 
 
 
@@ -368,7 +369,7 @@ Gets the event type.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/event/event.js:181](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event.js#L181) |
+| Defined in | [cocos2d/core/event/event.js:181](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event.js#L181) |
 
 
 

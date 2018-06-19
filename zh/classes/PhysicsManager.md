@@ -16,31 +16,31 @@
 
 ##### 属性（properties）
 
-  - [`DrawBits`](#drawbits) `DrawBits` 
-  - [`PTM_RATIO`](#ptmratio) `Number` 
-  - [`VELOCITY_ITERATIONS`](#velocityiterations) `Number` 
-  - [`POSITION_ITERATIONS`](#positioniterations) `Number` 
-  - [`FIXED_TIME_STEP`](#fixedtimestep) `Number` 
-  - [`MAX_ACCUMULATOR`](#maxaccumulator) `Number` 
-  - [`enabledAccumulator`](#enabledaccumulator) `Boolean` 
-  - [`enabled`](#enabled) `Boolean` 
-  - [`debugDrawFlags`](#debugdrawflags) `Number` 
-  - [`gravity`](#gravity) `Vec2` 
+  - [`DrawBits`](#drawbits) `DrawBits` 指定物理系统需要绘制哪些调试信息。
+  - [`PTM_RATIO`](#ptmratio) `Number` 物理单位与像素单位互相转换的比率，一般是 32。
+  - [`VELOCITY_ITERATIONS`](#velocityiterations) `Number` 速度更新迭代数
+  - [`POSITION_ITERATIONS`](#positioniterations) `Number` 位置迭代更新数
+  - [`FIXED_TIME_STEP`](#fixedtimestep) `Number` 指定固定的物理更新间隔时间，需要开启 enabledAccumulator 才有效。
+  - [`MAX_ACCUMULATOR`](#maxaccumulator) `Number` 每次可用于更新物理系统的最大时间，需要开启 enabledAccumulator 才有效。
+  - [`enabledAccumulator`](#enabledaccumulator) `Boolean` 如果开启此选项，那么将会以固定的间隔时间 FIXED_TIME_STEP 来更新物理引擎，如果一个 update 的间隔时间大于 FIXED_TIME_STEP，则会对物理引擎进行多次更新。
+  - [`enabled`](#enabled) `Boolean` 指定是否启用物理系统？
+  - [`debugDrawFlags`](#debugdrawflags) `Number` 设置调试绘制标志
+  - [`gravity`](#gravity) `Vec2` 物理世界重力值
 
 
 
 ##### 方法
 
-  - [`testPoint`](#testpoint) 
-  - [`testAABB`](#testaabb) 
-  - [`rayCast`](#raycast) 
-  - [`hasEventListener`](#haseventlistener) 
-  - [`on`](#on) 
-  - [`off`](#off) 
-  - [`targetOff`](#targetoff) 
-  - [`once`](#once) 
-  - [`emit`](#emit) 
-  - [`dispatchEvent`](#dispatchevent) 
+  - [`testPoint`](#testpoint) 获取包含给定世界坐标系点的碰撞体
+  - [`testAABB`](#testaabb) 获取与给定世界坐标系矩形相交的碰撞体
+  - [`rayCast`](#raycast) 检测哪些碰撞体在给定射线的路径上，射线检测将忽略包含起始点的碰撞体。
+  - [`hasEventListener`](#haseventlistener) 检查事件目标对象是否有为特定类型的事件注册的回调。
+  - [`on`](#on) 注册事件目标的特定事件类型回调。
+  - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
+  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`emit`](#emit) 通过事件名发送自定义事件
+  - [`dispatchEvent`](#dispatchevent) 通过事件对象派发事件
 
 
 
@@ -57,7 +57,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../enums/DrawBits.html" class="crosslink">DrawBits</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:67](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L67) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:67](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L67) |
 
 ##### 示例
 
@@ -78,7 +78,7 @@ cc.PhysicsManager.DrawBits.e_shapeBit;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:85](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L85) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:85](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L85) |
 
 
 
@@ -89,7 +89,7 @@ cc.PhysicsManager.DrawBits.e_shapeBit;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:95](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L95) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:95](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L95) |
 
 
 
@@ -100,7 +100,7 @@ cc.PhysicsManager.DrawBits.e_shapeBit;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:106](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L106) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:106](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L106) |
 
 
 
@@ -111,7 +111,7 @@ cc.PhysicsManager.DrawBits.e_shapeBit;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:117](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L117) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:117](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L117) |
 
 
 
@@ -122,7 +122,7 @@ cc.PhysicsManager.DrawBits.e_shapeBit;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:129](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L129) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:129](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L129) |
 
 
 
@@ -134,7 +134,7 @@ cc.PhysicsManager.DrawBits.e_shapeBit;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:160](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L160) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:160](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L160) |
 
 
 
@@ -145,7 +145,7 @@ cc.PhysicsManager.DrawBits.e_shapeBit;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:542](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L542) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:542](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L542) |
 
 
 
@@ -156,7 +156,7 @@ cc.PhysicsManager.DrawBits.e_shapeBit;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:568](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L568) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:568](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L568) |
 
 ##### 示例
 
@@ -181,7 +181,7 @@ cc.director.getPhysicsManager().debugDrawFlags = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:603](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L603) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:603](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L603) |
 
 
 
@@ -199,7 +199,7 @@ cc.director.getPhysicsManager().debugDrawFlags = 0;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> 
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:233](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L233) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:233](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L233) |
 
 ###### 参数列表
 - `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world point
@@ -212,7 +212,7 @@ cc.director.getPhysicsManager().debugDrawFlags = 0;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/PhysicsCollider.html" class="crosslink">[PhysicsCollider]</a> 
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:264](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L264) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:264](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L264) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the world rect
@@ -225,7 +225,7 @@ cc.director.getPhysicsManager().debugDrawFlags = 0;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/PhysicsRayCastResult.html" class="crosslink">[PhysicsRayCastResult]</a> 
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:291](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/physics/CCPhysicsManager.js#L291) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:291](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/physics/CCPhysicsManager.js#L291) |
 
 ###### 参数列表
 - `p1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> start point of the raycast
@@ -240,7 +240,7 @@ cc.director.getPhysicsManager().debugDrawFlags = 0;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L69) |
+| 定义于 | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L68) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -253,7 +253,7 @@ cc.director.getPhysicsManager().debugDrawFlags = 0;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L77) |
+| 定义于 | [cocos2d/core/event/event-target.js:76](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L76) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -276,7 +276,7 @@ eventTarget.on('fire', function (event) {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:114](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L114) |
+| 定义于 | [cocos2d/core/event/event-target.js:113](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L113) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -304,7 +304,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:148](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L148) |
+| 定义于 | [cocos2d/core/event/event-target.js:147](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L147) |
 
 ###### 参数列表
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -316,7 +316,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:161](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L161) |
+| 定义于 | [cocos2d/core/event/event-target.js:160](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L160) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -335,22 +335,25 @@ eventTarget.once('fire', function (event) {
 
 ##### emit
 
-通过事件名和 detail 发送自定义事件
+通过事件名发送自定义事件
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:194](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L194) |
+| 定义于 | [cocos2d/core/event/event-target.js:193](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L193) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
-- `detail` Any whatever argument the message needs
-- `target` Any the target which emit this event
+- `arg1` Any First argument
+- `arg2` Any Second argument
+- `arg3` Any Third argument
+- `arg4` Any Fourth argument
+- `arg5` Any Fifth argument
 
 ##### 示例
 
 ```js
-eventTarget.emit('fire', {data: 'test'});
-eventTarget.emit('fire', null, target);
+eventTarget.emit('fire', event);
+eventTarget.emit('fire', message, emitter);
 ```
 
 ##### dispatchEvent
@@ -359,7 +362,7 @@ eventTarget.emit('fire', null, target);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:229](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/event/event-target.js#L229) |
+| 定义于 | [cocos2d/core/event/event-target.js:213](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/event/event-target.js#L213) |
 
 ###### 参数列表
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  

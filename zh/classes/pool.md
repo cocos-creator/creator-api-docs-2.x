@@ -14,17 +14,17 @@
 
 ##### 属性（properties）
 
-  - [`count`](#count) `Number` 
+  - [`count`](#count) `Number` 当前可用对象数量，一开始默认是 0，随着对象的回收会逐渐增大，最大不会超过调用构造函数时指定的 size。
 
 
 
 ##### 方法
 
-  - [`constructor`](#constructor) 
-  - [`get`](#get) 
-  - [`_get`](#get) 
-  - [`put`](#put) 
-  - [`resize`](#resize) 
+  - [`constructor`](#constructor) 使用构造函数来创建一个指定对象类型的对象池，您可以传递一个回调函数，用于处理对象回收时的清理逻辑。
+  - [`get`](#get) 获取并初始化对象池中的对象。
+  - [`_get`](#get) 获取对象池中的对象，如果对象池没有可用对象，则返回空。
+  - [`put`](#put) 向对象池返还一个不再需要的对象。
+  - [`resize`](#resize) 设置对象池容量。
 
 
 
@@ -41,7 +41,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/js.js:923](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/js.js#L923) |
+| 定义于 | [cocos2d/core/platform/js.js:923](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/js.js#L923) |
 
 
 
@@ -58,7 +58,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:888](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/js.js#L888) |
+| 定义于 | [cocos2d/core/platform/js.js:888](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/js.js#L888) |
 
 ###### 参数列表
 - `cleanupFunc` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> the callback method used to process the cleanup logic when the object is recycled.
@@ -73,7 +73,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/js.js:913](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/js.js#L913) |
+| 定义于 | [cocos2d/core/platform/js.js:913](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/js.js#L913) |
 
 ###### 参数列表
 - `params` Any parameters to used to initialize the object
@@ -86,7 +86,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; Null 
-| 定义于 | [cocos2d/core/platform/js.js:933](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/js.js#L933) |
+| 定义于 | [cocos2d/core/platform/js.js:933](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/js.js#L933) |
 
 
 
@@ -96,7 +96,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:951](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/js.js#L951) |
+| 定义于 | [cocos2d/core/platform/js.js:951](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/js.js#L951) |
 
 
 
@@ -106,7 +106,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:967](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/js.js#L967) |
+| 定义于 | [cocos2d/core/platform/js.js:967](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/js.js#L967) |
 
 
 

@@ -34,7 +34,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
 
 ##### Properties
 
-  - [`agentManager`](#agentmanager) `anysdk.AgentManager` 
+  - [`agentManager`](#agentmanager) `anysdk.AgentManager` agent manager of plugin
 
 
 
@@ -53,7 +53,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
 | meta | description |
 |------|-------------|
 | Type | anysdk.AgentManager |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/extensions/anysdk/jsb_anysdk.js#L40) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 

@@ -46,105 +46,103 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 
 ##### Properties
 
-  - [`preview`](#preview) `Boolean` 
-  - [`custom`](#custom) `Boolean` 
-  - [`file`](#file) `string` 
-  - [`spriteFrame`](#spriteframe) `SpriteFrame` 
-  - [`texture`](#texture) `String` 
-  - [`particleCount`](#particlecount) `Number` 
-  - [`srcBlendFactor`](#srcblendfactor) `macro.BlendFactor` 
-  - [`dstBlendFactor`](#dstblendfactor) `macro.BlendFactor` 
-  - [`autoRemoveOnFinish`](#autoremoveonfinish) `Boolean` 
-  - [`playOnLoad`](#playonload) `Boolean` 
-  - [`autoRemoveOnFinish`](#autoremoveonfinish) `Boolean` 
-  - [`active`](#active) `Boolean` 
-  - [`totalParticles`](#totalparticles) `Number` 
-  - [`duration`](#duration) `Number` 
-  - [`emissionRate`](#emissionrate) `Number` 
-  - [`life`](#life) `Number` 
-  - [`lifeVar`](#lifevar) `Number` 
-  - [`startColor`](#startcolor) `Object` 
-  - [`startColorVar`](#startcolorvar) `Object` 
-  - [`endColor`](#endcolor) `Object` 
-  - [`endColorVar`](#endcolorvar) `Object` 
-  - [`angle`](#angle) `Number` 
-  - [`angleVar`](#anglevar) `Number` 
-  - [`startSize`](#startsize) `Number` 
-  - [`startSizeVar`](#startsizevar) `Number` 
-  - [`endSize`](#endsize) `Number` 
-  - [`endSizeVar`](#endsizevar) `Number` 
-  - [`startSpin`](#startspin) `Number` 
-  - [`startSpinVar`](#startspinvar) `Number` 
-  - [`endSpin`](#endspin) `Number` 
-  - [`endSpinVar`](#endspinvar) `Number` 
-  - [`sourcePos`](#sourcepos) `Vec2` 
-  - [`posVar`](#posvar) `Vec2` 
-  - [`positionType`](#positiontype) `ParticleSystem.PositionType` 
-  - [`emitterMode`](#emittermode) `ParticleSystem.EmitterMode` 
-  - [`gravity`](#gravity) `Vec2` 
-  - [`speed`](#speed) `Number` 
-  - [`speedVar`](#speedvar) `Number` 
-  - [`tangentialAccel`](#tangentialaccel) `Number` 
-  - [`tangentialAccelVar`](#tangentialaccelvar) `Number` 
-  - [`radialAccel`](#radialaccel) `Number` 
-  - [`radialAccelVar`](#radialaccelvar) `Number` 
-  - [`rotationIsDir`](#rotationisdir) `Boolean` 
-  - [`startRadius`](#startradius) `Number` 
-  - [`startRadiusVar`](#startradiusvar) `Number` 
-  - [`endRadius`](#endradius) `Number` 
-  - [`endRadiusVar`](#endradiusvar) `Number` 
-  - [`rotatePerS`](#rotatepers) `Number` 
-  - [`rotatePerSVar`](#rotatepersvar) `Number` 
-  - [`DURATION_INFINITY`](#durationinfinity) `Number` 
-  - [`START_SIZE_EQUAL_TO_END_SIZE`](#startsizeequaltoendsize) `Number` 
-  - [`START_RADIUS_EQUAL_TO_END_RADIUS`](#startradiusequaltoendradius) `Number` 
-  - [`__eventTargets`](#eventtargets) `Array` 
-  - [`node`](#node) `Node` 
-  - [`uuid`](#uuid) `String` 
+  - [`preview`](#preview) `Boolean` Play particle in edit mode.
+  - [`custom`](#custom) `Boolean` If set custom to true, then use custom properties insteadof read particle file.
+  - [`file`](#file) `string` The plist file.
+  - [`spriteFrame`](#spriteframe) `SpriteFrame` SpriteFrame used for particles display
+  - [`texture`](#texture) `String` Texture of Particle System, readonly, please use spriteFrame to setup new texture。
+  - [`particleCount`](#particlecount) `Number` Current quantity of particles that are being simulated.
+  - [`autoRemoveOnFinish`](#autoremoveonfinish) `Boolean` Indicate whether the system simulation have stopped.
+  - [`playOnLoad`](#playonload) `Boolean` If set to true, the particle system will automatically start playing on onLoad.
+  - [`autoRemoveOnFinish`](#autoremoveonfinish) `Boolean` Indicate whether the owner node will be auto-removed when it has no particles left.
+  - [`active`](#active) `Boolean` Indicate whether the particle system is activated.
+  - [`totalParticles`](#totalparticles) `Number` Maximum particles of the system.
+  - [`duration`](#duration) `Number` How many seconds the emitter wil run.
+  - [`emissionRate`](#emissionrate) `Number` Emission rate of the particles.
+  - [`life`](#life) `Number` Life of each particle setter.
+  - [`lifeVar`](#lifevar) `Number` Variation of life.
+  - [`startColor`](#startcolor) `Object` Start color of each particle.
+  - [`startColorVar`](#startcolorvar) `Object` Variation of the start color.
+  - [`endColor`](#endcolor) `Object` Ending color of each particle.
+  - [`endColorVar`](#endcolorvar) `Object` Variation of the end color.
+  - [`angle`](#angle) `Number` Angle of each particle setter.
+  - [`angleVar`](#anglevar) `Number` Variation of angle of each particle setter.
+  - [`startSize`](#startsize) `Number` Start size in pixels of each particle.
+  - [`startSizeVar`](#startsizevar) `Number` Variation of start size in pixels.
+  - [`endSize`](#endsize) `Number` End size in pixels of each particle.
+  - [`endSizeVar`](#endsizevar) `Number` Variation of end size in pixels.
+  - [`startSpin`](#startspin) `Number` Start angle of each particle.
+  - [`startSpinVar`](#startspinvar) `Number` Variation of start angle.
+  - [`endSpin`](#endspin) `Number` End angle of each particle.
+  - [`endSpinVar`](#endspinvar) `Number` Variation of end angle.
+  - [`sourcePos`](#sourcepos) `Vec2` Source position of the emitter.
+  - [`posVar`](#posvar) `Vec2` Variation of source position.
+  - [`positionType`](#positiontype) `ParticleSystem.PositionType` Particles movement type.
+  - [`emitterMode`](#emittermode) `ParticleSystem.EmitterMode` Particles emitter modes.
+  - [`gravity`](#gravity) `Vec2` Gravity of the emitter.
+  - [`speed`](#speed) `Number` Speed of the emitter.
+  - [`speedVar`](#speedvar) `Number` Variation of the speed.
+  - [`tangentialAccel`](#tangentialaccel) `Number` Tangential acceleration of each particle.
+  - [`tangentialAccelVar`](#tangentialaccelvar) `Number` Variation of the tangential acceleration.
+  - [`radialAccel`](#radialaccel) `Number` Acceleration of each particle.
+  - [`radialAccelVar`](#radialaccelvar) `Number` Variation of the radial acceleration.
+  - [`rotationIsDir`](#rotationisdir) `Boolean` Indicate whether the rotation of each particle equals to its direction.
+  - [`startRadius`](#startradius) `Number` Starting radius of the particles.
+  - [`startRadiusVar`](#startradiusvar) `Number` Variation of the starting radius.
+  - [`endRadius`](#endradius) `Number` Ending radius of the particles.
+  - [`endRadiusVar`](#endradiusvar) `Number` Variation of the ending radius.
+  - [`rotatePerS`](#rotatepers) `Number` Number of degress to rotate a particle around the source pos per second.
+  - [`rotatePerSVar`](#rotatepersvar) `Number` Variation of the degress to rotate a particle around the source pos per second.
+  - [`DURATION_INFINITY`](#durationinfinity) `Number` The Particle emitter lives forever.
+  - [`START_SIZE_EQUAL_TO_END_SIZE`](#startsizeequaltoendsize) `Number` The starting size of the particle is equal to the ending size.
+  - [`START_RADIUS_EQUAL_TO_END_RADIUS`](#startradiusequaltoendradius) `Number` The starting radius of the particle is equal to the ending radius.
+  - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
+  - [`node`](#node) `Node` The node this component is attached to.
+  - [`uuid`](#uuid) `String` The uuid for editor.
   - [`_enabled`](#enabled) `Boolean` 
-  - [`enabled`](#enabled) `Boolean` 
-  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` 
-  - [`_isOnLoadCalled`](#isonloadcalled) `Number` 
+  - [`enabled`](#enabled) `Boolean` indicates whether this component is enabled or not.
+  - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` indicates whether this component is enabled and its node is also active in the hierarchy.
+  - [`_isOnLoadCalled`](#isonloadcalled) `Number` Returns a value which used to indicate the onLoad get called or not.
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
-  - [`name`](#name) `String` 
-  - [`isValid`](#isvalid) `Boolean` 
+  - [`name`](#name) `String` The name of the object.
+  - [`isValid`](#isvalid) `Boolean` Indicates whether the object is not yet destroyed.
 
 
 
 ##### Methods
 
-  - [`stopSystem`](#stopsystem) 
-  - [`resetSystem`](#resetsystem) 
-  - [`isFull`](#isfull) 
-  - [`setTextureWithRect`](#settexturewithrect) 
-  - [`update`](#update) 
-  - [`lateUpdate`](#lateupdate) 
-  - [`__preload`](#preload) 
-  - [`onLoad`](#onload) 
-  - [`start`](#start) 
-  - [`onEnable`](#onenable) 
-  - [`onDisable`](#ondisable) 
-  - [`onDestroy`](#ondestroy) 
+  - [`stopSystem`](#stopsystem) Stop emitting particles.
+  - [`resetSystem`](#resetsystem) Kill all living particles.
+  - [`isFull`](#isfull) Whether or not the system is full.
+  - [`setTextureWithRect`](#settexturewithrect) Sets a new texture with a rect.
+  - [`update`](#update) Update is called every frame, if the Component is enabled.
+  - [`lateUpdate`](#lateupdate) LateUpdate is called every frame, if the Component is enabled.
+  - [`__preload`](#preload) `__preload` is called before every onLoad.
+  - [`onLoad`](#onload) When attaching to an active node or its node first activated.
+  - [`start`](#start) Called before all scripts' update if the Component is enabled the first time.
+  - [`onEnable`](#onenable) Called when this component becomes enabled and its node is active.
+  - [`onDisable`](#ondisable) Called when this component becomes disabled or its node becomes inactive.
+  - [`onDestroy`](#ondestroy) Called when this component will be destroyed.
   - [`onFocusInEditor`](#onfocusineditor) 
   - [`onLostFocusInEditor`](#onlostfocusineditor) 
-  - [`resetInEditor`](#resetineditor) 
-  - [`addComponent`](#addcomponent) 
-  - [`getComponent`](#getcomponent) 
-  - [`getComponents`](#getcomponents) 
-  - [`getComponentInChildren`](#getcomponentinchildren) 
-  - [`getComponentsInChildren`](#getcomponentsinchildren) 
-  - [`_getLocalBounds`](#getlocalbounds) 
-  - [`onRestore`](#onrestore) 
-  - [`schedule`](#schedule) 
-  - [`scheduleOnce`](#scheduleonce) 
-  - [`unschedule`](#unschedule) 
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 
-  - [`destroy`](#destroy) 
-  - [`_destruct`](#destruct) 
-  - [`_onPreDestroy`](#onpredestroy) 
-  - [`_serialize`](#serialize) 
-  - [`_deserialize`](#deserialize) 
+  - [`resetInEditor`](#resetineditor) Called to initialize the component or node’s properties when adding the component the first time or when the Reset command is used.
+  - [`addComponent`](#addcomponent) Adds a component class to the node.
+  - [`getComponent`](#getcomponent) Returns the component of supplied type if the node has one attached, null if it doesn't....
+  - [`getComponents`](#getcomponents) Returns all components of supplied Type in the node.
+  - [`getComponentInChildren`](#getcomponentinchildren) Returns the component of supplied type in any of its children using depth first search.
+  - [`getComponentsInChildren`](#getcomponentsinchildren) Returns the components of supplied type in self or any of its children using depth first search.
+  - [`_getLocalBounds`](#getlocalbounds) If the component's bounding box is different from the node's, you can implement this method to supply
+  - [`onRestore`](#onrestore) for undo/redo operation.
+  - [`schedule`](#schedule) Schedules a custom selector....
+  - [`scheduleOnce`](#scheduleonce) Schedules a callback function that runs only once, with a delay of 0 or larger.
+  - [`unschedule`](#unschedule) Unschedules a custom callback function.
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function....
+  - [`destroy`](#destroy) Actual object destruction will delayed until before rendering.
+  - [`_destruct`](#destruct) Clear all references in the instance.
+  - [`_onPreDestroy`](#onpredestroy) Called before the object being destroyed.
+  - [`_serialize`](#serialize) The customized serialization for this object.
+  - [`_deserialize`](#deserialize) Init this object from the custom serialized data.
 
 
 
@@ -161,7 +159,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:128](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L128) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:128](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L128) |
 
 
 
@@ -172,7 +170,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:148](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L148) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:148](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L148) |
 
 
 
@@ -183,7 +181,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:179](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L179) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:179](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L179) |
 
 
 
@@ -194,7 +192,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:213](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L213) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:213](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L213) |
 
 
 
@@ -205,7 +203,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:252](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L252) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:252](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L252) |
 
 
 
@@ -216,29 +214,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:273](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L273) |
-
-
-
-##### srcBlendFactor
-
-> Specify the source Blend Factor.
-
-| meta | description |
-|------|-------------|
-| Type | macro.BlendFactor |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:287](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L287) |
-
-
-
-##### dstBlendFactor
-
-> Specify the destination Blend Factor.
-
-| meta | description |
-|------|-------------|
-| Type | macro.BlendFactor |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:307](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L307) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:273](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L273) |
 
 
 
@@ -249,7 +225,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:327](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L327) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:287](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L287) |
 
 
 
@@ -260,7 +236,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:341](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L341) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:301](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L301) |
 
 
 
@@ -271,7 +247,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:350](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L350) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:310](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L310) |
 
 
 
@@ -282,7 +258,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:361](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L361) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:321](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L321) |
 
 
 
@@ -293,7 +269,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:374](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L374) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:334](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L334) |
 
 
 
@@ -304,7 +280,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:381](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L381) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:341](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L341) |
 
 
 
@@ -315,7 +291,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:388](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L388) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:348](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L348) |
 
 
 
@@ -326,7 +302,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:395](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L395) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:355](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L355) |
 
 
 
@@ -337,7 +313,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:402](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L402) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:362](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L362) |
 
 
 
@@ -348,7 +324,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:410](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L410) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:370](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L370) |
 
 
 
@@ -359,7 +335,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:428](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L428) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:388](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L388) |
 
 
 
@@ -370,7 +346,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:446](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L446) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:406](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L406) |
 
 
 
@@ -381,7 +357,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:464](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L464) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:424](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L424) |
 
 
 
@@ -392,7 +368,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:483](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L483) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:443](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L443) |
 
 
 
@@ -403,7 +379,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:490](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L490) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:450](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L450) |
 
 
 
@@ -414,7 +390,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:497](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L497) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:457](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L457) |
 
 
 
@@ -425,7 +401,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:504](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L504) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:464](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L464) |
 
 
 
@@ -436,7 +412,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:511](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L511) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:471](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L471) |
 
 
 
@@ -447,7 +423,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:518](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L518) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:478](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L478) |
 
 
 
@@ -458,7 +434,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:525](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L525) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:485](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L485) |
 
 
 
@@ -469,7 +445,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:532](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L532) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:492](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L492) |
 
 
 
@@ -480,7 +456,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:539](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L539) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:499](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L499) |
 
 
 
@@ -491,7 +467,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:546](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L546) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:506](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L506) |
 
 
 
@@ -502,7 +478,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:554](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L554) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:514](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L514) |
 
 
 
@@ -513,7 +489,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:562](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L562) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:522](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L522) |
 
 
 
@@ -524,7 +500,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/ParticleSystem.PositionType.html" class="crosslink">ParticleSystem.PositionType</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:570](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L570) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:530](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L530) |
 
 
 
@@ -535,7 +511,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/ParticleSystem.EmitterMode.html" class="crosslink">ParticleSystem.EmitterMode</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:581](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L581) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:541](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L541) |
 
 
 
@@ -546,7 +522,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:594](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L594) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:554](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L554) |
 
 
 
@@ -557,7 +533,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:601](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L601) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:561](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L561) |
 
 
 
@@ -568,7 +544,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:608](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L608) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:568](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L568) |
 
 
 
@@ -579,7 +555,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:615](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L615) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:575](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L575) |
 
 
 
@@ -590,7 +566,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:622](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L622) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:582](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L582) |
 
 
 
@@ -601,7 +577,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:629](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L629) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:589](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L589) |
 
 
 
@@ -612,7 +588,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:636](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L636) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:596](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L596) |
 
 
 
@@ -623,7 +599,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:644](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L644) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:604](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L604) |
 
 
 
@@ -634,7 +610,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:654](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L654) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:614](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L614) |
 
 
 
@@ -645,7 +621,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:661](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L661) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:621](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L621) |
 
 
 
@@ -656,7 +632,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:668](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L668) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:628](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L628) |
 
 
 
@@ -667,7 +643,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:675](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L675) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:635](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L635) |
 
 
 
@@ -678,7 +654,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:682](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L682) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:642](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L642) |
 
 
 
@@ -689,7 +665,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:689](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L689) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:649](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L649) |
 
 
 
@@ -700,7 +676,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:770](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L770) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:730](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L730) |
 
 
 
@@ -711,7 +687,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:780](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L780) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:740](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L740) |
 
 
 
@@ -722,7 +698,7 @@ It is possible to customize any of the above mentioned properties in runtime. Ex
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:790](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L790) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:750](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L750) |
 
 
 
@@ -734,7 +710,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:61](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L61) |
+| Defined in | [cocos2d/core/components/CCComponent.js:61](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L61) |
 
 
 
@@ -745,7 +721,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:75](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L75) |
+| Defined in | [cocos2d/core/components/CCComponent.js:75](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L75) |
 
 ##### Examples
 
@@ -761,7 +737,7 @@ cc.log(comp.node);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:106](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L106) |
+| Defined in | [cocos2d/core/components/CCComponent.js:106](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L106) |
 
 ##### Examples
 
@@ -777,7 +753,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:147](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L147) |
+| Defined in | [cocos2d/core/components/CCComponent.js:147](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L147) |
 
 
 
@@ -788,7 +764,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:154](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L154) |
+| Defined in | [cocos2d/core/components/CCComponent.js:154](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L154) |
 
 ##### Examples
 
@@ -805,7 +781,7 @@ cc.log(comp.enabled);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:185](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L185) |
+| Defined in | [cocos2d/core/components/CCComponent.js:185](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L185) |
 
 ##### Examples
 
@@ -821,7 +797,7 @@ cc.log(comp.enabledInHierarchy);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:201](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L201) |
+| Defined in | [cocos2d/core/components/CCComponent.js:201](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L201) |
 
 ##### Examples
 
@@ -837,7 +813,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCObject.js#L76) |
+| Defined in | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCObject.js#L76) |
 
 
 
@@ -848,7 +824,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCObject.js#L83) |
+| Defined in | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCObject.js#L83) |
 
 
 
@@ -859,7 +835,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:243](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCObject.js#L243) |
+| Defined in | [cocos2d/core/platform/CCObject.js:243](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCObject.js#L243) |
 
 ##### Examples
 
@@ -879,7 +855,7 @@ but this is often caused by a particular logical requirements, which is not norm
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:261](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCObject.js#L261) |
+| Defined in | [cocos2d/core/platform/CCObject.js:261](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCObject.js#L261) |
 
 ##### Examples
 
@@ -906,7 +882,7 @@ Stop emitting particles. Running particles will continue to run until they die.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/particle/CCParticleSystem.js:897](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L897) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:857](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L857) |
 
 
 ##### Examples
@@ -922,7 +898,7 @@ Kill all living particles.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/particle/CCParticleSystem.js:910](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L910) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:870](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L870) |
 
 
 ##### Examples
@@ -939,7 +915,7 @@ Whether or not the system is full.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/particle/CCParticleSystem.js:929](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L929) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:889](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L889) |
 
 
 
@@ -950,7 +926,7 @@ Please use spriteFrame property instead, this function is deprecated since v1.9
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/particle/CCParticleSystem.js:939](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/particle/CCParticleSystem.js#L939) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:899](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/particle/CCParticleSystem.js#L899) |
 | Deprecated | since v1.9 |
 
 ###### Parameters
@@ -964,7 +940,7 @@ Update is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:222](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L222) |
+| Defined in | [cocos2d/core/components/CCComponent.js:222](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L222) |
 
 ###### Parameters
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -976,7 +952,7 @@ LateUpdate is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:231](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L231) |
+| Defined in | [cocos2d/core/components/CCComponent.js:231](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L231) |
 
 
 
@@ -989,7 +965,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:239](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L239) |
+| Defined in | [cocos2d/core/components/CCComponent.js:239](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L239) |
 
 
 
@@ -1000,7 +976,7 @@ onLoad is always called before any start functions, this allows you to order ini
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:250](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L250) |
+| Defined in | [cocos2d/core/components/CCComponent.js:250](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L250) |
 
 
 
@@ -1011,7 +987,7 @@ Usually used to initialize some logic which need to be called after all componen
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:261](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L261) |
+| Defined in | [cocos2d/core/components/CCComponent.js:261](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L261) |
 
 
 
@@ -1021,7 +997,7 @@ Called when this component becomes enabled and its node is active.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:272](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L272) |
+| Defined in | [cocos2d/core/components/CCComponent.js:272](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L272) |
 
 
 
@@ -1031,7 +1007,7 @@ Called when this component becomes disabled or its node becomes inactive.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:280](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L280) |
+| Defined in | [cocos2d/core/components/CCComponent.js:280](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L280) |
 
 
 
@@ -1041,7 +1017,7 @@ Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:288](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L288) |
+| Defined in | [cocos2d/core/components/CCComponent.js:288](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L288) |
 
 
 
@@ -1051,7 +1027,7 @@ Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:296](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L296) |
+| Defined in | [cocos2d/core/components/CCComponent.js:296](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L296) |
 
 
 
@@ -1061,7 +1037,7 @@ Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:301](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L301) |
+| Defined in | [cocos2d/core/components/CCComponent.js:301](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L301) |
 
 
 
@@ -1071,7 +1047,7 @@ Called to initialize the component or node’s properties when adding the compon
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:306](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L306) |
+| Defined in | [cocos2d/core/components/CCComponent.js:306](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L306) |
 
 
 
@@ -1082,7 +1058,7 @@ Adds a component class to the node. You can also add component to node by passin
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:316](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L316) |
+| Defined in | [cocos2d/core/components/CCComponent.js:316](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L316) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
@@ -1102,7 +1078,7 @@ You can also get component in the node by passing in the name of the script.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:334](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L334) |
+| Defined in | [cocos2d/core/components/CCComponent.js:334](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L334) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1123,7 +1099,7 @@ Returns all components of supplied Type in the node.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:358](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L358) |
+| Defined in | [cocos2d/core/components/CCComponent.js:358](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L358) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1142,7 +1118,7 @@ Returns the component of supplied type in any of its children using depth first 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:376](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L376) |
+| Defined in | [cocos2d/core/components/CCComponent.js:376](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L376) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1161,7 +1137,7 @@ Returns the components of supplied type in self or any of its children using dep
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:394](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L394) |
+| Defined in | [cocos2d/core/components/CCComponent.js:394](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L394) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1180,7 +1156,7 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:414](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L414) |
+| Defined in | [cocos2d/core/components/CCComponent.js:414](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L414) |
 
 ###### Parameters
 - `out_rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -1211,7 +1187,7 @@ This function is only called in editor mode.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:427](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L427) |
+| Defined in | [cocos2d/core/components/CCComponent.js:427](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L427) |
 
 
 
@@ -1222,7 +1198,7 @@ If the selector is already scheduled, then the interval parameter will be update
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:521](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L521) |
+| Defined in | [cocos2d/core/components/CCComponent.js:521](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L521) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -1245,7 +1221,7 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:558](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L558) |
+| Defined in | [cocos2d/core/components/CCComponent.js:558](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L558) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1266,7 +1242,7 @@ Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:575](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L575) |
+| Defined in | [cocos2d/core/components/CCComponent.js:575](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L575) |
 
 ###### Parameters
 - `callback_fn` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1284,7 +1260,7 @@ Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:591](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/components/CCComponent.js#L591) |
+| Defined in | [cocos2d/core/components/CCComponent.js:591](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/components/CCComponent.js#L591) |
 
 
 ##### Examples
@@ -1303,7 +1279,7 @@ You can use cc.isValid(obj) to check whether the object is destroyed before acce
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:296](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCObject.js#L296) |
+| Defined in | [cocos2d/core/platform/CCObject.js:296](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCObject.js#L296) |
 
 
 ##### Examples
@@ -1335,7 +1311,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:428](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCObject.js#L428) |
+| Defined in | [cocos2d/core/platform/CCObject.js:428](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCObject.js#L428) |
 
 
 
@@ -1345,7 +1321,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:461](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCObject.js#L461) |
+| Defined in | [cocos2d/core/platform/CCObject.js:461](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCObject.js#L461) |
 
 
 
@@ -1356,7 +1332,7 @@ The customized serialization for this object. (Editor Only)
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:486](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCObject.js#L486) |
+| Defined in | [cocos2d/core/platform/CCObject.js:486](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCObject.js#L486) |
 
 ###### Parameters
 - `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -1368,7 +1344,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:496](https://github.com/cocos-creator/engine/blob/8f14bc42a40e57c2d3b846c4f7f26f1a1753232c/cocos2d/core/platform/CCObject.js#L496) |
+| Defined in | [cocos2d/core/platform/CCObject.js:496](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/platform/CCObject.js#L496) |
 
 ###### Parameters
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
