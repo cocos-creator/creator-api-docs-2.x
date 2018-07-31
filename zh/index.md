@@ -1,6 +1,6 @@
 # 索引
 
-Cocos Creator v1.9.0
+Cocos Creator v1.10
 
 Welcome to Cocos Creator JavaScript engine API reference. You can search anything in top left search filed.
 
