@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 AffineTransform class represent an affine transform matrix. It's composed basically by translation, rotation, scale transformations.<br/>
@@ -44,7 +43,7 @@ Create a AffineTransform object with all contents in the matrix.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/utils/affine-transform.js:55](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/affine-transform.js#L55) |
+| Defined in | [cocos2d/core/utils/affine-transform.js:55](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/utils/affine-transform.js#L55) |
 
 ###### Parameters
 - `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -64,7 +63,7 @@ Create a identity transformation matrix: <br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/utils/affine-transform.js:72](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/affine-transform.js#L72) |
+| Defined in | [cocos2d/core/utils/affine-transform.js:72](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/utils/affine-transform.js#L72) |
 
 
 
@@ -75,7 +74,7 @@ Clone a AffineTransform object from the specified transform.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/utils/affine-transform.js:90](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/affine-transform.js#L90) |
+| Defined in | [cocos2d/core/utils/affine-transform.js:90](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/utils/affine-transform.js#L90) |
 
 ###### Parameters
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -91,7 +90,7 @@ This function is memory free, you should create the output affine transform by y
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/utils/affine-transform.js:102](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/affine-transform.js#L102) |
+| Defined in | [cocos2d/core/utils/affine-transform.js:102](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/utils/affine-transform.js#L102) |
 
 ###### Parameters
 - `out` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> Out object to store the concat result
@@ -107,7 +106,7 @@ This function is memory free, you should create the output affine transform by y
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/utils/affine-transform.js:129](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/affine-transform.js#L129) |
+| Defined in | [cocos2d/core/utils/affine-transform.js:129](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/utils/affine-transform.js#L129) |
 
 ###### Parameters
 - `out` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -122,7 +121,7 @@ This function is memory free, you should create the output affine transform by y
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/utils/affine-transform.js:152](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/affine-transform.js#L152) |
+| Defined in | [cocos2d/core/utils/affine-transform.js:152](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/utils/affine-transform.js#L152) |
 
 ###### Parameters
 - `out` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -137,7 +136,7 @@ This function is memory free, you should create the output Vec2 by yourself and 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/utils/affine-transform.js:172](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/affine-transform.js#L172) |
+| Defined in | [cocos2d/core/utils/affine-transform.js:172](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/utils/affine-transform.js#L172) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The output point to store the result
@@ -154,7 +153,7 @@ This function is memory free, you should create the output Size by yourself and 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/utils/affine-transform.js:199](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/affine-transform.js#L199) |
+| Defined in | [cocos2d/core/utils/affine-transform.js:199](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/utils/affine-transform.js#L199) |
 
 ###### Parameters
 - `out` <a href="../classes/Size.html" class="crosslink">Size</a> The output point to store the result
@@ -170,7 +169,7 @@ This function is memory free, you should create the output Rect by yourself and 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/utils/affine-transform.js:216](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/affine-transform.js#L216) |
+| Defined in | [cocos2d/core/utils/affine-transform.js:216](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/utils/affine-transform.js#L216) |
 
 ###### Parameters
 - `out` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -185,7 +184,7 @@ This function is memory free, you should create the output vectors by yourself a
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/utils/affine-transform.js:253](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/utils/affine-transform.js#L253) |
+| Defined in | [cocos2d/core/utils/affine-transform.js:253](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/utils/affine-transform.js#L253) |
 
 ###### Parameters
 - `out_bl` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 

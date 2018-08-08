@@ -1,7 +1,7 @@
 ## `ValueType` 类型
 
 
-定义于: [https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/value-types/value-type.js:32](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/value-types/value-type.js#L32)
+定义于: [https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/value-types/value-type.js:32](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/value-types/value-type.js#L32)
 
 模块: [cc](../modules/cc.md)
 父模块: [cc](../modules/cc.md)
@@ -19,6 +19,7 @@
   - [`clone`](#clone) 克隆当前值，该方法返回一个新对象，新对象的值和原对象相等。
   - [`equals`](#equals) 当前对象是否等于指定对象。
   - [`lerp`](#lerp) 线性插值。
+  - [`set`](#set) 从其它对象把所有属性复制到当前对象。
   - [`toString`](#tostring) 转换为方便阅读的字符串。
 
 
@@ -39,7 +40,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| 定义于 | [cocos2d/core/value-types/value-type.js:44](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/value-types/value-type.js#L44) |
+| 定义于 | [cocos2d/core/value-types/value-type.js:44](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/value-types/value-type.js#L44) |
 
 
 
@@ -50,7 +51,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/value-type.js:55](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/value-types/value-type.js#L55) |
+| 定义于 | [cocos2d/core/value-types/value-type.js:55](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/value-types/value-type.js#L55) |
 
 ###### 参数列表
 - `other` <a href="../classes/ValueType.html" class="crosslink">ValueType</a>  
@@ -64,11 +65,23 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| 定义于 | [cocos2d/core/value-types/value-type.js:67](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/value-types/value-type.js#L67) |
+| 定义于 | [cocos2d/core/value-types/value-type.js:67](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/value-types/value-type.js#L67) |
 
 ###### 参数列表
 - `to` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value
 - `ratio` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> the interpolation coefficient
+
+
+##### set
+
+从其它对象把所有属性复制到当前对象。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/value-types/value-type.js:84](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/value-types/value-type.js#L84) |
+
+###### 参数列表
+- `source` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the source to copy
 
 
 ##### toString
@@ -78,7 +91,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| 定义于 | [cocos2d/core/value-types/value-type.js:85](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/value-types/value-type.js#L85) |
+| 定义于 | [cocos2d/core/value-types/value-type.js:97](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/value-types/value-type.js#L97) |
 
 
 

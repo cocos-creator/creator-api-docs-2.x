@@ -67,12 +67,6 @@ window.apimeta = {
       "description": "The callback of custom system"
     },
     {
-      "name": "DebugMode",
-      "namespace": "cc.DebugMode",
-      "module": "cc",
-      "description": "Enum for debug modes."
-    },
-    {
       "name": "DrawBits",
       "namespace": "cc.DrawBits",
       "module": "cc",
@@ -191,12 +185,6 @@ window.apimeta = {
       "namespace": "cc.NetworkType",
       "module": "cc",
       "description": "Network type enumeration"
-    },
-    {
-      "name": "Node.EventType",
-      "namespace": "cc.Node.EventType",
-      "module": "cc",
-      "description": "The event type supported by Node"
     },
     {
       "name": "PageView.Direction",
@@ -463,6 +451,12 @@ window.apimeta = {
       "namespace": "cc.Animation",
       "module": "cc",
       "description": "The animation component is used to play back animations.\n\nAnimation provide several events to register：\n - play : Emit when begin playing animation\n - stop : Emit when stop playing animation\n - pause : Emit when pause animation\n - resume : Emit when resume animation\n - lastframe : If animation repeat count is larger than 1, emit when animation play to the last frame\n - finished : Emit when finish playing animation"
+    },
+    {
+      "name": "Animation.EventType",
+      "namespace": "cc.Animation.EventType",
+      "module": "cc",
+      "description": "The event type supported by Animation"
     },
     {
       "name": "AnimationClip",
@@ -816,7 +810,13 @@ window.apimeta = {
       "name": "Node",
       "namespace": "cc.Node",
       "module": "cc",
-      "description": "Class of all entities in Cocos Creator scenes.<br/>\nFor events supported by Node, please refer to <a href=\"../enums/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>"
+      "description": "Class of all entities in Cocos Creator scenes.<br/>\nFor events supported by Node, please refer to <a href=\"../classes/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>"
+    },
+    {
+      "name": "Node.EventType",
+      "namespace": "cc.Node.EventType",
+      "module": "cc",
+      "description": "The event type supported by Node"
     },
     {
       "name": "NodePool",
@@ -1188,7 +1188,7 @@ window.apimeta = {
       "name": "SpriteFrame",
       "namespace": "cc.SpriteFrame",
       "module": "cc",
-      "description": "A cc.SpriteFrame has:<br/>\n - texture: A cc.Texture2D that will be used by the _ccsg.Sprite<br/>\n - rectangle: A rectangle of the texture"
+      "description": "A cc.SpriteFrame has:<br/>\n - texture: A cc.Texture2D that will be used by render components<br/>\n - rectangle: A rectangle of the texture"
     },
     {
       "name": "SystemEvent",
@@ -1363,6 +1363,12 @@ window.apimeta = {
       "namespace": "cc.Acceleration",
       "module": "cc",
       "description": "the device accelerometer reports values for each axis in units of g-force."
+    },
+    {
+      "name": "game",
+      "namespace": "cc.game",
+      "module": "cc",
+      "description": "An object to boot the game."
     },
     {
       "name": "loader",

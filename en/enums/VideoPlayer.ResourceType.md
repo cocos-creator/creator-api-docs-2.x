@@ -22,7 +22,7 @@ Enum for video resouce type type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:81](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/videoplayer/CCVideoPlayer.js#L81) |
+| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:81](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/videoplayer/CCVideoPlayer.js#L81) |
 
 
 
@@ -33,6 +33,6 @@ Enum for video resouce type type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:87](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/videoplayer/CCVideoPlayer.js#L87) |
+| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:87](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/videoplayer/CCVideoPlayer.js#L87) |
 
 
