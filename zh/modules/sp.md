@@ -14,11 +14,9 @@ Spine 的全局的命名空间，
 
   - [Skeleton](../classes/Skeleton.md)
   - [SkeletonData](../classes/SkeletonData.md)
-  - [AnimationEventType](../classes/AnimationEventType.md)
 
 ### 枚举
 
-  - [AnimationEventType](../enums/AnimationEventType.md)
 
 
 

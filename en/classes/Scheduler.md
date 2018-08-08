@@ -27,59 +27,30 @@ and consumes less memory to use the 'update callback'. *
 
 ##### Methods
 
-  - [`setTimeScale`](#settimescale) Modifies the time of all scheduled callbacks.<br/>
-You can use this property to create a 'slow motion' or 'fast forward' effect.<br/>
-Default is 1.0. To create a 'slow motion' effect, use values below 1.0.<br/>
-To create a 'fast forward' effect, use values higher than 1.0.<br/>
-Note：It will affect EVERY scheduled selector / action.
+  - [`setTimeScale`](#settimescale) Default is 1.0.
   - [`getTimeScale`](#gettimescale) Returns time scale of scheduler.
-  - [`update`](#update) 'update' the scheduler. (You should NEVER call this method, unless you know what you are doing.)
-  - [`scheduleCallbackForTarget`](#schedulecallbackfortarget) <p>
-  The scheduled method will be called every 'interval' seconds.</br>
-  If paused is YES, then it won't be called until it is resumed.<br/>
-  If 'interval' is 0, it will be called every frame, but if so, it recommended to use 'scheduleUpdateForTarget:' instead.<br/>
-  If the callback function is already scheduled, then only the interval parameter will be updated without re-scheduling it again.<br/>
-  repeat let the action be repeated repeat + 1 times, use cc.macro.REPEAT_FOREVER to let the action run continuously<br/>
-  delay is the amount of time the action will wait before it'll start<br/>
-</p>
+  - [`update`](#update) 'update' the scheduler.
+  - [`scheduleCallbackForTarget`](#schedulecallbackfortarget) <p>...
   - [`schedule`](#schedule) The schedule
-  - [`scheduleUpdate`](#scheduleupdate) Schedules the update callback for a given target,
-the callback will be invoked every frame after schedule started.
+  - [`scheduleUpdate`](#scheduleupdate) Schedules the update callback for a given target,...
   - [`unschedule`](#unschedule) Unschedules a callback for a callback and a given target.
-If you want to unschedule the "update", use `unscheduleUpdate()`
   - [`unscheduleUpdate`](#unscheduleupdate) Unschedules the update callback for a given target.
   - [`unscheduleAllForTarget`](#unscheduleallfortarget) Unschedules all scheduled callbacks for a given target.
-This also includes the "update" callback.
-  - [`unscheduleAll`](#unscheduleall) Unschedules all scheduled callbacks from all targets including the system callbacks.<br/>
-You should NEVER call this method, unless you know what you are doing.
-  - [`unscheduleAllWithMinPriority`](#unscheduleallwithminpriority) Unschedules all callbacks from all targets with a minimum priority.<br/>
-You should only call this with `PRIORITY_NON_SYSTEM_MIN` or higher.
+  - [`unscheduleAll`](#unscheduleall) Unschedules all scheduled callbacks from all targets including the system callbacks....
+  - [`unscheduleAllWithMinPriority`](#unscheduleallwithminpriority) Unschedules all callbacks from all targets with a minimum priority....
   - [`isScheduled`](#isscheduled) Checks whether a callback for a given target is scheduled.
-  - [`pauseAllTargets`](#pausealltargets) Pause all selectors from all targets.<br/>
-You should NEVER call this method, unless you know what you are doing.
-  - [`pauseAllTargetsWithMinPriority`](#pausealltargetswithminpriority) Pause all selectors from all targets with a minimum priority. <br/>
-You should only call this with kCCPriorityNonSystemMin or higher.
-  - [`resumeTargets`](#resumetargets) Resume selectors on a set of targets.<br/>
-This can be useful for undoing a call to pauseAllCallbacks.
-  - [`pauseTarget`](#pausetarget) Pauses the target.<br/>
-All scheduled selectors/update for a given target won't be 'ticked' until the target is resumed.<br/>
-If the target is not present, nothing happens.
-  - [`resumeTarget`](#resumetarget) Resumes the target.<br/>
-The 'target' will be unpaused, so all schedule selectors/update will be 'ticked' again.<br/>
-If the target is not present, nothing happens.
+  - [`pauseAllTargets`](#pausealltargets) Pause all selectors from all targets....
+  - [`pauseAllTargetsWithMinPriority`](#pausealltargetswithminpriority) Pause all selectors from all targets with a minimum priority.
+  - [`resumeTargets`](#resumetargets) Resume selectors on a set of targets....
+  - [`pauseTarget`](#pausetarget) Pauses the target....
+  - [`resumeTarget`](#resumetarget) Resumes the target....
   - [`isTargetPaused`](#istargetpaused) Returns whether or not the target is paused.
-  - [`scheduleUpdateForTarget`](#scheduleupdatefortarget) Schedules the 'update' callback_fn for a given target with a given priority.<br/>
-The 'update' callback_fn will be called every frame.<br/>
-The lower the priority, the earlier it is called.
-  - [`unscheduleCallbackForTarget`](#unschedulecallbackfortarget) Unschedule a callback function for a given target.<br/>
-If you want to unschedule the "update", use unscheduleUpdateForTarget.
+  - [`scheduleUpdateForTarget`](#scheduleupdatefortarget) Schedules the 'update' callback_fn for a given target with a given priority....
+  - [`unscheduleCallbackForTarget`](#unschedulecallbackfortarget) Unschedule a callback function for a given target....
   - [`unscheduleUpdateForTarget`](#unscheduleupdatefortarget) Unschedules the update callback function for a given target.
-  - [`unscheduleAllCallbacksForTarget`](#unscheduleallcallbacksfortarget) Unschedules all function callbacks for a given target.<br/>
-This also includes the "update" callback function.
-  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) Unschedules all function callbacks from all targets. <br/>
-You should NEVER call this method, unless you know what you are doing.
-  - [`unscheduleAllCallbacksWithMinPriority`](#unscheduleallcallbackswithminpriority) Unschedules all function callbacks from all targets with a minimum priority.<br/>
-You should only call this with kCCPriorityNonSystemMin or higher.
+  - [`unscheduleAllCallbacksForTarget`](#unscheduleallcallbacksfortarget) Unschedules all function callbacks for a given target....
+  - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) Unschedules all function callbacks from all targets.
+  - [`unscheduleAllCallbacksWithMinPriority`](#unscheduleallcallbackswithminpriority) Unschedules all function callbacks from all targets with a minimum priority....
 
 
 
@@ -96,7 +67,7 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1140](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1140) |
+| Defined in | [cocos2d/core/CCScheduler.js:1141](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L1141) |
 
 
 
@@ -107,7 +78,7 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1149](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1149) |
+| Defined in | [cocos2d/core/CCScheduler.js:1150](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L1150) |
 
 
 
@@ -128,7 +99,7 @@ Note：It will affect EVERY scheduled selector / action.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:362](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L362) |
+| Defined in | [cocos2d/core/CCScheduler.js:363](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L363) |
 
 ###### Parameters
 - `timeScale` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -141,7 +112,7 @@ Returns time scale of scheduler.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:382](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L382) |
+| Defined in | [cocos2d/core/CCScheduler.js:383](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L383) |
 
 
 
@@ -151,7 +122,7 @@ Returns time scale of scheduler.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:392](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L392) |
+| Defined in | [cocos2d/core/CCScheduler.js:393](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L393) |
 
 ###### Parameters
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> delta time
@@ -170,7 +141,7 @@ Returns time scale of scheduler.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:482](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L482) |
+| Defined in | [cocos2d/core/CCScheduler.js:483](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L483) |
 | Deprecated | since v3.4 please use .schedule |
 
 ###### Parameters
@@ -196,7 +167,7 @@ The schedule
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:520](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L520) |
+| Defined in | [cocos2d/core/CCScheduler.js:521](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L521) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -221,7 +192,7 @@ the callback will be invoked every frame after schedule started.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:588](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L588) |
+| Defined in | [cocos2d/core/CCScheduler.js:589](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L589) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -237,7 +208,7 @@ If you want to unschedule the "update", use `unscheduleUpdate()`
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:646](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L646) |
+| Defined in | [cocos2d/core/CCScheduler.js:647](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L647) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to be unscheduled
@@ -250,7 +221,7 @@ Unschedules the update callback for a given target.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:695](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L695) |
+| Defined in | [cocos2d/core/CCScheduler.js:696](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L696) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be unscheduled.
@@ -263,7 +234,7 @@ This also includes the "update" callback.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:717](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L717) |
+| Defined in | [cocos2d/core/CCScheduler.js:718](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L718) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be unscheduled.
@@ -276,7 +247,7 @@ You should NEVER call this method, unless you know what you are doing.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:757](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L757) |
+| Defined in | [cocos2d/core/CCScheduler.js:758](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L758) |
 
 
 
@@ -287,7 +258,7 @@ You should only call this with `PRIORITY_NON_SYSTEM_MIN` or higher.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:770](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L770) |
+| Defined in | [cocos2d/core/CCScheduler.js:771](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L771) |
 
 ###### Parameters
 - `minPriority` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The minimum priority of selector to be unscheduled. Which means, all selectors which
@@ -301,7 +272,7 @@ Checks whether a callback for a given target is scheduled.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:824](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L824) |
+| Defined in | [cocos2d/core/CCScheduler.js:825](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L825) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to check.
@@ -315,7 +286,7 @@ You should NEVER call this method, unless you know what you are doing.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:862](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L862) |
+| Defined in | [cocos2d/core/CCScheduler.js:863](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L863) |
 
 
 
@@ -326,7 +297,7 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:875](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L875) |
+| Defined in | [cocos2d/core/CCScheduler.js:876](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L876) |
 
 ###### Parameters
 - `minPriority` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -339,7 +310,7 @@ This can be useful for undoing a call to pauseAllCallbacks.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:935](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L935) |
+| Defined in | [cocos2d/core/CCScheduler.js:936](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L936) |
 
 ###### Parameters
 - `targetsToResume` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -353,7 +324,7 @@ If the target is not present, nothing happens.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:954](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L954) |
+| Defined in | [cocos2d/core/CCScheduler.js:955](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L955) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -367,7 +338,7 @@ If the target is not present, nothing happens.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:985](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L985) |
+| Defined in | [cocos2d/core/CCScheduler.js:986](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L986) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -380,7 +351,7 @@ Returns whether or not the target is paused.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1018](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1018) |
+| Defined in | [cocos2d/core/CCScheduler.js:1019](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L1019) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -394,7 +365,7 @@ The lower the priority, the earlier it is called.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1042](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1042) |
+| Defined in | [cocos2d/core/CCScheduler.js:1043](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L1043) |
 | Deprecated | since v3.4 please use .scheduleUpdate |
 
 ###### Parameters
@@ -418,7 +389,7 @@ If you want to unschedule the "update", use unscheduleUpdateForTarget.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1063](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1063) |
+| Defined in | [cocos2d/core/CCScheduler.js:1064](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L1064) |
 | Deprecated | since v3.4 please use .unschedule |
 
 ###### Parameters
@@ -440,7 +411,7 @@ Unschedules the update callback function for a given target.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1081](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1081) |
+| Defined in | [cocos2d/core/CCScheduler.js:1082](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L1082) |
 | Deprecated | since v3.4 please use .unschedule |
 
 ###### Parameters
@@ -462,7 +433,7 @@ This also includes the "update" callback function.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1094](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1094) |
+| Defined in | [cocos2d/core/CCScheduler.js:1095](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L1095) |
 | Deprecated | since v3.4 please use unscheduleAllForTarget |
 
 ###### Parameters
@@ -476,7 +447,7 @@ You should NEVER call this method, unless you know what you are doing.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1108](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1108) |
+| Defined in | [cocos2d/core/CCScheduler.js:1109](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L1109) |
 | Deprecated | since v3.4 please use .unscheduleAllWithMinPriority |
 
 
@@ -488,7 +459,7 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js:1123](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/CCScheduler.js#L1123) |
+| Defined in | [cocos2d/core/CCScheduler.js:1124](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/CCScheduler.js#L1124) |
 | Deprecated | since v3.4 please use .unscheduleAllWithMinPriority |
 
 ###### Parameters

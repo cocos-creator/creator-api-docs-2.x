@@ -23,7 +23,7 @@ Enum for LineCap.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L37) |
+| Defined in | [cocos2d/core/graphics/types.js:38](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/graphics/types.js#L38) |
 
 
 
@@ -34,7 +34,7 @@ Enum for LineCap.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L44) |
+| Defined in | [cocos2d/core/graphics/types.js:45](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/graphics/types.js#L45) |
 
 
 
@@ -45,6 +45,6 @@ Enum for LineCap.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:51](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L51) |
+| Defined in | [cocos2d/core/graphics/types.js:52](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/graphics/types.js#L52) |
 
 

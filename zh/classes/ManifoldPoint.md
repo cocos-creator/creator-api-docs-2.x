@@ -14,10 +14,7 @@ ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接
 
 ##### 属性（properties）
 
-  - [`localPoint`](#localpoint) `Vec2` 本地坐标点的用途取决于 manifold 的类型
-- e_circles: circleB 的本地中心点
-- e_faceA: circleB 的本地中心点 或者是 polygonB 的截取点
-- e_faceB: polygonB 的截取点
+  - [`localPoint`](#localpoint) `Vec2` 本地坐标点的用途取决于 manifold 的类型...
   - [`normalImpulse`](#normalimpulse) `Number` 法线冲量。
   - [`tangentImpulse`](#tangentimpulse) `Number` 切线冲量。
 
@@ -41,7 +38,7 @@ ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:62](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L62) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:87](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L87) |
 
 
 
@@ -52,7 +49,7 @@ ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L75) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:100](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L100) |
 
 
 
@@ -63,7 +60,7 @@ ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L82) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:107](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L107) |
 
 
 

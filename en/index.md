@@ -82,6 +82,7 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`Graphics`](classes/Graphics.md) from [cc](modules/cc.md)
 - [`Intersection`](classes/Intersection.md) from [cc](modules/cc.md)
 - [`Joint`](classes/Joint.md) from [cc](modules/cc.md)
+- [`JsonAsset`](classes/JsonAsset.md) from [cc](modules/cc.md)
 - [`Label`](classes/Label.md) from [cc](modules/cc.md)
 - [`LabelAtlas`](classes/LabelAtlas.md) from [cc](modules/cc.md)
 - [`LabelOutline`](classes/LabelOutline.md) from [cc](modules/cc.md)
@@ -230,6 +231,7 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`LoadingItems.ItemState`](enums/LoadingItems.ItemState.md) from [cc](modules/cc.md)
 - [`macro`](enums/macro.md) from [cc](modules/cc.md)
 - [`Mask.Type`](enums/Mask.Type.md) from [cc](modules/cc.md)
+- [`NetworkType`](enums/NetworkType.md) from [cc](modules/cc.md)
 - [`PageView.Direction`](enums/PageView.Direction.md) from [cc](modules/cc.md)
 - [`PageView.EventType`](enums/PageView.EventType.md) from [cc](modules/cc.md)
 - [`PageView.SizeMode`](enums/PageView.SizeMode.md) from [cc](modules/cc.md)
@@ -237,6 +239,7 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`ParticleSystem.EmitterMode`](enums/ParticleSystem.EmitterMode.md) from [cc](modules/cc.md)
 - [`ParticleSystem.PositionType`](enums/ParticleSystem.PositionType.md) from [cc](modules/cc.md)
 - [`PayResultCode`](enums/PayResultCode.md) from [anysdk](modules/anysdk.md)
+- [`Prefab.OptimizationPolicy`](enums/Prefab.OptimizationPolicy.md) from [cc](modules/cc.md)
 - [`ProgressBar.Mode`](enums/ProgressBar.Mode.md) from [cc](modules/cc.md)
 - [`PushActionResultCode`](enums/PushActionResultCode.md) from [anysdk](modules/anysdk.md)
 - [`RayCastType`](enums/RayCastType.md) from [cc](modules/cc.md)
@@ -261,6 +264,7 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`VideoPlayer.EventType`](enums/VideoPlayer.EventType.md) from [cc](modules/cc.md)
 - [`VideoPlayer.ResourceType`](enums/VideoPlayer.ResourceType.md) from [cc](modules/cc.md)
 - [`WebView.EventType`](enums/WebView.EventType.md) from [cc](modules/cc.md)
+- [`Widget.AlignMode`](enums/Widget.AlignMode.md) from [cc](modules/cc.md)
 - [`WrapMode`](enums/WrapMode.md) from [cc](modules/cc.md)
 
 ## Editor API

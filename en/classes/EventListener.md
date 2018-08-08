@@ -31,9 +31,6 @@ Module: [cc](../modules/cc.md)
   - [`setEnabled`](#setenabled) Enables or disables the listener
   - [`isEnabled`](#isenabled) Checks whether the listener is enabled
   - [`create`](#create) Create a EventListener object with configuration including the event type, handlers and other parameters.
-In handlers, this refer to the event listener object itself.
-You can also pass custom parameters in the configuration object,
-all custom parameters will be polyfilled into the event listener object and can be accessed in handlers.
 
 
 
@@ -50,7 +47,7 @@ all custom parameters will be polyfilled into the event listener object and can 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:252](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L252) |
+| Defined in | [cocos2d/core/event-manager/CCEventListener.js:253](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventListener.js#L253) |
 
 
 
@@ -61,7 +58,7 @@ all custom parameters will be polyfilled into the event listener object and can 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:276](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L276) |
+| Defined in | [cocos2d/core/event-manager/CCEventListener.js:277](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventListener.js#L277) |
 
 
 
@@ -72,7 +69,7 @@ all custom parameters will be polyfilled into the event listener object and can 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L292) |
+| Defined in | [cocos2d/core/event-manager/CCEventListener.js:293](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventListener.js#L293) |
 
 
 
@@ -89,7 +86,7 @@ Constructor
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:44](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L44) |
+| Defined in | [cocos2d/core/event-manager/CCEventListener.js:45](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventListener.js#L45) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -104,7 +101,7 @@ Checks whether the listener is available.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:173](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L173) |
+| Defined in | [cocos2d/core/event-manager/CCEventListener.js:174](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventListener.js#L174) |
 
 
 
@@ -115,7 +112,7 @@ Clones the listener, its subclasses have to override this method.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:183](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L183) |
+| Defined in | [cocos2d/core/event-manager/CCEventListener.js:184](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventListener.js#L184) |
 
 
 
@@ -125,7 +122,7 @@ Enables or disables the listener
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:193](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L193) |
+| Defined in | [cocos2d/core/event-manager/CCEventListener.js:194](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventListener.js#L194) |
 
 ###### Parameters
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -138,7 +135,7 @@ Checks whether the listener is enabled
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:207](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L207) |
+| Defined in | [cocos2d/core/event-manager/CCEventListener.js:208](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventListener.js#L208) |
 
 
 
@@ -152,7 +149,7 @@ all custom parameters will be polyfilled into the event listener object and can 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js:453](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventListener.js#L453) |
+| Defined in | [cocos2d/core/event-manager/CCEventListener.js:454](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventListener.js#L454) |
 
 ###### Parameters
 - `argObj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a json object

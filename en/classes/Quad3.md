@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 A 3D Quad. 4 * 3 floats
@@ -34,7 +33,7 @@ A 3D Quad. 4 * 3 floats
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js:318](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypesWebGL.js#L318) |
+| Defined in | [cocos2d/core/value-types/CCTypesWebGL.js:319](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypesWebGL.js#L319) |
 
 ###### Parameters
 - `bl1` <a href="../classes/Vertex3F.html" class="crosslink">Vertex3F</a> 

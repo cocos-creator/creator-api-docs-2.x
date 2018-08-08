@@ -23,7 +23,7 @@ Enum for text alignment.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:36](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L36) |
+| Defined in | [cocos2d/core/components/CCLabel.js:37](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCLabel.js#L37) |
 
 
 
@@ -34,7 +34,7 @@ Enum for text alignment.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:41](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L41) |
+| Defined in | [cocos2d/core/components/CCLabel.js:42](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCLabel.js#L42) |
 
 
 
@@ -45,6 +45,6 @@ Enum for text alignment.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js:46](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLabel.js#L46) |
+| Defined in | [cocos2d/core/components/CCLabel.js:47](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCLabel.js#L47) |
 
 

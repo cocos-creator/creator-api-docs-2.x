@@ -23,7 +23,7 @@ the type for mask.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:43](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L43) |
+| Defined in | [cocos2d/core/components/CCMask.js:44](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCMask.js#L44) |
 
 
 
@@ -34,7 +34,7 @@ the type for mask.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:49](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L49) |
+| Defined in | [cocos2d/core/components/CCMask.js:50](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCMask.js#L50) |
 
 
 
@@ -45,6 +45,6 @@ the type for mask.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js:55](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCMask.js#L55) |
+| Defined in | [cocos2d/core/components/CCMask.js:56](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCMask.js#L56) |
 
 

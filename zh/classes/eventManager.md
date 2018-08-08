@@ -20,20 +20,9 @@
   - [`pauseTarget`](#pausetarget) 暂停传入的 node 相关的所有监听器的事件响应。
   - [`resumeTarget`](#resumetarget) 恢复传入的 node 相关的所有监听器的事件响应。
   - [`hasEventListener`](#haseventlistener) 查询指定的事件 ID 是否存在
-  - [`addListener`](#addlistener) 将事件监听器添加到事件管理器中。<br/>
-如果参数 “nodeOrPriority” 是节点，优先级由 node 的渲染顺序决定，显示在上层的节点将优先收到事件。<br/>
-如果参数 “nodeOrPriority” 是数字，优先级则固定为该参数的数值，数字越小，优先级越高。<br/>
+  - [`addListener`](#addlistener) 将事件监听器添加到事件管理器中。
   - [`removeListener`](#removelistener) 移除一个已添加的监听器。
-  - [`removeListeners`](#removelisteners) 移除注册到 eventManager 中指定类型的所有事件监听器。<br/>
-1. 如果传入的第一个参数类型是 Node，那么事件管理器将移除与该对象相关的所有事件监听器。
-（如果第二参数 recursive 是 true 的话，就会连同该对象的子控件上所有的事件监听器也一并移除）<br/>
-2. 如果传入的第一个参数类型是 Number（该类型 EventListener 中定义的事件类型），
-那么事件管理器将移除该类型的所有事件监听器。<br/>
-
-下列是目前存在监听器类型：       <br/>
-cc.EventListener.UNKNOWN       <br/>
-cc.EventListener.KEYBOARD      <br/>
-cc.EventListener.ACCELERATION，<br/>
+  - [`removeListeners`](#removelisteners) 移除注册到 eventManager 中指定类型的所有事件监听器。
   - [`removeAllListeners`](#removealllisteners) 移除所有事件监听器。
   - [`setPriority`](#setpriority) 设置 FixedPriority 类型监听器的优先级。
   - [`setEnabled`](#setenabled) 启用或禁用事件管理器，禁用后不会分发任何事件。
@@ -56,7 +45,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:142](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L142) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:143](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventManager.js#L143) |
 
 ###### 参数列表
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -69,7 +58,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:166](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L166) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:167](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventManager.js#L167) |
 
 ###### 参数列表
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -83,7 +72,7 @@ cc.EventListener.ACCELERATION，<br/>
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:718](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L718) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:719](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventManager.js#L719) |
 
 ###### 参数列表
 - `listenerID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The listener id.
@@ -98,7 +87,7 @@ cc.EventListener.ACCELERATION，<br/>
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:729](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L729) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:730](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventManager.js#L730) |
 
 ###### 参数列表
 - `listener` <a href="../classes/EventListener.html" class="crosslink">EventListener</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The listener of a specified event or a object of some event parameters.
@@ -111,7 +100,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:806](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L806) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:807](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventManager.js#L807) |
 
 ###### 参数列表
 - `listener` <a href="../classes/EventListener.html" class="crosslink">EventListener</a> an event listener or a registered node target
@@ -159,7 +148,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:900](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L900) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:901](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventManager.js#L901) |
 
 ###### 参数列表
 - `listenerType` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> listenerType or a node
@@ -172,7 +161,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:984](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L984) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:985](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventManager.js#L985) |
 
 
 
@@ -182,7 +171,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:997](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L997) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:998](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventManager.js#L998) |
 
 ###### 参数列表
 - `listener` <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
@@ -195,7 +184,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:1027](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L1027) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:1028](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventManager.js#L1028) |
 
 ###### 参数列表
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -208,7 +197,7 @@ cc.EventListener.ACCELERATION，<br/>
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js:1037](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/event-manager/CCEventManager.js#L1037) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:1038](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/event-manager/CCEventManager.js#L1038) |
 
 
 
