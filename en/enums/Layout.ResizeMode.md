@@ -23,7 +23,7 @@ Enum for Layout Resize Mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:69](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L69) |
+| Defined in | [cocos2d/core/components/CCLayout.js:70](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCLayout.js#L70) |
 
 
 
@@ -34,7 +34,7 @@ Enum for Layout Resize Mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L75) |
+| Defined in | [cocos2d/core/components/CCLayout.js:76](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCLayout.js#L76) |
 
 
 
@@ -45,6 +45,6 @@ Enum for Layout Resize Mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js:81](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCLayout.js#L81) |
+| Defined in | [cocos2d/core/components/CCLayout.js:82](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCLayout.js#L82) |
 
 

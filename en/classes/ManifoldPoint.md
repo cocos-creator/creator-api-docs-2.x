@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 A manifold point is a contact point belonging to a contact manifold.
@@ -15,10 +16,7 @@ provide reliable contact forces, especially for high speed collisions.
 
 ##### Properties
 
-  - [`localPoint`](#localpoint) `Vec2` The local point usage depends on the manifold type:
--e_circles: the local center of circleB
--e_faceA: the local center of circleB or the clip point of polygonB
--e_faceB: the clip point of polygonA
+  - [`localPoint`](#localpoint) `Vec2` -e_circles: the local center of circleB
   - [`normalImpulse`](#normalimpulse) `Number` Normal impulse.
   - [`tangentImpulse`](#tangentimpulse) `Number` Tangent impulse.
 
@@ -42,7 +40,7 @@ provide reliable contact forces, especially for high speed collisions.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:62](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L62) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:87](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L87) |
 
 
 
@@ -53,7 +51,7 @@ provide reliable contact forces, especially for high speed collisions.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:75](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L75) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:100](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L100) |
 
 
 
@@ -64,7 +62,7 @@ provide reliable contact forces, especially for high speed collisions.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L82) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:107](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L107) |
 
 
 

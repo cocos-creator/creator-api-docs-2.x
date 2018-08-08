@@ -20,28 +20,19 @@ Examples:<br/>
 
 ##### Methods
 
-  - [`addAction`](#addaction) Adds an action with a target.<br/>
-If the target is already present, then the action will be added to the existing target.
-If the target is not present, a new instance of this target will be created either paused or not, and the action will be added to the newly created target.
-When the target is paused, the queued actions won't be 'ticked'.
+  - [`addAction`](#addaction) If the target is already present, then the action will be added to the existing target.
   - [`removeAllActions`](#removeallactions) Removes all actions from all the targets.
-  - [`removeAllActionsFromTarget`](#removeallactionsfromtarget) Removes all actions from a certain target. <br/>
-All the actions that belongs to the target will be removed.
+  - [`removeAllActionsFromTarget`](#removeallactionsfromtarget) Removes all actions from a certain target.
   - [`removeAction`](#removeaction) Removes an action given an action reference.
   - [`removeActionByTag`](#removeactionbytag) Removes an action given its tag and the target.
   - [`getActionByTag`](#getactionbytag) Gets an action given its tag an a target.
-  - [`getNumberOfRunningActionsInTarget`](#getnumberofrunningactionsintarget) Returns the numbers of actions that are running in a certain target. <br/>
-Composable actions are counted as 1 action. <br/>
-Example: <br/>
-- If you are running 1 Sequence of 7 actions, it will return 1. <br/>
-- If you are running 7 Sequences of 2 actions, it will return 7.
+  - [`getNumberOfRunningActionsInTarget`](#getnumberofrunningactionsintarget) Returns the numbers of actions that are running in a certain target.
   - [`pauseTarget`](#pausetarget) Pauses the target: all running actions and newly added actions will be paused.
-  - [`resumeTarget`](#resumetarget) Resumes the target. All queued actions will be resumed.
+  - [`resumeTarget`](#resumetarget) Resumes the target.
   - [`pauseAllRunningActions`](#pauseallrunningactions) Pauses all running actions, returning a list of targets whose actions were paused.
   - [`resumeTargets`](#resumetargets) Resume a set of targets (convenience function to reverse a pauseAllRunningActions or pauseTargets call).
   - [`pauseTargets`](#pausetargets) Pause a set of targets.
-  - [`purgeSharedManager`](#purgesharedmanager) purges the shared action manager. It releases the retained instance. <br/>
-because it uses this, so it can not be static.
+  - [`purgeSharedManager`](#purgesharedmanager) purges the shared action manager.
   - [`update`](#update) The ActionManager update。
 
 
@@ -64,7 +55,7 @@ When the target is paused, the queued actions won't be 'ticked'.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:101](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L101) |
+| Defined in | [cocos2d/actions/CCActionManager.js:102](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L102) |
 
 ###### Parameters
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> 
@@ -78,7 +69,7 @@ Removes all actions from all the targets.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:140](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L140) |
+| Defined in | [cocos2d/actions/CCActionManager.js:141](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L141) |
 
 
 
@@ -89,7 +80,7 @@ All the actions that belongs to the target will be removed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:153](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L153) |
+| Defined in | [cocos2d/actions/CCActionManager.js:154](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L154) |
 
 ###### Parameters
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -102,7 +93,7 @@ Removes an action given an action reference.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:174](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L174) |
+| Defined in | [cocos2d/actions/CCActionManager.js:175](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L175) |
 
 ###### Parameters
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> 
@@ -114,7 +105,7 @@ Removes an action given its tag and the target.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:202](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L202) |
+| Defined in | [cocos2d/actions/CCActionManager.js:203](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L203) |
 
 ###### Parameters
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -128,7 +119,7 @@ Gets an action given its tag an a target.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Action.html" class="crosslink">Action</a> &#124; Null 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:229](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L229) |
+| Defined in | [cocos2d/actions/CCActionManager.js:230](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L230) |
 
 ###### Parameters
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -146,7 +137,7 @@ Example: <br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:256](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L256) |
+| Defined in | [cocos2d/actions/CCActionManager.js:257](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L257) |
 
 ###### Parameters
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -158,7 +149,7 @@ Pauses the target: all running actions and newly added actions will be paused.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:281](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L281) |
+| Defined in | [cocos2d/actions/CCActionManager.js:282](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L282) |
 
 ###### Parameters
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -170,7 +161,7 @@ Resumes the target. All queued actions will be resumed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:292](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L292) |
+| Defined in | [cocos2d/actions/CCActionManager.js:293](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L293) |
 
 ###### Parameters
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -183,7 +174,7 @@ Pauses all running actions, returning a list of targets whose actions were pause
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:304](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L304) |
+| Defined in | [cocos2d/actions/CCActionManager.js:305](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L305) |
 
 
 
@@ -193,7 +184,7 @@ Resume a set of targets (convenience function to reverse a pauseAllRunningAction
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:323](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L323) |
+| Defined in | [cocos2d/actions/CCActionManager.js:324](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L324) |
 
 ###### Parameters
 - `targetsToResume` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -205,7 +196,7 @@ Pause a set of targets.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:339](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L339) |
+| Defined in | [cocos2d/actions/CCActionManager.js:340](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L340) |
 
 ###### Parameters
 - `targetsToPause` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -218,7 +209,7 @@ because it uses this, so it can not be static.
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:355](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L355) |
+| Defined in | [cocos2d/actions/CCActionManager.js:356](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L356) |
 
 
 
@@ -228,7 +219,7 @@ The ActionManager update。
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js:402](https:/github.com/cocos-creator/engine/blob/master/cocos2d/actions/CCActionManager.js#L402) |
+| Defined in | [cocos2d/actions/CCActionManager.js:403](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/actions/CCActionManager.js#L403) |
 
 ###### Parameters
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> delta time in seconds

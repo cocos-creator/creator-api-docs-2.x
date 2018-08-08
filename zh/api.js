@@ -181,6 +181,12 @@ window.apimeta = {
       "description": "遮罩组件类型"
     },
     {
+      "name": "NetworkType",
+      "namespace": "cc.NetworkType",
+      "module": "cc",
+      "description": "网络类型枚举"
+    },
+    {
       "name": "PageView.Direction",
       "namespace": "cc.PageView.Direction",
       "module": "cc",
@@ -221,6 +227,12 @@ window.apimeta = {
       "namespace": "anysdk.PayResultCode",
       "module": "anysdk",
       "description": "支付系统支付请求回调"
+    },
+    {
+      "name": "Prefab.OptimizationPolicy",
+      "namespace": "cc.Prefab.OptimizationPolicy",
+      "module": "cc",
+      "description": "Prefab 创建实例所用的优化策略，配合 Prefab.optimizationPolicy 使用。"
     },
     {
       "name": "ProgressBar.Mode",
@@ -367,6 +379,12 @@ window.apimeta = {
       "description": "网页视图事件类型"
     },
     {
+      "name": "Widget.AlignMode",
+      "namespace": "cc.Widget.AlignMode",
+      "module": "cc",
+      "description": "Widget 的对齐模式，表示 Widget 应该何时刷新。"
+    },
+    {
       "name": "WrapMode",
       "namespace": "cc.WrapMode",
       "module": "cc",
@@ -462,7 +480,7 @@ window.apimeta = {
       "name": "Asset",
       "namespace": "cc.Asset",
       "module": "cc",
-      "description": "资源基类，该类可以被实例化。<br/>\n\n您可能需要重写：<br/>\n- createNode <br/>\n- cc.Object._serialize<br/>\n- cc.Object._deserialize<br/>"
+      "description": "Creator 中的资源基类。<br/>\n\n您可能需要重写：<br/>\n- createNode <br/>\n- _nativeAsset 的 getset 方法<br/>\n- cc.Object._serialize<br/>\n- cc.Object._deserialize<br/>"
     },
     {
       "name": "AudioClip",
@@ -504,7 +522,7 @@ window.apimeta = {
       "name": "Button",
       "namespace": "cc.Button",
       "module": "cc",
-      "description": "按钮组件。可以被按下,或者点击。</br>\n\n按钮可以通过修改 Transition 来设置按钮状态过渡的方式：</br>\n  -Button.Transition.NONE   // 不做任何过渡</br>\n  -Button.Transition.COLOR  // 进行颜色之间过渡</br>\n  -Button.Transition.SPRITE // 进行精灵之间过渡</br>\n  -Button.Transition.SCALE // 进行缩放过渡</br>\n\n按钮可以绑定事件（但是必须要在按钮的 Node 上才能绑定事件）：</br>\n  // 以下事件可以在全平台上都触发</br>\n  -cc.Node.EventType.TOUCH_START  // 按下时事件</br>\n  -cc.Node.EventType.TOUCH_Move   // 按住移动后事件</br>\n  -cc.Node.EventType.TOUCH_END    // 按下后松开后事件</br>\n  -cc.Node.EventType.TOUCH_CANCEL // 按下取消事件</br>\n  // 以下事件只在 PC 平台上触发</br>\n  -cc.Node.EventType.MOUSE_DOWN  // 鼠标按下时事件</br>\n  -cc.Node.EventType.MOUSE_MOVE  // 鼠标按住移动后事件</br>\n  -cc.Node.EventType.MOUSE_ENTER // 鼠标进入目标事件</br>\n  -cc.Node.EventType.MOUSE_LEAVE // 鼠标离开目标事件</br>\n  -cc.Node.EventType.MOUSE_UP    // 鼠标松开事件</br>\n  -cc.Node.EventType.MOUSE_WHEEL // 鼠标滚轮事件</br>"
+      "description": "按钮组件。可以被按下,或者点击。<br/>\n\n按钮可以通过修改 Transition 来设置按钮状态过渡的方式：<br/>\n  -Button.Transition.NONE   // 不做任何过渡<br/>\n  -Button.Transition.COLOR  // 进行颜色之间过渡<br/>\n  -Button.Transition.SPRITE // 进行精灵之间过渡<br/>\n  -Button.Transition.SCALE // 进行缩放过渡<br/>\n\n按钮可以绑定事件（但是必须要在按钮的 Node 上才能绑定事件）：<br/>\n  // 以下事件可以在全平台上都触发<br/>\n  -cc.Node.EventType.TOUCH_START  // 按下时事件<br/>\n  -cc.Node.EventType.TOUCH_Move   // 按住移动后事件<br/>\n  -cc.Node.EventType.TOUCH_END    // 按下后松开后事件<br/>\n  -cc.Node.EventType.TOUCH_CANCEL // 按下取消事件<br/>\n  // 以下事件只在 PC 平台上触发<br/>\n  -cc.Node.EventType.MOUSE_DOWN  // 鼠标按下时事件<br/>\n  -cc.Node.EventType.MOUSE_MOVE  // 鼠标按住移动后事件<br/>\n  -cc.Node.EventType.MOUSE_ENTER // 鼠标进入目标事件<br/>\n  -cc.Node.EventType.MOUSE_LEAVE // 鼠标离开目标事件<br/>\n  -cc.Node.EventType.MOUSE_UP    // 鼠标松开事件<br/>\n  -cc.Node.EventType.MOUSE_WHEEL // 鼠标滚轮事件<br/>"
     },
     {
       "name": "CallbacksInvoker",
@@ -745,6 +763,12 @@ window.apimeta = {
       "namespace": "cc.Joint",
       "module": "cc",
       "description": "关节类的基类"
+    },
+    {
+      "name": "JsonAsset",
+      "namespace": "cc.JsonAsset",
+      "module": "cc",
+      "description": "JSON 资源类。JSON 文件加载后，将会返回该对象。可以通过其中的 `json` 属性访问解析后的 JSON 对象。<br>\n如果你想要获得 JSON 的原始文本，那么应该修改源文件的后缀为 `.txt`，这样就会加载为一个 `TextAsset` 而不是 `JsonAsset`。"
     },
     {
       "name": "Label",
@@ -1068,7 +1092,7 @@ window.apimeta = {
       "name": "RawAsset",
       "namespace": "cc.RawAsset",
       "module": "cc",
-      "description": "注册用的资源基类。<br/>\n你可能要重写：<br/>\n- createNode (static)"
+      "description": "注册用的资源基类。"
     },
     {
       "name": "Rect",
@@ -1224,7 +1248,7 @@ window.apimeta = {
       "name": "Texture2D",
       "namespace": "cc.Texture2D",
       "module": "cc",
-      "description": "<p>\nThis class allows to easily create OpenGL or Canvas 2D textures from images, text or raw data.                                    <br/>\nThe created cc.Texture2D object will always have power-of-two dimensions.                                                <br/>\nDepending on how you create the cc.Texture2D object, the actual image area of the texture might be smaller than the texture dimensions <br/>\n i.e. \"contentSize\" != (pixelsWide, pixelsHigh) and (maxS, maxT) != (1.0, 1.0).                                           <br/>\nBe aware that the content of the generated textures will be upside-down! </p>"
+      "description": "This class allows to easily create OpenGL or Canvas 2D textures from images, text or raw data.<br/>\nThe created cc.Texture2D object will always have power-of-two dimensions.<br/>\nDepending on how you create the cc.Texture2D object, the actual image area of the texture might be smaller than the texture dimensions <br/>\ni.e. \"contentSize\" != (pixelsWidth, pixelsHight) and (maxS, maxT) != (1.0, 1.0).<br/>\nBe aware that the content of the generated textures will be upside-down!"
     },
     {
       "name": "TiledLayer",
@@ -1447,7 +1471,7 @@ window.apimeta = {
     {
       "name": "GLOBAL-MACROS",
       "namespace": "GLOBAL-MACROS",
-      "description": "这里是一些用来判断执行环境的宏，这些宏都是全局变量，直接访问即可。<br>\n在项目构建时，这些宏将会被预处理并根据构建的平台剔除不需要的代码，例如\n\n    if (CC_DEBUG) {\n        cc.log('debug');\n    }\n    else {\n        cc.log('release');\n    }\n\n在构建后会只剩下\n\n    cc.log('release');\n\n（好棒棒）<br>\n<br>\n如需判断脚本是否运行于指定平台，可以用如下表达式：\n\n    {\n        \"编辑器\":  CC_EDITOR,\n        \"编辑器 或 预览\":  CC_DEV,\n        \"编辑器 或 预览 或 构建调试\":  CC_DEBUG,\n        \"网页预览\":  CC_PREVIEW && !CC_JSB,\n        \"模拟器预览\":  CC_PREVIEW && CC_JSB,\n        \"构建调试\":  CC_BUILD && CC_DEBUG,\n        \"构建发行\":  CC_BUILD && !CC_DEBUG,\n    }"
+      "description": "这里是一些用来判断执行环境的宏，这些宏都是全局变量，直接访问即可。<br>\n在项目构建时，这些宏将会被预处理并根据构建的平台剔除不需要的代码，例如\n\n    if (CC_DEBUG) {\n        cc.log('debug');\n    }\n    else {\n        cc.log('release');\n    }\n\n在构建后会只剩下\n\n    cc.log('release');\n\n<br>\n如需判断脚本是否运行于指定平台，可以用如下表达式：\n\n    {\n        \"编辑器\":  CC_EDITOR,\n        \"编辑器 或 预览\":  CC_DEV,\n        \"编辑器 或 预览 或 构建调试\":  CC_DEBUG,\n        \"网页预览\":  CC_PREVIEW && !CC_JSB,\n        \"模拟器预览\":  CC_PREVIEW && CC_JSB,\n        \"构建调试\":  CC_BUILD && CC_DEBUG,\n        \"构建发行\":  CC_BUILD && !CC_DEBUG,\n    }"
     },
     {
       "name": "_decorator",

@@ -39,19 +39,19 @@
         ],
         "version": [
             {
-                "name": "1.10 Preview",
+                "name": "1.10",
                 "links": [
                     {
                         "name": "1.9",
-                        "link": "http://docs.cocos.com/creator/api/zh"
+                        "link": "http://docs.cocos.com/creator/1.9/api/zh"
                     },
                     {
-                        "name": "1.10 Preview",
+                        "name": "1.10",
                         "link": "http://docs.cocos.com/creator/1.10/api/zh"
                     },
                     {
-                        "name": "2.0 Preview",
-                        "link": "http://docs.cocos.com/creator/2.0/api/zh"
+                        "name": "2.0",
+                        "link": "http://docs.cocos.com/creator/api/zh"
                     }
                 ]
             }

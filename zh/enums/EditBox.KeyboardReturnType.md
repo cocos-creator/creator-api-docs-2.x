@@ -25,7 +25,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:37](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L37) |
+| 定义于 | [cocos2d/core/components/CCEditBox.js:38](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCEditBox.js#L38) |
 
 
 
@@ -36,7 +36,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:42](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L42) |
+| 定义于 | [cocos2d/core/components/CCEditBox.js:43](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCEditBox.js#L43) |
 
 
 
@@ -47,7 +47,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:47](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L47) |
+| 定义于 | [cocos2d/core/components/CCEditBox.js:48](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCEditBox.js#L48) |
 
 
 
@@ -58,7 +58,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:52](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L52) |
+| 定义于 | [cocos2d/core/components/CCEditBox.js:53](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCEditBox.js#L53) |
 
 
 
@@ -69,6 +69,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js:57](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCEditBox.js#L57) |
+| 定义于 | [cocos2d/core/components/CCEditBox.js:58](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCEditBox.js#L58) |
 
 

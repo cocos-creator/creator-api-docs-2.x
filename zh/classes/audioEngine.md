@@ -42,6 +42,22 @@ cc.audioengine是单例对象。<br/>
   - [`uncacheAll`](#uncacheall) 卸载所有音频。
   - [`preload`](#preload) 预加载一个音频
   - [`setMaxWebAudioSize`](#setmaxwebaudiosize) 设置一个以 KB 为单位的尺寸，大于这个尺寸的音频在加载的时候会强制使用 dom 方式加载
+  - [`playMusic`](#playmusic) 播放背景音乐
+  - [`stopMusic`](#stopmusic) 停止播放背景音乐。
+  - [`pauseMusic`](#pausemusic) 暂停播放背景音乐。
+  - [`resumeMusic`](#resumemusic) 恢复播放背景音乐。
+  - [`getMusicVolume`](#getmusicvolume) 获取音量（0.0 ~ 1.0）。
+  - [`setMusicVolume`](#setmusicvolume) 设置背景音乐音量（0.0 ~ 1.0）。
+  - [`isMusicPlaying`](#ismusicplaying) 背景音乐是否正在播放
+  - [`playEffect`](#playeffect) 播放音效
+  - [`setEffectsVolume`](#seteffectsvolume) 设置音效音量（0.0 ~ 1.0）。
+  - [`getEffectsVolume`](#geteffectsvolume) 获取音效音量（0.0 ~ 1.0）。
+  - [`pauseEffect`](#pauseeffect) 暂停播放音效。
+  - [`pauseAllEffects`](#pausealleffects) 暂停播放所有音效。
+  - [`resumeEffect`](#resumeeffect) 恢复播放音效音频。
+  - [`resumeAllEffects`](#resumealleffects) 恢复播放所有之前暂停的音效。
+  - [`stopEffect`](#stopeffect) 停止播放音效。
+  - [`stopAllEffects`](#stopalleffects) 停止播放所有音效。
 
 
 
@@ -61,17 +77,19 @@ cc.audioengine是单例对象。<br/>
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:92](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L92) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:93](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L93) |
 
 ###### 参数列表
-- `filePath` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The path of the audio file without filename extension.
+- `clip` <a href="../classes/AudioClip.html" class="crosslink">AudioClip</a> The audio clip to play.
 - `loop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the music loop or not.
 - `volume` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Volume size.
 
 ##### 示例
 
 ```js
-var audioID = cc.audioEngine.play(path, false, 0.5);
+cc.loader.loadRes(url, cc.AudioClip, function (err, clip) {
+    var audioID = cc.audioEngine.play(clip, false, 0.5);
+});
 ```
 
 ##### setLoop
@@ -80,7 +98,7 @@ var audioID = cc.audioEngine.play(path, false, 0.5);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:125](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L125) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:140](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L140) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -99,7 +117,7 @@ cc.audioEngine.setLoop(id, true);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:141](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L141) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:156](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L156) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -116,7 +134,7 @@ cc.audioEngine.isLoop(id);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:157](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L157) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:172](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L172) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -135,7 +153,7 @@ cc.audioEngine.setVolume(id, 0.5);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:179](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L179) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:188](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L188) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -153,7 +171,7 @@ var volume = cc.audioEngine.getVolume(id);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:195](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L195) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:202](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L202) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -172,7 +190,7 @@ cc.audioEngine.setCurrentTime(id, 2);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:220](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L220) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:223](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L223) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -190,7 +208,7 @@ var time = cc.audioEngine.getCurrentTime(id);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:236](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L236) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:237](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L237) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -208,7 +226,7 @@ var time = cc.audioEngine.getDuration(id);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../enums/audioEngine.AudioState.html" class="crosslink">audioEngine.AudioState</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:252](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L252) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:251](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L251) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -225,7 +243,7 @@ var state = cc.audioEngine.getState(id);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:268](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L268) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:265](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L265) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
@@ -243,7 +261,7 @@ cc.audioEngine.setFinishCallback(id, function () {});
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:287](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L287) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:284](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L284) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The return value of function play.
@@ -260,7 +278,7 @@ cc.audioEngine.pause(audioID);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:304](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L304) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:304](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L304) |
 
 
 ##### 示例
@@ -275,7 +293,7 @@ cc.audioEngine.pauseAll();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:322](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L322) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:322](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L322) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The return value of function play.
@@ -292,7 +310,7 @@ cc.audioEngine.resume(audioID);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:341](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L341) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:337](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L337) |
 
 
 ##### 示例
@@ -307,7 +325,7 @@ cc.audioEngine.resumeAll();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:357](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L357) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:354](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L354) |
 
 ###### 参数列表
 - `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The return value of function play.
@@ -324,7 +342,7 @@ cc.audioEngine.stop(audioID);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:374](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L374) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:374](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L374) |
 
 
 ##### 示例
@@ -339,7 +357,7 @@ cc.audioEngine.stopAll();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:391](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L391) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:391](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L391) |
 
 ###### 参数列表
 - `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> a number of instances to be created from within an audio
@@ -357,7 +375,7 @@ cc.audioEngine.setMaxAudioInstance(20);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:403](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L403) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:403](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L403) |
 
 
 ##### 示例
@@ -372,10 +390,10 @@ cc.audioEngine.getMaxAudioInstance();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:415](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L415) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:415](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L415) |
 
 ###### 参数列表
-- `filePath` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `clip` <a href="../classes/AudioClip.html" class="crosslink">AudioClip</a> 
 
 ##### 示例
 
@@ -389,7 +407,7 @@ cc.audioEngine.uncache(filePath);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:437](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L437) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:450](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L450) |
 
 
 ##### 示例
@@ -404,7 +422,8 @@ cc.audioEngine.uncacheAll();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:464](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L464) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:477](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L477) |
+| 废弃（Deprecated） | &#x60;cc.audioEngine.preload&#x60; is deprecated, use &#x60;cc.loader.loadRes(url, cc.AudioClip)&#x60; instead please. |
 
 ###### 参数列表
 - `filePath` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The file path of an audio.
@@ -422,7 +441,7 @@ cc.audioEngine.preload(path);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js:481](https:/github.com/cocos-creator/engine/blob/master/cocos2d/audio/CCAudioEngine.js#L481) |
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:499](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L499) |
 
 ###### 参数列表
 - `kb` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The file path of an audio.
@@ -431,6 +450,271 @@ cc.audioEngine.preload(path);
 
 ```js
 cc.audioEngine.setMaxWebAudioSize(300);
+```
+
+##### playMusic
+
+播放背景音乐
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:551](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L551) |
+
+###### 参数列表
+- `clip` <a href="../classes/AudioClip.html" class="crosslink">AudioClip</a> The audio clip to play.
+- `loop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the music loop or not.
+
+##### 示例
+
+```js
+cc.loader.loadRes(url, cc.AudioClip, function (err, clip) {
+    var audioID = cc.audioEngine.playMusic(clip, false);
+});
+```
+
+##### stopMusic
+
+停止播放背景音乐。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:571](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L571) |
+
+
+##### 示例
+
+```js
+cc.audioEngine.stopMusic();
+```
+
+##### pauseMusic
+
+暂停播放背景音乐。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:582](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L582) |
+
+
+##### 示例
+
+```js
+cc.audioEngine.pauseMusic();
+```
+
+##### resumeMusic
+
+恢复播放背景音乐。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:594](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L594) |
+
+
+##### 示例
+
+```js
+cc.audioEngine.resumeMusic();
+```
+
+##### getMusicVolume
+
+获取音量（0.0 ~ 1.0）。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:606](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L606) |
+
+
+##### 示例
+
+```js
+var volume = cc.audioEngine.getMusicVolume();
+```
+
+##### setMusicVolume
+
+设置背景音乐音量（0.0 ~ 1.0）。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:618](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L618) |
+
+###### 参数列表
+- `volume` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Volume must be in 0.0~1.0.
+
+##### 示例
+
+```js
+cc.audioEngine.setMusicVolume(0.5);
+```
+
+##### isMusicPlaying
+
+背景音乐是否正在播放
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:633](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L633) |
+
+
+##### 示例
+
+```js
+cc.audioEngine.isMusicPlaying();
+```
+
+##### playEffect
+
+播放音效
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:645](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L645) |
+
+###### 参数列表
+- `clip` <a href="../classes/AudioClip.html" class="crosslink">AudioClip</a> The audio clip to play.
+- `loop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether the music loop or not.
+
+##### 示例
+
+```js
+cc.loader.loadRes(url, cc.AudioClip, function (err, clip) {
+    var audioID = cc.audioEngine.playEffect(clip, false);
+});
+```
+
+##### setEffectsVolume
+
+设置音效音量（0.0 ~ 1.0）。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:661](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L661) |
+
+###### 参数列表
+- `volume` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Volume must be in 0.0~1.0.
+
+##### 示例
+
+```js
+cc.audioEngine.setEffectsVolume(0.5);
+```
+
+##### getEffectsVolume
+
+获取音效音量（0.0 ~ 1.0）。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:678](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L678) |
+
+
+##### 示例
+
+```js
+var volume = cc.audioEngine.getEffectsVolume();
+```
+
+##### pauseEffect
+
+暂停播放音效。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:690](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L690) |
+
+###### 参数列表
+- `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
+
+##### 示例
+
+```js
+cc.audioEngine.pauseEffect(audioID);
+```
+
+##### pauseAllEffects
+
+暂停播放所有音效。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:702](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L702) |
+
+
+##### 示例
+
+```js
+cc.audioEngine.pauseAllEffects();
+```
+
+##### resumeEffect
+
+恢复播放音效音频。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:725](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L725) |
+
+###### 参数列表
+- `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The return value of function play.
+
+##### 示例
+
+```js
+cc.audioEngine.resumeEffect(audioID);
+```
+
+##### resumeAllEffects
+
+恢复播放所有之前暂停的音效。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:737](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L737) |
+
+
+##### 示例
+
+```js
+cc.audioEngine.resumeAllEffects();
+```
+
+##### stopEffect
+
+停止播放音效。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:754](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L754) |
+
+###### 参数列表
+- `audioID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> audio id.
+
+##### 示例
+
+```js
+cc.audioEngine.stopEffect(id);
+```
+
+##### stopAllEffects
+
+停止播放所有音效。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/audio/CCAudioEngine.js:766](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/audio/CCAudioEngine.js#L766) |
+
+
+##### 示例
+
+```js
+cc.audioEngine.stopAllEffects();
 ```
 
 

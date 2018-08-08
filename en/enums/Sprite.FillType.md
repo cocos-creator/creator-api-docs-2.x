@@ -23,7 +23,7 @@ Enum for fill type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:63](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L63) |
+| Defined in | [cocos2d/core/components/CCSprite.js:64](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCSprite.js#L64) |
 
 
 
@@ -34,7 +34,7 @@ Enum for fill type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:68](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L68) |
+| Defined in | [cocos2d/core/components/CCSprite.js:69](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCSprite.js#L69) |
 
 
 
@@ -45,6 +45,6 @@ Enum for fill type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js:73](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCSprite.js#L73) |
+| Defined in | [cocos2d/core/components/CCSprite.js:74](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCSprite.js#L74) |
 
 

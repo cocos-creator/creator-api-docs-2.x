@@ -23,7 +23,7 @@ Enum for LineJoin.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:65](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L65) |
+| Defined in | [cocos2d/core/graphics/types.js:66](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/graphics/types.js#L66) |
 
 
 
@@ -34,7 +34,7 @@ Enum for LineJoin.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:72](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L72) |
+| Defined in | [cocos2d/core/graphics/types.js:73](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/graphics/types.js#L73) |
 
 
 
@@ -45,6 +45,6 @@ Enum for LineJoin.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js:79](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/graphics/types.js#L79) |
+| Defined in | [cocos2d/core/graphics/types.js:80](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/graphics/types.js#L80) |
 
 

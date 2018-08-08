@@ -18,8 +18,6 @@ it controls the behavior of how to scale the scene and setup the viewport for th
 
   - [`preApply`](#preapply) Manipulation before applying the strategy
   - [`apply`](#apply) Function to apply this strategy
-The return value is {scale: [scaleX, scaleY], viewport: {cc.Rect}},
-The target view can then apply these value to itself, it's preferred not to modify directly its private variables
   - [`postApply`](#postapply) Manipulation after applying the strategy
 
 
@@ -39,7 +37,7 @@ Manipulation before applying the strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1137](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1137) |
+| Defined in | [cocos2d/core/platform/CCView.js:1165](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCView.js#L1165) |
 
 ###### Parameters
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -54,7 +52,7 @@ The target view can then apply these value to itself, it's preferred not to modi
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1145](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1145) |
+| Defined in | [cocos2d/core/platform/CCView.js:1173](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCView.js#L1173) |
 
 ###### Parameters
 - `view` <a href="../classes/View.html" class="crosslink">View</a> 
@@ -67,7 +65,7 @@ Manipulation after applying the strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js:1158](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/platform/CCView.js#L1158) |
+| Defined in | [cocos2d/core/platform/CCView.js:1186](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCView.js#L1186) |
 
 ###### Parameters
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view

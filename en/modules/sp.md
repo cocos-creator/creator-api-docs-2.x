@@ -14,11 +14,9 @@ properties and constants of Spine are defined in this namespace
 
   - [Skeleton](../classes/Skeleton.md)
   - [SkeletonData](../classes/SkeletonData.md)
-  - [AnimationEventType](../classes/AnimationEventType.md)
 
 ### Enums
 
-  - [AnimationEventType](../enums/AnimationEventType.md)
 
 
 

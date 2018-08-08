@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Enum for blend factor
@@ -32,7 +31,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:76](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L76) |
+| Defined in | [cocos2d/core/value-types/CCTypes.js:77](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypes.js#L77) |
 
 
 
@@ -43,7 +42,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:82](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L82) |
+| Defined in | [cocos2d/core/value-types/CCTypes.js:83](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypes.js#L83) |
 
 
 
@@ -54,7 +53,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:88](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L88) |
+| Defined in | [cocos2d/core/value-types/CCTypes.js:89](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypes.js#L89) |
 
 
 
@@ -65,7 +64,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:94](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L94) |
+| Defined in | [cocos2d/core/value-types/CCTypes.js:95](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypes.js#L95) |
 
 
 
@@ -76,7 +75,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:100](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L100) |
+| Defined in | [cocos2d/core/value-types/CCTypes.js:101](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypes.js#L101) |
 
 
 
@@ -87,7 +86,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L106) |
+| Defined in | [cocos2d/core/value-types/CCTypes.js:107](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypes.js#L107) |
 
 
 
@@ -98,7 +97,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:112](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L112) |
+| Defined in | [cocos2d/core/value-types/CCTypes.js:113](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypes.js#L113) |
 
 
 
@@ -109,7 +108,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:118](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L118) |
+| Defined in | [cocos2d/core/value-types/CCTypes.js:119](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypes.js#L119) |
 
 
 
@@ -120,7 +119,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:124](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L124) |
+| Defined in | [cocos2d/core/value-types/CCTypes.js:125](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypes.js#L125) |
 
 
 
@@ -131,6 +130,6 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js:130](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/value-types/CCTypes.js#L130) |
+| Defined in | [cocos2d/core/value-types/CCTypes.js:131](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypes.js#L131) |
 
 

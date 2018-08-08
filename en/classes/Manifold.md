@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -13,13 +14,8 @@ Module: [cc](../modules/cc.md)
 ##### Properties
 
   - [`type`](#type) `Number` Manifold type :  0: e_circles, 1: e_faceA, 2: e_faceB
-  - [`localPoint`](#localpoint) `Vec2` The local point usage depends on the manifold type:
--e_circles: the local center of circleA
--e_faceA: the center of faceA
--e_faceB: the center of faceB
+  - [`localPoint`](#localpoint) `Vec2` -e_circles: the local center of circleA
   - [`localNormal`](#localnormal) `Vec2` -e_circles: not used
--e_faceA: the normal on polygonA
--e_faceB: the normal on polygonB
   - [`points`](#points) `[ManifoldPoint]` the points of contact.
 
 
@@ -39,7 +35,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:106](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L106) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:131](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L131) |
 
 
 
@@ -53,7 +49,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:115](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L115) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:140](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L140) |
 
 
 
@@ -66,7 +62,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:129](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L129) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:154](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L154) |
 
 
 
@@ -77,7 +73,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/ManifoldPoint.html" class="crosslink">[ManifoldPoint]</a> |
-| Defined in | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js:142](https:/github.com/cocos-creator/engine/blob/master/cocos2d/core/physics/CCPhysicsContact.js#L142) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:167](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L167) |
 
 
 

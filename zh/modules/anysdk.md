@@ -13,52 +13,22 @@ AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程�
 ### 类型
 
   - [AgentManager](../classes/AgentManager.md)
-  - [PluginProtocol](../classes/PluginProtocol.md)
-  - [ProtocolUser](../classes/ProtocolUser.md)
-  - [ProtocolIAP](../classes/ProtocolIAP.md)
-  - [ProtocolAnalytics](../classes/ProtocolAnalytics.md)
-  - [ProtocolShare](../classes/ProtocolShare.md)
-  - [ProtocolAds](../classes/ProtocolAds.md)
-  - [ProtocolSocial](../classes/ProtocolSocial.md)
-  - [ProtocolPush](../classes/ProtocolPush.md)
-  - [ProtocolCrash](../classes/ProtocolCrash.md)
-  - [ProtocolREC](../classes/ProtocolREC.md)
-  - [ProtocolAdTracking](../classes/ProtocolAdTracking.md)
-  - [ProtocolCustom](../classes/ProtocolCustom.md)
   - [PluginParam](../classes/PluginParam.md)
-  - [UserActionResultCode](../classes/UserActionResultCode.md)
-  - [ToolBarPlace](../classes/ToolBarPlace.md)
-  - [PayResultCode](../classes/PayResultCode.md)
-  - [AccountType](../classes/AccountType.md)
-  - [AccountOperate](../classes/AccountOperate.md)
-  - [AccountGender](../classes/AccountGender.md)
-  - [TaskType](../classes/TaskType.md)
-  - [ShareResultCode](../classes/ShareResultCode.md)
-  - [SocialRetCode](../classes/SocialRetCode.md)
-  - [AdsResultCode](../classes/AdsResultCode.md)
-  - [AdsPos](../classes/AdsPos.md)
-  - [AdsType](../classes/AdsType.md)
-  - [PushActionResultCode](../classes/PushActionResultCode.md)
-  - [CustomResultCode](../classes/CustomResultCode.md)
-  - [RECResultCode](../classes/RECResultCode.md)
+  - [PluginProtocol](../classes/PluginProtocol.md)
+  - [ProtocolAds](../classes/ProtocolAds.md)
+  - [ProtocolAdTracking](../classes/ProtocolAdTracking.md)
+  - [ProtocolAnalytics](../classes/ProtocolAnalytics.md)
+  - [ProtocolCrash](../classes/ProtocolCrash.md)
+  - [ProtocolCustom](../classes/ProtocolCustom.md)
+  - [ProtocolIAP](../classes/ProtocolIAP.md)
+  - [ProtocolPush](../classes/ProtocolPush.md)
+  - [ProtocolREC](../classes/ProtocolREC.md)
+  - [ProtocolShare](../classes/ProtocolShare.md)
+  - [ProtocolSocial](../classes/ProtocolSocial.md)
+  - [ProtocolUser](../classes/ProtocolUser.md)
 
 ### 枚举
 
-  - [UserActionResultCode](../enums/UserActionResultCode.md)
-  - [ToolBarPlace](../enums/ToolBarPlace.md)
-  - [PayResultCode](../enums/PayResultCode.md)
-  - [AccountType](../enums/AccountType.md)
-  - [AccountOperate](../enums/AccountOperate.md)
-  - [AccountGender](../enums/AccountGender.md)
-  - [TaskType](../enums/TaskType.md)
-  - [ShareResultCode](../enums/ShareResultCode.md)
-  - [SocialRetCode](../enums/SocialRetCode.md)
-  - [AdsResultCode](../enums/AdsResultCode.md)
-  - [AdsPos](../enums/AdsPos.md)
-  - [AdsType](../enums/AdsType.md)
-  - [PushActionResultCode](../enums/PushActionResultCode.md)
-  - [CustomResultCode](../enums/CustomResultCode.md)
-  - [RECResultCode](../enums/RECResultCode.md)
 
 
 ### 索引
@@ -84,7 +54,7 @@ AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程�
 | meta | description |
 |------|-------------|
 | 类型 | anysdk.AgentManager |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js:39](https:/github.com/cocos-creator/engine/blob/master/extensions/anysdk/jsb_anysdk.js#L39) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 

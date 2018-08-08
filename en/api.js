@@ -181,6 +181,12 @@ window.apimeta = {
       "description": "the type for mask."
     },
     {
+      "name": "NetworkType",
+      "namespace": "cc.NetworkType",
+      "module": "cc",
+      "description": "Network type enumeration"
+    },
+    {
       "name": "PageView.Direction",
       "namespace": "cc.PageView.Direction",
       "module": "cc",
@@ -221,6 +227,12 @@ window.apimeta = {
       "namespace": "anysdk.PayResultCode",
       "module": "anysdk",
       "description": "The callback of requesting reStringge"
+    },
+    {
+      "name": "Prefab.OptimizationPolicy",
+      "namespace": "cc.Prefab.OptimizationPolicy",
+      "module": "cc",
+      "description": "An enumeration used with the Prefab.optimizationPolicy\nto specify how to optimize the instantiate operation."
     },
     {
       "name": "ProgressBar.Mode",
@@ -367,6 +379,12 @@ window.apimeta = {
       "description": "WebView event type"
     },
     {
+      "name": "Widget.AlignMode",
+      "namespace": "cc.Widget.AlignMode",
+      "module": "cc",
+      "description": "Enum for Widget's alignment mode, indicating when the widget should refresh."
+    },
+    {
       "name": "WrapMode",
       "namespace": "cc.WrapMode",
       "module": "cc",
@@ -462,7 +480,7 @@ window.apimeta = {
       "name": "Asset",
       "namespace": "cc.Asset",
       "module": "cc",
-      "description": "Base class for handling assets used in Fireball. This class can be instantiate.\n\nYou may want to override:<br/>\n- createNode<br/>\n- cc.Object._serialize<br/>\n- cc.Object._deserialize<br/>"
+      "description": "Base class for handling assets used in Creator.<br/>\n\nYou may want to override:<br/>\n- createNode<br/>\n- getset functions of _nativeAsset<br/>\n- cc.Object._serialize<br/>\n- cc.Object._deserialize<br/>"
     },
     {
       "name": "AudioClip",
@@ -504,7 +522,7 @@ window.apimeta = {
       "name": "Button",
       "namespace": "cc.Button",
       "module": "cc",
-      "description": "Button has 4 Transition types\nWhen Button state changed:\n If Transition type is Button.Transition.NONE, Button will do nothing\n If Transition type is Button.Transition.COLOR, Button will change target's color\n If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite\n If Transition type is Button.Transition.SCALE, Button will change target node's scale\n\nButton will trigger 5 events:\n Button.EVENT_TOUCH_DOWN\n Button.EVENT_TOUCH_UP\n Button.EVENT_HOVER_IN\n Button.EVENT_HOVER_MOVE\n Button.EVENT_HOVER_OUT"
+      "description": "Button has 4 Transition types<br/>\nWhen Button state changed:<br/>\n If Transition type is Button.Transition.NONE, Button will do nothing<br/>\n If Transition type is Button.Transition.COLOR, Button will change target's color<br/>\n If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite<br/>\n If Transition type is Button.Transition.SCALE, Button will change target node's scale<br/>\n\nButton will trigger 5 events:<br/>\n Button.EVENT_TOUCH_DOWN<br/>\n Button.EVENT_TOUCH_UP<br/>\n Button.EVENT_HOVER_IN<br/>\n Button.EVENT_HOVER_MOVE<br/>\n Button.EVENT_HOVER_OUT<br/>"
     },
     {
       "name": "CallbacksInvoker",
@@ -745,6 +763,12 @@ window.apimeta = {
       "namespace": "cc.Joint",
       "module": "cc",
       "description": "Base class for joints to connect rigidbody."
+    },
+    {
+      "name": "JsonAsset",
+      "namespace": "cc.JsonAsset",
+      "module": "cc",
+      "description": "Class for JSON file. When the JSON file is loaded, this object is returned.\nThe parsed JSON object can be accessed through the `json` attribute in it.<br>\nIf you want to get the original JSON text, you should modify the extname to `.txt`\nso that it is loaded as a `TextAsset` instead of a `JsonAsset`."
     },
     {
       "name": "Label",
@@ -1068,7 +1092,7 @@ window.apimeta = {
       "name": "RawAsset",
       "namespace": "cc.RawAsset",
       "module": "cc",
-      "description": "The base class for registering asset types.\n\nYou may want to override:\n- createNode (static)"
+      "description": "The base class for registering asset types."
     },
     {
       "name": "Rect",
@@ -1224,7 +1248,7 @@ window.apimeta = {
       "name": "Texture2D",
       "namespace": "cc.Texture2D",
       "module": "cc",
-      "description": "<p>\nThis class allows to easily create OpenGL or Canvas 2D textures from images, text or raw data.                                    <br/>\nThe created cc.Texture2D object will always have power-of-two dimensions.                                                <br/>\nDepending on how you create the cc.Texture2D object, the actual image area of the texture might be smaller than the texture dimensions <br/>\n i.e. \"contentSize\" != (pixelsWide, pixelsHigh) and (maxS, maxT) != (1.0, 1.0).                                           <br/>\nBe aware that the content of the generated textures will be upside-down! </p>"
+      "description": "This class allows to easily create OpenGL or Canvas 2D textures from images, text or raw data.<br/>\nThe created cc.Texture2D object will always have power-of-two dimensions.<br/>\nDepending on how you create the cc.Texture2D object, the actual image area of the texture might be smaller than the texture dimensions <br/>\ni.e. \"contentSize\" != (pixelsWidth, pixelsHight) and (maxS, maxT) != (1.0, 1.0).<br/>\nBe aware that the content of the generated textures will be upside-down!"
     },
     {
       "name": "TiledLayer",

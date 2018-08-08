@@ -23,7 +23,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:61](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L61) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:62](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/particle/CCParticleSystem.js#L62) |
 
 
 
@@ -34,7 +34,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:70](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L70) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:71](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/particle/CCParticleSystem.js#L71) |
 
 
 
@@ -45,6 +45,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js:80](https:/github.com/cocos-creator/engine/blob/master/cocos2d/particle/CCParticleSystem.js#L80) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:81](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/particle/CCParticleSystem.js#L81) |
 
 
