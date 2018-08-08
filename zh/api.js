@@ -67,12 +67,6 @@ window.apimeta = {
       "description": "自定义系统回调"
     },
     {
-      "name": "DebugMode",
-      "namespace": "cc.DebugMode",
-      "module": "cc",
-      "description": "调试模式"
-    },
-    {
       "name": "DrawBits",
       "namespace": "cc.DrawBits",
       "module": "cc",
@@ -191,12 +185,6 @@ window.apimeta = {
       "namespace": "cc.NetworkType",
       "module": "cc",
       "description": "网络类型枚举"
-    },
-    {
-      "name": "Node.EventType",
-      "namespace": "cc.Node.EventType",
-      "module": "cc",
-      "description": "Node 支持的事件类型"
     },
     {
       "name": "PageView.Direction",
@@ -463,6 +451,12 @@ window.apimeta = {
       "namespace": "cc.Animation",
       "module": "cc",
       "description": "Animation 组件用于播放动画。\n\nAnimation 提供了一系列可注册的事件：\n - play : 开始播放时\n - stop : 停止播放时\n - pause : 暂停播放时\n - resume : 恢复播放时\n - lastframe : 假如动画循环次数大于 1，当动画播放到最后一帧时\n - finished : 动画播放完成时"
+    },
+    {
+      "name": "Animation.EventType",
+      "namespace": "cc.Animation.EventType",
+      "module": "cc",
+      "description": "Animation 支持的事件类型"
     },
     {
       "name": "AnimationClip",
@@ -816,7 +810,13 @@ window.apimeta = {
       "name": "Node",
       "namespace": "cc.Node",
       "module": "cc",
-      "description": "Cocos Creator 场景中的所有节点类。<br/>\n支持的节点事件，请参阅 <a href=\"../enums/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>。"
+      "description": "Cocos Creator 场景中的所有节点类。<br/>\n支持的节点事件，请参阅 <a href=\"../classes/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>。"
+    },
+    {
+      "name": "Node.EventType",
+      "namespace": "cc.Node.EventType",
+      "module": "cc",
+      "description": "Node 支持的事件类型"
     },
     {
       "name": "NodePool",
@@ -1188,7 +1188,7 @@ window.apimeta = {
       "name": "SpriteFrame",
       "namespace": "cc.SpriteFrame",
       "module": "cc",
-      "description": "一个 SpriteFrame 包含：<br/>\n - 纹理：会被 Sprite 使用的 Texture2D 对象。<br/>\n - 矩形：在纹理中的矩形区域。"
+      "description": "一个 SpriteFrame 包含：<br/>\n - 纹理：会被渲染组件使用的 Texture2D 对象。<br/>\n - 矩形：在纹理中的矩形区域。"
     },
     {
       "name": "SystemEvent",
@@ -1248,7 +1248,7 @@ window.apimeta = {
       "name": "TiledTile",
       "namespace": "cc.TiledTile",
       "module": "cc",
-      "description": "TiledTile 可以单独对某一个地图快进行操作。\n他会将节点的旋转，缩放，平移操作应用在这个地图块上，并可以通过更换当前地图块的 gid 来更换地图块的显示样式。"
+      "description": "TiledTile 可以单独对某一个地图块进行操作。\n他会将节点的旋转，缩放，平移操作应用在这个地图块上，并可以通过更换当前地图块的 gid 来更换地图块的显示样式。"
     },
     {
       "name": "Toggle",
@@ -1363,6 +1363,12 @@ window.apimeta = {
       "namespace": "cc.Acceleration",
       "module": "cc",
       "description": "设备重力传感器传递的各个轴的数据。"
+    },
+    {
+      "name": "game",
+      "namespace": "cc.game",
+      "module": "cc",
+      "description": "包含游戏主体信息并负责驱动游戏的游戏对象。"
     },
     {
       "name": "loader",

@@ -24,7 +24,7 @@ LoadingItems 队列中的加载项状态，状态的值可能是 LoadingItems.It
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/load-pipeline/loading-items.js:273](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/load-pipeline/loading-items.js#L273) |
+| 定义于 | [cocos2d/core/load-pipeline/loading-items.js:273](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/loading-items.js#L273) |
 
 
 
@@ -35,7 +35,7 @@ LoadingItems 队列中的加载项状态，状态的值可能是 LoadingItems.It
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/load-pipeline/loading-items.js:277](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/load-pipeline/loading-items.js#L277) |
+| 定义于 | [cocos2d/core/load-pipeline/loading-items.js:277](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/loading-items.js#L277) |
 
 
 
@@ -46,6 +46,6 @@ LoadingItems 队列中的加载项状态，状态的值可能是 LoadingItems.It
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/load-pipeline/loading-items.js:281](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/core/load-pipeline/loading-items.js#L281) |
+| 定义于 | [cocos2d/core/load-pipeline/loading-items.js:281](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/loading-items.js#L281) |
 
 

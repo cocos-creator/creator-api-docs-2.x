@@ -53,7 +53,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
 | meta | description |
 |------|-------------|
 | Type | anysdk.AgentManager |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/extensions/anysdk/jsb_anysdk.js#L40) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 

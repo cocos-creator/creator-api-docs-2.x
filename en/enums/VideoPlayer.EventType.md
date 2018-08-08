@@ -27,7 +27,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:37](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/videoplayer/CCVideoPlayer.js#L37) |
+| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:37](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/videoplayer/CCVideoPlayer.js#L37) |
 
 
 
@@ -38,7 +38,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:42](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/videoplayer/CCVideoPlayer.js#L42) |
+| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:42](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/videoplayer/CCVideoPlayer.js#L42) |
 
 
 
@@ -49,7 +49,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:47](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/videoplayer/CCVideoPlayer.js#L47) |
+| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:47](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/videoplayer/CCVideoPlayer.js#L47) |
 
 
 
@@ -60,7 +60,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:52](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/videoplayer/CCVideoPlayer.js#L52) |
+| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:52](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/videoplayer/CCVideoPlayer.js#L52) |
 
 
 
@@ -71,7 +71,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:57](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/videoplayer/CCVideoPlayer.js#L57) |
+| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:57](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/videoplayer/CCVideoPlayer.js#L57) |
 
 
 
@@ -82,7 +82,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:62](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/videoplayer/CCVideoPlayer.js#L62) |
+| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:62](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/videoplayer/CCVideoPlayer.js#L62) |
 
 
 
@@ -93,6 +93,6 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:67](https://github.com/cocos-creator/engine/blob/1f39837ac17a406b42d5a5d1a52a0afa4d53a7ec/cocos2d/videoplayer/CCVideoPlayer.js#L67) |
+| Defined in | [cocos2d/videoplayer/CCVideoPlayer.js:67](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/videoplayer/CCVideoPlayer.js#L67) |
 
 
