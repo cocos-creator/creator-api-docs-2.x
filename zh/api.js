@@ -43,12 +43,6 @@ window.apimeta = {
       "description": "骨骼动画事件类型。"
     },
     {
-      "name": "BlendFactor",
-      "namespace": "cc.BlendFactor",
-      "module": "cc",
-      "description": "混合因子\n可参考: http://www.andersriggelsen.dk/glblendfunc.php"
-    },
-    {
       "name": "Button.Transition",
       "namespace": "cc.Button.Transition",
       "module": "cc",
@@ -101,18 +95,6 @@ window.apimeta = {
       "namespace": "cc.Graphics.LineJoin",
       "module": "cc",
       "description": "线段拐角属性"
-    },
-    {
-      "name": "ImageFormat",
-      "namespace": "cc.ImageFormat",
-      "module": "cc",
-      "description": "Image formats"
-    },
-    {
-      "name": "KEY",
-      "namespace": "cc.KEY",
-      "module": "cc",
-      "description": "键盘事件的按键值"
     },
     {
       "name": "Label.HorizontalAlign",
@@ -319,12 +301,6 @@ window.apimeta = {
       "description": "统计系统的任务类型"
     },
     {
-      "name": "TextAlignment",
-      "namespace": "cc.TextAlignment",
-      "module": "cc",
-      "description": ""
-    },
-    {
       "name": "Texture2D.Filter",
       "namespace": "cc.Texture2D.Filter",
       "module": "cc",
@@ -403,10 +379,40 @@ window.apimeta = {
       "description": "声音播放状态"
     },
     {
+      "name": "debug.DebugMode",
+      "namespace": "cc.debug.DebugMode",
+      "module": "cc",
+      "description": "调试模式"
+    },
+    {
       "name": "macro",
       "namespace": "cc.macro",
       "module": "cc",
       "description": "Predefined constants"
+    },
+    {
+      "name": "macro.BlendFactor",
+      "namespace": "cc.macro.BlendFactor",
+      "module": "cc",
+      "description": "混合因子\n可参考: http://www.andersriggelsen.dk/glblendfunc.php"
+    },
+    {
+      "name": "macro.ImageFormat",
+      "namespace": "cc.macro.ImageFormat",
+      "module": "cc",
+      "description": "Image formats"
+    },
+    {
+      "name": "macro.KEY",
+      "namespace": "cc.macro.KEY",
+      "module": "cc",
+      "description": "键盘事件的按键值"
+    },
+    {
+      "name": "macro.TextAlignment",
+      "namespace": "cc.macro.TextAlignment",
+      "module": "cc",
+      "description": ""
     }
   ],
   "classes": [
@@ -709,12 +715,6 @@ window.apimeta = {
       "namespace": "cc.Font",
       "module": "cc",
       "description": "字体资源类。"
-    },
-    {
-      "name": "Game",
-      "namespace": "cc.Game",
-      "module": "cc",
-      "description": "cc.game 是 Game 的实例，用来驱动整个游戏。"
     },
     {
       "name": "Graphics",
@@ -1365,6 +1365,12 @@ window.apimeta = {
       "description": "设备重力传感器传递的各个轴的数据。"
     },
     {
+      "name": "debug",
+      "namespace": "cc.debug",
+      "module": "cc",
+      "description": "包含游戏主体信息并负责驱动游戏的游戏对象。"
+    },
+    {
       "name": "game",
       "namespace": "cc.game",
       "module": "cc",
@@ -1387,6 +1393,12 @@ window.apimeta = {
       "namespace": "cc.path",
       "module": "cc",
       "description": "用于处理文件与目录的路径的模块"
+    },
+    {
+      "name": "renderer",
+      "namespace": "cc.renderer",
+      "module": "cc",
+      "description": "提供基础渲染接口的渲染器对象，渲染层的基础接口将逐步开放给用户"
     },
     {
       "name": "screen",
