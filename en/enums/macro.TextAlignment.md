@@ -1,4 +1,4 @@
-### `TextAlignment` Enum
+### `macro.TextAlignment` Enum
 
 
 
@@ -24,7 +24,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1542](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/CCMacro.js#L1542) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1542](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/CCMacro.js#L1542) |
 
 
 
@@ -35,7 +35,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1546](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/CCMacro.js#L1546) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1546](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/CCMacro.js#L1546) |
 
 
 
@@ -46,6 +46,6 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1550](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/CCMacro.js#L1550) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1550](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/CCMacro.js#L1550) |
 
 

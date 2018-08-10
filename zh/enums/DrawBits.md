@@ -24,7 +24,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:654](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/physics/CCPhysicsManager.js#L654) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:654](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/physics/CCPhysicsManager.js#L654) |
 
 
 
@@ -35,7 +35,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:661](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/physics/CCPhysicsManager.js#L661) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:661](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/physics/CCPhysicsManager.js#L661) |
 
 
 
@@ -46,6 +46,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:668](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/physics/CCPhysicsManager.js#L668) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:668](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/physics/CCPhysicsManager.js#L668) |
 
 

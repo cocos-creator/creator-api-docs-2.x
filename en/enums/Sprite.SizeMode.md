@@ -25,7 +25,7 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:108](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/components/CCSprite.js#L108) |
+| Defined in | [cocos2d/core/components/CCSprite.js:108](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/components/CCSprite.js#L108) |
 
 
 
@@ -36,7 +36,7 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:114](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/components/CCSprite.js#L114) |
+| Defined in | [cocos2d/core/components/CCSprite.js:114](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/components/CCSprite.js#L114) |
 
 
 
@@ -47,7 +47,7 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:120](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/components/CCSprite.js#L120) |
+| Defined in | [cocos2d/core/components/CCSprite.js:120](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/components/CCSprite.js#L120) |
 
 
 
@@ -58,7 +58,7 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:129](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/components/CCSprite.js#L129) |
+| Defined in | [cocos2d/core/components/CCSprite.js:129](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/components/CCSprite.js#L129) |
 
 
 
@@ -69,6 +69,6 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:135](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/components/CCSprite.js#L135) |
+| Defined in | [cocos2d/core/components/CCSprite.js:135](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/components/CCSprite.js#L135) |
 
 

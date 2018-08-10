@@ -121,7 +121,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCDirector.js:988](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L988) |
+| Defined in | [cocos2d/core/CCDirector.js:980](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L980) |
 | Deprecated | since v2.0 |
 
 
@@ -133,7 +133,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1004](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1004) |
+| Defined in | [cocos2d/core/CCDirector.js:996](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L996) |
 
 
 
@@ -144,7 +144,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1019](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1019) |
+| Defined in | [cocos2d/core/CCDirector.js:1011](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1011) |
 
 
 
@@ -155,7 +155,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1034](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1034) |
+| Defined in | [cocos2d/core/CCDirector.js:1026](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1026) |
 
 
 
@@ -166,7 +166,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1048](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1048) |
+| Defined in | [cocos2d/core/CCDirector.js:1040](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1040) |
 
 
 
@@ -177,7 +177,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1062](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1062) |
+| Defined in | [cocos2d/core/CCDirector.js:1054](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1054) |
 
 
 
@@ -188,7 +188,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1071](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1071) |
+| Defined in | [cocos2d/core/CCDirector.js:1063](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1063) |
 | Deprecated | since v2.0 |
 
 
@@ -200,7 +200,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1081](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1081) |
+| Defined in | [cocos2d/core/CCDirector.js:1073](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1073) |
 | Deprecated | since v2.0 |
 
 
@@ -212,7 +212,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1096](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1096) |
+| Defined in | [cocos2d/core/CCDirector.js:1088](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1088) |
 
 
 
@@ -223,7 +223,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1110](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1110) |
+| Defined in | [cocos2d/core/CCDirector.js:1102](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1102) |
 
 
 
@@ -234,7 +234,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1121](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1121) |
+| Defined in | [cocos2d/core/CCDirector.js:1113](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1113) |
 | Deprecated | since v2.0 |
 
 
@@ -246,7 +246,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1131](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1131) |
+| Defined in | [cocos2d/core/CCDirector.js:1123](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1123) |
 | Deprecated | since v2.0 |
 
 
@@ -258,7 +258,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1141](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1141) |
+| Defined in | [cocos2d/core/CCDirector.js:1133](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1133) |
 | Deprecated | since v2.0 |
 
 
@@ -270,7 +270,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1151](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L1151) |
+| Defined in | [cocos2d/core/CCDirector.js:1143](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L1143) |
 | Deprecated | since v2.0 |
 
 
@@ -291,7 +291,7 @@ Implementation can be found in CCDirectorWebGL.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/CCDirector.js:230](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L230) |
+| Defined in | [cocos2d/core/CCDirector.js:230](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L230) |
 | Deprecated | since v2.0 |
 
 ###### Parameters
@@ -307,7 +307,7 @@ Implementation can be found in CCDirectorWebGL.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/CCDirector.js:252](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L252) |
+| Defined in | [cocos2d/core/CCDirector.js:252](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L252) |
 | Deprecated | since v2.0 |
 
 ###### Parameters
@@ -320,7 +320,7 @@ End the life of director in the next frame
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:281](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L281) |
+| Defined in | [cocos2d/core/CCDirector.js:281](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L281) |
 
 
 
@@ -332,7 +332,7 @@ It takes into account any possible rotation (device orientation) of the window.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/CCDirector.js:289](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L289) |
+| Defined in | [cocos2d/core/CCDirector.js:289](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L289) |
 | Deprecated | since v2.0 |
 
 
@@ -347,7 +347,7 @@ On Mac winSize and winSizeInPixels return the same value.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/CCDirector.js:302](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L302) |
+| Defined in | [cocos2d/core/CCDirector.js:302](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L302) |
 | Deprecated | since v2.0 |
 
 
@@ -361,7 +361,7 @@ please use Game.pause
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:319](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L319) |
+| Defined in | [cocos2d/core/CCDirector.js:319](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L319) |
 
 
 
@@ -372,7 +372,7 @@ The new scene will be launched immediately.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:403](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L403) |
+| Defined in | [cocos2d/core/CCDirector.js:403](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L403) |
 
 ###### Parameters
 - `scene` <a href="../classes/Scene.html" class="crosslink">Scene</a> The need run scene.
@@ -387,7 +387,7 @@ The new scene will be launched at the end of the current frame.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:490](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L490) |
+| Defined in | [cocos2d/core/CCDirector.js:482](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L482) |
 
 ###### Parameters
 - `scene` <a href="../classes/Scene.html" class="crosslink">Scene</a> The need run scene.
@@ -402,7 +402,7 @@ Loads the scene by its name.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/CCDirector.js:547](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L547) |
+| Defined in | [cocos2d/core/CCDirector.js:539](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L539) |
 
 ###### Parameters
 - `sceneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the scene to load.
@@ -418,7 +418,7 @@ yet finished, the scene will be launched after loaded automatically.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:575](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L575) |
+| Defined in | [cocos2d/core/CCDirector.js:567](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L567) |
 
 ###### Parameters
 - `sceneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the scene to preload.
@@ -436,7 +436,7 @@ Loads the scene by its uuid.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:621](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L621) |
+| Defined in | [cocos2d/core/CCDirector.js:613](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L613) |
 
 ###### Parameters
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the uuid of the scene asset to load
@@ -452,7 +452,7 @@ Resume game logic execution after pause, if the current scene is not paused, not
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:684](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L684) |
+| Defined in | [cocos2d/core/CCDirector.js:676](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L676) |
 
 
 
@@ -463,7 +463,7 @@ Implementation can be found in CCDirectorCanvas.js/CCDirectorWebGL.js
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:703](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L703) |
+| Defined in | [cocos2d/core/CCDirector.js:695](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L695) |
 | Deprecated | since v2.0 |
 
 ###### Parameters
@@ -477,7 +477,7 @@ Set color for clear screen.<br/>
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:719](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L719) |
+| Defined in | [cocos2d/core/CCDirector.js:711](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L711) |
 | Deprecated | since v2.0 |
 
 ###### Parameters
@@ -491,7 +491,7 @@ Returns current logic Scene.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Scene.html" class="crosslink">Scene</a> 
-| Defined in | [cocos2d/core/CCDirector.js:737](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L737) |
+| Defined in | [cocos2d/core/CCDirector.js:729](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L729) |
 | Deprecated | since v2.0 |
 
 
@@ -503,7 +503,7 @@ Returns current logic Scene.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Scene.html" class="crosslink">Scene</a> 
-| Defined in | [cocos2d/core/CCDirector.js:749](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L749) |
+| Defined in | [cocos2d/core/CCDirector.js:741](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L741) |
 
 
 ##### Examples
@@ -520,7 +520,7 @@ Returns the FPS value. Please use Game.setFrameRate to control animation interva
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/CCDirector.js:762](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L762) |
+| Defined in | [cocos2d/core/CCDirector.js:754](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L754) |
 | Deprecated | since v2.0 |
 
 
@@ -532,7 +532,7 @@ To control the game's frame rate overall, please use Game.setFrameRate
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:773](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L773) |
+| Defined in | [cocos2d/core/CCDirector.js:765](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L765) |
 | Deprecated | since v2.0 |
 
 ###### Parameters
@@ -546,7 +546,7 @@ Returns the delta time since last frame.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/CCDirector.js:784](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L784) |
+| Defined in | [cocos2d/core/CCDirector.js:776](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L776) |
 
 
 
@@ -557,7 +557,7 @@ Returns how many frames were called since the director started.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/CCDirector.js:794](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L794) |
+| Defined in | [cocos2d/core/CCDirector.js:786](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L786) |
 
 
 
@@ -568,7 +568,7 @@ Returns whether or not the Director is paused.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/CCDirector.js:804](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L804) |
+| Defined in | [cocos2d/core/CCDirector.js:796](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L796) |
 
 
 
@@ -579,7 +579,7 @@ Returns the cc.Scheduler associated with this director.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Scheduler.html" class="crosslink">Scheduler</a> 
-| Defined in | [cocos2d/core/CCDirector.js:814](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L814) |
+| Defined in | [cocos2d/core/CCDirector.js:806](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L806) |
 
 
 
@@ -589,7 +589,7 @@ Sets the cc.Scheduler associated with this director.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:824](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L824) |
+| Defined in | [cocos2d/core/CCDirector.js:816](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L816) |
 
 ###### Parameters
 - `scheduler` <a href="../classes/Scheduler.html" class="crosslink">Scheduler</a> 
@@ -602,7 +602,7 @@ Returns the cc.ActionManager associated with this director.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ActionManager.html" class="crosslink">ActionManager</a> 
-| Defined in | [cocos2d/core/CCDirector.js:836](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L836) |
+| Defined in | [cocos2d/core/CCDirector.js:828](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L828) |
 
 
 
@@ -612,7 +612,7 @@ Sets the cc.ActionManager associated with this director.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCDirector.js:845](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L845) |
+| Defined in | [cocos2d/core/CCDirector.js:837](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L837) |
 
 ###### Parameters
 - `actionManager` <a href="../classes/ActionManager.html" class="crosslink">ActionManager</a> 
@@ -625,7 +625,7 @@ Returns the cc.CollisionManager associated with this director.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/CollisionManager.html" class="crosslink">CollisionManager</a> 
-| Defined in | [cocos2d/core/CCDirector.js:871](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L871) |
+| Defined in | [cocos2d/core/CCDirector.js:863](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L863) |
 
 
 
@@ -636,7 +636,7 @@ Returns the cc.PhysicsManager associated with this director.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/PhysicsManager.html" class="crosslink">PhysicsManager</a> 
-| Defined in | [cocos2d/core/CCDirector.js:881](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCDirector.js#L881) |
+| Defined in | [cocos2d/core/CCDirector.js:873](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCDirector.js#L873) |
 
 
 
@@ -647,7 +647,7 @@ Checks whether the EventTarget object has any callback registered for a specific
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L68) |
+| Defined in | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L68) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -661,17 +661,17 @@ This type of event should be triggered via `emit`.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [cocos2d/core/event/event-target.js:76](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L76) |
+| Defined in | [cocos2d/core/event/event-target.js:76](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L76) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
                              The callback is ignored if it is a duplicate (the callbacks are unique).
-	- `arg1` <a href="../classes/Event.html" class="crosslink">Event</a> arg1
-	- `arg2` <a href="../classes/Event.html" class="crosslink">Event</a> arg2
-	- `arg3` <a href="../classes/Event.html" class="crosslink">Event</a> arg3
-	- `arg4` <a href="../classes/Event.html" class="crosslink">Event</a> arg4
-	- `arg5` <a href="../classes/Event.html" class="crosslink">Event</a> arg5
+	- `arg1` Any arg1
+	- `arg2` Any arg2
+	- `arg3` Any arg3
+	- `arg4` Any arg4
+	- `arg5` Any arg5
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
 
 ##### Examples
@@ -689,7 +689,7 @@ if only type is passed as parameter, all listeners registered with that type wil
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:117](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L117) |
+| Defined in | [cocos2d/core/event/event-target.js:117](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L117) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -718,7 +718,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:151](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L151) |
+| Defined in | [cocos2d/core/event/event-target.js:151](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L151) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -731,17 +731,17 @@ the callback will remove itself after the first time it is triggered.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:164](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L164) |
+| Defined in | [cocos2d/core/event/event-target.js:164](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L164) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
                              The callback is ignored if it is a duplicate (the callbacks are unique).
-	- `arg1` <a href="../classes/Event.html" class="crosslink">Event</a> arg1
-	- `arg2` <a href="../classes/Event.html" class="crosslink">Event</a> arg2
-	- `arg3` <a href="../classes/Event.html" class="crosslink">Event</a> arg3
-	- `arg4` <a href="../classes/Event.html" class="crosslink">Event</a> arg4
-	- `arg5` <a href="../classes/Event.html" class="crosslink">Event</a> arg5
+	- `arg1` Any arg1
+	- `arg2` Any arg2
+	- `arg3` Any arg3
+	- `arg4` Any arg4
+	- `arg5` Any arg5
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
 
 ##### Examples
@@ -758,7 +758,7 @@ Trigger an event directly with the event name and necessary arguments.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:201](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L201) |
+| Defined in | [cocos2d/core/event/event-target.js:201](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L201) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
@@ -781,7 +781,7 @@ Send an event with the event object.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:221](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L221) |
+| Defined in | [cocos2d/core/event/event-target.js:221](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L221) |
 
 ###### Parameters
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  

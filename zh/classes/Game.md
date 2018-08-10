@@ -25,6 +25,7 @@
   - [`canvas`](#canvas) `HTMLCanvasElement` 游戏的画布。
   - [`renderType`](#rendertype) `Number` 游戏的渲染器类型。
   - [`config`](#config) `Object` "debugMode" 各种设置选项的意义。
+  - [`game`](#game) `Game` 
 
 
 
@@ -40,6 +41,10 @@
   - [`restart`](#restart) 重新开始游戏
   - [`end`](#end) 退出游戏
   - [`prepare`](#prepare) 准备引擎，请不要直接调用这个函数。
+  - [`run`](#run) 运行游戏，并且指定引擎配置和 onStart 的回调。
+  - [`addPersistRootNode`](#addpersistrootnode) 声明常驻根节点，该节点不会被在场景切换中被销毁。
+  - [`removePersistRootNode`](#removepersistrootnode) 取消常驻根节点。
+  - [`isPersistRootNode`](#ispersistrootnode) 检查节点是否是常驻根节点。
   - [`hasEventListener`](#haseventlistener) 检查事件目标对象是否有为特定类型的事件注册的回调。
   - [`on`](#on) 注册事件目标的特定事件类型回调。
   - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
@@ -65,7 +70,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/CCGame.js:48](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L48) |
+| 定义于 | [cocos2d/core/CCGame.js:48](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L48) |
 
 ##### 示例
 
@@ -89,7 +94,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/CCGame.js:65](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L65) |
+| 定义于 | [cocos2d/core/CCGame.js:65](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L65) |
 
 
 
@@ -100,7 +105,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/CCGame.js:78](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L78) |
+| 定义于 | [cocos2d/core/CCGame.js:78](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L78) |
 
 
 
@@ -112,7 +117,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/CCGame.js:86](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L86) |
+| 定义于 | [cocos2d/core/CCGame.js:86](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L86) |
 
 
 
@@ -123,7 +128,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCGame.js:97](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L97) |
+| 定义于 | [cocos2d/core/CCGame.js:97](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L97) |
 
 
 
@@ -134,7 +139,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCGame.js:104](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L104) |
+| 定义于 | [cocos2d/core/CCGame.js:104](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L104) |
 
 
 
@@ -145,7 +150,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCGame.js:111](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L111) |
+| 定义于 | [cocos2d/core/CCGame.js:111](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L111) |
 
 
 
@@ -156,7 +161,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/CCGame.js:139](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L139) |
+| 定义于 | [cocos2d/core/CCGame.js:138](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L138) |
 
 
 
@@ -167,7 +172,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 类型 | HTMLDivElement |
-| 定义于 | [cocos2d/core/CCGame.js:146](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L146) |
+| 定义于 | [cocos2d/core/CCGame.js:145](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L145) |
 
 
 
@@ -178,7 +183,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 类型 | HTMLCanvasElement |
-| 定义于 | [cocos2d/core/CCGame.js:153](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L153) |
+| 定义于 | [cocos2d/core/CCGame.js:152](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L152) |
 
 
 
@@ -189,7 +194,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCGame.js:161](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L161) |
+| 定义于 | [cocos2d/core/CCGame.js:160](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L160) |
 
 
 
@@ -226,7 +231,18 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/CCGame.js:169](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L169) |
+| 定义于 | [cocos2d/core/CCGame.js:168](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L168) |
+
+
+
+##### game
+
+> 
+
+| meta | description |
+|------|-------------|
+| 类型 | Game |
+| 定义于 | [cocos2d/core/CCGame.js:844](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L844) |
 
 
 
@@ -243,7 +259,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:231](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L231) |
+| 定义于 | [cocos2d/core/CCGame.js:230](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L230) |
 
 
 
@@ -253,7 +269,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:242](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L242) |
+| 定义于 | [cocos2d/core/CCGame.js:241](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L241) |
 
 ###### 参数列表
 - `frameRate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -266,7 +282,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/CCGame.js:259](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L259) |
+| 定义于 | [cocos2d/core/CCGame.js:258](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L258) |
 
 
 
@@ -276,7 +292,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:269](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L269) |
+| 定义于 | [cocos2d/core/CCGame.js:268](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L268) |
 
 
 
@@ -286,7 +302,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:278](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L278) |
+| 定义于 | [cocos2d/core/CCGame.js:277](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L277) |
 
 
 
@@ -296,7 +312,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:298](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L298) |
+| 定义于 | [cocos2d/core/CCGame.js:297](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L297) |
 
 
 
@@ -307,7 +323,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/CCGame.js:315](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L315) |
+| 定义于 | [cocos2d/core/CCGame.js:314](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L314) |
 
 
 
@@ -317,7 +333,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:325](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L325) |
+| 定义于 | [cocos2d/core/CCGame.js:324](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L324) |
 
 
 
@@ -327,7 +343,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:352](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L352) |
+| 定义于 | [cocos2d/core/CCGame.js:351](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L351) |
 
 
 
@@ -337,10 +353,61 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCGame.js:415](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/CCGame.js#L415) |
+| 定义于 | [cocos2d/core/CCGame.js:414](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L414) |
 
 ###### 参数列表
 - `cb` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+
+
+##### run
+
+运行游戏，并且指定引擎配置和 onStart 的回调。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/CCGame.js:441](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L441) |
+
+###### 参数列表
+- `config` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Pass configuration object or onStart function
+- `onStart` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> function to be executed after game initialized
+
+
+##### addPersistRootNode
+
+声明常驻根节点，该节点不会被在场景切换中被销毁。<br/>
+目标节点必须位于为层级的根节点，否则无效。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/CCGame.js:455](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L455) |
+
+###### 参数列表
+- `node` <a href="../classes/Node.html" class="crosslink">Node</a> The node to be made persistent
+
+
+##### removePersistRootNode
+
+取消常驻根节点。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/CCGame.js:491](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L491) |
+
+###### 参数列表
+- `node` <a href="../classes/Node.html" class="crosslink">Node</a> The node to be removed from persistent node list
+
+
+##### isPersistRootNode
+
+检查节点是否是常驻根节点。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/core/CCGame.js:505](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/CCGame.js#L505) |
+
+###### 参数列表
+- `node` <a href="../classes/Node.html" class="crosslink">Node</a> The node to be checked
 
 
 ##### hasEventListener
@@ -350,7 +417,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L68) |
+| 定义于 | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L68) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -363,17 +430,17 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:76](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L76) |
+| 定义于 | [cocos2d/core/event/event-target.js:76](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L76) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
                              The callback is ignored if it is a duplicate (the callbacks are unique).
-	- `arg1` <a href="../classes/Event.html" class="crosslink">Event</a> arg1
-	- `arg2` <a href="../classes/Event.html" class="crosslink">Event</a> arg2
-	- `arg3` <a href="../classes/Event.html" class="crosslink">Event</a> arg3
-	- `arg4` <a href="../classes/Event.html" class="crosslink">Event</a> arg4
-	- `arg5` <a href="../classes/Event.html" class="crosslink">Event</a> arg5
+	- `arg1` Any arg1
+	- `arg2` Any arg2
+	- `arg3` Any arg3
+	- `arg4` Any arg4
+	- `arg5` Any arg5
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
 
 ##### 示例
@@ -390,7 +457,7 @@ eventTarget.on('fire', function (event) {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:117](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L117) |
+| 定义于 | [cocos2d/core/event/event-target.js:117](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L117) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -418,7 +485,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:151](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L151) |
+| 定义于 | [cocos2d/core/event/event-target.js:151](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L151) |
 
 ###### 参数列表
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -430,17 +497,17 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:164](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L164) |
+| 定义于 | [cocos2d/core/event/event-target.js:164](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L164) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
                              The callback is ignored if it is a duplicate (the callbacks are unique).
-	- `arg1` <a href="../classes/Event.html" class="crosslink">Event</a> arg1
-	- `arg2` <a href="../classes/Event.html" class="crosslink">Event</a> arg2
-	- `arg3` <a href="../classes/Event.html" class="crosslink">Event</a> arg3
-	- `arg4` <a href="../classes/Event.html" class="crosslink">Event</a> arg4
-	- `arg5` <a href="../classes/Event.html" class="crosslink">Event</a> arg5
+	- `arg1` Any arg1
+	- `arg2` Any arg2
+	- `arg3` Any arg3
+	- `arg4` Any arg4
+	- `arg5` Any arg5
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
 
 ##### 示例
@@ -457,7 +524,7 @@ eventTarget.once('fire', function (event) {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:201](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L201) |
+| 定义于 | [cocos2d/core/event/event-target.js:201](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L201) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
@@ -480,7 +547,7 @@ eventTarget.emit('fire', message, emitter);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:221](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L221) |
+| 定义于 | [cocos2d/core/event/event-target.js:221](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L221) |
 
 ###### 参数列表
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  

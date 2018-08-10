@@ -26,7 +26,7 @@ then immediately disables the Widget.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCWidget.js:37](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/components/CCWidget.js#L37) |
+| Defined in | [cocos2d/core/components/CCWidget.js:37](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/components/CCWidget.js#L37) |
 
 
 
@@ -37,7 +37,7 @@ then immediately disables the Widget.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCWidget.js:48](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/components/CCWidget.js#L48) |
+| Defined in | [cocos2d/core/components/CCWidget.js:48](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/components/CCWidget.js#L48) |
 
 
 
@@ -48,6 +48,6 @@ then immediately disables the Widget.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCWidget.js:53](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/components/CCWidget.js#L53) |
+| Defined in | [cocos2d/core/components/CCWidget.js:53](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/components/CCWidget.js#L53) |
 
 

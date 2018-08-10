@@ -43,12 +43,6 @@ window.apimeta = {
       "description": "The event type of spine skeleton animation."
     },
     {
-      "name": "BlendFactor",
-      "namespace": "cc.BlendFactor",
-      "module": "cc",
-      "description": "Enum for blend factor\nRefer to: http://www.andersriggelsen.dk/glblendfunc.php"
-    },
-    {
       "name": "Button.Transition",
       "namespace": "cc.Button.Transition",
       "module": "cc",
@@ -101,18 +95,6 @@ window.apimeta = {
       "namespace": "cc.Graphics.LineJoin",
       "module": "cc",
       "description": "Enum for LineJoin."
-    },
-    {
-      "name": "ImageFormat",
-      "namespace": "cc.ImageFormat",
-      "module": "cc",
-      "description": "Image formats"
-    },
-    {
-      "name": "KEY",
-      "namespace": "cc.KEY",
-      "module": "cc",
-      "description": "Key map for keyboard event"
     },
     {
       "name": "Label.HorizontalAlign",
@@ -319,12 +301,6 @@ window.apimeta = {
       "description": "The enum of task type"
     },
     {
-      "name": "TextAlignment",
-      "namespace": "cc.TextAlignment",
-      "module": "cc",
-      "description": ""
-    },
-    {
       "name": "Texture2D.Filter",
       "namespace": "cc.Texture2D.Filter",
       "module": "cc",
@@ -403,10 +379,40 @@ window.apimeta = {
       "description": "Audio state."
     },
     {
+      "name": "debug.DebugMode",
+      "namespace": "cc.debug.DebugMode",
+      "module": "cc",
+      "description": "Enum for debug modes."
+    },
+    {
       "name": "macro",
       "namespace": "cc.macro",
       "module": "cc",
       "description": "Predefined constants"
+    },
+    {
+      "name": "macro.BlendFactor",
+      "namespace": "cc.macro.BlendFactor",
+      "module": "cc",
+      "description": "Enum for blend factor\nRefer to: http://www.andersriggelsen.dk/glblendfunc.php"
+    },
+    {
+      "name": "macro.ImageFormat",
+      "namespace": "cc.macro.ImageFormat",
+      "module": "cc",
+      "description": "Image formats"
+    },
+    {
+      "name": "macro.KEY",
+      "namespace": "cc.macro.KEY",
+      "module": "cc",
+      "description": "Key map for keyboard event"
+    },
+    {
+      "name": "macro.TextAlignment",
+      "namespace": "cc.macro.TextAlignment",
+      "module": "cc",
+      "description": ""
     }
   ],
   "classes": [
@@ -709,12 +715,6 @@ window.apimeta = {
       "namespace": "cc.Font",
       "module": "cc",
       "description": "Class for Font handling."
-    },
-    {
-      "name": "Game",
-      "namespace": "cc.Game",
-      "module": "cc",
-      "description": "cc.game is the singleton object for game related functions."
     },
     {
       "name": "Graphics",
@@ -1365,6 +1365,12 @@ window.apimeta = {
       "description": "the device accelerometer reports values for each axis in units of g-force."
     },
     {
+      "name": "debug",
+      "namespace": "cc.debug",
+      "module": "cc",
+      "description": "An object to boot the game."
+    },
+    {
       "name": "game",
       "namespace": "cc.game",
       "module": "cc",
@@ -1387,6 +1393,12 @@ window.apimeta = {
       "namespace": "cc.path",
       "module": "cc",
       "description": "The module provides utilities for working with file and directory paths"
+    },
+    {
+      "name": "renderer",
+      "namespace": "cc.renderer",
+      "module": "cc",
+      "description": "The renderer object which provide access to render system APIs,\ndetailed APIs will be available progressively."
     },
     {
       "name": "screen",

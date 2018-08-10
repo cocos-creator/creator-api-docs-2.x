@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 The texture pixel format, default value is RGBA8888,
@@ -35,7 +34,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:67](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L67) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:67](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L67) |
 
 
 
@@ -46,7 +45,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:74](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L74) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:74](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L74) |
 
 
 
@@ -57,7 +56,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:81](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L81) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:81](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L81) |
 
 
 
@@ -68,7 +67,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:88](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L88) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:88](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L88) |
 
 
 
@@ -79,7 +78,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:95](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L95) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:95](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L95) |
 
 
 
@@ -90,7 +89,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:102](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L102) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:102](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L102) |
 
 
 
@@ -101,7 +100,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:109](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L109) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:109](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L109) |
 
 
 
@@ -112,7 +111,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:116](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L116) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:116](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L116) |
 
 
 
@@ -123,7 +122,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:124](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L124) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:124](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L124) |
 
 
 
@@ -134,7 +133,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:131](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L131) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:131](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L131) |
 
 
 
@@ -145,7 +144,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:138](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L138) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:138](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L138) |
 
 
 
@@ -156,6 +155,6 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:145](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/assets/CCTexture2D.js#L145) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:145](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/assets/CCTexture2D.js#L145) |
 
 

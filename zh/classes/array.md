@@ -43,7 +43,7 @@ Removes the array item at the specified index.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:683](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/js.js#L683) |
+| 定义于 | [cocos2d/core/platform/js.js:683](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L683) |
 
 ###### 参数列表
 - `array` Any 
@@ -57,7 +57,7 @@ It's faster but the order of the array will be changed.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:693](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/js.js#L693) |
+| 定义于 | [cocos2d/core/platform/js.js:693](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L693) |
 
 ###### 参数列表
 - `array` Any 
@@ -71,7 +71,7 @@ Removes the first occurrence of a specific object from the array.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/js.js:709](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/js.js#L709) |
+| 定义于 | [cocos2d/core/platform/js.js:709](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L709) |
 
 ###### 参数列表
 - `array` Any 
@@ -85,7 +85,7 @@ It's faster but the order of the array will be changed.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:727](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/js.js#L727) |
+| 定义于 | [cocos2d/core/platform/js.js:727](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L727) |
 
 ###### 参数列表
 - `array` Any 
@@ -99,7 +99,7 @@ Verify array's Type
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/js.js:742](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/js.js#L742) |
+| 定义于 | [cocos2d/core/platform/js.js:742](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L742) |
 
 ###### 参数列表
 - `array` <a href="../classes/array.html" class="crosslink">array</a> 
@@ -112,7 +112,7 @@ Removes from array all values in minusArr. For each Value in minusArr, the first
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:761](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/js.js#L761) |
+| 定义于 | [cocos2d/core/platform/js.js:761](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L761) |
 
 ###### 参数列表
 - `array` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> Source Array
@@ -126,7 +126,7 @@ Inserts some objects at index
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/platform/js.js:773](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/js.js#L773) |
+| 定义于 | [cocos2d/core/platform/js.js:773](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L773) |
 
 ###### 参数列表
 - `array` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -143,7 +143,7 @@ Baidu developers, if you ever see this documentation, here is the standard: http
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/js.js:786](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/js.js#L786) |
+| 定义于 | [cocos2d/core/platform/js.js:786](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L786) |
 
 ###### 参数列表
 - `searchElement` Any Element to locate in the array.
@@ -157,7 +157,7 @@ Determines whether the array contains a specific value.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/js.js:798](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/js.js#L798) |
+| 定义于 | [cocos2d/core/platform/js.js:798](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L798) |
 
 ###### 参数列表
 - `array` Any 
@@ -171,7 +171,7 @@ Copy an array's item to a new array (its performance is better than Array.slice)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/platform/js.js:809](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/platform/js.js#L809) |
+| 定义于 | [cocos2d/core/platform/js.js:809](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L809) |
 
 ###### 参数列表
 - `array` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 

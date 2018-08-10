@@ -4,7 +4,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 Loader for resource loading process. It's a singleton object.
@@ -65,7 +64,7 @@ It's used to identify an asset's type, and determine how to download it.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:100](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L100) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:100](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L100) |
 
 
 
@@ -78,7 +77,7 @@ You can add your own download function with addDownloadHandlers
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:108](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L108) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:108](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L108) |
 
 
 
@@ -91,7 +90,7 @@ You can add your own download function with addLoadHandlers
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:117](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L117) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:117](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L117) |
 
 
 
@@ -109,7 +108,7 @@ Gets a new XMLHttpRequest instance.
 | meta | description |
 |------|-------------|
 | 返回 | XMLHttpRequest 
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:147](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L147) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:147](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L147) |
 
 
 
@@ -119,7 +118,7 @@ Add custom supported types handler or modify existing type handler for download 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:154](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L154) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:154](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L154) |
 
 ###### 参数列表
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
@@ -139,7 +138,7 @@ Add custom supported types handler or modify existing type handler for load proc
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:168](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L168) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:168](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L168) |
 
 ###### 参数列表
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
@@ -162,7 +161,7 @@ The only difference is when user pass a single url as resources, the complete ca
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:182](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L182) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:182](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L182) |
 
 ###### 参数列表
 - `resources` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Url list in an array
@@ -206,7 +205,7 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:406](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L406) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:406](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L406) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target resource.
@@ -248,7 +247,7 @@ This method is like <a href="../classes/loader.html#method_loadRes" class="cross
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:529](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L529) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:529](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L529) |
 
 ###### 参数列表
 - `urls` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> Array of URLs of the target resource.
@@ -288,7 +287,7 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:587](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L587) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:587](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L587) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target folder.
@@ -341,7 +340,7 @@ After loaded, you can acquire them by passing the url to this API.
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:666](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L666) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:666](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L666) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -357,7 +356,7 @@ After loaded, you can acquire them by passing the url to this API.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:703](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L703) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:703](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L703) |
 
 ###### 参数列表
 - `owner` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The owner asset or the resource url or the asset's uuid
@@ -390,7 +389,7 @@ for (var i = 0; i < deps.length; ++i) {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:744](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L744) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:744](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L744) |
 
 ###### 参数列表
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -421,7 +420,7 @@ cc.loader.release(deps);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:807](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L807) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:807](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L807) |
 
 ###### 参数列表
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> 
@@ -433,7 +432,7 @@ cc.loader.release(deps);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:821](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L821) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:821](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L821) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -446,7 +445,7 @@ cc.loader.release(deps);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:839](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L839) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:839](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L839) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -459,7 +458,7 @@ cc.loader.release(deps);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:855](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L855) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:855](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L855) |
 
 
 
@@ -474,7 +473,7 @@ cc.loader.release(deps);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:876](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L876) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:876](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L876) |
 
 ###### 参数列表
 - `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
@@ -502,7 +501,7 @@ cc.loader.setAutoRelease(audioUrl, false);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:916](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L916) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:916](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L916) |
 
 ###### 参数列表
 - `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
@@ -528,7 +527,7 @@ cc.loader.setAutoReleaseRecursively(prefab, false);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:964](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/CCLoader.js#L964) |
+| 定义于 | [cocos2d/core/load-pipeline/CCLoader.js:964](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/CCLoader.js#L964) |
 
 ###### 参数列表
 - `assetOrUrl` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url
@@ -542,7 +541,7 @@ cc.loader.setAutoReleaseRecursively(prefab, false);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:112](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/pipeline.js#L112) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:112](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/pipeline.js#L112) |
 
 ###### 参数列表
 - `pipes` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -567,7 +566,7 @@ var pipeline = new Pipeline([
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:156](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/pipeline.js#L156) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:156](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/pipeline.js#L156) |
 
 ###### 参数列表
 - `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted
@@ -583,7 +582,7 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:199](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/pipeline.js#L199) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:199](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/pipeline.js#L199) |
 
 ###### 参数列表
 - `refPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing pipe in the pipeline.
@@ -597,7 +596,7 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:216](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/pipeline.js#L216) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:216](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/pipeline.js#L216) |
 
 ###### 参数列表
 - `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be appended
@@ -614,7 +613,7 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:240](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/pipeline.js#L240) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:240](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/pipeline.js#L240) |
 
 ###### 参数列表
 - `items` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -643,7 +642,7 @@ pipeline.flowIn([
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:325](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/pipeline.js#L325) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:325](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/pipeline.js#L325) |
 
 ###### 参数列表
 - `srcItem` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
@@ -657,7 +656,7 @@ pipeline.flowIn([
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:354](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/pipeline.js#L354) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:354](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/pipeline.js#L354) |
 
 ###### 参数列表
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
@@ -672,7 +671,7 @@ cc.loader 中提供了另一种删除资源及其依赖的清理方法，请参�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:374](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/pipeline.js#L374) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:374](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/pipeline.js#L374) |
 
 ###### 参数列表
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
@@ -684,7 +683,7 @@ cc.loader 中提供了另一种删除资源及其依赖的清理方法，请参�
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:394](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/load-pipeline/pipeline.js#L394) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:394](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/load-pipeline/pipeline.js#L394) |
 
 
 

@@ -44,7 +44,7 @@ It will calculate whether the collider collides other colliders, if collides the
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/collider/CCCollisionManager.js:120](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/collider/CCCollisionManager.js#L120) |
+| Defined in | [cocos2d/core/collider/CCCollisionManager.js:120](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/collider/CCCollisionManager.js#L120) |
 
 
 
@@ -55,7 +55,7 @@ It will calculate whether the collider collides other colliders, if collides the
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/collider/CCCollisionManager.js:128](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/collider/CCCollisionManager.js#L128) |
+| Defined in | [cocos2d/core/collider/CCCollisionManager.js:128](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/collider/CCCollisionManager.js#L128) |
 
 
 
@@ -66,7 +66,7 @@ It will calculate whether the collider collides other colliders, if collides the
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/collider/CCCollisionManager.js:462](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/collider/CCCollisionManager.js#L462) |
+| Defined in | [cocos2d/core/collider/CCCollisionManager.js:462](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/collider/CCCollisionManager.js#L462) |
 
 
 
@@ -84,7 +84,7 @@ Checks whether the EventTarget object has any callback registered for a specific
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L68) |
+| Defined in | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L68) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -98,17 +98,17 @@ This type of event should be triggered via `emit`.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [cocos2d/core/event/event-target.js:76](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L76) |
+| Defined in | [cocos2d/core/event/event-target.js:76](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L76) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
                              The callback is ignored if it is a duplicate (the callbacks are unique).
-	- `arg1` <a href="../classes/Event.html" class="crosslink">Event</a> arg1
-	- `arg2` <a href="../classes/Event.html" class="crosslink">Event</a> arg2
-	- `arg3` <a href="../classes/Event.html" class="crosslink">Event</a> arg3
-	- `arg4` <a href="../classes/Event.html" class="crosslink">Event</a> arg4
-	- `arg5` <a href="../classes/Event.html" class="crosslink">Event</a> arg5
+	- `arg1` Any arg1
+	- `arg2` Any arg2
+	- `arg3` Any arg3
+	- `arg4` Any arg4
+	- `arg5` Any arg5
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
 
 ##### Examples
@@ -126,7 +126,7 @@ if only type is passed as parameter, all listeners registered with that type wil
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:117](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L117) |
+| Defined in | [cocos2d/core/event/event-target.js:117](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L117) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -155,7 +155,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:151](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L151) |
+| Defined in | [cocos2d/core/event/event-target.js:151](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L151) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -168,17 +168,17 @@ the callback will remove itself after the first time it is triggered.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:164](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L164) |
+| Defined in | [cocos2d/core/event/event-target.js:164](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L164) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
                              The callback is ignored if it is a duplicate (the callbacks are unique).
-	- `arg1` <a href="../classes/Event.html" class="crosslink">Event</a> arg1
-	- `arg2` <a href="../classes/Event.html" class="crosslink">Event</a> arg2
-	- `arg3` <a href="../classes/Event.html" class="crosslink">Event</a> arg3
-	- `arg4` <a href="../classes/Event.html" class="crosslink">Event</a> arg4
-	- `arg5` <a href="../classes/Event.html" class="crosslink">Event</a> arg5
+	- `arg1` Any arg1
+	- `arg2` Any arg2
+	- `arg3` Any arg3
+	- `arg4` Any arg4
+	- `arg5` Any arg5
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
 
 ##### Examples
@@ -195,7 +195,7 @@ Trigger an event directly with the event name and necessary arguments.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:201](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L201) |
+| Defined in | [cocos2d/core/event/event-target.js:201](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L201) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
@@ -218,7 +218,7 @@ Send an event with the event object.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:221](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/cocos2d/core/event/event-target.js#L221) |
+| Defined in | [cocos2d/core/event/event-target.js:221](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/event/event-target.js#L221) |
 
 ###### Parameters
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  

@@ -26,7 +26,7 @@ The enum of account type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2166](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/extensions/anysdk/jsb_anysdk.js#L2166) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2166](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/extensions/anysdk/jsb_anysdk.js#L2166) |
 
 
 
@@ -37,7 +37,7 @@ The enum of account type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2173](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/extensions/anysdk/jsb_anysdk.js#L2173) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2173](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/extensions/anysdk/jsb_anysdk.js#L2173) |
 
 
 
@@ -48,7 +48,7 @@ The enum of account type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2180](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/extensions/anysdk/jsb_anysdk.js#L2180) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2180](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/extensions/anysdk/jsb_anysdk.js#L2180) |
 
 
 
@@ -59,7 +59,7 @@ The enum of account type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2187](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/extensions/anysdk/jsb_anysdk.js#L2187) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2187](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/extensions/anysdk/jsb_anysdk.js#L2187) |
 
 
 
@@ -70,7 +70,7 @@ The enum of account type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2194](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/extensions/anysdk/jsb_anysdk.js#L2194) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2194](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/extensions/anysdk/jsb_anysdk.js#L2194) |
 
 
 
@@ -81,6 +81,6 @@ The enum of account type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2201](https://github.com/cocos-creator/engine/blob/44d068bea8120146521ec334827cb5b67a7d9b8f/extensions/anysdk/jsb_anysdk.js#L2201) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2201](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/extensions/anysdk/jsb_anysdk.js#L2201) |
 
 
