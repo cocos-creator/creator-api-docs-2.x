@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 The item states of the LoadingItems, its value could be LoadingItems.ItemState.WORKING | LoadingItems.ItemState.COMPLETET | LoadingItems.ItemState.ERROR
@@ -23,7 +24,7 @@ The item states of the LoadingItems, its value could be LoadingItems.ItemState.W
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/load-pipeline/loading-items.js:273](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/load-pipeline/loading-items.js#L273) |
+| Defined in | [cocos2d/core/load-pipeline/loading-items.js:273](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/load-pipeline/loading-items.js#L273) |
 
 
 
@@ -34,7 +35,7 @@ The item states of the LoadingItems, its value could be LoadingItems.ItemState.W
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/load-pipeline/loading-items.js:277](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/load-pipeline/loading-items.js#L277) |
+| Defined in | [cocos2d/core/load-pipeline/loading-items.js:277](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/load-pipeline/loading-items.js#L277) |
 
 
 
@@ -45,6 +46,6 @@ The item states of the LoadingItems, its value could be LoadingItems.ItemState.W
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/load-pipeline/loading-items.js:281](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/load-pipeline/loading-items.js#L281) |
+| Defined in | [cocos2d/core/load-pipeline/loading-items.js:281](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/load-pipeline/loading-items.js#L281) |
 
 

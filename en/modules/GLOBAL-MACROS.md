@@ -68,7 +68,7 @@ To determine whether the script is running on the specified platform, you can us
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [predefine.js:90](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/predefine.js#L90) |
+| Defined in | [predefine.js:90](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/predefine.js#L90) |
 
 
 
@@ -79,7 +79,7 @@ To determine whether the script is running on the specified platform, you can us
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [predefine.js:93](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/predefine.js#L93) |
+| Defined in | [predefine.js:93](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/predefine.js#L93) |
 
 
 
@@ -90,7 +90,7 @@ To determine whether the script is running on the specified platform, you can us
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [predefine.js:96](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/predefine.js#L96) |
+| Defined in | [predefine.js:96](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/predefine.js#L96) |
 
 
 
@@ -101,7 +101,7 @@ To determine whether the script is running on the specified platform, you can us
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [predefine.js:99](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/predefine.js#L99) |
+| Defined in | [predefine.js:99](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/predefine.js#L99) |
 
 
 
@@ -112,7 +112,7 @@ To determine whether the script is running on the specified platform, you can us
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [predefine.js:102](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/predefine.js#L102) |
+| Defined in | [predefine.js:102](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/predefine.js#L102) |
 
 
 
@@ -123,7 +123,7 @@ To determine whether the script is running on the specified platform, you can us
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [predefine.js:105](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/predefine.js#L105) |
+| Defined in | [predefine.js:105](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/predefine.js#L105) |
 
 
 
@@ -134,7 +134,7 @@ To determine whether the script is running on the specified platform, you can us
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [predefine.js:108](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/predefine.js#L108) |
+| Defined in | [predefine.js:108](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/predefine.js#L108) |
 
 
 
@@ -145,7 +145,7 @@ To determine whether the script is running on the specified platform, you can us
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [predefine.js:111](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/predefine.js#L111) |
+| Defined in | [predefine.js:111](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/predefine.js#L111) |
 
 
 
@@ -156,7 +156,7 @@ To determine whether the script is running on the specified platform, you can us
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [predefine.js:114](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/predefine.js#L114) |
+| Defined in | [predefine.js:114](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/predefine.js#L114) |
 
 
 

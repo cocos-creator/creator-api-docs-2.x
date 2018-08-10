@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -33,7 +34,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/CCTypesWebGL.js:620](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCTypesWebGL.js#L620) |
+| Defined in | [cocos2d/core/value-types/CCTypesWebGL.js:620](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCTypesWebGL.js#L620) |
 
 ###### Parameters
 - `a` <a href="../classes/V2F_C4B_T2F.html" class="crosslink">V2F_C4B_T2F</a> 
