@@ -195,8 +195,9 @@ all event callbacks will be removed in _onPreDestroy
 实际销毁操作会延迟到当前帧渲染前执行。
   - [`_destruct`](#destruct) Clear all references in the instance.
 
-NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
-      You can override the _destruct method if you need, for example:
+NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject. You can override the _destruct method if you need, for example:
+
+      ```javascript
       _destruct: function () {
           for (var key in this) {
               if (this.hasOwnProperty(key)) {
@@ -211,6 +212,8 @@ NOTE: this method will not clear the getter or setter functions which defined in
               }
           }
       }
+      ```
+
   - [`_onPreDestroy`](#onpredestroy) Called before the object being destroyed.
   - [`_serialize`](#serialize) The customized serialization for this object. (Editor Only)
   - [`_deserialize`](#deserialize) Init this object from the custom serialized data.
