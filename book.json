@@ -5,7 +5,8 @@
         "github-issue-feedback-language-custom",
         "anchorjs",
         "sharing",
-        "splitter"
+        "splitter",
+        "theme-default-customize@git+https://github.com/cocos-creator/theme-default.git"
     ],
     "styles": {
         "website": "./styles/website.css"
