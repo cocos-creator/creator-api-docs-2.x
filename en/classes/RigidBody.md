@@ -4,7 +4,6 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -109,7 +108,7 @@ When a collision is trigger, the collision callback will only be called when ena
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:76](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L76) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:76](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L76) |
 
 
 
@@ -124,7 +123,7 @@ Note :
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:150](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L150) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:150](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L150) |
 
 
 
@@ -135,7 +134,7 @@ Note :
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/RigidBodyType.html" class="crosslink">RigidBodyType</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:170](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L170) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:170](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L170) |
 
 
 
@@ -147,7 +146,7 @@ Note that this increases CPU usage.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:198](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L198) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:198](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L198) |
 
 
 
@@ -158,7 +157,7 @@ Note that this increases CPU usage.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:225](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L225) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:225](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L225) |
 
 
 
@@ -171,7 +170,7 @@ time step when the damping parameter is large.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:246](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L246) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:246](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L246) |
 
 
 
@@ -184,7 +183,7 @@ time step when the damping parameter is large.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:269](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L269) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:269](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L269) |
 
 
 
@@ -195,7 +194,7 @@ time step when the damping parameter is large.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:292](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L292) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:292](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L292) |
 
 
 
@@ -206,7 +205,7 @@ time step when the damping parameter is large.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:323](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L323) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:323](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L323) |
 
 
 
@@ -217,7 +216,7 @@ time step when the damping parameter is large.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:347](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L347) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:347](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L347) |
 
 
 
@@ -228,7 +227,7 @@ time step when the damping parameter is large.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:368](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L368) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:368](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L368) |
 
 
 
@@ -247,7 +246,7 @@ Joints connected to an inactive body are implicitly inactive.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:388](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L388) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:388](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L388) |
 
 
 
@@ -259,7 +258,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:62](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L62) |
+| Defined in | [cocos2d/core/components/CCComponent.js:62](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L62) |
 
 
 
@@ -270,7 +269,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:76](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L76) |
+| Defined in | [cocos2d/core/components/CCComponent.js:76](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L76) |
 
 ##### Examples
 
@@ -286,7 +285,7 @@ cc.log(comp.node);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:112](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L112) |
+| Defined in | [cocos2d/core/components/CCComponent.js:112](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L112) |
 
 ##### Examples
 
@@ -302,7 +301,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:160](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L160) |
+| Defined in | [cocos2d/core/components/CCComponent.js:160](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L160) |
 
 
 
@@ -313,7 +312,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:167](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L167) |
+| Defined in | [cocos2d/core/components/CCComponent.js:167](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L167) |
 
 ##### Examples
 
@@ -330,7 +329,7 @@ cc.log(comp.enabled);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:198](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L198) |
+| Defined in | [cocos2d/core/components/CCComponent.js:198](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L198) |
 
 ##### Examples
 
@@ -346,7 +345,7 @@ cc.log(comp.enabledInHierarchy);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:214](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L214) |
+| Defined in | [cocos2d/core/components/CCComponent.js:214](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L214) |
 
 ##### Examples
 
@@ -362,7 +361,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCObject.js#L76) |
+| Defined in | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCObject.js#L76) |
 
 
 
@@ -373,7 +372,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCObject.js#L83) |
+| Defined in | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCObject.js#L83) |
 
 
 
@@ -384,7 +383,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:243](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCObject.js#L243) |
+| Defined in | [cocos2d/core/platform/CCObject.js:243](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCObject.js#L243) |
 
 ##### Examples
 
@@ -404,7 +403,7 @@ but this is often caused by a particular logical requirements, which is not norm
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:261](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCObject.js#L261) |
+| Defined in | [cocos2d/core/platform/CCObject.js:261](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCObject.js#L261) |
 
 ##### Examples
 
@@ -432,7 +431,7 @@ Called when two collider begin to touch.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:91](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L91) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:91](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L91) |
 
 ###### Parameters
 - `contact` <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
@@ -447,7 +446,7 @@ Called when two collider cease to touch.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:103](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L103) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:103](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L103) |
 
 ###### Parameters
 - `contact` <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
@@ -466,7 +465,7 @@ Note: this is not called for sensors.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:115](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L115) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:115](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L115) |
 
 ###### Parameters
 - `contact` <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
@@ -482,7 +481,7 @@ You can get the impulses from the contact in this callback.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:135](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L135) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:135](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L135) |
 
 ###### Parameters
 - `contact` <a href="../classes/PhysicsContact.html" class="crosslink">PhysicsContact</a> contact information
@@ -497,7 +496,7 @@ Gets a local point relative to the body's origin given a world point.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:421](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L421) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:421](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L421) |
 
 ###### Parameters
 - `worldPoint` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a point in world coordinates.
@@ -511,7 +510,7 @@ Get the world coordinates of a point given the local coordinates.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:442](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L442) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:442](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L442) |
 
 ###### Parameters
 - `localPoint` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a point in local coordinates.
@@ -525,7 +524,7 @@ Get the world coordinates of a vector given the local coordinates.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:463](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L463) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:463](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L463) |
 
 ###### Parameters
 - `localVector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a vector in world coordinates.
@@ -539,7 +538,7 @@ Gets a local vector relative to the body's origin given a world vector.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:484](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L484) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:484](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L484) |
 
 ###### Parameters
 - `worldVector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a vector in world coordinates.
@@ -553,7 +552,7 @@ Get the world body origin position.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:505](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L505) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:505](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L505) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving point
@@ -566,7 +565,7 @@ Get the world body rotation angle.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:524](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L524) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:524](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L524) |
 
 
 
@@ -577,7 +576,7 @@ Get the local position of the center of mass.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:539](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L539) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:539](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L539) |
 
 
 
@@ -588,7 +587,7 @@ Get the world position of the center of mass.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:557](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L557) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:557](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L557) |
 
 
 
@@ -599,7 +598,7 @@ Get the world linear velocity of a world point attached to this body.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:575](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L575) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:575](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L575) |
 
 ###### Parameters
 - `worldPoint` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> a point in world coordinates.
@@ -613,7 +612,7 @@ Get total mass of the body.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:596](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L596) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:596](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L596) |
 
 
 
@@ -624,7 +623,7 @@ Get the rotational inertia of the body about the local origin.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:608](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L608) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:608](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L608) |
 
 
 
@@ -635,7 +634,7 @@ Get all the joints connect to the rigidbody.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Joint.html" class="crosslink">[Joint]</a> 
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:620](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L620) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:620](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L620) |
 
 
 
@@ -647,7 +646,7 @@ affect the angular velocity.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:664](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L664) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:664](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L664) |
 
 ###### Parameters
 - `force` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world force vector.
@@ -661,7 +660,7 @@ Apply a force to the center of mass.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:684](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L684) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:684](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L684) |
 
 ###### Parameters
 - `force` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world force vector.
@@ -674,7 +673,7 @@ Apply a torque. This affects the angular velocity.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:700](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L700) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:700](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L700) |
 
 ###### Parameters
 - `torque` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> about the z-axis (out of the screen), usually in N-m.
@@ -689,7 +688,7 @@ affect the angular velocity.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:715](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L715) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:715](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L715) |
 
 ###### Parameters
 - `impulse` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> the world impulse vector, usually in N-seconds or kg-m/s.
@@ -703,7 +702,7 @@ Apply an angular impulse.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:736](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L736) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:736](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L736) |
 
 ###### Parameters
 - `impulse` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the angular impulse in units of kg*m*m/s
@@ -718,7 +717,7 @@ will set linear velocity instead of directly set rigidbody's position.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:751](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L751) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:751](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L751) |
 
 ###### Parameters
 - `enableAnimated` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -732,7 +731,7 @@ will set angular velocity instead of directly set rigidbody's angle.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/CCRigidBody.js:796](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCRigidBody.js#L796) |
+| Defined in | [cocos2d/core/physics/CCRigidBody.js:796](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCRigidBody.js#L796) |
 
 ###### Parameters
 - `enableAnimated` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -744,7 +743,7 @@ Update is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:235](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L235) |
+| Defined in | [cocos2d/core/components/CCComponent.js:235](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L235) |
 
 ###### Parameters
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -756,7 +755,7 @@ LateUpdate is called every frame, if the Component is enabled.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:244](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L244) |
+| Defined in | [cocos2d/core/components/CCComponent.js:244](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L244) |
 
 
 
@@ -769,7 +768,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:252](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L252) |
+| Defined in | [cocos2d/core/components/CCComponent.js:252](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L252) |
 
 
 
@@ -780,7 +779,7 @@ onLoad is always called before any start functions, this allows you to order ini
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:263](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L263) |
+| Defined in | [cocos2d/core/components/CCComponent.js:263](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L263) |
 
 
 
@@ -791,7 +790,7 @@ Usually used to initialize some logic which need to be called after all componen
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:274](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L274) |
+| Defined in | [cocos2d/core/components/CCComponent.js:274](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L274) |
 
 
 
@@ -801,7 +800,7 @@ Called when this component becomes enabled and its node is active.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:285](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L285) |
+| Defined in | [cocos2d/core/components/CCComponent.js:285](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L285) |
 
 
 
@@ -811,7 +810,7 @@ Called when this component becomes disabled or its node becomes inactive.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:293](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L293) |
+| Defined in | [cocos2d/core/components/CCComponent.js:293](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L293) |
 
 
 
@@ -821,7 +820,7 @@ Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:301](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L301) |
+| Defined in | [cocos2d/core/components/CCComponent.js:301](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L301) |
 
 
 
@@ -831,7 +830,7 @@ Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:309](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L309) |
+| Defined in | [cocos2d/core/components/CCComponent.js:309](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L309) |
 
 
 
@@ -841,7 +840,7 @@ Called when this component will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:314](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L314) |
+| Defined in | [cocos2d/core/components/CCComponent.js:314](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L314) |
 
 
 
@@ -851,7 +850,7 @@ Called to initialize the component or node’s properties when adding the compon
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:319](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L319) |
+| Defined in | [cocos2d/core/components/CCComponent.js:319](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L319) |
 
 
 
@@ -862,7 +861,7 @@ Adds a component class to the node. You can also add component to node by passin
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:329](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L329) |
+| Defined in | [cocos2d/core/components/CCComponent.js:329](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L329) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
@@ -882,7 +881,7 @@ You can also get component in the node by passing in the name of the script.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:347](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L347) |
+| Defined in | [cocos2d/core/components/CCComponent.js:347](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L347) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -903,7 +902,7 @@ Returns all components of supplied Type in the node.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:371](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L371) |
+| Defined in | [cocos2d/core/components/CCComponent.js:371](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L371) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -922,7 +921,7 @@ Returns the component of supplied type in any of its children using depth first 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:389](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L389) |
+| Defined in | [cocos2d/core/components/CCComponent.js:389](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L389) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -941,7 +940,7 @@ Returns the components of supplied type in self or any of its children using dep
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:407](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L407) |
+| Defined in | [cocos2d/core/components/CCComponent.js:407](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L407) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -960,7 +959,7 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:427](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L427) |
+| Defined in | [cocos2d/core/components/CCComponent.js:427](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L427) |
 
 ###### Parameters
 - `out_rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -991,7 +990,7 @@ This function is only called in editor mode.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:440](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L440) |
+| Defined in | [cocos2d/core/components/CCComponent.js:440](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L440) |
 
 
 
@@ -1002,7 +1001,7 @@ If the selector is already scheduled, then the interval parameter will be update
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:542](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L542) |
+| Defined in | [cocos2d/core/components/CCComponent.js:542](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L542) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -1025,7 +1024,7 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:579](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L579) |
+| Defined in | [cocos2d/core/components/CCComponent.js:579](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L579) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1046,7 +1045,7 @@ Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:596](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L596) |
+| Defined in | [cocos2d/core/components/CCComponent.js:596](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L596) |
 
 ###### Parameters
 - `callback_fn` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1064,7 +1063,7 @@ Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:612](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponent.js#L612) |
+| Defined in | [cocos2d/core/components/CCComponent.js:612](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponent.js#L612) |
 
 
 ##### Examples
@@ -1083,7 +1082,7 @@ You can use cc.isValid(obj) to check whether the object is destroyed before acce
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:296](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCObject.js#L296) |
+| Defined in | [cocos2d/core/platform/CCObject.js:296](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCObject.js#L296) |
 
 
 ##### Examples
@@ -1115,7 +1114,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:428](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCObject.js#L428) |
+| Defined in | [cocos2d/core/platform/CCObject.js:428](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCObject.js#L428) |
 
 
 
@@ -1125,7 +1124,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:461](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCObject.js#L461) |
+| Defined in | [cocos2d/core/platform/CCObject.js:461](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCObject.js#L461) |
 
 
 
@@ -1136,7 +1135,7 @@ The customized serialization for this object. (Editor Only)
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:486](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCObject.js#L486) |
+| Defined in | [cocos2d/core/platform/CCObject.js:486](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCObject.js#L486) |
 
 ###### Parameters
 - `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -1148,7 +1147,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:496](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCObject.js#L496) |
+| Defined in | [cocos2d/core/platform/CCObject.js:496](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCObject.js#L496) |
 
 ###### Parameters
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接触点的详细信息。
@@ -38,7 +37,7 @@ ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:87](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L87) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:87](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCPhysicsContact.js#L87) |
 
 
 
@@ -49,7 +48,7 @@ ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:100](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L100) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:100](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCPhysicsContact.js#L100) |
 
 
 
@@ -60,7 +59,7 @@ ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:107](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L107) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:107](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCPhysicsContact.js#L107) |
 
 
 

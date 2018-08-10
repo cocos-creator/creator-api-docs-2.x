@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Enum for Widget's alignment mode, indicating when the widget should refresh.
@@ -26,7 +27,7 @@ then immediately disables the Widget.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCWidget.js:37](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCWidget.js#L37) |
+| Defined in | [cocos2d/core/components/CCWidget.js:37](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCWidget.js#L37) |
 
 
 
@@ -37,7 +38,7 @@ then immediately disables the Widget.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCWidget.js:48](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCWidget.js#L48) |
+| Defined in | [cocos2d/core/components/CCWidget.js:48](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCWidget.js#L48) |
 
 
 
@@ -48,6 +49,6 @@ then immediately disables the Widget.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCWidget.js:53](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCWidget.js#L53) |
+| Defined in | [cocos2d/core/components/CCWidget.js:53](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCWidget.js#L53) |
 
 

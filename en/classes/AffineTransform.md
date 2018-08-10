@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 cc.AffineTransform class represent an affine transform matrix. It's composed basically by translation, rotation, scale transformations.<br/>
@@ -49,7 +50,7 @@ Create a cc.AffineTransform object with all contents in the matrix.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:56](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L56) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:56](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L56) |
 
 ###### Parameters
 - `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -67,7 +68,7 @@ Clone a cc.AffineTransform object from the specified transform.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:72](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L72) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:72](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L72) |
 
 ###### Parameters
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -80,7 +81,7 @@ Apply the affine transformation on a point.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:83](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L83) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:83](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L83) |
 
 ###### Parameters
 - `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x.
@@ -95,7 +96,7 @@ Apply the affine transformation on a size.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:125](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L125) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:125](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L125) |
 
 ###### Parameters
 - `size` <a href="../classes/Size.html" class="crosslink">Size</a> 
@@ -111,7 +112,7 @@ Create a identity transformation matrix: <br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:137](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L137) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:137](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L137) |
 
 
 
@@ -122,7 +123,7 @@ Apply the affine transformation on a rect.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:169](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L169) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:169](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L169) |
 
 ###### Parameters
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -135,7 +136,7 @@ Apply the affine transformation on a rect, and truns to an Oriented Bounding Box
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:224](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L224) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:224](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L224) |
 
 ###### Parameters
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -153,7 +154,7 @@ Create a new affine transformation with a base transformation matrix and a trans
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:258](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L258) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:258](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L258) |
 
 ###### Parameters
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> The base affine transform object.
@@ -168,7 +169,7 @@ Create a new affine transformation with a base transformation matrix and a scale
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:278](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L278) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:278](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L278) |
 
 ###### Parameters
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> The base affine transform object.
@@ -183,7 +184,7 @@ Create a new affine transformation with a base transformation matrix and a rotat
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:291](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L291) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:291](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L291) |
 
 ###### Parameters
 - `aTransform` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> The base affine transform object.
@@ -198,7 +199,7 @@ t' = t1 * t2
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:311](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L311) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:311](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L311) |
 
 ###### Parameters
 - `t1` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> The first transform object.
@@ -214,7 +215,7 @@ t' = t1 * t2
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:332](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L332) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:332](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L332) |
 
 ###### Parameters
 - `t1` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> The first transform object.
@@ -228,7 +229,7 @@ Return true if an affine transform equals to another, false otherwise.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:356](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L356) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:356](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L356) |
 
 ###### Parameters
 - `t1` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -242,7 +243,7 @@ Get the invert transform of an AffineTransform object.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:368](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L368) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:368](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L368) |
 
 ###### Parameters
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -254,7 +255,7 @@ Put the invert transform of an AffineTransform object into the out AffineTransfo
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:394](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCAffineTransform.js#L394) |
+| Defined in | [cocos2d/core/value-types/CCAffineTransform.js:394](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCAffineTransform.js#L394) |
 
 ###### Parameters
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 

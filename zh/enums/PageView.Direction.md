@@ -22,7 +22,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCPageView.js:56](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCPageView.js#L56) |
+| 定义于 | [cocos2d/core/components/CCPageView.js:56](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCPageView.js#L56) |
 
 
 
@@ -33,6 +33,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCPageView.js:62](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCPageView.js#L62) |
+| 定义于 | [cocos2d/core/components/CCPageView.js:62](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCPageView.js#L62) |
 
 

@@ -37,7 +37,7 @@ Manipulation before applying the strategy
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1165](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCView.js#L1165) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1165](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCView.js#L1165) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -52,7 +52,7 @@ The target view can then apply these value to itself, it's preferred not to modi
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:1173](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCView.js#L1173) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1173](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCView.js#L1173) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> 
@@ -65,7 +65,7 @@ Manipulation after applying the strategy
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1186](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/platform/CCView.js#L1186) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1186](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCView.js#L1186) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view

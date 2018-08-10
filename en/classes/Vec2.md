@@ -4,6 +4,7 @@ Extends [`ValueType`](ValueType.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Representation of 2D vectors and points.
@@ -68,7 +69,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/CCVec2.js:63](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L63) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:63](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L63) |
 
 
 
@@ -79,7 +80,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/CCVec2.js:66](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L66) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:66](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L66) |
 
 
 
@@ -90,7 +91,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/value-types/CCVec2.js:542](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L542) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:542](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L542) |
 
 
 
@@ -101,7 +102,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/value-types/CCVec2.js:553](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L553) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:553](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L553) |
 
 
 
@@ -112,7 +113,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/value-types/CCVec2.js:564](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L564) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:564](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L564) |
 
 
 
@@ -123,7 +124,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/value-types/CCVec2.js:575](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L575) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:575](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L575) |
 
 
 
@@ -141,7 +142,7 @@ see Cc/vec2:method or <a href="../modules/cc.html#method_p" class="crosslink">cc
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/CCVec2.js:42](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L42) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:42](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L42) |
 
 ###### Parameters
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -155,7 +156,7 @@ clone a Vec2 value
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:73](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L73) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:73](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L73) |
 
 
 
@@ -166,7 +167,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:83](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L83) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:83](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L83) |
 
 ###### Parameters
 - `newValue` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> !#en new value to set. !#zh 要设置的新值
@@ -179,7 +180,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:97](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L97) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:97](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L97) |
 
 ###### Parameters
 - `other` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -192,7 +193,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:108](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L108) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:108](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L108) |
 
 
 
@@ -203,7 +204,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:121](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L121) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:121](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L121) |
 
 ###### Parameters
 - `to` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -218,7 +219,7 @@ Adds this vector. If you want to save result to another vector, use add() instea
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:139](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L139) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:139](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L139) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -237,7 +238,7 @@ Adds two vectors, and returns the new result.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:156](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L156) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:156](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L156) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -259,7 +260,7 @@ Subtracts one vector from this. If you want to save result to another vector, us
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:176](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L176) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:176](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L176) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -278,7 +279,7 @@ Subtracts one vector from this, and returns the new result.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:193](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L193) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:193](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L193) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -300,7 +301,7 @@ Multiplies this by a number. If you want to save result to another vector, use m
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:213](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L213) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:213](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L213) |
 
 ###### Parameters
 - `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -319,7 +320,7 @@ Multiplies by a number, and returns the new result.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:230](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L230) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:230](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L230) |
 
 ###### Parameters
 - `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -341,7 +342,7 @@ Multiplies two vectors.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:250](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L250) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:250](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L250) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -360,7 +361,7 @@ Multiplies two vectors, and returns the new result.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:267](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L267) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:267](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L267) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -382,7 +383,7 @@ Divides by a number. If you want to save result to another vector, use div() ins
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:287](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L287) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:287](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L287) |
 
 ###### Parameters
 - `divisor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -401,7 +402,7 @@ Divides by a number, and returns the new result.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:304](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L304) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:304](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L304) |
 
 ###### Parameters
 - `divisor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -423,7 +424,7 @@ Negates the components. If you want to save result to another vector, use neg() 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:324](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L324) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:324](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L324) |
 
 
 ##### Examples
@@ -440,7 +441,7 @@ Negates the components, and returns the new result.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:340](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L340) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:340](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L340) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
@@ -460,7 +461,7 @@ Dot product
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:358](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L358) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:358](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L358) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -479,7 +480,7 @@ Cross product
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:372](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L372) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:372](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L372) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -498,7 +499,7 @@ Returns the length of this vector.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:386](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L386) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:386](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L386) |
 
 
 ##### Examples
@@ -515,7 +516,7 @@ Returns the squared length of this vector.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:399](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L399) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:399](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L399) |
 
 
 ##### Examples
@@ -532,7 +533,7 @@ Make the length of this vector to 1.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:412](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L412) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:412](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L412) |
 
 
 ##### Examples
@@ -551,7 +552,7 @@ Note that the current vector is unchanged and a new normalized vector is returne
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:439](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L439) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:439](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L439) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
@@ -564,7 +565,7 @@ Get angle in radian between this and vector.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:462](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L462) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:462](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L462) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -577,7 +578,7 @@ Get angle in radian between this and vector with direction.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:484](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L484) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:484](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L484) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -590,7 +591,7 @@ rotate
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:500](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L500) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:500](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L500) |
 
 ###### Parameters
 - `radians` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -604,7 +605,7 @@ rotate self
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:515](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/value-types/CCVec2.js#L515) |
+| Defined in | [cocos2d/core/value-types/CCVec2.js:515](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L515) |
 
 ###### Parameters
 - `radians` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 

@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 
@@ -35,7 +34,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:131](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L131) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:131](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCPhysicsContact.js#L131) |
 
 
 
@@ -49,7 +48,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:140](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L140) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:140](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCPhysicsContact.js#L140) |
 
 
 
@@ -62,7 +61,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:154](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L154) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:154](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCPhysicsContact.js#L154) |
 
 
 
@@ -73,7 +72,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/ManifoldPoint.html" class="crosslink">[ManifoldPoint]</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:167](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/physics/CCPhysicsContact.js#L167) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:167](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/physics/CCPhysicsContact.js#L167) |
 
 
 

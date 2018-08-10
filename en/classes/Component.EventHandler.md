@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Component will register a event to target component's handler.
@@ -45,7 +46,7 @@ And it will trigger the handler when a certain event occurs.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:51](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponentEventHandler.js#L51) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:51](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponentEventHandler.js#L51) |
 
 
 
@@ -56,7 +57,7 @@ And it will trigger the handler when a certain event occurs.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:62](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponentEventHandler.js#L62) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:62](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponentEventHandler.js#L62) |
 
 
 
@@ -67,7 +68,7 @@ And it will trigger the handler when a certain event occurs.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:72](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponentEventHandler.js#L72) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:72](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponentEventHandler.js#L72) |
 
 
 
@@ -78,7 +79,7 @@ And it will trigger the handler when a certain event occurs.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:83](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponentEventHandler.js#L83) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:83](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponentEventHandler.js#L83) |
 
 
 
@@ -95,7 +96,7 @@ And it will trigger the handler when a certain event occurs.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:96](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponentEventHandler.js#L96) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:96](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponentEventHandler.js#L96) |
 
 ###### Parameters
 - `events` <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> 
@@ -108,7 +109,7 @@ Emit event with params
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:120](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/cocos2d/core/components/CCComponentEventHandler.js#L120) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:120](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCComponentEventHandler.js#L120) |
 
 ###### Parameters
 - `params` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 

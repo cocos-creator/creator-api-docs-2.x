@@ -27,7 +27,7 @@ The enum of ads position
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2567](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/extensions/anysdk/jsb_anysdk.js#L2567) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2567](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/extensions/anysdk/jsb_anysdk.js#L2567) |
 
 
 
@@ -38,7 +38,7 @@ The enum of ads position
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2574](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/extensions/anysdk/jsb_anysdk.js#L2574) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2574](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/extensions/anysdk/jsb_anysdk.js#L2574) |
 
 
 
@@ -49,7 +49,7 @@ The enum of ads position
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2581](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/extensions/anysdk/jsb_anysdk.js#L2581) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2581](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/extensions/anysdk/jsb_anysdk.js#L2581) |
 
 
 
@@ -60,7 +60,7 @@ The enum of ads position
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2588](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/extensions/anysdk/jsb_anysdk.js#L2588) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2588](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/extensions/anysdk/jsb_anysdk.js#L2588) |
 
 
 
@@ -71,7 +71,7 @@ The enum of ads position
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2595](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/extensions/anysdk/jsb_anysdk.js#L2595) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2595](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/extensions/anysdk/jsb_anysdk.js#L2595) |
 
 
 
@@ -82,7 +82,7 @@ The enum of ads position
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2602](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/extensions/anysdk/jsb_anysdk.js#L2602) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2602](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/extensions/anysdk/jsb_anysdk.js#L2602) |
 
 
 
@@ -93,6 +93,6 @@ The enum of ads position
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2609](https://github.com/cocos-creator/engine/blob/dcd3357d61e518886ccbf8b2026bed4edc6c615d/extensions/anysdk/jsb_anysdk.js#L2609) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2609](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/extensions/anysdk/jsb_anysdk.js#L2609) |
 
 
