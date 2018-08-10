@@ -48,11 +48,9 @@ This module is deprecated.
 {{#if hasEnum}}
 ### {{i18n.sidebar.ENUMS}}
 
-  {{#classes}}
-  {{#if isEnum}}
+  {{#enums}}
   - [{{name}}](../enums/{{name}}.md)
-  {{/if}}
-  {{/classes}}
+  {{/enums}}
 {{/if}}
 
 {{#if subModules}}
