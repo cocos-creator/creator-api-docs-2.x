@@ -1,7 +1,7 @@
 ## `{{name}}` {{i18n.CLASS}}
 
 {{#if extends}}
-{{i18n.EXTENDS_FOR}} [`{{extends}}`]({{extends}}.md)
+{{i18n.EXTENDS_FOR}} [`{{extends}}`]({{extends}}.md){{#if uses}}{{#uses}}, [`{{this}}`]({{this}}.md)(mixin){{/uses}}{{/if}}
 {{/if}}
 
 {{#if foundAt}}
