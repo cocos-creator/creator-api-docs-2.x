@@ -45,7 +45,6 @@ Spine 的全局的命名空间，
   - [Layout.Type](../enums/Layout.Type.md)
   - [Layout.VerticalDirection](../enums/Layout.VerticalDirection.md)
   - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
-  - [macro](../enums/macro.md)
   - [macro.BlendFactor](../enums/macro.BlendFactor.md)
   - [macro.ImageFormat](../enums/macro.ImageFormat.md)
   - [macro.KEY](../enums/macro.KEY.md)

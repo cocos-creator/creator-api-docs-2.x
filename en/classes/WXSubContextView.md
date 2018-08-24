@@ -1,27 +1,28 @@
-## `PhysicsPolygonCollider` Class
+## `WXSubContextView` Class
 
-Extends [`PhysicsCollider`](PhysicsCollider.md), [`Collider.Polygon`](Collider.Polygon.md)(mixin)
+Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
-
+WXSubContextView is a view component which controls open data context viewport in Wechat game platform.<br/>
+The component's node size decide the viewport of the sub context content in main context,
+the entire sub context texture will be scaled to the node's bounding box area.<br/>
+This component provides multiple important features:<br/>
+1. Sub context could use its own resolution size and policy.<br/>
+2. Sub context could be minized to smallest size it needed.<br/>
+3. Resolution of sub context content could be increased.<br/>
+4. User touch input is transformed to the correct viewport.<br/>
+5. Texture update is handled by this component. User don't need to worry.<br/>
+One important thing to be noted, whenever the node's bounding box change,
+you need to manually reset the viewport of sub context using updateSubContextViewport.
 
 
 ### Index
 
 ##### Properties
 
-  - [`offset`](#offset) `Vec2` Position offset
-  - [`points`](#points) `Vec2[]` Polygon points
-  - [`density`](#density) `Number` The density.
-  - [`sensor`](#sensor) `Boolean` A sensor collider collects contact information but never generates a collision response
-  - [`friction`](#friction) `Number` The friction coefficient, usually in the range [0,1].
-  - [`restitution`](#restitution) `Number` The restitution (elasticity) usually in the range [0,1].
-  - [`body`](#body) `RigidBody` Physics collider will find the rigidbody component on the node and set to this property.
-  - [`tag`](#tag) `Integer` Tag.
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` The node this component is attached to.
   - [`uuid`](#uuid) `String` The uuid for editor.
@@ -38,8 +39,7 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### Methods
 
-  - [`apply`](#apply) Apply current changes to collider, this will regenerate inner box2d fixtures.
-  - [`getAABB`](#getaabb) Get the world aabb of the collider
+  - [`updateSubContextViewport`](#updatesubcontextviewport) Update the sub context viewport manually, it should be called whenever the node's bounding box changes.
   - [`update`](#update) This is a lifecycle method.
   - [`lateUpdate`](#lateupdate) This is a lifecycle method.
   - [`__preload`](#preload) `__preload` is called before every onLoad.
@@ -74,94 +74,6 @@ Parent Module: [cc](../modules/cc.md)
 
 
 #### Properties
-
-
-##### offset
-
-> Position offset
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/collider/CCPolygonCollider.js:45](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/collider/CCPolygonCollider.js#L45) |
-
-
-
-##### points
-
-> Polygon points
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> |
-| Defined in | [cocos2d/core/collider/CCPolygonCollider.js:61](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/collider/CCPolygonCollider.js#L61) |
-
-
-
-##### density
-
-> The density.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/collider/CCPhysicsCollider.js:54](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L54) |
-
-
-
-##### sensor
-
-> A sensor collider collects contact information but never generates a collision response
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/physics/collider/CCPhysicsCollider.js:72](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L72) |
-
-
-
-##### friction
-
-> The friction coefficient, usually in the range [0,1].
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/collider/CCPhysicsCollider.js:90](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L90) |
-
-
-
-##### restitution
-
-> The restitution (elasticity) usually in the range [0,1].
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/collider/CCPhysicsCollider.js:108](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L108) |
-
-
-
-##### body
-
-> Physics collider will find the rigidbody component on the node and set to this property.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/RigidBody.html" class="crosslink">RigidBody</a> |
-| Defined in | [cocos2d/core/physics/collider/CCPhysicsCollider.js:126](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L126) |
-
-
-
-##### tag
-
-> Tag. If a node has several collider components, you can judge which type of collider is collided according to the tag.
-
-| meta | description |
-|------|-------------|
-| Type | Integer |
-| Defined in | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/collider/CCCollider.js#L47) |
-
 
 
 ##### __eventTargets
@@ -338,23 +250,13 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 #### Methods
 
 
-##### apply
+##### updateSubContextViewport
 
-Apply current changes to collider, this will regenerate inner box2d fixtures.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/physics/collider/CCPhysicsCollider.js:253](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L253) |
-
-
-
-##### getAABB
-
-Get the world aabb of the collider
+Update the sub context viewport manually, it should be called whenever the node's bounding box changes.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/physics/collider/CCPhysicsCollider.js:265](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L265) |
+| Defined in | [cocos2d/core/components/WXSubContextView.js:115](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/components/WXSubContextView.js#L115) |
 
 
 

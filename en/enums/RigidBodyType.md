@@ -24,7 +24,7 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:43](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/physics/CCPhysicsTypes.js#L43) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:43](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/CCPhysicsTypes.js#L43) |
 
 
 
@@ -35,7 +35,7 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:51](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/physics/CCPhysicsTypes.js#L51) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:51](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/CCPhysicsTypes.js#L51) |
 
 
 
@@ -46,7 +46,7 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:59](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/physics/CCPhysicsTypes.js#L59) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:59](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/CCPhysicsTypes.js#L59) |
 
 
 
@@ -57,6 +57,6 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:67](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/physics/CCPhysicsTypes.js#L67) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:67](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/CCPhysicsTypes.js#L67) |
 
 

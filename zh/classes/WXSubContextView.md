@@ -1,27 +1,26 @@
-## `PhysicsPolygonCollider` 类型
+## `WXSubContextView` 类型
 
-继承于 [`PhysicsCollider`](PhysicsCollider.md), [`Collider.Polygon`](Collider.Polygon.md)(mixin)
+继承于 [`Component`](Component.md)
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
-
+WXSubContextView 可以用来控制微信小游戏平台开放数据域在主域中的视窗的位置。<br/>
+这个组件的节点尺寸决定了开放数据域内容在主域中的尺寸，整个开放数据域会被缩放到节点的包围盒范围内。<br/>
+在这个组件的控制下，用户可以更自由得控制开放数据域：<br/>
+1. 子域中可以使用独立的设计分辨率和适配模式<br/>
+2. 子域区域尺寸可以缩小到只容纳内容即可<br/>
+3. 子域的分辨率也可以被放大，以便获得更清晰的显示效果<br/>
+4. 用户输入坐标会被自动转换到正确的子域视窗中<br/>
+5. 子域内容贴图的更新由组件负责，用户不需要处理<br/>
+唯一需要注意的是，当子域节点的包围盒发生改变时，开发者需要使用 `updateSubContextViewport` 来手动更新子域视窗。
 
 
 ### 索引
 
 ##### 属性（properties）
 
-  - [`offset`](#offset) `Vec2` 位置偏移量
-  - [`points`](#points) `Vec2[]` 多边形顶点数组
-  - [`density`](#density) `Number` 密度
-  - [`sensor`](#sensor) `Boolean` 一个传感器类型的碰撞体会产生碰撞回调，但是不会发生物理碰撞效果。
-  - [`friction`](#friction) `Number` 摩擦系数，取值一般在 [0, 1] 之间
-  - [`restitution`](#restitution) `Number` 弹性系数，取值一般在 [0, 1]之间
-  - [`body`](#body) `RigidBody` 碰撞体会在初始化时查找节点上是否存在刚体，如果查找成功则赋值到这个属性上。
-  - [`tag`](#tag) `Integer` 标签。
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` 该组件被附加到的节点。
   - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
@@ -38,8 +37,7 @@
 
 ##### 方法
 
-  - [`apply`](#apply) 应用当前 collider 中的修改，调用此函数会重新生成内部 box2d 的夹具。
-  - [`getAABB`](#getaabb) 获取碰撞体的世界坐标系下的包围盒
+  - [`updateSubContextViewport`](#updatesubcontextviewport) 更新开放数据域相对于主域的 viewport，这个函数应该在节点包围盒改变时手动调用。
   - [`update`](#update) 如果该组件启用，则每帧调用 update。
   - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad....
@@ -74,94 +72,6 @@
 
 
 #### 属性（properties）
-
-
-##### offset
-
-> 位置偏移量
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/collider/CCPolygonCollider.js:45](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/collider/CCPolygonCollider.js#L45) |
-
-
-
-##### points
-
-> 多边形顶点数组
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> |
-| 定义于 | [cocos2d/core/collider/CCPolygonCollider.js:61](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/collider/CCPolygonCollider.js#L61) |
-
-
-
-##### density
-
-> 密度
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/collider/CCPhysicsCollider.js:54](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L54) |
-
-
-
-##### sensor
-
-> 一个传感器类型的碰撞体会产生碰撞回调，但是不会发生物理碰撞效果。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/physics/collider/CCPhysicsCollider.js:72](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L72) |
-
-
-
-##### friction
-
-> 摩擦系数，取值一般在 [0, 1] 之间
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/collider/CCPhysicsCollider.js:90](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L90) |
-
-
-
-##### restitution
-
-> 弹性系数，取值一般在 [0, 1]之间
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/collider/CCPhysicsCollider.js:108](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L108) |
-
-
-
-##### body
-
-> 碰撞体会在初始化时查找节点上是否存在刚体，如果查找成功则赋值到这个属性上。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/RigidBody.html" class="crosslink">RigidBody</a> |
-| 定义于 | [cocos2d/core/physics/collider/CCPhysicsCollider.js:126](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L126) |
-
-
-
-##### tag
-
-> 标签。当一个节点上有多个碰撞组件时，在发生碰撞后，可以使用此标签来判断是节点上的哪个碰撞组件被碰撞了。
-
-| meta | description |
-|------|-------------|
-| 类型 | Integer |
-| 定义于 | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/collider/CCCollider.js#L47) |
-
 
 
 ##### __eventTargets
@@ -335,23 +245,13 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 #### 方法
 
 
-##### apply
+##### updateSubContextViewport
 
-应用当前 collider 中的修改，调用此函数会重新生成内部 box2d 的夹具。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/physics/collider/CCPhysicsCollider.js:253](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L253) |
-
-
-
-##### getAABB
-
-获取碰撞体的世界坐标系下的包围盒
+更新开放数据域相对于主域的 viewport，这个函数应该在节点包围盒改变时手动调用。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/physics/collider/CCPhysicsCollider.js:265](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/physics/collider/CCPhysicsCollider.js#L265) |
+| 定义于 | [cocos2d/core/components/WXSubContextView.js:115](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/components/WXSubContextView.js#L115) |
 
 
 
