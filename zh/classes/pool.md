@@ -41,7 +41,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/js.js:923](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L923) |
+| 定义于 | [cocos2d/core/platform/js.js:923](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L923) |
 
 
 
@@ -58,7 +58,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:888](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L888) |
+| 定义于 | [cocos2d/core/platform/js.js:888](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L888) |
 
 ###### 参数列表
 - `cleanupFunc` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> the callback method used to process the cleanup logic when the object is recycled.
@@ -73,7 +73,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/js.js:913](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L913) |
+| 定义于 | [cocos2d/core/platform/js.js:913](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L913) |
 
 ###### 参数列表
 - `params` Any parameters to used to initialize the object
@@ -86,7 +86,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; Null 
-| 定义于 | [cocos2d/core/platform/js.js:933](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L933) |
+| 定义于 | [cocos2d/core/platform/js.js:933](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L933) |
 
 
 
@@ -96,7 +96,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:951](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L951) |
+| 定义于 | [cocos2d/core/platform/js.js:951](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L951) |
 
 
 
@@ -106,7 +106,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:967](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/platform/js.js#L967) |
+| 定义于 | [cocos2d/core/platform/js.js:967](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L967) |
 
 
 

@@ -57,7 +57,6 @@ AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程�
   - [Layout.Type](../enums/Layout.Type.md)
   - [Layout.VerticalDirection](../enums/Layout.VerticalDirection.md)
   - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
-  - [macro](../enums/macro.md)
   - [macro.BlendFactor](../enums/macro.BlendFactor.md)
   - [macro.ImageFormat](../enums/macro.ImageFormat.md)
   - [macro.KEY](../enums/macro.KEY.md)
@@ -123,7 +122,7 @@ AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程�
 | meta | description |
 |------|-------------|
 | 类型 | anysdk.AgentManager |
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/extensions/anysdk/jsb_anysdk.js#L40) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 

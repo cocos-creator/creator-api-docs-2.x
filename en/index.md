@@ -84,6 +84,7 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`Layout`](classes/Layout.md) from [cc](modules/cc.md)
 - [`loader`](classes/loader.md) from [cc](modules/cc.md)
 - [`LoadingItems`](classes/LoadingItems.md) from [cc](modules/cc.md)
+- [`macro`](classes/macro.md) from [cc](modules/cc.md)
 - [`Manifold`](classes/Manifold.md) from [cc](modules/cc.md)
 - [`ManifoldPoint`](classes/ManifoldPoint.md) from [cc](modules/cc.md)
 - [`Mask`](classes/Mask.md) from [cc](modules/cc.md)
@@ -187,6 +188,7 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`WheelJoint`](classes/WheelJoint.md) from [cc](modules/cc.md)
 - [`Widget`](classes/Widget.md) from [cc](modules/cc.md)
 - [`WorldManifold`](classes/WorldManifold.md) from [cc](modules/cc.md)
+- [`WXSubContextView`](classes/WXSubContextView.md) from [cc](modules/cc.md)
 
 ### Enums
 
@@ -218,7 +220,6 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`Layout.Type`](enums/Layout.Type.md) from [cc](modules/cc.md)
 - [`Layout.VerticalDirection`](enums/Layout.VerticalDirection.md) from [cc](modules/cc.md)
 - [`LoadingItems.ItemState`](enums/LoadingItems.ItemState.md) from [cc](modules/cc.md)
-- [`macro`](enums/macro.md) from [cc](modules/cc.md)
 - [`macro.BlendFactor`](enums/macro.BlendFactor.md) from [cc](modules/cc.md)
 - [`macro.ImageFormat`](enums/macro.ImageFormat.md) from [cc](modules/cc.md)
 - [`macro.KEY`](enums/macro.KEY.md) from [cc](modules/cc.md)

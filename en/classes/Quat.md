@@ -4,7 +4,6 @@ Extends [`ValueType`](ValueType.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Representation of 2D vectors and points.
@@ -46,7 +45,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/quat.js:68](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/quat.js#L68) |
+| Defined in | [cocos2d/core/value-types/quat.js:68](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L68) |
 
 
 
@@ -57,7 +56,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/quat.js:71](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/quat.js#L71) |
+| Defined in | [cocos2d/core/value-types/quat.js:71](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L71) |
 
 
 
@@ -68,7 +67,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/quat.js:74](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/quat.js#L74) |
+| Defined in | [cocos2d/core/value-types/quat.js:74](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L74) |
 
 
 
@@ -79,7 +78,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/quat.js:77](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/quat.js#L77) |
+| Defined in | [cocos2d/core/value-types/quat.js:77](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L77) |
 
 
 
@@ -97,7 +96,7 @@ see <a href="../modules/cc.html#method_quat" class="crosslink">cc.quat</a>
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.js:41](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/quat.js#L41) |
+| Defined in | [cocos2d/core/value-types/quat.js:41](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L41) |
 
 ###### Parameters
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -113,7 +112,7 @@ clone a Quat object and return the new object
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/quat.js:84](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/quat.js#L84) |
+| Defined in | [cocos2d/core/value-types/quat.js:84](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L84) |
 
 
 
@@ -124,7 +123,7 @@ Set values with another quaternion
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/quat.js:94](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/quat.js#L94) |
+| Defined in | [cocos2d/core/value-types/quat.js:94](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L94) |
 
 ###### Parameters
 - `newValue` <a href="../classes/Quat.html" class="crosslink">Quat</a> !#en new value to set. !#zh 要设置的新值
@@ -137,7 +136,7 @@ Check whether current quaternion equals another
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/quat.js:110](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/quat.js#L110) |
+| Defined in | [cocos2d/core/value-types/quat.js:110](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L110) |
 
 ###### Parameters
 - `other` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
@@ -150,7 +149,7 @@ The convenience method to create a new <a href="../classes/Quat.html" class="cro
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/quat.js:141](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/quat.js#L141) |
+| Defined in | [cocos2d/core/value-types/quat.js:141](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L141) |
 
 ###### Parameters
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -167,7 +166,7 @@ When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| Defined in | [cocos2d/core/value-types/value-type.js:67](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/value-type.js#L67) |
+| Defined in | [cocos2d/core/value-types/value-type.js:67](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/value-type.js#L67) |
 
 ###### Parameters
 - `to` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value
@@ -181,7 +180,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| Defined in | [cocos2d/core/value-types/value-type.js:97](https://github.com/cocos-creator/engine/blob/20d5a388c0828fd4eeb28e5c103bee9c4388590d/cocos2d/core/value-types/value-type.js#L97) |
+| Defined in | [cocos2d/core/value-types/value-type.js:97](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/value-type.js#L97) |
 
 
 

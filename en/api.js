@@ -385,12 +385,6 @@ window.apimeta = {
       "description": "Enum for debug modes."
     },
     {
-      "name": "macro",
-      "namespace": "cc.macro",
-      "module": "cc",
-      "description": "Predefined constants"
-    },
-    {
       "name": "macro.BlendFactor",
       "namespace": "cc.macro.BlendFactor",
       "module": "cc",
@@ -1317,6 +1311,12 @@ window.apimeta = {
       "description": "Handling touch events in a ViewGroup takes special care,\nbecause it's common for a ViewGroup to have children that are targets for different touch events than the ViewGroup itself.\nTo make sure that each view correctly receives the touch events intended for it,\nViewGroup should register capture phase event and handle the event propagation properly.\nPlease refer to Scrollview for more  information."
     },
     {
+      "name": "WXSubContextView",
+      "namespace": "cc.WXSubContextView",
+      "module": "cc",
+      "description": "WXSubContextView is a view component which controls open data context viewport in Wechat game platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,\nyou need to manually reset the viewport of sub context using updateSubContextViewport."
+    },
+    {
       "name": "WebView",
       "namespace": "cc.WebView",
       "module": "cc",
@@ -1381,6 +1381,12 @@ window.apimeta = {
       "namespace": "cc.loader",
       "module": "cc",
       "description": "Loader for resource loading process. It's a singleton object."
+    },
+    {
+      "name": "macro",
+      "namespace": "cc.macro",
+      "module": "cc",
+      "description": "Predefined constants"
     },
     {
       "name": "misc",

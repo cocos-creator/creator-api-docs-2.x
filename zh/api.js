@@ -385,12 +385,6 @@ window.apimeta = {
       "description": "调试模式"
     },
     {
-      "name": "macro",
-      "namespace": "cc.macro",
-      "module": "cc",
-      "description": "Predefined constants"
-    },
-    {
       "name": "macro.BlendFactor",
       "namespace": "cc.macro.BlendFactor",
       "module": "cc",
@@ -1317,6 +1311,12 @@ window.apimeta = {
       "description": "ViewGroup的事件处理比较特殊，因为 ViewGroup 里面的子节点关心的事件跟 ViewGroup 本身可能不一样。\n为了让子节点能够正确地处理事件，ViewGroup 需要注册 capture 阶段的事件，并且合理地处理 ViewGroup 之间的事件传递。\n请参考 ScrollView 的实现来获取更多信息。"
     },
     {
+      "name": "WXSubContextView",
+      "namespace": "cc.WXSubContextView",
+      "module": "cc",
+      "description": "WXSubContextView 可以用来控制微信小游戏平台开放数据域在主域中的视窗的位置。<br/>\n这个组件的节点尺寸决定了开放数据域内容在主域中的尺寸，整个开放数据域会被缩放到节点的包围盒范围内。<br/>\n在这个组件的控制下，用户可以更自由得控制开放数据域：<br/>\n1. 子域中可以使用独立的设计分辨率和适配模式<br/>\n2. 子域区域尺寸可以缩小到只容纳内容即可<br/>\n3. 子域的分辨率也可以被放大，以便获得更清晰的显示效果<br/>\n4. 用户输入坐标会被自动转换到正确的子域视窗中<br/>\n5. 子域内容贴图的更新由组件负责，用户不需要处理<br/>\n唯一需要注意的是，当子域节点的包围盒发生改变时，开发者需要使用 `updateSubContextViewport` 来手动更新子域视窗。"
+    },
+    {
       "name": "WebView",
       "namespace": "cc.WebView",
       "module": "cc",
@@ -1381,6 +1381,12 @@ window.apimeta = {
       "namespace": "cc.loader",
       "module": "cc",
       "description": "Loader for resource loading process. It's a singleton object."
+    },
+    {
+      "name": "macro",
+      "namespace": "cc.macro",
+      "module": "cc",
+      "description": "Predefined constants"
     },
     {
       "name": "misc",
