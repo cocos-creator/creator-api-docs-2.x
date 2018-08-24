@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 The EditBox's InputMode defines the type of text that the user is allowed to enter.
@@ -28,7 +27,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:71](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCEditBox.js#L71) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:71](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCEditBox.js#L71) |
 
 
 
@@ -39,7 +38,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:76](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCEditBox.js#L76) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:76](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCEditBox.js#L76) |
 
 
 
@@ -50,7 +49,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:81](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCEditBox.js#L81) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:81](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCEditBox.js#L81) |
 
 
 
@@ -61,7 +60,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:86](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCEditBox.js#L86) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:86](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCEditBox.js#L86) |
 
 
 
@@ -72,7 +71,7 @@ The EditBox's InputMode defines the type of text that the user is allowed to ent
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:91](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCEditBox.js#L91) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:91](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCEditBox.js#L91) |
 
 
 
@@ -84,7 +83,7 @@ This extends kEditBoxInputModeNumeric by allowing a decimal point.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:96](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCEditBox.js#L96) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:96](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCEditBox.js#L96) |
 
 
 
@@ -95,6 +94,6 @@ This extends kEditBoxInputModeNumeric by allowing a decimal point.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:104](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/components/CCEditBox.js#L104) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:104](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCEditBox.js#L104) |
 
 

@@ -1,49 +1,33 @@
-## `Pool` 类型
+## `pool` 类型
 
 
 
 模块: [cc](../modules/cc.md)
-父模块: [js](../modules/js.md)
 
+废弃: !#en Please use cc.NodePool instead !#zh 请使用 cc.NodePool 代替
 
-长度固定的对象缓存池，可以用来缓存各种对象类型。<br/>
-这个对象池的实现非常精简，它可以帮助您提高游戏性能，适用于优化对象的反复创建和销毁。
+首先请注意，在 Creator 中我们强烈不建议使用 cc.pool 来管理 cc.Node 节点对象，请使用 <a href="../classes/NodePool.html" class="crosslink">cc.NodePool</a> 代替
+因为 cc.pool 是面向类来设计的，而 cc.Node 中使用 Component 来进行组合，它的类永远都一样，实际却千差万别。
+
+cc.pool 是一个单例对象，用作为对象缓存池。<br/>
+它可以帮助您提高游戏性能，适用于优化对象的反复创建和销毁<br/>
 
 
 ### 索引
-
-##### 属性（properties）
-
-  - [`count`](#count) `Number` 当前可用对象数量，一开始默认是 0，随着对象的回收会逐渐增大，最大不会超过调用构造函数时指定的 size。
 
 
 
 ##### 方法
 
-  - [`constructor`](#constructor) 使用构造函数来创建一个指定对象类型的对象池，您可以传递一个回调函数，用于处理对象回收时的清理逻辑。
-  - [`get`](#get) 获取并初始化对象池中的对象。
-  - [`_get`](#get) 获取对象池中的对象，如果对象池没有可用对象，则返回空。
-  - [`put`](#put) 向对象池返还一个不再需要的对象。
-  - [`resize`](#resize) 设置对象池容量。
+  - [`putInPool`](#putinpool) 加入对象到对象池中。
+  - [`hasObject`](#hasobject) 检查对象池中是否有指定对象的存在。
+  - [`removeObject`](#removeobject) 移除在对象池中指定的对象。
+  - [`getFromPool`](#getfrompool) 获取对象池中的指定对象。
+  - [`drainAllPools`](#drainallpools) 移除对象池中的所有对象，并且重置对象池。
 
 
 
 ### Details
-
-
-#### 属性（properties）
-
-
-##### count
-
-> 当前可用对象数量，一开始默认是 0，随着对象的回收会逐渐增大，最大不会超过调用构造函数时指定的 size。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/js.js:897](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L897) |
-
-
 
 
 
@@ -52,41 +36,77 @@
 #### 方法
 
 
-##### constructor
+##### putInPool
 
-使用构造函数来创建一个指定对象类型的对象池，您可以传递一个回调函数，用于处理对象回收时的清理逻辑。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:862](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L862) |
-
-###### 参数列表
-- `cleanupFunc` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> the callback method used to process the cleanup logic when the object is recycled.
-	- `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-- `size` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> initializes the length of the array
-
-
-##### get
-
-获取并初始化对象池中的对象。这个方法默认为空，需要用户自己实现。
+加入对象到对象池中。
 
 | meta | description |
 |------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/js.js:887](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L887) |
+| 定义于 | [extensions/ccpool/CCPool.js:61](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/ccpool/CCPool.js#L61) |
 
 ###### 参数列表
-- `params` Any parameters to used to initialize the object
+- `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The need put in pool object.
 
+##### 示例
 
-##### _get
+```js
+---------------------------------
+var sp = new _ccsg.Sprite("a.png");
+this.addChild(sp);
+cc.pool.putInPool(sp);
+cc.pool.getFromPool(_ccsg.Sprite, "a.png");
 
-获取对象池中的对象，如果对象池没有可用对象，则返回空。
+```
+
+##### hasObject
+
+检查对象池中是否有指定对象的存在。
 
 | meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [extensions/ccpool/CCPool.js:81](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/ccpool/CCPool.js#L81) |
+
+###### 参数列表
+- `objClass` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The check object class.
+
+
+##### removeObject
+
+移除在对象池中指定的对象。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [extensions/ccpool/CCPool.js:97](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/ccpool/CCPool.js#L97) |
+
+
+
+##### getFromPool
+
+获取对象池中的指定对象。
+
+| meta | description |
+|------|-------------|
+| 返回 | Any 
+| 定义于 | [extensions/ccpool/CCPool.js:116](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/ccpool/CCPool.js#L116) |
+
+
+
+##### drainAllPools
+
+移除对象池中的所有对象，并且重置对象池。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [extensions/ccpool/CCPool.js:138](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/ccpool/CCPool.js#L138) |
+
+
+
+
+iption |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; Null 
-| 定义于 | [cocos2d/core/platform/js.js:907](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L907) |
+| 定义于 | [cocos2d/core/platform/js.js:907](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L907) |
 
 
 
@@ -96,7 +116,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:925](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L925) |
+| 定义于 | [cocos2d/core/platform/js.js:925](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L925) |
 
 
 
@@ -106,7 +126,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:941](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L941) |
+| 定义于 | [cocos2d/core/platform/js.js:941](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L941) |
 
 
 
