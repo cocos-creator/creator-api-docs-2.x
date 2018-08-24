@@ -43,7 +43,7 @@ Removes the array item at the specified index.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:657](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L657) |
+| Defined in | [cocos2d/core/platform/js.js:657](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L657) |
 
 ###### Parameters
 - `array` Any 
@@ -57,7 +57,7 @@ It's faster but the order of the array will be changed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:667](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L667) |
+| Defined in | [cocos2d/core/platform/js.js:667](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L667) |
 
 ###### Parameters
 - `array` Any 
@@ -71,7 +71,7 @@ Removes the first occurrence of a specific object from the array.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/js.js:683](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L683) |
+| Defined in | [cocos2d/core/platform/js.js:683](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L683) |
 
 ###### Parameters
 - `array` Any 
@@ -85,7 +85,7 @@ It's faster but the order of the array will be changed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:701](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L701) |
+| Defined in | [cocos2d/core/platform/js.js:701](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L701) |
 
 ###### Parameters
 - `array` Any 
@@ -99,7 +99,7 @@ Verify array's Type
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/js.js:716](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L716) |
+| Defined in | [cocos2d/core/platform/js.js:716](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L716) |
 
 ###### Parameters
 - `array` <a href="../classes/array.html" class="crosslink">array</a> 
@@ -112,7 +112,7 @@ Removes from array all values in minusArr. For each Value in minusArr, the first
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:735](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L735) |
+| Defined in | [cocos2d/core/platform/js.js:735](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L735) |
 
 ###### Parameters
 - `array` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> Source Array
@@ -126,7 +126,7 @@ Inserts some objects at index
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [cocos2d/core/platform/js.js:747](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L747) |
+| Defined in | [cocos2d/core/platform/js.js:747](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L747) |
 
 ###### Parameters
 - `array` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -143,7 +143,7 @@ Baidu developers, if you ever see this documentation, here is the standard: http
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/platform/js.js:760](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L760) |
+| Defined in | [cocos2d/core/platform/js.js:760](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L760) |
 
 ###### Parameters
 - `searchElement` Any Element to locate in the array.
@@ -157,7 +157,7 @@ Determines whether the array contains a specific value.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/js.js:772](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L772) |
+| Defined in | [cocos2d/core/platform/js.js:772](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L772) |
 
 ###### Parameters
 - `array` Any 
@@ -171,7 +171,7 @@ Copy an array's item to a new array (its performance is better than Array.slice)
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [cocos2d/core/platform/js.js:783](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/js.js#L783) |
+| Defined in | [cocos2d/core/platform/js.js:783](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L783) |
 
 ###### Parameters
 - `array` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 

@@ -42,7 +42,7 @@ Description
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/textures/CCTextureCache.js:44](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/textures/CCTextureCache.js#L44) |
+| 定义于 | [cocos2d/core/textures/CCTextureCache.js:44](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTextureCache.js#L44) |
 
 
 
@@ -53,7 +53,7 @@ Returns an already created texture. Returns null if the texture doesn't exist.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> &#124; Null 
-| 定义于 | [cocos2d/core/textures/CCTextureCache.js:53](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/textures/CCTextureCache.js#L53) |
+| 定义于 | [cocos2d/core/textures/CCTextureCache.js:53](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTextureCache.js#L53) |
 
 ###### 参数列表
 - `textureKeyName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -73,7 +73,7 @@ var key = cc.textureCache.getTextureForKey("hello.png");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/textures/CCTextureCache.js:83](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/textures/CCTextureCache.js#L83) |
+| 定义于 | [cocos2d/core/textures/CCTextureCache.js:83](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTextureCache.js#L83) |
 
 ###### 参数列表
 - `texture` HTMLImageElement 
@@ -93,7 +93,7 @@ var cacheTextureForColor = cc.textureCache.getTextureColors(texture);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D[]</a> 
-| 定义于 | [cocos2d/core/textures/CCTextureCache.js:104](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/textures/CCTextureCache.js#L104) |
+| 定义于 | [cocos2d/core/textures/CCTextureCache.js:104](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTextureCache.js#L104) |
 
 
 
@@ -107,7 +107,7 @@ In the long term: it will be the same</p>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/textures/CCTextureCache.js:119](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/textures/CCTextureCache.js#L119) |
+| 定义于 | [cocos2d/core/textures/CCTextureCache.js:119](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTextureCache.js#L119) |
 
 
 ##### 示例
@@ -124,7 +124,7 @@ Deletes a texture from the cache given a texture.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/textures/CCTextureCache.js:137](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/textures/CCTextureCache.js#L137) |
+| 定义于 | [cocos2d/core/textures/CCTextureCache.js:137](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTextureCache.js#L137) |
 
 ###### 参数列表
 - `texture` HTMLImageElement 
@@ -143,7 +143,7 @@ Deletes a texture from the cache given a its key name.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/textures/CCTextureCache.js:156](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/textures/CCTextureCache.js#L156) |
+| 定义于 | [cocos2d/core/textures/CCTextureCache.js:156](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTextureCache.js#L156) |
 
 ###### 参数列表
 - `textureKeyName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -167,7 +167,7 @@ Supported image extensions: .png, .jpg, .gif
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
-| 定义于 | [cocos2d/core/textures/CCTextureCache.js:178](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/textures/CCTextureCache.js#L178) |
+| 定义于 | [cocos2d/core/textures/CCTextureCache.js:178](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTextureCache.js#L178) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -188,7 +188,7 @@ Cache the image data.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/textures/CCTextureCache.js:229](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/textures/CCTextureCache.js#L229) |
+| 定义于 | [cocos2d/core/textures/CCTextureCache.js:229](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTextureCache.js#L229) |
 
 ###### 参数列表
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 

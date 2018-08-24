@@ -5,7 +5,7 @@
   "url": "http://cocos.com/creator",
   "logo": "",
   "options": {
-    "version": "1.9.0",
+    "version": "1.10",
     "sourceURL": {
         "org": "cocos-creator",
         "repo": "engine",

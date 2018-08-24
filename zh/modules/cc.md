@@ -273,7 +273,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`error`](#error) 输出错误消息到 Cocos Creator 编辑器的 Console 或运行时页面端的 Console 中。
   - [`warn`](#warn) 输出警告消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
   - [`log`](#log) 输出一条消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
-  - [`info`](#info) 输出一条信息消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
   - [`speed`](#speed) 修改目标动作的速率。
   - [`follow`](#follow) 追踪目标节点的位置。
   - [`setPoints`](#setpoints) Points setter
@@ -350,10 +349,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`reverseTime`](#reversetime) 反转目标动作的时间轴。
   - [`targetedAction`](#targetedaction) 用已有动作和一个新的目标节点创建动作。
   - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive....
-  - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
-  - [`colorEqual`](#colorequal) 判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
-  - [`hexToColor`](#hextocolor) 16 进制转换为 Color
-  - [`colorToHex`](#colortohex) Color 转换为 16进制。
   - [`pNeg`](#pneg) 返回相反的向量。
   - [`pAdd`](#padd) 返回两个向量的和。
   - [`pSub`](#psub) 返回两个向量的差。
@@ -392,14 +387,12 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`pSubIn`](#psubin) 向量减法，结果保存到第一个向量。
   - [`pAddIn`](#paddin) 向量加法，结果保存到第一个向量。
   - [`pNormalizeIn`](#pnormalizein) 规范化 v 向量，设置 v 向量长度为 1。
+  - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
+  - [`colorEqual`](#colorequal) 判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
+  - [`hexToColor`](#hextocolor) 16 进制转换为 Color
+  - [`colorToHex`](#colortohex) Color 转换为 16进制。
   - [`size`](#size) 创建一个 cc.Size 对象的帮助函数。
   - [`sizeEqualToSize`](#sizeequaltosize) 检查 Size 对象是否等于另一个。
-  - [`V3F_C4B_T2F_QuadZero`](#v3fc4bt2fquadzero) 
-  - [`V3F_C4B_T2F_QuadCopy`](#v3fc4bt2fquadcopy) 
-  - [`V3F_C4B_T2F_QuadsCopy`](#v3fc4bt2fquadscopy) 
-  - [`v2`](#v2) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
-  - [`p`](#p) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
-  - [`pointEqualToPoint`](#pointequaltopoint) 判断两个向量是否相等。
   - [`rect`](#rect) 该方法用来快速创建一个新的矩形。
   - [`rectEqualToRect`](#rectequaltorect) 判断两个矩形是否相等。
   - [`rectContainsRect`](#rectcontainsrect) 检查 rect1 矩形是否包含 rect2 矩形。
@@ -414,6 +407,12 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`rectOverlapsRect`](#rectoverlapsrect) 检查一个矩形是否重叠另一个。
   - [`rectUnion`](#rectunion) 返回一个包含两个指定矩形的最小矩形。
   - [`rectIntersection`](#rectintersection) 返回 2 个矩形重叠的部分。
+  - [`v2`](#v2) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
+  - [`p`](#p) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
+  - [`pointEqualToPoint`](#pointequaltopoint) 判断两个向量是否相等。
+  - [`V3F_C4B_T2F_QuadZero`](#v3fc4bt2fquadzero) 
+  - [`V3F_C4B_T2F_QuadCopy`](#v3fc4bt2fquadcopy) 
+  - [`V3F_C4B_T2F_QuadsCopy`](#v3fc4bt2fquadscopy) 
   - [`handleTouchesBegin`](#handletouchesbegin) 
   - [`handleTouchesMove`](#handletouchesmove) 
   - [`handleTouchesEnd`](#handletouchesend) 
@@ -475,7 +474,7 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 | meta | description |
 |------|-------------|
 | 类型 | CanvasRenderingContext2D &#124; WebGLRenderingContext |
-| 定义于 | [CCBoot.js:30](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/CCBoot.js#L30) |
+| 定义于 | [CCBoot.js:30](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/CCBoot.js#L30) |
 
 
 
@@ -486,7 +485,7 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 | meta | description |
 |------|-------------|
 | 类型 | HTMLCanvasElement |
-| 定义于 | [CCBoot.js:37](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/CCBoot.js#L37) |
+| 定义于 | [CCBoot.js:37](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/CCBoot.js#L37) |
 
 
 
@@ -497,7 +496,7 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 | meta | description |
 |------|-------------|
 | 类型 | HTMLDivElement |
-| 定义于 | [CCBoot.js:43](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/CCBoot.js#L43) |
+| 定义于 | [CCBoot.js:43](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/CCBoot.js#L43) |
 
 
 
@@ -510,7 +509,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [predefine.js:156](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/predefine.js#L156) |
+| 定义于 | [predefine.js:156](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/predefine.js#L156) |
 
 
 
@@ -521,7 +520,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/View.html" class="crosslink">View</a> |
-| 定义于 | [cocos2d/core/CCGame.js:378](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/CCGame.js#L378) |
+| 定义于 | [cocos2d/core/CCGame.js:378](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/CCGame.js#L378) |
 
 
 
@@ -532,7 +531,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Director.html" class="crosslink">Director</a> |
-| 定义于 | [cocos2d/core/CCGame.js:386](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/CCGame.js#L386) |
+| 定义于 | [cocos2d/core/CCGame.js:386](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/CCGame.js#L386) |
 
 
 
@@ -543,7 +542,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| 定义于 | [cocos2d/core/CCGame.js:395](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/CCGame.js#L395) |
+| 定义于 | [cocos2d/core/CCGame.js:395](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/CCGame.js#L395) |
 
 
 
@@ -554,7 +553,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Game.html" class="crosslink">Game</a> |
-| 定义于 | [cocos2d/core/CCGame.js:848](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/CCGame.js#L848) |
+| 定义于 | [cocos2d/core/CCGame.js:848](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/CCGame.js#L848) |
 
 
 
@@ -565,7 +564,7 @@ If you post a bug to forum, please attach this flag.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
-| 定义于 | [cocos2d/core/event/system-event.js:195](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/event/system-event.js#L195) |
+| 定义于 | [cocos2d/core/event/system-event.js:195](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event/system-event.js#L195) |
 
 
 
@@ -577,7 +576,7 @@ Also used to indicates that the elements in array should be type integer.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| 定义于 | [cocos2d/core/platform/attribute.js:153](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/attribute.js#L153) |
+| 定义于 | [cocos2d/core/platform/attribute.js:153](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/attribute.js#L153) |
 
 ##### 示例
 
@@ -598,7 +597,7 @@ member: {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| 定义于 | [cocos2d/core/platform/attribute.js:172](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/attribute.js#L172) |
+| 定义于 | [cocos2d/core/platform/attribute.js:172](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/attribute.js#L172) |
 
 ##### 示例
 
@@ -619,7 +618,7 @@ member: {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| 定义于 | [cocos2d/core/platform/attribute.js:197](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/attribute.js#L197) |
+| 定义于 | [cocos2d/core/platform/attribute.js:197](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/attribute.js#L197) |
 
 ##### 示例
 
@@ -640,7 +639,7 @@ member: {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| 定义于 | [cocos2d/core/platform/attribute.js:215](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/attribute.js#L215) |
+| 定义于 | [cocos2d/core/platform/attribute.js:215](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/attribute.js#L215) |
 
 ##### 示例
 
@@ -667,7 +666,7 @@ member: {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [CCDebugger.js:103](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/CCDebugger.js#L103) |
+| 定义于 | [CCDebugger.js:103](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/CCDebugger.js#L103) |
 
 ###### 参数列表
 - `mode` <a href="../enums/DebugMode.html" class="crosslink">DebugMode</a> 
@@ -681,7 +680,7 @@ member: {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [CCDebugger.js:181](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/CCDebugger.js#L181) |
+| 定义于 | [CCDebugger.js:181](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/CCDebugger.js#L181) |
 
 ###### 参数列表
 - `msg` Any A JavaScript string containing zero or more substitution strings.
@@ -696,7 +695,7 @@ member: {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [CCDebugger.js:225](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/CCDebugger.js#L225) |
+| 定义于 | [CCDebugger.js:225](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/CCDebugger.js#L225) |
 
 ###### 参数列表
 - `msg` Any A JavaScript string containing zero or more substitution strings.
@@ -709,25 +708,10 @@ member: {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [CCDebugger.js:256](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/CCDebugger.js#L256) |
+| 定义于 | [CCDebugger.js:255](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/CCDebugger.js#L255) |
 
 ###### 参数列表
 - `msg` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings.
-- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
-
-
-##### info
-
-输出一条信息消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
-- 在 Cocos Creator 中，Info 信息显示是蓝色的。<br/>
-- 在 Firefox 和  Chrome 中，Info 信息有着小 “i” 图标。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [CCDebugger.js:282](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/CCDebugger.js#L282) |
-
-###### 参数列表
-- `msg` Any A JavaScript string containing zero or more substitution strings.
 - `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
 
 
@@ -738,7 +722,7 @@ member: {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Action.html" class="crosslink">Action</a> 
-| 定义于 | [cocos2d/actions/CCAction.js:367](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCAction.js#L367) |
+| 定义于 | [cocos2d/actions/CCAction.js:367](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCAction.js#L367) |
 
 ###### 参数列表
 - `action` <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
@@ -759,7 +743,7 @@ var newAction = cc.speed(action, 0.5);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Action.html" class="crosslink">Action</a> &#124; Null 
-| 定义于 | [cocos2d/actions/CCAction.js:562](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCAction.js#L562) |
+| 定义于 | [cocos2d/actions/CCAction.js:562](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCAction.js#L562) |
 
 ###### 参数列表
 - `followedNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -784,7 +768,7 @@ Points setter
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:225](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionCatmullRom.js#L225) |
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:225](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionCatmullRom.js#L225) |
 
 ###### 参数列表
 - `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -797,7 +781,7 @@ Points setter
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:235](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionCatmullRom.js#L235) |
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:235](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionCatmullRom.js#L235) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -817,7 +801,7 @@ update position of target
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:319](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionCatmullRom.js#L319) |
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:319](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionCatmullRom.js#L319) |
 
 ###### 参数列表
 - `newPos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -830,7 +814,7 @@ update position of target
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:340](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionCatmullRom.js#L340) |
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:340](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionCatmullRom.js#L340) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -845,7 +829,7 @@ update position of target
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:386](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionCatmullRom.js#L386) |
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:386](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionCatmullRom.js#L386) |
 
 ###### 参数列表
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -864,7 +848,7 @@ var action1 = cc.catmullRomTo(3, array);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:434](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionCatmullRom.js#L434) |
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:434](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionCatmullRom.js#L434) |
 
 ###### 参数列表
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -883,7 +867,7 @@ var action1 = cc.catmullRomBy(3, array);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:198](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L198) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:198](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L198) |
 
 ###### 参数列表
 - `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -901,7 +885,7 @@ action.easing(cc.easeIn(3.0));
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:248](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L248) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:248](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L248) |
 
 ###### 参数列表
 - `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -919,7 +903,7 @@ action.easing(cc.easeOut(3.0));
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:302](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L302) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:302](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L302) |
 
 ###### 参数列表
 - `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -939,7 +923,7 @@ EaseExponentialIn 是按指数函数缓动进入的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:367](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L367) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:367](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L367) |
 
 
 ##### 示例
@@ -957,7 +941,7 @@ EaseExponentialOut 是按指数函数缓动退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:422](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L422) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:422](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L422) |
 
 
 ##### 示例
@@ -975,7 +959,7 @@ EaseExponentialInOut 是按指数函数缓动进入并退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:492](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L492) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:492](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L492) |
 
 
 ##### 示例
@@ -993,7 +977,7 @@ EaseSineIn 是按正弦函数缓动进入的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:547](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L547) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:547](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L547) |
 
 
 ##### 示例
@@ -1011,7 +995,7 @@ EaseSineIn 是按正弦函数缓动退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:603](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L603) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:603](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L603) |
 
 
 ##### 示例
@@ -1029,7 +1013,7 @@ EaseSineIn 是按正弦函数缓动进入并退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:659](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L659) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:659](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L659) |
 
 
 ##### 示例
@@ -1047,7 +1031,7 @@ EaseElasticIn 是按弹性曲线缓动进入的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:788](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L788) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:788](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L788) |
 
 ###### 参数列表
 - `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1068,7 +1052,7 @@ EaseElasticOut 是按弹性曲线缓动退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:868](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L868) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:868](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L868) |
 
 ###### 参数列表
 - `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1089,7 +1073,7 @@ EaseElasticInOut 是按弹性曲线缓动进入并退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:944](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L944) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:944](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L944) |
 
 ###### 参数列表
 - `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1109,7 +1093,7 @@ EaseBounceIn 是按弹跳动作缓动进入的动作。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1082](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1082) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1082](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1082) |
 
 
 ##### 示例
@@ -1127,7 +1111,7 @@ EaseBounceOut 是按弹跳动作缓动退出的动作。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1137](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1137) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1137](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1137) |
 
 
 ##### 示例
@@ -1145,7 +1129,7 @@ EaseBounceInOut 是按弹跳动作缓动进入并退出的动作。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1205](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1205) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1205](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1205) |
 
 
 ##### 示例
@@ -1163,7 +1147,7 @@ easeBackIn 是在相反的方向缓慢移动，然后加速到正确的方向。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1262](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1262) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1262](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1262) |
 
 
 ##### 示例
@@ -1181,7 +1165,7 @@ easeBackOut 快速移动超出目标，然后慢慢回到目标点。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1320](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1320) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1320](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1320) |
 
 
 ##### 示例
@@ -1198,7 +1182,7 @@ action.easing(cc.easeBackOut());
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1388](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1388) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1388](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1388) |
 
 
 ##### 示例
@@ -1216,7 +1200,7 @@ EaseBezierAction 是按贝塞尔曲线缓动的动作。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1470](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1470) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1470](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1470) |
 
 ###### 参数列表
 - `p0` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The first bezier parameter
@@ -1240,7 +1224,7 @@ EaseQuadraticIn是按二次函数缓动进入的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1540](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1540) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1540](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1540) |
 
 
 ##### 示例
@@ -1259,7 +1243,7 @@ EaseQuadraticOut 是按二次函数缓动退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1598](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1598) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1598](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1598) |
 
 
 ##### 示例
@@ -1278,7 +1262,7 @@ EaseQuadraticInOut 是按二次函数缓动进入并退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1664](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1664) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1664](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1664) |
 
 
 ##### 示例
@@ -1297,7 +1281,7 @@ EaseQuarticIn 是按四次函数缓动进入的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1721](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1721) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1721](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1721) |
 
 
 ##### 示例
@@ -1316,7 +1300,7 @@ EaseQuarticOut 是按四次函数缓动退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1780](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1780) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1780](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1780) |
 
 
 ##### 示例
@@ -1335,7 +1319,7 @@ EaseQuarticInOut 是按四次函数缓动进入并退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1841](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1841) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1841](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1841) |
 
 
 
@@ -1348,7 +1332,7 @@ EaseQuinticIn 是按五次函数缓动进的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1896](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1896) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1896](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1896) |
 
 
 ##### 示例
@@ -1367,7 +1351,7 @@ EaseQuinticOut 是按五次函数缓动退出的动作
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1955](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L1955) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:1955](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L1955) |
 
 
 ##### 示例
@@ -1386,7 +1370,7 @@ EaseQuinticInOut是按五次函数缓动进入并退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2017](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L2017) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:2017](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L2017) |
 
 
 ##### 示例
@@ -1405,7 +1389,7 @@ EaseCircleIn是按圆形曲线缓动进入的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2075](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L2075) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:2075](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L2075) |
 
 
 ##### 示例
@@ -1424,7 +1408,7 @@ EaseCircleOut是按圆形曲线缓动退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2134](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L2134) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:2134](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L2134) |
 
 
 ##### 示例
@@ -1443,7 +1427,7 @@ EaseCircleInOut 是按圆形曲线缓动进入并退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2196](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L2196) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:2196](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L2196) |
 
 
 ##### 示例
@@ -1462,7 +1446,7 @@ EaseCubicIn 是按三次函数缓动进入的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2254](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L2254) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:2254](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L2254) |
 
 
 ##### 示例
@@ -1481,7 +1465,7 @@ EaseCubicOut 是按三次函数缓动退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2313](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L2313) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:2313](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L2313) |
 
 
 ##### 示例
@@ -1500,7 +1484,7 @@ EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2375](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionEase.js#L2375) |
+| 定义于 | [cocos2d/actions/CCActionEase.js:2375](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionEase.js#L2375) |
 
 
 
@@ -1511,7 +1495,7 @@ EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| 定义于 | [cocos2d/actions/CCActionInstant.js:98](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInstant.js#L98) |
+| 定义于 | [cocos2d/actions/CCActionInstant.js:98](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInstant.js#L98) |
 
 
 ##### 示例
@@ -1528,7 +1512,7 @@ var showAction = cc.show();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| 定义于 | [cocos2d/actions/CCActionInstant.js:135](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInstant.js#L135) |
+| 定义于 | [cocos2d/actions/CCActionInstant.js:135](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInstant.js#L135) |
 
 
 ##### 示例
@@ -1545,7 +1529,7 @@ var hideAction = cc.hide();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| 定义于 | [cocos2d/actions/CCActionInstant.js:172](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInstant.js#L172) |
+| 定义于 | [cocos2d/actions/CCActionInstant.js:172](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInstant.js#L172) |
 
 
 ##### 示例
@@ -1562,7 +1546,7 @@ var toggleVisibilityAction = cc.toggleVisibility();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| 定义于 | [cocos2d/actions/CCActionInstant.js:222](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInstant.js#L222) |
+| 定义于 | [cocos2d/actions/CCActionInstant.js:222](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInstant.js#L222) |
 
 ###### 参数列表
 - `isNeedCleanUp ` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -1581,7 +1565,7 @@ X轴翻转。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| 定义于 | [cocos2d/actions/CCActionInstant.js:280](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInstant.js#L280) |
+| 定义于 | [cocos2d/actions/CCActionInstant.js:280](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInstant.js#L280) |
 
 ###### 参数列表
 - `flip` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Indicate whether the target should be flipped or not
@@ -1599,7 +1583,7 @@ Y轴翻转。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| 定义于 | [cocos2d/actions/CCActionInstant.js:336](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInstant.js#L336) |
+| 定义于 | [cocos2d/actions/CCActionInstant.js:336](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInstant.js#L336) |
 
 ###### 参数列表
 - `flip` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -1617,7 +1601,7 @@ var flipYAction = cc.flipY(true);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| 定义于 | [cocos2d/actions/CCActionInstant.js:400](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInstant.js#L400) |
+| 定义于 | [cocos2d/actions/CCActionInstant.js:400](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInstant.js#L400) |
 
 ###### 参数列表
 - `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1638,7 +1622,7 @@ var placeAction = cc.place(200, 200);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| 定义于 | [cocos2d/actions/CCActionInstant.js:510](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInstant.js#L510) |
+| 定义于 | [cocos2d/actions/CCActionInstant.js:510](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInstant.js#L510) |
 
 ###### 参数列表
 - `selector` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -1663,7 +1647,7 @@ var finish = cc.callFunc(this.removeFromParentAndCleanup, this._grossini,  true)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:440](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L440) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:440](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L440) |
 
 ###### 参数列表
 - `actionOrActionArray` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
@@ -1687,7 +1671,7 @@ var seq = cc.sequence(actArray);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:618](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L618) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:618](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L618) |
 
 ###### 参数列表
 - `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
@@ -1707,7 +1691,7 @@ var rep = cc.repeat(cc.sequence(jump2, jump1), 5);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:721](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L721) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:721](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L721) |
 
 ###### 参数列表
 - `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
@@ -1726,7 +1710,7 @@ var repeat = cc.repeatForever(cc.rotateBy(1.0, 360));
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:835](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L835) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:835](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L835) |
 
 ###### 参数列表
 - `actionOrActionArray` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
@@ -1747,7 +1731,7 @@ todo:It should be the direct use new
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:956](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L956) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:956](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L956) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -1768,7 +1752,7 @@ var rotateTo = cc.rotateTo(2, 61.0);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1043](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1043) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1043](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1043) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -1789,7 +1773,7 @@ var actionBy = cc.rotateBy(2, 360);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1162](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1162) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1162](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1162) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -1810,7 +1794,7 @@ var actionTo = cc.moveBy(2, cc.p(windowSize.width - 40, windowSize.height - 40))
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1240](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1240) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1240](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1240) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -1831,7 +1815,7 @@ var actionBy = cc.moveTo(2, cc.p(80, 80));
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1334](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1334) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1334](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1334) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
@@ -1852,7 +1836,7 @@ var actionTo = cc.skewTo(2, 37.2, -37.2);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1408](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1408) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1408](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1408) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
@@ -1873,7 +1857,7 @@ var actionBy = cc.skewBy(2, 0, -90);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1537](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1537) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1537](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1537) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1897,7 +1881,7 @@ var actionBy = cc.jumpBy(2, 300, 0, 50, 4);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1620](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1620) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1620](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1620) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1921,7 +1905,7 @@ var actionTo = cc.jumpTo(2, 300, 300, 50, 4);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1766](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1766) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1766](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1766) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
@@ -1942,7 +1926,7 @@ var bezierForward = cc.bezierBy(3, bezier);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1835](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1835) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1835](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1835) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1963,7 +1947,7 @@ var bezierTo = cc.bezierTo(2, bezier);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1920](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1920) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1920](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1920) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1988,7 +1972,7 @@ var actionTo = cc.scaleTo(2, 0.5, 2);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:1967](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L1967) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:1967](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L1967) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -2012,7 +1996,7 @@ var actionBy2 = cc.scaleBy(2, 0.25, 4.5);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:2052](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L2052) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:2052](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L2052) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -2032,7 +2016,7 @@ var action = cc.blink(2, 10);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:2118](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L2118) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:2118](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L2118) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2052,7 +2036,7 @@ var action = cc.fadeTo(1.0, 0);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:2173](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L2173) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:2173](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L2173) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -2071,7 +2055,7 @@ var action = cc.fadeIn(1.0);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:2220](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L2220) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:2220](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L2220) |
 
 ###### 参数列表
 - `d` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -2090,7 +2074,7 @@ var action = cc.fadeOut(1.0);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:2307](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L2307) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:2307](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L2307) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2112,7 +2096,7 @@ var action = cc.tintTo(2, 255, 0, 255);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:2400](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L2400) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:2400](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L2400) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -2134,7 +2118,7 @@ var action = cc.tintBy(2, -127, -255, -127);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:2441](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L2441) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:2441](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L2441) |
 
 ###### 参数列表
 - `d` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
@@ -2153,7 +2137,7 @@ var delay = cc.delayTime(1);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:2524](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L2524) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:2524](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L2524) |
 
 ###### 参数列表
 - `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
@@ -2172,7 +2156,7 @@ var delay = cc.delayTime(1);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionInterval.js:2781](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/actions/CCActionInterval.js#L2781) |
+| 定义于 | [cocos2d/actions/CCActionInterval.js:2781](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/actions/CCActionInterval.js#L2781) |
 
 ###### 参数列表
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -2189,11 +2173,691 @@ It is recommended to not use this function every frame instead cache the result 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| 定义于 | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/utils/find.js#L30) |
+| 定义于 | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/utils/find.js#L30) |
 
 ###### 参数列表
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
+
+
+##### pNeg
+
+返回相反的向量。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:47](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L47) |
+
+###### 参数列表
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pNeg(cc.v2(10, 10));// Vec2 {x: -10, y: -10};
+```
+
+##### pAdd
+
+返回两个向量的和。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:60](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L60) |
+
+###### 参数列表
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pAdd(cc.v2(1, 1), cc.v2(2, 2));// Vec2 {x: 3, y: 3};
+```
+
+##### pSub
+
+返回两个向量的差。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:74](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L74) |
+
+###### 参数列表
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pSub(cc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 15, y: 15};
+```
+
+##### pMult
+
+向量缩放。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:88](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L88) |
+
+###### 参数列表
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `floatVar` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+cc.pMult(cc.v2(5, 5), 4); // Vec2 {x: 20, y: 20};
+```
+
+##### pMidpoint
+
+两个向量之间的中心点。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:102](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L102) |
+
+###### 参数列表
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pMidpoint(cc.v2(10, 10), cc.v2(5, 5)); // Vec2 {x: 7.5, y: 7.5};
+```
+
+##### pDot
+
+两个向量之间进行点乘。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:116](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L116) |
+
+###### 参数列表
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pDot(cc.v2(20, 20), cc.v2(5, 5)); // 200;
+```
+
+##### pCross
+
+两个向量之间进行叉乘。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:130](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L130) |
+
+###### 参数列表
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pCross(cc.v2(20, 20), cc.v2(5, 5)); // 0;
+```
+
+##### pPerp
+
+返回逆时针旋转 90 度后的新向量。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:144](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L144) |
+
+###### 参数列表
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pPerp(cc.v2(20, 20)); // Vec2 {x: -20, y: 20};
+```
+
+##### pRPerp
+
+将指定向量顺时针旋转 90 度并返回。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:157](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L157) |
+
+###### 参数列表
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pRPerp(cc.v2(20, 20)); // Vec2 {x: 20, y: -20};
+```
+
+##### pProject
+
+返回 v1 在 v2 上的投影向量。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:170](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L170) |
+
+###### 参数列表
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+var v1 = cc.v2(20, 20);
+var v2 = cc.v2(5, 5);
+cc.pProject(v1, v2); // Vec2 {x: 20, y: 20};
+```
+
+##### pLengthSQ
+
+返回指定向量长度的平方。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:186](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L186) |
+
+###### 参数列表
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pLengthSQ(cc.v2(20, 20)); // 800;
+```
+
+##### pDistanceSQ
+
+返回两个点之间距离的平方。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:199](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L199) |
+
+###### 参数列表
+- `point1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `point2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+var point1 = cc.v2(20, 20);
+var point2 = cc.v2(5, 5);
+cc.pDistanceSQ(point1, point2); // 450;
+```
+
+##### pLength
+
+返回指定向量的长度.
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:215](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L215) |
+
+###### 参数列表
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pLength(cc.v2(20, 20)); // 28.284271247461902;
+```
+
+##### pDistance
+
+返回指定 2 个向量之间的距离。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:228](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L228) |
+
+###### 参数列表
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+var v1 = cc.v2(20, 20);
+var v2 = cc.v2(5, 5);
+cc.pDistance(v1, v2); // 21.213203435596427;
+```
+
+##### pNormalize
+
+返回一个长度为 1 的标准化过后的向量。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:244](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L244) |
+
+###### 参数列表
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pNormalize(cc.v2(20, 20)); // Vec2 {x: 0.7071067811865475, y: 0.7071067811865475};
+```
+
+##### pForAngle
+
+将弧度转换为一个标准化后的向量，返回坐标 x = cos(a) , y = sin(a)。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:258](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L258) |
+
+###### 参数列表
+- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+cc.pForAngle(20); // Vec2 {x: 0.40808206181339196, y: 0.9129452507276277};
+```
+
+##### pToAngle
+
+返回指定向量的弧度。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:271](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L271) |
+
+###### 参数列表
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pToAngle(cc.v2(20, 20)); // 0.7853981633974483;
+```
+
+##### clampf
+
+限定浮点数的最大最小值。<br/>
+数值大于 max_inclusive 则返回 max_inclusive。<br/>
+数值小于 min_inclusive 则返回 min_inclusive。<br/>
+否则返回自身。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:284](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L284) |
+
+###### 参数列表
+- `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `min_inclusive` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `max_inclusive` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+var v1 = cc.clampf(20, 0, 20); // 20;
+var v2 = cc.clampf(-1, 0, 20); //  0;
+var v3 = cc.clampf(10, 0, 20); // 10;
+```
+
+##### clamp01
+
+限定浮点数的取值范围为 0 ~ 1 之间。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:310](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L310) |
+
+###### 参数列表
+- `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+var v1 = cc.clampf(20);  // 1;
+var v2 = cc.clampf(-1);  // 0;
+var v3 = cc.clampf(0.5); // 0.5;
+```
+
+##### pClamp
+
+返回指定限制区域后的向量。<br/>
+向量大于 max_inclusive 则返回 max_inclusive。<br/>
+向量小于 min_inclusive 则返回 min_inclusive。<br/>
+否则返回自身。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:325](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L325) |
+
+###### 参数列表
+- `p` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `min_inclusive` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `max_inclusive` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+var min_inclusive = cc.v2(0, 0);
+var max_inclusive = cc.v2(20, 20);
+var v1 = cc.pClamp(cc.v2(20, 20), min_inclusive, max_inclusive); // Vec2 {x: 20, y: 20};
+var v2 = cc.pClamp(cc.v2(0, 0), min_inclusive, max_inclusive);   // Vec2 {x: 0, y: 0};
+var v3 = cc.pClamp(cc.v2(10, 10), min_inclusive, max_inclusive); // Vec2 {x: 10, y: 10};
+```
+
+##### pFromSize
+
+快速转换 cc.Size 为 cc.Vec2。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:348](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L348) |
+
+###### 参数列表
+- `s` <a href="../classes/Size.html" class="crosslink">Size</a> 
+
+##### 示例
+
+```js
+cc.pFromSize(new cc.size(20, 20)); // Vec2 {x: 20, y: 20};
+```
+
+##### pCompOp
+
+通过运行指定的数学运算函数来计算指定的向量。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:361](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L361) |
+
+###### 参数列表
+- `p` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `opFunc` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+
+##### 示例
+
+```js
+cc.pCompOp(cc.p(-10, -10), Math.abs); // Vec2 {x: 10, y: 10};
+```
+
+##### pLerp
+
+两个点 A 和 B 之间的线性插值。 <br />
+alpha == 0 ? a <br />
+alpha == 1 ? b <br />
+否则这个数值在 a ~ b 之间。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:377](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L377) |
+
+###### 参数列表
+- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `alpha` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+cc.pLerp(cc.v2(20, 20), cc.v2(5, 5), 0.5); // Vec2 {x: 12.5, y: 12.5};
+```
+
+##### pFuzzyEqual
+
+近似判断两个点是否相等。<br/>
+判断 2 个向量是否在指定数值的范围之内，如果在则返回 true，反之则返回 false。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:400](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L400) |
+
+###### 参数列表
+- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `variance` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+var a = cc.v2(20, 20);
+var b = cc.v2(5, 5);
+var b1 = cc.pFuzzyEqual(a, b, 10); // false;
+var b2 = cc.pFuzzyEqual(a, b, 18); // true;
+```
+
+##### pCompMult
+
+计算两个向量的每个分量的乘积， a.x * b.x, a.y * b.y。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:424](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L424) |
+
+###### 参数列表
+- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### 示例
+
+```js
+cc.pCompMult(acc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 100, y: 100};
+```
+
+##### pAngleSigned
+
+返回两个向量之间带正负号的弧度。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:438](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L438) |
+
+###### 参数列表
+- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pAngle
+
+获取当前向量与指定向量之间的弧度角。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:455](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L455) |
+
+###### 参数列表
+- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pRotateByAngle
+
+返回给定向量围绕指定轴心顺时针旋转一定弧度后的结果。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:469](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L469) |
+
+###### 参数列表
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> v is the point to rotate
+- `pivot` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> pivot is the pivot, naturally
+- `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> angle is the angle of rotation cw in radians
+
+
+##### pLineIntersect
+
+返回 A 为起点 B 为终点线段 1 所在直线和 C 为起点 D 为终点线段 2 所在的直线是否相交，<br />
+如果相交返回 true，反之则为 false，参数 retP 是返回交点在线段 1、线段 2 上的比例。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:487](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L487) |
+
+###### 参数列表
+- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A is the startpoint for the first line P1 = (p1 - p2).
+- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> B is the endpoint for the first line P1 = (p1 - p2).
+- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> C is the startpoint for the second line P2 = (p3 - p4).
+- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> D is the endpoint for the second line P2 = (p3 - p4).
+- `retP` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> retP.x is the range for a hitpoint in P1 (pa = p1 + s*(p2 - p1)), <br />
+retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
+
+
+##### pSegmentIntersect
+
+返回线段 A - B 和线段 C - D 是否相交。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:538](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L538) |
+
+###### 参数列表
+- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pIntersectPoint
+
+返回线段 A - B 和线段 C - D 的交点。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:556](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L556) |
+
+###### 参数列表
+- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pSameAs
+
+检查指定的 2 个向量是否相等。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:580](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L580) |
+
+###### 参数列表
+- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A ccp a
+- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> B ccp b to be compared
+
+
+##### pZeroIn
+
+设置指定向量归 0。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:599](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L599) |
+
+###### 参数列表
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pIn
+
+令 v1 向量等同于 v2。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:610](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L610) |
+
+###### 参数列表
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pMultIn
+
+向量缩放，结果保存到第一个向量。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:622](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L622) |
+
+###### 参数列表
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `floatVar` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### pSubIn
+
+向量减法，结果保存到第一个向量。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:634](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L634) |
+
+###### 参数列表
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pAddIn
+
+向量加法，结果保存到第一个向量。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:646](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L646) |
+
+###### 参数列表
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pNormalizeIn
+
+规范化 v 向量，设置 v 向量长度为 1。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:658](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCPointExtension.js#L658) |
+
+###### 参数列表
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
 
 ##### color
@@ -2204,7 +2868,7 @@ Alpha 通道是可选的。默认值是 255。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [cocos2d/core/value-types/CCColor.js:621](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCColor.js#L621) |
+| 定义于 | [cocos2d/core/value-types/CCColor.js:621](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L621) |
 
 ###### 参数列表
 - `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2232,7 +2896,7 @@ var color3 = new cc.Color({r: 255, g: 255, b: 255, a: 255});
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCColor.js:652](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCColor.js#L652) |
+| 定义于 | [cocos2d/core/value-types/CCColor.js:652](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L652) |
 
 ###### 参数列表
 - `color1` <a href="../classes/Color.html" class="crosslink">Color</a> 
@@ -2251,7 +2915,7 @@ cc.log(cc.colorEqual(cc.Color.RED, new cc.Color(255, 0, 0))); // true
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [cocos2d/core/value-types/CCColor.js:671](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCColor.js#L671) |
+| 定义于 | [cocos2d/core/value-types/CCColor.js:671](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L671) |
 
 ###### 参数列表
 - `hex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -2269,7 +2933,7 @@ Color 转换为 16进制。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/value-types/CCColor.js:691](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCColor.js#L691) |
+| 定义于 | [cocos2d/core/value-types/CCColor.js:691](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L691) |
 
 ###### 参数列表
 - `color` <a href="../classes/Color.html" class="crosslink">Color</a> 
@@ -2281,686 +2945,6 @@ var color = new cc.Color(255, 6, 255)
 cc.colorToHex(color); // #ff06ff;
 ```
 
-##### pNeg
-
-返回相反的向量。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:47](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L47) |
-
-###### 参数列表
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pNeg(cc.v2(10, 10));// Vec2 {x: -10, y: -10};
-```
-
-##### pAdd
-
-返回两个向量的和。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:60](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L60) |
-
-###### 参数列表
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pAdd(cc.v2(1, 1), cc.v2(2, 2));// Vec2 {x: 3, y: 3};
-```
-
-##### pSub
-
-返回两个向量的差。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:74](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L74) |
-
-###### 参数列表
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pSub(cc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 15, y: 15};
-```
-
-##### pMult
-
-向量缩放。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:88](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L88) |
-
-###### 参数列表
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `floatVar` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-cc.pMult(cc.v2(5, 5), 4); // Vec2 {x: 20, y: 20};
-```
-
-##### pMidpoint
-
-两个向量之间的中心点。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:102](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L102) |
-
-###### 参数列表
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pMidpoint(cc.v2(10, 10), cc.v2(5, 5)); // Vec2 {x: 7.5, y: 7.5};
-```
-
-##### pDot
-
-两个向量之间进行点乘。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:116](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L116) |
-
-###### 参数列表
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pDot(cc.v2(20, 20), cc.v2(5, 5)); // 200;
-```
-
-##### pCross
-
-两个向量之间进行叉乘。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:130](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L130) |
-
-###### 参数列表
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pCross(cc.v2(20, 20), cc.v2(5, 5)); // 0;
-```
-
-##### pPerp
-
-返回逆时针旋转 90 度后的新向量。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:144](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L144) |
-
-###### 参数列表
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pPerp(cc.v2(20, 20)); // Vec2 {x: -20, y: 20};
-```
-
-##### pRPerp
-
-将指定向量顺时针旋转 90 度并返回。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:157](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L157) |
-
-###### 参数列表
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pRPerp(cc.v2(20, 20)); // Vec2 {x: 20, y: -20};
-```
-
-##### pProject
-
-返回 v1 在 v2 上的投影向量。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:170](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L170) |
-
-###### 参数列表
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-var v1 = cc.v2(20, 20);
-var v2 = cc.v2(5, 5);
-cc.pProject(v1, v2); // Vec2 {x: 20, y: 20};
-```
-
-##### pLengthSQ
-
-返回指定向量长度的平方。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:186](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L186) |
-
-###### 参数列表
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pLengthSQ(cc.v2(20, 20)); // 800;
-```
-
-##### pDistanceSQ
-
-返回两个点之间距离的平方。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:199](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L199) |
-
-###### 参数列表
-- `point1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `point2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-var point1 = cc.v2(20, 20);
-var point2 = cc.v2(5, 5);
-cc.pDistanceSQ(point1, point2); // 450;
-```
-
-##### pLength
-
-返回指定向量的长度.
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:215](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L215) |
-
-###### 参数列表
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pLength(cc.v2(20, 20)); // 28.284271247461902;
-```
-
-##### pDistance
-
-返回指定 2 个向量之间的距离。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:228](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L228) |
-
-###### 参数列表
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-var v1 = cc.v2(20, 20);
-var v2 = cc.v2(5, 5);
-cc.pDistance(v1, v2); // 21.213203435596427;
-```
-
-##### pNormalize
-
-返回一个长度为 1 的标准化过后的向量。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:244](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L244) |
-
-###### 参数列表
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pNormalize(cc.v2(20, 20)); // Vec2 {x: 0.7071067811865475, y: 0.7071067811865475};
-```
-
-##### pForAngle
-
-将弧度转换为一个标准化后的向量，返回坐标 x = cos(a) , y = sin(a)。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:258](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L258) |
-
-###### 参数列表
-- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-cc.pForAngle(20); // Vec2 {x: 0.40808206181339196, y: 0.9129452507276277};
-```
-
-##### pToAngle
-
-返回指定向量的弧度。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:271](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L271) |
-
-###### 参数列表
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pToAngle(cc.v2(20, 20)); // 0.7853981633974483;
-```
-
-##### clampf
-
-限定浮点数的最大最小值。<br/>
-数值大于 max_inclusive 则返回 max_inclusive。<br/>
-数值小于 min_inclusive 则返回 min_inclusive。<br/>
-否则返回自身。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:284](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L284) |
-
-###### 参数列表
-- `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `min_inclusive` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `max_inclusive` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-var v1 = cc.clampf(20, 0, 20); // 20;
-var v2 = cc.clampf(-1, 0, 20); //  0;
-var v3 = cc.clampf(10, 0, 20); // 10;
-```
-
-##### clamp01
-
-限定浮点数的取值范围为 0 ~ 1 之间。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:310](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L310) |
-
-###### 参数列表
-- `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-var v1 = cc.clampf(20);  // 1;
-var v2 = cc.clampf(-1);  // 0;
-var v3 = cc.clampf(0.5); // 0.5;
-```
-
-##### pClamp
-
-返回指定限制区域后的向量。<br/>
-向量大于 max_inclusive 则返回 max_inclusive。<br/>
-向量小于 min_inclusive 则返回 min_inclusive。<br/>
-否则返回自身。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:325](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L325) |
-
-###### 参数列表
-- `p` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `min_inclusive` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `max_inclusive` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-var min_inclusive = cc.v2(0, 0);
-var max_inclusive = cc.v2(20, 20);
-var v1 = cc.pClamp(cc.v2(20, 20), min_inclusive, max_inclusive); // Vec2 {x: 20, y: 20};
-var v2 = cc.pClamp(cc.v2(0, 0), min_inclusive, max_inclusive);   // Vec2 {x: 0, y: 0};
-var v3 = cc.pClamp(cc.v2(10, 10), min_inclusive, max_inclusive); // Vec2 {x: 10, y: 10};
-```
-
-##### pFromSize
-
-快速转换 cc.Size 为 cc.Vec2。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:348](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L348) |
-
-###### 参数列表
-- `s` <a href="../classes/Size.html" class="crosslink">Size</a> 
-
-##### 示例
-
-```js
-cc.pFromSize(new cc.size(20, 20)); // Vec2 {x: 20, y: 20};
-```
-
-##### pCompOp
-
-通过运行指定的数学运算函数来计算指定的向量。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:361](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L361) |
-
-###### 参数列表
-- `p` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `opFunc` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-
-##### 示例
-
-```js
-cc.pCompOp(cc.p(-10, -10), Math.abs); // Vec2 {x: 10, y: 10};
-```
-
-##### pLerp
-
-两个点 A 和 B 之间的线性插值。 <br />
-alpha == 0 ? a <br />
-alpha == 1 ? b <br />
-否则这个数值在 a ~ b 之间。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:377](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L377) |
-
-###### 参数列表
-- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `alpha` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-cc.pLerp(cc.v2(20, 20), cc.v2(5, 5), 0.5); // Vec2 {x: 12.5, y: 12.5};
-```
-
-##### pFuzzyEqual
-
-近似判断两个点是否相等。<br/>
-判断 2 个向量是否在指定数值的范围之内，如果在则返回 true，反之则返回 false。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:400](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L400) |
-
-###### 参数列表
-- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `variance` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-var a = cc.v2(20, 20);
-var b = cc.v2(5, 5);
-var b1 = cc.pFuzzyEqual(a, b, 10); // false;
-var b2 = cc.pFuzzyEqual(a, b, 18); // true;
-```
-
-##### pCompMult
-
-计算两个向量的每个分量的乘积， a.x * b.x, a.y * b.y。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:424](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L424) |
-
-###### 参数列表
-- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### 示例
-
-```js
-cc.pCompMult(acc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 100, y: 100};
-```
-
-##### pAngleSigned
-
-返回两个向量之间带正负号的弧度。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:438](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L438) |
-
-###### 参数列表
-- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pAngle
-
-获取当前向量与指定向量之间的弧度角。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:455](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L455) |
-
-###### 参数列表
-- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pRotateByAngle
-
-返回给定向量围绕指定轴心顺时针旋转一定弧度后的结果。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:469](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L469) |
-
-###### 参数列表
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> v is the point to rotate
-- `pivot` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> pivot is the pivot, naturally
-- `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> angle is the angle of rotation cw in radians
-
-
-##### pLineIntersect
-
-返回 A 为起点 B 为终点线段 1 所在直线和 C 为起点 D 为终点线段 2 所在的直线是否相交，<br />
-如果相交返回 true，反之则为 false，参数 retP 是返回交点在线段 1、线段 2 上的比例。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:487](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L487) |
-
-###### 参数列表
-- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A is the startpoint for the first line P1 = (p1 - p2).
-- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> B is the endpoint for the first line P1 = (p1 - p2).
-- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> C is the startpoint for the second line P2 = (p3 - p4).
-- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> D is the endpoint for the second line P2 = (p3 - p4).
-- `retP` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> retP.x is the range for a hitpoint in P1 (pa = p1 + s*(p2 - p1)), <br />
-retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
-
-
-##### pSegmentIntersect
-
-返回线段 A - B 和线段 C - D 是否相交。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:538](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L538) |
-
-###### 参数列表
-- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pIntersectPoint
-
-返回线段 A - B 和线段 C - D 的交点。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:556](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L556) |
-
-###### 参数列表
-- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pSameAs
-
-检查指定的 2 个向量是否相等。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:580](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L580) |
-
-###### 参数列表
-- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A ccp a
-- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> B ccp b to be compared
-
-
-##### pZeroIn
-
-设置指定向量归 0。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:599](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L599) |
-
-###### 参数列表
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pIn
-
-令 v1 向量等同于 v2。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:610](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L610) |
-
-###### 参数列表
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pMultIn
-
-向量缩放，结果保存到第一个向量。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:622](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L622) |
-
-###### 参数列表
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `floatVar` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### pSubIn
-
-向量减法，结果保存到第一个向量。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:634](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L634) |
-
-###### 参数列表
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pAddIn
-
-向量加法，结果保存到第一个向量。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:646](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L646) |
-
-###### 参数列表
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pNormalizeIn
-
-规范化 v 向量，设置 v 向量长度为 1。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCPointExtension.js:658](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCPointExtension.js#L658) |
-
-###### 参数列表
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
 ##### size
 
 创建一个 cc.Size 对象的帮助函数。<br/>
@@ -2969,7 +2953,7 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/value-types/CCSize.js:158](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCSize.js#L158) |
+| 定义于 | [cocos2d/core/value-types/CCSize.js:158](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCSize.js#L158) |
 
 ###### 参数列表
 - `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> width or a size object
@@ -2992,7 +2976,7 @@ var size4 = cc.size({width: 100, height: 100});
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCSize.js:175](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCSize.js#L175) |
+| 定义于 | [cocos2d/core/value-types/CCSize.js:175](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCSize.js#L175) |
 
 ###### 参数列表
 - `size1` <a href="../classes/Size.html" class="crosslink">Size</a> 
@@ -3008,101 +2992,6 @@ var b = new cc.size(5, 10);
 cc.sizeEqualToSize(a, b);// return false;
 ```
 
-##### V3F_C4B_T2F_QuadZero
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
-| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:502](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCTypesWebGL.js#L502) |
-
-
-
-##### V3F_C4B_T2F_QuadCopy
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
-| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:510](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCTypesWebGL.js#L510) |
-
-###### 参数列表
-- `sourceQuad` <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
-
-
-##### V3F_C4B_T2F_QuadsCopy
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:537](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCTypesWebGL.js#L537) |
-
-###### 参数列表
-- `sourceQuads` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### v2
-
-通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:593](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L593) |
-
-###### 参数列表
-- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-var v1 = cc.v2();
-var v2 = cc.v2(0, 0);
-var v3 = cc.v2(v2);
-var v4 = cc.v2({x: 100, y: 100});
-```
-
-##### p
-
-通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:610](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L610) |
-
-###### 参数列表
-- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-var point1 = cc.p();
-var point2 = cc.p(100, 100);
-var point3 = cc.p(point2);
-var point4 = cc.p({x: 100, y: 100});
-```
-
-##### pointEqualToPoint
-
-判断两个向量是否相等。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:628](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCVec2.js#L628) |
-
-###### 参数列表
-- `point1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `point2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
 ##### rect
 
 该方法用来快速创建一个新的矩形。Rect/Rect:method
@@ -3110,7 +2999,7 @@ var point4 = cc.p({x: 100, y: 100});
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:370](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L370) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:370](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L370) |
 
 ###### 参数列表
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -3131,7 +3020,7 @@ var a = new cc.Rect(0 , 0, 10, 0);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:392](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L392) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:392](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L392) |
 
 ###### 参数列表
 - `rect1` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3155,7 +3044,7 @@ cc.rectEqualToRect(b, c); // true;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:414](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L414) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:414](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L414) |
 
 ###### 参数列表
 - `rect1` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3176,7 +3065,7 @@ cc.rectContainsRect(a, b); // true;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:436](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L436) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:436](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L436) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3195,7 +3084,7 @@ cc.rectGetMaxX(a); // 30;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:450](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L450) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:450](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L450) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3214,7 +3103,7 @@ cc.rectGetMidX(a); // 20;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:463](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L463) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:463](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L463) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3233,7 +3122,7 @@ cc.rectGetMinX(a); // 10;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:477](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L477) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:477](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L477) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3252,7 +3141,7 @@ cc.rectGetMaxY(a); // 30;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:491](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L491) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:491](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L491) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3271,7 +3160,7 @@ cc.rectGetMidY(a); // 20;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:505](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L505) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:505](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L505) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3290,7 +3179,7 @@ cc.rectGetMinY(a); // 10;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:519](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L519) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:519](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L519) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3311,7 +3200,7 @@ cc.rectContainsPoint(a, b); // true;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:536](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L536) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:536](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L536) |
 
 ###### 参数列表
 - `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3332,7 +3221,7 @@ cc.rectIntersectsRect(a, b); // true;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:556](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L556) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:556](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L556) |
 
 ###### 参数列表
 - `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3353,7 +3242,7 @@ cc.rectOverlapsRect(a, b); // true;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:575](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L575) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:575](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L575) |
 
 ###### 参数列表
 - `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3374,7 +3263,7 @@ cc.rectUnion(a, b); // Rect {x: 0, y: 10, width: 20, height: 20};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/value-types/CCRect.js:596](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCRect.js#L596) |
+| 定义于 | [cocos2d/core/value-types/CCRect.js:596](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCRect.js#L596) |
 
 ###### 参数列表
 - `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -3388,13 +3277,108 @@ var b = new cc.Rect(0, 10, 10, 10);
 cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 ```
 
+##### v2
+
+通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:593](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L593) |
+
+###### 参数列表
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+var v1 = cc.v2();
+var v2 = cc.v2(0, 0);
+var v3 = cc.v2(v2);
+var v4 = cc.v2({x: 100, y: 100});
+```
+
+##### p
+
+通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:610](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L610) |
+
+###### 参数列表
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+var point1 = cc.p();
+var point2 = cc.p(100, 100);
+var point3 = cc.p(point2);
+var point4 = cc.p({x: 100, y: 100});
+```
+
+##### pointEqualToPoint
+
+判断两个向量是否相等。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:628](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L628) |
+
+###### 参数列表
+- `point1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `point2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### V3F_C4B_T2F_QuadZero
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
+| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:502](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCTypesWebGL.js#L502) |
+
+
+
+##### V3F_C4B_T2F_QuadCopy
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
+| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:510](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCTypesWebGL.js#L510) |
+
+###### 参数列表
+- `sourceQuad` <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
+
+
+##### V3F_C4B_T2F_QuadsCopy
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:537](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCTypesWebGL.js#L537) |
+
+###### 参数列表
+- `sourceQuads` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
 ##### handleTouchesBegin
 
 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:90](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L90) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:90](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L90) |
 
 ###### 参数列表
 - `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3406,7 +3390,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:125](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L125) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:125](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L125) |
 
 ###### 参数列表
 - `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3418,7 +3402,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:157](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L157) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:157](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L157) |
 
 ###### 参数列表
 - `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3430,7 +3414,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:171](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L171) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:171](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L171) |
 
 ###### 参数列表
 - `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3443,7 +3427,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:185](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L185) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:185](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L185) |
 
 ###### 参数列表
 - `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3456,7 +3440,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:212](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L212) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:212](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L212) |
 
 ###### 参数列表
 - `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
@@ -3469,7 +3453,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:250](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L250) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:250](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L250) |
 
 ###### 参数列表
 - `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3481,7 +3465,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:270](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L270) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:270](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L270) |
 
 ###### 参数列表
 - `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3494,7 +3478,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:296](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L296) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:296](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L296) |
 
 ###### 参数列表
 - `tx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -3509,7 +3493,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:313](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L313) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:313](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L313) |
 
 ###### 参数列表
 - `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3523,7 +3507,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:335](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L335) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:335](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L335) |
 
 ###### 参数列表
 - `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3536,7 +3520,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:419](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/BKInputManager.js#L419) |
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:419](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/BKInputManager.js#L419) |
 
 ###### 参数列表
 - `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
@@ -3549,7 +3533,7 @@ cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| 定义于 | [cocos2d/core/platform/CCClass.js:829](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCClass.js#L829) |
+| 定义于 | [cocos2d/core/platform/CCClass.js:829](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCClass.js#L829) |
 
 ###### 参数列表
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -3640,7 +3624,7 @@ Checks whether the constructor is created by cc.Class
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCClass.js:1000](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCClass.js#L1000) |
+| 定义于 | [cocos2d/core/platform/CCClass.js:1000](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCClass.js#L1000) |
 
 ###### 参数列表
 - `constructor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -3653,7 +3637,7 @@ Checks whether subclass is child of superclass or equals to superclass
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCClass.js:1037](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCClass.js#L1037) |
+| 定义于 | [cocos2d/core/platform/CCClass.js:1037](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCClass.js#L1037) |
 
 ###### 参数列表
 - `subclass` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -3668,7 +3652,7 @@ Checks whether subclass is child of superclass or equals to superclass
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| 定义于 | [cocos2d/core/platform/CCEnum.js:34](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCEnum.js#L34) |
+| 定义于 | [cocos2d/core/platform/CCEnum.js:34](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCEnum.js#L34) |
 
 ###### 参数列表
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> a JavaScript literal object containing enum names and values, or a TypeScript enum type
@@ -3732,7 +3716,7 @@ class NewScript extends cc.Component {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
-| 定义于 | [cocos2d/core/platform/CCEnum.js:90](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCEnum.js#L90) |
+| 定义于 | [cocos2d/core/platform/CCEnum.js:90](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCEnum.js#L90) |
 
 ###### 参数列表
 - `enumDef` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the enum type defined from cc.Enum
@@ -3744,7 +3728,7 @@ whether enable accelerometer event
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputExtension.js:41](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputExtension.js#L41) |
+| 定义于 | [cocos2d/core/platform/CCInputExtension.js:41](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputExtension.js#L41) |
 
 ###### 参数列表
 - `isEnable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -3756,7 +3740,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputExtension.js:64](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputExtension.js#L64) |
+| 定义于 | [cocos2d/core/platform/CCInputExtension.js:64](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputExtension.js#L64) |
 
 ###### 参数列表
 - `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -3768,7 +3752,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:99](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L99) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:99](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L99) |
 
 ###### 参数列表
 - `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3780,7 +3764,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:134](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L134) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:134](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L134) |
 
 ###### 参数列表
 - `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3792,7 +3776,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:166](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L166) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:166](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L166) |
 
 ###### 参数列表
 - `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3804,7 +3788,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:180](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L180) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:180](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L180) |
 
 ###### 参数列表
 - `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3817,7 +3801,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:194](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L194) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:194](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L194) |
 
 ###### 参数列表
 - `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -3830,7 +3814,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:220](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L220) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:220](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L220) |
 
 ###### 参数列表
 - `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
@@ -3843,7 +3827,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:267](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L267) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:267](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L267) |
 
 ###### 参数列表
 - `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3855,7 +3839,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:287](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L287) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:287](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L287) |
 
 ###### 参数列表
 - `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3868,7 +3852,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:312](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L312) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:312](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L312) |
 
 ###### 参数列表
 - `tx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -3883,7 +3867,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Event.EventMouse.html" class="crosslink">Event.EventMouse</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:329](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L329) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:329](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L329) |
 
 ###### 参数列表
 - `location` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -3898,7 +3882,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:347](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L347) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:347](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L347) |
 
 ###### 参数列表
 - `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3912,7 +3896,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:368](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L368) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:368](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L368) |
 
 ###### 参数列表
 - `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
@@ -3925,7 +3909,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:406](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L406) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:406](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L406) |
 
 ###### 参数列表
 - `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
@@ -3937,7 +3921,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:597](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCInputManager.js#L597) |
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:597](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCInputManager.js#L597) |
 
 ###### 参数列表
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -3952,7 +3936,7 @@ set accelerometer interval value
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2001](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCMacro.js#L2001) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2001](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCMacro.js#L2001) |
 
 ###### 参数列表
 - `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number A
@@ -3976,7 +3960,7 @@ get a random number from 0 to 0xffffff
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2016](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCMacro.js#L2016) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2016](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCMacro.js#L2016) |
 
 
 
@@ -3987,7 +3971,7 @@ returns a random float between -1 and 1
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2025](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCMacro.js#L2025) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2025](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCMacro.js#L2025) |
 
 
 
@@ -3998,7 +3982,7 @@ returns a random float between 0 and 1, use Math.random directly
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2034](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCMacro.js#L2034) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2034](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCMacro.js#L2034) |
 
 
 
@@ -4009,7 +3993,7 @@ converts degrees to radians
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2041](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCMacro.js#L2041) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2041](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCMacro.js#L2041) |
 
 ###### 参数列表
 - `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -4022,7 +4006,7 @@ converts radians to degrees
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2051](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCMacro.js#L2051) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2051](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCMacro.js#L2051) |
 
 ###### 参数列表
 - `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -4034,7 +4018,7 @@ Helpful macro that setups the GL server state, the correct GL program and sets t
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2061](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCMacro.js#L2061) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2061](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCMacro.js#L2061) |
 
 ###### 参数列表
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> setup node
@@ -4049,7 +4033,7 @@ Helpful macro that setups the GL server state, the correct GL program and sets t
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2113](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCMacro.js#L2113) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2113](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCMacro.js#L2113) |
 
 ###### 参数列表
 - `addNumber` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -4061,7 +4045,7 @@ Check webgl error.Error will be shown in console if exists.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2125](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCMacro.js#L2125) |
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2125](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCMacro.js#L2125) |
 
 
 
@@ -4073,7 +4057,7 @@ Check webgl error.Error will be shown in console if exists.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:509](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/CCObject.js#L509) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:509](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/CCObject.js#L509) |
 
 ###### 参数列表
 - `value` Any 
@@ -4100,7 +4084,7 @@ cc.log(cc.isValid(node));    // false, destroyed in the end of last frame
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| 定义于 | [cocos2d/core/platform/deserialize.js:741](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/deserialize.js#L741) |
+| 定义于 | [cocos2d/core/platform/deserialize.js:741](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/deserialize.js#L741) |
 
 ###### 参数列表
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
@@ -4117,7 +4101,7 @@ cc.log(cc.isValid(node));    // false, destroyed in the end of last frame
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/instantiate.js:36](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/platform/instantiate.js#L36) |
+| 定义于 | [cocos2d/core/platform/instantiate.js:36](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/instantiate.js#L36) |
 
 ###### 参数列表
 - `original` <a href="../classes/Prefab.html" class="crosslink">Prefab</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.

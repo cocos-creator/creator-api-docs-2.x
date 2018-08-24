@@ -34,7 +34,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:351](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCTypesWebGL.js#L351) |
+| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:351](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCTypesWebGL.js#L351) |
 
 ###### 参数列表
 - `vertices` <a href="../classes/Vertex3F.html" class="crosslink">Vertex3F</a> 
@@ -50,7 +50,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:375](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/value-types/CCTypesWebGL.js#L375) |
+| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:375](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCTypesWebGL.js#L375) |
 
 
 

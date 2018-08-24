@@ -34,7 +34,7 @@ The event type supported by SystemEvent
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/event/system-event.js:48](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/event/system-event.js#L48) |
+| Defined in | [cocos2d/core/event/system-event.js:48](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event/system-event.js#L48) |
 
 
 
@@ -45,7 +45,7 @@ The event type supported by SystemEvent
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/event/system-event.js:56](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/event/system-event.js#L56) |
+| Defined in | [cocos2d/core/event/system-event.js:56](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event/system-event.js#L56) |
 
 
 
@@ -56,7 +56,7 @@ The event type supported by SystemEvent
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/event/system-event.js:64](https://github.com/cocos-creator/engine/blob/111da455d089e3000f670eed24ff5172a3488245/cocos2d/core/event/system-event.js#L64) |
+| Defined in | [cocos2d/core/event/system-event.js:64](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event/system-event.js#L64) |
 
 
 
