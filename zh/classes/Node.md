@@ -26,8 +26,8 @@ Cocos Creator 场景中的所有节点类。<br/>
   - [`scale`](#scale) `Number` 节点相对父节点的缩放。
   - [`scaleX`](#scalex) `Number` 节点 X 轴缩放。
   - [`scaleY`](#scaley) `Number` 节点 Y 轴缩放。
-  - [`skewX`](#skewx) `Number` 该节点 Y 轴倾斜角度。
-  - [`skewY`](#skewy) `Number` 该节点 X 轴倾斜角度。
+  - [`skewX`](#skewx) `Number` 该节点 X 轴倾斜角度。
+  - [`skewY`](#skewy) `Number` 该节点 Y 轴倾斜角度。
   - [`opacity`](#opacity) `Number` 节点透明度，默认值为 255。
   - [`color`](#color) `Color` 节点颜色。
   - [`anchorX`](#anchorx) `Number` 节点 X 轴锚点位置。
@@ -335,7 +335,7 @@ cc.log("Node Scale Y: " + node.scaleY);
 
 ##### skewX
 
-> 该节点 Y 轴倾斜角度。
+> 该节点 X 轴倾斜角度。
 
 | meta | description |
 |------|-------------|
@@ -352,7 +352,7 @@ cc.log("Node SkewX: " + node.skewX);
 
 ##### skewY
 
-> 该节点 X 轴倾斜角度。
+> 该节点 Y 轴倾斜角度。
 
 | meta | description |
 |------|-------------|
