@@ -39,7 +39,7 @@ Contains information collected during deserialization
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
-| Defined in | [cocos2d/core/platform/deserialize.js:44](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/deserialize.js#L44) |
+| Defined in | [cocos2d/core/platform/deserialize.js:44](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/deserialize.js#L44) |
 
 
 
@@ -50,7 +50,7 @@ Contains information collected during deserialization
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> |
-| Defined in | [cocos2d/core/platform/deserialize.js:49](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/deserialize.js#L49) |
+| Defined in | [cocos2d/core/platform/deserialize.js:49](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/deserialize.js#L49) |
 
 
 
@@ -61,7 +61,7 @@ Contains information collected during deserialization
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
-| Defined in | [cocos2d/core/platform/deserialize.js:54](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/deserialize.js#L54) |
+| Defined in | [cocos2d/core/platform/deserialize.js:54](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/deserialize.js#L54) |
 
 
 
@@ -78,7 +78,7 @@ Contains information collected during deserialization
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/deserialize.js:63](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/deserialize.js#L63) |
+| Defined in | [cocos2d/core/platform/deserialize.js:63](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/deserialize.js#L63) |
 
 
 
@@ -88,7 +88,7 @@ Contains information collected during deserialization
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/deserialize.js:97](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/deserialize.js#L97) |
+| Defined in | [cocos2d/core/platform/deserialize.js:97](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/deserialize.js#L97) |
 
 ###### Parameters
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 

@@ -711,6 +711,12 @@ window.apimeta = {
       "description": "字体资源类。"
     },
     {
+      "name": "Game",
+      "namespace": "cc.Game",
+      "module": "cc",
+      "description": "包含游戏主体信息并负责驱动游戏的游戏对象。"
+    },
+    {
       "name": "Graphics",
       "namespace": "cc.Graphics",
       "module": "cc",
@@ -781,6 +787,12 @@ window.apimeta = {
       "namespace": "cc.Mask",
       "module": "cc",
       "description": "遮罩组件"
+    },
+    {
+      "name": "Mat4",
+      "namespace": "cc.Mat4",
+      "module": "cc",
+      "description": "表示 4*4 矩阵"
     },
     {
       "name": "MotionStreak",
@@ -1367,12 +1379,6 @@ window.apimeta = {
     {
       "name": "debug",
       "namespace": "cc.debug",
-      "module": "cc",
-      "description": "包含游戏主体信息并负责驱动游戏的游戏对象。"
-    },
-    {
-      "name": "game",
-      "namespace": "cc.game",
       "module": "cc",
       "description": "包含游戏主体信息并负责驱动游戏的游戏对象。"
     },

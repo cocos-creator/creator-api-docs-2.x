@@ -23,7 +23,7 @@ WebView event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/webview/CCWebView.js:40](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/webview/CCWebView.js#L40) |
+| Defined in | [cocos2d/webview/CCWebView.js:40](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/webview/CCWebView.js#L40) |
 
 
 
@@ -34,7 +34,7 @@ WebView event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/webview/CCWebView.js:46](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/webview/CCWebView.js#L46) |
+| Defined in | [cocos2d/webview/CCWebView.js:46](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/webview/CCWebView.js#L46) |
 
 
 
@@ -45,6 +45,6 @@ WebView event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/webview/CCWebView.js:52](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/webview/CCWebView.js#L52) |
+| Defined in | [cocos2d/webview/CCWebView.js:52](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/webview/CCWebView.js#L52) |
 
 

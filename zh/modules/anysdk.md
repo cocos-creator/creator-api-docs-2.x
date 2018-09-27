@@ -122,7 +122,7 @@ AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程�
 | meta | description |
 |------|-------------|
 | 类型 | anysdk.AgentManager |
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L40) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 

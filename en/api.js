@@ -711,6 +711,12 @@ window.apimeta = {
       "description": "Class for Font handling."
     },
     {
+      "name": "Game",
+      "namespace": "cc.Game",
+      "module": "cc",
+      "description": "An object to boot the game."
+    },
+    {
       "name": "Graphics",
       "namespace": "cc.Graphics",
       "module": "cc",
@@ -781,6 +787,12 @@ window.apimeta = {
       "namespace": "cc.Mask",
       "module": "cc",
       "description": "The Mask Component"
+    },
+    {
+      "name": "Mat4",
+      "namespace": "cc.Mat4",
+      "module": "cc",
+      "description": "Representation of 4*4 matrix."
     },
     {
       "name": "MotionStreak",
@@ -1367,12 +1379,6 @@ window.apimeta = {
     {
       "name": "debug",
       "namespace": "cc.debug",
-      "module": "cc",
-      "description": "An object to boot the game."
-    },
-    {
-      "name": "game",
-      "namespace": "cc.game",
       "module": "cc",
       "description": "An object to boot the game."
     },

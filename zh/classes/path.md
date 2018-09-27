@@ -39,7 +39,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/utils/CCPath.js:43](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/utils/CCPath.js#L43) |
+| 定义于 | [cocos2d/core/utils/CCPath.js:43](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/utils/CCPath.js#L43) |
 
 
 ##### 示例
@@ -61,7 +61,7 @@ cc.path.join("a", "b/", "/");      //-->"a/b/"
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [cocos2d/core/utils/CCPath.js:59](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/utils/CCPath.js#L59) |
+| 定义于 | [cocos2d/core/utils/CCPath.js:59](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/utils/CCPath.js#L59) |
 
 ###### 参数列表
 - `pathStr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -84,7 +84,7 @@ cc.path.extname("a/b?a=1&b=2");		//-->null
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/utils/CCPath.js:72](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/utils/CCPath.js#L72) |
+| 定义于 | [cocos2d/core/utils/CCPath.js:72](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/utils/CCPath.js#L72) |
 
 ###### 参数列表
 - `fileName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -97,7 +97,7 @@ cc.path.extname("a/b?a=1&b=2");		//-->null
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [cocos2d/core/utils/CCPath.js:89](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/utils/CCPath.js#L89) |
+| 定义于 | [cocos2d/core/utils/CCPath.js:89](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/utils/CCPath.js#L89) |
 
 ###### 参数列表
 - `pathStr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -122,7 +122,7 @@ cc.path.basename("a/b.png", ".txt");		//-->"b.png"
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [cocos2d/core/utils/CCPath.js:110](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/utils/CCPath.js#L110) |
+| 定义于 | [cocos2d/core/utils/CCPath.js:110](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/utils/CCPath.js#L110) |
 
 ###### 参数列表
 - `pathStr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -149,7 +149,7 @@ cc.path.driname("a\\b\\c.png?a=1&b=2");	//-->"a\b"
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/utils/CCPath.js:123](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/utils/CCPath.js#L123) |
+| 定义于 | [cocos2d/core/utils/CCPath.js:123](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/utils/CCPath.js#L123) |
 
 ###### 参数列表
 - `pathStr` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
