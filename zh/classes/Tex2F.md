@@ -35,7 +35,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:222](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCTypesWebGL.js#L222) |
+| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:222](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCTypesWebGL.js#L222) |
 
 
 
@@ -52,7 +52,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:207](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCTypesWebGL.js#L207) |
+| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:207](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCTypesWebGL.js#L207) |
 
 ###### 参数列表
 - `u` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

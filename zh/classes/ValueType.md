@@ -1,7 +1,7 @@
 ## `ValueType` 类型
 
 
-定义于: [https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCValueType.js:32](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCValueType.js#L32)
+定义于: [https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCValueType.js:32](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCValueType.js#L32)
 
 模块: [cc](../modules/cc.md)
 
@@ -38,7 +38,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| 定义于 | [cocos2d/core/value-types/CCValueType.js:44](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCValueType.js#L44) |
+| 定义于 | [cocos2d/core/value-types/CCValueType.js:44](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCValueType.js#L44) |
 
 
 
@@ -49,7 +49,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCValueType.js:55](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCValueType.js#L55) |
+| 定义于 | [cocos2d/core/value-types/CCValueType.js:55](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCValueType.js#L55) |
 
 ###### 参数列表
 - `other` <a href="../classes/ValueType.html" class="crosslink">ValueType</a>  
@@ -63,7 +63,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| 定义于 | [cocos2d/core/value-types/CCValueType.js:67](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCValueType.js#L67) |
+| 定义于 | [cocos2d/core/value-types/CCValueType.js:67](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCValueType.js#L67) |
 
 ###### 参数列表
 - `to` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value
@@ -77,7 +77,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| 定义于 | [cocos2d/core/value-types/CCValueType.js:85](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCValueType.js#L85) |
+| 定义于 | [cocos2d/core/value-types/CCValueType.js:85](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCValueType.js#L85) |
 
 
 

@@ -45,7 +45,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/animation/playable.js:43](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L43) |
+| Defined in | [cocos2d/animation/playable.js:43](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L43) |
 
 
 
@@ -56,7 +56,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/animation/playable.js:55](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L55) |
+| Defined in | [cocos2d/animation/playable.js:55](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L55) |
 
 
 
@@ -73,7 +73,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:70](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L70) |
+| Defined in | [cocos2d/animation/playable.js:70](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L70) |
 
 
 
@@ -83,7 +83,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:75](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L75) |
+| Defined in | [cocos2d/animation/playable.js:75](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L75) |
 
 
 
@@ -93,7 +93,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:80](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L80) |
+| Defined in | [cocos2d/animation/playable.js:80](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L80) |
 
 
 
@@ -103,7 +103,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:85](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L85) |
+| Defined in | [cocos2d/animation/playable.js:85](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L85) |
 
 
 
@@ -113,7 +113,7 @@ Module: [cc](../modules/cc.md)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:90](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L90) |
+| Defined in | [cocos2d/animation/playable.js:90](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L90) |
 
 ###### Parameters
 - `errorCode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -125,7 +125,7 @@ Play this animation.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:99](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L99) |
+| Defined in | [cocos2d/animation/playable.js:99](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L99) |
 
 
 
@@ -135,7 +135,7 @@ Stop this animation.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:120](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L120) |
+| Defined in | [cocos2d/animation/playable.js:120](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L120) |
 
 
 
@@ -145,7 +145,7 @@ Pause this animation.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:135](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L135) |
+| Defined in | [cocos2d/animation/playable.js:135](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L135) |
 
 
 
@@ -155,7 +155,7 @@ Resume this animation.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:147](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L147) |
+| Defined in | [cocos2d/animation/playable.js:147](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L147) |
 
 
 
@@ -165,7 +165,7 @@ Perform a single frame step.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:159](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/animation/playable.js#L159) |
+| Defined in | [cocos2d/animation/playable.js:159](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/animation/playable.js#L159) |
 
 
 

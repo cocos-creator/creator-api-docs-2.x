@@ -72,7 +72,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:78](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L78) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:78](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L78) |
 
 
 
@@ -83,7 +83,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:86](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L86) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:86](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L86) |
 
 
 
@@ -94,7 +94,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:94](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L94) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:94](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L94) |
 
 
 
@@ -105,7 +105,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:102](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L102) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:102](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L102) |
 
 
 
@@ -116,7 +116,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:110](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L110) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:110](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L110) |
 
 
 
@@ -127,7 +127,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:118](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L118) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:118](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L118) |
 
 
 
@@ -138,7 +138,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:126](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L126) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:126](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L126) |
 
 
 
@@ -149,7 +149,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:134](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L134) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:134](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L134) |
 
 
 
@@ -160,7 +160,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:142](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L142) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:142](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L142) |
 
 
 
@@ -171,7 +171,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:150](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L150) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:150](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L150) |
 
 
 
@@ -182,7 +182,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/value-types/CCColor.js:158](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L158) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:158](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L158) |
 
 
 
@@ -199,7 +199,7 @@ You can also use the convenience method <a href="../modules/cc.html#method_color
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/CCColor.js:53](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L53) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:53](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L53) |
 
 ###### Parameters
 - `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> red component of the color, default value is 0.
@@ -215,7 +215,7 @@ Clone a new color from the current color.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:177](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L177) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:177](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L177) |
 
 
 ##### Examples
@@ -232,7 +232,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:192](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L192) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:192](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L192) |
 
 ###### Parameters
 - `other` <a href="../classes/Color.html" class="crosslink">Color</a> 
@@ -254,7 +254,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:209](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L209) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:209](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L209) |
 
 ###### Parameters
 - `to` <a href="../classes/Color.html" class="crosslink">Color</a> 
@@ -283,7 +283,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:232](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L232) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:232](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L232) |
 
 
 ##### Examples
@@ -300,7 +300,7 @@ Gets red channel value
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:249](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L249) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:249](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L249) |
 
 
 
@@ -311,7 +311,7 @@ Sets red value and return the current color object
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:258](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L258) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:258](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L258) |
 
 ###### Parameters
 - `red` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the new Red component.
@@ -330,7 +330,7 @@ Gets green channel value
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:272](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L272) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:272](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L272) |
 
 
 
@@ -341,7 +341,7 @@ Sets green value and return the current color object
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:281](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L281) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:281](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L281) |
 
 ###### Parameters
 - `green` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the new Green component.
@@ -360,7 +360,7 @@ Gets blue channel value
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:295](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L295) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:295](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L295) |
 
 
 
@@ -371,7 +371,7 @@ Sets blue value and return the current color object
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:304](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L304) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:304](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L304) |
 
 ###### Parameters
 - `blue` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the new Blue component.
@@ -390,7 +390,7 @@ Gets alpha channel value
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:318](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L318) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:318](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L318) |
 
 
 
@@ -401,7 +401,7 @@ Sets alpha value and return the current color object
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:327](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L327) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:327](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L327) |
 
 ###### Parameters
 - `alpha` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the new Alpha component.
@@ -420,7 +420,7 @@ Convert color to css format.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:347](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L347) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:347](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L347) |
 
 ###### Parameters
 - `opt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> "rgba", "rgb", "#rgb" or "#rrggbb".
@@ -442,7 +442,7 @@ Clamp this color to make all components between 0 to 255。
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/CCColor.js:376](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L376) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:376](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L376) |
 
 
 ##### Examples
@@ -460,7 +460,7 @@ Read hex string and store color data into the current color object, the hex stri
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:390](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L390) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:390](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L390) |
 
 ###### Parameters
 - `hexString` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -479,7 +479,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:410](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L410) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:410](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L410) |
 
 ###### Parameters
 - `fmt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> "#rgb" or "#rrggbb".
@@ -499,7 +499,7 @@ Convert to 24bit rgb value.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:445](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L445) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:445](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L445) |
 
 
 ##### Examples
@@ -516,7 +516,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:458](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L458) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:458](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L458) |
 
 ###### Parameters
 - `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -537,7 +537,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:477](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L477) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:477](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L477) |
 
 
 ##### Examples
@@ -554,7 +554,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:505](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L505) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:505](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L505) |
 
 ###### Parameters
 - `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> red, must be [0, 255].
@@ -574,7 +574,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:539](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCColor.js#L539) |
+| Defined in | [cocos2d/core/value-types/CCColor.js:539](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCColor.js#L539) |
 
 ###### Parameters
 - `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

@@ -33,7 +33,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2061](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2061) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2061](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2061) |
 
 
 
@@ -44,7 +44,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2068](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2068) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2068](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2068) |
 
 
 
@@ -55,7 +55,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2075](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2075) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2075](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2075) |
 
 
 
@@ -66,7 +66,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2082](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2082) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2082](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2082) |
 
 
 
@@ -77,7 +77,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2089](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2089) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2089](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2089) |
 
 
 
@@ -88,7 +88,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2096](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2096) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2096](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2096) |
 
 
 
@@ -99,7 +99,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2103](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2103) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2103](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2103) |
 
 
 
@@ -110,7 +110,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2110](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2110) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2110](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2110) |
 
 
 
@@ -121,7 +121,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2117](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2117) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2117](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2117) |
 
 
 
@@ -132,7 +132,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2124](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2124) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2124](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2124) |
 
 
 
@@ -143,7 +143,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2131](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2131) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2131](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2131) |
 
 
 
@@ -154,7 +154,7 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2145](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2145) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2145](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2145) |
 
 
 
@@ -165,6 +165,6 @@ The callback of requesting reStringge
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2152](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2152) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2152](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2152) |
 
 

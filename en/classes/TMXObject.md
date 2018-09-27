@@ -38,7 +38,7 @@ Get the name of object
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/tilemap/CCSGTMXObject.js:72](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/tilemap/CCSGTMXObject.js#L72) |
+| Defined in | [cocos2d/tilemap/CCSGTMXObject.js:72](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/tilemap/CCSGTMXObject.js#L72) |
 
 
 
@@ -49,7 +49,7 @@ Get the property of object
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/tilemap/CCSGTMXObject.js:82](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/tilemap/CCSGTMXObject.js#L82) |
+| Defined in | [cocos2d/tilemap/CCSGTMXObject.js:82](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/tilemap/CCSGTMXObject.js#L82) |
 
 ###### Parameters
 - `propertyName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -62,7 +62,7 @@ Get the properties of object
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/tilemap/CCSGTMXObject.js:93](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/tilemap/CCSGTMXObject.js#L93) |
+| Defined in | [cocos2d/tilemap/CCSGTMXObject.js:93](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/tilemap/CCSGTMXObject.js#L93) |
 
 
 
@@ -72,7 +72,7 @@ Set the object name
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/tilemap/CCSGTMXObject.js:103](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/tilemap/CCSGTMXObject.js#L103) |
+| Defined in | [cocos2d/tilemap/CCSGTMXObject.js:103](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/tilemap/CCSGTMXObject.js#L103) |
 
 ###### Parameters
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -84,7 +84,7 @@ Set the properties of the object
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/tilemap/CCSGTMXObject.js:113](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/tilemap/CCSGTMXObject.js#L113) |
+| Defined in | [cocos2d/tilemap/CCSGTMXObject.js:113](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/tilemap/CCSGTMXObject.js#L113) |
 
 ###### Parameters
 - `props` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 

@@ -22,7 +22,7 @@ Enum for PageView Indicator direction
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCPageViewIndicator.js:36](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCPageViewIndicator.js#L36) |
+| Defined in | [cocos2d/core/components/CCPageViewIndicator.js:36](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCPageViewIndicator.js#L36) |
 
 
 
@@ -33,6 +33,6 @@ Enum for PageView Indicator direction
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCPageViewIndicator.js:43](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCPageViewIndicator.js#L43) |
+| Defined in | [cocos2d/core/components/CCPageViewIndicator.js:43](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCPageViewIndicator.js#L43) |
 
 

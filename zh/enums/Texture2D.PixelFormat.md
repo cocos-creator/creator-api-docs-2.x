@@ -28,7 +28,7 @@ The texture pixel format, default value is RGBA8888
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/textures/CCTexture2D.js:80](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTexture2D.js#L80) |
+| 定义于 | [cocos2d/core/textures/CCTexture2D.js:80](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/textures/CCTexture2D.js#L80) |
 
 
 
@@ -39,7 +39,7 @@ The texture pixel format, default value is RGBA8888
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/textures/CCTexture2D.js:87](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTexture2D.js#L87) |
+| 定义于 | [cocos2d/core/textures/CCTexture2D.js:87](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/textures/CCTexture2D.js#L87) |
 
 
 
@@ -50,7 +50,7 @@ The texture pixel format, default value is RGBA8888
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/textures/CCTexture2D.js:94](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTexture2D.js#L94) |
+| 定义于 | [cocos2d/core/textures/CCTexture2D.js:94](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/textures/CCTexture2D.js#L94) |
 
 
 
@@ -61,7 +61,7 @@ The texture pixel format, default value is RGBA8888
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/textures/CCTexture2D.js:101](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTexture2D.js#L101) |
+| 定义于 | [cocos2d/core/textures/CCTexture2D.js:101](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/textures/CCTexture2D.js#L101) |
 
 
 
@@ -72,7 +72,7 @@ The texture pixel format, default value is RGBA8888
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/textures/CCTexture2D.js:108](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTexture2D.js#L108) |
+| 定义于 | [cocos2d/core/textures/CCTexture2D.js:108](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/textures/CCTexture2D.js#L108) |
 
 
 
@@ -83,7 +83,7 @@ The texture pixel format, default value is RGBA8888
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/textures/CCTexture2D.js:115](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTexture2D.js#L115) |
+| 定义于 | [cocos2d/core/textures/CCTexture2D.js:115](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/textures/CCTexture2D.js#L115) |
 
 
 
@@ -94,7 +94,7 @@ The texture pixel format, default value is RGBA8888
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/textures/CCTexture2D.js:122](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTexture2D.js#L122) |
+| 定义于 | [cocos2d/core/textures/CCTexture2D.js:122](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/textures/CCTexture2D.js#L122) |
 
 
 
@@ -105,6 +105,6 @@ The texture pixel format, default value is RGBA8888
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/textures/CCTexture2D.js:129](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/textures/CCTexture2D.js#L129) |
+| 定义于 | [cocos2d/core/textures/CCTexture2D.js:129](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/textures/CCTexture2D.js#L129) |
 
 

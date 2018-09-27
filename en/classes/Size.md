@@ -45,7 +45,7 @@ It will be deprecated soon, please use cc.Vec2 instead.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/CCSize.js:64](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCSize.js#L64) |
+| Defined in | [cocos2d/core/value-types/CCSize.js:64](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCSize.js#L64) |
 
 
 
@@ -56,7 +56,7 @@ It will be deprecated soon, please use cc.Vec2 instead.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/CCSize.js:67](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCSize.js#L67) |
+| Defined in | [cocos2d/core/value-types/CCSize.js:67](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCSize.js#L67) |
 
 
 
@@ -67,7 +67,7 @@ It will be deprecated soon, please use cc.Vec2 instead.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined in | [cocos2d/core/value-types/CCSize.js:71](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCSize.js#L71) |
+| Defined in | [cocos2d/core/value-types/CCSize.js:71](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCSize.js#L71) |
 
 
 
@@ -84,7 +84,7 @@ It will be deprecated soon, please use cc.Vec2 instead.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/CCSize.js:48](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCSize.js#L48) |
+| Defined in | [cocos2d/core/value-types/CCSize.js:48](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCSize.js#L48) |
 
 ###### Parameters
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> 
@@ -98,7 +98,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/value-types/CCSize.js:85](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCSize.js#L85) |
+| Defined in | [cocos2d/core/value-types/CCSize.js:85](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCSize.js#L85) |
 
 
 ##### Examples
@@ -115,7 +115,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCSize.js:98](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCSize.js#L98) |
+| Defined in | [cocos2d/core/value-types/CCSize.js:98](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCSize.js#L98) |
 
 ###### Parameters
 - `other` <a href="../classes/Size.html" class="crosslink">Size</a> 
@@ -134,7 +134,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/value-types/CCSize.js:114](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCSize.js#L114) |
+| Defined in | [cocos2d/core/value-types/CCSize.js:114](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCSize.js#L114) |
 
 ###### Parameters
 - `to` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -161,7 +161,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/value-types/CCSize.js:141](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCSize.js#L141) |
+| Defined in | [cocos2d/core/value-types/CCSize.js:141](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCSize.js#L141) |
 
 
 ##### Examples

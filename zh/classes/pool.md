@@ -42,7 +42,7 @@ cc.pool 是一个单例对象，用作为对象缓存池。<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/ccpool/CCPool.js:61](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/ccpool/CCPool.js#L61) |
+| 定义于 | [extensions/ccpool/CCPool.js:61](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/ccpool/CCPool.js#L61) |
 
 ###### 参数列表
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The need put in pool object.
@@ -65,7 +65,7 @@ cc.pool.getFromPool(_ccsg.Sprite, "a.png");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [extensions/ccpool/CCPool.js:81](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/ccpool/CCPool.js#L81) |
+| 定义于 | [extensions/ccpool/CCPool.js:81](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/ccpool/CCPool.js#L81) |
 
 ###### 参数列表
 - `objClass` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The check object class.
@@ -77,7 +77,7 @@ cc.pool.getFromPool(_ccsg.Sprite, "a.png");
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/ccpool/CCPool.js:97](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/ccpool/CCPool.js#L97) |
+| 定义于 | [extensions/ccpool/CCPool.js:97](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/ccpool/CCPool.js#L97) |
 
 
 
@@ -88,7 +88,7 @@ cc.pool.getFromPool(_ccsg.Sprite, "a.png");
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [extensions/ccpool/CCPool.js:116](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/ccpool/CCPool.js#L116) |
+| 定义于 | [extensions/ccpool/CCPool.js:116](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/ccpool/CCPool.js#L116) |
 
 
 
@@ -98,7 +98,7 @@ cc.pool.getFromPool(_ccsg.Sprite, "a.png");
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/ccpool/CCPool.js:138](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/ccpool/CCPool.js#L138) |
+| 定义于 | [extensions/ccpool/CCPool.js:138](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/ccpool/CCPool.js#L138) |
 
 
 
@@ -106,7 +106,7 @@ cc.pool.getFromPool(_ccsg.Sprite, "a.png");
 iption |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; Null 
-| 定义于 | [cocos2d/core/platform/js.js:907](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L907) |
+| 定义于 | [cocos2d/core/platform/js.js:907](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/platform/js.js#L907) |
 
 
 
@@ -116,7 +116,7 @@ iption |
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:925](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L925) |
+| 定义于 | [cocos2d/core/platform/js.js:925](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/platform/js.js#L925) |
 
 
 
@@ -126,7 +126,7 @@ iption |
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:941](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/js.js#L941) |
+| 定义于 | [cocos2d/core/platform/js.js:941](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/platform/js.js#L941) |
 
 
 

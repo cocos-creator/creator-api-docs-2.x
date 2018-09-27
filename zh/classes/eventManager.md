@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 该类已废弃。
 
@@ -45,7 +46,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:143](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event-manager/CCEventManager.js#L143) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:143](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L143) |
 
 ###### 参数列表
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -58,7 +59,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:167](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event-manager/CCEventManager.js#L167) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:167](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L167) |
 
 ###### 参数列表
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -72,7 +73,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:719](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event-manager/CCEventManager.js#L719) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:719](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L719) |
 
 ###### 参数列表
 - `listenerID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The listener id.
@@ -87,7 +88,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:730](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event-manager/CCEventManager.js#L730) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:730](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L730) |
 
 ###### 参数列表
 - `listener` <a href="../classes/EventListener.html" class="crosslink">EventListener</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The listener of a specified event or a object of some event parameters.
@@ -100,7 +101,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:807](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event-manager/CCEventManager.js#L807) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:807](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L807) |
 
 ###### 参数列表
 - `listener` <a href="../classes/EventListener.html" class="crosslink">EventListener</a> an event listener or a registered node target
@@ -148,7 +149,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:901](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event-manager/CCEventManager.js#L901) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:901](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L901) |
 
 ###### 参数列表
 - `listenerType` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> listenerType or a node
@@ -161,7 +162,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:985](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event-manager/CCEventManager.js#L985) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:985](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L985) |
 
 
 
@@ -171,7 +172,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:998](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event-manager/CCEventManager.js#L998) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:998](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L998) |
 
 ###### 参数列表
 - `listener` <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
@@ -184,7 +185,7 @@ cc.EventListener.ACCELERATION，<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:1028](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event-manager/CCEventManager.js#L1028) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:1028](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L1028) |
 
 ###### 参数列表
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -197,7 +198,7 @@ cc.EventListener.ACCELERATION，<br/>
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:1038](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/event-manager/CCEventManager.js#L1038) |
+| 定义于 | [cocos2d/core/event-manager/CCEventManager.js:1038](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L1038) |
 
 
 

@@ -39,7 +39,7 @@ The callbacks invoker to handle and invoke callbacks by key.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/callbacks-invoker.js:230](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/callbacks-invoker.js#L230) |
+| Defined in | [cocos2d/core/platform/callbacks-invoker.js:230](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/platform/callbacks-invoker.js#L230) |
 
 ###### Parameters
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -56,7 +56,7 @@ The callbacks invoker to handle and invoke callbacks by key.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/callbacks-invoker.js:97](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/callbacks-invoker.js#L97) |
+| Defined in | [cocos2d/core/platform/callbacks-invoker.js:97](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/platform/callbacks-invoker.js#L97) |
 
 ###### Parameters
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -72,7 +72,7 @@ it will only return true if the callback is registered.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/callbacks-invoker.js:112](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/callbacks-invoker.js#L112) |
+| Defined in | [cocos2d/core/platform/callbacks-invoker.js:112](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/platform/callbacks-invoker.js#L112) |
 
 ###### Parameters
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -86,7 +86,7 @@ Removes all callbacks registered in a certain event type or all callbacks regist
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/callbacks-invoker.js:148](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/callbacks-invoker.js#L148) |
+| Defined in | [cocos2d/core/platform/callbacks-invoker.js:148](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/platform/callbacks-invoker.js#L148) |
 
 ###### Parameters
 - `keyOrTarget` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The event key to be removed or the target to be removed
@@ -98,7 +98,7 @@ Removes all callbacks registered in a certain event type or all callbacks regist
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/callbacks-invoker.js:186](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/platform/callbacks-invoker.js#L186) |
+| Defined in | [cocos2d/core/platform/callbacks-invoker.js:186](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/platform/callbacks-invoker.js#L186) |
 
 ###### Parameters
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a>  

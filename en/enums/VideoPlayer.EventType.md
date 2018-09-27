@@ -27,7 +27,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCVideoPlayer.js:33](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCVideoPlayer.js#L33) |
+| Defined in | [cocos2d/core/components/CCVideoPlayer.js:33](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCVideoPlayer.js#L33) |
 
 
 
@@ -38,7 +38,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCVideoPlayer.js:38](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCVideoPlayer.js#L38) |
+| Defined in | [cocos2d/core/components/CCVideoPlayer.js:38](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCVideoPlayer.js#L38) |
 
 
 
@@ -49,7 +49,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCVideoPlayer.js:43](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCVideoPlayer.js#L43) |
+| Defined in | [cocos2d/core/components/CCVideoPlayer.js:43](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCVideoPlayer.js#L43) |
 
 
 
@@ -60,7 +60,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCVideoPlayer.js:48](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCVideoPlayer.js#L48) |
+| Defined in | [cocos2d/core/components/CCVideoPlayer.js:48](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCVideoPlayer.js#L48) |
 
 
 
@@ -71,7 +71,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCVideoPlayer.js:53](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCVideoPlayer.js#L53) |
+| Defined in | [cocos2d/core/components/CCVideoPlayer.js:53](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCVideoPlayer.js#L53) |
 
 
 
@@ -82,7 +82,7 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCVideoPlayer.js:58](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCVideoPlayer.js#L58) |
+| Defined in | [cocos2d/core/components/CCVideoPlayer.js:58](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCVideoPlayer.js#L58) |
 
 
 
@@ -93,6 +93,6 @@ Video event type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCVideoPlayer.js:63](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/components/CCVideoPlayer.js#L63) |
+| Defined in | [cocos2d/core/components/CCVideoPlayer.js:63](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCVideoPlayer.js#L63) |
 
 

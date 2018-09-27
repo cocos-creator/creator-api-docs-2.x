@@ -68,7 +68,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:63](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L63) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:63](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L63) |
 
 
 
@@ -79,7 +79,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:66](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L66) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:66](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L66) |
 
 
 
@@ -90,7 +90,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:542](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L542) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:542](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L542) |
 
 
 
@@ -101,7 +101,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:553](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L553) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:553](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L553) |
 
 
 
@@ -112,7 +112,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:564](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L564) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:564](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L564) |
 
 
 
@@ -123,7 +123,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:575](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L575) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:575](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L575) |
 
 
 
@@ -140,7 +140,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:42](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L42) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:42](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L42) |
 
 ###### 参数列表
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -154,7 +154,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:73](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L73) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:73](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L73) |
 
 
 
@@ -165,7 +165,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:83](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L83) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:83](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L83) |
 
 ###### 参数列表
 - `newValue` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> !#en new value to set. !#zh 要设置的新值
@@ -178,7 +178,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:97](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L97) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:97](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L97) |
 
 ###### 参数列表
 - `other` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -191,7 +191,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:108](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L108) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:108](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L108) |
 
 
 
@@ -202,7 +202,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:121](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L121) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:121](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L121) |
 
 ###### 参数列表
 - `to` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -217,7 +217,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:139](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L139) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:139](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L139) |
 
 ###### 参数列表
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -236,7 +236,7 @@ v.addSelf(cc.v2(5, 5));// return Vec2 {x: 15, y: 15};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:156](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L156) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:156](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L156) |
 
 ###### 参数列表
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -258,7 +258,7 @@ v.add(cc.v2(5, 5), v1);  // return Vec2 {x: 15, y: 15};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:176](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L176) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:176](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L176) |
 
 ###### 参数列表
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -277,7 +277,7 @@ v.subSelf(cc.v2(5, 5));// return Vec2 {x: 5, y: 5};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:193](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L193) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:193](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L193) |
 
 ###### 参数列表
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -299,7 +299,7 @@ v.sub(cc.v2(5, 5), v1);  // return Vec2 {x: 5, y: 5};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:213](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L213) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:213](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L213) |
 
 ###### 参数列表
 - `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -318,7 +318,7 @@ v.mulSelf(5);// return Vec2 {x: 50, y: 50};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:230](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L230) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:230](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L230) |
 
 ###### 参数列表
 - `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -340,7 +340,7 @@ v.mul(5, v1);  // return Vec2 {x: 50, y: 50};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:250](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L250) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:250](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L250) |
 
 ###### 参数列表
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -359,7 +359,7 @@ v.scaleSelf(cc.v2(5, 5));// return Vec2 {x: 50, y: 50};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:267](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L267) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:267](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L267) |
 
 ###### 参数列表
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -381,7 +381,7 @@ v.scale(cc.v2(5, 5), v1);  // return Vec2 {x: 50, y: 50};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:287](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L287) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:287](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L287) |
 
 ###### 参数列表
 - `divisor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -400,7 +400,7 @@ v.divSelf(5); // return Vec2 {x: 2, y: 2};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:304](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L304) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:304](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L304) |
 
 ###### 参数列表
 - `divisor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -422,7 +422,7 @@ v.div(5, v1);  // return Vec2 {x: 2, y: 2};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:324](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L324) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:324](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L324) |
 
 
 ##### 示例
@@ -439,7 +439,7 @@ v.negSelf(); // return Vec2 {x: -10, y: -10};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:340](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L340) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:340](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L340) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
@@ -459,7 +459,7 @@ v.neg(v1);  // return Vec2 {x: -10, y: -10};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:358](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L358) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:358](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L358) |
 
 ###### 参数列表
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -478,7 +478,7 @@ v.dot(cc.v2(5, 5)); // return 100;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:372](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L372) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:372](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L372) |
 
 ###### 参数列表
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -497,7 +497,7 @@ v.cross(cc.v2(5, 5)); // return 0;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:386](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L386) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:386](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L386) |
 
 
 ##### 示例
@@ -514,7 +514,7 @@ v.mag(); // return 14.142135623730951;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:399](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L399) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:399](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L399) |
 
 
 ##### 示例
@@ -531,7 +531,7 @@ v.magSqr(); // return 200;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:412](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L412) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:412](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L412) |
 
 
 ##### 示例
@@ -550,7 +550,7 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:439](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L439) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:439](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L439) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> optional, the receiving vector
@@ -563,7 +563,7 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:462](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L462) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:462](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L462) |
 
 ###### 参数列表
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -576,7 +576,7 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:484](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L484) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:484](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L484) |
 
 ###### 参数列表
 - `vector` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -589,7 +589,7 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:500](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L500) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:500](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L500) |
 
 ###### 参数列表
 - `radians` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -603,7 +603,7 @@ v.normalizeSelf(); // return Vec2 {x: 0.7071067811865475, y: 0.7071067811865475}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCVec2.js:515](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/value-types/CCVec2.js#L515) |
+| 定义于 | [cocos2d/core/value-types/CCVec2.js:515](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCVec2.js#L515) |
 
 ###### 参数列表
 - `radians` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 

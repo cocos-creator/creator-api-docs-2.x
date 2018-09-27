@@ -25,7 +25,7 @@ The callback of share system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2319](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2319) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2319](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2319) |
 
 
 
@@ -36,7 +36,7 @@ The callback of share system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2326](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2326) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2326](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2326) |
 
 
 
@@ -47,7 +47,7 @@ The callback of share system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2333](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2333) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2333](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2333) |
 
 
 
@@ -58,7 +58,7 @@ The callback of share system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2340](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2340) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2340](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2340) |
 
 
 
@@ -69,6 +69,6 @@ The callback of share system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2347](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/extensions/anysdk/jsb_anysdk.js#L2347) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2347](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/extensions/anysdk/jsb_anysdk.js#L2347) |
 
 

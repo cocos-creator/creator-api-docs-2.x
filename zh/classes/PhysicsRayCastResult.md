@@ -34,7 +34,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:673](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/physics/CCPhysicsManager.js#L673) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:673](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/physics/CCPhysicsManager.js#L673) |
 
 
 
@@ -45,7 +45,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:680](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/physics/CCPhysicsManager.js#L680) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:680](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/physics/CCPhysicsManager.js#L680) |
 
 
 
@@ -56,7 +56,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:687](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/physics/CCPhysicsManager.js#L687) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:687](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/physics/CCPhysicsManager.js#L687) |
 
 
 
@@ -67,7 +67,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:694](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/physics/CCPhysicsManager.js#L694) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:694](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/physics/CCPhysicsManager.js#L694) |
 
 
 

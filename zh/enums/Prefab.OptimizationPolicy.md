@@ -24,7 +24,7 @@ Prefab 创建实例所用的优化策略，配合 Prefab.optimizationPolicy 使�
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCPrefab.js:41](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/assets/CCPrefab.js#L41) |
+| 定义于 | [cocos2d/core/assets/CCPrefab.js:41](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/assets/CCPrefab.js#L41) |
 
 
 
@@ -36,7 +36,7 @@ Prefab 创建实例所用的优化策略，配合 Prefab.optimizationPolicy 使�
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCPrefab.js:50](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/assets/CCPrefab.js#L50) |
+| 定义于 | [cocos2d/core/assets/CCPrefab.js:50](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/assets/CCPrefab.js#L50) |
 
 
 
@@ -48,6 +48,6 @@ Prefab 创建实例所用的优化策略，配合 Prefab.optimizationPolicy 使�
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCPrefab.js:61](https://github.com/cocos-creator/engine/blob/79542d65dc19c8718cb54c9afa022e8f91855f48/cocos2d/core/assets/CCPrefab.js#L61) |
+| 定义于 | [cocos2d/core/assets/CCPrefab.js:61](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/assets/CCPrefab.js#L61) |
 
 
