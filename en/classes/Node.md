@@ -852,7 +852,7 @@ node.targetOff(target);
 
 Pause node related system events registered with the current Node. Node system events includes touch and mouse events.
 If recursive is set to true, then this API will pause the node system events for the node and all nodes in its sub node tree.
-Reference: http://cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/internal-events/
+Reference: http://docs.cocos2d-x.org/editors_and_tools/creator-chapters/scripting/internal-events/
 
 | meta | description |
 |------|-------------|
@@ -871,7 +871,7 @@ node.pauseSystemEvents(true);
 
 Resume node related system events registered with the current Node. Node system events includes touch and mouse events.
 If recursive is set to true, then this API will resume the node system events for the node and all nodes in its sub node tree.
-Reference: http://cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/internal-events/
+Reference: http://docs.cocos2d-x.org/editors_and_tools/creator-chapters/scripting/internal-events/
 
 | meta | description |
 |------|-------------|
