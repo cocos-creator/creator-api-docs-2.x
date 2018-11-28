@@ -107,3 +107,54 @@
 .cocos-navbar:hover h1 {
   opacity: 1;
 }
+
+@media (max-width: 800px) {
+  .cocos-navbar {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  .page-wrapper {
+    min-width: 800px;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .page-wrapper {
+    min-width: 800px;
+    padding-top: 0;
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  .cocos-navbar ul .version-link ul {
+    margin-left: 20px;
+  }
+  .cocos-navbar .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 1240px) {
+  .book-body .body-inner {
+      overflow: visible;
+  }
+}
+.cocos-navbar ul .version-link {
+  float: right;
+  z-index: 10;
+  padding-right: 15px;
+  text-align: right;
+  min-width: 180px;
+}
+.version-link ul li .btn {
+  padding-right: 35px;
+  padding-left: 0;
+}
+.version-link a span {
+  padding: 0;
+}
+.book-header {
+  min-width: 800px;
+}
