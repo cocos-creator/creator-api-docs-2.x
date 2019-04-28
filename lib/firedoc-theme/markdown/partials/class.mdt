@@ -31,6 +31,12 @@
 {{i18n.AVAILABLE_SINCE}} {{since}}
 {{/if}}
 
+{{#example}}
+##### {{../i18n.EXAMPLES}}
+
+{{{.}}}
+{{/example}}
+
 {{> items-index}}
 
 ### Details
