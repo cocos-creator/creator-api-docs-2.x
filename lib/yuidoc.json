@@ -1,8 +1,8 @@
 {
   "name": "Cocos Creator API",
   "description": "",
-  "version": "1.6.x",
-  "url": "http://cocos.com/creator",
+  "version": "0.0.1",
+  "url": "https://cocos.com/creator",
   "logo": "",
   "options": {
     "version": "2.0.0",

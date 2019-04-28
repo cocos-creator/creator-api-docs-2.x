@@ -10,11 +10,11 @@
                 "links": [
                     {
                         "name": "Manual",
-                        "link": "http://docs.cocos.com/creator/manual/en"
+                        "link": "//docs.cocos.com/creator/manual/en"
                     },
                     {
                         "name": "API Ref",
-                        "link": "http://docs.cocos.com/creator/api/en"
+                        "link": "//docs.cocos.com/creator/api/en"
                     }
                 ]
             },
@@ -23,17 +23,13 @@
                 "links": [
                     {
                         "name": "Manual",
-                        "link": "http://docs.cocos.com/cocos2d-x/manual/en/"
+                        "link": "//docs.cocos.com/cocos2d-x/manual/en/"
                     },
                     {
                         "name": "API Ref",
-                        "link": "http://docs.cocos2d-x.org/api-ref/index.html"
+                        "link": "//docs.cocos2d-x.org/api-ref/index.html"
                     }
                 ]
-            },
-            {
-                "name": "AnySDK",
-                "link": "http://docs.anysdk.com/"
             }
         ],
         "version": [
@@ -42,15 +38,15 @@
                 "links": [
                     {
                         "name": "1.9",
-                        "link": "http://docs.cocos.com/creator/1.9/api/en"
+                        "link": "//docs.cocos.com/creator/1.9/api/en"
                     },
                     {
                         "name": "1.10",
-                        "link": "http://docs.cocos.com/creator/1.10/api/en"
+                        "link": "//docs.cocos.com/creator/1.10/api/en"
                     },
                     {
                         "name": "2.0",
-                        "link": "http://docs.cocos.com/creator/api/en"
+                        "link": "//docs.cocos.com/creator/api/en"
                     }
                 ]
             }
