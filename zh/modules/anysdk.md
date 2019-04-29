@@ -71,6 +71,7 @@ AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程�
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
   - [PayResultCode](../enums/PayResultCode.md)
   - [Prefab.OptimizationPolicy](../enums/Prefab.OptimizationPolicy.md)
+  - [Primitive.PolyhedronType](../enums/Primitive.PolyhedronType.md)
   - [ProgressBar.Mode](../enums/ProgressBar.Mode.md)
   - [PushActionResultCode](../enums/PushActionResultCode.md)
   - [RayCastType](../enums/RayCastType.md)
@@ -83,6 +84,7 @@ AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程�
   - [SocialRetCode](../enums/SocialRetCode.md)
   - [Sprite.FillType](../enums/Sprite.FillType.md)
   - [Sprite.SizeMode](../enums/Sprite.SizeMode.md)
+  - [Sprite.State](../enums/Sprite.State.md)
   - [Sprite.Type](../enums/Sprite.Type.md)
   - [TaskType](../enums/TaskType.md)
   - [Texture2D.Filter](../enums/Texture2D.Filter.md)
@@ -122,7 +124,7 @@ AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程�
 | meta | description |
 |------|-------------|
 | 类型 | anysdk.AgentManager |
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L40) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 

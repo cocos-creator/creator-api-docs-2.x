@@ -26,8 +26,11 @@
   - [`clone`](#clone) 克隆一个四元数并返回
   - [`set`](#set) 用另一个四元数的值设置到当前对象上。
   - [`equals`](#equals) 当前的四元数是否与指定的四元数相等。
+  - [`toEuler`](#toeuler) 转换四元数到欧拉角
+  - [`fromEuler`](#fromeuler) 转换欧拉角到四元数
+  - [`lerp`](#lerp) 计算四元数的插值结果
+  - [`lerp`](#lerp) 计算四元数乘积的结果
   - [`quat`](#quat) 通过该简便的函数进行创建 <a href="../classes/Quat.html" class="crosslink">cc.Quat</a> 对象。
-  - [`lerp`](#lerp) 线性插值。
   - [`toString`](#tostring) 转换为方便阅读的字符串。
 
 
@@ -45,7 +48,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/quat.js:68](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L68) |
+| 定义于 | [cocos2d/core/value-types/quat.js:69](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L69) |
 
 
 
@@ -56,7 +59,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/quat.js:71](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L71) |
+| 定义于 | [cocos2d/core/value-types/quat.js:72](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L72) |
 
 
 
@@ -67,7 +70,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/quat.js:74](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L74) |
+| 定义于 | [cocos2d/core/value-types/quat.js:75](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L75) |
 
 
 
@@ -78,7 +81,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/quat.js:77](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L77) |
+| 定义于 | [cocos2d/core/value-types/quat.js:78](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L78) |
 
 
 
@@ -95,7 +98,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.js:41](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L41) |
+| 定义于 | [cocos2d/core/value-types/quat.js:42](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L42) |
 
 ###### 参数列表
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -111,7 +114,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/quat.js:84](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L84) |
+| 定义于 | [cocos2d/core/value-types/quat.js:85](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L85) |
 
 
 
@@ -122,7 +125,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/quat.js:94](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L94) |
+| 定义于 | [cocos2d/core/value-types/quat.js:95](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L95) |
 
 ###### 参数列表
 - `newValue` <a href="../classes/Quat.html" class="crosslink">Quat</a> !#en new value to set. !#zh 要设置的新值
@@ -135,10 +138,64 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/quat.js:110](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L110) |
+| 定义于 | [cocos2d/core/value-types/quat.js:111](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L111) |
 
 ###### 参数列表
 - `other` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
+
+
+##### toEuler
+
+转换四元数到欧拉角
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| 定义于 | [cocos2d/core/value-types/quat.js:122](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L122) |
+
+###### 参数列表
+- `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+
+
+##### fromEuler
+
+转换欧拉角到四元数
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
+| 定义于 | [cocos2d/core/value-types/quat.js:134](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L134) |
+
+###### 参数列表
+- `euler` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+
+
+##### lerp
+
+计算四元数的插值结果
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/value-types/quat.js:146](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L146) |
+
+###### 参数列表
+- `to` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
+- `ratio` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `out` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
+
+
+##### lerp
+
+计算四元数乘积的结果
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/value-types/quat.js:160](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L160) |
+
+###### 参数列表
+- `to` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
+- `ratio` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `out` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
 
 
 ##### quat
@@ -148,28 +205,13 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/quat.js:141](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/quat.js#L141) |
+| 定义于 | [cocos2d/core/value-types/quat.js:174](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/quat.js#L174) |
 
 ###### 参数列表
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 - `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - `z` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### lerp
-
-线性插值。<br/>
-当 ratio = 0 时返回自身，ratio = 1 时返回目标，ratio = 0.5 返回自身和目标的平均值。。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| 定义于 | [cocos2d/core/value-types/value-type.js:67](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/value-type.js#L67) |
-
-###### 参数列表
-- `to` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value
-- `ratio` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> the interpolation coefficient
 
 
 ##### toString
@@ -179,7 +221,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| 定义于 | [cocos2d/core/value-types/value-type.js:97](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/value-types/value-type.js#L97) |
+| 定义于 | [cocos2d/core/value-types/value-type.js:97](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/value-types/value-type.js#L97) |
 
 
 

@@ -13,6 +13,7 @@ DragonBones 的全局的命名空间，
 ### 类型
 
   - [ArmatureDisplay](../classes/ArmatureDisplay.md)
+  - [CCFactory](../classes/CCFactory.md)
   - [DragonBonesAsset](../classes/DragonBonesAsset.md)
   - [DragonBonesAtlasAsset](../classes/DragonBonesAtlasAsset.md)
 

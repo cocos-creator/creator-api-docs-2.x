@@ -70,6 +70,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
   - [PayResultCode](../enums/PayResultCode.md)
   - [Prefab.OptimizationPolicy](../enums/Prefab.OptimizationPolicy.md)
+  - [Primitive.PolyhedronType](../enums/Primitive.PolyhedronType.md)
   - [ProgressBar.Mode](../enums/ProgressBar.Mode.md)
   - [PushActionResultCode](../enums/PushActionResultCode.md)
   - [RayCastType](../enums/RayCastType.md)
@@ -82,6 +83,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
   - [SocialRetCode](../enums/SocialRetCode.md)
   - [Sprite.FillType](../enums/Sprite.FillType.md)
   - [Sprite.SizeMode](../enums/Sprite.SizeMode.md)
+  - [Sprite.State](../enums/Sprite.State.md)
   - [Sprite.Type](../enums/Sprite.Type.md)
   - [TaskType](../enums/TaskType.md)
   - [Texture2D.Filter](../enums/Texture2D.Filter.md)
@@ -121,7 +123,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
 | meta | description |
 |------|-------------|
 | Type | anysdk.AgentManager |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L40) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 

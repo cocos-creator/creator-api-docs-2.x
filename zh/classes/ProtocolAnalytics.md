@@ -64,7 +64,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:792](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L792) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:792](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L792) |
 
 
 
@@ -74,7 +74,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:802](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L802) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:802](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L802) |
 
 
 
@@ -84,7 +84,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:812](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L812) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:812](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L812) |
 
 ###### 参数列表
 - `millis` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Type: long
@@ -96,7 +96,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:823](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L823) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:823](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L823) |
 
 ###### 参数列表
 - `errorId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -109,7 +109,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:835](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L835) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:835](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L835) |
 
 ###### 参数列表
 - `errorId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -122,7 +122,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:847](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L847) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:847](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L847) |
 
 ###### 参数列表
 - `eventId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -134,7 +134,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:858](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L858) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:858](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L858) |
 
 ###### 参数列表
 - `eventId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -146,7 +146,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:869](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L869) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:869](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L869) |
 
 ###### 参数列表
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
@@ -158,7 +158,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:880](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L880) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:880](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L880) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -170,7 +170,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:891](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L891) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:891](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L891) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -182,7 +182,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:902](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L902) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:902](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L902) |
 
 ###### 参数列表
 - `orderID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -194,7 +194,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:913](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L913) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:913](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L913) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -206,7 +206,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:924](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L924) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:924](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L924) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -218,7 +218,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:935](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L935) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:935](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L935) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -230,7 +230,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:946](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L946) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:946](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L946) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -242,7 +242,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:957](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L957) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:957](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L957) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -254,7 +254,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:968](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L968) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:968](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L968) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -266,7 +266,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:979](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L979) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:979](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L979) |
 
 ###### 参数列表
 - `levelID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -278,7 +278,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:990](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L990) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:990](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L990) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -290,7 +290,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:1001](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L1001) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:1001](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L1001) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -302,7 +302,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:1012](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L1012) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:1012](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L1012) |
 
 ###### 参数列表
 - `taskID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -314,7 +314,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:1023](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L1023) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:1023](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L1023) |
 
 ###### 参数列表
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -327,7 +327,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:328](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L328) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:328](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L328) |
 
 ###### 参数列表
 - `functionName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -340,7 +340,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:342](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L342) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:342](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L342) |
 
 
 
@@ -351,7 +351,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:354](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L354) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:354](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L354) |
 
 
 
@@ -362,7 +362,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:366](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L366) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:366](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L366) |
 
 
 
@@ -372,7 +372,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:378](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L378) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:378](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L378) |
 
 ###### 参数列表
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -386,7 +386,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:391](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L391) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:391](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L391) |
 
 ###### 参数列表
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -400,7 +400,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:406](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L406) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:406](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L406) |
 
 ###### 参数列表
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -414,7 +414,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:421](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L421) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:421](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L421) |
 
 ###### 参数列表
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -428,7 +428,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:436](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/extensions/anysdk/jsb_anysdk.js#L436) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:436](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L436) |
 
 ###### 参数列表
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 

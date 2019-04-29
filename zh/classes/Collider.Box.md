@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 用来定义包围盒碰撞体
@@ -32,7 +33,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/collider/CCBoxCollider.js:41](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/collider/CCBoxCollider.js#L41) |
+| 定义于 | [cocos2d/core/collider/CCBoxCollider.js:41](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/collider/CCBoxCollider.js#L41) |
 
 
 
@@ -43,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| 定义于 | [cocos2d/core/collider/CCBoxCollider.js:58](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/collider/CCBoxCollider.js#L58) |
+| 定义于 | [cocos2d/core/collider/CCBoxCollider.js:58](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/collider/CCBoxCollider.js#L58) |
 
 
 
