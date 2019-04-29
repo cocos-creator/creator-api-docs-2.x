@@ -35,6 +35,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
   - [AdsResultCode](../enums/AdsResultCode.md)
   - [AdsType](../enums/AdsType.md)
   - [AnimationEventType](../enums/AnimationEventType.md)
+  - [ArmatureDisplay.AnimationCacheMode](../enums/ArmatureDisplay.AnimationCacheMode.md)
   - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [Button.Transition](../enums/Button.Transition.md)
   - [Camera.ClearFlags](../enums/Camera.ClearFlags.md)
@@ -78,10 +79,12 @@ AnySDK is a third party solution that offers game developers SDK integration wit
   - [Scrollbar.Direction](../enums/Scrollbar.Direction.md)
   - [ScrollView.EventType](../enums/ScrollView.EventType.md)
   - [ShareResultCode](../enums/ShareResultCode.md)
+  - [Skeleton.AnimationCacheMode](../enums/Skeleton.AnimationCacheMode.md)
   - [Slider.Direction](../enums/Slider.Direction.md)
   - [SocialRetCode](../enums/SocialRetCode.md)
   - [Sprite.FillType](../enums/Sprite.FillType.md)
   - [Sprite.SizeMode](../enums/Sprite.SizeMode.md)
+  - [Sprite.State](../enums/Sprite.State.md)
   - [Sprite.Type](../enums/Sprite.Type.md)
   - [TaskType](../enums/TaskType.md)
   - [Texture2D.Filter](../enums/Texture2D.Filter.md)
@@ -121,7 +124,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
 | meta | description |
 |------|-------------|
 | Type | anysdk.AgentManager |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L40) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 

@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Enum for RigidBodyType.
@@ -25,7 +24,7 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:43](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/physics/CCPhysicsTypes.js#L43) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:43](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/physics/CCPhysicsTypes.js#L43) |
 
 
 
@@ -36,7 +35,7 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:51](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/physics/CCPhysicsTypes.js#L51) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:51](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/physics/CCPhysicsTypes.js#L51) |
 
 
 
@@ -47,7 +46,7 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:59](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/physics/CCPhysicsTypes.js#L59) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:59](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/physics/CCPhysicsTypes.js#L59) |
 
 
 
@@ -58,6 +57,6 @@ Enum for RigidBodyType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:67](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/physics/CCPhysicsTypes.js#L67) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:67](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/physics/CCPhysicsTypes.js#L67) |
 
 
