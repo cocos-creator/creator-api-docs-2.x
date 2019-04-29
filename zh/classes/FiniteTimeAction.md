@@ -44,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/actions/CCAction.js:201](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/actions/CCAction.js#L201) |
+| 定义于 | [cocos2d/actions/CCAction.js:201](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCAction.js#L201) |
 
 
 
@@ -54,7 +54,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCAction.js:211](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/actions/CCAction.js#L211) |
+| 定义于 | [cocos2d/actions/CCAction.js:211](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCAction.js#L211) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -67,7 +67,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Null 
-| 定义于 | [cocos2d/actions/CCAction.js:221](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/actions/CCAction.js#L221) |
+| 定义于 | [cocos2d/actions/CCAction.js:221](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCAction.js#L221) |
 
 
 
@@ -78,7 +78,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-| 定义于 | [cocos2d/actions/CCAction.js:237](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/actions/CCAction.js#L237) |
+| 定义于 | [cocos2d/actions/CCAction.js:237](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCAction.js#L237) |
 
 
 
@@ -89,7 +89,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/actions/CCAction.js:66](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/actions/CCAction.js#L66) |
+| 定义于 | [cocos2d/actions/CCAction.js:66](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCAction.js#L66) |
 
 
 
@@ -100,7 +100,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| 定义于 | [cocos2d/actions/CCAction.js:98](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/actions/CCAction.js#L98) |
+| 定义于 | [cocos2d/actions/CCAction.js:98](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCAction.js#L98) |
 
 
 
@@ -110,7 +110,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCAction.js:108](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/actions/CCAction.js#L108) |
+| 定义于 | [cocos2d/actions/CCAction.js:108](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCAction.js#L108) |
 
 ###### 参数列表
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -123,7 +123,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| 定义于 | [cocos2d/actions/CCAction.js:118](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/actions/CCAction.js#L118) |
+| 定义于 | [cocos2d/actions/CCAction.js:118](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCAction.js#L118) |
 
 
 
@@ -134,7 +134,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/actions/CCAction.js:135](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/actions/CCAction.js#L135) |
+| 定义于 | [cocos2d/actions/CCAction.js:135](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCAction.js#L135) |
 
 
 
@@ -144,7 +144,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCAction.js:145](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/actions/CCAction.js#L145) |
+| 定义于 | [cocos2d/actions/CCAction.js:145](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCAction.js#L145) |
 
 ###### 参数列表
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

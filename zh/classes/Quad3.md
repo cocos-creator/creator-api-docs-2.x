@@ -33,7 +33,7 @@ A 3D Quad. 4 * 3 floats
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:319](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCTypesWebGL.js#L319) |
+| 定义于 | [cocos2d/core/value-types/CCTypesWebGL.js:319](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCTypesWebGL.js#L319) |
 
 ###### 参数列表
 - `bl1` <a href="../classes/Vertex3F.html" class="crosslink">Vertex3F</a> 

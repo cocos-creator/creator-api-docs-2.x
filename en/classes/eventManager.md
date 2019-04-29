@@ -48,7 +48,7 @@ Pauses all listeners which are associated the specified target.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event-manager/CCEventManager.js:143](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L143) |
+| Defined in | [cocos2d/core/event-manager/CCEventManager.js:143](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event-manager/CCEventManager.js#L143) |
 
 ###### Parameters
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -61,7 +61,7 @@ Resumes all listeners which are associated the specified target.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event-manager/CCEventManager.js:167](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L167) |
+| Defined in | [cocos2d/core/event-manager/CCEventManager.js:167](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event-manager/CCEventManager.js#L167) |
 
 ###### Parameters
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -75,7 +75,7 @@ Query whether the specified event listener id has been added.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/event-manager/CCEventManager.js:719](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L719) |
+| Defined in | [cocos2d/core/event-manager/CCEventManager.js:719](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event-manager/CCEventManager.js#L719) |
 
 ###### Parameters
 - `listenerID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The listener id.
@@ -94,7 +94,7 @@ it means to add a event listener for a specified event with the fixed priority.<
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
-| Defined in | [cocos2d/core/event-manager/CCEventManager.js:730](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L730) |
+| Defined in | [cocos2d/core/event-manager/CCEventManager.js:730](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event-manager/CCEventManager.js#L730) |
 
 ###### Parameters
 - `listener` <a href="../classes/EventListener.html" class="crosslink">EventListener</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The listener of a specified event or a object of some event parameters.
@@ -107,7 +107,7 @@ Remove a listener.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event-manager/CCEventManager.js:807](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L807) |
+| Defined in | [cocos2d/core/event-manager/CCEventManager.js:807](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event-manager/CCEventManager.js#L807) |
 
 ###### Parameters
 - `listener` <a href="../classes/EventListener.html" class="crosslink">EventListener</a> an event listener or a registered node target
@@ -146,7 +146,7 @@ Removes all listeners with the same event listener type or removes all listeners
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event-manager/CCEventManager.js:901](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L901) |
+| Defined in | [cocos2d/core/event-manager/CCEventManager.js:901](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event-manager/CCEventManager.js#L901) |
 
 ###### Parameters
 - `listenerType` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> listenerType or a node
@@ -159,7 +159,7 @@ Removes all listeners
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event-manager/CCEventManager.js:985](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L985) |
+| Defined in | [cocos2d/core/event-manager/CCEventManager.js:985](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event-manager/CCEventManager.js#L985) |
 
 
 
@@ -169,7 +169,7 @@ Sets listener's priority with fixed value.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event-manager/CCEventManager.js:998](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L998) |
+| Defined in | [cocos2d/core/event-manager/CCEventManager.js:998](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event-manager/CCEventManager.js#L998) |
 
 ###### Parameters
 - `listener` <a href="../classes/EventListener.html" class="crosslink">EventListener</a> 
@@ -182,7 +182,7 @@ Whether to enable dispatching events
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event-manager/CCEventManager.js:1028](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L1028) |
+| Defined in | [cocos2d/core/event-manager/CCEventManager.js:1028](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event-manager/CCEventManager.js#L1028) |
 
 ###### Parameters
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -195,7 +195,7 @@ Checks whether dispatching events is enabled
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/event-manager/CCEventManager.js:1038](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/event-manager/CCEventManager.js#L1038) |
+| Defined in | [cocos2d/core/event-manager/CCEventManager.js:1038](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event-manager/CCEventManager.js#L1038) |
 
 
 

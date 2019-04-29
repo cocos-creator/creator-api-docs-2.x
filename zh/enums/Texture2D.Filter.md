@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 The texture filter mode
@@ -22,7 +23,7 @@ The texture filter mode
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/textures/CCTexture2D.js:171](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/textures/CCTexture2D.js#L171) |
+| 定义于 | [cocos2d/core/textures/CCTexture2D.js:171](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/textures/CCTexture2D.js#L171) |
 
 
 
@@ -33,6 +34,6 @@ The texture filter mode
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/textures/CCTexture2D.js:178](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/textures/CCTexture2D.js#L178) |
+| 定义于 | [cocos2d/core/textures/CCTexture2D.js:178](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/textures/CCTexture2D.js#L178) |
 
 
