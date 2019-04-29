@@ -4,7 +4,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 WXSubContextView 可以用来控制微信小游戏平台开放数据域在主域中的视窗的位置。<br/>

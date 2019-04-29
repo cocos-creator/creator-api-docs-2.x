@@ -253,13 +253,13 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`ENGINE_VERSION`](#engineversion) `String` The current version of Cocos2d being used....
   - [`director`](#director) `Director` 导演类。
   - [`game`](#game) `Game` 这是一个 Game 类的实例，包含游戏主体信息并负责驱动游戏的游戏对象。
-  - [`systemEvent`](#systemevent) `SystemEvent` 系统事件单例，方便全局使用
   - [`view`](#view) `View` cc.view 是全局的视图对象。
   - [`winSize`](#winsize) `Size` cc.winSize 为当前的游戏窗口的大小。
   - [`Integer`](#integer) `string` Specify that the input value must be integer in Inspector....
   - [`Float`](#float) `string` Indicates that the elements in array should be type double.
   - [`Boolean`](#boolean) `string` Indicates that the elements in array should be type boolean.
   - [`String`](#string) `string` Indicates that the elements in array should be type string.
+  - [`systemEvent`](#systemevent) `SystemEvent` 系统事件单例，方便全局使用
   - [`dynamicAtlasManager`](#dynamicatlasmanager) `DynamicAtlasManager` 
 
 
@@ -415,17 +415,6 @@ If you post a bug to forum, please attach this flag.
 
 
 
-##### systemEvent
-
-> 系统事件单例，方便全局使用
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
-| 定义于 | [cocos2d/core/event/system-event.js:198](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/event/system-event.js#L198) |
-
-
-
 ##### view
 
 > cc.view 是全局的视图对象。
@@ -531,6 +520,17 @@ member: {
 }
 // ES6 ccclass
 ```
+
+
+##### systemEvent
+
+> 系统事件单例，方便全局使用
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
+| 定义于 | [cocos2d/core/event/system-event.js:198](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/event/system-event.js#L198) |
+
 
 
 ##### dynamicAtlasManager
