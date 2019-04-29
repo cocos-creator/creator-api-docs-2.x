@@ -5,6 +5,7 @@
 定义于: [https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/assets/CCAsset.js:32](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/assets/CCAsset.js#L32)
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 Creator 中的资源基类。<br/>
@@ -14,6 +15,7 @@ Creator 中的资源基类。<br/>
 - _nativeAsset 的 getset 方法<br/>
 - cc.Object._serialize<br/>
 - cc.Object._deserialize<br/>
+
 
 
 ### 索引

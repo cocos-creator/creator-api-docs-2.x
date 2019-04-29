@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 The loader pipe, it can load several types of files:
@@ -14,6 +15,7 @@ The loader pipe, it can load several types of files:
 6. Cocos Creator scene
 It will not interfere with items of unknown type.
 You can pass custom supported types in the constructor.
+
 
 
 ### Index

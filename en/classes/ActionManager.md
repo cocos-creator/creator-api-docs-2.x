@@ -14,6 +14,14 @@ Examples:<br/>
 - When you want to pause / resume the actions<br/>
 
 
+##### Examples
+
+```js
+----
+var mng = new cc.ActionManager();
+
+```
+
 ### Index
 
 

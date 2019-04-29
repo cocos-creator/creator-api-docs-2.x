@@ -29,6 +29,21 @@
   -cc.Node.EventType.MOUSE_WHEEL // 鼠标滚轮事件<br/>
 
 
+##### 示例
+
+```js
+// Add an event to the button.
+button.node.on(cc.Node.EventType.TOUCH_START, function (event) {
+    cc.log("This is a callback after the trigger event");
+});
+
+// You could also add a click event
+//Note: In this way, you can't get the touch event info, so use it wisely.
+button.node.on('click', function (button) {
+   //The event is a custom event, you could get the Button component via first argument
+})
+```
+
 ### 索引
 
 ##### 属性（properties）

@@ -12,6 +12,7 @@ use <a href="../modules/cc.html#method_size" class="crosslink">size</a> alias fu
 It will be deprecated soon, please use cc.Vec2 instead.
 
 
+
 ### Index
 
 ##### Properties

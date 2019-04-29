@@ -8,6 +8,7 @@
 Animation 支持的事件类型
 
 
+
 ### 索引
 
 ##### 属性（properties）

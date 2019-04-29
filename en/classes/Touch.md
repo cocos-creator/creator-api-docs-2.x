@@ -3,10 +3,10 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 The touch event class
+
 
 
 ### Index

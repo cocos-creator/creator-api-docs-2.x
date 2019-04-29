@@ -11,6 +11,7 @@ cc.Size 是 size 对象的类。<br/>
 它不久将被取消，请使用cc.Vec2代替。
 
 
+
 ### 索引
 
 ##### 属性（properties）

@@ -13,6 +13,7 @@ cc.Color 用于表示颜色。
 您也可以通过使用 <a href="../modules/cc.html#method_color" class="crosslink">cc.color</a> 的便捷方法来创建一个新的 Color。
 
 
+
 ### 索引
 
 ##### 属性（properties）

@@ -4,7 +4,6 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Handling touch events in a ViewGroup takes special care,
@@ -12,6 +11,7 @@ because it's common for a ViewGroup to have children that are targets for differ
 To make sure that each view correctly receives the touch events intended for it,
 ViewGroup should register capture phase event and handle the event propagation properly.
 Please refer to Scrollview for more  information.
+
 
 
 ### Index

@@ -254,13 +254,13 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`ENGINE_VERSION`](#engineversion) `String` The current version of Cocos2d being used....
   - [`director`](#director) `Director` 导演类。
   - [`game`](#game) `Game` 这是一个 Game 类的实例，包含游戏主体信息并负责驱动游戏的游戏对象。
-  - [`view`](#view) `View` cc.view 是全局的视图对象。
-  - [`winSize`](#winsize) `Size` cc.winSize 为当前的游戏窗口的大小。
+  - [`systemEvent`](#systemevent) `SystemEvent` 系统事件单例，方便全局使用
   - [`Integer`](#integer) `string` Specify that the input value must be integer in Inspector....
   - [`Float`](#float) `string` Indicates that the elements in array should be type double.
   - [`Boolean`](#boolean) `string` Indicates that the elements in array should be type boolean.
   - [`String`](#string) `string` Indicates that the elements in array should be type string.
-  - [`systemEvent`](#systemevent) `SystemEvent` 系统事件单例，方便全局使用
+  - [`view`](#view) `View` cc.view 是全局的视图对象。
+  - [`winSize`](#winsize) `Size` cc.winSize 为当前的游戏窗口的大小。
   - [`primitive`](#primitive) `Primitive` 
   - [`dynamicAtlasManager`](#dynamicatlasmanager) `DynamicAtlasManager` 
 
@@ -268,8 +268,17 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 
 ##### 方法
 
+  - [`error`](#error) 输出错误消息到 Cocos Creator 编辑器的 Console 或运行时页面端的 Console 中。
+  - [`warn`](#warn) 输出警告消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
+  - [`log`](#log) 输出一条消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
   - [`speed`](#speed) 修改目标动作的速率。
   - [`follow`](#follow) 追踪目标节点的位置。
+  - [`setPoints`](#setpoints) Points setter
+  - [`cardinalSplineTo`](#cardinalsplineto) 按基数样条曲线轨迹移动到目标位置。
+  - [`updatePosition`](#updateposition) update position of target
+  - [`cardinalSplineBy`](#cardinalsplineby) 按基数样条曲线轨迹移动指定的距离。
+  - [`catmullRomTo`](#catmullromto) 按 Catmull Rom 样条曲线轨迹移动到目标位置。
+  - [`catmullRomBy`](#catmullromby) 按 Catmull Rom 样条曲线轨迹移动指定的距离。
   - [`easeIn`](#easein) 创建 easeIn 缓动对象，由慢到快。
   - [`easeOut`](#easeout) 创建 easeOut 缓动对象，由快到慢。
   - [`easeInOut`](#easeinout) 创建 easeInOut 缓动对象，慢到快，然后慢。
@@ -304,12 +313,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`easeCubicActionIn`](#easecubicactionin) 创建 easeCubicActionIn 缓动对象。
   - [`easeCubicActionOut`](#easecubicactionout) 创建 easeCubicActionOut 缓动对象。
   - [`easeCubicActionInOut`](#easecubicactioninout) 创建 easeCubicActionInOut 缓动对象。
-  - [`setPoints`](#setpoints) Points setter
-  - [`cardinalSplineTo`](#cardinalsplineto) 按基数样条曲线轨迹移动到目标位置。
-  - [`updatePosition`](#updateposition) update position of target
-  - [`cardinalSplineBy`](#cardinalsplineby) 按基数样条曲线轨迹移动指定的距离。
-  - [`catmullRomTo`](#catmullromto) 按 Catmull Rom 样条曲线轨迹移动到目标位置。
-  - [`catmullRomBy`](#catmullromby) 按 Catmull Rom 样条曲线轨迹移动指定的距离。
   - [`show`](#show) 立即显示。
   - [`hide`](#hide) 立即隐藏。
   - [`toggleVisibility`](#togglevisibility) 显隐状态切换。
@@ -343,14 +346,12 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`delayTime`](#delaytime) 延迟指定的时间量。
   - [`reverseTime`](#reversetime) 反转目标动作的时间轴。
   - [`targetedAction`](#targetedaction) 用已有动作和一个新的目标节点创建动作。
-  - [`error`](#error) 输出错误消息到 Cocos Creator 编辑器的 Console 或运行时页面端的 Console 中。
-  - [`warn`](#warn) 输出警告消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
-  - [`log`](#log) 输出一条消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
   - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
   - [`rect`](#rect) 该方法用来快速创建一个新的矩形。
   - [`size`](#size) 创建一个 cc.Size 对象的帮助函数。
   - [`v2`](#v2) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
   - [`p`](#p) 这个函数从 v2.0 开始被废弃，请使用 V2。
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive....
   - [`Class`](#class) 定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
   - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
   - [`Enum`](#enum) 定义一个枚举类型。
@@ -372,7 +373,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`isValid`](#isvalid) 检查该对象是否不为 null 并且尚未销毁。
   - [`deserialize`](#deserialize) 将 JSON 反序列化为对象实例。
   - [`instantiate`](#instantiate) 克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive....
 
 
 
@@ -417,25 +417,14 @@ If you post a bug to forum, please attach this flag.
 
 
 
-##### view
+##### systemEvent
 
-> cc.view 是全局的视图对象。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/View.html" class="crosslink">View</a> |
-| 定义于 | [cocos2d/core/platform/CCView.js:1536](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/CCView.js#L1536) |
-
-
-
-##### winSize
-
-> cc.winSize 为当前的游戏窗口的大小。
+> 系统事件单例，方便全局使用
 
 | meta | description |
 |------|-------------|
-| 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| 定义于 | [cocos2d/core/platform/CCView.js:1545](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/CCView.js#L1545) |
+| 类型 | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
+| 定义于 | [cocos2d/core/event/system-event.js:198](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event/system-event.js#L198) |
 
 
 
@@ -524,14 +513,25 @@ member: {
 ```
 
 
-##### systemEvent
+##### view
 
-> 系统事件单例，方便全局使用
+> cc.view 是全局的视图对象。
 
 | meta | description |
 |------|-------------|
-| 类型 | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
-| 定义于 | [cocos2d/core/event/system-event.js:198](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event/system-event.js#L198) |
+| 类型 | <a href="../classes/View.html" class="crosslink">View</a> |
+| 定义于 | [cocos2d/core/platform/CCView.js:1536](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/CCView.js#L1536) |
+
+
+
+##### winSize
+
+> cc.winSize 为当前的游戏窗口的大小。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
+| 定义于 | [cocos2d/core/platform/CCView.js:1545](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/CCView.js#L1545) |
 
 
 
@@ -562,6 +562,49 @@ member: {
 
 <!-- Method Block -->
 #### 方法
+
+
+##### error
+
+输出错误消息到 Cocos Creator 编辑器的 Console 或运行时页面端的 Console 中。<br/>
+- 在 Cocos Creator 中，错误信息显示是红色的。<br/>
+- 在 Chrome 中，错误信息有红色的图标以及红色的消息文本。<br/>
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/CCDebug.js:113](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCDebug.js#L113) |
+
+###### 参数列表
+- `msg` Any A JavaScript string containing zero or more substitution strings.
+- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
+
+
+##### warn
+
+输出警告消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。<br/>
+- 在 Cocos Creator 中，警告信息显示是黄色的。<br/>
+- 在 Chrome 中，警告信息有着黄色的图标以及黄色的消息文本。<br/>
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/CCDebug.js:157](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCDebug.js#L157) |
+
+###### 参数列表
+- `msg` Any A JavaScript string containing zero or more substitution strings.
+- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
+
+
+##### log
+
+输出一条消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/CCDebug.js:187](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCDebug.js#L187) |
+
+###### 参数列表
+- `msg` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings.
+- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
 
 
 ##### speed
@@ -609,6 +652,104 @@ node.runAction(followAction);
 // creates the action with no boundary set
 var followAction = cc.follow(targetNode);
 node.runAction(followAction);
+```
+
+##### setPoints
+
+Points setter
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:226](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L226) |
+
+###### 参数列表
+- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### cardinalSplineTo
+
+按基数样条曲线轨迹移动到目标位置。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:236](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L236) |
+
+###### 参数列表
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> array of control points
+- `tension` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+//create a cc.CardinalSplineTo
+var action1 = cc.cardinalSplineTo(3, array, 0);
+```
+
+##### updatePosition
+
+update position of target
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:319](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L319) |
+
+###### 参数列表
+- `newPos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### cardinalSplineBy
+
+按基数样条曲线轨迹移动指定的距离。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:340](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L340) |
+
+###### 参数列表
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `tension` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### catmullRomTo
+
+按 Catmull Rom 样条曲线轨迹移动到目标位置。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:388](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L388) |
+
+###### 参数列表
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+##### 示例
+
+```js
+var action1 = cc.catmullRomTo(3, array);
+```
+
+##### catmullRomBy
+
+按 Catmull Rom 样条曲线轨迹移动指定的距离。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:437](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L437) |
+
+###### 参数列表
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+##### 示例
+
+```js
+var action1 = cc.catmullRomBy(3, array);
 ```
 
 ##### easeIn
@@ -1238,104 +1379,6 @@ EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
 | 定义于 | [cocos2d/actions/CCActionEase.js:1020](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionEase.js#L1020) |
 
 
-
-##### setPoints
-
-Points setter
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:226](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L226) |
-
-###### 参数列表
-- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### cardinalSplineTo
-
-按基数样条曲线轨迹移动到目标位置。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:236](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L236) |
-
-###### 参数列表
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> array of control points
-- `tension` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-//create a cc.CardinalSplineTo
-var action1 = cc.cardinalSplineTo(3, array, 0);
-```
-
-##### updatePosition
-
-update position of target
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:319](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L319) |
-
-###### 参数列表
-- `newPos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### cardinalSplineBy
-
-按基数样条曲线轨迹移动指定的距离。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:340](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L340) |
-
-###### 参数列表
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-- `tension` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### catmullRomTo
-
-按 Catmull Rom 样条曲线轨迹移动到目标位置。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:388](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L388) |
-
-###### 参数列表
-- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-##### 示例
-
-```js
-var action1 = cc.catmullRomTo(3, array);
-```
-
-##### catmullRomBy
-
-按 Catmull Rom 样条曲线轨迹移动指定的距离。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| 定义于 | [cocos2d/actions/CCActionCatmullRom.js:437](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/actions/CCActionCatmullRom.js#L437) |
-
-###### 参数列表
-- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-##### 示例
-
-```js
-var action1 = cc.catmullRomBy(3, array);
-```
 
 ##### show
 
@@ -2010,49 +2053,6 @@ var delay = cc.delayTime(1);
 - `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 
-##### error
-
-输出错误消息到 Cocos Creator 编辑器的 Console 或运行时页面端的 Console 中。<br/>
-- 在 Cocos Creator 中，错误信息显示是红色的。<br/>
-- 在 Chrome 中，错误信息有红色的图标以及红色的消息文本。<br/>
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/CCDebug.js:113](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCDebug.js#L113) |
-
-###### 参数列表
-- `msg` Any A JavaScript string containing zero or more substitution strings.
-- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
-
-
-##### warn
-
-输出警告消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。<br/>
-- 在 Cocos Creator 中，警告信息显示是黄色的。<br/>
-- 在 Chrome 中，警告信息有着黄色的图标以及黄色的消息文本。<br/>
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/CCDebug.js:157](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCDebug.js#L157) |
-
-###### 参数列表
-- `msg` Any A JavaScript string containing zero or more substitution strings.
-- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
-
-
-##### log
-
-输出一条消息到 Cocos Creator 编辑器的 Console 或运行时 Web 端的 Console 中。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/CCDebug.js:187](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCDebug.js#L187) |
-
-###### 参数列表
-- `msg` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings.
-- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
-
-
 ##### color
 
 通过该方法来创建一个新的 Color/Color:method 对象。
@@ -2147,6 +2147,23 @@ var v4 = cc.v2({x: 100, y: 100});
 ###### 参数列表
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
 - `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| 定义于 | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/utils/find.js#L30) |
+
+###### 参数列表
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 ##### Class
@@ -2581,22 +2598,5 @@ var scene = cc.director.getScene();
 var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
-
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| 定义于 | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/utils/find.js#L30) |
-
-###### 参数列表
-- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
-
 
 

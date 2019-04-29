@@ -10,6 +10,7 @@ cc.visibleRect is a singleton object which defines the actual visible rect of th
 it should represent the same rect as cc.view.getViewportRect()
 
 
+
 ### 索引
 
 ##### 属性（properties）

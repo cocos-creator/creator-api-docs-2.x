@@ -8,6 +8,17 @@
 
 
 
+##### 示例
+
+```js
+// Create new EventHandler
+var eventHandler = new cc.Component.EventHandler();
+eventHandler.target = newTarget;
+eventHandler.component = "MainMenu";
+eventHandler.handler = "OnClick";
+eventHandler.customEventData = "my data";
+```
+
 ### 索引
 
 ##### 属性（properties）

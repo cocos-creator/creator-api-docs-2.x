@@ -10,6 +10,7 @@
 it controls the behavior of how to scale the cc.game.container and cc.game.canvas object</p>
 
 
+
 ### 索引
 
 

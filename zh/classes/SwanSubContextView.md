@@ -17,6 +17,7 @@ SwanSubContextView 可以用来控制百度小游戏平台开放数据域在主�
 唯一需要注意的是，当子域节点的包围盒发生改变时，开发者需要使用 `updateSubContextViewport` 来手动更新子域视窗。
 
 
+
 ### 索引
 
 ##### 属性（properties）

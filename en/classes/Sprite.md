@@ -4,11 +4,19 @@ Extends [`RenderComponent`](RenderComponent.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Renders a sprite in the scene.
 
+
+##### Examples
+
+```js
+// Create a new node and add sprite components.
+ var node = new cc.Node("New Sprite");
+ var sprite = node.addComponent(cc.Sprite);
+ node.parent = this.node;
+```
 
 ### Index
 

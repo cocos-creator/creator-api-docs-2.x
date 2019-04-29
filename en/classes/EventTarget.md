@@ -4,7 +4,6 @@
 Defined in: [https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event/event-target.js:35](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event/event-target.js#L35)
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 EventTarget is an object to which an event is dispatched when something has occurred.
@@ -24,6 +23,7 @@ See also: http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
 Event targets can implement the following methods:
  - _getCapturingTargets
  - _getBubblingTargets
+
 
 
 ### Index

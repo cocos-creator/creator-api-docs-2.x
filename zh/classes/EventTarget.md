@@ -4,11 +4,11 @@
 定义于: [https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event/event-target.js:35](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event/event-target.js#L35)
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 事件目标是事件触发时，分派的事件对象，Node 是最常见的事件目标，
 但是其他对象也可以是事件目标。<br/>
+
 
 
 ### 索引

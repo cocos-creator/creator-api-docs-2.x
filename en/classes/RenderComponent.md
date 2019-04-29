@@ -5,10 +5,10 @@ Extends [`Component`](Component.md)
 Defined in: [https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/components/CCRenderComponent.js:37](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/components/CCRenderComponent.js#L37)
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Base class for components which supports rendering features.
+
 
 
 ### Index

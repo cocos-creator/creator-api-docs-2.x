@@ -17,6 +17,7 @@ Animation 提供了一系列可注册的事件：
  - finished : 动画播放完成时
 
 
+
 ### 索引
 
 ##### 属性（properties）
