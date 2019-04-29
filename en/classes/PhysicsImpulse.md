@@ -33,7 +33,7 @@ Contact impulses for reporting.
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:185](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/physics/CCPhysicsContact.js#L185) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:185](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/physics/CCPhysicsContact.js#L185) |
 
 
 
@@ -44,7 +44,7 @@ Contact impulses for reporting.
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:193](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/physics/CCPhysicsContact.js#L193) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:193](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/physics/CCPhysicsContact.js#L193) |
 
 
 

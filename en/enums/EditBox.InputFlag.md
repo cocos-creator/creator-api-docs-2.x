@@ -26,7 +26,7 @@ obscured whenever possible. This implies EDIT_BOX_INPUT_FLAG_SENSITIVE.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:117](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCEditBox.js#L117) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:117](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/components/CCEditBox.js#L117) |
 
 
 
@@ -40,7 +40,7 @@ A credit card number is an example of sensitive data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:125](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCEditBox.js#L125) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:125](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/components/CCEditBox.js#L125) |
 
 
 
@@ -52,7 +52,7 @@ the initial letter of each word should be capitalized.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:136](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCEditBox.js#L136) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:136](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/components/CCEditBox.js#L136) |
 
 
 
@@ -64,7 +64,7 @@ the initial letter of each sentence should be capitalized.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:144](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCEditBox.js#L144) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:144](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/components/CCEditBox.js#L144) |
 
 
 
@@ -75,6 +75,6 @@ the initial letter of each sentence should be capitalized.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCEditBox.js:152](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/components/CCEditBox.js#L152) |
+| Defined in | [cocos2d/core/components/CCEditBox.js:152](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/components/CCEditBox.js#L152) |
 
 

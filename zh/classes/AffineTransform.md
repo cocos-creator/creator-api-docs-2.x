@@ -49,7 +49,7 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:56](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L56) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:56](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L56) |
 
 ###### 参数列表
 - `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -67,7 +67,7 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:72](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L72) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:72](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L72) |
 
 ###### 参数列表
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -80,7 +80,7 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:83](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L83) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:83](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L83) |
 
 ###### 参数列表
 - `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> or x.
@@ -95,7 +95,7 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:125](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L125) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:125](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L125) |
 
 ###### 参数列表
 - `size` <a href="../classes/Size.html" class="crosslink">Size</a> 
@@ -111,7 +111,7 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:137](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L137) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:137](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L137) |
 
 
 
@@ -122,7 +122,7 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:169](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L169) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:169](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L169) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -135,7 +135,7 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:224](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L224) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:224](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L224) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -153,7 +153,7 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:258](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L258) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:258](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L258) |
 
 ###### 参数列表
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> The base affine transform object.
@@ -168,7 +168,7 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:278](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L278) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:278](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L278) |
 
 ###### 参数列表
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> The base affine transform object.
@@ -183,7 +183,7 @@ cc.AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:291](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L291) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:291](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L291) |
 
 ###### 参数列表
 - `aTransform` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> The base affine transform object.
@@ -198,7 +198,7 @@ t' = t1 * t2
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:311](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L311) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:311](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L311) |
 
 ###### 参数列表
 - `t1` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> The first transform object.
@@ -213,7 +213,7 @@ t' = t1 * t2
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:332](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L332) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:332](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L332) |
 
 ###### 参数列表
 - `t1` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> The first transform object.
@@ -227,7 +227,7 @@ t' = t1 * t2
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:356](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L356) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:356](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L356) |
 
 ###### 参数列表
 - `t1` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -241,7 +241,7 @@ t' = t1 * t2
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:368](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L368) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:368](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L368) |
 
 ###### 参数列表
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -253,7 +253,7 @@ t' = t1 * t2
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:394](https://github.com/cocos-creator/engine/blob/d6ec4c03aa86f40af14d21ef9f059fed5e540c58/cocos2d/core/value-types/CCAffineTransform.js#L394) |
+| 定义于 | [cocos2d/core/value-types/CCAffineTransform.js:394](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCAffineTransform.js#L394) |
 
 ###### 参数列表
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
