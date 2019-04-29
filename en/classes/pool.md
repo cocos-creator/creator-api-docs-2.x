@@ -43,7 +43,7 @@ the maximum will not exceed the size specified when the constructor is called.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/js.js:923](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/js.js#L923) |
+| Defined in | [cocos2d/core/platform/js.js:938](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/js.js#L938) |
 
 
 
@@ -61,7 +61,7 @@ You can pass a callback argument for process the cleanup logic when the object i
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:888](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/js.js#L888) |
+| Defined in | [cocos2d/core/platform/js.js:903](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/js.js#L903) |
 
 ###### Parameters
 - `cleanupFunc` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> the callback method used to process the cleanup logic when the object is recycled.
@@ -76,7 +76,7 @@ Get and initialize an object from pool. This method defaults to null and require
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/platform/js.js:913](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/js.js#L913) |
+| Defined in | [cocos2d/core/platform/js.js:928](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/js.js#L928) |
 
 ###### Parameters
 - `params` Any parameters to used to initialize the object
@@ -89,7 +89,7 @@ Get an object from pool, if no available object in the pool, null will be return
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; Null 
-| Defined in | [cocos2d/core/platform/js.js:933](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/js.js#L933) |
+| Defined in | [cocos2d/core/platform/js.js:948](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/js.js#L948) |
 
 
 
@@ -99,7 +99,7 @@ Put an object into the pool.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:951](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/js.js#L951) |
+| Defined in | [cocos2d/core/platform/js.js:966](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/js.js#L966) |
 
 
 
@@ -109,7 +109,7 @@ Resize the pool.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:967](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/js.js#L967) |
+| Defined in | [cocos2d/core/platform/js.js:982](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/js.js#L982) |
 
 
 

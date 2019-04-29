@@ -43,6 +43,12 @@ window.apimeta = {
       "description": "The event type of spine skeleton animation."
     },
     {
+      "name": "ArmatureDisplay.AnimationCacheMode",
+      "namespace": "dragonBones.ArmatureDisplay.AnimationCacheMode",
+      "module": "dragonBones",
+      "description": "Enum for cache mode type."
+    },
+    {
       "name": "Button.Transition",
       "namespace": "cc.Button.Transition",
       "module": "cc",
@@ -265,6 +271,12 @@ window.apimeta = {
       "description": "The callback of share system"
     },
     {
+      "name": "Skeleton.AnimationCacheMode",
+      "namespace": "sp.Skeleton.AnimationCacheMode",
+      "module": "sp",
+      "description": "Enum for animation cache mode type."
+    },
+    {
       "name": "Slider.Direction",
       "namespace": "cc.Slider.Direction",
       "module": "cc",
@@ -287,6 +299,12 @@ window.apimeta = {
       "namespace": "cc.Sprite.SizeMode",
       "module": "cc",
       "description": "Sprite Size can track trimmed size, raw size or none."
+    },
+    {
+      "name": "Sprite.State",
+      "namespace": "cc.Sprite.State",
+      "module": "cc",
+      "description": "Sprite state can choice the normal or grayscale."
     },
     {
       "name": "Sprite.Type",
@@ -513,10 +531,22 @@ window.apimeta = {
       "description": "Box Collider."
     },
     {
+      "name": "BufferAsset",
+      "namespace": "cc.BufferAsset",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "Button",
       "namespace": "cc.Button",
       "module": "cc",
-      "description": "Button has 4 Transition types<br/>\nWhen Button state changed:<br/>\n If Transition type is Button.Transition.NONE, Button will do nothing<br/>\n If Transition type is Button.Transition.COLOR, Button will change target's color<br/>\n If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite<br/>\n If Transition type is Button.Transition.SCALE, Button will change target node's scale<br/>\n\nButton will trigger 5 events:<br/>\n Button.EVENT_TOUCH_DOWN<br/>\n Button.EVENT_TOUCH_UP<br/>\n Button.EVENT_HOVER_IN<br/>\n Button.EVENT_HOVER_MOVE<br/>\n Button.EVENT_HOVER_OUT<br/>"
+      "description": "Button has 4 Transition types<br/>\nWhen Button state changed:<br/>\n If Transition type is Button.Transition.NONE, Button will do nothing<br/>\n If Transition type is Button.Transition.COLOR, Button will change target's color<br/>\n If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite<br/>\n If Transition type is Button.Transition.SCALE, Button will change target node's scale<br/>\n\nButton will trigger 5 events:<br/>\n Button.EVENT_TOUCH_DOWN<br/>\n Button.EVENT_TOUCH_UP<br/>\n Button.EVENT_HOVER_IN<br/>\n Button.EVENT_HOVER_MOVE<br/>\n Button.EVENT_HOVER_OUT<br/>\n User can get the current clicked node with 'event.target' from event object which is passed as parameter in the callback function of click event."
+    },
+    {
+      "name": "CCFactory",
+      "namespace": "dragonBones.CCFactory",
+      "module": "dragonBones",
+      "description": ""
     },
     {
       "name": "CallbacksInvoker",
@@ -637,6 +667,12 @@ window.apimeta = {
       "namespace": "dragonBones.DragonBonesAtlasAsset",
       "module": "dragonBones",
       "description": "The skeleton atlas data of dragonBones."
+    },
+    {
+      "name": "DynamicAtlasManager",
+      "namespace": "cc.DynamicAtlasManager",
+      "module": "cc",
+      "description": "Manager the dynamic atlas."
     },
     {
       "name": "EditBox",
@@ -1197,10 +1233,16 @@ window.apimeta = {
       "description": "A cc.SpriteFrame has:<br/>\n - texture: A cc.Texture2D that will be used by render components<br/>\n - rectangle: A rectangle of the texture"
     },
     {
+      "name": "SwanSubContextView",
+      "namespace": "cc.SwanSubContextView",
+      "module": "cc",
+      "description": "SwanSubContextView is a view component which controls open data context viewport in WeChat game platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,\nyou need to manually reset the viewport of sub context using updateSubContextViewport."
+    },
+    {
       "name": "SystemEvent",
       "namespace": "cc.SystemEvent",
       "module": "cc",
-      "description": "The System event, it currently supports the key events and accelerometer events"
+      "description": "The System event, it currently supports keyboard events and accelerometer events.<br>\nYou can get the SystemEvent instance with cc.systemEvent.<br>\nexample:\n```\ncc.systemEvent.on(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);\ncc.systemEvent.off(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);\n```"
     },
     {
       "name": "SystemEvent.EventType",
@@ -1281,6 +1323,12 @@ window.apimeta = {
       "description": "The touch event class"
     },
     {
+      "name": "Tween",
+      "namespace": "cc.Tween",
+      "module": "cc",
+      "description": "Tween provide a simple and flexible way to create action.\nTween's api is more flexible than cc.Action:\n - Support creating an action sequence in chained api,\n - Support animate any objects' any properties, not limited to node's properties.\n   By contrast, cc.Action needs to create a new action class to support new node property.\n - Support working with cc.Action,\n - Support easing and progress function,"
+    },
+    {
       "name": "TypeScript",
       "namespace": "cc.TypeScript",
       "module": "cc",
@@ -1326,7 +1374,7 @@ window.apimeta = {
       "name": "WXSubContextView",
       "namespace": "cc.WXSubContextView",
       "module": "cc",
-      "description": "WXSubContextView is a view component which controls open data context viewport in Wechat game platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,\nyou need to manually reset the viewport of sub context using updateSubContextViewport."
+      "description": "WXSubContextView is a view component which controls open data context viewport in WeChat game platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,\nyou need to manually reset the viewport of sub context using updateSubContextViewport."
     },
     {
       "name": "WebView",

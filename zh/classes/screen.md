@@ -39,7 +39,7 @@ initialize
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCScreen.js:81](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/CCScreen.js#L81) |
+| 定义于 | [cocos2d/core/platform/CCScreen.js:81](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/CCScreen.js#L81) |
 
 
 
@@ -50,7 +50,7 @@ return true if it's full now.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCScreen.js:102](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/CCScreen.js#L102) |
+| 定义于 | [cocos2d/core/platform/CCScreen.js:102](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/CCScreen.js#L102) |
 
 
 
@@ -60,7 +60,7 @@ change the screen to full mode.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCScreen.js:115](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/CCScreen.js#L115) |
+| 定义于 | [cocos2d/core/platform/CCScreen.js:117](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/CCScreen.js#L117) |
 
 ###### 参数列表
 - `element` Element 
@@ -74,7 +74,7 @@ exit the full mode.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCScreen.js:140](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/CCScreen.js#L140) |
+| 定义于 | [cocos2d/core/platform/CCScreen.js:152](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/CCScreen.js#L152) |
 
 
 
@@ -84,7 +84,7 @@ Automatically request full screen with a touch/click event
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCScreen.js:149](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/platform/CCScreen.js#L149) |
+| 定义于 | [cocos2d/core/platform/CCScreen.js:170](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/platform/CCScreen.js#L170) |
 
 ###### 参数列表
 - `element` Element 

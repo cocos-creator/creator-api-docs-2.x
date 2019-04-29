@@ -64,7 +64,7 @@ Start a new session.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:792](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L792) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:792](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L792) |
 
 
 
@@ -74,7 +74,7 @@ Stop a session.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:802](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L802) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:802](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L802) |
 
 
 
@@ -84,7 +84,7 @@ Set the timeout for expiring a session.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:812](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L812) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:812](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L812) |
 
 ###### Parameters
 - `millis` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Type: long
@@ -96,7 +96,7 @@ log an error
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:823](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L823) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:823](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L823) |
 
 ###### Parameters
 - `errorId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -109,7 +109,7 @@ log an event.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:835](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L835) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:835](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L835) |
 
 ###### Parameters
 - `errorId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -122,7 +122,7 @@ Track an event begin.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:847](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L847) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:847](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L847) |
 
 ###### Parameters
 - `eventId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -134,7 +134,7 @@ Track an event end.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:858](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L858) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:858](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L858) |
 
 ###### Parameters
 - `eventId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -146,7 +146,7 @@ set Whether to catch uncaught exceptions to server.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:869](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L869) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:869](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L869) |
 
 ###### Parameters
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
@@ -158,7 +158,7 @@ analytics account information
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:880](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L880) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:880](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L880) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -170,7 +170,7 @@ track user to request payment
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:891](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L891) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:891](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L891) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -182,7 +182,7 @@ track Successful payment
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:902](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L902) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:902](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L902) |
 
 ###### Parameters
 - `orderID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -194,7 +194,7 @@ track failed payment
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:913](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L913) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:913](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L913) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -206,7 +206,7 @@ track Successful payment
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:924](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L924) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:924](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L924) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -218,7 +218,7 @@ track user purchase
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:935](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L935) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:935](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L935) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -230,7 +230,7 @@ track user to use goods
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:946](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L946) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:946](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L946) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -242,7 +242,7 @@ track user to reward goods
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:957](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L957) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:957](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L957) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -254,7 +254,7 @@ start level
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:968](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L968) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:968](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L968) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -266,7 +266,7 @@ finish level
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:979](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L979) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:979](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L979) |
 
 ###### Parameters
 - `levelID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -278,7 +278,7 @@ failed level
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:990](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L990) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:990](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L990) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -290,7 +290,7 @@ start task
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1001](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L1001) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1001](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L1001) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -302,7 +302,7 @@ finish task
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1012](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L1012) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1012](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L1012) |
 
 ###### Parameters
 - `taskID` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -314,7 +314,7 @@ failed task
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1023](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L1023) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1023](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L1023) |
 
 ###### Parameters
 - `paramMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Type: map
@@ -327,7 +327,7 @@ Check whether the function is supported
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:328](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L328) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:328](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L328) |
 
 ###### Parameters
 - `functionName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -340,7 +340,7 @@ get plugin name
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:342](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L342) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:342](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L342) |
 
 
 
@@ -351,7 +351,7 @@ get plugin version
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:354](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L354) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:354](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L354) |
 
 
 
@@ -362,7 +362,7 @@ get SDK version
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:366](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L366) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:366](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L366) |
 
 
 
@@ -372,7 +372,7 @@ void methods for reflections with parameter
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/anysdk/jsb_anysdk.js:378](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L378) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:378](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L378) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -386,7 +386,7 @@ String methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:391](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L391) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:391](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L391) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -400,7 +400,7 @@ int methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:406](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L406) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:406](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L406) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -414,7 +414,7 @@ boolean methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:421](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L421) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:421](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L421) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -428,7 +428,7 @@ float methods for reflections with parameter
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:436](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L436) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:436](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L436) |
 
 ###### Parameters
 - `funName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 

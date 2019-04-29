@@ -31,7 +31,7 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2716](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2716) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2716](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2716) |
 
 
 
@@ -42,7 +42,7 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2723](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2723) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2723](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2723) |
 
 
 
@@ -53,7 +53,7 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2730](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2730) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2730](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2730) |
 
 
 
@@ -64,7 +64,7 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2737](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2737) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2737](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2737) |
 
 
 
@@ -75,7 +75,7 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2744](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2744) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2744](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2744) |
 
 
 
@@ -86,7 +86,7 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2751](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2751) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2751](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2751) |
 
 
 
@@ -97,7 +97,7 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2758](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2758) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2758](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2758) |
 
 
 
@@ -108,7 +108,7 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2765](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2765) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2765](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2765) |
 
 
 
@@ -119,7 +119,7 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2772](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2772) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2772](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2772) |
 
 
 
@@ -130,7 +130,7 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2779](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2779) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2779](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2779) |
 
 
 
@@ -141,6 +141,6 @@ The callback of REC system
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2786](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L2786) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2786](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2786) |
 
 

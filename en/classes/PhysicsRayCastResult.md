@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -35,7 +34,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:679](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/physics/CCPhysicsManager.js#L679) |
+| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:679](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/physics/CCPhysicsManager.js#L679) |
 
 
 
@@ -46,7 +45,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:686](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/physics/CCPhysicsManager.js#L686) |
+| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:686](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/physics/CCPhysicsManager.js#L686) |
 
 
 
@@ -57,7 +56,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:693](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/physics/CCPhysicsManager.js#L693) |
+| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:693](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/physics/CCPhysicsManager.js#L693) |
 
 
 
@@ -68,7 +67,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:700](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/cocos2d/core/physics/CCPhysicsManager.js#L700) |
+| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:700](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/physics/CCPhysicsManager.js#L700) |
 
 
 
