@@ -19,6 +19,11 @@ All members can be accessed with "cc.js".
 
 ### Index
 
+##### Properties
+
+  - [`_registeredClassIds`](#registeredclassids) `Unknown` All classes registered in the engine, indexed by ID.
+  - [`_registeredClassNames`](#registeredclassnames) `Unknown` All classes registered in the engine, indexed by name.
+
 
 
 ##### Methods
@@ -31,6 +36,7 @@ All members can be accessed with "cc.js".
   - [`getSuper`](#getsuper) Get super class
   - [`isChildClassOf`](#ischildclassof) Checks whether subclass is child of superclass or equals to superclass
   - [`clear`](#clear) Removes all enumerable properties from object
+  - [`isEmptyObject`](#isemptyobject) Checks whether obj is an empty object
   - [`getPropertyDescriptor`](#getpropertydescriptor) Get property descriptor in object and all its ancestors
   - [`value`](#value) Define value, just help to call Object.defineProperty.<br>...
   - [`getset`](#getset) Define get set accessor, just help to call Object.defineProperty(...)
@@ -53,6 +59,56 @@ All members can be accessed with "cc.js".
 ### Details
 
 
+#### Properties
+
+
+##### _registeredClassIds
+
+> All classes registered in the engine, indexed by ID.
+
+| meta | description |
+|------|-------------|
+| Type | Unknown |
+| Defined in | [cocos2d/core/platform/js.js:445](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L445) |
+
+##### Examples
+
+```js
+// save all registered classes before loading scripts
+let builtinClassIds = cc.js._registeredClassIds;
+let builtinClassNames = cc.js._registeredClassNames;
+// load some scripts that contain CCClass
+...
+// clear all loaded classes
+cc.js._registeredClassIds = builtinClassIds;
+cc.js._registeredClassNames = builtinClassNames;
+```
+
+
+##### _registeredClassNames
+
+> All classes registered in the engine, indexed by name.
+
+| meta | description |
+|------|-------------|
+| Type | Unknown |
+| Defined in | [cocos2d/core/platform/js.js:461](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L461) |
+
+##### Examples
+
+```js
+// save all registered classes before loading scripts
+let builtinClassIds = cc.js._registeredClassIds;
+let builtinClassNames = cc.js._registeredClassNames;
+// load some scripts that contain CCClass
+...
+// clear all loaded classes
+cc.js._registeredClassIds = builtinClassIds;
+cc.js._registeredClassNames = builtinClassNames;
+```
+
+
+
 
 
 <!-- Method Block -->
@@ -68,7 +124,7 @@ Then you can use this function if you care about this case.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/js.js:58](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L58) |
+| Defined in | [cocos2d/core/platform/js.js:58](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L58) |
 
 ###### Parameters
 - `obj` Any 
@@ -83,7 +139,7 @@ Then you can use this function if you care about this case.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/js.js:70](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L70) |
+| Defined in | [cocos2d/core/platform/js.js:70](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L70) |
 
 ###### Parameters
 - `obj` Any 
@@ -96,7 +152,7 @@ Copy all properties not defined in obj from arguments[1...n]
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/platform/js.js:82](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L82) |
+| Defined in | [cocos2d/core/platform/js.js:82](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L82) |
 
 ###### Parameters
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> object to extend its properties
@@ -110,7 +166,7 @@ copy all properties from arguments[1...n] to obj
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/platform/js.js:109](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L109) |
+| Defined in | [cocos2d/core/platform/js.js:109](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L109) |
 
 ###### Parameters
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -126,7 +182,7 @@ usually you will want to inherit using <a href="../modules/cc.html#method_Class"
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [cocos2d/core/platform/js.js:134](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L134) |
+| Defined in | [cocos2d/core/platform/js.js:134](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L134) |
 
 ###### Parameters
 - `cls` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -140,7 +196,7 @@ Get super class
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [cocos2d/core/platform/js.js:168](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L168) |
+| Defined in | [cocos2d/core/platform/js.js:168](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L168) |
 
 ###### Parameters
 - `ctor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> the constructor of subclass
@@ -153,7 +209,7 @@ Checks whether subclass is child of superclass or equals to superclass
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/js.js:180](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L180) |
+| Defined in | [cocos2d/core/platform/js.js:180](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L180) |
 
 ###### Parameters
 - `subclass` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -166,7 +222,19 @@ Removes all enumerable properties from object
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:215](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L215) |
+| Defined in | [cocos2d/core/platform/js.js:215](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L215) |
+
+###### Parameters
+- `obj` Any 
+
+
+##### isEmptyObject
+
+Checks whether obj is an empty object
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/platform/js.js:227](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L227) |
 
 ###### Parameters
 - `obj` Any 
@@ -179,7 +247,7 @@ Get property descriptor in object and all its ancestors
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/platform/js.js:227](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L227) |
+| Defined in | [cocos2d/core/platform/js.js:239](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L239) |
 
 ###### Parameters
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -193,7 +261,7 @@ The configurable will be true.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:245](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L245) |
+| Defined in | [cocos2d/core/platform/js.js:257](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L257) |
 
 ###### Parameters
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -209,7 +277,7 @@ Define get set accessor, just help to call Object.defineProperty(...)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:269](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L269) |
+| Defined in | [cocos2d/core/platform/js.js:281](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L281) |
 
 ###### Parameters
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -217,6 +285,7 @@ Define get set accessor, just help to call Object.defineProperty(...)
 - `getter` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 - `setter` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
 - `enumerable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+- `configurable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### get
@@ -225,7 +294,7 @@ Define get accessor, just help to call Object.defineProperty(...)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:297](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L297) |
+| Defined in | [cocos2d/core/platform/js.js:311](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L311) |
 
 ###### Parameters
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -241,7 +310,7 @@ Define set accessor, just help to call Object.defineProperty(...)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:320](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L320) |
+| Defined in | [cocos2d/core/platform/js.js:334](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L334) |
 
 ###### Parameters
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -259,7 +328,7 @@ Get class name of the object, if object is just a {} (and which class named 'Obj
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/platform/js.js:337](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L337) |
+| Defined in | [cocos2d/core/platform/js.js:351](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L351) |
 
 ###### Parameters
 - `objOrCtor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> instance or constructor
@@ -271,7 +340,7 @@ Register the class by specified id, if its classname is not defined, the class n
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:415](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L415) |
+| Defined in | [cocos2d/core/platform/js.js:438](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L438) |
 
 ###### Parameters
 - `classId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -284,7 +353,7 @@ Register the class by specified name manually
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:426](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L426) |
+| Defined in | [cocos2d/core/platform/js.js:477](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L477) |
 
 ###### Parameters
 - `className` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -300,7 +369,7 @@ Please note that its still your responsibility to free other references to the c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:443](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L443) |
+| Defined in | [cocos2d/core/platform/js.js:494](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L494) |
 
 ###### Parameters
 - `constructor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> the class you will want to unregister, any number of classes can be added
@@ -313,7 +382,7 @@ Get the registered class by id
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [cocos2d/core/platform/js.js:466](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L466) |
+| Defined in | [cocos2d/core/platform/js.js:517](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L517) |
 
 ###### Parameters
 - `classId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -326,7 +395,7 @@ Get the registered class by name
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [cocos2d/core/platform/js.js:477](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L477) |
+| Defined in | [cocos2d/core/platform/js.js:528](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L528) |
 
 ###### Parameters
 - `classname` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -339,7 +408,7 @@ Get class id of the object
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/platform/js.js:487](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L487) |
+| Defined in | [cocos2d/core/platform/js.js:538](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L538) |
 
 ###### Parameters
 - `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> instance or constructor
@@ -352,7 +421,7 @@ Defines a polyfill field for obsoleted codes.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:554](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L554) |
+| Defined in | [cocos2d/core/platform/js.js:571](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L571) |
 
 ###### Parameters
 - `obj` Any YourObject or YourClass.prototype
@@ -367,7 +436,7 @@ Defines all polyfill fields for obsoleted codes corresponding to the enumerable 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/js.js:588](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L588) |
+| Defined in | [cocos2d/core/platform/js.js:605](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L605) |
 
 ###### Parameters
 - `obj` Any YourObject or YourClass.prototype
@@ -383,7 +452,7 @@ A string tool to construct a string with format string.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/platform/js.js:606](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L606) |
+| Defined in | [cocos2d/core/platform/js.js:623](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L623) |
 
 ###### Parameters
 - `msg` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings (%s).
@@ -403,7 +472,7 @@ A simple wrapper of `Object.create(null)` which ensures the return object have n
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/platform/js.js:655](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/platform/js.js#L655) |
+| Defined in | [cocos2d/core/platform/js.js:672](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/platform/js.js#L672) |
 
 ###### Parameters
 - `forceDictMode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Apply the delete operator to newly created map object. This causes V8 to put the object in "dictionary mode" and disables creation of hidden classes which are very expensive for objects that are constantly changing shape.

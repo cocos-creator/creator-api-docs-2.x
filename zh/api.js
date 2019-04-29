@@ -217,6 +217,12 @@ window.apimeta = {
       "description": "Prefab 创建实例所用的优化策略，配合 Prefab.optimizationPolicy 使用。"
     },
     {
+      "name": "Primitive.PolyhedronType",
+      "namespace": "cc.Primitive.PolyhedronType",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "ProgressBar.Mode",
       "namespace": "cc.ProgressBar.Mode",
       "module": "cc",
@@ -287,6 +293,12 @@ window.apimeta = {
       "namespace": "cc.Sprite.SizeMode",
       "module": "cc",
       "description": "精灵尺寸调整模式"
+    },
+    {
+      "name": "Sprite.State",
+      "namespace": "cc.Sprite.State",
+      "module": "cc",
+      "description": "精灵颜色通道模式。"
     },
     {
       "name": "Sprite.Type",
@@ -513,10 +525,22 @@ window.apimeta = {
       "description": "包围盒碰撞组件"
     },
     {
+      "name": "BufferAsset",
+      "namespace": "cc.BufferAsset",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "Button",
       "namespace": "cc.Button",
       "module": "cc",
       "description": "按钮组件。可以被按下,或者点击。<br/>\n\n按钮可以通过修改 Transition 来设置按钮状态过渡的方式：<br/>\n  -Button.Transition.NONE   // 不做任何过渡<br/>\n  -Button.Transition.COLOR  // 进行颜色之间过渡<br/>\n  -Button.Transition.SPRITE // 进行精灵之间过渡<br/>\n  -Button.Transition.SCALE // 进行缩放过渡<br/>\n\n按钮可以绑定事件（但是必须要在按钮的 Node 上才能绑定事件）：<br/>\n  // 以下事件可以在全平台上都触发<br/>\n  -cc.Node.EventType.TOUCH_START  // 按下时事件<br/>\n  -cc.Node.EventType.TOUCH_Move   // 按住移动后事件<br/>\n  -cc.Node.EventType.TOUCH_END    // 按下后松开后事件<br/>\n  -cc.Node.EventType.TOUCH_CANCEL // 按下取消事件<br/>\n  // 以下事件只在 PC 平台上触发<br/>\n  -cc.Node.EventType.MOUSE_DOWN  // 鼠标按下时事件<br/>\n  -cc.Node.EventType.MOUSE_MOVE  // 鼠标按住移动后事件<br/>\n  -cc.Node.EventType.MOUSE_ENTER // 鼠标进入目标事件<br/>\n  -cc.Node.EventType.MOUSE_LEAVE // 鼠标离开目标事件<br/>\n  -cc.Node.EventType.MOUSE_UP    // 鼠标松开事件<br/>\n  -cc.Node.EventType.MOUSE_WHEEL // 鼠标滚轮事件<br/>"
+    },
+    {
+      "name": "CCFactory",
+      "namespace": "dragonBones.CCFactory",
+      "module": "dragonBones",
+      "description": ""
     },
     {
       "name": "CallbacksInvoker",
@@ -639,6 +663,12 @@ window.apimeta = {
       "description": "dragonBones 的骨骼纹理数据。"
     },
     {
+      "name": "DynamicAtlasManager",
+      "namespace": "cc.DynamicAtlasManager",
+      "module": "cc",
+      "description": "管理动态图集。"
+    },
+    {
       "name": "EditBox",
       "namespace": "cc.EditBox",
       "module": "cc",
@@ -711,6 +741,12 @@ window.apimeta = {
       "description": "字体资源类。"
     },
     {
+      "name": "Game",
+      "namespace": "cc.Game",
+      "module": "cc",
+      "description": "包含游戏主体信息并负责驱动游戏的游戏对象。"
+    },
+    {
       "name": "Graphics",
       "namespace": "cc.Graphics",
       "module": "cc",
@@ -781,6 +817,12 @@ window.apimeta = {
       "namespace": "cc.Mask",
       "module": "cc",
       "description": "遮罩组件"
+    },
+    {
+      "name": "Mat4",
+      "namespace": "cc.Mat4",
+      "module": "cc",
+      "description": "表示 4*4 矩阵"
     },
     {
       "name": "MotionStreak",
@@ -955,6 +997,18 @@ window.apimeta = {
       "namespace": "cc.Prefab",
       "module": "cc",
       "description": "预制资源类。"
+    },
+    {
+      "name": "Primitive",
+      "namespace": "cc.Primitive",
+      "module": "cc",
+      "description": ""
+    },
+    {
+      "name": "Primitive.VertexData",
+      "namespace": "cc.Primitive.VertexData",
+      "module": "cc",
+      "description": ""
     },
     {
       "name": "PrismaticJoint",
@@ -1185,10 +1239,16 @@ window.apimeta = {
       "description": "一个 SpriteFrame 包含：<br/>\n - 纹理：会被渲染组件使用的 Texture2D 对象。<br/>\n - 矩形：在纹理中的矩形区域。"
     },
     {
+      "name": "SwanSubContextView",
+      "namespace": "cc.SwanSubContextView",
+      "module": "cc",
+      "description": "SwanSubContextView 可以用来控制百度小游戏平台开放数据域在主域中的视窗的位置。<br/>\n这个组件的节点尺寸决定了开放数据域内容在主域中的尺寸，整个开放数据域会被缩放到节点的包围盒范围内。<br/>\n在这个组件的控制下，用户可以更自由得控制开放数据域：<br/>\n1. 子域中可以使用独立的设计分辨率和适配模式<br/>\n2. 子域区域尺寸可以缩小到只容纳内容即可<br/>\n3. 子域的分辨率也可以被放大，以便获得更清晰的显示效果<br/>\n4. 用户输入坐标会被自动转换到正确的子域视窗中<br/>\n5. 子域内容贴图的更新由组件负责，用户不需要处理<br/>\n唯一需要注意的是，当子域节点的包围盒发生改变时，开发者需要使用 `updateSubContextViewport` 来手动更新子域视窗。"
+    },
+    {
       "name": "SystemEvent",
       "namespace": "cc.SystemEvent",
       "module": "cc",
-      "description": "系统事件，它目前支持按键事件和重力感应事件"
+      "description": "系统事件，它目前支持按键事件和重力感应事件。<br>\n你可以通过 cc.systemEvent 获取到 SystemEvent 的实例。<br>\n参考示例：\n```\ncc.systemEvent.on(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);\ncc.systemEvent.off(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);\n```"
     },
     {
       "name": "SystemEvent.EventType",
@@ -1293,6 +1353,12 @@ window.apimeta = {
       "description": "表示 3D 向量和坐标"
     },
     {
+      "name": "Vec4",
+      "namespace": "cc.Vec4",
+      "module": "cc",
+      "description": "表示 3D 向量和坐标"
+    },
+    {
       "name": "VideoPlayer",
       "namespace": "cc.VideoPlayer",
       "module": "cc",
@@ -1367,12 +1433,6 @@ window.apimeta = {
     {
       "name": "debug",
       "namespace": "cc.debug",
-      "module": "cc",
-      "description": "包含游戏主体信息并负责驱动游戏的游戏对象。"
-    },
-    {
-      "name": "game",
-      "namespace": "cc.game",
       "module": "cc",
       "description": "包含游戏主体信息并负责驱动游戏的游戏对象。"
     },

@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Sprite Size can track trimmed size, raw size or none.
@@ -12,8 +13,6 @@ Sprite Size can track trimmed size, raw size or none.
   - `CUSTOM`
   - `TRIMMED`
   - `RAW`
-  - `NORMAL`
-  - `GRAY`
 
 ### Details
 
@@ -25,7 +24,7 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:108](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/components/CCSprite.js#L108) |
+| Defined in | [cocos2d/core/components/CCSprite.js:108](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/components/CCSprite.js#L108) |
 
 
 
@@ -36,7 +35,7 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:114](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/components/CCSprite.js#L114) |
+| Defined in | [cocos2d/core/components/CCSprite.js:114](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/components/CCSprite.js#L114) |
 
 
 
@@ -47,28 +46,6 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:120](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/components/CCSprite.js#L120) |
-
-
-
-##### NORMAL
-
-> The normal state
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:129](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/components/CCSprite.js#L129) |
-
-
-
-##### GRAY
-
-> The gray state, all color will be modified to grayscale value.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:135](https://github.com/cocos-creator/engine/blob/4f734a806d1fd7c4073fb064fddc961384fe67af/cocos2d/core/components/CCSprite.js#L135) |
+| Defined in | [cocos2d/core/components/CCSprite.js:120](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/components/CCSprite.js#L120) |
 
 
