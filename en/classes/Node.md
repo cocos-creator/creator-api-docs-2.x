@@ -11,6 +11,7 @@ Class of all entities in Cocos Creator scenes.<br/>
 For events supported by Node, please refer to <a href="../classes/Node.EventType.html" class="crosslink">Node.EventType</a>
 
 
+
 ### Index
 
 ##### Properties

@@ -14,6 +14,16 @@ Tween's api is more flexible than cc.Action:
  - Support easing and progress function,
 
 
+##### Examples
+
+```js
+cc.tween(node)
+  .to(1, {scale: 2, position: cc.v3(100, 100, 100)})
+  .call(() => { console.log('This is a callback'); })
+  .by(1, {scale: 3, position: cc.v3(200, 200, 200)}, {easing: 'sineOutIn'})
+  .run(cc.find('Canvas/cocos'));
+```
+
 ### Index
 
 

@@ -4,19 +4,19 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 多边形碰撞组件
+
 
 
 ### 索引
 
 ##### 属性（properties）
 
-  - [`tag`](#tag) `Integer` 标签。
   - [`offset`](#offset) `Vec2` 位置偏移量
   - [`points`](#points) `Vec2[]` 多边形顶点数组
+  - [`tag`](#tag) `Integer` 标签。
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` 该组件被附加到的节点。
   - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
@@ -69,17 +69,6 @@
 #### 属性（properties）
 
 
-##### tag
-
-> 标签。当一个节点上有多个碰撞组件时，在发生碰撞后，可以使用此标签来判断是节点上的哪个碰撞组件被碰撞了。
-
-| meta | description |
-|------|-------------|
-| 类型 | Integer |
-| 定义于 | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/collider/CCCollider.js#L47) |
-
-
-
 ##### offset
 
 > 位置偏移量
@@ -99,6 +88,17 @@
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> |
 | 定义于 | [cocos2d/core/collider/CCPolygonCollider.js:61](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/collider/CCPolygonCollider.js#L61) |
+
+
+
+##### tag
+
+> 标签。当一个节点上有多个碰撞组件时，在发生碰撞后，可以使用此标签来判断是节点上的哪个碰撞组件被碰撞了。
+
+| meta | description |
+|------|-------------|
+| 类型 | Integer |
+| 定义于 | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/collider/CCCollider.js#L47) |
 
 
 

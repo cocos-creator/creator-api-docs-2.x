@@ -42,6 +42,13 @@ cocos2d supports all the variables used by Particle Designer plus a bit more:  <
 It is possible to customize any of the above mentioned properties in runtime. Example:   <br/>
 
 
+##### Examples
+
+```js
+emitter.radialAccel = 15;
+emitter.startSpin = 0;
+```
+
 ### Index
 
 ##### Properties

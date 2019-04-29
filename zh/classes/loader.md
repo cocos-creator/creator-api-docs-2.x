@@ -9,6 +9,7 @@
 Loader for resource loading process. It's a singleton object.
 
 
+
 ### 索引
 
 ##### 属性（properties）

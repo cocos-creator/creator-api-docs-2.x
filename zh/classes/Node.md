@@ -11,6 +11,7 @@ Cocos Creator 场景中的所有节点类。<br/>
 支持的节点事件，请参阅 <a href="../classes/Node.EventType.html" class="crosslink">Node.EventType</a>。
 
 
+
 ### 索引
 
 ##### 属性（properties）
@@ -2394,7 +2395,6 @@ Init this object from the custom serialized data.
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 注意：此节点激活时，此事件仅从最顶部的节点发出。

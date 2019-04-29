@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Component will register a event to target component's handler.
@@ -14,6 +13,17 @@ And it will trigger the handler when a certain event occurs.
 该类允许用户设置回调目标节点，目标组件名，组件方法名，
 并可通过 emit 方法调用目标函数。
 
+
+##### Examples
+
+```js
+// Create new EventHandler
+var eventHandler = new cc.Component.EventHandler();
+eventHandler.target = newTarget;
+eventHandler.component = "MainMenu";
+eventHandler.handler = "OnClick";
+eventHandler.customEventData = "my data";
+```
 
 ### Index
 

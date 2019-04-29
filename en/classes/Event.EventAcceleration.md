@@ -10,6 +10,7 @@ Parent Module: [cc](../modules/cc.md)
 The acceleration event
 
 
+
 ### Index
 
 ##### Properties

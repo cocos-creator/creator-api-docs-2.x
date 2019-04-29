@@ -4,10 +4,10 @@ Extends [`ValueType`](ValueType.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Representation of 3D vectors and points.
+
 
 
 ### Index

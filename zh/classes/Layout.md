@@ -12,6 +12,7 @@ Layout 组件相当于一个容器，能自动对它的所有子节点进行统�
 2.对 Layout 设置后结果需要到下一帧才会更新，除非你设置完以后手动调用 <a href="../classes/Layout.html#method_updateLayout" class="crosslink">updateLayout</a>。
 
 
+
 ### 索引
 
 ##### 属性（properties）

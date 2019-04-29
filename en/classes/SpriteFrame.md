@@ -4,12 +4,27 @@ Extends [`Asset`](Asset.md), [`EventTarget`](EventTarget.md)(mixin)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 A cc.SpriteFrame has:<br/>
  - texture: A cc.Texture2D that will be used by render components<br/>
  - rectangle: A rectangle of the texture
 
+
+##### Examples
+
+```js
+// load a cc.SpriteFrame with image path (Recommend)
+var self = this;
+var url = "test assets/PurpleMonster";
+cc.loader.loadRes(url, cc.SpriteFrame, function (err, spriteFrame) {
+ var node = new cc.Node("New Sprite");
+ var sprite = node.addComponent(cc.Sprite);
+ sprite.spriteFrame = spriteFrame;
+ node.parent = self.node
+});
+```
 
 ### Index
 

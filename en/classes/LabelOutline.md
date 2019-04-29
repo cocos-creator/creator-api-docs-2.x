@@ -4,11 +4,20 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Outline effect used to change the display, only used for TTF font
 
+
+##### Examples
+
+```js
+// Create a new node and add label components.
+ var node = new cc.Node("New Label");
+ var label = node.addComponent(cc.Label);
+ var outline = node.addComponent(cc.LabelOutline);
+ node.parent = this.node;
+```
 
 ### Index
 

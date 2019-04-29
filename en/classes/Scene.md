@@ -10,6 +10,7 @@ cc.Scene is a subclass of cc.Node that is used only as an abstract concept.<br/>
 cc.Scene and cc.Node are almost identical with the difference that users can not modify cc.Scene manually.
 
 
+
 ### Index
 
 ##### Properties

@@ -5,6 +5,7 @@ Extends [`RawAsset`](RawAsset.md)
 Defined in: [https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/assets/CCAsset.js:32](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/cocos2d/core/assets/CCAsset.js#L32)
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Base class for handling assets used in Creator.<br/>
@@ -14,6 +15,7 @@ You may want to override:<br/>
 - getset functions of _nativeAsset<br/>
 - cc.Object._serialize<br/>
 - cc.Object._deserialize<br/>
+
 
 
 ### Index

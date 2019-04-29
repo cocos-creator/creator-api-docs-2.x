@@ -9,6 +9,7 @@ Parent Module: [cc](../modules/cc.md)
 the device accelerometer reports values for each axis in units of g-force.
 
 
+
 ### Index
 
 
