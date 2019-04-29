@@ -4,7 +4,6 @@ Extends [`EventTarget`](EventTarget.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 The System event, it currently supports keyboard events and accelerometer events.<br>
@@ -14,6 +13,7 @@ example:
 cc.systemEvent.on(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);
 cc.systemEvent.off(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);
 ```
+
 
 
 ### Index

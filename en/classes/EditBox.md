@@ -10,6 +10,7 @@ Parent Module: [cc](../modules/cc.md)
 cc.EditBox is a component for inputing text, you can use it to gather small amounts of text from users.
 
 
+
 ### Index
 
 ##### Properties

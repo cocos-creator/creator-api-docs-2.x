@@ -4,7 +4,6 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 The Layout is a container component, use it to arrange child elements easily.<br>
@@ -12,6 +11,7 @@ Note：<br>
 1.Scaling and rotation of child nodes are not considered.<br>
 2.After setting the Layout, the results need to be updated until the next frame,
 unless you manually call <a href="../classes/Layout.html#method_updateLayout" class="crosslink">updateLayout</a>。
+
 
 
 ### Index

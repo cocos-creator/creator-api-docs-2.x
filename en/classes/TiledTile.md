@@ -11,6 +11,7 @@ It will apply the node rotation, scale, translate to the map tile.
 You can change the TiledTile's gid to change the map tile's style.
 
 
+
 ### Index
 
 ##### Properties

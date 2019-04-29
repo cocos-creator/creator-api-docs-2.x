@@ -3,13 +3,13 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Physics manager uses box2d as the inner physics system, and hide most box2d implement details(creating rigidbody, synchronize rigidbody info to node).
 You can visit some common box2d function through physics manager(hit testing, raycast, debug info).
 Physics manager distributes the collision information to each collision callback when collision is produced.
 Note: You need first enable the collision listener in the rigidbody.
+
 
 
 ### Index

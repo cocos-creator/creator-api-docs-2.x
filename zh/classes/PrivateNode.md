@@ -15,6 +15,7 @@ Cocos Creator 场景中的私有节点类。<br/>
 目前在引擎中，RichText 和 TileMap 都有可能生成私有节点。
 
 
+
 ### 索引
 
 ##### 属性（properties）
@@ -2470,7 +2471,6 @@ Init this object from the custom serialized data.
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 注意：此节点激活时，此事件仅从最顶部的节点发出。

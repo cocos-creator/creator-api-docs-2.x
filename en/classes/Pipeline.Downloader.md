@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 The downloader pipe, it can download several types of files:
@@ -13,6 +14,7 @@ The downloader pipe, it can download several types of files:
 5. Assets
 All unknown type will be downloaded as plain text.
 You can pass custom supported types in the constructor.
+
 
 
 ### Index

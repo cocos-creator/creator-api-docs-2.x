@@ -4,9 +4,11 @@ Extends [`Pipeline`](Pipeline.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Loader for resource loading process. It's a singleton object.
+
 
 
 ### Index

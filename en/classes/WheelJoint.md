@@ -13,6 +13,7 @@ the rotation or to model rotational friction.
 This joint is designed for vehicle suspensions.
 
 
+
 ### Index
 
 ##### Properties

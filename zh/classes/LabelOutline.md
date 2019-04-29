@@ -9,6 +9,16 @@
 描边效果组件,用于字体描边,只能用于系统字体
 
 
+##### 示例
+
+```js
+// Create a new node and add label components.
+ var node = new cc.Node("New Label");
+ var label = node.addComponent(cc.Label);
+ var outline = node.addComponent(cc.LabelOutline);
+ node.parent = this.node;
+```
+
 ### 索引
 
 ##### 属性（properties）

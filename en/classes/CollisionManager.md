@@ -10,6 +10,52 @@ A simple collision manager class.
 It will calculate whether the collider collides other colliders, if collides then call the callbacks.
 
 
+##### Examples
+
+```js
+// Get the collision manager.
+let manager = cc.director.getCollisionManager();
+
+// Enabled the colider manager.
+manager.enabled = true;
+
+// Enabled draw collider
+manager.enabledDebugDraw = true;
+
+// Enabled draw collider bounding box
+manager.enabledDrawBoundingBox = true;
+
+
+// Collision callback
+onCollisionEnter: function (other, self) {
+    this.node.color = cc.Color.RED;
+    this.touchingNumber ++;
+
+    // let world = self.world;
+    // let aabb = world.aabb;
+    // let preAabb = world.preAabb;
+    // let m = world.matrix;
+
+    // for circle collider
+    // let r = world.radius;
+    // let p = world.position;
+
+    // for box collider and polygon collider
+    // let ps = world.points;
+},
+
+onCollisionStay: function (other, self) {
+    console.log('on collision stay');
+},
+
+onCollisionExit: function (other, self) {
+    this.touchingNumber --;
+    if (this.touchingNumber === 0) {
+        this.node.color = cc.Color.WHITE;
+    }
+}
+```
+
 ### Index
 
 ##### Properties

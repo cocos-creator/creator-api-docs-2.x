@@ -4,13 +4,13 @@ Extends [`Asset`](Asset.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Class for JSON file. When the JSON file is loaded, this object is returned.
 The parsed JSON object can be accessed through the `json` attribute in it.<br>
 If you want to get the original JSON text, you should modify the extname to `.txt`
 so that it is loaded as a `TextAsset` instead of a `JsonAsset`.
+
 
 
 ### Index

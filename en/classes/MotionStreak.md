@@ -4,7 +4,6 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 cc.MotionStreak manages a Ribbon based on it's motion in absolute space.                 <br/>
@@ -14,6 +13,7 @@ the streak to fade out, the minimum segment size it how many pixels the         
 streak will move before adding a new ribbon segment, and the texture                     <br/>
 length is the how many pixels the texture is stretched across. The texture               <br/>
 is vertically aligned along the streak segment.
+
 
 
 ### Index

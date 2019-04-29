@@ -10,6 +10,7 @@ Parent Module: [cc](../modules/cc.md)
 Representation of 2D vectors and points.
 
 
+
 ### Index
 
 ##### Properties

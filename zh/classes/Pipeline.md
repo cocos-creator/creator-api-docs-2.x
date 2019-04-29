@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 pipeline 描述了一系列的操作，每个操作都被称为 pipe。<br/>
@@ -11,6 +10,7 @@ pipeline 描述了一系列的操作，每个操作都被称为 pipe。<br/>
 一个 item 列表可以在 pipeline 中流动，它将输出加载项经过所有 pipe 之后的结果。<br/>
 它们穿过 pipeline 就像水在管子里流动，将会按顺序流过每个 pipe。<br/>
 最后当所有加载项都流出 pipeline 时，整个加载流程就结束了。
+
 
 
 ### 索引

@@ -4,12 +4,27 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Visual indicator of progress in some operation.
 Displays a bar to the user representing how far the operation has progressed.
 
+
+##### Examples
+
+```js
+// update progressBar
+update: function (dt) {
+    var progress = progressBar.progress;
+    if (progress > 0) {
+        progress += dt;
+    }
+    else {
+        progress = 1;
+    }
+    progressBar.progress = progress;
+}
+```
 
 ### Index
 

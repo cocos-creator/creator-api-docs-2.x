@@ -9,6 +9,7 @@ Parent Module: [cc](../modules/cc.md)
 Intersection helper class
 
 
+
 ### Index
 
 

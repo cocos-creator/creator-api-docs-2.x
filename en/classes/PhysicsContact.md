@@ -3,11 +3,11 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 PhysicsContact will be generated during begin and end collision as a parameter of the collision callback.
 Note that contacts will be reused for speed up cpu time, so do not cache anything in the contact.
+
 
 
 ### Index
