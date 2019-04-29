@@ -1,4 +1,5 @@
 {
+    "language" : "zh-hans",
     "structure": {
         "summary": "index.md",
         "readme": "index.md"
@@ -9,12 +10,12 @@
                 "name": "Cocos Creator",
                 "links": [
                     {
-                        "name": "Manual",
-                        "link": "//docs.cocos.com/creator/manual/en"
+                        "name": "手册文档",
+                        "link": "//docs.cocos.com/creator/manual/zh"
                     },
                     {
-                        "name": "API Ref",
-                        "link": "//docs.cocos.com/creator/api/en"
+                        "name": "API 参考",
+                        "link": "//docs.cocos.com/creator/api/zh"
                     }
                 ]
             },
@@ -22,11 +23,11 @@
                 "name": "Cocos2d-x",
                 "links": [
                     {
-                        "name": "Manual",
-                        "link": "//docs.cocos.com/cocos2d-x/manual/en/"
+                        "name": "手册文档",
+                        "link": "//docs.cocos.com/cocos2d-x/manual/zh"
                     },
                     {
-                        "name": "API Ref",
+                        "name": "API 参考",
                         "link": "//docs.cocos2d-x.org/api-ref/index.html"
                     }
                 ]
@@ -38,15 +39,15 @@
                 "links": [
                     {
                         "name": "1.9",
-                        "link": "//docs.cocos.com/creator/1.9/api/en"
+                        "link": "//docs.cocos.com/creator/1.9/api/zh"
                     },
                     {
                         "name": "1.10",
-                        "link": "//docs.cocos.com/creator/1.10/api/en"
+                        "link": "//docs.cocos.com/creator/1.10/api/zh"
                     },
                     {
                         "name": "2.0",
-                        "link": "//docs.cocos.com/creator/api/en"
+                        "link": "//docs.cocos.com/creator/api/zh"
                     },
                     {
                         "name": "2.1",

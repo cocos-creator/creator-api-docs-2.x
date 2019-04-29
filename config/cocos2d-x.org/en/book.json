@@ -10,11 +10,11 @@
               "links": [
                   {
                       "name": "Manual",
-                      "link": "http://www.cocos2d-x.org/docs/creator/manual/en/"
+                      "link": "//docs.cocos2d-x.org/creator/manual/en/"
                   },
                   {
                       "name": "API Ref",
-                      "link": "http://www.cocos2d-x.org/docs/creator/api/en/"
+                      "link": "//docs.cocos2d-x.org/creator/api/en/"
                   }
               ]
           },
@@ -23,14 +23,37 @@
               "links": [
                   {
                       "name": "Manual",
-                      "link": "http://www.cocos2d-x.org/docs/cocos2d-x/en/"
+                      "link": "//docs.cocos2d-x.org/cocos2d-x/en/"
                   },
                   {
                       "name": "API Ref",
-                      "link": "http://www.cocos2d-x.org/docs/api-ref/index.html"
+                      "link": "//docs.cocos2d-x.org/api-ref/index.html"
                   }
               ]
           }
-      ]
+      ],
+      "version": [
+        {
+            "name": "2.0",
+            "links": [
+                {
+                    "name": "1.9",
+                    "link": "//docs.cocos2d-x.org/creator/1.9/api/en"
+                },
+                {
+                    "name": "1.10",
+                    "link": "//docs.cocos2d-x.org/creator/1.10/api/en"
+                },
+                {
+                    "name": "2.0",
+                    "link": "//docs.cocos2d-x.org/creator/api/en"
+                },
+                {
+                    "name": "2.1",
+                    "link": "//docs.cocos2d-x.org/creator/2.1/api/en"
+                }
+            ]
+        }
+    ]
     }
 }

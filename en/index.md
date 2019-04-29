@@ -296,7 +296,6 @@ All enums and classes are under `cc` module if not specified otherwise.
 
 - [Editor](editor/renderer/editor.md)
 - [Editor (Console Module)](editor/renderer/console.md)
-- [Editor.Audio](editor/renderer/audio.md)
 - [Editor.Dialog](editor/renderer/dialog.md)
 - [Editor.Ipc](editor/renderer/ipc.md)
 - [Editor.MainMenu](editor/renderer/main-menu.md)
