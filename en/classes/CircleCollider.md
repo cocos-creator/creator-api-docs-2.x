@@ -4,7 +4,6 @@ Extends [`Collider`](Collider.md), [`Collider.Circle`](Collider.Circle.md)(mixin
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Circle Collider.
