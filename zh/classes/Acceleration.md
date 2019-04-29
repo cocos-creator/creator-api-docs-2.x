@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 设备重力传感器传递的各个轴的数据。

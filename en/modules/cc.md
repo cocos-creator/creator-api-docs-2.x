@@ -348,6 +348,7 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`delayTime`](#delaytime) Delays the action a certain amount of seconds.
   - [`reverseTime`](#reversetime) Executes an action in reverse order, from time=duration to time=0.
   - [`targetedAction`](#targetedaction) Create an action with the specified action and forced target.
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
   - [`color`](#color) Alpha channel is optional.
   - [`colorEqual`](#colorequal) returns true if both ccColor3B are equal.
   - [`hexToColor`](#hextocolor) convert a string of color for style to Color.
@@ -457,7 +458,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`isValid`](#isvalid) When an object's `destroy` is called, it is actually destroyed after the end of this frame.
   - [`deserialize`](#deserialize) Deserialize json to cc.Asset
   - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
 
 
 
@@ -2185,6 +2185,23 @@ Create an action with the specified action and forced target.
 ###### Parameters
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
 - `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
+
+
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| Defined in | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/utils/find.js#L30) |
+
+###### Parameters
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 ##### color
@@ -4124,22 +4141,5 @@ var scene = cc.director.getScene();
 var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
-
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| Defined in | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/utils/find.js#L30) |
-
-###### Parameters
-- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
-
 
 

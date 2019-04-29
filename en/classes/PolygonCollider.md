@@ -4,7 +4,6 @@ Extends [`Collider`](Collider.md), [`Collider.Polygon`](Collider.Polygon.md)(mix
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Polygon Collider.

@@ -4,7 +4,6 @@
 Defined in: [https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/collider/CCPolygonCollider.js:30](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/collider/CCPolygonCollider.js#L30)
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Defines a Polygon Collider .

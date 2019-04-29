@@ -54,6 +54,10 @@ Animation 提供了一系列可注册的事件：
   - [`sample`](#sample) 对指定或当前动画进行采样。
   - [`on`](#on) 注册动画事件回调。
   - [`off`](#off) 取消注册动画事件回调。
+  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
+  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
   - [`update`](#update) 如果该组件启用，则每帧调用 update。
   - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad....
@@ -76,10 +80,6 @@ Animation 提供了一系列可注册的事件：
   - [`scheduleOnce`](#scheduleonce) 调度一个只运行一次的回调函数，可以指定 0 让回调函数在下一帧立即执行或者在一定的延时之后执行。
   - [`unschedule`](#unschedule) 取消调度一个自定义的回调函数。
   - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) 取消调度所有已调度的回调函数：定制的回调函数以及 'update' 回调函数。
-  - [`targetOff`](#targetoff) 在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
-  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
-  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
   - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。
   - [`_destruct`](#destruct) Clear all references in the instance....
   - [`_onPreDestroy`](#onpredestroy) Called before the object being destroyed.
@@ -523,6 +523,72 @@ animation.on('play', this.onPlay, this);
 animation.off('play', this.onPlay, this);
 ```
 
+##### targetOff
+
+在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
+这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
+这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/event/event-target.js:330](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L330) |
+
+###### 参数列表
+- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
+
+
+##### once
+
+注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/event/event-target.js:352](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L352) |
+
+###### 参数列表
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
+                             The callback is ignored if it is a duplicate (the callbacks are unique).
+	- `event` <a href="../classes/Event.html" class="crosslink">Event</a> event
+- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
+- `useCapture` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
+                             from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
+                             When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
+                             Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
+
+##### 示例
+
+```js
+node.once(cc.Node.EventType.TOUCH_END, function (event) {
+    cc.log("this is callback");
+}, node);
+```
+
+##### dispatchEvent
+
+分发事件到事件流中。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/event/event-target.js:397](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L397) |
+
+###### 参数列表
+- `event` <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
+
+
+##### emit
+
+该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/event/event-target.js:411](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L411) |
+
+###### 参数列表
+- `message` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send
+- `detail` Any whatever argument the message needs
+
+
 ##### update
 
 如果该组件启用，则每帧调用 update。
@@ -850,72 +916,6 @@ this.unschedule(_callback);
 ```js
 this.unscheduleAllCallbacks();
 ```
-
-##### targetOff
-
-在当前 EventTarget 上删除指定目标（target 参数）注册的所有事件监听器。
-这个函数无法删除当前 EventTarget 的所有事件监听器，也无法删除 target 参数所注册的所有事件监听器。
-这个函数只能删除 target 参数在当前 EventTarget 上注册的所有事件监听器。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:330](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L330) |
-
-###### 参数列表
-- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
-
-
-##### once
-
-注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:352](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L352) |
-
-###### 参数列表
-- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
-- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
-                             The callback is ignored if it is a duplicate (the callbacks are unique).
-	- `event` <a href="../classes/Event.html" class="crosslink">Event</a> event
-- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
-- `useCapture` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
-                             from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
-                             When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
-                             Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
-
-##### 示例
-
-```js
-node.once(cc.Node.EventType.TOUCH_END, function (event) {
-    cc.log("this is callback");
-}, node);
-```
-
-##### dispatchEvent
-
-分发事件到事件流中。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:397](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L397) |
-
-###### 参数列表
-- `event` <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
-
-
-##### emit
-
-该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:411](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L411) |
-
-###### 参数列表
-- `message` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send
-- `detail` Any whatever argument the message needs
-
 
 ##### destroy
 

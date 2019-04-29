@@ -2421,7 +2421,6 @@ Module: [cc](../modules/cc.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Note: This event is only emitted from the top most node whose active value did changed,

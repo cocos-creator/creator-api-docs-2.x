@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 A pipeline describes a sequence of manipulations, each manipulation is called a pipe.</br>

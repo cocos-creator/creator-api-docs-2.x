@@ -4,6 +4,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 通过位置和宽高定义的 2D 矩形。

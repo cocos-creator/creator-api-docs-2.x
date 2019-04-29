@@ -348,6 +348,52 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`delayTime`](#delaytime) 
   - [`reverseTime`](#reversetime) 反转目标动作的时间轴。
   - [`targetedAction`](#targetedaction) 用已有动作和一个新的目标节点创建动作。
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive....
+  - [`handleTouchesBegin`](#handletouchesbegin) 
+  - [`handleTouchesMove`](#handletouchesmove) 
+  - [`handleTouchesEnd`](#handletouchesend) 
+  - [`handleTouchesCancel`](#handletouchescancel) 
+  - [`getSetOfTouchesEndOrCancel`](#getsetoftouchesendorcancel) 
+  - [`getHTMLElementPosition`](#gethtmlelementposition) 
+  - [`getPreTouch`](#getpretouch) 
+  - [`setPreTouch`](#setpretouch) 
+  - [`getTouchByXY`](#gettouchbyxy) 
+  - [`getPointByEvent`](#getpointbyevent) 
+  - [`getTouchesByEvent`](#gettouchesbyevent) 
+  - [`registerSystemEvent`](#registersystemevent) 
+  - [`Class`](#class) 定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
+  - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
+  - [`isChildClassOf`](#ischildclassof) Checks whether subclass is child of superclass or equals to superclass
+  - [`Enum`](#enum) 定义一个枚举类型。
+  - [`getList`](#getlist) 
+  - [`handleTouchesBegin`](#handletouchesbegin) 
+  - [`handleTouchesMove`](#handletouchesmove) 
+  - [`handleTouchesEnd`](#handletouchesend) 
+  - [`handleTouchesCancel`](#handletouchescancel) 
+  - [`getSetOfTouchesEndOrCancel`](#getsetoftouchesendorcancel) 
+  - [`getHTMLElementPosition`](#gethtmlelementposition) 
+  - [`getPreTouch`](#getpretouch) 
+  - [`setPreTouch`](#setpretouch) 
+  - [`getTouchByXY`](#gettouchbyxy) 
+  - [`getTouchByXY`](#gettouchbyxy) 
+  - [`getPointByEvent`](#getpointbyevent) 
+  - [`getTouchesByEvent`](#gettouchesbyevent) 
+  - [`registerSystemEvent`](#registersystemevent) 
+  - [`update`](#update) 
+  - [`setAccelerometerEnabled`](#setaccelerometerenabled) whether enable accelerometer event
+  - [`setAccelerometerInterval`](#setaccelerometerinterval) set accelerometer interval value
+  - [`lerp`](#lerp) Linear interpolation between 2 numbers, the ratio sets how much it is biased to each end
+  - [`rand`](#rand) get a random number from 0 to 0xffffff
+  - [`randomMinus1To1`](#randomminus1to1) returns a random float between -1 and 1
+  - [`random0To1`](#random0to1) returns a random float between 0 and 1, use Math.random directly
+  - [`degreesToRadians`](#degreestoradians) converts degrees to radians
+  - [`radiansToDegrees`](#radianstodegrees) converts radians to degrees
+  - [`nodeDrawSetup`](#nodedrawsetup) Helpful macro that setups the GL server state, the correct GL program and sets the Model View Projection matrix
+  - [`incrementGLDraws`](#incrementgldraws) <p>...
+  - [`checkGLErrorDebug`](#checkglerrordebug) Check webgl error.Error will be shown in console if exists.
+  - [`isValid`](#isvalid) 检查该对象是否不为 null 并且尚未销毁。
+  - [`deserialize`](#deserialize) 将 JSON 反序列化为对象实例。
+  - [`instantiate`](#instantiate) 克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
   - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
   - [`colorEqual`](#colorequal) 判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
   - [`hexToColor`](#hextocolor) 16 进制转换为 Color
@@ -412,52 +458,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`v2`](#v2) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
   - [`p`](#p) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
   - [`pointEqualToPoint`](#pointequaltopoint) 判断两个向量是否相等。
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive....
-  - [`Class`](#class) 定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
-  - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
-  - [`isChildClassOf`](#ischildclassof) Checks whether subclass is child of superclass or equals to superclass
-  - [`handleTouchesBegin`](#handletouchesbegin) 
-  - [`handleTouchesMove`](#handletouchesmove) 
-  - [`handleTouchesEnd`](#handletouchesend) 
-  - [`handleTouchesCancel`](#handletouchescancel) 
-  - [`getSetOfTouchesEndOrCancel`](#getsetoftouchesendorcancel) 
-  - [`getHTMLElementPosition`](#gethtmlelementposition) 
-  - [`getPreTouch`](#getpretouch) 
-  - [`setPreTouch`](#setpretouch) 
-  - [`getTouchByXY`](#gettouchbyxy) 
-  - [`getPointByEvent`](#getpointbyevent) 
-  - [`getTouchesByEvent`](#gettouchesbyevent) 
-  - [`registerSystemEvent`](#registersystemevent) 
-  - [`setAccelerometerEnabled`](#setaccelerometerenabled) whether enable accelerometer event
-  - [`setAccelerometerInterval`](#setaccelerometerinterval) set accelerometer interval value
-  - [`handleTouchesBegin`](#handletouchesbegin) 
-  - [`handleTouchesMove`](#handletouchesmove) 
-  - [`handleTouchesEnd`](#handletouchesend) 
-  - [`handleTouchesCancel`](#handletouchescancel) 
-  - [`getSetOfTouchesEndOrCancel`](#getsetoftouchesendorcancel) 
-  - [`getHTMLElementPosition`](#gethtmlelementposition) 
-  - [`getPreTouch`](#getpretouch) 
-  - [`setPreTouch`](#setpretouch) 
-  - [`getTouchByXY`](#gettouchbyxy) 
-  - [`getTouchByXY`](#gettouchbyxy) 
-  - [`getPointByEvent`](#getpointbyevent) 
-  - [`getTouchesByEvent`](#gettouchesbyevent) 
-  - [`registerSystemEvent`](#registersystemevent) 
-  - [`update`](#update) 
-  - [`lerp`](#lerp) Linear interpolation between 2 numbers, the ratio sets how much it is biased to each end
-  - [`rand`](#rand) get a random number from 0 to 0xffffff
-  - [`randomMinus1To1`](#randomminus1to1) returns a random float between -1 and 1
-  - [`random0To1`](#random0to1) returns a random float between 0 and 1, use Math.random directly
-  - [`degreesToRadians`](#degreestoradians) converts degrees to radians
-  - [`radiansToDegrees`](#radianstodegrees) converts radians to degrees
-  - [`nodeDrawSetup`](#nodedrawsetup) Helpful macro that setups the GL server state, the correct GL program and sets the Model View Projection matrix
-  - [`incrementGLDraws`](#incrementgldraws) <p>...
-  - [`checkGLErrorDebug`](#checkglerrordebug) Check webgl error.Error will be shown in console if exists.
-  - [`isValid`](#isvalid) 检查该对象是否不为 null 并且尚未销毁。
-  - [`deserialize`](#deserialize) 将 JSON 反序列化为对象实例。
-  - [`Enum`](#enum) 定义一个枚举类型。
-  - [`getList`](#getlist) 
-  - [`instantiate`](#instantiate) 克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
 
 
 
@@ -2163,6 +2163,770 @@ var delay = cc.delayTime(1);
 - `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| 定义于 | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/utils/find.js#L30) |
+
+###### 参数列表
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
+
+
+##### handleTouchesBegin
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:90](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L90) |
+
+###### 参数列表
+- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### handleTouchesMove
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:125](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L125) |
+
+###### 参数列表
+- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### handleTouchesEnd
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:157](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L157) |
+
+###### 参数列表
+- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### handleTouchesCancel
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:171](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L171) |
+
+###### 参数列表
+- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### getSetOfTouchesEndOrCancel
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:185](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L185) |
+
+###### 参数列表
+- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### getHTMLElementPosition
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:212](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L212) |
+
+###### 参数列表
+- `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
+
+
+##### getPreTouch
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:250](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L250) |
+
+###### 参数列表
+- `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+
+
+##### setPreTouch
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:270](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L270) |
+
+###### 参数列表
+- `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+
+
+##### getTouchByXY
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:296](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L296) |
+
+###### 参数列表
+- `tx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `ty` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### getPointByEvent
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:313](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L313) |
+
+###### 参数列表
+- `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### getTouchesByEvent
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:335](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L335) |
+
+###### 参数列表
+- `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### registerSystemEvent
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/BKInputManager.js:419](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L419) |
+
+###### 参数列表
+- `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
+
+
+##### Class
+
+定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+| 定义于 | [cocos2d/core/platform/CCClass.js:829](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCClass.js#L829) |
+
+###### 参数列表
+- `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+	- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The class name used for serialization.
+	- `extends` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The base class.
+	- `ctor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The constructor.
+	- `__ctor__` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The same as ctor, but less encapsulated.
+	- `properties` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The property definitions.
+	- `statics` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The static members.
+	- `mixins` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
+	- `editor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> attributes for Component listed below.
+		- `executeInEditMode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Allows the current component to run in edit mode. By default, all components are executed only at runtime, meaning that they will not have their callback functions executed while the Editor is in edit mode.
+		- `requireComponent` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Automatically add required component as a dependency.
+		- `menu` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The menu path to register a component to the editors "Component" menu. Eg. "Rendering/Camera".
+		- `executionOrder` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The execution order of lifecycle methods for Component. Those less than 0 will execute before while those greater than 0 will execute after. The order will only affect onLoad, onEnable, start, update and lateUpdate while onDisable and onDestroy will not be affected.
+		- `disallowMultiple` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If specified to a type, prevents Component of the same type (or subtype) to be added more than once to a Node.
+		- `playOnFocus` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> This property is only available when executeInEditMode is set. If specified, the editor's scene view will keep updating this node in 60 fps when it is selected, otherwise, it will update only if necessary.
+		- `inspector` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Customize the page url used by the current component to render in the Properties.
+		- `icon` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Customize the icon that the current component displays in the editor.
+		- `help` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The custom documentation URL
+	- `update` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_update" class="crosslink">update</a>
+	- `lateUpdate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_lateUpdate" class="crosslink">lateUpdate</a>
+	- `onLoad` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onLoad" class="crosslink">onLoad</a>
+	- `start` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_start" class="crosslink">start</a>
+	- `onEnable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onEnable" class="crosslink">onEnable</a>
+	- `onDisable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onDisable" class="crosslink">onDisable</a>
+	- `onDestroy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onDestroy" class="crosslink">onDestroy</a>
+	- `onFocusInEditor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onFocusInEditor" class="crosslink">onFocusInEditor</a>
+	- `onLostFocusInEditor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onLostFocusInEditor" class="crosslink">onLostFocusInEditor</a>
+	- `resetInEditor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_resetInEditor" class="crosslink">resetInEditor</a>
+	- `onRestore` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> for Component only, see <a href="../classes/Component.html#method_onRestore" class="crosslink">onRestore</a>
+	- `_getLocalBounds` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> for Component only, see <a href="../classes/Component.html#method__getLocalBounds" class="crosslink">_getLocalBounds</a>
+
+##### 示例
+
+```js
+// define base class
+var Node = cc.Class();
+
+// define sub class
+var Sprite = cc.Class({
+name: 'Sprite',
+extends: Node,
+
+ctor: function () {
+this.url = "";
+this.id = 0;
+},
+
+statics: {
+// define static members
+count: 0,
+getBounds: function (spriteList) {
+// compute bounds...
+}
+},
+
+properties {
+width: {
+default: 128,
+type: 'Integer',
+tooltip: 'The width of sprite'
+},
+height: 128,
+size: {
+get: function () {
+return cc.v2(this.width, this.height);
+}
+}
+},
+
+load: function () {
+// load this.url...
+};
+});
+
+// instantiate
+
+var obj = new Sprite();
+obj.url = 'sprite.png';
+obj.load();
+```
+
+##### _isCCClass
+
+Checks whether the constructor is created by cc.Class
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/core/platform/CCClass.js:1000](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCClass.js#L1000) |
+
+###### 参数列表
+- `constructor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+
+
+##### isChildClassOf
+
+Checks whether subclass is child of superclass or equals to superclass
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/core/platform/CCClass.js:1037](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCClass.js#L1037) |
+
+###### 参数列表
+- `subclass` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- `superclass` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+
+
+##### Enum
+
+定义一个枚举类型。<br/>
+用户可以把枚举值设为任意的整数，如果设为 -1，系统将会分配为上一个枚举值 + 1。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| 定义于 | [cocos2d/core/platform/CCEnum.js:34](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCEnum.js#L34) |
+
+###### 参数列表
+- `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> a JavaScript literal object containing enum names and values, or a TypeScript enum type
+
+##### 示例
+
+```js
+// JavaScript:
+
+var WrapMode = cc.Enum({
+    Repeat: -1,
+    Clamp: -1
+});
+
+// Texture.WrapMode.Repeat == 0
+// Texture.WrapMode.Clamp == 1
+// Texture.WrapMode[0] == "Repeat"
+// Texture.WrapMode[1] == "Clamp"
+
+var FlagType = cc.Enum({
+    Flag1: 1,
+    Flag2: 2,
+    Flag3: 4,
+    Flag4: 8,
+});
+
+var AtlasSizeList = cc.Enum({
+    128: 128,
+    256: 256,
+    512: 512,
+    1024: 1024,
+});
+
+// TypeScript:
+
+// If used in TypeScript, just define a TypeScript enum:
+enum Direction {
+    Up,
+    Down,
+    Left,
+    Right
+}
+
+// If you need to inspect the enum in Properties panel, you can call cc.Enum:
+const {ccclass, property} = cc._decorator;
+
+@ccclass
+class NewScript extends cc.Component {
+    @property({
+        type: cc.Enum(Direction)    // call cc.Enum
+    })
+    direction: Direction = Direction.Up;
+}
+
+```
+
+##### getList
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
+| 定义于 | [cocos2d/core/platform/CCEnum.js:90](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCEnum.js#L90) |
+
+###### 参数列表
+- `enumDef` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the enum type defined from cc.Enum
+
+
+##### handleTouchesBegin
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:99](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L99) |
+
+###### 参数列表
+- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### handleTouchesMove
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:134](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L134) |
+
+###### 参数列表
+- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### handleTouchesEnd
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:166](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L166) |
+
+###### 参数列表
+- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### handleTouchesCancel
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:181](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L181) |
+
+###### 参数列表
+- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### getSetOfTouchesEndOrCancel
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:196](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L196) |
+
+###### 参数列表
+- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### getHTMLElementPosition
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:222](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L222) |
+
+###### 参数列表
+- `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
+
+
+##### getPreTouch
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:269](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L269) |
+
+###### 参数列表
+- `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+
+
+##### setPreTouch
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:289](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L289) |
+
+###### 参数列表
+- `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+
+
+##### getTouchByXY
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:314](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L314) |
+
+###### 参数列表
+- `tx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `ty` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### getTouchByXY
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Event.EventMouse.html" class="crosslink">Event.EventMouse</a> 
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:331](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L331) |
+
+###### 参数列表
+- `location` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `eventType` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### getPointByEvent
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:349](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L349) |
+
+###### 参数列表
+- `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### getTouchesByEvent
+
+
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:370](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L370) |
+
+###### 参数列表
+- `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
+- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### registerSystemEvent
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:408](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L408) |
+
+###### 参数列表
+- `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
+
+
+##### update
+
+
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputManager.js:599](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L599) |
+
+###### 参数列表
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### setAccelerometerEnabled
+
+whether enable accelerometer event
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputExtension.js:41](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputExtension.js#L41) |
+
+###### 参数列表
+- `isEnable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+
+##### setAccelerometerInterval
+
+set accelerometer interval value
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputExtension.js:64](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputExtension.js#L64) |
+
+###### 参数列表
+- `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### lerp
+
+<p>
+    Linear interpolation between 2 numbers, the ratio sets how much it is biased to each end
+</p>
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2001](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2001) |
+
+###### 参数列表
+- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number A
+- `b` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number B
+- `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> ratio between 0 and 1
+
+##### 示例
+
+```js
+----
+lerp
+cc.lerp(2,10,0.5)//returns 6
+cc.lerp(2,10,0.2)//returns 3.6
+
+```
+
+##### rand
+
+get a random number from 0 to 0xffffff
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2016](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2016) |
+
+
+
+##### randomMinus1To1
+
+returns a random float between -1 and 1
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2025](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2025) |
+
+
+
+##### random0To1
+
+returns a random float between 0 and 1, use Math.random directly
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2034](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2034) |
+
+
+
+##### degreesToRadians
+
+converts degrees to radians
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2041](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2041) |
+
+###### 参数列表
+- `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### radiansToDegrees
+
+converts radians to degrees
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2051](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2051) |
+
+###### 参数列表
+- `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### nodeDrawSetup
+
+Helpful macro that setups the GL server state, the correct GL program and sets the Model View Projection matrix
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2061](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2061) |
+
+###### 参数列表
+- `node` <a href="../classes/Node.html" class="crosslink">Node</a> setup node
+
+
+##### incrementGLDraws
+
+<p>
+ Increments the GL Draws counts by one.<br/>
+ The number of calls per frame are displayed on the screen when the CCDirector's stats are enabled.<br/>
+</p>
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2113](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2113) |
+
+###### 参数列表
+- `addNumber` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### checkGLErrorDebug
+
+Check webgl error.Error will be shown in console if exists.
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCMacro.js:2125](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2125) |
+
+
+
+##### isValid
+
+检查该对象是否不为 null 并且尚未销毁。<br>
+当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。因此从下一帧开始 `isValid` 就会返回 false，而当前帧内 `isValid` 仍然会是 true。如果希望判断当前帧是否调用过 `destroy`，请使用 `cc.isValid(obj, true)`，不过这往往是特殊的业务需求引起的，通常情况下不需要这样。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/core/platform/CCObject.js:509](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCObject.js#L509) |
+
+###### 参数列表
+- `value` Any 
+- `strictMode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If true, Object called destroy() in this frame will also treated as invalid.
+
+##### 示例
+
+```js
+var node = new cc.Node();
+cc.log(cc.isValid(node));    // true
+node.destroy();
+cc.log(cc.isValid(node));    // true, still valid in this frame
+// after a frame...
+cc.log(cc.isValid(node));    // false, destroyed in the end of last frame
+```
+
+##### deserialize
+
+将 JSON 反序列化为对象实例。
+
+当指定了 target 选项时，如果 target 引用的其它 asset 的 uuid 不变，则不会改变 target 对 asset 的引用，
+也不会将 uuid 保存到 result 对象中。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| 定义于 | [cocos2d/core/platform/deserialize.js:741](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/deserialize.js#L741) |
+
+###### 参数列表
+- `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
+- `details` <a href="../classes/Details.html" class="crosslink">Details</a> additional loading result
+- `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+
+
+##### instantiate
+
+克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
+
+（Instantiate 时，function 和 dom 等非可序列化对象会直接保留原有引用，Asset 会直接进行浅拷贝，可序列化类型会进行深拷贝。）
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/core/platform/instantiate.js:36](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/instantiate.js#L36) |
+
+###### 参数列表
+- `original` <a href="../classes/Prefab.html" class="crosslink">Prefab</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
+
+##### 示例
+
+```js
+// instantiate node from prefab
+var scene = cc.director.getScene();
+var node = cc.instantiate(prefabAsset);
+node.parent = scene;
+// clone node
+var scene = cc.director.getScene();
+var node = cc.instantiate(targetNode);
+node.parent = scene;
+```
+
 ##### color
 
 通过该方法来创建一个新的 Color/Color:method 对象。
@@ -3354,769 +4118,5 @@ var point4 = cc.p({x: 100, y: 100});
 - `point1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 - `point2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| 定义于 | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/utils/find.js#L30) |
-
-###### 参数列表
-- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
-
-
-##### Class
-
-定义一个 CCClass，传入参数必须是一个包含类型参数的字面量对象，具体用法请查阅[类型定义](/docs/creator/scripting/class.html)。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| 定义于 | [cocos2d/core/platform/CCClass.js:829](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCClass.js#L829) |
-
-###### 参数列表
-- `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-	- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The class name used for serialization.
-	- `extends` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The base class.
-	- `ctor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The constructor.
-	- `__ctor__` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The same as ctor, but less encapsulated.
-	- `properties` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The property definitions.
-	- `statics` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The static members.
-	- `mixins` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> 
-	- `editor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> attributes for Component listed below.
-		- `executeInEditMode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Allows the current component to run in edit mode. By default, all components are executed only at runtime, meaning that they will not have their callback functions executed while the Editor is in edit mode.
-		- `requireComponent` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Automatically add required component as a dependency.
-		- `menu` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The menu path to register a component to the editors "Component" menu. Eg. "Rendering/Camera".
-		- `executionOrder` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The execution order of lifecycle methods for Component. Those less than 0 will execute before while those greater than 0 will execute after. The order will only affect onLoad, onEnable, start, update and lateUpdate while onDisable and onDestroy will not be affected.
-		- `disallowMultiple` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If specified to a type, prevents Component of the same type (or subtype) to be added more than once to a Node.
-		- `playOnFocus` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> This property is only available when executeInEditMode is set. If specified, the editor's scene view will keep updating this node in 60 fps when it is selected, otherwise, it will update only if necessary.
-		- `inspector` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Customize the page url used by the current component to render in the Properties.
-		- `icon` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Customize the icon that the current component displays in the editor.
-		- `help` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The custom documentation URL
-	- `update` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_update" class="crosslink">update</a>
-	- `lateUpdate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_lateUpdate" class="crosslink">lateUpdate</a>
-	- `onLoad` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onLoad" class="crosslink">onLoad</a>
-	- `start` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_start" class="crosslink">start</a>
-	- `onEnable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onEnable" class="crosslink">onEnable</a>
-	- `onDisable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onDisable" class="crosslink">onDisable</a>
-	- `onDestroy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onDestroy" class="crosslink">onDestroy</a>
-	- `onFocusInEditor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onFocusInEditor" class="crosslink">onFocusInEditor</a>
-	- `onLostFocusInEditor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_onLostFocusInEditor" class="crosslink">onLostFocusInEditor</a>
-	- `resetInEditor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> lifecycle method for Component, see <a href="../classes/Component.html#method_resetInEditor" class="crosslink">resetInEditor</a>
-	- `onRestore` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> for Component only, see <a href="../classes/Component.html#method_onRestore" class="crosslink">onRestore</a>
-	- `_getLocalBounds` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> for Component only, see <a href="../classes/Component.html#method__getLocalBounds" class="crosslink">_getLocalBounds</a>
-
-##### 示例
-
-```js
-// define base class
-var Node = cc.Class();
-
-// define sub class
-var Sprite = cc.Class({
-name: 'Sprite',
-extends: Node,
-
-ctor: function () {
-this.url = "";
-this.id = 0;
-},
-
-statics: {
-// define static members
-count: 0,
-getBounds: function (spriteList) {
-// compute bounds...
-}
-},
-
-properties {
-width: {
-default: 128,
-type: 'Integer',
-tooltip: 'The width of sprite'
-},
-height: 128,
-size: {
-get: function () {
-return cc.v2(this.width, this.height);
-}
-}
-},
-
-load: function () {
-// load this.url...
-};
-});
-
-// instantiate
-
-var obj = new Sprite();
-obj.url = 'sprite.png';
-obj.load();
-```
-
-##### _isCCClass
-
-Checks whether the constructor is created by cc.Class
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCClass.js:1000](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCClass.js#L1000) |
-
-###### 参数列表
-- `constructor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-
-
-##### isChildClassOf
-
-Checks whether subclass is child of superclass or equals to superclass
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCClass.js:1037](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCClass.js#L1037) |
-
-###### 参数列表
-- `subclass` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-- `superclass` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-
-
-##### handleTouchesBegin
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:90](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L90) |
-
-###### 参数列表
-- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### handleTouchesMove
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:125](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L125) |
-
-###### 参数列表
-- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### handleTouchesEnd
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:157](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L157) |
-
-###### 参数列表
-- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### handleTouchesCancel
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:171](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L171) |
-
-###### 参数列表
-- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### getSetOfTouchesEndOrCancel
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:185](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L185) |
-
-###### 参数列表
-- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### getHTMLElementPosition
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:212](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L212) |
-
-###### 参数列表
-- `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
-
-
-##### getPreTouch
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:250](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L250) |
-
-###### 参数列表
-- `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-
-
-##### setPreTouch
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:270](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L270) |
-
-###### 参数列表
-- `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-
-
-##### getTouchByXY
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:296](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L296) |
-
-###### 参数列表
-- `tx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `ty` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### getPointByEvent
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:313](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L313) |
-
-###### 参数列表
-- `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### getTouchesByEvent
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:335](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L335) |
-
-###### 参数列表
-- `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### registerSystemEvent
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/BKInputManager.js:419](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/BKInputManager.js#L419) |
-
-###### 参数列表
-- `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
-
-
-##### setAccelerometerEnabled
-
-whether enable accelerometer event
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputExtension.js:41](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputExtension.js#L41) |
-
-###### 参数列表
-- `isEnable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-
-##### setAccelerometerInterval
-
-set accelerometer interval value
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputExtension.js:64](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputExtension.js#L64) |
-
-###### 参数列表
-- `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### handleTouchesBegin
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:99](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L99) |
-
-###### 参数列表
-- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### handleTouchesMove
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:134](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L134) |
-
-###### 参数列表
-- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### handleTouchesEnd
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:166](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L166) |
-
-###### 参数列表
-- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### handleTouchesCancel
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:181](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L181) |
-
-###### 参数列表
-- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### getSetOfTouchesEndOrCancel
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:196](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L196) |
-
-###### 参数列表
-- `touches` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### getHTMLElementPosition
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:222](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L222) |
-
-###### 参数列表
-- `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
-
-
-##### getPreTouch
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:269](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L269) |
-
-###### 参数列表
-- `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-
-
-##### setPreTouch
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:289](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L289) |
-
-###### 参数列表
-- `touch` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-
-
-##### getTouchByXY
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:314](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L314) |
-
-###### 参数列表
-- `tx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `ty` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### getTouchByXY
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Event.EventMouse.html" class="crosslink">Event.EventMouse</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:331](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L331) |
-
-###### 参数列表
-- `location` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `eventType` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### getPointByEvent
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:349](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L349) |
-
-###### 参数列表
-- `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### getTouchesByEvent
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:370](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L370) |
-
-###### 参数列表
-- `event` <a href="../classes/Touch.html" class="crosslink">Touch</a> 
-- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### registerSystemEvent
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:408](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L408) |
-
-###### 参数列表
-- `element` <a href="https://developer.mozilla.org/en/Document_Object_Model_(DOM)/HTMLElement" class="crosslink external" target="_blank">HTMLElement</a> 
-
-
-##### update
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputManager.js:599](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputManager.js#L599) |
-
-###### 参数列表
-- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### lerp
-
-<p>
-    Linear interpolation between 2 numbers, the ratio sets how much it is biased to each end
-</p>
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2001](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2001) |
-
-###### 参数列表
-- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number A
-- `b` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number B
-- `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> ratio between 0 and 1
-
-##### 示例
-
-```js
-----
-lerp
-cc.lerp(2,10,0.5)//returns 6
-cc.lerp(2,10,0.2)//returns 3.6
-
-```
-
-##### rand
-
-get a random number from 0 to 0xffffff
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2016](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2016) |
-
-
-
-##### randomMinus1To1
-
-returns a random float between -1 and 1
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2025](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2025) |
-
-
-
-##### random0To1
-
-returns a random float between 0 and 1, use Math.random directly
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2034](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2034) |
-
-
-
-##### degreesToRadians
-
-converts degrees to radians
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2041](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2041) |
-
-###### 参数列表
-- `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### radiansToDegrees
-
-converts radians to degrees
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2051](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2051) |
-
-###### 参数列表
-- `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### nodeDrawSetup
-
-Helpful macro that setups the GL server state, the correct GL program and sets the Model View Projection matrix
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2061](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2061) |
-
-###### 参数列表
-- `node` <a href="../classes/Node.html" class="crosslink">Node</a> setup node
-
-
-##### incrementGLDraws
-
-<p>
- Increments the GL Draws counts by one.<br/>
- The number of calls per frame are displayed on the screen when the CCDirector's stats are enabled.<br/>
-</p>
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2113](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2113) |
-
-###### 参数列表
-- `addNumber` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### checkGLErrorDebug
-
-Check webgl error.Error will be shown in console if exists.
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCMacro.js:2125](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCMacro.js#L2125) |
-
-
-
-##### isValid
-
-检查该对象是否不为 null 并且尚未销毁。<br>
-当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。因此从下一帧开始 `isValid` 就会返回 false，而当前帧内 `isValid` 仍然会是 true。如果希望判断当前帧是否调用过 `destroy`，请使用 `cc.isValid(obj, true)`，不过这往往是特殊的业务需求引起的，通常情况下不需要这样。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:509](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCObject.js#L509) |
-
-###### 参数列表
-- `value` Any 
-- `strictMode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If true, Object called destroy() in this frame will also treated as invalid.
-
-##### 示例
-
-```js
-var node = new cc.Node();
-cc.log(cc.isValid(node));    // true
-node.destroy();
-cc.log(cc.isValid(node));    // true, still valid in this frame
-// after a frame...
-cc.log(cc.isValid(node));    // false, destroyed in the end of last frame
-```
-
-##### deserialize
-
-将 JSON 反序列化为对象实例。
-
-当指定了 target 选项时，如果 target 引用的其它 asset 的 uuid 不变，则不会改变 target 对 asset 的引用，
-也不会将 uuid 保存到 result 对象中。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| 定义于 | [cocos2d/core/platform/deserialize.js:741](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/deserialize.js#L741) |
-
-###### 参数列表
-- `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
-- `details` <a href="../classes/Details.html" class="crosslink">Details</a> additional loading result
-- `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-
-
-##### Enum
-
-定义一个枚举类型。<br/>
-用户可以把枚举值设为任意的整数，如果设为 -1，系统将会分配为上一个枚举值 + 1。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| 定义于 | [cocos2d/core/platform/CCEnum.js:34](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCEnum.js#L34) |
-
-###### 参数列表
-- `obj` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> a JavaScript literal object containing enum names and values, or a TypeScript enum type
-
-##### 示例
-
-```js
-// JavaScript:
-
-var WrapMode = cc.Enum({
-    Repeat: -1,
-    Clamp: -1
-});
-
-// Texture.WrapMode.Repeat == 0
-// Texture.WrapMode.Clamp == 1
-// Texture.WrapMode[0] == "Repeat"
-// Texture.WrapMode[1] == "Clamp"
-
-var FlagType = cc.Enum({
-    Flag1: 1,
-    Flag2: 2,
-    Flag3: 4,
-    Flag4: 8,
-});
-
-var AtlasSizeList = cc.Enum({
-    128: 128,
-    256: 256,
-    512: 512,
-    1024: 1024,
-});
-
-// TypeScript:
-
-// If used in TypeScript, just define a TypeScript enum:
-enum Direction {
-    Up,
-    Down,
-    Left,
-    Right
-}
-
-// If you need to inspect the enum in Properties panel, you can call cc.Enum:
-const {ccclass, property} = cc._decorator;
-
-@ccclass
-class NewScript extends cc.Component {
-    @property({
-        type: cc.Enum(Direction)    // call cc.Enum
-    })
-    direction: Direction = Direction.Up;
-}
-
-```
-
-##### getList
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
-| 定义于 | [cocos2d/core/platform/CCEnum.js:90](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCEnum.js#L90) |
-
-###### 参数列表
-- `enumDef` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the enum type defined from cc.Enum
-
-
-##### instantiate
-
-克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
-
-（Instantiate 时，function 和 dom 等非可序列化对象会直接保留原有引用，Asset 会直接进行浅拷贝，可序列化类型会进行深拷贝。）
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/instantiate.js:36](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/instantiate.js#L36) |
-
-###### 参数列表
-- `original` <a href="../classes/Prefab.html" class="crosslink">Prefab</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
-
-##### 示例
-
-```js
-// instantiate node from prefab
-var scene = cc.director.getScene();
-var node = cc.instantiate(prefabAsset);
-node.parent = scene;
-// clone node
-var scene = cc.director.getScene();
-var node = cc.instantiate(targetNode);
-node.parent = scene;
-```
 
 
