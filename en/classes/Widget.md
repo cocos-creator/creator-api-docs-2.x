@@ -4,12 +4,12 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Stores and manipulate the anchoring based on its parent.
 Widget are used for GUI but can also be used for other things.
 Widget will adjust current node's position and size automatically, but the results after adjustment can not be obtained until the next frame unless you call <a href="../classes/Widget.html#method_updateAlignment" class="crosslink">updateAlignment</a> manually.
+
 
 
 ### Index

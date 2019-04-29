@@ -4,10 +4,10 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 包围盒碰撞组件
+
 
 
 ### 索引

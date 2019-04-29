@@ -9,6 +9,7 @@ Module: [cc](../modules/cc.md)
 cc.VideoPlayer is a component for playing videos, you can use it for showing videos in your game.
 
 
+
 ### Index
 
 ##### Properties

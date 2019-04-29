@@ -3,11 +3,56 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 一个简单的碰撞组件管理类，用于处理节点之间的碰撞组件是否产生了碰撞，并调用相应回调函数。
 
+
+##### 示例
+
+```js
+// Get the collision manager.
+let manager = cc.director.getCollisionManager();
+
+// Enabled the colider manager.
+manager.enabled = true;
+
+// Enabled draw collider
+manager.enabledDebugDraw = true;
+
+// Enabled draw collider bounding box
+manager.enabledDrawBoundingBox = true;
+
+
+// Collision callback
+onCollisionEnter: function (other, self) {
+    this.node.color = cc.Color.RED;
+    this.touchingNumber ++;
+
+    // let world = self.world;
+    // let aabb = world.aabb;
+    // let preAabb = world.preAabb;
+    // let m = world.matrix;
+
+    // for circle collider
+    // let r = world.radius;
+    // let p = world.position;
+
+    // for box collider and polygon collider
+    // let ps = world.points;
+},
+
+onCollisionStay: function (other, self) {
+    console.log('on collision stay');
+},
+
+onCollisionExit: function (other, self) {
+    this.touchingNumber --;
+    if (this.touchingNumber === 0) {
+        this.node.color = cc.Color.WHITE;
+    }
+}
+```
 
 ### 索引
 

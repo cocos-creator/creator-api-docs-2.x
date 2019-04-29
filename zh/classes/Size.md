@@ -3,13 +3,13 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 cc.Size 是 size 对象的类。<br/>
 请不要使用它的构造函数创建的 size，<br/>
 使用 <a href="../modules/cc.html#method_size" class="crosslink">size</a> 别名函数。<br/>
 它不久将被取消，请使用cc.Vec2代替。
+
 
 
 ### 索引

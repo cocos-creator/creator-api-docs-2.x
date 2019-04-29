@@ -10,6 +10,7 @@ cc.Scene 是 cc.Node 的子类，仅作为一个抽象的概念。<br/>
 cc.Scene 和 cc.Node 有点不同，用户不应直接修改 cc.Scene。
 
 
+
 ### 索引
 
 ##### 属性（properties）
@@ -2405,7 +2406,6 @@ Init this object from the custom serialized data.
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 注意：此节点激活时，此事件仅从最顶部的节点发出。

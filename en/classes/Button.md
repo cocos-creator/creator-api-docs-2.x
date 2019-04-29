@@ -4,7 +4,6 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Button has 4 Transition types<br/>
@@ -22,6 +21,21 @@ Button will trigger 5 events:<br/>
  Button.EVENT_HOVER_OUT<br/>
  User can get the current clicked node with 'event.target' from event object which is passed as parameter in the callback function of click event.
 
+
+##### Examples
+
+```js
+// Add an event to the button.
+button.node.on(cc.Node.EventType.TOUCH_START, function (event) {
+    cc.log("This is a callback after the trigger event");
+});
+
+// You could also add a click event
+//Note: In this way, you can't get the touch event info, so use it wisely.
+button.node.on('click', function (button) {
+   //The event is a custom event, you could get the Button component via first argument
+})
+```
 
 ### Index
 
@@ -877,7 +891,6 @@ Init this object from the custom serialized data.
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Note: This event is emitted from the node to which the component belongs.

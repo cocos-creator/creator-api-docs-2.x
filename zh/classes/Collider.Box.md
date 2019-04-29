@@ -3,10 +3,10 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 用来定义包围盒碰撞体
+
 
 
 ### 索引

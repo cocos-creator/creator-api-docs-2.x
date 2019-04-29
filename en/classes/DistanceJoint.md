@@ -12,6 +12,7 @@ to remain at a fixed distance from each other. You can view
 this as a massless, rigid rod.
 
 
+
 ### Index
 
 ##### Properties

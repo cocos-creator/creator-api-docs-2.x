@@ -9,6 +9,22 @@
 进度条组件，可用于显示加载资源时的进度。
 
 
+##### 示例
+
+```js
+// update progressBar
+update: function (dt) {
+    var progress = progressBar.progress;
+    if (progress > 0) {
+        progress += dt;
+    }
+    else {
+        progress = 1;
+    }
+    progressBar.progress = progress;
+}
+```
+
 ### 索引
 
 ##### 属性（properties）

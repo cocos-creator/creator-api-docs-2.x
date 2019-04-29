@@ -13,6 +13,14 @@ cc.ActionManager 是可以管理动作的单例类。<br/>
  - 当你想要暂停/恢复动作时。 <br/>
 
 
+##### 示例
+
+```js
+----
+var mng = new cc.ActionManager();
+
+```
+
 ### 索引
 
 

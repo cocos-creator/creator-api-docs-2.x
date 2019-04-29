@@ -11,6 +11,7 @@ ViewGroup的事件处理比较特殊，因为 ViewGroup 里面的子节点关心
 请参考 ScrollView 的实现来获取更多信息。
 
 
+
 ### 索引
 
 ##### 属性（properties）

@@ -4,7 +4,6 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 WXSubContextView is a view component which controls open data context viewport in WeChat game platform.<br/>
@@ -18,6 +17,7 @@ This component provides multiple important features:<br/>
 5. Texture update is handled by this component. User don't need to worry.<br/>
 One important thing to be noted, whenever the node's bounding box change,
 you need to manually reset the viewport of sub context using updateSubContextViewport.
+
 
 
 ### Index

@@ -11,6 +11,49 @@ The implementation of this object pool is very simple,
 it can helps you to improve your game performance for objects which need frequent release and recreate operations<br/>
 
 
+##### Examples
+
+```js
+Example 1:
+
+function Details () {
+   this.uuidList = [];
+};
+Details.prototype.reset = function () {
+   this.uuidList.length = 0;
+};
+Details.pool = new js.Pool(function (obj) {
+   obj.reset();
+}, 5);
+Details.pool.get = function () {
+   return this._get() || new Details();
+};
+
+var detail = Details.pool.get();
+...
+Details.pool.put(detail);
+
+Example 2:
+
+function Details (buffer) {
+   this.uuidList = buffer;
+};
+...
+Details.pool.get = function (buffer) {
+   var cached = this._get();
+   if (cached) {
+       cached.uuidList = buffer;
+       return cached;
+   }
+   else {
+       return new Details(buffer);
+   }
+};
+
+var detail = Details.pool.get( [] );
+...
+```
+
 ### Index
 
 ##### Properties

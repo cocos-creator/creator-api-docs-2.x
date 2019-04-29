@@ -9,6 +9,15 @@
 该组件用于在场景中渲染精灵。
 
 
+##### 示例
+
+```js
+// Create a new node and add sprite components.
+ var node = new cc.Node("New Sprite");
+ var sprite = node.addComponent(cc.Sprite);
+ node.parent = this.node;
+```
+
 ### 索引
 
 ##### 属性（properties）

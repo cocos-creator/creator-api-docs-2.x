@@ -13,6 +13,16 @@ Tween 提供了一个简单灵活的方法来创建 action。
  - 支持设置 easing 或者 progress 函数
 
 
+##### 示例
+
+```js
+cc.tween(node)
+  .to(1, {scale: 2, position: cc.v3(100, 100, 100)})
+  .call(() => { console.log('This is a callback'); })
+  .by(1, {scale: 3, position: cc.v3(200, 200, 200)}, {easing: 'sineOutIn'})
+  .run(cc.find('Canvas/cocos'));
+```
+
 ### 索引
 
 

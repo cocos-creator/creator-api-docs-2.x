@@ -4,11 +4,11 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 ToggleGroup is not a visiable UI component but a way to modify the behavior of a set of Toggles.
 Toggles that belong to the same group could only have one of them to be switched on at a time.
+
 
 
 ### Index

@@ -10,6 +10,7 @@ The fullscreen API provides an easy way for web content to be presented using th
 It's invalid on safari, QQbrowser and android browser
 
 
+
 ### Index
 
 

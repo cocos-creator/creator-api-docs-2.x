@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 Prefab 创建实例所用的优化策略，配合 Prefab.optimizationPolicy 使用。

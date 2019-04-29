@@ -4,10 +4,10 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 The Scrollbar control allows the user to scroll an image or other view that is too large to see completely
+
 
 
 ### Index

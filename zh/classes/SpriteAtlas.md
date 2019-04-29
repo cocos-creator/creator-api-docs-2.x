@@ -4,10 +4,10 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 精灵图集资源类。
+
 
 
 ### 索引
