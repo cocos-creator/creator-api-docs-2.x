@@ -208,7 +208,7 @@ function quickPreview (includeFiles, done) {
     includeFiles = includeFiles.concat(FORBID_IGNORE_ARRAY);
     var excludePattern = includeFiles.map(x => '!**/' + Path.basename(x, '.md') + '.md');
     var allIgnorePages = Globby.sync(allPagesPattern.concat(excludePattern), { absolute: true });
-    allIgnorePages = allIgnorePages.map(x => '/' + Path.relative(__dirname,x).replace(/\\/g, '/'));                                      
+    allIgnorePages = allIgnorePages.map(x => '/' + Path.relative(__dirname,x).replace(/\\/g, '/'));
     Fs.readFile('.bookignore', 'utf8', function (error, content) {
         if (error) {
             return done(error);
