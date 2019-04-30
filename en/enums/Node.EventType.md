@@ -1,4 +1,4 @@
-## `Node.EventType` Class
+### `Node.EventType` Enum
 
 
 
@@ -8,40 +8,29 @@ Module: [cc](../modules/cc.md)
 The event type supported by Node
 
 
-
 ### Index
-
-##### Properties
-
-  - [`TOUCH_START`](#touchstart) `String` The event type for touch start event, you can use its value directly: 'touchstart'
-  - [`TOUCH_MOVE`](#touchmove) `String` The event type for touch move event, you can use its value directly: 'touchmove'
-  - [`TOUCH_END`](#touchend) `String` The event type for touch end event, you can use its value directly: 'touchend'
-  - [`TOUCH_CANCEL`](#touchcancel) `String` The event type for touch end event, you can use its value directly: 'touchcancel'
-  - [`MOUSE_DOWN`](#mousedown) `String` The event type for mouse down events, you can use its value directly: 'mousedown'
-  - [`MOUSE_MOVE`](#mousemove) `String` The event type for mouse move events, you can use its value directly: 'mousemove'
-  - [`MOUSE_ENTER`](#mouseenter) `String` The event type for mouse enter target events, you can use its value directly: 'mouseenter'
-  - [`MOUSE_LEAVE`](#mouseleave) `String` The event type for mouse leave target events, you can use its value directly: 'mouseleave'
-  - [`MOUSE_UP`](#mouseup) `String` The event type for mouse up events, you can use its value directly: 'mouseup'
-  - [`MOUSE_WHEEL`](#mousewheel) `String` The event type for mouse wheel events, you can use its value directly: 'mousewheel'
-  - [`POSITION_CHANGED`](#positionchanged) `String` The event type for position change events.
-  - [`ROTATION_CHANGED`](#rotationchanged) `String` The event type for rotation change events.
-  - [`SCALE_CHANGED`](#scalechanged) `String` The event type for scale change events.
-  - [`SIZE_CHANGED`](#sizechanged) `String` The event type for size change events.
-  - [`ANCHOR_CHANGED`](#anchorchanged) `String` The event type for anchor point change events.
-  - [`COLOR_CHANGED`](#colorchanged) `String` The event type for color change events.
-  - [`CHILD_ADDED`](#childadded) `String` The event type for new child added events.
-  - [`CHILD_REMOVED`](#childremoved) `String` The event type for child removed events.
-  - [`CHILD_REORDER`](#childreorder) `String` The event type for children reorder events.
-  - [`GROUP_CHANGED`](#groupchanged) `String` The event type for node group changed events.
-
-
-
-
+  - `TOUCH_START`
+  - `TOUCH_MOVE`
+  - `TOUCH_END`
+  - `TOUCH_CANCEL`
+  - `MOUSE_DOWN`
+  - `MOUSE_MOVE`
+  - `MOUSE_ENTER`
+  - `MOUSE_LEAVE`
+  - `MOUSE_UP`
+  - `MOUSE_WHEEL`
+  - `POSITION_CHANGED`
+  - `ROTATION_CHANGED`
+  - `SCALE_CHANGED`
+  - `SIZE_CHANGED`
+  - `ANCHOR_CHANGED`
+  - `COLOR_CHANGED`
+  - `CHILD_ADDED`
+  - `CHILD_REMOVED`
+  - `CHILD_REORDER`
+  - `GROUP_CHANGED`
 
 ### Details
-
-
-#### Properties
 
 
 ##### TOUCH_START
@@ -51,7 +40,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:134](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L134) |
+| Defined in | [cocos2d/core/CCNode.js:134](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L134) |
 
 
 
@@ -62,7 +51,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:141](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L141) |
+| Defined in | [cocos2d/core/CCNode.js:141](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L141) |
 
 
 
@@ -73,7 +62,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:148](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L148) |
+| Defined in | [cocos2d/core/CCNode.js:148](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L148) |
 
 
 
@@ -84,7 +73,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:155](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L155) |
+| Defined in | [cocos2d/core/CCNode.js:155](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L155) |
 
 
 
@@ -95,7 +84,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:163](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L163) |
+| Defined in | [cocos2d/core/CCNode.js:163](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L163) |
 
 
 
@@ -106,7 +95,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:170](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L170) |
+| Defined in | [cocos2d/core/CCNode.js:170](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L170) |
 
 
 
@@ -117,7 +106,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:177](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L177) |
+| Defined in | [cocos2d/core/CCNode.js:177](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L177) |
 
 
 
@@ -128,7 +117,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:184](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L184) |
+| Defined in | [cocos2d/core/CCNode.js:184](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L184) |
 
 
 
@@ -139,7 +128,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:191](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L191) |
+| Defined in | [cocos2d/core/CCNode.js:191](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L191) |
 
 
 
@@ -150,7 +139,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:198](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L198) |
+| Defined in | [cocos2d/core/CCNode.js:198](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L198) |
 
 
 
@@ -163,7 +152,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:206](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L206) |
+| Defined in | [cocos2d/core/CCNode.js:206](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L206) |
 
 
 
@@ -176,7 +165,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:216](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L216) |
+| Defined in | [cocos2d/core/CCNode.js:216](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L216) |
 
 
 
@@ -189,7 +178,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:226](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L226) |
+| Defined in | [cocos2d/core/CCNode.js:226](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L226) |
 
 
 
@@ -202,7 +191,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:236](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L236) |
+| Defined in | [cocos2d/core/CCNode.js:236](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L236) |
 
 
 
@@ -215,7 +204,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:246](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L246) |
+| Defined in | [cocos2d/core/CCNode.js:246](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L246) |
 
 
 
@@ -228,7 +217,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:256](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L256) |
+| Defined in | [cocos2d/core/CCNode.js:256](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L256) |
 
 
 
@@ -239,7 +228,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:266](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L266) |
+| Defined in | [cocos2d/core/CCNode.js:266](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L266) |
 
 
 
@@ -250,7 +239,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:273](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L273) |
+| Defined in | [cocos2d/core/CCNode.js:273](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L273) |
 
 
 
@@ -261,7 +250,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:280](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L280) |
+| Defined in | [cocos2d/core/CCNode.js:280](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L280) |
 
 
 
@@ -272,10 +261,6 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:287](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/CCNode.js#L287) |
-
-
-
-
+| Defined in | [cocos2d/core/CCNode.js:287](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCNode.js#L287) |
 
 

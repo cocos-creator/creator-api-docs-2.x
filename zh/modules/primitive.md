@@ -1,10 +1,12 @@
-## `Primitive` 类型
+
+## `primitive` 模块
 
 
 
-模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
+
+
+一个创建 3D 物体顶点数据的基础模块，你可以通过 "cc.primitive" 来访问这个模块。
 
 
 
@@ -43,8 +45,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/3d/primitive/index.js:19](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/3d/primitive/index.js#L19) |
+| 返回 | primitive.VertextData 
+| 定义于 | [cocos2d/core/3d/primitive/index.js:23](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L23) |
 
 ###### 参数列表
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -62,8 +64,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/3d/primitive/index.js:34](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/3d/primitive/index.js#L34) |
+| 返回 | primitive.VertextData 
+| 定义于 | [cocos2d/core/3d/primitive/index.js:38](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L38) |
 
 ###### 参数列表
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -81,8 +83,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/3d/primitive/index.js:49](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/3d/primitive/index.js#L49) |
+| 返回 | primitive.VertextData 
+| 定义于 | [cocos2d/core/3d/primitive/index.js:53](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L53) |
 
 ###### 参数列表
 - `radiusTop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -101,8 +103,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/3d/primitive/index.js:69](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/3d/primitive/index.js#L69) |
+| 返回 | primitive.VertextData 
+| 定义于 | [cocos2d/core/3d/primitive/index.js:69](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L69) |
 
 ###### 参数列表
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -118,8 +120,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/3d/primitive/index.js:82](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/3d/primitive/index.js#L82) |
+| 返回 | primitive.VertextData 
+| 定义于 | [cocos2d/core/3d/primitive/index.js:82](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L82) |
 
 
 
@@ -129,8 +131,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/3d/primitive/index.js:90](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/3d/primitive/index.js#L90) |
+| 返回 | primitive.VertextData 
+| 定义于 | [cocos2d/core/3d/primitive/index.js:90](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L90) |
 
 ###### 参数列表
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -144,8 +146,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/3d/primitive/index.js:101](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/3d/primitive/index.js#L101) |
+| 返回 | primitive.VertextData 
+| 定义于 | [cocos2d/core/3d/primitive/index.js:101](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L101) |
 
 ###### 参数列表
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -162,8 +164,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/3d/primitive/index.js:115](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/3d/primitive/index.js#L115) |
+| 返回 | primitive.VertextData 
+| 定义于 | [cocos2d/core/3d/primitive/index.js:115](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L115) |
 
 ###### 参数列表
 - `radiusTop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -182,11 +184,11 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/3d/primitive/index.js:131](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/3d/primitive/index.js#L131) |
+| 返回 | primitive.VertextData 
+| 定义于 | [cocos2d/core/3d/primitive/index.js:131](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L131) |
 
 ###### 参数列表
-- `type` <a href="../enums/Primitive.PolyhedronType.html" class="crosslink">Primitive.PolyhedronType</a> 
+- `type` <a href="../enums/primitive.PolyhedronType.html" class="crosslink">primitive.PolyhedronType</a> 
 - `Size` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 - `opts` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 	- `sizeX` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

@@ -43,6 +43,12 @@ window.apimeta = {
       "description": "骨骼动画事件类型。"
     },
     {
+      "name": "ArmatureDisplay.AnimationCacheMode",
+      "namespace": "dragonBones.ArmatureDisplay.AnimationCacheMode",
+      "module": "dragonBones",
+      "description": "Dragonbones渲染类型"
+    },
+    {
       "name": "Button.Transition",
       "namespace": "cc.Button.Transition",
       "module": "cc",
@@ -59,12 +65,6 @@ window.apimeta = {
       "namespace": "anysdk.CustomResultCode",
       "module": "anysdk",
       "description": "自定义系统回调"
-    },
-    {
-      "name": "DrawBits",
-      "namespace": "cc.DrawBits",
-      "module": "cc",
-      "description": ""
     },
     {
       "name": "EditBox.InputFlag",
@@ -151,6 +151,18 @@ window.apimeta = {
       "description": "垂直方向布局方式"
     },
     {
+      "name": "Light.ShadowType",
+      "namespace": "cc.Light.ShadowType",
+      "module": "cc",
+      "description": "阴影类型"
+    },
+    {
+      "name": "Light.Type",
+      "namespace": "cc.Light.Type",
+      "module": "cc",
+      "description": "光源类型"
+    },
+    {
       "name": "LoadingItems.ItemState",
       "namespace": "cc.LoadingItems.ItemState",
       "module": "cc",
@@ -167,6 +179,12 @@ window.apimeta = {
       "namespace": "cc.NetworkType",
       "module": "cc",
       "description": "网络类型枚举"
+    },
+    {
+      "name": "Node.EventType",
+      "namespace": "cc.Node.EventType",
+      "module": "cc",
+      "description": "Node 支持的事件类型"
     },
     {
       "name": "PageView.Direction",
@@ -211,16 +229,16 @@ window.apimeta = {
       "description": "支付系统支付请求回调"
     },
     {
+      "name": "PhysicsManager.DrawBits",
+      "namespace": "cc.PhysicsManager.DrawBits",
+      "module": "cc",
+      "description": "指定物理系统需要绘制哪些调试信息。<br>\nexample:<br>\n```js\ncc.director.getPhysicsManager().debugDrawFlags =\n // cc.PhysicsManager.DrawBits.e_aabbBit |\n // cc.PhysicsManager.DrawBits.e_pairBit |\n // cc.PhysicsManager.DrawBits.e_centerOfMassBit |\n cc.PhysicsManager.DrawBits.e_jointBit |\n cc.PhysicsManager.DrawBits.e_shapeBit;\n```"
+    },
+    {
       "name": "Prefab.OptimizationPolicy",
       "namespace": "cc.Prefab.OptimizationPolicy",
       "module": "cc",
       "description": "Prefab 创建实例所用的优化策略，配合 Prefab.optimizationPolicy 使用。"
-    },
-    {
-      "name": "Primitive.PolyhedronType",
-      "namespace": "cc.Primitive.PolyhedronType",
-      "module": "cc",
-      "description": ""
     },
     {
       "name": "ProgressBar.Mode",
@@ -269,6 +287,12 @@ window.apimeta = {
       "namespace": "anysdk.ShareResultCode",
       "module": "anysdk",
       "description": "分享系统回调"
+    },
+    {
+      "name": "Skeleton.AnimationCacheMode",
+      "namespace": "sp.Skeleton.AnimationCacheMode",
+      "module": "sp",
+      "description": "Spine动画缓存类型"
     },
     {
       "name": "Slider.Direction",
@@ -419,6 +443,12 @@ window.apimeta = {
       "namespace": "cc.macro.TextAlignment",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "primitive.PolyhedronType",
+      "namespace": "cc.primitive.PolyhedronType",
+      "module": "cc",
+      "description": ""
     }
   ],
   "classes": [
@@ -534,7 +564,7 @@ window.apimeta = {
       "name": "Button",
       "namespace": "cc.Button",
       "module": "cc",
-      "description": "按钮组件。可以被按下,或者点击。<br/>\n\n按钮可以通过修改 Transition 来设置按钮状态过渡的方式：<br/>\n  -Button.Transition.NONE   // 不做任何过渡<br/>\n  -Button.Transition.COLOR  // 进行颜色之间过渡<br/>\n  -Button.Transition.SPRITE // 进行精灵之间过渡<br/>\n  -Button.Transition.SCALE // 进行缩放过渡<br/>\n\n按钮可以绑定事件（但是必须要在按钮的 Node 上才能绑定事件）：<br/>\n  // 以下事件可以在全平台上都触发<br/>\n  -cc.Node.EventType.TOUCH_START  // 按下时事件<br/>\n  -cc.Node.EventType.TOUCH_Move   // 按住移动后事件<br/>\n  -cc.Node.EventType.TOUCH_END    // 按下后松开后事件<br/>\n  -cc.Node.EventType.TOUCH_CANCEL // 按下取消事件<br/>\n  // 以下事件只在 PC 平台上触发<br/>\n  -cc.Node.EventType.MOUSE_DOWN  // 鼠标按下时事件<br/>\n  -cc.Node.EventType.MOUSE_MOVE  // 鼠标按住移动后事件<br/>\n  -cc.Node.EventType.MOUSE_ENTER // 鼠标进入目标事件<br/>\n  -cc.Node.EventType.MOUSE_LEAVE // 鼠标离开目标事件<br/>\n  -cc.Node.EventType.MOUSE_UP    // 鼠标松开事件<br/>\n  -cc.Node.EventType.MOUSE_WHEEL // 鼠标滚轮事件<br/>"
+      "description": "按钮组件。可以被按下，或者点击。\n\n按钮可以通过修改 Transition 来设置按钮状态过渡的方式：\n\n  - Button.Transition.NONE   // 不做任何过渡\n  - Button.Transition.COLOR  // 进行颜色之间过渡\n  - Button.Transition.SPRITE // 进行精灵之间过渡\n  - Button.Transition.SCALE // 进行缩放过渡\n\n按钮可以绑定事件（但是必须要在按钮的 Node 上才能绑定事件）：<br/>\n以下事件可以在全平台上都触发：\n\n  - cc.Node.EventType.TOUCH_START  // 按下时事件\n  - cc.Node.EventType.TOUCH_Move   // 按住移动后事件\n  - cc.Node.EventType.TOUCH_END    // 按下后松开后事件\n  - cc.Node.EventType.TOUCH_CANCEL // 按下取消事件\n\n以下事件只在 PC 平台上触发：\n\n  - cc.Node.EventType.MOUSE_DOWN  // 鼠标按下时事件\n  - cc.Node.EventType.MOUSE_MOVE  // 鼠标按住移动后事件\n  - cc.Node.EventType.MOUSE_ENTER // 鼠标进入目标事件\n  - cc.Node.EventType.MOUSE_LEAVE // 鼠标离开目标事件\n  - cc.Node.EventType.MOUSE_UP    // 鼠标松开事件\n  - cc.Node.EventType.MOUSE_WHEEL // 鼠标滚轮事件\n\n用户可以通过获取 __点击事件__ 回调函数的参数 event 的 target 属性获取当前点击对象。"
     },
     {
       "name": "CCFactory",
@@ -789,10 +819,22 @@ window.apimeta = {
       "description": "描边效果组件,用于字体描边,只能用于系统字体"
     },
     {
+      "name": "LabelShadow",
+      "namespace": "cc.LabelShadow",
+      "module": "cc",
+      "description": "用于给 Label 组件添加阴影效果，只能用于系统字体或 ttf 字体"
+    },
+    {
       "name": "Layout",
       "namespace": "cc.Layout",
       "module": "cc",
       "description": "Layout 组件相当于一个容器，能自动对它的所有子节点进行统一排版。<br>\n注意：<br>\n1.不会考虑子节点的缩放和旋转。<br>\n2.对 Layout 设置后结果需要到下一帧才会更新，除非你设置完以后手动调用 <a href=\"../classes/Layout.html#method_updateLayout\" class=\"crosslink\">updateLayout</a>。"
+    },
+    {
+      "name": "Light",
+      "namespace": "cc.Light",
+      "module": "cc",
+      "description": "光源组件"
     },
     {
       "name": "LoadingItems",
@@ -846,13 +888,7 @@ window.apimeta = {
       "name": "Node",
       "namespace": "cc.Node",
       "module": "cc",
-      "description": "Cocos Creator 场景中的所有节点类。<br/>\n支持的节点事件，请参阅 <a href=\"../classes/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>。"
-    },
-    {
-      "name": "Node.EventType",
-      "namespace": "cc.Node.EventType",
-      "module": "cc",
-      "description": "Node 支持的事件类型"
+      "description": "Cocos Creator 场景中的所有节点类。<br/>\n支持的节点事件，请参阅 <a href=\"../enums/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>。"
     },
     {
       "name": "NodePool",
@@ -930,7 +966,7 @@ window.apimeta = {
       "name": "PhysicsManager",
       "namespace": "cc.PhysicsManager",
       "module": "cc",
-      "description": "物理系统将 box2d 作为内部物理系统，并且隐藏了大部分 box2d 实现细节（比如创建刚体，同步刚体信息到节点中等）。\n你可以通过物理系统访问一些 box2d 常用的功能，比如点击测试，射线测试，设置测试信息等。\n物理系统还管理碰撞信息的分发，她会在产生碰撞时，将碰撞信息分发到各个碰撞回调中。\n注意：你需要先在刚体中开启碰撞接听才会产生相应的碰撞回调。"
+      "description": "物理系统将 box2d 作为内部物理系统，并且隐藏了大部分 box2d 实现细节（比如创建刚体，同步刚体信息到节点中等）。\n你可以通过物理系统访问一些 box2d 常用的功能，比如点击测试，射线测试，设置测试信息等。\n物理系统还管理碰撞信息的分发，她会在产生碰撞时，将碰撞信息分发到各个碰撞回调中。\n注意：你需要先在刚体中开启碰撞接听才会产生相应的碰撞回调。<br>\n支持的物理系统指定绘制信息事件，请参阅 <a href=\"../enums/PhysicsManager.DrawBits.html\" class=\"crosslink\">PhysicsManager.DrawBits</a>"
     },
     {
       "name": "PhysicsPolygonCollider",
@@ -997,18 +1033,6 @@ window.apimeta = {
       "namespace": "cc.Prefab",
       "module": "cc",
       "description": "预制资源类。"
-    },
-    {
-      "name": "Primitive",
-      "namespace": "cc.Primitive",
-      "module": "cc",
-      "description": ""
-    },
-    {
-      "name": "Primitive.VertexData",
-      "namespace": "cc.Primitive.VertexData",
-      "module": "cc",
-      "description": ""
     },
     {
       "name": "PrismaticJoint",
@@ -1209,10 +1233,28 @@ window.apimeta = {
       "description": "Spine 骨骼动画 <br/>\n<br/>\n(Skeleton 具有对骨骼数据的引用并且存储了骨骼实例的状态，\n它由当前的骨骼动作，slot 颜色，和可见的 slot attachments 组成。<br/>\n多个 Skeleton 可以使用相同的骨骼数据，其中包括所有的动画，皮肤和 attachments。"
     },
     {
+      "name": "SkeletonAnimation",
+      "namespace": "cc.SkeletonAnimation",
+      "module": "cc",
+      "description": "。"
+    },
+    {
+      "name": "SkeletonAnimationClip",
+      "namespace": "cc.SkeletonAnimationClip",
+      "module": "cc",
+      "description": "骨骼动画剪辑。"
+    },
+    {
       "name": "SkeletonData",
       "namespace": "sp.SkeletonData",
       "module": "sp",
       "description": "Spine 的 骨骼数据。"
+    },
+    {
+      "name": "SkinnedMeshRenderer",
+      "namespace": "cc.SkinnedMeshRenderer",
+      "module": "cc",
+      "description": "蒙皮渲染组件"
     },
     {
       "name": "Slider",
@@ -1329,6 +1371,12 @@ window.apimeta = {
       "description": "封装了触摸相关的信息。"
     },
     {
+      "name": "Tween",
+      "namespace": "cc.Tween",
+      "module": "cc",
+      "description": "Tween 提供了一个简单灵活的方法来创建 action。\n相对于 Cocos 传统的 cc.Action，cc.Tween 在创建动画上要灵活非常多：\n - 支持以链式结构的方式创建一个动画序列。\n - 支持对任意对象的任意属性进行缓动，不再局限于节点上的属性，而 cc.Action 添加一个属性的支持时还需要添加一个新的 action 类型。\n - 支持与 cc.Action 混用\n - 支持设置 easing 或者 progress 函数"
+    },
+    {
       "name": "TypeScript",
       "namespace": "cc.TypeScript",
       "module": "cc",
@@ -1362,7 +1410,7 @@ window.apimeta = {
       "name": "VideoPlayer",
       "namespace": "cc.VideoPlayer",
       "module": "cc",
-      "description": "Video 组件，用于在游戏中播放视频"
+      "description": "Video 组件，用于在游戏中播放视频。由于不同平台对于 VideoPlayer 组件的授权、API、控制方式都不同，还没有形成统一的标准，所以目前只支持 Web、iOS 和 Android 平台。"
     },
     {
       "name": "View",
@@ -1386,7 +1434,7 @@ window.apimeta = {
       "name": "WebView",
       "namespace": "cc.WebView",
       "module": "cc",
-      "description": "WebView 组件，用于在游戏中显示网页"
+      "description": "WebView 组件，用于在游戏中显示网页。由于不同平台对于 WebView 组件的授权、API、控制方式都不同，还没有形成统一的标准，所以目前只支持 Web、iOS 和 Android 平台。"
     },
     {
       "name": "WeldJoint",
@@ -1461,6 +1509,12 @@ window.apimeta = {
       "description": "用于处理文件与目录的路径的模块"
     },
     {
+      "name": "primitive.VertexData",
+      "namespace": "cc.primitive.VertexData",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "renderer",
       "namespace": "cc.renderer",
       "module": "cc",
@@ -1524,6 +1578,12 @@ window.apimeta = {
       "namespace": "cc.js",
       "module": "cc",
       "description": "This module provides some JavaScript utilities.\nAll members can be accessed with \"cc.js\"."
+    },
+    {
+      "name": "primitive",
+      "namespace": "primitive",
+      "module": "primitive",
+      "description": "一个创建 3D 物体顶点数据的基础模块，你可以通过 \"cc.primitive\" 来访问这个模块。"
     },
     {
       "name": "sp",
