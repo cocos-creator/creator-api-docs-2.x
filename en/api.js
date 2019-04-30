@@ -43,6 +43,12 @@ window.apimeta = {
       "description": "The event type of spine skeleton animation."
     },
     {
+      "name": "ArmatureDisplay.AnimationCacheMode",
+      "namespace": "dragonBones.ArmatureDisplay.AnimationCacheMode",
+      "module": "dragonBones",
+      "description": "Enum for cache mode type."
+    },
+    {
       "name": "Button.Transition",
       "namespace": "cc.Button.Transition",
       "module": "cc",
@@ -59,12 +65,6 @@ window.apimeta = {
       "namespace": "anysdk.CustomResultCode",
       "module": "anysdk",
       "description": "The callback of custom system"
-    },
-    {
-      "name": "DrawBits",
-      "namespace": "cc.DrawBits",
-      "module": "cc",
-      "description": ""
     },
     {
       "name": "EditBox.InputFlag",
@@ -151,6 +151,18 @@ window.apimeta = {
       "description": "Enum for vertical layout direction.\n Used in Grid Layout together with AxisDirection is VERTICAL"
     },
     {
+      "name": "Light.ShadowType",
+      "namespace": "cc.Light.ShadowType",
+      "module": "cc",
+      "description": "The shadow type"
+    },
+    {
+      "name": "Light.Type",
+      "namespace": "cc.Light.Type",
+      "module": "cc",
+      "description": "The light source type"
+    },
+    {
       "name": "LoadingItems.ItemState",
       "namespace": "cc.LoadingItems.ItemState",
       "module": "cc",
@@ -167,6 +179,12 @@ window.apimeta = {
       "namespace": "cc.NetworkType",
       "module": "cc",
       "description": "Network type enumeration"
+    },
+    {
+      "name": "Node.EventType",
+      "namespace": "cc.Node.EventType",
+      "module": "cc",
+      "description": "The event type supported by Node"
     },
     {
       "name": "PageView.Direction",
@@ -211,16 +229,16 @@ window.apimeta = {
       "description": "The callback of requesting reStringge"
     },
     {
+      "name": "PhysicsManager.DrawBits",
+      "namespace": "cc.PhysicsManager.DrawBits",
+      "module": "cc",
+      "description": "The draw bits for drawing physics debug information.<br>\nexample:<br>\n```js\ncc.director.getPhysicsManager().debugDrawFlags =\n // cc.PhysicsManager.DrawBits.e_aabbBit |\n // cc.PhysicsManager.DrawBits.e_pairBit |\n // cc.PhysicsManager.DrawBits.e_centerOfMassBit |\n cc.PhysicsManager.DrawBits.e_jointBit |\n cc.PhysicsManager.DrawBits.e_shapeBit;\n```"
+    },
+    {
       "name": "Prefab.OptimizationPolicy",
       "namespace": "cc.Prefab.OptimizationPolicy",
       "module": "cc",
       "description": "An enumeration used with the Prefab.optimizationPolicy\nto specify how to optimize the instantiate operation."
-    },
-    {
-      "name": "Primitive.PolyhedronType",
-      "namespace": "cc.Primitive.PolyhedronType",
-      "module": "cc",
-      "description": ""
     },
     {
       "name": "ProgressBar.Mode",
@@ -269,6 +287,12 @@ window.apimeta = {
       "namespace": "anysdk.ShareResultCode",
       "module": "anysdk",
       "description": "The callback of share system"
+    },
+    {
+      "name": "Skeleton.AnimationCacheMode",
+      "namespace": "sp.Skeleton.AnimationCacheMode",
+      "module": "sp",
+      "description": "Enum for animation cache mode type."
     },
     {
       "name": "Slider.Direction",
@@ -419,6 +443,12 @@ window.apimeta = {
       "namespace": "cc.macro.TextAlignment",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "primitive.PolyhedronType",
+      "namespace": "cc.primitive.PolyhedronType",
+      "module": "cc",
+      "description": ""
     }
   ],
   "classes": [
@@ -534,7 +564,7 @@ window.apimeta = {
       "name": "Button",
       "namespace": "cc.Button",
       "module": "cc",
-      "description": "Button has 4 Transition types<br/>\nWhen Button state changed:<br/>\n If Transition type is Button.Transition.NONE, Button will do nothing<br/>\n If Transition type is Button.Transition.COLOR, Button will change target's color<br/>\n If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite<br/>\n If Transition type is Button.Transition.SCALE, Button will change target node's scale<br/>\n\nButton will trigger 5 events:<br/>\n Button.EVENT_TOUCH_DOWN<br/>\n Button.EVENT_TOUCH_UP<br/>\n Button.EVENT_HOVER_IN<br/>\n Button.EVENT_HOVER_MOVE<br/>\n Button.EVENT_HOVER_OUT<br/>"
+      "description": "Button has 4 Transition types<br/>\nWhen Button state changed:<br/>\n If Transition type is Button.Transition.NONE, Button will do nothing<br/>\n If Transition type is Button.Transition.COLOR, Button will change target's color<br/>\n If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite<br/>\n If Transition type is Button.Transition.SCALE, Button will change target node's scale<br/>\n\nButton will trigger 5 events:<br/>\n Button.EVENT_TOUCH_DOWN<br/>\n Button.EVENT_TOUCH_UP<br/>\n Button.EVENT_HOVER_IN<br/>\n Button.EVENT_HOVER_MOVE<br/>\n Button.EVENT_HOVER_OUT<br/>\n User can get the current clicked node with 'event.target' from event object which is passed as parameter in the callback function of click event."
     },
     {
       "name": "CCFactory",
@@ -786,13 +816,25 @@ window.apimeta = {
       "name": "LabelOutline",
       "namespace": "cc.LabelOutline",
       "module": "cc",
-      "description": "Outline effect used to change the display, only used for TTF font"
+      "description": "Outline effect used to change the display, only for system fonts or TTF fonts"
+    },
+    {
+      "name": "LabelShadow",
+      "namespace": "cc.LabelShadow",
+      "module": "cc",
+      "description": "Shadow effect for Label component, only for system fonts or TTF fonts"
     },
     {
       "name": "Layout",
       "namespace": "cc.Layout",
       "module": "cc",
       "description": "The Layout is a container component, use it to arrange child elements easily.<br>\nNote：<br>\n1.Scaling and rotation of child nodes are not considered.<br>\n2.After setting the Layout, the results need to be updated until the next frame,\nunless you manually call <a href=\"../classes/Layout.html#method_updateLayout\" class=\"crosslink\">updateLayout</a>。"
+    },
+    {
+      "name": "Light",
+      "namespace": "cc.Light",
+      "module": "cc",
+      "description": "The Light Component"
     },
     {
       "name": "LoadingItems",
@@ -846,13 +888,7 @@ window.apimeta = {
       "name": "Node",
       "namespace": "cc.Node",
       "module": "cc",
-      "description": "Class of all entities in Cocos Creator scenes.<br/>\nFor events supported by Node, please refer to <a href=\"../classes/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>"
-    },
-    {
-      "name": "Node.EventType",
-      "namespace": "cc.Node.EventType",
-      "module": "cc",
-      "description": "The event type supported by Node"
+      "description": "Class of all entities in Cocos Creator scenes.<br/>\nFor events supported by Node, please refer to <a href=\"../enums/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>"
     },
     {
       "name": "NodePool",
@@ -997,18 +1033,6 @@ window.apimeta = {
       "namespace": "cc.Prefab",
       "module": "cc",
       "description": "Class for prefab handling."
-    },
-    {
-      "name": "Primitive",
-      "namespace": "cc.Primitive",
-      "module": "cc",
-      "description": ""
-    },
-    {
-      "name": "Primitive.VertexData",
-      "namespace": "cc.Primitive.VertexData",
-      "module": "cc",
-      "description": ""
     },
     {
       "name": "PrismaticJoint",
@@ -1209,10 +1233,28 @@ window.apimeta = {
       "description": "The skeleton of Spine <br/>\n<br/>\n(Skeleton has a reference to a SkeletonData and stores the state for skeleton instance,\nwhich consists of the current pose's bone SRT, slot colors, and which slot attachments are visible. <br/>\nMultiple skeletons can use the same SkeletonData which includes all animations, skins, and attachments.) <br/>"
     },
     {
+      "name": "SkeletonAnimation",
+      "namespace": "cc.SkeletonAnimation",
+      "module": "cc",
+      "description": "."
+    },
+    {
+      "name": "SkeletonAnimationClip",
+      "namespace": "cc.SkeletonAnimationClip",
+      "module": "cc",
+      "description": "SkeletonAnimationClip Asset."
+    },
+    {
       "name": "SkeletonData",
       "namespace": "sp.SkeletonData",
       "module": "sp",
       "description": "The skeleton data of spine."
+    },
+    {
+      "name": "SkinnedMeshRenderer",
+      "namespace": "cc.SkinnedMeshRenderer",
+      "module": "cc",
+      "description": "Skinned Mesh Renderer"
     },
     {
       "name": "Slider",
@@ -1242,7 +1284,7 @@ window.apimeta = {
       "name": "SwanSubContextView",
       "namespace": "cc.SwanSubContextView",
       "module": "cc",
-      "description": "SwanSubContextView is a view component which controls open data context viewport in Wechat game platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,\nyou need to manually reset the viewport of sub context using updateSubContextViewport."
+      "description": "SwanSubContextView is a view component which controls open data context viewport in WeChat game platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,\nyou need to manually reset the viewport of sub context using updateSubContextViewport."
     },
     {
       "name": "SystemEvent",
@@ -1329,6 +1371,12 @@ window.apimeta = {
       "description": "The touch event class"
     },
     {
+      "name": "Tween",
+      "namespace": "cc.Tween",
+      "module": "cc",
+      "description": "Tween provide a simple and flexible way to create action.\nTween's api is more flexible than cc.Action:\n - Support creating an action sequence in chained api,\n - Support animate any objects' any properties, not limited to node's properties.\n   By contrast, cc.Action needs to create a new action class to support new node property.\n - Support working with cc.Action,\n - Support easing and progress function,"
+    },
+    {
       "name": "TypeScript",
       "namespace": "cc.TypeScript",
       "module": "cc",
@@ -1362,7 +1410,7 @@ window.apimeta = {
       "name": "VideoPlayer",
       "namespace": "cc.VideoPlayer",
       "module": "cc",
-      "description": "cc.VideoPlayer is a component for playing videos, you can use it for showing videos in your game."
+      "description": "cc.VideoPlayer is a component for playing videos, you can use it for showing videos in your game. Because different platforms have different authorization, API and control methods for VideoPlayer component. And have not yet formed a unified standard, only Web, iOS, and Android platforms are currently supported."
     },
     {
       "name": "View",
@@ -1380,13 +1428,13 @@ window.apimeta = {
       "name": "WXSubContextView",
       "namespace": "cc.WXSubContextView",
       "module": "cc",
-      "description": "WXSubContextView is a view component which controls open data context viewport in Wechat game platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,\nyou need to manually reset the viewport of sub context using updateSubContextViewport."
+      "description": "WXSubContextView is a view component which controls open data context viewport in WeChat game platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,\nyou need to manually reset the viewport of sub context using updateSubContextViewport."
     },
     {
       "name": "WebView",
       "namespace": "cc.WebView",
       "module": "cc",
-      "description": "cc.WebView is a component for display web pages in the game"
+      "description": "cc.WebView is a component for display web pages in the game. Because different platforms have different authorization, API and control methods for WebView component. And have not yet formed a unified standard, only Web, iOS, and Android platforms are currently supported."
     },
     {
       "name": "WeldJoint",
@@ -1461,6 +1509,12 @@ window.apimeta = {
       "description": "The module provides utilities for working with file and directory paths"
     },
     {
+      "name": "primitive.VertexData",
+      "namespace": "cc.primitive.VertexData",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "renderer",
       "namespace": "cc.renderer",
       "module": "cc",
@@ -1524,6 +1578,12 @@ window.apimeta = {
       "namespace": "cc.js",
       "module": "cc",
       "description": "This module provides some JavaScript utilities.\nAll members can be accessed with \"cc.js\"."
+    },
+    {
+      "name": "primitive",
+      "namespace": "primitive",
+      "module": "primitive",
+      "description": "一个创建 3D 物体顶点数据的基础模块，你可以通过 \"cc.primitive\" 来访问这个模块。"
     },
     {
       "name": "sp",

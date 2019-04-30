@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 封装了触摸相关的信息。
@@ -46,7 +45,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:45](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L45) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:45](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L45) |
 
 
 
@@ -57,7 +56,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:55](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L55) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:55](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L55) |
 
 
 
@@ -68,7 +67,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:65](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L65) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:65](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L65) |
 
 
 
@@ -79,7 +78,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:75](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L75) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:75](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L75) |
 
 
 
@@ -90,7 +89,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:85](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L85) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:85](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L85) |
 
 
 
@@ -101,7 +100,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:95](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L95) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:95](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L95) |
 
 
 
@@ -112,7 +111,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:105](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L105) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:105](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L105) |
 
 
 
@@ -123,7 +122,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:115](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L115) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:115](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L115) |
 
 
 
@@ -134,7 +133,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:125](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L125) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:125](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L125) |
 
 
 
@@ -145,7 +144,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:135](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L135) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:135](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L135) |
 
 
 
@@ -155,7 +154,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event-manager/CCTouch.js:145](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/cocos2d/core/event-manager/CCTouch.js#L145) |
+| 定义于 | [cocos2d/core/event-manager/CCTouch.js:145](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/event-manager/CCTouch.js#L145) |
 
 ###### 参数列表
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

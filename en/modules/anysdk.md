@@ -35,12 +35,12 @@ AnySDK is a third party solution that offers game developers SDK integration wit
   - [AdsResultCode](../enums/AdsResultCode.md)
   - [AdsType](../enums/AdsType.md)
   - [AnimationEventType](../enums/AnimationEventType.md)
+  - [ArmatureDisplay.AnimationCacheMode](../enums/ArmatureDisplay.AnimationCacheMode.md)
   - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [Button.Transition](../enums/Button.Transition.md)
   - [Camera.ClearFlags](../enums/Camera.ClearFlags.md)
   - [CustomResultCode](../enums/CustomResultCode.md)
   - [debug.DebugMode](../enums/debug.DebugMode.md)
-  - [DrawBits](../enums/DrawBits.md)
   - [EditBox.InputFlag](../enums/EditBox.InputFlag.md)
   - [EditBox.InputMode](../enums/EditBox.InputMode.md)
   - [EditBox.KeyboardReturnType](../enums/EditBox.KeyboardReturnType.md)
@@ -55,6 +55,8 @@ AnySDK is a third party solution that offers game developers SDK integration wit
   - [Layout.ResizeMode](../enums/Layout.ResizeMode.md)
   - [Layout.Type](../enums/Layout.Type.md)
   - [Layout.VerticalDirection](../enums/Layout.VerticalDirection.md)
+  - [Light.ShadowType](../enums/Light.ShadowType.md)
+  - [Light.Type](../enums/Light.Type.md)
   - [LoadingItems.ItemState](../enums/LoadingItems.ItemState.md)
   - [macro.BlendFactor](../enums/macro.BlendFactor.md)
   - [macro.ImageFormat](../enums/macro.ImageFormat.md)
@@ -62,6 +64,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
   - [macro.TextAlignment](../enums/macro.TextAlignment.md)
   - [Mask.Type](../enums/Mask.Type.md)
   - [NetworkType](../enums/NetworkType.md)
+  - [Node.EventType](../enums/Node.EventType.md)
   - [PageView.Direction](../enums/PageView.Direction.md)
   - [PageView.EventType](../enums/PageView.EventType.md)
   - [PageView.SizeMode](../enums/PageView.SizeMode.md)
@@ -69,8 +72,9 @@ AnySDK is a third party solution that offers game developers SDK integration wit
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
   - [PayResultCode](../enums/PayResultCode.md)
+  - [PhysicsManager.DrawBits](../enums/PhysicsManager.DrawBits.md)
   - [Prefab.OptimizationPolicy](../enums/Prefab.OptimizationPolicy.md)
-  - [Primitive.PolyhedronType](../enums/Primitive.PolyhedronType.md)
+  - [primitive.PolyhedronType](../enums/primitive.PolyhedronType.md)
   - [ProgressBar.Mode](../enums/ProgressBar.Mode.md)
   - [PushActionResultCode](../enums/PushActionResultCode.md)
   - [RayCastType](../enums/RayCastType.md)
@@ -79,6 +83,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
   - [Scrollbar.Direction](../enums/Scrollbar.Direction.md)
   - [ScrollView.EventType](../enums/ScrollView.EventType.md)
   - [ShareResultCode](../enums/ShareResultCode.md)
+  - [Skeleton.AnimationCacheMode](../enums/Skeleton.AnimationCacheMode.md)
   - [Slider.Direction](../enums/Slider.Direction.md)
   - [SocialRetCode](../enums/SocialRetCode.md)
   - [Sprite.FillType](../enums/Sprite.FillType.md)
@@ -123,7 +128,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
 | meta | description |
 |------|-------------|
 | Type | anysdk.AgentManager |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/9546fb0f9c421d190e0aba7645402156498449ea/extensions/anysdk/jsb_anysdk.js#L40) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 
