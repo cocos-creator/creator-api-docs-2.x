@@ -4,6 +4,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 Layout 组件相当于一个容器，能自动对它的所有子节点进行统一排版。<br>

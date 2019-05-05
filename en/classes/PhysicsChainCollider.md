@@ -3,7 +3,7 @@
 Extends [`PolygonCollider`](PolygonCollider.md)
 
 
-Module: [primitive](../modules/primitive.md)
+Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 

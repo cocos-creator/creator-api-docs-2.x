@@ -14,9 +14,9 @@
 
 ##### 属性（properties）
 
-  - [`tag`](#tag) `Integer` 标签。
   - [`offset`](#offset) `Vec2` 位置偏移量
   - [`radius`](#radius) `Number` 圆形半径
+  - [`tag`](#tag) `Integer` 标签。
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` 该组件被附加到的节点。
   - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
@@ -69,17 +69,6 @@
 #### 属性（properties）
 
 
-##### tag
-
-> 标签。当一个节点上有多个碰撞组件时，在发生碰撞后，可以使用此标签来判断是节点上的哪个碰撞组件被碰撞了。
-
-| meta | description |
-|------|-------------|
-| 类型 | Integer |
-| 定义于 | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/collider/CCCollider.js#L47) |
-
-
-
 ##### offset
 
 > 位置偏移量
@@ -99,6 +88,17 @@
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
 | 定义于 | [cocos2d/core/collider/CCCircleCollider.js:56](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/collider/CCCircleCollider.js#L56) |
+
+
+
+##### tag
+
+> 标签。当一个节点上有多个碰撞组件时，在发生碰撞后，可以使用此标签来判断是节点上的哪个碰撞组件被碰撞了。
+
+| meta | description |
+|------|-------------|
+| 类型 | Integer |
+| 定义于 | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/collider/CCCollider.js#L47) |
 
 
 

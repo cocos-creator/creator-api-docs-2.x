@@ -3,7 +3,7 @@
 Extends [`PhysicsCollider`](PhysicsCollider.md), [`Collider.Polygon`](Collider.Polygon.md)(mixin)
 
 
-Module: [primitive](../modules/primitive.md)
+Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 

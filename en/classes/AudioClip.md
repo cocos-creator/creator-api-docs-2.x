@@ -4,6 +4,7 @@ Extends [`Asset`](Asset.md), [`EventTarget`](EventTarget.md)(mixin)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Class for audio data handling.
@@ -28,10 +29,6 @@ Class for audio data handling.
 
 ##### Methods
 
-  - [`toString`](#tostring) Returns the asset's url.
-  - [`serialize`](#serialize) 应 AssetDB 要求提供这个方法
-  - [`createNode`](#createnode) Create a new node using this asset in the scene....
-  - [`_setRawAsset`](#setrawasset) Set native file name for this asset.
   - [`hasEventListener`](#haseventlistener) Checks whether the EventTarget object has any callback registered for a specific type of event.
   - [`on`](#on) Register an callback of a specific event type on the EventTarget.
   - [`off`](#off) Removes the listeners previously registered with the same type, callback, target and or useCapture,...
@@ -39,6 +36,10 @@ Class for audio data handling.
   - [`once`](#once) Register an callback of a specific event type on the EventTarget,...
   - [`emit`](#emit) Trigger an event directly with the event name and necessary arguments.
   - [`dispatchEvent`](#dispatchevent) Send an event with the event object.
+  - [`toString`](#tostring) Returns the asset's url.
+  - [`serialize`](#serialize) 应 AssetDB 要求提供这个方法
+  - [`createNode`](#createnode) Create a new node using this asset in the scene....
+  - [`_setRawAsset`](#setrawasset) Set native file name for this asset.
   - [`destroy`](#destroy) Actual object destruction will delayed until before rendering.
   - [`_destruct`](#destruct) Clear all references in the instance.
   - [`_onPreDestroy`](#onpredestroy) Called before the object being destroyed.
@@ -183,60 +184,6 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 
 <!-- Method Block -->
 #### Methods
-
-
-##### toString
-
-Returns the asset's url.
-
-The `Asset` object overrides the `toString()` method of the `Object` object.
-For `Asset` objects, the toString() method returns a string representation of the object.
-JavaScript calls the toString() method automatically when an asset is to be represented as a text value or when a texture is referred to in a string concatenation.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/assets/CCAsset.js:169](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/assets/CCAsset.js#L169) |
-
-
-
-##### serialize
-
-应 AssetDB 要求提供这个方法
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/assets/CCAsset.js:183](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/assets/CCAsset.js#L183) |
-
-
-
-##### createNode
-
-Create a new node using this asset in the scene.<br/>
-If this type of asset dont have its corresponding node type, this method should be null.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/assets/CCAsset.js:194](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/assets/CCAsset.js#L194) |
-
-###### Parameters
-- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-	- `error` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> null or the error info
-	- `node` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the created node or null
-
-
-##### _setRawAsset
-
-Set native file name for this asset.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/assets/CCAsset.js:209](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/assets/CCAsset.js#L209) |
-
-###### Parameters
-- `filename` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `inLibrary` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
 ##### hasEventListener
@@ -386,6 +333,60 @@ Send an event with the event object.
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  
 
 
+##### toString
+
+Returns the asset's url.
+
+The `Asset` object overrides the `toString()` method of the `Object` object.
+For `Asset` objects, the toString() method returns a string representation of the object.
+JavaScript calls the toString() method automatically when an asset is to be represented as a text value or when a texture is referred to in a string concatenation.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Defined in | [cocos2d/core/assets/CCAsset.js:169](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/assets/CCAsset.js#L169) |
+
+
+
+##### serialize
+
+应 AssetDB 要求提供这个方法
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Defined in | [cocos2d/core/assets/CCAsset.js:183](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/assets/CCAsset.js#L183) |
+
+
+
+##### createNode
+
+Create a new node using this asset in the scene.<br/>
+If this type of asset dont have its corresponding node type, this method should be null.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/assets/CCAsset.js:194](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/assets/CCAsset.js#L194) |
+
+###### Parameters
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+	- `error` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> null or the error info
+	- `node` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the created node or null
+
+
+##### _setRawAsset
+
+Set native file name for this asset.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/assets/CCAsset.js:209](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/assets/CCAsset.js#L209) |
+
+###### Parameters
+- `filename` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `inLibrary` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+
 ##### destroy
 
 Destroy this Object, and release all its own references to other objects.<br/>
@@ -477,6 +478,7 @@ Init this object from the custom serialized data.
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 This event is emitted when the asset is loaded
