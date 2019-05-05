@@ -5,6 +5,7 @@ Extends [`RawAsset`](RawAsset.md)
 Defined in: [https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/assets/CCAsset.js:32](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/assets/CCAsset.js#L32)
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Base class for handling assets used in Creator.<br/>

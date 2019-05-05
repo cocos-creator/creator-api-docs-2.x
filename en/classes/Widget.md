@@ -4,6 +4,7 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Stores and manipulate the anchoring based on its parent.

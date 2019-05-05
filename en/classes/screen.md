@@ -2,7 +2,8 @@
 
 
 
-Module: [cc](../modules/cc.md)
+Module: [_decorator](../modules/_decorator.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 The fullscreen API provides an easy way for web content to be presented using the user's entire screen.

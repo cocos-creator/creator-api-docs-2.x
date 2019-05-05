@@ -4,6 +4,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 按钮组件。可以被按下，或者点击。
@@ -891,6 +892,7 @@ Init this object from the custom serialized data.
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。

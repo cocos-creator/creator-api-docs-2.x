@@ -4,6 +4,7 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Base class for components which supports rendering features.

@@ -4,6 +4,7 @@ Extends [`Object`](Object.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 The base class for registering asset types.

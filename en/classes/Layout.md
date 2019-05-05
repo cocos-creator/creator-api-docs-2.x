@@ -4,6 +4,7 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 The Layout is a container component, use it to arrange child elements easily.<br>

@@ -261,8 +261,8 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 ##### Properties
 
   - [`ENGINE_VERSION`](#engineversion) `String` The current version of Cocos2d being used....
-  - [`director`](#director) `Director` Director
   - [`game`](#game) `Game` This is a Game instance.
+  - [`director`](#director) `Director` Director
   - [`systemEvent`](#systemevent) `SystemEvent` The System event singleton for global usage
   - [`view`](#view) `View` cc.view is the shared view object.
   - [`winSize`](#winsize) `Size` cc.winSize is the alias object for the size of the current game window.
@@ -278,6 +278,45 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 
   - [`speed`](#speed) or less (speed < 1) time.
   - [`follow`](#follow) Create a follow action which makes its target follows another node.
+  - [`setPoints`](#setpoints) Points setter
+  - [`cardinalSplineTo`](#cardinalsplineto) Creates an action with a Cardinal Spline array of points and tension.
+  - [`updatePosition`](#updateposition) update position of target
+  - [`cardinalSplineBy`](#cardinalsplineby) Creates an action with a Cardinal Spline array of points and tension.
+  - [`catmullRomTo`](#catmullromto) Creates an action with a Cardinal Spline array of points and tension.
+  - [`catmullRomBy`](#catmullromby) Creates an action with a Cardinal Spline array of points and tension.
+  - [`show`](#show) Show the Node.
+  - [`hide`](#hide) Hide the node.
+  - [`toggleVisibility`](#togglevisibility) Toggles the visibility of a node.
+  - [`removeSelf`](#removeself) Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
+  - [`flipX`](#flipx) Create a FlipX action to flip or unflip the target.
+  - [`flipY`](#flipy) Create a FlipY action to flip or unflip the target.
+  - [`place`](#place) Creates a Place action with a position.
+  - [`callFunc`](#callfunc) Creates the action with the callback.
+  - [`sequence`](#sequence) Helper constructor to create an array of sequenceable actions
+  - [`repeat`](#repeat) Creates a Repeat action.
+  - [`repeatForever`](#repeatforever) Create a acton which repeat forever, as it runs forever, it can't be added into cc.sequence and cc.spawn.
+  - [`spawn`](#spawn) Create a spawn action which runs several actions in parallel.
+  - [`rotateTo`](#rotateto) Rotates a Node object to a certain angle by modifying its angle property.
+  - [`rotateBy`](#rotateby) Rotates a Node object clockwise a number of degrees by modifying its angle property.
+  - [`moveBy`](#moveby) Moves a Node object x,y pixels by modifying its position property.
+  - [`moveTo`](#moveto) Moves a Node object to the position x,y.
+  - [`skewTo`](#skewto) Create a action which skews a Node object to given angles by modifying its skewX and skewY properties.
+  - [`skewBy`](#skewby) Skews a Node object by skewX and skewY degrees.
+  - [`jumpBy`](#jumpby) Moves a Node object simulating a parabolic jump movement by modifying it's position property.
+  - [`jumpTo`](#jumpto) Moves a Node object to a parabolic position simulating a jump movement by modifying its position property.
+  - [`bezierBy`](#bezierby) An action that moves the target with a cubic Bezier curve by a certain distance.
+  - [`bezierTo`](#bezierto) An action that moves the target with a cubic Bezier curve to a destination point.
+  - [`scaleTo`](#scaleto) Scales a Node object to a zoom factor by modifying it's scale property.
+  - [`scaleBy`](#scaleby) Scales a Node object a zoom factor by modifying it's scale property.
+  - [`blink`](#blink) Blinks a Node object by modifying it's visible property.
+  - [`fadeTo`](#fadeto) Fades an object that implements the cc.RGBAProtocol protocol.
+  - [`fadeIn`](#fadein) Fades In an object that implements the cc.RGBAProtocol protocol.
+  - [`fadeOut`](#fadeout) Fades Out an object that implements the cc.RGBAProtocol protocol.
+  - [`tintTo`](#tintto) Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
+  - [`tintBy`](#tintby) Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
+  - [`delayTime`](#delaytime) Delays the action a certain amount of seconds.
+  - [`reverseTime`](#reversetime) Executes an action in reverse order, from time=duration to time=0.
+  - [`targetedAction`](#targetedaction) Create an action with the specified action and forced target.
   - [`easeIn`](#easein) Creates the action easing object with the rate parameter.
   - [`easeOut`](#easeout) Creates the action easing object with the rate parameter.
   - [`easeInOut`](#easeinout) Creates the action easing object with the rate parameter.
@@ -312,51 +351,11 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`easeCubicActionIn`](#easecubicactionin) Creates the action easing object.
   - [`easeCubicActionOut`](#easecubicactionout) Creates the action easing object.
   - [`easeCubicActionInOut`](#easecubicactioninout) Creates the action easing object.
-  - [`show`](#show) Show the Node.
-  - [`hide`](#hide) Hide the node.
-  - [`toggleVisibility`](#togglevisibility) Toggles the visibility of a node.
-  - [`removeSelf`](#removeself) Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
-  - [`flipX`](#flipx) Create a FlipX action to flip or unflip the target.
-  - [`flipY`](#flipy) Create a FlipY action to flip or unflip the target.
-  - [`place`](#place) Creates a Place action with a position.
-  - [`callFunc`](#callfunc) Creates the action with the callback.
-  - [`sequence`](#sequence) Helper constructor to create an array of sequenceable actions
-  - [`repeat`](#repeat) Creates a Repeat action.
-  - [`repeatForever`](#repeatforever) Create a acton which repeat forever, as it runs forever, it can't be added into cc.sequence and cc.spawn.
-  - [`spawn`](#spawn) Create a spawn action which runs several actions in parallel.
-  - [`rotateTo`](#rotateto) Rotates a Node object to a certain angle by modifying its angle property.
-  - [`rotateBy`](#rotateby) Rotates a Node object clockwise a number of degrees by modifying its angle property.
-  - [`moveBy`](#moveby) Moves a Node object x,y pixels by modifying its position property.
-  - [`moveTo`](#moveto) Moves a Node object to the position x,y.
-  - [`skewTo`](#skewto) Create a action which skews a Node object to given angles by modifying its skewX and skewY properties.
-  - [`skewBy`](#skewby) Skews a Node object by skewX and skewY degrees.
-  - [`jumpBy`](#jumpby) Moves a Node object simulating a parabolic jump movement by modifying it's position property.
-  - [`jumpTo`](#jumpto) Moves a Node object to a parabolic position simulating a jump movement by modifying its position property.
-  - [`bezierBy`](#bezierby) An action that moves the target with a cubic Bezier curve by a certain distance.
-  - [`bezierTo`](#bezierto) An action that moves the target with a cubic Bezier curve to a destination point.
-  - [`scaleTo`](#scaleto) Scales a Node object to a zoom factor by modifying it's scale property.
-  - [`scaleBy`](#scaleby) Scales a Node object a zoom factor by modifying it's scale property.
-  - [`blink`](#blink) Blinks a Node object by modifying it's visible property.
-  - [`fadeTo`](#fadeto) Fades an object that implements the cc.RGBAProtocol protocol.
-  - [`fadeIn`](#fadein) Fades In an object that implements the cc.RGBAProtocol protocol.
-  - [`fadeOut`](#fadeout) Fades Out an object that implements the cc.RGBAProtocol protocol.
-  - [`tintTo`](#tintto) Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
-  - [`tintBy`](#tintby) Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
-  - [`delayTime`](#delaytime) Delays the action a certain amount of seconds.
-  - [`reverseTime`](#reversetime) Executes an action in reverse order, from time=duration to time=0.
-  - [`targetedAction`](#targetedaction) Create an action with the specified action and forced target.
-  - [`setPoints`](#setpoints) Points setter
-  - [`cardinalSplineTo`](#cardinalsplineto) Creates an action with a Cardinal Spline array of points and tension.
-  - [`updatePosition`](#updateposition) update position of target
-  - [`cardinalSplineBy`](#cardinalsplineby) Creates an action with a Cardinal Spline array of points and tension.
-  - [`catmullRomTo`](#catmullromto) Creates an action with a Cardinal Spline array of points and tension.
-  - [`catmullRomBy`](#catmullromby) Creates an action with a Cardinal Spline array of points and tension.
   - [`error`](#error) Outputs an error message to the Cocos Creator Console (editor) or Web Console (runtime)....
   - [`warn`](#warn) Outputs a warning message to the Cocos Creator Console (editor) or Web Console (runtime).
   - [`log`](#log) Outputs a message to the Cocos Creator Console (editor) or Web Console (runtime).
   - [`rotate3DTo`](#rotate3dto) Rotates a Node object to a certain angle by modifying its quternion property.
   - [`rotate3DBy`](#rotate3dby) Rotates a Node object counter clockwise a number of degrees by modifying its quaternion property.
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
   - [`color`](#color) Alpha channel is optional.
   - [`rect`](#rect) The convenience method to create a new Rect.
   - [`size`](#size) Helper function that creates a cc.Size....
@@ -366,9 +365,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
   - [`Enum`](#enum) Define an enum type.
   - [`getList`](#getlist) 
-  - [`isValid`](#isvalid) When an object's `destroy` is called, it is actually destroyed after the end of this frame.
-  - [`deserialize`](#deserialize) Deserialize json to cc.Asset
-  - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
   - [`handleTouchesBegin`](#handletouchesbegin) 
   - [`handleTouchesMove`](#handletouchesmove) 
   - [`handleTouchesEnd`](#handletouchesend) 
@@ -383,6 +379,10 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`getTouchesByEvent`](#gettouchesbyevent) 
   - [`registerSystemEvent`](#registersystemevent) 
   - [`update`](#update) 
+  - [`isValid`](#isvalid) When an object's `destroy` is called, it is actually destroyed after the end of this frame.
+  - [`deserialize`](#deserialize) Deserialize json to cc.Asset
+  - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
 
 
 
@@ -405,17 +405,6 @@ If you post a bug to forum, please attach this flag.
 
 
 
-##### director
-
-> Director
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/Director.html" class="crosslink">Director</a> |
-| Defined in | [cocos2d/core/CCDirector.js:1157](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCDirector.js#L1157) |
-
-
-
 ##### game
 
 > This is a Game instance.
@@ -424,6 +413,17 @@ If you post a bug to forum, please attach this flag.
 |------|-------------|
 | Type | <a href="../classes/Game.html" class="crosslink">Game</a> |
 | Defined in | [cocos2d/core/CCGame.js:909](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCGame.js#L909) |
+
+
+
+##### director
+
+> Director
+
+| meta | description |
+|------|-------------|
+| Type | <a href="../classes/Director.html" class="crosslink">Director</a> |
+| Defined in | [cocos2d/core/CCDirector.js:1157](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCDirector.js#L1157) |
 
 
 
@@ -612,638 +612,103 @@ var followAction = cc.follow(targetNode);
 node.runAction(followAction);
 ```
 
-##### easeIn
+##### setPoints
 
-Creates the action easing object with the rate parameter. <br />
-From slow to fast.
+Points setter
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:35](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L35) |
+| Defined in | [cocos2d/actions/CCActionCatmullRom.js:226](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L226) |
 
 ###### Parameters
-- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
-##### Examples
 
-```js
-action.easing(cc.easeIn(3.0));
-```
+##### cardinalSplineTo
 
-##### easeOut
-
-Creates the action easing object with the rate parameter. <br />
-From fast to slow.
+Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:58](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L58) |
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionCatmullRom.js:236](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L236) |
 
 ###### Parameters
-- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> array of control points
+- `tension` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Examples
 
 ```js
-action.easing(cc.easeOut(3.0));
+//create a cc.CardinalSplineTo
+var action1 = cc.cardinalSplineTo(3, array, 0);
 ```
 
-##### easeInOut
+##### updatePosition
 
-Creates the action easing object with the rate parameter. <br />
-Slow to fast then to slow.
+update position of target
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:81](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L81) |
+| Defined in | [cocos2d/actions/CCActionCatmullRom.js:319](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L319) |
 
 ###### Parameters
-- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `newPos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
-##### Examples
 
-```js
-action.easing(cc.easeInOut(3.0));
-```
+##### cardinalSplineBy
 
-##### easeExponentialIn
-
-Creates the action easing object with the rate parameter. <br />
-Reference easeInExpo: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
+Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:109](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L109) |
-
-
-##### Examples
-
-```js
-action.easing(cc.easeExponentialIn());
-```
-
-##### easeExponentialOut
-
-Creates the action easing object. <br />
-Reference easeOutExpo: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:135](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L135) |
-
-
-##### Examples
-
-```js
-action.easing(cc.easeExponentialOut());
-```
-
-##### easeExponentialInOut
-
-Creates an EaseExponentialInOut action easing object. <br />
-Reference easeInOutExpo: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:161](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L161) |
-
-
-##### Examples
-
-```js
-action.easing(cc.easeExponentialInOut());
-```
-
-##### easeSineIn
-
-Creates an EaseSineIn action. <br />
-Reference easeInSine: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:194](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L194) |
-
-
-##### Examples
-
-```js
-action.easing(cc.easeSineIn());
-```
-
-##### easeSineOut
-
-Creates an EaseSineOut action easing object. <br />
-Reference easeOutSine: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:220](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L220) |
-
-
-##### Examples
-
-```js
-action.easing(cc.easeSineOut());
-```
-
-##### easeSineInOut
-
-Creates the action easing object. <br />
-Reference easeInOutSine: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:246](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L246) |
-
-
-##### Examples
-
-```js
-action.easing(cc.easeSineInOut());
-```
-
-##### easeElasticIn
-
-Creates the action easing object with the period in radians (default is 0.3). <br />
-Reference easeInElastic: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:276](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L276) |
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionCatmullRom.js:340](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L340) |
 
 ###### Parameters
-- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `tension` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-##### Examples
 
-```js
-// example
-action.easing(cc.easeElasticIn(3.0));
-```
+##### catmullRomTo
 
-##### easeElasticOut
-
-Creates the action easing object with the period in radians (default is 0.3). <br />
-Reference easeOutElastic: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
+Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:322](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L322) |
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionCatmullRom.js:388](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L388) |
 
 ###### Parameters
-- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ##### Examples
 
 ```js
-// example
-action.easing(cc.easeElasticOut(3.0));
+var action1 = cc.catmullRomTo(3, array);
 ```
 
-##### easeElasticInOut
+##### catmullRomBy
 
-Creates the action easing object with the period in radians (default is 0.3). <br />
-Reference easeInOutElastic: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
+Creates an action with a Cardinal Spline array of points and tension.
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:362](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L362) |
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionCatmullRom.js:437](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L437) |
 
 ###### Parameters
-- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
 ##### Examples
 
 ```js
-// example
-action.easing(cc.easeElasticInOut(3.0));
+var action1 = cc.catmullRomBy(3, array);
 ```
-
-##### easeBounceIn
-
-Creates the action easing object. <br />
-Eased bounce effect at the beginning.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:434](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L434) |
-
-
-##### Examples
-
-```js
-// example
-action.easing(cc.easeBounceIn());
-```
-
-##### easeBounceOut
-
-Creates the action easing object. <br />
-Eased bounce effect at the ending.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:451](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L451) |
-
-
-##### Examples
-
-```js
-// example
-action.easing(cc.easeBounceOut());
-```
-
-##### easeBounceInOut
-
-Creates the action easing object. <br />
-Eased bounce effect at the begining and ending.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:476](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L476) |
-
-
-##### Examples
-
-```js
-// example
-action.easing(cc.easeBounceInOut());
-```
-
-##### easeBackIn
-
-Creates the action easing object. <br />
-In the opposite direction to move slowly, and then accelerated to the right direction.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:508](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L508) |
-
-
-##### Examples
-
-```js
-// example
-action.easing(cc.easeBackIn());
-```
-
-##### easeBackOut
-
-Creates the action easing object. <br />
-Fast moving more than the finish, and then slowly back to the finish.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:534](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L534) |
-
-
-##### Examples
-
-```js
-// example
-action.easing(cc.easeBackOut());
-```
-
-##### easeBackInOut
-
-Creates the action easing object. <br />
-Begining of cc.EaseBackIn. Ending of cc.EaseBackOut.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:561](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L561) |
-
-
-##### Examples
-
-```js
-// example
-action.easing(cc.easeBackInOut());
-```
-
-##### easeBezierAction
-
-Creates the action easing object. <br />
-Into the 4 reference point. <br />
-To calculate the motion curve.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:592](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L592) |
-
-###### Parameters
-- `p0` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The first bezier parameter
-- `p1` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The second bezier parameter
-- `p2` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The third bezier parameter
-- `p3` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The fourth bezier parameter
-
-##### Examples
-
-```js
-// example
-action.easing(cc.easeBezierAction(0.5, 0.5, 1.0, 1.0));
-```
-
-##### easeQuadraticActionIn
-
-Creates the action easing object. <br />
-Reference easeInQuad: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:621](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L621) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeQuadraticActionIn());
-```
-
-##### easeQuadraticActionOut
-
-Creates the action easing object. <br />
-Reference easeOutQuad: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:648](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L648) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeQuadraticActionOut());
-```
-
-##### easeQuadraticActionInOut
-
-Creates the action easing object. <br />
-Reference easeInOutQuad: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:675](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L675) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeQuadraticActionInOut());
-```
-
-##### easeQuarticActionIn
-
-Creates the action easing object. <br />
-Reference easeIntQuart: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:710](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L710) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeQuarticActionIn());
-```
-
-##### easeQuarticActionOut
-
-Creates the action easing object. <br />
-Reference easeOutQuart: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:737](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L737) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.QuarticActionOut());
-```
-
-##### easeQuarticActionInOut
-
-Creates the action easing object.  <br />
-Reference easeInOutQuart: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:765](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L765) |
-
-
-
-##### easeQuinticActionIn
-
-Creates the action easing object. <br />
-Reference easeInQuint: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:793](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L793) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeQuinticActionIn());
-```
-
-##### easeQuinticActionOut
-
-Creates the action easing object. <br />
-Reference easeOutQuint: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:820](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L820) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeQuadraticActionOut());
-```
-
-##### easeQuinticActionInOut
-
-Creates the action easing object. <br />
-Reference easeInOutQuint: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:848](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L848) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeQuinticActionInOut());
-```
-
-##### easeCircleActionIn
-
-Creates the action easing object. <br />
-Reference easeInCirc: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:879](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L879) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeCircleActionIn());
-```
-
-##### easeCircleActionOut
-
-Creates the action easing object. <br />
-Reference easeOutCirc: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:906](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L906) |
-
-
-##### Examples
-
-```js
-//example
-actioneasing(cc.easeCircleActionOut());
-```
-
-##### easeCircleActionInOut
-
-Creates the action easing object. <br />
-Reference easeInOutCirc: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:934](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L934) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeCircleActionInOut());
-```
-
-##### easeCubicActionIn
-
-Creates the action easing object. <br />
-Reference easeInCubic: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:965](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L965) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeCubicActionIn());
-```
-
-##### easeCubicActionOut
-
-Creates the action easing object. <br />
-Reference easeOutCubic: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:992](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L992) |
-
-
-##### Examples
-
-```js
-//example
-action.easing(cc.easeCubicActionOut());
-```
-
-##### easeCubicActionInOut
-
-Creates the action easing object. <br />
-Reference easeInOutCubic: <br />
-http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/actions/CCActionEase.js:1020](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L1020) |
-
-
 
 ##### show
 
@@ -1934,103 +1399,638 @@ Create an action with the specified action and forced target.
 - `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 
-##### setPoints
+##### easeIn
 
-Points setter
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/actions/CCActionCatmullRom.js:226](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L226) |
-
-###### Parameters
-- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### cardinalSplineTo
-
-Creates an action with a Cardinal Spline array of points and tension.
+Creates the action easing object with the rate parameter. <br />
+From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionCatmullRom.js:236](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L236) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:35](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L35) |
 
 ###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> array of control points
-- `tension` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Examples
 
 ```js
-//create a cc.CardinalSplineTo
-var action1 = cc.cardinalSplineTo(3, array, 0);
+action.easing(cc.easeIn(3.0));
 ```
 
-##### updatePosition
+##### easeOut
 
-update position of target
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/actions/CCActionCatmullRom.js:319](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L319) |
-
-###### Parameters
-- `newPos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### cardinalSplineBy
-
-Creates an action with a Cardinal Spline array of points and tension.
+Creates the action easing object with the rate parameter. <br />
+From fast to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionCatmullRom.js:340](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L340) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:58](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L58) |
 
 ###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-- `tension` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### catmullRomTo
-
-Creates an action with a Cardinal Spline array of points and tension.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionCatmullRom.js:388](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L388) |
-
-###### Parameters
-- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Examples
 
 ```js
-var action1 = cc.catmullRomTo(3, array);
+action.easing(cc.easeOut(3.0));
 ```
 
-##### catmullRomBy
+##### easeInOut
 
-Creates an action with a Cardinal Spline array of points and tension.
+Creates the action easing object with the rate parameter. <br />
+Slow to fast then to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionCatmullRom.js:437](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionCatmullRom.js#L437) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:81](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L81) |
 
 ###### Parameters
-- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `points` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 ##### Examples
 
 ```js
-var action1 = cc.catmullRomBy(3, array);
+action.easing(cc.easeInOut(3.0));
 ```
+
+##### easeExponentialIn
+
+Creates the action easing object with the rate parameter. <br />
+Reference easeInExpo: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:109](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L109) |
+
+
+##### Examples
+
+```js
+action.easing(cc.easeExponentialIn());
+```
+
+##### easeExponentialOut
+
+Creates the action easing object. <br />
+Reference easeOutExpo: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:135](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L135) |
+
+
+##### Examples
+
+```js
+action.easing(cc.easeExponentialOut());
+```
+
+##### easeExponentialInOut
+
+Creates an EaseExponentialInOut action easing object. <br />
+Reference easeInOutExpo: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:161](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L161) |
+
+
+##### Examples
+
+```js
+action.easing(cc.easeExponentialInOut());
+```
+
+##### easeSineIn
+
+Creates an EaseSineIn action. <br />
+Reference easeInSine: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:194](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L194) |
+
+
+##### Examples
+
+```js
+action.easing(cc.easeSineIn());
+```
+
+##### easeSineOut
+
+Creates an EaseSineOut action easing object. <br />
+Reference easeOutSine: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:220](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L220) |
+
+
+##### Examples
+
+```js
+action.easing(cc.easeSineOut());
+```
+
+##### easeSineInOut
+
+Creates the action easing object. <br />
+Reference easeInOutSine: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:246](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L246) |
+
+
+##### Examples
+
+```js
+action.easing(cc.easeSineInOut());
+```
+
+##### easeElasticIn
+
+Creates the action easing object with the period in radians (default is 0.3). <br />
+Reference easeInElastic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:276](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L276) |
+
+###### Parameters
+- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+action.easing(cc.easeElasticIn(3.0));
+```
+
+##### easeElasticOut
+
+Creates the action easing object with the period in radians (default is 0.3). <br />
+Reference easeOutElastic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:322](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L322) |
+
+###### Parameters
+- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+action.easing(cc.easeElasticOut(3.0));
+```
+
+##### easeElasticInOut
+
+Creates the action easing object with the period in radians (default is 0.3). <br />
+Reference easeInOutElastic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:362](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L362) |
+
+###### Parameters
+- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+action.easing(cc.easeElasticInOut(3.0));
+```
+
+##### easeBounceIn
+
+Creates the action easing object. <br />
+Eased bounce effect at the beginning.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:434](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L434) |
+
+
+##### Examples
+
+```js
+// example
+action.easing(cc.easeBounceIn());
+```
+
+##### easeBounceOut
+
+Creates the action easing object. <br />
+Eased bounce effect at the ending.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:451](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L451) |
+
+
+##### Examples
+
+```js
+// example
+action.easing(cc.easeBounceOut());
+```
+
+##### easeBounceInOut
+
+Creates the action easing object. <br />
+Eased bounce effect at the begining and ending.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:476](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L476) |
+
+
+##### Examples
+
+```js
+// example
+action.easing(cc.easeBounceInOut());
+```
+
+##### easeBackIn
+
+Creates the action easing object. <br />
+In the opposite direction to move slowly, and then accelerated to the right direction.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:508](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L508) |
+
+
+##### Examples
+
+```js
+// example
+action.easing(cc.easeBackIn());
+```
+
+##### easeBackOut
+
+Creates the action easing object. <br />
+Fast moving more than the finish, and then slowly back to the finish.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:534](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L534) |
+
+
+##### Examples
+
+```js
+// example
+action.easing(cc.easeBackOut());
+```
+
+##### easeBackInOut
+
+Creates the action easing object. <br />
+Begining of cc.EaseBackIn. Ending of cc.EaseBackOut.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:561](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L561) |
+
+
+##### Examples
+
+```js
+// example
+action.easing(cc.easeBackInOut());
+```
+
+##### easeBezierAction
+
+Creates the action easing object. <br />
+Into the 4 reference point. <br />
+To calculate the motion curve.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:592](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L592) |
+
+###### Parameters
+- `p0` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The first bezier parameter
+- `p1` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The second bezier parameter
+- `p2` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The third bezier parameter
+- `p3` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The fourth bezier parameter
+
+##### Examples
+
+```js
+// example
+action.easing(cc.easeBezierAction(0.5, 0.5, 1.0, 1.0));
+```
+
+##### easeQuadraticActionIn
+
+Creates the action easing object. <br />
+Reference easeInQuad: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:621](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L621) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeQuadraticActionIn());
+```
+
+##### easeQuadraticActionOut
+
+Creates the action easing object. <br />
+Reference easeOutQuad: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:648](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L648) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeQuadraticActionOut());
+```
+
+##### easeQuadraticActionInOut
+
+Creates the action easing object. <br />
+Reference easeInOutQuad: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:675](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L675) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeQuadraticActionInOut());
+```
+
+##### easeQuarticActionIn
+
+Creates the action easing object. <br />
+Reference easeIntQuart: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:710](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L710) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeQuarticActionIn());
+```
+
+##### easeQuarticActionOut
+
+Creates the action easing object. <br />
+Reference easeOutQuart: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:737](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L737) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.QuarticActionOut());
+```
+
+##### easeQuarticActionInOut
+
+Creates the action easing object.  <br />
+Reference easeInOutQuart: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:765](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L765) |
+
+
+
+##### easeQuinticActionIn
+
+Creates the action easing object. <br />
+Reference easeInQuint: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:793](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L793) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeQuinticActionIn());
+```
+
+##### easeQuinticActionOut
+
+Creates the action easing object. <br />
+Reference easeOutQuint: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:820](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L820) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeQuadraticActionOut());
+```
+
+##### easeQuinticActionInOut
+
+Creates the action easing object. <br />
+Reference easeInOutQuint: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:848](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L848) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeQuinticActionInOut());
+```
+
+##### easeCircleActionIn
+
+Creates the action easing object. <br />
+Reference easeInCirc: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:879](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L879) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeCircleActionIn());
+```
+
+##### easeCircleActionOut
+
+Creates the action easing object. <br />
+Reference easeOutCirc: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:906](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L906) |
+
+
+##### Examples
+
+```js
+//example
+actioneasing(cc.easeCircleActionOut());
+```
+
+##### easeCircleActionInOut
+
+Creates the action easing object. <br />
+Reference easeInOutCirc: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:934](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L934) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeCircleActionInOut());
+```
+
+##### easeCubicActionIn
+
+Creates the action easing object. <br />
+Reference easeInCubic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:965](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L965) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeCubicActionIn());
+```
+
+##### easeCubicActionOut
+
+Creates the action easing object. <br />
+Reference easeOutCubic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:992](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L992) |
+
+
+##### Examples
+
+```js
+//example
+action.easing(cc.easeCubicActionOut());
+```
+
+##### easeCubicActionInOut
+
+Creates the action easing object. <br />
+Reference easeInOutCubic: <br />
+http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/actions/CCActionEase.js:1020](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/actions/CCActionEase.js#L1020) |
+
+
 
 ##### error
 
@@ -2120,23 +2120,6 @@ Relative to its properties to modify.
 // example
 var actionBy = cc.rotate3DBy(2, cc.v3(0, 360, 0));
 ```
-
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| Defined in | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/utils/find.js#L30) |
-
-###### Parameters
-- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
-
 
 ##### color
 
@@ -2418,74 +2401,6 @@ class NewScript extends cc.Component {
 - `enumDef` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the enum type defined from cc.Enum
 
 
-##### isValid
-
-Checks whether the object is non-nil and not yet destroyed.<br>
-When an object's `destroy` is called, it is actually destroyed after the end of this frame.
-So `isValid` will return false from the next frame, while `isValid` in the current frame will still be true.
-If you want to determine whether the current frame has called `destroy`, use `cc.isValid(obj, true)`,
-but this is often caused by a particular logical requirements, which is not normally required.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:508](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L508) |
-
-###### Parameters
-- `value` Any 
-- `strictMode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If true, Object called destroy() in this frame will also treated as invalid.
-
-##### Examples
-
-```js
-var node = new cc.Node();
-cc.log(cc.isValid(node));    // true
-node.destroy();
-cc.log(cc.isValid(node));    // true, still valid in this frame
-// after a frame...
-cc.log(cc.isValid(node));    // false, destroyed in the end of last frame
-```
-
-##### deserialize
-
-Deserialize json to cc.Asset
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| Defined in | [cocos2d/core/platform/deserialize.js:772](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/deserialize.js#L772) |
-
-###### Parameters
-- `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
-- `details` <a href="../classes/Details.html" class="crosslink">Details</a> additional loading result
-- `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-
-
-##### instantiate
-
-Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/platform/instantiate.js:37](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/instantiate.js#L37) |
-
-###### Parameters
-- `original` <a href="../classes/Prefab.html" class="crosslink">Prefab</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
-
-##### Examples
-
-```js
-// instantiate node from prefab
-var scene = cc.director.getScene();
-var node = cc.instantiate(prefabAsset);
-node.parent = scene;
-// clone node
-var scene = cc.director.getScene();
-var node = cc.instantiate(targetNode);
-node.parent = scene;
-```
-
 ##### handleTouchesBegin
 
 
@@ -2665,6 +2580,91 @@ node.parent = scene;
 
 ###### Parameters
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### isValid
+
+Checks whether the object is non-nil and not yet destroyed.<br>
+When an object's `destroy` is called, it is actually destroyed after the end of this frame.
+So `isValid` will return false from the next frame, while `isValid` in the current frame will still be true.
+If you want to determine whether the current frame has called `destroy`, use `cc.isValid(obj, true)`,
+but this is often caused by a particular logical requirements, which is not normally required.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/platform/CCObject.js:508](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L508) |
+
+###### Parameters
+- `value` Any 
+- `strictMode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If true, Object called destroy() in this frame will also treated as invalid.
+
+##### Examples
+
+```js
+var node = new cc.Node();
+cc.log(cc.isValid(node));    // true
+node.destroy();
+cc.log(cc.isValid(node));    // true, still valid in this frame
+// after a frame...
+cc.log(cc.isValid(node));    // false, destroyed in the end of last frame
+```
+
+##### deserialize
+
+Deserialize json to cc.Asset
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+| Defined in | [cocos2d/core/platform/deserialize.js:772](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/deserialize.js#L772) |
+
+###### Parameters
+- `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized cc.Asset json string or json object.
+- `details` <a href="../classes/Details.html" class="crosslink">Details</a> additional loading result
+- `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+
+
+##### instantiate
+
+Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/core/platform/instantiate.js:37](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/instantiate.js#L37) |
+
+###### Parameters
+- `original` <a href="../classes/Prefab.html" class="crosslink">Prefab</a> &#124; <a href="../classes/Node.html" class="crosslink">Node</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing object that you want to make a copy of.
+
+##### Examples
+
+```js
+// instantiate node from prefab
+var scene = cc.director.getScene();
+var node = cc.instantiate(prefabAsset);
+node.parent = scene;
+// clone node
+var scene = cc.director.getScene();
+var node = cc.instantiate(targetNode);
+node.parent = scene;
+```
+
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| Defined in | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/utils/find.js#L30) |
+
+###### Parameters
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
 
