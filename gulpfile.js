@@ -117,6 +117,7 @@ gulp.task('build-md', ['cp-apisrc'], function (cb) {
         var editorIndexPath = 'editor-index.md';
         var content = fs.readFileSync(indexPath, 'utf8') + '\n' + fs.readFileSync(editorIndexPath, 'utf8');
         fs.writeFileSync(indexPath, content, 'utf8');
+        cb();
     });
 });
 
