@@ -2,10 +2,10 @@
     "plugins":[
         "-lunr", "-search",
         "search-title",
-        "github-issue-feedback-language-custom",
         "anchorjs",
         "sharing",
         "splitter",
+        "github-issue-feedback-language-custom@git+https://github.com/cocos-creator/gitbook-plugin-github-issue-feedback.git",
         "theme-default-customize@git+https://github.com/cocos-creator/theme-default.git"
     ],
     "styles": {
