@@ -23,7 +23,7 @@ The enum of account operation
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2215](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2215) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2215](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/extensions/anysdk/jsb_anysdk.js#L2215) |
 
 
 
@@ -34,7 +34,7 @@ The enum of account operation
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2222](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2222) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2222](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/extensions/anysdk/jsb_anysdk.js#L2222) |
 
 
 
@@ -45,6 +45,6 @@ The enum of account operation
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:2229](https://github.com/cocos-creator/engine/blob/18c4ff6051c255c06377a9b26bc00d4567180ae4/extensions/anysdk/jsb_anysdk.js#L2229) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:2229](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/extensions/anysdk/jsb_anysdk.js#L2229) |
 
 

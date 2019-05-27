@@ -1356,7 +1356,7 @@ window.apimeta = {
       "name": "VideoPlayer",
       "namespace": "cc.VideoPlayer",
       "module": "cc",
-      "description": "Video 组件，用于在游戏中播放视频"
+      "description": "Video 组件，用于在游戏中播放视频。由于不同平台对于 VideoPlayer 组件的授权、API、控制方式都不同，还没有形成统一的标准，所以目前只支持 Web、iOS 和 Android 平台。"
     },
     {
       "name": "View",
@@ -1380,7 +1380,7 @@ window.apimeta = {
       "name": "WebView",
       "namespace": "cc.WebView",
       "module": "cc",
-      "description": "WebView 组件，用于在游戏中显示网页"
+      "description": "WebView 组件，用于在游戏中显示网页。由于不同平台对于 WebView 组件的授权、API、控制方式都不同，还没有形成统一的标准，所以目前只支持 Web、iOS 和 Android 平台。"
     },
     {
       "name": "WeldJoint",
