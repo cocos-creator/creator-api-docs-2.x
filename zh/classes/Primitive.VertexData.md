@@ -2,7 +2,7 @@
 
 
 
-模块: [primitive](../modules/primitive.md)
+模块: [cc](../modules/cc.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -39,7 +39,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">[Number]</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:16](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/vertex-data.js#L16) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:16](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/vertex-data.js#L16) |
 
 
 
@@ -50,7 +50,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">[Number]</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:20](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/vertex-data.js#L20) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:20](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/vertex-data.js#L20) |
 
 
 
@@ -61,7 +61,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">[Number]</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:24](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/vertex-data.js#L24) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:24](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/vertex-data.js#L24) |
 
 
 
@@ -72,7 +72,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">[Number]</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:28](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/vertex-data.js#L28) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:28](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/vertex-data.js#L28) |
 
 
 
@@ -83,7 +83,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:32](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/vertex-data.js#L32) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:32](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/vertex-data.js#L32) |
 
 
 
@@ -94,7 +94,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:36](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/vertex-data.js#L36) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:36](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/vertex-data.js#L36) |
 
 
 
@@ -105,7 +105,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:40](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/vertex-data.js#L40) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.js:40](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/vertex-data.js#L40) |
 
 
 

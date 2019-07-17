@@ -181,12 +181,6 @@ window.apimeta = {
       "description": "Network type enumeration"
     },
     {
-      "name": "Node.EventType",
-      "namespace": "cc.Node.EventType",
-      "module": "cc",
-      "description": "The event type supported by Node"
-    },
-    {
       "name": "PageView.Direction",
       "namespace": "cc.PageView.Direction",
       "module": "cc",
@@ -699,6 +693,12 @@ window.apimeta = {
       "description": "Manager the dynamic atlas."
     },
     {
+      "name": "Easing",
+      "namespace": "cc.Easing",
+      "module": "cc",
+      "description": "This class provide easing methods for Tween class.<br>\nDemonstratio: https://easings.net/"
+    },
+    {
       "name": "EditBox",
       "namespace": "cc.EditBox",
       "module": "cc",
@@ -867,6 +867,12 @@ window.apimeta = {
       "description": "Representation of 4*4 matrix."
     },
     {
+      "name": "Material",
+      "namespace": "cc.Material",
+      "module": "cc",
+      "description": "Material Asset."
+    },
+    {
       "name": "MotionStreak",
       "namespace": "cc.MotionStreak",
       "module": "cc",
@@ -888,7 +894,13 @@ window.apimeta = {
       "name": "Node",
       "namespace": "cc.Node",
       "module": "cc",
-      "description": "Class of all entities in Cocos Creator scenes.<br/>\nFor events supported by Node, please refer to <a href=\"../enums/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>"
+      "description": "Class of all entities in Cocos Creator scenes.<br/>\nFor events supported by Node, please refer to <a href=\"../classes/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>"
+    },
+    {
+      "name": "Node.EventType",
+      "namespace": "cc.Node.EventType",
+      "module": "cc",
+      "description": "The event type supported by Node"
     },
     {
       "name": "NodePool",
@@ -1290,7 +1302,7 @@ window.apimeta = {
       "name": "SystemEvent",
       "namespace": "cc.SystemEvent",
       "module": "cc",
-      "description": "The System event, it currently supports keyboard events and accelerometer events.<br>\nYou can get the SystemEvent instance with cc.systemEvent.<br>\nexample:\n```\ncc.systemEvent.on(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);\ncc.systemEvent.off(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);\n```"
+      "description": "The System event, it currently supports keyboard events and accelerometer events.<br>\nYou can get the SystemEvent instance with cc.systemEvent.<br>"
     },
     {
       "name": "SystemEvent.EventType",
@@ -1374,7 +1386,7 @@ window.apimeta = {
       "name": "Tween",
       "namespace": "cc.Tween",
       "module": "cc",
-      "description": "Tween provide a simple and flexible way to create action.\nTween's api is more flexible than cc.Action:\n - Support creating an action sequence in chained api,\n - Support animate any objects' any properties, not limited to node's properties.\n   By contrast, cc.Action needs to create a new action class to support new node property.\n - Support working with cc.Action,\n - Support easing and progress function,"
+      "description": "Tween provide a simple and flexible way to create action.\nTween's api is more flexible than cc.Action:\n - Support creating an action sequence in chained api,\n - Support animate any objects' any properties, not limited to node's properties.\n   By contrast, cc.Action needs to create a new action class to support new node property.\n - Support working with cc.Action,\n - Support easing and progress function."
     },
     {
       "name": "TypeScript",

@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Component will register a event to target component's handler.
@@ -57,7 +56,7 @@ eventHandler.customEventData = "my data";
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:51](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponentEventHandler.js#L51) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:51](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L51) |
 
 
 
@@ -68,7 +67,7 @@ eventHandler.customEventData = "my data";
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:62](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponentEventHandler.js#L62) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:62](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L62) |
 
 
 
@@ -79,7 +78,7 @@ eventHandler.customEventData = "my data";
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:82](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponentEventHandler.js#L82) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:82](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L82) |
 
 
 
@@ -90,7 +89,7 @@ eventHandler.customEventData = "my data";
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:93](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponentEventHandler.js#L93) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:93](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L93) |
 
 
 
@@ -107,7 +106,7 @@ eventHandler.customEventData = "my data";
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:106](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponentEventHandler.js#L106) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:106](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L106) |
 
 ###### Parameters
 - `events` <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> 
@@ -120,7 +119,7 @@ Emit event with params
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:130](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponentEventHandler.js#L130) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:130](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L130) |
 
 ###### Parameters
 - `params` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 

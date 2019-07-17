@@ -42,7 +42,7 @@ Manager the dynamic atlas.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:40](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L40) |
+| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:40](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L40) |
 
 
 
@@ -53,7 +53,7 @@ Manager the dynamic atlas.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:63](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L63) |
+| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:63](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L63) |
 
 
 
@@ -64,7 +64,7 @@ Manager the dynamic atlas.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:76](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L76) |
+| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:76](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L76) |
 
 
 
@@ -75,7 +75,7 @@ Manager the dynamic atlas.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:89](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L89) |
+| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:89](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L89) |
 
 
 
@@ -92,7 +92,7 @@ Append a sprite frame into the dynamic atlas.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:102](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L102) |
+| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:102](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L102) |
 
 ###### Parameters
 - `spriteFrame` <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> 
@@ -104,7 +104,7 @@ Resets all dynamic atlas, and the existing ones will be destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:135](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L135) |
+| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:135](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L135) |
 
 
 
@@ -114,7 +114,7 @@ Displays all the dynamic atlas in the current scene, which you can use to view t
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:148](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L148) |
+| Defined in | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:159](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L159) |
 
 ###### Parameters
 - `show` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
