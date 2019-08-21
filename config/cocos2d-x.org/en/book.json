@@ -46,11 +46,11 @@
                 },
                 {
                     "name": "2.0",
-                    "link": "//docs.cocos2d-x.org/creator/api/en"
+                    "link": "//docs.cocos2d-x.org/creator/2.0/api/en"
                 },
                 {
                     "name": "2.1",
-                    "link": "//docs.cocos2d-x.org/creator/2.1/api/en"
+                    "link": "//docs.cocos2d-x.org/creator/api/en"
                 }
             ]
         }
