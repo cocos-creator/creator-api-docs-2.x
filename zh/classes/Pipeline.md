@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 pipeline 描述了一系列的操作，每个操作都被称为 pipe。<br/>
@@ -48,7 +49,7 @@ pipeline 描述了一系列的操作，每个操作都被称为 pipe。<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:112](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/load-pipeline/pipeline.js#L112) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:112](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L112) |
 
 ###### 参数列表
 - `pipes` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -73,7 +74,7 @@ var pipeline = new Pipeline([
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:156](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/load-pipeline/pipeline.js#L156) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:156](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L156) |
 
 ###### 参数列表
 - `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted
@@ -89,7 +90,7 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:199](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/load-pipeline/pipeline.js#L199) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:199](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L199) |
 
 ###### 参数列表
 - `refPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing pipe in the pipeline.
@@ -103,7 +104,7 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:216](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/load-pipeline/pipeline.js#L216) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:216](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L216) |
 
 ###### 参数列表
 - `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be appended
@@ -120,7 +121,7 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:240](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/load-pipeline/pipeline.js#L240) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:240](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L240) |
 
 ###### 参数列表
 - `items` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -149,7 +150,7 @@ pipeline.flowIn([
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:325](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/load-pipeline/pipeline.js#L325) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:325](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L325) |
 
 ###### 参数列表
 - `srcItem` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
@@ -163,7 +164,7 @@ pipeline.flowIn([
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:354](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/load-pipeline/pipeline.js#L354) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:354](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L354) |
 
 ###### 参数列表
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
@@ -178,7 +179,7 @@ cc.loader 中提供了另一种删除资源及其依赖的清理方法，请参�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:374](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/load-pipeline/pipeline.js#L374) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:374](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L374) |
 
 ###### 参数列表
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
@@ -190,7 +191,7 @@ cc.loader 中提供了另一种删除资源及其依赖的清理方法，请参�
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:394](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/load-pipeline/pipeline.js#L394) |
+| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:394](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L394) |
 
 
 

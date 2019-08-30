@@ -64,7 +64,6 @@ AnySDK is a third party solution that offers game developers SDK integration wit
   - [macro.TextAlignment](../enums/macro.TextAlignment.md)
   - [Mask.Type](../enums/Mask.Type.md)
   - [NetworkType](../enums/NetworkType.md)
-  - [Node.EventType](../enums/Node.EventType.md)
   - [PageView.Direction](../enums/PageView.Direction.md)
   - [PageView.EventType](../enums/PageView.EventType.md)
   - [PageView.SizeMode](../enums/PageView.SizeMode.md)
@@ -128,7 +127,7 @@ AnySDK is a third party solution that offers game developers SDK integration wit
 | meta | description |
 |------|-------------|
 | Type | anysdk.AgentManager |
-| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/anysdk/jsb_anysdk.js#L40) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:40](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/anysdk/jsb_anysdk.js#L40) |
 
 
 

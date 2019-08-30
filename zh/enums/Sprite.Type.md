@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 Sprite 类型
@@ -26,7 +25,7 @@ Sprite 类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCSprite.js:44](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCSprite.js#L44) |
+| 定义于 | [cocos2d/core/components/CCSprite.js:44](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCSprite.js#L44) |
 
 
 
@@ -37,7 +36,7 @@ Sprite 类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCSprite.js:50](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCSprite.js#L50) |
+| 定义于 | [cocos2d/core/components/CCSprite.js:50](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCSprite.js#L50) |
 
 
 
@@ -48,7 +47,7 @@ Sprite 类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCSprite.js:56](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCSprite.js#L56) |
+| 定义于 | [cocos2d/core/components/CCSprite.js:56](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCSprite.js#L56) |
 
 
 
@@ -59,7 +58,7 @@ Sprite 类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCSprite.js:62](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCSprite.js#L62) |
+| 定义于 | [cocos2d/core/components/CCSprite.js:62](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCSprite.js#L62) |
 
 
 
@@ -70,6 +69,6 @@ Sprite 类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCSprite.js:68](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCSprite.js#L68) |
+| 定义于 | [cocos2d/core/components/CCSprite.js:68](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCSprite.js#L68) |
 
 

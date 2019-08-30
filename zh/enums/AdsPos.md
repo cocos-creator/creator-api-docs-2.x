@@ -27,7 +27,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:2567](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/anysdk/jsb_anysdk.js#L2567) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:2567](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/anysdk/jsb_anysdk.js#L2567) |
 
 
 
@@ -38,7 +38,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:2574](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/anysdk/jsb_anysdk.js#L2574) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:2574](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/anysdk/jsb_anysdk.js#L2574) |
 
 
 
@@ -49,7 +49,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:2581](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/anysdk/jsb_anysdk.js#L2581) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:2581](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/anysdk/jsb_anysdk.js#L2581) |
 
 
 
@@ -60,7 +60,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:2588](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/anysdk/jsb_anysdk.js#L2588) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:2588](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/anysdk/jsb_anysdk.js#L2588) |
 
 
 
@@ -71,7 +71,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:2595](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/anysdk/jsb_anysdk.js#L2595) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:2595](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/anysdk/jsb_anysdk.js#L2595) |
 
 
 
@@ -82,7 +82,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:2602](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/anysdk/jsb_anysdk.js#L2602) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:2602](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/anysdk/jsb_anysdk.js#L2602) |
 
 
 
@@ -93,6 +93,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:2609](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/anysdk/jsb_anysdk.js#L2609) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:2609](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/anysdk/jsb_anysdk.js#L2609) |
 
 

@@ -38,7 +38,7 @@ it controls the behavior of how to scale the cc.game.container and cc.game.canva
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1045](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCView.js#L1045) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1051](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCView.js#L1051) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -50,7 +50,7 @@ it controls the behavior of how to scale the cc.game.container and cc.game.canva
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1055](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCView.js#L1055) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1061](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCView.js#L1061) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> 
@@ -63,7 +63,7 @@ it controls the behavior of how to scale the cc.game.container and cc.game.canva
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1066](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCView.js#L1066) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1072](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCView.js#L1072) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view

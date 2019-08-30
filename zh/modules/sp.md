@@ -53,7 +53,6 @@ Spine 的全局的命名空间，
   - [macro.TextAlignment](../enums/macro.TextAlignment.md)
   - [Mask.Type](../enums/Mask.Type.md)
   - [NetworkType](../enums/NetworkType.md)
-  - [Node.EventType](../enums/Node.EventType.md)
   - [PageView.Direction](../enums/PageView.Direction.md)
   - [PageView.EventType](../enums/PageView.EventType.md)
   - [PageView.SizeMode](../enums/PageView.SizeMode.md)

@@ -62,7 +62,7 @@ and consumes less memory to use the 'update callback'. *
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCScheduler.js:1092](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L1092) |
+| Defined in | [cocos2d/core/CCScheduler.js:1092](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L1092) |
 
 
 
@@ -73,7 +73,7 @@ and consumes less memory to use the 'update callback'. *
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCScheduler.js:1101](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L1101) |
+| Defined in | [cocos2d/core/CCScheduler.js:1101](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L1101) |
 
 
 
@@ -93,7 +93,7 @@ This method will add a `_id` property if it doesn't exist.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:351](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L351) |
+| Defined in | [cocos2d/core/CCScheduler.js:351](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L351) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -109,7 +109,7 @@ Note：It will affect EVERY scheduled selector / action.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:370](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L370) |
+| Defined in | [cocos2d/core/CCScheduler.js:370](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L370) |
 
 ###### Parameters
 - `timeScale` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -122,7 +122,7 @@ Returns time scale of scheduler.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/CCScheduler.js:390](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L390) |
+| Defined in | [cocos2d/core/CCScheduler.js:390](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L390) |
 
 
 
@@ -132,7 +132,7 @@ Returns time scale of scheduler.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:400](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L400) |
+| Defined in | [cocos2d/core/CCScheduler.js:400](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L400) |
 
 ###### Parameters
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> delta time
@@ -151,7 +151,7 @@ Returns time scale of scheduler.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:486](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L486) |
+| Defined in | [cocos2d/core/CCScheduler.js:486](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L486) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -176,7 +176,7 @@ During every frame after schedule started, the "update" function of target will 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:579](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L579) |
+| Defined in | [cocos2d/core/CCScheduler.js:579](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L579) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -191,7 +191,7 @@ If you want to unschedule the "update", use `unscheduleUpdate()`
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:641](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L641) |
+| Defined in | [cocos2d/core/CCScheduler.js:641](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L641) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to be unscheduled
@@ -204,7 +204,7 @@ Unschedules the update callback for a given target.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:698](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L698) |
+| Defined in | [cocos2d/core/CCScheduler.js:698](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L698) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be unscheduled.
@@ -217,7 +217,7 @@ This also includes the "update" callback.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:728](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L728) |
+| Defined in | [cocos2d/core/CCScheduler.js:728](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L728) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be unscheduled.
@@ -230,7 +230,7 @@ You should NEVER call this method, unless you know what you are doing.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:776](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L776) |
+| Defined in | [cocos2d/core/CCScheduler.js:776](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L776) |
 
 
 
@@ -241,7 +241,7 @@ You should only call this with `PRIORITY_NON_SYSTEM_MIN` or higher.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:789](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L789) |
+| Defined in | [cocos2d/core/CCScheduler.js:789](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L789) |
 
 ###### Parameters
 - `minPriority` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The minimum priority of selector to be unscheduled. Which means, all selectors which
@@ -255,7 +255,7 @@ Checks whether a callback for a given target is scheduled.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/CCScheduler.js:843](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L843) |
+| Defined in | [cocos2d/core/CCScheduler.js:843](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L843) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to check.
@@ -269,7 +269,7 @@ You should NEVER call this method, unless you know what you are doing.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:889](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L889) |
+| Defined in | [cocos2d/core/CCScheduler.js:889](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L889) |
 
 
 
@@ -280,7 +280,7 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:902](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L902) |
+| Defined in | [cocos2d/core/CCScheduler.js:902](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L902) |
 
 ###### Parameters
 - `minPriority` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -293,7 +293,7 @@ This can be useful for undoing a call to pauseAllCallbacks.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:962](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L962) |
+| Defined in | [cocos2d/core/CCScheduler.js:962](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L962) |
 
 ###### Parameters
 - `targetsToResume` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -307,7 +307,7 @@ If the target is not present, nothing happens.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:981](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L981) |
+| Defined in | [cocos2d/core/CCScheduler.js:981](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L981) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -321,7 +321,7 @@ If the target is not present, nothing happens.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCScheduler.js:1020](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L1020) |
+| Defined in | [cocos2d/core/CCScheduler.js:1020](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L1020) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -334,7 +334,7 @@ Returns whether or not the target is paused.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/CCScheduler.js:1059](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/CCScheduler.js#L1059) |
+| Defined in | [cocos2d/core/CCScheduler.js:1059](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCScheduler.js#L1059) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 

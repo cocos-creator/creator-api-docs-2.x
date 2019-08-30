@@ -46,7 +46,7 @@ Create box vertex data
 | meta | description |
 |------|-------------|
 | Returns | primitive.VertextData 
-| Defined in | [cocos2d/core/3d/primitive/index.js:23](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L23) |
+| Defined in | [cocos2d/core/3d/primitive/index.js:24](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/index.js#L24) |
 
 ###### Parameters
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -65,7 +65,7 @@ Create cone vertex data
 | meta | description |
 |------|-------------|
 | Returns | primitive.VertextData 
-| Defined in | [cocos2d/core/3d/primitive/index.js:38](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L38) |
+| Defined in | [cocos2d/core/3d/primitive/index.js:39](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/index.js#L39) |
 
 ###### Parameters
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -84,7 +84,7 @@ Create cylinder vertex data
 | meta | description |
 |------|-------------|
 | Returns | primitive.VertextData 
-| Defined in | [cocos2d/core/3d/primitive/index.js:53](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L53) |
+| Defined in | [cocos2d/core/3d/primitive/index.js:54](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/index.js#L54) |
 
 ###### Parameters
 - `radiusTop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -104,7 +104,7 @@ Create plane vertex data
 | meta | description |
 |------|-------------|
 | Returns | primitive.VertextData 
-| Defined in | [cocos2d/core/3d/primitive/index.js:69](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L69) |
+| Defined in | [cocos2d/core/3d/primitive/index.js:70](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/index.js#L70) |
 
 ###### Parameters
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -121,7 +121,7 @@ Create quad vertex data
 | meta | description |
 |------|-------------|
 | Returns | primitive.VertextData 
-| Defined in | [cocos2d/core/3d/primitive/index.js:82](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L82) |
+| Defined in | [cocos2d/core/3d/primitive/index.js:83](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/index.js#L83) |
 
 
 
@@ -132,7 +132,7 @@ Create sphere vertex data
 | meta | description |
 |------|-------------|
 | Returns | primitive.VertextData 
-| Defined in | [cocos2d/core/3d/primitive/index.js:90](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L90) |
+| Defined in | [cocos2d/core/3d/primitive/index.js:91](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/index.js#L91) |
 
 ###### Parameters
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -147,7 +147,7 @@ Create torus vertex data
 | meta | description |
 |------|-------------|
 | Returns | primitive.VertextData 
-| Defined in | [cocos2d/core/3d/primitive/index.js:101](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L101) |
+| Defined in | [cocos2d/core/3d/primitive/index.js:102](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/index.js#L102) |
 
 ###### Parameters
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -165,7 +165,7 @@ Create capsule vertex data
 | meta | description |
 |------|-------------|
 | Returns | primitive.VertextData 
-| Defined in | [cocos2d/core/3d/primitive/index.js:115](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L115) |
+| Defined in | [cocos2d/core/3d/primitive/index.js:116](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/index.js#L116) |
 
 ###### Parameters
 - `radiusTop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -185,7 +185,7 @@ Create polyhedron vertex data
 | meta | description |
 |------|-------------|
 | Returns | primitive.VertextData 
-| Defined in | [cocos2d/core/3d/primitive/index.js:131](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/3d/primitive/index.js#L131) |
+| Defined in | [cocos2d/core/3d/primitive/index.js:132](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/index.js#L132) |
 
 ###### Parameters
 - `type` <a href="../enums/primitive.PolyhedronType.html" class="crosslink">primitive.PolyhedronType</a> 

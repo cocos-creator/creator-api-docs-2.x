@@ -181,12 +181,6 @@ window.apimeta = {
       "description": "网络类型枚举"
     },
     {
-      "name": "Node.EventType",
-      "namespace": "cc.Node.EventType",
-      "module": "cc",
-      "description": "Node 支持的事件类型"
-    },
-    {
       "name": "PageView.Direction",
       "namespace": "cc.PageView.Direction",
       "module": "cc",
@@ -699,6 +693,12 @@ window.apimeta = {
       "description": "管理动态图集。"
     },
     {
+      "name": "Easing",
+      "namespace": "cc.Easing",
+      "module": "cc",
+      "description": "缓动函数类，为 <a href=\"../classes/Tween.html\" class=\"crosslink\">Tween</a> 提供缓动效果函数。<br>\n函数效果演示： https://easings.net/"
+    },
+    {
       "name": "EditBox",
       "namespace": "cc.EditBox",
       "module": "cc",
@@ -867,6 +867,12 @@ window.apimeta = {
       "description": "表示 4*4 矩阵"
     },
     {
+      "name": "Material",
+      "namespace": "cc.Material",
+      "module": "cc",
+      "description": "材质资源类。"
+    },
+    {
       "name": "MotionStreak",
       "namespace": "cc.MotionStreak",
       "module": "cc",
@@ -888,7 +894,13 @@ window.apimeta = {
       "name": "Node",
       "namespace": "cc.Node",
       "module": "cc",
-      "description": "Cocos Creator 场景中的所有节点类。<br/>\n支持的节点事件，请参阅 <a href=\"../enums/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>。"
+      "description": "Cocos Creator 场景中的所有节点类。<br/>\n支持的节点事件，请参阅 <a href=\"../classes/Node.EventType.html\" class=\"crosslink\">Node.EventType</a>。"
+    },
+    {
+      "name": "Node.EventType",
+      "namespace": "cc.Node.EventType",
+      "module": "cc",
+      "description": "Node 支持的事件类型"
     },
     {
       "name": "NodePool",
@@ -1290,7 +1302,7 @@ window.apimeta = {
       "name": "SystemEvent",
       "namespace": "cc.SystemEvent",
       "module": "cc",
-      "description": "系统事件，它目前支持按键事件和重力感应事件。<br>\n你可以通过 cc.systemEvent 获取到 SystemEvent 的实例。<br>\n参考示例：\n```\ncc.systemEvent.on(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);\ncc.systemEvent.off(cc.SystemEvent.EventType.DEVICEMOTION, this.onDeviceMotionEvent, this);\n```"
+      "description": "系统事件，它目前支持按键事件和重力感应事件。<br>\n你可以通过 cc.systemEvent 获取到 SystemEvent 的实例。<br>"
     },
     {
       "name": "SystemEvent.EventType",
@@ -1374,7 +1386,7 @@ window.apimeta = {
       "name": "Tween",
       "namespace": "cc.Tween",
       "module": "cc",
-      "description": "Tween 提供了一个简单灵活的方法来创建 action。\n相对于 Cocos 传统的 cc.Action，cc.Tween 在创建动画上要灵活非常多：\n - 支持以链式结构的方式创建一个动画序列。\n - 支持对任意对象的任意属性进行缓动，不再局限于节点上的属性，而 cc.Action 添加一个属性的支持时还需要添加一个新的 action 类型。\n - 支持与 cc.Action 混用\n - 支持设置 easing 或者 progress 函数"
+      "description": "Tween 提供了一个简单灵活的方法来创建 action。\n相对于 Cocos 传统的 cc.Action，cc.Tween 在创建动画上要灵活非常多：\n - 支持以链式结构的方式创建一个动画序列。\n - 支持对任意对象的任意属性进行缓动，不再局限于节点上的属性，而 cc.Action 添加一个属性的支持时还需要添加一个新的 action 类型。\n - 支持与 cc.Action 混用\n - 支持设置 <a href=\"../classes/Easing.html\" class=\"crosslink\">Easing</a> 或者 progress 函数"
     },
     {
       "name": "TypeScript",

@@ -31,6 +31,7 @@ Spine 骨骼动画 <br/>
   - [`debugBones`](#debugbones) `Boolean` 是否显示 bone 的 debug 信息。
   - [`useTint`](#usetint) `Boolean` 是否启用染色效果。
   - [`enableBatch`](#enablebatch) `Boolean` 开启合批，如果渲染大量相同纹理，且结构简单的骨骼动画，开启合批可以降低drawcall，否则请不要开启，cpu消耗会上升。
+  - [`sharedMaterials`](#sharedmaterials) `[Material]` 渲染组件使用的材质。
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` 该组件被附加到的节点。
   - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
@@ -83,6 +84,8 @@ Spine 骨骼动画 <br/>
   - [`setTrackCompleteListener`](#settrackcompletelistener) 用来为指定的 TrackEntry 设置动画一次循环播放结束的事件监听。
   - [`setTrackEventListener`](#settrackeventlistener) 用来为指定的 TrackEntry 设置动画帧事件的监听。
   - [`setTrackEventListener`](#settrackeventlistener) 获取
+  - [`getMaterial`](#getmaterial) 根据指定索引获取材质
+  - [`setMaterial`](#setmaterial) 根据指定索引设置材质
   - [`update`](#update) 如果该组件启用，则每帧调用 update。
   - [`lateUpdate`](#lateupdate) 如果该组件启用，则每帧调用 LateUpdate。
   - [`__preload`](#preload) `__preload` is called before every onLoad....
@@ -126,7 +129,7 @@ Spine 骨骼动画 <br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [extensions/spine/Skeleton.js:108](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L108) |
+| 定义于 | [extensions/spine/Skeleton.js:108](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L108) |
 
 
 
@@ -139,7 +142,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/SkeletonData.html" class="crosslink">SkeletonData</a> |
-| 定义于 | [extensions/spine/Skeleton.js:121](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L121) |
+| 定义于 | [extensions/spine/Skeleton.js:121](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L121) |
 
 
 
@@ -150,7 +153,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [extensions/spine/Skeleton.js:147](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L147) |
+| 定义于 | [extensions/spine/Skeleton.js:147](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L147) |
 
 
 
@@ -161,7 +164,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [extensions/spine/Skeleton.js:157](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L157) |
+| 定义于 | [extensions/spine/Skeleton.js:157](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L157) |
 
 
 
@@ -172,7 +175,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [extensions/spine/Skeleton.js:167](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L167) |
+| 定义于 | [extensions/spine/Skeleton.js:167](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L167) |
 
 
 
@@ -183,7 +186,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/spine/Skeleton.js:194](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L194) |
+| 定义于 | [extensions/spine/Skeleton.js:194](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L194) |
 
 
 
@@ -194,7 +197,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [extensions/spine/Skeleton.js:294](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L294) |
+| 定义于 | [extensions/spine/Skeleton.js:295](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L295) |
 
 
 
@@ -206,7 +209,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [extensions/spine/Skeleton.js:305](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L305) |
+| 定义于 | [extensions/spine/Skeleton.js:306](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L306) |
 
 
 
@@ -217,7 +220,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/spine/Skeleton.js:319](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L319) |
+| 定义于 | [extensions/spine/Skeleton.js:320](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L320) |
 
 
 
@@ -228,7 +231,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [extensions/spine/Skeleton.js:330](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L330) |
+| 定义于 | [extensions/spine/Skeleton.js:331](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L331) |
 
 
 
@@ -239,7 +242,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [extensions/spine/Skeleton.js:345](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L345) |
+| 定义于 | [extensions/spine/Skeleton.js:346](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L346) |
 
 
 
@@ -250,7 +253,7 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [extensions/spine/Skeleton.js:360](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L360) |
+| 定义于 | [extensions/spine/Skeleton.js:361](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L361) |
 
 
 
@@ -261,7 +264,18 @@ attachments，皮肤等等）和动画但不持有任何状态。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [extensions/spine/Skeleton.js:374](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L374) |
+| 定义于 | [extensions/spine/Skeleton.js:375](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L375) |
+
+
+
+##### sharedMaterials
+
+> 渲染组件使用的材质。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/Material.html" class="crosslink">[Material]</a> |
+| 定义于 | [cocos2d/core/components/CCRenderComponent.js:61](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCRenderComponent.js#L61) |
 
 
 
@@ -273,7 +287,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:61](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L61) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:61](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L61) |
 
 
 
@@ -284,7 +298,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:75](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L75) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:75](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L75) |
 
 ##### 示例
 
@@ -300,7 +314,7 @@ cc.log(comp.node);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:106](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L106) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:106](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L106) |
 
 ##### 示例
 
@@ -316,7 +330,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:147](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L147) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:147](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L147) |
 
 
 
@@ -327,7 +341,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:154](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L154) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:154](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L154) |
 
 ##### 示例
 
@@ -344,7 +358,7 @@ cc.log(comp.enabled);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:186](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L186) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:186](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L186) |
 
 ##### 示例
 
@@ -360,7 +374,7 @@ cc.log(comp.enabledInHierarchy);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:202](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L202) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:202](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L202) |
 
 ##### 示例
 
@@ -376,7 +390,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L76) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L76) |
 
 
 
@@ -387,7 +401,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L83) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L83) |
 
 
 
@@ -398,7 +412,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L240) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L240) |
 
 ##### 示例
 
@@ -415,7 +429,7 @@ obj.name = "New Obj";
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L258) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L258) |
 
 ##### 示例
 
@@ -443,7 +457,7 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:451](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L451) |
+| 定义于 | [extensions/spine/Skeleton.js:452](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L452) |
 
 ###### 参数列表
 - `skeletonData` sp.spine.SkeletonData 
@@ -455,7 +469,7 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:489](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L489) |
+| 定义于 | [extensions/spine/Skeleton.js:490](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L490) |
 
 ###### 参数列表
 - `skeletonData` sp.spine.SkeletonData 
@@ -468,7 +482,7 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:504](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L504) |
+| 定义于 | [extensions/spine/Skeleton.js:505](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L505) |
 
 ###### 参数列表
 - `stateData` sp.spine.AnimationStateData 
@@ -481,7 +495,7 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:557](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L557) |
+| 定义于 | [extensions/spine/Skeleton.js:558](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L558) |
 
 ###### 参数列表
 - `cacheMode` AnimationCacheMode 
@@ -498,7 +512,7 @@ skeleton.setAnimationCacheMode(sp.Skeleton.AnimationCacheMode.SHARED_CACHE);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:578](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L578) |
+| 定义于 | [extensions/spine/Skeleton.js:579](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L579) |
 
 
 
@@ -509,7 +523,7 @@ skeleton.setAnimationCacheMode(sp.Skeleton.AnimationCacheMode.SHARED_CACHE);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:691](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L691) |
+| 定义于 | [extensions/spine/Skeleton.js:697](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L697) |
 
 
 ##### 示例
@@ -528,7 +542,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:711](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L711) |
+| 定义于 | [extensions/spine/Skeleton.js:717](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L717) |
 
 
 
@@ -539,7 +553,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:726](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L726) |
+| 定义于 | [extensions/spine/Skeleton.js:732](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L732) |
 
 
 
@@ -550,7 +564,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:745](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L745) |
+| 定义于 | [extensions/spine/Skeleton.js:751](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L751) |
 
 
 
@@ -560,7 +574,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:764](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L764) |
+| 定义于 | [extensions/spine/Skeleton.js:770](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L770) |
 
 ###### 参数列表
 - `animName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -575,7 +589,7 @@ cc.log(bone.worldX); // return -23.12;
 | meta | description |
 |------|-------------|
 | 返回 | sp.spine.Bone 
-| 定义于 | [extensions/spine/Skeleton.js:778](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L778) |
+| 定义于 | [extensions/spine/Skeleton.js:784](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L784) |
 
 ###### 参数列表
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -589,7 +603,7 @@ cc.log(bone.worldX); // return -23.12;
 | meta | description |
 |------|-------------|
 | 返回 | sp.spine.Slot 
-| 定义于 | [extensions/spine/Skeleton.js:799](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L799) |
+| 定义于 | [extensions/spine/Skeleton.js:805](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L805) |
 
 ###### 参数列表
 - `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -603,8 +617,7 @@ cc.log(bone.worldX); // return -23.12;
 
 | meta | description |
 |------|-------------|
-| 返回 | sp.spine.Skin 
-| 定义于 | [extensions/spine/Skeleton.js:818](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L818) |
+| 定义于 | [extensions/spine/Skeleton.js:824](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L824) |
 
 ###### 参数列表
 - `skinName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -618,7 +631,7 @@ cc.log(bone.worldX); // return -23.12;
 | meta | description |
 |------|-------------|
 | 返回 | sp.spine.Attachment 
-| 定义于 | [extensions/spine/Skeleton.js:846](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L846) |
+| 定义于 | [extensions/spine/Skeleton.js:849](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L849) |
 
 ###### 参数列表
 - `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -632,7 +645,7 @@ Skeleton 优先查找它的皮肤，然后才是 Skeleton Data 中默认的皮�
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:867](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L867) |
+| 定义于 | [extensions/spine/Skeleton.js:870](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L870) |
 
 ###### 参数列表
 - `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -646,7 +659,7 @@ Return the renderer of attachment.
 | meta | description |
 |------|-------------|
 | 返回 | sp.spine.TextureAtlasRegion 
-| 定义于 | [extensions/spine/Skeleton.js:884](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L884) |
+| 定义于 | [extensions/spine/Skeleton.js:887](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L887) |
 
 ###### 参数列表
 - `regionAttachment` sp.spine.RegionAttachment &#124; spine.BoundingBoxAttachment 
@@ -658,7 +671,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:895](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L895) |
+| 定义于 | [extensions/spine/Skeleton.js:898](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L898) |
 
 ###### 参数列表
 - `fromAnimation` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -674,7 +687,7 @@ Return the renderer of attachment.
 | meta | description |
 |------|-------------|
 | 返回 | sp.spine.TrackEntry 
-| 定义于 | [extensions/spine/Skeleton.js:911](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L911) |
+| 定义于 | [extensions/spine/Skeleton.js:914](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L914) |
 
 ###### 参数列表
 - `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -690,7 +703,7 @@ Return the renderer of attachment.
 | meta | description |
 |------|-------------|
 | 返回 | sp.spine.TrackEntry 
-| 定义于 | [extensions/spine/Skeleton.js:957](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L957) |
+| 定义于 | [extensions/spine/Skeleton.js:961](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L961) |
 
 ###### 参数列表
 - `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -706,7 +719,7 @@ Return the renderer of attachment.
 | meta | description |
 |------|-------------|
 | 返回 | sp.spine.Animation 
-| 定义于 | [extensions/spine/Skeleton.js:989](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L989) |
+| 定义于 | [extensions/spine/Skeleton.js:993](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L993) |
 
 ###### 参数列表
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -720,7 +733,7 @@ Return the renderer of attachment.
 | meta | description |
 |------|-------------|
 | 返回 | sp.spine.TrackEntry 
-| 定义于 | [extensions/spine/Skeleton.js:1003](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1003) |
+| 定义于 | [extensions/spine/Skeleton.js:1007](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1007) |
 
 ###### 参数列表
 - `trackIndex` Unknown 
@@ -732,7 +745,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1023](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1023) |
+| 定义于 | [extensions/spine/Skeleton.js:1027](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1027) |
 
 
 
@@ -742,7 +755,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1038](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1038) |
+| 定义于 | [extensions/spine/Skeleton.js:1042](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1042) |
 
 ###### 参数列表
 - `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -754,7 +767,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1057](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1057) |
+| 定义于 | [extensions/spine/Skeleton.js:1061](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1061) |
 
 ###### 参数列表
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -766,7 +779,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1068](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1068) |
+| 定义于 | [extensions/spine/Skeleton.js:1072](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1072) |
 
 ###### 参数列表
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -778,7 +791,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1079](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1079) |
+| 定义于 | [extensions/spine/Skeleton.js:1083](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1083) |
 
 ###### 参数列表
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -790,7 +803,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1090](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1090) |
+| 定义于 | [extensions/spine/Skeleton.js:1094](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1094) |
 
 ###### 参数列表
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -802,7 +815,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1101](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1101) |
+| 定义于 | [extensions/spine/Skeleton.js:1105](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1105) |
 
 ###### 参数列表
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -814,7 +827,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1112](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1112) |
+| 定义于 | [extensions/spine/Skeleton.js:1116](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1116) |
 
 ###### 参数列表
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -826,7 +839,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1123](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1123) |
+| 定义于 | [extensions/spine/Skeleton.js:1127](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1127) |
 
 ###### 参数列表
 - `entry` sp.spine.TrackEntry 
@@ -839,7 +852,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1134](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1134) |
+| 定义于 | [extensions/spine/Skeleton.js:1138](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1138) |
 
 ###### 参数列表
 - `entry` sp.spine.TrackEntry 
@@ -852,7 +865,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1145](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1145) |
+| 定义于 | [extensions/spine/Skeleton.js:1149](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1149) |
 
 ###### 参数列表
 - `entry` sp.spine.TrackEntry 
@@ -865,7 +878,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1156](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1156) |
+| 定义于 | [extensions/spine/Skeleton.js:1160](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1160) |
 
 ###### 参数列表
 - `entry` sp.spine.TrackEntry 
@@ -878,7 +891,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1167](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1167) |
+| 定义于 | [extensions/spine/Skeleton.js:1171](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1171) |
 
 ###### 参数列表
 - `entry` sp.spine.TrackEntry 
@@ -893,7 +906,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/Skeleton.js:1183](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1183) |
+| 定义于 | [extensions/spine/Skeleton.js:1187](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1187) |
 
 ###### 参数列表
 - `entry` sp.spine.TrackEntry 
@@ -907,8 +920,33 @@ Return the renderer of attachment.
 | meta | description |
 |------|-------------|
 | 返回 | sp.spine.AnimationState 
-| 定义于 | [extensions/spine/Skeleton.js:1194](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/extensions/spine/Skeleton.js#L1194) |
+| 定义于 | [extensions/spine/Skeleton.js:1198](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/spine/Skeleton.js#L1198) |
 
+
+
+##### getMaterial
+
+根据指定索引获取材质
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/components/CCRenderComponent.js:167](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCRenderComponent.js#L167) |
+
+###### 参数列表
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### setMaterial
+
+根据指定索引设置材质
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/components/CCRenderComponent.js:189](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCRenderComponent.js#L189) |
+
+###### 参数列表
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `material` <a href="../classes/Material.html" class="crosslink">Material</a> 
 
 
 ##### update
@@ -918,7 +956,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:223](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L223) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:223](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L223) |
 
 ###### 参数列表
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -931,7 +969,7 @@ Return the renderer of attachment.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:234](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L234) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:234](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L234) |
 
 
 
@@ -944,7 +982,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:244](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L244) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:244](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L244) |
 
 
 
@@ -955,7 +993,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:255](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L255) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:255](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L255) |
 
 
 
@@ -966,7 +1004,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:268](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L268) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:268](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L268) |
 
 
 
@@ -977,7 +1015,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:281](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L281) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:281](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L281) |
 
 
 
@@ -988,7 +1026,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:291](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L291) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:291](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L291) |
 
 
 
@@ -999,7 +1037,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:301](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L301) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:301](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L301) |
 
 
 
@@ -1009,7 +1047,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:311](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L311) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:311](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L311) |
 
 
 
@@ -1019,7 +1057,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:316](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L316) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:316](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L316) |
 
 
 
@@ -1029,7 +1067,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:321](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L321) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:321](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L321) |
 
 
 
@@ -1040,7 +1078,7 @@ This method should be removed if script priority is supported.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| 定义于 | [cocos2d/core/components/CCComponent.js:331](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L331) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:331](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L331) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
@@ -1060,7 +1098,7 @@ var test = node.addComponent("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| 定义于 | [cocos2d/core/components/CCComponent.js:349](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L349) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:349](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L349) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1081,7 +1119,7 @@ var test = node.getComponent("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| 定义于 | [cocos2d/core/components/CCComponent.js:373](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L373) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:373](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L373) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1100,7 +1138,7 @@ var tests = node.getComponents("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| 定义于 | [cocos2d/core/components/CCComponent.js:391](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L391) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:391](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L391) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1119,7 +1157,7 @@ var Test = node.getComponentInChildren("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| 定义于 | [cocos2d/core/components/CCComponent.js:409](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L409) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:409](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L409) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1138,7 +1176,7 @@ var tests = node.getComponentsInChildren("Test");
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:429](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L429) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:429](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L429) |
 
 ###### 参数列表
 - `out_rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -1165,7 +1203,7 @@ onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:442](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L442) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:442](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L442) |
 
 
 
@@ -1176,7 +1214,7 @@ onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:536](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L536) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:536](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L536) |
 
 ###### 参数列表
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -1199,7 +1237,7 @@ this.schedule(timeCallback, 1);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:573](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L573) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:573](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L573) |
 
 ###### 参数列表
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1220,7 +1258,7 @@ this.scheduleOnce(timeCallback, 2);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:590](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L590) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:590](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L590) |
 
 ###### 参数列表
 - `callback_fn` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1237,7 +1275,7 @@ this.unschedule(_callback);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:606](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/components/CCComponent.js#L606) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:606](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponent.js#L606) |
 
 
 ##### 示例
@@ -1255,7 +1293,7 @@ this.unscheduleAllCallbacks();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L293) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L293) |
 
 
 ##### 示例
@@ -1287,7 +1325,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L427) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L427) |
 
 
 
@@ -1297,7 +1335,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:460](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L460) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:460](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L460) |
 
 
 
@@ -1308,7 +1346,7 @@ The customized serialization for this object. (Editor Only)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:485](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L485) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:485](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L485) |
 
 ###### 参数列表
 - `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -1320,7 +1358,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:495](https://github.com/cocos-creator/engine/blob/75ac6640e7f40c3c34c913047be42ae5f8a96d74/cocos2d/core/platform/CCObject.js#L495) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:495](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L495) |
 
 ###### 参数列表
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
