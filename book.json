@@ -1,6 +1,7 @@
 {
     "plugins":[
-        "-lunr", "-search",
+        "-lunr",
+        "-search",
         "search-title",
         "github-issue-feedback-language-custom",
         "anchorjs",
