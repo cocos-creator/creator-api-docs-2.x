@@ -2428,7 +2428,6 @@ The group changing event, you can listen to this event through the statement thi
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Note: This event is only emitted from the top most node whose active value did changed,
