@@ -130,14 +130,14 @@ Cocos Creator 场景中的所有节点类。节点也继承了 <a href="../class
   - [`removeComponent`](#removecomponent) 删除节点上的指定组件，传入参数可以是一个组件构造函数或组件名，也可以是已经获得的组件引用。
   - [`_getDependComponent`](#getdependcomponent) 
   - [`destroyAllChildren`](#destroyallchildren) 销毁所有子节点，并释放所有它们对其它对象的引用。
-  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
-  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
   - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。
   - [`_destruct`](#destruct) Clear all references in the instance....
   - [`_onPreDestroy`](#onpredestroy) Called before the object being destroyed.
   - [`_serialize`](#serialize) The customized serialization for this object. (Editor Only)
   - [`_deserialize`](#deserialize) Init this object from the custom serialized data.
+  - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+  - [`dispatchEvent`](#dispatchevent) 分发事件到事件流中。
+  - [`emit`](#emit) 该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
 
 
 
@@ -2067,58 +2067,6 @@ node.removeComponent(Test);
 node.destroyAllChildren();
 ```
 
-##### once
-
-注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:352](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L352) |
-
-###### 参数列表
-- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
-- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
-                             The callback is ignored if it is a duplicate (the callbacks are unique).
-	- `event` <a href="../classes/Event.html" class="crosslink">Event</a> event
-- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
-- `useCapture` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
-                             from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
-                             When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
-                             Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
-
-##### 示例
-
-```js
-node.once(cc.Node.EventType.TOUCH_END, function (event) {
-    cc.log("this is callback");
-}, node);
-```
-
-##### dispatchEvent
-
-分发事件到事件流中。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:397](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L397) |
-
-###### 参数列表
-- `event` <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
-
-
-##### emit
-
-该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:411](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L411) |
-
-###### 参数列表
-- `message` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send
-- `detail` Any whatever argument the message needs
-
-
 ##### destroy
 
 销毁该对象，并释放所有它对其它对象的引用。<br/>
@@ -2198,6 +2146,58 @@ Init this object from the custom serialized data.
 ###### 参数列表
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data
 - `ctx` _Deserializer 
+
+
+##### once
+
+注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/event/event-target.js:352](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L352) |
+
+###### 参数列表
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
+                             The callback is ignored if it is a duplicate (the callbacks are unique).
+	- `event` <a href="../classes/Event.html" class="crosslink">Event</a> event
+- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
+- `useCapture` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> When set to true, the capture argument prevents callback
+                             from being invoked when the event's eventPhase attribute value is BUBBLING_PHASE.
+                             When false, callback will NOT be invoked when event's eventPhase attribute value is CAPTURING_PHASE.
+                             Either way, callback will be invoked when event's eventPhase attribute value is AT_TARGET.
+
+##### 示例
+
+```js
+node.once(cc.Node.EventType.TOUCH_END, function (event) {
+    cc.log("this is callback");
+}, node);
+```
+
+##### dispatchEvent
+
+分发事件到事件流中。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/event/event-target.js:397](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L397) |
+
+###### 参数列表
+- `event` <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
+
+
+##### emit
+
+该对象直接发送事件， 这种方法不会对事件传播到任何其他对象。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/event/event-target.js:411](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/event-target.js#L411) |
+
+###### 参数列表
+- `message` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the message to send
+- `detail` Any whatever argument the message needs
 
 
 
@@ -2393,6 +2393,7 @@ Init this object from the custom serialized data.
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 注意：此节点激活时，此事件仅从最顶部的节点发出。

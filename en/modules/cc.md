@@ -11,13 +11,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 
 ### Classes
 
-  - [_BaseNode](../classes/_BaseNode.md)
-  - [_CallbacksHandler](../classes/_CallbacksHandler.md)
-  - [_JavaScript](../classes/_JavaScript.md)
-  - [_RendererInSG](../classes/_RendererInSG.md)
-  - [_RendererUnderSG](../classes/_RendererUnderSG.md)
-  - [_Script](../classes/_Script.md)
-  - [_SGComponent](../classes/_SGComponent.md)
   - [Acceleration](../classes/Acceleration.md)
   - [Action](../classes/Action.md)
   - [ActionEase](../classes/ActionEase.md)
@@ -92,7 +85,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [Node](../classes/Node.md)
   - [Node.EventType](../classes/Node.EventType.md)
   - [NodePool](../classes/NodePool.md)
-  - [Object](../classes/Object.md)
   - [OriginalContainer](../classes/OriginalContainer.md)
   - [PageView](../classes/PageView.md)
   - [PageViewIndicator](../classes/PageViewIndicator.md)
@@ -178,22 +170,15 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 
 ### Enums
 
-  - [AccountGender](../enums/AccountGender.md)
-  - [AccountOperate](../enums/AccountOperate.md)
-  - [AccountType](../enums/AccountType.md)
-  - [AdsPos](../enums/AdsPos.md)
-  - [AdsResultCode](../enums/AdsResultCode.md)
-  - [AdsType](../enums/AdsType.md)
-  - [AnimationEventType](../enums/AnimationEventType.md)
   - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [BlendFactor](../enums/BlendFactor.md)
   - [Button.Transition](../enums/Button.Transition.md)
-  - [CustomResultCode](../enums/CustomResultCode.md)
   - [DebugMode](../enums/DebugMode.md)
   - [DrawBits](../enums/DrawBits.md)
   - [EditBox.InputFlag](../enums/EditBox.InputFlag.md)
   - [EditBox.InputMode](../enums/EditBox.InputMode.md)
   - [EditBox.KeyboardReturnType](../enums/EditBox.KeyboardReturnType.md)
+  - [Flags](../enums/Flags.md)
   - [Graphics.LineCap](../enums/Graphics.LineCap.md)
   - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
   - [ImageFormat](../enums/ImageFormat.md)
@@ -217,29 +202,21 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [PageViewIndicator.Direction](../enums/PageViewIndicator.Direction.md)
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
-  - [PayResultCode](../enums/PayResultCode.md)
   - [Prefab.OptimizationPolicy](../enums/Prefab.OptimizationPolicy.md)
   - [ProgressBar.Mode](../enums/ProgressBar.Mode.md)
-  - [PushActionResultCode](../enums/PushActionResultCode.md)
   - [RayCastType](../enums/RayCastType.md)
-  - [RECResultCode](../enums/RECResultCode.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [Scrollbar.Direction](../enums/Scrollbar.Direction.md)
   - [ScrollView.EventType](../enums/ScrollView.EventType.md)
-  - [ShareResultCode](../enums/ShareResultCode.md)
   - [Slider.Direction](../enums/Slider.Direction.md)
-  - [SocialRetCode](../enums/SocialRetCode.md)
   - [Sprite.FillType](../enums/Sprite.FillType.md)
   - [Sprite.SizeMode](../enums/Sprite.SizeMode.md)
   - [Sprite.Type](../enums/Sprite.Type.md)
-  - [TaskType](../enums/TaskType.md)
   - [TextAlignment](../enums/TextAlignment.md)
   - [Texture2D.Filter](../enums/Texture2D.Filter.md)
   - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
   - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
   - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
-  - [ToolBarPlace](../enums/ToolBarPlace.md)
-  - [UserActionResultCode](../enums/UserActionResultCode.md)
   - [VideoPlayer.EventType](../enums/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../enums/VideoPlayer.ResourceType.md)
   - [WebView.EventType](../enums/WebView.EventType.md)
@@ -348,71 +325,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`delayTime`](#delaytime) Delays the action a certain amount of seconds.
   - [`reverseTime`](#reversetime) Executes an action in reverse order, from time=duration to time=0.
   - [`targetedAction`](#targetedaction) Create an action with the specified action and forced target.
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
-  - [`color`](#color) Alpha channel is optional.
-  - [`colorEqual`](#colorequal) returns true if both ccColor3B are equal.
-  - [`hexToColor`](#hextocolor) convert a string of color for style to Color.
-  - [`colorToHex`](#colortohex) convert Color to a string of color for style.
-  - [`pNeg`](#pneg) Returns opposite of Vec2.
-  - [`pAdd`](#padd) Calculates sum of two points.
-  - [`pSub`](#psub) Calculates difference of two points.
-  - [`pMult`](#pmult) Returns point multiplied by given factor.
-  - [`pMidpoint`](#pmidpoint) Calculates midpoint between two points.
-  - [`pDot`](#pdot) Calculates dot product of two points.
-  - [`pCross`](#pcross) Calculates cross product of two points.
-  - [`pPerp`](#pperp) Calculates perpendicular of v, rotated 90 degrees counter-clockwise -- cross(v, perp(v)) greater than 0.
-  - [`pRPerp`](#prperp) Calculates perpendicular of v, rotated 90 degrees clockwise -- cross(v, rperp(v)) smaller than 0.
-  - [`pProject`](#pproject) Calculates the projection of v1 over v2.
-  - [`pLengthSQ`](#plengthsq) Calculates the square length of a cc.Vec2 (not calling sqrt() ).
-  - [`pDistanceSQ`](#pdistancesq) Calculates the square distance between two points (not calling sqrt() ).
-  - [`pLength`](#plength) Calculates distance between point an origin.
-  - [`pDistance`](#pdistance) Calculates the distance between two points.
-  - [`pNormalize`](#pnormalize) Returns this vector with a magnitude of 1.
-  - [`pForAngle`](#pforangle) Converts radians to a normalized vector.
-  - [`pToAngle`](#ptoangle) Converts a vector to radians.
-  - [`clampf`](#clampf) Clamp a value between from and to.
-  - [`clamp01`](#clamp01) Clamp a value between 0 and 1.
-  - [`pClamp`](#pclamp) Clamp a point between from and to.
-  - [`pFromSize`](#pfromsize) Quickly convert cc.Size to a cc.Vec2.
-  - [`pCompOp`](#pcompop) Run a math operation function on each point component <br />...
-  - [`pLerp`](#plerp) Linear Interpolation between two points a and b.<br />...
-  - [`pFuzzyEqual`](#pfuzzyequal) TODO
-  - [`pCompMult`](#pcompmult) Multiplies a nd b components, a.x*b.x, a.y*b.y.
-  - [`pAngleSigned`](#panglesigned) TODO
-  - [`pAngle`](#pangle) TODO
-  - [`pRotateByAngle`](#protatebyangle) Rotates a point counter clockwise by the angle around a pivot.
-  - [`pLineIntersect`](#plineintersect) A general line-line intersection test
-  - [`pSegmentIntersect`](#psegmentintersect) ccpSegmentIntersect return YES if Segment A-B intersects with segment C-D.
-  - [`pIntersectPoint`](#pintersectpoint) ccpIntersectPoint return the intersection point of line A-B, C-D.
-  - [`pSameAs`](#psameas) check to see if both points are equal.
-  - [`pZeroIn`](#pzeroin) sets the position of the point to 0.
-  - [`pIn`](#pin) copies the position of one point to another.
-  - [`pMultIn`](#pmultin) multiplies the point with the given factor (inplace).
-  - [`pSubIn`](#psubin) subtracts one point from another (inplace).
-  - [`pAddIn`](#paddin) adds one point to another (inplace).
-  - [`pNormalizeIn`](#pnormalizein) normalizes the point (inplace).
-  - [`rect`](#rect) The convenience method to create a new Rect.
-  - [`rectEqualToRect`](#rectequaltorect) Check whether a rect's value equals to another.
-  - [`rectContainsRect`](#rectcontainsrect) Check whether the rect1 contains rect2.
-  - [`rectGetMaxX`](#rectgetmaxx) Returns the rightmost x-value of a rect.
-  - [`rectGetMidX`](#rectgetmidx) Return the midpoint x-value of a rect.
-  - [`rectGetMinX`](#rectgetminx) Returns the leftmost x-value of a rect.
-  - [`rectGetMaxY`](#rectgetmaxy) Return the topmost y-value of a rect.
-  - [`rectGetMidY`](#rectgetmidy) Return the midpoint y-value of `rect'.
-  - [`rectGetMinY`](#rectgetminy) Return the bottommost y-value of a rect.
-  - [`rectContainsPoint`](#rectcontainspoint) Check whether a rect contains a point.
-  - [`rectIntersectsRect`](#rectintersectsrect) Check whether a rect intersect with another.
-  - [`rectOverlapsRect`](#rectoverlapsrect) Check whether a rect overlaps another.
-  - [`rectUnion`](#rectunion) Returns the smallest rectangle that contains the two source rectangles.
-  - [`rectIntersection`](#rectintersection) Returns the overlapping portion of 2 rectangles.
-  - [`size`](#size) Helper function that creates a cc.Size....
-  - [`sizeEqualToSize`](#sizeequaltosize) Check whether a point's value equals to another.
-  - [`V3F_C4B_T2F_QuadZero`](#v3fc4bt2fquadzero) 
-  - [`V3F_C4B_T2F_QuadCopy`](#v3fc4bt2fquadcopy) 
-  - [`V3F_C4B_T2F_QuadsCopy`](#v3fc4bt2fquadscopy) 
-  - [`v2`](#v2) The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
-  - [`p`](#p) The convenience method to creates a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
-  - [`pointEqualToPoint`](#pointequaltopoint) Check whether a point's value equals to another.
   - [`handleTouchesBegin`](#handletouchesbegin) 
   - [`handleTouchesMove`](#handletouchesmove) 
   - [`handleTouchesEnd`](#handletouchesend) 
@@ -458,6 +370,71 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`isValid`](#isvalid) When an object's `destroy` is called, it is actually destroyed after the end of this frame.
   - [`deserialize`](#deserialize) Deserialize json to cc.Asset
   - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
+  - [`pNeg`](#pneg) Returns opposite of Vec2.
+  - [`pAdd`](#padd) Calculates sum of two points.
+  - [`pSub`](#psub) Calculates difference of two points.
+  - [`pMult`](#pmult) Returns point multiplied by given factor.
+  - [`pMidpoint`](#pmidpoint) Calculates midpoint between two points.
+  - [`pDot`](#pdot) Calculates dot product of two points.
+  - [`pCross`](#pcross) Calculates cross product of two points.
+  - [`pPerp`](#pperp) Calculates perpendicular of v, rotated 90 degrees counter-clockwise -- cross(v, perp(v)) greater than 0.
+  - [`pRPerp`](#prperp) Calculates perpendicular of v, rotated 90 degrees clockwise -- cross(v, rperp(v)) smaller than 0.
+  - [`pProject`](#pproject) Calculates the projection of v1 over v2.
+  - [`pLengthSQ`](#plengthsq) Calculates the square length of a cc.Vec2 (not calling sqrt() ).
+  - [`pDistanceSQ`](#pdistancesq) Calculates the square distance between two points (not calling sqrt() ).
+  - [`pLength`](#plength) Calculates distance between point an origin.
+  - [`pDistance`](#pdistance) Calculates the distance between two points.
+  - [`pNormalize`](#pnormalize) Returns this vector with a magnitude of 1.
+  - [`pForAngle`](#pforangle) Converts radians to a normalized vector.
+  - [`pToAngle`](#ptoangle) Converts a vector to radians.
+  - [`clampf`](#clampf) Clamp a value between from and to.
+  - [`clamp01`](#clamp01) Clamp a value between 0 and 1.
+  - [`pClamp`](#pclamp) Clamp a point between from and to.
+  - [`pFromSize`](#pfromsize) Quickly convert cc.Size to a cc.Vec2.
+  - [`pCompOp`](#pcompop) Run a math operation function on each point component <br />...
+  - [`pLerp`](#plerp) Linear Interpolation between two points a and b.<br />...
+  - [`pFuzzyEqual`](#pfuzzyequal) TODO
+  - [`pCompMult`](#pcompmult) Multiplies a nd b components, a.x*b.x, a.y*b.y.
+  - [`pAngleSigned`](#panglesigned) TODO
+  - [`pAngle`](#pangle) TODO
+  - [`pRotateByAngle`](#protatebyangle) Rotates a point counter clockwise by the angle around a pivot.
+  - [`pLineIntersect`](#plineintersect) A general line-line intersection test
+  - [`pSegmentIntersect`](#psegmentintersect) ccpSegmentIntersect return YES if Segment A-B intersects with segment C-D.
+  - [`pIntersectPoint`](#pintersectpoint) ccpIntersectPoint return the intersection point of line A-B, C-D.
+  - [`pSameAs`](#psameas) check to see if both points are equal.
+  - [`pZeroIn`](#pzeroin) sets the position of the point to 0.
+  - [`pIn`](#pin) copies the position of one point to another.
+  - [`pMultIn`](#pmultin) multiplies the point with the given factor (inplace).
+  - [`pSubIn`](#psubin) subtracts one point from another (inplace).
+  - [`pAddIn`](#paddin) adds one point to another (inplace).
+  - [`pNormalizeIn`](#pnormalizein) normalizes the point (inplace).
+  - [`color`](#color) Alpha channel is optional.
+  - [`colorEqual`](#colorequal) returns true if both ccColor3B are equal.
+  - [`hexToColor`](#hextocolor) convert a string of color for style to Color.
+  - [`colorToHex`](#colortohex) convert Color to a string of color for style.
+  - [`size`](#size) Helper function that creates a cc.Size....
+  - [`sizeEqualToSize`](#sizeequaltosize) Check whether a point's value equals to another.
+  - [`rect`](#rect) The convenience method to create a new Rect.
+  - [`rectEqualToRect`](#rectequaltorect) Check whether a rect's value equals to another.
+  - [`rectContainsRect`](#rectcontainsrect) Check whether the rect1 contains rect2.
+  - [`rectGetMaxX`](#rectgetmaxx) Returns the rightmost x-value of a rect.
+  - [`rectGetMidX`](#rectgetmidx) Return the midpoint x-value of a rect.
+  - [`rectGetMinX`](#rectgetminx) Returns the leftmost x-value of a rect.
+  - [`rectGetMaxY`](#rectgetmaxy) Return the topmost y-value of a rect.
+  - [`rectGetMidY`](#rectgetmidy) Return the midpoint y-value of `rect'.
+  - [`rectGetMinY`](#rectgetminy) Return the bottommost y-value of a rect.
+  - [`rectContainsPoint`](#rectcontainspoint) Check whether a rect contains a point.
+  - [`rectIntersectsRect`](#rectintersectsrect) Check whether a rect intersect with another.
+  - [`rectOverlapsRect`](#rectoverlapsrect) Check whether a rect overlaps another.
+  - [`rectUnion`](#rectunion) Returns the smallest rectangle that contains the two source rectangles.
+  - [`rectIntersection`](#rectintersection) Returns the overlapping portion of 2 rectangles.
+  - [`V3F_C4B_T2F_QuadZero`](#v3fc4bt2fquadzero) 
+  - [`V3F_C4B_T2F_QuadCopy`](#v3fc4bt2fquadcopy) 
+  - [`V3F_C4B_T2F_QuadsCopy`](#v3fc4bt2fquadscopy) 
+  - [`v2`](#v2) The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
+  - [`p`](#p) The convenience method to creates a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
+  - [`pointEqualToPoint`](#pointequaltopoint) Check whether a point's value equals to another.
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
 
 
 
@@ -2187,1215 +2164,6 @@ Create an action with the specified action and forced target.
 - `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| Defined in | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/utils/find.js#L30) |
-
-###### Parameters
-- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
-
-
-##### color
-
-The convenience method to create a new Color/Color:method
-Alpha channel is optional. Default value is 255.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:621](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L621) |
-
-###### Parameters
-- `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `g` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `b` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
------------------------
-// 1. All channels seperately as parameters
-var color1 = new cc.Color(255, 255, 255, 255);
-// 2. Convert a hex string to a color
-var color2 = new cc.Color("#000000");
-// 3. An color object as parameter
-var color3 = new cc.Color({r: 255, g: 255, b: 255, a: 255});
-
-```
-
-##### colorEqual
-
-returns true if both ccColor3B are equal. Otherwise it returns false.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:652](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L652) |
-
-###### Parameters
-- `color1` <a href="../classes/Color.html" class="crosslink">Color</a> 
-- `color2` <a href="../classes/Color.html" class="crosslink">Color</a> 
-
-##### Examples
-
-```js
-cc.log(cc.colorEqual(cc.Color.RED, new cc.Color(255, 0, 0))); // true
-```
-
-##### hexToColor
-
-convert a string of color for style to Color.
-e.g. "#ff06ff"  to : cc.color(255,6,255)。
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:671](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L671) |
-
-###### Parameters
-- `hex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-
-##### Examples
-
-```js
-cc.hexToColor("#FFFF33"); // Color {r: 255, g: 255, b: 51, a: 255};
-```
-
-##### colorToHex
-
-convert Color to a string of color for style.
-e.g.  cc.color(255,6,255)  to : "#ff06ff"
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/value-types/CCColor.js:691](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L691) |
-
-###### Parameters
-- `color` <a href="../classes/Color.html" class="crosslink">Color</a> 
-
-##### Examples
-
-```js
-var color = new cc.Color(255, 6, 255)
-cc.colorToHex(color); // #ff06ff;
-```
-
-##### pNeg
-
-Returns opposite of Vec2.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:47](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L47) |
-
-###### Parameters
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pNeg(cc.v2(10, 10));// Vec2 {x: -10, y: -10};
-```
-
-##### pAdd
-
-Calculates sum of two points.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:60](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L60) |
-
-###### Parameters
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pAdd(cc.v2(1, 1), cc.v2(2, 2));// Vec2 {x: 3, y: 3};
-```
-
-##### pSub
-
-Calculates difference of two points.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:74](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L74) |
-
-###### Parameters
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pSub(cc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 15, y: 15};
-```
-
-##### pMult
-
-Returns point multiplied by given factor.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:88](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L88) |
-
-###### Parameters
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `floatVar` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-cc.pMult(cc.v2(5, 5), 4); // Vec2 {x: 20, y: 20};
-```
-
-##### pMidpoint
-
-Calculates midpoint between two points.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:102](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L102) |
-
-###### Parameters
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pMidpoint(cc.v2(10, 10), cc.v2(5, 5)); // Vec2 {x: 7.5, y: 7.5};
-```
-
-##### pDot
-
-Calculates dot product of two points.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:116](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L116) |
-
-###### Parameters
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pDot(cc.v2(20, 20), cc.v2(5, 5)); // 200;
-```
-
-##### pCross
-
-Calculates cross product of two points.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:130](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L130) |
-
-###### Parameters
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pCross(cc.v2(20, 20), cc.v2(5, 5)); // 0;
-```
-
-##### pPerp
-
-Calculates perpendicular of v, rotated 90 degrees counter-clockwise -- cross(v, perp(v)) greater than 0.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:144](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L144) |
-
-###### Parameters
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pPerp(cc.v2(20, 20)); // Vec2 {x: -20, y: 20};
-```
-
-##### pRPerp
-
-Calculates perpendicular of v, rotated 90 degrees clockwise -- cross(v, rperp(v)) smaller than 0.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:157](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L157) |
-
-###### Parameters
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pRPerp(cc.v2(20, 20)); // Vec2 {x: 20, y: -20};
-```
-
-##### pProject
-
-Calculates the projection of v1 over v2.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:170](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L170) |
-
-###### Parameters
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-var v1 = cc.v2(20, 20);
-var v2 = cc.v2(5, 5);
-cc.pProject(v1, v2); // Vec2 {x: 20, y: 20};
-```
-
-##### pLengthSQ
-
-Calculates the square length of a cc.Vec2 (not calling sqrt() ).
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:186](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L186) |
-
-###### Parameters
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pLengthSQ(cc.v2(20, 20)); // 800;
-```
-
-##### pDistanceSQ
-
-Calculates the square distance between two points (not calling sqrt() ).
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:199](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L199) |
-
-###### Parameters
-- `point1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `point2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-var point1 = cc.v2(20, 20);
-var point2 = cc.v2(5, 5);
-cc.pDistanceSQ(point1, point2); // 450;
-```
-
-##### pLength
-
-Calculates distance between point an origin.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:215](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L215) |
-
-###### Parameters
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pLength(cc.v2(20, 20)); // 28.284271247461902;
-```
-
-##### pDistance
-
-Calculates the distance between two points.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:228](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L228) |
-
-###### Parameters
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-var v1 = cc.v2(20, 20);
-var v2 = cc.v2(5, 5);
-cc.pDistance(v1, v2); // 21.213203435596427;
-```
-
-##### pNormalize
-
-Returns this vector with a magnitude of 1.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:244](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L244) |
-
-###### Parameters
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pNormalize(cc.v2(20, 20)); // Vec2 {x: 0.7071067811865475, y: 0.7071067811865475};
-```
-
-##### pForAngle
-
-Converts radians to a normalized vector.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:258](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L258) |
-
-###### Parameters
-- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-cc.pForAngle(20); // Vec2 {x: 0.40808206181339196, y: 0.9129452507276277};
-```
-
-##### pToAngle
-
-Converts a vector to radians.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:271](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L271) |
-
-###### Parameters
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pToAngle(cc.v2(20, 20)); // 0.7853981633974483;
-```
-
-##### clampf
-
-Clamp a value between from and to.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:284](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L284) |
-
-###### Parameters
-- `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `min_inclusive` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `max_inclusive` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-var v1 = cc.clampf(20, 0, 20); // 20;
-var v2 = cc.clampf(-1, 0, 20); //  0;
-var v3 = cc.clampf(10, 0, 20); // 10;
-```
-
-##### clamp01
-
-Clamp a value between 0 and 1.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:310](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L310) |
-
-###### Parameters
-- `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-var v1 = cc.clampf(20);  // 1;
-var v2 = cc.clampf(-1);  // 0;
-var v3 = cc.clampf(0.5); // 0.5;
-```
-
-##### pClamp
-
-Clamp a point between from and to.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:325](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L325) |
-
-###### Parameters
-- `p` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `min_inclusive` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `max_inclusive` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-var min_inclusive = cc.v2(0, 0);
-var max_inclusive = cc.v2(20, 20);
-var v1 = cc.pClamp(cc.v2(20, 20), min_inclusive, max_inclusive); // Vec2 {x: 20, y: 20};
-var v2 = cc.pClamp(cc.v2(0, 0), min_inclusive, max_inclusive);   // Vec2 {x: 0, y: 0};
-var v3 = cc.pClamp(cc.v2(10, 10), min_inclusive, max_inclusive); // Vec2 {x: 10, y: 10};
-```
-
-##### pFromSize
-
-Quickly convert cc.Size to a cc.Vec2.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:348](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L348) |
-
-###### Parameters
-- `s` <a href="../classes/Size.html" class="crosslink">Size</a> 
-
-##### Examples
-
-```js
-cc.pFromSize(new cc.size(20, 20)); // Vec2 {x: 20, y: 20};
-```
-
-##### pCompOp
-
-Run a math operation function on each point component <br />
-Math.abs, Math.fllor, Math.ceil, Math.round.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:361](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L361) |
-
-###### Parameters
-- `p` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `opFunc` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-
-##### Examples
-
-```js
-cc.pCompOp(cc.p(-10, -10), Math.abs); // Vec2 {x: 10, y: 10};
-```
-
-##### pLerp
-
-Linear Interpolation between two points a and b.<br />
-alpha == 0 ? a <br />
-alpha == 1 ? b <br />
-otherwise a value between a..b.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:377](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L377) |
-
-###### Parameters
-- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `alpha` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-cc.pLerp(cc.v2(20, 20), cc.v2(5, 5), 0.5); // Vec2 {x: 12.5, y: 12.5};
-```
-
-##### pFuzzyEqual
-
-TODO
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:400](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L400) |
-
-###### Parameters
-- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `variance` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-var a = cc.v2(20, 20);
-var b = cc.v2(5, 5);
-var b1 = cc.pFuzzyEqual(a, b, 10); // false;
-var b2 = cc.pFuzzyEqual(a, b, 18); // true;
-```
-
-##### pCompMult
-
-Multiplies a nd b components, a.x*b.x, a.y*b.y.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:424](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L424) |
-
-###### Parameters
-- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-cc.pCompMult(acc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 100, y: 100};
-```
-
-##### pAngleSigned
-
-TODO
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:438](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L438) |
-
-###### Parameters
-- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pAngle
-
-TODO
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:455](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L455) |
-
-###### Parameters
-- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pRotateByAngle
-
-Rotates a point counter clockwise by the angle around a pivot.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:469](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L469) |
-
-###### Parameters
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> v is the point to rotate
-- `pivot` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> pivot is the pivot, naturally
-- `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> angle is the angle of rotation cw in radians
-
-
-##### pLineIntersect
-
-A general line-line intersection test
-indicating successful intersection of a line<br />
-note that to truly test intersection for segments we have to make<br />
-sure that s & t lie within [0..1] and for rays, make sure s & t > 0<br />
-the hit point is        p3 + t * (p4 - p3);<br />
-the hit point also is    p1 + s * (p2 - p1);
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:487](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L487) |
-
-###### Parameters
-- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A is the startpoint for the first line P1 = (p1 - p2).
-- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> B is the endpoint for the first line P1 = (p1 - p2).
-- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> C is the startpoint for the second line P2 = (p3 - p4).
-- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> D is the endpoint for the second line P2 = (p3 - p4).
-- `retP` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> retP.x is the range for a hitpoint in P1 (pa = p1 + s*(p2 - p1)), <br />
-retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
-
-
-##### pSegmentIntersect
-
-ccpSegmentIntersect return YES if Segment A-B intersects with segment C-D.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:538](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L538) |
-
-###### Parameters
-- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pIntersectPoint
-
-ccpIntersectPoint return the intersection point of line A-B, C-D.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:556](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L556) |
-
-###### Parameters
-- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pSameAs
-
-check to see if both points are equal.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:580](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L580) |
-
-###### Parameters
-- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A ccp a
-- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> B ccp b to be compared
-
-
-##### pZeroIn
-
-sets the position of the point to 0.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:599](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L599) |
-
-###### Parameters
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pIn
-
-copies the position of one point to another.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:610](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L610) |
-
-###### Parameters
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pMultIn
-
-multiplies the point with the given factor (inplace).
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:622](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L622) |
-
-###### Parameters
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `floatVar` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### pSubIn
-
-subtracts one point from another (inplace).
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:634](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L634) |
-
-###### Parameters
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pAddIn
-
-adds one point to another (inplace).
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:646](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L646) |
-
-###### Parameters
-- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### pNormalizeIn
-
-normalizes the point (inplace).
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/value-types/CCPointExtension.js:658](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L658) |
-
-###### Parameters
-- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
-##### rect
-
-The convenience method to create a new Rect.
-see Rect/Rect:method
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:370](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L370) |
-
-###### Parameters
-- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0 , 0, 10, 0);
-```
-
-##### rectEqualToRect
-
-Check whether a rect's value equals to another.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:392](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L392) |
-
-###### Parameters
-- `rect1` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-- `rect2` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0, 0, 10, 10);
-var b = new cc.Rect(0, 0, 5, 5);
-cc.rectEqualToRect(a, b); // false;
-var c = new cc.Rect(0, 0, 5, 5);
-cc.rectEqualToRect(b, c); // true;
-```
-
-##### rectContainsRect
-
-Check whether the rect1 contains rect2.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:414](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L414) |
-
-###### Parameters
-- `rect1` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-- `rect2` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0, 0, 20, 20);
-var b = new cc.Rect(10, 10, 20, 20);
-cc.rectContainsRect(a, b); // true;
-```
-
-##### rectGetMaxX
-
-Returns the rightmost x-value of a rect.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:436](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L436) |
-
-###### Parameters
-- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(10, 0, 20, 20);
-cc.rectGetMaxX(a); // 30;
-```
-
-##### rectGetMidX
-
-Return the midpoint x-value of a rect.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:450](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L450) |
-
-###### Parameters
-- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(10, 0, 20, 20);
-cc.rectGetMidX(a); // 20;
-```
-
-##### rectGetMinX
-
-Returns the leftmost x-value of a rect.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:463](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L463) |
-
-###### Parameters
-- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(10, 0, 20, 20);
-cc.rectGetMinX(a); // 10;
-```
-
-##### rectGetMaxY
-
-Return the topmost y-value of a rect.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:477](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L477) |
-
-###### Parameters
-- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0, 10, 20, 20);
-cc.rectGetMaxY(a); // 30;
-```
-
-##### rectGetMidY
-
-Return the midpoint y-value of `rect'.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:491](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L491) |
-
-###### Parameters
-- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0, 10, 20, 20);
-cc.rectGetMidY(a); // 20;
-```
-
-##### rectGetMinY
-
-Return the bottommost y-value of a rect.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:505](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L505) |
-
-###### Parameters
-- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0, 10, 20, 20);
-cc.rectGetMinY(a); // 10;
-```
-
-##### rectContainsPoint
-
-Check whether a rect contains a point.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:519](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L519) |
-
-###### Parameters
-- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0, 10, 20, 20);
-var b = new cc.Vec2(0, 10, 10, 10);
-cc.rectContainsPoint(a, b); // true;
-```
-
-##### rectIntersectsRect
-
-Check whether a rect intersect with another.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:536](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L536) |
-
-###### Parameters
-- `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-- `rectB` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0, 10, 20, 20);
-var b = new cc.Rect(0, 10, 10, 10);
-cc.rectIntersectsRect(a, b); // true;
-```
-
-##### rectOverlapsRect
-
-Check whether a rect overlaps another.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:556](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L556) |
-
-###### Parameters
-- `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-- `rectB` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0, 10, 20, 20);
-var b = new cc.Rect(0, 10, 10, 10);
-cc.rectOverlapsRect(a, b); // true;
-```
-
-##### rectUnion
-
-Returns the smallest rectangle that contains the two source rectangles.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:575](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L575) |
-
-###### Parameters
-- `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-- `rectB` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0, 10, 20, 20);
-var b = new cc.Rect(0, 10, 10, 10);
-cc.rectUnion(a, b); // Rect {x: 0, y: 10, width: 20, height: 20};
-```
-
-##### rectIntersection
-
-Returns the overlapping portion of 2 rectangles.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/value-types/CCRect.js:596](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L596) |
-
-###### Parameters
-- `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-- `rectB` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-
-##### Examples
-
-```js
-var a = new cc.Rect(0, 10, 20, 20);
-var b = new cc.Rect(0, 10, 10, 10);
-cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
-```
-
-##### size
-
-Helper function that creates a cc.Size.<br/>
-Please use cc.p or cc.v2 instead, it will soon replace cc.Size.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/value-types/CCSize.js:158](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCSize.js#L158) |
-
-###### Parameters
-- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> width or a size object
-- `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> height
-
-##### Examples
-
-```js
-var size1 = cc.size();
-var size2 = cc.size(100,100);
-var size3 = cc.size(size2);
-var size4 = cc.size({width: 100, height: 100});
-
-```
-
-##### sizeEqualToSize
-
-Check whether a point's value equals to another.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCSize.js:175](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCSize.js#L175) |
-
-###### Parameters
-- `size1` <a href="../classes/Size.html" class="crosslink">Size</a> 
-- `size2` <a href="../classes/Size.html" class="crosslink">Size</a> 
-
-##### Examples
-
-```js
-var a = new cc.size(10, 10);
-var b = new cc.size(10, 10);
-cc.sizeEqualToSize(a, b);// return true;
-var b = new cc.size(5, 10);
-cc.sizeEqualToSize(a, b);// return false;
-```
-
-##### V3F_C4B_T2F_QuadZero
-
-
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
-| Defined in | [cocos2d/core/value-types/CCTypesWebGL.js:502](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCTypesWebGL.js#L502) |
-
-
-
-##### V3F_C4B_T2F_QuadCopy
-
-
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
-| Defined in | [cocos2d/core/value-types/CCTypesWebGL.js:510](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCTypesWebGL.js#L510) |
-
-###### Parameters
-- `sourceQuad` <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
-
-
-##### V3F_C4B_T2F_QuadsCopy
-
-
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [cocos2d/core/value-types/CCTypesWebGL.js:537](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCTypesWebGL.js#L537) |
-
-###### Parameters
-- `sourceQuads` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-
-##### v2
-
-The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:589](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCVec2.js#L589) |
-
-###### Parameters
-- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-var v1 = cc.v2();
-var v2 = cc.v2(0, 0);
-var v3 = cc.v2(v2);
-var v4 = cc.v2({x: 100, y: 100});
-```
-
-##### p
-
-The convenience method to creates a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:606](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCVec2.js#L606) |
-
-###### Parameters
-- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-var point1 = cc.p();
-var point2 = cc.p(100, 100);
-var point3 = cc.p(point2);
-var point4 = cc.p({x: 100, y: 100});
-```
-
-##### pointEqualToPoint
-
-Check whether a point's value equals to another.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/CCVec2.js:624](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCVec2.js#L624) |
-
-###### Parameters
-- `point1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-- `point2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-
-
 ##### handleTouchesBegin
 
 
@@ -4141,5 +2909,1214 @@ var scene = cc.director.getScene();
 var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
+
+##### pNeg
+
+Returns opposite of Vec2.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:47](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L47) |
+
+###### Parameters
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pNeg(cc.v2(10, 10));// Vec2 {x: -10, y: -10};
+```
+
+##### pAdd
+
+Calculates sum of two points.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:60](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L60) |
+
+###### Parameters
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pAdd(cc.v2(1, 1), cc.v2(2, 2));// Vec2 {x: 3, y: 3};
+```
+
+##### pSub
+
+Calculates difference of two points.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:74](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L74) |
+
+###### Parameters
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pSub(cc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 15, y: 15};
+```
+
+##### pMult
+
+Returns point multiplied by given factor.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:88](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L88) |
+
+###### Parameters
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `floatVar` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+cc.pMult(cc.v2(5, 5), 4); // Vec2 {x: 20, y: 20};
+```
+
+##### pMidpoint
+
+Calculates midpoint between two points.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:102](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L102) |
+
+###### Parameters
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pMidpoint(cc.v2(10, 10), cc.v2(5, 5)); // Vec2 {x: 7.5, y: 7.5};
+```
+
+##### pDot
+
+Calculates dot product of two points.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:116](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L116) |
+
+###### Parameters
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pDot(cc.v2(20, 20), cc.v2(5, 5)); // 200;
+```
+
+##### pCross
+
+Calculates cross product of two points.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:130](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L130) |
+
+###### Parameters
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pCross(cc.v2(20, 20), cc.v2(5, 5)); // 0;
+```
+
+##### pPerp
+
+Calculates perpendicular of v, rotated 90 degrees counter-clockwise -- cross(v, perp(v)) greater than 0.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:144](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L144) |
+
+###### Parameters
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pPerp(cc.v2(20, 20)); // Vec2 {x: -20, y: 20};
+```
+
+##### pRPerp
+
+Calculates perpendicular of v, rotated 90 degrees clockwise -- cross(v, rperp(v)) smaller than 0.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:157](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L157) |
+
+###### Parameters
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pRPerp(cc.v2(20, 20)); // Vec2 {x: 20, y: -20};
+```
+
+##### pProject
+
+Calculates the projection of v1 over v2.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:170](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L170) |
+
+###### Parameters
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+var v1 = cc.v2(20, 20);
+var v2 = cc.v2(5, 5);
+cc.pProject(v1, v2); // Vec2 {x: 20, y: 20};
+```
+
+##### pLengthSQ
+
+Calculates the square length of a cc.Vec2 (not calling sqrt() ).
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:186](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L186) |
+
+###### Parameters
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pLengthSQ(cc.v2(20, 20)); // 800;
+```
+
+##### pDistanceSQ
+
+Calculates the square distance between two points (not calling sqrt() ).
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:199](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L199) |
+
+###### Parameters
+- `point1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `point2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+var point1 = cc.v2(20, 20);
+var point2 = cc.v2(5, 5);
+cc.pDistanceSQ(point1, point2); // 450;
+```
+
+##### pLength
+
+Calculates distance between point an origin.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:215](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L215) |
+
+###### Parameters
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pLength(cc.v2(20, 20)); // 28.284271247461902;
+```
+
+##### pDistance
+
+Calculates the distance between two points.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:228](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L228) |
+
+###### Parameters
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+var v1 = cc.v2(20, 20);
+var v2 = cc.v2(5, 5);
+cc.pDistance(v1, v2); // 21.213203435596427;
+```
+
+##### pNormalize
+
+Returns this vector with a magnitude of 1.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:244](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L244) |
+
+###### Parameters
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pNormalize(cc.v2(20, 20)); // Vec2 {x: 0.7071067811865475, y: 0.7071067811865475};
+```
+
+##### pForAngle
+
+Converts radians to a normalized vector.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:258](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L258) |
+
+###### Parameters
+- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+cc.pForAngle(20); // Vec2 {x: 0.40808206181339196, y: 0.9129452507276277};
+```
+
+##### pToAngle
+
+Converts a vector to radians.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:271](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L271) |
+
+###### Parameters
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pToAngle(cc.v2(20, 20)); // 0.7853981633974483;
+```
+
+##### clampf
+
+Clamp a value between from and to.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:284](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L284) |
+
+###### Parameters
+- `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `min_inclusive` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `max_inclusive` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+var v1 = cc.clampf(20, 0, 20); // 20;
+var v2 = cc.clampf(-1, 0, 20); //  0;
+var v3 = cc.clampf(10, 0, 20); // 10;
+```
+
+##### clamp01
+
+Clamp a value between 0 and 1.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:310](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L310) |
+
+###### Parameters
+- `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+var v1 = cc.clampf(20);  // 1;
+var v2 = cc.clampf(-1);  // 0;
+var v3 = cc.clampf(0.5); // 0.5;
+```
+
+##### pClamp
+
+Clamp a point between from and to.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:325](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L325) |
+
+###### Parameters
+- `p` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `min_inclusive` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `max_inclusive` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+var min_inclusive = cc.v2(0, 0);
+var max_inclusive = cc.v2(20, 20);
+var v1 = cc.pClamp(cc.v2(20, 20), min_inclusive, max_inclusive); // Vec2 {x: 20, y: 20};
+var v2 = cc.pClamp(cc.v2(0, 0), min_inclusive, max_inclusive);   // Vec2 {x: 0, y: 0};
+var v3 = cc.pClamp(cc.v2(10, 10), min_inclusive, max_inclusive); // Vec2 {x: 10, y: 10};
+```
+
+##### pFromSize
+
+Quickly convert cc.Size to a cc.Vec2.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:348](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L348) |
+
+###### Parameters
+- `s` <a href="../classes/Size.html" class="crosslink">Size</a> 
+
+##### Examples
+
+```js
+cc.pFromSize(new cc.size(20, 20)); // Vec2 {x: 20, y: 20};
+```
+
+##### pCompOp
+
+Run a math operation function on each point component <br />
+Math.abs, Math.fllor, Math.ceil, Math.round.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:361](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L361) |
+
+###### Parameters
+- `p` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `opFunc` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+
+##### Examples
+
+```js
+cc.pCompOp(cc.p(-10, -10), Math.abs); // Vec2 {x: 10, y: 10};
+```
+
+##### pLerp
+
+Linear Interpolation between two points a and b.<br />
+alpha == 0 ? a <br />
+alpha == 1 ? b <br />
+otherwise a value between a..b.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:377](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L377) |
+
+###### Parameters
+- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `alpha` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+cc.pLerp(cc.v2(20, 20), cc.v2(5, 5), 0.5); // Vec2 {x: 12.5, y: 12.5};
+```
+
+##### pFuzzyEqual
+
+TODO
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:400](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L400) |
+
+###### Parameters
+- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `variance` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+var a = cc.v2(20, 20);
+var b = cc.v2(5, 5);
+var b1 = cc.pFuzzyEqual(a, b, 10); // false;
+var b2 = cc.pFuzzyEqual(a, b, 18); // true;
+```
+
+##### pCompMult
+
+Multiplies a nd b components, a.x*b.x, a.y*b.y.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:424](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L424) |
+
+###### Parameters
+- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+cc.pCompMult(acc.v2(20, 20), cc.v2(5, 5)); // Vec2 {x: 100, y: 100};
+```
+
+##### pAngleSigned
+
+TODO
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:438](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L438) |
+
+###### Parameters
+- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pAngle
+
+TODO
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:455](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L455) |
+
+###### Parameters
+- `a` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `b` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pRotateByAngle
+
+Rotates a point counter clockwise by the angle around a pivot.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:469](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L469) |
+
+###### Parameters
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> v is the point to rotate
+- `pivot` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> pivot is the pivot, naturally
+- `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> angle is the angle of rotation cw in radians
+
+
+##### pLineIntersect
+
+A general line-line intersection test
+indicating successful intersection of a line<br />
+note that to truly test intersection for segments we have to make<br />
+sure that s & t lie within [0..1] and for rays, make sure s & t > 0<br />
+the hit point is        p3 + t * (p4 - p3);<br />
+the hit point also is    p1 + s * (p2 - p1);
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:487](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L487) |
+
+###### Parameters
+- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A is the startpoint for the first line P1 = (p1 - p2).
+- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> B is the endpoint for the first line P1 = (p1 - p2).
+- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> C is the startpoint for the second line P2 = (p3 - p4).
+- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> D is the endpoint for the second line P2 = (p3 - p4).
+- `retP` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> retP.x is the range for a hitpoint in P1 (pa = p1 + s*(p2 - p1)), <br />
+retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
+
+
+##### pSegmentIntersect
+
+ccpSegmentIntersect return YES if Segment A-B intersects with segment C-D.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:538](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L538) |
+
+###### Parameters
+- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pIntersectPoint
+
+ccpIntersectPoint return the intersection point of line A-B, C-D.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:556](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L556) |
+
+###### Parameters
+- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `C` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `D` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pSameAs
+
+check to see if both points are equal.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:580](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L580) |
+
+###### Parameters
+- `A` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> A ccp a
+- `B` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> B ccp b to be compared
+
+
+##### pZeroIn
+
+sets the position of the point to 0.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:599](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L599) |
+
+###### Parameters
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pIn
+
+copies the position of one point to another.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:610](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L610) |
+
+###### Parameters
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pMultIn
+
+multiplies the point with the given factor (inplace).
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:622](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L622) |
+
+###### Parameters
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `floatVar` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
+##### pSubIn
+
+subtracts one point from another (inplace).
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:634](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L634) |
+
+###### Parameters
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pAddIn
+
+adds one point to another (inplace).
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:646](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L646) |
+
+###### Parameters
+- `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `v2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### pNormalizeIn
+
+normalizes the point (inplace).
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/value-types/CCPointExtension.js:658](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCPointExtension.js#L658) |
+
+###### Parameters
+- `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### color
+
+The convenience method to create a new Color/Color:method
+Alpha channel is optional. Default value is 255.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
+| Defined in | [cocos2d/core/value-types/CCColor.js:621](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L621) |
+
+###### Parameters
+- `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `g` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `b` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+-----------------------
+// 1. All channels seperately as parameters
+var color1 = new cc.Color(255, 255, 255, 255);
+// 2. Convert a hex string to a color
+var color2 = new cc.Color("#000000");
+// 3. An color object as parameter
+var color3 = new cc.Color({r: 255, g: 255, b: 255, a: 255});
+
+```
+
+##### colorEqual
+
+returns true if both ccColor3B are equal. Otherwise it returns false.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCColor.js:652](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L652) |
+
+###### Parameters
+- `color1` <a href="../classes/Color.html" class="crosslink">Color</a> 
+- `color2` <a href="../classes/Color.html" class="crosslink">Color</a> 
+
+##### Examples
+
+```js
+cc.log(cc.colorEqual(cc.Color.RED, new cc.Color(255, 0, 0))); // true
+```
+
+##### hexToColor
+
+convert a string of color for style to Color.
+e.g. "#ff06ff"  to : cc.color(255,6,255)。
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Color.html" class="crosslink">Color</a> 
+| Defined in | [cocos2d/core/value-types/CCColor.js:671](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L671) |
+
+###### Parameters
+- `hex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+
+##### Examples
+
+```js
+cc.hexToColor("#FFFF33"); // Color {r: 255, g: 255, b: 51, a: 255};
+```
+
+##### colorToHex
+
+convert Color to a string of color for style.
+e.g.  cc.color(255,6,255)  to : "#ff06ff"
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Defined in | [cocos2d/core/value-types/CCColor.js:691](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L691) |
+
+###### Parameters
+- `color` <a href="../classes/Color.html" class="crosslink">Color</a> 
+
+##### Examples
+
+```js
+var color = new cc.Color(255, 6, 255)
+cc.colorToHex(color); // #ff06ff;
+```
+
+##### size
+
+Helper function that creates a cc.Size.<br/>
+Please use cc.p or cc.v2 instead, it will soon replace cc.Size.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
+| Defined in | [cocos2d/core/value-types/CCSize.js:158](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCSize.js#L158) |
+
+###### Parameters
+- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> width or a size object
+- `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> height
+
+##### Examples
+
+```js
+var size1 = cc.size();
+var size2 = cc.size(100,100);
+var size3 = cc.size(size2);
+var size4 = cc.size({width: 100, height: 100});
+
+```
+
+##### sizeEqualToSize
+
+Check whether a point's value equals to another.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCSize.js:175](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCSize.js#L175) |
+
+###### Parameters
+- `size1` <a href="../classes/Size.html" class="crosslink">Size</a> 
+- `size2` <a href="../classes/Size.html" class="crosslink">Size</a> 
+
+##### Examples
+
+```js
+var a = new cc.size(10, 10);
+var b = new cc.size(10, 10);
+cc.sizeEqualToSize(a, b);// return true;
+var b = new cc.size(5, 10);
+cc.sizeEqualToSize(a, b);// return false;
+```
+
+##### rect
+
+The convenience method to create a new Rect.
+see Rect/Rect:method
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:370](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L370) |
+
+###### Parameters
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0 , 0, 10, 0);
+```
+
+##### rectEqualToRect
+
+Check whether a rect's value equals to another.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:392](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L392) |
+
+###### Parameters
+- `rect1` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `rect2` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0, 0, 10, 10);
+var b = new cc.Rect(0, 0, 5, 5);
+cc.rectEqualToRect(a, b); // false;
+var c = new cc.Rect(0, 0, 5, 5);
+cc.rectEqualToRect(b, c); // true;
+```
+
+##### rectContainsRect
+
+Check whether the rect1 contains rect2.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:414](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L414) |
+
+###### Parameters
+- `rect1` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `rect2` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0, 0, 20, 20);
+var b = new cc.Rect(10, 10, 20, 20);
+cc.rectContainsRect(a, b); // true;
+```
+
+##### rectGetMaxX
+
+Returns the rightmost x-value of a rect.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:436](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L436) |
+
+###### Parameters
+- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(10, 0, 20, 20);
+cc.rectGetMaxX(a); // 30;
+```
+
+##### rectGetMidX
+
+Return the midpoint x-value of a rect.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:450](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L450) |
+
+###### Parameters
+- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(10, 0, 20, 20);
+cc.rectGetMidX(a); // 20;
+```
+
+##### rectGetMinX
+
+Returns the leftmost x-value of a rect.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:463](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L463) |
+
+###### Parameters
+- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(10, 0, 20, 20);
+cc.rectGetMinX(a); // 10;
+```
+
+##### rectGetMaxY
+
+Return the topmost y-value of a rect.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:477](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L477) |
+
+###### Parameters
+- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0, 10, 20, 20);
+cc.rectGetMaxY(a); // 30;
+```
+
+##### rectGetMidY
+
+Return the midpoint y-value of `rect'.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:491](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L491) |
+
+###### Parameters
+- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0, 10, 20, 20);
+cc.rectGetMidY(a); // 20;
+```
+
+##### rectGetMinY
+
+Return the bottommost y-value of a rect.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:505](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L505) |
+
+###### Parameters
+- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0, 10, 20, 20);
+cc.rectGetMinY(a); // 10;
+```
+
+##### rectContainsPoint
+
+Check whether a rect contains a point.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:519](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L519) |
+
+###### Parameters
+- `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0, 10, 20, 20);
+var b = new cc.Vec2(0, 10, 10, 10);
+cc.rectContainsPoint(a, b); // true;
+```
+
+##### rectIntersectsRect
+
+Check whether a rect intersect with another.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:536](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L536) |
+
+###### Parameters
+- `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `rectB` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0, 10, 20, 20);
+var b = new cc.Rect(0, 10, 10, 10);
+cc.rectIntersectsRect(a, b); // true;
+```
+
+##### rectOverlapsRect
+
+Check whether a rect overlaps another.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:556](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L556) |
+
+###### Parameters
+- `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `rectB` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0, 10, 20, 20);
+var b = new cc.Rect(0, 10, 10, 10);
+cc.rectOverlapsRect(a, b); // true;
+```
+
+##### rectUnion
+
+Returns the smallest rectangle that contains the two source rectangles.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:575](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L575) |
+
+###### Parameters
+- `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `rectB` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0, 10, 20, 20);
+var b = new cc.Rect(0, 10, 10, 10);
+cc.rectUnion(a, b); // Rect {x: 0, y: 10, width: 20, height: 20};
+```
+
+##### rectIntersection
+
+Returns the overlapping portion of 2 rectangles.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+| Defined in | [cocos2d/core/value-types/CCRect.js:596](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCRect.js#L596) |
+
+###### Parameters
+- `rectA` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+- `rectB` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0, 10, 20, 20);
+var b = new cc.Rect(0, 10, 10, 10);
+cc.rectIntersection(a, b); // Rect {x: 0, y: 10, width: 10, height: 10};
+```
+
+##### V3F_C4B_T2F_QuadZero
+
+
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
+| Defined in | [cocos2d/core/value-types/CCTypesWebGL.js:502](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCTypesWebGL.js#L502) |
+
+
+
+##### V3F_C4B_T2F_QuadCopy
+
+
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
+| Defined in | [cocos2d/core/value-types/CCTypesWebGL.js:510](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCTypesWebGL.js#L510) |
+
+###### Parameters
+- `sourceQuad` <a href="../classes/V3F_C4B_T2F_Quad.html" class="crosslink">V3F_C4B_T2F_Quad</a> 
+
+
+##### V3F_C4B_T2F_QuadsCopy
+
+
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+| Defined in | [cocos2d/core/value-types/CCTypesWebGL.js:537](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCTypesWebGL.js#L537) |
+
+###### Parameters
+- `sourceQuads` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+
+
+##### v2
+
+The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCVec2.js:589](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCVec2.js#L589) |
+
+###### Parameters
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+var v1 = cc.v2();
+var v2 = cc.v2(0, 0);
+var v3 = cc.v2(v2);
+var v4 = cc.v2({x: 100, y: 100});
+```
+
+##### p
+
+The convenience method to creates a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/CCVec2.js:606](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCVec2.js#L606) |
+
+###### Parameters
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+var point1 = cc.p();
+var point2 = cc.p(100, 100);
+var point3 = cc.p(point2);
+var point4 = cc.p({x: 100, y: 100});
+```
+
+##### pointEqualToPoint
+
+Check whether a point's value equals to another.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/value-types/CCVec2.js:624](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCVec2.js#L624) |
+
+###### Parameters
+- `point1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+- `point2` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+
+
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| Defined in | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/utils/find.js#L30) |
+
+###### Parameters
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
+
 
 

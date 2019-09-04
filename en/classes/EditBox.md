@@ -4,6 +4,7 @@ Extends [`_RendererUnderSG`](_RendererUnderSG.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 cc.EditBox is a component for inputing text, you can use it to gather small amounts of text from users.
@@ -967,6 +968,7 @@ Init this object from the custom serialized data.
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Note: This event is emitted from the node to which the component belongs.
@@ -990,6 +992,7 @@ Note: This event is emitted from the node to which the component belongs.
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Note: This event is emitted from the node to which the component belongs.
@@ -1013,6 +1016,7 @@ Note: This event is emitted from the node to which the component belongs.
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Note: This event is emitted from the node to which the component belongs.
@@ -1036,6 +1040,7 @@ Note: This event is emitted from the node to which the component belongs.
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Note: This event is emitted from the node to which the component belongs.
