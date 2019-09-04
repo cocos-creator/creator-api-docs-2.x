@@ -15,9 +15,9 @@ Box Collider.
 
 ##### Properties
 
-  - [`tag`](#tag) `Integer` Tag.
   - [`offset`](#offset) `Vec2` Position offset
   - [`size`](#size) `Size` Box size
+  - [`tag`](#tag) `Integer` Tag.
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` The node this component is attached to.
   - [`uuid`](#uuid) `String` The uuid for editor.
@@ -70,17 +70,6 @@ Box Collider.
 #### Properties
 
 
-##### tag
-
-> Tag. If a node has several collider components, you can judge which type of collider is collided according to the tag.
-
-| meta | description |
-|------|-------------|
-| Type | Integer |
-| Defined in | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/collider/CCCollider.js#L47) |
-
-
-
 ##### offset
 
 > Position offset
@@ -100,6 +89,17 @@ Box Collider.
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
 | Defined in | [cocos2d/core/collider/CCBoxCollider.js:58](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/collider/CCBoxCollider.js#L58) |
+
+
+
+##### tag
+
+> Tag. If a node has several collider components, you can judge which type of collider is collided according to the tag.
+
+| meta | description |
+|------|-------------|
+| Type | Integer |
+| Defined in | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/collider/CCCollider.js#L47) |
 
 
 

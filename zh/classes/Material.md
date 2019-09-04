@@ -3,7 +3,7 @@
 继承于 [`Asset`](Asset.md)
 
 
-模块: [cc](../modules/cc.md)
+模块: [primitive](../modules/primitive.md)
 父模块: [cc](../modules/cc.md)
 
 

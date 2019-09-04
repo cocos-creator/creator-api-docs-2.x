@@ -4,6 +4,7 @@ Extends [`Asset`](Asset.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Class for JSON file. When the JSON file is loaded, this object is returned.

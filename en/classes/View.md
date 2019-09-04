@@ -2,7 +2,7 @@
 
 
 
-Module: [cc](../modules/cc.md)
+Module: [_decorator](../modules/_decorator.md)
 Parent Module: [cc](../modules/cc.md)
 
 
@@ -525,7 +525,7 @@ Returns the real location in view for a translation based on a related position
 
 
 
-Module: [cc](../modules/cc.md)
+Module: [_decorator](../modules/_decorator.md)
 Parent Module: [cc](../modules/cc.md)
 
 
@@ -552,7 +552,7 @@ Emit when design resolution changed.
 
 
 
-Module: [cc](../modules/cc.md)
+Module: [_decorator](../modules/_decorator.md)
 Parent Module: [cc](../modules/cc.md)
 
 
