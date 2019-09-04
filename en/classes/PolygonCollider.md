@@ -15,9 +15,9 @@ Polygon Collider.
 
 ##### Properties
 
+  - [`tag`](#tag) `Integer` Tag.
   - [`offset`](#offset) `Vec2` Position offset
   - [`points`](#points) `Vec2[]` Polygon points
-  - [`tag`](#tag) `Integer` Tag.
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` The node this component is attached to.
   - [`uuid`](#uuid) `String` The uuid for editor.
@@ -70,6 +70,17 @@ Polygon Collider.
 #### Properties
 
 
+##### tag
+
+> Tag. If a node has several collider components, you can judge which type of collider is collided according to the tag.
+
+| meta | description |
+|------|-------------|
+| Type | Integer |
+| Defined in | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/collider/CCCollider.js#L47) |
+
+
+
 ##### offset
 
 > Position offset
@@ -89,17 +100,6 @@ Polygon Collider.
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> |
 | Defined in | [cocos2d/core/collider/CCPolygonCollider.js:61](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/collider/CCPolygonCollider.js#L61) |
-
-
-
-##### tag
-
-> Tag. If a node has several collider components, you can judge which type of collider is collided according to the tag.
-
-| meta | description |
-|------|-------------|
-| Type | Integer |
-| Defined in | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/collider/CCCollider.js#L47) |
 
 
 

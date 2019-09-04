@@ -3,7 +3,7 @@
 继承于 [`AnimationClip`](AnimationClip.md)
 
 
-模块: [cc](../modules/cc.md)
+模块: [primitive](../modules/primitive.md)
 父模块: [cc](../modules/cc.md)
 
 

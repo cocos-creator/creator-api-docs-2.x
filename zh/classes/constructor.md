@@ -2,7 +2,7 @@
 
 
 
-模块: [cc](../modules/cc.md)
+模块: [_decorator](../modules/_decorator.md)
 父模块: [cc](../modules/cc.md)
 
 

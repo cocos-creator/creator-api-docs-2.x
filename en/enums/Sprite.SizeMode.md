@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Sprite Size can track trimmed size, raw size or none.

@@ -11,10 +11,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 
 ### Classes
 
-  - [_BaseNode](../classes/_BaseNode.md)
-  - [_CallbacksHandler](../classes/_CallbacksHandler.md)
-  - [_JavaScript](../classes/_JavaScript.md)
-  - [_Script](../classes/_Script.md)
   - [Action](../classes/Action.md)
   - [ActionInstant](../classes/ActionInstant.md)
   - [ActionInterval](../classes/ActionInterval.md)
@@ -93,7 +89,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [Node](../classes/Node.md)
   - [Node.EventType](../classes/Node.EventType.md)
   - [NodePool](../classes/NodePool.md)
-  - [Object](../classes/Object.md)
   - [OriginalContainer](../classes/OriginalContainer.md)
   - [PageView](../classes/PageView.md)
   - [PageViewIndicator](../classes/PageViewIndicator.md)
@@ -182,22 +177,14 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 
 ### Enums
 
-  - [AccountGender](../enums/AccountGender.md)
-  - [AccountOperate](../enums/AccountOperate.md)
-  - [AccountType](../enums/AccountType.md)
-  - [AdsPos](../enums/AdsPos.md)
-  - [AdsResultCode](../enums/AdsResultCode.md)
-  - [AdsType](../enums/AdsType.md)
-  - [AnimationEventType](../enums/AnimationEventType.md)
-  - [ArmatureDisplay.AnimationCacheMode](../enums/ArmatureDisplay.AnimationCacheMode.md)
   - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [Button.Transition](../enums/Button.Transition.md)
   - [Camera.ClearFlags](../enums/Camera.ClearFlags.md)
-  - [CustomResultCode](../enums/CustomResultCode.md)
   - [debug.DebugMode](../enums/debug.DebugMode.md)
   - [EditBox.InputFlag](../enums/EditBox.InputFlag.md)
   - [EditBox.InputMode](../enums/EditBox.InputMode.md)
   - [EditBox.KeyboardReturnType](../enums/EditBox.KeyboardReturnType.md)
+  - [Flags](../enums/Flags.md)
   - [Graphics.LineCap](../enums/Graphics.LineCap.md)
   - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
   - [Label.HorizontalAlign](../enums/Label.HorizontalAlign.md)
@@ -218,38 +205,30 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [macro.TextAlignment](../enums/macro.TextAlignment.md)
   - [Mask.Type](../enums/Mask.Type.md)
   - [NetworkType](../enums/NetworkType.md)
+  - [Node._LocalDirtyFlag](../enums/Node._LocalDirtyFlag.md)
   - [PageView.Direction](../enums/PageView.Direction.md)
   - [PageView.EventType](../enums/PageView.EventType.md)
   - [PageView.SizeMode](../enums/PageView.SizeMode.md)
   - [PageViewIndicator.Direction](../enums/PageViewIndicator.Direction.md)
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
-  - [PayResultCode](../enums/PayResultCode.md)
   - [PhysicsManager.DrawBits](../enums/PhysicsManager.DrawBits.md)
   - [Prefab.OptimizationPolicy](../enums/Prefab.OptimizationPolicy.md)
   - [primitive.PolyhedronType](../enums/primitive.PolyhedronType.md)
   - [ProgressBar.Mode](../enums/ProgressBar.Mode.md)
-  - [PushActionResultCode](../enums/PushActionResultCode.md)
   - [RayCastType](../enums/RayCastType.md)
-  - [RECResultCode](../enums/RECResultCode.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [Scrollbar.Direction](../enums/Scrollbar.Direction.md)
   - [ScrollView.EventType](../enums/ScrollView.EventType.md)
-  - [ShareResultCode](../enums/ShareResultCode.md)
-  - [Skeleton.AnimationCacheMode](../enums/Skeleton.AnimationCacheMode.md)
   - [Slider.Direction](../enums/Slider.Direction.md)
-  - [SocialRetCode](../enums/SocialRetCode.md)
   - [Sprite.FillType](../enums/Sprite.FillType.md)
   - [Sprite.SizeMode](../enums/Sprite.SizeMode.md)
   - [Sprite.State](../enums/Sprite.State.md)
   - [Sprite.Type](../enums/Sprite.Type.md)
-  - [TaskType](../enums/TaskType.md)
   - [Texture2D.Filter](../enums/Texture2D.Filter.md)
   - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
   - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
   - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
-  - [ToolBarPlace](../enums/ToolBarPlace.md)
-  - [UserActionResultCode](../enums/UserActionResultCode.md)
   - [VerticalTextAlignment](../enums/VerticalTextAlignment.md)
   - [VideoPlayer.EventType](../enums/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../enums/VideoPlayer.ResourceType.md)
@@ -266,19 +245,22 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`director`](#director) `Director` Director
   - [`game`](#game) `Game` This is a Game instance.
   - [`easing`](#easing) `Easing` This is a Easing instance.
-  - [`systemEvent`](#systemevent) `SystemEvent` The System event singleton for global usage
+  - [`view`](#view) `View` cc.view is the shared view object.
+  - [`winSize`](#winsize) `Size` cc.winSize is the alias object for the size of the current game window.
   - [`Integer`](#integer) `string` Specify that the input value must be integer in Inspector.
   - [`Float`](#float) `string` Indicates that the elements in array should be type double.
   - [`Boolean`](#boolean) `string` Indicates that the elements in array should be type boolean.
   - [`String`](#string) `string` Indicates that the elements in array should be type string.
-  - [`view`](#view) `View` cc.view is the shared view object.
-  - [`winSize`](#winsize) `Size` cc.winSize is the alias object for the size of the current game window.
+  - [`systemEvent`](#systemevent) `SystemEvent` The System event singleton for global usage
   - [`dynamicAtlasManager`](#dynamicatlasmanager) `DynamicAtlasManager` 
 
 
 
 ##### Methods
 
+  - [`error`](#error) Outputs an error message to the Cocos Creator Console (editor) or Web Console (runtime)....
+  - [`warn`](#warn) Outputs a warning message to the Cocos Creator Console (editor) or Web Console (runtime).
+  - [`log`](#log) Outputs a message to the Cocos Creator Console (editor) or Web Console (runtime).
   - [`speed`](#speed) or less (speed < 1) time.
   - [`follow`](#follow) Create a follow action which makes its target follows another node.
   - [`setPoints`](#setpoints) Points setter
@@ -287,6 +269,39 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`cardinalSplineBy`](#cardinalsplineby) Creates an action with a Cardinal Spline array of points and tension.
   - [`catmullRomTo`](#catmullromto) Creates an action with a Cardinal Spline array of points and tension.
   - [`catmullRomBy`](#catmullromby) Creates an action with a Cardinal Spline array of points and tension.
+  - [`sequence`](#sequence) Helper constructor to create an array of sequenceable actions
+  - [`repeat`](#repeat) Creates a Repeat action.
+  - [`repeatForever`](#repeatforever) Create a acton which repeat forever, as it runs forever, it can't be added into cc.sequence and cc.spawn.
+  - [`spawn`](#spawn) Create a spawn action which runs several actions in parallel.
+  - [`rotateTo`](#rotateto) Rotates a Node object to a certain angle by modifying its angle property.
+  - [`rotateBy`](#rotateby) Rotates a Node object clockwise a number of degrees by modifying its angle property.
+  - [`moveBy`](#moveby) Moves a Node object x,y pixels by modifying its position property.
+  - [`moveTo`](#moveto) Moves a Node object to the position x,y.
+  - [`skewTo`](#skewto) Create a action which skews a Node object to given angles by modifying its skewX and skewY properties.
+  - [`skewBy`](#skewby) Skews a Node object by skewX and skewY degrees.
+  - [`jumpBy`](#jumpby) Moves a Node object simulating a parabolic jump movement by modifying it's position property.
+  - [`jumpTo`](#jumpto) Moves a Node object to a parabolic position simulating a jump movement by modifying its position property.
+  - [`bezierBy`](#bezierby) An action that moves the target with a cubic Bezier curve by a certain distance.
+  - [`bezierTo`](#bezierto) An action that moves the target with a cubic Bezier curve to a destination point.
+  - [`scaleTo`](#scaleto) Scales a Node object to a zoom factor by modifying it's scale property.
+  - [`scaleBy`](#scaleby) Scales a Node object a zoom factor by modifying it's scale property.
+  - [`blink`](#blink) Blinks a Node object by modifying it's visible property.
+  - [`fadeTo`](#fadeto) Fades an object that implements the cc.RGBAProtocol protocol.
+  - [`fadeIn`](#fadein) Fades In an object that implements the cc.RGBAProtocol protocol.
+  - [`fadeOut`](#fadeout) Fades Out an object that implements the cc.RGBAProtocol protocol.
+  - [`tintTo`](#tintto) Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
+  - [`tintBy`](#tintby) Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
+  - [`delayTime`](#delaytime) Delays the action a certain amount of seconds.
+  - [`reverseTime`](#reversetime) Executes an action in reverse order, from time=duration to time=0.
+  - [`targetedAction`](#targetedaction) Create an action with the specified action and forced target.
+  - [`show`](#show) Show the Node.
+  - [`hide`](#hide) Hide the node.
+  - [`toggleVisibility`](#togglevisibility) Toggles the visibility of a node.
+  - [`removeSelf`](#removeself) Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
+  - [`flipX`](#flipx) Create a FlipX action to flip or unflip the target.
+  - [`flipY`](#flipy) Create a FlipY action to flip or unflip the target.
+  - [`place`](#place) Creates a Place action with a position.
+  - [`callFunc`](#callfunc) Creates the action with the callback.
   - [`easeIn`](#easein) Creates the action easing object with the rate parameter.
   - [`easeOut`](#easeout) Creates the action easing object with the rate parameter.
   - [`easeInOut`](#easeinout) Creates the action easing object with the rate parameter.
@@ -321,48 +336,10 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`easeCubicActionIn`](#easecubicactionin) Creates the action easing object.
   - [`easeCubicActionOut`](#easecubicactionout) Creates the action easing object.
   - [`easeCubicActionInOut`](#easecubicactioninout) Creates the action easing object.
-  - [`show`](#show) Show the Node.
-  - [`hide`](#hide) Hide the node.
-  - [`toggleVisibility`](#togglevisibility) Toggles the visibility of a node.
-  - [`removeSelf`](#removeself) Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
-  - [`flipX`](#flipx) Create a FlipX action to flip or unflip the target.
-  - [`flipY`](#flipy) Create a FlipY action to flip or unflip the target.
-  - [`place`](#place) Creates a Place action with a position.
-  - [`callFunc`](#callfunc) Creates the action with the callback.
-  - [`sequence`](#sequence) Helper constructor to create an array of sequenceable actions
-  - [`repeat`](#repeat) Creates a Repeat action.
-  - [`repeatForever`](#repeatforever) Create a acton which repeat forever, as it runs forever, it can't be added into cc.sequence and cc.spawn.
-  - [`spawn`](#spawn) Create a spawn action which runs several actions in parallel.
-  - [`rotateTo`](#rotateto) Rotates a Node object to a certain angle by modifying its angle property.
-  - [`rotateBy`](#rotateby) Rotates a Node object clockwise a number of degrees by modifying its angle property.
-  - [`moveBy`](#moveby) Moves a Node object x,y pixels by modifying its position property.
-  - [`moveTo`](#moveto) Moves a Node object to the position x,y.
-  - [`skewTo`](#skewto) Create a action which skews a Node object to given angles by modifying its skewX and skewY properties.
-  - [`skewBy`](#skewby) Skews a Node object by skewX and skewY degrees.
-  - [`jumpBy`](#jumpby) Moves a Node object simulating a parabolic jump movement by modifying it's position property.
-  - [`jumpTo`](#jumpto) Moves a Node object to a parabolic position simulating a jump movement by modifying its position property.
-  - [`bezierBy`](#bezierby) An action that moves the target with a cubic Bezier curve by a certain distance.
-  - [`bezierTo`](#bezierto) An action that moves the target with a cubic Bezier curve to a destination point.
-  - [`scaleTo`](#scaleto) Scales a Node object to a zoom factor by modifying it's scale property.
-  - [`scaleBy`](#scaleby) Scales a Node object a zoom factor by modifying it's scale property.
-  - [`blink`](#blink) Blinks a Node object by modifying it's visible property.
-  - [`fadeTo`](#fadeto) Fades an object that implements the cc.RGBAProtocol protocol.
-  - [`fadeIn`](#fadein) Fades In an object that implements the cc.RGBAProtocol protocol.
-  - [`fadeOut`](#fadeout) Fades Out an object that implements the cc.RGBAProtocol protocol.
-  - [`tintTo`](#tintto) Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
-  - [`tintBy`](#tintby) Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
-  - [`delayTime`](#delaytime) Delays the action a certain amount of seconds.
-  - [`reverseTime`](#reversetime) Executes an action in reverse order, from time=duration to time=0.
-  - [`targetedAction`](#targetedaction) Create an action with the specified action and forced target.
-  - [`error`](#error) Outputs an error message to the Cocos Creator Console (editor) or Web Console (runtime)....
-  - [`warn`](#warn) Outputs a warning message to the Cocos Creator Console (editor) or Web Console (runtime).
-  - [`log`](#log) Outputs a message to the Cocos Creator Console (editor) or Web Console (runtime).
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
   - [`Class`](#class) Defines a CCClass using the given specification, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class.html) for details.
   - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
   - [`Enum`](#enum) Define an enum type.
   - [`getList`](#getlist) 
-  - [`isValid`](#isvalid) When an object's `destroy` is called, it is actually destroyed after the end of this frame.
   - [`handleTouchesBegin`](#handletouchesbegin) 
   - [`handleTouchesMove`](#handletouchesmove) 
   - [`handleTouchesEnd`](#handletouchesend) 
@@ -377,15 +354,17 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`getTouchesByEvent`](#gettouchesbyevent) 
   - [`registerSystemEvent`](#registersystemevent) 
   - [`update`](#update) 
+  - [`isValid`](#isvalid) When an object's `destroy` is called, it is actually destroyed after the end of this frame.
   - [`deserialize`](#deserialize) Deserialize json to cc.Asset
   - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
+  - [`rotate3DTo`](#rotate3dto) Rotates a Node object to a certain angle by modifying its quternion property.
+  - [`rotate3DBy`](#rotate3dby) Rotates a Node object counter clockwise a number of degrees by modifying its quaternion property.
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
   - [`color`](#color) Alpha channel is optional.
   - [`rect`](#rect) The convenience method to create a new Rect.
   - [`size`](#size) Helper function that creates a cc.Size....
   - [`v2`](#v2) The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
   - [`p`](#p) This function is deprecated since v2.0, please use V2.
-  - [`rotate3DTo`](#rotate3dto) Rotates a Node object to a certain angle by modifying its quternion property.
-  - [`rotate3DBy`](#rotate3dby) Rotates a Node object counter clockwise a number of degrees by modifying its quaternion property.
 
 
 
@@ -441,14 +420,25 @@ If you post a bug to forum, please attach this flag.
 
 
 
-##### systemEvent
+##### view
 
-> The System event singleton for global usage
+> cc.view is the shared view object.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
-| Defined in | [cocos2d/core/event/system-event.js:191](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/system-event.js#L191) |
+| Type | <a href="../classes/View.html" class="crosslink">View</a> |
+| Defined in | [cocos2d/core/platform/CCView.js:1544](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCView.js#L1544) |
+
+
+
+##### winSize
+
+> cc.winSize is the alias object for the size of the current game window.
+
+| meta | description |
+|------|-------------|
+| Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
+| Defined in | [cocos2d/core/platform/CCView.js:1553](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCView.js#L1553) |
 
 
 
@@ -537,25 +527,14 @@ member: {
 ```
 
 
-##### view
+##### systemEvent
 
-> cc.view is the shared view object.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/View.html" class="crosslink">View</a> |
-| Defined in | [cocos2d/core/platform/CCView.js:1544](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCView.js#L1544) |
-
-
-
-##### winSize
-
-> cc.winSize is the alias object for the size of the current game window.
+> The System event singleton for global usage
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined in | [cocos2d/core/platform/CCView.js:1553](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCView.js#L1553) |
+| Type | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
+| Defined in | [cocos2d/core/event/system-event.js:191](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/system-event.js#L191) |
 
 
 
@@ -575,6 +554,49 @@ member: {
 
 <!-- Method Block -->
 #### Methods
+
+
+##### error
+
+Outputs an error message to the Cocos Creator Console (editor) or Web Console (runtime).<br/>
+- In Cocos Creator, error is red.<br/>
+- In Chrome, error have a red icon along with red message text.<br/>
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/CCDebug.js:113](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCDebug.js#L113) |
+
+###### Parameters
+- `msg` Any A JavaScript string containing zero or more substitution strings.
+- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
+
+
+##### warn
+
+Outputs a warning message to the Cocos Creator Console (editor) or Web Console (runtime).
+- In Cocos Creator, warning is yellow.
+- In Chrome, warning have a yellow warning icon with the message text.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/CCDebug.js:157](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCDebug.js#L157) |
+
+###### Parameters
+- `msg` Any A JavaScript string containing zero or more substitution strings.
+- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
+
+
+##### log
+
+Outputs a message to the Cocos Creator Console (editor) or Web Console (runtime).
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/CCDebug.js:187](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCDebug.js#L187) |
+
+###### Parameters
+- `msg` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings.
+- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
 
 
 ##### speed
@@ -722,6 +744,695 @@ Creates an action with a Cardinal Spline array of points and tension.
 
 ```js
 var action1 = cc.catmullRomBy(3, array);
+```
+
+##### sequence
+
+Helper constructor to create an array of sequenceable actions
+The created action will run actions sequentially, one after another.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:439](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L439) |
+
+###### Parameters
+- `actionOrActionArray` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
+- `tempArray` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
+
+##### Examples
+
+```js
+// example
+// create sequence with actions
+var seq = cc.sequence(act1, act2);
+
+// create sequence with array
+var seq = cc.sequence(actArray);
+```
+
+##### repeat
+
+Creates a Repeat action. Times is an unsigned integer between 1 and pow(2,30)
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:617](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L617) |
+
+###### Parameters
+- `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
+- `times` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+var rep = cc.repeat(cc.sequence(jump2, jump1), 5);
+```
+
+##### repeatForever
+
+Create a acton which repeat forever, as it runs forever, it can't be added into cc.sequence and cc.spawn.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:721](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L721) |
+
+###### Parameters
+- `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
+
+##### Examples
+
+```js
+// example
+var repeat = cc.repeatForever(cc.rotateBy(1.0, 360));
+```
+
+##### spawn
+
+Create a spawn action which runs several actions in parallel.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:836](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L836) |
+
+###### Parameters
+- `actionOrActionArray` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
+- `tempArray` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
+
+##### Examples
+
+```js
+// example
+var action = cc.spawn(cc.jumpBy(2, cc.v2(300, 0), 50, 4), cc.rotateBy(2, 720));
+todo:It should be the direct use new
+```
+
+##### rotateTo
+
+Rotates a Node object to a certain angle by modifying its angle property. <br/>
+The direction will be decided by the shortest angle.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:939](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L939) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+- `dstAngle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> dstAngle in degrees.
+
+##### Examples
+
+```js
+// example
+var rotateTo = cc.rotateTo(2, 61.0);
+```
+
+##### rotateBy
+
+Rotates a Node object clockwise a number of degrees by modifying its angle property.
+Relative to its properties to modify.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1020](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1020) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+- `deltaAngle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> deltaAngle in degrees
+
+##### Examples
+
+```js
+// example
+var actionBy = cc.rotateBy(2, 360);
+```
+
+##### moveBy
+
+Moves a Node object x,y pixels by modifying its position property.                                  <br/>
+x and y are relative to the position of the object.                                                     <br/>
+Several MoveBy actions can be concurrently called, and the resulting                                  <br/>
+movement will be the sum of individual movements.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1135](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1135) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+- `deltaPos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `deltaY` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+var actionTo = cc.moveBy(2, cc.v2(windowSize.width - 40, windowSize.height - 40));
+```
+
+##### moveTo
+
+Moves a Node object to the position x,y. x and y are absolute coordinates by modifying its position property. <br/>
+Several MoveTo actions can be concurrently called, and the resulting                                            <br/>
+movement will be the sum of individual movements.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1212](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1212) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+- `position` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+var actionBy = cc.moveTo(2, cc.v2(80, 80));
+```
+
+##### skewTo
+
+Create a action which skews a Node object to given angles by modifying its skewX and skewY properties.
+Changes to the specified value.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1306](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1306) |
+
+###### Parameters
+- `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
+- `sx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `sy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+var actionTo = cc.skewTo(2, 37.2, -37.2);
+```
+
+##### skewBy
+
+Skews a Node object by skewX and skewY degrees. <br />
+Relative to its property modification.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1381](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1381) |
+
+###### Parameters
+- `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
+- `sx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sx skew in degrees for X axis
+- `sy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sy skew in degrees for Y axis
+
+##### Examples
+
+```js
+// example
+var actionBy = cc.skewBy(2, 0, -90);
+```
+
+##### jumpBy
+
+Moves a Node object simulating a parabolic jump movement by modifying it's position property.
+Relative to its movement.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1508](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1508) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `position` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `height` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `jumps` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+var actionBy = cc.jumpBy(2, cc.v2(300, 0), 50, 4);
+var actionBy = cc.jumpBy(2, 300, 0, 50, 4);
+```
+
+##### jumpTo
+
+Moves a Node object to a parabolic position simulating a jump movement by modifying its position property. <br />
+Jump to the specified location.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1590](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1590) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `position` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `height` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `jumps` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+var actionTo = cc.jumpTo(2, cc.v2(300, 300), 50, 4);
+var actionTo = cc.jumpTo(2, 300, 300, 50, 4);
+```
+
+##### bezierBy
+
+An action that moves the target with a cubic Bezier curve by a certain distance.
+Relative to its movement.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1726](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1726) |
+
+###### Parameters
+- `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
+- `c` <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> Array of points
+
+##### Examples
+
+```js
+// example
+var bezier = [cc.v2(0, windowSize.height / 2), cc.v2(300, -windowSize.height / 2), cc.v2(300, 100)];
+var bezierForward = cc.bezierBy(3, bezier);
+```
+
+##### bezierTo
+
+An action that moves the target with a cubic Bezier curve to a destination point.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1795](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1795) |
+
+###### Parameters
+- `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `c` <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> Array of points
+
+##### Examples
+
+```js
+// example
+var bezier = [cc.v2(0, windowSize.height / 2), cc.v2(300, -windowSize.height / 2), cc.v2(300, 100)];
+var bezierTo = cc.bezierTo(2, bezier);
+```
+
+##### scaleTo
+
+Scales a Node object to a zoom factor by modifying it's scale property.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1881](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1881) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `sx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> scale parameter in X
+- `sy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> scale parameter in Y, if Null equal to sx
+
+##### Examples
+
+```js
+// example
+// It scales to 0.5 in both X and Y.
+var actionTo = cc.scaleTo(2, 0.5);
+
+// It scales to 0.5 in x and 2 in Y
+var actionTo = cc.scaleTo(2, 0.5, 2);
+```
+
+##### scaleBy
+
+Scales a Node object a zoom factor by modifying it's scale property.
+Relative to its changes.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:1931](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1931) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+- `sx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sx  scale parameter in X
+- `sy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; Null sy scale parameter in Y, if Null equal to sx
+
+##### Examples
+
+```js
+// example without sy, it scales by 2 both in X and Y
+var actionBy = cc.scaleBy(2, 2);
+
+//example with sy, it scales by 0.25 in X and 4.5 in Y
+var actionBy2 = cc.scaleBy(2, 0.25, 4.5);
+```
+
+##### blink
+
+Blinks a Node object by modifying it's visible property.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:2017](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2017) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+- `blinks` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> blinks in times
+
+##### Examples
+
+```js
+// example
+var action = cc.blink(2, 10);
+```
+
+##### fadeTo
+
+Fades an object that implements the cc.RGBAProtocol protocol.
+It modifies the opacity from the current value to a custom one.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:2084](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2084) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `opacity` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255, 0 is transparent
+
+##### Examples
+
+```js
+// example
+var action = cc.fadeTo(1.0, 0);
+```
+
+##### fadeIn
+
+Fades In an object that implements the cc.RGBAProtocol protocol. It modifies the opacity from 0 to 255.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:2140](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2140) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+
+##### Examples
+
+```js
+//example
+var action = cc.fadeIn(1.0);
+```
+
+##### fadeOut
+
+Fades Out an object that implements the cc.RGBAProtocol protocol. It modifies the opacity from 255 to 0.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:2189](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2189) |
+
+###### Parameters
+- `d` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+
+##### Examples
+
+```js
+// example
+var action = cc.fadeOut(1.0);
+```
+
+##### tintTo
+
+Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:2273](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2273) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `red` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255
+- `green` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255
+- `blue` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255
+
+##### Examples
+
+```js
+// example
+var action = cc.tintTo(2, 255, 0, 255);
+```
+
+##### tintBy
+
+Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
+Relative to their own color change.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:2366](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2366) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+- `deltaRed` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `deltaGreen` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `deltaBlue` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+var action = cc.tintBy(2, -127, -255, -127);
+```
+
+##### delayTime
+
+Delays the action a certain amount of seconds.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:2410](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2410) |
+
+###### Parameters
+- `d` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+
+##### Examples
+
+```js
+// example
+var delay = cc.delayTime(1);
+```
+
+##### reverseTime
+
+Executes an action in reverse order, from time=duration to time=0.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:2496](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2496) |
+
+###### Parameters
+- `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
+
+##### Examples
+
+```js
+// example
+ var reverse = cc.reverseTime(this);
+```
+
+##### targetedAction
+
+Create an action with the specified action and forced target.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/actions/CCActionInterval.js:2584](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2584) |
+
+###### Parameters
+- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
+
+
+##### show
+
+Show the Node.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [cocos2d/actions/CCActionInstant.js:102](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L102) |
+
+
+##### Examples
+
+```js
+// example
+var showAction = cc.show();
+```
+
+##### hide
+
+Hide the node.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [cocos2d/actions/CCActionInstant.js:141](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L141) |
+
+
+##### Examples
+
+```js
+// example
+var hideAction = cc.hide();
+```
+
+##### toggleVisibility
+
+Toggles the visibility of a node.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [cocos2d/actions/CCActionInstant.js:180](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L180) |
+
+
+##### Examples
+
+```js
+// example
+var toggleVisibilityAction = cc.toggleVisibility();
+```
+
+##### removeSelf
+
+Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [cocos2d/actions/CCActionInstant.js:230](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L230) |
+
+###### Parameters
+- `isNeedCleanUp ` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+##### Examples
+
+```js
+// example
+var removeSelfAction = cc.removeSelf();
+```
+
+##### flipX
+
+Create a FlipX action to flip or unflip the target.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [cocos2d/actions/CCActionInstant.js:288](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L288) |
+
+###### Parameters
+- `flip` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Indicate whether the target should be flipped or not
+
+##### Examples
+
+```js
+var flipXAction = cc.flipX(true);
+```
+
+##### flipY
+
+Create a FlipY action to flip or unflip the target.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [cocos2d/actions/CCActionInstant.js:343](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L343) |
+
+###### Parameters
+- `flip` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+##### Examples
+
+```js
+var flipYAction = cc.flipY(true);
+```
+
+##### place
+
+Creates a Place action with a position.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [cocos2d/actions/CCActionInstant.js:406](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L406) |
+
+###### Parameters
+- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+// example
+var placeAction = cc.place(cc.v2(200, 200));
+var placeAction = cc.place(200, 200);
+```
+
+##### callFunc
+
+Creates the action with the callback.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
+| Defined in | [cocos2d/actions/CCActionInstant.js:516](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L516) |
+
+###### Parameters
+- `selector` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
+- `selectorTarget` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
+- `data` Any data for function, it accepts all data types.
+
+##### Examples
+
+```js
+// example
+// CallFunc without data
+var finish = cc.callFunc(this.removeSprite, this);
+
+// CallFunc with data
+var finish = cc.callFunc(this.removeFromParentAndCleanup, this._grossini,  true);
 ```
 
 ##### easeIn
@@ -1357,755 +2068,6 @@ http://www.zhihu.com/question/21981571/answer/19925418
 
 
 
-##### show
-
-Show the Node.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| Defined in | [cocos2d/actions/CCActionInstant.js:102](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L102) |
-
-
-##### Examples
-
-```js
-// example
-var showAction = cc.show();
-```
-
-##### hide
-
-Hide the node.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| Defined in | [cocos2d/actions/CCActionInstant.js:141](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L141) |
-
-
-##### Examples
-
-```js
-// example
-var hideAction = cc.hide();
-```
-
-##### toggleVisibility
-
-Toggles the visibility of a node.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| Defined in | [cocos2d/actions/CCActionInstant.js:180](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L180) |
-
-
-##### Examples
-
-```js
-// example
-var toggleVisibilityAction = cc.toggleVisibility();
-```
-
-##### removeSelf
-
-Create a RemoveSelf object with a flag indicate whether the target should be cleaned up while removing.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| Defined in | [cocos2d/actions/CCActionInstant.js:230](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L230) |
-
-###### Parameters
-- `isNeedCleanUp ` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-##### Examples
-
-```js
-// example
-var removeSelfAction = cc.removeSelf();
-```
-
-##### flipX
-
-Create a FlipX action to flip or unflip the target.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| Defined in | [cocos2d/actions/CCActionInstant.js:288](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L288) |
-
-###### Parameters
-- `flip` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Indicate whether the target should be flipped or not
-
-##### Examples
-
-```js
-var flipXAction = cc.flipX(true);
-```
-
-##### flipY
-
-Create a FlipY action to flip or unflip the target.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| Defined in | [cocos2d/actions/CCActionInstant.js:343](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L343) |
-
-###### Parameters
-- `flip` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-##### Examples
-
-```js
-var flipYAction = cc.flipY(true);
-```
-
-##### place
-
-Creates a Place action with a position.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| Defined in | [cocos2d/actions/CCActionInstant.js:406](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L406) |
-
-###### Parameters
-- `pos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-// example
-var placeAction = cc.place(cc.v2(200, 200));
-var placeAction = cc.place(200, 200);
-```
-
-##### callFunc
-
-Creates the action with the callback.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInstant.html" class="crosslink">ActionInstant</a> 
-| Defined in | [cocos2d/actions/CCActionInstant.js:516](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInstant.js#L516) |
-
-###### Parameters
-- `selector` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
-- `selectorTarget` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-- `data` Any data for function, it accepts all data types.
-
-##### Examples
-
-```js
-// example
-// CallFunc without data
-var finish = cc.callFunc(this.removeSprite, this);
-
-// CallFunc with data
-var finish = cc.callFunc(this.removeFromParentAndCleanup, this._grossini,  true);
-```
-
-##### sequence
-
-Helper constructor to create an array of sequenceable actions
-The created action will run actions sequentially, one after another.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:439](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L439) |
-
-###### Parameters
-- `actionOrActionArray` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
-- `tempArray` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-
-##### Examples
-
-```js
-// example
-// create sequence with actions
-var seq = cc.sequence(act1, act2);
-
-// create sequence with array
-var seq = cc.sequence(actArray);
-```
-
-##### repeat
-
-Creates a Repeat action. Times is an unsigned integer between 1 and pow(2,30)
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:617](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L617) |
-
-###### Parameters
-- `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-- `times` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-// example
-var rep = cc.repeat(cc.sequence(jump2, jump1), 5);
-```
-
-##### repeatForever
-
-Create a acton which repeat forever, as it runs forever, it can't be added into cc.sequence and cc.spawn.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:721](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L721) |
-
-###### Parameters
-- `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-
-##### Examples
-
-```js
-// example
-var repeat = cc.repeatForever(cc.rotateBy(1.0, 360));
-```
-
-##### spawn
-
-Create a spawn action which runs several actions in parallel.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:836](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L836) |
-
-###### Parameters
-- `actionOrActionArray` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> &#124; <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction[]</a> 
-- `tempArray` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-
-##### Examples
-
-```js
-// example
-var action = cc.spawn(cc.jumpBy(2, cc.v2(300, 0), 50, 4), cc.rotateBy(2, 720));
-todo:It should be the direct use new
-```
-
-##### rotateTo
-
-Rotates a Node object to a certain angle by modifying its angle property. <br/>
-The direction will be decided by the shortest angle.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:939](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L939) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- `dstAngle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> dstAngle in degrees.
-
-##### Examples
-
-```js
-// example
-var rotateTo = cc.rotateTo(2, 61.0);
-```
-
-##### rotateBy
-
-Rotates a Node object clockwise a number of degrees by modifying its angle property.
-Relative to its properties to modify.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1020](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1020) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- `deltaAngle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> deltaAngle in degrees
-
-##### Examples
-
-```js
-// example
-var actionBy = cc.rotateBy(2, 360);
-```
-
-##### moveBy
-
-Moves a Node object x,y pixels by modifying its position property.                                  <br/>
-x and y are relative to the position of the object.                                                     <br/>
-Several MoveBy actions can be concurrently called, and the resulting                                  <br/>
-movement will be the sum of individual movements.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1135](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1135) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- `deltaPos` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `deltaY` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-// example
-var actionTo = cc.moveBy(2, cc.v2(windowSize.width - 40, windowSize.height - 40));
-```
-
-##### moveTo
-
-Moves a Node object to the position x,y. x and y are absolute coordinates by modifying its position property. <br/>
-Several MoveTo actions can be concurrently called, and the resulting                                            <br/>
-movement will be the sum of individual movements.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1212](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1212) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- `position` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-// example
-var actionBy = cc.moveTo(2, cc.v2(80, 80));
-```
-
-##### skewTo
-
-Create a action which skews a Node object to given angles by modifying its skewX and skewY properties.
-Changes to the specified value.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1306](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1306) |
-
-###### Parameters
-- `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
-- `sx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `sy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-// example
-var actionTo = cc.skewTo(2, 37.2, -37.2);
-```
-
-##### skewBy
-
-Skews a Node object by skewX and skewY degrees. <br />
-Relative to its property modification.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1381](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1381) |
-
-###### Parameters
-- `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
-- `sx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sx skew in degrees for X axis
-- `sy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sy skew in degrees for Y axis
-
-##### Examples
-
-```js
-// example
-var actionBy = cc.skewBy(2, 0, -90);
-```
-
-##### jumpBy
-
-Moves a Node object simulating a parabolic jump movement by modifying it's position property.
-Relative to its movement.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1508](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1508) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `position` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `height` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `jumps` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-// example
-var actionBy = cc.jumpBy(2, cc.v2(300, 0), 50, 4);
-var actionBy = cc.jumpBy(2, 300, 0, 50, 4);
-```
-
-##### jumpTo
-
-Moves a Node object to a parabolic position simulating a jump movement by modifying its position property. <br />
-Jump to the specified location.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1590](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1590) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `position` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `height` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `jumps` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-// example
-var actionTo = cc.jumpTo(2, cc.v2(300, 300), 50, 4);
-var actionTo = cc.jumpTo(2, 300, 300, 50, 4);
-```
-
-##### bezierBy
-
-An action that moves the target with a cubic Bezier curve by a certain distance.
-Relative to its movement.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1726](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1726) |
-
-###### Parameters
-- `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> time in seconds
-- `c` <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> Array of points
-
-##### Examples
-
-```js
-// example
-var bezier = [cc.v2(0, windowSize.height / 2), cc.v2(300, -windowSize.height / 2), cc.v2(300, 100)];
-var bezierForward = cc.bezierBy(3, bezier);
-```
-
-##### bezierTo
-
-An action that moves the target with a cubic Bezier curve to a destination point.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1795](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1795) |
-
-###### Parameters
-- `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `c` <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> Array of points
-
-##### Examples
-
-```js
-// example
-var bezier = [cc.v2(0, windowSize.height / 2), cc.v2(300, -windowSize.height / 2), cc.v2(300, 100)];
-var bezierTo = cc.bezierTo(2, bezier);
-```
-
-##### scaleTo
-
-Scales a Node object to a zoom factor by modifying it's scale property.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1881](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1881) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `sx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> scale parameter in X
-- `sy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> scale parameter in Y, if Null equal to sx
-
-##### Examples
-
-```js
-// example
-// It scales to 0.5 in both X and Y.
-var actionTo = cc.scaleTo(2, 0.5);
-
-// It scales to 0.5 in x and 2 in Y
-var actionTo = cc.scaleTo(2, 0.5, 2);
-```
-
-##### scaleBy
-
-Scales a Node object a zoom factor by modifying it's scale property.
-Relative to its changes.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:1931](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L1931) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- `sx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> sx  scale parameter in X
-- `sy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; Null sy scale parameter in Y, if Null equal to sx
-
-##### Examples
-
-```js
-// example without sy, it scales by 2 both in X and Y
-var actionBy = cc.scaleBy(2, 2);
-
-//example with sy, it scales by 0.25 in X and 4.5 in Y
-var actionBy2 = cc.scaleBy(2, 0.25, 4.5);
-```
-
-##### blink
-
-Blinks a Node object by modifying it's visible property.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:2017](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2017) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- `blinks` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> blinks in times
-
-##### Examples
-
-```js
-// example
-var action = cc.blink(2, 10);
-```
-
-##### fadeTo
-
-Fades an object that implements the cc.RGBAProtocol protocol.
-It modifies the opacity from the current value to a custom one.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:2084](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2084) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `opacity` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255, 0 is transparent
-
-##### Examples
-
-```js
-// example
-var action = cc.fadeTo(1.0, 0);
-```
-
-##### fadeIn
-
-Fades In an object that implements the cc.RGBAProtocol protocol. It modifies the opacity from 0 to 255.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:2140](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2140) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-
-##### Examples
-
-```js
-//example
-var action = cc.fadeIn(1.0);
-```
-
-##### fadeOut
-
-Fades Out an object that implements the cc.RGBAProtocol protocol. It modifies the opacity from 255 to 0.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:2189](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2189) |
-
-###### Parameters
-- `d` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-
-##### Examples
-
-```js
-// example
-var action = cc.fadeOut(1.0);
-```
-
-##### tintTo
-
-Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:2273](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2273) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `red` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255
-- `green` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255
-- `blue` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 0-255
-
-##### Examples
-
-```js
-// example
-var action = cc.tintTo(2, 255, 0, 255);
-```
-
-##### tintBy
-
-Tints a Node that implements the cc.NodeRGB protocol from current tint to a custom one.
-Relative to their own color change.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:2366](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2366) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- `deltaRed` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `deltaGreen` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `deltaBlue` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-// example
-var action = cc.tintBy(2, -127, -255, -127);
-```
-
-##### delayTime
-
-Delays the action a certain amount of seconds.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:2410](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2410) |
-
-###### Parameters
-- `d` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-
-##### Examples
-
-```js
-// example
-var delay = cc.delayTime(1);
-```
-
-##### reverseTime
-
-Executes an action in reverse order, from time=duration to time=0.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:2496](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2496) |
-
-###### Parameters
-- `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-
-##### Examples
-
-```js
-// example
- var reverse = cc.reverseTime(this);
-```
-
-##### targetedAction
-
-Create an action with the specified action and forced target.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/actions/CCActionInterval.js:2584](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/CCActionInterval.js#L2584) |
-
-###### Parameters
-- `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
-- `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
-
-
-##### error
-
-Outputs an error message to the Cocos Creator Console (editor) or Web Console (runtime).<br/>
-- In Cocos Creator, error is red.<br/>
-- In Chrome, error have a red icon along with red message text.<br/>
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/CCDebug.js:113](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCDebug.js#L113) |
-
-###### Parameters
-- `msg` Any A JavaScript string containing zero or more substitution strings.
-- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
-
-
-##### warn
-
-Outputs a warning message to the Cocos Creator Console (editor) or Web Console (runtime).
-- In Cocos Creator, warning is yellow.
-- In Chrome, warning have a yellow warning icon with the message text.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/CCDebug.js:157](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCDebug.js#L157) |
-
-###### Parameters
-- `msg` Any A JavaScript string containing zero or more substitution strings.
-- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
-
-
-##### log
-
-Outputs a message to the Cocos Creator Console (editor) or Web Console (runtime).
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/CCDebug.js:187](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCDebug.js#L187) |
-
-###### Parameters
-- `msg` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; Any A JavaScript string containing zero or more substitution strings.
-- `subst` Any JavaScript objects with which to replace substitution strings within msg. This gives you additional control over the format of the output.
-
-
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| Defined in | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/utils/find.js#L30) |
-
-###### Parameters
-- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
-
-
 ##### Class
 
 Defines a CCClass using the given specification, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class.html) for details.
@@ -2289,34 +2251,6 @@ class NewScript extends cc.Component {
 - `enumDef` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the enum type defined from cc.Enum
 
 
-##### isValid
-
-Checks whether the object is non-nil and not yet destroyed.<br>
-When an object's `destroy` is called, it is actually destroyed after the end of this frame.
-So `isValid` will return false from the next frame, while `isValid` in the current frame will still be true.
-If you want to determine whether the current frame has called `destroy`, use `cc.isValid(obj, true)`,
-but this is often caused by a particular logical requirements, which is not normally required.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:508](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L508) |
-
-###### Parameters
-- `value` Any 
-- `strictMode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If true, Object called destroy() in this frame will also treated as invalid.
-
-##### Examples
-
-```js
-var node = new cc.Node();
-cc.log(cc.isValid(node));    // true
-node.destroy();
-cc.log(cc.isValid(node));    // true, still valid in this frame
-// after a frame...
-cc.log(cc.isValid(node));    // false, destroyed in the end of last frame
-```
-
 ##### handleTouchesBegin
 
 
@@ -2498,6 +2432,34 @@ cc.log(cc.isValid(node));    // false, destroyed in the end of last frame
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
+##### isValid
+
+Checks whether the object is non-nil and not yet destroyed.<br>
+When an object's `destroy` is called, it is actually destroyed after the end of this frame.
+So `isValid` will return false from the next frame, while `isValid` in the current frame will still be true.
+If you want to determine whether the current frame has called `destroy`, use `cc.isValid(obj, true)`,
+but this is often caused by a particular logical requirements, which is not normally required.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/platform/CCObject.js:508](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCObject.js#L508) |
+
+###### Parameters
+- `value` Any 
+- `strictMode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> If true, Object called destroy() in this frame will also treated as invalid.
+
+##### Examples
+
+```js
+var node = new cc.Node();
+cc.log(cc.isValid(node));    // true
+node.destroy();
+cc.log(cc.isValid(node));    // true, still valid in this frame
+// after a frame...
+cc.log(cc.isValid(node));    // false, destroyed in the end of last frame
+```
+
 ##### deserialize
 
 Deserialize json to cc.Asset
@@ -2537,6 +2499,69 @@ var scene = cc.director.getScene();
 var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
+
+##### rotate3DTo
+
+Rotates a Node object to a certain angle by modifying its quternion property. <br/>
+The direction will be decided by the shortest angle.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/core/3d/actions.js:88](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/actions.js#L88) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+- `dstAngleX` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> &#124; <a href="../classes/Quat.html" class="crosslink">Quat</a> dstAngleX in degrees.
+- `dstAngleY` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> dstAngleY in degrees.
+- `dstAngleZ` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> dstAngleZ in degrees.
+
+##### Examples
+
+```js
+// example
+var rotate3DTo = cc.rotate3DTo(2, cc.v3(0, 180, 0));
+```
+
+##### rotate3DBy
+
+Rotates a Node object counter clockwise a number of degrees by modifying its quaternion property.
+Relative to its properties to modify.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
+| Defined in | [cocos2d/core/3d/actions.js:200](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/actions.js#L200) |
+
+###### Parameters
+- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
+- `deltaAngleX` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> deltaAngleX in degrees
+- `deltaAngleY` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> deltaAngleY in degrees
+- `deltaAngleZ` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> deltaAngleZ in degrees
+
+##### Examples
+
+```js
+// example
+var actionBy = cc.rotate3DBy(2, cc.v3(0, 360, 0));
+```
+
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| Defined in | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/utils/find.js#L30) |
+
+###### Parameters
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
+
 
 ##### color
 
@@ -2634,51 +2659,5 @@ This function is deprecated since v2.0, please use V2.
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
 - `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-
-##### rotate3DTo
-
-Rotates a Node object to a certain angle by modifying its quternion property. <br/>
-The direction will be decided by the shortest angle.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/core/3d/actions.js:88](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/actions.js#L88) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- `dstAngleX` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> &#124; <a href="../classes/Quat.html" class="crosslink">Quat</a> dstAngleX in degrees.
-- `dstAngleY` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> dstAngleY in degrees.
-- `dstAngleZ` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> dstAngleZ in degrees.
-
-##### Examples
-
-```js
-// example
-var rotate3DTo = cc.rotate3DTo(2, cc.v3(0, 180, 0));
-```
-
-##### rotate3DBy
-
-Rotates a Node object counter clockwise a number of degrees by modifying its quaternion property.
-Relative to its properties to modify.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/ActionInterval.html" class="crosslink">ActionInterval</a> 
-| Defined in | [cocos2d/core/3d/actions.js:200](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/actions.js#L200) |
-
-###### Parameters
-- `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> duration in seconds
-- `deltaAngleX` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> deltaAngleX in degrees
-- `deltaAngleY` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> deltaAngleY in degrees
-- `deltaAngleZ` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> deltaAngleZ in degrees
-
-##### Examples
-
-```js
-// example
-var actionBy = cc.rotate3DBy(2, cc.v3(0, 360, 0));
-```
 
 

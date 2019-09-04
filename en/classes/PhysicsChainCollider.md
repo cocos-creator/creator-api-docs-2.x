@@ -17,8 +17,8 @@ Parent Module: [cc](../modules/cc.md)
 
   - [`loop`](#loop) `Boolean` Whether the chain is loop
   - [`points`](#points) `Vec2[]` Chain points
-  - [`offset`](#offset) `Vec2` Position offset
   - [`tag`](#tag) `Integer` Tag.
+  - [`offset`](#offset) `Vec2` Position offset
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` The node this component is attached to.
   - [`uuid`](#uuid) `String` The uuid for editor.
@@ -93,17 +93,6 @@ Parent Module: [cc](../modules/cc.md)
 
 
 
-##### offset
-
-> Position offset
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/collider/CCPolygonCollider.js:45](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/collider/CCPolygonCollider.js#L45) |
-
-
-
 ##### tag
 
 > Tag. If a node has several collider components, you can judge which type of collider is collided according to the tag.
@@ -112,6 +101,17 @@ Parent Module: [cc](../modules/cc.md)
 |------|-------------|
 | Type | Integer |
 | Defined in | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/collider/CCCollider.js#L47) |
+
+
+
+##### offset
+
+> Position offset
+
+| meta | description |
+|------|-------------|
+| Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
+| Defined in | [cocos2d/core/collider/CCPolygonCollider.js:45](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/collider/CCPolygonCollider.js#L45) |
 
 
 

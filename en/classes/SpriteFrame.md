@@ -4,6 +4,7 @@ Extends [`Asset`](Asset.md), [`EventTarget`](EventTarget.md)(mixin)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 A cc.SpriteFrame has:<br/>

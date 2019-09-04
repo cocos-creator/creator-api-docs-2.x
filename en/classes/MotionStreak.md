@@ -4,6 +4,7 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 cc.MotionStreak manages a Ribbon based on it's motion in absolute space.                 <br/>

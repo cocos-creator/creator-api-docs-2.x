@@ -5,6 +5,7 @@
 定义于: [https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/assets/CCAsset.js:32](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/assets/CCAsset.js#L32)
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 Creator 中的资源基类。<br/>

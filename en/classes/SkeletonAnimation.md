@@ -3,7 +3,7 @@
 Extends [`Animation`](Animation.md)
 
 
-Module: [primitive](../modules/primitive.md)
+Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 
@@ -48,6 +48,11 @@ Parent Module: [cc](../modules/cc.md)
   - [`sample`](#sample) Samples animations at the current state....
   - [`on`](#on) Register animation event callback.
   - [`off`](#off) Unregister animation event callback.
+  - [`hasEventListener`](#haseventlistener) Checks whether the EventTarget object has any callback registered for a specific type of event.
+  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target (passed as parameter).
+  - [`once`](#once) Register an callback of a specific event type on the EventTarget,...
+  - [`emit`](#emit) Trigger an event directly with the event name and necessary arguments.
+  - [`dispatchEvent`](#dispatchevent) Send an event with the event object.
   - [`update`](#update) This is a lifecycle method.
   - [`lateUpdate`](#lateupdate) This is a lifecycle method.
   - [`__preload`](#preload) `__preload` is called before every onLoad.
@@ -70,11 +75,6 @@ Parent Module: [cc](../modules/cc.md)
   - [`scheduleOnce`](#scheduleonce) Schedules a callback function that runs only once, with a delay of 0 or larger.
   - [`unschedule`](#unschedule) Unschedules a custom callback function.
   - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function....
-  - [`hasEventListener`](#haseventlistener) Checks whether the EventTarget object has any callback registered for a specific type of event.
-  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target (passed as parameter).
-  - [`once`](#once) Register an callback of a specific event type on the EventTarget,...
-  - [`emit`](#emit) Trigger an event directly with the event name and necessary arguments.
-  - [`dispatchEvent`](#dispatchevent) Send an event with the event object.
   - [`destroy`](#destroy) Actual object destruction will delayed until before rendering.
   - [`_destruct`](#destruct) Clear all references in the instance.
   - [`_onPreDestroy`](#onpredestroy) Called before the object being destroyed.
@@ -523,6 +523,97 @@ Unregister animation event callback.
 animation.off('play', this.onPlay, this);
 ```
 
+##### hasEventListener
+
+Checks whether the EventTarget object has any callback registered for a specific type of event.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L68) |
+
+###### Parameters
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
+
+
+##### targetOff
+
+Removes all callbacks previously registered with the same target (passed as parameter).
+This is not for removing all listeners in the current event target,
+and this is not for removing all listeners the target parameter have registered.
+It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/event/event-target.js:150](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L150) |
+
+###### Parameters
+- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
+
+
+##### once
+
+Register an callback of a specific event type on the EventTarget,
+the callback will remove itself after the first time it is triggered.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L163) |
+
+###### Parameters
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
+                             The callback is ignored if it is a duplicate (the callbacks are unique).
+	- `arg1` Any arg1
+	- `arg2` Any arg2
+	- `arg3` Any arg3
+	- `arg4` Any arg4
+	- `arg5` Any arg5
+- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
+
+##### Examples
+
+```js
+eventTarget.once('fire', function () {
+    cc.log("this is the callback and will be invoked only once");
+}, node);
+```
+
+##### emit
+
+Trigger an event directly with the event name and necessary arguments.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/event/event-target.js:200](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L200) |
+
+###### Parameters
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
+- `arg1` Any First argument
+- `arg2` Any Second argument
+- `arg3` Any Third argument
+- `arg4` Any Fourth argument
+- `arg5` Any Fifth argument
+
+##### Examples
+
+```js
+eventTarget.emit('fire', event);
+eventTarget.emit('fire', message, emitter);
+```
+
+##### dispatchEvent
+
+Send an event with the event object.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/event/event-target.js:220](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L220) |
+
+###### Parameters
+- `event` <a href="../classes/Event.html" class="crosslink">Event</a>  
+
+
 ##### update
 
 Update is called every frame, if the Component is enabled.<br/>
@@ -864,97 +955,6 @@ Actions are not affected by this method.
 ```js
 this.unscheduleAllCallbacks();
 ```
-
-##### hasEventListener
-
-Checks whether the EventTarget object has any callback registered for a specific type of event.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L68) |
-
-###### Parameters
-- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
-
-
-##### targetOff
-
-Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:150](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L150) |
-
-###### Parameters
-- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
-
-
-##### once
-
-Register an callback of a specific event type on the EventTarget,
-the callback will remove itself after the first time it is triggered.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L163) |
-
-###### Parameters
-- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
-- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback that will be invoked when the event is dispatched.
-                             The callback is ignored if it is a duplicate (the callbacks are unique).
-	- `arg1` Any arg1
-	- `arg2` Any arg2
-	- `arg3` Any arg3
-	- `arg4` Any arg4
-	- `arg5` Any arg5
-- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target (this object) to invoke the callback, can be null
-
-##### Examples
-
-```js
-eventTarget.once('fire', function () {
-    cc.log("this is the callback and will be invoked only once");
-}, node);
-```
-
-##### emit
-
-Trigger an event directly with the event name and necessary arguments.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:200](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L200) |
-
-###### Parameters
-- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
-- `arg1` Any First argument
-- `arg2` Any Second argument
-- `arg3` Any Third argument
-- `arg4` Any Fourth argument
-- `arg5` Any Fifth argument
-
-##### Examples
-
-```js
-eventTarget.emit('fire', event);
-eventTarget.emit('fire', message, emitter);
-```
-
-##### dispatchEvent
-
-Send an event with the event object.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:220](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L220) |
-
-###### Parameters
-- `event` <a href="../classes/Event.html" class="crosslink">Event</a>  
-
 
 ##### destroy
 
