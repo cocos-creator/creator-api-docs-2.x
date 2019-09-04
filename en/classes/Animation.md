@@ -4,6 +4,7 @@ Extends [`Component`](Component.md), [`EventTarget`](EventTarget.md)(mixin)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 The animation component is used to play back animations.

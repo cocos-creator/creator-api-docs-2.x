@@ -11,13 +11,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 
 ### 类型
 
-  - [_BaseNode](../classes/_BaseNode.md)
-  - [_CallbacksHandler](../classes/_CallbacksHandler.md)
-  - [_JavaScript](../classes/_JavaScript.md)
-  - [_RendererInSG](../classes/_RendererInSG.md)
-  - [_RendererUnderSG](../classes/_RendererUnderSG.md)
-  - [_Script](../classes/_Script.md)
-  - [_SGComponent](../classes/_SGComponent.md)
   - [Acceleration](../classes/Acceleration.md)
   - [Action](../classes/Action.md)
   - [ActionEase](../classes/ActionEase.md)
@@ -92,7 +85,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [Node](../classes/Node.md)
   - [Node.EventType](../classes/Node.EventType.md)
   - [NodePool](../classes/NodePool.md)
-  - [Object](../classes/Object.md)
   - [OriginalContainer](../classes/OriginalContainer.md)
   - [PageView](../classes/PageView.md)
   - [PageViewIndicator](../classes/PageViewIndicator.md)
@@ -178,22 +170,15 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 
 ### 枚举
 
-  - [AccountGender](../enums/AccountGender.md)
-  - [AccountOperate](../enums/AccountOperate.md)
-  - [AccountType](../enums/AccountType.md)
-  - [AdsPos](../enums/AdsPos.md)
-  - [AdsResultCode](../enums/AdsResultCode.md)
-  - [AdsType](../enums/AdsType.md)
-  - [AnimationEventType](../enums/AnimationEventType.md)
   - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [BlendFactor](../enums/BlendFactor.md)
   - [Button.Transition](../enums/Button.Transition.md)
-  - [CustomResultCode](../enums/CustomResultCode.md)
   - [DebugMode](../enums/DebugMode.md)
   - [DrawBits](../enums/DrawBits.md)
   - [EditBox.InputFlag](../enums/EditBox.InputFlag.md)
   - [EditBox.InputMode](../enums/EditBox.InputMode.md)
   - [EditBox.KeyboardReturnType](../enums/EditBox.KeyboardReturnType.md)
+  - [Flags](../enums/Flags.md)
   - [Graphics.LineCap](../enums/Graphics.LineCap.md)
   - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
   - [ImageFormat](../enums/ImageFormat.md)
@@ -217,29 +202,21 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [PageViewIndicator.Direction](../enums/PageViewIndicator.Direction.md)
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
-  - [PayResultCode](../enums/PayResultCode.md)
   - [Prefab.OptimizationPolicy](../enums/Prefab.OptimizationPolicy.md)
   - [ProgressBar.Mode](../enums/ProgressBar.Mode.md)
-  - [PushActionResultCode](../enums/PushActionResultCode.md)
   - [RayCastType](../enums/RayCastType.md)
-  - [RECResultCode](../enums/RECResultCode.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [Scrollbar.Direction](../enums/Scrollbar.Direction.md)
   - [ScrollView.EventType](../enums/ScrollView.EventType.md)
-  - [ShareResultCode](../enums/ShareResultCode.md)
   - [Slider.Direction](../enums/Slider.Direction.md)
-  - [SocialRetCode](../enums/SocialRetCode.md)
   - [Sprite.FillType](../enums/Sprite.FillType.md)
   - [Sprite.SizeMode](../enums/Sprite.SizeMode.md)
   - [Sprite.Type](../enums/Sprite.Type.md)
-  - [TaskType](../enums/TaskType.md)
   - [TextAlignment](../enums/TextAlignment.md)
   - [Texture2D.Filter](../enums/Texture2D.Filter.md)
   - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
   - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
   - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
-  - [ToolBarPlace](../enums/ToolBarPlace.md)
-  - [UserActionResultCode](../enums/UserActionResultCode.md)
   - [VideoPlayer.EventType](../enums/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../enums/VideoPlayer.ResourceType.md)
   - [WebView.EventType](../enums/WebView.EventType.md)
@@ -259,11 +236,11 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`director`](#director) `Director` 导演类。
   - [`winSize`](#winsize) `Size` cc.winSize 为当前的游戏窗口的大小。
   - [`game`](#game) `Game` 
-  - [`systemEvent`](#systemevent) `SystemEvent` 系统事件单例，方便全局使用
   - [`Integer`](#integer) `string` Specify that the input value must be integer in Inspector....
   - [`Float`](#float) `string` Indicates that the elements in array should be type double.
   - [`Boolean`](#boolean) `string` Indicates that the elements in array should be type boolean.
   - [`String`](#string) `string` Indicates that the elements in array should be type string.
+  - [`systemEvent`](#systemevent) `SystemEvent` 系统事件单例，方便全局使用
 
 
 
@@ -281,6 +258,39 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`cardinalSplineBy`](#cardinalsplineby) 按基数样条曲线轨迹移动指定的距离。
   - [`catmullRomTo`](#catmullromto) 按 Catmull Rom 样条曲线轨迹移动到目标位置。
   - [`catmullRomBy`](#catmullromby) 按 Catmull Rom 样条曲线轨迹移动指定的距离。
+  - [`show`](#show) 立即显示。
+  - [`hide`](#hide) 立即隐藏。
+  - [`toggleVisibility`](#togglevisibility) 显隐状态切换。
+  - [`removeSelf`](#removeself) 从父节点移除自身。
+  - [`flipX`](#flipx) X轴翻转。
+  - [`flipY`](#flipy) Y轴翻转。
+  - [`place`](#place) 放置在目标位置。
+  - [`callFunc`](#callfunc) 执行回调函数。
+  - [`sequence`](#sequence) 顺序执行动作，创建的动作将按顺序依次运行。
+  - [`repeat`](#repeat) 重复动作，可以按一定次数重复一个动，如果想永远重复一个动作请使用 repeatForever 动作来完成。
+  - [`repeatForever`](#repeatforever) 永远地重复一个动作，有限次数内重复一个动作请使用 repeat 动作，由于这个动作不会停止，所以不能被添加到 cc.sequence 或 cc.spawn 中。
+  - [`spawn`](#spawn) 同步执行动作，同步执行一组动作。
+  - [`rotateTo`](#rotateto) 旋转到目标角度，通过逐帧修改它的 rotation 属性，旋转方向将由最短的角度决定。
+  - [`rotateBy`](#rotateby) 旋转指定的角度。
+  - [`moveBy`](#moveby) 移动指定的距离。
+  - [`moveTo`](#moveto) 移动到目标位置。
+  - [`skewTo`](#skewto) 偏斜到目标角度。
+  - [`skewBy`](#skewby) 偏斜指定的角度。
+  - [`jumpBy`](#jumpby) 用跳跃的方式移动指定的距离。
+  - [`jumpTo`](#jumpto) 用跳跃的方式移动到目标位置。
+  - [`bezierBy`](#bezierby) 按贝赛尔曲线轨迹移动指定的距离。
+  - [`bezierTo`](#bezierto) 按贝赛尔曲线轨迹移动到目标位置。
+  - [`scaleTo`](#scaleto) 将节点大小缩放到指定的倍数。
+  - [`scaleBy`](#scaleby) 按指定的倍数缩放节点大小。
+  - [`blink`](#blink) 闪烁（基于透明度）。
+  - [`fadeTo`](#fadeto) 修改透明度到指定值。
+  - [`fadeIn`](#fadein) 渐显效果。
+  - [`fadeOut`](#fadeout) 渐隐效果。
+  - [`tintTo`](#tintto) 修改颜色到指定值。
+  - [`tintBy`](#tintby) 按照指定的增量修改颜色。
+  - [`delayTime`](#delaytime) 
+  - [`reverseTime`](#reversetime) 反转目标动作的时间轴。
+  - [`targetedAction`](#targetedaction) 用已有动作和一个新的目标节点创建动作。
   - [`easeIn`](#easein) 创建 easeIn 缓动对象，由慢到快。
   - [`easeOut`](#easeout) 创建 easeOut 缓动对象，由快到慢。
   - [`easeInOut`](#easeinout) 创建 easeInOut 缓动对象，慢到快，然后慢。
@@ -315,40 +325,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`easeCubicActionIn`](#easecubicactionin) 创建 easeCubicActionIn 缓动对象。
   - [`easeCubicActionOut`](#easecubicactionout) 创建 easeCubicActionOut 缓动对象。
   - [`easeCubicActionInOut`](#easecubicactioninout) 创建 easeCubicActionInOut 缓动对象。
-  - [`show`](#show) 立即显示。
-  - [`hide`](#hide) 立即隐藏。
-  - [`toggleVisibility`](#togglevisibility) 显隐状态切换。
-  - [`removeSelf`](#removeself) 从父节点移除自身。
-  - [`flipX`](#flipx) X轴翻转。
-  - [`flipY`](#flipy) Y轴翻转。
-  - [`place`](#place) 放置在目标位置。
-  - [`callFunc`](#callfunc) 执行回调函数。
-  - [`sequence`](#sequence) 顺序执行动作，创建的动作将按顺序依次运行。
-  - [`repeat`](#repeat) 重复动作，可以按一定次数重复一个动，如果想永远重复一个动作请使用 repeatForever 动作来完成。
-  - [`repeatForever`](#repeatforever) 永远地重复一个动作，有限次数内重复一个动作请使用 repeat 动作，由于这个动作不会停止，所以不能被添加到 cc.sequence 或 cc.spawn 中。
-  - [`spawn`](#spawn) 同步执行动作，同步执行一组动作。
-  - [`rotateTo`](#rotateto) 旋转到目标角度，通过逐帧修改它的 rotation 属性，旋转方向将由最短的角度决定。
-  - [`rotateBy`](#rotateby) 旋转指定的角度。
-  - [`moveBy`](#moveby) 移动指定的距离。
-  - [`moveTo`](#moveto) 移动到目标位置。
-  - [`skewTo`](#skewto) 偏斜到目标角度。
-  - [`skewBy`](#skewby) 偏斜指定的角度。
-  - [`jumpBy`](#jumpby) 用跳跃的方式移动指定的距离。
-  - [`jumpTo`](#jumpto) 用跳跃的方式移动到目标位置。
-  - [`bezierBy`](#bezierby) 按贝赛尔曲线轨迹移动指定的距离。
-  - [`bezierTo`](#bezierto) 按贝赛尔曲线轨迹移动到目标位置。
-  - [`scaleTo`](#scaleto) 将节点大小缩放到指定的倍数。
-  - [`scaleBy`](#scaleby) 按指定的倍数缩放节点大小。
-  - [`blink`](#blink) 闪烁（基于透明度）。
-  - [`fadeTo`](#fadeto) 修改透明度到指定值。
-  - [`fadeIn`](#fadein) 渐显效果。
-  - [`fadeOut`](#fadeout) 渐隐效果。
-  - [`tintTo`](#tintto) 修改颜色到指定值。
-  - [`tintBy`](#tintby) 按照指定的增量修改颜色。
-  - [`delayTime`](#delaytime) 
-  - [`reverseTime`](#reversetime) 反转目标动作的时间轴。
-  - [`targetedAction`](#targetedaction) 用已有动作和一个新的目标节点创建动作。
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive....
   - [`handleTouchesBegin`](#handletouchesbegin) 
   - [`handleTouchesMove`](#handletouchesmove) 
   - [`handleTouchesEnd`](#handletouchesend) 
@@ -366,6 +342,8 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`isChildClassOf`](#ischildclassof) Checks whether subclass is child of superclass or equals to superclass
   - [`Enum`](#enum) 定义一个枚举类型。
   - [`getList`](#getlist) 
+  - [`setAccelerometerEnabled`](#setaccelerometerenabled) whether enable accelerometer event
+  - [`setAccelerometerInterval`](#setaccelerometerinterval) set accelerometer interval value
   - [`handleTouchesBegin`](#handletouchesbegin) 
   - [`handleTouchesMove`](#handletouchesmove) 
   - [`handleTouchesEnd`](#handletouchesend) 
@@ -380,8 +358,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`getTouchesByEvent`](#gettouchesbyevent) 
   - [`registerSystemEvent`](#registersystemevent) 
   - [`update`](#update) 
-  - [`setAccelerometerEnabled`](#setaccelerometerenabled) whether enable accelerometer event
-  - [`setAccelerometerInterval`](#setaccelerometerinterval) set accelerometer interval value
   - [`lerp`](#lerp) Linear interpolation between 2 numbers, the ratio sets how much it is biased to each end
   - [`rand`](#rand) get a random number from 0 to 0xffffff
   - [`randomMinus1To1`](#randomminus1to1) returns a random float between -1 and 1
@@ -394,10 +370,7 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`isValid`](#isvalid) 检查该对象是否不为 null 并且尚未销毁。
   - [`deserialize`](#deserialize) 将 JSON 反序列化为对象实例。
   - [`instantiate`](#instantiate) 克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
-  - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
-  - [`colorEqual`](#colorequal) 判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
-  - [`hexToColor`](#hextocolor) 16 进制转换为 Color
-  - [`colorToHex`](#colortohex) Color 转换为 16进制。
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive....
   - [`pNeg`](#pneg) 返回相反的向量。
   - [`pAdd`](#padd) 返回两个向量的和。
   - [`pSub`](#psub) 返回两个向量的差。
@@ -436,6 +409,10 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`pSubIn`](#psubin) 向量减法，结果保存到第一个向量。
   - [`pAddIn`](#paddin) 向量加法，结果保存到第一个向量。
   - [`pNormalizeIn`](#pnormalizein) 规范化 v 向量，设置 v 向量长度为 1。
+  - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
+  - [`colorEqual`](#colorequal) 判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
+  - [`hexToColor`](#hextocolor) 16 进制转换为 Color
+  - [`colorToHex`](#colortohex) Color 转换为 16进制。
   - [`rect`](#rect) 该方法用来快速创建一个新的矩形。
   - [`rectEqualToRect`](#rectequaltorect) 判断两个矩形是否相等。
   - [`rectContainsRect`](#rectcontainsrect) 检查 rect1 矩形是否包含 rect2 矩形。
@@ -557,17 +534,6 @@ If you post a bug to forum, please attach this flag.
 
 
 
-##### systemEvent
-
-> 系统事件单例，方便全局使用
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
-| 定义于 | [cocos2d/core/event/system-event.js:195](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/system-event.js#L195) |
-
-
-
 ##### Integer
 
 > Specify that the input value must be integer in Inspector.
@@ -651,6 +617,17 @@ member: {
 }
 // ES6 ccclass
 ```
+
+
+##### systemEvent
+
+> 系统事件单例，方便全局使用
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
+| 定义于 | [cocos2d/core/event/system-event.js:195](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/event/system-event.js#L195) |
+
 
 
 
@@ -859,634 +836,6 @@ var action1 = cc.catmullRomTo(3, array);
 ```js
 var action1 = cc.catmullRomBy(3, array);
 ```
-
-##### easeIn
-
-创建 easeIn 缓动对象，由慢到快。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:198](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L198) |
-
-###### 参数列表
-- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-action.easing(cc.easeIn(3.0));
-```
-
-##### easeOut
-
-创建 easeOut 缓动对象，由快到慢。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:248](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L248) |
-
-###### 参数列表
-- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-action.easing(cc.easeOut(3.0));
-```
-
-##### easeInOut
-
-创建 easeInOut 缓动对象，慢到快，然后慢。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:302](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L302) |
-
-###### 参数列表
-- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-action.easing(cc.easeInOut(3.0));
-```
-
-##### easeExponentialIn
-
-创建 easeExponentialIn 缓动对象。<br />
-EaseExponentialIn 是按指数函数缓动进入的动作。<br />
-参考 easeInExpo：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:367](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L367) |
-
-
-##### 示例
-
-```js
-action.easing(cc.easeExponentialIn());
-```
-
-##### easeExponentialOut
-
-创建 easeExponentialOut 缓动对象。<br />
-EaseExponentialOut 是按指数函数缓动退出的动作。<br />
-参考 easeOutExpo：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:422](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L422) |
-
-
-##### 示例
-
-```js
-action.easing(cc.easeExponentialOut());
-```
-
-##### easeExponentialInOut
-
-创建 easeExponentialInOut 缓动对象。<br />
-EaseExponentialInOut 是按指数函数缓动进入并退出的动作。<br />
-参考 easeInOutExpo：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:492](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L492) |
-
-
-##### 示例
-
-```js
-action.easing(cc.easeExponentialInOut());
-```
-
-##### easeSineIn
-
-创建 EaseSineIn 缓动对象。<br />
-EaseSineIn 是按正弦函数缓动进入的动作。<br />
-参考 easeInSine：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:547](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L547) |
-
-
-##### 示例
-
-```js
-action.easing(cc.easeSineIn());
-```
-
-##### easeSineOut
-
-创建 EaseSineOut 缓动对象。<br />
-EaseSineIn 是按正弦函数缓动退出的动作。<br />
-参考 easeOutSine：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:603](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L603) |
-
-
-##### 示例
-
-```js
-action.easing(cc.easeSineOut());
-```
-
-##### easeSineInOut
-
-创建 easeSineInOut 缓动对象。<br />
-EaseSineIn 是按正弦函数缓动进入并退出的动作。<br />
-参考 easeInOutSine：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:659](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L659) |
-
-
-##### 示例
-
-```js
-action.easing(cc.easeSineInOut());
-```
-
-##### easeElasticIn
-
-创建 easeElasticIn 缓动对象。<br />
-EaseElasticIn 是按弹性曲线缓动进入的动作。<br />
-参数 easeInElastic：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:788](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L788) |
-
-###### 参数列表
-- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-// example
-action.easing(cc.easeElasticIn(3.0));
-```
-
-##### easeElasticOut
-
-创建 easeElasticOut 缓动对象。<br />
-EaseElasticOut 是按弹性曲线缓动退出的动作。<br />
-参考 easeOutElastic：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:868](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L868) |
-
-###### 参数列表
-- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-// example
-action.easing(cc.easeElasticOut(3.0));
-```
-
-##### easeElasticInOut
-
-创建 easeElasticInOut 缓动对象。<br />
-EaseElasticInOut 是按弹性曲线缓动进入并退出的动作。<br />
-参考 easeInOutElastic：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:944](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L944) |
-
-###### 参数列表
-- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
-// example
-action.easing(cc.easeElasticInOut(3.0));
-```
-
-##### easeBounceIn
-
-创建 easeBounceIn 缓动对象。<br />
-EaseBounceIn 是按弹跳动作缓动进入的动作。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1082](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1082) |
-
-
-##### 示例
-
-```js
-// example
-action.easing(cc.easeBounceIn());
-```
-
-##### easeBounceOut
-
-创建 easeBounceOut 缓动对象。<br />
-EaseBounceOut 是按弹跳动作缓动退出的动作。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1137](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1137) |
-
-
-##### 示例
-
-```js
-// example
-action.easing(cc.easeBounceOut());
-```
-
-##### easeBounceInOut
-
-创建 easeBounceInOut 缓动对象。<br />
-EaseBounceInOut 是按弹跳动作缓动进入并退出的动作。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1205](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1205) |
-
-
-##### 示例
-
-```js
-// example
-action.easing(cc.easeBounceInOut());
-```
-
-##### easeBackIn
-
-创建 easeBackIn 缓动对象。<br />
-easeBackIn 是在相反的方向缓慢移动，然后加速到正确的方向。<br />
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1262](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1262) |
-
-
-##### 示例
-
-```js
-// example
-action.easing(cc.easeBackIn());
-```
-
-##### easeBackOut
-
-创建 easeBackOut 缓动对象。<br />
-easeBackOut 快速移动超出目标，然后慢慢回到目标点。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1320](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1320) |
-
-
-##### 示例
-
-```js
-// example
-action.easing(cc.easeBackOut());
-```
-
-##### easeBackInOut
-
-创建 easeBackInOut 缓动对象。<br />
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1388](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1388) |
-
-
-##### 示例
-
-```js
-// example
-action.easing(cc.easeBackInOut());
-```
-
-##### easeBezierAction
-
-创建 easeBezierAction 缓动对象。<br />
-EaseBezierAction 是按贝塞尔曲线缓动的动作。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1470](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1470) |
-
-###### 参数列表
-- `p0` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The first bezier parameter
-- `p1` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The second bezier parameter
-- `p2` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The third bezier parameter
-- `p3` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The fourth bezier parameter
-
-##### 示例
-
-```js
-// example
-action.easing(cc.easeBezierAction(0.5, 0.5, 1.0, 1.0));
-```
-
-##### easeQuadraticActionIn
-
-创建 easeQuadraticActionIn 缓动对象。<br />
-EaseQuadraticIn是按二次函数缓动进入的动作。<br />
-参考 easeInQuad：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1540](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1540) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeQuadraticActionIn());
-```
-
-##### easeQuadraticActionOut
-
-创建 easeQuadraticActionOut 缓动对象。<br />
-EaseQuadraticOut 是按二次函数缓动退出的动作。<br />
-参考 easeOutQuad：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1598](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1598) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeQuadraticActionOut());
-```
-
-##### easeQuadraticActionInOut
-
-创建 easeQuadraticActionInOut 缓动对象。<br />
-EaseQuadraticInOut 是按二次函数缓动进入并退出的动作。<br />
-参考 easeInOutQuad：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1664](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1664) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeQuadraticActionInOut());
-```
-
-##### easeQuarticActionIn
-
-创建 easeQuarticActionIn 缓动对象。<br />
-EaseQuarticIn 是按四次函数缓动进入的动作。<br />
-参考 easeIntQuart：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1721](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1721) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeQuarticActionIn());
-```
-
-##### easeQuarticActionOut
-
-创建 easeQuarticActionOut 缓动对象。<br />
-EaseQuarticOut 是按四次函数缓动退出的动作。<br />
-参考 easeOutQuart：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1780](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1780) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.QuarticActionOut());
-```
-
-##### easeQuarticActionInOut
-
-创建 easeQuarticActionInOut 缓动对象。<br />
-EaseQuarticInOut 是按四次函数缓动进入并退出的动作。<br />
-参考 easeInOutQuart：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1841](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1841) |
-
-
-
-##### easeQuinticActionIn
-
-创建 easeQuinticActionIn 缓动对象。<br />
-EaseQuinticIn 是按五次函数缓动进的动作。<br />
-参考 easeInQuint：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1896](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1896) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeQuinticActionIn());
-```
-
-##### easeQuinticActionOut
-
-创建 easeQuinticActionOut 缓动对象。<br />
-EaseQuinticOut 是按五次函数缓动退出的动作
-参考 easeOutQuint：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:1955](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1955) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeQuadraticActionOut());
-```
-
-##### easeQuinticActionInOut
-
-创建 easeQuinticActionInOut 缓动对象。<br />
-EaseQuinticInOut是按五次函数缓动进入并退出的动作。<br />
-参考 easeInOutQuint：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2017](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2017) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeQuinticActionInOut());
-```
-
-##### easeCircleActionIn
-
-创建 easeCircleActionIn 缓动对象。<br />
-EaseCircleIn是按圆形曲线缓动进入的动作。<br />
-参考 easeInCirc：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2075](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2075) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeCircleActionIn());
-```
-
-##### easeCircleActionOut
-
-创建 easeCircleActionOut 缓动对象。<br />
-EaseCircleOut是按圆形曲线缓动退出的动作。<br />
-参考 easeOutCirc：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2134](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2134) |
-
-
-##### 示例
-
-```js
-//example
-actioneasing(cc.easeCircleActionOut());
-```
-
-##### easeCircleActionInOut
-
-创建 easeCircleActionInOut 缓动对象。<br />
-EaseCircleInOut 是按圆形曲线缓动进入并退出的动作。<br />
-参考 easeInOutCirc：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2196](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2196) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeCircleActionInOut());
-```
-
-##### easeCubicActionIn
-
-创建 easeCubicActionIn 缓动对象。<br />
-EaseCubicIn 是按三次函数缓动进入的动作。<br />
-参考 easeInCubic：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2254](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2254) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeCubicActionIn());
-```
-
-##### easeCubicActionOut
-
-创建 easeCubicActionOut 缓动对象。<br />
-EaseCubicOut 是按三次函数缓动退出的动作。<br />
-参考 easeOutCubic：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2313](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2313) |
-
-
-##### 示例
-
-```js
-//example
-action.easing(cc.easeCubicActionOut());
-```
-
-##### easeCubicActionInOut
-
-创建 easeCubicActionInOut 缓动对象。<br />
-EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
-参考 easeInOutCubic：http://www.zhihu.com/question/21981571/answer/19925418
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/actions/CCActionEase.js:2375](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2375) |
-
-
 
 ##### show
 
@@ -2163,21 +1512,632 @@ var delay = cc.delayTime(1);
 - `action` <a href="../classes/FiniteTimeAction.html" class="crosslink">FiniteTimeAction</a> 
 
 
-##### find
+##### easeIn
 
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
+创建 easeIn 缓动对象，由慢到快。
 
 | meta | description |
 |------|-------------|
-| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| 定义于 | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/utils/find.js#L30) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:198](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L198) |
 
 ###### 参数列表
-- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
+- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+action.easing(cc.easeIn(3.0));
+```
+
+##### easeOut
+
+创建 easeOut 缓动对象，由快到慢。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:248](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L248) |
+
+###### 参数列表
+- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+action.easing(cc.easeOut(3.0));
+```
+
+##### easeInOut
+
+创建 easeInOut 缓动对象，慢到快，然后慢。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:302](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L302) |
+
+###### 参数列表
+- `rate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+action.easing(cc.easeInOut(3.0));
+```
+
+##### easeExponentialIn
+
+创建 easeExponentialIn 缓动对象。<br />
+EaseExponentialIn 是按指数函数缓动进入的动作。<br />
+参考 easeInExpo：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:367](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L367) |
+
+
+##### 示例
+
+```js
+action.easing(cc.easeExponentialIn());
+```
+
+##### easeExponentialOut
+
+创建 easeExponentialOut 缓动对象。<br />
+EaseExponentialOut 是按指数函数缓动退出的动作。<br />
+参考 easeOutExpo：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:422](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L422) |
+
+
+##### 示例
+
+```js
+action.easing(cc.easeExponentialOut());
+```
+
+##### easeExponentialInOut
+
+创建 easeExponentialInOut 缓动对象。<br />
+EaseExponentialInOut 是按指数函数缓动进入并退出的动作。<br />
+参考 easeInOutExpo：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:492](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L492) |
+
+
+##### 示例
+
+```js
+action.easing(cc.easeExponentialInOut());
+```
+
+##### easeSineIn
+
+创建 EaseSineIn 缓动对象。<br />
+EaseSineIn 是按正弦函数缓动进入的动作。<br />
+参考 easeInSine：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:547](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L547) |
+
+
+##### 示例
+
+```js
+action.easing(cc.easeSineIn());
+```
+
+##### easeSineOut
+
+创建 EaseSineOut 缓动对象。<br />
+EaseSineIn 是按正弦函数缓动退出的动作。<br />
+参考 easeOutSine：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:603](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L603) |
+
+
+##### 示例
+
+```js
+action.easing(cc.easeSineOut());
+```
+
+##### easeSineInOut
+
+创建 easeSineInOut 缓动对象。<br />
+EaseSineIn 是按正弦函数缓动进入并退出的动作。<br />
+参考 easeInOutSine：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:659](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L659) |
+
+
+##### 示例
+
+```js
+action.easing(cc.easeSineInOut());
+```
+
+##### easeElasticIn
+
+创建 easeElasticIn 缓动对象。<br />
+EaseElasticIn 是按弹性曲线缓动进入的动作。<br />
+参数 easeInElastic：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:788](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L788) |
+
+###### 参数列表
+- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+// example
+action.easing(cc.easeElasticIn(3.0));
+```
+
+##### easeElasticOut
+
+创建 easeElasticOut 缓动对象。<br />
+EaseElasticOut 是按弹性曲线缓动退出的动作。<br />
+参考 easeOutElastic：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:868](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L868) |
+
+###### 参数列表
+- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+// example
+action.easing(cc.easeElasticOut(3.0));
+```
+
+##### easeElasticInOut
+
+创建 easeElasticInOut 缓动对象。<br />
+EaseElasticInOut 是按弹性曲线缓动进入并退出的动作。<br />
+参考 easeInOutElastic：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:944](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L944) |
+
+###### 参数列表
+- `period` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+// example
+action.easing(cc.easeElasticInOut(3.0));
+```
+
+##### easeBounceIn
+
+创建 easeBounceIn 缓动对象。<br />
+EaseBounceIn 是按弹跳动作缓动进入的动作。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1082](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1082) |
+
+
+##### 示例
+
+```js
+// example
+action.easing(cc.easeBounceIn());
+```
+
+##### easeBounceOut
+
+创建 easeBounceOut 缓动对象。<br />
+EaseBounceOut 是按弹跳动作缓动退出的动作。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1137](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1137) |
+
+
+##### 示例
+
+```js
+// example
+action.easing(cc.easeBounceOut());
+```
+
+##### easeBounceInOut
+
+创建 easeBounceInOut 缓动对象。<br />
+EaseBounceInOut 是按弹跳动作缓动进入并退出的动作。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1205](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1205) |
+
+
+##### 示例
+
+```js
+// example
+action.easing(cc.easeBounceInOut());
+```
+
+##### easeBackIn
+
+创建 easeBackIn 缓动对象。<br />
+easeBackIn 是在相反的方向缓慢移动，然后加速到正确的方向。<br />
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1262](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1262) |
+
+
+##### 示例
+
+```js
+// example
+action.easing(cc.easeBackIn());
+```
+
+##### easeBackOut
+
+创建 easeBackOut 缓动对象。<br />
+easeBackOut 快速移动超出目标，然后慢慢回到目标点。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1320](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1320) |
+
+
+##### 示例
+
+```js
+// example
+action.easing(cc.easeBackOut());
+```
+
+##### easeBackInOut
+
+创建 easeBackInOut 缓动对象。<br />
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1388](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1388) |
+
+
+##### 示例
+
+```js
+// example
+action.easing(cc.easeBackInOut());
+```
+
+##### easeBezierAction
+
+创建 easeBezierAction 缓动对象。<br />
+EaseBezierAction 是按贝塞尔曲线缓动的动作。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1470](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1470) |
+
+###### 参数列表
+- `p0` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The first bezier parameter
+- `p1` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The second bezier parameter
+- `p2` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The third bezier parameter
+- `p3` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The fourth bezier parameter
+
+##### 示例
+
+```js
+// example
+action.easing(cc.easeBezierAction(0.5, 0.5, 1.0, 1.0));
+```
+
+##### easeQuadraticActionIn
+
+创建 easeQuadraticActionIn 缓动对象。<br />
+EaseQuadraticIn是按二次函数缓动进入的动作。<br />
+参考 easeInQuad：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1540](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1540) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeQuadraticActionIn());
+```
+
+##### easeQuadraticActionOut
+
+创建 easeQuadraticActionOut 缓动对象。<br />
+EaseQuadraticOut 是按二次函数缓动退出的动作。<br />
+参考 easeOutQuad：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1598](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1598) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeQuadraticActionOut());
+```
+
+##### easeQuadraticActionInOut
+
+创建 easeQuadraticActionInOut 缓动对象。<br />
+EaseQuadraticInOut 是按二次函数缓动进入并退出的动作。<br />
+参考 easeInOutQuad：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1664](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1664) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeQuadraticActionInOut());
+```
+
+##### easeQuarticActionIn
+
+创建 easeQuarticActionIn 缓动对象。<br />
+EaseQuarticIn 是按四次函数缓动进入的动作。<br />
+参考 easeIntQuart：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1721](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1721) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeQuarticActionIn());
+```
+
+##### easeQuarticActionOut
+
+创建 easeQuarticActionOut 缓动对象。<br />
+EaseQuarticOut 是按四次函数缓动退出的动作。<br />
+参考 easeOutQuart：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1780](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1780) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.QuarticActionOut());
+```
+
+##### easeQuarticActionInOut
+
+创建 easeQuarticActionInOut 缓动对象。<br />
+EaseQuarticInOut 是按四次函数缓动进入并退出的动作。<br />
+参考 easeInOutQuart：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1841](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1841) |
+
+
+
+##### easeQuinticActionIn
+
+创建 easeQuinticActionIn 缓动对象。<br />
+EaseQuinticIn 是按五次函数缓动进的动作。<br />
+参考 easeInQuint：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1896](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1896) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeQuinticActionIn());
+```
+
+##### easeQuinticActionOut
+
+创建 easeQuinticActionOut 缓动对象。<br />
+EaseQuinticOut 是按五次函数缓动退出的动作
+参考 easeOutQuint：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:1955](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L1955) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeQuadraticActionOut());
+```
+
+##### easeQuinticActionInOut
+
+创建 easeQuinticActionInOut 缓动对象。<br />
+EaseQuinticInOut是按五次函数缓动进入并退出的动作。<br />
+参考 easeInOutQuint：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:2017](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2017) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeQuinticActionInOut());
+```
+
+##### easeCircleActionIn
+
+创建 easeCircleActionIn 缓动对象。<br />
+EaseCircleIn是按圆形曲线缓动进入的动作。<br />
+参考 easeInCirc：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:2075](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2075) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeCircleActionIn());
+```
+
+##### easeCircleActionOut
+
+创建 easeCircleActionOut 缓动对象。<br />
+EaseCircleOut是按圆形曲线缓动退出的动作。<br />
+参考 easeOutCirc：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:2134](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2134) |
+
+
+##### 示例
+
+```js
+//example
+actioneasing(cc.easeCircleActionOut());
+```
+
+##### easeCircleActionInOut
+
+创建 easeCircleActionInOut 缓动对象。<br />
+EaseCircleInOut 是按圆形曲线缓动进入并退出的动作。<br />
+参考 easeInOutCirc：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:2196](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2196) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeCircleActionInOut());
+```
+
+##### easeCubicActionIn
+
+创建 easeCubicActionIn 缓动对象。<br />
+EaseCubicIn 是按三次函数缓动进入的动作。<br />
+参考 easeInCubic：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:2254](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2254) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeCubicActionIn());
+```
+
+##### easeCubicActionOut
+
+创建 easeCubicActionOut 缓动对象。<br />
+EaseCubicOut 是按三次函数缓动退出的动作。<br />
+参考 easeOutCubic：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:2313](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2313) |
+
+
+##### 示例
+
+```js
+//example
+action.easing(cc.easeCubicActionOut());
+```
+
+##### easeCubicActionInOut
+
+创建 easeCubicActionInOut 缓动对象。<br />
+EaseCubicInOut是按三次函数缓动进入并退出的动作。<br />
+参考 easeInOutCubic：http://www.zhihu.com/question/21981571/answer/19925418
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| 定义于 | [cocos2d/actions/CCActionEase.js:2375](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/actions/CCActionEase.js#L2375) |
+
 
 
 ##### handleTouchesBegin
@@ -2530,6 +2490,30 @@ class NewScript extends cc.Component {
 - `enumDef` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the enum type defined from cc.Enum
 
 
+##### setAccelerometerEnabled
+
+whether enable accelerometer event
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputExtension.js:41](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputExtension.js#L41) |
+
+###### 参数列表
+- `isEnable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+
+##### setAccelerometerInterval
+
+set accelerometer interval value
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/CCInputExtension.js:64](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputExtension.js#L64) |
+
+###### 参数列表
+- `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
 ##### handleTouchesBegin
 
 
@@ -2709,30 +2693,6 @@ class NewScript extends cc.Component {
 
 ###### 参数列表
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-
-##### setAccelerometerEnabled
-
-whether enable accelerometer event
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputExtension.js:41](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputExtension.js#L41) |
-
-###### 参数列表
-- `isEnable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-
-##### setAccelerometerInterval
-
-set accelerometer interval value
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputExtension.js:64](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/platform/CCInputExtension.js#L64) |
-
-###### 参数列表
-- `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### lerp
@@ -2927,90 +2887,22 @@ var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
 
-##### color
+##### find
 
-通过该方法来创建一个新的 Color/Color:method 对象。
-Alpha 通道是可选的。默认值是 255。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [cocos2d/core/value-types/CCColor.js:621](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L621) |
-
-###### 参数列表
-- `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `g` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `b` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```js
------------------------
-// 1. All channels seperately as parameters
-var color1 = new cc.Color(255, 255, 255, 255);
-// 2. Convert a hex string to a color
-var color2 = new cc.Color("#000000");
-// 3. An color object as parameter
-var color3 = new cc.Color({r: 255, g: 255, b: 255, a: 255});
-
-```
-
-##### colorEqual
-
-判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
 
 | meta | description |
 |------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/CCColor.js:652](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L652) |
+| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| 定义于 | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/utils/find.js#L30) |
 
 ###### 参数列表
-- `color1` <a href="../classes/Color.html" class="crosslink">Color</a> 
-- `color2` <a href="../classes/Color.html" class="crosslink">Color</a> 
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
-##### 示例
-
-```js
-cc.log(cc.colorEqual(cc.Color.RED, new cc.Color(255, 0, 0))); // true
-```
-
-##### hexToColor
-
-16 进制转换为 Color
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [cocos2d/core/value-types/CCColor.js:671](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L671) |
-
-###### 参数列表
-- `hex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-
-##### 示例
-
-```js
-cc.hexToColor("#FFFF33"); // Color {r: 255, g: 255, b: 51, a: 255};
-```
-
-##### colorToHex
-
-Color 转换为 16进制。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/value-types/CCColor.js:691](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L691) |
-
-###### 参数列表
-- `color` <a href="../classes/Color.html" class="crosslink">Color</a> 
-
-##### 示例
-
-```js
-var color = new cc.Color(255, 6, 255)
-cc.colorToHex(color); // #ff06ff;
-```
 
 ##### pNeg
 
@@ -3691,6 +3583,91 @@ retP.y is the range for a hitpoint in P3 (pa = p2 + t*(p4 - p3)).
 ###### 参数列表
 - `v` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
 
+
+##### color
+
+通过该方法来创建一个新的 Color/Color:method 对象。
+Alpha 通道是可选的。默认值是 255。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
+| 定义于 | [cocos2d/core/value-types/CCColor.js:621](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L621) |
+
+###### 参数列表
+- `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `g` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `b` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```js
+-----------------------
+// 1. All channels seperately as parameters
+var color1 = new cc.Color(255, 255, 255, 255);
+// 2. Convert a hex string to a color
+var color2 = new cc.Color("#000000");
+// 3. An color object as parameter
+var color3 = new cc.Color({r: 255, g: 255, b: 255, a: 255});
+
+```
+
+##### colorEqual
+
+判断两个颜色对象的 RGB 部分是否相等，不比较透明度。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| 定义于 | [cocos2d/core/value-types/CCColor.js:652](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L652) |
+
+###### 参数列表
+- `color1` <a href="../classes/Color.html" class="crosslink">Color</a> 
+- `color2` <a href="../classes/Color.html" class="crosslink">Color</a> 
+
+##### 示例
+
+```js
+cc.log(cc.colorEqual(cc.Color.RED, new cc.Color(255, 0, 0))); // true
+```
+
+##### hexToColor
+
+16 进制转换为 Color
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
+| 定义于 | [cocos2d/core/value-types/CCColor.js:671](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L671) |
+
+###### 参数列表
+- `hex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+
+##### 示例
+
+```js
+cc.hexToColor("#FFFF33"); // Color {r: 255, g: 255, b: 51, a: 255};
+```
+
+##### colorToHex
+
+Color 转换为 16进制。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 定义于 | [cocos2d/core/value-types/CCColor.js:691](https://github.com/cocos-creator/engine/blob/de46973d0b5edcff4f973186ce89752080cb6b7c/cocos2d/core/value-types/CCColor.js#L691) |
+
+###### 参数列表
+- `color` <a href="../classes/Color.html" class="crosslink">Color</a> 
+
+##### 示例
+
+```js
+var color = new cc.Color(255, 6, 255)
+cc.colorToHex(color); // #ff06ff;
+```
 
 ##### rect
 

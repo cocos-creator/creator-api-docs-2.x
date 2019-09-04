@@ -4,6 +4,7 @@ Extends [`Component`](Component.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Button has 4 Transition types<br/>
@@ -868,6 +869,7 @@ Init this object from the custom serialized data.
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Note: This event is emitted from the node to which the component belongs.

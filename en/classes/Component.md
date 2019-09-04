@@ -4,6 +4,7 @@ Extends [`Object`](Object.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Base class for everything attached to Node(Entity).<br/>

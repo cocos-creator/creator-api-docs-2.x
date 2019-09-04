@@ -4,6 +4,7 @@ Extends [`RawAsset`](RawAsset.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Base class for handling assets used in Creator.<br/>
