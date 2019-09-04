@@ -4,7 +4,6 @@ Extends [`Collider`](Collider.md), [`Collider.Circle`](Collider.Circle.md)(mixin
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Circle Collider.
@@ -15,9 +14,9 @@ Circle Collider.
 
 ##### Properties
 
+  - [`tag`](#tag) `Integer` Tag.
   - [`offset`](#offset) `Vec2` Position offset
   - [`radius`](#radius) `Number` Circle radius
-  - [`tag`](#tag) `Integer` Tag.
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` The node this component is attached to.
   - [`uuid`](#uuid) `String` The uuid for editor.
@@ -70,6 +69,17 @@ Circle Collider.
 #### Properties
 
 
+##### tag
+
+> Tag. If a node has several collider components, you can judge which type of collider is collided according to the tag.
+
+| meta | description |
+|------|-------------|
+| Type | Integer |
+| Defined in | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/collider/CCCollider.js#L47) |
+
+
+
 ##### offset
 
 > Position offset
@@ -89,17 +99,6 @@ Circle Collider.
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
 | Defined in | [cocos2d/core/collider/CCCircleCollider.js:56](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/collider/CCCircleCollider.js#L56) |
-
-
-
-##### tag
-
-> Tag. If a node has several collider components, you can judge which type of collider is collided according to the tag.
-
-| meta | description |
-|------|-------------|
-| Type | Integer |
-| Defined in | [cocos2d/core/collider/CCCollider.js:47](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/collider/CCCollider.js#L47) |
 
 
 

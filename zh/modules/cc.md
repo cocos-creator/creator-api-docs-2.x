@@ -11,10 +11,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 
 ### 类型
 
-  - [_BaseNode](../classes/_BaseNode.md)
-  - [_CallbacksHandler](../classes/_CallbacksHandler.md)
-  - [_JavaScript](../classes/_JavaScript.md)
-  - [_Script](../classes/_Script.md)
   - [Action](../classes/Action.md)
   - [ActionInstant](../classes/ActionInstant.md)
   - [ActionInterval](../classes/ActionInterval.md)
@@ -89,7 +85,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [Node](../classes/Node.md)
   - [Node.EventType](../classes/Node.EventType.md)
   - [NodePool](../classes/NodePool.md)
-  - [Object](../classes/Object.md)
   - [OriginalContainer](../classes/OriginalContainer.md)
   - [PageView](../classes/PageView.md)
   - [PageViewIndicator](../classes/PageViewIndicator.md)
@@ -173,23 +168,15 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
 
 ### 枚举
 
-  - [AccountGender](../enums/AccountGender.md)
-  - [AccountOperate](../enums/AccountOperate.md)
-  - [AccountType](../enums/AccountType.md)
-  - [AdsPos](../enums/AdsPos.md)
-  - [AdsResultCode](../enums/AdsResultCode.md)
-  - [AdsType](../enums/AdsType.md)
-  - [AnimationEventType](../enums/AnimationEventType.md)
-  - [ArmatureDisplay.AnimationCacheMode](../enums/ArmatureDisplay.AnimationCacheMode.md)
   - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [Button.Transition](../enums/Button.Transition.md)
   - [Camera.ClearFlags](../enums/Camera.ClearFlags.md)
-  - [CustomResultCode](../enums/CustomResultCode.md)
   - [debug.DebugMode](../enums/debug.DebugMode.md)
   - [DrawBits](../enums/DrawBits.md)
   - [EditBox.InputFlag](../enums/EditBox.InputFlag.md)
   - [EditBox.InputMode](../enums/EditBox.InputMode.md)
   - [EditBox.KeyboardReturnType](../enums/EditBox.KeyboardReturnType.md)
+  - [Flags](../enums/Flags.md)
   - [Graphics.LineCap](../enums/Graphics.LineCap.md)
   - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
   - [Label.HorizontalAlign](../enums/Label.HorizontalAlign.md)
@@ -208,36 +195,28 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [macro.TextAlignment](../enums/macro.TextAlignment.md)
   - [Mask.Type](../enums/Mask.Type.md)
   - [NetworkType](../enums/NetworkType.md)
+  - [Node._LocalDirtyFlag](../enums/Node._LocalDirtyFlag.md)
   - [PageView.Direction](../enums/PageView.Direction.md)
   - [PageView.EventType](../enums/PageView.EventType.md)
   - [PageView.SizeMode](../enums/PageView.SizeMode.md)
   - [PageViewIndicator.Direction](../enums/PageViewIndicator.Direction.md)
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
-  - [PayResultCode](../enums/PayResultCode.md)
   - [Prefab.OptimizationPolicy](../enums/Prefab.OptimizationPolicy.md)
   - [ProgressBar.Mode](../enums/ProgressBar.Mode.md)
-  - [PushActionResultCode](../enums/PushActionResultCode.md)
   - [RayCastType](../enums/RayCastType.md)
-  - [RECResultCode](../enums/RECResultCode.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [Scrollbar.Direction](../enums/Scrollbar.Direction.md)
   - [ScrollView.EventType](../enums/ScrollView.EventType.md)
-  - [ShareResultCode](../enums/ShareResultCode.md)
-  - [Skeleton.AnimationCacheMode](../enums/Skeleton.AnimationCacheMode.md)
   - [Slider.Direction](../enums/Slider.Direction.md)
-  - [SocialRetCode](../enums/SocialRetCode.md)
   - [Sprite.FillType](../enums/Sprite.FillType.md)
   - [Sprite.SizeMode](../enums/Sprite.SizeMode.md)
   - [Sprite.State](../enums/Sprite.State.md)
   - [Sprite.Type](../enums/Sprite.Type.md)
-  - [TaskType](../enums/TaskType.md)
   - [Texture2D.Filter](../enums/Texture2D.Filter.md)
   - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
   - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
   - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
-  - [ToolBarPlace](../enums/ToolBarPlace.md)
-  - [UserActionResultCode](../enums/UserActionResultCode.md)
   - [VerticalTextAlignment](../enums/VerticalTextAlignment.md)
   - [VideoPlayer.EventType](../enums/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../enums/VideoPlayer.ResourceType.md)
@@ -368,11 +347,11 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`deserialize`](#deserialize) 将 JSON 反序列化为对象实例。
   - [`instantiate`](#instantiate) 克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
   - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive....
+  - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
   - [`rect`](#rect) 该方法用来快速创建一个新的矩形。
   - [`size`](#size) 创建一个 cc.Size 对象的帮助函数。
   - [`v2`](#v2) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
   - [`p`](#p) 这个函数从 v2.0 开始被废弃，请使用 V2。
-  - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
 
 
 
@@ -2526,6 +2505,26 @@ It is recommended to not use this function every frame instead cache the result 
 - `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
 
+##### color
+
+通过该方法来创建一个新的 Color/Color:method 对象。
+Alpha 通道是可选的。默认值是 255。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
+| 定义于 | [cocos2d/core/value-types/color.js:588](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/value-types/color.js#L588) |
+
+###### 参数列表
+- `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `g` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `b` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### 示例
+
+```Not found for the example path: temp-src/engine/docs/utils/api/engine/docs/cocos2d/core/value-types/CCColor/color.js
+
 ##### rect
 
 该方法用来快速创建一个新的矩形。Rect/Rect:method
@@ -2601,25 +2600,5 @@ var v4 = cc.v2({x: 100, y: 100});
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> a Number or a size object
 - `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
-
-##### color
-
-通过该方法来创建一个新的 Color/Color:method 对象。
-Alpha 通道是可选的。默认值是 255。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [cocos2d/core/value-types/color.js:588](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/value-types/color.js#L588) |
-
-###### 参数列表
-- `r` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `g` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `b` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### 示例
-
-```Not found for the example path: temp-src/engine/docs/utils/api/engine/docs/cocos2d/core/value-types/CCColor/color.js
 
 

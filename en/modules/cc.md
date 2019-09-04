@@ -11,10 +11,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 
 ### Classes
 
-  - [_BaseNode](../classes/_BaseNode.md)
-  - [_CallbacksHandler](../classes/_CallbacksHandler.md)
-  - [_JavaScript](../classes/_JavaScript.md)
-  - [_Script](../classes/_Script.md)
   - [Action](../classes/Action.md)
   - [ActionInstant](../classes/ActionInstant.md)
   - [ActionInterval](../classes/ActionInterval.md)
@@ -89,7 +85,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [Node](../classes/Node.md)
   - [Node.EventType](../classes/Node.EventType.md)
   - [NodePool](../classes/NodePool.md)
-  - [Object](../classes/Object.md)
   - [OriginalContainer](../classes/OriginalContainer.md)
   - [PageView](../classes/PageView.md)
   - [PageViewIndicator](../classes/PageViewIndicator.md)
@@ -173,23 +168,15 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 
 ### Enums
 
-  - [AccountGender](../enums/AccountGender.md)
-  - [AccountOperate](../enums/AccountOperate.md)
-  - [AccountType](../enums/AccountType.md)
-  - [AdsPos](../enums/AdsPos.md)
-  - [AdsResultCode](../enums/AdsResultCode.md)
-  - [AdsType](../enums/AdsType.md)
-  - [AnimationEventType](../enums/AnimationEventType.md)
-  - [ArmatureDisplay.AnimationCacheMode](../enums/ArmatureDisplay.AnimationCacheMode.md)
   - [audioEngine.AudioState](../enums/audioEngine.AudioState.md)
   - [Button.Transition](../enums/Button.Transition.md)
   - [Camera.ClearFlags](../enums/Camera.ClearFlags.md)
-  - [CustomResultCode](../enums/CustomResultCode.md)
   - [debug.DebugMode](../enums/debug.DebugMode.md)
   - [DrawBits](../enums/DrawBits.md)
   - [EditBox.InputFlag](../enums/EditBox.InputFlag.md)
   - [EditBox.InputMode](../enums/EditBox.InputMode.md)
   - [EditBox.KeyboardReturnType](../enums/EditBox.KeyboardReturnType.md)
+  - [Flags](../enums/Flags.md)
   - [Graphics.LineCap](../enums/Graphics.LineCap.md)
   - [Graphics.LineJoin](../enums/Graphics.LineJoin.md)
   - [Label.HorizontalAlign](../enums/Label.HorizontalAlign.md)
@@ -208,36 +195,28 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [macro.TextAlignment](../enums/macro.TextAlignment.md)
   - [Mask.Type](../enums/Mask.Type.md)
   - [NetworkType](../enums/NetworkType.md)
+  - [Node._LocalDirtyFlag](../enums/Node._LocalDirtyFlag.md)
   - [PageView.Direction](../enums/PageView.Direction.md)
   - [PageView.EventType](../enums/PageView.EventType.md)
   - [PageView.SizeMode](../enums/PageView.SizeMode.md)
   - [PageViewIndicator.Direction](../enums/PageViewIndicator.Direction.md)
   - [ParticleSystem.EmitterMode](../enums/ParticleSystem.EmitterMode.md)
   - [ParticleSystem.PositionType](../enums/ParticleSystem.PositionType.md)
-  - [PayResultCode](../enums/PayResultCode.md)
   - [Prefab.OptimizationPolicy](../enums/Prefab.OptimizationPolicy.md)
   - [ProgressBar.Mode](../enums/ProgressBar.Mode.md)
-  - [PushActionResultCode](../enums/PushActionResultCode.md)
   - [RayCastType](../enums/RayCastType.md)
-  - [RECResultCode](../enums/RECResultCode.md)
   - [RigidBodyType](../enums/RigidBodyType.md)
   - [Scrollbar.Direction](../enums/Scrollbar.Direction.md)
   - [ScrollView.EventType](../enums/ScrollView.EventType.md)
-  - [ShareResultCode](../enums/ShareResultCode.md)
-  - [Skeleton.AnimationCacheMode](../enums/Skeleton.AnimationCacheMode.md)
   - [Slider.Direction](../enums/Slider.Direction.md)
-  - [SocialRetCode](../enums/SocialRetCode.md)
   - [Sprite.FillType](../enums/Sprite.FillType.md)
   - [Sprite.SizeMode](../enums/Sprite.SizeMode.md)
   - [Sprite.State](../enums/Sprite.State.md)
   - [Sprite.Type](../enums/Sprite.Type.md)
-  - [TaskType](../enums/TaskType.md)
   - [Texture2D.Filter](../enums/Texture2D.Filter.md)
   - [Texture2D.PixelFormat](../enums/Texture2D.PixelFormat.md)
   - [Texture2D.WrapMode](../enums/Texture2D.WrapMode.md)
   - [TiledMap.Orientation](../enums/TiledMap.Orientation.md)
-  - [ToolBarPlace](../enums/ToolBarPlace.md)
-  - [UserActionResultCode](../enums/UserActionResultCode.md)
   - [VerticalTextAlignment](../enums/VerticalTextAlignment.md)
   - [VideoPlayer.EventType](../enums/VideoPlayer.EventType.md)
   - [VideoPlayer.ResourceType](../enums/VideoPlayer.ResourceType.md)
@@ -251,8 +230,8 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 ##### Properties
 
   - [`ENGINE_VERSION`](#engineversion) `String` The current version of Cocos2d being used....
-  - [`game`](#game) `Game` This is a Game instance.
   - [`director`](#director) `Director` Director
+  - [`game`](#game) `Game` This is a Game instance.
   - [`systemEvent`](#systemevent) `SystemEvent` The System event singleton for global usage
   - [`srcBlendFactor`](#srcblendfactor) `macro.BlendFactor` specify the source Blend Factor, this will generate a custom material object, please pay attention to the memory cost.
   - [`dstBlendFactor`](#dstblendfactor) `macro.BlendFactor` specify the destination Blend Factor.
@@ -347,10 +326,11 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`warn`](#warn) Outputs a warning message to the Cocos Creator Console (editor) or Web Console (runtime).
   - [`log`](#log) Outputs a message to the Cocos Creator Console (editor) or Web Console (runtime).
   - [`color`](#color) Alpha channel is optional.
+  - [`rect`](#rect) The convenience method to create a new Rect.
   - [`size`](#size) Helper function that creates a cc.Size....
   - [`v2`](#v2) The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
   - [`p`](#p) This function is deprecated since v2.0, please use V2.
-  - [`rect`](#rect) The convenience method to create a new Rect.
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
   - [`Class`](#class) Defines a CCClass using the given specification, please see [Class](/docs/editors_and_tools/creator-chapters/scripting/class.html) for details.
   - [`_isCCClass`](#isccclass) Checks whether the constructor is created by cc.Class
   - [`Enum`](#enum) Define an enum type.
@@ -372,7 +352,6 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`isValid`](#isvalid) When an object's `destroy` is called, it is actually destroyed after the end of this frame.
   - [`deserialize`](#deserialize) Deserialize json to cc.Asset
   - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
 
 
 
@@ -395,17 +374,6 @@ If you post a bug to forum, please attach this flag.
 
 
 
-##### game
-
-> This is a Game instance.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/Game.html" class="crosslink">Game</a> |
-| Defined in | [cocos2d/core/CCGame.js:907](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/CCGame.js#L907) |
-
-
-
 ##### director
 
 > Director
@@ -414,6 +382,17 @@ If you post a bug to forum, please attach this flag.
 |------|-------------|
 | Type | <a href="../classes/Director.html" class="crosslink">Director</a> |
 | Defined in | [cocos2d/core/CCDirector.js:1158](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/CCDirector.js#L1158) |
+
+
+
+##### game
+
+> This is a Game instance.
+
+| meta | description |
+|------|-------------|
+| Type | <a href="../classes/Game.html" class="crosslink">Game</a> |
+| Defined in | [cocos2d/core/CCGame.js:907](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/CCGame.js#L907) |
 
 
 
@@ -2119,6 +2098,28 @@ Alpha channel is optional. Default value is 255.
 
 ```Not found for the example path: temp-src/engine/docs/utils/api/engine/docs/cocos2d/core/value-types/CCColor/color.js
 
+##### rect
+
+The convenience method to create a new Rect.
+see Rect/Rect:method
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
+| Defined in | [cocos2d/core/value-types/rect.js:423](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/value-types/rect.js#L423) |
+
+###### Parameters
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+var a = new cc.Rect(0 , 0, 10, 0);
+```
+
 ##### size
 
 Helper function that creates a cc.Size.<br/>
@@ -2174,27 +2175,22 @@ This function is deprecated since v2.0, please use V2.
 - `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
-##### rect
+##### find
 
-The convenience method to create a new Rect.
-see Rect/Rect:method
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/value-types/rect.js:423](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/value-types/rect.js#L423) |
+| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| Defined in | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/utils/find.js#L30) |
 
 ###### Parameters
-- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `h` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
 
-##### Examples
-
-```js
-var a = new cc.Rect(0 , 0, 10, 0);
-```
 
 ##### Class
 
@@ -2627,22 +2623,5 @@ var scene = cc.director.getScene();
 var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
-
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| Defined in | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/utils/find.js#L30) |
-
-###### Parameters
-- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
-
 
 

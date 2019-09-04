@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接触点的详细信息。

@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 AffineTransform class represent an affine transform matrix. It's composed basically by translation, rotation, scale transformations.<br/>
