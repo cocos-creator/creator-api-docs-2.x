@@ -4,6 +4,7 @@ Extends [`Asset`](Asset.md), [`EventTarget`](EventTarget.md)(mixin)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Class for audio data handling.
@@ -492,6 +493,7 @@ Init this object from the custom serialized data.
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 This event is emitted when the asset is loaded

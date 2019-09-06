@@ -3,7 +3,7 @@
 Extends [`EqualToFrame`](EqualToFrame.md)
 
 
-Module: [cc](../modules/cc.md)
+Module: [_decorator](../modules/_decorator.md)
 Parent Module: [cc](../modules/cc.md)
 
 

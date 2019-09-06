@@ -4,6 +4,7 @@ Extends [`Texture2D`](Texture2D.md)
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Render textures are textures that can be rendered to.
@@ -771,6 +772,7 @@ Init this object from the custom serialized data.
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 This event is emitted when the asset is loaded

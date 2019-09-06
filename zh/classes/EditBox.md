@@ -3,7 +3,7 @@
 继承于 [`Component`](Component.md)
 
 
-模块: [cc](../modules/cc.md)
+模块: [primitive](../modules/primitive.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -979,7 +979,7 @@ Init this object from the custom serialized data.
 
 
 
-模块: [cc](../modules/cc.md)
+模块: [primitive](../modules/primitive.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -1003,7 +1003,7 @@ Init this object from the custom serialized data.
 
 
 
-模块: [cc](../modules/cc.md)
+模块: [primitive](../modules/primitive.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -1027,7 +1027,7 @@ Init this object from the custom serialized data.
 
 
 
-模块: [cc](../modules/cc.md)
+模块: [primitive](../modules/primitive.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -1051,7 +1051,7 @@ Init this object from the custom serialized data.
 
 
 
-模块: [cc](../modules/cc.md)
+模块: [primitive](../modules/primitive.md)
 父模块: [cc](../modules/cc.md)
 
 
