@@ -35,7 +35,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | anysdk.PluginParam 
-| 定义于 | [extensions/anysdk/jsb_anysdk.js:1788](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/extensions/anysdk/jsb_anysdk.js#L1788) |
+| 定义于 | [extensions/anysdk/jsb_anysdk.js:1788](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/extensions/anysdk/jsb_anysdk.js#L1788) |
 
 ###### 参数列表
 - `parameters` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 

@@ -34,6 +34,7 @@ cc.tween(node)
   - [`start`](#start) 运行当前 tween
   - [`stop`](#stop) 停止当前 tween
   - [`clone`](#clone) 克隆当前 tween
+  - [`union`](#union) 将之前所有的 action 整合为一个 action。
   - [`to`](#to) 添加一个对属性进行绝对值计算的 action
   - [`by`](#by) 添加一个对属性进行相对值计算的 action
   - [`set`](#set) 直接设置 target 的属性
@@ -47,7 +48,6 @@ cc.tween(node)
   - [`repeat`](#repeat) 添加一个重复 action，这个 action 会将前一个动作作为他的参数。
   - [`repeatForever`](#repeatforever) 添加一个永久重复 action，这个 action 会将前一个动作作为他的参数。
   - [`reverseTime`](#reversetime) 添加一个倒置时间 action，这个 action 会将前一个动作作为他的参数。
-  - [`tween`](#tween) 
 
 
 
@@ -67,7 +67,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:177](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L177) |
+| 定义于 | [cocos2d/actions/tween.js:178](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L178) |
 
 ###### 参数列表
 - `other` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
@@ -80,7 +80,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:197](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L197) |
+| 定义于 | [cocos2d/actions/tween.js:198](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L198) |
 
 ###### 参数列表
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -93,7 +93,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:211](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L211) |
+| 定义于 | [cocos2d/actions/tween.js:212](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L212) |
 
 
 
@@ -104,7 +104,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:232](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L232) |
+| 定义于 | [cocos2d/actions/tween.js:233](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L233) |
 
 
 
@@ -115,10 +115,21 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:249](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L249) |
+| 定义于 | [cocos2d/actions/tween.js:250](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L250) |
 
 ###### 参数列表
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+
+
+##### union
+
+将之前所有的 action 整合为一个 action。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
+| 定义于 | [cocos2d/actions/tween.js:264](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L264) |
+
 
 
 ##### to
@@ -128,7 +139,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:307](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L307) |
+| 定义于 | [cocos2d/actions/tween.js:309](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L309) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -145,7 +156,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:326](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L326) |
+| 定义于 | [cocos2d/actions/tween.js:328](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L328) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -162,7 +173,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:345](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L345) |
+| 定义于 | [cocos2d/actions/tween.js:347](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L347) |
 
 ###### 参数列表
 - `props` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -175,7 +186,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:358](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L358) |
+| 定义于 | [cocos2d/actions/tween.js:360](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L360) |
 
 ###### 参数列表
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -188,7 +199,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:368](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L368) |
+| 定义于 | [cocos2d/actions/tween.js:370](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L370) |
 
 ###### 参数列表
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -201,7 +212,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:378](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L378) |
+| 定义于 | [cocos2d/actions/tween.js:380](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L380) |
 
 
 
@@ -212,7 +223,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:387](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L387) |
+| 定义于 | [cocos2d/actions/tween.js:389](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L389) |
 
 
 
@@ -223,7 +234,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:396](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L396) |
+| 定义于 | [cocos2d/actions/tween.js:398](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L398) |
 
 
 
@@ -234,10 +245,11 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:405](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L405) |
+| 定义于 | [cocos2d/actions/tween.js:407](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L407) |
 
 ###### 参数列表
-- `actions` <a href="../classes/Action.html" class="crosslink">[Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween]</a> 
+- `action` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
+- `actions` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
 
 
 ##### parallel
@@ -247,10 +259,11 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:415](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L415) |
+| 定义于 | [cocos2d/actions/tween.js:418](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L418) |
 
 ###### 参数列表
-- `actions` <a href="../classes/Action.html" class="crosslink">[Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween]</a> 
+- `action` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
+- `actions` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
 
 
 ##### repeat
@@ -260,7 +273,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:429](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L429) |
+| 定义于 | [cocos2d/actions/tween.js:433](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L433) |
 
 ###### 参数列表
 - `repeatTimes` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -274,7 +287,7 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:441](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L441) |
+| 定义于 | [cocos2d/actions/tween.js:445](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L445) |
 
 ###### 参数列表
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
@@ -287,23 +300,10 @@ cc.tween(node)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:452](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L452) |
+| 定义于 | [cocos2d/actions/tween.js:456](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/actions/tween.js#L456) |
 
 ###### 参数列表
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-
-
-##### tween
-
-
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| 定义于 | [cocos2d/actions/tween.js:506](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/actions/tween.js#L506) |
-
-###### 参数列表
-- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the target to animate
 
 
 

@@ -97,6 +97,12 @@ window.apimeta = {
       "description": "Enum for LineJoin."
     },
     {
+      "name": "Label.CacheMode",
+      "namespace": "cc.Label.CacheMode",
+      "module": "cc",
+      "description": "Enum for cache mode."
+    },
+    {
       "name": "Label.HorizontalAlign",
       "namespace": "cc.Label.HorizontalAlign",
       "module": "cc",
@@ -175,10 +181,10 @@ window.apimeta = {
       "description": "the type for mask."
     },
     {
-      "name": "NetworkType",
-      "namespace": "cc.NetworkType",
+      "name": "MeshRenderer.ShadowCastingMode",
+      "namespace": "cc.MeshRenderer.ShadowCastingMode",
       "module": "cc",
-      "description": "Network type enumeration"
+      "description": "Shadow projection mode\nch 阴影投射方式"
     },
     {
       "name": "PageView.Direction",
@@ -355,6 +361,12 @@ window.apimeta = {
       "description": "The orientation of tiled map."
     },
     {
+      "name": "TiledMap.TMXObjectType",
+      "namespace": "cc.TiledMap.TMXObjectType",
+      "module": "cc",
+      "description": "TiledMap Object Type"
+    },
+    {
       "name": "ToolBarPlace",
       "namespace": "anysdk.ToolBarPlace",
       "module": "anysdk",
@@ -443,6 +455,12 @@ window.apimeta = {
       "namespace": "cc.primitive.PolyhedronType",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "sys.NetworkType",
+      "namespace": "cc.sys.NetworkType",
+      "module": "cc",
+      "description": "Network type enumeration"
     }
   ],
   "classes": [
@@ -871,6 +889,18 @@ window.apimeta = {
       "namespace": "cc.Material",
       "module": "cc",
       "description": "Material Asset."
+    },
+    {
+      "name": "Mesh",
+      "namespace": "cc.Mesh",
+      "module": "cc",
+      "description": "Mesh Asset."
+    },
+    {
+      "name": "MeshRenderer",
+      "namespace": "cc.MeshRenderer",
+      "module": "cc",
+      "description": "Mesh Renderer Component"
     },
     {
       "name": "MotionStreak",

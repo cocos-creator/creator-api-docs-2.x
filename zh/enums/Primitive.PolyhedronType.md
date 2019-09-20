@@ -36,7 +36,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:15](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L15) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:15](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L15) |
 
 
 
@@ -47,7 +47,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:20](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L20) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:20](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L20) |
 
 
 
@@ -58,7 +58,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:25](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L25) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:25](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L25) |
 
 
 
@@ -69,7 +69,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:30](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L30) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:30](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L30) |
 
 
 
@@ -80,7 +80,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:35](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L35) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:35](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L35) |
 
 
 
@@ -91,7 +91,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:40](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L40) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:40](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L40) |
 
 
 
@@ -102,7 +102,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:45](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L45) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:45](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L45) |
 
 
 
@@ -113,7 +113,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:50](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L50) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:50](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L50) |
 
 
 
@@ -124,7 +124,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:55](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L55) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:55](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L55) |
 
 
 
@@ -135,7 +135,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:60](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L60) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:60](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L60) |
 
 
 
@@ -146,7 +146,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:65](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L65) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:65](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L65) |
 
 
 
@@ -157,7 +157,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:70](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L70) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:70](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L70) |
 
 
 
@@ -168,7 +168,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:75](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L75) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:75](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L75) |
 
 
 
@@ -179,7 +179,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:80](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L80) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:80](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L80) |
 
 
 
@@ -190,6 +190,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:85](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/3d/primitive/polyhedron.js#L85) |
+| 定义于 | [cocos2d/core/3d/primitive/polyhedron.js:85](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/3d/primitive/polyhedron.js#L85) |
 
 

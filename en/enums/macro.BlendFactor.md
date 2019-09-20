@@ -32,7 +32,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1480](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCMacro.js#L1480) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1480](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/CCMacro.js#L1480) |
 
 
 
@@ -43,7 +43,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1486](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCMacro.js#L1486) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1486](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/CCMacro.js#L1486) |
 
 
 
@@ -54,7 +54,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1492](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCMacro.js#L1492) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1492](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/CCMacro.js#L1492) |
 
 
 
@@ -65,7 +65,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1498](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCMacro.js#L1498) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1498](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/CCMacro.js#L1498) |
 
 
 
@@ -76,7 +76,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1504](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCMacro.js#L1504) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1504](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/CCMacro.js#L1504) |
 
 
 
@@ -87,7 +87,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1510](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCMacro.js#L1510) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1510](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/CCMacro.js#L1510) |
 
 
 
@@ -98,7 +98,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1516](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCMacro.js#L1516) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1516](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/CCMacro.js#L1516) |
 
 
 
@@ -109,7 +109,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1522](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCMacro.js#L1522) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1522](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/CCMacro.js#L1522) |
 
 
 
@@ -120,7 +120,7 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1528](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCMacro.js#L1528) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1528](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/CCMacro.js#L1528) |
 
 
 
@@ -131,6 +131,6 @@ Refer to: http://www.andersriggelsen.dk/glblendfunc.php
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1534](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCMacro.js#L1534) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1534](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/CCMacro.js#L1534) |
 
 

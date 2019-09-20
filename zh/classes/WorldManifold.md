@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 
@@ -34,7 +33,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">[Vec2]</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:46](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/physics/CCPhysicsContact.js#L46) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:46](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/physics/CCPhysicsContact.js#L46) |
 
 
 
@@ -45,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:63](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/physics/CCPhysicsContact.js#L63) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:63](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/physics/CCPhysicsContact.js#L63) |
 
 
 

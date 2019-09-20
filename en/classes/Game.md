@@ -71,7 +71,7 @@ on native platforms, it corresponds to enter background event, os status bar or 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCGame.js:48](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L48) |
+| Defined in | [cocos2d/core/CCGame.js:48](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L48) |
 
 ##### Examples
 
@@ -92,7 +92,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCGame.js:65](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L65) |
+| Defined in | [cocos2d/core/CCGame.js:65](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L65) |
 
 
 
@@ -103,7 +103,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCGame.js:78](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L78) |
+| Defined in | [cocos2d/core/CCGame.js:78](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L78) |
 
 
 
@@ -114,7 +114,7 @@ on native platforms, it corresponds to enter foreground event.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCGame.js:87](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L87) |
+| Defined in | [cocos2d/core/CCGame.js:87](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L87) |
 
 
 
@@ -126,7 +126,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCGame.js:95](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L95) |
+| Defined in | [cocos2d/core/CCGame.js:95](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L95) |
 
 
 
@@ -137,7 +137,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCGame.js:106](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L106) |
+| Defined in | [cocos2d/core/CCGame.js:106](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L106) |
 
 
 
@@ -148,7 +148,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCGame.js:113](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L113) |
+| Defined in | [cocos2d/core/CCGame.js:113](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L113) |
 
 
 
@@ -159,7 +159,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCGame.js:120](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L120) |
+| Defined in | [cocos2d/core/CCGame.js:120](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L120) |
 
 
 
@@ -170,7 +170,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/CCGame.js:147](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L147) |
+| Defined in | [cocos2d/core/CCGame.js:147](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L147) |
 
 
 
@@ -181,7 +181,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | Type | HTMLDivElement |
-| Defined in | [cocos2d/core/CCGame.js:154](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L154) |
+| Defined in | [cocos2d/core/CCGame.js:154](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L154) |
 
 
 
@@ -192,7 +192,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | Type | HTMLCanvasElement |
-| Defined in | [cocos2d/core/CCGame.js:161](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L161) |
+| Defined in | [cocos2d/core/CCGame.js:161](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L161) |
 
 
 
@@ -203,7 +203,7 @@ It was defined as EVENT_RENDERER_INITED in cocos creator v1.x and renamed in v2.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCGame.js:169](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L169) |
+| Defined in | [cocos2d/core/CCGame.js:169](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L169) |
 
 
 
@@ -240,7 +240,7 @@ Please DO NOT modify this object directly, it won't have any effect.<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/CCGame.js:177](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L177) |
+| Defined in | [cocos2d/core/CCGame.js:177](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L177) |
 
 
 
@@ -257,7 +257,7 @@ Callback when the scripts of engine have been load.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:239](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L239) |
+| Defined in | [cocos2d/core/CCGame.js:239](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L239) |
 
 
 
@@ -267,7 +267,7 @@ Set frame rate of game.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:250](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L250) |
+| Defined in | [cocos2d/core/CCGame.js:250](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L250) |
 
 ###### Parameters
 - `frameRate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -280,7 +280,7 @@ Get frame rate set for the game, it doesn't represent the real frame rate.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/CCGame.js:267](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L267) |
+| Defined in | [cocos2d/core/CCGame.js:267](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L267) |
 
 
 
@@ -290,7 +290,7 @@ Run the game frame by frame.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:277](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L277) |
+| Defined in | [cocos2d/core/CCGame.js:277](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L277) |
 
 
 
@@ -302,7 +302,7 @@ This is different with cc.director.pause which only pause the game logic executi
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:286](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L286) |
+| Defined in | [cocos2d/core/CCGame.js:286](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L286) |
 
 
 
@@ -313,7 +313,7 @@ game logic execution, rendering process, event manager, background music and all
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:306](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L306) |
+| Defined in | [cocos2d/core/CCGame.js:306](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L306) |
 
 
 
@@ -324,7 +324,7 @@ Check whether the game is paused.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/CCGame.js:324](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L324) |
+| Defined in | [cocos2d/core/CCGame.js:324](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L324) |
 
 
 
@@ -334,7 +334,7 @@ Restart game.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:334](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L334) |
+| Defined in | [cocos2d/core/CCGame.js:334](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L334) |
 
 
 
@@ -344,7 +344,7 @@ End game, it will close the game window
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:364](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L364) |
+| Defined in | [cocos2d/core/CCGame.js:364](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L364) |
 
 
 
@@ -356,7 +356,7 @@ This type of event should be triggered via `emit`.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [cocos2d/core/CCGame.js:415](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L415) |
+| Defined in | [cocos2d/core/CCGame.js:414](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L414) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -377,7 +377,7 @@ the callback will remove itself after the first time it is triggered.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:446](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L446) |
+| Defined in | [cocos2d/core/CCGame.js:445](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L445) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -397,7 +397,7 @@ Prepare game.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:475](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L475) |
+| Defined in | [cocos2d/core/CCGame.js:474](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L474) |
 
 ###### Parameters
 - `cb` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -409,7 +409,7 @@ Run game with configuration object and onStart function.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:502](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L502) |
+| Defined in | [cocos2d/core/CCGame.js:501](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L501) |
 
 ###### Parameters
 - `config` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Pass configuration object or onStart function
@@ -423,7 +423,7 @@ The target node must be placed in the root level of hierarchy, otherwise this AP
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:516](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L516) |
+| Defined in | [cocos2d/core/CCGame.js:515](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L515) |
 
 ###### Parameters
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> The node to be made persistent
@@ -435,7 +435,7 @@ Remove a persistent root node.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/CCGame.js:552](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L552) |
+| Defined in | [cocos2d/core/CCGame.js:551](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L551) |
 
 ###### Parameters
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> The node to be removed from persistent node list
@@ -448,7 +448,7 @@ Check whether the node is a persistent root node.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/CCGame.js:566](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCGame.js#L566) |
+| Defined in | [cocos2d/core/CCGame.js:565](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCGame.js#L565) |
 
 ###### Parameters
 - `node` <a href="../classes/Node.html" class="crosslink">Node</a> The node to be checked
@@ -461,7 +461,7 @@ Checks whether the EventTarget object has any callback registered for a specific
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L68) |
+| Defined in | [cocos2d/core/event/event-target.js:68](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/event/event-target.js#L68) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -474,7 +474,7 @@ if only type is passed as parameter, all listeners registered with that type wil
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:116](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L116) |
+| Defined in | [cocos2d/core/event/event-target.js:116](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/event/event-target.js#L116) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -503,7 +503,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:150](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L150) |
+| Defined in | [cocos2d/core/event/event-target.js:159](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/event/event-target.js#L159) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -515,7 +515,7 @@ Trigger an event directly with the event name and necessary arguments.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:200](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L200) |
+| Defined in | [cocos2d/core/event/event-target.js:215](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/event/event-target.js#L215) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
@@ -538,7 +538,7 @@ Send an event with the event object.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:220](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/event/event-target.js#L220) |
+| Defined in | [cocos2d/core/event/event-target.js:235](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/event/event-target.js#L235) |
 
 ###### Parameters
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  

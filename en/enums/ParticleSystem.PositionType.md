@@ -23,7 +23,7 @@ Enum for particles movement type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:90](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/particle/CCParticleSystem.js#L90) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:100](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/particle/CCParticleSystem.js#L100) |
 
 
 
@@ -35,7 +35,7 @@ Use case: Attach an emitter to an sprite, and you want that the emitter follows 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:99](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/particle/CCParticleSystem.js#L99) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:109](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/particle/CCParticleSystem.js#L109) |
 
 
 
@@ -46,6 +46,6 @@ Use case: Attach an emitter to an sprite, and you want that the emitter follows 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:109](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/particle/CCParticleSystem.js#L109) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:119](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/particle/CCParticleSystem.js#L119) |
 
 

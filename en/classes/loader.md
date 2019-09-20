@@ -4,7 +4,6 @@ Extends [`Pipeline`](Pipeline.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Loader for resource loading process. It's a singleton object.
@@ -67,7 +66,7 @@ It's used to identify an asset's type, and determine how to download it.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:102](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L102) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:102](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L102) |
 
 
 
@@ -79,7 +78,7 @@ It's used to modify the url to the real downloadable url with md5 suffix.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:110](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L110) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:110](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L110) |
 
 
 
@@ -92,7 +91,7 @@ You can add your own download function with addDownloadHandlers
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:118](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L118) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:118](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L118) |
 
 
 
@@ -105,7 +104,7 @@ You can add your own download function with addLoadHandlers
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:127](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L127) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:127](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L127) |
 
 
 
@@ -123,7 +122,7 @@ Gets a new XMLHttpRequest instance.
 | meta | description |
 |------|-------------|
 | Returns | XMLHttpRequest 
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:157](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L157) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:157](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L157) |
 
 
 
@@ -133,7 +132,7 @@ Add custom supported types handler or modify existing type handler for download 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:164](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L164) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:164](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L164) |
 
 ###### Parameters
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
@@ -153,7 +152,7 @@ Add custom supported types handler or modify existing type handler for load proc
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:178](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L178) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:178](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L178) |
 
 ###### Parameters
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
@@ -176,7 +175,7 @@ The only difference is when user pass a single url as resources, the complete ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:192](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L192) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:192](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L192) |
 
 ###### Parameters
 - `resources` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Url list in an array
@@ -220,7 +219,7 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:425](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L425) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:425](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L425) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target resource.
@@ -262,7 +261,7 @@ This method is like <a href="../classes/loader.html#method_loadRes" class="cross
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:555](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L555) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:555](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L555) |
 
 ###### Parameters
 - `urls` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> Array of URLs of the target resource.
@@ -302,7 +301,7 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:622](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L622) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:622](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L622) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target folder.
@@ -355,7 +354,7 @@ After loaded, you can acquire them by passing the url to this API.
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:693](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L693) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:693](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L693) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -374,7 +373,7 @@ Here is some examples:
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:730](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L730) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:730](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L730) |
 
 ###### Parameters
 - `owner` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The owner asset or the resource url or the asset's uuid
@@ -407,7 +406,7 @@ If you only want to remove the cache of an asset, please use Pipeline/removeItem
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:773](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L773) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:773](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L773) |
 
 ###### Parameters
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -438,7 +437,7 @@ Release the asset by its object. Refer to <a href="../classes/loader.html#method
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:836](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L836) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:837](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L837) |
 
 ###### Parameters
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> 
@@ -450,7 +449,7 @@ Release the asset loaded by <a href="../classes/loader.html#method_loadRes" clas
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:850](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L850) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:851](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L851) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -463,7 +462,7 @@ Release the all assets loaded by <a href="../classes/loader.html#method_loadResD
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:868](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L868) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:869](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L869) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -476,7 +475,7 @@ Resource all assets. Refer to <a href="../classes/loader.html#method_release" cl
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:887](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L887) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:888](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L888) |
 
 
 
@@ -493,7 +492,7 @@ See: <a href="../classes/loader.html#method_setAutoReleaseRecursively" class="cr
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:908](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L908) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:909](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L909) |
 
 ###### Parameters
 - `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
@@ -523,7 +522,7 @@ See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:948](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L948) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:949](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L949) |
 
 ###### Parameters
 - `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
@@ -549,7 +548,7 @@ See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:996](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/CCLoader.js#L996) |
+| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:997](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/CCLoader.js#L997) |
 
 ###### Parameters
 - `assetOrUrl` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url
@@ -565,7 +564,7 @@ It can also include `async` property to identify whether it's an asynchronous pr
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:112](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L112) |
+| Defined in | [cocos2d/core/load-pipeline/pipeline.js:112](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/pipeline.js#L112) |
 
 ###### Parameters
 - `pipes` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -590,7 +589,7 @@ A pipe must contain an `id` in string and a `handle` function, the id must be un
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:156](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L156) |
+| Defined in | [cocos2d/core/load-pipeline/pipeline.js:156](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/pipeline.js#L156) |
 
 ###### Parameters
 - `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted
@@ -606,7 +605,7 @@ Insert a pipe to the end of an existing pipe. The existing pipe must be a valid 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:199](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L199) |
+| Defined in | [cocos2d/core/load-pipeline/pipeline.js:199](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/pipeline.js#L199) |
 
 ###### Parameters
 - `refPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing pipe in the pipeline.
@@ -620,7 +619,7 @@ A pipe must contain an `id` in string and a `handle` function, the id must be un
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:216](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L216) |
+| Defined in | [cocos2d/core/load-pipeline/pipeline.js:216](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/pipeline.js#L216) |
 
 ###### Parameters
 - `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be appended
@@ -637,7 +636,7 @@ The object can contain any supplementary property as you want. <br/>
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:240](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L240) |
+| Defined in | [cocos2d/core/load-pipeline/pipeline.js:240](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/pipeline.js#L240) |
 
 ###### Parameters
 - `items` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -668,7 +667,7 @@ For example, an unzip pipe will generate more items, but you won't want them to 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:325](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L325) |
+| Defined in | [cocos2d/core/load-pipeline/pipeline.js:325](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/pipeline.js#L325) |
 
 ###### Parameters
 - `srcItem` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
@@ -682,7 +681,7 @@ Returns an item in pipeline.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:354](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L354) |
+| Defined in | [cocos2d/core/load-pipeline/pipeline.js:354](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/pipeline.js#L354) |
 
 ###### Parameters
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
@@ -698,7 +697,7 @@ please refer to <a href="../classes/loader.html#method_release" class="crosslink
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:374](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L374) |
+| Defined in | [cocos2d/core/load-pipeline/pipeline.js:374](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/pipeline.js#L374) |
 
 ###### Parameters
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
@@ -710,7 +709,7 @@ Clear the current pipeline, this function will clean up the items.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:394](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/load-pipeline/pipeline.js#L394) |
+| Defined in | [cocos2d/core/load-pipeline/pipeline.js:394](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/load-pipeline/pipeline.js#L394) |
 
 
 

@@ -37,10 +37,10 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/CCDebug.js:345](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCDebug.js#L345) |
+| 定义于 | [cocos2d/core/CCDebug.js:345](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCDebug.js#L345) |
 
 ###### 参数列表
-- `errorId` Id 
+- `errorId` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - `param` Any 
 
 
@@ -51,7 +51,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/CCDebug.js:355](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCDebug.js#L355) |
+| 定义于 | [cocos2d/core/CCDebug.js:355](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCDebug.js#L355) |
 
 
 
@@ -61,7 +61,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCDebug.js:365](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/CCDebug.js#L365) |
+| 定义于 | [cocos2d/core/CCDebug.js:365](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/CCDebug.js#L365) |
 
 ###### 参数列表
 - `displayStats` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 

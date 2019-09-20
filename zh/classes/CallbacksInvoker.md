@@ -40,7 +40,7 @@ CallbacksInvoker 用来根据 Key 管理并调用回调方法。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:236](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/callbacks-invoker.js#L236) |
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:236](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/callbacks-invoker.js#L236) |
 
 ###### 参数列表
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -57,7 +57,7 @@ CallbacksInvoker 用来根据 Key 管理并调用回调方法。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:97](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/callbacks-invoker.js#L97) |
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:97](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/callbacks-invoker.js#L97) |
 
 ###### 参数列表
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -73,7 +73,7 @@ it will only return true if the callback is registered.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:112](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/callbacks-invoker.js#L112) |
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:112](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/callbacks-invoker.js#L112) |
 
 ###### 参数列表
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -87,7 +87,7 @@ Removes all callbacks registered in a certain event type or all callbacks regist
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:154](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/callbacks-invoker.js#L154) |
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:154](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/callbacks-invoker.js#L154) |
 
 ###### 参数列表
 - `keyOrTarget` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The event key to be removed or the target to be removed
@@ -99,7 +99,7 @@ Removes all callbacks registered in a certain event type or all callbacks regist
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:192](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/callbacks-invoker.js#L192) |
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:192](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/platform/callbacks-invoker.js#L192) |
 
 ###### 参数列表
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a>  

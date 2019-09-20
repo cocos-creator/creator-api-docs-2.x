@@ -42,7 +42,7 @@ misc utilities
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/utils/misc.js:157](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/utils/misc.js#L157) |
+| 定义于 | [cocos2d/core/utils/misc.js:148](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/utils/misc.js#L148) |
 
 ###### 参数列表
 - `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -64,7 +64,7 @@ var v3 = cc.misc.clampf(10, 0, 20); // 10;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/utils/misc.js:183](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/utils/misc.js#L183) |
+| 定义于 | [cocos2d/core/utils/misc.js:174](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/utils/misc.js#L174) |
 
 ###### 参数列表
 - `value` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -84,7 +84,7 @@ Linear interpolation between 2 numbers, the ratio sets how much it is biased to 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/utils/misc.js:198](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/utils/misc.js#L198) |
+| 定义于 | [cocos2d/core/utils/misc.js:189](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/utils/misc.js#L189) |
 
 ###### 参数列表
 - `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> number A
@@ -93,7 +93,13 @@ Linear interpolation between 2 numbers, the ratio sets how much it is biased to 
 
 ##### 示例
 
-```Not found for the example path: temp-src/engine/docs/utils/api/engine/docs/cocos2d/core/platform/CCMacro/lerp.js
+```js
+----
+lerp
+cc.misc.lerp(2,10,0.5)//returns 6
+cc.misc.lerp(2,10,0.2)//returns 3.6
+
+```
 
 ##### degreesToRadians
 
@@ -102,7 +108,7 @@ converts degrees to radians
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/utils/misc.js:211](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/utils/misc.js#L211) |
+| 定义于 | [cocos2d/core/utils/misc.js:202](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/utils/misc.js#L202) |
 
 ###### 参数列表
 - `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -115,7 +121,7 @@ converts radians to degrees
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/utils/misc.js:221](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/utils/misc.js#L221) |
+| 定义于 | [cocos2d/core/utils/misc.js:212](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/utils/misc.js#L212) |
 
 ###### 参数列表
 - `angle` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

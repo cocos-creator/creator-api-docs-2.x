@@ -97,6 +97,12 @@ window.apimeta = {
       "description": "线段拐角属性"
     },
     {
+      "name": "Label.CacheMode",
+      "namespace": "cc.Label.CacheMode",
+      "module": "cc",
+      "description": "CacheMode 类型"
+    },
+    {
       "name": "Label.HorizontalAlign",
       "namespace": "cc.Label.HorizontalAlign",
       "module": "cc",
@@ -175,10 +181,10 @@ window.apimeta = {
       "description": "遮罩组件类型"
     },
     {
-      "name": "NetworkType",
-      "namespace": "cc.NetworkType",
+      "name": "MeshRenderer.ShadowCastingMode",
+      "namespace": "cc.MeshRenderer.ShadowCastingMode",
       "module": "cc",
-      "description": "网络类型枚举"
+      "description": "ch 阴影投射方式"
     },
     {
       "name": "PageView.Direction",
@@ -355,6 +361,12 @@ window.apimeta = {
       "description": "Tiled Map 地图方向。"
     },
     {
+      "name": "TiledMap.TMXObjectType",
+      "namespace": "cc.TiledMap.TMXObjectType",
+      "module": "cc",
+      "description": "地图物体类型"
+    },
+    {
       "name": "ToolBarPlace",
       "namespace": "anysdk.ToolBarPlace",
       "module": "anysdk",
@@ -443,6 +455,12 @@ window.apimeta = {
       "namespace": "cc.primitive.PolyhedronType",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "sys.NetworkType",
+      "namespace": "cc.sys.NetworkType",
+      "module": "cc",
+      "description": "网络类型枚举"
     }
   ],
   "classes": [
@@ -871,6 +889,18 @@ window.apimeta = {
       "namespace": "cc.Material",
       "module": "cc",
       "description": "材质资源类。"
+    },
+    {
+      "name": "Mesh",
+      "namespace": "cc.Mesh",
+      "module": "cc",
+      "description": "网格资源。"
+    },
+    {
+      "name": "MeshRenderer",
+      "namespace": "cc.MeshRenderer",
+      "module": "cc",
+      "description": "网格渲染组件"
     },
     {
       "name": "MotionStreak",

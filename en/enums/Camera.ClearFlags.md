@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Values for Camera.clearFlags, determining what to clear when rendering a Camera.
@@ -19,33 +18,33 @@ Values for Camera.clearFlags, determining what to clear when rendering a Camera.
 
 ##### COLOR
 
-> 
+> Clear the background color.
 
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/camera/CCCamera.js:70](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/camera/CCCamera.js#L70) |
+| Defined in | [cocos2d/core/camera/CCCamera.js:70](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/camera/CCCamera.js#L70) |
 
 
 
 ##### DEPTH
 
-> 
+> Clear the depth buffer.
 
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/camera/CCCamera.js:74](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/camera/CCCamera.js#L74) |
+| Defined in | [cocos2d/core/camera/CCCamera.js:78](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/camera/CCCamera.js#L78) |
 
 
 
 ##### STENCIL
 
-> 
+> Clear the stencil.
 
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/camera/CCCamera.js:78](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/camera/CCCamera.js#L78) |
+| Defined in | [cocos2d/core/camera/CCCamera.js:86](https://github.com/cocos-creator/engine/blob/79b9133d6e0e44b4b8f033ba86231ae21522f2dc/cocos2d/core/camera/CCCamera.js#L86) |
 
 
