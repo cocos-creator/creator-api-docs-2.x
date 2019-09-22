@@ -19,7 +19,7 @@
   - [`getLocationX`](#getlocationx) 获取当前触点 X 轴位置。
   - [`getLocationY`](#getlocationy) 获取当前触点 Y 轴位置。
   - [`getPreviousLocation`](#getpreviouslocation) 获取触点在上一次事件时的位置对象，对象包含 x 和 y 属性。
-  - [`getStartLocation`](#getstartlocation) 获获取触点落下时的位置对象，对象包含 x 和 y 属性。
+  - [`getStartLocation`](#getstartlocation) 获取触点落下时的位置对象，对象包含 x 和 y 属性。
   - [`getDelta`](#getdelta) 获取触点距离上一次事件移动的距离对象，对象包含 x 和 y 属性。
   - [`getLocationInView`](#getlocationinview) 获取当前事件在游戏窗口内的坐标位置对象，对象包含 x 和 y 属性。
   - [`getPreviousLocationInView`](#getpreviouslocationinview) 获取触点在上一次事件时在游戏窗口中的位置对象，对象包含 x 和 y 属性。
