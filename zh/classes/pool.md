@@ -84,7 +84,7 @@ var detail = Details.pool.get( [] );
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/js.js:940](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/js.js#L940) |
+| 定义于 | [cocos2d/core/platform/js.js:940](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/platform/js.js#L940) |
 
 
 
@@ -101,7 +101,7 @@ var detail = Details.pool.get( [] );
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:905](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/js.js#L905) |
+| 定义于 | [cocos2d/core/platform/js.js:905](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/platform/js.js#L905) |
 
 ###### 参数列表
 - `cleanupFunc` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> the callback method used to process the cleanup logic when the object is recycled.
@@ -116,7 +116,7 @@ var detail = Details.pool.get( [] );
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/js.js:930](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/js.js#L930) |
+| 定义于 | [cocos2d/core/platform/js.js:930](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/platform/js.js#L930) |
 
 ###### 参数列表
 - `params` Any parameters to used to initialize the object
@@ -129,7 +129,7 @@ var detail = Details.pool.get( [] );
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; Null 
-| 定义于 | [cocos2d/core/platform/js.js:950](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/js.js#L950) |
+| 定义于 | [cocos2d/core/platform/js.js:950](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/platform/js.js#L950) |
 
 
 
@@ -139,7 +139,7 @@ var detail = Details.pool.get( [] );
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:968](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/js.js#L968) |
+| 定义于 | [cocos2d/core/platform/js.js:968](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/platform/js.js#L968) |
 
 
 
@@ -149,7 +149,7 @@ var detail = Details.pool.get( [] );
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/js.js:984](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/js.js#L984) |
+| 定义于 | [cocos2d/core/platform/js.js:984](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/platform/js.js#L984) |
 
 
 

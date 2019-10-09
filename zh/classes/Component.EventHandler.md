@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 
@@ -11,11 +12,21 @@
 ##### 示例
 
 ```js
+// Let's say we have a MainMenu component on newTarget
+// file: MainMenu.js
+cc.Class({
+  extends: cc.Component,
+  // sender: the node MainMenu.js belongs to
+  // eventType: CustomEventData
+  onClick (sender, eventType) {
+    cc.log('click');
+  }
+})
 // Create new EventHandler
 var eventHandler = new cc.Component.EventHandler();
 eventHandler.target = newTarget;
 eventHandler.component = "MainMenu";
-eventHandler.handler = "OnClick";
+eventHandler.handler = "onClick";
 eventHandler.customEventData = "my data";
 ```
 
@@ -23,10 +34,10 @@ eventHandler.customEventData = "my data";
 
 ##### 属性（properties）
 
-  - [`target`](#target) `Node` 目标节点
-  - [`component`](#component) `String` 目标组件名
-  - [`handler`](#handler) `String` 响应事件函数名
-  - [`customEventData`](#customeventdata) `String` 自定义事件数据
+  - [`target`](#target) `Node` 事件响应函数所在节点 ，比如例子中脚本归属的节点本身
+  - [`component`](#component) `String` 事件响应函数所在组件名（脚本名）, 比如例子中的脚本名 'MainMenu'
+  - [`handler`](#handler) `String` 响应事件函数名，比如例子中的 'onClick'
+  - [`customEventData`](#customeventdata) `String` 自定义事件数据，比如例子中的 eventType
 
 
 
@@ -45,45 +56,45 @@ eventHandler.customEventData = "my data";
 
 ##### target
 
-> 目标节点
+> 事件响应函数所在节点 ，比如例子中脚本归属的节点本身
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:51](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L51) |
+| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:61](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/components/CCComponentEventHandler.js#L61) |
 
 
 
 ##### component
 
-> 目标组件名
+> 事件响应函数所在组件名（脚本名）, 比如例子中的脚本名 'MainMenu'
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:62](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L62) |
+| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:72](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/components/CCComponentEventHandler.js#L72) |
 
 
 
 ##### handler
 
-> 响应事件函数名
+> 响应事件函数名，比如例子中的 'onClick'
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:82](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L82) |
+| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:92](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/components/CCComponentEventHandler.js#L92) |
 
 
 
 ##### customEventData
 
-> 自定义事件数据
+> 自定义事件数据，比如例子中的 eventType
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:93](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L93) |
+| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:103](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/components/CCComponentEventHandler.js#L103) |
 
 
 
@@ -100,7 +111,7 @@ eventHandler.customEventData = "my data";
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:106](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L106) |
+| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:116](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/components/CCComponentEventHandler.js#L116) |
 
 ###### 参数列表
 - `events` <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> 
@@ -113,7 +124,7 @@ eventHandler.customEventData = "my data";
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:130](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L130) |
+| 定义于 | [cocos2d/core/components/CCComponentEventHandler.js:140](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/components/CCComponentEventHandler.js#L140) |
 
 ###### 参数列表
 - `params` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 

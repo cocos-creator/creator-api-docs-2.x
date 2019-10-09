@@ -1,6 +1,5 @@
 ## `CallbacksInvoker` 类型
 
-继承于 [`_CallbacksHandler`](_CallbacksHandler.md)
 
 
 模块: [_decorator](../modules/_decorator.md)
@@ -17,11 +16,10 @@ CallbacksInvoker 用来根据 Key 管理并调用回调方法。
 
 ##### 方法
 
-  - [`invoke`](#invoke) 
-  - [`add`](#add) 
-  - [`hasEventListener`](#haseventlistener) Check if the specified key has any registered callback. If a callback is also specified,...
-  - [`removeAll`](#removeall) Removes all callbacks registered in a certain event type or all callbacks registered with a certain target
-  - [`remove`](#remove) 
+  - [`hasEventListener`](#haseventlistener) 检查指定事件是否已注册回调。
+  - [`removeAll`](#removeall) 移除在特定事件类型中注册的所有回调或在某个目标中注册的所有回调。
+  - [`off`](#off) 删除之前与同类型，回调，目标注册的回调。
+  - [`emit`](#emit) 通过事件名发送自定义事件
 
 
 
@@ -34,46 +32,14 @@ CallbacksInvoker 用来根据 Key 管理并调用回调方法。
 #### 方法
 
 
-##### invoke
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:236](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/callbacks-invoker.js#L236) |
-
-###### 参数列表
-- `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `p1` Any 
-- `p2` Any 
-- `p3` Any 
-- `p4` Any 
-- `p5` Any 
-
-
-##### add
-
-
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:97](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/callbacks-invoker.js#L97) |
-
-###### 参数列表
-- `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> can be null
-
-
 ##### hasEventListener
 
-Check if the specified key has any registered callback. If a callback is also specified,
-it will only return true if the callback is registered.
+检查指定事件是否已注册回调。
 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:112](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/callbacks-invoker.js#L112) |
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:188](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/platform/callbacks-invoker.js#L188) |
 
 ###### 参数列表
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -83,28 +49,51 @@ it will only return true if the callback is registered.
 
 ##### removeAll
 
-Removes all callbacks registered in a certain event type or all callbacks registered with a certain target
+移除在特定事件类型中注册的所有回调或在某个目标中注册的所有回调。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:154](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/callbacks-invoker.js#L154) |
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:235](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/platform/callbacks-invoker.js#L235) |
 
 ###### 参数列表
 - `keyOrTarget` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The event key to be removed or the target to be removed
 
 
-##### remove
+##### off
 
-
+删除之前与同类型，回调，目标注册的回调。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:192](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/callbacks-invoker.js#L192) |
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:279](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/platform/callbacks-invoker.js#L279) |
 
 ###### 参数列表
-- `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a>  
-- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a>  
-- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a>  
+- `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
 
+
+##### emit
+
+通过事件名发送自定义事件
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:309](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/platform/callbacks-invoker.js#L309) |
+
+###### 参数列表
+- `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
+- `arg1` Any First argument
+- `arg2` Any Second argument
+- `arg3` Any Third argument
+- `arg4` Any Fourth argument
+- `arg5` Any Fifth argument
+
+##### 示例
+
+```js
+eventTarget.emit('fire', event);
+eventTarget.emit('fire', message, emitter);
+```
 
 

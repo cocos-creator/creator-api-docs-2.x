@@ -1,42 +1,6 @@
 window.apimeta = {
   "enums": [
     {
-      "name": "AccountGender",
-      "namespace": "anysdk.AccountGender",
-      "module": "anysdk",
-      "description": "统计系统的账号性别"
-    },
-    {
-      "name": "AccountOperate",
-      "namespace": "anysdk.AccountOperate",
-      "module": "anysdk",
-      "description": "统计系统的账号操作"
-    },
-    {
-      "name": "AccountType",
-      "namespace": "anysdk.AccountType",
-      "module": "anysdk",
-      "description": "统计系统的账号类型"
-    },
-    {
-      "name": "AdsPos",
-      "namespace": "anysdk.AdsPos",
-      "module": "anysdk",
-      "description": "广告位置"
-    },
-    {
-      "name": "AdsResultCode",
-      "namespace": "anysdk.AdsResultCode",
-      "module": "anysdk",
-      "description": "广告系统回调"
-    },
-    {
-      "name": "AdsType",
-      "namespace": "anysdk.AdsType",
-      "module": "anysdk",
-      "description": "广告类型"
-    },
-    {
       "name": "AnimationEventType",
       "namespace": "sp.AnimationEventType",
       "module": "sp",
@@ -59,12 +23,6 @@ window.apimeta = {
       "namespace": "cc.Camera.ClearFlags",
       "module": "cc",
       "description": "摄像机清除标记位，决定摄像机渲染时会清除哪些状态"
-    },
-    {
-      "name": "CustomResultCode",
-      "namespace": "anysdk.CustomResultCode",
-      "module": "anysdk",
-      "description": "自定义系统回调"
     },
     {
       "name": "EditBox.InputFlag",
@@ -95,6 +53,12 @@ window.apimeta = {
       "namespace": "cc.Graphics.LineJoin",
       "module": "cc",
       "description": "线段拐角属性"
+    },
+    {
+      "name": "Label.CacheMode",
+      "namespace": "cc.Label.CacheMode",
+      "module": "cc",
+      "description": "CacheMode 类型"
     },
     {
       "name": "Label.HorizontalAlign",
@@ -175,10 +139,10 @@ window.apimeta = {
       "description": "遮罩组件类型"
     },
     {
-      "name": "NetworkType",
-      "namespace": "cc.NetworkType",
+      "name": "MeshRenderer.ShadowCastingMode",
+      "namespace": "cc.MeshRenderer.ShadowCastingMode",
       "module": "cc",
-      "description": "网络类型枚举"
+      "description": "ch 阴影投射方式"
     },
     {
       "name": "PageView.Direction",
@@ -217,12 +181,6 @@ window.apimeta = {
       "description": "粒子位置类型"
     },
     {
-      "name": "PayResultCode",
-      "namespace": "anysdk.PayResultCode",
-      "module": "anysdk",
-      "description": "支付系统支付请求回调"
-    },
-    {
       "name": "PhysicsManager.DrawBits",
       "namespace": "cc.PhysicsManager.DrawBits",
       "module": "cc",
@@ -239,18 +197,6 @@ window.apimeta = {
       "namespace": "cc.ProgressBar.Mode",
       "module": "cc",
       "description": "进度条模式"
-    },
-    {
-      "name": "PushActionResultCode",
-      "namespace": "anysdk.PushActionResultCode",
-      "module": "anysdk",
-      "description": "推送系统回调"
-    },
-    {
-      "name": "RECResultCode",
-      "namespace": "anysdk.RECResultCode",
-      "module": "anysdk",
-      "description": "录屏系统回调"
     },
     {
       "name": "RayCastType",
@@ -277,12 +223,6 @@ window.apimeta = {
       "description": "Enum for Scrollbar direction"
     },
     {
-      "name": "ShareResultCode",
-      "namespace": "anysdk.ShareResultCode",
-      "module": "anysdk",
-      "description": "分享系统回调"
-    },
-    {
       "name": "Skeleton.AnimationCacheMode",
       "namespace": "sp.Skeleton.AnimationCacheMode",
       "module": "sp",
@@ -293,12 +233,6 @@ window.apimeta = {
       "namespace": "cc.Slider.Direction",
       "module": "cc",
       "description": "滑动器方向"
-    },
-    {
-      "name": "SocialRetCode",
-      "namespace": "anysdk.SocialRetCode",
-      "module": "anysdk",
-      "description": "社交系统回调"
     },
     {
       "name": "Sprite.FillType",
@@ -325,12 +259,6 @@ window.apimeta = {
       "description": "Sprite 类型"
     },
     {
-      "name": "TaskType",
-      "namespace": "anysdk.TaskType",
-      "module": "anysdk",
-      "description": "统计系统的任务类型"
-    },
-    {
       "name": "Texture2D.Filter",
       "namespace": "cc.Texture2D.Filter",
       "module": "cc",
@@ -355,16 +283,10 @@ window.apimeta = {
       "description": "Tiled Map 地图方向。"
     },
     {
-      "name": "ToolBarPlace",
-      "namespace": "anysdk.ToolBarPlace",
-      "module": "anysdk",
-      "description": "用户系统悬浮窗位置"
-    },
-    {
-      "name": "UserActionResultCode",
-      "namespace": "anysdk.UserActionResultCode",
-      "module": "anysdk",
-      "description": "用户系统回调"
+      "name": "TiledMap.TMXObjectType",
+      "namespace": "cc.TiledMap.TMXObjectType",
+      "module": "cc",
+      "description": "地图物体类型"
     },
     {
       "name": "VerticalTextAlignment",
@@ -443,6 +365,12 @@ window.apimeta = {
       "namespace": "cc.primitive.PolyhedronType",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "sys.NetworkType",
+      "namespace": "cc.sys.NetworkType",
+      "module": "cc",
+      "description": "网络类型枚举"
     }
   ],
   "classes": [
@@ -475,12 +403,6 @@ window.apimeta = {
       "namespace": "cc.AffineTransform",
       "module": "cc",
       "description": "AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移旋转，缩放转变所组成。<br/>"
-    },
-    {
-      "name": "AgentManager",
-      "namespace": "anysdk.AgentManager",
-      "module": "anysdk",
-      "description": "插件管理类"
     },
     {
       "name": "Animation",
@@ -840,7 +762,7 @@ window.apimeta = {
       "name": "LoadingItems",
       "namespace": "cc.LoadingItems",
       "module": "cc",
-      "description": "LoadingItems 是一个加载对象队列，可以用来输送加载对象到加载管线中。<br/>\n请不要直接使用 new 构造这个类的对象，你可以使用 LoadingItems.create 来创建一个新的加载队列，这样可以允许我们的内部对象池回收并重利用加载队列。\n它有一个 map 属性用来存放加载项，在 map 对象中已 url 为 key 值。<br/>\n每个对象都会包含下列属性：<br/>\n- id：该对象的标识，通常与 url 相同。<br/>\n- url：路径 <br/>\n- type: 类型，它这是默认的 URL 的扩展名，可以手动指定赋值。<br/>\n- error：pipeline 中发生的错误将被保存在这个属性中。<br/>\n- content: pipeline 中处理的临时结果，最终的结果也将被存储在这个属性中。<br/>\n- complete：该标志表明该对象是否通过 pipeline 完成。<br/>\n- states：该对象存储每个管道中对象经历的状态，状态可以是 Pipeline.ItemState.WORKING | Pipeline.ItemState.ERROR | Pipeline.ItemState.COMPLETE<br/>\n<br/>\n对象可容纳其他自定义属性。<br/>\n每个 LoadingItems 对象都会在 onComplete 回调之后被销毁，所以请不要持有它的引用并在结束回调之后依赖它的内容执行任何逻辑，有这种需求的话你可以提前复制它的内容。"
+      "description": "LoadingItems 是一个加载对象队列，可以用来输送加载对象到加载管线中。<br/>\n请不要直接使用 new 构造这个类的对象，你可以使用 LoadingItems.create 来创建一个新的加载队列，这样可以允许我们的内部对象池回收并重利用加载队列。\n它有一个 map 属性用来存放加载项，在 map 对象中以 url 为 key 值。<br/>\n每个对象都会包含下列属性：<br/>\n- id：该对象的标识，通常与 url 相同。<br/>\n- url：路径 <br/>\n- type: 类型，它这是默认的 URL 的扩展名，可以手动指定赋值。<br/>\n- error：pipeline 中发生的错误将被保存在这个属性中。<br/>\n- content: pipeline 中处理的临时结果，最终的结果也将被存储在这个属性中。<br/>\n- complete：该标志表明该对象是否通过 pipeline 完成。<br/>\n- states：该对象存储每个管道中对象经历的状态，状态可以是 Pipeline.ItemState.WORKING | Pipeline.ItemState.ERROR | Pipeline.ItemState.COMPLETE<br/>\n<br/>\n对象可容纳其他自定义属性。<br/>\n每个 LoadingItems 对象都会在 onComplete 回调之后被销毁，所以请不要持有它的引用并在结束回调之后依赖它的内容执行任何逻辑，有这种需求的话你可以提前复制它的内容。"
     },
     {
       "name": "Manifold",
@@ -871,6 +793,18 @@ window.apimeta = {
       "namespace": "cc.Material",
       "module": "cc",
       "description": "材质资源类。"
+    },
+    {
+      "name": "Mesh",
+      "namespace": "cc.Mesh",
+      "module": "cc",
+      "description": "网格资源。"
+    },
+    {
+      "name": "MeshRenderer",
+      "namespace": "cc.MeshRenderer",
+      "module": "cc",
+      "description": "网格渲染组件"
     },
     {
       "name": "MotionStreak",
@@ -1017,18 +951,6 @@ window.apimeta = {
       "description": ""
     },
     {
-      "name": "PluginParam",
-      "namespace": "anysdk.PluginParam",
-      "module": "anysdk",
-      "description": "数据结构类"
-    },
-    {
-      "name": "PluginProtocol",
-      "namespace": "anysdk.PluginProtocol",
-      "module": "anysdk",
-      "description": "插件协议"
-    },
-    {
       "name": "PolygonCollider",
       "namespace": "cc.PolygonCollider",
       "module": "cc",
@@ -1075,72 +997,6 @@ window.apimeta = {
       "namespace": "cc.ProportionalToWindow",
       "module": "cc",
       "description": ""
-    },
-    {
-      "name": "ProtocolAdTracking",
-      "namespace": "anysdk.ProtocolAdTracking",
-      "module": "anysdk",
-      "description": "广告追踪系统协议接口"
-    },
-    {
-      "name": "ProtocolAds",
-      "namespace": "anysdk.ProtocolAds",
-      "module": "anysdk",
-      "description": "广告系统协议接口"
-    },
-    {
-      "name": "ProtocolAnalytics",
-      "namespace": "anysdk.ProtocolAnalytics",
-      "module": "anysdk",
-      "description": "统计系统协议接口"
-    },
-    {
-      "name": "ProtocolCrash",
-      "namespace": "anysdk.ProtocolCrash",
-      "module": "anysdk",
-      "description": "崩溃分析系统协议接口"
-    },
-    {
-      "name": "ProtocolCustom",
-      "namespace": "anysdk.ProtocolCustom",
-      "module": "anysdk",
-      "description": "自定义系统协议接口"
-    },
-    {
-      "name": "ProtocolIAP",
-      "namespace": "anysdk.ProtocolIAP",
-      "module": "anysdk",
-      "description": "支付系统协议接口"
-    },
-    {
-      "name": "ProtocolPush",
-      "namespace": "anysdk.ProtocolPush",
-      "module": "anysdk",
-      "description": "推送系统协议接口"
-    },
-    {
-      "name": "ProtocolREC",
-      "namespace": "anysdk.ProtocolREC",
-      "module": "anysdk",
-      "description": "录屏系统协议接口"
-    },
-    {
-      "name": "ProtocolShare",
-      "namespace": "anysdk.ProtocolShare",
-      "module": "anysdk",
-      "description": "分享系统协议接口"
-    },
-    {
-      "name": "ProtocolSocial",
-      "namespace": "anysdk.ProtocolSocial",
-      "module": "anysdk",
-      "description": "社交系统协议接口"
-    },
-    {
-      "name": "ProtocolUser",
-      "namespace": "anysdk.ProtocolUser",
-      "module": "anysdk",
-      "description": "用户系统协议接口"
     },
     {
       "name": "Quat",
@@ -1419,6 +1275,12 @@ window.apimeta = {
       "description": "表示 3D 向量和坐标"
     },
     {
+      "name": "VertexEffectDelegate",
+      "namespace": "sp.VertexEffectDelegate",
+      "module": "sp",
+      "description": "Spine 顶点动画代理"
+    },
+    {
       "name": "VideoPlayer",
       "namespace": "cc.VideoPlayer",
       "module": "cc",
@@ -1568,11 +1430,6 @@ window.apimeta = {
       "namespace": "cc._decorator",
       "module": "cc",
       "description": "一些 JavaScript 装饰器，目前可以通过 \"cc._decorator\" 来访问。\n（这些 API 仍不完全稳定，有可能随着 JavaScript 装饰器的标准实现而调整）"
-    },
-    {
-      "name": "anysdk",
-      "namespace": "anysdk",
-      "description": "AnySDK 为 CP 提供一套第三方 SDK 接入解决方案，整个接入过程，不改变任何 SDK 的功能、特性、参数等，对于最终玩家而言是完全透明无感知的。\n目的是让 CP 商能有更多时间更专注于游戏本身的品质，所有 SDK 的接入工作统统交给我们吧。第三方 SDK 包括了渠道SDK、用户系统、支付系统、广告系统、统计系统、分享系统等等。"
     },
     {
       "name": "cc",

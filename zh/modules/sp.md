@@ -14,6 +14,7 @@ Spine 的全局的命名空间，
 
   - [Skeleton](../classes/Skeleton.md)
   - [SkeletonData](../classes/SkeletonData.md)
+  - [VertexEffectDelegate](../classes/VertexEffectDelegate.md)
 
 ### 枚举
 

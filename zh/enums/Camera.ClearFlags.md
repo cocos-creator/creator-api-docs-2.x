@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 摄像机清除标记位，决定摄像机渲染时会清除哪些状态
@@ -19,33 +18,33 @@
 
 ##### COLOR
 
-> 
+> 清除背景颜色
 
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/camera/CCCamera.js:70](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/camera/CCCamera.js#L70) |
+| 定义于 | [cocos2d/core/camera/CCCamera.js:74](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/camera/CCCamera.js#L74) |
 
 
 
 ##### DEPTH
 
-> 
+> 清除深度缓冲区
 
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/camera/CCCamera.js:74](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/camera/CCCamera.js#L74) |
+| 定义于 | [cocos2d/core/camera/CCCamera.js:82](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/camera/CCCamera.js#L82) |
 
 
 
 ##### STENCIL
 
-> 
+> 清除模板缓冲区
 
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/camera/CCCamera.js:78](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/camera/CCCamera.js#L78) |
+| 定义于 | [cocos2d/core/camera/CCCamera.js:90](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/camera/CCCamera.js#L90) |
 
 

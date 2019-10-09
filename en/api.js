@@ -1,42 +1,6 @@
 window.apimeta = {
   "enums": [
     {
-      "name": "AccountGender",
-      "namespace": "anysdk.AccountGender",
-      "module": "anysdk",
-      "description": "The enum of gender"
-    },
-    {
-      "name": "AccountOperate",
-      "namespace": "anysdk.AccountOperate",
-      "module": "anysdk",
-      "description": "The enum of account operation"
-    },
-    {
-      "name": "AccountType",
-      "namespace": "anysdk.AccountType",
-      "module": "anysdk",
-      "description": "The enum of account type"
-    },
-    {
-      "name": "AdsPos",
-      "namespace": "anysdk.AdsPos",
-      "module": "anysdk",
-      "description": "The enum of ads position"
-    },
-    {
-      "name": "AdsResultCode",
-      "namespace": "anysdk.AdsResultCode",
-      "module": "anysdk",
-      "description": "The callback of ads system"
-    },
-    {
-      "name": "AdsType",
-      "namespace": "anysdk.AdsType",
-      "module": "anysdk",
-      "description": "The enum of ads type"
-    },
-    {
       "name": "AnimationEventType",
       "namespace": "sp.AnimationEventType",
       "module": "sp",
@@ -59,12 +23,6 @@ window.apimeta = {
       "namespace": "cc.Camera.ClearFlags",
       "module": "cc",
       "description": "Values for Camera.clearFlags, determining what to clear when rendering a Camera."
-    },
-    {
-      "name": "CustomResultCode",
-      "namespace": "anysdk.CustomResultCode",
-      "module": "anysdk",
-      "description": "The callback of custom system"
     },
     {
       "name": "EditBox.InputFlag",
@@ -95,6 +53,12 @@ window.apimeta = {
       "namespace": "cc.Graphics.LineJoin",
       "module": "cc",
       "description": "Enum for LineJoin."
+    },
+    {
+      "name": "Label.CacheMode",
+      "namespace": "cc.Label.CacheMode",
+      "module": "cc",
+      "description": "Enum for cache mode."
     },
     {
       "name": "Label.HorizontalAlign",
@@ -175,10 +139,10 @@ window.apimeta = {
       "description": "the type for mask."
     },
     {
-      "name": "NetworkType",
-      "namespace": "cc.NetworkType",
+      "name": "MeshRenderer.ShadowCastingMode",
+      "namespace": "cc.MeshRenderer.ShadowCastingMode",
       "module": "cc",
-      "description": "Network type enumeration"
+      "description": "Shadow projection mode\nch 阴影投射方式"
     },
     {
       "name": "PageView.Direction",
@@ -217,12 +181,6 @@ window.apimeta = {
       "description": "Enum for particles movement type."
     },
     {
-      "name": "PayResultCode",
-      "namespace": "anysdk.PayResultCode",
-      "module": "anysdk",
-      "description": "The callback of requesting reStringge"
-    },
-    {
       "name": "PhysicsManager.DrawBits",
       "namespace": "cc.PhysicsManager.DrawBits",
       "module": "cc",
@@ -239,18 +197,6 @@ window.apimeta = {
       "namespace": "cc.ProgressBar.Mode",
       "module": "cc",
       "description": "Enum for ProgressBar mode"
-    },
-    {
-      "name": "PushActionResultCode",
-      "namespace": "anysdk.PushActionResultCode",
-      "module": "anysdk",
-      "description": "The callback of push system"
-    },
-    {
-      "name": "RECResultCode",
-      "namespace": "anysdk.RECResultCode",
-      "module": "anysdk",
-      "description": "The callback of REC system"
     },
     {
       "name": "RayCastType",
@@ -277,12 +223,6 @@ window.apimeta = {
       "description": "Enum for Scrollbar direction"
     },
     {
-      "name": "ShareResultCode",
-      "namespace": "anysdk.ShareResultCode",
-      "module": "anysdk",
-      "description": "The callback of share system"
-    },
-    {
       "name": "Skeleton.AnimationCacheMode",
       "namespace": "sp.Skeleton.AnimationCacheMode",
       "module": "sp",
@@ -293,12 +233,6 @@ window.apimeta = {
       "namespace": "cc.Slider.Direction",
       "module": "cc",
       "description": "The Slider Direction"
-    },
-    {
-      "name": "SocialRetCode",
-      "namespace": "anysdk.SocialRetCode",
-      "module": "anysdk",
-      "description": "The callback of social system"
     },
     {
       "name": "Sprite.FillType",
@@ -325,12 +259,6 @@ window.apimeta = {
       "description": "Enum for sprite type."
     },
     {
-      "name": "TaskType",
-      "namespace": "anysdk.TaskType",
-      "module": "anysdk",
-      "description": "The enum of task type"
-    },
-    {
       "name": "Texture2D.Filter",
       "namespace": "cc.Texture2D.Filter",
       "module": "cc",
@@ -355,16 +283,10 @@ window.apimeta = {
       "description": "The orientation of tiled map."
     },
     {
-      "name": "ToolBarPlace",
-      "namespace": "anysdk.ToolBarPlace",
-      "module": "anysdk",
-      "description": "The toolbar position of user type"
-    },
-    {
-      "name": "UserActionResultCode",
-      "namespace": "anysdk.UserActionResultCode",
-      "module": "anysdk",
-      "description": "The callback of user system"
+      "name": "TiledMap.TMXObjectType",
+      "namespace": "cc.TiledMap.TMXObjectType",
+      "module": "cc",
+      "description": "TiledMap Object Type"
     },
     {
       "name": "VerticalTextAlignment",
@@ -443,6 +365,12 @@ window.apimeta = {
       "namespace": "cc.primitive.PolyhedronType",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "sys.NetworkType",
+      "namespace": "cc.sys.NetworkType",
+      "module": "cc",
+      "description": "Network type enumeration"
     }
   ],
   "classes": [
@@ -475,12 +403,6 @@ window.apimeta = {
       "namespace": "cc.AffineTransform",
       "module": "cc",
       "description": "AffineTransform class represent an affine transform matrix. It's composed basically by translation, rotation, scale transformations.<br/>"
-    },
-    {
-      "name": "AgentManager",
-      "namespace": "anysdk.AgentManager",
-      "module": "anysdk",
-      "description": "agent manager of plugin"
     },
     {
       "name": "Animation",
@@ -873,6 +795,18 @@ window.apimeta = {
       "description": "Material Asset."
     },
     {
+      "name": "Mesh",
+      "namespace": "cc.Mesh",
+      "module": "cc",
+      "description": "Mesh Asset."
+    },
+    {
+      "name": "MeshRenderer",
+      "namespace": "cc.MeshRenderer",
+      "module": "cc",
+      "description": "Mesh Renderer Component"
+    },
+    {
       "name": "MotionStreak",
       "namespace": "cc.MotionStreak",
       "module": "cc",
@@ -1017,18 +951,6 @@ window.apimeta = {
       "description": ""
     },
     {
-      "name": "PluginParam",
-      "namespace": "anysdk.PluginParam",
-      "module": "anysdk",
-      "description": "Data structure class"
-    },
-    {
-      "name": "PluginProtocol",
-      "namespace": "anysdk.PluginProtocol",
-      "module": "anysdk",
-      "description": "plugin protocol"
-    },
-    {
       "name": "PolygonCollider",
       "namespace": "cc.PolygonCollider",
       "module": "cc",
@@ -1075,72 +997,6 @@ window.apimeta = {
       "namespace": "cc.ProportionalToWindow",
       "module": "cc",
       "description": ""
-    },
-    {
-      "name": "ProtocolAdTracking",
-      "namespace": "anysdk.ProtocolAdTracking",
-      "module": "anysdk",
-      "description": "ad tracking protocol"
-    },
-    {
-      "name": "ProtocolAds",
-      "namespace": "anysdk.ProtocolAds",
-      "module": "anysdk",
-      "description": "ads protocol"
-    },
-    {
-      "name": "ProtocolAnalytics",
-      "namespace": "anysdk.ProtocolAnalytics",
-      "module": "anysdk",
-      "description": "analytics protocol"
-    },
-    {
-      "name": "ProtocolCrash",
-      "namespace": "anysdk.ProtocolCrash",
-      "module": "anysdk",
-      "description": "crash protocol"
-    },
-    {
-      "name": "ProtocolCustom",
-      "namespace": "anysdk.ProtocolCustom",
-      "module": "anysdk",
-      "description": "custom protocol"
-    },
-    {
-      "name": "ProtocolIAP",
-      "namespace": "anysdk.ProtocolIAP",
-      "module": "anysdk",
-      "description": "IAP protocol"
-    },
-    {
-      "name": "ProtocolPush",
-      "namespace": "anysdk.ProtocolPush",
-      "module": "anysdk",
-      "description": "push protocol"
-    },
-    {
-      "name": "ProtocolREC",
-      "namespace": "anysdk.ProtocolREC",
-      "module": "anysdk",
-      "description": "REC protocol"
-    },
-    {
-      "name": "ProtocolShare",
-      "namespace": "anysdk.ProtocolShare",
-      "module": "anysdk",
-      "description": "share protocol"
-    },
-    {
-      "name": "ProtocolSocial",
-      "namespace": "anysdk.ProtocolSocial",
-      "module": "anysdk",
-      "description": "social protocol"
-    },
-    {
-      "name": "ProtocolUser",
-      "namespace": "anysdk.ProtocolUser",
-      "module": "anysdk",
-      "description": "user protocol"
     },
     {
       "name": "Quat",
@@ -1419,6 +1275,12 @@ window.apimeta = {
       "description": "Representation of 3D vectors and points."
     },
     {
+      "name": "VertexEffectDelegate",
+      "namespace": "sp.VertexEffectDelegate",
+      "module": "sp",
+      "description": "The delegate of spine vertex effect"
+    },
+    {
       "name": "VideoPlayer",
       "namespace": "cc.VideoPlayer",
       "module": "cc",
@@ -1568,11 +1430,6 @@ window.apimeta = {
       "namespace": "cc._decorator",
       "module": "cc",
       "description": "Some JavaScript decorators which can be accessed with \"cc._decorator\"."
-    },
-    {
-      "name": "anysdk",
-      "namespace": "anysdk",
-      "description": "AnySDK is a third party solution that offers game developers SDK integration without making changes to the SDK's features or parameters.It can do all of this while remaining invisible to your end user.Our goal is to handle all the tedious SDK integration work for you so that you can use your time to focus on the game itself.No matter if it’s the channel SDK, user system, payment system, ad system, statistics system, sharing system or any other type of SDK: we’ll take care of it for you."
     },
     {
       "name": "cc",
