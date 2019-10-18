@@ -11,9 +11,9 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`GLOBAL-MACROS`](modules/GLOBAL-MACROS.md)
 - [`_decorator`](modules/_decorator.md)
 - [`cc`](modules/cc.md)
+- [`cc.primitive`](modules/cc.primitive.md)
 - [`dragonBones`](modules/dragonBones.md)
 - [`js`](modules/js.md)
-- [`primitive`](modules/primitive.md)
 - [`sp`](modules/sp.md)
 - [`sp.spine`](modules/sp.spine.md)
 

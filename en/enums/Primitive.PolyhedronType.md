@@ -2,7 +2,7 @@
 
 
 
-Module: [primitive](../modules/primitive.md)
+Module: [cc.primitive](../modules/cc.primitive.md)
 Parent Module: [cc](../modules/cc.md)
 
 
@@ -36,7 +36,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:15](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L15) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:15](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L15) |
 
 
 
@@ -47,7 +47,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:20](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L20) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:20](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L20) |
 
 
 
@@ -58,7 +58,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:25](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L25) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:25](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L25) |
 
 
 
@@ -69,7 +69,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:30](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L30) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:30](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L30) |
 
 
 
@@ -80,7 +80,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:35](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L35) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:35](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L35) |
 
 
 
@@ -91,7 +91,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:40](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L40) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:40](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L40) |
 
 
 
@@ -102,7 +102,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:45](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L45) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:45](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L45) |
 
 
 
@@ -113,7 +113,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:50](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L50) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:50](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L50) |
 
 
 
@@ -124,7 +124,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:55](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L55) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:55](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L55) |
 
 
 
@@ -135,7 +135,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:60](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L60) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:60](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L60) |
 
 
 
@@ -146,7 +146,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:65](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L65) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:65](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L65) |
 
 
 
@@ -157,7 +157,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:70](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L70) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:70](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L70) |
 
 
 
@@ -168,7 +168,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:75](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L75) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:75](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L75) |
 
 
 
@@ -179,7 +179,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:80](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L80) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:80](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L80) |
 
 
 
@@ -190,6 +190,6 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:85](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/primitive/polyhedron.js#L85) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.js:85](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/primitive/polyhedron.js#L85) |
 
 

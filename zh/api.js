@@ -1438,6 +1438,12 @@ window.apimeta = {
       "description": "Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属性和常量都在这个命名空间中定义。"
     },
     {
+      "name": "cc.primitive",
+      "namespace": "cc.primitive",
+      "module": "cc.primitive",
+      "description": "一个创建 3D 物体顶点数据的基础模块，你可以通过 \"cc.primitive\" 来访问这个模块。"
+    },
+    {
       "name": "dragonBones",
       "namespace": "dragonBones",
       "description": "DragonBones 的全局的命名空间，\n与 DragonBones 相关的所有的类，函数，属性，常量都在这个命名空间中定义。"
@@ -1447,12 +1453,6 @@ window.apimeta = {
       "namespace": "cc.js",
       "module": "cc",
       "description": "This module provides some JavaScript utilities.\nAll members can be accessed with \"cc.js\"."
-    },
-    {
-      "name": "primitive",
-      "namespace": "primitive",
-      "module": "primitive",
-      "description": "一个创建 3D 物体顶点数据的基础模块，你可以通过 \"cc.primitive\" 来访问这个模块。"
     },
     {
       "name": "sp",

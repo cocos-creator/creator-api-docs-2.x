@@ -2,7 +2,7 @@
 
 
 
-Module: [cc](../modules/cc.md)
+Module: [cc.primitive](../modules/cc.primitive.md)
 Parent Module: [cc](../modules/cc.md)
 
 
@@ -34,7 +34,7 @@ Skinned Mesh Renderer
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Skeleton.html" class="crosslink">Skeleton</a> |
-| Defined in | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:66](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L66) |
+| Defined in | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:66](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L66) |
 
 
 
@@ -45,7 +45,7 @@ Skinned Mesh Renderer
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined in | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:85](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L85) |
+| Defined in | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:85](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L85) |
 
 
 

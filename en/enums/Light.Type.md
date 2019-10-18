@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 The light source type
@@ -25,7 +24,7 @@ The light source type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:56](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/CCLightComponent.js#L56) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:56](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/CCLightComponent.js#L56) |
 
 
 
@@ -36,7 +35,7 @@ The light source type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:64](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/CCLightComponent.js#L64) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:64](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/CCLightComponent.js#L64) |
 
 
 
@@ -47,7 +46,7 @@ The light source type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:72](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/CCLightComponent.js#L72) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:72](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/CCLightComponent.js#L72) |
 
 
 
@@ -58,6 +57,6 @@ The light source type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:81](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/cocos2d/core/3d/CCLightComponent.js#L81) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:81](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/3d/CCLightComponent.js#L81) |
 
 

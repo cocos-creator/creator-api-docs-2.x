@@ -1438,6 +1438,12 @@ window.apimeta = {
       "description": "The main namespace of Cocos2d-JS, all engine core classes, functions, properties and constants are defined in this namespace."
     },
     {
+      "name": "cc.primitive",
+      "namespace": "cc.primitive",
+      "module": "cc.primitive",
+      "description": "一个创建 3D 物体顶点数据的基础模块，你可以通过 \"cc.primitive\" 来访问这个模块。"
+    },
+    {
       "name": "dragonBones",
       "namespace": "dragonBones",
       "description": "The global main namespace of DragonBones, all classes, functions,\nproperties and constants of DragonBones are defined in this namespace"
@@ -1447,12 +1453,6 @@ window.apimeta = {
       "namespace": "cc.js",
       "module": "cc",
       "description": "This module provides some JavaScript utilities.\nAll members can be accessed with \"cc.js\"."
-    },
-    {
-      "name": "primitive",
-      "namespace": "primitive",
-      "module": "primitive",
-      "description": "一个创建 3D 物体顶点数据的基础模块，你可以通过 \"cc.primitive\" 来访问这个模块。"
     },
     {
       "name": "sp",

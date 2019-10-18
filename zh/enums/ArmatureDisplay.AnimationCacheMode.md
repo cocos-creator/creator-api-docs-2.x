@@ -23,7 +23,7 @@ Dragonbones渲染类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/dragonbones/ArmatureDisplay.js:54](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/extensions/dragonbones/ArmatureDisplay.js#L54) |
+| 定义于 | [extensions/dragonbones/ArmatureDisplay.js:54](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/dragonbones/ArmatureDisplay.js#L54) |
 
 
 
@@ -34,7 +34,7 @@ Dragonbones渲染类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/dragonbones/ArmatureDisplay.js:60](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/extensions/dragonbones/ArmatureDisplay.js#L60) |
+| 定义于 | [extensions/dragonbones/ArmatureDisplay.js:60](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/dragonbones/ArmatureDisplay.js#L60) |
 
 
 
@@ -45,6 +45,6 @@ Dragonbones渲染类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/dragonbones/ArmatureDisplay.js:66](https://github.com/cocos-creator/engine/blob/94144e364133d0ac0b7b75fc548bfd85ef398b59/extensions/dragonbones/ArmatureDisplay.js#L66) |
+| 定义于 | [extensions/dragonbones/ArmatureDisplay.js:66](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/dragonbones/ArmatureDisplay.js#L66) |
 
 
