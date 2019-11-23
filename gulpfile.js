@@ -126,23 +126,21 @@ gulp.task('build-tsd', ['cp-apisrc'], function (cb) {
     const TSD_FOOTER =
 `declare let jsb: any;
 /** Running in the editor. */
-declare let CC_EDITOR: boolean;
+declare const CC_EDITOR: boolean;
 /** Preview in browser or simulator. */
-declare let CC_PREVIEW: boolean;
+declare const CC_PREVIEW: boolean;
 /** Running in the editor or preview. */
-declare let CC_DEV: boolean;
+declare const CC_DEV: boolean;
 /** Running in the editor or preview, or build in debug mode. */
-declare let CC_DEBUG: boolean;
+declare const CC_DEBUG: boolean;
 /** Running in published project. */
-declare let CC_BUILD: boolean;
-/** Running in native platform (mobile app, desktop app, or simulator). */
-declare let CC_JSB: boolean;
+declare const CC_BUILD: boolean;
+/** Running in native platforms (mobile app, desktop app, or simulator). */
+declare const CC_JSB: boolean;
 /** Running in the engine's unit test. */
-declare let CC_TEST: boolean;
-/** Running in the Wechat's mini game. */
-declare let CC_WECHATGAME: boolean;
-/** Running in the bricks. */
-declare let CC_QQPLAY: boolean;
+declare const CC_TEST: boolean;
+/** Running in the WeChat Mini Game. */
+declare const CC_WECHATGAME: boolean;
 `;
 
     program
