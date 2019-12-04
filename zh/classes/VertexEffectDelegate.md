@@ -41,7 +41,7 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:49](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/spine/vertex-effect-delegate.js#L49) |
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:49](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L49) |
 
 
 
@@ -51,7 +51,7 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:60](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/spine/vertex-effect-delegate.js#L60) |
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:60](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L60) |
 
 ###### 参数列表
 - `jitterX` Float 
@@ -64,7 +64,7 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:73](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/spine/vertex-effect-delegate.js#L73) |
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:73](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L73) |
 
 ###### 参数列表
 - `radius` Float 
@@ -77,7 +77,7 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:86](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/spine/vertex-effect-delegate.js#L86) |
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:86](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L86) |
 
 ###### 参数列表
 - `radius` Float 
@@ -90,7 +90,7 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:99](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/spine/vertex-effect-delegate.js#L99) |
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:99](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L99) |
 
 
 
@@ -100,7 +100,7 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:108](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/spine/vertex-effect-delegate.js#L108) |
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:108](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L108) |
 
 
 
@@ -110,7 +110,7 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:117](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/spine/vertex-effect-delegate.js#L117) |
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:117](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L117) |
 
 
 
@@ -120,7 +120,7 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:126](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/extensions/spine/vertex-effect-delegate.js#L126) |
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:126](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L126) |
 
 
 

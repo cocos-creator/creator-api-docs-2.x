@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 The loader pipe, it can load several types of files:
@@ -44,7 +43,7 @@ Constructor of Loader, you can pass custom supported types.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/loader.js:261](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/load-pipeline/loader.js#L261) |
+| 定义于 | [cocos2d/core/load-pipeline/loader.js:261](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/load-pipeline/loader.js#L261) |
 
 ###### 参数列表
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
@@ -64,7 +63,7 @@ Add custom supported types handler or modify existing type handler.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/loader.js:281](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/load-pipeline/loader.js#L281) |
+| 定义于 | [cocos2d/core/load-pipeline/loader.js:281](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/load-pipeline/loader.js#L281) |
 
 ###### 参数列表
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
