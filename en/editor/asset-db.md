@@ -220,7 +220,7 @@ queryAssets
 | Param | Type | Description |
 | --- | --- | --- |
 | pattern | <code>string</code> | The url pattern |
-| assetTypes | <code>string</code> / <code>array</code> | The asset type(s) |
+| assetTypes | <code>string</code> &#124; <code>array</code> | The asset type(s) |
 | [cb] | <code>function</code> | The callback function |
 
 **Example**  
