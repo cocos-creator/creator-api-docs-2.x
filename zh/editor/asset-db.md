@@ -220,7 +220,7 @@ queryAssets
 | Param | Type | Description |
 | --- | --- | --- |
 | pattern | <code>string</code> | The url pattern |
-| assetTypes | <code>string</code> \| <code>array</code> | The asset type(s) |
+| assetTypes | <code>string</code> &#124; <code>array</code> | The asset type(s) |
 | [cb] | <code>function</code> | The callback function |
 
 **Example**  
@@ -248,9 +248,10 @@ queryMetas
 | type | <code>string</code> | The asset type |
 | [cb] | <code>function</code> | The callback function |
 
-**Example**  
+**Example**:
+
 ```js
-Editor.assetdb.queryAssets( 'db://assets/**\/*', 'texture', function ( err, results ) {
+Editor.assetdb.queryMetas( 'db://assets/**\/*', 'texture', function ( err, results ) {
   results.forEach(function ( meta ) {
     // the meta instance
   });
