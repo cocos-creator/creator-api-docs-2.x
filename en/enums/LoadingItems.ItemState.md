@@ -23,7 +23,7 @@ The item states of the LoadingItems, its value could be LoadingItems.ItemState.W
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/load-pipeline/loading-items.js:273](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/load-pipeline/loading-items.js#L273) |
+| Defined in | [cocos2d/core/load-pipeline/loading-items.js:273](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/load-pipeline/loading-items.js#L273) |
 
 
 
@@ -34,7 +34,7 @@ The item states of the LoadingItems, its value could be LoadingItems.ItemState.W
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/load-pipeline/loading-items.js:277](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/load-pipeline/loading-items.js#L277) |
+| Defined in | [cocos2d/core/load-pipeline/loading-items.js:277](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/load-pipeline/loading-items.js#L277) |
 
 
 
@@ -45,6 +45,6 @@ The item states of the LoadingItems, its value could be LoadingItems.ItemState.W
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/load-pipeline/loading-items.js:281](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/load-pipeline/loading-items.js#L281) |
+| Defined in | [cocos2d/core/load-pipeline/loading-items.js:281](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/load-pipeline/loading-items.js#L281) |
 
 

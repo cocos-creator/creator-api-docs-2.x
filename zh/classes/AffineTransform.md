@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移旋转，缩放转变所组成。<br/>
@@ -44,7 +45,7 @@ AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移旋�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/utils/affine-transform.js:55](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/utils/affine-transform.js#L55) |
+| 定义于 | [cocos2d/core/utils/affine-transform.js:55](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/utils/affine-transform.js#L55) |
 
 ###### 参数列表
 - `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -64,7 +65,7 @@ AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移旋�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/utils/affine-transform.js:72](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/utils/affine-transform.js#L72) |
+| 定义于 | [cocos2d/core/utils/affine-transform.js:72](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/utils/affine-transform.js#L72) |
 
 
 
@@ -75,7 +76,7 @@ AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移旋�
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/utils/affine-transform.js:90](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/utils/affine-transform.js#L90) |
+| 定义于 | [cocos2d/core/utils/affine-transform.js:90](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/utils/affine-transform.js#L90) |
 
 ###### 参数列表
 - `t` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -89,7 +90,7 @@ out = t1 * t2
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/utils/affine-transform.js:102](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/utils/affine-transform.js#L102) |
+| 定义于 | [cocos2d/core/utils/affine-transform.js:102](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/utils/affine-transform.js#L102) |
 
 ###### 参数列表
 - `out` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> Out object to store the concat result
@@ -104,7 +105,7 @@ out = t1 * t2
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/utils/affine-transform.js:129](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/utils/affine-transform.js#L129) |
+| 定义于 | [cocos2d/core/utils/affine-transform.js:129](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/utils/affine-transform.js#L129) |
 
 ###### 参数列表
 - `out` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -118,7 +119,7 @@ out = t1 * t2
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/utils/affine-transform.js:152](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/utils/affine-transform.js#L152) |
+| 定义于 | [cocos2d/core/utils/affine-transform.js:152](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/utils/affine-transform.js#L152) |
 
 ###### 参数列表
 - `out` <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
@@ -132,7 +133,7 @@ out = t1 * t2
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/utils/affine-transform.js:173](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/utils/affine-transform.js#L173) |
+| 定义于 | [cocos2d/core/utils/affine-transform.js:173](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/utils/affine-transform.js#L173) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The output point to store the result
@@ -148,7 +149,7 @@ out = t1 * t2
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/utils/affine-transform.js:200](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/utils/affine-transform.js#L200) |
+| 定义于 | [cocos2d/core/utils/affine-transform.js:200](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/utils/affine-transform.js#L200) |
 
 ###### 参数列表
 - `out` <a href="../classes/Size.html" class="crosslink">Size</a> The output point to store the result
@@ -163,7 +164,7 @@ out = t1 * t2
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/utils/affine-transform.js:217](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/utils/affine-transform.js#L217) |
+| 定义于 | [cocos2d/core/utils/affine-transform.js:217](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/utils/affine-transform.js#L217) |
 
 ###### 参数列表
 - `out` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -177,7 +178,7 @@ out = t1 * t2
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/affine-transform.js:254](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/utils/affine-transform.js#L254) |
+| 定义于 | [cocos2d/core/utils/affine-transform.js:254](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/utils/affine-transform.js#L254) |
 
 ###### 参数列表
 - `out_bl` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 

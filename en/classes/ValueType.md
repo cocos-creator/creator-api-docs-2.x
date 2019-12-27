@@ -1,7 +1,7 @@
 ## `ValueType` Class
 
 
-Defined in: [https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/value-types/value-type.js:32](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/value-types/value-type.js#L32)
+Defined in: [https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/value-types/value-type.js:32](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/value-types/value-type.js#L32)
 
 Module: [cc](../modules/cc.md)
 
@@ -40,7 +40,7 @@ This method returns an exact copy of current value.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| Defined in | [cocos2d/core/value-types/value-type.js:44](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/value-types/value-type.js#L44) |
+| Defined in | [cocos2d/core/value-types/value-type.js:44](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/value-types/value-type.js#L44) |
 
 
 
@@ -51,7 +51,7 @@ Compares this object with the other one.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/value-type.js:55](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/value-types/value-type.js#L55) |
+| Defined in | [cocos2d/core/value-types/value-type.js:55](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/value-types/value-type.js#L55) |
 
 ###### Parameters
 - `other` <a href="../classes/ValueType.html" class="crosslink">ValueType</a>  
@@ -65,7 +65,7 @@ When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| Defined in | [cocos2d/core/value-types/value-type.js:67](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/value-types/value-type.js#L67) |
+| Defined in | [cocos2d/core/value-types/value-type.js:67](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/value-types/value-type.js#L67) |
 
 ###### Parameters
 - `to` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value
@@ -78,7 +78,7 @@ Copys all the properties from another given object to this value.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/value-type.js:84](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/value-types/value-type.js#L84) |
+| Defined in | [cocos2d/core/value-types/value-type.js:84](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/value-types/value-type.js#L84) |
 
 ###### Parameters
 - `source` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the source to copy
@@ -91,7 +91,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| Defined in | [cocos2d/core/value-types/value-type.js:97](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/value-types/value-type.js#L97) |
+| Defined in | [cocos2d/core/value-types/value-type.js:97](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/value-types/value-type.js#L97) |
 
 
 

@@ -41,7 +41,7 @@ Clears vertex effect.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:49](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L49) |
+| Defined in | [extensions/spine/vertex-effect-delegate.js:49](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L49) |
 
 
 
@@ -51,7 +51,7 @@ Inits delegate with jitter effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:60](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L60) |
+| Defined in | [extensions/spine/vertex-effect-delegate.js:60](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L60) |
 
 ###### Parameters
 - `jitterX` Float 
@@ -64,7 +64,7 @@ Inits delegate with swirl effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:73](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L73) |
+| Defined in | [extensions/spine/vertex-effect-delegate.js:73](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L73) |
 
 ###### Parameters
 - `radius` Float 
@@ -77,7 +77,7 @@ Inits delegate with swirl effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:86](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L86) |
+| Defined in | [extensions/spine/vertex-effect-delegate.js:86](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L86) |
 
 ###### Parameters
 - `radius` Float 
@@ -90,7 +90,7 @@ Gets jitter vertex effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:99](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L99) |
+| Defined in | [extensions/spine/vertex-effect-delegate.js:99](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L99) |
 
 
 
@@ -100,7 +100,7 @@ Gets swirl vertex effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:108](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L108) |
+| Defined in | [extensions/spine/vertex-effect-delegate.js:108](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L108) |
 
 
 
@@ -110,7 +110,7 @@ Gets vertex effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:117](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L117) |
+| Defined in | [extensions/spine/vertex-effect-delegate.js:117](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L117) |
 
 
 
@@ -120,7 +120,7 @@ Gets effect type
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:126](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/spine/vertex-effect-delegate.js#L126) |
+| Defined in | [extensions/spine/vertex-effect-delegate.js:126](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L126) |
 
 
 

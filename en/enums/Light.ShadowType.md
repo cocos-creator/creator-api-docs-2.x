@@ -22,7 +22,7 @@ The shadow type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:98](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/3d/CCLightComponent.js#L98) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:98](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/3d/CCLightComponent.js#L98) |
 
 
 
@@ -33,6 +33,6 @@ The shadow type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:116](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/3d/CCLightComponent.js#L116) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:116](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/3d/CCLightComponent.js#L116) |
 
 

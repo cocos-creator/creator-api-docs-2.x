@@ -39,7 +39,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:43](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L43) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:43](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L43) |
 
 
 
@@ -50,7 +50,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:52](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L52) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:52](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L52) |
 
 
 
@@ -62,7 +62,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:61](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L61) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:61](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L61) |
 
 
 
@@ -73,7 +73,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:77](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L77) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:77](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L77) |
 
 
 
@@ -84,7 +84,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:84](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L84) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:84](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L84) |
 
 
 
@@ -95,7 +95,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:91](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L91) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:91](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L91) |
 
 
 
@@ -106,7 +106,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:98](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L98) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:98](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L98) |
 
 
 
@@ -117,7 +117,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:105](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L105) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:105](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L105) |
 
 
 
@@ -128,7 +128,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:112](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L112) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:112](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L112) |
 
 
 
@@ -139,7 +139,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:126](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L126) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:126](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L126) |
 
 
 
@@ -150,7 +150,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:133](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L133) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:133](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L133) |
 
 
 
@@ -161,7 +161,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:140](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L140) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:140](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L140) |
 
 
 
@@ -172,7 +172,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:147](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L147) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:147](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L147) |
 
 
 
@@ -183,7 +183,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:154](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L154) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:154](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L154) |
 
 
 
@@ -194,7 +194,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:169](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L169) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:169](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L169) |
 
 
 
@@ -205,7 +205,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:176](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L176) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:176](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L176) |
 
 
 
@@ -216,7 +216,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:191](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L191) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:191](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L191) |
 
 
 
@@ -227,7 +227,7 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:198](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L198) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:198](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L198) |
 
 
 
@@ -238,6 +238,6 @@ Tiled Map 地图方向。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/tilemap/CCTiledMap.js:213](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/tilemap/CCTiledMap.js#L213) |
+| 定义于 | [cocos2d/tilemap/CCTiledMap.js:213](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/tilemap/CCTiledMap.js#L213) |
 
 

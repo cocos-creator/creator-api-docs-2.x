@@ -36,7 +36,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/CCFactory.html" class="crosslink">CCFactory</a> 
-| 定义于 | [extensions/dragonbones/CCFactory.js:43](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/extensions/dragonbones/CCFactory.js#L43) |
+| 定义于 | [extensions/dragonbones/CCFactory.js:43](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/dragonbones/CCFactory.js#L43) |
 
 
 ##### 示例

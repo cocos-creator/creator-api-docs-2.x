@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -35,7 +36,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/PhysicsCollider.html" class="crosslink">PhysicsCollider</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:692](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/physics/CCPhysicsManager.js#L692) |
+| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:692](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/physics/CCPhysicsManager.js#L692) |
 
 
 
@@ -46,7 +47,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:699](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/physics/CCPhysicsManager.js#L699) |
+| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:699](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/physics/CCPhysicsManager.js#L699) |
 
 
 
@@ -57,7 +58,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:706](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/physics/CCPhysicsManager.js#L706) |
+| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:706](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/physics/CCPhysicsManager.js#L706) |
 
 
 
@@ -68,7 +69,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:713](https://github.com/cocos-creator/engine/blob/98967f5e8c458e65203b56f900ee34c8ea836e72/cocos2d/core/physics/CCPhysicsManager.js#L713) |
+| Defined in | [cocos2d/core/physics/CCPhysicsManager.js:713](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/core/physics/CCPhysicsManager.js#L713) |
 
 
 
