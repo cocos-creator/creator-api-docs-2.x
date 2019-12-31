@@ -161,6 +161,8 @@ declare const CC_WECHATGAME: boolean;
         else {
             // add dragonBones.d.ts
             output += fs.readFileSync(join(engine, 'extensions/dragonbones/lib/dragonBones.d.ts')) + '\n';
+            // add spine.d.ts
+            output += fs.readFileSync(join(engine, 'extensions/spine/lib/spine.d.ts')) + '\n';
             output += TSD_FOOTER;
 
             fs.ensureDirSync(dirname(dest));
