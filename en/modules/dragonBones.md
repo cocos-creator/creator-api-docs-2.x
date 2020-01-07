@@ -14,6 +14,7 @@ properties and constants of DragonBones are defined in this namespace
 
   - [ArmatureDisplay](../classes/ArmatureDisplay.md)
   - [CCFactory](../classes/CCFactory.md)
+  - [dragonBones.AttachUtil](../classes/dragonBones.AttachUtil.md)
   - [DragonBonesAsset](../classes/DragonBonesAsset.md)
   - [DragonBonesAtlasAsset](../classes/DragonBonesAtlasAsset.md)
 

@@ -25,6 +25,12 @@ window.apimeta = {
       "description": "Values for Camera.clearFlags, determining what to clear when rendering a Camera."
     },
     {
+      "name": "ERigidBodyType",
+      "namespace": "cc.ERigidBodyType",
+      "module": "cc",
+      "description": "The rigid body type"
+    },
+    {
       "name": "EditBox.InputFlag",
       "namespace": "cc.EditBox.InputFlag",
       "module": "cc",
@@ -139,6 +145,12 @@ window.apimeta = {
       "description": "the type for mask."
     },
     {
+      "name": "Material.BUILTIN_NAME",
+      "namespace": "cc.Material.BUILTIN_NAME",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "MeshRenderer.ShadowCastingMode",
       "namespace": "cc.MeshRenderer.ShadowCastingMode",
       "module": "cc",
@@ -179,6 +191,12 @@ window.apimeta = {
       "namespace": "cc.ParticleSystem.PositionType",
       "module": "cc",
       "description": "Enum for particles movement type."
+    },
+    {
+      "name": "ParticleSystem3DAssembler.RenderMode",
+      "namespace": "cc.ParticleSystem3DAssembler.RenderMode",
+      "module": "cc",
+      "description": "粒子的生成模式"
     },
     {
       "name": "PhysicsManager.DrawBits",
@@ -337,6 +355,12 @@ window.apimeta = {
       "description": "Enum for debug modes."
     },
     {
+      "name": "geomUtils.enums",
+      "namespace": "cc.geomUtils.enums",
+      "module": "cc",
+      "description": "Shape type."
+    },
+    {
       "name": "macro.BlendFactor",
       "namespace": "cc.macro.BlendFactor",
       "module": "cc",
@@ -367,10 +391,52 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "shapeModule.ArcMode",
+      "namespace": "cc.shapeModule.ArcMode",
+      "module": "cc",
+      "description": "粒子在扇形区域的发射方式"
+    },
+    {
+      "name": "shapeModule.EmitLocation",
+      "namespace": "cc.shapeModule.EmitLocation",
+      "module": "cc",
+      "description": "粒子从发射器的哪个部位发射"
+    },
+    {
+      "name": "shapeModule.ShapeType",
+      "namespace": "cc.shapeModule.ShapeType",
+      "module": "cc",
+      "description": "粒子发射器类型"
+    },
+    {
       "name": "sys.NetworkType",
       "namespace": "cc.sys.NetworkType",
       "module": "cc",
       "description": "Network type enumeration"
+    },
+    {
+      "name": "textureAnimationModule.Animation",
+      "namespace": "cc.textureAnimationModule.Animation",
+      "module": "cc",
+      "description": "贴图动画的播放方式"
+    },
+    {
+      "name": "textureAnimationModule.Mode",
+      "namespace": "cc.textureAnimationModule.Mode",
+      "module": "cc",
+      "description": "粒子贴图动画类型"
+    },
+    {
+      "name": "trailModule.TextureMode",
+      "namespace": "cc.trailModule.TextureMode",
+      "module": "cc",
+      "description": "纹理填充模式"
+    },
+    {
+      "name": "trailModule.TrailMode",
+      "namespace": "cc.trailModule.TrailMode",
+      "module": "cc",
+      "description": "选择如何为粒子系统生成轨迹"
     }
   ],
   "classes": [
@@ -471,6 +537,12 @@ window.apimeta = {
       "description": "Box Collider."
     },
     {
+      "name": "BoxCollider3D",
+      "namespace": "cc.BoxCollider3D",
+      "module": "cc",
+      "description": "Physics box collider"
+    },
+    {
       "name": "BufferAsset",
       "namespace": "cc.BufferAsset",
       "module": "cc",
@@ -543,6 +615,12 @@ window.apimeta = {
       "description": "Defines a Polygon Collider ."
     },
     {
+      "name": "Collider3D",
+      "namespace": "cc.Collider3D",
+      "module": "cc",
+      "description": "The base class of the collider"
+    },
+    {
       "name": "CollisionManager",
       "namespace": "cc.CollisionManager",
       "module": "cc",
@@ -565,6 +643,12 @@ window.apimeta = {
       "namespace": "cc.Component.EventHandler",
       "module": "cc",
       "description": "Component will register a event to target component's handler.\nAnd it will trigger the handler when a certain event occurs.\n\n!@zh\n“EventHandler” 类用来设置场景中的事件回调，\n该类允许用户设置回调目标节点，目标组件名，组件方法名，\n并可通过 emit 方法调用目标函数。"
+    },
+    {
+      "name": "ConstantForce",
+      "namespace": "cc.ConstantForce",
+      "module": "cc",
+      "description": "Each frame applies a constant force to a rigid body, depending on the RigidBody3D"
     },
     {
       "name": "ContainerStrategy",
@@ -625,6 +709,12 @@ window.apimeta = {
       "namespace": "cc.EditBox",
       "module": "cc",
       "description": "cc.EditBox is a component for inputing text, you can use it to gather small amounts of text from users."
+    },
+    {
+      "name": "EffectAsset",
+      "namespace": "cc.EffectAsset",
+      "module": "cc",
+      "description": "Effect Asset."
     },
     {
       "name": "EqualToFrame",
@@ -705,6 +795,78 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "IBaseShape",
+      "namespace": "cc.IBaseShape",
+      "module": "cc",
+      "description": "Base shape interface."
+    },
+    {
+      "name": "IBoxShape",
+      "namespace": "cc.IBoxShape",
+      "module": "cc",
+      "description": "box shape interface"
+    },
+    {
+      "name": "ICollisionDetect",
+      "namespace": "cc.ICollisionDetect",
+      "module": "cc",
+      "description": "Collision detect"
+    },
+    {
+      "name": "ICollisionEvent",
+      "namespace": "cc.ICollisionEvent",
+      "module": "cc",
+      "description": "Collision events."
+    },
+    {
+      "name": "IContactEquation",
+      "namespace": "cc.IContactEquation",
+      "module": "cc",
+      "description": "Collision information for collision events."
+    },
+    {
+      "name": "IPhysicsWorld",
+      "namespace": "cc.IPhysicsWorld",
+      "module": "cc",
+      "description": "Physics world interface"
+    },
+    {
+      "name": "IQuatLike",
+      "namespace": "cc.IQuatLike",
+      "module": "cc",
+      "description": "Class has x y z w properties"
+    },
+    {
+      "name": "IRaycastOptions",
+      "namespace": "cc.IRaycastOptions",
+      "module": "cc",
+      "description": "Ray cast options"
+    },
+    {
+      "name": "IRigidBody",
+      "namespace": "cc.IRigidBody",
+      "module": "cc",
+      "description": "Rigid body interface"
+    },
+    {
+      "name": "ISphereShape",
+      "namespace": "cc.ISphereShape",
+      "module": "cc",
+      "description": "Sphere shape interface"
+    },
+    {
+      "name": "ITriggerEvent",
+      "namespace": "cc.ITriggerEvent",
+      "module": "cc",
+      "description": "Trigger event"
+    },
+    {
+      "name": "IVec3Like",
+      "namespace": "cc.IVec3Like",
+      "module": "cc",
+      "description": "Class has x y z properties"
+    },
+    {
       "name": "Intersection",
       "namespace": "cc.Intersection",
       "module": "cc",
@@ -777,6 +939,12 @@ window.apimeta = {
       "description": "A manifold point is a contact point belonging to a contact manifold.\nIt holds details related to the geometry and dynamics of the contact points.\nNote: the impulses are used for internal caching and may not\nprovide reliable contact forces, especially for high speed collisions."
     },
     {
+      "name": "MapUtils",
+      "namespace": "cc.MapUtils",
+      "module": "cc",
+      "description": "Helper class for ES5 Map."
+    },
+    {
       "name": "Mask",
       "namespace": "cc.Mask",
       "module": "cc",
@@ -793,6 +961,12 @@ window.apimeta = {
       "namespace": "cc.Material",
       "module": "cc",
       "description": "Material Asset."
+    },
+    {
+      "name": "MaterialVariant",
+      "namespace": "cc.MaterialVariant",
+      "module": "cc",
+      "description": "Material Variant is an extension of the Material Asset.\nChanges to Material Variant do not affect other Material Variant or Material Asset,\nand changes to Material Asset are synchronized to the Material Variant.\nHowever, when a Material Variant had already modifies a state, the Material Asset state is not synchronized to the Material Variant."
     },
     {
       "name": "Mesh",
@@ -873,6 +1047,18 @@ window.apimeta = {
       "description": "Particle System base class. <br/>\nAttributes of a Particle System:<br/>\n - emmision rate of the particles<br/>\n - Gravity Mode (Mode A): <br/>\n - gravity <br/>\n - direction <br/>\n - speed +-  variance <br/>\n - tangential acceleration +- variance<br/>\n - radial acceleration +- variance<br/>\n - Radius Mode (Mode B):      <br/>\n - startRadius +- variance    <br/>\n - endRadius +- variance      <br/>\n - rotate +- variance         <br/>\n - Properties common to all modes: <br/>\n - life +- life variance      <br/>\n - start spin +- variance     <br/>\n - end spin +- variance       <br/>\n - start size +- variance     <br/>\n - end size +- variance       <br/>\n - start color +- variance    <br/>\n - end color +- variance      <br/>\n - life +- variance           <br/>\n - blending function          <br/>\n - texture                    <br/>\n<br/>\ncocos2d also supports particles generated by Particle Designer (http://particledesigner.71squared.com/).<br/>\n'Radius Mode' in Particle Designer uses a fixed emit rate of 30 hz. Since that can't be guarateed in cocos2d,  <br/>\ncocos2d uses a another approach, but the results are almost identical.<br/>\ncocos2d supports all the variables used by Particle Designer plus a bit more:  <br/>\n - spinning particles (supported when using ParticleSystem)       <br/>\n - tangential acceleration (Gravity mode)                               <br/>\n - radial acceleration (Gravity mode)                                   <br/>\n - radius direction (Radius mode) (Particle Designer supports outwards to inwards direction only) <br/>\nIt is possible to customize any of the above mentioned properties in runtime. Example:   <br/>"
     },
     {
+      "name": "ParticleSystem3D",
+      "namespace": "cc.ParticleSystem3D",
+      "module": "cc",
+      "description": "The ParticleSystem3D Component."
+    },
+    {
+      "name": "Physics3DManager",
+      "namespace": "cc.Physics3DManager",
+      "module": "cc",
+      "description": "Physical systems manager."
+    },
+    {
       "name": "PhysicsBoxCollider",
       "namespace": "cc.PhysicsBoxCollider",
       "module": "cc",
@@ -915,6 +1101,12 @@ window.apimeta = {
       "description": "Physics manager uses box2d as the inner physics system, and hide most box2d implement details(creating rigidbody, synchronize rigidbody info to node).\nYou can visit some common box2d function through physics manager(hit testing, raycast, debug info).\nPhysics manager distributes the collision information to each collision callback when collision is produced.\nNote: You need first enable the collision listener in the rigidbody."
     },
     {
+      "name": "PhysicsMaterial",
+      "namespace": "cc.PhysicsMaterial",
+      "module": "cc",
+      "description": "Physics material."
+    },
+    {
       "name": "PhysicsPolygonCollider",
       "namespace": "cc.PhysicsPolygonCollider",
       "module": "cc",
@@ -925,6 +1117,12 @@ window.apimeta = {
       "namespace": "cc.PhysicsRayCastResult",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "PhysicsRayResult",
+      "namespace": "cc.PhysicsRayResult",
+      "module": "cc",
+      "description": "Used to store physical ray detection results"
     },
     {
       "name": "Pipeline",
@@ -1053,6 +1251,12 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "RigidBody3D",
+      "namespace": "cc.RigidBody3D",
+      "module": "cc",
+      "description": "Rigid body."
+    },
+    {
       "name": "RopeJoint",
       "namespace": "cc.RopeJoint",
       "module": "cc",
@@ -1129,6 +1333,12 @@ window.apimeta = {
       "namespace": "cc.Slider",
       "module": "cc",
       "description": "The Slider Control"
+    },
+    {
+      "name": "SphereCollider3D",
+      "namespace": "cc.SphereCollider3D",
+      "module": "cc",
+      "description": "Physics sphere collider"
     },
     {
       "name": "Sprite",
@@ -1359,6 +1569,60 @@ window.apimeta = {
       "description": "An object to boot the game."
     },
     {
+      "name": "dragonBones.AttachUtil",
+      "namespace": "dragonBones.dragonBones.AttachUtil",
+      "module": "dragonBones",
+      "description": "Attach node tool"
+    },
+    {
+      "name": "geomUtils.Aabb",
+      "namespace": "cc.geomUtils.Aabb",
+      "module": "cc",
+      "description": "Aabb"
+    },
+    {
+      "name": "geomUtils.Frustum",
+      "namespace": "cc.geomUtils.Frustum",
+      "module": "cc",
+      "description": "frustum"
+    },
+    {
+      "name": "geomUtils.Line",
+      "namespace": "cc.geomUtils.Line",
+      "module": "cc",
+      "description": "line"
+    },
+    {
+      "name": "geomUtils.Obb",
+      "namespace": "cc.geomUtils.Obb",
+      "module": "cc",
+      "description": "obb"
+    },
+    {
+      "name": "geomUtils.Plane",
+      "namespace": "cc.geomUtils.Plane",
+      "module": "cc",
+      "description": "plane。"
+    },
+    {
+      "name": "geomUtils.Ray",
+      "namespace": "cc.geomUtils.Ray",
+      "module": "cc",
+      "description": "ray"
+    },
+    {
+      "name": "geomUtils.Sphere",
+      "namespace": "cc.geomUtils.Sphere",
+      "module": "cc",
+      "description": "Sphere."
+    },
+    {
+      "name": "geomUtils.Triangle",
+      "namespace": "cc.geomUtils.Triangle",
+      "module": "cc",
+      "description": "Triangle"
+    },
+    {
       "name": "loader",
       "namespace": "cc.loader",
       "module": "cc",
@@ -1399,6 +1663,12 @@ window.apimeta = {
       "namespace": "cc.screen",
       "module": "cc",
       "description": "The fullscreen API provides an easy way for web content to be presented using the user's entire screen.\nIt's invalid on safari, QQbrowser and android browser"
+    },
+    {
+      "name": "sp.AttachUtil",
+      "namespace": "sp.sp.AttachUtil",
+      "module": "sp",
+      "description": "Attach node tool"
     },
     {
       "name": "sys",

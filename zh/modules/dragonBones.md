@@ -14,6 +14,7 @@ DragonBones 的全局的命名空间，
 
   - [ArmatureDisplay](../classes/ArmatureDisplay.md)
   - [CCFactory](../classes/CCFactory.md)
+  - [dragonBones.AttachUtil](../classes/dragonBones.AttachUtil.md)
   - [DragonBonesAsset](../classes/DragonBonesAsset.md)
   - [DragonBonesAtlasAsset](../classes/DragonBonesAtlasAsset.md)
 

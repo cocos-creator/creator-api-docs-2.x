@@ -32,7 +32,7 @@ Demonstratio: https://easings.net/
   - [`sineOut`](#sineout) Easing in and out with sine formula.
   - [`sineInOut`](#sineinout) Easing in and out with sine formula.
   - [`expoIn`](#expoin) Easing in and out with exponential formula.
-  - [`expoOu`](#expoou) Easing in and out with exponential formula.
+  - [`expoOut`](#expoout) Easing in and out with exponential formula.
   - [`expoInOut`](#expoinout) Easing in and out with exponential formula.
   - [`circIn`](#circin) Easing in and out with circular formula.
   - [`circOut`](#circout) Easing in and out with circular formula.
@@ -66,8 +66,8 @@ Easing in with quadratic formula. From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:52](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L52) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:52](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L52) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -79,8 +79,8 @@ Easing out with quadratic formula. From fast to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:60](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L60) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:60](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L60) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -92,8 +92,8 @@ Easing in and out with quadratic formula. From slow to fast, then back to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:68](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L68) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:68](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L68) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -105,8 +105,8 @@ Easing in with cubic formula. From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:87](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L87) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:87](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L87) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -118,8 +118,8 @@ Easing out with cubic formula. From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:95](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L95) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:95](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L95) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -131,8 +131,8 @@ Easing in and out with cubic formula. From slow to fast, then back to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:103](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L103) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:103](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L103) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -144,8 +144,8 @@ Easing in with quartic formula. From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:122](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L122) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:122](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L122) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -157,8 +157,8 @@ Easing out with quartic formula. From fast to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:130](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L130) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:130](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L130) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -170,8 +170,8 @@ Easing in and out with quartic formula. From slow to fast, then back to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:138](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L138) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:138](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L138) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -183,8 +183,8 @@ Easing in with quintic formula. From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:157](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L157) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:157](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L157) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -196,8 +196,8 @@ Easing out with quintic formula. From fast to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:165](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L165) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:165](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L165) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -209,8 +209,8 @@ Easing in and out with quintic formula. From slow to fast, then back to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:173](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L173) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:173](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L173) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -222,8 +222,8 @@ Easing in and out with sine formula. From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:192](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L192) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:192](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L192) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -235,8 +235,8 @@ Easing in and out with sine formula. From fast to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:200](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L200) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:200](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L200) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -248,8 +248,8 @@ Easing in and out with sine formula. From slow to fast, then back to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:208](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L208) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:208](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L208) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -261,21 +261,21 @@ Easing in and out with exponential formula. From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:222](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L222) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:222](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L222) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
 
 
-##### expoOu
+##### expoOut
 
 Easing in and out with exponential formula. From fast to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:230](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L230) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:230](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L230) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -287,8 +287,8 @@ Easing in and out with exponential formula. From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:238](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L238) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:238](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L238) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time, then back to slow.
@@ -300,8 +300,8 @@ Easing in and out with circular formula. From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:263](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L263) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:263](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L263) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -313,8 +313,8 @@ Easing in and out with circular formula. From fast to slow.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:271](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L271) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:271](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L271) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -326,8 +326,8 @@ Easing in and out with circular formula. From slow to fast.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:279](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L279) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:279](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L279) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time, then back to slow.
@@ -339,8 +339,8 @@ Easing in action with a spring oscillating effect.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:299](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L299) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:299](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L299) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -352,8 +352,8 @@ Easing out action with a spring oscillating effect.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:323](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L323) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:323](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L323) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -365,8 +365,8 @@ Easing in and out action with a spring oscillating effect.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:347](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L347) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:347](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L347) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -378,8 +378,8 @@ Easing in action with "back up" behavior.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:381](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L381) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:381](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L381) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -391,8 +391,8 @@ Easing out action with "back up" behavior.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:392](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L392) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:392](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L392) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -404,8 +404,8 @@ Easing in and out action with "back up" behavior.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:403](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L403) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:403](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L403) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -417,8 +417,8 @@ Easing in action with bouncing effect.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:423](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L423) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:423](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L423) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -430,8 +430,8 @@ Easing out action with bouncing effect.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:433](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L433) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:433](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L433) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -443,8 +443,8 @@ Easing in and out action with bouncing effect.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:454](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L454) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:454](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L454) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -456,8 +456,8 @@ Target will run action with smooth effect.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:468](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L468) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:468](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L468) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -469,8 +469,8 @@ Target will run action with fade effect.
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/animation/easing.js:486](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L486) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/animation/easing.js:486](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L486) |
 
 ###### Parameters
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.

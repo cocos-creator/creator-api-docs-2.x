@@ -25,6 +25,12 @@ window.apimeta = {
       "description": "摄像机清除标记位，决定摄像机渲染时会清除哪些状态"
     },
     {
+      "name": "ERigidBodyType",
+      "namespace": "cc.ERigidBodyType",
+      "module": "cc",
+      "description": "刚体类型"
+    },
+    {
       "name": "EditBox.InputFlag",
       "namespace": "cc.EditBox.InputFlag",
       "module": "cc",
@@ -139,6 +145,12 @@ window.apimeta = {
       "description": "遮罩组件类型"
     },
     {
+      "name": "Material.BUILTIN_NAME",
+      "namespace": "cc.Material.BUILTIN_NAME",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "MeshRenderer.ShadowCastingMode",
       "namespace": "cc.MeshRenderer.ShadowCastingMode",
       "module": "cc",
@@ -179,6 +191,12 @@ window.apimeta = {
       "namespace": "cc.ParticleSystem.PositionType",
       "module": "cc",
       "description": "粒子位置类型"
+    },
+    {
+      "name": "ParticleSystem3DAssembler.RenderMode",
+      "namespace": "cc.ParticleSystem3DAssembler.RenderMode",
+      "module": "cc",
+      "description": "粒子的生成模式"
     },
     {
       "name": "PhysicsManager.DrawBits",
@@ -337,6 +355,12 @@ window.apimeta = {
       "description": "调试模式"
     },
     {
+      "name": "geomUtils.enums",
+      "namespace": "cc.geomUtils.enums",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "macro.BlendFactor",
       "namespace": "cc.macro.BlendFactor",
       "module": "cc",
@@ -367,10 +391,52 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "shapeModule.ArcMode",
+      "namespace": "cc.shapeModule.ArcMode",
+      "module": "cc",
+      "description": "粒子在扇形区域的发射方式"
+    },
+    {
+      "name": "shapeModule.EmitLocation",
+      "namespace": "cc.shapeModule.EmitLocation",
+      "module": "cc",
+      "description": "粒子从发射器的哪个部位发射"
+    },
+    {
+      "name": "shapeModule.ShapeType",
+      "namespace": "cc.shapeModule.ShapeType",
+      "module": "cc",
+      "description": "粒子发射器类型"
+    },
+    {
       "name": "sys.NetworkType",
       "namespace": "cc.sys.NetworkType",
       "module": "cc",
       "description": "网络类型枚举"
+    },
+    {
+      "name": "textureAnimationModule.Animation",
+      "namespace": "cc.textureAnimationModule.Animation",
+      "module": "cc",
+      "description": "贴图动画的播放方式"
+    },
+    {
+      "name": "textureAnimationModule.Mode",
+      "namespace": "cc.textureAnimationModule.Mode",
+      "module": "cc",
+      "description": "粒子贴图动画类型"
+    },
+    {
+      "name": "trailModule.TextureMode",
+      "namespace": "cc.trailModule.TextureMode",
+      "module": "cc",
+      "description": "纹理填充模式"
+    },
+    {
+      "name": "trailModule.TrailMode",
+      "namespace": "cc.trailModule.TrailMode",
+      "module": "cc",
+      "description": "选择如何为粒子系统生成轨迹"
     }
   ],
   "classes": [
@@ -471,6 +537,12 @@ window.apimeta = {
       "description": "包围盒碰撞组件"
     },
     {
+      "name": "BoxCollider3D",
+      "namespace": "cc.BoxCollider3D",
+      "module": "cc",
+      "description": "物理盒子碰撞器"
+    },
+    {
       "name": "BufferAsset",
       "namespace": "cc.BufferAsset",
       "module": "cc",
@@ -543,6 +615,12 @@ window.apimeta = {
       "description": "用来定义多边形碰撞体"
     },
     {
+      "name": "Collider3D",
+      "namespace": "cc.Collider3D",
+      "module": "cc",
+      "description": "碰撞器的基类"
+    },
+    {
       "name": "CollisionManager",
       "namespace": "cc.CollisionManager",
       "module": "cc",
@@ -565,6 +643,12 @@ window.apimeta = {
       "namespace": "cc.Component.EventHandler",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "ConstantForce",
+      "namespace": "cc.ConstantForce",
+      "module": "cc",
+      "description": "在每帧对一个刚体施加持续的力，依赖 RigidBody3D 组件"
     },
     {
       "name": "ContainerStrategy",
@@ -625,6 +709,12 @@ window.apimeta = {
       "namespace": "cc.EditBox",
       "module": "cc",
       "description": "EditBox 组件，用于获取用户的输入文本。"
+    },
+    {
+      "name": "EffectAsset",
+      "namespace": "cc.EffectAsset",
+      "module": "cc",
+      "description": "Effect 资源类型。"
     },
     {
       "name": "EqualToFrame",
@@ -705,6 +795,78 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "IBaseShape",
+      "namespace": "cc.IBaseShape",
+      "module": "cc",
+      "description": ""
+    },
+    {
+      "name": "IBoxShape",
+      "namespace": "cc.IBoxShape",
+      "module": "cc",
+      "description": ""
+    },
+    {
+      "name": "ICollisionDetect",
+      "namespace": "cc.ICollisionDetect",
+      "module": "cc",
+      "description": "Collision detect"
+    },
+    {
+      "name": "ICollisionEvent",
+      "namespace": "cc.ICollisionEvent",
+      "module": "cc",
+      "description": "碰撞事件。"
+    },
+    {
+      "name": "IContactEquation",
+      "namespace": "cc.IContactEquation",
+      "module": "cc",
+      "description": "碰撞事件的碰撞信息。"
+    },
+    {
+      "name": "IPhysicsWorld",
+      "namespace": "cc.IPhysicsWorld",
+      "module": "cc",
+      "description": "Physics world interface"
+    },
+    {
+      "name": "IQuatLike",
+      "namespace": "cc.IQuatLike",
+      "module": "cc",
+      "description": "Class has x y z w properties"
+    },
+    {
+      "name": "IRaycastOptions",
+      "namespace": "cc.IRaycastOptions",
+      "module": "cc",
+      "description": "Ray cast options"
+    },
+    {
+      "name": "IRigidBody",
+      "namespace": "cc.IRigidBody",
+      "module": "cc",
+      "description": "Rigid body interface"
+    },
+    {
+      "name": "ISphereShape",
+      "namespace": "cc.ISphereShape",
+      "module": "cc",
+      "description": ""
+    },
+    {
+      "name": "ITriggerEvent",
+      "namespace": "cc.ITriggerEvent",
+      "module": "cc",
+      "description": "触发事件。"
+    },
+    {
+      "name": "IVec3Like",
+      "namespace": "cc.IVec3Like",
+      "module": "cc",
+      "description": "Class has x y z properties"
+    },
+    {
       "name": "Intersection",
       "namespace": "cc.Intersection",
       "module": "cc",
@@ -777,6 +939,12 @@ window.apimeta = {
       "description": "ManifoldPoint 是接触信息中的接触点信息。它拥有关于几何和接触点的详细信息。\n注意：信息中的冲量用于系统内部缓存，提供的接触力可能不是很准确，特别是高速移动中的碰撞信息。"
     },
     {
+      "name": "MapUtils",
+      "namespace": "cc.MapUtils",
+      "module": "cc",
+      "description": "ES5 Map 辅助类。"
+    },
+    {
       "name": "Mask",
       "namespace": "cc.Mask",
       "module": "cc",
@@ -793,6 +961,12 @@ window.apimeta = {
       "namespace": "cc.Material",
       "module": "cc",
       "description": "材质资源类。"
+    },
+    {
+      "name": "MaterialVariant",
+      "namespace": "cc.MaterialVariant",
+      "module": "cc",
+      "description": "材质变体是材质资源的一个延伸。\n材质变体的修改不会影响到其他的材质变体或者材质资源，而材质资源的修改会同步体现到材质变体上，\n但是当材质变体对一个状态修改后，材质资源再对这个状态修改是不会同步到材质变体上的。"
     },
     {
       "name": "Mesh",
@@ -873,6 +1047,18 @@ window.apimeta = {
       "description": "Particle System base class. <br/>\nAttributes of a Particle System:<br/>\n - emmision rate of the particles<br/>\n - Gravity Mode (Mode A): <br/>\n - gravity <br/>\n - direction <br/>\n - speed +-  variance <br/>\n - tangential acceleration +- variance<br/>\n - radial acceleration +- variance<br/>\n - Radius Mode (Mode B):      <br/>\n - startRadius +- variance    <br/>\n - endRadius +- variance      <br/>\n - rotate +- variance         <br/>\n - Properties common to all modes: <br/>\n - life +- life variance      <br/>\n - start spin +- variance     <br/>\n - end spin +- variance       <br/>\n - start size +- variance     <br/>\n - end size +- variance       <br/>\n - start color +- variance    <br/>\n - end color +- variance      <br/>\n - life +- variance           <br/>\n - blending function          <br/>\n - texture                    <br/>\n<br/>\ncocos2d also supports particles generated by Particle Designer (http://particledesigner.71squared.com/).<br/>\n'Radius Mode' in Particle Designer uses a fixed emit rate of 30 hz. Since that can't be guarateed in cocos2d,  <br/>\ncocos2d uses a another approach, but the results are almost identical.<br/>\ncocos2d supports all the variables used by Particle Designer plus a bit more:  <br/>\n - spinning particles (supported when using ParticleSystem)       <br/>\n - tangential acceleration (Gravity mode)                               <br/>\n - radial acceleration (Gravity mode)                                   <br/>\n - radius direction (Radius mode) (Particle Designer supports outwards to inwards direction only) <br/>\nIt is possible to customize any of the above mentioned properties in runtime. Example:   <br/>"
     },
     {
+      "name": "ParticleSystem3D",
+      "namespace": "cc.ParticleSystem3D",
+      "module": "cc",
+      "description": "3D 粒子组件"
+    },
+    {
+      "name": "Physics3DManager",
+      "namespace": "cc.Physics3DManager",
+      "module": "cc",
+      "description": "物理系统管理器。"
+    },
+    {
       "name": "PhysicsBoxCollider",
       "namespace": "cc.PhysicsBoxCollider",
       "module": "cc",
@@ -915,6 +1101,12 @@ window.apimeta = {
       "description": "物理系统将 box2d 作为内部物理系统，并且隐藏了大部分 box2d 实现细节（比如创建刚体，同步刚体信息到节点中等）。\n你可以通过物理系统访问一些 box2d 常用的功能，比如点击测试，射线测试，设置测试信息等。\n物理系统还管理碰撞信息的分发，她会在产生碰撞时，将碰撞信息分发到各个碰撞回调中。\n注意：你需要先在刚体中开启碰撞接听才会产生相应的碰撞回调。<br>\n支持的物理系统指定绘制信息事件，请参阅 <a href=\"../enums/PhysicsManager.DrawBits.html\" class=\"crosslink\">PhysicsManager.DrawBits</a>"
     },
     {
+      "name": "PhysicsMaterial",
+      "namespace": "cc.PhysicsMaterial",
+      "module": "cc",
+      "description": "Physics material."
+    },
+    {
       "name": "PhysicsPolygonCollider",
       "namespace": "cc.PhysicsPolygonCollider",
       "module": "cc",
@@ -925,6 +1117,12 @@ window.apimeta = {
       "namespace": "cc.PhysicsRayCastResult",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "PhysicsRayResult",
+      "namespace": "cc.PhysicsRayResult",
+      "module": "cc",
+      "description": "用于保存物理射线检测结果"
     },
     {
       "name": "Pipeline",
@@ -1053,6 +1251,12 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "RigidBody3D",
+      "namespace": "cc.RigidBody3D",
+      "module": "cc",
+      "description": "刚体组件。"
+    },
+    {
       "name": "RopeJoint",
       "namespace": "cc.RopeJoint",
       "module": "cc",
@@ -1129,6 +1333,12 @@ window.apimeta = {
       "namespace": "cc.Slider",
       "module": "cc",
       "description": "滑动器组件"
+    },
+    {
+      "name": "SphereCollider3D",
+      "namespace": "cc.SphereCollider3D",
+      "module": "cc",
+      "description": "物理球碰撞器"
     },
     {
       "name": "Sprite",
@@ -1359,6 +1569,60 @@ window.apimeta = {
       "description": "包含游戏主体信息并负责驱动游戏的游戏对象。"
     },
     {
+      "name": "dragonBones.AttachUtil",
+      "namespace": "dragonBones.dragonBones.AttachUtil",
+      "module": "dragonBones",
+      "description": "挂点工具类"
+    },
+    {
+      "name": "geomUtils.Aabb",
+      "namespace": "cc.geomUtils.Aabb",
+      "module": "cc",
+      "description": "Aabb"
+    },
+    {
+      "name": "geomUtils.Frustum",
+      "namespace": "cc.geomUtils.Frustum",
+      "module": "cc",
+      "description": "平截头体"
+    },
+    {
+      "name": "geomUtils.Line",
+      "namespace": "cc.geomUtils.Line",
+      "module": "cc",
+      "description": "直线"
+    },
+    {
+      "name": "geomUtils.Obb",
+      "namespace": "cc.geomUtils.Obb",
+      "module": "cc",
+      "description": "基础几何  方向包围盒。"
+    },
+    {
+      "name": "geomUtils.Plane",
+      "namespace": "cc.geomUtils.Plane",
+      "module": "cc",
+      "description": "平面。"
+    },
+    {
+      "name": "geomUtils.Ray",
+      "namespace": "cc.geomUtils.Ray",
+      "module": "cc",
+      "description": "射线。"
+    },
+    {
+      "name": "geomUtils.Sphere",
+      "namespace": "cc.geomUtils.Sphere",
+      "module": "cc",
+      "description": "轴对齐球。"
+    },
+    {
+      "name": "geomUtils.Triangle",
+      "namespace": "cc.geomUtils.Triangle",
+      "module": "cc",
+      "description": "Triangle"
+    },
+    {
       "name": "loader",
       "namespace": "cc.loader",
       "module": "cc",
@@ -1399,6 +1663,12 @@ window.apimeta = {
       "namespace": "cc.screen",
       "module": "cc",
       "description": "The fullscreen API provides an easy way for web content to be presented using the user's entire screen.\nIt's invalid on safari, QQbrowser and android browser"
+    },
+    {
+      "name": "sp.AttachUtil",
+      "namespace": "sp.sp.AttachUtil",
+      "module": "sp",
+      "description": "挂点工具类"
     },
     {
       "name": "sys",

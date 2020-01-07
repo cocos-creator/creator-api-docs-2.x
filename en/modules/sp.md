@@ -14,6 +14,7 @@ properties and constants of Spine are defined in this namespace
 
   - [Skeleton](../classes/Skeleton.md)
   - [SkeletonData](../classes/SkeletonData.md)
+  - [sp.AttachUtil](../classes/sp.AttachUtil.md)
   - [VertexEffectDelegate](../classes/VertexEffectDelegate.md)
 
 ### Enums

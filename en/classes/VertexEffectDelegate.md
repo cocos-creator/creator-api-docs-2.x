@@ -41,7 +41,7 @@ Clears vertex effect.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:49](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L49) |
+| Defined in | [extensions/spine/vertex-effect-delegate.js:49](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L49) |
 
 
 
@@ -51,11 +51,11 @@ Inits delegate with jitter effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:60](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L60) |
+| Defined in | [extensions/spine/vertex-effect-delegate.js:60](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L60) |
 
 ###### Parameters
-- `jitterX` Float 
-- `jitterY` Float 
+- `jitterX` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `jitterY` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### initSwirlWithPow
@@ -64,11 +64,12 @@ Inits delegate with swirl effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:73](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L73) |
+| Returns | sp.spine.JitterEffect 
+| Defined in | [extensions/spine/vertex-effect-delegate.js:73](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L73) |
 
 ###### Parameters
-- `radius` Float 
-- `power` Float 
+- `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `power` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### initSwirlWithPowOut
@@ -77,11 +78,12 @@ Inits delegate with swirl effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:86](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L86) |
+| Returns | sp.spine.SwirlEffect 
+| Defined in | [extensions/spine/vertex-effect-delegate.js:87](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L87) |
 
 ###### Parameters
-- `radius` Float 
-- `power` Float 
+- `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `power` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### getJitterVertexEffect
@@ -90,7 +92,8 @@ Gets jitter vertex effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:99](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L99) |
+| Returns | sp.spine.JitterEffect 
+| Defined in | [extensions/spine/vertex-effect-delegate.js:101](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L101) |
 
 
 
@@ -100,7 +103,8 @@ Gets swirl vertex effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:108](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L108) |
+| Returns | sp.spine.SwirlEffect 
+| Defined in | [extensions/spine/vertex-effect-delegate.js:111](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L111) |
 
 
 
@@ -110,7 +114,8 @@ Gets vertex effect
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:117](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L117) |
+| Returns | sp.spine.JitterEffect &#124; sp.spine.SwirlEffect 
+| Defined in | [extensions/spine/vertex-effect-delegate.js:121](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L121) |
 
 
 
@@ -120,7 +125,8 @@ Gets effect type
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/vertex-effect-delegate.js:126](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L126) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| Defined in | [extensions/spine/vertex-effect-delegate.js:131](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L131) |
 
 
 

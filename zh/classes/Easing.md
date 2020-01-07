@@ -32,7 +32,7 @@
   - [`sineOut`](#sineout) 正弦曲线缓出函数。
   - [`sineInOut`](#sineinout) 正弦曲线缓入缓出函数。
   - [`expoIn`](#expoin) 指数曲线缓入函数。
-  - [`expoOu`](#expoou) 指数曲线缓出函数。
+  - [`expoOut`](#expoout) 指数曲线缓出函数。
   - [`expoInOut`](#expoinout) 指数曲线缓入和缓出函数。
   - [`circIn`](#circin) 循环公式缓入函数。
   - [`circOut`](#circout) 循环公式缓出函数。
@@ -66,8 +66,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:52](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L52) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:52](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L52) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -79,8 +79,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:60](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L60) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:60](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L60) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -92,8 +92,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:68](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L68) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:68](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L68) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -105,8 +105,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:87](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L87) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:87](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L87) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -118,8 +118,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:95](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L95) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:95](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L95) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -131,8 +131,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:103](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L103) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:103](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L103) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -144,8 +144,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:122](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L122) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:122](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L122) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -157,8 +157,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:130](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L130) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:130](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L130) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -170,8 +170,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:138](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L138) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:138](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L138) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -183,8 +183,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:157](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L157) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:157](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L157) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -196,8 +196,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:165](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L165) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:165](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L165) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -209,8 +209,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:173](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L173) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:173](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L173) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -222,8 +222,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:192](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L192) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:192](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L192) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -235,8 +235,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:200](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L200) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:200](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L200) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -248,8 +248,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:208](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L208) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:208](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L208) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -261,21 +261,21 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:222](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L222) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:222](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L222) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
 
 
-##### expoOu
+##### expoOut
 
 指数曲线缓出函数。运动由快到慢。
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:230](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L230) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:230](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L230) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -287,8 +287,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:238](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L238) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:238](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L238) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time, then back to slow.
@@ -300,8 +300,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:263](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L263) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:263](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L263) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -313,8 +313,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:271](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L271) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:271](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L271) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -326,8 +326,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:279](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L279) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:279](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L279) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time, then back to slow.
@@ -339,8 +339,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:299](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L299) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:299](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L299) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -352,8 +352,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:323](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L323) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:323](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L323) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -365,8 +365,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:347](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L347) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:347](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L347) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -378,8 +378,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:381](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L381) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:381](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L381) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -391,8 +391,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:392](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L392) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:392](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L392) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -404,8 +404,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:403](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L403) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:403](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L403) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -417,8 +417,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:423](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L423) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:423](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L423) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -430,8 +430,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:433](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L433) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:433](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L433) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -443,8 +443,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:454](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L454) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:454](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L454) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -456,8 +456,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:468](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L468) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:468](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L468) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.
@@ -469,8 +469,8 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/animation/easing.js:486](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/cocos2d/animation/easing.js#L486) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| 定义于 | [cocos2d/animation/easing.js:486](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/animation/easing.js#L486) |
 
 ###### 参数列表
 - `t` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The current time as a percentage of the total time.

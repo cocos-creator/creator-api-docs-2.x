@@ -41,7 +41,7 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:49](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L49) |
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:49](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L49) |
 
 
 
@@ -51,11 +51,11 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:60](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L60) |
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:60](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L60) |
 
 ###### 参数列表
-- `jitterX` Float 
-- `jitterY` Float 
+- `jitterX` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `jitterY` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### initSwirlWithPow
@@ -64,11 +64,12 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:73](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L73) |
+| 返回 | sp.spine.JitterEffect 
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:73](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L73) |
 
 ###### 参数列表
-- `radius` Float 
-- `power` Float 
+- `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `power` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### initSwirlWithPowOut
@@ -77,11 +78,12 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:86](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L86) |
+| 返回 | sp.spine.SwirlEffect 
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:87](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L87) |
 
 ###### 参数列表
-- `radius` Float 
-- `power` Float 
+- `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `power` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
 
 
 ##### getJitterVertexEffect
@@ -90,7 +92,8 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:99](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L99) |
+| 返回 | sp.spine.JitterEffect 
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:101](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L101) |
 
 
 
@@ -100,7 +103,8 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:108](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L108) |
+| 返回 | sp.spine.SwirlEffect 
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:111](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L111) |
 
 
 
@@ -110,7 +114,8 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:117](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L117) |
+| 返回 | sp.spine.JitterEffect &#124; sp.spine.SwirlEffect 
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:121](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L121) |
 
 
 
@@ -120,7 +125,8 @@ Spine 顶点动画代理
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/vertex-effect-delegate.js:126](https://github.com/cocos-creator/engine/blob/e222465ce8426e5cf32052e4f37701f3a529ed18/extensions/spine/vertex-effect-delegate.js#L126) |
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 定义于 | [extensions/spine/vertex-effect-delegate.js:131](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/extensions/spine/vertex-effect-delegate.js#L131) |
 
 
 
