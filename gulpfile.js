@@ -145,10 +145,11 @@ declare const CC_WECHATGAME: boolean;
 
     program
         .option('--engine <path to engine>')
+        .option('--jsbAdapter <path to jsb-adapter>')
         .option('--dest <tsd path>')
         .parse(process.argv);
 
-    let { engine, dest } = program;
+    let { engine, jsbAdapter, dest } = program;
 
     let tsdGen = require('./lib/tsd-generator');
     let cwd = process.cwd();
@@ -161,6 +162,10 @@ declare const CC_WECHATGAME: boolean;
         else {
             // add dragonBones.d.ts
             output += fs.readFileSync(join(engine, 'extensions/dragonbones/lib/dragonBones.d.ts')) + '\n';
+            // add spine.d.ts
+            output += fs.readFileSync(join(engine, 'extensions/spine/lib/spine.d.ts')) + '\n';
+            // add jsb.d.ts
+            output += fs.readFileSync(join(jsbAdapter, 'jsb.d.ts')) + '\n';
             output += TSD_FOOTER;
 
             fs.ensureDirSync(dirname(dest));
