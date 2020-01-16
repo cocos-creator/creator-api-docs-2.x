@@ -951,9 +951,9 @@ Return the renderer of attachment.
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
 
 
-##### setTrackEventListener
+##### getState
 
-获取
+获取动画状态
 
 | meta | description |
 |------|-------------|
