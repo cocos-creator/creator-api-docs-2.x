@@ -2,7 +2,7 @@
 
 
 
-模块: [cc](../modules/cc.md)
+模块: [cc.primitive](../modules/cc.primitive.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -27,7 +27,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/editbox/types.js:134](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/components/editbox/types.js#L134) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:134](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/components/editbox/types.js#L134) |
 
 
 
@@ -39,7 +39,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/editbox/types.js:143](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/components/editbox/types.js#L143) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:143](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/components/editbox/types.js#L143) |
 
 
 
@@ -50,7 +50,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/editbox/types.js:155](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/components/editbox/types.js#L155) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:155](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/components/editbox/types.js#L155) |
 
 
 
@@ -61,7 +61,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/editbox/types.js:164](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/components/editbox/types.js#L164) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:164](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/components/editbox/types.js#L164) |
 
 
 
@@ -72,7 +72,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/editbox/types.js:173](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/components/editbox/types.js#L173) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:173](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/components/editbox/types.js#L173) |
 
 
 
@@ -83,6 +83,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/editbox/types.js:179](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/components/editbox/types.js#L179) |
+| 定义于 | [cocos2d/core/components/editbox/types.js:179](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/components/editbox/types.js#L179) |
 
 

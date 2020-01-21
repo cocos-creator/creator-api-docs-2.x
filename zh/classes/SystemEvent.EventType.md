@@ -34,7 +34,7 @@ SystemEvent 支持的事件类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/event/system-event.js:42](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/system-event.js#L42) |
+| 定义于 | [cocos2d/core/event/system-event.js:42](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/system-event.js#L42) |
 
 
 
@@ -45,7 +45,7 @@ SystemEvent 支持的事件类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/event/system-event.js:50](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/system-event.js#L50) |
+| 定义于 | [cocos2d/core/event/system-event.js:50](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/system-event.js#L50) |
 
 
 
@@ -56,7 +56,7 @@ SystemEvent 支持的事件类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/event/system-event.js:58](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/system-event.js#L58) |
+| 定义于 | [cocos2d/core/event/system-event.js:58](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/system-event.js#L58) |
 
 
 

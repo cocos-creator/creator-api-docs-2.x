@@ -148,7 +148,7 @@ window.apimeta = {
       "name": "Material.BUILTIN_NAME",
       "namespace": "cc.Material.BUILTIN_NAME",
       "module": "cc",
-      "description": ""
+      "description": "内置材质名字"
     },
     {
       "name": "MeshRenderer.ShadowCastingMode",

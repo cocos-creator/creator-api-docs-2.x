@@ -45,7 +45,7 @@ Physical systems manager.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:46](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-manager.ts#L46) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:46](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-manager.ts#L46) |
 
 
 
@@ -56,7 +56,7 @@ Physical systems manager.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:60](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-manager.ts#L60) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:60](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-manager.ts#L60) |
 
 
 
@@ -67,7 +67,7 @@ Physical systems manager.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:77](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-manager.ts#L77) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:77](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-manager.ts#L77) |
 
 
 
@@ -78,7 +78,7 @@ Physical systems manager.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:91](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-manager.ts#L91) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:91](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-manager.ts#L91) |
 
 
 
@@ -89,7 +89,7 @@ Physical systems manager.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:105](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-manager.ts#L105) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:105](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-manager.ts#L105) |
 
 
 
@@ -100,7 +100,7 @@ Physical systems manager.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:119](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-manager.ts#L119) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:119](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-manager.ts#L119) |
 
 
 
@@ -111,7 +111,7 @@ Physical systems manager.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/PhysicsMaterial.html" class="crosslink">PhysicsMaterial</a> &#124; Null |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:136](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-manager.ts#L136) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:136](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-manager.ts#L136) |
 
 
 
@@ -128,7 +128,7 @@ A physical system simulation is performed once and will now be performed automat
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:196](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-manager.ts#L196) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:196](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-manager.ts#L196) |
 
 ###### Parameters
 - `deltaTime` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The time difference from the last execution is currently elapsed per frame
@@ -141,7 +141,7 @@ Detect all collision boxes and return all detected results, or null if none is d
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/PhysicsRayResult.html" class="crosslink">PhysicsRayResult[]</a> &#124; Null 
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:223](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-manager.ts#L223) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:223](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-manager.ts#L223) |
 
 ###### Parameters
 - `worldRay` Ray A ray in world space
@@ -157,7 +157,7 @@ Detect all collision boxes and return the detection result with the shortest ray
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/PhysicsRayResult.html" class="crosslink">PhysicsRayResult</a> &#124; Null 
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:250](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-manager.ts#L250) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:250](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-manager.ts#L250) |
 
 ###### Parameters
 - `worldRay` Ray A ray in world space

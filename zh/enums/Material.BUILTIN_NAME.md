@@ -6,7 +6,7 @@
 父模块: [cc](../modules/cc.md)
 
 
-
+内置材质名字
 
 
 ### 索引
@@ -24,7 +24,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/assets/material/CCMaterial.js:135](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/assets/material/CCMaterial.js#L135) |
+| 定义于 | [cocos2d/core/assets/material/CCMaterial.js:42](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/assets/material/CCMaterial.js#L42) |
 
 
 
@@ -35,7 +35,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/assets/material/CCMaterial.js:141](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/assets/material/CCMaterial.js#L141) |
+| 定义于 | [cocos2d/core/assets/material/CCMaterial.js:48](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/assets/material/CCMaterial.js#L48) |
 
 
 
@@ -46,6 +46,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/assets/material/CCMaterial.js:147](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/assets/material/CCMaterial.js#L147) |
+| 定义于 | [cocos2d/core/assets/material/CCMaterial.js:54](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/assets/material/CCMaterial.js#L54) |
 
 

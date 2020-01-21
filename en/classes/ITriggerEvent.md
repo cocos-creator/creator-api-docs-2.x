@@ -35,7 +35,7 @@ Trigger event
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:39](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-interface.ts#L39) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:39](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-interface.ts#L39) |
 
 
 
@@ -46,7 +46,7 @@ Trigger event
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Collider3D.html" class="crosslink">Collider3D</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:49](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-interface.ts#L49) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:49](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-interface.ts#L49) |
 
 
 
@@ -57,7 +57,7 @@ Trigger event
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Collider3D.html" class="crosslink">Collider3D</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:59](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/framework/physics-interface.ts#L59) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:59](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-interface.ts#L59) |
 
 
 

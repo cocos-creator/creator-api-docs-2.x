@@ -96,7 +96,7 @@ Sets view's target-densitydpi for android mobile browser. it can be set to:     
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:219](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L219) |
+| Defined in | [cocos2d/core/platform/CCView.js:233](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L233) |
 | Deprecated | since v2.0 |
 
 ###### Parameters
@@ -110,7 +110,7 @@ Returns the current target-densitydpi value of cc.view.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:234](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L234) |
+| Defined in | [cocos2d/core/platform/CCView.js:248](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L248) |
 | Deprecated | since v2.0 |
 
 
@@ -122,7 +122,7 @@ Useful only on web.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:243](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L243) |
+| Defined in | [cocos2d/core/platform/CCView.js:257](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L257) |
 
 ###### Parameters
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether enable automatic resize with browser's resize event
@@ -137,7 +137,7 @@ Useful only on web.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:270](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L270) |
+| Defined in | [cocos2d/core/platform/CCView.js:284](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L284) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; Null The callback function
@@ -153,7 +153,7 @@ in native, you need to set the application orientation in native project setting
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:290](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L290) |
+| Defined in | [cocos2d/core/platform/CCView.js:304](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L304) |
 
 ###### Parameters
 - `orientation` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Possible values: cc.macro.ORIENTATION_LANDSCAPE | cc.macro.ORIENTATION_PORTRAIT | cc.macro.ORIENTATION_AUTO
@@ -168,7 +168,7 @@ Only useful on web
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:388](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L388) |
+| Defined in | [cocos2d/core/platform/CCView.js:402](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L402) |
 
 ###### Parameters
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable automatic modification to "viewport" meta
@@ -182,7 +182,7 @@ Only useful on web
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:405](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L405) |
+| Defined in | [cocos2d/core/platform/CCView.js:419](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L419) |
 
 ###### Parameters
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable or disable retina display
@@ -196,7 +196,7 @@ Only useful on web
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:420](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L420) |
+| Defined in | [cocos2d/core/platform/CCView.js:434](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L434) |
 
 
 
@@ -206,7 +206,7 @@ Whether to Enable on anti-alias
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:433](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L433) |
+| Defined in | [cocos2d/core/platform/CCView.js:447](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L447) |
 | Deprecated | cc.view.enableAntiAlias is deprecated now, please use cc.Texture2D.setFilters instead |
 | Available since | v2.3.0 |
 
@@ -221,7 +221,7 @@ Returns whether the current enable on anti-alias
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:470](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L470) |
+| Defined in | [cocos2d/core/platform/CCView.js:484](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L484) |
 
 
 
@@ -233,7 +233,7 @@ Only useful on web
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:479](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L479) |
+| Defined in | [cocos2d/core/platform/CCView.js:493](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L493) |
 
 ###### Parameters
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable or disable auto full screen on mobile devices
@@ -247,7 +247,7 @@ Only useful on web
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:503](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L503) |
+| Defined in | [cocos2d/core/platform/CCView.js:517](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L517) |
 
 
 
@@ -260,7 +260,7 @@ On web, it returns the size of the canvas element.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:540](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L540) |
+| Defined in | [cocos2d/core/platform/CCView.js:554](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L554) |
 
 
 
@@ -273,7 +273,7 @@ On web, it returns the size of the canvas's outer DOM element.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:555](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L555) |
+| Defined in | [cocos2d/core/platform/CCView.js:569](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L569) |
 
 
 
@@ -284,7 +284,7 @@ On web, it sets the size of the canvas's outer DOM element.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:570](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L570) |
+| Defined in | [cocos2d/core/platform/CCView.js:584](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L584) |
 
 ###### Parameters
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -298,7 +298,7 @@ Returns the visible area size of the view port.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:588](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L588) |
+| Defined in | [cocos2d/core/platform/CCView.js:602](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L602) |
 
 
 
@@ -309,7 +309,7 @@ Returns the visible area size of the view port.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:599](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L599) |
+| Defined in | [cocos2d/core/platform/CCView.js:613](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L613) |
 
 
 
@@ -320,7 +320,7 @@ Returns the visible origin of the view port.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:611](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L611) |
+| Defined in | [cocos2d/core/platform/CCView.js:625](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L625) |
 
 
 
@@ -331,7 +331,7 @@ Returns the visible origin of the view port.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:622](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L622) |
+| Defined in | [cocos2d/core/platform/CCView.js:636](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L636) |
 
 
 
@@ -342,7 +342,7 @@ Returns the current resolution policy
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:634](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L634) |
+| Defined in | [cocos2d/core/platform/CCView.js:648](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L648) |
 
 
 
@@ -352,7 +352,7 @@ Sets the current resolution policy
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:646](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L646) |
+| Defined in | [cocos2d/core/platform/CCView.js:660](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L660) |
 
 ###### Parameters
 - `resolutionPolicy` <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -371,7 +371,7 @@ The resolution policy include: <br/>
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:675](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L675) |
+| Defined in | [cocos2d/core/platform/CCView.js:689](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L689) |
 
 ###### Parameters
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution width.
@@ -387,7 +387,7 @@ Default resolution size is the same as 'getFrameSize'.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:756](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L756) |
+| Defined in | [cocos2d/core/platform/CCView.js:770](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L770) |
 
 
 
@@ -405,7 +405,7 @@ This API will do the following:
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:769](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L769) |
+| Defined in | [cocos2d/core/platform/CCView.js:783](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L783) |
 
 ###### Parameters
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution width.
@@ -419,7 +419,7 @@ Sets view port rectangle with points.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:802](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L802) |
+| Defined in | [cocos2d/core/platform/CCView.js:816](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L816) |
 | Deprecated | since v2.0 |
 
 ###### Parameters
@@ -435,7 +435,7 @@ Sets Scissor rectangle with points.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:821](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L821) |
+| Defined in | [cocos2d/core/platform/CCView.js:835](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L835) |
 | Deprecated | since v2.0 |
 
 ###### Parameters
@@ -452,7 +452,7 @@ Returns whether GL_SCISSOR_TEST is enable
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:854](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L854) |
+| Defined in | [cocos2d/core/platform/CCView.js:868](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L868) |
 | Deprecated | since v2.0 |
 
 
@@ -464,7 +464,7 @@ Returns the current scissor rectangle
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:866](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L866) |
+| Defined in | [cocos2d/core/platform/CCView.js:880](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L880) |
 | Deprecated | since v2.0 |
 
 
@@ -476,7 +476,7 @@ Returns the view port rectangle.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:889](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L889) |
+| Defined in | [cocos2d/core/platform/CCView.js:903](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L903) |
 
 
 
@@ -487,7 +487,7 @@ Returns scale factor of the horizontal direction (X axis).
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:900](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L900) |
+| Defined in | [cocos2d/core/platform/CCView.js:914](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L914) |
 
 
 
@@ -498,7 +498,7 @@ Returns scale factor of the vertical direction (Y axis).
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:911](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L911) |
+| Defined in | [cocos2d/core/platform/CCView.js:925](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L925) |
 
 
 
@@ -509,7 +509,7 @@ Returns device pixel ratio for retina display.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:922](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L922) |
+| Defined in | [cocos2d/core/platform/CCView.js:936](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L936) |
 
 
 
@@ -520,7 +520,7 @@ Returns the real location in view for a translation based on a related position
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:933](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L933) |
+| Defined in | [cocos2d/core/platform/CCView.js:947](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L947) |
 
 ###### Parameters
 - `tx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The X axis translation
@@ -535,7 +535,7 @@ Checks whether the EventTarget object has any callback registered for a specific
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L69) |
+| Defined in | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L69) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -549,7 +549,7 @@ This type of event should be triggered via `emit`.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L77) |
+| Defined in | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L77) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -577,7 +577,7 @@ if only type is passed as parameter, all listeners registered with that type wil
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:119](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L119) |
+| Defined in | [cocos2d/core/event/event-target.js:119](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L119) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -606,7 +606,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L163) |
+| Defined in | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L163) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -619,7 +619,7 @@ the callback will remove itself after the first time it is triggered.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:182](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L182) |
+| Defined in | [cocos2d/core/event/event-target.js:182](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L182) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -646,7 +646,7 @@ Send an event with the event object.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:208](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L208) |
+| Defined in | [cocos2d/core/event/event-target.js:208](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L208) |
 
 ###### Parameters
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  
@@ -658,7 +658,7 @@ Removes all callbacks registered in a certain event type or all callbacks regist
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/callbacks-invoker.js:235](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/callbacks-invoker.js#L235) |
+| Defined in | [cocos2d/core/platform/callbacks-invoker.js:235](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/callbacks-invoker.js#L235) |
 
 ###### Parameters
 - `keyOrTarget` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The event key to be removed or the target to be removed
@@ -670,7 +670,7 @@ Trigger an event directly with the event name and necessary arguments.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/callbacks-invoker.js:309](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/callbacks-invoker.js#L309) |
+| Defined in | [cocos2d/core/platform/callbacks-invoker.js:309](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/callbacks-invoker.js#L309) |
 
 ###### Parameters
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type

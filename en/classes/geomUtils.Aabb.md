@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Aabb
@@ -44,7 +45,7 @@ Aabb
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/aabb.ts:124](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/aabb.ts#L124) |
+| Defined in | [cocos2d/core/geom-utils/aabb.ts:124](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/aabb.ts#L124) |
 
 
 
@@ -55,7 +56,7 @@ Aabb
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/aabb.ts:128](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/aabb.ts#L128) |
+| Defined in | [cocos2d/core/geom-utils/aabb.ts:128](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/aabb.ts#L128) |
 
 
 
@@ -66,7 +67,7 @@ Aabb
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/geom-utils/aabb.ts:132](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/aabb.ts#L132) |
+| Defined in | [cocos2d/core/geom-utils/aabb.ts:132](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/aabb.ts#L132) |
 
 
 
@@ -84,7 +85,7 @@ create a new aabb
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> 
-| Defined in | [cocos2d/core/geom-utils/aabb.ts:52](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/aabb.ts#L52) |
+| Defined in | [cocos2d/core/geom-utils/aabb.ts:52](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/aabb.ts#L52) |
 
 ###### Parameters
 - `px` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> X coordinates for aabb's original point
@@ -102,7 +103,7 @@ clone a new aabb
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> 
-| Defined in | [cocos2d/core/geom-utils/aabb.ts:67](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/aabb.ts#L67) |
+| Defined in | [cocos2d/core/geom-utils/aabb.ts:67](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/aabb.ts#L67) |
 
 ###### Parameters
 - `a` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> the source aabb
@@ -115,7 +116,7 @@ copy the values from one aabb to another
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> 
-| Defined in | [cocos2d/core/geom-utils/aabb.ts:78](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/aabb.ts#L78) |
+| Defined in | [cocos2d/core/geom-utils/aabb.ts:78](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/aabb.ts#L78) |
 
 ###### Parameters
 - `out` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> the receiving aabb
@@ -129,7 +130,7 @@ create a new aabb from two corner points
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> 
-| Defined in | [cocos2d/core/geom-utils/aabb.ts:92](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/aabb.ts#L92) |
+| Defined in | [cocos2d/core/geom-utils/aabb.ts:92](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/aabb.ts#L92) |
 
 ###### Parameters
 - `out` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> the receiving aabb
@@ -144,7 +145,7 @@ Set the components of a aabb to the given values
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> 
-| Defined in | [cocos2d/core/geom-utils/aabb.ts:106](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/aabb.ts#L106) |
+| Defined in | [cocos2d/core/geom-utils/aabb.ts:106](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/aabb.ts#L106) |
 
 ###### Parameters
 - `out` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> the receiving aabb
@@ -162,7 +163,7 @@ Get the bounding points of this shape
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/aabb.ts:144](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/aabb.ts#L144) |
+| Defined in | [cocos2d/core/geom-utils/aabb.ts:144](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/aabb.ts#L144) |
 
 ###### Parameters
 - `minPos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -175,7 +176,7 @@ Transform this shape
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/aabb.ts:155](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/aabb.ts#L155) |
+| Defined in | [cocos2d/core/geom-utils/aabb.ts:155](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/aabb.ts#L155) |
 
 ###### Parameters
 - `m` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the transform matrix

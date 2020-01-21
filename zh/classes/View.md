@@ -91,7 +91,7 @@ the standard way to use it is by calling:<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:219](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L219) |
+| 定义于 | [cocos2d/core/platform/CCView.js:233](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L233) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -105,7 +105,7 @@ the standard way to use it is by calling:<br/>
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:234](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L234) |
+| 定义于 | [cocos2d/core/platform/CCView.js:248](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L248) |
 | 废弃（Deprecated） | since v2.0 |
 
 
@@ -117,7 +117,7 @@ the standard way to use it is by calling:<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:243](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L243) |
+| 定义于 | [cocos2d/core/platform/CCView.js:257](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L257) |
 
 ###### 参数列表
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether enable automatic resize with browser's resize event
@@ -132,7 +132,7 @@ the standard way to use it is by calling:<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:270](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L270) |
+| 定义于 | [cocos2d/core/platform/CCView.js:284](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L284) |
 
 ###### 参数列表
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; Null The callback function
@@ -147,7 +147,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:290](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L290) |
+| 定义于 | [cocos2d/core/platform/CCView.js:304](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L304) |
 
 ###### 参数列表
 - `orientation` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Possible values: cc.macro.ORIENTATION_LANDSCAPE | cc.macro.ORIENTATION_PORTRAIT | cc.macro.ORIENTATION_AUTO
@@ -162,7 +162,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:388](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L388) |
+| 定义于 | [cocos2d/core/platform/CCView.js:402](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L402) |
 
 ###### 参数列表
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable automatic modification to "viewport" meta
@@ -176,7 +176,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:405](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L405) |
+| 定义于 | [cocos2d/core/platform/CCView.js:419](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L419) |
 
 ###### 参数列表
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable or disable retina display
@@ -190,7 +190,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:420](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L420) |
+| 定义于 | [cocos2d/core/platform/CCView.js:434](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L434) |
 
 
 
@@ -200,7 +200,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:433](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L433) |
+| 定义于 | [cocos2d/core/platform/CCView.js:447](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L447) |
 | 废弃（Deprecated） | cc.view.enableAntiAlias is deprecated now, please use cc.Texture2D.setFilters instead |
 | 添加于 | v2.3.0 |
 
@@ -215,7 +215,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:470](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L470) |
+| 定义于 | [cocos2d/core/platform/CCView.js:484](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L484) |
 
 
 
@@ -226,7 +226,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:479](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L479) |
+| 定义于 | [cocos2d/core/platform/CCView.js:493](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L493) |
 
 ###### 参数列表
 - `enabled` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Enable or disable auto full screen on mobile devices
@@ -240,7 +240,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:503](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L503) |
+| 定义于 | [cocos2d/core/platform/CCView.js:517](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L517) |
 
 
 
@@ -253,7 +253,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:540](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L540) |
+| 定义于 | [cocos2d/core/platform/CCView.js:554](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L554) |
 
 
 
@@ -266,7 +266,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:555](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L555) |
+| 定义于 | [cocos2d/core/platform/CCView.js:569](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L569) |
 
 
 
@@ -277,7 +277,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:570](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L570) |
+| 定义于 | [cocos2d/core/platform/CCView.js:584](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L584) |
 
 ###### 参数列表
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -291,7 +291,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:588](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L588) |
+| 定义于 | [cocos2d/core/platform/CCView.js:602](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L602) |
 
 
 
@@ -302,7 +302,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:599](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L599) |
+| 定义于 | [cocos2d/core/platform/CCView.js:613](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L613) |
 
 
 
@@ -313,7 +313,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:611](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L611) |
+| 定义于 | [cocos2d/core/platform/CCView.js:625](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L625) |
 
 
 
@@ -324,7 +324,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:622](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L622) |
+| 定义于 | [cocos2d/core/platform/CCView.js:636](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L636) |
 
 
 
@@ -335,7 +335,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:634](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L634) |
+| 定义于 | [cocos2d/core/platform/CCView.js:648](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L648) |
 
 
 
@@ -345,7 +345,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:646](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L646) |
+| 定义于 | [cocos2d/core/platform/CCView.js:660](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L660) |
 
 ###### 参数列表
 - `resolutionPolicy` <a href="../classes/ResolutionPolicy.html" class="crosslink">ResolutionPolicy</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -357,7 +357,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:675](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L675) |
+| 定义于 | [cocos2d/core/platform/CCView.js:689](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L689) |
 
 ###### 参数列表
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution width.
@@ -373,7 +373,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:756](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L756) |
+| 定义于 | [cocos2d/core/platform/CCView.js:770](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L770) |
 
 
 
@@ -383,7 +383,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:769](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L769) |
+| 定义于 | [cocos2d/core/platform/CCView.js:783](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L783) |
 
 ###### 参数列表
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Design resolution width.
@@ -397,7 +397,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:802](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L802) |
+| 定义于 | [cocos2d/core/platform/CCView.js:816](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L816) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -413,7 +413,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:821](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L821) |
+| 定义于 | [cocos2d/core/platform/CCView.js:835](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L835) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -430,7 +430,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:854](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L854) |
+| 定义于 | [cocos2d/core/platform/CCView.js:868](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L868) |
 | 废弃（Deprecated） | since v2.0 |
 
 
@@ -442,7 +442,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:866](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L866) |
+| 定义于 | [cocos2d/core/platform/CCView.js:880](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L880) |
 | 废弃（Deprecated） | since v2.0 |
 
 
@@ -454,7 +454,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:889](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L889) |
+| 定义于 | [cocos2d/core/platform/CCView.js:903](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L903) |
 
 
 
@@ -465,7 +465,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:900](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L900) |
+| 定义于 | [cocos2d/core/platform/CCView.js:914](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L914) |
 
 
 
@@ -476,7 +476,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:911](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L911) |
+| 定义于 | [cocos2d/core/platform/CCView.js:925](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L925) |
 
 
 
@@ -487,7 +487,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:922](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L922) |
+| 定义于 | [cocos2d/core/platform/CCView.js:936](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L936) |
 
 
 
@@ -498,7 +498,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:933](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/CCView.js#L933) |
+| 定义于 | [cocos2d/core/platform/CCView.js:947](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/CCView.js#L947) |
 
 ###### 参数列表
 - `tx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The X axis translation
@@ -513,7 +513,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L69) |
+| 定义于 | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L69) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -526,7 +526,7 @@ cc.view 会自动用 CSS 旋转游戏场景的 canvas，
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L77) |
+| 定义于 | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L77) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -553,7 +553,7 @@ eventTarget.on('fire', function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:119](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L119) |
+| 定义于 | [cocos2d/core/event/event-target.js:119](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L119) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -581,7 +581,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L163) |
+| 定义于 | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L163) |
 
 ###### 参数列表
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -593,7 +593,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:182](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L182) |
+| 定义于 | [cocos2d/core/event/event-target.js:182](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L182) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -620,7 +620,7 @@ eventTarget.once('fire', function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:208](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/event/event-target.js#L208) |
+| 定义于 | [cocos2d/core/event/event-target.js:208](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/event/event-target.js#L208) |
 
 ###### 参数列表
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  
@@ -632,7 +632,7 @@ eventTarget.once('fire', function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:235](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/callbacks-invoker.js#L235) |
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:235](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/callbacks-invoker.js#L235) |
 
 ###### 参数列表
 - `keyOrTarget` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The event key to be removed or the target to be removed
@@ -644,7 +644,7 @@ eventTarget.once('fire', function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:309](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/platform/callbacks-invoker.js#L309) |
+| 定义于 | [cocos2d/core/platform/callbacks-invoker.js:309](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/platform/callbacks-invoker.js#L309) |
 
 ###### 参数列表
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type

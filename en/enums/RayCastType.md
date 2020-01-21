@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Enum for RayCastType.
@@ -25,7 +24,7 @@ Enum for RayCastType.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:84](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/physics/CCPhysicsTypes.js#L84) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:84](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/physics/CCPhysicsTypes.js#L84) |
 
 
 
@@ -37,7 +36,7 @@ Once detects a collider, will stop the searching process.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:92](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/physics/CCPhysicsTypes.js#L92) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:92](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/physics/CCPhysicsTypes.js#L92) |
 
 
 
@@ -50,7 +49,7 @@ one fixture will return one point, the point may inside collider), AllClosest wi
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:102](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/physics/CCPhysicsTypes.js#L102) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:102](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/physics/CCPhysicsTypes.js#L102) |
 
 
 
@@ -62,6 +61,6 @@ One collider may return several collision points, All will return all these poin
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:114](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/physics/CCPhysicsTypes.js#L114) |
+| Defined in | [cocos2d/core/physics/CCPhysicsTypes.js:114](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/physics/CCPhysicsTypes.js#L114) |
 
 

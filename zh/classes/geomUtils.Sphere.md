@@ -46,7 +46,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:126](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L126) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:126](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L126) |
 
 
 
@@ -57,7 +57,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:135](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L135) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:135](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L135) |
 
 
 
@@ -75,7 +75,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Sphere 
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:43](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L43) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:43](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L43) |
 
 ###### 参数列表
 - `cx` Unknown X coordinates of the shape relative to the origin.
@@ -91,7 +91,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Sphere 
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:59](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L59) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:59](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L59) |
 
 ###### 参数列表
 - `p` Sphere The target of cloning.
@@ -104,7 +104,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Sphere 
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:72](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L72) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:72](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L72) |
 
 ###### 参数列表
 - `out` Sphere Accept the sphere of operations.
@@ -118,7 +118,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Sphere 
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:89](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L89) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:89](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L89) |
 
 ###### 参数列表
 - `out` Unknown Accept the sphere of operations.
@@ -133,7 +133,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Sphere 
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:106](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L106) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:106](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L106) |
 
 ###### 参数列表
 - `out` Sphere Accept the sphere of operations.
@@ -149,7 +149,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:161](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L161) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:161](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L161) |
 
 
 
@@ -159,7 +159,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:172](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L172) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:172](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L172) |
 
 ###### 参数列表
 - `a` Unknown Copy target.
@@ -171,7 +171,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:184](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L184) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:184](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L184) |
 
 ###### 参数列表
 - `minPos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -184,7 +184,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:198](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L198) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:198](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L198) |
 
 ###### 参数列表
 - `m` Unknown The transformation matrix.
@@ -200,7 +200,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/sphere.ts:227](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/sphere.ts#L227) |
+| 定义于 | [cocos2d/core/geom-utils/sphere.ts:227](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/sphere.ts#L227) |
 
 ###### 参数列表
 - `scale` Unknown Scale value

@@ -4,6 +4,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 表示 4*4 矩阵
@@ -102,7 +103,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> |
-| 定义于 | [cocos2d/core/value-types/mat4.ts:62](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L62) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:62](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L62) |
 
 
 
@@ -113,7 +114,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Float64Array &#124; Float32Array |
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1616](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1616) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1616](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1616) |
 
 
 
@@ -130,7 +131,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:69](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L69) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:69](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L69) |
 
 
 
@@ -140,7 +141,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:87](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L87) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:87](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L87) |
 
 
 
@@ -150,7 +151,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:136](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L136) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:136](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L136) |
 
 
 
@@ -160,7 +161,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:165](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L165) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:165](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L165) |
 
 
 
@@ -170,7 +171,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:211](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L211) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:211](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L211) |
 
 
 
@@ -180,7 +181,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:266](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L266) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:266](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L266) |
 
 
 
@@ -190,7 +191,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:298](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L298) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:298](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L298) |
 
 
 
@@ -200,7 +201,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:340](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L340) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:340](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L340) |
 
 
 
@@ -210,7 +211,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:374](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L374) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:374](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L374) |
 
 
 
@@ -220,7 +221,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:400](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L400) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:400](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L400) |
 
 
 
@@ -230,7 +231,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:430](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L430) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:430](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L430) |
 
 ###### 参数列表
 - `rad` Unknown 旋转角度
@@ -243,7 +244,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:494](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L494) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:494](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L494) |
 
 ###### 参数列表
 - `rad` Unknown 旋转角度
@@ -255,7 +256,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:540](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L540) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:540](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L540) |
 
 ###### 参数列表
 - `rad` Unknown 旋转角度
@@ -267,7 +268,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:586](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L586) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:586](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L586) |
 
 ###### 参数列表
 - `rad` Unknown 旋转角度
@@ -279,7 +280,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:634](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L634) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:634](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L634) |
 
 
 
@@ -289,7 +290,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:663](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L663) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:663](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L663) |
 
 
 
@@ -299,7 +300,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:692](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L692) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:692](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L692) |
 
 
 
@@ -309,7 +310,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:738](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L738) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:738](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L738) |
 
 
 
@@ -319,7 +320,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:770](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L770) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:770](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L770) |
 
 
 
@@ -329,7 +330,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:802](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L802) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:802](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L802) |
 
 
 
@@ -339,7 +340,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:834](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L834) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:834](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L834) |
 
 
 
@@ -349,7 +350,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:879](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L879) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:879](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L879) |
 
 
 
@@ -359,7 +360,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:896](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L896) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:896](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L896) |
 
 
 
@@ -369,7 +370,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:924](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L924) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:924](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L924) |
 
 
 
@@ -379,7 +380,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:966](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L966) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:966](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L966) |
 
 
 
@@ -389,7 +390,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:995](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L995) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:995](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L995) |
 
 
 
@@ -399,7 +400,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1043](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1043) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1043](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1043) |
 
 ###### 参数列表
 - `q` Unknown 旋转值
@@ -414,7 +415,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1100](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1100) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1100](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1100) |
 
 
 
@@ -424,7 +425,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1148](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1148) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1148](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1148) |
 
 ###### 参数列表
 - `left` Unknown 左平面距离
@@ -441,7 +442,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1187](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1187) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1187](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1187) |
 
 ###### 参数列表
 - `fovy` Unknown 纵向视角高度
@@ -456,7 +457,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1223](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1223) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1223](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1223) |
 
 ###### 参数列表
 - `left` Unknown 左平面距离
@@ -473,7 +474,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1261](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1261) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1261](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1261) |
 
 ###### 参数列表
 - `eye` Unknown 当前位置
@@ -487,7 +488,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1325](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1325) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1325](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1325) |
 
 
 
@@ -497,7 +498,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1386](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1386) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1386](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1386) |
 
 
 
@@ -507,7 +508,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1415](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1415) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1415](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1415) |
 
 
 
@@ -517,7 +518,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1444](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1444) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1444](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1444) |
 
 
 
@@ -527,7 +528,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1473](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1473) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1473](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1473) |
 
 
 
@@ -537,7 +538,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1502](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1502) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1502](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1502) |
 
 
 
@@ -547,7 +548,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1518](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1518) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1518](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1518) |
 
 
 
@@ -557,7 +558,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1582](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1582) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1582](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1582) |
 
 ###### 参数列表
 - `ofs` Unknown 数组内的起始偏移量
@@ -569,7 +570,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1599](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1599) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1599](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1599) |
 
 ###### 参数列表
 - `ofs` Unknown 数组起始偏移量
@@ -581,7 +582,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1624](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1624) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1624](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1624) |
 
 
 
@@ -592,7 +593,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1669](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1669) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1669](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1669) |
 
 
 
@@ -603,7 +604,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1685](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1685) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1685](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1685) |
 
 ###### 参数列表
 - `srcObj` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
@@ -616,7 +617,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1715](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1715) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1715](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1715) |
 
 ###### 参数列表
 - `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
@@ -630,7 +631,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1726](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1726) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1726](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1726) |
 
 ###### 参数列表
 - `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
@@ -643,7 +644,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1739](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1739) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1739](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1739) |
 
 
 
@@ -654,7 +655,7 @@ Set the matrix to the identity matrix
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1764](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1764) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1764](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1764) |
 
 
 
@@ -665,7 +666,7 @@ Transpose the values of a mat4
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1774](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1774) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1774](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1774) |
 
 ###### 参数列表
 - `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the receiving matrix, you can pass the same matrix to save result to itself, if not provided, a new matrix will be created.
@@ -678,7 +679,7 @@ Inverts a mat4
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1785](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1785) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1785](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1785) |
 
 ###### 参数列表
 - `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the receiving matrix, you can pass the same matrix to save result to itself, if not provided, a new matrix will be created.
@@ -691,7 +692,7 @@ Calculates the adjugate of a mat4
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1796](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1796) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1796](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1796) |
 
 ###### 参数列表
 - `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the receiving matrix, you can pass the same matrix to save result to itself, if not provided, a new matrix will be created.
@@ -704,7 +705,7 @@ Calculates the determinant of a mat4
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1807](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1807) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1807](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1807) |
 
 
 
@@ -715,7 +716,7 @@ Adds two Mat4
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1816](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1816) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1816](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1816) |
 
 ###### 参数列表
 - `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the second operand
@@ -729,7 +730,7 @@ Subtracts the current matrix with another one
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1828](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1828) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1828](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1828) |
 
 ###### 参数列表
 - `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the second operand
@@ -742,7 +743,7 @@ Subtracts the current matrix with another one
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1838](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1838) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1838](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1838) |
 
 ###### 参数列表
 - `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the second operand
@@ -755,7 +756,7 @@ Multiply each element of the matrix by a scalar.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1848](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1848) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1848](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1848) |
 
 ###### 参数列表
 - `number` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> amount to scale the matrix's elements by
@@ -768,7 +769,7 @@ Translate a mat4 by the given vector
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1858](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1858) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1858](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1858) |
 
 ###### 参数列表
 - `v` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> vector to translate by
@@ -782,7 +783,7 @@ Scales the mat4 by the dimensions in the given vec3
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1870](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1870) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1870](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1870) |
 
 ###### 参数列表
 - `v` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> vector to scale by
@@ -796,7 +797,7 @@ Rotates a mat4 by the given angle around the given axis
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1882](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1882) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1882](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1882) |
 
 ###### 参数列表
 - `rad` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the angle to rotate the matrix by
@@ -811,7 +812,7 @@ Returns the translation vector component of a transformation matrix.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1895](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1895) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1895](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1895) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Vector to receive translation component, if not provided, a new vec3 will be created
@@ -824,7 +825,7 @@ Returns the scale factor component of a transformation matrix
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1906](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1906) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1906](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1906) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Vector to receive scale component, if not provided, a new vec3 will be created
@@ -837,7 +838,7 @@ Returns the rotation factor component of a transformation matrix
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1917](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1917) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1917](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1917) |
 
 ###### 参数列表
 - `out` <a href="../classes/Quat.html" class="crosslink">Quat</a> Vector to receive rotation component, if not provided, a new quaternion object will be created
@@ -850,7 +851,7 @@ Restore the matrix values from a quaternion rotation, vector translation and vec
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1928](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1928) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1928](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1928) |
 
 ###### 参数列表
 - `q` <a href="../classes/Quat.html" class="crosslink">Quat</a> Rotation quaternion
@@ -865,7 +866,7 @@ Restore the matrix values from a quaternion rotation
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/value-types/mat4.ts:1941](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/mat4.ts#L1941) |
+| 定义于 | [cocos2d/core/value-types/mat4.ts:1941](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/mat4.ts#L1941) |
 
 ###### 参数列表
 - `q` <a href="../classes/Quat.html" class="crosslink">Quat</a> Rotation quaternion
@@ -879,7 +880,7 @@ Restore the matrix values from a quaternion rotation
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| 定义于 | [cocos2d/core/value-types/value-type.ts:63](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/value-types/value-type.ts#L63) |
+| 定义于 | [cocos2d/core/value-types/value-type.ts:63](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/value-types/value-type.ts#L63) |
 
 ###### 参数列表
 - `to` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value

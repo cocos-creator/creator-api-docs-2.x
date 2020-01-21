@@ -33,7 +33,7 @@ Sphere shape interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:75](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L75) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:75](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L75) |
 
 
 

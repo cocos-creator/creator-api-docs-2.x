@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 plane。
@@ -44,7 +45,7 @@ plane。
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/plane.ts:173](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/plane.ts#L173) |
+| Defined in | [cocos2d/core/geom-utils/plane.ts:173](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/plane.ts#L173) |
 
 
 
@@ -55,7 +56,7 @@ plane。
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/geom-utils/plane.ts:182](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/plane.ts#L182) |
+| Defined in | [cocos2d/core/geom-utils/plane.ts:182](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/plane.ts#L182) |
 
 
 
@@ -73,7 +74,7 @@ create a new plane
 | meta | description |
 |------|-------------|
 | Returns | Unknown 
-| Defined in | [cocos2d/core/geom-utils/plane.ts:46](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/plane.ts#L46) |
+| Defined in | [cocos2d/core/geom-utils/plane.ts:46](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/plane.ts#L46) |
 
 ###### Parameters
 - `nx` Unknown The x part of the normal component.
@@ -89,7 +90,7 @@ clone a new plane
 | meta | description |
 |------|-------------|
 | Returns | Unknown 
-| Defined in | [cocos2d/core/geom-utils/plane.ts:62](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/plane.ts#L62) |
+| Defined in | [cocos2d/core/geom-utils/plane.ts:62](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/plane.ts#L62) |
 
 ###### Parameters
 - `p` Unknown The source of cloning.
@@ -102,7 +103,7 @@ copy the values from one plane to another
 | meta | description |
 |------|-------------|
 | Returns | Unknown 
-| Defined in | [cocos2d/core/geom-utils/plane.ts:75](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/plane.ts#L75) |
+| Defined in | [cocos2d/core/geom-utils/plane.ts:75](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/plane.ts#L75) |
 
 ###### Parameters
 - `out` Unknown The object that accepts the action.
@@ -116,7 +117,7 @@ create a plane from three points
 | meta | description |
 |------|-------------|
 | Returns | Unknown 
-| Defined in | [cocos2d/core/geom-utils/plane.ts:92](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/plane.ts#L92) |
+| Defined in | [cocos2d/core/geom-utils/plane.ts:92](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/plane.ts#L92) |
 
 ###### Parameters
 - `out` Unknown The object that accepts the action.
@@ -132,7 +133,7 @@ Set the components of a plane to the given values
 | meta | description |
 |------|-------------|
 | Returns | Unknown 
-| Defined in | [cocos2d/core/geom-utils/plane.ts:114](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/plane.ts#L114) |
+| Defined in | [cocos2d/core/geom-utils/plane.ts:114](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/plane.ts#L114) |
 
 ###### Parameters
 - `out` Unknown The object that accepts the action.
@@ -149,7 +150,7 @@ create plane from normal and point
 | meta | description |
 |------|-------------|
 | Returns | Unknown 
-| Defined in | [cocos2d/core/geom-utils/plane.ts:136](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/plane.ts#L136) |
+| Defined in | [cocos2d/core/geom-utils/plane.ts:136](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/plane.ts#L136) |
 
 ###### Parameters
 - `out` Unknown The object that accepts the action.
@@ -164,7 +165,7 @@ normalize a plane
 | meta | description |
 |------|-------------|
 | Returns | Unknown 
-| Defined in | [cocos2d/core/geom-utils/plane.ts:154](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/plane.ts#L154) |
+| Defined in | [cocos2d/core/geom-utils/plane.ts:154](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/plane.ts#L154) |
 
 ###### Parameters
 - `out` Unknown The object that accepts the action.
@@ -177,7 +178,7 @@ Transform a plane.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/plane.ts:208](https://github.com/cocos-creator/engine/blob/d0482bb5bc3819110e43cdd03a3459bd80914b74/cocos2d/core/geom-utils/plane.ts#L208) |
+| Defined in | [cocos2d/core/geom-utils/plane.ts:208](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/plane.ts#L208) |
 
 ###### Parameters
 - `mat` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
