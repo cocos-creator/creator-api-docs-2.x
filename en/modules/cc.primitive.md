@@ -46,7 +46,7 @@ Create box vertex data
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| Defined in | [cocos2d/core/3d/primitive/index.ts:24](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/primitive/index.ts#L24) |
+| Defined in | [cocos2d/core/3d/primitive/index.ts:24](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L24) |
 
 ###### Parameters
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -65,7 +65,7 @@ Create cone vertex data
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| Defined in | [cocos2d/core/3d/primitive/index.ts:39](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/primitive/index.ts#L39) |
+| Defined in | [cocos2d/core/3d/primitive/index.ts:39](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L39) |
 
 ###### Parameters
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -84,7 +84,7 @@ Create cylinder vertex data
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| Defined in | [cocos2d/core/3d/primitive/index.ts:54](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/primitive/index.ts#L54) |
+| Defined in | [cocos2d/core/3d/primitive/index.ts:54](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L54) |
 
 ###### Parameters
 - `radiusTop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -104,7 +104,7 @@ Create plane vertex data
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| Defined in | [cocos2d/core/3d/primitive/index.ts:70](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/primitive/index.ts#L70) |
+| Defined in | [cocos2d/core/3d/primitive/index.ts:70](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L70) |
 
 ###### Parameters
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -121,7 +121,7 @@ Create quad vertex data
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| Defined in | [cocos2d/core/3d/primitive/index.ts:83](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/primitive/index.ts#L83) |
+| Defined in | [cocos2d/core/3d/primitive/index.ts:83](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L83) |
 
 
 
@@ -132,7 +132,7 @@ Create sphere vertex data
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| Defined in | [cocos2d/core/3d/primitive/index.ts:91](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/primitive/index.ts#L91) |
+| Defined in | [cocos2d/core/3d/primitive/index.ts:91](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L91) |
 
 ###### Parameters
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -147,7 +147,7 @@ Create torus vertex data
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| Defined in | [cocos2d/core/3d/primitive/index.ts:102](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/primitive/index.ts#L102) |
+| Defined in | [cocos2d/core/3d/primitive/index.ts:102](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L102) |
 
 ###### Parameters
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -165,7 +165,7 @@ Create capsule vertex data
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| Defined in | [cocos2d/core/3d/primitive/index.ts:116](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/primitive/index.ts#L116) |
+| Defined in | [cocos2d/core/3d/primitive/index.ts:116](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L116) |
 
 ###### Parameters
 - `radiusTop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -185,7 +185,7 @@ Create polyhedron vertex data
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| Defined in | [cocos2d/core/3d/primitive/index.ts:132](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/primitive/index.ts#L132) |
+| Defined in | [cocos2d/core/3d/primitive/index.ts:132](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L132) |
 
 ###### Parameters
 - `type` <a href="../enums/primitive.PolyhedronType.html" class="crosslink">primitive.PolyhedronType</a> 

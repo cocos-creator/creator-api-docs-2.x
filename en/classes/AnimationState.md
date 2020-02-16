@@ -59,7 +59,7 @@ In most cases the Animation Component is sufficient and easier to use. Use the A
 | meta | description |
 |------|-------------|
 | Type | AnimationAnimator |
-| Defined in | [cocos2d/animation/animation-state.js:73](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L73) |
+| Defined in | [cocos2d/animation/animation-state.js:73](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L73) |
 
 
 
@@ -70,7 +70,7 @@ In most cases the Animation Component is sufficient and easier to use. Use the A
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> |
-| Defined in | [cocos2d/animation/animation-state.js:80](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L80) |
+| Defined in | [cocos2d/animation/animation-state.js:80](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L80) |
 
 
 
@@ -82,7 +82,7 @@ the active interval.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/animation-state.js:90](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L90) |
+| Defined in | [cocos2d/animation/animation-state.js:90](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L90) |
 
 
 
@@ -99,7 +99,7 @@ calculations.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/animation-state.js:101](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L101) |
+| Defined in | [cocos2d/animation/animation-state.js:101](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L101) |
 
 
 
@@ -110,7 +110,7 @@ calculations.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/animation-state.js:118](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L118) |
+| Defined in | [cocos2d/animation/animation-state.js:118](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L118) |
 
 
 
@@ -121,7 +121,7 @@ calculations.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/animation-state.js:128](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L128) |
+| Defined in | [cocos2d/animation/animation-state.js:128](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L128) |
 
 
 
@@ -133,7 +133,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/WrapMode.html" class="crosslink">WrapMode</a> |
-| Defined in | [cocos2d/animation/animation-state.js:137](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L137) |
+| Defined in | [cocos2d/animation/animation-state.js:137](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L137) |
 
 
 
@@ -144,7 +144,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/animation/animation-state.js:151](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L151) |
+| Defined in | [cocos2d/animation/animation-state.js:151](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L151) |
 
 
 
@@ -155,7 +155,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> |
-| Defined in | [cocos2d/animation/animation-state.js:442](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L442) |
+| Defined in | [cocos2d/animation/animation-state.js:442](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L442) |
 
 
 
@@ -166,7 +166,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/animation/animation-state.js:453](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L453) |
+| Defined in | [cocos2d/animation/animation-state.js:453](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L453) |
 
 
 
@@ -177,7 +177,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/animation/playable.js:44](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L44) |
+| Defined in | [cocos2d/animation/playable.js:44](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L44) |
 
 
 
@@ -188,7 +188,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/animation/playable.js:56](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L56) |
+| Defined in | [cocos2d/animation/playable.js:56](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L56) |
 
 
 
@@ -205,7 +205,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/animation-state.js:50](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/animation-state.js#L50) |
+| Defined in | [cocos2d/animation/animation-state.js:50](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/animation-state.js#L50) |
 
 ###### Parameters
 - `clip` <a href="../classes/AnimationClip.html" class="crosslink">AnimationClip</a> 
@@ -218,7 +218,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:71](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L71) |
+| Defined in | [cocos2d/animation/playable.js:71](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L71) |
 
 
 
@@ -228,7 +228,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:76](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L76) |
+| Defined in | [cocos2d/animation/playable.js:76](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L76) |
 
 
 
@@ -238,7 +238,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:81](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L81) |
+| Defined in | [cocos2d/animation/playable.js:81](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L81) |
 
 
 
@@ -248,7 +248,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:86](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L86) |
+| Defined in | [cocos2d/animation/playable.js:86](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L86) |
 
 
 
@@ -258,7 +258,7 @@ Notice : dynamic change wrapMode will reset time and repeatCount property
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:91](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L91) |
+| Defined in | [cocos2d/animation/playable.js:91](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L91) |
 
 ###### Parameters
 - `errorCode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -270,7 +270,7 @@ Play this animation.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:100](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L100) |
+| Defined in | [cocos2d/animation/playable.js:100](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L100) |
 
 
 
@@ -280,7 +280,7 @@ Stop this animation.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:121](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L121) |
+| Defined in | [cocos2d/animation/playable.js:121](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L121) |
 
 
 
@@ -290,7 +290,7 @@ Pause this animation.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:136](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L136) |
+| Defined in | [cocos2d/animation/playable.js:136](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L136) |
 
 
 
@@ -300,7 +300,7 @@ Resume this animation.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:148](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L148) |
+| Defined in | [cocos2d/animation/playable.js:148](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L148) |
 
 
 
@@ -310,7 +310,7 @@ Perform a single frame step.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/animation/playable.js:160](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/animation/playable.js#L160) |
+| Defined in | [cocos2d/animation/playable.js:160](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/animation/playable.js#L160) |
 
 
 

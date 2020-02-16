@@ -47,7 +47,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:53](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L53) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:53](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L53) |
 
 
 
@@ -58,7 +58,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:185](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L185) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:185](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L185) |
 
 
 
@@ -69,7 +69,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:194](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L194) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:194](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L194) |
 
 
 
@@ -80,7 +80,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Mat3 |
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:203](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L203) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:203](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L203) |
 
 
 
@@ -98,7 +98,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:63](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L63) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:63](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L63) |
 
 ###### 参数列表
 - `cx` Unknown X coordinates of the shape relative to the origin.
@@ -125,7 +125,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:95](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L95) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:95](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L95) |
 
 ###### 参数列表
 - `a` Unknown The target of cloning.
@@ -138,7 +138,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Obb 
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:113](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L113) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:113](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L113) |
 
 ###### 参数列表
 - `out` Obb Obb that accepts the operation.
@@ -152,7 +152,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Obb 
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:131](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L131) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:131](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L131) |
 
 ###### 参数列表
 - `out` Unknown Obb that accepts the operation.
@@ -167,7 +167,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Obb 
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:149](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L149) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:149](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L149) |
 
 ###### 参数列表
 - `cx` Unknown X coordinates of the shape relative to the origin.
@@ -193,7 +193,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:225](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L225) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:225](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L225) |
 
 ###### 参数列表
 - `minPos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -206,7 +206,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:240](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L240) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:240](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L240) |
 
 ###### 参数列表
 - `m` Unknown The transformation matrix.
@@ -222,7 +222,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:258](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L258) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:258](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L258) |
 
 ###### 参数列表
 - `m` Unknown The transformation matrix.
@@ -236,7 +236,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/obb.ts:274](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/obb.ts#L274) |
+| 定义于 | [cocos2d/core/geom-utils/obb.ts:274](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L274) |
 
 ###### 参数列表
 - `scale` Unknown Scale value.

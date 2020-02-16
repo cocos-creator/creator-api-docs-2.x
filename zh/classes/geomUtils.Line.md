@@ -43,7 +43,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/line.ts:147](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/line.ts#L147) |
+| 定义于 | [cocos2d/core/geom-utils/line.ts:147](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/line.ts#L147) |
 
 
 
@@ -54,7 +54,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/line.ts:156](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/line.ts#L156) |
+| 定义于 | [cocos2d/core/geom-utils/line.ts:156](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/line.ts#L156) |
 
 
 
@@ -72,7 +72,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/line.ts:40](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/line.ts#L40) |
+| 定义于 | [cocos2d/core/geom-utils/line.ts:40](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/line.ts#L40) |
 
 ###### 参数列表
 - `sx` Unknown The x part of the starting point.
@@ -90,7 +90,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/line.ts:58](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/line.ts#L58) |
+| 定义于 | [cocos2d/core/geom-utils/line.ts:58](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/line.ts#L58) |
 
 ###### 参数列表
 - `a` Unknown The source of cloning.
@@ -103,7 +103,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/line.ts:74](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/line.ts#L74) |
+| 定义于 | [cocos2d/core/geom-utils/line.ts:74](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/line.ts#L74) |
 
 ###### 参数列表
 - `out` Unknown The object that accepts the action.
@@ -117,7 +117,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/line.ts:91](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/line.ts#L91) |
+| 定义于 | [cocos2d/core/geom-utils/line.ts:91](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/line.ts#L91) |
 
 ###### 参数列表
 - `out` Unknown The object that accepts the action.
@@ -132,7 +132,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/line.ts:108](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/line.ts#L108) |
+| 定义于 | [cocos2d/core/geom-utils/line.ts:108](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/line.ts#L108) |
 
 ###### 参数列表
 - `out` Unknown The object that accepts the action.
@@ -151,7 +151,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/line.ts:134](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/line.ts#L134) |
+| 定义于 | [cocos2d/core/geom-utils/line.ts:134](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/line.ts#L134) |
 
 ###### 参数列表
 - `a` Unknown The line to calculate.
@@ -164,7 +164,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/line.ts:184](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/geom-utils/line.ts#L184) |
+| 定义于 | [cocos2d/core/geom-utils/line.ts:184](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/line.ts#L184) |
 
 ###### 参数列表
 - `a` Unknown The line to calculate.

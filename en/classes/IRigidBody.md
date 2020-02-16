@@ -60,7 +60,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/RigidBody3D.html" class="crosslink">RigidBody3D</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:37](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L37) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:37](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L37) |
 
 
 
@@ -71,7 +71,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:42](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L42) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:42](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L42) |
 
 
 
@@ -82,7 +82,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:46](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L46) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:46](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L46) |
 
 
 
@@ -93,7 +93,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:50](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L50) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:50](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L50) |
 
 
 
@@ -104,7 +104,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:54](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L54) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:54](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L54) |
 
 
 
@@ -115,7 +115,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:58](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L58) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:58](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L58) |
 
 
 
@@ -126,7 +126,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:62](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L62) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:62](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L62) |
 
 
 
@@ -137,7 +137,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:66](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L66) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:66](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L66) |
 
 
 
@@ -148,7 +148,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:70](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L70) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:70](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L70) |
 
 
 
@@ -159,7 +159,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:74](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L74) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:74](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L74) |
 
 
 
@@ -170,7 +170,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:78](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L78) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:78](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L78) |
 
 
 
@@ -181,7 +181,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:83](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L83) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:83](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L83) |
 
 
 
@@ -192,7 +192,7 @@ Rigid body interface
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:88](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L88) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:88](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L88) |
 
 
 
@@ -209,7 +209,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:94](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L94) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:94](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L94) |
 
 
 
@@ -219,7 +219,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:98](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L98) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:98](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L98) |
 
 
 
@@ -229,7 +229,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:103](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L103) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:103](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L103) |
 
 ###### Parameters
 - `out` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 
@@ -241,7 +241,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:108](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L108) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:108](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L108) |
 
 ###### Parameters
 - `out` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 
@@ -253,7 +253,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:113](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L113) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:113](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L113) |
 
 ###### Parameters
 - `out` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 
@@ -265,7 +265,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:118](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L118) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:118](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L118) |
 
 ###### Parameters
 - `out` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 
@@ -277,7 +277,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:124](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L124) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:124](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L124) |
 
 ###### Parameters
 - `force` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 
@@ -290,7 +290,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:130](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L130) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:130](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L130) |
 
 ###### Parameters
 - `force` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 
@@ -303,7 +303,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:136](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L136) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:136](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L136) |
 
 ###### Parameters
 - `force` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 
@@ -316,7 +316,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:142](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L142) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:142](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L142) |
 
 ###### Parameters
 - `force` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 
@@ -329,7 +329,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:148](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L148) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:148](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L148) |
 
 ###### Parameters
 - `torque` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 
@@ -341,7 +341,7 @@ Rigid body interface
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:153](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L153) |
+| Defined in | [cocos2d/core/3d/physics/spec/I-rigid-body.ts:153](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/I-rigid-body.ts#L153) |
 
 ###### Parameters
 - `torque` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 

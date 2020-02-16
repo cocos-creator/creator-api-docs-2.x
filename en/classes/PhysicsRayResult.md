@@ -40,7 +40,7 @@ Used to store physical ray detection results
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:41](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L41) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:41](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L41) |
 
 
 
@@ -51,7 +51,7 @@ Used to store physical ray detection results
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:53](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L53) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:53](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L53) |
 
 
 
@@ -62,7 +62,7 @@ Used to store physical ray detection results
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Collider3D.html" class="crosslink">Collider3D</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:65](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L65) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:65](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L65) |
 
 
 
@@ -79,7 +79,7 @@ Set up ray. This method is used internally by the engine. Do not call it from an
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:81](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L81) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:81](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L81) |
 
 ###### Parameters
 - `hitPoint` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -93,7 +93,7 @@ Clone
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:97](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L97) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:97](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L97) |
 
 
 

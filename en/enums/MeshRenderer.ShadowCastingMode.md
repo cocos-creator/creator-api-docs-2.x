@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Shadow projection mode
@@ -25,7 +24,7 @@ ch 关闭阴影投射
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/mesh/CCMeshRenderer.js:52](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/mesh/CCMeshRenderer.js#L52) |
+| Defined in | [cocos2d/core/mesh/CCMeshRenderer.js:52](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/mesh/CCMeshRenderer.js#L52) |
 
 
 
@@ -37,6 +36,6 @@ ch 开启阴影投射，当阴影光产生的时候
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/mesh/CCMeshRenderer.js:61](https://github.com/cocos-creator/engine/blob/33d0b730a5a6ed8ad09bd24f16c009cf509ff90b/cocos2d/core/mesh/CCMeshRenderer.js#L61) |
+| Defined in | [cocos2d/core/mesh/CCMeshRenderer.js:61](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/mesh/CCMeshRenderer.js#L61) |
 
 
