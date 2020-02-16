@@ -69,6 +69,10 @@
                     {
                         "name": "2.2",
                         "link": "//docs.cocos.com/creator/2.2/api/zh"
+                    },
+                    {
+                        "name": "2.3",
+                        "link": "//docs.cocos.com/creator/2.3/api/zh"
                     }
                 ]
             }
