@@ -124,7 +124,7 @@ gulp.task('build-md', ['cp-apisrc'], function (cb) {
 gulp.task('build-tsd', ['cp-apisrc'], function (cb) {
 
     const TSD_FOOTER =
-`declare let jsb: any;
+`
 /** Running in the editor. */
 declare const CC_EDITOR: boolean;
 /** Preview in browser or simulator. */
@@ -137,6 +137,8 @@ declare const CC_DEBUG: boolean;
 declare const CC_BUILD: boolean;
 /** Running in native platforms (mobile app, desktop app, or simulator). */
 declare const CC_JSB: boolean;
+/** Running in runtime environments. */
+declare const CC_RUNTIME: boolean;
 /** Running in the engine's unit test. */
 declare const CC_TEST: boolean;
 /** Running in the WeChat Mini Game. */
