@@ -163,7 +163,7 @@ declare const CC_WECHATGAME: boolean;
             console.log(err.stack || err);
         }
         else {
-            // add dragonBones.d.ts
+            // search docs from engine and jsb adapter directory
             let tsDefines = globby.sync([
                 join(engine, '**/*.d.ts'), 
                 join(jsbAdapter, '**/*.d.ts'),
