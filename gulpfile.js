@@ -168,6 +168,7 @@ declare const CC_WECHATGAME: boolean;
             output += fs.readFileSync(join(engine, 'extensions/spine/lib/spine.d.ts')) + '\n';
             // add jsb.d.ts
             output += fs.readFileSync(join(jsbAdapter, 'jsb.d.ts')) + '\n';
+            
             output += TSD_FOOTER;
 
             fs.ensureDirSync(dirname(dest));
