@@ -8,6 +8,7 @@ const gulp = require('gulp');
 const es = require('event-stream');
 const program = require('commander');
 const Fs = require('fs');
+const globby = require('globby');
 
 program
     .option('-o, --only <items>', 'Only build these files, specrated by ","', x => x.split(','))
@@ -162,13 +163,16 @@ declare const CC_WECHATGAME: boolean;
             console.log(err.stack || err);
         }
         else {
-            // add dragonBones.d.ts
-            output += fs.readFileSync(join(engine, 'extensions/dragonbones/lib/dragonBones.d.ts')) + '\n';
-            // add spine.d.ts
-            output += fs.readFileSync(join(engine, 'extensions/spine/lib/spine.d.ts')) + '\n';
-            // add jsb.d.ts
-            output += fs.readFileSync(join(jsbAdapter, 'jsb.d.ts')) + '\n';
-            
+            // search docs from engine and jsb adapter directory
+            let tsDefines = globby.sync([
+                join(engine, '**/*.d.ts'), 
+                join(jsbAdapter, '**/*.d.ts'),
+                '!' + join(engine, 'node_modules/**/*.d.ts'),
+                '!' + join(jsbAdapter, 'node_modules/**/*.d.ts')
+            ]);
+            tsDefines.forEach(d => {
+                output += fs.readFileSync(d) + '\n';
+            })
             output += TSD_FOOTER;
 
             fs.ensureDirSync(dirname(dest));

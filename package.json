@@ -15,6 +15,7 @@
     "gitbook-plugin-sharing": "^1.0.2",
     "gitbook-plugin-splitter": "0.0.8",
     "gitbook-plugin-theme-default-customize": "git+https://github.com/cocos-creator/theme-default.git",
+    "globby": "^11.0.0",
     "gulp": "^3.9.1"
   },
   "scripts": {
