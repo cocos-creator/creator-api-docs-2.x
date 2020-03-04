@@ -2,7 +2,7 @@
 
 
 
-模块: [cc.primitive](../modules/cc.primitive.md)
+模块: [cc](../modules/cc.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -37,7 +37,7 @@ Ray cast, and return information of the closest hit.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-world.ts:59](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/i-physics-world.ts#L59) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-world.ts:59](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-world.ts#L59) |
 
 ###### 参数列表
 - `worldRay` Ray 
@@ -52,7 +52,7 @@ Ray cast against all bodies. The provided callback will be executed for each hit
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-world.ts:69](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/i-physics-world.ts#L69) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-world.ts:69](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-world.ts#L69) |
 
 ###### 参数列表
 - `worldRay` Ray 

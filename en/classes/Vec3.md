@@ -28,6 +28,18 @@ Representation of 3D vectors and points.
 
 ##### Methods
 
+  - [`mag`](#mag) Returns the length of this vector.
+  - [`magSqr`](#magsqr) Returns the squared length of this vector.
+  - [`subSelf`](#subself) Subtracts one vector from this.
+  - [`sub`](#sub) Subtracts one vector from this, and returns the new result.
+  - [`mulSelf`](#mulself) Multiplies this by a number.
+  - [`mul`](#mul) Multiplies by a number, and returns the new result.
+  - [`divSelf`](#divself) Divides by a number.
+  - [`div`](#div) Divides by a number, and returns the new result.
+  - [`scaleSelf`](#scaleself) Multiplies two vectors.
+  - [`scale`](#scale) Multiplies two vectors, and returns the new result.
+  - [`negSelf`](#negself) Negates the components.
+  - [`neg`](#neg) Negates the components, and returns the new result.
   - [`zero`](#zero) The target of an assignment zero vector
   - [`clone`](#clone) Obtaining copy vectors designated
   - [`copy`](#copy) Copy the target vector
@@ -113,7 +125,7 @@ Representation of 3D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/value-types/vec3.ts:81](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L81) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:174](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L174) |
 
 
 
@@ -124,7 +136,7 @@ Representation of 3D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/value-types/vec3.ts:91](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L91) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:184](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L184) |
 
 
 
@@ -135,7 +147,7 @@ Representation of 3D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/value-types/vec3.ts:101](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L101) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:194](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L194) |
 
 
 
@@ -146,7 +158,7 @@ Representation of 3D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/value-types/vec3.ts:111](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L111) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:204](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L204) |
 
 
 
@@ -157,7 +169,7 @@ Representation of 3D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/value-types/vec3.ts:121](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L121) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:214](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L214) |
 
 
 
@@ -168,7 +180,7 @@ Representation of 3D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/vec3.ts:926](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L926) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1019](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1019) |
 
 
 
@@ -179,7 +191,7 @@ Representation of 3D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/vec3.ts:930](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L930) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1023](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1023) |
 
 
 
@@ -190,7 +202,7 @@ Representation of 3D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/vec3.ts:934](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L934) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1027](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1027) |
 
 
 
@@ -201,13 +213,173 @@ Representation of 3D vectors and points.
 #### Methods
 
 
+##### mag
+
+Returns the length of this vector.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:58](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L58) |
+
+
+##### Examples
+
+```js
+var v = cc.v3(10, 10, 10);
+v.mag(); // return 17.320508075688775;
+```
+
+##### magSqr
+
+Returns the squared length of this vector.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:68](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L68) |
+
+
+
+##### subSelf
+
+Subtracts one vector from this. If you want to save result to another vector, use sub() instead.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:75](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L75) |
+
+###### Parameters
+- `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+
+
+##### sub
+
+Subtracts one vector from this, and returns the new result.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:84](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L84) |
+
+###### Parameters
+- `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+- `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> optional, the receiving vector, you can pass the same vec3 to save result to itself, if not provided, a new vec3 will be created
+
+
+##### mulSelf
+
+Multiplies this by a number. If you want to save result to another vector, use mul() instead.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:95](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L95) |
+
+###### Parameters
+- `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+
+
+##### mul
+
+Multiplies by a number, and returns the new result.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:104](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L104) |
+
+###### Parameters
+- `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+- `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> optional, the receiving vector, you can pass the same vec3 to save result to itself, if not provided, a new vec3 will be created
+
+
+##### divSelf
+
+Divides by a number. If you want to save result to another vector, use div() instead.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:115](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L115) |
+
+###### Parameters
+- `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+
+
+##### div
+
+Divides by a number, and returns the new result.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:124](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L124) |
+
+###### Parameters
+- `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
+- `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> optional, the receiving vector, you can pass the same vec3 to save result to itself, if not provided, a new vec3 will be created
+
+
+##### scaleSelf
+
+Multiplies two vectors.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:135](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L135) |
+
+###### Parameters
+- `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+
+
+##### scale
+
+Multiplies two vectors, and returns the new result.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:144](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L144) |
+
+###### Parameters
+- `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+- `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> optional, the receiving vector, you can pass the same vec3 to save result to itself, if not provided, a new vec3 will be created
+
+
+##### negSelf
+
+Negates the components. If you want to save result to another vector, use neg() instead.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:155](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L155) |
+
+
+
+##### neg
+
+Negates the components, and returns the new result.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
+| Defined in | [cocos2d/core/value-types/vec3.ts:163](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L163) |
+
+###### Parameters
+- `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> optional, the receiving vector, you can pass the same vec3 to save result to itself, if not provided, a new vec3 will be created
+
+
 ##### zero
 
 The target of an assignment zero vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:132](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L132) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:225](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L225) |
 
 
 
@@ -217,7 +389,7 @@ Obtaining copy vectors designated
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:147](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L147) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:240](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L240) |
 
 
 
@@ -227,7 +399,7 @@ Copy the target vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:159](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L159) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:252](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L252) |
 
 
 
@@ -237,7 +409,7 @@ Set to value
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:174](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L174) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:267](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L267) |
 
 
 
@@ -247,7 +419,7 @@ Element-wise vector addition
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:189](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L189) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:282](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L282) |
 
 
 
@@ -257,7 +429,7 @@ Element-wise vector subtraction
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:204](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L204) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:297](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L297) |
 
 
 
@@ -267,7 +439,7 @@ Element-wise vector multiplication (product component)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:219](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L219) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:312](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L312) |
 
 
 
@@ -277,7 +449,7 @@ Element-wise vector division
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:234](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L234) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:327](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L327) |
 
 
 
@@ -287,7 +459,7 @@ Rounding up by elements of the vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:249](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L249) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:342](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L342) |
 
 
 
@@ -297,7 +469,7 @@ Element vector by rounding down
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:264](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L264) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:357](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L357) |
 
 
 
@@ -307,7 +479,7 @@ The minimum by-element vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:279](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L279) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:372](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L372) |
 
 
 
@@ -317,7 +489,7 @@ The maximum value of the element-wise vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:294](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L294) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:387](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L387) |
 
 
 
@@ -327,7 +499,7 @@ Element-wise vector of rounding to whole
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:309](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L309) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:402](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L402) |
 
 
 
@@ -337,7 +509,7 @@ Vector scalar multiplication
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:324](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L324) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:417](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L417) |
 
 
 
@@ -347,7 +519,7 @@ Element-wise vector multiply add: A + B * scale
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:339](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L339) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:432](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L432) |
 
 
 
@@ -357,7 +529,7 @@ Seeking two vectors Euclidean distance
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:354](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L354) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:447](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L447) |
 
 
 
@@ -367,7 +539,7 @@ Euclidean distance squared seeking two vectors
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:369](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L369) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:462](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L462) |
 
 
 
@@ -377,7 +549,7 @@ Seeking vector length
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:384](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L384) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:477](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L477) |
 
 
 
@@ -387,7 +559,7 @@ Seeking squared vector length
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:399](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L399) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:492](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L492) |
 
 
 
@@ -397,7 +569,7 @@ By taking the negative elements of the vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:414](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L414) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:507](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L507) |
 
 
 
@@ -407,7 +579,7 @@ Element vector by taking the inverse, return near 0 Infinity
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:429](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L429) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:522](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L522) |
 
 
 
@@ -417,7 +589,7 @@ Element vector by taking the inverse, return near 0 0
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:444](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L444) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:537](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L537) |
 
 
 
@@ -427,7 +599,7 @@ Normalized vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:478](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L478) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:571](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L571) |
 
 
 
@@ -437,7 +609,7 @@ Vector dot product (scalar product)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:501](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L501) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:594](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L594) |
 
 
 
@@ -447,7 +619,7 @@ Vector cross product (vector product)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:513](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L513) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:606](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L606) |
 
 
 
@@ -457,7 +629,7 @@ Vector element by element linear interpolation: A + t * (B - A)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:530](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L530) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:623](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L623) |
 
 
 
@@ -467,7 +639,7 @@ Generates a uniformly distributed random vectors on the unit sphere
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:545](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L545) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:638](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L638) |
 
 ###### Parameters
 - `scale` Unknown 生成的向量长度
@@ -479,7 +651,7 @@ Four-dimensional vector and matrix multiplication, the default vectors fourth on
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:567](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L567) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:660](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L660) |
 
 
 
@@ -489,7 +661,7 @@ Four-dimensional vector and matrix multiplication, vector fourth default is 0.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:588](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L588) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:681](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L681) |
 
 
 
@@ -499,7 +671,7 @@ Dimensional vector matrix multiplication
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:609](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L609) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:702](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L702) |
 
 
 
@@ -509,7 +681,7 @@ Vector quaternion multiplication
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:645](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L645) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:738](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L738) |
 
 
 
@@ -519,7 +691,7 @@ Rotation vector specified angle about the X axis
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:709](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L709) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:802](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L802) |
 
 ###### Parameters
 - `v` Unknown 待旋转向量
@@ -533,7 +705,7 @@ Rotation vector specified angle around the Y axis
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:741](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L741) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:834](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L834) |
 
 ###### Parameters
 - `v` Unknown 待旋转向量
@@ -547,7 +719,7 @@ Around the Z axis specified angle vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:773](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L773) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:866](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L866) |
 
 ###### Parameters
 - `v` Unknown 待旋转向量
@@ -561,7 +733,7 @@ Equivalent vectors Analyzing
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:805](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L805) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:898](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L898) |
 
 
 
@@ -571,7 +743,7 @@ Negative error vector floating point approximately equivalent Analyzing
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:817](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L817) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:910](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L910) |
 
 
 
@@ -581,7 +753,7 @@ Radian angle between two vectors seek
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:838](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L838) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:931](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L931) |
 
 
 
@@ -591,7 +763,7 @@ Calculating a projection vector in the specified plane
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:859](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L859) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:952](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L952) |
 
 ###### Parameters
 - `a` Unknown 待投影向量
@@ -604,7 +776,7 @@ Projection vector calculated in the vector designated
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:873](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L873) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:966](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L966) |
 
 ###### Parameters
 - `a` Unknown 待投影向量
@@ -617,7 +789,7 @@ Vector transfer array
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:892](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L892) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:985](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L985) |
 
 ###### Parameters
 - `ofs` Unknown 数组起始偏移量
@@ -629,7 +801,7 @@ Array steering amount
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:909](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L909) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1002](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1002) |
 
 ###### Parameters
 - `ofs` Unknown 数组起始偏移量
@@ -642,7 +814,7 @@ see Cc/vec3:method
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/vec3.ts:940](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L940) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1033](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1033) |
 
 ###### Parameters
 - `x` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -657,7 +829,7 @@ clone a Vec3 value
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:965](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L965) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1058](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1058) |
 
 
 
@@ -668,7 +840,7 @@ Set the current vector value with the given vector.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:975](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L975) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1068](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1068) |
 
 ###### Parameters
 - `newValue` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> !#en new value to set. !#zh 要设置的新值
@@ -681,7 +853,7 @@ Check whether the vector equals another one
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:990](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L990) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1083](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1083) |
 
 ###### Parameters
 - `other` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -694,7 +866,7 @@ Check whether two vector equal with some degree of variance.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1002](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1002) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1095](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1095) |
 
 ###### Parameters
 - `other` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -708,7 +880,7 @@ Transform to string with vector informations
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1022](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1022) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1115](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1115) |
 
 
 
@@ -719,7 +891,7 @@ Calculate linear interpolation result between this vector and another one with g
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1036](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1036) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1129](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1129) |
 
 ###### Parameters
 - `to` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -734,7 +906,7 @@ Clamp the vector between from float and to float.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1051](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1051) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1144](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1144) |
 
 ###### Parameters
 - `min_inclusive` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -748,7 +920,7 @@ Adds this vector. If you want to save result to another vector, use add() instea
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1070](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1070) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1163](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1163) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -761,7 +933,7 @@ Adds two vectors, and returns the new result.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1085](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1085) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1178](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1178) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -775,7 +947,7 @@ Subtracts one vector from this.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1101](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1101) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1194](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1194) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -788,7 +960,7 @@ Multiplies this by a number.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1116](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1116) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1209](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1209) |
 
 ###### Parameters
 - `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -801,7 +973,7 @@ Multiplies two vectors.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1131](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1131) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1224](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1224) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -814,7 +986,7 @@ Divides by a number.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1146](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1146) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1239](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1239) |
 
 ###### Parameters
 - `num` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -827,7 +999,7 @@ Negates the components.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1161](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1161) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1254](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1254) |
 
 
 
@@ -838,7 +1010,7 @@ Dot product
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1175](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1175) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1268](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1268) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -851,7 +1023,7 @@ Cross product
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1186](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1186) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1279](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1279) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -865,14 +1037,14 @@ Returns the length of this vector.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1200](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1200) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1293](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1293) |
 
 
 ##### Examples
 
 ```js
-var v = cc.v2(10, 10);
-v.len(); // return 14.142135623730951;
+var v = cc.v3(10, 10, 10);
+v.len(); // return 17.320508075688775;
 ```
 
 ##### lengthSqr
@@ -882,7 +1054,7 @@ Returns the squared length of this vector.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1213](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1213) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1306](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1306) |
 
 
 
@@ -893,7 +1065,7 @@ Make the length of this vector to 1.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1223](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1223) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1316](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1316) |
 
 
 
@@ -906,7 +1078,7 @@ Note that the current vector is unchanged and a new normalized vector is returne
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1235](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1235) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1328](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1328) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> optional, the receiving vector, you can pass the same vec3 to save result to itself, if not provided, a new vec3 will be created
@@ -919,7 +1091,7 @@ Transforms the vec3 with a mat4. 4th vector component is implicitly '1'
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1254](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1254) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1347](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1347) |
 
 ###### Parameters
 - `m` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> matrix to transform with
@@ -933,7 +1105,7 @@ Returns the maximum value in x, y, and z
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1267](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1267) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1360](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1360) |
 
 
 
@@ -944,7 +1116,7 @@ Get angle in radian between this and vector.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1276](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1276) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1369](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1369) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -957,7 +1129,7 @@ Calculates the projection of the current vector over the given vector.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1284](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1284) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1377](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1377) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -978,7 +1150,7 @@ In order to compatible with the vec2 API.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1298](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1298) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1391](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1391) |
 
 ###### Parameters
 - `vector` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> &#124; <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -991,7 +1163,7 @@ rotate. In order to compatible with the vec2 API.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1314](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1314) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1407](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1407) |
 
 ###### Parameters
 - `radians` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -1005,7 +1177,7 @@ rotate self. In order to compatible with the vec2 API.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/vec3.ts:1328](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/vec3.ts#L1328) |
+| Defined in | [cocos2d/core/value-types/vec3.ts:1421](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/vec3.ts#L1421) |
 
 ###### Parameters
 - `radians` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 

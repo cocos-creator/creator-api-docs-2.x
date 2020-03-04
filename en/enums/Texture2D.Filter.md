@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 The texture filter mode
@@ -23,7 +22,7 @@ The texture filter mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:246](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/assets/CCTexture2D.js#L246) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:246](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/assets/CCTexture2D.js#L246) |
 
 
 
@@ -34,6 +33,6 @@ The texture filter mode
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:253](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/assets/CCTexture2D.js#L253) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:253](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/assets/CCTexture2D.js#L253) |
 
 

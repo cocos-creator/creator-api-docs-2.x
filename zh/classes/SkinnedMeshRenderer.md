@@ -2,7 +2,7 @@
 
 
 
-模块: [cc.primitive](../modules/cc.primitive.md)
+模块: [cc](../modules/cc.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -34,7 +34,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Skeleton.html" class="crosslink">Skeleton</a> |
-| 定义于 | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:66](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L66) |
+| 定义于 | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:66](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L66) |
 
 
 
@@ -45,7 +45,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| 定义于 | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:84](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L84) |
+| 定义于 | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:84](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L84) |
 
 
 

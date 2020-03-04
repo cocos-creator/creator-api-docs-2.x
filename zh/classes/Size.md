@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 cc.Size 是 size 对象的类。<br/>
@@ -46,7 +45,7 @@ cc.Size 是 size 对象的类。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| 定义于 | [cocos2d/core/value-types/size.ts:55](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/size.ts#L55) |
+| 定义于 | [cocos2d/core/value-types/size.ts:55](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/size.ts#L55) |
 
 
 
@@ -57,7 +56,7 @@ cc.Size 是 size 对象的类。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/size.ts:66](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/size.ts#L66) |
+| 定义于 | [cocos2d/core/value-types/size.ts:66](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/size.ts#L66) |
 
 
 
@@ -68,7 +67,7 @@ cc.Size 是 size 对象的类。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/size.ts:70](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/size.ts#L70) |
+| 定义于 | [cocos2d/core/value-types/size.ts:70](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/size.ts#L70) |
 
 
 
@@ -85,7 +84,7 @@ cc.Size 是 size 对象的类。<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/size.ts:48](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/size.ts#L48) |
+| 定义于 | [cocos2d/core/value-types/size.ts:48](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/size.ts#L48) |
 
 ###### 参数列表
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Size.html" class="crosslink">Size</a> 
@@ -99,7 +98,7 @@ cc.Size 是 size 对象的类。<br/>
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/value-types/size.ts:87](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/size.ts#L87) |
+| 定义于 | [cocos2d/core/value-types/size.ts:87](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/size.ts#L87) |
 
 
 ##### 示例
@@ -116,7 +115,7 @@ a.clone();// return Size {width: 0, height: 0};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/size.ts:100](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/size.ts#L100) |
+| 定义于 | [cocos2d/core/value-types/size.ts:100](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/size.ts#L100) |
 
 ###### 参数列表
 - `other` <a href="../classes/Size.html" class="crosslink">Size</a> 
@@ -135,7 +134,7 @@ a.equals(new cc.size(10, 10));// return true;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/value-types/size.ts:116](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/size.ts#L116) |
+| 定义于 | [cocos2d/core/value-types/size.ts:116](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/size.ts#L116) |
 
 ###### 参数列表
 - `to` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -162,7 +161,7 @@ update (dt) {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/value-types/size.ts:149](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/size.ts#L149) |
+| 定义于 | [cocos2d/core/value-types/size.ts:149](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/size.ts#L149) |
 
 
 ##### 示例

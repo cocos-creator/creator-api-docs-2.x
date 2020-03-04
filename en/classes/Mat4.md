@@ -22,6 +22,9 @@ Representation of 4*4 matrix.
 
 ##### Methods
 
+  - [`mul`](#mul) Multiply the current matrix with another one
+  - [`mulScalar`](#mulscalar) Multiply each element of the matrix by a scalar.
+  - [`sub`](#sub) Subtracts the current matrix with another one
   - [`clone`](#clone) Copy of the specified matrix to obtain
   - [`copy`](#copy) Copy the target matrix
   - [`identity`](#identity) The target of an assignment is the identity matrix
@@ -103,7 +106,7 @@ Representation of 4*4 matrix.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> |
-| Defined in | [cocos2d/core/value-types/mat4.ts:62](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L62) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:86](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L86) |
 
 
 
@@ -114,7 +117,7 @@ Representation of 4*4 matrix.
 | meta | description |
 |------|-------------|
 | Type | Float64Array &#124; Float32Array |
-| Defined in | [cocos2d/core/value-types/mat4.ts:1616](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1616) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1641](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1641) |
 
 
 
@@ -125,13 +128,55 @@ Representation of 4*4 matrix.
 #### Methods
 
 
+##### mul
+
+Multiply the current matrix with another one
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
+| Defined in | [cocos2d/core/value-types/mat4.ts:52](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L52) |
+
+###### Parameters
+- `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the second operand
+- `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the receiving matrix, you can pass the same matrix to save result to itself, if not provided, a new matrix will be created
+
+
+##### mulScalar
+
+Multiply each element of the matrix by a scalar.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
+| Defined in | [cocos2d/core/value-types/mat4.ts:63](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L63) |
+
+###### Parameters
+- `number` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> amount to scale the matrix's elements by
+- `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the receiving matrix, you can pass the same matrix to save result to itself, if not provided, a new matrix will be created
+
+
+##### sub
+
+Subtracts the current matrix with another one
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
+| Defined in | [cocos2d/core/value-types/mat4.ts:74](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L74) |
+
+###### Parameters
+- `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the second operand
+- `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the receiving matrix, you can pass the same matrix to save result to itself, if not provided, a new matrix will be created
+
+
 ##### clone
 
 Copy of the specified matrix to obtain
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:69](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L69) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:93](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L93) |
 
 
 
@@ -141,7 +186,7 @@ Copy the target matrix
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:87](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L87) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:111](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L111) |
 
 
 
@@ -151,7 +196,7 @@ The target of an assignment is the identity matrix
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:136](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L136) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:160](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L160) |
 
 
 
@@ -161,7 +206,7 @@ Transposed matrix
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:165](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L165) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:189](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L189) |
 
 
 
@@ -171,7 +216,7 @@ Matrix inversion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:211](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L211) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:235](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L235) |
 
 
 
@@ -181,7 +226,7 @@ Matrix determinant
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:266](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L266) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:290](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L290) |
 
 
 
@@ -191,7 +236,7 @@ Matrix Multiplication
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:298](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L298) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:322](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L322) |
 
 
 
@@ -201,7 +246,7 @@ Was added in a given transformation matrix transformation on the basis of
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:340](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L340) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:364](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L364) |
 
 
 
@@ -211,7 +256,7 @@ Add new displacement transducer in a matrix transformation on the basis of a giv
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:374](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L374) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:398](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L398) |
 
 
 
@@ -221,7 +266,7 @@ Add new scaling transformation in a given matrix transformation on the basis of
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:400](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L400) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:424](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L424) |
 
 
 
@@ -231,7 +276,7 @@ Add a new rotational transform matrix transformation on the basis of a given
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:430](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L430) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:454](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L454) |
 
 ###### Parameters
 - `rad` Unknown 旋转角度
@@ -244,7 +289,7 @@ Add rotational transformation around the X axis at a given matrix transformation
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:494](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L494) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:518](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L518) |
 
 ###### Parameters
 - `rad` Unknown 旋转角度
@@ -256,7 +301,7 @@ Add about the Y axis rotation transformation in a given matrix transformation on
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:540](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L540) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:564](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L564) |
 
 ###### Parameters
 - `rad` Unknown 旋转角度
@@ -268,7 +313,7 @@ Added about the Z axis at a given rotational transformation matrix transformatio
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:586](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L586) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:610](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L610) |
 
 ###### Parameters
 - `rad` Unknown 旋转角度
@@ -280,7 +325,7 @@ Displacement matrix calculation
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:634](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L634) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:658](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L658) |
 
 
 
@@ -290,7 +335,7 @@ Scaling matrix calculation
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:663](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L663) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:687](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L687) |
 
 
 
@@ -300,7 +345,7 @@ Calculates the rotation matrix
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:692](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L692) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:716](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L716) |
 
 
 
@@ -310,7 +355,7 @@ Calculating rotation matrix about the X axis
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:738](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L738) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:762](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L762) |
 
 
 
@@ -320,7 +365,7 @@ Calculating rotation matrix about the Y axis
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:770](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L770) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:794](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L794) |
 
 
 
@@ -330,7 +375,7 @@ Calculating rotation matrix about the Z axis
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:802](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L802) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:826](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L826) |
 
 
 
@@ -340,7 +385,7 @@ The rotation and displacement information calculating matrix
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:834](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L834) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:858](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L858) |
 
 
 
@@ -350,7 +395,7 @@ Extracting displacement information of the matrix, the matrix transform to the d
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:879](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L879) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:903](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L903) |
 
 
 
@@ -360,7 +405,7 @@ Scaling information extraction matrix, the matrix transform to the default seque
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:896](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L896) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:920](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L920) |
 
 
 
@@ -370,7 +415,7 @@ Rotation information extraction matrix, the matrix containing no default input s
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:924](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L924) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:948](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L948) |
 
 
 
@@ -380,7 +425,7 @@ Extracting rotational displacement, zoom information, the default matrix transfo
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:966](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L966) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:990](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L990) |
 
 
 
@@ -390,7 +435,7 @@ The rotary displacement, the scaling matrix calculation information, the order S
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:995](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L995) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1019](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1019) |
 
 
 
@@ -400,7 +445,7 @@ According to the specified rotation, displacement, and scale conversion matrix c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1043](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1043) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1067](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1067) |
 
 ###### Parameters
 - `q` Unknown 旋转值
@@ -415,7 +460,7 @@ The rotation matrix calculation information specified
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1100](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1100) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1124](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1124) |
 
 
 
@@ -425,7 +470,7 @@ The matrix calculation information specified frustum
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1148](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1148) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1172](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1172) |
 
 ###### Parameters
 - `left` Unknown 左平面距离
@@ -442,7 +487,7 @@ Perspective projection matrix calculation
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1187](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1187) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1211](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1211) |
 
 ###### Parameters
 - `fovy` Unknown 纵向视角高度
@@ -457,7 +502,7 @@ Computing orthogonal projection matrix
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1223](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1223) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1247](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1247) |
 
 ###### Parameters
 - `left` Unknown 左平面距离
@@ -474,7 +519,7 @@ Computing orthogonal projection matrix
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1261](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1261) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1285](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1285) |
 
 ###### Parameters
 - `eye` Unknown 当前位置
@@ -488,7 +533,7 @@ Reversal matrix calculation
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1325](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1325) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1349](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1349) |
 
 
 
@@ -498,7 +543,7 @@ Element by element matrix addition
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1386](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1386) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1410](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1410) |
 
 
 
@@ -508,7 +553,7 @@ Matrix element by element subtraction
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1415](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1415) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1439](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1439) |
 
 
 
@@ -518,7 +563,7 @@ Matrix scalar multiplication
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1444](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1444) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1468](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1468) |
 
 
 
@@ -528,7 +573,7 @@ Elements of the matrix by the scalar multiplication and addition: A + B * scale
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1473](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1473) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1497](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1497) |
 
 
 
@@ -538,7 +583,8 @@ Analyzing the equivalent matrix
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1502](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1502) |
+| Returns | Bool 
+| Defined in | [cocos2d/core/value-types/mat4.ts:1526](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1526) |
 
 
 
@@ -548,7 +594,7 @@ Negative floating point error is approximately equivalent to determining a matri
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1518](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1518) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1543](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1543) |
 
 
 
@@ -558,7 +604,7 @@ Matrix transpose array
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1582](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1582) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1607](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1607) |
 
 ###### Parameters
 - `ofs` Unknown 数组内的起始偏移量
@@ -570,7 +616,7 @@ Transfer matrix array
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1599](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1599) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1624](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1624) |
 
 ###### Parameters
 - `ofs` Unknown 数组起始偏移量
@@ -583,7 +629,7 @@ see <a href="../modules/cc.html#method_mat4" class="crosslink">cc.mat4</a>
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat4.ts:1624](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1624) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1649](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1649) |
 
 
 
@@ -594,7 +640,7 @@ clone a Mat4 object
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1669](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1669) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1689](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1689) |
 
 
 
@@ -605,7 +651,7 @@ Sets the matrix with another one's value
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1685](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1685) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1705](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1705) |
 
 ###### Parameters
 - `srcObj` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
@@ -618,7 +664,7 @@ Check whether two matrix equal
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1715](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1715) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1735](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1735) |
 
 ###### Parameters
 - `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
@@ -631,7 +677,7 @@ Check whether two matrix equal with default degree of variance.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1726](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1726) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1746](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1746) |
 
 ###### Parameters
 - `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
@@ -644,7 +690,7 @@ Transform to string with matrix informations
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1739](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1739) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1759](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1759) |
 
 
 
@@ -655,7 +701,7 @@ Set the matrix to the identity matrix
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1764](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1764) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1784](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1784) |
 
 
 
@@ -666,7 +712,7 @@ Transpose the values of a mat4
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1774](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1774) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1794](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1794) |
 
 ###### Parameters
 - `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the receiving matrix, you can pass the same matrix to save result to itself, if not provided, a new matrix will be created.
@@ -679,7 +725,7 @@ Inverts a mat4
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1785](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1785) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1805](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1805) |
 
 ###### Parameters
 - `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the receiving matrix, you can pass the same matrix to save result to itself, if not provided, a new matrix will be created.
@@ -692,7 +738,7 @@ Calculates the adjugate of a mat4
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1796](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1796) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1816](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1816) |
 
 ###### Parameters
 - `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the receiving matrix, you can pass the same matrix to save result to itself, if not provided, a new matrix will be created.
@@ -705,7 +751,7 @@ Calculates the determinant of a mat4
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1807](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1807) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1827](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1827) |
 
 
 
@@ -716,7 +762,7 @@ Adds two Mat4
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1816](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1816) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1836](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1836) |
 
 ###### Parameters
 - `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the second operand
@@ -730,7 +776,7 @@ Subtracts the current matrix with another one
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1828](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1828) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1848](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1848) |
 
 ###### Parameters
 - `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the second operand
@@ -743,7 +789,7 @@ Subtracts the current matrix with another one
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1838](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1838) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1858](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1858) |
 
 ###### Parameters
 - `other` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the second operand
@@ -756,7 +802,7 @@ Multiply each element of the matrix by a scalar.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1848](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1848) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1868](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1868) |
 
 ###### Parameters
 - `number` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> amount to scale the matrix's elements by
@@ -769,7 +815,7 @@ Translate a mat4 by the given vector
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1858](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1858) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1878](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1878) |
 
 ###### Parameters
 - `v` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> vector to translate by
@@ -783,7 +829,7 @@ Scales the mat4 by the dimensions in the given vec3
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1870](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1870) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1890](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1890) |
 
 ###### Parameters
 - `v` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> vector to scale by
@@ -797,7 +843,7 @@ Rotates a mat4 by the given angle around the given axis
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1882](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1882) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1902](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1902) |
 
 ###### Parameters
 - `rad` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the angle to rotate the matrix by
@@ -812,7 +858,7 @@ Returns the translation vector component of a transformation matrix.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1895](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1895) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1915](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1915) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Vector to receive translation component, if not provided, a new vec3 will be created
@@ -825,7 +871,7 @@ Returns the scale factor component of a transformation matrix
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1906](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1906) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1926](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1926) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Vector to receive scale component, if not provided, a new vec3 will be created
@@ -838,7 +884,7 @@ Returns the rotation factor component of a transformation matrix
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1917](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1917) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1937](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1937) |
 
 ###### Parameters
 - `out` <a href="../classes/Quat.html" class="crosslink">Quat</a> Vector to receive rotation component, if not provided, a new quaternion object will be created
@@ -851,7 +897,7 @@ Restore the matrix values from a quaternion rotation, vector translation and vec
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1928](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1928) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1948](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1948) |
 
 ###### Parameters
 - `q` <a href="../classes/Quat.html" class="crosslink">Quat</a> Rotation quaternion
@@ -866,7 +912,7 @@ Restore the matrix values from a quaternion rotation
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1941](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/mat4.ts#L1941) |
+| Defined in | [cocos2d/core/value-types/mat4.ts:1961](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/mat4.ts#L1961) |
 
 ###### Parameters
 - `q` <a href="../classes/Quat.html" class="crosslink">Quat</a> Rotation quaternion
@@ -880,7 +926,7 @@ When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| Defined in | [cocos2d/core/value-types/value-type.ts:63](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/value-type.ts#L63) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:63](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/value-type.ts#L63) |
 
 ###### Parameters
 - `to` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value

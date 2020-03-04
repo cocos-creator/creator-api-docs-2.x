@@ -2,7 +2,7 @@
 
 
 
-模块: [_decorator](../modules/_decorator.md)
+模块: [cc](../modules/cc.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -38,7 +38,7 @@ it controls the behavior of how to scale the scene and setup the viewport for th
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1146](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCView.js#L1146) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1146](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCView.js#L1146) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -51,7 +51,7 @@ it controls the behavior of how to scale the scene and setup the viewport for th
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:1156](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCView.js#L1156) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1156](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCView.js#L1156) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> 
@@ -64,7 +64,7 @@ it controls the behavior of how to scale the scene and setup the viewport for th
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1170](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCView.js#L1170) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1170](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCView.js#L1170) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view

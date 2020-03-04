@@ -2,7 +2,7 @@
 
 
 
-模块: [cc.primitive](../modules/cc.primitive.md)
+模块: [cc](../modules/cc.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -37,7 +37,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Collider3D.html" class="crosslink">Collider3D</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:37](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L37) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:37](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L37) |
 
 
 
@@ -48,7 +48,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/RigidBody3D.html" class="crosslink">RigidBody3D</a> &#124; Null |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:41](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L41) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:41](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L41) |
 
 
 
@@ -59,7 +59,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Any |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:45](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L45) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:45](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L45) |
 
 
 
@@ -70,7 +70,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:49](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L49) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:49](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L49) |
 
 
 
@@ -81,7 +81,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:53](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L53) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:53](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L53) |
 
 
 

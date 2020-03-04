@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 An enumeration used with the Prefab.optimizationPolicy
@@ -27,7 +26,7 @@ When you first create an instance, the behavior is the same as SINGLE_INSTANCE. 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCPrefab.js:41](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/assets/CCPrefab.js#L41) |
+| Defined in | [cocos2d/core/assets/CCPrefab.js:41](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/assets/CCPrefab.js#L41) |
 
 
 
@@ -40,7 +39,7 @@ When this prefab will usually create only one instances, please select this opti
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCPrefab.js:50](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/assets/CCPrefab.js#L50) |
+| Defined in | [cocos2d/core/assets/CCPrefab.js:50](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/assets/CCPrefab.js#L50) |
 
 
 
@@ -54,6 +53,6 @@ It is also recommended to select this option if the prefab instance in the scene
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCPrefab.js:61](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/assets/CCPrefab.js#L61) |
+| Defined in | [cocos2d/core/assets/CCPrefab.js:61](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/assets/CCPrefab.js#L61) |
 
 

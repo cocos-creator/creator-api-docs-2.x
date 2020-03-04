@@ -44,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:173](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/plane.ts#L173) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:173](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/plane.ts#L173) |
 
 
 
@@ -55,7 +55,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:182](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/plane.ts#L182) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:182](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/plane.ts#L182) |
 
 
 
@@ -72,14 +72,14 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:46](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/plane.ts#L46) |
+| 返回 | Plane 
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:46](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/plane.ts#L46) |
 
 ###### 参数列表
-- `nx` Unknown The x part of the normal component.
-- `ny` Unknown The y part of the normal component.
-- `nz` Unknown The z part of the normal component.
-- `d` Unknown Distance from the origin.
+- `nx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x part of the normal component.
+- `ny` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y part of the normal component.
+- `nz` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The z part of the normal component.
+- `d` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Distance from the origin.
 
 
 ##### clone
@@ -88,11 +88,11 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:62](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/plane.ts#L62) |
+| 返回 | Plane 
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:62](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/plane.ts#L62) |
 
 ###### 参数列表
-- `p` Unknown The source of cloning.
+- `p` Plane The source of cloning.
 
 
 ##### copy
@@ -101,12 +101,12 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:75](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/plane.ts#L75) |
+| 返回 | Plane 
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:75](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/plane.ts#L75) |
 
 ###### 参数列表
-- `out` Unknown The object that accepts the action.
-- `p` Unknown The source of the copy.
+- `out` Plane The object that accepts the action.
+- `p` Plane The source of the copy.
 
 
 ##### fromPoints
@@ -115,14 +115,14 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:92](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/plane.ts#L92) |
+| 返回 | Plane 
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:92](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/plane.ts#L92) |
 
 ###### 参数列表
-- `out` Unknown The object that accepts the action.
-- `a` Unknown Point a。
-- `b` Unknown Point b。
-- `c` Unknown Point c。
+- `out` Plane The object that accepts the action.
+- `a` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Point a。
+- `b` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Point b。
+- `c` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Point c。
 
 
 ##### set
@@ -131,15 +131,15 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:114](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/plane.ts#L114) |
+| 返回 | Plane 
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:114](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/plane.ts#L114) |
 
 ###### 参数列表
-- `out` Unknown The object that accepts the action.
-- `nx` Unknown The x part of the normal component.
-- `ny` Unknown The y part of the normal component.
-- `nz` Unknown The z part of the normal component.
-- `d` Unknown Distance from the origin.
+- `out` Plane The object that accepts the action.
+- `nx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x part of the normal component.
+- `ny` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The y part of the normal component.
+- `nz` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The z part of the normal component.
+- `d` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Distance from the origin.
 
 
 ##### fromNormalAndPoint
@@ -148,13 +148,13 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:136](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/plane.ts#L136) |
+| 返回 | Plane 
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:136](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/plane.ts#L136) |
 
 ###### 参数列表
-- `out` Unknown The object that accepts the action.
-- `normal` Unknown The normal of a plane.
-- `point` Unknown A point on the plane.
+- `out` Plane The object that accepts the action.
+- `normal` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> The normal of a plane.
+- `point` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> A point on the plane.
 
 
 ##### normalize
@@ -163,12 +163,12 @@
 
 | meta | description |
 |------|-------------|
-| 返回 | Unknown 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:154](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/plane.ts#L154) |
+| 返回 | Plane 
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:154](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/plane.ts#L154) |
 
 ###### 参数列表
-- `out` Unknown The object that accepts the action.
-- `a` Unknown Source data for operations.
+- `out` Plane The object that accepts the action.
+- `a` Plane Source data for operations.
 
 
 ##### transform
@@ -177,7 +177,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:208](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/plane.ts#L208) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:208](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/plane.ts#L208) |
 
 ###### 参数列表
 - `mat` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 

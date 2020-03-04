@@ -104,6 +104,8 @@ emitter.startSpin = 0;
   - [`START_SIZE_EQUAL_TO_END_SIZE`](#startsizeequaltoendsize) `Number` 表示粒子的起始大小等于结束大小。
   - [`START_RADIUS_EQUAL_TO_END_RADIUS`](#startradiusequaltoendradius) `Number` 表示粒子的起始半径等于结束半径。
   - [`sharedMaterials`](#sharedmaterials) `[Material]` 渲染组件使用的材质。
+  - [`srcBlendFactor`](#srcblendfactor) `macro.BlendFactor` 指定原图的混合模式，这会克隆一个新的材质对象，注意这带来的开销
+  - [`dstBlendFactor`](#dstblendfactor) `macro.BlendFactor` 指定目标的混合模式
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` 该组件被附加到的节点。
   - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
@@ -170,7 +172,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:134](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L134) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:134](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L134) |
 
 
 
@@ -181,7 +183,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:155](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L155) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:155](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L155) |
 
 
 
@@ -192,7 +194,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/ParticleAsset.html" class="crosslink">ParticleAsset</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:183](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L183) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:183](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L183) |
 
 
 
@@ -203,7 +205,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:216](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L216) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:216](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L216) |
 
 
 
@@ -214,7 +216,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:267](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L267) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:267](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L267) |
 
 
 
@@ -225,7 +227,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:290](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L290) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:290](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L290) |
 
 
 
@@ -236,7 +238,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:304](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L304) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:304](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L304) |
 
 
 
@@ -247,7 +249,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:318](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L318) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:318](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L318) |
 
 
 
@@ -258,7 +260,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:327](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L327) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:327](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L327) |
 
 
 
@@ -269,7 +271,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:338](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L338) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:338](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L338) |
 
 
 
@@ -280,7 +282,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:351](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L351) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:351](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L351) |
 
 
 
@@ -291,7 +293,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:358](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L358) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:358](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L358) |
 
 
 
@@ -302,7 +304,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:365](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L365) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:365](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L365) |
 
 
 
@@ -313,7 +315,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:372](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L372) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:372](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L372) |
 
 
 
@@ -324,7 +326,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:379](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L379) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:379](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L379) |
 
 
 
@@ -335,7 +337,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | cc.Color |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:387](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L387) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:387](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L387) |
 
 
 
@@ -346,7 +348,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | cc.Color |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:406](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L406) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:406](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L406) |
 
 
 
@@ -357,7 +359,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | cc.Color |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:425](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L425) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:425](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L425) |
 
 
 
@@ -368,7 +370,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | cc.Color |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:444](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L444) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:444](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L444) |
 
 
 
@@ -379,7 +381,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:464](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L464) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:464](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L464) |
 
 
 
@@ -390,7 +392,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:471](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L471) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:471](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L471) |
 
 
 
@@ -401,7 +403,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:478](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L478) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:478](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L478) |
 
 
 
@@ -412,7 +414,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:485](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L485) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:485](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L485) |
 
 
 
@@ -423,7 +425,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:492](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L492) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:492](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L492) |
 
 
 
@@ -434,7 +436,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:499](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L499) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:499](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L499) |
 
 
 
@@ -445,7 +447,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:506](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L506) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:506](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L506) |
 
 
 
@@ -456,7 +458,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:513](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L513) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:513](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L513) |
 
 
 
@@ -467,7 +469,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:520](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L520) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:520](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L520) |
 
 
 
@@ -478,7 +480,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:527](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L527) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:527](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L527) |
 
 
 
@@ -489,7 +491,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:535](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L535) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:535](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L535) |
 
 
 
@@ -500,7 +502,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:543](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L543) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:543](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L543) |
 
 
 
@@ -511,7 +513,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../enums/ParticleSystem.PositionType.html" class="crosslink">ParticleSystem.PositionType</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:551](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L551) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:551](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L551) |
 
 
 
@@ -522,7 +524,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../enums/ParticleSystem.EmitterMode.html" class="crosslink">ParticleSystem.EmitterMode</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:573](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L573) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:573](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L573) |
 
 
 
@@ -533,7 +535,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:586](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L586) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:586](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L586) |
 
 
 
@@ -544,7 +546,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:593](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L593) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:593](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L593) |
 
 
 
@@ -555,7 +557,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:600](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L600) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:600](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L600) |
 
 
 
@@ -566,7 +568,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:607](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L607) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:607](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L607) |
 
 
 
@@ -577,7 +579,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:614](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L614) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:614](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L614) |
 
 
 
@@ -588,7 +590,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:621](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L621) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:621](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L621) |
 
 
 
@@ -599,7 +601,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:628](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L628) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:628](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L628) |
 
 
 
@@ -610,7 +612,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:636](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L636) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:636](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L636) |
 
 
 
@@ -621,7 +623,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:646](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L646) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:646](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L646) |
 
 
 
@@ -632,7 +634,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:653](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L653) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:653](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L653) |
 
 
 
@@ -643,7 +645,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:660](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L660) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:660](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L660) |
 
 
 
@@ -654,7 +656,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:667](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L667) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:667](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L667) |
 
 
 
@@ -665,7 +667,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:674](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L674) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:674](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L674) |
 
 
 
@@ -676,7 +678,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:681](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L681) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:681](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L681) |
 
 
 
@@ -687,7 +689,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:771](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L771) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:771](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L771) |
 
 
 
@@ -698,7 +700,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:781](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L781) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:781](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L781) |
 
 
 
@@ -709,7 +711,7 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:791](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L791) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:791](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L791) |
 
 
 
@@ -720,8 +722,40 @@ emitter.startSpin = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Material.html" class="crosslink">[Material]</a> |
-| 定义于 | [cocos2d/core/components/CCRenderComponent.js:60](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCRenderComponent.js#L60) |
+| 定义于 | [cocos2d/core/components/CCRenderComponent.js:60](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCRenderComponent.js#L60) |
 
+
+
+##### srcBlendFactor
+
+> 指定原图的混合模式，这会克隆一个新的材质对象，注意这带来的开销
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
+| 定义于 | [cocos2d/core/utils/blend-func.js:21](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/utils/blend-func.js#L21) |
+
+##### 示例
+
+```js
+sprite.srcBlendFactor = cc.macro.BlendFactor.ONE;
+```
+
+
+##### dstBlendFactor
+
+> 指定目标的混合模式
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
+| 定义于 | [cocos2d/core/utils/blend-func.js:44](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/utils/blend-func.js#L44) |
+
+##### 示例
+
+```js
+sprite.dstBlendFactor = cc.macro.BlendFactor.ONE;
+```
 
 
 ##### __eventTargets
@@ -732,7 +766,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:61](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L61) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:61](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L61) |
 
 
 
@@ -743,7 +777,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:75](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L75) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:75](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L75) |
 
 ##### 示例
 
@@ -759,7 +793,7 @@ cc.log(comp.node);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:106](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L106) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:106](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L106) |
 
 ##### 示例
 
@@ -775,7 +809,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:147](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L147) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:147](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L147) |
 
 
 
@@ -786,7 +820,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:154](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L154) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:154](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L154) |
 
 ##### 示例
 
@@ -803,7 +837,7 @@ cc.log(comp.enabled);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:186](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L186) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:186](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L186) |
 
 ##### 示例
 
@@ -819,7 +853,7 @@ cc.log(comp.enabledInHierarchy);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCComponent.js:202](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L202) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:202](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L202) |
 
 ##### 示例
 
@@ -835,7 +869,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCObject.js#L76) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCObject.js#L76) |
 
 
 
@@ -846,7 +880,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCObject.js#L83) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCObject.js#L83) |
 
 
 
@@ -857,7 +891,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCObject.js#L240) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCObject.js#L240) |
 
 ##### 示例
 
@@ -874,7 +908,7 @@ obj.name = "New Obj";
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCObject.js#L258) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCObject.js#L258) |
 
 ##### 示例
 
@@ -901,7 +935,7 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:945](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L945) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:945](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L945) |
 
 
 ##### 示例
@@ -917,7 +951,7 @@ myParticleSystem.stopSystem();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:958](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L958) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:958](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L958) |
 
 
 ##### 示例
@@ -934,7 +968,7 @@ myParticleSystem.resetSystem();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:972](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L972) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:972](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L972) |
 
 
 
@@ -945,7 +979,7 @@ myParticleSystem.resetSystem();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/particle/CCParticleSystem.js:982](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/particle/CCParticleSystem.js#L982) |
+| 定义于 | [cocos2d/particle/CCParticleSystem.js:982](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/particle/CCParticleSystem.js#L982) |
 | 废弃（Deprecated） | since v1.9 |
 
 ###### 参数列表
@@ -960,7 +994,7 @@ myParticleSystem.resetSystem();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/MaterialVariant.html" class="crosslink">MaterialVariant</a> 
-| 定义于 | [cocos2d/core/components/CCRenderComponent.js:150](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCRenderComponent.js#L150) |
+| 定义于 | [cocos2d/core/components/CCRenderComponent.js:150](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCRenderComponent.js#L150) |
 
 ###### 参数列表
 - `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -973,7 +1007,7 @@ myParticleSystem.resetSystem();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/MaterialVariant.html" class="crosslink">[MaterialVariant]</a> 
-| 定义于 | [cocos2d/core/components/CCRenderComponent.js:173](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCRenderComponent.js#L173) |
+| 定义于 | [cocos2d/core/components/CCRenderComponent.js:173](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCRenderComponent.js#L173) |
 
 
 
@@ -984,7 +1018,7 @@ myParticleSystem.resetSystem();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Material.html" class="crosslink">Material</a> 
-| 定义于 | [cocos2d/core/components/CCRenderComponent.js:187](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCRenderComponent.js#L187) |
+| 定义于 | [cocos2d/core/components/CCRenderComponent.js:187](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCRenderComponent.js#L187) |
 
 ###### 参数列表
 - `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -998,7 +1032,7 @@ myParticleSystem.resetSystem();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:223](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L223) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:223](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L223) |
 
 ###### 参数列表
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -1011,8 +1045,10 @@ myParticleSystem.resetSystem();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:234](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L234) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:234](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L234) |
 
+###### 参数列表
+- `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
 
 
 ##### __preload
@@ -1024,7 +1060,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:244](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L244) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:245](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L245) |
 
 
 
@@ -1035,7 +1071,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:255](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L255) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:256](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L256) |
 
 
 
@@ -1046,7 +1082,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:268](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L268) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:269](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L269) |
 
 
 
@@ -1057,7 +1093,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:281](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L281) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:282](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L282) |
 
 
 
@@ -1068,7 +1104,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:291](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L291) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:292](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L292) |
 
 
 
@@ -1079,7 +1115,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:301](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L301) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:302](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L302) |
 
 
 
@@ -1089,7 +1125,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:311](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L311) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:312](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L312) |
 
 
 
@@ -1099,7 +1135,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:316](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L316) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:317](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L317) |
 
 
 
@@ -1109,7 +1145,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:321](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L321) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:322](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L322) |
 
 
 
@@ -1120,7 +1156,7 @@ This method should be removed if script priority is supported.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| 定义于 | [cocos2d/core/components/CCComponent.js:331](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L331) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:332](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L332) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
@@ -1140,7 +1176,7 @@ var test = node.addComponent("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| 定义于 | [cocos2d/core/components/CCComponent.js:349](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L349) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:350](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L350) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1161,7 +1197,7 @@ var test = node.getComponent("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| 定义于 | [cocos2d/core/components/CCComponent.js:373](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L373) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:374](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L374) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1180,7 +1216,7 @@ var tests = node.getComponents("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| 定义于 | [cocos2d/core/components/CCComponent.js:391](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L391) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:392](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L392) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1199,7 +1235,7 @@ var Test = node.getComponentInChildren("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| 定义于 | [cocos2d/core/components/CCComponent.js:409](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L409) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:410](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L410) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1218,7 +1254,7 @@ var tests = node.getComponentsInChildren("Test");
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:429](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L429) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:430](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L430) |
 
 ###### 参数列表
 - `out_rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -1245,7 +1281,7 @@ onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:442](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L442) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:443](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L443) |
 
 
 
@@ -1256,7 +1292,7 @@ onRestore 是用户在检查器菜单点击 Reset 时，对此组件执行撤消
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:536](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L536) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:537](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L537) |
 
 ###### 参数列表
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -1279,7 +1315,7 @@ this.schedule(timeCallback, 1);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:574](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L574) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:575](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L575) |
 
 ###### 参数列表
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1300,7 +1336,7 @@ this.scheduleOnce(timeCallback, 2);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:591](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L591) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:592](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L592) |
 
 ###### 参数列表
 - `callback_fn` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1317,7 +1353,7 @@ this.unschedule(_callback);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/components/CCComponent.js:607](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCComponent.js#L607) |
+| 定义于 | [cocos2d/core/components/CCComponent.js:608](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCComponent.js#L608) |
 
 
 ##### 示例
@@ -1335,7 +1371,7 @@ this.unscheduleAllCallbacks();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCObject.js#L293) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCObject.js#L293) |
 
 
 ##### 示例
@@ -1367,7 +1403,7 @@ NOTE: this method will not clear the getter or setter functions which defined in
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCObject.js#L427) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCObject.js#L427) |
 
 
 
@@ -1377,7 +1413,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:460](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCObject.js#L460) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:460](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCObject.js#L460) |
 
 
 
@@ -1388,7 +1424,7 @@ The customized serialization for this object. (Editor Only)
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:485](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCObject.js#L485) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:485](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCObject.js#L485) |
 
 ###### 参数列表
 - `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -1400,7 +1436,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:495](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCObject.js#L495) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:495](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCObject.js#L495) |
 
 ###### 参数列表
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

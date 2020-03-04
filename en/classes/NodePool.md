@@ -50,7 +50,7 @@ Some common use case is :<br/>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [extensions/ccpool/CCNodePool.js:76](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/extensions/ccpool/CCNodePool.js#L76) |
+| Defined in | [extensions/ccpool/CCNodePool.js:76](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/extensions/ccpool/CCNodePool.js#L76) |
 
 
 
@@ -67,7 +67,7 @@ Constructor for creating a pool for a specific node template (usually a prefab).
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/ccpool/CCNodePool.js:57](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/extensions/ccpool/CCNodePool.js#L57) |
+| Defined in | [extensions/ccpool/CCNodePool.js:57](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/extensions/ccpool/CCNodePool.js#L57) |
 
 ###### Parameters
 - `poolHandlerComp` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> !#en The constructor or the class name of the component to control the unuse/reuse logic. !#zh 处理节点回收和复用事件逻辑的组件类型或名称。
@@ -91,7 +91,7 @@ The current available size in the pool
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [extensions/ccpool/CCNodePool.js:88](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/extensions/ccpool/CCNodePool.js#L88) |
+| Defined in | [extensions/ccpool/CCNodePool.js:88](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/extensions/ccpool/CCNodePool.js#L88) |
 
 
 
@@ -101,7 +101,7 @@ Destroy all cached nodes in the pool
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/ccpool/CCNodePool.js:98](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/extensions/ccpool/CCNodePool.js#L98) |
+| Defined in | [extensions/ccpool/CCNodePool.js:98](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/extensions/ccpool/CCNodePool.js#L98) |
 
 
 
@@ -113,7 +113,7 @@ It will also invoke unuse method of the poolHandlerComp if exist.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/ccpool/CCNodePool.js:111](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/extensions/ccpool/CCNodePool.js#L111) |
+| Defined in | [extensions/ccpool/CCNodePool.js:111](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/extensions/ccpool/CCNodePool.js#L111) |
 
 ###### Parameters
 - `obj` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -133,7 +133,7 @@ This function will invoke the reuse function of poolHandlerComp if exist.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| Defined in | [extensions/ccpool/CCNodePool.js:139](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/extensions/ccpool/CCNodePool.js#L139) |
+| Defined in | [extensions/ccpool/CCNodePool.js:139](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/extensions/ccpool/CCNodePool.js#L139) |
 
 ###### Parameters
 - `params` Any !#en Params to pass to 'reuse' method in poolHandlerComp !#zh 向 poolHandlerComp 中的 'reuse' 函数传递的参数

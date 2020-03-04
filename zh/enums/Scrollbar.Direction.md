@@ -22,7 +22,7 @@ Enum for Scrollbar direction
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCScrollBar.js:40](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCScrollBar.js#L40) |
+| 定义于 | [cocos2d/core/components/CCScrollBar.js:40](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCScrollBar.js#L40) |
 
 
 
@@ -33,6 +33,6 @@ Enum for Scrollbar direction
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCScrollBar.js:45](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/components/CCScrollBar.js#L45) |
+| 定义于 | [cocos2d/core/components/CCScrollBar.js:45](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/components/CCScrollBar.js#L45) |
 
 

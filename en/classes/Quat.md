@@ -25,6 +25,7 @@ Representation of 2D vectors and points.
 ##### Methods
 
   - [`constructor`](#constructor) Constructor
+  - [`mul`](#mul) Calculate the multiply result between this quaternion and another one
   - [`clone`](#clone) Obtaining copy specified quaternion
   - [`copy`](#copy) Copy quaternion target
   - [`set`](#set) Provided Quaternion Value
@@ -87,7 +88,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/quat.ts:837](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L837) |
+| Defined in | [cocos2d/core/value-types/quat.ts:844](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L844) |
 
 
 
@@ -98,7 +99,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/quat.ts:841](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L841) |
+| Defined in | [cocos2d/core/value-types/quat.ts:848](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L848) |
 
 
 
@@ -109,7 +110,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/quat.ts:845](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L845) |
+| Defined in | [cocos2d/core/value-types/quat.ts:852](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L852) |
 
 
 
@@ -120,7 +121,7 @@ Representation of 2D vectors and points.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/quat.ts:849](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L849) |
+| Defined in | [cocos2d/core/value-types/quat.ts:856](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L856) |
 
 
 
@@ -138,7 +139,7 @@ see <a href="../modules/cc.html#method_quat" class="crosslink">cc.quat</a>
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:49](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L49) |
+| Defined in | [cocos2d/core/value-types/quat.ts:48](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L48) |
 
 ###### Parameters
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -147,13 +148,27 @@ see <a href="../modules/cc.html#method_quat" class="crosslink">cc.quat</a>
 - `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 
+##### mul
+
+Calculate the multiply result between this quaternion and another one
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
+| Defined in | [cocos2d/core/value-types/quat.ts:65](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L65) |
+
+###### Parameters
+- `other` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
+- `out` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
+
+
 ##### clone
 
 Obtaining copy specified quaternion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:72](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L72) |
+| Defined in | [cocos2d/core/value-types/quat.ts:79](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L79) |
 
 
 
@@ -163,7 +178,7 @@ Copy quaternion target
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:84](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L84) |
+| Defined in | [cocos2d/core/value-types/quat.ts:91](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L91) |
 
 
 
@@ -173,7 +188,7 @@ Provided Quaternion Value
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:100](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L100) |
+| Defined in | [cocos2d/core/value-types/quat.ts:107](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L107) |
 
 
 
@@ -183,7 +198,7 @@ The target of an assignment as a unit quaternion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:116](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L116) |
+| Defined in | [cocos2d/core/value-types/quat.ts:123](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L123) |
 
 
 
@@ -193,7 +208,7 @@ Set quaternion rotation is the shortest path between two vectors, the default tw
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:132](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L132) |
+| Defined in | [cocos2d/core/value-types/quat.ts:139](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L139) |
 
 
 
@@ -203,12 +218,12 @@ Get the rotary shaft and the arc of rotation quaternion
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/core/value-types/quat.ts:166](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L166) |
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+| Defined in | [cocos2d/core/value-types/quat.ts:173](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L173) |
 
 ###### Parameters
-- `outAxis` Unknown 旋转轴输出
-- `q` Unknown 源四元数
+- `outAxis` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 旋转轴输出
+- `q` <a href="../classes/Quat.html" class="crosslink">Quat</a> 源四元数
 
 
 ##### multiply
@@ -217,7 +232,7 @@ Quaternion multiplication
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:193](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L193) |
+| Defined in | [cocos2d/core/value-types/quat.ts:200](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L200) |
 
 
 
@@ -227,7 +242,7 @@ Quaternion scalar multiplication
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:213](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L213) |
+| Defined in | [cocos2d/core/value-types/quat.ts:220](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L220) |
 
 
 
@@ -237,7 +252,7 @@ Quaternion multiplication and addition: A + B * scale
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:229](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L229) |
+| Defined in | [cocos2d/core/value-types/quat.ts:236](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L236) |
 
 
 
@@ -247,7 +262,7 @@ About the X axis specified quaternion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:245](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L245) |
+| Defined in | [cocos2d/core/value-types/quat.ts:252](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L252) |
 
 ###### Parameters
 - `rad` Unknown 旋转弧度
@@ -259,7 +274,7 @@ Rotation about the Y axis designated quaternion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:267](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L267) |
+| Defined in | [cocos2d/core/value-types/quat.ts:274](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L274) |
 
 ###### Parameters
 - `rad` Unknown 旋转弧度
@@ -271,7 +286,7 @@ Around the Z axis specified quaternion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:289](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L289) |
+| Defined in | [cocos2d/core/value-types/quat.ts:296](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L296) |
 
 ###### Parameters
 - `rad` Unknown 旋转弧度
@@ -283,7 +298,7 @@ Space around the world at a given axis of rotation quaternion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:311](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L311) |
+| Defined in | [cocos2d/core/value-types/quat.ts:318](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L318) |
 
 ###### Parameters
 - `axis` Unknown 旋转轴，默认已归一化
@@ -296,7 +311,7 @@ Local space around the specified axis rotation quaternion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:331](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L331) |
+| Defined in | [cocos2d/core/value-types/quat.ts:338](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L338) |
 
 ###### Parameters
 - `axis` Unknown 旋转轴
@@ -309,7 +324,7 @@ The component w xyz components calculated, normalized by default
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:347](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L347) |
+| Defined in | [cocos2d/core/value-types/quat.ts:354](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L354) |
 
 
 
@@ -319,7 +334,7 @@ Quaternion dot product (scalar product)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:364](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L364) |
+| Defined in | [cocos2d/core/value-types/quat.ts:371](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L371) |
 
 
 
@@ -329,7 +344,7 @@ Element by element linear interpolation: A + t * (B - A)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:376](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L376) |
+| Defined in | [cocos2d/core/value-types/quat.ts:383](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L383) |
 
 
 
@@ -339,7 +354,7 @@ Quaternion with two spherical interpolation control points
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:437](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L437) |
+| Defined in | [cocos2d/core/value-types/quat.ts:444](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L444) |
 
 
 
@@ -349,7 +364,7 @@ Quaternion inverse
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:452](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L452) |
+| Defined in | [cocos2d/core/value-types/quat.ts:459](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L459) |
 
 
 
@@ -359,7 +374,7 @@ Conjugating a quaternion, and the unit quaternion equivalent to inversion, but m
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:473](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L473) |
+| Defined in | [cocos2d/core/value-types/quat.ts:480](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L480) |
 
 
 
@@ -369,7 +384,7 @@ Seek length quaternion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:489](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L489) |
+| Defined in | [cocos2d/core/value-types/quat.ts:496](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L496) |
 
 
 
@@ -379,7 +394,7 @@ Seeking quaternion square of the length
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:501](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L501) |
+| Defined in | [cocos2d/core/value-types/quat.ts:508](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L508) |
 
 
 
@@ -389,7 +404,7 @@ Normalized quaternions
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:513](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L513) |
+| Defined in | [cocos2d/core/value-types/quat.ts:520](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L520) |
 
 
 
@@ -399,7 +414,7 @@ Calculated according to the local orientation quaternion coordinate axis, the de
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:533](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L533) |
+| Defined in | [cocos2d/core/value-types/quat.ts:540](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L540) |
 
 
 
@@ -409,7 +424,7 @@ The forward direction and the direction of the viewport computing quaternion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:550](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L550) |
+| Defined in | [cocos2d/core/value-types/quat.ts:557](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L557) |
 
 ###### Parameters
 - `view` Unknown 视口面向的前方向，必须归一化
@@ -422,7 +437,7 @@ The quaternion calculated and the arc of rotation of the rotary shaft
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:565](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L565) |
+| Defined in | [cocos2d/core/value-types/quat.ts:572](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L572) |
 
 
 
@@ -432,7 +447,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:583](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L583) |
+| Defined in | [cocos2d/core/value-types/quat.ts:590](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L590) |
 
 ###### Parameters
 - `out` Quat Quaternion to store result.
@@ -445,7 +460,7 @@ Calculating the three-dimensional quaternion matrix information, default zoom in
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:598](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L598) |
+| Defined in | [cocos2d/core/value-types/quat.ts:605](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L605) |
 
 
 
@@ -455,7 +470,7 @@ The quaternion calculated Euler angle information, rotation order YZX
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:650](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L650) |
+| Defined in | [cocos2d/core/value-types/quat.ts:657](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L657) |
 
 
 
@@ -465,7 +480,7 @@ This returns the result of the quaternion coordinate system X-axis vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:678](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L678) |
+| Defined in | [cocos2d/core/value-types/quat.ts:685](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L685) |
 
 
 
@@ -475,7 +490,7 @@ This returns the result of the quaternion coordinate system Y axis vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:696](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L696) |
+| Defined in | [cocos2d/core/value-types/quat.ts:703](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L703) |
 
 
 
@@ -485,7 +500,7 @@ This returns the result of the quaternion coordinate system the Z-axis vector
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:715](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L715) |
+| Defined in | [cocos2d/core/value-types/quat.ts:722](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L722) |
 
 
 
@@ -495,7 +510,7 @@ The quaternion calculated Euler angles, return angle x, y in the [-180, 180] int
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:734](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L734) |
+| Defined in | [cocos2d/core/value-types/quat.ts:741](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L741) |
 
 ###### Parameters
 - `outerZ` Unknown z 取值范围区间改为 [-180, -90] U [90, 180]
@@ -507,7 +522,7 @@ Analyzing quaternion equivalent
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:774](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L774) |
+| Defined in | [cocos2d/core/value-types/quat.ts:781](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L781) |
 
 
 
@@ -517,7 +532,7 @@ Negative floating point error quaternion approximately equivalent Analyzing
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:786](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L786) |
+| Defined in | [cocos2d/core/value-types/quat.ts:793](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L793) |
 
 
 
@@ -527,7 +542,7 @@ Quaternion rotation array
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:802](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L802) |
+| Defined in | [cocos2d/core/value-types/quat.ts:809](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L809) |
 
 ###### Parameters
 - `ofs` Unknown 数组内的起始偏移量
@@ -539,7 +554,7 @@ Array to a quaternion
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/quat.ts:819](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L819) |
+| Defined in | [cocos2d/core/value-types/quat.ts:826](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L826) |
 
 ###### Parameters
 - `ofs` Unknown 数组起始偏移量
@@ -552,7 +567,7 @@ clone a Quat object and return the new object
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/quat.ts:871](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L871) |
+| Defined in | [cocos2d/core/value-types/quat.ts:878](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L878) |
 
 
 
@@ -563,7 +578,7 @@ Set values with another quaternion
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/quat.ts:881](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L881) |
+| Defined in | [cocos2d/core/value-types/quat.ts:888](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L888) |
 
 ###### Parameters
 - `newValue` <a href="../classes/Quat.html" class="crosslink">Quat</a> !#en new value to set. !#zh 要设置的新值
@@ -576,7 +591,7 @@ Check whether current quaternion equals another
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/quat.ts:897](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L897) |
+| Defined in | [cocos2d/core/value-types/quat.ts:904](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L904) |
 
 ###### Parameters
 - `other` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
@@ -589,7 +604,7 @@ Convert quaternion to euler
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/value-types/quat.ts:908](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L908) |
+| Defined in | [cocos2d/core/value-types/quat.ts:915](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L915) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -602,7 +617,7 @@ Convert euler to quaternion
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/quat.ts:919](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L919) |
+| Defined in | [cocos2d/core/value-types/quat.ts:926](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L926) |
 
 ###### Parameters
 - `euler` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -615,7 +630,7 @@ Calculate the interpolation result between this quaternion and another one with 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/quat.ts:930](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L930) |
+| Defined in | [cocos2d/core/value-types/quat.ts:937](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L937) |
 
 ###### Parameters
 - `to` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
@@ -630,7 +645,7 @@ Calculate the multiply result between this quaternion and another one
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/quat.ts:945](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L945) |
+| Defined in | [cocos2d/core/value-types/quat.ts:952](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L952) |
 
 ###### Parameters
 - `other` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
@@ -643,7 +658,7 @@ Rotates a quaternion by the given angle (in radians) about a world space axis.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/quat.ts:956](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/quat.ts#L956) |
+| Defined in | [cocos2d/core/value-types/quat.ts:963](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L963) |
 
 ###### Parameters
 - `rot` <a href="../classes/Quat.html" class="crosslink">Quat</a> Quaternion to rotate
@@ -659,7 +674,7 @@ Convert to a readable string.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| Defined in | [cocos2d/core/value-types/value-type.ts:92](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/value-type.ts#L92) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:92](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/value-type.ts#L92) |
 
 
 

@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 用于返回给回调的接触冲量。
@@ -34,7 +33,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:179](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L179) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:179](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L179) |
 
 
 
@@ -45,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:187](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L187) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:187](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L187) |
 
 
 

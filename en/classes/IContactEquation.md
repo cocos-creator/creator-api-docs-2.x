@@ -2,7 +2,7 @@
 
 
 
-Module: [cc.primitive](../modules/cc.primitive.md)
+Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 
@@ -35,7 +35,7 @@ Collision information for collision events.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:94](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-interface.ts#L94) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:94](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/framework/physics-interface.ts#L94) |
 
 
 
@@ -46,7 +46,7 @@ Collision information for collision events.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:104](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-interface.ts#L104) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:104](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/framework/physics-interface.ts#L104) |
 
 
 
@@ -57,7 +57,7 @@ Collision information for collision events.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:114](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-interface.ts#L114) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:114](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/framework/physics-interface.ts#L114) |
 
 
 

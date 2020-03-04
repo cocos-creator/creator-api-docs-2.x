@@ -25,7 +25,7 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/audio/CCAudio.js:69](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/audio/CCAudio.js#L69) |
+| Defined in | [cocos2d/audio/CCAudio.js:69](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/audio/CCAudio.js#L69) |
 
 
 
@@ -36,7 +36,7 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/audio/CCAudio.js:73](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/audio/CCAudio.js#L73) |
+| Defined in | [cocos2d/audio/CCAudio.js:73](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/audio/CCAudio.js#L73) |
 
 
 
@@ -47,7 +47,7 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/audio/CCAudio.js:77](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/audio/CCAudio.js#L77) |
+| Defined in | [cocos2d/audio/CCAudio.js:77](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/audio/CCAudio.js#L77) |
 
 
 
@@ -58,7 +58,7 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/audio/CCAudio.js:81](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/audio/CCAudio.js#L81) |
+| Defined in | [cocos2d/audio/CCAudio.js:81](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/audio/CCAudio.js#L81) |
 
 
 
@@ -69,6 +69,6 @@ Audio state.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/audio/CCAudio.js:85](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/audio/CCAudio.js#L85) |
+| Defined in | [cocos2d/audio/CCAudio.js:85](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/audio/CCAudio.js#L85) |
 
 

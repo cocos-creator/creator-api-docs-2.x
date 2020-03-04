@@ -2,7 +2,7 @@
 
 
 
-模块: [cc.primitive](../modules/cc.primitive.md)
+模块: [cc](../modules/cc.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -31,7 +31,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:50](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/particle/animator/texture-animation.ts#L50) |
+| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:50](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/particle/animator/texture-animation.ts#L50) |
 
 
 
@@ -42,7 +42,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Mode |
-| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:68](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/particle/animator/texture-animation.ts#L68) |
+| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:68](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/particle/animator/texture-animation.ts#L68) |
 
 
 
@@ -53,7 +53,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:87](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/particle/animator/texture-animation.ts#L87) |
+| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:87](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/particle/animator/texture-animation.ts#L87) |
 
 
 
@@ -64,7 +64,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:95](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/particle/animator/texture-animation.ts#L95) |
+| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:95](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/particle/animator/texture-animation.ts#L95) |
 
 
 
@@ -75,7 +75,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Animation.html" class="crosslink">Animation</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:103](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/particle/animator/texture-animation.ts#L103) |
+| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:103](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/particle/animator/texture-animation.ts#L103) |
 
 
 
@@ -87,7 +87,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:113](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/particle/animator/texture-animation.ts#L113) |
+| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:113](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/particle/animator/texture-animation.ts#L113) |
 
 
 
@@ -99,7 +99,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:123](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/particle/animator/texture-animation.ts#L123) |
+| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:123](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/particle/animator/texture-animation.ts#L123) |
 
 
 
@@ -110,7 +110,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | CurveRange |
-| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:133](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/particle/animator/texture-animation.ts#L133) |
+| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:133](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/particle/animator/texture-animation.ts#L133) |
 
 
 
@@ -121,7 +121,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | CurveRange |
-| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:143](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/particle/animator/texture-animation.ts#L143) |
+| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:143](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/particle/animator/texture-animation.ts#L143) |
 
 
 
@@ -132,6 +132,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:153](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/particle/animator/texture-animation.ts#L153) |
+| 定义于 | [cocos2d/core/3d/particle/animator/texture-animation.ts:153](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/particle/animator/texture-animation.ts#L153) |
 
 

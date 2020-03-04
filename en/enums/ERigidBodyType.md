@@ -2,7 +2,7 @@
 
 
 
-Module: [cc.primitive](../modules/cc.primitive.md)
+Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 
@@ -24,7 +24,7 @@ The rigid body type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:35](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-enum.ts#L35) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:35](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/framework/physics-enum.ts#L35) |
 
 
 
@@ -35,7 +35,7 @@ The rigid body type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:39](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-enum.ts#L39) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:39](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/framework/physics-enum.ts#L39) |
 
 
 
@@ -46,6 +46,6 @@ The rigid body type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:43](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/physics/framework/physics-enum.ts#L43) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:43](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/framework/physics-enum.ts#L43) |
 
 

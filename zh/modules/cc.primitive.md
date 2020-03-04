@@ -6,7 +6,7 @@
 
 
 
-一个创建 3D 物体顶点数据的基础模块，你可以通过 "cc.primitive" 来访问这个模块。
+一个创建 3D 物体顶点数据的基础模块，你可以通过 `cc.primitive` 来访问这个模块。
 
 
 
@@ -46,7 +46,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| 定义于 | [cocos2d/core/3d/primitive/index.ts:24](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L24) |
+| 定义于 | [cocos2d/core/3d/primitive/index.ts:25](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/primitive/index.ts#L25) |
 
 ###### 参数列表
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -65,7 +65,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| 定义于 | [cocos2d/core/3d/primitive/index.ts:39](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L39) |
+| 定义于 | [cocos2d/core/3d/primitive/index.ts:40](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/primitive/index.ts#L40) |
 
 ###### 参数列表
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -84,7 +84,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| 定义于 | [cocos2d/core/3d/primitive/index.ts:54](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L54) |
+| 定义于 | [cocos2d/core/3d/primitive/index.ts:55](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/primitive/index.ts#L55) |
 
 ###### 参数列表
 - `radiusTop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -104,7 +104,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| 定义于 | [cocos2d/core/3d/primitive/index.ts:70](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L70) |
+| 定义于 | [cocos2d/core/3d/primitive/index.ts:71](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/primitive/index.ts#L71) |
 
 ###### 参数列表
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -121,7 +121,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| 定义于 | [cocos2d/core/3d/primitive/index.ts:83](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L83) |
+| 定义于 | [cocos2d/core/3d/primitive/index.ts:84](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/primitive/index.ts#L84) |
 
 
 
@@ -132,7 +132,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| 定义于 | [cocos2d/core/3d/primitive/index.ts:91](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L91) |
+| 定义于 | [cocos2d/core/3d/primitive/index.ts:92](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/primitive/index.ts#L92) |
 
 ###### 参数列表
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -147,7 +147,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| 定义于 | [cocos2d/core/3d/primitive/index.ts:102](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L102) |
+| 定义于 | [cocos2d/core/3d/primitive/index.ts:103](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/primitive/index.ts#L103) |
 
 ###### 参数列表
 - `radius` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -165,7 +165,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| 定义于 | [cocos2d/core/3d/primitive/index.ts:116](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L116) |
+| 定义于 | [cocos2d/core/3d/primitive/index.ts:117](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/primitive/index.ts#L117) |
 
 ###### 参数列表
 - `radiusTop` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -185,7 +185,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/primitive.VertexData.html" class="crosslink">primitive.VertexData</a> 
-| 定义于 | [cocos2d/core/3d/primitive/index.ts:132](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/3d/primitive/index.ts#L132) |
+| 定义于 | [cocos2d/core/3d/primitive/index.ts:133](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/primitive/index.ts#L133) |
 
 ###### 参数列表
 - `type` <a href="../enums/primitive.PolyhedronType.html" class="crosslink">primitive.PolyhedronType</a> 

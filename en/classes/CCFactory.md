@@ -6,7 +6,7 @@ Extends [`BaseFactory`](BaseFactory.md)
 Module: [dragonBones](../modules/dragonBones.md)
 
 
-
+DragonBones factory
 
 
 
@@ -36,7 +36,7 @@ Module: [dragonBones](../modules/dragonBones.md)
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/CCFactory.html" class="crosslink">CCFactory</a> 
-| Defined in | [extensions/dragonbones/CCFactory.js:43](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/extensions/dragonbones/CCFactory.js#L43) |
+| Defined in | [extensions/dragonbones/CCFactory.js:44](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/extensions/dragonbones/CCFactory.js#L44) |
 
 
 ##### Examples

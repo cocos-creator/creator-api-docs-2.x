@@ -301,10 +301,34 @@ window.apimeta = {
       "description": "The orientation of tiled map."
     },
     {
+      "name": "TiledMap.Property",
+      "namespace": "cc.TiledMap.Property",
+      "module": "cc",
+      "description": "The property type of tiled map."
+    },
+    {
+      "name": "TiledMap.RenderOrder",
+      "namespace": "cc.TiledMap.RenderOrder",
+      "module": "cc",
+      "description": "The render order of tiled map."
+    },
+    {
+      "name": "TiledMap.StaggerAxis",
+      "namespace": "cc.TiledMap.StaggerAxis",
+      "module": "cc",
+      "description": "The stagger axis of Hex tiled map."
+    },
+    {
       "name": "TiledMap.TMXObjectType",
       "namespace": "cc.TiledMap.TMXObjectType",
       "module": "cc",
       "description": "TiledMap Object Type"
+    },
+    {
+      "name": "TiledMap.TileFlag",
+      "namespace": "cc.TiledMap.TileFlag",
+      "module": "cc",
+      "description": "The tile flags of tiled map."
     },
     {
       "name": "VerticalTextAlignment",
@@ -525,6 +549,12 @@ window.apimeta = {
       "description": "Class for BitmapFont handling."
     },
     {
+      "name": "BlendFunc",
+      "namespace": "cc.BlendFunc",
+      "module": "cc",
+      "description": "Helper class for setting material blend function."
+    },
+    {
       "name": "BlockInputEvents",
       "namespace": "cc.BlockInputEvents",
       "module": "cc",
@@ -558,7 +588,7 @@ window.apimeta = {
       "name": "CCFactory",
       "namespace": "dragonBones.CCFactory",
       "module": "dragonBones",
-      "description": ""
+      "description": "DragonBones factory"
     },
     {
       "name": "CallbacksInvoker",
@@ -696,7 +726,7 @@ window.apimeta = {
       "name": "DynamicAtlasManager",
       "namespace": "cc.DynamicAtlasManager",
       "module": "cc",
-      "description": "Manager the dynamic atlas."
+      "description": "Manage Dynamic Atlas Manager. Dynamic Atlas Manager is used for merging textures at runtime, see [Dynamic Atlas](https://docs.cocos.com/creator/manual/en/advanced-topics/dynamic-atlas.html) for details."
     },
     {
       "name": "Easing",
@@ -793,6 +823,12 @@ window.apimeta = {
       "namespace": "cc.Graphics",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "GraySpriteState",
+      "namespace": "cc.GraySpriteState",
+      "module": "cc",
+      "description": "An internal helper class for switching render component's material between normal sprite material and gray sprite material."
     },
     {
       "name": "IBaseShape",
@@ -1377,6 +1413,36 @@ window.apimeta = {
       "description": "The event type supported by SystemEvent"
     },
     {
+      "name": "TMXImageLayerInfo",
+      "namespace": "cc.TMXImageLayerInfo",
+      "module": "cc",
+      "description": "cc.TMXImageLayerInfo contains the information about the image layers.\nThis information is obtained from the TMX file."
+    },
+    {
+      "name": "TMXLayerInfo",
+      "namespace": "cc.TMXLayerInfo",
+      "module": "cc",
+      "description": "cc.TMXLayerInfo contains the information about the layers like:\n- Layer name\n- Layer size\n- Layer opacity at creation time (it can be modified at runtime)\n- Whether the layer is visible (if it's not visible, then the CocosNode won't be created)\nThis information is obtained from the TMX file."
+    },
+    {
+      "name": "TMXMapInfo",
+      "namespace": "cc.TMXMapInfo",
+      "module": "cc",
+      "description": "<p>cc.TMXMapInfo contains the information about the map like: <br/>\n- Map orientation (hexagonal, isometric or orthogonal)<br/>\n- Tile size<br/>\n- Map size</p>\n\n<p>And it also contains: <br/>\n- Layers (an array of TMXLayerInfo objects)<br/>\n- Tilesets (an array of TMXTilesetInfo objects) <br/>\n- ObjectGroups (an array of TMXObjectGroupInfo objects) </p>\n\n<p>This information is obtained from the TMX file. </p>"
+    },
+    {
+      "name": "TMXObjectGroupInfo",
+      "namespace": "cc.TMXObjectGroupInfo",
+      "module": "cc",
+      "description": "<p>cc.TMXObjectGroupInfo contains the information about the object group like:\n- group name\n- group size\n- group opacity at creation time (it can be modified at runtime)\n- Whether the group is visible\n\nThis information is obtained from the TMX file.</p>"
+    },
+    {
+      "name": "TMXTilesetInfo",
+      "namespace": "cc.TMXTilesetInfo",
+      "module": "cc",
+      "description": "<p>cc.TMXTilesetInfo contains the information about the tilesets like: <br />\n- Tileset name<br />\n- Tileset spacing<br />\n- Tileset margin<br />\n- size of the tiles<br />\n- Image used for the tiles<br />\n- Image size<br />\n\nThis information is obtained from the TMX file. </p>"
+    },
+    {
       "name": "TTFFont",
       "namespace": "cc.TTFFont",
       "module": "cc",
@@ -1623,6 +1689,12 @@ window.apimeta = {
       "description": "Triangle"
     },
     {
+      "name": "geomUtils.intersect",
+      "namespace": "cc.geomUtils.intersect",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "loader",
       "namespace": "cc.loader",
       "module": "cc",
@@ -1704,14 +1776,19 @@ window.apimeta = {
     {
       "name": "cc",
       "namespace": "cc",
-      "module": "js",
+      "module": "cc.primitive",
       "description": "The main namespace of Cocos2d-JS, all engine core classes, functions, properties and constants are defined in this namespace."
+    },
+    {
+      "name": "cc.geomUtils",
+      "namespace": "cc.geomUtils",
+      "description": "Some helpful utilities"
     },
     {
       "name": "cc.primitive",
       "namespace": "cc.primitive",
       "module": "cc.primitive",
-      "description": "一个创建 3D 物体顶点数据的基础模块，你可以通过 \"cc.primitive\" 来访问这个模块。"
+      "description": "A basic module for creating vertex data for 3D objects. You can access this module by `cc.primitive`."
     },
     {
       "name": "dragonBones",
@@ -1722,7 +1799,7 @@ window.apimeta = {
       "name": "js",
       "namespace": "cc.js",
       "module": "cc",
-      "description": "This module provides some JavaScript utilities.\nAll members can be accessed with \"cc.js\"."
+      "description": "This module provides some JavaScript utilities. All members can be accessed with `cc.js`."
     },
     {
       "name": "sp",

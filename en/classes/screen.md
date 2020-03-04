@@ -2,7 +2,7 @@
 
 
 
-Module: [_decorator](../modules/_decorator.md)
+Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
 
 
@@ -40,7 +40,7 @@ initialize
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCScreen.js:90](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCScreen.js#L90) |
+| Defined in | [cocos2d/core/platform/CCScreen.js:90](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCScreen.js#L90) |
 
 
 
@@ -51,7 +51,7 @@ return true if it's full now.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCScreen.js:115](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCScreen.js#L115) |
+| Defined in | [cocos2d/core/platform/CCScreen.js:115](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCScreen.js#L115) |
 
 
 
@@ -61,7 +61,7 @@ change the screen to full mode.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCScreen.js:130](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCScreen.js#L130) |
+| Defined in | [cocos2d/core/platform/CCScreen.js:130](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCScreen.js#L130) |
 
 ###### Parameters
 - `element` Element 
@@ -76,7 +76,7 @@ exit the full mode.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCScreen.js:174](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCScreen.js#L174) |
+| Defined in | [cocos2d/core/platform/CCScreen.js:174](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCScreen.js#L174) |
 
 
 
@@ -86,7 +86,7 @@ Automatically request full screen with a touch/click event
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCScreen.js:192](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/platform/CCScreen.js#L192) |
+| Defined in | [cocos2d/core/platform/CCScreen.js:192](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/platform/CCScreen.js#L192) |
 
 ###### Parameters
 - `element` Element 

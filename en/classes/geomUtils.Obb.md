@@ -16,7 +16,7 @@ obb
   - [`type`](#type) `number` 
   - [`center`](#center) `Vec3` The center of the local coordinate.
   - [`halfExtents`](#halfextents) `Vec3` Half the length, width, and height.
-  - [`orientation`](#orientation) `mat3` Direction matrix.
+  - [`orientation`](#orientation) `Mat3` Direction matrix.
 
 
 
@@ -47,7 +47,7 @@ obb
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/geom-utils/obb.ts:53](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L53) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:53](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L53) |
 
 
 
@@ -58,7 +58,7 @@ obb
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/obb.ts:185](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L185) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:185](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L185) |
 
 
 
@@ -69,7 +69,7 @@ obb
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/obb.ts:194](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L194) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:194](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L194) |
 
 
 
@@ -80,7 +80,7 @@ obb
 | meta | description |
 |------|-------------|
 | Type | Mat3 |
-| Defined in | [cocos2d/core/geom-utils/obb.ts:203](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L203) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:203](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L203) |
 
 
 
@@ -97,25 +97,25 @@ create a new obb
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/core/geom-utils/obb.ts:63](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L63) |
+| Returns | Obb 
+| Defined in | [cocos2d/core/geom-utils/obb.ts:63](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L63) |
 
 ###### Parameters
-- `cx` Unknown X coordinates of the shape relative to the origin.
-- `cy` Unknown Y coordinates of the shape relative to the origin.
-- `cz` Unknown Z coordinates of the shape relative to the origin.
-- `hw` Unknown Obb is half the width.
-- `hh` Unknown Obb is half the height.
-- `hl` Unknown Obb is half the Length.
-- `ox_1` Unknown Direction matrix parameter.
-- `ox_2` Unknown Direction matrix parameter.
-- `ox_3` Unknown Direction matrix parameter.
-- `oy_1` Unknown Direction matrix parameter.
-- `oy_2` Unknown Direction matrix parameter.
-- `oy_3` Unknown Direction matrix parameter.
-- `oz_1` Unknown Direction matrix parameter.
-- `oz_2` Unknown Direction matrix parameter.
-- `oz_3` Unknown Direction matrix parameter.
+- `cx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> X coordinates of the shape relative to the origin.
+- `cy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Y coordinates of the shape relative to the origin.
+- `cz` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Z coordinates of the shape relative to the origin.
+- `hw` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Obb is half the width.
+- `hh` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Obb is half the height.
+- `hl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Obb is half the Length.
+- `ox_1` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `ox_2` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `ox_3` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oy_1` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oy_2` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oy_3` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oz_1` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oz_2` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oz_3` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
 
 
 ##### clone
@@ -124,11 +124,11 @@ clone a new obb
 
 | meta | description |
 |------|-------------|
-| Returns | Unknown 
-| Defined in | [cocos2d/core/geom-utils/obb.ts:95](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L95) |
+| Returns | Obb 
+| Defined in | [cocos2d/core/geom-utils/obb.ts:95](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L95) |
 
 ###### Parameters
-- `a` Unknown The target of cloning.
+- `a` Obb The target of cloning.
 
 
 ##### copy
@@ -138,7 +138,7 @@ copy the values from one obb to another
 | meta | description |
 |------|-------------|
 | Returns | Obb 
-| Defined in | [cocos2d/core/geom-utils/obb.ts:113](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L113) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:113](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L113) |
 
 ###### Parameters
 - `out` Obb Obb that accepts the operation.
@@ -152,12 +152,12 @@ create a new obb from two corner points
 | meta | description |
 |------|-------------|
 | Returns | Obb 
-| Defined in | [cocos2d/core/geom-utils/obb.ts:131](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L131) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:131](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L131) |
 
 ###### Parameters
-- `out` Unknown Obb that accepts the operation.
-- `minPos` Unknown The smallest point of obb.
-- `maxPos` Unknown Obb's maximum point.
+- `out` Obb Obb that accepts the operation.
+- `minPos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> The smallest point of obb.
+- `maxPos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Obb's maximum point.
 
 
 ##### set
@@ -167,24 +167,24 @@ Set the components of a obb to the given values
 | meta | description |
 |------|-------------|
 | Returns | Obb 
-| Defined in | [cocos2d/core/geom-utils/obb.ts:149](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L149) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:149](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L149) |
 
 ###### Parameters
-- `cx` Unknown X coordinates of the shape relative to the origin.
-- `cy` Unknown Y coordinates of the shape relative to the origin.
-- `cz` Unknown Z coordinates of the shape relative to the origin.
-- `hw` Unknown Obb is half the width.
-- `hh` Unknown Obb is half the height.
-- `hl` Unknown Obb is half the Length.
-- `ox_1` Unknown Direction matrix parameter.
-- `ox_2` Unknown Direction matrix parameter.
-- `ox_3` Unknown Direction matrix parameter.
-- `oy_1` Unknown Direction matrix parameter.
-- `oy_2` Unknown Direction matrix parameter.
-- `oy_3` Unknown Direction matrix parameter.
-- `oz_1` Unknown Direction matrix parameter.
-- `oz_2` Unknown Direction matrix parameter.
-- `oz_3` Unknown Direction matrix parameter.
+- `cx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> X coordinates of the shape relative to the origin.
+- `cy` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Y coordinates of the shape relative to the origin.
+- `cz` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Z coordinates of the shape relative to the origin.
+- `hw` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Obb is half the width.
+- `hh` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Obb is half the height.
+- `hl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Obb is half the Length.
+- `ox_1` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `ox_2` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `ox_3` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oy_1` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oy_2` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oy_3` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oz_1` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oz_2` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
+- `oz_3` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Direction matrix parameter.
 
 
 ##### getBoundary
@@ -193,7 +193,7 @@ Get the bounding points of this shape
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/obb.ts:225](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L225) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:225](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L225) |
 
 ###### Parameters
 - `minPos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -206,14 +206,14 @@ Transform this shape
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/obb.ts:240](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L240) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:240](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L240) |
 
 ###### Parameters
-- `m` Unknown The transformation matrix.
-- `pos` Unknown The position part of the transformation.
-- `rot` Unknown The rotating part of the transformation.
-- `scale` Unknown The scaling part of the transformation.
-- `out` Unknown Target of transformation.
+- `m` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> The transformation matrix.
+- `pos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> The position part of the transformation.
+- `rot` <a href="../classes/Quat.html" class="crosslink">Quat</a> The rotating part of the transformation.
+- `scale` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> The scaling part of the transformation.
+- `out` Obb Target of transformation.
 
 
 ##### translateAndRotate
@@ -222,12 +222,12 @@ Transform out based on this obb data.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/obb.ts:258](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L258) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:258](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L258) |
 
 ###### Parameters
-- `m` Unknown The transformation matrix.
-- `rot` Unknown The rotating part of the transformation.
-- `out` Unknown Target of transformation.
+- `m` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> The transformation matrix.
+- `rot` <a href="../classes/Quat.html" class="crosslink">Quat</a> The rotating part of the transformation.
+- `out` Obb Target of transformation.
 
 
 ##### setScale
@@ -236,11 +236,11 @@ Scale out based on this obb data.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/obb.ts:274](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/geom-utils/obb.ts#L274) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:274](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L274) |
 
 ###### Parameters
-- `scale` Unknown Scale value.
-- `out` Unknown Scaled target.
+- `scale` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Scale value.
+- `out` Obb Scaled target.
 
 
 

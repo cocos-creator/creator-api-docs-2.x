@@ -4,7 +4,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 通过位置和宽高定义的 2D 矩形。
@@ -60,7 +59,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:77](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L77) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:77](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L77) |
 
 
 
@@ -71,7 +70,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:81](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L81) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:81](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L81) |
 
 
 
@@ -82,7 +81,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:85](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L85) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:85](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L85) |
 
 
 
@@ -93,7 +92,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:89](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L89) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:89](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L89) |
 
 
 
@@ -104,7 +103,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:329](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L329) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:329](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L329) |
 
 
 
@@ -115,7 +114,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:343](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L343) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:343](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L343) |
 
 
 
@@ -126,7 +125,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:358](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L358) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:358](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L358) |
 
 
 
@@ -137,7 +136,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:371](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L371) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:371](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L371) |
 
 
 
@@ -148,7 +147,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:384](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L384) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:384](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L384) |
 
 
 
@@ -159,7 +158,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:398](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L398) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:398](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L398) |
 
 
 
@@ -170,7 +169,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| 定义于 | [cocos2d/core/value-types/rect.ts:411](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L411) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:411](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L411) |
 
 
 
@@ -187,7 +186,7 @@ Rect类的构造函数。可以通过 <a href="../modules/cc.html#method_rect" c
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/rect.ts:42](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L42) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:42](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L42) |
 
 ###### 参数列表
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -203,7 +202,7 @@ Rect类的构造函数。可以通过 <a href="../modules/cc.html#method_rect" c
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/value-types/rect.ts:57](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L57) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:57](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L57) |
 
 ###### 参数列表
 - `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -222,7 +221,7 @@ cc.Rect.fromMinMax(cc.v2(10, 10), cc.v2(20, 20)); // Rect {x: 10, y: 10, width: 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/value-types/rect.ts:108](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L108) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:108](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L108) |
 
 
 ##### 示例
@@ -239,7 +238,7 @@ a.clone();// Rect {x: 0, y: 0, width: 10, height: 10}
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/rect.ts:121](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L121) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:121](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L121) |
 
 ###### 参数列表
 - `other` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -259,7 +258,7 @@ a.equals(b);// true;
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/value-types/rect.ts:140](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L140) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:140](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L140) |
 
 ###### 参数列表
 - `to` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -286,7 +285,7 @@ update (dt) {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/rect.ts:179](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L179) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:179](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L179) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -306,7 +305,7 @@ a.intersects(b);// true
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/value-types/rect.ts:198](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L198) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:198](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L198) |
 
 ###### 参数列表
 - `out` <a href="../classes/Rect.html" class="crosslink">Rect</a> Stores the result
@@ -329,7 +328,7 @@ Returns true if the point inside this rectangle.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/rect.ts:221](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L221) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:221](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L221) |
 
 ###### 参数列表
 - `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -349,7 +348,7 @@ a.contains(b);// true
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/rect.ts:240](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L240) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:240](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L240) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -369,7 +368,7 @@ a.containsRect(b);// true
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/value-types/rect.ts:258](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L258) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:258](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L258) |
 
 ###### 参数列表
 - `out` <a href="../classes/Rect.html" class="crosslink">Rect</a> Stores the result
@@ -390,7 +389,7 @@ a.union(union, b); // union {x: 0, y: 10, width: 20, height: 20};
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/rect.ts:281](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L281) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:281](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L281) |
 
 ###### 参数列表
 - `out` <a href="../classes/Rect.html" class="crosslink">Rect</a> The output rect
@@ -404,7 +403,7 @@ a.union(union, b); // union {x: 0, y: 10, width: 20, height: 20};
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/value-types/rect.ts:315](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/rect.ts#L315) |
+| 定义于 | [cocos2d/core/value-types/rect.ts:315](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/rect.ts#L315) |
 
 
 ##### 示例
@@ -420,7 +419,7 @@ a.toString();// "(0.00, 0.00, 10.00, 10.00)";
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/value-type.ts:80](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/value-types/value-type.ts#L80) |
+| 定义于 | [cocos2d/core/value-types/value-type.ts:80](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/value-type.ts#L80) |
 
 ###### 参数列表
 - `source` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the source to copy

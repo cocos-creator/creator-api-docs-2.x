@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 物理接触会在开始和结束碰撞之间生成，并作为参数传入到碰撞回调函数中。
@@ -52,7 +51,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Collider.html" class="crosslink">Collider</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:423](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L423) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:423](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L423) |
 
 
 
@@ -63,7 +62,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Collider.html" class="crosslink">Collider</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:426](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L426) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:426](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L426) |
 
 
 
@@ -75,7 +74,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:429](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L429) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:429](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L429) |
 
 
 
@@ -86,7 +85,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:438](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L438) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:438](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L438) |
 
 
 
@@ -104,7 +103,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/WorldManifold.html" class="crosslink">WorldManifold</a> 
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:236](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L236) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:236](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L236) |
 
 
 
@@ -115,7 +114,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Manifold.html" class="crosslink">Manifold</a> 
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:276](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L276) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:276](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L276) |
 
 
 
@@ -127,7 +126,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/PhysicsImpulse.html" class="crosslink">PhysicsImpulse</a> 
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:318](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L318) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:318](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L318) |
 
 
 
@@ -138,7 +137,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:449](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L449) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:449](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L449) |
 
 
 
@@ -148,7 +147,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:461](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L461) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:461](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L461) |
 
 ###### 参数列表
 - `tangentSpeed` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -161,7 +160,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:472](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L472) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:472](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L472) |
 
 
 
@@ -171,7 +170,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:485](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L485) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:485](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L485) |
 
 ###### 参数列表
 - `friction` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -184,7 +183,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:496](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L496) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:496](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L496) |
 
 
 
@@ -194,7 +193,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:507](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L507) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:507](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L507) |
 
 
 
@@ -204,7 +203,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:517](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L517) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:517](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L517) |
 
 ###### 参数列表
 - `restitution` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -217,7 +216,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:528](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L528) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:528](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L528) |
 
 
 
@@ -227,7 +226,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:539](https://github.com/cocos-creator/engine/blob/246760b55cfc698ac5f3450a1794d9d0554a0600/cocos2d/core/physics/CCPhysicsContact.js#L539) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsContact.js:539](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/physics/CCPhysicsContact.js#L539) |
 
 
 
