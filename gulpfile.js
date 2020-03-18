@@ -122,6 +122,11 @@ gulp.task('build-md', ['cp-apisrc'], function (cb) {
     });
 });
 
+
+function hackTweenDoc (input) {
+    return input.replace('export class Tween', 'export class Tween<T>');
+}
+
 gulp.task('build-tsd', ['cp-apisrc'], function (cb) {
 
     const TSD_FOOTER =
@@ -174,6 +179,8 @@ declare const CC_WECHATGAME: boolean;
                 output += fs.readFileSync(d) + '\n';
             })
             output += TSD_FOOTER;
+
+            output = hackTweenDoc(output);
 
             fs.ensureDirSync(dirname(dest));
             fs.writeFileSync(dest, output, 'utf8');
