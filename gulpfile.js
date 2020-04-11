@@ -124,7 +124,7 @@ gulp.task('build-md', ['cp-apisrc'], function (cb) {
 
 
 function hackTweenDoc (input) {
-    return input.replace('export class Tween', 'export class Tween<T>');
+    return input.replace('export class Tween', 'export class Tween<T=any>');
 }
 
 gulp.task('build-tsd', ['cp-apisrc'], function (cb) {
