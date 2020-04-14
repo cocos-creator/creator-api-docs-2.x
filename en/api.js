@@ -223,6 +223,12 @@ window.apimeta = {
       "description": "Enum for RayCastType."
     },
     {
+      "name": "RenderTexture.DepthStencilFormat",
+      "namespace": "cc.RenderTexture.DepthStencilFormat",
+      "module": "cc",
+      "description": "The depth buffer and stencil buffer format for RenderTexture."
+    },
+    {
       "name": "RigidBodyType",
       "namespace": "cc.RigidBodyType",
       "module": "cc",
@@ -495,6 +501,12 @@ window.apimeta = {
       "description": "AffineTransform class represent an affine transform matrix. It's composed basically by translation, rotation, scale transformations.<br/>"
     },
     {
+      "name": "AlphaKey",
+      "namespace": "cc.AlphaKey",
+      "module": "cc",
+      "description": "The alpha key of gradient."
+    },
+    {
       "name": "Animation",
       "namespace": "cc.Animation",
       "module": "cc",
@@ -511,6 +523,12 @@ window.apimeta = {
       "namespace": "cc.AnimationClip",
       "module": "cc",
       "description": "Class for animation data handling."
+    },
+    {
+      "name": "AnimationCurve",
+      "namespace": "cc.AnimationCurve",
+      "module": "cc",
+      "description": "The animation curve of 3d particle."
     },
     {
       "name": "AnimationState",
@@ -577,6 +595,12 @@ window.apimeta = {
       "namespace": "cc.BufferAsset",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "Burst",
+      "namespace": "cc.Burst",
+      "module": "cc",
+      "description": "The burst of 3d particle."
     },
     {
       "name": "Button",
@@ -663,6 +687,18 @@ window.apimeta = {
       "description": "Representation of RGBA colors.\n\nEach color component is a floating point value with a range from 0 to 255.\n\nYou can also use the convenience method <a href=\"../modules/cc.html#method_color\" class=\"crosslink\">cc.color</a> to create a new Color."
     },
     {
+      "name": "ColorKey",
+      "namespace": "cc.ColorKey",
+      "module": "cc",
+      "description": "The color key of gradient."
+    },
+    {
+      "name": "ColorOvertimeModule",
+      "namespace": "cc.ColorOvertimeModule",
+      "module": "cc",
+      "description": "The color over time module of 3d particle."
+    },
+    {
       "name": "Component",
       "namespace": "cc.Component",
       "module": "cc",
@@ -691,6 +727,12 @@ window.apimeta = {
       "namespace": "cc.ContentStrategy",
       "module": "cc",
       "description": "<p>cc.ContentStrategy class is the root strategy class of content's scale strategy,\nit controls the behavior of how to scale the scene and setup the viewport for the game</p>"
+    },
+    {
+      "name": "CurveRange",
+      "namespace": "cc.CurveRange",
+      "module": "cc",
+      "description": "The curve range of target value."
     },
     {
       "name": "Details",
@@ -813,10 +855,28 @@ window.apimeta = {
       "description": "Class for Font handling."
     },
     {
+      "name": "ForceOvertimeModule",
+      "namespace": "cc.ForceOvertimeModule",
+      "module": "cc",
+      "description": "The force over time module of 3d particle."
+    },
+    {
       "name": "Game",
       "namespace": "cc.Game",
       "module": "cc",
       "description": "An object to boot the game."
+    },
+    {
+      "name": "Gradient",
+      "namespace": "cc.Gradient",
+      "module": "cc",
+      "description": "The gradient data of color."
+    },
+    {
+      "name": "GradientRange",
+      "namespace": "cc.GradientRange",
+      "module": "cc",
+      "description": "The gradient range of color."
     },
     {
       "name": "Graphics",
@@ -957,6 +1017,12 @@ window.apimeta = {
       "description": "The Light Component"
     },
     {
+      "name": "LimitVelocityOvertimeModule",
+      "namespace": "cc.LimitVelocityOvertimeModule",
+      "module": "cc",
+      "description": "The limit velocity module of 3d particle."
+    },
+    {
       "name": "LoadingItems",
       "namespace": "cc.LoadingItems",
       "module": "cc",
@@ -1051,6 +1117,12 @@ window.apimeta = {
       "namespace": "cc.NodePool",
       "module": "cc",
       "description": "cc.NodePool is the cache pool designed for node type.<br/>\n It can helps you to improve your game performance for objects which need frequent release and recreate operations<br/>\n\nIt's recommended to create cc.NodePool instances by node type, the type corresponds to node type in game design, not the class,\nfor example, a prefab is a specific node type. <br/>\nWhen you create a node pool, you can pass a Component which contains `unuse`, `reuse` functions to control the content of node.<br/>\n\nSome common use case is :<br/>\n     1. Bullets in game (die very soon, massive creation and recreation, no side effect on other objects)<br/>\n     2. Blocks in candy crash (massive creation and recreation)<br/>\n     etc..."
+    },
+    {
+      "name": "OptimizedCurve",
+      "namespace": "cc.OptimizedCurve",
+      "module": "cc",
+      "description": "The optimized curve."
     },
     {
       "name": "OriginalContainer",
@@ -1299,6 +1371,12 @@ window.apimeta = {
       "description": "A rope joint enforces a maximum distance between two points\non two bodies. It has no other effect.\nWarning: if you attempt to change the maximum length during\nthe simulation you will get some non-physical behavior."
     },
     {
+      "name": "RotationOvertimeModule",
+      "namespace": "cc.RotationOvertimeModule",
+      "module": "cc",
+      "description": "The rotation module of 3d particle."
+    },
+    {
       "name": "Scene",
       "namespace": "cc.Scene",
       "module": "cc",
@@ -1329,10 +1407,22 @@ window.apimeta = {
       "description": "The Scrollbar control allows the user to scroll an image or other view that is too large to see completely"
     },
     {
+      "name": "ShapeModule",
+      "namespace": "cc.ShapeModule",
+      "module": "cc",
+      "description": "The shape module of 3d particle."
+    },
+    {
       "name": "Size",
       "namespace": "cc.Size",
       "module": "cc",
       "description": "cc.Size is the class for size object,<br/>\nplease do not use its constructor to create sizes,<br/>\nuse <a href=\"../modules/cc.html#method_size\" class=\"crosslink\">size</a> alias function instead.<br/>\nIt will be deprecated soon, please use cc.Vec2 instead."
+    },
+    {
+      "name": "SizeOvertimeModule",
+      "namespace": "cc.SizeOvertimeModule",
+      "module": "cc",
+      "description": "The size module of 3d particle."
     },
     {
       "name": "Skeleton",
@@ -1461,6 +1551,12 @@ window.apimeta = {
       "description": "This class allows to easily create OpenGL or Canvas 2D textures from images or raw data."
     },
     {
+      "name": "TextureAnimationModule",
+      "namespace": "cc.TextureAnimationModule",
+      "module": "cc",
+      "description": "The texture animation module of 3d particle."
+    },
+    {
       "name": "TiledLayer",
       "namespace": "cc.TiledLayer",
       "module": "cc",
@@ -1515,6 +1611,12 @@ window.apimeta = {
       "description": "The touch event class"
     },
     {
+      "name": "TrailModule",
+      "namespace": "cc.TrailModule",
+      "module": "cc",
+      "description": "The trail module of 3d particle."
+    },
+    {
       "name": "Tween",
       "namespace": "cc.Tween",
       "module": "cc",
@@ -1549,6 +1651,12 @@ window.apimeta = {
       "namespace": "cc.Vec4",
       "module": "cc",
       "description": "Representation of 3D vectors and points."
+    },
+    {
+      "name": "VelocityOvertimeModule",
+      "namespace": "cc.VelocityOvertimeModule",
+      "module": "cc",
+      "description": "The velocity module of 3d particle."
     },
     {
       "name": "VertexEffectDelegate",

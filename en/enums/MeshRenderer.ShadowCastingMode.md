@@ -24,7 +24,7 @@ ch 关闭阴影投射
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/mesh/CCMeshRenderer.js:52](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/mesh/CCMeshRenderer.js#L52) |
+| Defined in | [cocos2d/core/mesh/CCMeshRenderer.js:52](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/mesh/CCMeshRenderer.js#L52) |
 
 
 
@@ -36,6 +36,6 @@ ch 开启阴影投射，当阴影光产生的时候
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/mesh/CCMeshRenderer.js:61](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/mesh/CCMeshRenderer.js#L61) |
+| Defined in | [cocos2d/core/mesh/CCMeshRenderer.js:61](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/mesh/CCMeshRenderer.js#L61) |
 
 

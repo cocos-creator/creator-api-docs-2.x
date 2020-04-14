@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 The downloader pipe, it can download several types of files:
@@ -44,7 +43,7 @@ Constructor of Downloader, you can pass custom supported types.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/downloader.js:205](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/load-pipeline/downloader.js#L205) |
+| 定义于 | [cocos2d/core/load-pipeline/downloader.js:217](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/downloader.js#L217) |
 
 ###### 参数列表
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
@@ -64,7 +63,7 @@ Add custom supported types handler or modify existing type handler.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/downloader.js:230](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/load-pipeline/downloader.js#L230) |
+| 定义于 | [cocos2d/core/load-pipeline/downloader.js:242](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/downloader.js#L242) |
 
 ###### 参数列表
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
@@ -76,7 +75,7 @@ Add custom supported types handler or modify existing type handler.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/downloader.js:288](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/load-pipeline/downloader.js#L288) |
+| 定义于 | [cocos2d/core/load-pipeline/downloader.js:300](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/downloader.js#L300) |
 
 ###### 参数列表
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Subpackage name

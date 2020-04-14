@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 设置材质混合模式的辅助类。
@@ -33,7 +34,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
-| 定义于 | [cocos2d/core/utils/blend-func.js:21](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/utils/blend-func.js#L21) |
+| 定义于 | [cocos2d/core/utils/blend-func.js:21](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/blend-func.js#L21) |
 
 ##### 示例
 
@@ -49,7 +50,7 @@ sprite.srcBlendFactor = cc.macro.BlendFactor.ONE;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
-| 定义于 | [cocos2d/core/utils/blend-func.js:44](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/utils/blend-func.js#L44) |
+| 定义于 | [cocos2d/core/utils/blend-func.js:44](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/blend-func.js#L44) |
 
 ##### 示例
 

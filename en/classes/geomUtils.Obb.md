@@ -47,7 +47,7 @@ obb
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/geom-utils/obb.ts:53](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L53) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:53](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L53) |
 
 
 
@@ -58,7 +58,7 @@ obb
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/obb.ts:185](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L185) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:185](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L185) |
 
 
 
@@ -69,7 +69,7 @@ obb
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/obb.ts:194](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L194) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:194](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L194) |
 
 
 
@@ -80,7 +80,7 @@ obb
 | meta | description |
 |------|-------------|
 | Type | Mat3 |
-| Defined in | [cocos2d/core/geom-utils/obb.ts:203](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L203) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:203](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L203) |
 
 
 
@@ -98,7 +98,7 @@ create a new obb
 | meta | description |
 |------|-------------|
 | Returns | Obb 
-| Defined in | [cocos2d/core/geom-utils/obb.ts:63](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L63) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:63](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L63) |
 
 ###### Parameters
 - `cx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> X coordinates of the shape relative to the origin.
@@ -125,7 +125,7 @@ clone a new obb
 | meta | description |
 |------|-------------|
 | Returns | Obb 
-| Defined in | [cocos2d/core/geom-utils/obb.ts:95](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L95) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:95](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L95) |
 
 ###### Parameters
 - `a` Obb The target of cloning.
@@ -138,7 +138,7 @@ copy the values from one obb to another
 | meta | description |
 |------|-------------|
 | Returns | Obb 
-| Defined in | [cocos2d/core/geom-utils/obb.ts:113](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L113) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:113](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L113) |
 
 ###### Parameters
 - `out` Obb Obb that accepts the operation.
@@ -152,7 +152,7 @@ create a new obb from two corner points
 | meta | description |
 |------|-------------|
 | Returns | Obb 
-| Defined in | [cocos2d/core/geom-utils/obb.ts:131](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L131) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:131](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L131) |
 
 ###### Parameters
 - `out` Obb Obb that accepts the operation.
@@ -167,7 +167,7 @@ Set the components of a obb to the given values
 | meta | description |
 |------|-------------|
 | Returns | Obb 
-| Defined in | [cocos2d/core/geom-utils/obb.ts:149](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L149) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:149](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L149) |
 
 ###### Parameters
 - `cx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> X coordinates of the shape relative to the origin.
@@ -193,7 +193,7 @@ Get the bounding points of this shape
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/obb.ts:225](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L225) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:225](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L225) |
 
 ###### Parameters
 - `minPos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -206,7 +206,7 @@ Transform this shape
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/obb.ts:240](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L240) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:240](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L240) |
 
 ###### Parameters
 - `m` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> The transformation matrix.
@@ -222,7 +222,7 @@ Transform out based on this obb data.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/obb.ts:258](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L258) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:258](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L258) |
 
 ###### Parameters
 - `m` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> The transformation matrix.
@@ -236,7 +236,7 @@ Scale out based on this obb data.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/obb.ts:274](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/obb.ts#L274) |
+| Defined in | [cocos2d/core/geom-utils/obb.ts:274](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/obb.ts#L274) |
 
 ###### Parameters
 - `scale` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Scale value.

@@ -1,9 +1,10 @@
 ## `GraySpriteState` 类型
 
 
-定义于: [https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/utils/gray-sprite-state.js:8](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/utils/gray-sprite-state.js#L8)
+定义于: [https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js:8](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L8)
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 An internal helper class for switching render component's material between normal sprite material and gray sprite material.
@@ -34,7 +35,7 @@ An internal helper class for switching render component's material between norma
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Material.html" class="crosslink">Material</a> |
-| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:16](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/utils/gray-sprite-state.js#L16) |
+| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:16](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L16) |
 
 
 
@@ -45,7 +46,7 @@ An internal helper class for switching render component's material between norma
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Material.html" class="crosslink">Material</a> |
-| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:38](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/utils/gray-sprite-state.js#L38) |
+| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:38](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L38) |
 
 
 

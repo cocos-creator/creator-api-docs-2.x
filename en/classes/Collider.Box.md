@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Defines a Box Collider .
@@ -33,7 +34,7 @@ Defines a Box Collider .
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/collider/CCBoxCollider.js:41](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/collider/CCBoxCollider.js#L41) |
+| Defined in | [cocos2d/core/collider/CCBoxCollider.js:41](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/collider/CCBoxCollider.js#L41) |
 
 
 
@@ -44,7 +45,7 @@ Defines a Box Collider .
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined in | [cocos2d/core/collider/CCBoxCollider.js:58](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/collider/CCBoxCollider.js#L58) |
+| Defined in | [cocos2d/core/collider/CCBoxCollider.js:58](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/collider/CCBoxCollider.js#L58) |
 
 
 

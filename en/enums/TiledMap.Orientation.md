@@ -23,7 +23,7 @@ The orientation of tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:43](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/tilemap/CCTiledMap.js#L43) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:43](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTiledMap.js#L43) |
 
 
 
@@ -34,7 +34,7 @@ The orientation of tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:52](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/tilemap/CCTiledMap.js#L52) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:52](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTiledMap.js#L52) |
 
 
 
@@ -46,6 +46,6 @@ The orientation of tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:61](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/tilemap/CCTiledMap.js#L61) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:61](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTiledMap.js#L61) |
 
 

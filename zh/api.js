@@ -223,6 +223,12 @@ window.apimeta = {
       "description": "射线检测类型"
     },
     {
+      "name": "RenderTexture.DepthStencilFormat",
+      "namespace": "cc.RenderTexture.DepthStencilFormat",
+      "module": "cc",
+      "description": "RenderTexture 的深度缓冲以及模板缓冲格式。"
+    },
+    {
       "name": "RigidBodyType",
       "namespace": "cc.RigidBodyType",
       "module": "cc",
@@ -495,6 +501,12 @@ window.apimeta = {
       "description": "AffineTransform 类代表一个仿射变换矩阵。它基本上是由平移旋转，缩放转变所组成。<br/>"
     },
     {
+      "name": "AlphaKey",
+      "namespace": "cc.AlphaKey",
+      "module": "cc",
+      "description": "alpha 关键帧"
+    },
+    {
       "name": "Animation",
       "namespace": "cc.Animation",
       "module": "cc",
@@ -511,6 +523,12 @@ window.apimeta = {
       "namespace": "cc.AnimationClip",
       "module": "cc",
       "description": "动画剪辑，用于存储动画数据。"
+    },
+    {
+      "name": "AnimationCurve",
+      "namespace": "cc.AnimationCurve",
+      "module": "cc",
+      "description": "3D 粒子动画曲线"
     },
     {
       "name": "AnimationState",
@@ -577,6 +595,12 @@ window.apimeta = {
       "namespace": "cc.BufferAsset",
       "module": "cc",
       "description": ""
+    },
+    {
+      "name": "Burst",
+      "namespace": "cc.Burst",
+      "module": "cc",
+      "description": "3D 粒子发射时的爆发个数"
     },
     {
       "name": "Button",
@@ -663,6 +687,18 @@ window.apimeta = {
       "description": "cc.Color 用于表示颜色。\n\n它包含 RGBA 四个以浮点数保存的颜色分量，每个的值都在 0 到 255 之间。\n\n您也可以通过使用 <a href=\"../modules/cc.html#method_color\" class=\"crosslink\">cc.color</a> 的便捷方法来创建一个新的 Color。"
     },
     {
+      "name": "ColorKey",
+      "namespace": "cc.ColorKey",
+      "module": "cc",
+      "description": "color 关键帧"
+    },
+    {
+      "name": "ColorOvertimeModule",
+      "namespace": "cc.ColorOvertimeModule",
+      "module": "cc",
+      "description": "3D 粒子颜色变化模块"
+    },
+    {
       "name": "Component",
       "namespace": "cc.Component",
       "module": "cc",
@@ -691,6 +727,12 @@ window.apimeta = {
       "namespace": "cc.ContentStrategy",
       "module": "cc",
       "description": "<p>cc.ContentStrategy class is the root strategy class of content's scale strategy,\nit controls the behavior of how to scale the scene and setup the viewport for the game</p>"
+    },
+    {
+      "name": "CurveRange",
+      "namespace": "cc.CurveRange",
+      "module": "cc",
+      "description": "目标值的曲线范围"
     },
     {
       "name": "Details",
@@ -813,10 +855,28 @@ window.apimeta = {
       "description": "字体资源类。"
     },
     {
+      "name": "ForceOvertimeModule",
+      "namespace": "cc.ForceOvertimeModule",
+      "module": "cc",
+      "description": "3D 粒子的加速度模块"
+    },
+    {
       "name": "Game",
       "namespace": "cc.Game",
       "module": "cc",
       "description": "包含游戏主体信息并负责驱动游戏的游戏对象。"
+    },
+    {
+      "name": "Gradient",
+      "namespace": "cc.Gradient",
+      "module": "cc",
+      "description": "颜色渐变数据"
+    },
+    {
+      "name": "GradientRange",
+      "namespace": "cc.GradientRange",
+      "module": "cc",
+      "description": "颜色值的渐变范围"
     },
     {
       "name": "Graphics",
@@ -957,6 +1017,12 @@ window.apimeta = {
       "description": "光源组件"
     },
     {
+      "name": "LimitVelocityOvertimeModule",
+      "namespace": "cc.LimitVelocityOvertimeModule",
+      "module": "cc",
+      "description": "3D 粒子的限速模块"
+    },
+    {
       "name": "LoadingItems",
       "namespace": "cc.LoadingItems",
       "module": "cc",
@@ -1051,6 +1117,12 @@ window.apimeta = {
       "namespace": "cc.NodePool",
       "module": "cc",
       "description": "cc.NodePool 是用于管理节点对象的对象缓存池。<br/>\n它可以帮助您提高游戏性能，适用于优化对象的反复创建和销毁<br/>\n以前 cocos2d-x 中的 cc.pool 和新的节点事件注册系统不兼容，因此请使用 cc.NodePool 来代替。\n\n新的 NodePool 需要实例化之后才能使用，每种不同的节点对象池需要一个不同的对象池实例，这里的种类对应于游戏中的节点设计，一个 prefab 相当于一个种类的节点。<br/>\n在创建缓冲池时，可以传入一个包含 unuse, reuse 函数的组件类型用于节点的回收和复用逻辑。<br/>\n\n一些常见的用例是：<br/>\n     1.在游戏中的子弹（死亡很快，频繁创建，对其他对象无副作用）<br/>\n     2.糖果粉碎传奇中的木块（频繁创建）。\n     等等...."
+    },
+    {
+      "name": "OptimizedCurve",
+      "namespace": "cc.OptimizedCurve",
+      "module": "cc",
+      "description": "优化曲线"
     },
     {
       "name": "OriginalContainer",
@@ -1299,6 +1371,12 @@ window.apimeta = {
       "description": "绳子关节只指定两个刚体间的最大距离，没有其他的效果。\n注意：如果你试图动态修改关节的长度，这有可能会得到一些意外的效果。"
     },
     {
+      "name": "RotationOvertimeModule",
+      "namespace": "cc.RotationOvertimeModule",
+      "module": "cc",
+      "description": "3D 粒子的旋转模块"
+    },
+    {
       "name": "Scene",
       "namespace": "cc.Scene",
       "module": "cc",
@@ -1329,10 +1407,22 @@ window.apimeta = {
       "description": "滚动条组件"
     },
     {
+      "name": "ShapeModule",
+      "namespace": "cc.ShapeModule",
+      "module": "cc",
+      "description": "3D 粒子的发射形状模块"
+    },
+    {
       "name": "Size",
       "namespace": "cc.Size",
       "module": "cc",
       "description": "cc.Size 是 size 对象的类。<br/>\n请不要使用它的构造函数创建的 size，<br/>\n使用 <a href=\"../modules/cc.html#method_size\" class=\"crosslink\">size</a> 别名函数。<br/>\n它不久将被取消，请使用cc.Vec2代替。"
+    },
+    {
+      "name": "SizeOvertimeModule",
+      "namespace": "cc.SizeOvertimeModule",
+      "module": "cc",
+      "description": "3D 粒子的大小模块"
     },
     {
       "name": "Skeleton",
@@ -1461,6 +1551,12 @@ window.apimeta = {
       "description": "This class allows to easily create OpenGL or Canvas 2D textures from images or raw data."
     },
     {
+      "name": "TextureAnimationModule",
+      "namespace": "cc.TextureAnimationModule",
+      "module": "cc",
+      "description": "3D 粒子的贴图动画模块"
+    },
+    {
       "name": "TiledLayer",
       "namespace": "cc.TiledLayer",
       "module": "cc",
@@ -1515,6 +1611,12 @@ window.apimeta = {
       "description": "封装了触摸相关的信息。"
     },
     {
+      "name": "TrailModule",
+      "namespace": "cc.TrailModule",
+      "module": "cc",
+      "description": "3D 粒子拖尾模块"
+    },
+    {
       "name": "Tween",
       "namespace": "cc.Tween",
       "module": "cc",
@@ -1549,6 +1651,12 @@ window.apimeta = {
       "namespace": "cc.Vec4",
       "module": "cc",
       "description": "表示 3D 向量和坐标"
+    },
+    {
+      "name": "VelocityOvertimeModule",
+      "namespace": "cc.VelocityOvertimeModule",
+      "module": "cc",
+      "description": "3D 粒子的速度模块"
     },
     {
       "name": "VertexEffectDelegate",

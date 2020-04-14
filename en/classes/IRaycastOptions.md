@@ -35,7 +35,7 @@ Ray cast options
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-world.ts:37](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-world.ts#L37) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-world.ts:37](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/spec/i-physics-world.ts#L37) |
 
 
 
@@ -46,7 +46,7 @@ Ray cast options
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-world.ts:41](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-world.ts#L41) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-world.ts:41](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/spec/i-physics-world.ts#L41) |
 
 
 
@@ -57,7 +57,7 @@ Ray cast options
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-world.ts:45](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-world.ts#L45) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-world.ts:45](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/spec/i-physics-world.ts#L45) |
 
 
 

@@ -37,7 +37,7 @@ Ray cast, and return information of the closest hit.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-world.ts:59](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-world.ts#L59) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-world.ts:59](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/spec/i-physics-world.ts#L59) |
 
 ###### Parameters
 - `worldRay` Ray 
@@ -52,7 +52,7 @@ Ray cast against all bodies. The provided callback will be executed for each hit
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-world.ts:69](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/physics/spec/i-physics-world.ts#L69) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-world.ts:69](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/spec/i-physics-world.ts#L69) |
 
 ###### Parameters
 - `worldRay` Ray 

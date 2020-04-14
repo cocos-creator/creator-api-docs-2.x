@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Helper class for setting material blend function.
@@ -33,7 +34,7 @@ Helper class for setting material blend function.
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
-| Defined in | [cocos2d/core/utils/blend-func.js:21](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/utils/blend-func.js#L21) |
+| Defined in | [cocos2d/core/utils/blend-func.js:21](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/blend-func.js#L21) |
 
 ##### Examples
 
@@ -49,7 +50,7 @@ sprite.srcBlendFactor = cc.macro.BlendFactor.ONE;
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
-| Defined in | [cocos2d/core/utils/blend-func.js:44](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/utils/blend-func.js#L44) |
+| Defined in | [cocos2d/core/utils/blend-func.js:44](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/blend-func.js#L44) |
 
 ##### Examples
 

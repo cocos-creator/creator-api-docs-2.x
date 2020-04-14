@@ -60,7 +60,7 @@ Check whether ray intersect with nodes
 | meta | description |
 |------|-------------|
 | Returns |  
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:88](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L88) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:88](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L88) |
 
 ###### Parameters
 - `root` <a href="../classes/Node.html" class="crosslink">Node</a> If root is null, then traversal nodes from scene node
@@ -76,7 +76,7 @@ ray-plane intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:201](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L201) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:201](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L201) |
 
 ###### Parameters
 - `ray` <a href="../classes/geomUtils.Ray.html" class="crosslink">geomUtils.Ray</a> 
@@ -90,7 +90,7 @@ line-plane intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:223](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L223) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:223](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L223) |
 
 ###### Parameters
 - `line` <a href="../classes/geomUtils.Line.html" class="crosslink">geomUtils.Line</a> 
@@ -104,7 +104,7 @@ ray-triangle intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:244](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L244) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:244](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L244) |
 
 ###### Parameters
 - `ray` <a href="../classes/geomUtils.Ray.html" class="crosslink">geomUtils.Ray</a> 
@@ -119,7 +119,7 @@ line-triangle intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:287](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L287) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:287](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L287) |
 
 ###### Parameters
 - `line` <a href="../classes/geomUtils.Line.html" class="crosslink">geomUtils.Line</a> 
@@ -134,7 +134,7 @@ line-quad intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:352](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L352) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:352](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L352) |
 
 ###### Parameters
 - `p` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> A point on a line segment
@@ -153,7 +153,7 @@ ray-sphere intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:445](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L445) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:445](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L445) |
 
 ###### Parameters
 - `ray` <a href="../classes/geomUtils.Ray.html" class="crosslink">geomUtils.Ray</a> 
@@ -167,7 +167,7 @@ ray-aabb intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:476](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L476) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:476](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L476) |
 
 ###### Parameters
 - `ray` <a href="../classes/geomUtils.Ray.html" class="crosslink">geomUtils.Ray</a> 
@@ -181,7 +181,7 @@ ray-obb intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:509](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L509) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:509](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L509) |
 
 ###### Parameters
 - `ray` <a href="../classes/geomUtils.Ray.html" class="crosslink">geomUtils.Ray</a> 
@@ -195,7 +195,7 @@ aabb-aabb intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:589](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L589) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:589](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L589) |
 
 ###### Parameters
 - `aabb1` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> Axis alignment surrounds box 1
@@ -209,7 +209,7 @@ aabb-obb intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:678](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L678) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:678](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L678) |
 
 ###### Parameters
 - `aabb` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> Align the axis around the box
@@ -223,7 +223,7 @@ aabb-plane intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:733](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L733) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:733](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L733) |
 
 ###### Parameters
 - `aabb` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> Align the axis around the box
@@ -237,7 +237,7 @@ aabb-frustum intersect, faster but has false positive corner cases<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:752](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L752) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:752](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L752) |
 
 ###### Parameters
 - `aabb` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> Align the axis around the box
@@ -251,7 +251,7 @@ aabb-frustum intersect, handles most of the false positives correctly<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:772](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L772) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:772](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L772) |
 
 ###### Parameters
 - `aabb` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> Align the axis around the box
@@ -265,7 +265,7 @@ obb-point intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:824](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L824) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:824](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L824) |
 
 ###### Parameters
 - `obb` <a href="../classes/geomUtils.Obb.html" class="crosslink">geomUtils.Obb</a> Direction box
@@ -279,7 +279,7 @@ obb-plane intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:843](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L843) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:843](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L843) |
 
 ###### Parameters
 - `obb` <a href="../classes/geomUtils.Obb.html" class="crosslink">geomUtils.Obb</a> Direction box
@@ -293,7 +293,7 @@ obb-frustum intersect, faster but has false positive corner cases<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:870](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L870) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:870](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L870) |
 
 ###### Parameters
 - `obb` <a href="../classes/geomUtils.Obb.html" class="crosslink">geomUtils.Obb</a> Direction box
@@ -307,7 +307,7 @@ obb-frustum intersect, handles most of the false positives correctly<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:890](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L890) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:890](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L890) |
 
 ###### Parameters
 - `obb` <a href="../classes/geomUtils.Obb.html" class="crosslink">geomUtils.Obb</a> Direction box
@@ -321,7 +321,7 @@ obb-obb intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:949](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L949) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:949](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L949) |
 
 ###### Parameters
 - `obb1` <a href="../classes/geomUtils.Obb.html" class="crosslink">geomUtils.Obb</a> Direction box1
@@ -337,7 +337,7 @@ the unnomalized plane distance<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:1004](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L1004) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:1004](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L1004) |
 
 ###### Parameters
 - `sphere` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -351,7 +351,7 @@ sphere-frustum intersect, faster but has false positive corner cases<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:1023](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L1023) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:1023](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L1023) |
 
 ###### Parameters
 - `sphere` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -365,7 +365,7 @@ sphere-frustum intersect, handles the false positives correctly<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:1043](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L1043) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:1043](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L1043) |
 
 ###### Parameters
 - `sphere` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -379,7 +379,7 @@ sphere-sphere intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:1076](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L1076) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:1076](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L1076) |
 
 ###### Parameters
 - `sphere0` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -393,7 +393,7 @@ sphere-aabb intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:1090](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L1090) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:1090](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L1090) |
 
 ###### Parameters
 - `sphere` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -407,7 +407,7 @@ sphere-obb intersect<br/>
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:1107](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L1107) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:1107](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L1107) |
 
 ###### Parameters
 - `sphere` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -420,7 +420,7 @@ The intersection detection of g1 and g2 can fill in the shape in the basic geome
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/intersect.ts:1159](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/geom-utils/intersect.ts#L1159) |
+| Defined in | [cocos2d/core/geom-utils/intersect.ts:1159](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/geom-utils/intersect.ts#L1159) |
 
 ###### Parameters
 - `g1` Unknown Geometry 1

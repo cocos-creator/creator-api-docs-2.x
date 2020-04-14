@@ -11,6 +11,8 @@
 ### 索引
   - `NONE`
   - `HARD`
+  - `SOFT_PCF3X3`
+  - `SOFT_PCF5X5`
 
 ### Details
 
@@ -22,7 +24,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/CCLightComponent.js:97](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/CCLightComponent.js#L97) |
+| 定义于 | [cocos2d/core/3d/CCLightComponent.js:97](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/CCLightComponent.js#L97) |
 
 
 
@@ -33,6 +35,28 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/CCLightComponent.js:115](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/CCLightComponent.js#L115) |
+| 定义于 | [cocos2d/core/3d/CCLightComponent.js:106](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/CCLightComponent.js#L106) |
+
+
+
+##### SOFT_PCF3X3
+
+> PCF 3x3 软阴影
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [cocos2d/core/3d/CCLightComponent.js:115](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/CCLightComponent.js#L115) |
+
+
+
+##### SOFT_PCF5X5
+
+> PCF 5x5 软阴影
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [cocos2d/core/3d/CCLightComponent.js:124](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/CCLightComponent.js#L124) |
 
 

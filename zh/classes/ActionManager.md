@@ -62,7 +62,7 @@ var mng = new cc.ActionManager();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:105](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L105) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:105](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L105) |
 
 ###### 参数列表
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> 
@@ -76,7 +76,7 @@ var mng = new cc.ActionManager();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:144](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L144) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:144](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L144) |
 
 
 
@@ -87,7 +87,7 @@ var mng = new cc.ActionManager();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:159](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L159) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:159](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L159) |
 
 ###### 参数列表
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -100,7 +100,7 @@ var mng = new cc.ActionManager();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:180](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L180) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:180](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L180) |
 
 ###### 参数列表
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> 
@@ -112,7 +112,7 @@ var mng = new cc.ActionManager();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:208](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L208) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:221](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L221) |
 
 ###### 参数列表
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -126,7 +126,7 @@ var mng = new cc.ActionManager();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Action.html" class="crosslink">Action</a> &#124; Null 
-| 定义于 | [cocos2d/actions/CCActionManager.js:235](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L235) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:247](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L247) |
 
 ###### 参数列表
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -144,7 +144,7 @@ var mng = new cc.ActionManager();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/actions/CCActionManager.js:262](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L262) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:274](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L274) |
 
 ###### 参数列表
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -156,7 +156,7 @@ var mng = new cc.ActionManager();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:287](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L287) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:299](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L299) |
 
 ###### 参数列表
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -168,7 +168,7 @@ var mng = new cc.ActionManager();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:298](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L298) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:310](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L310) |
 
 ###### 参数列表
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -181,7 +181,7 @@ var mng = new cc.ActionManager();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/actions/CCActionManager.js:310](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L310) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:322](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L322) |
 
 
 
@@ -191,7 +191,7 @@ var mng = new cc.ActionManager();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:329](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L329) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:341](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L341) |
 
 ###### 参数列表
 - `targetsToResume` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -203,7 +203,7 @@ var mng = new cc.ActionManager();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:345](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L345) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:357](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L357) |
 
 ###### 参数列表
 - `targetsToPause` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -216,7 +216,7 @@ var mng = new cc.ActionManager();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:361](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L361) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:373](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L373) |
 
 
 
@@ -226,7 +226,7 @@ ActionManager 主循环。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/actions/CCActionManager.js:408](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/actions/CCActionManager.js#L408) |
+| 定义于 | [cocos2d/actions/CCActionManager.js:420](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/CCActionManager.js#L420) |
 
 ###### 参数列表
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> delta time in seconds

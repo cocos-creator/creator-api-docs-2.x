@@ -45,7 +45,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:172](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/tilemap/CCTMXXMLParser.js#L172) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:172](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L172) |
 
 
 
@@ -56,7 +56,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:177](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/tilemap/CCTMXXMLParser.js#L177) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:177](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L177) |
 
 
 
@@ -67,7 +67,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:182](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/tilemap/CCTMXXMLParser.js#L182) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:182](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L182) |
 
 
 
@@ -78,7 +78,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:187](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/tilemap/CCTMXXMLParser.js#L187) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:187](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L187) |
 
 
 
@@ -89,7 +89,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | Type | Any |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:192](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/tilemap/CCTMXXMLParser.js#L192) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:192](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L192) |
 
 
 
@@ -100,7 +100,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | Type | cc.Size |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:197](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/tilemap/CCTMXXMLParser.js#L197) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:197](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L197) |
 
 
 

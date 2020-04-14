@@ -4,6 +4,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 表示 2D 向量和坐标
@@ -87,7 +88,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/quat.ts:844](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L844) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:844](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L844) |
 
 
 
@@ -98,7 +99,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/quat.ts:848](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L848) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:848](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L848) |
 
 
 
@@ -109,7 +110,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/quat.ts:852](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L852) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:852](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L852) |
 
 
 
@@ -120,7 +121,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/value-types/quat.ts:856](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L856) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:856](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L856) |
 
 
 
@@ -137,7 +138,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:48](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L48) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:48](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L48) |
 
 ###### 参数列表
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -153,7 +154,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/quat.ts:65](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L65) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:65](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L65) |
 
 ###### 参数列表
 - `other` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
@@ -166,7 +167,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:79](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L79) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:79](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L79) |
 
 
 
@@ -176,7 +177,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:91](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L91) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:91](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L91) |
 
 
 
@@ -186,7 +187,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:107](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L107) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:107](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L107) |
 
 
 
@@ -196,7 +197,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:123](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L123) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:123](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L123) |
 
 
 
@@ -206,7 +207,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:139](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L139) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:139](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L139) |
 
 
 
@@ -217,7 +218,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/value-types/quat.ts:173](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L173) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:173](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L173) |
 
 ###### 参数列表
 - `outAxis` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 旋转轴输出
@@ -230,7 +231,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:200](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L200) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:200](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L200) |
 
 
 
@@ -240,7 +241,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:220](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L220) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:220](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L220) |
 
 
 
@@ -250,7 +251,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:236](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L236) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:236](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L236) |
 
 
 
@@ -260,7 +261,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:252](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L252) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:252](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L252) |
 
 ###### 参数列表
 - `rad` Unknown 旋转弧度
@@ -272,7 +273,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:274](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L274) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:274](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L274) |
 
 ###### 参数列表
 - `rad` Unknown 旋转弧度
@@ -284,7 +285,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:296](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L296) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:296](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L296) |
 
 ###### 参数列表
 - `rad` Unknown 旋转弧度
@@ -296,7 +297,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:318](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L318) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:318](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L318) |
 
 ###### 参数列表
 - `axis` Unknown 旋转轴，默认已归一化
@@ -309,7 +310,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:338](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L338) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:338](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L338) |
 
 ###### 参数列表
 - `axis` Unknown 旋转轴
@@ -322,7 +323,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:354](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L354) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:354](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L354) |
 
 
 
@@ -332,7 +333,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:371](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L371) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:371](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L371) |
 
 
 
@@ -342,7 +343,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:383](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L383) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:383](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L383) |
 
 
 
@@ -352,7 +353,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:444](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L444) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:444](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L444) |
 
 
 
@@ -362,7 +363,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:459](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L459) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:459](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L459) |
 
 
 
@@ -372,7 +373,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:480](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L480) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:480](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L480) |
 
 
 
@@ -382,7 +383,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:496](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L496) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:496](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L496) |
 
 
 
@@ -392,7 +393,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:508](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L508) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:508](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L508) |
 
 
 
@@ -402,7 +403,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:520](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L520) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:520](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L520) |
 
 
 
@@ -412,7 +413,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:540](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L540) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:540](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L540) |
 
 
 
@@ -422,7 +423,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:557](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L557) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:557](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L557) |
 
 ###### 参数列表
 - `view` Unknown 视口面向的前方向，必须归一化
@@ -435,7 +436,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:572](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L572) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:572](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L572) |
 
 
 
@@ -445,7 +446,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:590](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L590) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:590](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L590) |
 
 ###### 参数列表
 - `out` Quat Quaternion to store result.
@@ -458,7 +459,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:605](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L605) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:605](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L605) |
 
 
 
@@ -468,7 +469,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:657](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L657) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:657](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L657) |
 
 
 
@@ -478,7 +479,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:685](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L685) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:685](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L685) |
 
 
 
@@ -488,7 +489,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:703](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L703) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:703](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L703) |
 
 
 
@@ -498,7 +499,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:722](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L722) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:722](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L722) |
 
 
 
@@ -508,7 +509,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:741](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L741) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:741](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L741) |
 
 ###### 参数列表
 - `outerZ` Unknown z 取值范围区间改为 [-180, -90] U [90, 180]
@@ -520,7 +521,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:781](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L781) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:781](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L781) |
 
 
 
@@ -530,7 +531,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:793](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L793) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:793](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L793) |
 
 
 
@@ -540,7 +541,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:809](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L809) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:809](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L809) |
 
 ###### 参数列表
 - `ofs` Unknown 数组内的起始偏移量
@@ -552,7 +553,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/value-types/quat.ts:826](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L826) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:826](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L826) |
 
 ###### 参数列表
 - `ofs` Unknown 数组起始偏移量
@@ -565,7 +566,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/quat.ts:878](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L878) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:878](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L878) |
 
 
 
@@ -576,7 +577,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/quat.ts:888](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L888) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:888](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L888) |
 
 ###### 参数列表
 - `newValue` <a href="../classes/Quat.html" class="crosslink">Quat</a> !#en new value to set. !#zh 要设置的新值
@@ -589,7 +590,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/value-types/quat.ts:904](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L904) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:904](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L904) |
 
 ###### 参数列表
 - `other` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
@@ -602,7 +603,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| 定义于 | [cocos2d/core/value-types/quat.ts:915](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L915) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:915](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L915) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -615,7 +616,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/quat.ts:926](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L926) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:926](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L926) |
 
 ###### 参数列表
 - `euler` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -628,7 +629,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/quat.ts:937](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L937) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:937](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L937) |
 
 ###### 参数列表
 - `to` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
@@ -643,7 +644,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/quat.ts:952](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L952) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:952](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L952) |
 
 ###### 参数列表
 - `other` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
@@ -656,7 +657,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/value-types/quat.ts:963](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/quat.ts#L963) |
+| 定义于 | [cocos2d/core/value-types/quat.ts:963](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L963) |
 
 ###### 参数列表
 - `rot` <a href="../classes/Quat.html" class="crosslink">Quat</a> Quaternion to rotate
@@ -672,7 +673,7 @@ Set a quaternion from the given euler angle 0, 0, z.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| 定义于 | [cocos2d/core/value-types/value-type.ts:92](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/value-types/value-type.ts#L92) |
+| 定义于 | [cocos2d/core/value-types/value-type.ts:92](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/value-type.ts#L92) |
 
 
 

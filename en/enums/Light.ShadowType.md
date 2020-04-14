@@ -11,6 +11,8 @@ The shadow type
 ### Index
   - `NONE`
   - `HARD`
+  - `SOFT_PCF3X3`
+  - `SOFT_PCF5X5`
 
 ### Details
 
@@ -22,7 +24,7 @@ The shadow type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:97](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/CCLightComponent.js#L97) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:97](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/CCLightComponent.js#L97) |
 
 
 
@@ -33,6 +35,28 @@ The shadow type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:115](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/3d/CCLightComponent.js#L115) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:106](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/CCLightComponent.js#L106) |
+
+
+
+##### SOFT_PCF3X3
+
+> Soft PCF 3x3 shadows
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:115](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/CCLightComponent.js#L115) |
+
+
+
+##### SOFT_PCF5X5
+
+> Soft PCF 5x5 shadows
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:124](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/CCLightComponent.js#L124) |
 
 

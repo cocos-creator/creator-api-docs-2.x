@@ -45,7 +45,7 @@ Returns the current touch location in OpenGL coordinates.、
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:45](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L45) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:45](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L45) |
 
 
 
@@ -56,7 +56,7 @@ Returns X axis location value.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:55](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L55) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:55](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L55) |
 
 
 
@@ -67,7 +67,7 @@ Returns Y axis location value.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:65](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L65) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:65](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L65) |
 
 
 
@@ -78,7 +78,7 @@ Returns the previous touch location in OpenGL coordinates.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:75](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L75) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:75](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L75) |
 
 
 
@@ -89,7 +89,7 @@ Returns the start touch location in OpenGL coordinates.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:85](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L85) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:85](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L85) |
 
 
 
@@ -100,7 +100,7 @@ Returns the delta distance from the previous touche to the current one in screen
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:95](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L95) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:95](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L95) |
 
 
 
@@ -111,7 +111,7 @@ Returns the current touch location in screen coordinates.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:105](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L105) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:105](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L105) |
 
 
 
@@ -122,7 +122,7 @@ Returns the previous touch location in screen coordinates.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:115](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L115) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:115](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L115) |
 
 
 
@@ -133,7 +133,7 @@ Returns the start touch location in screen coordinates.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:125](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L125) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:125](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L125) |
 
 
 
@@ -144,7 +144,7 @@ Returns the id of cc.Touch.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:135](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L135) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:135](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L135) |
 
 
 
@@ -154,7 +154,7 @@ Sets information to touch.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event-manager/CCTouch.js:145](https://github.com/cocos-creator/engine/blob/9b7a7dc11ce49f0fdca3c34df5ab59604060c0a4/cocos2d/core/event-manager/CCTouch.js#L145) |
+| Defined in | [cocos2d/core/event-manager/CCTouch.js:145](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event-manager/CCTouch.js#L145) |
 
 ###### Parameters
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
