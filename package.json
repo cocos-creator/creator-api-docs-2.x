@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "This repo is for hosting Cocos Creator API website with [Gitbook](https://gitbook.com).",
   "main": "index.js",
-  "devDependencies": {
+  "dependencies": {
     "commander": "^2.12.2",
     "del": "^3.0.0",
     "event-stream": "3.3.4",
     "firedoc": "github:cocos-creator/firedoc#gitbook",
     "fs-extra": "^6.0.0",
+    "gitbook-plugin-anchorjs": "^2.1.0",
+    "gitbook-plugin-github-issue-feedback-language-custom": "git+https://github.com/cocos-creator/gitbook-plugin-github-issue-feedback.git",
+    "gitbook-plugin-search-title": "0.0.2",
+    "gitbook-plugin-sharing": "^1.0.2",
+    "gitbook-plugin-splitter": "0.0.8",
+    "gitbook-plugin-theme-default-customize": "git+https://github.com/cocos-creator/theme-default.git",
+    "globby": "^8.0.1",
     "gulp": "^3.9.1"
   },
   "scripts": {

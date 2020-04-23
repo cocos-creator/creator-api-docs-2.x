@@ -36,7 +36,7 @@ it will be inited as the canvas render engine. Canvas render engine is no longer
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/renderer/index.js:74](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/renderer/index.js#L74) |
+| Defined in | [cocos2d/core/renderer/index.js:71](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/renderer/index.js#L71) |
 
 
 
@@ -47,7 +47,7 @@ it will be inited as the canvas render engine. Canvas render engine is no longer
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/renderer/index.js:101](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/renderer/index.js#L101) |
+| Defined in | [cocos2d/core/renderer/index.js:98](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/renderer/index.js#L98) |
 
 
 

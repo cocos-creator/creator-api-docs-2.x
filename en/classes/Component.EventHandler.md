@@ -17,11 +17,21 @@ And it will trigger the handler when a certain event occurs.
 ##### Examples
 
 ```js
+// Let's say we have a MainMenu component on newTarget
+// file: MainMenu.js
+cc.Class({
+  extends: cc.Component,
+  // sender: the node MainMenu.js belongs to
+  // eventType: CustomEventData
+  onClick (sender, eventType) {
+    cc.log('click');
+  }
+})
 // Create new EventHandler
 var eventHandler = new cc.Component.EventHandler();
 eventHandler.target = newTarget;
 eventHandler.component = "MainMenu";
-eventHandler.handler = "OnClick";
+eventHandler.handler = "onClick";
 eventHandler.customEventData = "my data";
 ```
 
@@ -29,10 +39,10 @@ eventHandler.customEventData = "my data";
 
 ##### Properties
 
-  - [`target`](#target) `Node` Event target
-  - [`component`](#component) `String` Component name
-  - [`handler`](#handler) `String` Event handler
-  - [`customEventData`](#customeventdata) `String` Custom Event Data
+  - [`target`](#target) `Node` the node that contains target callback, such as the node example script belongs to
+  - [`component`](#component) `String` name of the component(script) that contains target callback, such as the name 'MainMenu' of script in example
+  - [`handler`](#handler) `String` Event handler, such as function's name 'onClick' in example
+  - [`customEventData`](#customeventdata) `String` Custom Event Data, such as 'eventType' in example
 
 
 
@@ -51,45 +61,45 @@ eventHandler.customEventData = "my data";
 
 ##### target
 
-> Event target
+> the node that contains target callback, such as the node example script belongs to
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:51](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L51) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:61](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/components/CCComponentEventHandler.js#L61) |
 
 
 
 ##### component
 
-> Component name
+> name of the component(script) that contains target callback, such as the name 'MainMenu' of script in example
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:62](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L62) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:72](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/components/CCComponentEventHandler.js#L72) |
 
 
 
 ##### handler
 
-> Event handler
+> Event handler, such as function's name 'onClick' in example
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:82](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L82) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:92](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/components/CCComponentEventHandler.js#L92) |
 
 
 
 ##### customEventData
 
-> Custom Event Data
+> Custom Event Data, such as 'eventType' in example
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:93](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L93) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:103](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/components/CCComponentEventHandler.js#L103) |
 
 
 
@@ -106,7 +116,7 @@ eventHandler.customEventData = "my data";
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:106](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L106) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:116](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/components/CCComponentEventHandler.js#L116) |
 
 ###### Parameters
 - `events` <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> 
@@ -119,7 +129,7 @@ Emit event with params
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:130](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/components/CCComponentEventHandler.js#L130) |
+| Defined in | [cocos2d/core/components/CCComponentEventHandler.js:140](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/components/CCComponentEventHandler.js#L140) |
 
 ###### Parameters
 - `params` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 

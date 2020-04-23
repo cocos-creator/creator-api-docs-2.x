@@ -2,7 +2,7 @@
 
 
 
-模块: [cc](../modules/cc.md)
+模块: [_decorator](../modules/_decorator.md)
 父模块: [cc](../modules/cc.md)
 
 
@@ -36,7 +36,7 @@ whether enable accelerometer event
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputExtension.js:57](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCInputExtension.js#L57) |
+| 定义于 | [cocos2d/core/platform/CCInputExtension.js:57](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/platform/CCInputExtension.js#L57) |
 
 ###### 参数列表
 - `isEnable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -48,7 +48,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputExtension.js:85](https://github.com/cocos-creator/engine/blob/b4415d3f111db35eb92e588d63bcb560003ea469/cocos2d/core/platform/CCInputExtension.js#L85) |
+| 定义于 | [cocos2d/core/platform/CCInputExtension.js:85](https://github.com/cocos-creator/engine/blob/9fcea4ca5a6c5c1d8ce45ebc6ba7ad7d1b723f25/cocos2d/core/platform/CCInputExtension.js#L85) |
 
 ###### 参数列表
 - `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
