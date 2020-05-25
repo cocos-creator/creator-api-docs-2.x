@@ -103,9 +103,9 @@ emitter.startSpin = 0;
   - [`DURATION_INFINITY`](#durationinfinity) `Number` 表示发射器永久存在
   - [`START_SIZE_EQUAL_TO_END_SIZE`](#startsizeequaltoendsize) `Number` 表示粒子的起始大小等于结束大小。
   - [`START_RADIUS_EQUAL_TO_END_RADIUS`](#startradiusequaltoendradius) `Number` 表示粒子的起始半径等于结束半径。
+  - [`sharedMaterials`](#sharedmaterials) `[Material]` 渲染组件使用的材质。
   - [`srcBlendFactor`](#srcblendfactor) `macro.BlendFactor` 指定原图的混合模式，这会克隆一个新的材质对象，注意这带来的开销
   - [`dstBlendFactor`](#dstblendfactor) `macro.BlendFactor` 指定目标的混合模式
-  - [`sharedMaterials`](#sharedmaterials) `[Material]` 渲染组件使用的材质。
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` 该组件被附加到的节点。
   - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
@@ -715,6 +715,17 @@ emitter.startSpin = 0;
 
 
 
+##### sharedMaterials
+
+> 渲染组件使用的材质。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/Material.html" class="crosslink">[Material]</a> |
+| 定义于 | [cocos2d/core/components/CCRenderComponent.js:60](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCRenderComponent.js#L60) |
+
+
+
 ##### srcBlendFactor
 
 > 指定原图的混合模式，这会克隆一个新的材质对象，注意这带来的开销
@@ -745,17 +756,6 @@ sprite.srcBlendFactor = cc.macro.BlendFactor.ONE;
 ```js
 sprite.dstBlendFactor = cc.macro.BlendFactor.ONE;
 ```
-
-
-##### sharedMaterials
-
-> 渲染组件使用的材质。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/Material.html" class="crosslink">[Material]</a> |
-| 定义于 | [cocos2d/core/components/CCRenderComponent.js:60](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCRenderComponent.js#L60) |
-
 
 
 ##### __eventTargets

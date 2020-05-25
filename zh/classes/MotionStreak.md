@@ -4,7 +4,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 运动轨迹，用于游戏对象的运动轨迹上实现拖尾渐隐效果。
@@ -22,8 +21,6 @@
   - [`texture`](#texture) `Texture2D` 拖尾的贴图。
   - [`color`](#color) `Color` 拖尾的颜色
   - [`fastMode`](#fastmode) `Boolean` 是否启用了快速模式。
-  - [`srcBlendFactor`](#srcblendfactor) `macro.BlendFactor` 指定原图的混合模式，这会克隆一个新的材质对象，注意这带来的开销
-  - [`dstBlendFactor`](#dstblendfactor) `macro.BlendFactor` 指定目标的混合模式
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` 该组件被附加到的节点。
   - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
@@ -31,6 +28,8 @@
   - [`enabled`](#enabled) `Boolean` 表示该组件自身是否启用。
   - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` 表示该组件是否被启用并且所在的节点也处于激活状态。
   - [`_isOnLoadCalled`](#isonloadcalled) `Number` 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
+  - [`srcBlendFactor`](#srcblendfactor) `macro.BlendFactor` 指定原图的混合模式，这会克隆一个新的材质对象，注意这带来的开销
+  - [`dstBlendFactor`](#dstblendfactor) `macro.BlendFactor` 指定目标的混合模式
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
   - [`name`](#name) `String` 该对象的名称。
@@ -184,38 +183,6 @@ motionStreak.fastMode = true;
 ```
 
 
-##### srcBlendFactor
-
-> 指定原图的混合模式，这会克隆一个新的材质对象，注意这带来的开销
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
-| 定义于 | [cocos2d/core/utils/blend-func.js:21](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/blend-func.js#L21) |
-
-##### 示例
-
-```js
-sprite.srcBlendFactor = cc.macro.BlendFactor.ONE;
-```
-
-
-##### dstBlendFactor
-
-> 指定目标的混合模式
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
-| 定义于 | [cocos2d/core/utils/blend-func.js:44](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/blend-func.js#L44) |
-
-##### 示例
-
-```js
-sprite.dstBlendFactor = cc.macro.BlendFactor.ONE;
-```
-
-
 ##### __eventTargets
 
 > Register all related EventTargets,
@@ -317,6 +284,38 @@ cc.log(comp.enabledInHierarchy);
 
 ```js
 cc.log(this._isOnLoadCalled > 0);
+```
+
+
+##### srcBlendFactor
+
+> 指定原图的混合模式，这会克隆一个新的材质对象，注意这带来的开销
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
+| 定义于 | [cocos2d/core/utils/blend-func.js:21](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/blend-func.js#L21) |
+
+##### 示例
+
+```js
+sprite.srcBlendFactor = cc.macro.BlendFactor.ONE;
+```
+
+
+##### dstBlendFactor
+
+> 指定目标的混合模式
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
+| 定义于 | [cocos2d/core/utils/blend-func.js:44](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/blend-func.js#L44) |
+
+##### 示例
+
+```js
+sprite.dstBlendFactor = cc.macro.BlendFactor.ONE;
 ```
 
 

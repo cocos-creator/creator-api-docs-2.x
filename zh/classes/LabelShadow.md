@@ -4,7 +4,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 用于给 Label 组件添加阴影效果，只能用于系统字体或 ttf 字体

@@ -4,7 +4,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 Toggle 是一个 CheckBox，当它和 ToggleGroup 一起使用的时候，可以变成 RadioButton。
@@ -19,8 +18,6 @@ Toggle 是一个 CheckBox，当它和 ToggleGroup 一起使用的时候，可以
   - [`toggleGroup`](#togglegroup) `ToggleGroup` Toggle 所属的 ToggleGroup，这个属性是可选的。
   - [`checkMark`](#checkmark) `Sprite` Toggle 处于选中状态时显示的图片
   - [`checkEvents`](#checkevents) `Component.EventHandler[]` Toggle 按钮的点击事件列表。
-  - [`normalMaterial`](#normalmaterial) `Material` 正常状态的材质。
-  - [`grayMaterial`](#graymaterial) `Material` 置灰状态的材质。
   - [`interactable`](#interactable) `Boolean` 按钮事件是否被响应，如果为 false，则按钮将被禁用。
   - [`enableAutoGrayEffect`](#enableautograyeffect) `Boolean` 如果这个标记为 true，当 button 的 interactable 属性为 false 的时候，会使用内置 shader 让 button 的 target 节点的 sprite 组件变灰
   - [`transition`](#transition) `Button.Transition` 按钮状态改变时过渡方式。
@@ -36,6 +33,8 @@ Toggle 是一个 CheckBox，当它和 ToggleGroup 一起使用的时候，可以
   - [`disabledSprite`](#disabledsprite) `SpriteFrame` 禁用状态下按钮所显示的 Sprite 。
   - [`target`](#target) `Node` 需要过渡的目标。
   - [`clickEvents`](#clickevents) `Component.EventHandler[]` 按钮的点击事件列表。
+  - [`normalMaterial`](#normalmaterial) `Material` 正常状态的材质。
+  - [`grayMaterial`](#graymaterial) `Material` 置灰状态的材质。
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` 该组件被附加到的节点。
   - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
@@ -138,28 +137,6 @@ Toggle 是一个 CheckBox，当它和 ToggleGroup 一起使用的时候，可以
 |------|-------------|
 | 类型 | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
 | 定义于 | [cocos2d/core/components/CCToggle.js:113](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCToggle.js#L113) |
-
-
-
-##### normalMaterial
-
-> 正常状态的材质。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/Material.html" class="crosslink">Material</a> |
-| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:16](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L16) |
-
-
-
-##### grayMaterial
-
-> 置灰状态的材质。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/Material.html" class="crosslink">Material</a> |
-| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:38](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L38) |
 
 
 
@@ -329,6 +306,28 @@ Toggle 是一个 CheckBox，当它和 ToggleGroup 一起使用的时候，可以
 |------|-------------|
 | 类型 | <a href="../classes/Component.EventHandler.html" class="crosslink">Component.EventHandler[]</a> |
 | 定义于 | [cocos2d/core/components/CCButton.js:412](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCButton.js#L412) |
+
+
+
+##### normalMaterial
+
+> 正常状态的材质。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/Material.html" class="crosslink">Material</a> |
+| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:16](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L16) |
+
+
+
+##### grayMaterial
+
+> 置灰状态的材质。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/Material.html" class="crosslink">Material</a> |
+| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:38](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L38) |
 
 
 
@@ -950,7 +949,6 @@ Init this object from the custom serialized data.
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。
@@ -974,7 +972,6 @@ Init this object from the custom serialized data.
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。

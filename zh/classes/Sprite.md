@@ -4,7 +4,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 该组件用于在场景中渲染精灵。
@@ -31,9 +30,9 @@
   - [`fillRange`](#fillrange) `Number` 填充范围，仅渲染类型设置为 cc.Sprite.Type.FILLED 时有效。
   - [`trim`](#trim) `Boolean` 是否使用裁剪模式
   - [`sizeMode`](#sizemode) `Sprite.SizeMode` 精灵尺寸调整模式
+  - [`sharedMaterials`](#sharedmaterials) `[Material]` 渲染组件使用的材质。
   - [`srcBlendFactor`](#srcblendfactor) `macro.BlendFactor` 指定原图的混合模式，这会克隆一个新的材质对象，注意这带来的开销
   - [`dstBlendFactor`](#dstblendfactor) `macro.BlendFactor` 指定目标的混合模式
-  - [`sharedMaterials`](#sharedmaterials) `[Material]` 渲染组件使用的材质。
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` 该组件被附加到的节点。
   - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
@@ -221,6 +220,17 @@ sprite.sizeMode = cc.Sprite.SizeMode.CUSTOM;
 ```
 
 
+##### sharedMaterials
+
+> 渲染组件使用的材质。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/Material.html" class="crosslink">[Material]</a> |
+| 定义于 | [cocos2d/core/components/CCRenderComponent.js:60](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCRenderComponent.js#L60) |
+
+
+
 ##### srcBlendFactor
 
 > 指定原图的混合模式，这会克隆一个新的材质对象，注意这带来的开销
@@ -251,17 +261,6 @@ sprite.srcBlendFactor = cc.macro.BlendFactor.ONE;
 ```js
 sprite.dstBlendFactor = cc.macro.BlendFactor.ONE;
 ```
-
-
-##### sharedMaterials
-
-> 渲染组件使用的材质。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/Material.html" class="crosslink">[Material]</a> |
-| 定义于 | [cocos2d/core/components/CCRenderComponent.js:60](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCRenderComponent.js#L60) |
-
 
 
 ##### __eventTargets

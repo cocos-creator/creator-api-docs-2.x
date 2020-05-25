@@ -450,7 +450,6 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`isValid`](#isvalid) 检查该对象是否不为 null 并且尚未销毁。
   - [`deserialize`](#deserialize) 将 JSON 反序列化为对象实例。
   - [`instantiate`](#instantiate) 克隆指定的任意类型的对象，或者从 Prefab 实例化出新节点。
-  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive....
   - [`color`](#color) 通过该方法来创建一个新的 Color/Color:method 对象。
   - [`toArray`](#toarray) 矩阵转数组
   - [`fromArray`](#fromarray) 数组转矩阵
@@ -475,6 +474,7 @@ Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属�
   - [`sign`](#sign) Returns -1, 0, +1 depending on sign of x.
   - [`v2`](#v2) 通过该简便的函数进行创建 <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a> 对象。
   - [`v3`](#v3) 通过该简便的函数进行创建 <a href="../classes/Vec3.html" class="crosslink">cc.Vec3</a> 对象。
+  - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive....
   - [`get`](#get) 
   - [`set`](#set) 
   - [`reset`](#reset) 
@@ -2785,23 +2785,6 @@ var node = cc.instantiate(targetNode);
 node.parent = scene;
 ```
 
-##### find
-
-Finds a node by hierarchy path, the path is case-sensitive.
-It will traverse the hierarchy by splitting the path using '/' character.
-This function will still returns the node even if it is inactive.
-It is recommended to not use this function every frame instead cache the result at startup.
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| 定义于 | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/find.js#L30) |
-
-###### 参数列表
-- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
-
-
 ##### color
 
 通过该方法来创建一个新的 Color/Color:method 对象。
@@ -3190,6 +3173,23 @@ var v2 = cc.v3(0, 0, 0);
 var v3 = cc.v3(v2);
 var v4 = cc.v3({x: 100, y: 100, z: 0});
 ```
+
+##### find
+
+Finds a node by hierarchy path, the path is case-sensitive.
+It will traverse the hierarchy by splitting the path using '/' character.
+This function will still returns the node even if it is inactive.
+It is recommended to not use this function every frame instead cache the result at startup.
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
+| 定义于 | [cocos2d/core/utils/find.js:30](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/find.js#L30) |
+
+###### 参数列表
+- `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `referenceNode` <a href="../classes/Node.html" class="crosslink">Node</a> 
+
 
 ##### get
 

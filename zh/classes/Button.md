@@ -4,7 +4,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 按钮组件。可以被按下，或者点击。
@@ -70,8 +69,6 @@ button.node.on('click', function (button) {
   - [`disabledSprite`](#disabledsprite) `SpriteFrame` 禁用状态下按钮所显示的 Sprite 。
   - [`target`](#target) `Node` 需要过渡的目标。
   - [`clickEvents`](#clickevents) `Component.EventHandler[]` 按钮的点击事件列表。
-  - [`normalMaterial`](#normalmaterial) `Material` 正常状态的材质。
-  - [`grayMaterial`](#graymaterial) `Material` 置灰状态的材质。
   - [`__eventTargets`](#eventtargets) `Array` Register all related EventTargets,...
   - [`node`](#node) `Node` 该组件被附加到的节点。
   - [`uuid`](#uuid) `String` 组件的 uuid，用于编辑器。
@@ -79,6 +76,8 @@ button.node.on('click', function (button) {
   - [`enabled`](#enabled) `Boolean` 表示该组件自身是否启用。
   - [`enabledInHierarchy`](#enabledinhierarchy) `Boolean` 表示该组件是否被启用并且所在的节点也处于激活状态。
   - [`_isOnLoadCalled`](#isonloadcalled) `Number` 返回一个值用来判断 onLoad 是否被调用过，不等于 0 时调用过，等于 0 时未调用。
+  - [`normalMaterial`](#normalmaterial) `Material` 正常状态的材质。
+  - [`grayMaterial`](#graymaterial) `Material` 置灰状态的材质。
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
   - [`name`](#name) `String` 该对象的名称。
@@ -298,28 +297,6 @@ button.node.on('click', function (button) {
 
 
 
-##### normalMaterial
-
-> 正常状态的材质。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/Material.html" class="crosslink">Material</a> |
-| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:16](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L16) |
-
-
-
-##### grayMaterial
-
-> 置灰状态的材质。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="../classes/Material.html" class="crosslink">Material</a> |
-| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:38](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L38) |
-
-
-
 ##### __eventTargets
 
 > Register all related EventTargets,
@@ -422,6 +399,28 @@ cc.log(comp.enabledInHierarchy);
 ```js
 cc.log(this._isOnLoadCalled > 0);
 ```
+
+
+##### normalMaterial
+
+> 正常状态的材质。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/Material.html" class="crosslink">Material</a> |
+| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:16](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L16) |
+
+
+
+##### grayMaterial
+
+> 置灰状态的材质。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/Material.html" class="crosslink">Material</a> |
+| 定义于 | [cocos2d/core/utils/gray-sprite-state.js:38](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/utils/gray-sprite-state.js#L38) |
+
 
 
 ##### _name
@@ -918,7 +917,6 @@ Init this object from the custom serialized data.
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 注意：此事件是从该组件所属的 Node 上面派发出来的，需要用 node.on 来监听。

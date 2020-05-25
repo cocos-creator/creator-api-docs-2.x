@@ -41,9 +41,6 @@ Physics sphere collider
   - [`on`](#on) Register an callback of a specific event type on the EventTarget.
   - [`off`](#off) Removes the listeners previously registered with the same type, callback, target and or useCapture,...
   - [`once`](#once) Register an callback of a specific event type on the EventTarget,...
-  - [`hasEventListener`](#haseventlistener) Checks whether the EventTarget object has any callback registered for a specific type of event.
-  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target (passed as parameter).
-  - [`dispatchEvent`](#dispatchevent) Send an event with the event object.
   - [`update`](#update) This is a lifecycle method.
   - [`lateUpdate`](#lateupdate) This is a lifecycle method.
   - [`__preload`](#preload) `__preload` is called before every onLoad.
@@ -66,6 +63,9 @@ Physics sphere collider
   - [`scheduleOnce`](#scheduleonce) Schedules a callback function that runs only once, with a delay of 0 or larger.
   - [`unschedule`](#unschedule) Unschedules a custom callback function.
   - [`unscheduleAllCallbacks`](#unscheduleallcallbacks) unschedule all scheduled callback functions: custom callback functions, and the 'update' callback function....
+  - [`hasEventListener`](#haseventlistener) Checks whether the EventTarget object has any callback registered for a specific type of event.
+  - [`targetOff`](#targetoff) Removes all callbacks previously registered with the same target (passed as parameter).
+  - [`dispatchEvent`](#dispatchevent) Send an event with the event object.
   - [`destroy`](#destroy) Actual object destruction will delayed until before rendering.
   - [`_destruct`](#destruct) Clear all references in the instance.
   - [`_onPreDestroy`](#onpredestroy) Called before the object being destroyed.
@@ -406,46 +406,6 @@ eventTarget.once('fire', function (event) {
     // event is ITriggerEvent or ICollisionEvent
 }, node);
 ```
-
-##### hasEventListener
-
-Checks whether the EventTarget object has any callback registered for a specific type of event.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L69) |
-
-###### Parameters
-- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
-
-
-##### targetOff
-
-Removes all callbacks previously registered with the same target (passed as parameter).
-This is not for removing all listeners in the current event target,
-and this is not for removing all listeners the target parameter have registered.
-It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L163) |
-
-###### Parameters
-- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
-
-
-##### dispatchEvent
-
-Send an event with the event object.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:208](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L208) |
-
-###### Parameters
-- `event` <a href="../classes/Event.html" class="crosslink">Event</a>  
-
 
 ##### update
 
@@ -790,6 +750,46 @@ Actions are not affected by this method.
 ```js
 this.unscheduleAllCallbacks();
 ```
+
+##### hasEventListener
+
+Checks whether the EventTarget object has any callback registered for a specific type of event.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L69) |
+
+###### Parameters
+- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
+
+
+##### targetOff
+
+Removes all callbacks previously registered with the same target (passed as parameter).
+This is not for removing all listeners in the current event target,
+and this is not for removing all listeners the target parameter have registered.
+It's only for removing all listeners (callback and target couple) registered on the current event target by the target parameter.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L163) |
+
+###### Parameters
+- `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
+
+
+##### dispatchEvent
+
+Send an event with the event object.
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/event/event-target.js:208](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L208) |
+
+###### Parameters
+- `event` <a href="../classes/Event.html" class="crosslink">Event</a>  
+
 
 ##### destroy
 

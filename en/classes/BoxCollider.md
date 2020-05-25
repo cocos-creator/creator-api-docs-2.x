@@ -4,7 +4,6 @@ Extends [`Collider`](Collider.md), [`Collider.Box`](Collider.Box.md)(mixin)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Box Collider.

@@ -320,10 +320,9 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
 ##### Properties
 
   - [`ENGINE_VERSION`](#engineversion) `String` The current version of Cocos2d being used....
-  - [`easing`](#easing) `Easing` This is a Easing instance.
   - [`director`](#director) `Director` Director
   - [`game`](#game) `Game` This is a Game instance.
-  - [`systemEvent`](#systemevent) `SystemEvent` The System event singleton for global usage
+  - [`easing`](#easing) `Easing` This is a Easing instance.
   - [`offset`](#offset) `Number` The offset of the range.
   - [`length`](#length) `Number` The length of the range.
   - [`data`](#data) `BufferRange` The data range of this bundle.
@@ -332,6 +331,7 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`data`](#data) `BufferRange` The data range of the primitive.
   - [`indexUnit`](#indexunit) `Number` The type of this primitive's indices.
   - [`topology`](#topology) `Number` The primitive's topology.
+  - [`systemEvent`](#systemevent) `SystemEvent` The System event singleton for global usage
   - [`view`](#view) `View` cc.view is the shared view object.
   - [`winSize`](#winsize) `Size` cc.winSize is the alias object for the size of the current game window.
   - [`Integer`](#integer) `string` Specify that the input value must be integer in Inspector.
@@ -452,12 +452,12 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`instantiate`](#instantiate) Clones the object `original` and returns the clone, or instantiate a node from the Prefab.
   - [`find`](#find) Finds a node by hierarchy path, the path is case-sensitive.
   - [`color`](#color) Alpha channel is optional.
-  - [`mat4`](#mat4) The convenience method to create a new <a href="../classes/Mat4.html" class="crosslink">cc.Mat4</a>.
   - [`toArray`](#toarray) Matrix transpose array
   - [`fromArray`](#fromarray) Transfer matrix array
   - [`constructor`](#constructor) 
-  - [`rect`](#rect) The convenience method to create a new Rect.
+  - [`mat4`](#mat4) The convenience method to create a new <a href="../classes/Mat4.html" class="crosslink">cc.Mat4</a>.
   - [`quat`](#quat) The convenience method to create a new <a href="../classes/Quat.html" class="crosslink">cc.Quat</a>.
+  - [`rect`](#rect) The convenience method to create a new Rect.
   - [`size`](#size) Helper function that creates a cc.Size....
   - [`clamp`](#clamp) Clamps a value between a minimum float and maximum float value.
   - [`clamp01`](#clamp01) Clamps a value between 0 and 1.
@@ -473,8 +473,8 @@ The main namespace of Cocos2d-JS, all engine core classes, functions, properties
   - [`repeat`](#repeat) Returns time wrapped in ping-pong mode
   - [`repeat`](#repeat) Returns ratio of a value within a given range
   - [`sign`](#sign) Returns -1, 0, +1 depending on sign of x.
-  - [`v3`](#v3) The convenience method to create a new <a href="../classes/Vec3.html" class="crosslink">cc.Vec3</a>.
   - [`v2`](#v2) The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
+  - [`v3`](#v3) The convenience method to create a new <a href="../classes/Vec3.html" class="crosslink">cc.Vec3</a>.
   - [`get`](#get) Get an element
   - [`set`](#set) Set an element
   - [`reset`](#reset) Sets all elements to zero
@@ -500,17 +500,6 @@ If you post a bug to forum, please attach this flag.
 
 
 
-##### easing
-
-> This is a Easing instance.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="../classes/Easing.html" class="crosslink">Easing</a> |
-| Defined in | [cocos2d/animation/easing.js:534](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/animation/easing.js#L534) |
-
-
-
 ##### director
 
 > Director
@@ -533,14 +522,14 @@ If you post a bug to forum, please attach this flag.
 
 
 
-##### systemEvent
+##### easing
 
-> The System event singleton for global usage
+> This is a Easing instance.
 
 | meta | description |
 |------|-------------|
-| Type | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
-| Defined in | [cocos2d/core/event/system-event.js:200](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/system-event.js#L200) |
+| Type | <a href="../classes/Easing.html" class="crosslink">Easing</a> |
+| Defined in | [cocos2d/animation/easing.js:534](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/animation/easing.js#L534) |
 
 
 
@@ -631,6 +620,17 @@ This range of data is essentially mapped to a GPU indices buffer.
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
 | Defined in | [cocos2d/core/mesh/mesh-data.js:123](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/mesh/mesh-data.js#L123) |
+
+
+
+##### systemEvent
+
+> The System event singleton for global usage
+
+| meta | description |
+|------|-------------|
+| Type | <a href="../classes/SystemEvent.html" class="crosslink">SystemEvent</a> |
+| Defined in | [cocos2d/core/event/system-event.js:200](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/system-event.js#L200) |
 
 
 
@@ -2855,34 +2855,6 @@ var color3 = new cc.Color({r: 255, g: 255, b: 255, a: 255});
 
 ```
 
-##### mat4
-
-The convenience method to create a new <a href="../classes/Mat4.html" class="crosslink">cc.Mat4</a>.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| Defined in | [cocos2d/core/value-types/mat4.ts:1998](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/mat4.ts#L1998) |
-
-###### Parameters
-- `m00` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 0, row 0 position (index 0)
-- `m01` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 0, row 1 position (index 1)
-- `m02` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 0, row 2 position (index 2)
-- `m03` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 0, row 3 position (index 3)
-- `m10` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 1, row 0 position (index 4)
-- `m11` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 1, row 1 position (index 5)
-- `m12` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 1, row 2 position (index 6)
-- `m13` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 1, row 3 position (index 7)
-- `m20` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 2, row 0 position (index 8)
-- `m21` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 2, row 1 position (index 9)
-- `m22` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 2, row 2 position (index 10)
-- `m23` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 2, row 3 position (index 11)
-- `m30` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 3, row 0 position (index 12)
-- `m31` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 3, row 1 position (index 13)
-- `m32` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 3, row 2 position (index 14)
-- `m33` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 3, row 3 position (index 15)
-
-
 ##### toArray
 
 Matrix transpose array
@@ -2917,6 +2889,50 @@ Transfer matrix array
 
 
 
+##### mat4
+
+The convenience method to create a new <a href="../classes/Mat4.html" class="crosslink">cc.Mat4</a>.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
+| Defined in | [cocos2d/core/value-types/mat4.ts:1998](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/mat4.ts#L1998) |
+
+###### Parameters
+- `m00` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 0, row 0 position (index 0)
+- `m01` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 0, row 1 position (index 1)
+- `m02` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 0, row 2 position (index 2)
+- `m03` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 0, row 3 position (index 3)
+- `m10` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 1, row 0 position (index 4)
+- `m11` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 1, row 1 position (index 5)
+- `m12` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 1, row 2 position (index 6)
+- `m13` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 1, row 3 position (index 7)
+- `m20` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 2, row 0 position (index 8)
+- `m21` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 2, row 1 position (index 9)
+- `m22` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 2, row 2 position (index 10)
+- `m23` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 2, row 3 position (index 11)
+- `m30` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 3, row 0 position (index 12)
+- `m31` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 3, row 1 position (index 13)
+- `m32` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 3, row 2 position (index 14)
+- `m33` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Component in column 3, row 3 position (index 15)
+
+
+##### quat
+
+The convenience method to create a new <a href="../classes/Quat.html" class="crosslink">cc.Quat</a>.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
+| Defined in | [cocos2d/core/value-types/quat.ts:992](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L992) |
+
+###### Parameters
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `z` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+
 ##### rect
 
 The convenience method to create a new Rect.
@@ -2938,22 +2954,6 @@ see Rect/Rect:method
 ```js
 var a = new cc.Rect(0 , 0, 10, 0);
 ```
-
-##### quat
-
-The convenience method to create a new <a href="../classes/Quat.html" class="crosslink">cc.Quat</a>.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| Defined in | [cocos2d/core/value-types/quat.ts:992](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/quat.ts#L992) |
-
-###### Parameters
-- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `z` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-- `w` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
 
 ##### size
 
@@ -3171,6 +3171,28 @@ Returns -1, 0, +1 depending on sign of x.
 - `v` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
 
 
+##### v2
+
+The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
+| Defined in | [cocos2d/core/value-types/vec2.ts:1213](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/vec2.ts#L1213) |
+
+###### Parameters
+- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
+
+##### Examples
+
+```js
+var v1 = cc.v2();
+var v2 = cc.v2(0, 0);
+var v3 = cc.v2(v2);
+var v4 = cc.v2({x: 100, y: 100});
+```
+
 ##### v3
 
 The convenience method to create a new <a href="../classes/Vec3.html" class="crosslink">cc.Vec3</a>.
@@ -3192,28 +3214,6 @@ var v1 = cc.v3();
 var v2 = cc.v3(0, 0, 0);
 var v3 = cc.v3(v2);
 var v4 = cc.v3({x: 100, y: 100, z: 0});
-```
-
-##### v2
-
-The convenience method to create a new <a href="../classes/Vec2.html" class="crosslink">cc.Vec2</a>.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| Defined in | [cocos2d/core/value-types/vec2.ts:1213](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/value-types/vec2.ts#L1213) |
-
-###### Parameters
-- `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-- `y` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-
-##### Examples
-
-```js
-var v1 = cc.v2();
-var v2 = cc.v2(0, 0);
-var v3 = cc.v2(v2);
-var v4 = cc.v2({x: 100, y: 100});
 ```
 
 ##### get
