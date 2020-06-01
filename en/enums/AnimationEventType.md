@@ -24,7 +24,7 @@ The event type of spine skeleton animation.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/spine/index.js:92](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/extensions/spine/index.js#L92) |
+| Defined in | [extensions/spine/index.js:92](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/spine/index.js#L92) |
 
 
 
@@ -35,7 +35,7 @@ The event type of spine skeleton animation.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/spine/index.js:103](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/extensions/spine/index.js#L103) |
+| Defined in | [extensions/spine/index.js:103](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/spine/index.js#L103) |
 
 
 
@@ -46,7 +46,7 @@ The event type of spine skeleton animation.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/spine/index.js:114](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/extensions/spine/index.js#L114) |
+| Defined in | [extensions/spine/index.js:114](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/spine/index.js#L114) |
 
 
 
@@ -57,6 +57,6 @@ The event type of spine skeleton animation.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/spine/index.js:120](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/extensions/spine/index.js#L120) |
+| Defined in | [extensions/spine/index.js:120](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/spine/index.js#L120) |
 
 

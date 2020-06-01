@@ -45,7 +45,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> |
-| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:172](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L172) |
+| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:172](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/tilemap/CCTMXXMLParser.js#L172) |
 
 
 
@@ -56,7 +56,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:177](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L177) |
+| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:177](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/tilemap/CCTMXXMLParser.js#L177) |
 
 
 
@@ -67,7 +67,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:182](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L182) |
+| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:182](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/tilemap/CCTMXXMLParser.js#L182) |
 
 
 
@@ -78,7 +78,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:187](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L187) |
+| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:187](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/tilemap/CCTMXXMLParser.js#L187) |
 
 
 
@@ -89,7 +89,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | 类型 | Any |
-| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:192](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L192) |
+| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:192](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/tilemap/CCTMXXMLParser.js#L192) |
 
 
 
@@ -100,7 +100,7 @@ This information is obtained from the TMX file. </p>
 | meta | description |
 |------|-------------|
 | 类型 | cc.Size |
-| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:197](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/tilemap/CCTMXXMLParser.js#L197) |
+| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:197](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/tilemap/CCTMXXMLParser.js#L197) |
 
 
 

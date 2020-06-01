@@ -13,6 +13,12 @@ window.apimeta = {
       "description": "Enum for cache mode type."
     },
     {
+      "name": "BuiltinBundleName",
+      "namespace": "cc.AssetManager.BuiltinBundleName",
+      "module": "cc.AssetManager",
+      "description": "The builtin bundles"
+    },
+    {
       "name": "Button.Transition",
       "namespace": "cc.Button.Transition",
       "module": "cc",
@@ -131,12 +137,6 @@ window.apimeta = {
       "namespace": "cc.Light.Type",
       "module": "cc",
       "description": "The light source type"
-    },
-    {
-      "name": "LoadingItems.ItemState",
-      "namespace": "cc.LoadingItems.ItemState",
-      "module": "cc",
-      "description": "The item states of the LoadingItems, its value could be LoadingItems.ItemState.WORKING | LoadingItems.ItemState.COMPLETET | LoadingItems.ItemState.ERROR"
     },
     {
       "name": "Mask.Type",
@@ -549,6 +549,12 @@ window.apimeta = {
       "description": "Base class for handling assets used in Creator.<br/>\n\nYou may want to override:<br/>\n- createNode<br/>\n- getset functions of _nativeAsset<br/>\n- cc.Object._serialize<br/>\n- cc.Object._deserialize<br/>"
     },
     {
+      "name": "AssetManager",
+      "namespace": "cc.AssetManager",
+      "module": "cc",
+      "description": "This module controls asset's behaviors and information, include loading, releasing etc. it is a singleton\nAll member can be accessed with `cc.assetManager`."
+    },
+    {
       "name": "AudioClip",
       "namespace": "cc.AudioClip",
       "module": "cc",
@@ -597,6 +603,18 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "Builtins",
+      "namespace": "cc.AssetManager.Builtins",
+      "module": "cc.AssetManager",
+      "description": "This module contains the builtin asset, it's a singleton, all member can be accessed with `cc.assetManager.builtins`"
+    },
+    {
+      "name": "Bundle",
+      "namespace": "cc.AssetManager.Bundle",
+      "module": "cc.AssetManager",
+      "description": "A bundle contains an amount of assets(includes scene), you can load, preload, release asset which is in this bundle"
+    },
+    {
       "name": "Burst",
       "namespace": "cc.Burst",
       "module": "cc",
@@ -613,6 +631,12 @@ window.apimeta = {
       "namespace": "dragonBones.CCFactory",
       "module": "dragonBones",
       "description": "DragonBones factory"
+    },
+    {
+      "name": "Cache",
+      "namespace": "cc.AssetManager.Cache",
+      "module": "cc.AssetManager",
+      "description": "use to cache something"
     },
     {
       "name": "CallbacksInvoker",
@@ -637,12 +661,6 @@ window.apimeta = {
       "namespace": "cc.CircleCollider",
       "module": "cc",
       "description": "Circle Collider."
-    },
-    {
-      "name": "CoffeeScript",
-      "namespace": "cc.CoffeeScript",
-      "module": "cc",
-      "description": "Class for coffeescript handling."
     },
     {
       "name": "Collider",
@@ -672,7 +690,13 @@ window.apimeta = {
       "name": "Collider3D",
       "namespace": "cc.Collider3D",
       "module": "cc",
-      "description": "The base class of the collider"
+      "description": "The base class of the collider."
+    },
+    {
+      "name": "ColliderInfo",
+      "namespace": "cc.ColliderInfo",
+      "module": "cc",
+      "description": "Collider Info."
     },
     {
       "name": "CollisionManager",
@@ -702,7 +726,7 @@ window.apimeta = {
       "name": "Component",
       "namespace": "cc.Component",
       "module": "cc",
-      "description": "Base class for everything attached to Node(Entity).<br/>\n<br/>\nNOTE: Not allowed to use construction parameters for Component's subclasses,\n      because Component is created by the engine."
+      "description": "Base class for everything attached to Node(Entity).<br/>\n<br/>\nNOTE: Not allowed to use construction parameters for Component's subclasses,\nbecause Component is created by the engine."
     },
     {
       "name": "Component.EventHandler",
@@ -735,6 +759,12 @@ window.apimeta = {
       "description": "The curve range of target value."
     },
     {
+      "name": "DependUtil",
+      "namespace": "cc.AssetManager.DependUtil",
+      "module": "cc.AssetManager",
+      "description": "Control asset's dependency list, it is a singleton. All member can be accessed with `cc.assetManager.dependUtil`"
+    },
+    {
       "name": "Details",
       "namespace": "cc.Details",
       "module": "cc",
@@ -751,6 +781,12 @@ window.apimeta = {
       "namespace": "cc.DistanceJoint",
       "module": "cc",
       "description": "A distance joint constrains two points on two bodies\nto remain at a fixed distance from each other. You can view\nthis as a massless, rigid rod."
+    },
+    {
+      "name": "Downloader",
+      "namespace": "cc.Downloader",
+      "module": "cc.AssetManager",
+      "description": "Control all download process, it is a singleton. All member can be accessed with `cc.assetManager.downloader` , it can download several types of files:\n1. Text\n2. Image\n3. Audio\n4. Assets\n5. Scripts"
     },
     {
       "name": "DragonBonesAsset",
@@ -891,6 +927,12 @@ window.apimeta = {
       "description": "An internal helper class for switching render component's material between normal sprite material and gray sprite material."
     },
     {
+      "name": "Helper",
+      "namespace": "cc.AssetManager.Helper",
+      "module": "cc.AssetManager",
+      "description": "Provide some helpful function, it is a singleton. All member can be accessed with `cc.assetManager.utils`"
+    },
+    {
       "name": "IBaseShape",
       "namespace": "cc.IBaseShape",
       "module": "cc",
@@ -1026,7 +1068,7 @@ window.apimeta = {
       "name": "LoadingItems",
       "namespace": "cc.LoadingItems",
       "module": "cc",
-      "description": "LoadingItems is the queue of items which can flow them into the loading pipeline.<br/>\nPlease don't construct it directly, use LoadingItems.create instead, because we use an internal pool to recycle the queues.<br/>\nIt hold a map of items, each entry in the map is a url to object key value pair.<br/>\nEach item always contains the following property:<br/>\n- id: The identification of the item, usually it's identical to url<br/>\n- url: The url <br/>\n- type: The type, it's the extension name of the url by default, could be specified manually too.<br/>\n- error: The error happened in pipeline will be stored in this property.<br/>\n- content: The content processed by the pipeline, the final result will also be stored in this property.<br/>\n- complete: The flag indicate whether the item is completed by the pipeline.<br/>\n- states: An object stores the states of each pipe the item go through, the state can be: Pipeline.ItemState.WORKING | Pipeline.ItemState.ERROR | Pipeline.ItemState.COMPLETE<br/>\n<br/>\nItem can hold other custom properties.<br/>\nEach LoadingItems object will be destroyed for recycle after onComplete callback<br/>\nSo please don't hold its reference for later usage, you can copy properties in it though."
+      "description": "`cc.LoadingItems` was removed, please use <a href=\"../classes/Task.html\" class=\"crosslink\">Task</a> instead"
     },
     {
       "name": "Manifold",
@@ -1131,6 +1173,12 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "PackManager",
+      "namespace": "cc.AssetManager.PackManager",
+      "module": "cc.AssetManager",
+      "description": "Handle the packed asset, include unpacking, loading, cache and so on. It is a singleton. All member can be accessed with `cc.assetManager.packManager`"
+    },
+    {
       "name": "PageView",
       "namespace": "cc.PageView",
       "module": "cc",
@@ -1141,6 +1189,12 @@ window.apimeta = {
       "namespace": "cc.PageViewIndicator",
       "module": "cc",
       "description": "The Page View Indicator Component"
+    },
+    {
+      "name": "Parser",
+      "namespace": "cc.AssetManager.Parser",
+      "module": "cc.AssetManager",
+      "description": "Parse the downloaded file, it's a singleton, all member can be accessed with `cc.assetManager.parser`"
     },
     {
       "name": "ParticleAsset",
@@ -1234,21 +1288,9 @@ window.apimeta = {
     },
     {
       "name": "Pipeline",
-      "namespace": "cc.Pipeline",
-      "module": "cc",
-      "description": "A pipeline describes a sequence of manipulations, each manipulation is called a pipe.<br/>\nIt's designed for loading process. so items should be urls, and the url will be the identity of each item during the process.<br/>\nA list of items can flow in the pipeline and it will output the results of all pipes.<br/>\nThey flow in the pipeline like water in tubes, they go through pipe by pipe separately.<br/>\nFinally all items will flow out the pipeline and the process is finished."
-    },
-    {
-      "name": "Pipeline.Downloader",
-      "namespace": "cc.Pipeline.Downloader",
-      "module": "cc",
-      "description": "The downloader pipe, it can download several types of files:\n1. Text\n2. Image\n3. Script\n4. Audio\n5. Assets\nAll unknown type will be downloaded as plain text.\nYou can pass custom supported types in the constructor."
-    },
-    {
-      "name": "Pipeline.Loader",
-      "namespace": "cc.Pipeline.Loader",
-      "module": "cc",
-      "description": "The loader pipe, it can load several types of files:\n1. Images\n2. JSON\n3. Plist\n4. Audio\n5. Font\n6. Cocos Creator scene\nIt will not interfere with items of unknown type.\nYou can pass custom supported types in the constructor."
+      "namespace": "cc.AssetManager.Pipeline",
+      "module": "cc.AssetManager",
+      "description": "Pipeline can execute the task for some effect."
     },
     {
       "name": "Playable",
@@ -1311,12 +1353,6 @@ window.apimeta = {
       "description": "Representation of 2D vectors and points."
     },
     {
-      "name": "RawAsset",
-      "namespace": "cc.RawAsset",
-      "module": "cc",
-      "description": "The base class for registering asset types."
-    },
-    {
       "name": "Rect",
       "namespace": "cc.Rect",
       "module": "cc",
@@ -1333,6 +1369,12 @@ window.apimeta = {
       "namespace": "cc.RenderTexture",
       "module": "cc",
       "description": "Render textures are textures that can be rendered to."
+    },
+    {
+      "name": "RequestItem",
+      "namespace": "cc.AssetManager.RequestItem",
+      "module": "cc.AssetManager",
+      "description": "A collection of information about a request"
     },
     {
       "name": "ResolutionPolicy",
@@ -1362,7 +1404,7 @@ window.apimeta = {
       "name": "RigidBody3D",
       "namespace": "cc.RigidBody3D",
       "module": "cc",
-      "description": "Rigid body."
+      "description": "RigidBody is the basic object that make up the physical world, and it can make a node physically affected and react."
     },
     {
       "name": "RopeJoint",
@@ -1375,6 +1417,12 @@ window.apimeta = {
       "namespace": "cc.RotationOvertimeModule",
       "module": "cc",
       "description": "The rotation module of 3d particle."
+    },
+    {
+      "name": "SafeArea",
+      "namespace": "cc.SafeArea",
+      "module": "cc",
+      "description": "This component is used to adjust the layout of current node to respect the safe area of a notched mobile device such as the iPhone X.\nIt is typically used for the top node of the UI interaction area. For specific usage, refer to the official [example-cases/02_ui/16_safeArea/SafeArea.fire](https://github.com/cocos-creator/example-cases).\n\nThe concept of safe area is to give you a fixed inner rectangle in which you can safely display content that will be drawn on screen.\nYou are strongly discouraged from providing controls outside of this area. But your screen background could embellish edges.\n\nThis component internally uses the API `cc.sys.getSafeAreaRect();` to obtain the safe area of the current iOS or Android device,\nand implements the adaptation by using the Widget component and set anchor."
     },
     {
       "name": "Scene",
@@ -1537,6 +1585,12 @@ window.apimeta = {
       "namespace": "cc.TTFFont",
       "module": "cc",
       "description": "Class for TTFFont handling."
+    },
+    {
+      "name": "Task",
+      "namespace": "cc.AssetManager.Task",
+      "module": "cc.AssetManager",
+      "description": "Task is used to run in the pipeline for some effect"
     },
     {
       "name": "TextAsset",
@@ -1806,7 +1860,7 @@ window.apimeta = {
       "name": "loader",
       "namespace": "cc.loader",
       "module": "cc",
-      "description": "Loader for resource loading process. It's a singleton object."
+      "description": "`cc.loader` is deprecated, please backup your project and upgrade to <a href=\"../classes/AssetManager.html\" class=\"crosslink\">AssetManager</a>"
     },
     {
       "name": "macro",
@@ -1860,7 +1914,7 @@ window.apimeta = {
       "name": "url",
       "namespace": "cc.url",
       "module": "cc",
-      "description": ""
+      "description": "`cc.url` is deprecated"
     },
     {
       "name": "visibleRect",
@@ -1886,6 +1940,11 @@ window.apimeta = {
       "namespace": "cc",
       "module": "cc.primitive",
       "description": "The main namespace of Cocos2d-JS, all engine core classes, functions, properties and constants are defined in this namespace."
+    },
+    {
+      "name": "cc.AssetManager",
+      "namespace": "cc.AssetManager",
+      "description": "This module controls asset's behaviors and information, include loading, releasing etc.\nAll member can be accessed with `cc.assetManager`. All class or enum can be accessed with `cc.AssetManager`"
     },
     {
       "name": "cc.geomUtils",

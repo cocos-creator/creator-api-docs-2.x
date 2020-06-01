@@ -38,7 +38,7 @@ Manipulation before applying the strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:1155](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCView.js#L1155) |
+| Defined in | [cocos2d/core/platform/CCView.js:1144](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCView.js#L1144) |
 
 ###### Parameters
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -53,7 +53,7 @@ The target view can then apply these value to itself, it's preferred not to modi
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/platform/CCView.js:1165](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCView.js#L1165) |
+| Defined in | [cocos2d/core/platform/CCView.js:1154](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCView.js#L1154) |
 
 ###### Parameters
 - `view` <a href="../classes/View.html" class="crosslink">View</a> 
@@ -66,7 +66,7 @@ Manipulation after applying the strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCView.js:1179](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCView.js#L1179) |
+| Defined in | [cocos2d/core/platform/CCView.js:1168](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCView.js#L1168) |
 
 ###### Parameters
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view

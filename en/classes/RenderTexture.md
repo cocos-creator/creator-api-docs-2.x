@@ -19,11 +19,12 @@ Render textures are textures that can be rendered to.
   - [`loaded`](#loaded) `Boolean` Whether the texture is loaded or not
   - [`width`](#width) `Number` Texture width in pixel
   - [`height`](#height) `Number` Texture height in pixel
-  - [`url`](#url) `String` Points to the true url of this asset's native object, only valid when asset is loaded and asyncLoadAsset is not enabled.
+  - [`url`](#url) `String` `cc.Asset.url` is deprecated, please use <a href="../classes/Asset.html#property_nativeUrl" class="crosslink">nativeUrl</a> instead
+  - [`_uuid`](#uuid) `String` 
   - [`nativeUrl`](#nativeurl) `String` Returns the url of this asset's native object, if none it will returns an empty string.
+  - [`refCount`](#refcount) `Number` The number of reference
   - [`_native`](#native) `String` Serializable url for native asset.
   - [`_nativeAsset`](#nativeasset) `Object` The underlying native asset of this asset if one is available.
-  - [`_uuid`](#uuid) `String` 
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
   - [`name`](#name) `String` The name of the object.
@@ -51,9 +52,11 @@ Render textures are textures that can be rendered to.
   - [`setFlipY`](#setflipy) Sets the flipY options
   - [`setPremultiplyAlpha`](#setpremultiplyalpha) Sets the premultiply alpha options
   - [`toString`](#tostring) Returns the asset's url.
-  - [`serialize`](#serialize) 应 AssetDB 要求提供这个方法
+  - [`serialize`](#serialize) Provide this method at the request of AssetDB.
   - [`createNode`](#createnode) Create a new node using this asset in the scene....
   - [`_setRawAsset`](#setrawasset) Set native file name for this asset.
+  - [`addRef`](#addref) Add references of asset
+  - [`decRef`](#decref) Reduce references of asset and it will be auto released when refCount equals 0.
   - [`hasEventListener`](#haseventlistener) Checks whether the EventTarget object has any callback registered for a specific type of event.
   - [`on`](#on) Register an callback of a specific event type on the EventTarget.
   - [`off`](#off) Removes the listeners previously registered with the same type, callback, target and or useCapture,...
@@ -85,7 +88,7 @@ Render textures are textures that can be rendered to.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:329](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L329) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:331](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L331) |
 
 
 
@@ -97,7 +100,7 @@ If need use texture uv in custom Effect, please sets packable to false.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:349](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L349) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:351](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L351) |
 
 
 
@@ -108,7 +111,7 @@ If need use texture uv in custom Effect, please sets packable to false.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:383](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L383) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:459](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L459) |
 
 
 
@@ -119,7 +122,7 @@ If need use texture uv in custom Effect, please sets packable to false.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:392](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L392) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:468](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L468) |
 
 
 
@@ -130,21 +133,30 @@ If need use texture uv in custom Effect, please sets packable to false.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:401](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L401) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:477](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L477) |
 
 
 
 ##### url
 
-> Points to the true url of this asset's native object, only valid when asset is loaded and asyncLoadAsset is not enabled.
-The difference between nativeUrl and url is that the latter is final path, there is no needs to transform url by md5 and subpackage.
-Besides, url may points to temporary path or cached path on mini game platform which has cache mechanism (WeChat etc).
-If you want to make use of the native file on those platforms, you should use url instead of nativeUrl.
+> `cc.Asset.url` is deprecated, please use <a href="../classes/Asset.html#property_nativeUrl" class="crosslink">nativeUrl</a> instead
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/assets/CCAsset.js:68](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L68) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:717](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L717) |
+| Deprecated | &#x60;cc.Asset.url&#x60; is deprecated, please use &#x60;cc.Asset.nativeUrl&#x60; instead |
+
+
+
+##### _uuid
+
+> 
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| Defined in | [cocos2d/core/assets/CCAsset.js:57](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L57) |
 
 
 
@@ -155,7 +167,18 @@ If you want to make use of the native file on those platforms, you should use ur
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/assets/CCAsset.js:85](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L85) |
+| Defined in | [cocos2d/core/assets/CCAsset.js:81](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L81) |
+
+
+
+##### refCount
+
+> The number of reference
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined in | [cocos2d/core/assets/CCAsset.js:115](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L115) |
 
 
 
@@ -166,7 +189,7 @@ If you want to make use of the native file on those platforms, you should use ur
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/assets/CCAsset.js:123](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L123) |
+| Defined in | [cocos2d/core/assets/CCAsset.js:131](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L131) |
 
 
 
@@ -179,18 +202,7 @@ This property will be initialized by the loader if `_native` is available.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/assets/CCAsset.js:131](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L131) |
-
-
-
-##### _uuid
-
-> 
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/assets/CCRawAsset.js:46](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCRawAsset.js#L46) |
+| Defined in | [cocos2d/core/assets/CCAsset.js:142](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L142) |
 
 
 
@@ -201,7 +213,7 @@ This property will be initialized by the loader if `_native` is available.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L76) |
+| Defined in | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L76) |
 
 
 
@@ -212,7 +224,7 @@ This property will be initialized by the loader if `_native` is available.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L83) |
+| Defined in | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L83) |
 
 
 
@@ -223,7 +235,7 @@ This property will be initialized by the loader if `_native` is available.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L240) |
+| Defined in | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L240) |
 
 ##### Examples
 
@@ -243,7 +255,7 @@ but this is often caused by a particular logical requirements, which is not norm
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L258) |
+| Defined in | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L258) |
 
 ##### Examples
 
@@ -270,7 +282,7 @@ Init the render texture with size.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCRenderTexture.js:58](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCRenderTexture.js#L58) |
+| Defined in | [cocos2d/core/assets/CCRenderTexture.js:58](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCRenderTexture.js#L58) |
 
 ###### Parameters
 - `width` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -288,7 +300,7 @@ you and can specify other params to specify the texture region to read.
 | meta | description |
 |------|-------------|
 | Returns | Uint8Array 
-| Defined in | [cocos2d/core/assets/CCRenderTexture.js:133](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCRenderTexture.js#L133) |
+| Defined in | [cocos2d/core/assets/CCRenderTexture.js:133](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCRenderTexture.js#L133) |
 
 ###### Parameters
 - `data` Uint8Array 
@@ -305,7 +317,7 @@ extended from render.Texture2D
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:420](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L420) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:496](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L496) |
 
 
 
@@ -316,7 +328,7 @@ image, format, premultiplyAlpha can not be updated in native.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:439](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L439) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:515](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L515) |
 
 ###### Parameters
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -336,7 +348,7 @@ Init with HTML element.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:517](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L517) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:604](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L604) |
 
 ###### Parameters
 - `element` HTMLImageElement &#124; HTMLCanvasElement 
@@ -356,7 +368,7 @@ Intializes with a texture2d with data in Uint8Array.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:546](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L546) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:636](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L636) |
 
 ###### Parameters
 - `data` TypedArray 
@@ -374,20 +386,20 @@ you should set texture.packable as false before getting Html element object.
 | meta | description |
 |------|-------------|
 | Returns | HTMLImageElement &#124; HTMLCanvasElement 
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:588](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L588) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:679](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L679) |
 
 
 
 ##### destroy
 
 Destory this texture and immediately release its video memory. (Inherit from cc.Object.destroy)<br>
-After destroy, this object is not usable any more.
+After destroy, this object is not usable anymore.
 You can use cc.isValid(obj) to check whether the object is destroyed before accessing it.
 
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:603](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L603) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:694](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L694) |
 
 
 
@@ -398,7 +410,7 @@ Pixel format of the texture.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:624](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L624) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:716](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L716) |
 
 
 
@@ -409,7 +421,7 @@ Whether or not the texture has their Alpha premultiplied.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:636](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L636) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:728](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L728) |
 
 
 
@@ -420,7 +432,7 @@ Since v2.0, you don't need to invoke this function, it will be invoked automatic
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:647](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L647) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:743](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L743) |
 
 ###### Parameters
 - `premultiplied` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -433,7 +445,7 @@ Description of cc.Texture2D.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:694](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L694) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:796](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L796) |
 
 
 
@@ -443,7 +455,7 @@ Release texture, please use destroy instead.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:705](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L705) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:807](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L807) |
 | Deprecated | since v2.0 |
 
 
@@ -455,7 +467,7 @@ If the texture size is NPOT (non power of 2), then in can only use gl.CLAMP_TO_E
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:717](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L717) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:819](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L819) |
 
 ###### Parameters
 - `wrapS` <a href="../enums/Texture2D.WrapMode.html" class="crosslink">Texture2D.WrapMode</a> 
@@ -468,7 +480,7 @@ Sets the minFilter and magFilter options
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:735](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L735) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:837](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L837) |
 
 ###### Parameters
 - `minFilter` <a href="../enums/Texture2D.Filter.html" class="crosslink">Texture2D.Filter</a> 
@@ -481,7 +493,7 @@ Sets the flipY options
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:751](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L751) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:853](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L853) |
 
 ###### Parameters
 - `flipY` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -493,7 +505,7 @@ Sets the premultiply alpha options
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:766](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCTexture2D.js#L766) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:869](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L869) |
 
 ###### Parameters
 - `premultiply` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -504,24 +516,24 @@ Sets the premultiply alpha options
 Returns the asset's url.
 
 The `Asset` object overrides the `toString()` method of the `Object` object.
-For `Asset` objects, the toString() method returns a string representation of the object.
-JavaScript calls the toString() method automatically when an asset is to be represented as a text value or when a texture is referred to in a string concatenation.
+For `Asset` objects, the `toString()` method returns a string representation of the object.
+JavaScript calls the `toString()` method automatically when an asset is to be represented as a text value or when a texture is referred to in a string concatenation.
 
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/assets/CCAsset.js:184](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L184) |
+| Defined in | [cocos2d/core/assets/CCAsset.js:223](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L223) |
 
 
 
 ##### serialize
 
-应 AssetDB 要求提供这个方法
+Provide this method at the request of AssetDB.
 
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/assets/CCAsset.js:198](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L198) |
+| Defined in | [cocos2d/core/assets/CCAsset.js:243](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L243) |
 
 
 
@@ -532,7 +544,7 @@ If this type of asset dont have its corresponding node type, this method should 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCAsset.js:209](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L209) |
+| Defined in | [cocos2d/core/assets/CCAsset.js:257](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L257) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -546,11 +558,33 @@ Set native file name for this asset.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/assets/CCAsset.js:224](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L224) |
+| Defined in | [cocos2d/core/assets/CCAsset.js:272](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L272) |
 
 ###### Parameters
 - `filename` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - `inLibrary` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+
+##### addRef
+
+Add references of asset
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Asset.html" class="crosslink">Asset</a> 
+| Defined in | [cocos2d/core/assets/CCAsset.js:294](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L294) |
+
+
+
+##### decRef
+
+Reduce references of asset and it will be auto released when refCount equals 0.
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="../classes/Asset.html" class="crosslink">Asset</a> 
+| Defined in | [cocos2d/core/assets/CCAsset.js:312](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L312) |
+
 
 
 ##### hasEventListener
@@ -560,7 +594,7 @@ Checks whether the EventTarget object has any callback registered for a specific
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L69) |
+| Defined in | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/event/event-target.js#L69) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -574,7 +608,7 @@ This type of event should be triggered via `emit`.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| Defined in | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L77) |
+| Defined in | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/event/event-target.js#L77) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -602,7 +636,7 @@ if only type is passed as parameter, all listeners registered with that type wil
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:119](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L119) |
+| Defined in | [cocos2d/core/event/event-target.js:119](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/event/event-target.js#L119) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -631,7 +665,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L163) |
+| Defined in | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/event/event-target.js#L163) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -644,7 +678,7 @@ the callback will remove itself after the first time it is triggered.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:182](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L182) |
+| Defined in | [cocos2d/core/event/event-target.js:182](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/event/event-target.js#L182) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -671,7 +705,7 @@ Send an event with the event object.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/event/event-target.js:208](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/event/event-target.js#L208) |
+| Defined in | [cocos2d/core/event/event-target.js:208](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/event/event-target.js#L208) |
 
 ###### Parameters
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  
@@ -681,26 +715,29 @@ Send an event with the event object.
 
 Clear all references in the instance.
 
-NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
-      You can override the _destruct method if you need, for example:
-      _destruct: function () {
-          for (var key in this) {
-              if (this.hasOwnProperty(key)) {
-                  switch (typeof this[key]) {
-                      case 'string':
-                          this[key] = '';
-                          break;
-                      case 'object':
-                      case 'function':
-                          this[key] = null;
-                          break;
-              }
-          }
-      }
+NOTE: this method will not clear the `getter` or `setter` functions which defined in the instance of `CCObject`.
+You can override the `_destruct` method if you need, for example:
+
+```js
+_destruct: function () {
+    for (var key in this) {
+        if (this.hasOwnProperty(key)) {
+            switch (typeof this[key]) {
+                case 'string':
+                    this[key] = '';
+                    break;
+                case 'object':
+                case 'function':
+                    this[key] = null;
+                    break;
+        }
+    }
+}
+```
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L427) |
+| Defined in | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L427) |
 
 
 
@@ -710,7 +747,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:460](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L460) |
+| Defined in | [cocos2d/core/platform/CCObject.js:484](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L484) |
 
 
 
@@ -721,7 +758,7 @@ The customized serialization for this object. (Editor Only)
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:485](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L485) |
+| Defined in | [cocos2d/core/platform/CCObject.js:512](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L512) |
 
 ###### Parameters
 - `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -733,7 +770,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:495](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L495) |
+| Defined in | [cocos2d/core/platform/CCObject.js:525](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L525) |
 
 ###### Parameters
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

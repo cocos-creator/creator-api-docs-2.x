@@ -14,12 +14,12 @@ Physical systems manager.
 
 ##### Properties
 
-  - [`enabled`](#enabled) `boolean` Gets or sets whether to enable physical systems, which are not enabled by default.
-  - [`allowSleep`](#allowsleep) `boolean` Gets or sets whether the physical system allows automatic sleep, which defaults to true.
-  - [`maxSubStep`](#maxsubstep) `number` Gets or sets the maximum number of child steps per frame simulated.
-  - [`deltaTime`](#deltatime) `number` Gets or sets the fixed time consumed by each simulation step.
-  - [`useFixedTime`](#usefixedtime) `boolean` Gets or sets whether to use a fixed time step.
-  - [`gravity`](#gravity) `Vec3` Gets or sets the gravity value of the physical world, by default (0, -10, 0)
+  - [`enabled`](#enabled) `boolean` Whether to enable the physics system, default is false.
+  - [`allowSleep`](#allowsleep) `boolean` Whether to allow the physics system to automatically hibernate, default is true.
+  - [`maxSubStep`](#maxsubstep) `number` The maximum number of sub-steps a full step is permitted to be broken into, default is 2.
+  - [`deltaTime`](#deltatime) `number` Time spent in each simulation of physics, default is 1/60s.
+  - [`useFixedTime`](#usefixedtime) `boolean` Whether to use a fixed time step.
+  - [`gravity`](#gravity) `Vec3` Gravity value of the physics simulation, default is (0, -10, 0).
   - [`defaultMaterial`](#defaultmaterial) `PhysicsMaterial | null` Gets the global default physical material.
 
 
@@ -40,78 +40,78 @@ Physical systems manager.
 
 ##### enabled
 
-> Gets or sets whether to enable physical systems, which are not enabled by default.
+> Whether to enable the physics system, default is false.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:46](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L46) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:46](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L46) |
 
 
 
 ##### allowSleep
 
-> Gets or sets whether the physical system allows automatic sleep, which defaults to true.
+> Whether to allow the physics system to automatically hibernate, default is true.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:60](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L60) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:60](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L60) |
 
 
 
 ##### maxSubStep
 
-> Gets or sets the maximum number of child steps per frame simulated.
+> The maximum number of sub-steps a full step is permitted to be broken into, default is 2.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:77](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L77) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:77](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L77) |
 
 
 
 ##### deltaTime
 
-> Gets or sets the fixed time consumed by each simulation step.
+> Time spent in each simulation of physics, default is 1/60s.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:91](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L91) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:91](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L91) |
 
 
 
 ##### useFixedTime
 
-> Gets or sets whether to use a fixed time step.
+> Whether to use a fixed time step.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:105](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L105) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:105](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L105) |
 
 
 
 ##### gravity
 
-> Gets or sets the gravity value of the physical world, by default (0, -10, 0)
+> Gravity value of the physics simulation, default is (0, -10, 0).
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:119](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L119) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:119](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L119) |
 
 
 
 ##### defaultMaterial
 
-> Gets the global default physical material. Note that builtin is null
+> Gets the global default physical material. Note that builtin is null.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/PhysicsMaterial.html" class="crosslink">PhysicsMaterial</a> &#124; Null |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:136](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L136) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:136](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L136) |
 
 
 
@@ -128,7 +128,7 @@ A physical system simulation is performed once and will now be performed automat
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:196](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L196) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:196](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L196) |
 
 ###### Parameters
 - `deltaTime` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The time difference from the last execution is currently elapsed per frame
@@ -141,7 +141,7 @@ Detect all collision boxes and return all detected results, or null if none is d
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/PhysicsRayResult.html" class="crosslink">PhysicsRayResult[]</a> &#124; Null 
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:223](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L223) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:223](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L223) |
 
 ###### Parameters
 - `worldRay` Ray A ray in world space
@@ -157,7 +157,7 @@ Detect all collision boxes and return the detection result with the shortest ray
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/PhysicsRayResult.html" class="crosslink">PhysicsRayResult</a> &#124; Null 
-| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:250](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L250) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-manager.ts:250](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L250) |
 
 ###### Parameters
 - `worldRay` Ray A ray in world space

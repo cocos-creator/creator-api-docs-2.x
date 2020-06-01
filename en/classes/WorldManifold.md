@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -33,7 +34,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">[Vec2]</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:46](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/physics/CCPhysicsContact.js#L46) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:46](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/physics/CCPhysicsContact.js#L46) |
 
 
 
@@ -44,7 +45,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:63](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/physics/CCPhysicsContact.js#L63) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:63](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/physics/CCPhysicsContact.js#L63) |
 
 
 

@@ -2,36 +2,72 @@
 
 
 
-模块: [cc](../modules/cc.md)
+模块: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
-pipeline 描述了一系列的操作，每个操作都被称为 pipe。<br/>
-它被设计来做加载过程的流程管理。所以 item 应该是 url，并且该 url 将是在处理中的每个 item 的身份标识。<br/>
-一个 item 列表可以在 pipeline 中流动，它将输出加载项经过所有 pipe 之后的结果。<br/>
-它们穿过 pipeline 就像水在管子里流动，将会按顺序流过每个 pipe。<br/>
-最后当所有加载项都流出 pipeline 时，整个加载流程就结束了。
+管线能执行任务达到某个效果
 
 
 
 ### 索引
 
+##### 属性（properties）
+
+  - [`id`](#id) `Number` 管线的 id
+  - [`name`](#name) `String` 管线的名字
+  - [`pipes`](#pipes) `Function[]` 所有的管道
+
 
 
 ##### 方法
 
-  - [`constructor`](#constructor) 构造函数，通过一系列的 pipe 来构造一个新的 pipeline，pipes 将会在给定的顺序中被锁定。
-  - [`insertPipe`](#insertpipe) 在给定的索引位置插入一个新的 pipe。
-  - [`insertPipeAfter`](#insertpipeafter) 在当前 pipeline 的一个已知 pipe 后面插入一个新的 pipe。
-  - [`appendPipe`](#appendpipe) 添加一个新的 pipe 到 pipeline 尾部。
-  - [`flowIn`](#flowin) 让新的 item 流入 pipeline 中。
-  - [`copyItemStates`](#copyitemstates) 从一个源 item 向所有目标 item 复制它的 pipe 状态，用于避免重复通过部分 pipe。
-  - [`getItem`](#getitem) 根据 id 获取一个 item
-  - [`removeItem`](#removeitem) 移除指定的已完成 item。
-  - [`clear`](#clear) 清空当前 pipeline，该函数将清理 items。
+  - [`constructor`](#constructor) 创建一个管线
+  - [`insert`](#insert) 在某个特定的点为管线插入一个新的 pipe
+  - [`append`](#append) 添加一个管道到管线中
+  - [`remove`](#remove) 移除特定位置的管道
+  - [`sync`](#sync) 同步执行任务
+  - [`async`](#async) 异步执行任务
 
 
 
 ### Details
+
+
+#### 属性（properties）
+
+
+##### id
+
+> 管线的 id
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:50](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L50) |
+
+
+
+##### name
+
+> 管线的名字
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:62](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L62) |
+
+
+
+##### pipes
+
+> 所有的管道
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:74](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L74) |
+
+
 
 
 
@@ -42,153 +78,152 @@ pipeline 描述了一系列的操作，每个操作都被称为 pipe。<br/>
 
 ##### constructor
 
-构造函数，通过一系列的 pipe 来构造一个新的 pipeline，pipes 将会在给定的顺序中被锁定。<br/>
-一个 pipe 就是一个对象，它包含了字符串类型的 ‘id’ 和 ‘handle’ 函数，在 pipeline 中 id 必须是唯一的。<br/>
-它还可以包括 ‘async’ 属性以确定它是否是一个异步过程。
+创建一个管线
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:112](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L112) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:97](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L97) |
 
 ###### 参数列表
-- `pipes` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The name of pipeline
+- `funcs` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> The array of pipe, every pipe must be function which take two parameters, the first is a `Task` flowed in pipeline, the second is complete callback
 
 ##### 示例
 
 ```js
-var pipeline = new Pipeline([
-     {
-         id: 'Downloader',
-         handle: function (item, callback) {},
-         async: true
-     },
-     {id: 'Parser', handle: function (item) {}, async: false}
- ]);
+var pipeline = new Pipeline('download', [
+(task, done) => {
+     var url = task.input;
+     cc.assetManager.downloader.downloadFile(url, null, null, (err, result) => {
+         task.output = result;
+         done(err);
+     });
+},
+(task, done) => {
+     var text = task.input;
+     var json = JSON.stringify(text);
+     task.output = json;
+     done();
+}
+]);
 ```
 
-##### insertPipe
+##### insert
 
-在给定的索引位置插入一个新的 pipe。<br/>
-一个 pipe 必须包含一个字符串类型的 ‘id’ 和 ‘handle’ 函数，该 id 在 pipeline 必须是唯一标识。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:156](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L156) |
-
-###### 参数列表
-- `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted
-- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The index to insert
-
-
-##### insertPipeAfter
-
-在当前 pipeline 的一个已知 pipe 后面插入一个新的 pipe。
+在某个特定的点为管线插入一个新的 pipe
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:199](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L199) |
+| 返回 | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:130](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L130) |
 
 ###### 参数列表
-- `refPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing pipe in the pipeline.
-- `newPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted.
-
-
-##### appendPipe
-
-添加一个新的 pipe 到 pipeline 尾部。 <br/>
-该 pipe 必须包含一个字符串类型 ‘id’ 和 ‘handle’ 函数，该 id 在 pipeline 必须是唯一标识。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:216](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L216) |
-
-###### 参数列表
-- `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be appended
-
-
-##### flowIn
-
-让新的 item 流入 pipeline 中。<br/>
-这里的每个 item 可以是一个简单字符串类型的 url 或者是一个对象,
-如果它是一个对象的话，他必须要包含 ‘id’ 属性。<br/>
-你也可以指定它的 ‘type’ 属性类型，默认情况下，该类型是 ‘url’ 的后缀名。<br/>
-也通过添加一个 包含 ‘skips’ 属性的 item 对象，你就可以跳过 skips 中包含的 pipe。<br/>
-该对象可以包含任何附加属性。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:240](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L240) |
-
-###### 参数列表
-- `items` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `func` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The new pipe
+	- `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task handled with pipeline will be transferred to this function
+	- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback you need to invoke manually when this pipe is finished. if the pipeline is synchronous, callback is unnecessary.
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The specific point you want to insert at.
 
 ##### 示例
 
 ```js
-pipeline.flowIn([
-     'res/Background.png',
-     {
-         id: 'res/scene.json',
-         type: 'scene',
-         name: 'scene',
-         skips: ['Downloader']
-     }
- ]);
+var pipeline = new Pipeline('test', []);
+pipeline.insert((task, done) => {
+     // do something
+     done();
+}, 0);
 ```
 
-##### copyItemStates
+##### append
 
-从一个源 item 向所有目标 item 复制它的 pipe 状态，用于避免重复通过部分 pipe。<br/>
-当一个源 item 生成了一系列新的 items 时很有用，<br/>
-你希望让这些新的依赖项进入 pipeline，但是又不希望它们通过源 item 已经经过的 pipe，<br/>
-但是你可能希望他们源 item 已经通过并跳过所有 pipes，<br/>
-这个时候就可以使用这个 API。
+添加一个管道到管线中
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:325](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L325) |
+| 返回 | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:165](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L165) |
 
 ###### 参数列表
-- `srcItem` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
-- `dstItems` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> A single destination item or an array of destination items
+- `func` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The new pipe
+	- `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task handled with pipeline will be transferred to this function
+	- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback you need to invoke manually when this pipe is finished. if the pipeline is synchronous, callback is unnecessary.
 
+##### 示例
 
-##### getItem
+```js
+var pipeline = new Pipeline('test', []);
+pipeline.append((task, done) => {
+     // do something
+     done();
+});
+```
 
-根据 id 获取一个 item
+##### remove
+
+移除特定位置的管道
 
 | meta | description |
 |------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:354](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L354) |
+| 返回 | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:197](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L197) |
 
 ###### 参数列表
-- `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The specific point
 
+##### 示例
 
-##### removeItem
+```js
+var pipeline = new Pipeline('test', (task, done) => {
+     // do something
+     done();
+});
+pipeline.remove(0);
+```
 
-移除指定的已完成 item。
-这将仅仅从 pipeline 或者 loader 中删除其缓存，并不会释放它所依赖的资源。
-cc.loader 中提供了另一种删除资源及其依赖的清理方法，请参考 <a href="../classes/loader.html#method_release" class="crosslink">cc.loader.release</a>
+##### sync
+
+同步执行任务
 
 | meta | description |
 |------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:374](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L374) |
+| 返回 | Any 
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:227](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L227) |
 
 ###### 参数列表
-- `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
+- `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task will be executed
 
+##### 示例
 
-##### clear
+```js
+var pipeline = new Pipeline('sync', [(task) => {
+     let input = task.input;
+     task.output = doSomething(task.input);
+}]);
 
-清空当前 pipeline，该函数将清理 items。
+var task = new Task({input: 'test'});
+console.log(pipeline.sync(task));
+```
+
+##### async
+
+异步执行任务
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/load-pipeline/pipeline.js:394](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L394) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:275](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L275) |
 
+###### 参数列表
+- `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task will be executed
 
+##### 示例
+
+```js
+var pipeline = new Pipeline('sync', [(task, done) => {
+     let input = task.input;
+     task.output = doSomething(task.input);
+     done();
+}]);
+var task = new Task({input: 'test', onComplete: (err, result) => console.log(result)});
+pipeline.async(task);
+```
 
 

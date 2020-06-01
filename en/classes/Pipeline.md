@@ -2,36 +2,72 @@
 
 
 
-Module: [cc](../modules/cc.md)
+Module: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
-A pipeline describes a sequence of manipulations, each manipulation is called a pipe.<br/>
-It's designed for loading process. so items should be urls, and the url will be the identity of each item during the process.<br/>
-A list of items can flow in the pipeline and it will output the results of all pipes.<br/>
-They flow in the pipeline like water in tubes, they go through pipe by pipe separately.<br/>
-Finally all items will flow out the pipeline and the process is finished.
+Pipeline can execute the task for some effect.
 
 
 
 ### Index
 
+##### Properties
+
+  - [`id`](#id) `Number` The id of pipeline
+  - [`name`](#name) `String` The name of pipeline
+  - [`pipes`](#pipes) `Function[]` All pipes of pipeline
+
 
 
 ##### Methods
 
-  - [`constructor`](#constructor) Constructor, pass an array of pipes to construct a new Pipeline,...
-  - [`insertPipe`](#insertpipe) Insert a new pipe at the given index of the pipeline.
-  - [`insertPipeAfter`](#insertpipeafter) Insert a pipe to the end of an existing pipe.
-  - [`appendPipe`](#appendpipe) Add a new pipe at the end of the pipeline.
-  - [`flowIn`](#flowin) Let new items flow into the pipeline.
-  - [`copyItemStates`](#copyitemstates) Copy the item states from one source item to all destination items.
-  - [`getItem`](#getitem) Returns an item in pipeline.
-  - [`removeItem`](#removeitem) Removes an completed item in pipeline.
-  - [`clear`](#clear) Clear the current pipeline, this function will clean up the items.
+  - [`constructor`](#constructor) Create a new pipeline
+  - [`insert`](#insert) At specific point insert a new pipe to pipeline
+  - [`append`](#append) Append a new pipe to the pipeline
+  - [`remove`](#remove) Remove pipe which at specific point
+  - [`sync`](#sync) Execute task synchronously
+  - [`async`](#async) Execute task asynchronously
 
 
 
 ### Details
+
+
+#### Properties
+
+
+##### id
+
+> The id of pipeline
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:50](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L50) |
+
+
+
+##### name
+
+> The name of pipeline
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:62](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L62) |
+
+
+
+##### pipes
+
+> All pipes of pipeline
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:74](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L74) |
+
+
 
 
 
@@ -42,158 +78,152 @@ Finally all items will flow out the pipeline and the process is finished.
 
 ##### constructor
 
-Constructor, pass an array of pipes to construct a new Pipeline,
-the pipes will be chained in the given order.<br/>
-A pipe is an object which must contain an `id` in string and a `handle` function,
-the id must be unique in the pipeline.<br/>
-It can also include `async` property to identify whether it's an asynchronous process.
+Create a new pipeline
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:112](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L112) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:97](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L97) |
 
 ###### Parameters
-- `pipes` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The name of pipeline
+- `funcs` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> The array of pipe, every pipe must be function which take two parameters, the first is a `Task` flowed in pipeline, the second is complete callback
 
 ##### Examples
 
 ```js
-var pipeline = new Pipeline([
-     {
-         id: 'Downloader',
-         handle: function (item, callback) {},
-         async: true
-     },
-     {id: 'Parser', handle: function (item) {}, async: false}
- ]);
+var pipeline = new Pipeline('download', [
+(task, done) => {
+     var url = task.input;
+     cc.assetManager.downloader.downloadFile(url, null, null, (err, result) => {
+         task.output = result;
+         done(err);
+     });
+},
+(task, done) => {
+     var text = task.input;
+     var json = JSON.stringify(text);
+     task.output = json;
+     done();
+}
+]);
 ```
 
-##### insertPipe
+##### insert
 
-Insert a new pipe at the given index of the pipeline. <br/>
-A pipe must contain an `id` in string and a `handle` function, the id must be unique in the pipeline.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:156](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L156) |
-
-###### Parameters
-- `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted
-- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The index to insert
-
-
-##### insertPipeAfter
-
-Insert a pipe to the end of an existing pipe. The existing pipe must be a valid pipe in the pipeline.
+At specific point insert a new pipe to pipeline
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:199](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L199) |
+| Returns | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:130](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L130) |
 
 ###### Parameters
-- `refPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing pipe in the pipeline.
-- `newPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted.
-
-
-##### appendPipe
-
-Add a new pipe at the end of the pipeline. <br/>
-A pipe must contain an `id` in string and a `handle` function, the id must be unique in the pipeline.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:216](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L216) |
-
-###### Parameters
-- `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be appended
-
-
-##### flowIn
-
-Let new items flow into the pipeline. <br/>
-Each item can be a simple url string or an object,
-if it's an object, it must contain `id` property. <br/>
-You can specify its type by `type` property, by default, the type is the extension name in url. <br/>
-By adding a `skips` property including pipe ids, you can skip these pipe. <br/>
-The object can contain any supplementary property as you want. <br/>
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:240](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L240) |
-
-###### Parameters
-- `items` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `func` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The new pipe
+	- `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task handled with pipeline will be transferred to this function
+	- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback you need to invoke manually when this pipe is finished. if the pipeline is synchronous, callback is unnecessary.
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The specific point you want to insert at.
 
 ##### Examples
 
 ```js
-pipeline.flowIn([
-     'res/Background.png',
-     {
-         id: 'res/scene.json',
-         type: 'scene',
-         name: 'scene',
-         skips: ['Downloader']
-     }
- ]);
+var pipeline = new Pipeline('test', []);
+pipeline.insert((task, done) => {
+     // do something
+     done();
+}, 0);
 ```
 
-##### copyItemStates
+##### append
 
-Copy the item states from one source item to all destination items. <br/>
-It's quite useful when a pipe generate new items from one source item,<br/>
-then you should flowIn these generated items into pipeline, <br/>
-but you probably want them to skip all pipes the source item already go through,<br/>
-you can achieve it with this API. <br/>
-<br/>
-For example, an unzip pipe will generate more items, but you won't want them to pass unzip or download pipe again.
+Append a new pipe to the pipeline
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:325](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L325) |
+| Returns | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:165](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L165) |
 
 ###### Parameters
-- `srcItem` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
-- `dstItems` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> A single destination item or an array of destination items
+- `func` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The new pipe
+	- `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task handled with pipeline will be transferred to this function
+	- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback you need to invoke manually when this pipe is finished. if the pipeline is synchronous, callback is unnecessary.
 
+##### Examples
 
-##### getItem
+```js
+var pipeline = new Pipeline('test', []);
+pipeline.append((task, done) => {
+     // do something
+     done();
+});
+```
 
-Returns an item in pipeline.
+##### remove
+
+Remove pipe which at specific point
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:354](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L354) |
+| Returns | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:197](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L197) |
 
 ###### Parameters
-- `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
+- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The specific point
 
+##### Examples
 
-##### removeItem
+```js
+var pipeline = new Pipeline('test', (task, done) => {
+     // do something
+     done();
+});
+pipeline.remove(0);
+```
 
-Removes an completed item in pipeline.
-It will only remove the cache in the pipeline or loader, its dependencies won't be released.
-cc.loader provided another method to completely cleanup the resource and its dependencies,
-please refer to <a href="../classes/loader.html#method_release" class="crosslink">cc.loader.release</a>
+##### sync
+
+Execute task synchronously
 
 | meta | description |
 |------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:374](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L374) |
+| Returns | Any 
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:227](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L227) |
 
 ###### Parameters
-- `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
+- `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task will be executed
 
+##### Examples
 
-##### clear
+```js
+var pipeline = new Pipeline('sync', [(task) => {
+     let input = task.input;
+     task.output = doSomething(task.input);
+}]);
 
-Clear the current pipeline, this function will clean up the items.
+var task = new Task({input: 'test'});
+console.log(pipeline.sync(task));
+```
+
+##### async
+
+Execute task asynchronously
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:394](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L394) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:275](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/pipeline.js#L275) |
 
+###### Parameters
+- `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task will be executed
 
+##### Examples
+
+```js
+var pipeline = new Pipeline('sync', [(task, done) => {
+     let input = task.input;
+     task.output = doSomething(task.input);
+     done();
+}]);
+var task = new Task({input: 'test', onComplete: (err, result) => console.log(result)});
+pipeline.async(task);
+```
 
 

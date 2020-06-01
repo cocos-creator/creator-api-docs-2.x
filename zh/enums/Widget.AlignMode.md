@@ -24,7 +24,7 @@ Widget 的对齐模式，表示 Widget 应该何时刷新。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCWidget.js:37](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCWidget.js#L37) |
+| 定义于 | [cocos2d/core/components/CCWidget.js:37](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCWidget.js#L37) |
 
 
 
@@ -35,7 +35,7 @@ Widget 的对齐模式，表示 Widget 应该何时刷新。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCWidget.js:48](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCWidget.js#L48) |
+| 定义于 | [cocos2d/core/components/CCWidget.js:48](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCWidget.js#L48) |
 
 
 
@@ -46,6 +46,6 @@ Widget 的对齐模式，表示 Widget 应该何时刷新。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/components/CCWidget.js:53](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCWidget.js#L53) |
+| 定义于 | [cocos2d/core/components/CCWidget.js:53](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCWidget.js#L53) |
 
 

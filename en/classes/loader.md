@@ -1,12 +1,12 @@
 ## `loader` Class
 
-Extends [`Pipeline`](Pipeline.md)
 
 
 Module: [cc](../modules/cc.md)
 
+deprecated: &#x60;cc.loader&#x60; is deprecated, please backup your project and upgrade to &#x60;cc.assetManager&#x60;
 
-Loader for resource loading process. It's a singleton object.
+`cc.loader` is deprecated, please backup your project and upgrade to <a href="../classes/AssetManager.html" class="crosslink">AssetManager</a>
 
 
 
@@ -14,41 +14,35 @@ Loader for resource loading process. It's a singleton object.
 
 ##### Properties
 
-  - [`assetLoader`](#assetloader) `Object` The asset loader in cc.loader's pipeline, it's by default the first pipe.
-  - [`md5Pipe`](#md5pipe) `Object` The md5 pipe in cc.loader's pipeline, it could be absent if the project isn't build with md5 option.
-  - [`downloader`](#downloader) `Object` The downloader in cc.loader's pipeline, it's by default the second pipe.
-  - [`loader`](#loader) `Object` The loader in cc.loader's pipeline, it's by default the third pipe.
+  - [`onProgress`](#onprogress) `Unknown` `cc.loader.onProgress` is deprecated, please transfer onProgress to API as a parameter
+  - [`assetLoader`](#assetloader) `Object` `cc.loader.assetLoader` was removed, assetLoader and md5Pipe were merged into <a href="../classes/AssetManager.html#property_transformPipeline" class="crosslink">transformPipeline</a>
+  - [`md5Pipe`](#md5pipe) `Object` `cc.loader.md5Pipe` is deprecated, assetLoader and md5Pipe were merged into <a href="../classes/AssetManager.html#property_transformPipeline" class="crosslink">transformPipeline</a>
+  - [`downloader`](#downloader) `Object` `cc.loader.downloader` is deprecated, please use <a href="../classes/AssetManager.html#property_downloader" class="crosslink">downloader</a> instead
+  - [`loader`](#loader) `Object` `cc.loader.loader` is deprecated, please use <a href="../classes/AssetManager.html#property_parser" class="crosslink">parser</a> instead
 
 
 
 ##### Methods
 
-  - [`getXMLHttpRequest`](#getxmlhttprequest) Gets a new XMLHttpRequest instance.
-  - [`addDownloadHandlers`](#adddownloadhandlers) Add custom supported types handler or modify existing type handler for download process.
-  - [`addLoadHandlers`](#addloadhandlers) Add custom supported types handler or modify existing type handler for load process.
-  - [`load`](#load) Load resources with a progression callback and a complete callback.
-  - [`loadRes`](#loadres) Load resources from the "resources" folder inside the "assets" folder of your project.<br>...
-  - [`loadResArray`](#loadresarray) This method is like <a href="../classes/loader.html#method_loadRes" class="crosslink">loadRes</a> except that it accepts array of url.
-  - [`loadResDir`](#loadresdir) Load all assets in a folder inside the "assets/resources" folder of your project.<br>...
-  - [`getRes`](#getres) Get resource data by id.
-  - [`getDependsRecursively`](#getdependsrecursively) Get all resource dependencies of the loaded asset in an array, including itself.
-  - [`release`](#release) Release the content of an asset or an array of assets by uuid.
-  - [`releaseAsset`](#releaseasset) Release the asset by its object.
-  - [`releaseRes`](#releaseres) Release the asset loaded by <a href="../classes/loader.html#method_loadRes" class="crosslink">loadRes</a>.
-  - [`releaseResDir`](#releaseresdir) Release the all assets loaded by <a href="../classes/loader.html#method_loadResDir" class="crosslink">loadResDir</a>.
-  - [`releaseAll`](#releaseall) Resource all assets.
-  - [`setAutoRelease`](#setautorelease) according to whether the previous scene checked the "Auto Release Assets" option.
-  - [`setAutoReleaseRecursively`](#setautoreleaserecursively) according to whether the previous scene checked the "Auto Release Assets" option.
-  - [`isAutoRelease`](#isautorelease) Returns whether the asset is configured as auto released, despite how "Auto Release Assets" property is set on scene asset.<br>...
-  - [`constructor`](#constructor) Constructor, pass an array of pipes to construct a new Pipeline,...
-  - [`insertPipe`](#insertpipe) Insert a new pipe at the given index of the pipeline.
-  - [`insertPipeAfter`](#insertpipeafter) Insert a pipe to the end of an existing pipe.
-  - [`appendPipe`](#appendpipe) Add a new pipe at the end of the pipeline.
-  - [`flowIn`](#flowin) Let new items flow into the pipeline.
-  - [`copyItemStates`](#copyitemstates) Copy the item states from one source item to all destination items.
-  - [`getItem`](#getitem) Returns an item in pipeline.
-  - [`removeItem`](#removeitem) Removes an completed item in pipeline.
-  - [`clear`](#clear) Clear the current pipeline, this function will clean up the items.
+  - [`load`](#load) `cc.loader.load` is deprecated, please use AssetManager/load:method instead
+  - [`getXMLHttpRequest`](#getxmlhttprequest) `cc.loader.getXMLHttpRequest` is deprecated, please use `XMLHttpRequest` directly
+  - [`getItem`](#getitem) `cc.loader.getItem` is deprecated, please use `cc.assetManager._asset.get` instead
+  - [`loadRes`](#loadres) `cc.loader.loadRes` is deprecated, please use AssetManager/loadRes:method  instead
+  - [`loadResArray`](#loadresarray) `cc.loader.loadResArray` is deprecated, please use AssetManager/loadRes:method instead
+  - [`loadResDir`](#loadresdir) `cc.loader.loadResDir` is deprecated, please use AssetManager/loadResDir:method instead
+  - [`getRes`](#getres) `cc.loader.getRes` is deprecated, please use <a href="../classes/Bundle.html#method_get" class="crosslink">get</a> instead
+  - [`getDependsRecursively`](#getdependsrecursively) `cc.loader.getDependsRecursively` is deprecated, please use use DependUtil/getDepsRecursively:method instead
+  - [`addDownloadHandlers`](#adddownloadhandlers) `cc.loader.addDownloadHandlers` is deprecated, please use `cc.assetManager.downloader.register` instead
+  - [`addLoadHandlers`](#addloadhandlers) `cc.loader.addLoadHandlers` is deprecated, please use `cc.assetManager.parser.register` instead
+  - [`release`](#release) `cc.loader.release` is deprecated, please use <a href="../classes/AssetManager.html#method_releaseAsset" class="crosslink">releaseAsset</a> instead
+  - [`releaseAsset`](#releaseasset) `cc.loader.releaseAsset` is deprecated, please use <a href="../classes/AssetManager.html#method_releaseAsset" class="crosslink">releaseAsset</a> instead
+  - [`releaseRes`](#releaseres) `cc.loader.releaseRes` is deprecated, please use AssetManager/releaseRes:method instead
+  - [`releaseResDir`](#releaseresdir) `cc.loader.releaseResDir` was removed, please use AssetManager/releaseRes:method instead
+  - [`releaseAll`](#releaseall) `cc.loader.releaseAll` is deprecated, please use <a href="../classes/AssetManager.html#method_releaseAll" class="crosslink">releaseAll</a> instead
+  - [`removeItem`](#removeitem) `cc.loader.removeItem` is deprecated, please use `cc.assetManager.assets.remove` instead
+  - [`setAutoRelease`](#setautorelease) `cc.loader.setAutoRelease` is deprecated, if you want to prevent some asset from auto releasing, please use <a href="../classes/Asset.html#method_addRef" class="crosslink">addRef</a> instead
+  - [`setAutoReleaseRecursively`](#setautoreleaserecursively) `cc.loader.setAutoReleaseRecursively` is deprecated, if you want to prevent some asset from auto releasing, please use <a href="../classes/Asset.html#method_addRef" class="crosslink">addRef</a> instead
+  - [`isAutoRelease`](#isautorelease) `cc.loader.isAutoRelease` is deprecated
 
 
 
@@ -58,53 +52,63 @@ Loader for resource loading process. It's a singleton object.
 #### Properties
 
 
+##### onProgress
+
+> `cc.loader.onProgress` is deprecated, please transfer onProgress to API as a parameter
+
+| meta | description |
+|------|-------------|
+| Type | Unknown |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:71](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L71) |
+| Deprecated | &#x60;cc.loader.onProgress&#x60; is deprecated, please transfer onProgress to API as a parameter |
+
+
+
 ##### assetLoader
 
-> The asset loader in cc.loader's pipeline, it's by default the first pipe.
-It's used to identify an asset's type, and determine how to download it.
+> `cc.loader.assetLoader` was removed, assetLoader and md5Pipe were merged into <a href="../classes/AssetManager.html#property_transformPipeline" class="crosslink">transformPipeline</a>
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:102](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L102) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:344](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L344) |
+| Deprecated | &#x60;cc.loader.assetLoader&#x60; was removed, assetLoader and md5Pipe were merged into &#x60;cc.assetManager.transformPipeline&#x60; |
 
 
 
 ##### md5Pipe
 
-> The md5 pipe in cc.loader's pipeline, it could be absent if the project isn't build with md5 option.
-It's used to modify the url to the real downloadable url with md5 suffix.
+> `cc.loader.md5Pipe` is deprecated, assetLoader and md5Pipe were merged into <a href="../classes/AssetManager.html#property_transformPipeline" class="crosslink">transformPipeline</a>
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:110](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L110) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:357](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L357) |
+| Deprecated | &#x60;cc.loader.md5Pipe&#x60; is deprecated, assetLoader and md5Pipe were merged into &#x60;cc.assetManager.transformPipeline&#x60; |
 
 
 
 ##### downloader
 
-> The downloader in cc.loader's pipeline, it's by default the second pipe.
-It's used to download files with several handlers: pure text, image, script, audio, font, uuid.
-You can add your own download function with addDownloadHandlers
+> `cc.loader.downloader` is deprecated, please use <a href="../classes/AssetManager.html#property_downloader" class="crosslink">downloader</a> instead
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:118](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L118) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:368](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L368) |
+| Deprecated | &#x60;cc.loader.downloader&#x60; is deprecated, please use &#x60;cc.assetManager.downloader&#x60; instead |
 
 
 
 ##### loader
 
-> The loader in cc.loader's pipeline, it's by default the third pipe.
-It's used to parse downloaded content with several handlers: JSON, image, plist, fnt, uuid.
-You can add your own download function with addLoadHandlers
+> `cc.loader.loader` is deprecated, please use <a href="../classes/AssetManager.html#property_parser" class="crosslink">parser</a> instead
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:127](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L127) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:379](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L379) |
+| Deprecated | &#x60;cc.loader.loader&#x60; is deprecated, please use &#x60;cc.assetManager.parser&#x60; instead |
 
 
 
@@ -115,67 +119,14 @@ You can add your own download function with addLoadHandlers
 #### Methods
 
 
-##### getXMLHttpRequest
-
-Gets a new XMLHttpRequest instance.
-
-| meta | description |
-|------|-------------|
-| Returns | XMLHttpRequest 
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:157](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L157) |
-
-
-
-##### addDownloadHandlers
-
-Add custom supported types handler or modify existing type handler for download process.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:164](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L164) |
-
-###### Parameters
-- `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
-
-##### Examples
-
-```js
-cc.loader.addDownloadHandlers({
-     // This will match all url with `.scene` extension or all url with `scene` type
-     'scene' : function (url, callback) {}
- });
-```
-
-##### addLoadHandlers
-
-Add custom supported types handler or modify existing type handler for load process.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:178](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L178) |
-
-###### Parameters
-- `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
-
-##### Examples
-
-```js
-cc.loader.addLoadHandlers({
-     // This will match all url with `.scene` extension or all url with `scene` type
-     'scene' : function (url, callback) {}
- });
-```
-
 ##### load
 
-Load resources with a progression callback and a complete callback.
-The progression callback is the same as Pipeline's <a href="../classes/LoadingItems.html#method_onProgress" class="crosslink">onProgress</a>
-The complete callback is almost the same as Pipeline's <a href="../classes/LoadingItems.html#method_onComplete" class="crosslink">onComplete</a>
-The only difference is when user pass a single url as resources, the complete callback will set its result directly as the second parameter.
+`cc.loader.load` is deprecated, please use AssetManager/load:method instead
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:192](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L192) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:83](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L83) |
+| Deprecated | &#x60;cc.loader.load&#x60; is deprecated, please use &#x60;cc.assetManager.loadAny&#x60; instead |
 
 ###### Parameters
 - `resources` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Url list in an array
@@ -185,41 +136,41 @@ The only difference is when user pass a single url as resources, the complete ca
 	- `item` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The latest item which flow out the pipeline
 - `completeCallback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when all resources loaded
 
-##### Examples
 
-```js
-cc.loader.load('a.png', function (err, tex) {
-    cc.log('Result should be a texture: ' + (tex instanceof cc.Texture2D));
-});
+##### getXMLHttpRequest
 
-cc.loader.load('http://example.com/a.png', function (err, tex) {
-    cc.log('Should load a texture from external url: ' + (tex instanceof cc.Texture2D));
-});
-
-cc.loader.load({url: 'http://example.com/getImageREST?file=a.png', type: 'png'}, function (err, tex) {
-    cc.log('Should load a texture from RESTful API by specify the type: ' + (tex instanceof cc.Texture2D));
-});
-
-cc.loader.load(['a.png', 'b.json'], function (errors, results) {
-    if (errors) {
-        for (var i = 0; i < errors.length; i++) {
-            cc.log('Error url [' + errors[i] + ']: ' + results.getError(errors[i]));
-        }
-    }
-    var aTex = results.getContent('a.png');
-    var bJsonObj = results.getContent('b.json');
-});
-```
-
-##### loadRes
-
-Load resources from the "resources" folder inside the "assets" folder of your project.<br>
-<br>
-Note: All asset URLs in Creator use forward slashes, URLs using backslashes will not work.
+`cc.loader.getXMLHttpRequest` is deprecated, please use `XMLHttpRequest` directly
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:425](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L425) |
+| Returns | XMLHttpRequest 
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:176](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L176) |
+| Deprecated | &#x60;cc.loader.getXMLHttpRequest&#x60; is deprecated, please use &#x60;XMLHttpRequest&#x60; directly |
+
+
+
+##### getItem
+
+`cc.loader.getItem` is deprecated, please use `cc.assetManager._asset.get` instead
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:189](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L189) |
+| Deprecated | &#x60;cc.loader.getItem&#x60; is deprecated, please use &#x60;cc.assetManager._asset.get&#x60; instead |
+
+###### Parameters
+- `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
+
+
+##### loadRes
+
+`cc.loader.loadRes` is deprecated, please use AssetManager/loadRes:method  instead
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:201](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L201) |
+| Deprecated | &#x60;cc.loader.loadRes&#x60; is deprecated, please use &#x60;cc.resources.load&#x60;  instead |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target resource.
@@ -233,35 +184,15 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 	- `error` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> The error info or null if loaded successfully.
 	- `resource` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The loaded resource if it can be found otherwise returns null.
 
-##### Examples
-
-```js
-// load the prefab (project/assets/resources/misc/character/cocos) from resources folder
-cc.loader.loadRes('misc/character/cocos', function (err, prefab) {
-    if (err) {
-        cc.error(err.message || err);
-        return;
-    }
-    cc.log('Result should be a prefab: ' + (prefab instanceof cc.Prefab));
-});
-
-// load the sprite frame of (project/assets/resources/imgs/cocos.png) from resources folder
-cc.loader.loadRes('imgs/cocos', cc.SpriteFrame, function (err, spriteFrame) {
-    if (err) {
-        cc.error(err.message || err);
-        return;
-    }
-    cc.log('Result should be a sprite frame: ' + (spriteFrame instanceof cc.SpriteFrame));
-});
-```
 
 ##### loadResArray
 
-This method is like <a href="../classes/loader.html#method_loadRes" class="crosslink">loadRes</a> except that it accepts array of url.
+`cc.loader.loadResArray` is deprecated, please use AssetManager/loadRes:method instead
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:555](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L555) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:235](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L235) |
+| Deprecated | &#x60;cc.loader.loadResArray&#x60; is deprecated, please use &#x60;cc.resources.load&#x60; instead |
 
 ###### Parameters
 - `urls` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> Array of URLs of the target resource.
@@ -277,31 +208,15 @@ This method is like <a href="../classes/loader.html#method_loadRes" class="cross
 	- `assets` <a href="../classes/Asset.html" class="crosslink">Asset[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> An array of all loaded assets.
                                                     If nothing to load, assets will be an empty array.
 
-##### Examples
-
-```js
-// load the SpriteFrames from resources folder
-var spriteFrames;
-var urls = ['misc/characters/character_01', 'misc/weapons/weapons_01'];
-cc.loader.loadResArray(urls, cc.SpriteFrame, function (err, assets) {
-    if (err) {
-        cc.error(err);
-        return;
-    }
-    spriteFrames = assets;
-    // ...
-});
-```
 
 ##### loadResDir
 
-Load all assets in a folder inside the "assets/resources" folder of your project.<br>
-<br>
-Note: All asset URLs in Creator use forward slashes, URLs using backslashes will not work.
+`cc.loader.loadResDir` is deprecated, please use AssetManager/loadResDir:method instead
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:622](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L622) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:273](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L273) |
+| Deprecated | &#x60;cc.loader.loadResDir&#x60; is deprecated, please use &#x60;cc.resources.loadDir&#x60; instead |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target folder.
@@ -318,43 +233,16 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
                                             If nothing to load, assets will be an empty array.
 	- `urls` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> An array that lists all the URLs of loaded assets.
 
-##### Examples
-
-```js
-// load the texture (resources/imgs/cocos.png) and the corresponding sprite frame
-cc.loader.loadResDir('imgs/cocos', function (err, assets) {
-    if (err) {
-        cc.error(err);
-        return;
-    }
-    var texture = assets[0];
-    var spriteFrame = assets[1];
-});
-
-// load all textures in "resources/imgs/"
-cc.loader.loadResDir('imgs', cc.Texture2D, function (err, textures) {
-    var texture1 = textures[0];
-    var texture2 = textures[1];
-});
-
-// load all JSONs in "resources/data/"
-cc.loader.loadResDir('data', function (err, objects, urls) {
-    var data = objects[0];
-    var url = urls[0];
-});
-```
 
 ##### getRes
 
-Get resource data by id. <br>
-When you load resources with <a href="../classes/loader.html#method_load" class="crosslink">load</a> or <a href="../classes/loader.html#method_loadRes" class="crosslink">loadRes</a>,
-the url will be the unique identity of the resource.
-After loaded, you can acquire them by passing the url to this API.
+`cc.loader.getRes` is deprecated, please use <a href="../classes/Bundle.html#method_get" class="crosslink">get</a> instead
 
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:693](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L693) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:314](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L314) |
+| Deprecated | &#x60;cc.loader.getRes&#x60; is deprecated, please use &#x60;cc.resources.get&#x60; instead |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -363,81 +251,65 @@ After loaded, you can acquire them by passing the url to this API.
 
 ##### getDependsRecursively
 
-Get all resource dependencies of the loaded asset in an array, including itself.
-The owner parameter accept the following types: 1. The asset itself; 2. The resource url; 3. The asset's uuid.<br>
-The returned array stores the dependencies with their uuids, after retrieve dependencies,
-you can release them, access dependent assets by passing the uuid to <a href="../classes/loader.html#method_getRes" class="crosslink">getRes</a>, or other stuffs you want.<br>
-For release all dependencies of an asset, please refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a>
-Here is some examples:
+`cc.loader.getDependsRecursively` is deprecated, please use use DependUtil/getDepsRecursively:method instead
 
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:730](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L730) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:331](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L331) |
+| Deprecated | &#x60;cc.loader.getDependsRecursively&#x60; is deprecated, please use use &#x60;cc.assetManager.dependUtil.getDepsRecursively&#x60; instead |
 
 ###### Parameters
-- `owner` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The owner asset or the resource url or the asset's uuid
+- `owner` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The owner asset or the resource url or the asset's uuid
 
-##### Examples
 
-```js
-// Release all dependencies of a loaded prefab
-var deps = cc.loader.getDependsRecursively(prefab);
-cc.loader.release(deps);
-// Retrieve all dependent textures
-var deps = cc.loader.getDependsRecursively('prefabs/sample');
-var textures = [];
-for (var i = 0; i < deps.length; ++i) {
-    var item = cc.loader.getRes(deps[i]);
-    if (item instanceof cc.Texture2D) {
-        textures.push(item);
-    }
-}
-```
+##### addDownloadHandlers
+
+`cc.loader.addDownloadHandlers` is deprecated, please use `cc.assetManager.downloader.register` instead
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:390](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L390) |
+| Deprecated | &#x60;cc.loader.addDownloadHandlers&#x60; is deprecated, please use &#x60;cc.assetManager.downloader.register&#x60; instead |
+
+###### Parameters
+- `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
+
+
+##### addLoadHandlers
+
+`cc.loader.addLoadHandlers` is deprecated, please use `cc.assetManager.parser.register` instead
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:411](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L411) |
+| Deprecated | &#x60;cc.loader.addLoadHandlers&#x60; is deprecated, please use &#x60;cc.assetManager.parser.register&#x60; instead |
+
+###### Parameters
+- `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
+
 
 ##### release
 
-Release the content of an asset or an array of assets by uuid.
-Start from v1.3, this method will not only remove the cache of the asset in loader, but also clean up its content.
-For example, if you release a texture, the texture asset and its gl texture data will be freed up.
-In complexe project, you can use this function with <a href="../classes/loader.html#method_getDependsRecursively" class="crosslink">getDependsRecursively</a> to free up memory in critical circumstances.
-Notice, this method may cause the texture to be unusable, if there are still other nodes use the same texture, they may turn to black and report gl errors.
-If you only want to remove the cache of an asset, please use Pipeline/removeItem:method
+`cc.loader.release` is deprecated, please use <a href="../classes/AssetManager.html#method_releaseAsset" class="crosslink">releaseAsset</a> instead
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:773](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L773) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:438](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L438) |
+| Deprecated | &#x60;cc.loader.release&#x60; is deprecated, please use &#x60;cc.assetManager.releaseAsset&#x60; instead |
 
 ###### Parameters
-- `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/RawAsset.html" class="crosslink">RawAsset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
+- `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
 
-##### Examples
-
-```js
-// Release a texture which is no longer need
-cc.loader.release(texture);
-// Release all dependencies of a loaded prefab
-var deps = cc.loader.getDependsRecursively('prefabs/sample');
-cc.loader.release(deps);
-// If there is no instance of this prefab in the scene, the prefab and its dependencies like textures, sprite frames, etc, will be freed up.
-// If you have some other nodes share a texture in this prefab, you can skip it in two ways:
-// 1. Forbid auto release a texture before release
-cc.loader.setAutoRelease(texture2d, false);
-// 2. Remove it from the dependencies array
-var deps = cc.loader.getDependsRecursively('prefabs/sample');
-var index = deps.indexOf(texture2d._uuid);
-if (index !== -1)
-    deps.splice(index, 1);
-cc.loader.release(deps);
-```
 
 ##### releaseAsset
 
-Release the asset by its object. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
+`cc.loader.releaseAsset` is deprecated, please use <a href="../classes/AssetManager.html#method_releaseAsset" class="crosslink">releaseAsset</a> instead
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:837](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L837) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:467](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L467) |
+| Deprecated | &#x60;cc.loader.releaseAsset&#x60; is deprecated, please use &#x60;cc.assetManager.releaseAsset&#x60; instead |
 
 ###### Parameters
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> 
@@ -445,11 +317,12 @@ Release the asset by its object. Refer to <a href="../classes/loader.html#method
 
 ##### releaseRes
 
-Release the asset loaded by <a href="../classes/loader.html#method_loadRes" class="crosslink">loadRes</a>. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
+`cc.loader.releaseRes` is deprecated, please use AssetManager/releaseRes:method instead
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:851](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L851) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:478](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L478) |
+| Deprecated | &#x60;cc.loader.releaseRes&#x60; is deprecated, please use &#x60;cc.assetManager.releaseRes&#x60; instead |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -458,256 +331,80 @@ Release the asset loaded by <a href="../classes/loader.html#method_loadRes" clas
 
 ##### releaseResDir
 
-Release the all assets loaded by <a href="../classes/loader.html#method_loadResDir" class="crosslink">loadResDir</a>. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
+`cc.loader.releaseResDir` was removed, please use AssetManager/releaseRes:method instead
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:869](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L869) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:490](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L490) |
+| Deprecated | &#x60;cc.loader.releaseResDir&#x60; was removed, please use &#x60;cc.assetManager.releaseRes&#x60; instead |
 
-###### Parameters
-- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Only asset of type will be released if this argument is supplied.
 
 
 ##### releaseAll
 
-Resource all assets. Refer to <a href="../classes/loader.html#method_release" class="crosslink">release</a> for detailed informations.
+`cc.loader.releaseAll` is deprecated, please use <a href="../classes/AssetManager.html#method_releaseAll" class="crosslink">releaseAll</a> instead
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:888](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L888) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:502](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L502) |
+| Deprecated | &#x60;cc.loader.releaseAll&#x60; is deprecated, please use &#x60;cc.assetManager.releaseAll&#x60; instead |
 
-
-
-##### setAutoRelease
-
-Indicates whether to release the asset when loading a new scene.<br>
-By default, when loading a new scene, all assets in the previous scene will be released or preserved
-according to whether the previous scene checked the "Auto Release Assets" option.
-On the other hand, assets dynamically loaded by using `cc.loader.loadRes` or `cc.loader.loadResDir`
-will not be affected by that option, remain not released by default.<br>
-Use this API to change the default behavior on a single asset, to force preserve or release specified asset when scene switching.<br>
-<br>
-See: <a href="../classes/loader.html#method_setAutoReleaseRecursively" class="crosslink">cc.loader.setAutoReleaseRecursively</a>, <a href="../classes/loader.html#method_isAutoRelease" class="crosslink">cc.loader.isAutoRelease</a>
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:909](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L909) |
-
-###### Parameters
-- `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
-- `autoRelease` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> indicates whether should release automatically
-
-##### Examples
-
-```js
-// auto release the texture event if "Auto Release Assets" disabled in current scene
-cc.loader.setAutoRelease(texture2d, true);
-// don't release the texture even if "Auto Release Assets" enabled in current scene
-cc.loader.setAutoRelease(texture2d, false);
-// first parameter can be url
-cc.loader.setAutoRelease(audioUrl, false);
-```
-
-##### setAutoReleaseRecursively
-
-Indicates whether to release the asset and its referenced other assets when loading a new scene.<br>
-By default, when loading a new scene, all assets in the previous scene will be released or preserved
-according to whether the previous scene checked the "Auto Release Assets" option.
-On the other hand, assets dynamically loaded by using `cc.loader.loadRes` or `cc.loader.loadResDir`
-will not be affected by that option, remain not released by default.<br>
-Use this API to change the default behavior on the specified asset and its recursively referenced assets, to force preserve or release specified asset when scene switching.<br>
-<br>
-See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc.loader.setAutoRelease</a>, <a href="../classes/loader.html#method_isAutoRelease" class="crosslink">cc.loader.isAutoRelease</a>
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:949](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L949) |
-
-###### Parameters
-- `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
-- `autoRelease` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> indicates whether should release automatically
-
-##### Examples
-
-```js
-// auto release the SpriteFrame and its Texture event if "Auto Release Assets" disabled in current scene
-cc.loader.setAutoReleaseRecursively(spriteFrame, true);
-// don't release the SpriteFrame and its Texture even if "Auto Release Assets" enabled in current scene
-cc.loader.setAutoReleaseRecursively(spriteFrame, false);
-// don't release the Prefab and all the referenced assets
-cc.loader.setAutoReleaseRecursively(prefab, false);
-```
-
-##### isAutoRelease
-
-Returns whether the asset is configured as auto released, despite how "Auto Release Assets" property is set on scene asset.<br>
-<br>
-See: <a href="../classes/loader.html#method_setAutoRelease" class="crosslink">cc.loader.setAutoRelease</a>, <a href="../classes/loader.html#method_setAutoReleaseRecursively" class="crosslink">cc.loader.setAutoReleaseRecursively</a>
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/load-pipeline/CCLoader.js:997](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/CCLoader.js#L997) |
-
-###### Parameters
-- `assetOrUrl` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url
-
-
-##### constructor
-
-Constructor, pass an array of pipes to construct a new Pipeline,
-the pipes will be chained in the given order.<br/>
-A pipe is an object which must contain an `id` in string and a `handle` function,
-the id must be unique in the pipeline.<br/>
-It can also include `async` property to identify whether it's an asynchronous process.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:112](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L112) |
-
-###### Parameters
-- `pipes` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-##### Examples
-
-```js
-var pipeline = new Pipeline([
-     {
-         id: 'Downloader',
-         handle: function (item, callback) {},
-         async: true
-     },
-     {id: 'Parser', handle: function (item) {}, async: false}
- ]);
-```
-
-##### insertPipe
-
-Insert a new pipe at the given index of the pipeline. <br/>
-A pipe must contain an `id` in string and a `handle` function, the id must be unique in the pipeline.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:156](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L156) |
-
-###### Parameters
-- `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted
-- `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The index to insert
-
-
-##### insertPipeAfter
-
-Insert a pipe to the end of an existing pipe. The existing pipe must be a valid pipe in the pipeline.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:199](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L199) |
-
-###### Parameters
-- `refPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An existing pipe in the pipeline.
-- `newPipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be inserted.
-
-
-##### appendPipe
-
-Add a new pipe at the end of the pipeline. <br/>
-A pipe must contain an `id` in string and a `handle` function, the id must be unique in the pipeline.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:216](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L216) |
-
-###### Parameters
-- `pipe` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The pipe to be appended
-
-
-##### flowIn
-
-Let new items flow into the pipeline. <br/>
-Each item can be a simple url string or an object,
-if it's an object, it must contain `id` property. <br/>
-You can specify its type by `type` property, by default, the type is the extension name in url. <br/>
-By adding a `skips` property including pipe ids, you can skip these pipe. <br/>
-The object can contain any supplementary property as you want. <br/>
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:240](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L240) |
-
-###### Parameters
-- `items` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-
-##### Examples
-
-```js
-pipeline.flowIn([
-     'res/Background.png',
-     {
-         id: 'res/scene.json',
-         type: 'scene',
-         name: 'scene',
-         skips: ['Downloader']
-     }
- ]);
-```
-
-##### copyItemStates
-
-Copy the item states from one source item to all destination items. <br/>
-It's quite useful when a pipe generate new items from one source item,<br/>
-then you should flowIn these generated items into pipeline, <br/>
-but you probably want them to skip all pipes the source item already go through,<br/>
-you can achieve it with this API. <br/>
-<br/>
-For example, an unzip pipe will generate more items, but you won't want them to pass unzip or download pipe again.
-
-| meta | description |
-|------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:325](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L325) |
-
-###### Parameters
-- `srcItem` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The source item
-- `dstItems` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> A single destination item or an array of destination items
-
-
-##### getItem
-
-Returns an item in pipeline.
-
-| meta | description |
-|------|-------------|
-| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:354](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L354) |
-
-###### Parameters
-- `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
 
 
 ##### removeItem
 
-Removes an completed item in pipeline.
-It will only remove the cache in the pipeline or loader, its dependencies won't be released.
-cc.loader provided another method to completely cleanup the resource and its dependencies,
-please refer to <a href="../classes/loader.html#method_release" class="crosslink">cc.loader.release</a>
+`cc.loader.removeItem` is deprecated, please use `cc.assetManager.assets.remove` instead
 
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:374](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L374) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:513](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L513) |
+| Deprecated | &#x60;cc.loader.removeItem&#x60; is deprecated, please use &#x60;cc.assetManager.assets.remove&#x60; instead |
 
 ###### Parameters
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
 
 
-##### clear
+##### setAutoRelease
 
-Clear the current pipeline, this function will clean up the items.
+`cc.loader.setAutoRelease` is deprecated, if you want to prevent some asset from auto releasing, please use <a href="../classes/Asset.html#method_addRef" class="crosslink">addRef</a> instead
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/load-pipeline/pipeline.js:394](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/load-pipeline/pipeline.js#L394) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:525](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L525) |
+| Deprecated | &#x60;cc.loader.setAutoRelease&#x60; is deprecated, if you want to prevent some asset from auto releasing, please use &#x60;cc.Asset.addRef&#x60; instead |
 
+###### Parameters
+- `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
+- `autoRelease` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> indicates whether should release automatically
+
+
+##### setAutoReleaseRecursively
+
+`cc.loader.setAutoReleaseRecursively` is deprecated, if you want to prevent some asset from auto releasing, please use <a href="../classes/Asset.html#method_addRef" class="crosslink">addRef</a> instead
+
+| meta | description |
+|------|-------------|
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:538](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L538) |
+| Deprecated | &#x60;cc.loader.setAutoReleaseRecursively&#x60; is deprecated, if you want to prevent some asset from auto releasing, please use &#x60;cc.Asset.addRef&#x60; instead |
+
+###### Parameters
+- `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
+- `autoRelease` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> indicates whether should release automatically
+
+
+##### isAutoRelease
+
+`cc.loader.isAutoRelease` is deprecated
+
+| meta | description |
+|------|-------------|
+| Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:557](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L557) |
+| Deprecated | &#x60;cc.loader.isAutoRelease&#x60; is deprecated |
+
+###### Parameters
+- `assetOrUrl` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url
 
 
 

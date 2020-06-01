@@ -38,7 +38,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:19](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/size-overtime.ts#L19) |
+| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:19](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/size-overtime.ts#L19) |
 
 
 
@@ -49,7 +49,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:27](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/size-overtime.ts#L27) |
+| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:27](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/size-overtime.ts#L27) |
 
 
 
@@ -60,7 +60,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:35](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/size-overtime.ts#L35) |
+| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:35](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/size-overtime.ts#L35) |
 
 
 
@@ -71,7 +71,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:45](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/size-overtime.ts#L45) |
+| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:45](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/size-overtime.ts#L45) |
 
 
 
@@ -82,7 +82,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:55](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/size-overtime.ts#L55) |
+| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:55](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/size-overtime.ts#L55) |
 
 
 
@@ -93,7 +93,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:65](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/size-overtime.ts#L65) |
+| 定义于 | [cocos2d/core/3d/particle/animator/size-overtime.ts:65](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/size-overtime.ts#L65) |
 
 
 

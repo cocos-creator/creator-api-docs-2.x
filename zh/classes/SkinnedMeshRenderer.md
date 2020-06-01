@@ -34,7 +34,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Skeleton.html" class="crosslink">Skeleton</a> |
-| 定义于 | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:66](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L66) |
+| 定义于 | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:66](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L66) |
 
 
 
@@ -45,7 +45,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| 定义于 | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:84](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L84) |
+| 定义于 | [cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js:84](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/skeleton/CCSkinnedMeshRenderer.js#L84) |
 
 
 

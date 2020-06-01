@@ -3,43 +3,24 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
+废弃: &#x60;cc.url&#x60; is deprecated
 
-
+`cc.url` is deprecated
 
 
 
 ### 索引
 
-##### 属性（properties）
-
-  - [`_rawAssets`](#rawassets) `Object` The base url of raw assets.
-
 
 
 ##### 方法
 
-  - [`raw`](#raw) Returns the url of raw assets, you will only need this if the raw asset is inside the "resources" folder.
+  - [`raw`](#raw) `cc.url.raw` is deprecated, please use `cc.resources.load` directly, or use `Asset.nativeUrl` instead.
 
 
 
 ### Details
-
-
-#### 属性（properties）
-
-
-##### _rawAssets
-
-> The base url of raw assets.
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/platform/url.js:36](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/url.js#L36) |
-
-
 
 
 
@@ -50,23 +31,16 @@
 
 ##### raw
 
-Returns the url of raw assets, you will only need this if the raw asset is inside the "resources" folder.
+`cc.url.raw` is deprecated, please use `cc.resources.load` directly, or use `Asset.nativeUrl` instead.
 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/platform/url.js:58](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/url.js#L58) |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:644](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L644) |
+| 废弃（Deprecated） | &#x60;cc.url.raw&#x60; is deprecated, please use &#x60;cc.resources.load&#x60; directly, or use &#x60;Asset.nativeUrl&#x60; instead. |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
-##### 示例
-
-```js
----
-var url = cc.url.raw("textures/myTexture.png");
-console.log(url);   // "resources/raw/textures/myTexture.png"
-
-```
 
 

@@ -23,19 +23,19 @@ Enum for particles movement type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:100](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/particle/CCParticleSystem.js#L100) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:100](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/particle/CCParticleSystem.js#L100) |
 
 
 
 ##### RELATIVE
 
-> Living particles are attached to the world but will follow the emitter repositioning.<br/>
-Use case: Attach an emitter to an sprite, and you want that the emitter follows the sprite.
+> In the relative mode, the particle will move with the parent node, but not with the node where the particle is.
+For example, the coffee in the cup is steaming. Then the steam moves (forward) with the train, rather than moves with the cup.
 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:109](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/particle/CCParticleSystem.js#L109) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:109](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/particle/CCParticleSystem.js#L109) |
 
 
 
@@ -46,6 +46,6 @@ Use case: Attach an emitter to an sprite, and you want that the emitter follows 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:119](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/particle/CCParticleSystem.js#L119) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:120](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/particle/CCParticleSystem.js#L120) |
 
 

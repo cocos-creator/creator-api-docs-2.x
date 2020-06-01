@@ -42,7 +42,7 @@ The texture animation module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:55](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/texture-animation.ts#L55) |
+| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:55](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/texture-animation.ts#L55) |
 
 
 
@@ -53,7 +53,7 @@ The texture animation module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | Mode |
-| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:73](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/texture-animation.ts#L73) |
+| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:73](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/texture-animation.ts#L73) |
 
 
 
@@ -64,7 +64,7 @@ The texture animation module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:92](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/texture-animation.ts#L92) |
+| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:92](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/texture-animation.ts#L92) |
 
 
 
@@ -75,7 +75,7 @@ The texture animation module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:100](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/texture-animation.ts#L100) |
+| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:100](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/texture-animation.ts#L100) |
 
 
 
@@ -86,7 +86,7 @@ The texture animation module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Animation.html" class="crosslink">Animation</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:108](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/texture-animation.ts#L108) |
+| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:108](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/texture-animation.ts#L108) |
 
 
 
@@ -98,7 +98,7 @@ This option only takes effect when the animation playback mode is SingleRow.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:118](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/texture-animation.ts#L118) |
+| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:118](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/texture-animation.ts#L118) |
 
 
 
@@ -110,7 +110,7 @@ This option is only available when the animation playback mode is SingleRow and 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:128](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/texture-animation.ts#L128) |
+| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:128](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/texture-animation.ts#L128) |
 
 
 
@@ -121,7 +121,7 @@ This option is only available when the animation playback mode is SingleRow and 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:138](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/texture-animation.ts#L138) |
+| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:138](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/texture-animation.ts#L138) |
 
 
 
@@ -132,7 +132,7 @@ This option is only available when the animation playback mode is SingleRow and 
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:148](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/texture-animation.ts#L148) |
+| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:148](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/texture-animation.ts#L148) |
 
 
 
@@ -143,7 +143,7 @@ This option is only available when the animation playback mode is SingleRow and 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:158](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/animator/texture-animation.ts#L158) |
+| Defined in | [cocos2d/core/3d/particle/animator/texture-animation.ts:158](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/animator/texture-animation.ts#L158) |
 
 
 

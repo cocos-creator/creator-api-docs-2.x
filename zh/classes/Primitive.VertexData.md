@@ -39,7 +39,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number[]</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:17](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/primitive/vertex-data.ts#L17) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:17](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/primitive/vertex-data.ts#L17) |
 
 
 
@@ -50,7 +50,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number[]</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:21](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/primitive/vertex-data.ts#L21) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:21](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/primitive/vertex-data.ts#L21) |
 
 
 
@@ -61,7 +61,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number[]</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:25](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/primitive/vertex-data.ts#L25) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:25](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/primitive/vertex-data.ts#L25) |
 
 
 
@@ -72,7 +72,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">[Number]</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:29](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/primitive/vertex-data.ts#L29) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:29](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/primitive/vertex-data.ts#L29) |
 
 
 
@@ -83,7 +83,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:33](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/primitive/vertex-data.ts#L33) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:33](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/primitive/vertex-data.ts#L33) |
 
 
 
@@ -94,7 +94,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:37](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/primitive/vertex-data.ts#L37) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:37](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/primitive/vertex-data.ts#L37) |
 
 
 
@@ -105,7 +105,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:41](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/primitive/vertex-data.ts#L41) |
+| 定义于 | [cocos2d/core/3d/primitive/vertex-data.ts:41](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/primitive/vertex-data.ts#L41) |
 
 
 

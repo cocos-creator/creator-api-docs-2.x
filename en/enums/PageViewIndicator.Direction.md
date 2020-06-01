@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Enum for PageView Indicator direction
@@ -22,7 +23,7 @@ Enum for PageView Indicator direction
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCPageViewIndicator.js:36](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCPageViewIndicator.js#L36) |
+| Defined in | [cocos2d/core/components/CCPageViewIndicator.js:36](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCPageViewIndicator.js#L36) |
 
 
 
@@ -33,6 +34,6 @@ Enum for PageView Indicator direction
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCPageViewIndicator.js:43](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/components/CCPageViewIndicator.js#L43) |
+| Defined in | [cocos2d/core/components/CCPageViewIndicator.js:43](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCPageViewIndicator.js#L43) |
 
 

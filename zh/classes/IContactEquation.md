@@ -14,8 +14,8 @@
 
 ##### 属性（properties）
 
-  - [`contactA`](#contacta) `Vec3` 碰撞信息中的碰撞点A。
-  - [`contactB`](#contactb) `Vec3` 碰撞信息中的碰撞点B。
+  - [`contactA`](#contacta) `Vec3` 碰撞信息中的碰撞点 A。
+  - [`contactB`](#contactb) `Vec3` 碰撞信息中的碰撞点 B。
   - [`normal`](#normal) `Vec3` 碰撞信息中的法线。
 
 
@@ -30,23 +30,23 @@
 
 ##### contactA
 
-> 碰撞信息中的碰撞点A。
+> 碰撞信息中的碰撞点 A。
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:94](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-interface.ts#L94) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:94](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-interface.ts#L94) |
 
 
 
 ##### contactB
 
-> 碰撞信息中的碰撞点B。
+> 碰撞信息中的碰撞点 B。
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:104](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-interface.ts#L104) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:104](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-interface.ts#L104) |
 
 
 
@@ -57,7 +57,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:114](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-interface.ts#L114) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:114](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-interface.ts#L114) |
 
 
 

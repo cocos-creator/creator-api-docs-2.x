@@ -16,12 +16,13 @@ JSON 资源类。JSON 文件加载后，将会返回该对象。可以通过其�
 ##### 属性（properties）
 
   - [`json`](#json) `Object` The loaded JSON object.
-  - [`loaded`](#loaded) `Boolean` 该资源是否已经成功加载
-  - [`url`](#url) `String` 资源的原生文件的真实url，只在资源被加载后以及没有启用延迟加载时才有效。
-  - [`nativeUrl`](#nativeurl) `String` 返回该资源对应的目标平台资源的 URL，如果没有将返回一个空字符串。
-  - [`_native`](#native) `String` Serializable url for native asset.
-  - [`_nativeAsset`](#nativeasset) `Object` The underlying native asset of this asset if one is available....
+  - [`url`](#url) `String` `cc.Asset.url` is deprecated, please use <a href="../classes/Asset.html#property_nativeUrl" class="crosslink">nativeUrl</a> instead
   - [`_uuid`](#uuid) `String` 
+  - [`loaded`](#loaded) `Boolean` 该资源是否已经成功加载。
+  - [`nativeUrl`](#nativeurl) `String` 返回该资源对应的目标平台资源的 URL，如果没有将返回一个空字符串。
+  - [`refCount`](#refcount) `Number` 引用的数量
+  - [`_native`](#native) `String` 保存原生资源的 URL。
+  - [`_nativeAsset`](#nativeasset) `Object` 此资源依赖的底层原生资源（如果有的话）。
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
   - [`name`](#name) `String` 该对象的名称。
@@ -31,15 +32,17 @@ JSON 资源类。JSON 文件加载后，将会返回该对象。可以通过其�
 
 ##### 方法
 
-  - [`toString`](#tostring) Returns the asset's url....
-  - [`serialize`](#serialize) 应 AssetDB 要求提供这个方法
+  - [`toString`](#tostring) 返回资源的 URL。
+  - [`serialize`](#serialize) 应 AssetDB 要求提供这个方法。
   - [`createNode`](#createnode) 使用该资源在场景中创建一个新节点。
-  - [`_setRawAsset`](#setrawasset) Set native file name for this asset.
+  - [`_setRawAsset`](#setrawasset) 为此资源设置原生文件名。
+  - [`addRef`](#addref) 增加资源的引用
+  - [`decRef`](#decref) 减少资源的引用并尝试进行自动释放。
   - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。
-  - [`_destruct`](#destruct) Clear all references in the instance....
-  - [`_onPreDestroy`](#onpredestroy) Called before the object being destroyed.
-  - [`_serialize`](#serialize) The customized serialization for this object. (Editor Only)
-  - [`_deserialize`](#deserialize) Init this object from the custom serialized data.
+  - [`_destruct`](#destruct) 清除实例中的所有引用。
+  - [`_onPreDestroy`](#onpredestroy) 在对象被销毁之前调用。
+  - [`_serialize`](#serialize) 为此对象定制序列化。
+  - [`_deserialize`](#deserialize) 从自定义序列化数据初始化此对象。
 
 
 
@@ -56,65 +59,19 @@ JSON 资源类。JSON 文件加载后，将会返回该对象。可以通过其�
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/assets/CCJsonAsset.js:47](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCJsonAsset.js#L47) |
-
-
-
-##### loaded
-
-> 该资源是否已经成功加载
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:57](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L57) |
+| 定义于 | [cocos2d/core/assets/CCJsonAsset.js:47](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCJsonAsset.js#L47) |
 
 
 
 ##### url
 
-> 资源的原生文件的真实url，只在资源被加载后以及没有启用延迟加载时才有效。 nativeUrl 与 url 的区别在于，url 是资源最终路径，所以 url 不需要再经过 md5 以及子包的路径转换，
-另外某些带缓存机制的小游戏平台（微信等）上url可能会指向临时文件路径或者缓存路径，如果你需要在这些平台上使用资源的原生文件，请使用url，避免使用nativeUrl
+> `cc.Asset.url` is deprecated, please use <a href="../classes/Asset.html#property_nativeUrl" class="crosslink">nativeUrl</a> instead
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:68](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L68) |
-
-
-
-##### nativeUrl
-
-> 返回该资源对应的目标平台资源的 URL，如果没有将返回一个空字符串。
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:85](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L85) |
-
-
-
-##### _native
-
-> Serializable url for native asset.
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:123](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L123) |
-
-
-
-##### _nativeAsset
-
-> The underlying native asset of this asset if one is available.
-This property can be used to access additional details or functionality releated to the asset.
-This property will be initialized by the loader if `_native` is available.
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:131](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L131) |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:717](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L717) |
+| 废弃（Deprecated） | &#x60;cc.Asset.url&#x60; is deprecated, please use &#x60;cc.Asset.nativeUrl&#x60; instead |
 
 
 
@@ -125,7 +82,64 @@ This property will be initialized by the loader if `_native` is available.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/assets/CCRawAsset.js:46](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCRawAsset.js#L46) |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:57](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L57) |
+
+
+
+##### loaded
+
+> 该资源是否已经成功加载。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:66](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L66) |
+
+
+
+##### nativeUrl
+
+> 返回该资源对应的目标平台资源的 URL，如果没有将返回一个空字符串。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:81](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L81) |
+
+
+
+##### refCount
+
+> 引用的数量
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:115](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L115) |
+
+
+
+##### _native
+
+> 保存原生资源的 URL。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:131](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L131) |
+
+
+
+##### _nativeAsset
+
+> 此资源依赖的底层原生资源（如果有的话）。
+此属性可用于访问与资源相关的其他详细信息或功能。
+如果 `_native` 可用，则此属性将由加载器初始化。
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:142](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L142) |
 
 
 
@@ -136,7 +150,7 @@ This property will be initialized by the loader if `_native` is available.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L76) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L76) |
 
 
 
@@ -147,7 +161,7 @@ This property will be initialized by the loader if `_native` is available.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L83) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L83) |
 
 
 
@@ -158,7 +172,7 @@ This property will be initialized by the loader if `_native` is available.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L240) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L240) |
 
 ##### 示例
 
@@ -175,7 +189,7 @@ obj.name = "New Obj";
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L258) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L258) |
 
 ##### 示例
 
@@ -198,27 +212,27 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 
 ##### toString
 
-Returns the asset's url.
+返回资源的 URL。
 
-The `Asset` object overrides the `toString()` method of the `Object` object.
-For `Asset` objects, the toString() method returns a string representation of the object.
-JavaScript calls the toString() method automatically when an asset is to be represented as a text value or when a texture is referred to in a string concatenation.
+Asset 对象将会重写 Object 对象的 `toString()` 方法。
+对于 Asset 对象，`toString()` 方法返回该对象的字符串表示形式。
+当资源要表示为文本值时或在字符串连接时引用时，JavaScript 会自动调用 `toString()` 方法。
 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/assets/CCAsset.js:184](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L184) |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:223](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L223) |
 
 
 
 ##### serialize
 
-应 AssetDB 要求提供这个方法
+应 AssetDB 要求提供这个方法。
 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/assets/CCAsset.js:198](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L198) |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:243](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L243) |
 
 
 
@@ -229,7 +243,7 @@ JavaScript calls the toString() method automatically when an asset is to be repr
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCAsset.js:209](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L209) |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:257](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L257) |
 
 ###### 参数列表
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -239,27 +253,49 @@ JavaScript calls the toString() method automatically when an asset is to be repr
 
 ##### _setRawAsset
 
-Set native file name for this asset.
+为此资源设置原生文件名。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCAsset.js:224](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/assets/CCAsset.js#L224) |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:272](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L272) |
 
 ###### 参数列表
 - `filename` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 - `inLibrary` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
 
 
+##### addRef
+
+增加资源的引用
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Asset.html" class="crosslink">Asset</a> 
+| 定义于 | [cocos2d/core/assets/CCAsset.js:294](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L294) |
+
+
+
+##### decRef
+
+减少资源的引用并尝试进行自动释放。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Asset.html" class="crosslink">Asset</a> 
+| 定义于 | [cocos2d/core/assets/CCAsset.js:312](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCAsset.js#L312) |
+
+
+
 ##### destroy
 
 销毁该对象，并释放所有它对其它对象的引用。<br/>
 实际销毁操作会延迟到当前帧渲染前执行。从下一帧开始，该对象将不再可用。
-您可以在访问对象之前使用 cc.isValid(obj) 来检查对象是否已被销毁。
+您可以在访问对象之前使用 `cc.isValid(obj)` 来检查对象是否已被销毁。
 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L293) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L293) |
 
 
 ##### 示例
@@ -270,49 +306,51 @@ obj.destroy();
 
 ##### _destruct
 
-Clear all references in the instance.
+清除实例中的所有引用。
 
-NOTE: this method will not clear the getter or setter functions which defined in the instance of CCObject.
-      You can override the _destruct method if you need, for example:
-      _destruct: function () {
-          for (var key in this) {
-              if (this.hasOwnProperty(key)) {
-                  switch (typeof this[key]) {
-                      case 'string':
-                          this[key] = '';
-                          break;
-                      case 'object':
-                      case 'function':
-                          this[key] = null;
-                          break;
-              }
-          }
-      }
+注意：此方法不会清除在 `CCObject` 实例中定义的 `getter` 或 `setter`。如果需要，你可以重写 `_destruct` 方法。例如：
+
+```js
+_destruct: function () {
+    for (var key in this) {
+        if (this.hasOwnProperty(key)) {
+            switch (typeof this[key]) {
+                case 'string':
+                    this[key] = '';
+                    break;
+                case 'object':
+                case 'function':
+                    this[key] = null;
+                    break;
+        }
+    }
+}
+```
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L427) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L427) |
 
 
 
 ##### _onPreDestroy
 
-Called before the object being destroyed.
+在对象被销毁之前调用。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:460](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L460) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:484](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L484) |
 
 
 
 ##### _serialize
 
-The customized serialization for this object. (Editor Only)
+为此对象定制序列化。
 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:485](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L485) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:512](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L512) |
 
 ###### 参数列表
 - `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -320,11 +358,11 @@ The customized serialization for this object. (Editor Only)
 
 ##### _deserialize
 
-Init this object from the custom serialized data.
+从自定义序列化数据初始化此对象。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:495](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/CCObject.js#L495) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:525](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L525) |
 
 ###### 参数列表
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

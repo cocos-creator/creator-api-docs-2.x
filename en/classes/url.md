@@ -3,43 +3,24 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
+deprecated: &#x60;cc.url&#x60; is deprecated
 
-
+`cc.url` is deprecated
 
 
 
 ### Index
 
-##### Properties
-
-  - [`_rawAssets`](#rawassets) `Object` The base url of raw assets.
-
 
 
 ##### Methods
 
-  - [`raw`](#raw) Returns the url of raw assets, you will only need this if the raw asset is inside the "resources" folder.
+  - [`raw`](#raw) `cc.url.raw` is deprecated, please use `cc.resources.load` directly, or use `Asset.nativeUrl` instead.
 
 
 
 ### Details
-
-
-#### Properties
-
-
-##### _rawAssets
-
-> The base url of raw assets.
-
-| meta | description |
-|------|-------------|
-| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/platform/url.js:36](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/url.js#L36) |
-
-
 
 
 
@@ -50,23 +31,16 @@ Parent Module: [cc](../modules/cc.md)
 
 ##### raw
 
-Returns the url of raw assets, you will only need this if the raw asset is inside the "resources" folder.
+`cc.url.raw` is deprecated, please use `cc.resources.load` directly, or use `Asset.nativeUrl` instead.
 
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/platform/url.js:58](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/platform/url.js#L58) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:644](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L644) |
+| Deprecated | &#x60;cc.url.raw&#x60; is deprecated, please use &#x60;cc.resources.load&#x60; directly, or use &#x60;Asset.nativeUrl&#x60; instead. |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
 
-##### Examples
-
-```js
----
-var url = cc.url.raw("textures/myTexture.png");
-console.log(url);   // "resources/raw/textures/myTexture.png"
-
-```
 
 

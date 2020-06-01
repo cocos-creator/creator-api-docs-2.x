@@ -13,6 +13,12 @@ window.apimeta = {
       "description": "Dragonbones渲染类型"
     },
     {
+      "name": "BuiltinBundleName",
+      "namespace": "cc.AssetManager.BuiltinBundleName",
+      "module": "cc.AssetManager",
+      "description": "内置 bundle"
+    },
+    {
       "name": "Button.Transition",
       "namespace": "cc.Button.Transition",
       "module": "cc",
@@ -131,12 +137,6 @@ window.apimeta = {
       "namespace": "cc.Light.Type",
       "module": "cc",
       "description": "光源类型"
-    },
-    {
-      "name": "LoadingItems.ItemState",
-      "namespace": "cc.LoadingItems.ItemState",
-      "module": "cc",
-      "description": "LoadingItems 队列中的加载项状态，状态的值可能是 LoadingItems.ItemState.WORKING | LoadingItems.ItemState.COMPLETET | LoadingItems.ItemState.ERROR"
     },
     {
       "name": "Mask.Type",
@@ -549,6 +549,12 @@ window.apimeta = {
       "description": "Creator 中的资源基类。<br/>\n\n您可能需要重写：<br/>\n- createNode <br/>\n- _nativeAsset 的 getset 方法<br/>\n- cc.Object._serialize<br/>\n- cc.Object._deserialize<br/>"
     },
     {
+      "name": "AssetManager",
+      "namespace": "cc.AssetManager",
+      "module": "cc",
+      "description": "此模块管理资源的行为和信息，包括加载，释放等，这是一个单例，所有成员能够通过 `cc.assetManager` 调用"
+    },
+    {
       "name": "AudioClip",
       "namespace": "cc.AudioClip",
       "module": "cc",
@@ -597,6 +603,18 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "Builtins",
+      "namespace": "cc.AssetManager.Builtins",
+      "module": "cc.AssetManager",
+      "description": "此模块包含内建资源，这是一个单例，所有成员能通过 `cc.assetManager.builtins` 访问"
+    },
+    {
+      "name": "Bundle",
+      "namespace": "cc.AssetManager.Bundle",
+      "module": "cc.AssetManager",
+      "description": "一个包含一定数量资源（包括场景）的包，你可以加载，预加载，释放此包内的资源"
+    },
+    {
       "name": "Burst",
       "namespace": "cc.Burst",
       "module": "cc",
@@ -613,6 +631,12 @@ window.apimeta = {
       "namespace": "dragonBones.CCFactory",
       "module": "dragonBones",
       "description": "DragonBones factory"
+    },
+    {
+      "name": "Cache",
+      "namespace": "cc.AssetManager.Cache",
+      "module": "cc.AssetManager",
+      "description": "用于缓存某些内容"
     },
     {
       "name": "CallbacksInvoker",
@@ -637,12 +661,6 @@ window.apimeta = {
       "namespace": "cc.CircleCollider",
       "module": "cc",
       "description": "圆形碰撞组件"
-    },
-    {
-      "name": "CoffeeScript",
-      "namespace": "cc.CoffeeScript",
-      "module": "cc",
-      "description": "CoffeeScript 资源类。"
     },
     {
       "name": "Collider",
@@ -672,7 +690,13 @@ window.apimeta = {
       "name": "Collider3D",
       "namespace": "cc.Collider3D",
       "module": "cc",
-      "description": "碰撞器的基类"
+      "description": "碰撞器的基类。"
+    },
+    {
+      "name": "ColliderInfo",
+      "namespace": "cc.ColliderInfo",
+      "module": "cc",
+      "description": "碰撞体信息。"
     },
     {
       "name": "CollisionManager",
@@ -735,6 +759,12 @@ window.apimeta = {
       "description": "目标值的曲线范围"
     },
     {
+      "name": "DependUtil",
+      "namespace": "cc.AssetManager.DependUtil",
+      "module": "cc.AssetManager",
+      "description": "控制资源的依赖列表，这是一个单例, 所有成员能通过 `cc.assetManager.dependUtil` 访问"
+    },
+    {
       "name": "Details",
       "namespace": "cc.Details",
       "module": "cc",
@@ -751,6 +781,12 @@ window.apimeta = {
       "namespace": "cc.DistanceJoint",
       "module": "cc",
       "description": "距离关节通过一个固定的长度来约束关节链接的两个刚体。你可以将它想象成一个无质量，坚固的木棍。"
+    },
+    {
+      "name": "Downloader",
+      "namespace": "cc.Downloader",
+      "module": "cc.AssetManager",
+      "description": "管理所有下载过程，downloader 是个单例，所有成员能通过 `cc.assetManager.downloader` 访问，它能下载以下几种类型的文件：\n1. 文本\n2. 图片\n3. 音频\n4. 资源\n5. 脚本"
     },
     {
       "name": "DragonBonesAsset",
@@ -891,6 +927,12 @@ window.apimeta = {
       "description": "An internal helper class for switching render component's material between normal sprite material and gray sprite material."
     },
     {
+      "name": "Helper",
+      "namespace": "cc.AssetManager.Helper",
+      "module": "cc.AssetManager",
+      "description": "提供一些辅助方法，helper 是一个单例, 所有成员能通过 `cc.assetManager.utils` 访问"
+    },
+    {
       "name": "IBaseShape",
       "namespace": "cc.IBaseShape",
       "module": "cc",
@@ -1026,7 +1068,7 @@ window.apimeta = {
       "name": "LoadingItems",
       "namespace": "cc.LoadingItems",
       "module": "cc",
-      "description": "LoadingItems 是一个加载对象队列，可以用来输送加载对象到加载管线中。<br/>\n请不要直接使用 new 构造这个类的对象，你可以使用 LoadingItems.create 来创建一个新的加载队列，这样可以允许我们的内部对象池回收并重利用加载队列。\n它有一个 map 属性用来存放加载项，在 map 对象中以 url 为 key 值。<br/>\n每个对象都会包含下列属性：<br/>\n- id：该对象的标识，通常与 url 相同。<br/>\n- url：路径 <br/>\n- type: 类型，它这是默认的 URL 的扩展名，可以手动指定赋值。<br/>\n- error：pipeline 中发生的错误将被保存在这个属性中。<br/>\n- content: pipeline 中处理的临时结果，最终的结果也将被存储在这个属性中。<br/>\n- complete：该标志表明该对象是否通过 pipeline 完成。<br/>\n- states：该对象存储每个管道中对象经历的状态，状态可以是 Pipeline.ItemState.WORKING | Pipeline.ItemState.ERROR | Pipeline.ItemState.COMPLETE<br/>\n<br/>\n对象可容纳其他自定义属性。<br/>\n每个 LoadingItems 对象都会在 onComplete 回调之后被销毁，所以请不要持有它的引用并在结束回调之后依赖它的内容执行任何逻辑，有这种需求的话你可以提前复制它的内容。"
+      "description": "`cc.LoadingItems` was removed, please use <a href=\"../classes/Task.html\" class=\"crosslink\">Task</a> instead"
     },
     {
       "name": "Manifold",
@@ -1131,6 +1173,12 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "PackManager",
+      "namespace": "cc.AssetManager.PackManager",
+      "module": "cc.AssetManager",
+      "description": "处理打包资源，包括拆包，加载，缓存等等，这是一个单例, 所有成员能通过 `cc.assetManager.packManager` 访问"
+    },
+    {
       "name": "PageView",
       "namespace": "cc.PageView",
       "module": "cc",
@@ -1141,6 +1189,12 @@ window.apimeta = {
       "namespace": "cc.PageViewIndicator",
       "module": "cc",
       "description": "页面视图每页标记组件"
+    },
+    {
+      "name": "Parser",
+      "namespace": "cc.AssetManager.Parser",
+      "module": "cc.AssetManager",
+      "description": "解析已下载的文件，parser 是一个单例, 所有成员能通过 `cc.assetManaager.parser` 访问"
     },
     {
       "name": "ParticleAsset",
@@ -1212,7 +1266,7 @@ window.apimeta = {
       "name": "PhysicsMaterial",
       "namespace": "cc.PhysicsMaterial",
       "module": "cc",
-      "description": "Physics material."
+      "description": "物理材质。"
     },
     {
       "name": "PhysicsPolygonCollider",
@@ -1234,21 +1288,9 @@ window.apimeta = {
     },
     {
       "name": "Pipeline",
-      "namespace": "cc.Pipeline",
-      "module": "cc",
-      "description": "pipeline 描述了一系列的操作，每个操作都被称为 pipe。<br/>\n它被设计来做加载过程的流程管理。所以 item 应该是 url，并且该 url 将是在处理中的每个 item 的身份标识。<br/>\n一个 item 列表可以在 pipeline 中流动，它将输出加载项经过所有 pipe 之后的结果。<br/>\n它们穿过 pipeline 就像水在管子里流动，将会按顺序流过每个 pipe。<br/>\n最后当所有加载项都流出 pipeline 时，整个加载流程就结束了。"
-    },
-    {
-      "name": "Pipeline.Downloader",
-      "namespace": "cc.Pipeline.Downloader",
-      "module": "cc",
-      "description": "The downloader pipe, it can download several types of files:\n1. Text\n2. Image\n3. Script\n4. Audio\n5. Assets\nAll unknown type will be downloaded as plain text.\nYou can pass custom supported types in the constructor."
-    },
-    {
-      "name": "Pipeline.Loader",
-      "namespace": "cc.Pipeline.Loader",
-      "module": "cc",
-      "description": "The loader pipe, it can load several types of files:\n1. Images\n2. JSON\n3. Plist\n4. Audio\n5. Font\n6. Cocos Creator scene\nIt will not interfere with items of unknown type.\nYou can pass custom supported types in the constructor."
+      "namespace": "cc.AssetManager.Pipeline",
+      "module": "cc.AssetManager",
+      "description": "管线能执行任务达到某个效果"
     },
     {
       "name": "Playable",
@@ -1311,12 +1353,6 @@ window.apimeta = {
       "description": "表示 2D 向量和坐标"
     },
     {
-      "name": "RawAsset",
-      "namespace": "cc.RawAsset",
-      "module": "cc",
-      "description": "注册用的资源基类。"
-    },
-    {
       "name": "Rect",
       "namespace": "cc.Rect",
       "module": "cc",
@@ -1333,6 +1369,12 @@ window.apimeta = {
       "namespace": "cc.RenderTexture",
       "module": "cc",
       "description": "Render textures are textures that can be rendered to."
+    },
+    {
+      "name": "RequestItem",
+      "namespace": "cc.AssetManager.RequestItem",
+      "module": "cc.AssetManager",
+      "description": "请求的相关信息集合"
     },
     {
       "name": "ResolutionPolicy",
@@ -1362,7 +1404,7 @@ window.apimeta = {
       "name": "RigidBody3D",
       "namespace": "cc.RigidBody3D",
       "module": "cc",
-      "description": "刚体组件。"
+      "description": "刚体是组成物理世界的基本对象，可以让一个节点受到物理影响并产生反应。该组件在使用 Builtin 物理引擎时无效。"
     },
     {
       "name": "RopeJoint",
@@ -1375,6 +1417,12 @@ window.apimeta = {
       "namespace": "cc.RotationOvertimeModule",
       "module": "cc",
       "description": "3D 粒子的旋转模块"
+    },
+    {
+      "name": "SafeArea",
+      "namespace": "cc.SafeArea",
+      "module": "cc",
+      "description": "该组件会将所在节点的布局适配到 iPhone X 等异形屏手机的安全区域内，通常用于 UI 交互区域的顶层节点，具体用法可参考官方范例 [example-cases/02_ui/16_safeArea/SafeArea.fire](https://github.com/cocos-creator/example-cases)。\n\n该组件内部通过 API `cc.sys.getSafeAreaRect();` 获取到当前 iOS 或 Android 设备的安全区域，并通过 Widget 组件实现适配。"
     },
     {
       "name": "Scene",
@@ -1537,6 +1585,12 @@ window.apimeta = {
       "namespace": "cc.TTFFont",
       "module": "cc",
       "description": "TTF 字体资源类。"
+    },
+    {
+      "name": "Task",
+      "namespace": "cc.AssetManager.Task",
+      "module": "cc.AssetManager",
+      "description": "任务用于在管线中运行以达成某种效果"
     },
     {
       "name": "TextAsset",
@@ -1806,7 +1860,7 @@ window.apimeta = {
       "name": "loader",
       "namespace": "cc.loader",
       "module": "cc",
-      "description": "Loader for resource loading process. It's a singleton object."
+      "description": "`cc.loader` is deprecated, please backup your project and upgrade to <a href=\"../classes/AssetManager.html\" class=\"crosslink\">AssetManager</a>"
     },
     {
       "name": "macro",
@@ -1860,7 +1914,7 @@ window.apimeta = {
       "name": "url",
       "namespace": "cc.url",
       "module": "cc",
-      "description": ""
+      "description": "`cc.url` is deprecated"
     },
     {
       "name": "visibleRect",
@@ -1886,6 +1940,11 @@ window.apimeta = {
       "namespace": "cc",
       "module": "cc.primitive",
       "description": "Cocos 引擎的主要命名空间，引擎代码中所有的类，函数，属性和常量都在这个命名空间中定义。"
+    },
+    {
+      "name": "cc.AssetManager",
+      "namespace": "cc.AssetManager",
+      "description": "此模块管理资源的行为和信息，包括加载，释放等，所有成员能够通过 `cc.assetManager` 调用. 所有类型或枚举能通过 `cc.AssetManager` 访问"
     },
     {
       "name": "cc.geomUtils",

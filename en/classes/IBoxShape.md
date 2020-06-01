@@ -33,7 +33,7 @@ box shape interface
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:64](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L64) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:64](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L64) |
 
 
 

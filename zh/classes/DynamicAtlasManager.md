@@ -44,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:39](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L39) |
+| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:39](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L39) |
 
 
 
@@ -55,7 +55,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:62](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L62) |
+| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:62](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L62) |
 
 
 
@@ -66,7 +66,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:75](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L75) |
+| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:75](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L75) |
 
 
 
@@ -77,7 +77,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:89](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L89) |
+| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:89](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L89) |
 
 
 
@@ -88,7 +88,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:102](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L102) |
+| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:102](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L102) |
 
 
 
@@ -99,7 +99,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:115](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L115) |
+| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:115](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L115) |
 
 
 
@@ -116,7 +116,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:123](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L123) |
+| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:123](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L123) |
 
 ###### 参数列表
 - `spriteFrame` <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> 
@@ -128,7 +128,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:149](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L149) |
+| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:149](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L149) |
 
 
 
@@ -138,7 +138,8 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:183](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L183) |
+| 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> 
+| 定义于 | [cocos2d/core/renderer/utils/dynamic-atlas/manager.js:183](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/utils/dynamic-atlas/manager.js#L183) |
 
 ###### 参数列表
 - `show` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 

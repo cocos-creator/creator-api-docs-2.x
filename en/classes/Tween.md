@@ -77,7 +77,7 @@ cc.tween(node)
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/actions/tween.js:181](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L181) |
+| Defined in | [cocos2d/actions/tween.js:182](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L182) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -89,7 +89,7 @@ Stop all tweens
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/actions/tween.js:186](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L186) |
+| Defined in | [cocos2d/actions/tween.js:187](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L187) |
 
 
 
@@ -99,7 +99,7 @@ Stop all tweens by tag
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/actions/tween.js:195](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L195) |
+| Defined in | [cocos2d/actions/tween.js:196](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L196) |
 
 ###### Parameters
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -111,7 +111,7 @@ Stop all tweens by target
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/actions/tween.js:205](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L205) |
+| Defined in | [cocos2d/actions/tween.js:206](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L206) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -124,7 +124,7 @@ Insert an action or tween to this sequence
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:216](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L216) |
+| Defined in | [cocos2d/actions/tween.js:217](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L217) |
 
 ###### Parameters
 - `other` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
@@ -137,7 +137,7 @@ Set tween target
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:236](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L236) |
+| Defined in | [cocos2d/actions/tween.js:237](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L237) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -150,7 +150,7 @@ Start this tween
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:250](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L250) |
+| Defined in | [cocos2d/actions/tween.js:251](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L251) |
 
 
 
@@ -161,7 +161,7 @@ Stop this tween
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:282](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L282) |
+| Defined in | [cocos2d/actions/tween.js:283](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L283) |
 
 
 
@@ -172,7 +172,7 @@ Sets tween tag
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:298](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L298) |
+| Defined in | [cocos2d/actions/tween.js:299](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L299) |
 
 ###### Parameters
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -185,7 +185,7 @@ Clone a tween
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:311](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L311) |
+| Defined in | [cocos2d/actions/tween.js:312](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L312) |
 
 ###### Parameters
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -198,7 +198,7 @@ Integrate all previous actions to an action.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:325](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L325) |
+| Defined in | [cocos2d/actions/tween.js:326](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L326) |
 
 
 
@@ -209,7 +209,7 @@ Sets target's position property according to the bezier curve.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:354](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L354) |
+| Defined in | [cocos2d/actions/tween.js:355](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L355) |
 
 ###### Parameters
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -225,7 +225,7 @@ Sets target's position property according to the bezier curve.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:376](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L376) |
+| Defined in | [cocos2d/actions/tween.js:377](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L377) |
 
 ###### Parameters
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -241,7 +241,7 @@ Flips target's scaleX
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:399](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L399) |
+| Defined in | [cocos2d/actions/tween.js:400](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L400) |
 
 
 
@@ -252,7 +252,7 @@ Flips target's scaleY
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:408](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L408) |
+| Defined in | [cocos2d/actions/tween.js:409](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L409) |
 
 
 
@@ -263,7 +263,7 @@ Blinks target by set target's opacity property
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:418](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L418) |
+| Defined in | [cocos2d/actions/tween.js:419](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L419) |
 
 ###### Parameters
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -280,7 +280,7 @@ Add an action which calculate with absolute value
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:462](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L462) |
+| Defined in | [cocos2d/actions/tween.js:463](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L463) |
 
 ###### Parameters
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -297,7 +297,7 @@ Add an action which calculate with relative value
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:483](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L483) |
+| Defined in | [cocos2d/actions/tween.js:484](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L484) |
 
 ###### Parameters
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -314,7 +314,7 @@ Directly set target properties
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:504](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L504) |
+| Defined in | [cocos2d/actions/tween.js:505](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L505) |
 
 ###### Parameters
 - `props` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -327,7 +327,7 @@ Add an delay action
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:519](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L519) |
+| Defined in | [cocos2d/actions/tween.js:520](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L520) |
 
 ###### Parameters
 - `duration` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -340,7 +340,7 @@ Add an callback action
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:529](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L529) |
+| Defined in | [cocos2d/actions/tween.js:530](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L530) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
@@ -353,7 +353,7 @@ Add an hide action
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:539](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L539) |
+| Defined in | [cocos2d/actions/tween.js:540](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L540) |
 
 
 
@@ -364,7 +364,7 @@ Add an show action
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:548](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L548) |
+| Defined in | [cocos2d/actions/tween.js:549](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L549) |
 
 
 
@@ -375,7 +375,7 @@ Add an removeSelf action
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:557](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L557) |
+| Defined in | [cocos2d/actions/tween.js:558](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L558) |
 
 
 
@@ -386,7 +386,7 @@ Add an sequence action
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:566](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L566) |
+| Defined in | [cocos2d/actions/tween.js:567](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L567) |
 
 ###### Parameters
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
@@ -400,7 +400,7 @@ Add an parallel action
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:577](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L577) |
+| Defined in | [cocos2d/actions/tween.js:578](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L578) |
 
 ###### Parameters
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
@@ -415,7 +415,7 @@ This action will integrate before actions to a sequence action as their paramete
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:592](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L592) |
+| Defined in | [cocos2d/actions/tween.js:593](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L593) |
 
 ###### Parameters
 - `repeatTimes` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -430,7 +430,7 @@ This action will integrate before actions to a sequence action as their paramete
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:604](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L604) |
+| Defined in | [cocos2d/actions/tween.js:605](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L605) |
 
 ###### Parameters
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 
@@ -444,7 +444,7 @@ This action will integrate before actions to a sequence action as their paramete
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Tween.html" class="crosslink">Tween</a> 
-| Defined in | [cocos2d/actions/tween.js:618](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/actions/tween.js#L618) |
+| Defined in | [cocos2d/actions/tween.js:619](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/actions/tween.js#L619) |
 
 ###### Parameters
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> &#124; <a href="../classes/Tween.html" class="crosslink">Tween</a> 

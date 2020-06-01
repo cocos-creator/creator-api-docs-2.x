@@ -14,13 +14,13 @@
 
 ##### 属性（properties）
 
-  - [`enabled`](#enabled) `boolean` 获取或设置是否启用物理系统，默认不启用。
-  - [`allowSleep`](#allowsleep) `boolean` 获取或设置物理系统是否允许自动休眠，默认为 true
-  - [`maxSubStep`](#maxsubstep) `number` 获取或设置每帧模拟的最大子步数。
-  - [`deltaTime`](#deltatime) `number` 获取或设置每步模拟消耗的固定时间。
-  - [`useFixedTime`](#usefixedtime) `boolean` 获取或设置是否使用固定的时间步长。
-  - [`gravity`](#gravity) `Vec3` 获取或设置物理世界的重力数值，默认为 (0, -10, 0)
-  - [`defaultMaterial`](#defaultmaterial) `PhysicsMaterial | null` 获取全局的默认物理材质，注意：builtin 时为 null
+  - [`enabled`](#enabled) `boolean` 是否启用物理系统，默认不启用。
+  - [`allowSleep`](#allowsleep) `boolean` 物理系统是否允许自动休眠，默认为 true。
+  - [`maxSubStep`](#maxsubstep) `number` 物理每帧模拟的最大子步数，默认为 2。
+  - [`deltaTime`](#deltatime) `number` 物理每步模拟消耗的固定时间，默认为 1/60 秒。
+  - [`useFixedTime`](#usefixedtime) `boolean` 是否使用固定的时间步长。
+  - [`gravity`](#gravity) `Vec3` 物理世界的重力数值，默认为 (0, -10, 0)。
+  - [`defaultMaterial`](#defaultmaterial) `PhysicsMaterial | null` 获取全局的默认物理材质，注意：builtin 时为 null。
 
 
 
@@ -40,78 +40,78 @@
 
 ##### enabled
 
-> 获取或设置是否启用物理系统，默认不启用。
+> 是否启用物理系统，默认不启用。
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:46](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L46) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:46](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L46) |
 
 
 
 ##### allowSleep
 
-> 获取或设置物理系统是否允许自动休眠，默认为 true
+> 物理系统是否允许自动休眠，默认为 true。
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:60](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L60) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:60](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L60) |
 
 
 
 ##### maxSubStep
 
-> 获取或设置每帧模拟的最大子步数。
+> 物理每帧模拟的最大子步数，默认为 2。
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:77](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L77) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:77](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L77) |
 
 
 
 ##### deltaTime
 
-> 获取或设置每步模拟消耗的固定时间。
+> 物理每步模拟消耗的固定时间，默认为 1/60 秒。
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:91](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L91) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:91](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L91) |
 
 
 
 ##### useFixedTime
 
-> 获取或设置是否使用固定的时间步长。
+> 是否使用固定的时间步长。
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:105](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L105) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:105](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L105) |
 
 
 
 ##### gravity
 
-> 获取或设置物理世界的重力数值，默认为 (0, -10, 0)
+> 物理世界的重力数值，默认为 (0, -10, 0)。
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:119](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L119) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:119](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L119) |
 
 
 
 ##### defaultMaterial
 
-> 获取全局的默认物理材质，注意：builtin 时为 null
+> 获取全局的默认物理材质，注意：builtin 时为 null。
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/PhysicsMaterial.html" class="crosslink">PhysicsMaterial</a> &#124; Null |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:136](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L136) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:136](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L136) |
 
 
 
@@ -128,7 +128,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:196](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L196) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:196](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L196) |
 
 ###### 参数列表
 - `deltaTime` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The time difference from the last execution is currently elapsed per frame
@@ -141,7 +141,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/PhysicsRayResult.html" class="crosslink">PhysicsRayResult[]</a> &#124; Null 
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:223](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L223) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:223](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L223) |
 
 ###### 参数列表
 - `worldRay` Ray A ray in world space
@@ -157,7 +157,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/PhysicsRayResult.html" class="crosslink">PhysicsRayResult</a> &#124; Null 
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:250](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/physics/framework/physics-manager.ts#L250) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:250](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/physics/framework/physics-manager.ts#L250) |
 
 ###### 参数列表
 - `worldRay` Ray A ray in world space

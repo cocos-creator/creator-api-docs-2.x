@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 The renderer object which provide access to render system APIs,
@@ -36,7 +37,7 @@ it will be inited as the canvas render engine. Canvas render engine is no longer
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/renderer/index.js:70](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/index.js#L70) |
+| Defined in | [cocos2d/core/renderer/index.js:70](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/index.js#L70) |
 
 
 
@@ -47,7 +48,7 @@ it will be inited as the canvas render engine. Canvas render engine is no longer
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/renderer/index.js:97](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/renderer/index.js#L97) |
+| Defined in | [cocos2d/core/renderer/index.js:97](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/renderer/index.js#L97) |
 
 
 

@@ -23,7 +23,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/camera/CCCamera.js:72](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/camera/CCCamera.js#L72) |
+| 定义于 | [cocos2d/core/camera/CCCamera.js:82](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/camera/CCCamera.js#L82) |
 
 
 
@@ -34,7 +34,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/camera/CCCamera.js:80](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/camera/CCCamera.js#L80) |
+| 定义于 | [cocos2d/core/camera/CCCamera.js:90](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/camera/CCCamera.js#L90) |
 
 
 
@@ -45,6 +45,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/camera/CCCamera.js:88](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/camera/CCCamera.js#L88) |
+| 定义于 | [cocos2d/core/camera/CCCamera.js:98](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/camera/CCCamera.js#L98) |
 
 

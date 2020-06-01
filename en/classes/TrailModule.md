@@ -44,7 +44,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:137](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L137) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:137](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L137) |
 
 
 
@@ -55,7 +55,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | TrailMode |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:161](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L161) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:161](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L161) |
 
 
 
@@ -66,7 +66,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:171](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L171) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:171](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L171) |
 
 
 
@@ -77,7 +77,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:184](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L184) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:184](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L184) |
 
 
 
@@ -88,7 +88,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | Space |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:202](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L202) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:202](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L202) |
 
 
 
@@ -99,7 +99,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:221](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L221) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:221](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L221) |
 
 
 
@@ -110,7 +110,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | TextureMode |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:229](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L229) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:229](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L229) |
 
 
 
@@ -121,7 +121,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:239](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L239) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:239](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L239) |
 
 
 
@@ -132,7 +132,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:248](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L248) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:248](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L248) |
 
 
 
@@ -143,7 +143,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:258](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L258) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:258](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L258) |
 
 
 
@@ -154,7 +154,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/GradientRange.html" class="crosslink">GradientRange</a> |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:266](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L266) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:266](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L266) |
 
 
 
@@ -165,7 +165,7 @@ The trail module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/GradientRange.html" class="crosslink">GradientRange</a> |
-| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:276](https://github.com/cocos-creator/engine/blob/2fda22be5638065a190bc4c97da6548631319aba/cocos2d/core/3d/particle/renderer/trail.ts#L276) |
+| Defined in | [cocos2d/core/3d/particle/renderer/trail.ts:276](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/3d/particle/renderer/trail.ts#L276) |
 
 
 
