@@ -50,29 +50,29 @@
                 "name": "2.3",
                 "links": [
                     {
-                        "name": "1.9",
-                        "link": "//docs.cocos.com/creator/1.9/api/en"
-                    },
-                    {
-                        "name": "1.10",
-                        "link": "//docs.cocos.com/creator/1.10/api/en"
-                    },
-                    {
-                        "name": "2.0",
-                        "link": "//docs.cocos.com/creator/2.0/api/en"
-                    },
-                    {
-                        "name": "2.1",
-                        "link": "//docs.cocos.com/creator/2.1/api/en"
+                        "name": "2.3",
+                        "link": "//docs.cocos.com/creator/2.3/api/en"
                     },
                     {
                         "name": "2.2",
                         "link": "//docs.cocos.com/creator/2.2/api/en"
                     },
                     {
-                        "name": "2.3",
-                        "link": "//docs.cocos.com/creator/2.3/api/en"
-                    }
+                        "name": "2.1",
+                        "link": "//docs.cocos.com/creator/2.1/api/en"
+                    },
+                    {
+                        "name": "2.0",
+                        "link": "//docs.cocos.com/creator/2.0/api/en"
+                    },
+                    {
+                        "name": "1.10",
+                        "link": "//docs.cocos.com/creator/1.10/api/en"
+                    },
+                    {
+                        "name": "1.9",
+                        "link": "//docs.cocos.com/creator/1.9/api/en"
+                    }  
                 ]
             }
         ]
