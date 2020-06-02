@@ -101,7 +101,7 @@
 | meta | description |
 |------|-------------|
 | 定义于 | [cocos2d/core/asset-manager/deprecated.js:574](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L574) |
-| 废弃（Deprecated） | &#x60;cc.loader.downloader.loadSubpackage&#x60; is deprecated, please use {{#crossLink &quot;AssetManager/loadBundle:method&quot;}}{{/crossLink}} instead |
+| 废弃（Deprecated） | `cc.loader.downloader.loadSubpackage` is deprecated, please use `AssetManager.loadBundle` instead |
 
 ###### 参数列表
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Subpackage name
