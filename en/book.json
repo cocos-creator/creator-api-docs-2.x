@@ -50,6 +50,10 @@
                 "name": "2.2",
                 "links": [
                     {
+                        "name": "2.4",
+                        "link": "//docs.cocos.com/creator/2.4/api/en"
+                    },
+                    {
                         "name": "2.3",
                         "link": "//docs.cocos.com/creator/2.3/api/en"
                     },
