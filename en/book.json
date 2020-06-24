@@ -10,11 +10,11 @@
                 "links": [
                     {
                         "name": "Manual",
-                        "link": "//docs.cocos.com/creator/2.3/manual/en"
+                        "link": "//docs.cocos.com/creator/2.4/manual/en"
                     },
                     {
                         "name": "API Ref",
-                        "link": "//docs.cocos.com/creator/2.3/api/en"
+                        "link": "//docs.cocos.com/creator/2.4/api/en"
                     }
                 ]
             },
@@ -47,7 +47,7 @@
         ],
         "version": [
             {
-                "name": "2.3",
+                "name": "2.4",
                 "links": [
                     {
                         "name": "2.4",
