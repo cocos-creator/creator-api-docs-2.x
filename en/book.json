@@ -51,7 +51,7 @@
                 "links": [
                     {
                         "name": "2.4",
-                        "link": "http://docs.cocos.com/creator/2.4/api/en"
+                        "link": "//docs.cocos.com/creator/2.4/api/en"
                     },
                     {
                         "name": "2.3",
