@@ -2,7 +2,8 @@
 
 
 
-Module: [cc.AssetManager](../modules/cc.AssetManager.md)
+Module: [cc](../modules/cc.md)
+Parent Module: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
 This module contains the builtin asset, it's a singleton, all member can be accessed with `cc.assetManager.builtins`
@@ -36,7 +37,7 @@ Initialize
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/builtins.js:66](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/builtins.js#L66) |
+| Defined in | [cocos2d/core/asset-manager/builtins.js:66](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/builtins.js#L66) |
 
 ###### Parameters
 - `cb` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback when finish loading built-in assets
@@ -49,7 +50,7 @@ Get the built-in asset using specific type and name.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/Cache.html" class="crosslink">Cache</a> 
-| Defined in | [cocos2d/core/asset-manager/builtins.js:90](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/builtins.js#L90) |
+| Defined in | [cocos2d/core/asset-manager/builtins.js:90](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/builtins.js#L90) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The type of asset, such as `effect`
@@ -67,7 +68,7 @@ Clear all builtin assets
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/builtins.js:114](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/builtins.js#L114) |
+| Defined in | [cocos2d/core/asset-manager/builtins.js:114](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/builtins.js#L114) |
 
 
 

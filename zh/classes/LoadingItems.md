@@ -4,7 +4,7 @@
 
 模块: [cc](../modules/cc.md)
 
-废弃: &#x60;cc.LoadingItems&#x60; was removed, please use &#x60;cc.AssetManager.Task&#x60; instead
+废弃: cc.LoadingItems was removed, please use cc.AssetManager.Task instead
 
 `cc.LoadingItems` was removed, please use <a href="../classes/Task.html" class="crosslink">Task</a> instead
 

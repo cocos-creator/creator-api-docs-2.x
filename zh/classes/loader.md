@@ -4,7 +4,7 @@
 
 模块: [cc](../modules/cc.md)
 
-废弃: &#x60;cc.loader&#x60; is deprecated, please backup your project and upgrade to &#x60;cc.assetManager&#x60;
+废弃: cc.loader is deprecated, please backup your project and upgrade to cc.assetManager
 
 `cc.loader` is deprecated, please backup your project and upgrade to <a href="../classes/AssetManager.html" class="crosslink">AssetManager</a>
 
@@ -24,12 +24,12 @@
 
 ##### 方法
 
-  - [`load`](#load) `cc.loader.load` is deprecated, please use AssetManager/load:method instead
+  - [`load`](#load) `cc.loader.load` is deprecated, please use <a href="../classes/AssetManager.html#method_loadAny" class="crosslink">loadAny</a> instead
   - [`getXMLHttpRequest`](#getxmlhttprequest) `cc.loader.getXMLHttpRequest` is deprecated, please use `XMLHttpRequest` directly
-  - [`getItem`](#getitem) `cc.loader.getItem` is deprecated, please use `cc.assetManager._asset.get` instead
-  - [`loadRes`](#loadres) `cc.loader.loadRes` is deprecated, please use AssetManager/loadRes:method  instead
-  - [`loadResArray`](#loadresarray) `cc.loader.loadResArray` is deprecated, please use AssetManager/loadRes:method instead
-  - [`loadResDir`](#loadresdir) `cc.loader.loadResDir` is deprecated, please use AssetManager/loadResDir:method instead
+  - [`getItem`](#getitem) `cc.loader.getItem` is deprecated, please use `cc.assetManager.asset.get` instead
+  - [`loadRes`](#loadres) `cc.loader.loadRes` is deprecated, please use <a href="../classes/Bundle.html#method_load" class="crosslink">load</a>  instead
+  - [`loadResArray`](#loadresarray) `cc.loader.loadResArray` is deprecated, please use <a href="../classes/Bundle.html#method_load" class="crosslink">load</a> instead
+  - [`loadResDir`](#loadresdir) `cc.loader.loadResDir` is deprecated, please use <a href="../classes/Bundle.html#method_loadDir" class="crosslink">loadDir</a> instead
   - [`getRes`](#getres) `cc.loader.getRes` is deprecated, please use <a href="../classes/Bundle.html#method_get" class="crosslink">get</a> instead
   - [`getDependsRecursively`](#getdependsrecursively) `cc.loader.getDependsRecursively` is deprecated, please use use DependUtil/getDepsRecursively:method instead
   - [`addDownloadHandlers`](#adddownloadhandlers) `cc.loader.addDownloadHandlers` is deprecated, please use `cc.assetManager.downloader.register` instead
@@ -59,8 +59,8 @@
 | meta | description |
 |------|-------------|
 | 类型 | Unknown |
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:71](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L71) |
-| 废弃（Deprecated） | &#x60;cc.loader.onProgress&#x60; is deprecated, please transfer onProgress to API as a parameter |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:71](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L71) |
+| 废弃（Deprecated） | cc.loader.onProgress is deprecated, please transfer onProgress to API as a parameter |
 
 
 
@@ -71,8 +71,8 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:344](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L344) |
-| 废弃（Deprecated） | &#x60;cc.loader.assetLoader&#x60; was removed, assetLoader and md5Pipe were merged into &#x60;cc.assetManager.transformPipeline&#x60; |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:344](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L344) |
+| 废弃（Deprecated） | cc.loader.assetLoader was removed, assetLoader and md5Pipe were merged into cc.assetManager.transformPipeline |
 
 
 
@@ -83,8 +83,8 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:357](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L357) |
-| 废弃（Deprecated） | &#x60;cc.loader.md5Pipe&#x60; is deprecated, assetLoader and md5Pipe were merged into &#x60;cc.assetManager.transformPipeline&#x60; |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:357](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L357) |
+| 废弃（Deprecated） | cc.loader.md5Pipe is deprecated, assetLoader and md5Pipe were merged into cc.assetManager.transformPipeline |
 
 
 
@@ -95,8 +95,8 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:368](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L368) |
-| 废弃（Deprecated） | &#x60;cc.loader.downloader&#x60; is deprecated, please use &#x60;cc.assetManager.downloader&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:368](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L368) |
+| 废弃（Deprecated） | cc.loader.downloader is deprecated, please use cc.assetManager.downloader instead |
 
 
 
@@ -107,8 +107,8 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:379](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L379) |
-| 废弃（Deprecated） | &#x60;cc.loader.loader&#x60; is deprecated, please use &#x60;cc.assetManager.parser&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:379](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L379) |
+| 废弃（Deprecated） | cc.loader.loader is deprecated, please use cc.assetManager.parser instead |
 
 
 
@@ -121,12 +121,12 @@
 
 ##### load
 
-`cc.loader.load` is deprecated, please use AssetManager/load:method instead
+`cc.loader.load` is deprecated, please use <a href="../classes/AssetManager.html#method_loadAny" class="crosslink">loadAny</a> instead
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:83](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L83) |
-| 废弃（Deprecated） | &#x60;cc.loader.load&#x60; is deprecated, please use &#x60;cc.assetManager.loadAny&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:83](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L83) |
+| 废弃（Deprecated） | cc.loader.load is deprecated, please use cc.assetManager.loadAny instead |
 
 ###### 参数列表
 - `resources` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Url list in an array
@@ -144,20 +144,20 @@
 | meta | description |
 |------|-------------|
 | 返回 | XMLHttpRequest 
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:176](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L176) |
-| 废弃（Deprecated） | &#x60;cc.loader.getXMLHttpRequest&#x60; is deprecated, please use &#x60;XMLHttpRequest&#x60; directly |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:176](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L176) |
+| 废弃（Deprecated） | cc.loader.getXMLHttpRequest is deprecated, please use XMLHttpRequest directly |
 
 
 
 ##### getItem
 
-`cc.loader.getItem` is deprecated, please use `cc.assetManager._asset.get` instead
+`cc.loader.getItem` is deprecated, please use `cc.assetManager.asset.get` instead
 
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:189](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L189) |
-| 废弃（Deprecated） | &#x60;cc.loader.getItem&#x60; is deprecated, please use &#x60;cc.assetManager._asset.get&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:189](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L189) |
+| 废弃（Deprecated） | cc.loader.getItem is deprecated, please use cc.assetManager.asset.get instead |
 
 ###### 参数列表
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
@@ -165,12 +165,12 @@
 
 ##### loadRes
 
-`cc.loader.loadRes` is deprecated, please use AssetManager/loadRes:method  instead
+`cc.loader.loadRes` is deprecated, please use <a href="../classes/Bundle.html#method_load" class="crosslink">load</a>  instead
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:201](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L201) |
-| 废弃（Deprecated） | &#x60;cc.loader.loadRes&#x60; is deprecated, please use &#x60;cc.resources.load&#x60;  instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:201](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L201) |
+| 废弃（Deprecated） | cc.loader.loadRes is deprecated, please use cc.resources.load  instead |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target resource.
@@ -187,12 +187,12 @@
 
 ##### loadResArray
 
-`cc.loader.loadResArray` is deprecated, please use AssetManager/loadRes:method instead
+`cc.loader.loadResArray` is deprecated, please use <a href="../classes/Bundle.html#method_load" class="crosslink">load</a> instead
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:235](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L235) |
-| 废弃（Deprecated） | &#x60;cc.loader.loadResArray&#x60; is deprecated, please use &#x60;cc.resources.load&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:235](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L235) |
+| 废弃（Deprecated） | cc.loader.loadResArray is deprecated, please use cc.resources.load instead |
 
 ###### 参数列表
 - `urls` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> Array of URLs of the target resource.
@@ -211,12 +211,12 @@
 
 ##### loadResDir
 
-`cc.loader.loadResDir` is deprecated, please use AssetManager/loadResDir:method instead
+`cc.loader.loadResDir` is deprecated, please use <a href="../classes/Bundle.html#method_loadDir" class="crosslink">loadDir</a> instead
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:273](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L273) |
-| 废弃（Deprecated） | &#x60;cc.loader.loadResDir&#x60; is deprecated, please use &#x60;cc.resources.loadDir&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:273](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L273) |
+| 废弃（Deprecated） | cc.loader.loadResDir is deprecated, please use cc.resources.loadDir instead |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> Url of the target folder.
@@ -241,8 +241,8 @@
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:314](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L314) |
-| 废弃（Deprecated） | &#x60;cc.loader.getRes&#x60; is deprecated, please use &#x60;cc.resources.get&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:314](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L314) |
+| 废弃（Deprecated） | cc.loader.getRes is deprecated, please use cc.resources.get instead |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -256,8 +256,8 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:331](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L331) |
-| 废弃（Deprecated） | &#x60;cc.loader.getDependsRecursively&#x60; is deprecated, please use use &#x60;cc.assetManager.dependUtil.getDepsRecursively&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:331](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L331) |
+| 废弃（Deprecated） | cc.loader.getDependsRecursively is deprecated, please use use cc.assetManager.dependUtil.getDepsRecursively instead |
 
 ###### 参数列表
 - `owner` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The owner asset or the resource url or the asset's uuid
@@ -269,8 +269,8 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:390](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L390) |
-| 废弃（Deprecated） | &#x60;cc.loader.addDownloadHandlers&#x60; is deprecated, please use &#x60;cc.assetManager.downloader.register&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:390](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L390) |
+| 废弃（Deprecated） | cc.loader.addDownloadHandlers is deprecated, please use cc.assetManager.downloader.register instead |
 
 ###### 参数列表
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
@@ -282,8 +282,8 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:411](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L411) |
-| 废弃（Deprecated） | &#x60;cc.loader.addLoadHandlers&#x60; is deprecated, please use &#x60;cc.assetManager.parser.register&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:411](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L411) |
+| 废弃（Deprecated） | cc.loader.addLoadHandlers is deprecated, please use cc.assetManager.parser.register instead |
 
 ###### 参数列表
 - `extMap` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Custom supported types with corresponded handler
@@ -295,8 +295,8 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:438](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L438) |
-| 废弃（Deprecated） | &#x60;cc.loader.release&#x60; is deprecated, please use &#x60;cc.assetManager.releaseAsset&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:438](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L438) |
+| 废弃（Deprecated） | cc.loader.release is deprecated, please use cc.assetManager.releaseAsset instead |
 
 ###### 参数列表
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
@@ -308,8 +308,8 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:467](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L467) |
-| 废弃（Deprecated） | &#x60;cc.loader.releaseAsset&#x60; is deprecated, please use &#x60;cc.assetManager.releaseAsset&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:467](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L467) |
+| 废弃（Deprecated） | cc.loader.releaseAsset is deprecated, please use cc.assetManager.releaseAsset instead |
 
 ###### 参数列表
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> 
@@ -321,8 +321,8 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:478](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L478) |
-| 废弃（Deprecated） | &#x60;cc.loader.releaseRes&#x60; is deprecated, please use &#x60;cc.assetManager.releaseRes&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:478](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L478) |
+| 废弃（Deprecated） | cc.loader.releaseRes is deprecated, please use cc.assetManager.releaseRes instead |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -335,8 +335,8 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:490](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L490) |
-| 废弃（Deprecated） | &#x60;cc.loader.releaseResDir&#x60; was removed, please use &#x60;cc.assetManager.releaseRes&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:490](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L490) |
+| 废弃（Deprecated） | cc.loader.releaseResDir was removed, please use cc.assetManager.releaseRes instead |
 
 
 
@@ -346,8 +346,8 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:502](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L502) |
-| 废弃（Deprecated） | &#x60;cc.loader.releaseAll&#x60; is deprecated, please use &#x60;cc.assetManager.releaseAll&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:502](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L502) |
+| 废弃（Deprecated） | cc.loader.releaseAll is deprecated, please use cc.assetManager.releaseAll instead |
 
 
 
@@ -358,8 +358,8 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:513](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L513) |
-| 废弃（Deprecated） | &#x60;cc.loader.removeItem&#x60; is deprecated, please use &#x60;cc.assetManager.assets.remove&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:513](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L513) |
+| 废弃（Deprecated） | cc.loader.removeItem is deprecated, please use cc.assetManager.assets.remove instead |
 
 ###### 参数列表
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The id of the item
@@ -371,8 +371,8 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:525](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L525) |
-| 废弃（Deprecated） | &#x60;cc.loader.setAutoRelease&#x60; is deprecated, if you want to prevent some asset from auto releasing, please use &#x60;cc.Asset.addRef&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:525](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L525) |
+| 废弃（Deprecated） | cc.loader.setAutoRelease is deprecated, if you want to prevent some asset from auto releasing, please use cc.Asset.addRef instead |
 
 ###### 参数列表
 - `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
@@ -385,8 +385,8 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:538](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L538) |
-| 废弃（Deprecated） | &#x60;cc.loader.setAutoReleaseRecursively&#x60; is deprecated, if you want to prevent some asset from auto releasing, please use &#x60;cc.Asset.addRef&#x60; instead |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:538](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L538) |
+| 废弃（Deprecated） | cc.loader.setAutoReleaseRecursively is deprecated, if you want to prevent some asset from auto releasing, please use cc.Asset.addRef instead |
 
 ###### 参数列表
 - `assetOrUrlOrUuid` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url or uuid
@@ -400,8 +400,8 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:557](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/deprecated.js#L557) |
-| 废弃（Deprecated） | &#x60;cc.loader.isAutoRelease&#x60; is deprecated |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:557](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L557) |
+| 废弃（Deprecated） | cc.loader.isAutoRelease is deprecated |
 
 ###### 参数列表
 - `assetOrUrl` <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> asset object or the raw asset's url

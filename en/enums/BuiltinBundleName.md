@@ -2,7 +2,8 @@
 
 
 
-Module: [cc.AssetManager](../modules/cc.AssetManager.md)
+Module: [cc](../modules/cc.md)
+Parent Module: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
 The builtin bundles
@@ -24,7 +25,7 @@ The builtin bundles
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/shared.js:66](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/shared.js#L66) |
+| Defined in | [cocos2d/core/asset-manager/shared.js:66](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/shared.js#L66) |
 
 
 
@@ -35,7 +36,7 @@ The builtin bundles
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/shared.js:79](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/shared.js#L79) |
+| Defined in | [cocos2d/core/asset-manager/shared.js:79](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/shared.js#L79) |
 
 
 
@@ -46,7 +47,7 @@ The builtin bundles
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/shared.js:92](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/shared.js#L92) |
+| Defined in | [cocos2d/core/asset-manager/shared.js:92](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/shared.js#L92) |
 
 
 
@@ -57,6 +58,6 @@ The builtin bundles
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/shared.js:105](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/shared.js#L105) |
+| Defined in | [cocos2d/core/asset-manager/shared.js:105](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/shared.js#L105) |
 
 

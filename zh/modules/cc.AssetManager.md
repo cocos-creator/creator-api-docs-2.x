@@ -14,6 +14,7 @@
   - [Builtins](../classes/Builtins.md)
   - [Bundle](../classes/Bundle.md)
   - [Cache](../classes/Cache.md)
+  - [CacheManager](../classes/CacheManager.md)
   - [DependUtil](../classes/DependUtil.md)
   - [Downloader](../classes/Downloader.md)
   - [Helper](../classes/Helper.md)

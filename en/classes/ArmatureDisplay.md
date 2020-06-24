@@ -121,7 +121,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/DragonBonesAsset.html" class="crosslink">DragonBonesAsset</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:115](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L115) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:115](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L115) |
 
 
 
@@ -132,7 +132,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/DragonBonesAtlasAsset.html" class="crosslink">DragonBonesAtlasAsset</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:139](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L139) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:139](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L139) |
 
 
 
@@ -143,7 +143,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:158](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L158) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:158](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L158) |
 
 
 
@@ -154,7 +154,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:196](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L196) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:196](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L196) |
 
 
 
@@ -165,7 +165,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:211](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L211) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:211](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L211) |
 
 
 
@@ -176,7 +176,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:301](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L301) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:301](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L301) |
 
 
 
@@ -190,7 +190,7 @@ Multiple ArmatureDisplay can share the same DragonBones data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:317](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L317) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:317](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L317) |
 
 
 
@@ -203,7 +203,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:334](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L334) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:334](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L334) |
 
 
 
@@ -214,7 +214,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:348](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L348) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:348](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L348) |
 
 
 
@@ -225,7 +225,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:362](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L362) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:362](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L362) |
 
 
 
@@ -236,7 +236,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Material.html" class="crosslink">[Material]</a> |
-| Defined in | [cocos2d/core/components/CCRenderComponent.js:63](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCRenderComponent.js#L63) |
+| Defined in | [cocos2d/core/components/CCRenderComponent.js:63](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCRenderComponent.js#L63) |
 
 
 
@@ -248,7 +248,7 @@ all event callbacks will be removed in `_onPreDestroy`.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:63](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L63) |
+| Defined in | [cocos2d/core/components/CCComponent.js:63](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L63) |
 
 
 
@@ -259,7 +259,7 @@ all event callbacks will be removed in `_onPreDestroy`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:80](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L80) |
+| Defined in | [cocos2d/core/components/CCComponent.js:80](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L80) |
 
 ##### Examples
 
@@ -275,7 +275,7 @@ cc.log(comp.node);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:111](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L111) |
+| Defined in | [cocos2d/core/components/CCComponent.js:111](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L111) |
 
 ##### Examples
 
@@ -291,7 +291,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:152](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L152) |
+| Defined in | [cocos2d/core/components/CCComponent.js:152](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L152) |
 
 
 
@@ -302,7 +302,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:159](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L159) |
+| Defined in | [cocos2d/core/components/CCComponent.js:159](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L159) |
 
 ##### Examples
 
@@ -319,7 +319,7 @@ cc.log(comp.enabled);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:191](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L191) |
+| Defined in | [cocos2d/core/components/CCComponent.js:191](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L191) |
 
 ##### Examples
 
@@ -335,7 +335,7 @@ cc.log(comp.enabledInHierarchy);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:207](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L207) |
+| Defined in | [cocos2d/core/components/CCComponent.js:207](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L207) |
 
 ##### Examples
 
@@ -351,7 +351,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L76) |
+| Defined in | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/platform/CCObject.js#L76) |
 
 
 
@@ -362,7 +362,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L83) |
+| Defined in | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/platform/CCObject.js#L83) |
 
 
 
@@ -373,7 +373,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L240) |
+| Defined in | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/platform/CCObject.js#L240) |
 
 ##### Examples
 
@@ -393,7 +393,7 @@ but this is often caused by a particular logical requirements, which is not norm
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L258) |
+| Defined in | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/platform/CCObject.js#L258) |
 
 ##### Examples
 
@@ -421,7 +421,7 @@ The key of dragonbones cache data, which is regard as 'dragonbonesName', when yo
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:498](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L498) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:498](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L498) |
 
 
 ##### Examples
@@ -439,7 +439,7 @@ If set the mode in editor, then no need to worry about order problem.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:514](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L514) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:514](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L514) |
 
 ###### Parameters
 - `cacheMode` AnimationCacheMode 
@@ -457,7 +457,7 @@ Whether in cached mode.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:538](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L538) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:538](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L538) |
 
 
 
@@ -473,7 +473,7 @@ Parameter playTimes specify the repeat times of the animation.
 | meta | description |
 |------|-------------|
 | Returns | dragonBones.AnimationState 
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:794](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L794) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:794](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L794) |
 
 ###### Parameters
 - `animName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -488,7 +488,7 @@ To update the cache, use the invalidAnimationCache method with high performance.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:842](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L842) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:842](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L842) |
 
 ###### Parameters
 - `animName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -500,7 +500,7 @@ Invalidates the animation cache, which is then recomputed on each frame..
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:858](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L858) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:858](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L858) |
 
 
 
@@ -511,7 +511,7 @@ Get the all armature names in the DragonBones Data.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:870](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L870) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:870](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L870) |
 
 
 
@@ -522,7 +522,7 @@ Get the all animation names of specified armature.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:883](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L883) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:883](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L883) |
 
 ###### Parameters
 - `armatureName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -534,7 +534,7 @@ Add event listener for the DragonBones Event, the same to addEventListener.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:908](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L908) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:908](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L908) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -549,7 +549,7 @@ Remove the event listener for the DragonBones Event, the same to removeEventList
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:923](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L923) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:923](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L923) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -563,7 +563,7 @@ Add DragonBones one-time event listener, the callback will remove itself after t
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:937](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L937) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:937](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L937) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -578,7 +578,7 @@ Add event listener for the DragonBones Event.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:952](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L952) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:952](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L952) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -593,7 +593,7 @@ Remove the event listener for the DragonBones Event.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:967](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L967) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:967](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L967) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -608,7 +608,7 @@ Build the armature for specified name.
 | meta | description |
 |------|-------------|
 | Returns | dragonBones.ArmatureDisplay 
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:981](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L981) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:981](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L981) |
 
 ###### Parameters
 - `armatureName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -622,7 +622,7 @@ Get the current armature object of the ArmatureDisplay.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:995](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/extensions/dragonbones/ArmatureDisplay.js#L995) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:995](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/dragonbones/ArmatureDisplay.js#L995) |
 
 
 
@@ -633,7 +633,7 @@ Get the material by index.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/MaterialVariant.html" class="crosslink">MaterialVariant</a> 
-| Defined in | [cocos2d/core/components/CCRenderComponent.js:154](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCRenderComponent.js#L154) |
+| Defined in | [cocos2d/core/components/CCRenderComponent.js:154](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCRenderComponent.js#L154) |
 
 ###### Parameters
 - `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -646,7 +646,7 @@ Gets all the materials.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/MaterialVariant.html" class="crosslink">[MaterialVariant]</a> 
-| Defined in | [cocos2d/core/components/CCRenderComponent.js:177](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCRenderComponent.js#L177) |
+| Defined in | [cocos2d/core/components/CCRenderComponent.js:177](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCRenderComponent.js#L177) |
 
 
 
@@ -657,7 +657,7 @@ Set the material by index.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Material.html" class="crosslink">Material</a> 
-| Defined in | [cocos2d/core/components/CCRenderComponent.js:191](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCRenderComponent.js#L191) |
+| Defined in | [cocos2d/core/components/CCRenderComponent.js:191](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCRenderComponent.js#L191) |
 
 ###### Parameters
 - `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -671,7 +671,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:228](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L228) |
+| Defined in | [cocos2d/core/components/CCComponent.js:228](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L228) |
 
 ###### Parameters
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -684,7 +684,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:239](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L239) |
+| Defined in | [cocos2d/core/components/CCComponent.js:239](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L239) |
 
 ###### Parameters
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -699,7 +699,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:250](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L250) |
+| Defined in | [cocos2d/core/components/CCComponent.js:250](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L250) |
 
 
 
@@ -711,7 +711,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:261](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L261) |
+| Defined in | [cocos2d/core/components/CCComponent.js:261](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L261) |
 
 
 
@@ -723,7 +723,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:274](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L274) |
+| Defined in | [cocos2d/core/components/CCComponent.js:274](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L274) |
 
 
 
@@ -734,7 +734,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:287](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L287) |
+| Defined in | [cocos2d/core/components/CCComponent.js:287](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L287) |
 
 
 
@@ -745,7 +745,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:297](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L297) |
+| Defined in | [cocos2d/core/components/CCComponent.js:297](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L297) |
 
 
 
@@ -756,7 +756,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:307](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L307) |
+| Defined in | [cocos2d/core/components/CCComponent.js:307](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L307) |
 
 
 
@@ -766,7 +766,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:317](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L317) |
+| Defined in | [cocos2d/core/components/CCComponent.js:317](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L317) |
 
 
 
@@ -776,7 +776,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:322](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L322) |
+| Defined in | [cocos2d/core/components/CCComponent.js:322](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L322) |
 
 
 
@@ -786,7 +786,7 @@ Called to initialize the component or node’s properties when adding the compon
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:327](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L327) |
+| Defined in | [cocos2d/core/components/CCComponent.js:327](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L327) |
 
 
 
@@ -797,7 +797,7 @@ Adds a component class to the node. You can also add component to node by passin
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:337](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L337) |
+| Defined in | [cocos2d/core/components/CCComponent.js:337](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L337) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
@@ -817,7 +817,7 @@ You can also get component in the node by passing in the name of the script.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:355](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L355) |
+| Defined in | [cocos2d/core/components/CCComponent.js:355](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L355) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -838,7 +838,7 @@ Returns all components of supplied Type in the node.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:379](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L379) |
+| Defined in | [cocos2d/core/components/CCComponent.js:379](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L379) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -857,7 +857,7 @@ Returns the component of supplied type in any of its children using depth first 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:397](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L397) |
+| Defined in | [cocos2d/core/components/CCComponent.js:397](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L397) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -876,7 +876,7 @@ Returns the components of supplied type in self or any of its children using dep
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:415](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L415) |
+| Defined in | [cocos2d/core/components/CCComponent.js:415](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L415) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -895,7 +895,7 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:435](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L435) |
+| Defined in | [cocos2d/core/components/CCComponent.js:435](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L435) |
 
 ###### Parameters
 - `out_rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -926,7 +926,7 @@ This function is only called in editor mode.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:448](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L448) |
+| Defined in | [cocos2d/core/components/CCComponent.js:448](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L448) |
 
 
 
@@ -937,7 +937,7 @@ If the selector is already scheduled, then the interval parameter will be update
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:540](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L540) |
+| Defined in | [cocos2d/core/components/CCComponent.js:540](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L540) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -960,7 +960,7 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:578](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L578) |
+| Defined in | [cocos2d/core/components/CCComponent.js:578](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -981,7 +981,7 @@ Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:595](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L595) |
+| Defined in | [cocos2d/core/components/CCComponent.js:595](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### Parameters
 - `callback_fn` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -999,7 +999,7 @@ Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:611](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/components/CCComponent.js#L611) |
+| Defined in | [cocos2d/core/components/CCComponent.js:611](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/components/CCComponent.js#L611) |
 
 
 ##### Examples
@@ -1018,7 +1018,7 @@ You can use `cc.isValid(obj)` to check whether the object is destroyed before ac
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L293) |
+| Defined in | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/platform/CCObject.js#L293) |
 
 
 ##### Examples
@@ -1053,7 +1053,7 @@ _destruct: function () {
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L427) |
+| Defined in | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/platform/CCObject.js#L427) |
 
 
 
@@ -1063,7 +1063,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:484](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L484) |
+| Defined in | [cocos2d/core/platform/CCObject.js:484](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/platform/CCObject.js#L484) |
 
 
 
@@ -1074,7 +1074,7 @@ The customized serialization for this object. (Editor Only)
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:512](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L512) |
+| Defined in | [cocos2d/core/platform/CCObject.js:512](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/platform/CCObject.js#L512) |
 
 ###### Parameters
 - `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -1086,7 +1086,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:525](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/platform/CCObject.js#L525) |
+| Defined in | [cocos2d/core/platform/CCObject.js:525](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/platform/CCObject.js#L525) |
 
 ###### Parameters
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

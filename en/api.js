@@ -199,6 +199,12 @@ window.apimeta = {
       "description": "粒子的生成模式"
     },
     {
+      "name": "ParticleSystem3DAssembler.Space",
+      "namespace": "cc.ParticleSystem3DAssembler.Space",
+      "module": "cc",
+      "description": ""
+    },
+    {
       "name": "PhysicsManager.DrawBits",
       "namespace": "cc.PhysicsManager.DrawBits",
       "module": "cc",
@@ -603,6 +609,12 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "BufferRange",
+      "namespace": "cc.BufferRange",
+      "module": "cc",
+      "description": "The class BufferRange denotes a range of the buffer."
+    },
+    {
       "name": "Builtins",
       "namespace": "cc.AssetManager.Builtins",
       "module": "cc.AssetManager",
@@ -637,6 +649,12 @@ window.apimeta = {
       "namespace": "cc.AssetManager.Cache",
       "module": "cc.AssetManager",
       "description": "use to cache something"
+    },
+    {
+      "name": "CacheManager",
+      "namespace": "cc.AssetManager.CacheManager",
+      "module": "cc.AssetManager",
+      "description": "Cache manager is a module which controls all caches downloaded from server in non-web platform, it is a singleton\nAll member can be accessed with `cc.assetManager.cacheManager`."
     },
     {
       "name": "CallbacksInvoker",
@@ -1093,6 +1111,12 @@ window.apimeta = {
       "namespace": "cc.Mask",
       "module": "cc",
       "description": "The Mask Component"
+    },
+    {
+      "name": "Mat3",
+      "namespace": "cc.Mat3",
+      "module": "cc",
+      "description": "Mathematical 3x3 matrix.\n\nNOTE: we use column-major matrix for all matrix calculation.\n\nThis may lead to some confusion when referencing OpenGL documentation,\nhowever, which represents out all matricies in column-major format.\nThis means that while in code a matrix may be typed out as:\n\n[1, 0, 0, 0,\n 0, 1, 0, 0,\n 0, 0, 1, 0,\n x, y, z, 0]\n\nThe same matrix in the [OpenGL documentation](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glTranslate.xml)\nis written as:\n\n 1 0 0 x\n 0 1 0 y\n 0 0 1 z\n 0 0 0 0\n\nPlease rest assured, however, that they are the same thing!\nThis is not unique to glMatrix, either, as OpenGL developers have long been confused by the\napparent lack of consistency between the memory layout and the documentation."
     },
     {
       "name": "Mat4",
@@ -1717,6 +1741,12 @@ window.apimeta = {
       "namespace": "sp.VertexEffectDelegate",
       "module": "sp",
       "description": "The delegate of spine vertex effect"
+    },
+    {
+      "name": "VertexFormat",
+      "namespace": "cc.VertexFormat",
+      "module": "cc",
+      "description": ""
     },
     {
       "name": "VideoPlayer",

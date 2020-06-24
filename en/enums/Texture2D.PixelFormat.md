@@ -41,7 +41,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:72](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L72) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:72](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L72) |
 
 
 
@@ -52,7 +52,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:79](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L79) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:79](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L79) |
 
 
 
@@ -63,7 +63,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:86](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L86) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:86](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L86) |
 
 
 
@@ -74,7 +74,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:93](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L93) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:93](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L93) |
 
 
 
@@ -85,7 +85,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:100](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L100) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:100](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L100) |
 
 
 
@@ -96,7 +96,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:107](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L107) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:107](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L107) |
 
 
 
@@ -107,7 +107,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:114](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L114) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:114](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L114) |
 
 
 
@@ -118,7 +118,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:121](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L121) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:121](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L121) |
 
 
 
@@ -129,7 +129,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:128](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L128) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:128](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L128) |
 
 
 
@@ -140,7 +140,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:136](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L136) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:136](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L136) |
 
 
 
@@ -151,7 +151,7 @@ other formats are supported by compressed file types or raw data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:143](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L143) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:143](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L143) |
 
 
 
@@ -164,7 +164,7 @@ It separate the origin alpha channel to the bottom half atlas, the origin rgb ch
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:150](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L150) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:150](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L150) |
 
 
 
@@ -175,7 +175,7 @@ It separate the origin alpha channel to the bottom half atlas, the origin rgb ch
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:159](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L159) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:159](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L159) |
 
 
 
@@ -186,7 +186,7 @@ It separate the origin alpha channel to the bottom half atlas, the origin rgb ch
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:166](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L166) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:166](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L166) |
 
 
 
@@ -199,7 +199,7 @@ It separate the origin alpha channel to the bottom half atlas, the origin rgb ch
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:173](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L173) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:173](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L173) |
 
 
 
@@ -210,7 +210,7 @@ It separate the origin alpha channel to the bottom half atlas, the origin rgb ch
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:182](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L182) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:182](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L182) |
 
 
 
@@ -221,7 +221,7 @@ It separate the origin alpha channel to the bottom half atlas, the origin rgb ch
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:189](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L189) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:189](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L189) |
 
 
 
@@ -232,7 +232,7 @@ It separate the origin alpha channel to the bottom half atlas, the origin rgb ch
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:197](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L197) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:197](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L197) |
 
 
 
@@ -243,6 +243,6 @@ It separate the origin alpha channel to the bottom half atlas, the origin rgb ch
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCTexture2D.js:204](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/assets/CCTexture2D.js#L204) |
+| Defined in | [cocos2d/core/assets/CCTexture2D.js:204](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/assets/CCTexture2D.js#L204) |
 
 

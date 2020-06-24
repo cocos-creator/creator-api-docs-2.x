@@ -22,7 +22,7 @@ The stagger axis of Hex tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:169](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/tilemap/CCTiledMap.js#L169) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:169](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/tilemap/CCTiledMap.js#L169) |
 
 
 
@@ -33,6 +33,6 @@ The stagger axis of Hex tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:176](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/tilemap/CCTiledMap.js#L176) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:176](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/tilemap/CCTiledMap.js#L176) |
 
 

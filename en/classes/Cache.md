@@ -2,7 +2,8 @@
 
 
 
-Module: [cc.AssetManager](../modules/cc.AssetManager.md)
+Module: [cc](../modules/cc.md)
+Parent Module: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
 use to cache something
@@ -44,7 +45,7 @@ use to cache something
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/asset-manager/cache.js:240](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/cache.js#L240) |
+| Defined in | [cocos2d/core/asset-manager/cache.js:239](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L239) |
 
 
 
@@ -61,7 +62,7 @@ Create a cache
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/cache.js:56](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/cache.js#L56) |
+| Defined in | [cocos2d/core/asset-manager/cache.js:56](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L56) |
 
 ###### Parameters
 - `map` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An object used to initialize
@@ -74,7 +75,7 @@ Add Key-Value to cache
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/asset-manager/cache.js:71](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/cache.js#L71) |
+| Defined in | [cocos2d/core/asset-manager/cache.js:71](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L71) |
 
 ###### Parameters
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The key
@@ -94,7 +95,7 @@ Get the cached content by key
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/asset-manager/cache.js:95](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/cache.js#L95) |
+| Defined in | [cocos2d/core/asset-manager/cache.js:95](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L95) |
 
 ###### Parameters
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The key
@@ -113,7 +114,7 @@ Check whether or not content exists by key
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| Defined in | [cocos2d/core/asset-manager/cache.js:118](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/cache.js#L118) |
+| Defined in | [cocos2d/core/asset-manager/cache.js:117](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L117) |
 
 ###### Parameters
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The key
@@ -132,7 +133,7 @@ Remove the cached content by key
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/asset-manager/cache.js:140](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/cache.js#L140) |
+| Defined in | [cocos2d/core/asset-manager/cache.js:139](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L139) |
 
 ###### Parameters
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The key
@@ -150,7 +151,7 @@ Clear all content
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/cache.js:167](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/cache.js#L167) |
+| Defined in | [cocos2d/core/asset-manager/cache.js:166](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L166) |
 
 
 ##### Examples
@@ -166,7 +167,7 @@ Enumerate all content and invoke function
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/cache.js:190](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/cache.js#L190) |
+| Defined in | [cocos2d/core/asset-manager/cache.js:189](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L189) |
 
 ###### Parameters
 - `func` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Function to be invoked
@@ -187,7 +188,7 @@ Enumerate all content to find one element which can fulfill condition
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/asset-manager/cache.js:215](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/cache.js#L215) |
+| Defined in | [cocos2d/core/asset-manager/cache.js:214](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L214) |
 
 ###### Parameters
 - `predicate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The condition
@@ -205,7 +206,7 @@ Destroy this cache
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/cache.js:254](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/cache.js#L254) |
+| Defined in | [cocos2d/core/asset-manager/cache.js:253](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L253) |
 
 
 

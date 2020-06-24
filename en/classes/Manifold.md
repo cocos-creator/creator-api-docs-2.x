@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 
@@ -36,7 +35,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:125](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/physics/CCPhysicsContact.js#L125) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:125](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/physics/CCPhysicsContact.js#L125) |
 
 
 
@@ -50,7 +49,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:134](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/physics/CCPhysicsContact.js#L134) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:134](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/physics/CCPhysicsContact.js#L134) |
 
 
 
@@ -63,7 +62,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:148](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/physics/CCPhysicsContact.js#L148) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:148](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/physics/CCPhysicsContact.js#L148) |
 
 
 
@@ -74,7 +73,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/ManifoldPoint.html" class="crosslink">[ManifoldPoint]</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:161](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/physics/CCPhysicsContact.js#L161) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:161](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/physics/CCPhysicsContact.js#L161) |
 
 
 

@@ -2,7 +2,8 @@
 
 
 
-Module: [cc.AssetManager](../modules/cc.AssetManager.md)
+Module: [cc](../modules/cc.md)
+Parent Module: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
 A collection of information about a request
@@ -46,7 +47,7 @@ A collection of information about a request
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/request-item.js:49](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L49) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:49](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L49) |
 
 
 
@@ -57,7 +58,7 @@ A collection of information about a request
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/request-item.js:61](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L61) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:61](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L61) |
 
 
 
@@ -68,7 +69,7 @@ A collection of information about a request
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/request-item.js:73](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L73) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:73](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L73) |
 
 
 
@@ -79,7 +80,7 @@ A collection of information about a request
 | meta | description |
 |------|-------------|
 | Type |  |
-| Defined in | [cocos2d/core/asset-manager/request-item.js:85](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L85) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:85](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L85) |
 
 
 
@@ -90,7 +91,7 @@ A collection of information about a request
 | meta | description |
 |------|-------------|
 | Type |  |
-| Defined in | [cocos2d/core/asset-manager/request-item.js:97](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L97) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:97](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L97) |
 
 
 
@@ -101,7 +102,7 @@ A collection of information about a request
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/asset-manager/request-item.js:109](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L109) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:109](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L109) |
 
 
 
@@ -112,7 +113,7 @@ A collection of information about a request
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/asset-manager/request-item.js:123](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L123) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:123](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L123) |
 
 
 
@@ -123,7 +124,7 @@ A collection of information about a request
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/asset-manager/request-item.js:135](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L135) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:135](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L135) |
 
 
 
@@ -134,7 +135,7 @@ A collection of information about a request
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/request-item.js:164](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L164) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:164](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L164) |
 
 
 
@@ -151,7 +152,7 @@ Create a request item
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/request-item.js:150](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L150) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:150](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L150) |
 
 
 
@@ -161,7 +162,7 @@ Recycle this for reuse
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/request-item.js:181](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L181) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:181](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L181) |
 
 
 
@@ -172,7 +173,7 @@ Create a new request item from pool
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/RequestItem.html" class="crosslink">RequestItem</a> 
-| Defined in | [cocos2d/core/asset-manager/request-item.js:208](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/asset-manager/request-item.js#L208) |
+| Defined in | [cocos2d/core/asset-manager/request-item.js:209](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/request-item.js#L209) |
 
 
 

@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Contact impulses for reporting.
@@ -34,7 +33,7 @@ Contact impulses for reporting.
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:179](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/physics/CCPhysicsContact.js#L179) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:179](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/physics/CCPhysicsContact.js#L179) |
 
 
 
@@ -45,7 +44,7 @@ Contact impulses for reporting.
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:187](https://github.com/cocos-creator/engine/blob/ed2b039b9aa8396d7da1c8c1149f41269733e8fd/cocos2d/core/physics/CCPhysicsContact.js#L187) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:187](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/physics/CCPhysicsContact.js#L187) |
 
 
 
