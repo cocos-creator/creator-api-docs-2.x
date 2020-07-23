@@ -44,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache.js:239](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L239) |
+| 定义于 | [cocos2d/core/asset-manager/cache.js:239](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache.js#L239) |
 
 
 
@@ -61,7 +61,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/cache.js:56](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L56) |
+| 定义于 | [cocos2d/core/asset-manager/cache.js:56](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache.js#L56) |
 
 ###### 参数列表
 - `map` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> An object used to initialize
@@ -74,7 +74,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [cocos2d/core/asset-manager/cache.js:71](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L71) |
+| 定义于 | [cocos2d/core/asset-manager/cache.js:71](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache.js#L71) |
 
 ###### 参数列表
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The key
@@ -94,7 +94,7 @@ cache.add('test', null);
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [cocos2d/core/asset-manager/cache.js:95](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L95) |
+| 定义于 | [cocos2d/core/asset-manager/cache.js:95](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache.js#L95) |
 
 ###### 参数列表
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The key
@@ -113,7 +113,7 @@ var test = cache.get('test');
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/asset-manager/cache.js:117](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L117) |
+| 定义于 | [cocos2d/core/asset-manager/cache.js:117](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache.js#L117) |
 
 ###### 参数列表
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The key
@@ -132,7 +132,7 @@ var exist = cache.has('test');
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [cocos2d/core/asset-manager/cache.js:139](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L139) |
+| 定义于 | [cocos2d/core/asset-manager/cache.js:139](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache.js#L139) |
 
 ###### 参数列表
 - `key` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The key
@@ -150,7 +150,7 @@ var content = cache.remove('test');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/cache.js:166](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L166) |
+| 定义于 | [cocos2d/core/asset-manager/cache.js:166](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache.js#L166) |
 
 
 ##### 示例
@@ -166,7 +166,7 @@ cache.clear();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/cache.js:189](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L189) |
+| 定义于 | [cocos2d/core/asset-manager/cache.js:189](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache.js#L189) |
 
 ###### 参数列表
 - `func` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Function to be invoked
@@ -187,7 +187,7 @@ cache.forEach((val, key) => console.log(key));
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [cocos2d/core/asset-manager/cache.js:214](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L214) |
+| 定义于 | [cocos2d/core/asset-manager/cache.js:214](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache.js#L214) |
 
 ###### 参数列表
 - `predicate` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The condition
@@ -205,7 +205,7 @@ var val = cache.find((val, key) => key === 'test');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/cache.js:253](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/cache.js#L253) |
+| 定义于 | [cocos2d/core/asset-manager/cache.js:253](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache.js#L253) |
 
 
 

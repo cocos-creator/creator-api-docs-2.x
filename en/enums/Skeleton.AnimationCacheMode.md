@@ -23,7 +23,7 @@ Enum for animation cache mode type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/spine/Skeleton.js:52](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/spine/Skeleton.js#L52) |
+| Defined in | [extensions/spine/Skeleton.js:52](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/extensions/spine/Skeleton.js#L52) |
 
 
 
@@ -34,7 +34,7 @@ Enum for animation cache mode type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/spine/Skeleton.js:58](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/spine/Skeleton.js#L58) |
+| Defined in | [extensions/spine/Skeleton.js:58](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/extensions/spine/Skeleton.js#L58) |
 
 
 
@@ -45,6 +45,6 @@ Enum for animation cache mode type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/spine/Skeleton.js:64](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/extensions/spine/Skeleton.js#L64) |
+| Defined in | [extensions/spine/Skeleton.js:64](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/extensions/spine/Skeleton.js#L64) |
 
 

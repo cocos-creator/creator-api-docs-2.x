@@ -37,7 +37,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/pack-manager.js:54](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pack-manager.js#L54) |
+| 定义于 | [cocos2d/core/asset-manager/pack-manager.js:54](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pack-manager.js#L54) |
 
 ###### 参数列表
 - `pack` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> The pack
@@ -61,7 +61,7 @@ downloader.downloadFile('pack.json', {responseType: 'json'}, null, (err, file) =
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/pack-manager.js:115](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pack-manager.js#L115) |
+| 定义于 | [cocos2d/core/asset-manager/pack-manager.js:115](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pack-manager.js#L115) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Extension likes '.bin' or map likes {'.bin': binHandler, '.ab': abHandler}
@@ -84,7 +84,7 @@ packManager.register({'.bin': (packUuid, file, options, onComplete) => onComplet
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/pack-manager.js:147](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pack-manager.js#L147) |
+| 定义于 | [cocos2d/core/asset-manager/pack-manager.js:147](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pack-manager.js#L147) |
 
 ###### 参数列表
 - `pack` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> The uuid of packed assets
@@ -109,7 +109,7 @@ downloader.downloadFile('pack.json', {responseType: 'json'}, null, (err, file) =
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/pack-manager.js:180](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pack-manager.js#L180) |
+| 定义于 | [cocos2d/core/asset-manager/pack-manager.js:180](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pack-manager.js#L180) |
 
 ###### 参数列表
 - `item` <a href="../classes/RequestItem.html" class="crosslink">RequestItem</a> Some item you want to download

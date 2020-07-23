@@ -40,7 +40,7 @@ The limit velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:32](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L32) |
+| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:32](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L32) |
 
 
 
@@ -51,7 +51,7 @@ The limit velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | Space |
-| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:40](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L40) |
+| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:40](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L40) |
 
 
 
@@ -62,7 +62,7 @@ The limit velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:50](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L50) |
+| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:50](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L50) |
 
 
 
@@ -73,7 +73,7 @@ The limit velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:58](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L58) |
+| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:58](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L58) |
 
 
 
@@ -84,7 +84,7 @@ The limit velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:69](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L69) |
+| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:69](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L69) |
 
 
 
@@ -95,7 +95,7 @@ The limit velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:80](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L80) |
+| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:80](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L80) |
 
 
 
@@ -106,7 +106,7 @@ The limit velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:91](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L91) |
+| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:91](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L91) |
 
 
 
@@ -117,7 +117,7 @@ The limit velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:102](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L102) |
+| Defined in | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:102](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L102) |
 
 
 

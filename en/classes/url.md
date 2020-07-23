@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 deprecated: cc.url is deprecated
 
@@ -37,7 +36,7 @@ deprecated: cc.url is deprecated
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:644](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/deprecated.js#L644) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:644](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/deprecated.js#L644) |
 | Deprecated | cc.url.raw is deprecated, please use cc.resources.load directly, or use Asset.nativeUrl instead. |
 
 ###### Parameters

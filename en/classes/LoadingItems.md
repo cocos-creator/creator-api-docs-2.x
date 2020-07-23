@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 deprecated: cc.LoadingItems was removed, please use cc.AssetManager.Task instead
 

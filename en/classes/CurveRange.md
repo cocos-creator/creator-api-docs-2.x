@@ -40,7 +40,7 @@ The curve range of target value.
 | meta | description |
 |------|-------------|
 | Type | Mode |
-| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:32](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/curve-range.ts#L32) |
+| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:32](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/curve-range.ts#L32) |
 
 
 
@@ -51,7 +51,7 @@ The curve range of target value.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/AnimationCurve.html" class="crosslink">AnimationCurve</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:42](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/curve-range.ts#L42) |
+| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:42](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/curve-range.ts#L42) |
 
 
 
@@ -62,7 +62,7 @@ The curve range of target value.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/AnimationCurve.html" class="crosslink">AnimationCurve</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:52](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/curve-range.ts#L52) |
+| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:52](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/curve-range.ts#L52) |
 
 
 
@@ -73,7 +73,7 @@ The curve range of target value.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/AnimationCurve.html" class="crosslink">AnimationCurve</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:62](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/curve-range.ts#L62) |
+| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:62](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/curve-range.ts#L62) |
 
 
 
@@ -84,7 +84,7 @@ The curve range of target value.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:72](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/curve-range.ts#L72) |
+| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:72](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/curve-range.ts#L72) |
 
 
 
@@ -95,7 +95,7 @@ The curve range of target value.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:80](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/curve-range.ts#L80) |
+| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:80](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/curve-range.ts#L80) |
 
 
 
@@ -106,7 +106,7 @@ The curve range of target value.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:89](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/curve-range.ts#L89) |
+| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:89](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/curve-range.ts#L89) |
 
 
 
@@ -117,7 +117,7 @@ The curve range of target value.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:97](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/3d/particle/animator/curve-range.ts#L97) |
+| Defined in | [cocos2d/core/3d/particle/animator/curve-range.ts:97](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/curve-range.ts#L97) |
 
 
 

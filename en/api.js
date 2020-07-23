@@ -1557,10 +1557,16 @@ window.apimeta = {
       "description": "A cc.SpriteFrame has:<br/>\n - texture: A cc.Texture2D that will be used by render components<br/>\n - rectangle: A rectangle of the texture"
     },
     {
+      "name": "SubContextView",
+      "namespace": "cc.SubContextView",
+      "module": "cc",
+      "description": "SubContextView is a view component which controls open data context viewport in minigame platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,"
+    },
+    {
       "name": "SwanSubContextView",
       "namespace": "cc.SwanSubContextView",
       "module": "cc",
-      "description": "SwanSubContextView is a view component which controls open data context viewport in WeChat game platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,\nyou need to manually reset the viewport of sub context using updateSubContextViewport."
+      "description": "SwanSubContextView is deprecated since v2.4.1, please use SubContextView instead."
     },
     {
       "name": "SystemEvent",
@@ -1770,7 +1776,7 @@ window.apimeta = {
       "name": "WXSubContextView",
       "namespace": "cc.WXSubContextView",
       "module": "cc",
-      "description": "WXSubContextView is a view component which controls open data context viewport in WeChat game platform.<br/>\nThe component's node size decide the viewport of the sub context content in main context,\nthe entire sub context texture will be scaled to the node's bounding box area.<br/>\nThis component provides multiple important features:<br/>\n1. Sub context could use its own resolution size and policy.<br/>\n2. Sub context could be minized to smallest size it needed.<br/>\n3. Resolution of sub context content could be increased.<br/>\n4. User touch input is transformed to the correct viewport.<br/>\n5. Texture update is handled by this component. User don't need to worry.<br/>\nOne important thing to be noted, whenever the node's bounding box change,\nyou need to manually reset the viewport of sub context using updateSubContextViewport."
+      "description": "WXSubContextView is deprecated since v2.4.1, please use SubContextView instead."
     },
     {
       "name": "WebView",

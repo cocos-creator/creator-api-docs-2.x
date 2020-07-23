@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 平面。
@@ -45,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:173](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/geom-utils/plane.ts#L173) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:173](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/plane.ts#L173) |
 
 
 
@@ -56,7 +55,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:182](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/geom-utils/plane.ts#L182) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:182](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/plane.ts#L182) |
 
 
 
@@ -74,7 +73,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Plane 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:46](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/geom-utils/plane.ts#L46) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:46](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/plane.ts#L46) |
 
 ###### 参数列表
 - `nx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x part of the normal component.
@@ -90,7 +89,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Plane 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:62](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/geom-utils/plane.ts#L62) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:62](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/plane.ts#L62) |
 
 ###### 参数列表
 - `p` Plane The source of cloning.
@@ -103,7 +102,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Plane 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:75](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/geom-utils/plane.ts#L75) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:75](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/plane.ts#L75) |
 
 ###### 参数列表
 - `out` Plane The object that accepts the action.
@@ -117,7 +116,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Plane 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:92](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/geom-utils/plane.ts#L92) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:92](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/plane.ts#L92) |
 
 ###### 参数列表
 - `out` Plane The object that accepts the action.
@@ -133,7 +132,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Plane 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:114](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/geom-utils/plane.ts#L114) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:114](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/plane.ts#L114) |
 
 ###### 参数列表
 - `out` Plane The object that accepts the action.
@@ -150,7 +149,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Plane 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:136](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/geom-utils/plane.ts#L136) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:136](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/plane.ts#L136) |
 
 ###### 参数列表
 - `out` Plane The object that accepts the action.
@@ -165,7 +164,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | Plane 
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:154](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/geom-utils/plane.ts#L154) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:154](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/plane.ts#L154) |
 
 ###### 参数列表
 - `out` Plane The object that accepts the action.
@@ -178,7 +177,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/plane.ts:208](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/geom-utils/plane.ts#L208) |
+| 定义于 | [cocos2d/core/geom-utils/plane.ts:208](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/plane.ts#L208) |
 
 ###### 参数列表
 - `mat` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 

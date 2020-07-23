@@ -2,8 +2,7 @@
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [cc.AssetManager](../modules/cc.AssetManager.md)
+Module: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
 Pipeline can execute the task for some effect.
@@ -44,7 +43,7 @@ Pipeline can execute the task for some effect.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/asset-manager/pipeline.js:50](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pipeline.js#L50) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:50](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pipeline.js#L50) |
 
 
 
@@ -55,7 +54,7 @@ Pipeline can execute the task for some effect.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/pipeline.js:62](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pipeline.js#L62) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:62](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pipeline.js#L62) |
 
 
 
@@ -66,7 +65,7 @@ Pipeline can execute the task for some effect.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> |
-| Defined in | [cocos2d/core/asset-manager/pipeline.js:74](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pipeline.js#L74) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:74](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pipeline.js#L74) |
 
 
 
@@ -83,7 +82,7 @@ Create a new pipeline
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/pipeline.js:97](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pipeline.js#L97) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:97](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pipeline.js#L97) |
 
 ###### Parameters
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The name of pipeline
@@ -116,7 +115,7 @@ At specific point insert a new pipe to pipeline
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
-| Defined in | [cocos2d/core/asset-manager/pipeline.js:130](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pipeline.js#L130) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:130](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pipeline.js#L130) |
 
 ###### Parameters
 - `func` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The new pipe
@@ -141,7 +140,7 @@ Append a new pipe to the pipeline
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
-| Defined in | [cocos2d/core/asset-manager/pipeline.js:165](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pipeline.js#L165) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:165](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pipeline.js#L165) |
 
 ###### Parameters
 - `func` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The new pipe
@@ -165,7 +164,7 @@ Remove pipe which at specific point
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
-| Defined in | [cocos2d/core/asset-manager/pipeline.js:197](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pipeline.js#L197) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:197](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pipeline.js#L197) |
 
 ###### Parameters
 - `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The specific point
@@ -187,7 +186,7 @@ Execute task synchronously
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/asset-manager/pipeline.js:227](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pipeline.js#L227) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:227](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pipeline.js#L227) |
 
 ###### Parameters
 - `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task will be executed
@@ -210,7 +209,7 @@ Execute task asynchronously
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/pipeline.js:275](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/pipeline.js#L275) |
+| Defined in | [cocos2d/core/asset-manager/pipeline.js:275](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pipeline.js#L275) |
 
 ###### Parameters
 - `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task will be executed

@@ -2,8 +2,7 @@
 
 
 
-Module: [cc](../modules/cc.md)
-Parent Module: [cc.AssetManager](../modules/cc.AssetManager.md)
+Module: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
 Parse the downloaded file, it's a singleton, all member can be accessed with `cc.assetManager.parser`
@@ -42,7 +41,7 @@ Parse image file
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/parser.js:53](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L53) |
+| Defined in | [cocos2d/core/asset-manager/parser.js:53](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L53) |
 
 ###### Parameters
 - `file` Blob The downloaded file
@@ -65,7 +64,7 @@ Parse audio file
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/parser.js:93](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L93) |
+| Defined in | [cocos2d/core/asset-manager/parser.js:93](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L93) |
 
 ###### Parameters
 - `file` ArrayBuffer &#124; HTMLAudioElement The downloaded file
@@ -88,7 +87,7 @@ Parse pvr file
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/parser.js:128](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L128) |
+| Defined in | [cocos2d/core/asset-manager/parser.js:128](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L128) |
 
 ###### Parameters
 - `file` ArrayBuffer &#124; ArrayBufferView The downloaded file
@@ -111,7 +110,7 @@ Parse pkm file
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/parser.js:199](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L199) |
+| Defined in | [cocos2d/core/asset-manager/parser.js:199](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L199) |
 
 ###### Parameters
 - `file` ArrayBuffer &#124; ArrayBufferView The downloaded file
@@ -134,7 +133,7 @@ Parse plist file
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/parser.js:269](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L269) |
+| Defined in | [cocos2d/core/asset-manager/parser.js:269](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L269) |
 
 ###### Parameters
 - `file` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The downloaded file
@@ -157,7 +156,7 @@ Deserialize asset file
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/parser.js:298](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L298) |
+| Defined in | [cocos2d/core/asset-manager/parser.js:298](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L298) |
 
 ###### Parameters
 - `file` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The serialized json
@@ -180,7 +179,7 @@ Register custom handler if you want to change default behavior or extend parser 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/parser.js:336](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L336) |
+| Defined in | [cocos2d/core/asset-manager/parser.js:336](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L336) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Extension likes '.jpg' or map likes {'.jpg': jpgHandler, '.png': pngHandler}
@@ -202,7 +201,7 @@ Use corresponding handler to parse file
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/parser.js:367](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L367) |
+| Defined in | [cocos2d/core/asset-manager/parser.js:367](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L367) |
 
 ###### Parameters
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The id of file

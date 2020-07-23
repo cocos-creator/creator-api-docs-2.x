@@ -41,7 +41,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/parser.js:53](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L53) |
+| 定义于 | [cocos2d/core/asset-manager/parser.js:53](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L53) |
 
 ###### 参数列表
 - `file` Blob The downloaded file
@@ -64,7 +64,7 @@ downloader.downloadFile('test.jpg', {responseType: 'blob'}, null, (err, file) =>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/parser.js:93](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L93) |
+| 定义于 | [cocos2d/core/asset-manager/parser.js:93](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L93) |
 
 ###### 参数列表
 - `file` ArrayBuffer &#124; HTMLAudioElement The downloaded file
@@ -87,7 +87,7 @@ downloader.downloadFile('test.mp3', {responseType: 'arraybuffer'}, null, (err, f
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/parser.js:128](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L128) |
+| 定义于 | [cocos2d/core/asset-manager/parser.js:128](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L128) |
 
 ###### 参数列表
 - `file` ArrayBuffer &#124; ArrayBufferView The downloaded file
@@ -110,7 +110,7 @@ downloader.downloadFile('test.pvr', {responseType: 'arraybuffer'}, null, (err, f
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/parser.js:199](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L199) |
+| 定义于 | [cocos2d/core/asset-manager/parser.js:199](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L199) |
 
 ###### 参数列表
 - `file` ArrayBuffer &#124; ArrayBufferView The downloaded file
@@ -133,7 +133,7 @@ downloader.downloadFile('test.pkm', {responseType: 'arraybuffer'}, null, (err, f
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/parser.js:269](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L269) |
+| 定义于 | [cocos2d/core/asset-manager/parser.js:269](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L269) |
 
 ###### 参数列表
 - `file` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The downloaded file
@@ -156,7 +156,7 @@ downloader.downloadFile('test.plist', {responseType: 'text'}, null, (err, file) 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/parser.js:298](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L298) |
+| 定义于 | [cocos2d/core/asset-manager/parser.js:298](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L298) |
 
 ###### 参数列表
 - `file` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The serialized json
@@ -179,7 +179,7 @@ downloader.downloadFile('test.json', {responseType: 'json'}, null, (err, file) =
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/parser.js:336](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L336) |
+| 定义于 | [cocos2d/core/asset-manager/parser.js:336](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L336) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Extension likes '.jpg' or map likes {'.jpg': jpgHandler, '.png': pngHandler}
@@ -201,7 +201,7 @@ parser.register({'.tga': (file, options, onComplete) => onComplete(null, null), 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/parser.js:367](https://github.com/cocos-creator/engine/blob/f495398f4307775f0f733162e3d128d81e063063/cocos2d/core/asset-manager/parser.js#L367) |
+| 定义于 | [cocos2d/core/asset-manager/parser.js:367](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/parser.js#L367) |
 
 ###### 参数列表
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The id of file

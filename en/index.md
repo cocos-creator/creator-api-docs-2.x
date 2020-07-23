@@ -223,6 +223,7 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`Sprite`](classes/Sprite.md) from [cc](modules/cc.md)
 - [`SpriteAtlas`](classes/SpriteAtlas.md) from [cc](modules/cc.md)
 - [`SpriteFrame`](classes/SpriteFrame.md) from [cc](modules/cc.md)
+- [`SubContextView`](classes/SubContextView.md) from [cc](modules/cc.md)
 - [`SwanSubContextView`](classes/SwanSubContextView.md) from [cc](modules/cc.md)
 - [`sys`](classes/sys.md) from [cc](modules/cc.md)
 - [`SystemEvent`](classes/SystemEvent.md) from [cc](modules/cc.md)
