@@ -33,7 +33,7 @@ The class BufferRange denotes a range of the buffer.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/mesh/mesh-data.js:39](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/mesh/mesh-data.js#L39) |
+| Defined in | [cocos2d/core/mesh/mesh-data.js:39](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/mesh/mesh-data.js#L39) |
 
 
 
@@ -44,7 +44,7 @@ The class BufferRange denotes a range of the buffer.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/mesh/mesh-data.js:44](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/mesh/mesh-data.js#L44) |
+| Defined in | [cocos2d/core/mesh/mesh-data.js:44](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/mesh/mesh-data.js#L44) |
 
 
 

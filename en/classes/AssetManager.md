@@ -65,7 +65,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:71](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L71) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:71](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L71) |
 
 
 
@@ -76,7 +76,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:83](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L83) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:83](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L83) |
 
 
 
@@ -87,7 +87,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:95](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L95) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:95](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L95) |
 
 
 
@@ -98,7 +98,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Cache.html" class="crosslink">Cache</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:108](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L108) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:108](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L108) |
 
 
 
@@ -109,7 +109,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Cache.html" class="crosslink">Cache</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:122](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L122) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:122](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L122) |
 
 
 
@@ -120,7 +120,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/DependUtil.html" class="crosslink">DependUtil</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:144](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L144) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:144](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L144) |
 
 
 
@@ -131,7 +131,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:158](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L158) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:158](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L158) |
 
 
 
@@ -142,7 +142,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:170](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L170) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:170](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L170) |
 
 
 
@@ -153,7 +153,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Helper.html" class="crosslink">Helper</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:182](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L182) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:182](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L182) |
 
 
 
@@ -164,7 +164,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Downloader.html" class="crosslink">Downloader</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:194](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L194) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:194](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L194) |
 
 
 
@@ -175,7 +175,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Parser.html" class="crosslink">Parser</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:206](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L206) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:206](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L206) |
 
 
 
@@ -186,7 +186,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Builtins.html" class="crosslink">Builtins</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:218](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L218) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:218](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L218) |
 
 
 
@@ -197,7 +197,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/PackManager.html" class="crosslink">PackManager</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:230](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L230) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:230](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L230) |
 
 
 
@@ -208,7 +208,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | cc.AssetManager.CacheManager |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:244](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L244) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:244](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L244) |
 
 
 
@@ -219,7 +219,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:258](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L258) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:258](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L258) |
 
 
 
@@ -230,7 +230,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Bundle.html" class="crosslink">Bundle</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:315](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L315) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:317](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L317) |
 
 
 
@@ -241,7 +241,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Bundle.html" class="crosslink">Bundle</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:330](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L330) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:332](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L332) |
 
 
 
@@ -252,7 +252,7 @@ All member can be accessed with `cc.assetManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Bundle.html" class="crosslink">Bundle</a> |
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:345](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L345) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:347](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L347) |
 
 
 
@@ -269,7 +269,7 @@ Initialize assetManager with options
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:360](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L360) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:362](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L362) |
 
 ###### Parameters
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -282,7 +282,7 @@ Get the bundle which has been loaded
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Bundle.html" class="crosslink">Bundle</a> 
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:388](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L388) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:390](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L390) |
 
 ###### Parameters
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of bundle
@@ -302,7 +302,7 @@ Remove this bundle. NOTE: The asset whthin this bundle will not be released auto
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:412](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L412) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:414](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L414) |
 
 ###### Parameters
 - `bundle` <a href="../classes/Bundle.html" class="crosslink">Bundle</a> The bundle to be removed
@@ -322,7 +322,7 @@ Please DO NOT use these words as custom options!
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:430](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L430) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:432](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L432) |
 
 ###### Parameters
 - `requests` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> The request you want to load
@@ -362,7 +362,7 @@ to finish loading asset
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:495](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L495) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:498](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L498) |
 
 ###### Parameters
 - `requests` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> The request you want to preload
@@ -387,7 +387,7 @@ Load native file of asset, if you check the option 'Async Load Assets', you may 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:535](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L535) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:539](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L539) |
 
 ###### Parameters
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> The asset
@@ -407,12 +407,13 @@ Load remote asset with url, such as audio, image, text and so on.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:588](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L588) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:592](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L592) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The url of asset
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Some optional parameters
 	- `audioLoadMode` cc.AudioClip.LoadMode Indicate which mode audio you want to load
+	- `ext` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> If the url does not have a extension name, you can specify one manually.
 - `onComplete` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when finish loading
 	- `err` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> The error occured in loading process.
 	- `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> The loaded texture
@@ -422,6 +423,7 @@ Load remote asset with url, such as audio, image, text and so on.
 ```js
 cc.assetManager.loadRemote('http://www.cloud.com/test1.jpg', (err, texture) => console.log(err));
 cc.assetManager.loadRemote('http://www.cloud.com/test2.mp3', (err, audioClip) => console.log(err));
+cc.assetManager.loadRemote('http://www.cloud.com/test3', { ext: '.png' }, (err, texture) => console.log(err));
 ```
 
 ##### loadScript
@@ -430,12 +432,12 @@ Load script
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:629](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L629) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:641](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L641) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string[]</a> Url of the script
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Some optional paramters
-	- `isAsync` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> Indicate whether or not loading process should be async
+	- `async` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> Indicate whether or not loading process should be async
 - `onComplete` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback when script loaded or failed
 	- `err` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> The occurred error, null indicetes success
 
@@ -451,7 +453,7 @@ load bundle
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:659](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L659) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:671](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L671) |
 
 ###### Parameters
 - `nameOrUrl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The name or root path of bundle
@@ -476,7 +478,7 @@ Notice, this method may cause the texture to be unusable, if there are still oth
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:697](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L697) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:709](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L709) |
 
 ###### Parameters
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> The asset to be released
@@ -494,7 +496,7 @@ Release all unused assets. Refer to <a href="../classes/AssetManager.html#method
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:723](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L723) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:735](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L735) |
 
 
 
@@ -504,7 +506,7 @@ Release all assets. Refer to <a href="../classes/AssetManager.html#method_releas
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:742](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/CCAssetManager.js#L742) |
+| Defined in | [cocos2d/core/asset-manager/CCAssetManager.js:754](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/CCAssetManager.js#L754) |
 
 
 

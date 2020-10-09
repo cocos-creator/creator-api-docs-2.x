@@ -18,6 +18,7 @@
 
 ##### 属性（properties）
 
+  - [`remoteServerAddress`](#remoteserveraddress) `String` 远程服务器地址
   - [`maxConcurrency`](#maxconcurrency) `Number` 下载时的最大并发数
   - [`maxRequestsPerFrame`](#maxrequestsperframe) `Number` 下载时每帧可以启动的最大请求数
   - [`maxRetryCount`](#maxretrycount) `Number` 失败重试次数
@@ -28,10 +29,6 @@
 ##### 方法
 
   - [`loadSubpackage`](#loadsubpackage) `cc.loader.downloader.loadSubpackage` is deprecated, please use <a href="../classes/AssetManager.html#method_loadBundle" class="crosslink">loadBundle</a> instead
-  - [`downloadDomImage`](#downloaddomimage) 使用 Image 元素来下载图片
-  - [`downloadDomAudio`](#downloaddomaudio) 使用 Audio 元素来下载音频
-  - [`downloadFile`](#downloadfile) 使用 XMLHttpRequest 来下载文件
-  - [`downloadScript`](#downloadscript) 加载脚本
   - [`register`](#register) 当你想修改默认行为或者拓展 downloader 来下载其他格式文件时可以注册自定义的 handler
   - [`download`](#download) 在限制下使用对应的 handler 来下载文件
 
@@ -43,6 +40,17 @@
 #### 属性（properties）
 
 
+##### remoteServerAddress
+
+> 远程服务器地址
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [cocos2d/core/asset-manager/downloader.js:212](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L212) |
+
+
+
 ##### maxConcurrency
 
 > 下载时的最大并发数
@@ -50,7 +58,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/downloader.js:210](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/downloader.js#L210) |
+| 定义于 | [cocos2d/core/asset-manager/downloader.js:227](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L227) |
 
 
 
@@ -61,7 +69,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/downloader.js:223](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/downloader.js#L223) |
+| 定义于 | [cocos2d/core/asset-manager/downloader.js:240](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L240) |
 
 
 
@@ -72,7 +80,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/downloader.js:236](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/downloader.js#L236) |
+| 定义于 | [cocos2d/core/asset-manager/downloader.js:253](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L253) |
 
 
 
@@ -83,7 +91,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/downloader.js:252](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/downloader.js#L252) |
+| 定义于 | [cocos2d/core/asset-manager/downloader.js:269](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L269) |
 
 
 
@@ -100,7 +108,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:574](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/deprecated.js#L574) |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:571](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/deprecated.js#L571) |
 | 废弃（Deprecated） | cc.loader.downloader.loadSubpackage is deprecated, please use AssetManager.loadBundle instead |
 
 ###### 参数列表
@@ -109,108 +117,13 @@
 	- `error` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> error information
 
 
-##### downloadDomImage
-
-使用 Image 元素来下载图片
-
-| meta | description |
-|------|-------------|
-| 返回 | HTMLImageElement 
-| 定义于 | [cocos2d/core/asset-manager/downloader.js:266](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/downloader.js#L266) |
-
-###### 参数列表
-- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> Url of the image
-- `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Some optional paramters
-- `onComplete` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback when image loaded or failed
-	- `err` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> The occurred error, null indicetes success
-	- `img` HTMLImageElement The loaded Image element, null if error occurred
-
-##### 示例
-
-```js
-downloadDomImage('http://example.com/test.jpg', null, (err, img) => console.log(err));
-```
-
-##### downloadDomAudio
-
-使用 Audio 元素来下载音频
-
-| meta | description |
-|------|-------------|
-| 返回 | HTMLAudioElement 
-| 定义于 | [cocos2d/core/asset-manager/downloader.js:290](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/downloader.js#L290) |
-
-###### 参数列表
-- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> Url of the audio
-- `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Some optional paramters
-- `onComplete` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback invoked when audio loaded or failed
-	- `err` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> The occurred error, null indicetes success
-	- `audio` HTMLAudioElement The loaded audio element, null if error occurred
-
-##### 示例
-
-```js
-downloadDomAudio('http://example.com/test.mp3', null, (err, audio) => console.log(err));
-```
-
-##### downloadFile
-
-使用 XMLHttpRequest 来下载文件
-
-| meta | description |
-|------|-------------|
-| 返回 | XMLHttpRequest 
-| 定义于 | [cocos2d/core/asset-manager/downloader.js:314](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/downloader.js#L314) |
-
-###### 参数列表
-- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> Url of the file
-- `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Some optional paramters
-	- `responseType` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> Indicate which type of content should be returned
-	- `withCredentials` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> Indicate whether or not cross-site Access-Contorl requests should be made using credentials
-	- `mimeType` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> Indicate which type of content should be returned. In some browsers, responseType does't work, you can use mimeType instead
-	- `timeout` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Represent the number of ms a request can take before being terminated.
-	- `header` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The header should be tranferred to server
-- `onFileProgress` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback continuously during download is processing
-	- `loaded` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Size of downloaded content.
-	- `total` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Total size of content.
-- `onComplete` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback when file loaded or failed
-	- `err` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> The occurred error, null indicetes success
-	- `response`  The loaded content, null if error occurred, type of content can be indicated by options.responseType
-
-##### 示例
-
-```js
-downloadFile('http://example.com/test.bin', {responseType: 'arraybuffer'}, null, (err, arrayBuffer) => console.log(err));
-```
-
-##### downloadScript
-
-加载脚本
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/downloader.js:348](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/downloader.js#L348) |
-
-###### 参数列表
-- `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> Url of the script
-- `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Some optional paramters
-	- `isAsync` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> Indicate whether or not loading process should be async
-- `onComplete` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback when script loaded or failed
-	- `err` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a> The occurred error, null indicetes success
-
-##### 示例
-
-```js
-downloadScript('http://localhost:8080/index.js', null, (err) => console.log(err));
-```
-
 ##### register
 
 当你想修改默认行为或者拓展 downloader 来下载其他格式文件时可以注册自定义的 handler
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/downloader.js:377](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/downloader.js#L377) |
+| 定义于 | [cocos2d/core/asset-manager/downloader.js:395](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L395) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Extension likes '.jpg' or map likes {'.jpg': jpgHandler, '.png': pngHandler}
@@ -232,7 +145,7 @@ downloader.register({'.tga': (url, options, onComplete) => onComplete(null, null
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/downloader.js:408](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/downloader.js#L408) |
+| 定义于 | [cocos2d/core/asset-manager/downloader.js:426](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L426) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The url should be downloaded

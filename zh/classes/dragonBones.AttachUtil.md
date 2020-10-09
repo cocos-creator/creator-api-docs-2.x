@@ -40,7 +40,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | cc.Node 
-| 定义于 | [extensions/dragonbones/AttachUtil.js:120](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/extensions/dragonbones/AttachUtil.js#L120) |
+| 定义于 | [extensions/dragonbones/AttachUtil.js:120](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/extensions/dragonbones/AttachUtil.js#L120) |
 
 
 
@@ -51,7 +51,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node[]</a> 
-| 定义于 | [extensions/dragonbones/AttachUtil.js:130](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/extensions/dragonbones/AttachUtil.js#L130) |
+| 定义于 | [extensions/dragonbones/AttachUtil.js:130](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/extensions/dragonbones/AttachUtil.js#L130) |
 
 ###### 参数列表
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -63,7 +63,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/dragonbones/AttachUtil.js:177](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/extensions/dragonbones/AttachUtil.js#L177) |
+| 定义于 | [extensions/dragonbones/AttachUtil.js:177](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/extensions/dragonbones/AttachUtil.js#L177) |
 
 ###### 参数列表
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -76,7 +76,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node[]</a> 
-| 定义于 | [extensions/dragonbones/AttachUtil.js:212](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/extensions/dragonbones/AttachUtil.js#L212) |
+| 定义于 | [extensions/dragonbones/AttachUtil.js:212](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/extensions/dragonbones/AttachUtil.js#L212) |
 
 ###### 参数列表
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -88,7 +88,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/dragonbones/AttachUtil.js:286](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/extensions/dragonbones/AttachUtil.js#L286) |
+| 定义于 | [extensions/dragonbones/AttachUtil.js:286](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/extensions/dragonbones/AttachUtil.js#L286) |
 
 
 
@@ -99,7 +99,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | cc.Node 
-| 定义于 | [extensions/dragonbones/AttachUtil.js:305](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/extensions/dragonbones/AttachUtil.js#L305) |
+| 定义于 | [extensions/dragonbones/AttachUtil.js:305](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/extensions/dragonbones/AttachUtil.js#L305) |
 
 
 

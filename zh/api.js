@@ -1,6 +1,12 @@
 window.apimeta = {
   "enums": [
     {
+      "name": "AnimationCurve.WrapMode",
+      "namespace": "cc.AnimationCurve.WrapMode",
+      "module": "cc",
+      "description": "循环模式"
+    },
+    {
       "name": "AnimationEventType",
       "namespace": "sp.AnimationEventType",
       "module": "sp",
@@ -546,7 +552,7 @@ window.apimeta = {
       "name": "ArmatureDisplay",
       "namespace": "dragonBones.ArmatureDisplay",
       "module": "dragonBones",
-      "description": "DragonBones 骨骼动画 <br/>\n<br/>\n(Armature Display 具有对骨骼数据的引用并且存储了骨骼实例的状态，\n它由当前的骨骼动作，slot 颜色，和可见的 slot attachments 组成。<br/>\n多个 Armature Display 可以使用相同的骨骼数据，其中包括所有的动画，皮肤和 attachments。)<br/>"
+      "description": "DragonBones 骨骼动画 <br/>\n<br/>\nArmature Display 具有对骨骼数据的引用并且存储了骨骼实例的状态，\n它由当前的骨骼动作，slot 颜色，和可见的 slot attachments 组成。<br/>\n多个 Armature Display 可以使用相同的骨骼数据，其中包括所有的动画，皮肤和 attachments。<br/>"
     },
     {
       "name": "Asset",
@@ -636,7 +642,7 @@ window.apimeta = {
       "name": "Button",
       "namespace": "cc.Button",
       "module": "cc",
-      "description": "按钮组件。可以被按下，或者点击。\n\n按钮可以通过修改 Transition 来设置按钮状态过渡的方式：\n\n  - Button.Transition.NONE   // 不做任何过渡\n  - Button.Transition.COLOR  // 进行颜色之间过渡\n  - Button.Transition.SPRITE // 进行精灵之间过渡\n  - Button.Transition.SCALE // 进行缩放过渡\n\n按钮可以绑定事件（但是必须要在按钮的 Node 上才能绑定事件）：<br/>\n以下事件可以在全平台上都触发：\n\n  - cc.Node.EventType.TOUCH_START  // 按下时事件\n  - cc.Node.EventType.TOUCH_Move   // 按住移动后事件\n  - cc.Node.EventType.TOUCH_END    // 按下后松开后事件\n  - cc.Node.EventType.TOUCH_CANCEL // 按下取消事件\n\n以下事件只在 PC 平台上触发：\n\n  - cc.Node.EventType.MOUSE_DOWN  // 鼠标按下时事件\n  - cc.Node.EventType.MOUSE_MOVE  // 鼠标按住移动后事件\n  - cc.Node.EventType.MOUSE_ENTER // 鼠标进入目标事件\n  - cc.Node.EventType.MOUSE_LEAVE // 鼠标离开目标事件\n  - cc.Node.EventType.MOUSE_UP    // 鼠标松开事件\n  - cc.Node.EventType.MOUSE_WHEEL // 鼠标滚轮事件\n\n用户可以通过获取 __点击事件__ 回调函数的参数 event 的 target 属性获取当前点击对象。"
+      "description": "按钮组件。可以被按下，或者点击。\n\n按钮可以通过修改 Transition 来设置按钮状态过渡的方式：\n\n  - Button.Transition.NONE   // 不做任何过渡\n  - Button.Transition.COLOR  // 进行颜色之间过渡\n  - Button.Transition.SPRITE // 进行精灵之间过渡\n  - Button.Transition.SCALE // 进行缩放过渡\n\n按钮可以绑定事件（但是必须要在按钮的 Node 上才能绑定事件）：<br/>\n以下事件可以在全平台上都触发：\n\n  - cc.Node.EventType.TOUCH_START  // 按下时事件\n  - cc.Node.EventType.TOUCH_MOVE   // 按住移动后事件\n  - cc.Node.EventType.TOUCH_END    // 按下后松开后事件\n  - cc.Node.EventType.TOUCH_CANCEL // 按下取消事件\n\n以下事件只在 PC 平台上触发：\n\n  - cc.Node.EventType.MOUSE_DOWN  // 鼠标按下时事件\n  - cc.Node.EventType.MOUSE_MOVE  // 鼠标按住移动后事件\n  - cc.Node.EventType.MOUSE_ENTER // 鼠标进入目标事件\n  - cc.Node.EventType.MOUSE_LEAVE // 鼠标离开目标事件\n  - cc.Node.EventType.MOUSE_UP    // 鼠标松开事件\n  - cc.Node.EventType.MOUSE_WHEEL // 鼠标滚轮事件\n\n用户可以通过获取 __点击事件__ 回调函数的参数 event 的 target 属性获取当前点击对象。"
     },
     {
       "name": "CCFactory",
@@ -672,7 +678,7 @@ window.apimeta = {
       "name": "Canvas",
       "namespace": "cc.Canvas",
       "module": "cc",
-      "description": ": 作为 UI 根节点，为所有子节点提供视窗四边的位置信息以供对齐，另外提供屏幕适配策略接口，方便从编辑器设置。\n注：由于本节点的尺寸会跟随屏幕拉伸，所以 anchorPoint 只支持 (0.5, 0.5)，否则适配不同屏幕时坐标会有偏差。"
+      "description": "作为 UI 根节点，为所有子节点提供视窗四边的位置信息以供对齐，另外提供屏幕适配策略接口，方便从编辑器设置。<br>\n注：由于本节点的尺寸会跟随屏幕拉伸，所以 anchorPoint 只支持 (0.5, 0.5)，否则适配不同屏幕时坐标会有偏差。"
     },
     {
       "name": "CircleCollider",
@@ -1704,7 +1710,7 @@ window.apimeta = {
       "name": "Tween",
       "namespace": "cc.Tween",
       "module": "cc",
-      "description": "Tween 提供了一个简单灵活的方法来创建 action。\n相对于 Cocos 传统的 cc.Action，cc.Tween 在创建动画上要灵活非常多：\n - 支持以链式结构的方式创建一个动画序列。\n - 支持对任意对象的任意属性进行缓动，不再局限于节点上的属性，而 cc.Action 添加一个属性的支持时还需要添加一个新的 action 类型。\n - 支持与 cc.Action 混用\n - 支持设置 <a href=\"../classes/Easing.html\" class=\"crosslink\">Easing</a> 或者 progress 函数"
+      "description": "Tween 提供了一个简单灵活的方法来创建 action。相对于 Cocos 传统的 `cc.Action`，`cc.Tween` 在创建动画上要灵活非常多：\n - 支持以链式结构的方式创建一个动画序列。\n - 支持对任意对象的任意属性进行缓动，不再局限于节点上的属性，而 `cc.Action` 添加一个属性的支持时还需要添加一个新的 action 类型。\n - 支持与 `cc.Action` 混用。\n - 支持设置 <a href=\"../classes/Easing.html\" class=\"crosslink\">Easing</a> 或者 progress 函数。"
     },
     {
       "name": "TypeScript",
@@ -1818,7 +1824,7 @@ window.apimeta = {
       "name": "audioEngine",
       "namespace": "cc.audioEngine",
       "module": "cc",
-      "description": "cc.audioengine是单例对象。<br/>\n主要用来播放音频，播放的时候会返回一个 audioID，之后都可以通过这个 audioID 来操作这个音频对象。<br/>\n不使用的时候，请使用 cc.audioEngine.uncache(filePath); 进行资源释放 <br/>\n注意：<br/>\n在 Android 系统浏览器上，不同浏览器，不同版本的效果不尽相同。<br/>\n比如说：大多数浏览器都需要用户物理交互才可以开始播放音效，有一些不支持 WebAudio，<br/>\n有一些不支持多音轨播放。总之如果对音乐依赖比较强，请做尽可能多的测试。"
+      "description": "cc.audioengine是单例对象。<br/>\n主要用来播放音频，播放的时候会返回一个 audioID，之后都可以通过这个 audioID 来操作这个音频对象。<br/>\n不使用的时候，请使用 `cc.audioEngine.uncache(filePath);` 进行资源释放 <br/>\n注意：<br/>\n在 Android 系统浏览器上，不同浏览器，不同版本的效果不尽相同。<br/>\n比如说：大多数浏览器都需要用户物理交互才可以开始播放音效，有一些不支持 WebAudio，有一些不支持多音轨播放。总之如果对音乐依赖比较强，请做尽可能多的测试。"
     },
     {
       "name": "constructor",

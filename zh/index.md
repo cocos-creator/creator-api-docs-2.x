@@ -271,6 +271,7 @@ All enums and classes are under `cc` module if not specified otherwise.
 
 ### 枚举
 
+- [`AnimationCurve.WrapMode`](enums/AnimationCurve.WrapMode.md) from [cc](modules/cc.md)
 - [`AnimationEventType`](enums/AnimationEventType.md) from [sp](modules/sp.md)
 - [`ArmatureDisplay.AnimationCacheMode`](enums/ArmatureDisplay.AnimationCacheMode.md) from [dragonBones](modules/dragonBones.md)
 - [`audioEngine.AudioState`](enums/audioEngine.AudioState.md) from [cc](modules/cc.md)

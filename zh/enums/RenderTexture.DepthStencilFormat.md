@@ -23,7 +23,7 @@ RenderTexture 的深度缓冲以及模板缓冲格式。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCRenderTexture.js:15](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/assets/CCRenderTexture.js#L15) |
+| 定义于 | [cocos2d/core/assets/CCRenderTexture.js:15](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/assets/CCRenderTexture.js#L15) |
 
 
 
@@ -34,7 +34,7 @@ RenderTexture 的深度缓冲以及模板缓冲格式。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCRenderTexture.js:23](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/assets/CCRenderTexture.js#L23) |
+| 定义于 | [cocos2d/core/assets/CCRenderTexture.js:23](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/assets/CCRenderTexture.js#L23) |
 
 
 
@@ -45,6 +45,6 @@ RenderTexture 的深度缓冲以及模板缓冲格式。
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCRenderTexture.js:31](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/assets/CCRenderTexture.js#L31) |
+| 定义于 | [cocos2d/core/assets/CCRenderTexture.js:31](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/assets/CCRenderTexture.js#L31) |
 
 

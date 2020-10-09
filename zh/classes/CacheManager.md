@@ -16,8 +16,9 @@
   - [`cacheDir`](#cachedir) `String` 缓存目录的名称
   - [`cacheEnabled`](#cacheenabled) `Boolean` 是否缓存资源到用户存储空间，此属性只在小游戏平台有效
   - [`autoClear`](#autoclear) `Boolean` 是否在存储空间满了后自动清理缓存，此属性只在小游戏平台有效
-  - [`cacheInterval`](#cacheinterval) `Number` 缓存资源的间隔时间，此属性只在小游戏平台有效
-  - [`deleteInterval`](#deleteinterval) `Number` 清理资源的间隔时间，当你使用 `cleanLRU` 时，资源将以此间隔被删除
+  - [`cacheInterval`](#cacheinterval) `Number` 缓存资源的间隔时间，此属性只在小游戏平台有效，单位：ms
+  - [`deleteInterval`](#deleteinterval) `Number` 清理资源的间隔时间，当你使用 `cleanLRU` 时，资源将以此间隔被删除，单位：ms
+  - [`cachedFiles`](#cachedfiles) `Cache` 所有缓存文件列表
 
 
 
@@ -44,7 +45,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.d.ts:20](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache-manager.d.ts#L20) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:20](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L20) |
 
 
 
@@ -55,7 +56,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.d.ts:33](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache-manager.d.ts#L33) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:33](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L33) |
 
 
 
@@ -66,29 +67,40 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.d.ts:46](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache-manager.d.ts#L46) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:46](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L46) |
 
 
 
 ##### cacheInterval
 
-> 缓存资源的间隔时间，此属性只在小游戏平台有效
+> 缓存资源的间隔时间，此属性只在小游戏平台有效，单位：ms
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.d.ts:59](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache-manager.d.ts#L59) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:59](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L59) |
 
 
 
 ##### deleteInterval
 
-> 清理资源的间隔时间，当你使用 `cleanLRU` 时，资源将以此间隔被删除
+> 清理资源的间隔时间，当你使用 `cleanLRU` 时，资源将以此间隔被删除，单位：ms
 
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.d.ts:72](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache-manager.d.ts#L72) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:72](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L72) |
+
+
+
+##### cachedFiles
+
+> 所有缓存文件列表
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="../classes/Cache.html" class="crosslink">Cache</a> |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:85](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L85) |
 
 
 
@@ -106,7 +118,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.d.ts:85](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache-manager.d.ts#L85) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:99](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L99) |
 
 ###### 参数列表
 - `originUrl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -119,7 +131,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.d.ts:98](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache-manager.d.ts#L98) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:112](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L112) |
 
 ###### 参数列表
 - `originUrl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -131,7 +143,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.d.ts:111](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache-manager.d.ts#L111) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:125](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L125) |
 
 
 
@@ -141,7 +153,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.d.ts:122](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache-manager.d.ts#L122) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:136](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L136) |
 
 
 
@@ -151,7 +163,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.d.ts:133](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/cache-manager.d.ts#L133) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:147](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/cache-manager.ts#L147) |
 
 
 

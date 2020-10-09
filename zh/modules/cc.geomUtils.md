@@ -41,7 +41,7 @@ Some helpful utilities
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/geom-utils/distance.ts:47](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/distance.ts#L47) |
+| 定义于 | [cocos2d/core/geom-utils/distance.ts:47](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/distance.ts#L47) |
 
 ###### 参数列表
 - `point` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -55,7 +55,7 @@ Some helpful utilities
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| 定义于 | [cocos2d/core/geom-utils/distance.ts:61](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/distance.ts#L61) |
+| 定义于 | [cocos2d/core/geom-utils/distance.ts:61](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/distance.ts#L61) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Closest point
@@ -70,7 +70,7 @@ Some helpful utilities
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| 定义于 | [cocos2d/core/geom-utils/distance.ts:77](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/distance.ts#L77) |
+| 定义于 | [cocos2d/core/geom-utils/distance.ts:77](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/distance.ts#L77) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Closest point.
@@ -85,7 +85,7 @@ Some helpful utilities
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| 定义于 | [cocos2d/core/geom-utils/distance.ts:103](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/geom-utils/distance.ts#L103) |
+| 定义于 | [cocos2d/core/geom-utils/distance.ts:103](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/distance.ts#L103) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Closest point

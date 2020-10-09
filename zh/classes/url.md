@@ -36,7 +36,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:644](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/deprecated.js#L644) |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:641](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/deprecated.js#L641) |
 | 废弃（Deprecated） | cc.url.raw is deprecated, please use cc.resources.load directly, or use Asset.nativeUrl instead. |
 
 ###### 参数列表

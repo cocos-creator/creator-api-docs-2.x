@@ -12,11 +12,42 @@ The color key of gradient.
 
 ### Index
 
+##### Properties
+
+  - [`color`](#color) `Color` Color value.
+  - [`time`](#time) `Number` Time value.
+
 
 
 
 
 ### Details
+
+
+#### Properties
+
+
+##### color
+
+> Color value.
+
+| meta | description |
+|------|-------------|
+| Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:22](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/animator/gradient.ts#L22) |
+
+
+
+##### time
+
+> Time value.
+
+| meta | description |
+|------|-------------|
+| Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:29](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/animator/gradient.ts#L29) |
+
+
 
 
 

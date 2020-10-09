@@ -37,7 +37,7 @@ Unpack the json, revert to what it was before packing
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/pack-manager.js:54](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pack-manager.js#L54) |
+| Defined in | [cocos2d/core/asset-manager/pack-manager.js:57](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pack-manager.js#L57) |
 
 ###### Parameters
 - `pack` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> The pack
@@ -61,7 +61,7 @@ Register custom handler if you want to change default behavior or extend packMan
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/pack-manager.js:115](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pack-manager.js#L115) |
+| Defined in | [cocos2d/core/asset-manager/pack-manager.js:121](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pack-manager.js#L121) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Extension likes '.bin' or map likes {'.bin': binHandler, '.ab': abHandler}
@@ -84,7 +84,7 @@ Use corresponding handler to unpack package
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/pack-manager.js:147](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pack-manager.js#L147) |
+| Defined in | [cocos2d/core/asset-manager/pack-manager.js:153](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pack-manager.js#L153) |
 
 ###### Parameters
 - `pack` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> The uuid of packed assets
@@ -110,7 +110,7 @@ And then retrieve the corresponding content form it.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/pack-manager.js:180](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/pack-manager.js#L180) |
+| Defined in | [cocos2d/core/asset-manager/pack-manager.js:186](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pack-manager.js#L186) |
 
 ###### Parameters
 - `item` <a href="../classes/RequestItem.html" class="crosslink">RequestItem</a> Some item you want to download

@@ -1,7 +1,7 @@
 ## `Action` Class
 
 
-Defined in: [https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/actions/CCAction.js:38](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/actions/CCAction.js#L38)
+Defined in: [https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/actions/CCAction.js:38](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/actions/CCAction.js#L38)
 
 Module: [cc](../modules/cc.md)
 
@@ -43,7 +43,7 @@ Base class cc.Action for action classes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/actions/CCAction.js:172](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/actions/CCAction.js#L172) |
+| Defined in | [cocos2d/actions/CCAction.js:172](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/actions/CCAction.js#L172) |
 
 
 
@@ -62,7 +62,7 @@ returns a clone of action.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Action.html" class="crosslink">Action</a> 
-| Defined in | [cocos2d/actions/CCAction.js:54](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/actions/CCAction.js#L54) |
+| Defined in | [cocos2d/actions/CCAction.js:54](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/actions/CCAction.js#L54) |
 
 
 
@@ -73,7 +73,7 @@ return true if the action has finished.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/actions/CCAction.js:70](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/actions/CCAction.js#L70) |
+| Defined in | [cocos2d/actions/CCAction.js:70](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/actions/CCAction.js#L70) |
 
 
 
@@ -84,7 +84,7 @@ get the target.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| Defined in | [cocos2d/actions/CCAction.js:102](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/actions/CCAction.js#L102) |
+| Defined in | [cocos2d/actions/CCAction.js:102](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/actions/CCAction.js#L102) |
 
 
 
@@ -94,7 +94,7 @@ The action will modify the target properties.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/actions/CCAction.js:112](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/actions/CCAction.js#L112) |
+| Defined in | [cocos2d/actions/CCAction.js:112](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/actions/CCAction.js#L112) |
 
 ###### Parameters
 - `target` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -107,7 +107,7 @@ get the original target.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| Defined in | [cocos2d/actions/CCAction.js:122](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/actions/CCAction.js#L122) |
+| Defined in | [cocos2d/actions/CCAction.js:122](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/actions/CCAction.js#L122) |
 
 
 
@@ -118,7 +118,7 @@ get tag number.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/actions/CCAction.js:139](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/actions/CCAction.js#L139) |
+| Defined in | [cocos2d/actions/CCAction.js:139](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/actions/CCAction.js#L139) |
 
 
 
@@ -128,7 +128,7 @@ set tag number.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/actions/CCAction.js:149](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/actions/CCAction.js#L149) |
+| Defined in | [cocos2d/actions/CCAction.js:149](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/actions/CCAction.js#L149) |
 
 ###### Parameters
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

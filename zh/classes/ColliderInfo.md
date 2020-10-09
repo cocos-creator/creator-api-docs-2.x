@@ -38,7 +38,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Rect.html" class="crosslink">Rect</a> |
-| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:71](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/collider/CCCollisionManager.js#L71) |
+| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:71](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/collider/CCCollisionManager.js#L71) |
 
 
 
@@ -49,7 +49,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Rect.html" class="crosslink">Rect</a> |
-| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:78](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/collider/CCCollisionManager.js#L78) |
+| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:78](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/collider/CCCollisionManager.js#L78) |
 
 
 
@@ -60,7 +60,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> |
-| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:85](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/collider/CCCollisionManager.js#L85) |
+| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:85](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/collider/CCCollisionManager.js#L85) |
 
 
 
@@ -71,7 +71,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:92](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/collider/CCCollisionManager.js#L92) |
+| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:92](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/collider/CCCollisionManager.js#L92) |
 
 
 
@@ -82,7 +82,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:99](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/collider/CCCollisionManager.js#L99) |
+| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:99](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/collider/CCCollisionManager.js#L99) |
 
 
 
@@ -93,7 +93,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> |
-| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:106](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/collider/CCCollisionManager.js#L106) |
+| 定义于 | [cocos2d/core/collider/CCCollisionManager.js:106](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/collider/CCCollisionManager.js#L106) |
 
 
 

@@ -38,7 +38,7 @@ The velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:23](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L23) |
+| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:23](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L23) |
 
 
 
@@ -49,7 +49,7 @@ The velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | Space |
-| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:31](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L31) |
+| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:31](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L31) |
 
 
 
@@ -60,7 +60,7 @@ The velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:41](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L41) |
+| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:41](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L41) |
 
 
 
@@ -71,7 +71,7 @@ The velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:52](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L52) |
+| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:52](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L52) |
 
 
 
@@ -82,7 +82,7 @@ The velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:63](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L63) |
+| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:63](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L63) |
 
 
 
@@ -93,7 +93,7 @@ The velocity module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:74](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L74) |
+| Defined in | [cocos2d/core/3d/particle/animator/velocity-overtime.ts:74](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/animator/velocity-overtime.ts#L74) |
 
 
 

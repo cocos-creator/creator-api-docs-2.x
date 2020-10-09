@@ -1,6 +1,12 @@
 window.apimeta = {
   "enums": [
     {
+      "name": "AnimationCurve.WrapMode",
+      "namespace": "cc.AnimationCurve.WrapMode",
+      "module": "cc",
+      "description": "The wrap mode"
+    },
+    {
       "name": "AnimationEventType",
       "namespace": "sp.AnimationEventType",
       "module": "sp",
@@ -546,7 +552,7 @@ window.apimeta = {
       "name": "ArmatureDisplay",
       "namespace": "dragonBones.ArmatureDisplay",
       "module": "dragonBones",
-      "description": "The Armature Display of DragonBones <br/>\n<br/>\n(Armature Display has a reference to a DragonBonesAsset and stores the state for ArmatureDisplay instance,\nwhich consists of the current pose's bone SRT, slot colors, and which slot attachments are visible. <br/>\nMultiple Armature Display can use the same DragonBonesAsset which includes all animations, skins, and attachments.) <br/>"
+      "description": "The Armature Display of DragonBones <br/>\n<br/>\nArmature Display has a reference to a DragonBonesAsset and stores the state for ArmatureDisplay instance,\nwhich consists of the current pose's bone SRT, slot colors, and which slot attachments are visible. <br/>\nMultiple Armature Display can use the same DragonBonesAsset which includes all animations, skins, and attachments. <br/>"
     },
     {
       "name": "Asset",
@@ -636,7 +642,7 @@ window.apimeta = {
       "name": "Button",
       "namespace": "cc.Button",
       "module": "cc",
-      "description": "Button has 4 Transition types<br/>\nWhen Button state changed:<br/>\n If Transition type is Button.Transition.NONE, Button will do nothing<br/>\n If Transition type is Button.Transition.COLOR, Button will change target's color<br/>\n If Transition type is Button.Transition.SPRITE, Button will change target Sprite's sprite<br/>\n If Transition type is Button.Transition.SCALE, Button will change target node's scale<br/>\n\nButton will trigger 5 events:<br/>\n Button.EVENT_TOUCH_DOWN<br/>\n Button.EVENT_TOUCH_UP<br/>\n Button.EVENT_HOVER_IN<br/>\n Button.EVENT_HOVER_MOVE<br/>\n Button.EVENT_HOVER_OUT<br/>\n User can get the current clicked node with 'event.target' from event object which is passed as parameter in the callback function of click event."
+      "description": "Button component. Can be pressed or clicked. Button has 4 Transition types:\n\n  - Button.Transition.NONE   // Button will do nothing\n  - Button.Transition.COLOR  // Button will change target's color\n  - Button.Transition.SPRITE // Button will change target Sprite's sprite\n  - Button.Transition.SCALE // Button will change target node's scale\n\nThe button can bind events (but you must be on the button's node to bind events).<br/>\nThe following events can be triggered on all platforms.\n\n - cc.Node.EventType.TOUCH_START  // Press\n - cc.Node.EventType.TOUCH_MOVE   // After pressing and moving\n - cc.Node.EventType.TOUCH_END    // After pressing and releasing\n - cc.Node.EventType.TOUCH_CANCEL // Press to cancel\n\nThe following events are only triggered on the PC platform:\n\n  - cc.Node.EventType.MOUSE_DOWN\n  - cc.Node.EventType.MOUSE_MOVE\n  - cc.Node.EventType.MOUSE_ENTER\n  - cc.Node.EventType.MOUSE_LEAVE\n  - cc.Node.EventType.MOUSE_UP\n  - cc.Node.EventType.MOUSE_WHEEL\n\nUser can get the current clicked node with 'event.target' from event object which is passed as parameter in the callback function of click event."
     },
     {
       "name": "CCFactory",
@@ -1704,7 +1710,7 @@ window.apimeta = {
       "name": "Tween",
       "namespace": "cc.Tween",
       "module": "cc",
-      "description": "Tween provide a simple and flexible way to create action.\nTween's api is more flexible than cc.Action:\n - Support creating an action sequence in chained api,\n - Support animate any objects' any properties, not limited to node's properties.\n   By contrast, cc.Action needs to create a new action class to support new node property.\n - Support working with cc.Action,\n - Support easing and progress function."
+      "description": "Tween provide a simple and flexible way to create action. Tween's api is more flexible than `cc.Action`:\n - Support creating an action sequence in chained api.\n - Support animate any objects' any properties, not limited to node's properties. By contrast, `cc.Action` needs to create a new action class to support new node property.\n - Support working with `cc.Action`.\n - Support easing and progress function."
     },
     {
       "name": "TypeScript",
@@ -1818,7 +1824,7 @@ window.apimeta = {
       "name": "audioEngine",
       "namespace": "cc.audioEngine",
       "module": "cc",
-      "description": "cc.audioEngine is the singleton object, it provide simple audio APIs."
+      "description": "`cc.audioEngine` is the singleton object, it provide simple audio APIs."
     },
     {
       "name": "constructor",

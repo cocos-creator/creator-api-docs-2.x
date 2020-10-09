@@ -36,7 +36,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:20](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L20) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:20](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L20) |
 
 
 
@@ -47,7 +47,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:25](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L25) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:25](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L25) |
 
 
 
@@ -58,7 +58,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:30](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L30) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:30](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L30) |
 
 
 
@@ -69,7 +69,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:35](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L35) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:35](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L35) |
 
 
 
@@ -80,7 +80,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:40](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L40) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:40](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L40) |
 
 
 
@@ -91,7 +91,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:45](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L45) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:45](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L45) |
 
 
 
@@ -102,7 +102,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:50](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L50) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:50](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L50) |
 
 
 
@@ -113,7 +113,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:55](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L55) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:55](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L55) |
 
 
 
@@ -124,7 +124,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:60](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L60) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:60](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L60) |
 
 
 
@@ -135,7 +135,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:65](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L65) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:65](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L65) |
 
 
 
@@ -146,7 +146,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:70](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L70) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:70](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L70) |
 
 
 
@@ -157,7 +157,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:75](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L75) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:75](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L75) |
 
 
 
@@ -168,7 +168,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:80](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L80) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:80](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L80) |
 
 
 
@@ -179,7 +179,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:85](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L85) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:85](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L85) |
 
 
 
@@ -190,6 +190,6 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:90](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/3d/primitive/polyhedron.ts#L90) |
+| Defined in | [cocos2d/core/3d/primitive/polyhedron.ts:90](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/primitive/polyhedron.ts#L90) |
 
 

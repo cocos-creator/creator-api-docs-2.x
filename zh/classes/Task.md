@@ -49,7 +49,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/task.js:47](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L47) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:47](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L47) |
 
 
 
@@ -60,7 +60,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> |
-| 定义于 | [cocos2d/core/asset-manager/task.js:61](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L61) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:61](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L61) |
 
 
 
@@ -71,7 +71,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> |
-| 定义于 | [cocos2d/core/asset-manager/task.js:73](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L73) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:73](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L73) |
 
 
 
@@ -82,7 +82,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> |
-| 定义于 | [cocos2d/core/asset-manager/task.js:85](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L85) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:85](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L85) |
 
 
 
@@ -93,7 +93,7 @@
 | meta | description |
 |------|-------------|
 | 类型 |  |
-| 定义于 | [cocos2d/core/asset-manager/task.js:97](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L97) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:97](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L97) |
 
 
 
@@ -104,7 +104,7 @@
 | meta | description |
 |------|-------------|
 | 类型 |  |
-| 定义于 | [cocos2d/core/asset-manager/task.js:109](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L109) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:109](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L109) |
 
 
 
@@ -115,7 +115,7 @@
 | meta | description |
 |------|-------------|
 | 类型 |  |
-| 定义于 | [cocos2d/core/asset-manager/task.js:121](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L121) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:121](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L121) |
 
 
 
@@ -126,7 +126,7 @@
 | meta | description |
 |------|-------------|
 | 类型 |  |
-| 定义于 | [cocos2d/core/asset-manager/task.js:133](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L133) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:133](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L133) |
 
 
 
@@ -137,7 +137,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/asset-manager/task.js:145](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L145) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:145](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L145) |
 
 
 
@@ -148,7 +148,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/asset-manager/task.js:282](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L282) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:282](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L282) |
 
 
 
@@ -165,7 +165,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/task.js:161](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L161) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:161](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L161) |
 
 ###### 参数列表
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Some optional paramters
@@ -183,7 +183,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/task.js:182](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L182) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:182](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L182) |
 
 ###### 参数列表
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Some optional paramters
@@ -207,7 +207,7 @@ task.set({input: ['test'], onComplete: (err, result) => console.log(err), onProg
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/task.js:217](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L217) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:217](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L217) |
 
 ###### 参数列表
 - `event` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The event name
@@ -230,7 +230,7 @@ Task.dispatch('complete', 'hello world');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/task.js:259](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L259) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:259](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L259) |
 
 
 
@@ -241,7 +241,7 @@ Task.dispatch('complete', 'hello world');
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Task.html" class="crosslink">Task</a> 
-| 定义于 | [cocos2d/core/asset-manager/task.js:297](https://github.com/cocos-creator/engine/blob/efe6330ab64803299d3b7fecde039ffed2d9e696/cocos2d/core/asset-manager/task.js#L297) |
+| 定义于 | [cocos2d/core/asset-manager/task.js:297](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/task.js#L297) |
 
 ###### 参数列表
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Some optional paramters
