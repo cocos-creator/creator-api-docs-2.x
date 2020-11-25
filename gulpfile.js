@@ -8,6 +8,7 @@ const gulp = require('gulp');
 const es = require('event-stream');
 const program = require('commander');
 const Fs = require('fs');
+const globby = require('globby');
 
 program
     .option('-o, --only <items>', 'Only build these files, specrated by ","', x => x.split(','))
@@ -124,33 +125,34 @@ gulp.task('build-md', ['cp-apisrc'], function (cb) {
 gulp.task('build-tsd', ['cp-apisrc'], function (cb) {
 
     const TSD_FOOTER =
-`declare let jsb: any;
+`
 /** Running in the editor. */
-declare let CC_EDITOR: boolean;
+declare const CC_EDITOR: boolean;
 /** Preview in browser or simulator. */
-declare let CC_PREVIEW: boolean;
+declare const CC_PREVIEW: boolean;
 /** Running in the editor or preview. */
-declare let CC_DEV: boolean;
+declare const CC_DEV: boolean;
 /** Running in the editor or preview, or build in debug mode. */
-declare let CC_DEBUG: boolean;
+declare const CC_DEBUG: boolean;
 /** Running in published project. */
-declare let CC_BUILD: boolean;
-/** Running in native platform (mobile app, desktop app, or simulator). */
-declare let CC_JSB: boolean;
+declare const CC_BUILD: boolean;
+/** Running in native platforms (mobile app, desktop app, or simulator). */
+declare const CC_JSB: boolean;
+/** Running in runtime environments. */
+declare const CC_RUNTIME: boolean;
 /** Running in the engine's unit test. */
-declare let CC_TEST: boolean;
-/** Running in the Wechat's mini game. */
-declare let CC_WECHATGAME: boolean;
-/** Running in the bricks. */
-declare let CC_QQPLAY: boolean;
+declare const CC_TEST: boolean;
+/** Running in the WeChat Mini Game. */
+declare const CC_WECHATGAME: boolean;
 `;
 
     program
         .option('--engine <path to engine>')
+        .option('--jsbAdapter <path to jsb-adapter>')
         .option('--dest <tsd path>')
         .parse(process.argv);
 
-    let { engine, dest } = program;
+    let { engine, jsbAdapter, dest } = program;
 
     let tsdGen = require('./lib/tsd-generator');
     let cwd = process.cwd();
@@ -161,8 +163,16 @@ declare let CC_QQPLAY: boolean;
             console.log(err.stack || err);
         }
         else {
-            // add dragonBones.d.ts
-            output += fs.readFileSync(join(engine, 'extensions/dragonbones/lib/dragonBones.d.ts')) + '\n';
+            // search docs from engine and jsb adapter directory
+            let tsDefines = globby.sync([
+                join(engine, '**/*.d.ts'), 
+                join(jsbAdapter, '**/*.d.ts'),
+                '!' + join(engine, 'node_modules/**/*.d.ts'),
+                '!' + join(jsbAdapter, 'node_modules/**/*.d.ts')
+            ]);
+            tsDefines.forEach(d => {
+                output += fs.readFileSync(d) + '\n';
+            })
             output += TSD_FOOTER;
 
             fs.ensureDirSync(dirname(dest));
