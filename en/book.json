@@ -38,7 +38,7 @@
                 "links": [
                     {
                         "name": "3.0 Preview",
-                        "link": "http://docs.cocos.com/creator/3.0/api/en"
+                        "link": "//docs.cocos.com/creator/3.0/api/en"
                     },
                     {
                         "name": "2.4",

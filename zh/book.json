@@ -52,7 +52,7 @@
                 "links": [
                     {
                         "name": "3.0 Preview",
-                        "link": "http://docs.cocos.com/creator/3.0/api/zh"
+                        "link": "//docs.cocos.com/creator/3.0/api/zh"
                     },
                     {
                         "name": "2.4",
