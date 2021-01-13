@@ -72,7 +72,7 @@ gulp.task('cp-apisrc', function () {
         .pipe(gulp.dest('lib/temp-src/engine'));
 });
 
-gulp.task('build-md', ['cp-apisrc'], function (cb) {
+gulp.task('build-md', gulp.series('cp-apisrc'), function (cb) {
 
     // del old files
 
@@ -122,7 +122,7 @@ gulp.task('build-md', ['cp-apisrc'], function (cb) {
     });
 });
 
-gulp.task('build-tsd', ['cp-apisrc'], function (cb) {
+gulp.task('build-tsd', gulp.series('cp-apisrc'), function (cb) {
 
     const TSD_FOOTER =
 `
@@ -188,7 +188,11 @@ const allPagesPattern = ['zh/**/*.md', 'en/**/*.md', '!zh/*.md', '!en/*.md'];
 const START_TAG_IGNORE = '\n\nCC_IGNORE_START';
 const END_TAG_IGNORE = '\nCC_IGNORE_END';
 
-gulp.task('preview', ['restore-ignore'], function (done) {
+gulp.task('restore-ignore', function () {
+    restoreIgnore('.bookignore');
+});
+
+gulp.task('preview', gulp.series('restore-ignore'), function (done) {
     var includeFiles = program.only;
     if (includeFiles) {
         quickPreview(includeFiles, (error) => {
@@ -228,10 +232,6 @@ function quickPreview (includeFiles, done) {
         Fs.writeFile('.bookignore', fileContent, 'utf8', done);
     });
 }
-
-gulp.task('restore-ignore', function () {
-    restoreIgnore('.bookignore');
-});
 
 function restoreIgnore (path) {
     var re = new RegExp(START_TAG_IGNORE + '(?:\\n|.)*' + END_TAG_IGNORE);
