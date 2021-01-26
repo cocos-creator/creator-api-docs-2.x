@@ -44,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:137](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L137) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:137](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L137) |
 
 
 
@@ -55,7 +55,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | TrailMode |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:161](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L161) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:161](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L161) |
 
 
 
@@ -66,7 +66,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:171](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L171) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:171](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L171) |
 
 
 
@@ -77,7 +77,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:184](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L184) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:184](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L184) |
 
 
 
@@ -88,7 +88,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Space |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:202](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L202) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:202](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L202) |
 
 
 
@@ -99,7 +99,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:221](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L221) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:221](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L221) |
 
 
 
@@ -110,7 +110,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | TextureMode |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:229](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L229) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:229](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L229) |
 
 
 
@@ -121,7 +121,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:239](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L239) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:239](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L239) |
 
 
 
@@ -132,7 +132,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:248](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L248) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:248](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L248) |
 
 
 
@@ -143,7 +143,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:258](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L258) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:258](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L258) |
 
 
 
@@ -154,7 +154,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/GradientRange.html" class="crosslink">GradientRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:266](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L266) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:266](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L266) |
 
 
 
@@ -165,7 +165,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/GradientRange.html" class="crosslink">GradientRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:276](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/renderer/trail.ts#L276) |
+| 定义于 | [cocos2d/core/3d/particle/renderer/trail.ts:276](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/renderer/trail.ts#L276) |
 
 
 

@@ -43,7 +43,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/pipeline.js:50](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pipeline.js#L50) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:50](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/pipeline.js#L50) |
 
 
 
@@ -54,7 +54,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/asset-manager/pipeline.js:62](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pipeline.js#L62) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:62](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/pipeline.js#L62) |
 
 
 
@@ -65,7 +65,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function[]</a> |
-| 定义于 | [cocos2d/core/asset-manager/pipeline.js:74](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pipeline.js#L74) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:74](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/pipeline.js#L74) |
 
 
 
@@ -82,7 +82,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/pipeline.js:97](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pipeline.js#L97) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:97](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/pipeline.js#L97) |
 
 ###### 参数列表
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The name of pipeline
@@ -115,7 +115,7 @@ var pipeline = new Pipeline('download', [
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
-| 定义于 | [cocos2d/core/asset-manager/pipeline.js:130](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pipeline.js#L130) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:130](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/pipeline.js#L130) |
 
 ###### 参数列表
 - `func` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The new pipe
@@ -140,7 +140,7 @@ pipeline.insert((task, done) => {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
-| 定义于 | [cocos2d/core/asset-manager/pipeline.js:165](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pipeline.js#L165) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:165](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/pipeline.js#L165) |
 
 ###### 参数列表
 - `func` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The new pipe
@@ -164,7 +164,7 @@ pipeline.append((task, done) => {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> 
-| 定义于 | [cocos2d/core/asset-manager/pipeline.js:197](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pipeline.js#L197) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:197](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/pipeline.js#L197) |
 
 ###### 参数列表
 - `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The specific point
@@ -186,7 +186,7 @@ pipeline.remove(0);
 | meta | description |
 |------|-------------|
 | 返回 | Any 
-| 定义于 | [cocos2d/core/asset-manager/pipeline.js:227](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pipeline.js#L227) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:227](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/pipeline.js#L227) |
 
 ###### 参数列表
 - `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task will be executed
@@ -209,7 +209,7 @@ console.log(pipeline.sync(task));
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/pipeline.js:275](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/pipeline.js#L275) |
+| 定义于 | [cocos2d/core/asset-manager/pipeline.js:275](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/pipeline.js#L275) |
 
 ###### 参数列表
 - `task` <a href="../classes/Task.html" class="crosslink">Task</a> The task will be executed

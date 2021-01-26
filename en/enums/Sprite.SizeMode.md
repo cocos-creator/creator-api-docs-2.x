@@ -3,7 +3,6 @@
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Sprite Size can track trimmed size, raw size or none.
@@ -24,7 +23,7 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:106](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/components/CCSprite.js#L106) |
+| Defined in | [cocos2d/core/components/CCSprite.js:106](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/components/CCSprite.js#L106) |
 
 
 
@@ -35,7 +34,7 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:112](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/components/CCSprite.js#L112) |
+| Defined in | [cocos2d/core/components/CCSprite.js:112](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/components/CCSprite.js#L112) |
 
 
 
@@ -46,6 +45,6 @@ Sprite Size can track trimmed size, raw size or none.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSprite.js:118](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/components/CCSprite.js#L118) |
+| Defined in | [cocos2d/core/components/CCSprite.js:118](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/components/CCSprite.js#L118) |
 
 

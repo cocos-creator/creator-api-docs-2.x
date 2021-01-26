@@ -35,7 +35,7 @@ Register custom handler if you want to change default behavior or extend parser 
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/parser.js:336](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/parser.js#L336) |
+| Defined in | [cocos2d/core/asset-manager/parser.js:336](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/parser.js#L336) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Extension likes '.jpg' or map likes {'.jpg': jpgHandler, '.png': pngHandler}
@@ -57,7 +57,7 @@ Use corresponding handler to parse file
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/parser.js:367](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/parser.js#L367) |
+| Defined in | [cocos2d/core/asset-manager/parser.js:367](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/parser.js#L367) |
 
 ###### Parameters
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The id of file

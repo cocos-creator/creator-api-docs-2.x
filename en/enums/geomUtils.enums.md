@@ -29,7 +29,7 @@ Shape type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/geom-utils/enums.ts:34](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/enums.ts#L34) |
+| Defined in | [cocos2d/core/geom-utils/enums.ts:34](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/enums.ts#L34) |
 
 
 
@@ -40,7 +40,7 @@ Shape type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/geom-utils/enums.ts:41](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/enums.ts#L41) |
+| Defined in | [cocos2d/core/geom-utils/enums.ts:41](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/enums.ts#L41) |
 
 
 
@@ -51,7 +51,7 @@ Shape type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/geom-utils/enums.ts:48](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/enums.ts#L48) |
+| Defined in | [cocos2d/core/geom-utils/enums.ts:48](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/enums.ts#L48) |
 
 
 
@@ -62,7 +62,7 @@ Shape type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/geom-utils/enums.ts:55](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/enums.ts#L55) |
+| Defined in | [cocos2d/core/geom-utils/enums.ts:55](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/enums.ts#L55) |
 
 
 
@@ -73,7 +73,7 @@ Shape type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/geom-utils/enums.ts:61](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/enums.ts#L61) |
+| Defined in | [cocos2d/core/geom-utils/enums.ts:61](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/enums.ts#L61) |
 
 
 
@@ -84,7 +84,7 @@ Shape type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/geom-utils/enums.ts:67](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/enums.ts#L67) |
+| Defined in | [cocos2d/core/geom-utils/enums.ts:67](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/enums.ts#L67) |
 
 
 
@@ -95,7 +95,7 @@ Shape type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/geom-utils/enums.ts:73](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/enums.ts#L73) |
+| Defined in | [cocos2d/core/geom-utils/enums.ts:73](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/enums.ts#L73) |
 
 
 
@@ -106,7 +106,7 @@ Shape type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/geom-utils/enums.ts:79](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/enums.ts#L79) |
+| Defined in | [cocos2d/core/geom-utils/enums.ts:79](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/enums.ts#L79) |
 
 
 
@@ -117,6 +117,6 @@ Shape type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/geom-utils/enums.ts:85](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/enums.ts#L85) |
+| Defined in | [cocos2d/core/geom-utils/enums.ts:85](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/enums.ts#L85) |
 
 

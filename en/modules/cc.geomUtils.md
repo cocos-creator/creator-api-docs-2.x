@@ -41,7 +41,7 @@ the distance between a point and a plane
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/geom-utils/distance.ts:47](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/distance.ts#L47) |
+| Defined in | [cocos2d/core/geom-utils/distance.ts:47](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/distance.ts#L47) |
 
 ###### Parameters
 - `point` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -55,7 +55,7 @@ the closest point on plane to a given point
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/geom-utils/distance.ts:61](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/distance.ts#L61) |
+| Defined in | [cocos2d/core/geom-utils/distance.ts:61](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/distance.ts#L61) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Closest point
@@ -70,7 +70,7 @@ the closest point on aabb to a given point
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/geom-utils/distance.ts:77](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/distance.ts#L77) |
+| Defined in | [cocos2d/core/geom-utils/distance.ts:77](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/distance.ts#L77) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Closest point.
@@ -85,7 +85,7 @@ the closest point on obb to a given point
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| Defined in | [cocos2d/core/geom-utils/distance.ts:103](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/distance.ts#L103) |
+| Defined in | [cocos2d/core/geom-utils/distance.ts:103](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/distance.ts#L103) |
 
 ###### Parameters
 - `out` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> Closest point

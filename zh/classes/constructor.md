@@ -36,7 +36,7 @@ whether enable accelerometer event
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputExtension.js:57](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/platform/CCInputExtension.js#L57) |
+| 定义于 | [cocos2d/core/platform/CCInputExtension.js:57](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/platform/CCInputExtension.js#L57) |
 
 ###### 参数列表
 - `isEnable` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -48,7 +48,7 @@ set accelerometer interval value
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCInputExtension.js:85](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/platform/CCInputExtension.js#L85) |
+| 定义于 | [cocos2d/core/platform/CCInputExtension.js:85](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/platform/CCInputExtension.js#L85) |
 
 ###### 参数列表
 - `interval` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 

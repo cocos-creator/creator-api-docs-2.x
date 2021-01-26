@@ -38,7 +38,7 @@ This range of data is essentially mapped to a GPU vertex buffer.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/BufferRange.html" class="crosslink">BufferRange</a> |
-| Defined in | [cocos2d/core/mesh/mesh-data.js:74](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/mesh/mesh-data.js#L74) |
+| Defined in | [cocos2d/core/mesh/mesh-data.js:74](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/mesh/mesh-data.js#L74) |
 
 
 
@@ -49,7 +49,7 @@ This range of data is essentially mapped to a GPU vertex buffer.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/VertexFormat.html" class="crosslink">VertexFormat</a> |
-| Defined in | [cocos2d/core/mesh/mesh-data.js:83](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/mesh/mesh-data.js#L83) |
+| Defined in | [cocos2d/core/mesh/mesh-data.js:83](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/mesh/mesh-data.js#L83) |
 
 
 
@@ -60,7 +60,7 @@ This range of data is essentially mapped to a GPU vertex buffer.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">[Number]</a> |
-| Defined in | [cocos2d/core/mesh/mesh-data.js:105](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/mesh/mesh-data.js#L105) |
+| Defined in | [cocos2d/core/mesh/mesh-data.js:105](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/mesh/mesh-data.js#L105) |
 
 
 
@@ -72,7 +72,7 @@ This range of data is essentially mapped to a GPU indices buffer.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/BufferRange.html" class="crosslink">BufferRange</a> |
-| Defined in | [cocos2d/core/mesh/mesh-data.js:113](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/mesh/mesh-data.js#L113) |
+| Defined in | [cocos2d/core/mesh/mesh-data.js:113](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/mesh/mesh-data.js#L113) |
 
 
 
@@ -83,7 +83,7 @@ This range of data is essentially mapped to a GPU indices buffer.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/mesh/mesh-data.js:122](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/mesh/mesh-data.js#L122) |
+| Defined in | [cocos2d/core/mesh/mesh-data.js:122](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/mesh/mesh-data.js#L122) |
 
 
 
@@ -94,7 +94,7 @@ This range of data is essentially mapped to a GPU indices buffer.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/mesh/mesh-data.js:127](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/mesh/mesh-data.js#L127) |
+| Defined in | [cocos2d/core/mesh/mesh-data.js:127](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/mesh/mesh-data.js#L127) |
 
 
 

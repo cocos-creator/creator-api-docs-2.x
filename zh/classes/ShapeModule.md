@@ -50,7 +50,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:23](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L23) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:23](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L23) |
 
 
 
@@ -61,7 +61,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | ShapeType |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:34](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L34) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:34](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L34) |
 
 
 
@@ -72,7 +72,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | EmitLocation |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:68](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L68) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:68](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L68) |
 
 
 
@@ -83,7 +83,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:78](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L78) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:78](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L78) |
 
 
 
@@ -97,7 +97,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:86](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L86) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:86](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L86) |
 
 
 
@@ -109,7 +109,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:103](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L103) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:103](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L103) |
 
 
 
@@ -120,7 +120,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:122](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L122) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:122](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L122) |
 
 
 
@@ -131,7 +131,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | ArcMode |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:136](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L136) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:136](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L136) |
 
 
 
@@ -142,7 +142,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:146](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L146) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:146](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L146) |
 
 
 
@@ -153,7 +153,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:154](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L154) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:154](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L154) |
 
 
 
@@ -165,7 +165,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:164](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L164) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:164](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L164) |
 
 
 
@@ -176,7 +176,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:174](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L174) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:174](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L174) |
 
 
 
@@ -187,7 +187,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:185](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L185) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:185](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L185) |
 
 
 
@@ -198,7 +198,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:202](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L202) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:202](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L202) |
 
 
 
@@ -209,7 +209,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:219](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L219) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:219](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L219) |
 
 
 
@@ -220,7 +220,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:233](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L233) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:233](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L233) |
 
 
 
@@ -231,7 +231,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:241](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L241) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:241](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L241) |
 
 
 
@@ -242,7 +242,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:249](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/emitter/shape-module.ts#L249) |
+| 定义于 | [cocos2d/core/3d/particle/emitter/shape-module.ts:249](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/emitter/shape-module.ts#L249) |
 
 
 

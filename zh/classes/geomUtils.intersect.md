@@ -60,7 +60,7 @@
 | meta | description |
 |------|-------------|
 | 返回 |  
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:88](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L88) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:88](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L88) |
 
 ###### 参数列表
 - `root` <a href="../classes/Node.html" class="crosslink">Node</a> If root is null, then traversal nodes from scene node
@@ -76,7 +76,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:201](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L201) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:201](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L201) |
 
 ###### 参数列表
 - `ray` <a href="../classes/geomUtils.Ray.html" class="crosslink">geomUtils.Ray</a> 
@@ -90,7 +90,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:223](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L223) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:223](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L223) |
 
 ###### 参数列表
 - `line` <a href="../classes/geomUtils.Line.html" class="crosslink">geomUtils.Line</a> 
@@ -104,7 +104,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:244](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L244) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:244](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L244) |
 
 ###### 参数列表
 - `ray` <a href="../classes/geomUtils.Ray.html" class="crosslink">geomUtils.Ray</a> 
@@ -119,7 +119,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:287](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L287) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:287](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L287) |
 
 ###### 参数列表
 - `line` <a href="../classes/geomUtils.Line.html" class="crosslink">geomUtils.Line</a> 
@@ -134,7 +134,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:352](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L352) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:352](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L352) |
 
 ###### 参数列表
 - `p` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> A point on a line segment
@@ -153,7 +153,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:445](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L445) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:445](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L445) |
 
 ###### 参数列表
 - `ray` <a href="../classes/geomUtils.Ray.html" class="crosslink">geomUtils.Ray</a> 
@@ -167,7 +167,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:476](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L476) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:476](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L476) |
 
 ###### 参数列表
 - `ray` <a href="../classes/geomUtils.Ray.html" class="crosslink">geomUtils.Ray</a> 
@@ -181,7 +181,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:509](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L509) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:509](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L509) |
 
 ###### 参数列表
 - `ray` <a href="../classes/geomUtils.Ray.html" class="crosslink">geomUtils.Ray</a> 
@@ -195,7 +195,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:589](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L589) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:589](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L589) |
 
 ###### 参数列表
 - `aabb1` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> Axis alignment surrounds box 1
@@ -209,7 +209,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:678](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L678) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:678](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L678) |
 
 ###### 参数列表
 - `aabb` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> Align the axis around the box
@@ -223,7 +223,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:733](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L733) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:733](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L733) |
 
 ###### 参数列表
 - `aabb` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> Align the axis around the box
@@ -237,7 +237,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:752](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L752) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:752](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L752) |
 
 ###### 参数列表
 - `aabb` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> Align the axis around the box
@@ -251,7 +251,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:772](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L772) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:772](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L772) |
 
 ###### 参数列表
 - `aabb` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> Align the axis around the box
@@ -265,7 +265,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:824](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L824) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:824](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L824) |
 
 ###### 参数列表
 - `obb` <a href="../classes/geomUtils.Obb.html" class="crosslink">geomUtils.Obb</a> Direction box
@@ -279,7 +279,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:843](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L843) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:843](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L843) |
 
 ###### 参数列表
 - `obb` <a href="../classes/geomUtils.Obb.html" class="crosslink">geomUtils.Obb</a> Direction box
@@ -293,7 +293,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:870](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L870) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:870](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L870) |
 
 ###### 参数列表
 - `obb` <a href="../classes/geomUtils.Obb.html" class="crosslink">geomUtils.Obb</a> Direction box
@@ -307,7 +307,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:890](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L890) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:890](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L890) |
 
 ###### 参数列表
 - `obb` <a href="../classes/geomUtils.Obb.html" class="crosslink">geomUtils.Obb</a> Direction box
@@ -321,7 +321,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:949](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L949) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:949](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L949) |
 
 ###### 参数列表
 - `obb1` <a href="../classes/geomUtils.Obb.html" class="crosslink">geomUtils.Obb</a> Direction box1
@@ -335,7 +335,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1004](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L1004) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1004](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L1004) |
 
 ###### 参数列表
 - `sphere` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -349,7 +349,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1023](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L1023) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1023](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L1023) |
 
 ###### 参数列表
 - `sphere` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -363,7 +363,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1043](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L1043) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1043](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L1043) |
 
 ###### 参数列表
 - `sphere` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -377,7 +377,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1076](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L1076) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1076](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L1076) |
 
 ###### 参数列表
 - `sphere0` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -391,7 +391,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1090](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L1090) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1090](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L1090) |
 
 ###### 参数列表
 - `sphere` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -405,7 +405,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1107](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L1107) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1107](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L1107) |
 
 ###### 参数列表
 - `sphere` <a href="../classes/geomUtils.Sphere.html" class="crosslink">geomUtils.Sphere</a> 
@@ -418,7 +418,7 @@ g1 和 g2 的相交性检测，可填入基础几何中的形状。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1159](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/geom-utils/intersect.ts#L1159) |
+| 定义于 | [cocos2d/core/geom-utils/intersect.ts:1159](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/geom-utils/intersect.ts#L1159) |
 
 ###### 参数列表
 - `g1` Unknown Geometry 1

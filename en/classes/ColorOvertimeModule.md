@@ -33,7 +33,7 @@ The color over time module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/color-overtime.ts:18](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/particle/animator/color-overtime.ts#L18) |
+| Defined in | [cocos2d/core/3d/particle/animator/color-overtime.ts:18](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/animator/color-overtime.ts#L18) |
 
 
 

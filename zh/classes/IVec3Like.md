@@ -35,7 +35,7 @@ Class has x y z properties
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:34](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/physics/spec/i-common.ts#L34) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:34](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/physics/spec/i-common.ts#L34) |
 
 
 
@@ -46,7 +46,7 @@ Class has x y z properties
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:38](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/physics/spec/i-common.ts#L38) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:38](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/physics/spec/i-common.ts#L38) |
 
 
 
@@ -57,7 +57,7 @@ Class has x y z properties
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:42](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/physics/spec/i-common.ts#L42) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:42](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/physics/spec/i-common.ts#L42) |
 
 
 

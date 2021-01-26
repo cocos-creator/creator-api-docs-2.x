@@ -47,7 +47,7 @@ Control all download process, it is a singleton. All member can be accessed with
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/downloader.js:212](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L212) |
+| Defined in | [cocos2d/core/asset-manager/downloader.js:214](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/downloader.js#L214) |
 
 
 
@@ -58,7 +58,7 @@ Control all download process, it is a singleton. All member can be accessed with
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/asset-manager/downloader.js:227](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L227) |
+| Defined in | [cocos2d/core/asset-manager/downloader.js:229](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/downloader.js#L229) |
 
 
 
@@ -69,7 +69,7 @@ Control all download process, it is a singleton. All member can be accessed with
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/asset-manager/downloader.js:240](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L240) |
+| Defined in | [cocos2d/core/asset-manager/downloader.js:242](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/downloader.js#L242) |
 
 
 
@@ -80,7 +80,7 @@ Control all download process, it is a singleton. All member can be accessed with
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/asset-manager/downloader.js:253](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L253) |
+| Defined in | [cocos2d/core/asset-manager/downloader.js:255](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/downloader.js#L255) |
 
 
 
@@ -91,7 +91,7 @@ Control all download process, it is a singleton. All member can be accessed with
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/asset-manager/downloader.js:269](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L269) |
+| Defined in | [cocos2d/core/asset-manager/downloader.js:271](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/downloader.js#L271) |
 
 
 
@@ -108,7 +108,7 @@ Control all download process, it is a singleton. All member can be accessed with
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:571](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/deprecated.js#L571) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:585](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L585) |
 | Deprecated | cc.loader.downloader.loadSubpackage is deprecated, please use AssetManager.loadBundle instead |
 
 ###### Parameters
@@ -123,7 +123,7 @@ Register custom handler if you want to change default behavior or extend downloa
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/downloader.js:395](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L395) |
+| Defined in | [cocos2d/core/asset-manager/downloader.js:397](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/downloader.js#L397) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Extension likes '.jpg' or map likes {'.jpg': jpgHandler, '.png': pngHandler}
@@ -145,7 +145,7 @@ Use corresponding handler to download file under limitation
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/downloader.js:426](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/asset-manager/downloader.js#L426) |
+| Defined in | [cocos2d/core/asset-manager/downloader.js:428](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/downloader.js#L428) |
 
 ###### Parameters
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The url should be downloaded

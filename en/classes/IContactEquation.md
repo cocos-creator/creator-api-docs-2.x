@@ -35,7 +35,7 @@ Collision information for collision events.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:94](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/physics/framework/physics-interface.ts#L94) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:94](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/physics/framework/physics-interface.ts#L94) |
 
 
 
@@ -46,7 +46,7 @@ Collision information for collision events.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:104](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/physics/framework/physics-interface.ts#L104) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:104](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/physics/framework/physics-interface.ts#L104) |
 
 
 
@@ -57,7 +57,7 @@ Collision information for collision events.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:114](https://github.com/cocos-creator/engine/blob/26031bddd1aecdbf9bbdebe19ecaa672b1c35061/cocos2d/core/3d/physics/framework/physics-interface.ts#L114) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-interface.ts:114](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/physics/framework/physics-interface.ts#L114) |
 
 
 
