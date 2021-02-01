@@ -59,7 +59,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:86](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L86) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:86](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L86) |
 | Deprecated | cc.loader.onProgress is deprecated, please transfer onProgress to API as a parameter |
 
 
@@ -71,7 +71,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:355](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L355) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:355](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L355) |
 | Deprecated | cc.loader.assetLoader was removed, assetLoader and md5Pipe were merged into cc.assetManager.transformPipeline |
 
 
@@ -83,7 +83,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:368](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L368) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:368](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L368) |
 | Deprecated | cc.loader.md5Pipe is deprecated, assetLoader and md5Pipe were merged into cc.assetManager.transformPipeline |
 
 
@@ -95,7 +95,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:379](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L379) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:379](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L379) |
 | Deprecated | cc.loader.downloader is deprecated, please use cc.assetManager.downloader instead |
 
 
@@ -107,7 +107,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:390](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L390) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:390](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L390) |
 | Deprecated | cc.loader.loader is deprecated, please use cc.assetManager.parser instead |
 
 
@@ -125,7 +125,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:98](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L98) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:98](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L98) |
 | Deprecated | cc.loader.load is deprecated, please use cc.assetManager.loadAny instead |
 
 ###### Parameters
@@ -144,7 +144,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Returns | XMLHttpRequest 
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:187](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L187) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:187](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L187) |
 | Deprecated | cc.loader.getXMLHttpRequest is deprecated, please use XMLHttpRequest directly |
 
 
@@ -156,7 +156,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:200](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L200) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:200](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L200) |
 | Deprecated | cc.loader.getItem is deprecated, please use cc.assetManager.assets.get instead |
 
 ###### Parameters
@@ -169,7 +169,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:212](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L212) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:212](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L212) |
 | Deprecated | cc.loader.loadRes is deprecated, please use cc.resources.load  instead |
 
 ###### Parameters
@@ -191,7 +191,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:246](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L246) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:246](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L246) |
 | Deprecated | cc.loader.loadResArray is deprecated, please use cc.resources.load instead |
 
 ###### Parameters
@@ -215,7 +215,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:284](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L284) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:284](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L284) |
 | Deprecated | cc.loader.loadResDir is deprecated, please use cc.resources.loadDir instead |
 
 ###### Parameters
@@ -241,7 +241,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Returns | Any 
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:325](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L325) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:325](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L325) |
 | Deprecated | cc.loader.getRes is deprecated, please use cc.resources.get instead |
 
 ###### Parameters
@@ -256,7 +256,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> 
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:342](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L342) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:342](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L342) |
 | Deprecated | cc.loader.getDependsRecursively is deprecated, please use use cc.assetManager.dependUtil.getDepsRecursively instead |
 
 ###### Parameters
@@ -269,7 +269,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:401](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L401) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:401](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L401) |
 | Deprecated | cc.loader.addDownloadHandlers is deprecated, please use cc.assetManager.downloader.register instead |
 
 ###### Parameters
@@ -282,7 +282,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:422](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L422) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:422](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L422) |
 | Deprecated | cc.loader.addLoadHandlers is deprecated, please use cc.assetManager.parser.register instead |
 
 ###### Parameters
@@ -295,7 +295,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:449](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L449) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:449](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L449) |
 | Deprecated | cc.loader.release is deprecated, please use cc.assetManager.releaseAsset instead |
 
 ###### Parameters
@@ -308,7 +308,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:478](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L478) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:478](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L478) |
 | Deprecated | cc.loader.releaseAsset is deprecated, please use cc.assetManager.releaseAsset instead |
 
 ###### Parameters
@@ -321,7 +321,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:489](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L489) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:489](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L489) |
 | Deprecated | cc.loader.releaseRes is deprecated, please use cc.assetManager.releaseRes instead |
 
 ###### Parameters
@@ -335,7 +335,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:501](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L501) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:501](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L501) |
 | Deprecated | cc.loader.releaseResDir was removed, please use cc.assetManager.releaseRes instead |
 
 
@@ -346,7 +346,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:513](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L513) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:513](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L513) |
 | Deprecated | cc.loader.releaseAll is deprecated, please use cc.assetManager.releaseAll instead |
 
 
@@ -358,7 +358,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:524](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L524) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:524](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L524) |
 | Deprecated | cc.loader.removeItem is deprecated, please use cc.assetManager.assets.remove instead |
 
 ###### Parameters
@@ -371,7 +371,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:536](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L536) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:536](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L536) |
 | Deprecated | cc.loader.setAutoRelease is deprecated, if you want to prevent some asset from auto releasing, please use cc.Asset.addRef instead |
 
 ###### Parameters
@@ -385,7 +385,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:549](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L549) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:549](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L549) |
 | Deprecated | cc.loader.setAutoReleaseRecursively is deprecated, if you want to prevent some asset from auto releasing, please use cc.Asset.addRef instead |
 
 ###### Parameters
@@ -400,7 +400,7 @@ deprecated: cc.loader is deprecated, please backup your project and upgrade to c
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:568](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L568) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:568](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L568) |
 | Deprecated | cc.loader.isAutoRelease is deprecated |
 
 ###### Parameters

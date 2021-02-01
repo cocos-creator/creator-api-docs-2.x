@@ -36,7 +36,7 @@ deprecated: cc.url is deprecated
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/asset-manager/deprecated.js:655](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/deprecated.js#L655) |
+| Defined in | [cocos2d/core/asset-manager/deprecated.js:655](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L655) |
 | Deprecated | cc.url.raw is deprecated, please use cc.resources.load directly, or use Asset.nativeUrl instead. |
 
 ###### Parameters

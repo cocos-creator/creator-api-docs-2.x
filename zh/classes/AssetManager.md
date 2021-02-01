@@ -64,7 +64,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:71](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L71) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:71](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L71) |
 
 
 
@@ -75,7 +75,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:83](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L83) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:83](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L83) |
 
 
 
@@ -86,7 +86,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Pipeline.html" class="crosslink">Pipeline</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:95](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L95) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:95](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L95) |
 
 
 
@@ -97,7 +97,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Cache.html" class="crosslink">Cache</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:108](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L108) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:108](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L108) |
 
 
 
@@ -108,7 +108,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Cache.html" class="crosslink">Cache</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:122](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L122) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:122](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L122) |
 
 
 
@@ -119,7 +119,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/DependUtil.html" class="crosslink">DependUtil</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:144](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L144) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:144](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L144) |
 
 
 
@@ -130,7 +130,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:158](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L158) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:158](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L158) |
 
 
 
@@ -141,7 +141,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:170](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L170) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:170](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L170) |
 
 
 
@@ -152,7 +152,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Helper.html" class="crosslink">Helper</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:182](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L182) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:182](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L182) |
 
 
 
@@ -163,7 +163,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Downloader.html" class="crosslink">Downloader</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:194](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L194) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:194](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L194) |
 
 
 
@@ -174,7 +174,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Parser.html" class="crosslink">Parser</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:206](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L206) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:206](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L206) |
 
 
 
@@ -185,7 +185,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Builtins.html" class="crosslink">Builtins</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:218](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L218) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:218](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L218) |
 
 
 
@@ -196,7 +196,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/PackManager.html" class="crosslink">PackManager</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:230](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L230) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:230](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L230) |
 
 
 
@@ -207,7 +207,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | cc.AssetManager.CacheManager |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:244](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L244) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:244](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L244) |
 
 
 
@@ -218,7 +218,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:258](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L258) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:258](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L258) |
 
 
 
@@ -229,7 +229,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Bundle.html" class="crosslink">Bundle</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:317](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L317) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:317](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L317) |
 
 
 
@@ -240,7 +240,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Bundle.html" class="crosslink">Bundle</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:332](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L332) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:332](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L332) |
 
 
 
@@ -251,7 +251,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Bundle.html" class="crosslink">Bundle</a> |
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:347](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L347) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:347](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L347) |
 
 
 
@@ -268,7 +268,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:362](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L362) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:362](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L362) |
 
 ###### 参数列表
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -281,7 +281,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Bundle.html" class="crosslink">Bundle</a> 
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:390](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L390) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:390](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L390) |
 
 ###### 参数列表
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of bundle
@@ -301,7 +301,7 @@ cc.assetManager.getBundle('resources');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:414](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L414) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:414](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L414) |
 
 ###### 参数列表
 - `bundle` <a href="../classes/Bundle.html" class="crosslink">Bundle</a> The bundle to be removed
@@ -320,7 +320,7 @@ cc.assetManager.getBundle('resources');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:432](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L432) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:432](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L432) |
 
 ###### 参数列表
 - `requests` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> The request you want to load
@@ -359,7 +359,7 @@ cc.assetManager.loadAny({ url: 'http://example.com/my.asset', skin: 'xxx', model
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:498](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L498) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:498](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L498) |
 
 ###### 参数列表
 - `requests` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string[]</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> The request you want to preload
@@ -384,7 +384,7 @@ cc.assetManager.preloadAny('0cbZa5Y71CTZAccaIFluuZ', (err) => cc.assetManager.lo
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:539](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L539) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:539](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L539) |
 
 ###### 参数列表
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> The asset
@@ -404,7 +404,7 @@ cc.assetManager.postLoadNative(texture, (err) => console.log(err));
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:594](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L594) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:594](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L594) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The url of asset
@@ -429,7 +429,7 @@ cc.assetManager.loadRemote('http://www.cloud.com/test3', { ext: '.png' }, (err, 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:643](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L643) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:643](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L643) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string[]</a> Url of the script
@@ -450,7 +450,7 @@ loadScript('http://localhost:8080/index.js', null, (err) => console.log(err));
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:673](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L673) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:673](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L673) |
 
 ###### 参数列表
 - `nameOrUrl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The name or root path of bundle
@@ -474,7 +474,7 @@ loadBundle('http://localhost:8080/test', null, (err, bundle) => console.log(err)
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:711](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L711) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:711](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L711) |
 
 ###### 参数列表
 - `asset` <a href="../classes/Asset.html" class="crosslink">Asset</a> The asset to be released
@@ -492,7 +492,7 @@ cc.assetManager.releaseAsset(texture);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:737](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L737) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:737](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L737) |
 
 
 
@@ -502,7 +502,7 @@ cc.assetManager.releaseAsset(texture);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:756](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/asset-manager/CCAssetManager.js#L756) |
+| 定义于 | [cocos2d/core/asset-manager/CCAssetManager.js:756](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/CCAssetManager.js#L756) |
 
 
 

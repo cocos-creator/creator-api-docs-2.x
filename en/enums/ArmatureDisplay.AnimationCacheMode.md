@@ -23,7 +23,7 @@ Enum for cache mode type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:53](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/extensions/dragonbones/ArmatureDisplay.js#L53) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:53](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/extensions/dragonbones/ArmatureDisplay.js#L53) |
 
 
 
@@ -34,7 +34,7 @@ Enum for cache mode type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:59](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/extensions/dragonbones/ArmatureDisplay.js#L59) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:59](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/extensions/dragonbones/ArmatureDisplay.js#L59) |
 
 
 
@@ -45,6 +45,6 @@ Enum for cache mode type.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/dragonbones/ArmatureDisplay.js:65](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/extensions/dragonbones/ArmatureDisplay.js#L65) |
+| Defined in | [extensions/dragonbones/ArmatureDisplay.js:65](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/extensions/dragonbones/ArmatureDisplay.js#L65) |
 
 

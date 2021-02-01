@@ -46,7 +46,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/animation/playable.js:44](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L44) |
+| 定义于 | [cocos2d/animation/playable.js:44](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L44) |
 
 
 
@@ -57,7 +57,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/animation/playable.js:56](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L56) |
+| 定义于 | [cocos2d/animation/playable.js:56](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L56) |
 
 
 
@@ -74,7 +74,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/animation/playable.js:71](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L71) |
+| 定义于 | [cocos2d/animation/playable.js:71](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L71) |
 
 
 
@@ -84,7 +84,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/animation/playable.js:76](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L76) |
+| 定义于 | [cocos2d/animation/playable.js:76](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L76) |
 
 
 
@@ -94,7 +94,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/animation/playable.js:81](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L81) |
+| 定义于 | [cocos2d/animation/playable.js:81](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L81) |
 
 
 
@@ -104,7 +104,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/animation/playable.js:86](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L86) |
+| 定义于 | [cocos2d/animation/playable.js:86](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L86) |
 
 
 
@@ -114,7 +114,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/animation/playable.js:91](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L91) |
+| 定义于 | [cocos2d/animation/playable.js:91](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L91) |
 
 ###### 参数列表
 - `errorCode` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -126,7 +126,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/animation/playable.js:100](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L100) |
+| 定义于 | [cocos2d/animation/playable.js:100](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L100) |
 
 
 
@@ -136,7 +136,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/animation/playable.js:121](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L121) |
+| 定义于 | [cocos2d/animation/playable.js:121](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L121) |
 
 
 
@@ -146,7 +146,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/animation/playable.js:136](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L136) |
+| 定义于 | [cocos2d/animation/playable.js:136](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L136) |
 
 
 
@@ -156,7 +156,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/animation/playable.js:148](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L148) |
+| 定义于 | [cocos2d/animation/playable.js:148](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L148) |
 
 
 
@@ -166,7 +166,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/animation/playable.js:160](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/animation/playable.js#L160) |
+| 定义于 | [cocos2d/animation/playable.js:160](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/animation/playable.js#L160) |
 
 
 

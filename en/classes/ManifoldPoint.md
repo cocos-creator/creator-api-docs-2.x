@@ -40,7 +40,7 @@ provide reliable contact forces, especially for high speed collisions.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:84](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/physics/CCPhysicsContact.js#L84) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:84](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/physics/CCPhysicsContact.js#L84) |
 
 
 
@@ -51,7 +51,7 @@ provide reliable contact forces, especially for high speed collisions.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:97](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/physics/CCPhysicsContact.js#L97) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:97](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/physics/CCPhysicsContact.js#L97) |
 
 
 
@@ -62,7 +62,7 @@ provide reliable contact forces, especially for high speed collisions.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:104](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/physics/CCPhysicsContact.js#L104) |
+| Defined in | [cocos2d/core/physics/CCPhysicsContact.js:104](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/physics/CCPhysicsContact.js#L104) |
 
 
 

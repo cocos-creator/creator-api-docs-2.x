@@ -34,7 +34,7 @@ The alpha key of gradient.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:45](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/animator/gradient.ts#L45) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:45](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/gradient.ts#L45) |
 
 
 
@@ -45,7 +45,7 @@ The alpha key of gradient.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:52](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/animator/gradient.ts#L52) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:52](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/gradient.ts#L52) |
 
 
 

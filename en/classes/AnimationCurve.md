@@ -35,7 +35,7 @@ The animation curve of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | Keyframe |
-| Defined in | [cocos2d/core/3d/particle/curve.ts:132](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/curve.ts#L132) |
+| Defined in | [cocos2d/core/3d/particle/curve.ts:132](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/curve.ts#L132) |
 
 
 
@@ -46,7 +46,7 @@ The animation curve of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/WrapMode.html" class="crosslink">WrapMode</a> |
-| Defined in | [cocos2d/core/3d/particle/curve.ts:141](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/curve.ts#L141) |
+| Defined in | [cocos2d/core/3d/particle/curve.ts:141](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/curve.ts#L141) |
 
 
 
@@ -57,7 +57,7 @@ The animation curve of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../enums/WrapMode.html" class="crosslink">WrapMode</a> |
-| Defined in | [cocos2d/core/3d/particle/curve.ts:151](https://github.com/cocos-creator/engine/blob/ffcd52a59a8c6aae4b1d658e5006aef78c30892b/cocos2d/core/3d/particle/curve.ts#L151) |
+| Defined in | [cocos2d/core/3d/particle/curve.ts:151](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/curve.ts#L151) |
 
 
 
