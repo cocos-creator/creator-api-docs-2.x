@@ -35,20 +35,20 @@ cc.tween(node)
   - [`start`](#start) Start this tween
   - [`stop`](#stop) Stop this tween
   - [`clone`](#clone) Clone a tween
-  - [`union`](#union) Integrate all previous actions to an action.
-  - [`to`](#to) Add an action which calculate with absolute value
-  - [`by`](#by) Add an action which calculate with relative value
+  - [`union`](#union) Integrate all previous actions to an action
+  - [`to`](#to) Add an action which calculates with an absolute value
+  - [`by`](#by) Add an action which calculates with a relative value
   - [`set`](#set) Directly set target properties
-  - [`delay`](#delay) Add an delay action
-  - [`call`](#call) Add an callback action
-  - [`hide`](#hide) Add an hide action
-  - [`show`](#show) Add an show action
-  - [`removeSelf`](#removeself) Add an removeSelf action
-  - [`sequence`](#sequence) Add an sequence action
-  - [`parallel`](#parallel) Add an parallel action
-  - [`repeat`](#repeat) Add an repeat action.
-  - [`repeatForever`](#repeatforever) Add an repeat forever action
-  - [`reverseTime`](#reversetime) Add an reverse time action.
+  - [`delay`](#delay) Add a delay action
+  - [`call`](#call) Add a callback action
+  - [`hide`](#hide) Add a hide action
+  - [`show`](#show) Add a show action
+  - [`removeSelf`](#removeself) Add a removeSelf action
+  - [`sequence`](#sequence) Add a sequence action
+  - [`parallel`](#parallel) Add a parallel action
+  - [`repeat`](#repeat) Add a repeat action
+  - [`repeatForever`](#repeatforever) Add a repeat forever action
+  - [`reverseTime`](#reversetime) Add a reverse time action
 
 
 
@@ -63,7 +63,7 @@ cc.tween(node)
 
 ##### then
 
-Insert an action or tween to this sequence
+Insert an action or tween to this sequence.
 
 | meta | description |
 |------|-------------|
@@ -76,7 +76,7 @@ Insert an action or tween to this sequence
 
 ##### target
 
-Set tween target
+Set tween target.
 
 | meta | description |
 |------|-------------|
@@ -89,7 +89,7 @@ Set tween target
 
 ##### start
 
-Start this tween
+Start this tween.
 
 | meta | description |
 |------|-------------|
@@ -100,7 +100,7 @@ Start this tween
 
 ##### stop
 
-Stop this tween
+Stop this tween.
 
 | meta | description |
 |------|-------------|
@@ -111,7 +111,7 @@ Stop this tween
 
 ##### clone
 
-Clone a tween
+Clone a tween.
 
 | meta | description |
 |------|-------------|
@@ -135,7 +135,7 @@ Integrate all previous actions to an action.
 
 ##### to
 
-Add an action which calculate with absolute value
+Add an action which calculates with an absolute value.
 
 | meta | description |
 |------|-------------|
@@ -152,7 +152,7 @@ Add an action which calculate with absolute value
 
 ##### by
 
-Add an action which calculate with relative value
+Add an action which calculates with a relative value.
 
 | meta | description |
 |------|-------------|
@@ -169,7 +169,7 @@ Add an action which calculate with relative value
 
 ##### set
 
-Directly set target properties
+Directly set target properties.
 
 | meta | description |
 |------|-------------|
@@ -182,7 +182,7 @@ Directly set target properties
 
 ##### delay
 
-Add an delay action
+Add a delay action.
 
 | meta | description |
 |------|-------------|
@@ -195,7 +195,7 @@ Add an delay action
 
 ##### call
 
-Add an callback action
+Add a callback action.
 
 | meta | description |
 |------|-------------|
@@ -208,7 +208,7 @@ Add an callback action
 
 ##### hide
 
-Add an hide action
+Add a hide action.
 
 | meta | description |
 |------|-------------|
@@ -219,7 +219,7 @@ Add an hide action
 
 ##### show
 
-Add an show action
+Add a show action.
 
 | meta | description |
 |------|-------------|
@@ -230,7 +230,7 @@ Add an show action
 
 ##### removeSelf
 
-Add an removeSelf action
+Add a removeSelf action.
 
 | meta | description |
 |------|-------------|
@@ -241,7 +241,7 @@ Add an removeSelf action
 
 ##### sequence
 
-Add an sequence action
+Add a sequence action.
 
 | meta | description |
 |------|-------------|
@@ -255,7 +255,7 @@ Add an sequence action
 
 ##### parallel
 
-Add an parallel action
+Add a parallel action.
 
 | meta | description |
 |------|-------------|
@@ -269,7 +269,7 @@ Add an parallel action
 
 ##### repeat
 
-Add an repeat action.
+Add a repeat action.
 This action will integrate before actions to a sequence action as their parameters.
 
 | meta | description |
@@ -284,7 +284,7 @@ This action will integrate before actions to a sequence action as their paramete
 
 ##### repeatForever
 
-Add an repeat forever action
+Add a repeat forever action.
 This action will integrate before actions to a sequence action as their parameters.
 
 | meta | description |
@@ -298,7 +298,7 @@ This action will integrate before actions to a sequence action as their paramete
 
 ##### reverseTime
 
-Add an reverse time action.
+Add a reverse time action.
 This action will integrate before actions to a sequence action as their parameters.
 
 | meta | description |
