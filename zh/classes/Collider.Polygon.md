@@ -1,7 +1,7 @@
 ## `Collider.Polygon` 类型
 
 
-定义于: [https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/collider/CCPolygonCollider.js:30](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/collider/CCPolygonCollider.js#L30)
+定义于: [https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/collider/CCPolygonCollider.js:30](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/collider/CCPolygonCollider.js#L30)
 
 模块: [cc](../modules/cc.md)
 
@@ -34,7 +34,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/collider/CCPolygonCollider.js:45](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/collider/CCPolygonCollider.js#L45) |
+| 定义于 | [cocos2d/core/collider/CCPolygonCollider.js:45](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/collider/CCPolygonCollider.js#L45) |
 
 
 
@@ -45,7 +45,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> |
-| 定义于 | [cocos2d/core/collider/CCPolygonCollider.js:61](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/collider/CCPolygonCollider.js#L61) |
+| 定义于 | [cocos2d/core/collider/CCPolygonCollider.js:61](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/collider/CCPolygonCollider.js#L61) |
 
 
 

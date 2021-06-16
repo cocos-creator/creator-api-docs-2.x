@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 废弃: cc.url is deprecated
 
@@ -36,7 +37,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:655](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/deprecated.js#L655) |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:655](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/deprecated.js#L655) |
 | 废弃（Deprecated） | cc.url.raw is deprecated, please use cc.resources.load directly, or use Asset.nativeUrl instead. |
 
 ###### 参数列表

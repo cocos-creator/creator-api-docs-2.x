@@ -23,7 +23,7 @@ Values for Camera.clearFlags, determining what to clear when rendering a Camera.
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/camera/CCCamera.js:82](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/camera/CCCamera.js#L82) |
+| Defined in | [cocos2d/core/camera/CCCamera.js:82](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/camera/CCCamera.js#L82) |
 
 
 
@@ -34,7 +34,7 @@ Values for Camera.clearFlags, determining what to clear when rendering a Camera.
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/camera/CCCamera.js:90](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/camera/CCCamera.js#L90) |
+| Defined in | [cocos2d/core/camera/CCCamera.js:90](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/camera/CCCamera.js#L90) |
 
 
 
@@ -45,6 +45,6 @@ Values for Camera.clearFlags, determining what to clear when rendering a Camera.
 | meta | description |
 |------|-------------|
 | Type | Unknown |
-| Defined in | [cocos2d/core/camera/CCCamera.js:98](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/camera/CCCamera.js#L98) |
+| Defined in | [cocos2d/core/camera/CCCamera.js:98](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/camera/CCCamera.js#L98) |
 
 

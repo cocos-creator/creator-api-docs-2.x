@@ -38,7 +38,7 @@ The size module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:19](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/size-overtime.ts#L19) |
+| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:19](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/size-overtime.ts#L19) |
 
 
 
@@ -49,7 +49,7 @@ The size module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:27](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/size-overtime.ts#L27) |
+| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:27](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/size-overtime.ts#L27) |
 
 
 
@@ -60,7 +60,7 @@ The size module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:35](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/size-overtime.ts#L35) |
+| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:35](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/size-overtime.ts#L35) |
 
 
 
@@ -71,7 +71,7 @@ The size module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:45](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/size-overtime.ts#L45) |
+| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:45](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/size-overtime.ts#L45) |
 
 
 
@@ -82,7 +82,7 @@ The size module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:55](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/size-overtime.ts#L55) |
+| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:55](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/size-overtime.ts#L55) |
 
 
 
@@ -93,7 +93,7 @@ The size module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:65](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/size-overtime.ts#L65) |
+| Defined in | [cocos2d/core/3d/particle/animator/size-overtime.ts:65](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/size-overtime.ts#L65) |
 
 
 

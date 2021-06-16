@@ -33,7 +33,7 @@ Defines a Box Collider .
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/collider/CCBoxCollider.js:41](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/collider/CCBoxCollider.js#L41) |
+| Defined in | [cocos2d/core/collider/CCBoxCollider.js:41](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/collider/CCBoxCollider.js#L41) |
 
 
 
@@ -44,7 +44,7 @@ Defines a Box Collider .
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined in | [cocos2d/core/collider/CCBoxCollider.js:58](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/collider/CCBoxCollider.js#L58) |
+| Defined in | [cocos2d/core/collider/CCBoxCollider.js:58](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/collider/CCBoxCollider.js#L58) |
 
 
 

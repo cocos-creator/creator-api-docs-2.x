@@ -2,7 +2,8 @@
 
 
 
-模块: [cc.AssetManager](../modules/cc.AssetManager.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
 此模块包含内建资源，这是一个单例，所有成员能通过 `cc.assetManager.builtins` 访问
@@ -36,7 +37,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/builtins.js:66](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/builtins.js#L66) |
+| 定义于 | [cocos2d/core/asset-manager/builtins.js:66](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/builtins.js#L66) |
 
 ###### 参数列表
 - `cb` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback when finish loading built-in assets
@@ -49,7 +50,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/Cache.html" class="crosslink">Cache</a> 
-| 定义于 | [cocos2d/core/asset-manager/builtins.js:90](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/builtins.js#L90) |
+| 定义于 | [cocos2d/core/asset-manager/builtins.js:90](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/builtins.js#L90) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The type of asset, such as `effect`
@@ -67,7 +68,7 @@ cc.assetManaer.builtins.getBuiltin('effect', 'phone');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/builtins.js:114](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/builtins.js#L114) |
+| 定义于 | [cocos2d/core/asset-manager/builtins.js:114](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/builtins.js#L114) |
 
 
 

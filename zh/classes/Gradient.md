@@ -35,7 +35,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/ColorKey.html" class="crosslink">[ColorKey]</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/gradient.ts:70](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/gradient.ts#L70) |
+| 定义于 | [cocos2d/core/3d/particle/animator/gradient.ts:70](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/gradient.ts#L70) |
 
 
 
@@ -46,7 +46,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/AlphaKey.html" class="crosslink">[AlphaKey]</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/gradient.ts:79](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/gradient.ts#L79) |
+| 定义于 | [cocos2d/core/3d/particle/animator/gradient.ts:79](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/gradient.ts#L79) |
 
 
 
@@ -57,7 +57,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Mode |
-| 定义于 | [cocos2d/core/3d/particle/animator/gradient.ts:88](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/3d/particle/animator/gradient.ts#L88) |
+| 定义于 | [cocos2d/core/3d/particle/animator/gradient.ts:88](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/gradient.ts#L88) |
 
 
 

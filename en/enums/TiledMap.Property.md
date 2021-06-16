@@ -26,7 +26,7 @@ The property type of tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:77](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/tilemap/CCTiledMap.js#L77) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:77](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/tilemap/CCTiledMap.js#L77) |
 
 
 
@@ -37,7 +37,7 @@ The property type of tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:84](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/tilemap/CCTiledMap.js#L84) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:84](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/tilemap/CCTiledMap.js#L84) |
 
 
 
@@ -48,7 +48,7 @@ The property type of tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:91](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/tilemap/CCTiledMap.js#L91) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:91](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/tilemap/CCTiledMap.js#L91) |
 
 
 
@@ -59,7 +59,7 @@ The property type of tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:98](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/tilemap/CCTiledMap.js#L98) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:98](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/tilemap/CCTiledMap.js#L98) |
 
 
 
@@ -70,7 +70,7 @@ The property type of tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:105](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/tilemap/CCTiledMap.js#L105) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:105](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/tilemap/CCTiledMap.js#L105) |
 
 
 
@@ -81,6 +81,6 @@ The property type of tiled map.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTiledMap.js:112](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/tilemap/CCTiledMap.js#L112) |
+| Defined in | [cocos2d/tilemap/CCTiledMap.js:112](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/tilemap/CCTiledMap.js#L112) |
 
 

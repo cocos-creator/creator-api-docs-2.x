@@ -2,7 +2,8 @@
 
 
 
-模块: [cc.AssetManager](../modules/cc.AssetManager.md)
+模块: [cc](../modules/cc.md)
+父模块: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
 解析已下载的文件，parser 是一个单例, 所有成员能通过 `cc.assetManaager.parser` 访问
@@ -35,7 +36,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/parser.js:336](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/parser.js#L336) |
+| 定义于 | [cocos2d/core/asset-manager/parser.js:336](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/parser.js#L336) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Extension likes '.jpg' or map likes {'.jpg': jpgHandler, '.png': pngHandler}
@@ -57,7 +58,7 @@ parser.register({'.tga': (file, options, onComplete) => onComplete(null, null), 
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/parser.js:367](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/asset-manager/parser.js#L367) |
+| 定义于 | [cocos2d/core/asset-manager/parser.js:367](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/parser.js#L367) |
 
 ###### 参数列表
 - `id` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The id of file

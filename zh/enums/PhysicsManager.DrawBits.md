@@ -32,7 +32,7 @@ cc.director.getPhysicsManager().debugDrawFlags =
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:664](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/physics/CCPhysicsManager.js#L664) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:664](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/physics/CCPhysicsManager.js#L664) |
 
 
 
@@ -43,7 +43,7 @@ cc.director.getPhysicsManager().debugDrawFlags =
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:672](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/physics/CCPhysicsManager.js#L672) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:672](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/physics/CCPhysicsManager.js#L672) |
 
 
 
@@ -54,6 +54,6 @@ cc.director.getPhysicsManager().debugDrawFlags =
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:680](https://github.com/cocos-creator/engine/blob/76f37f407b386c997979b56dd0d3e99ac2c02cc4/cocos2d/core/physics/CCPhysicsManager.js#L680) |
+| 定义于 | [cocos2d/core/physics/CCPhysicsManager.js:680](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/physics/CCPhysicsManager.js#L680) |
 
 
