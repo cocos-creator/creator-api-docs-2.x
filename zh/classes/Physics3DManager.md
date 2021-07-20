@@ -45,7 +45,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:46](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/physics/framework/physics-manager.ts#L46) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:46](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-manager.ts#L46) |
 
 
 
@@ -56,7 +56,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:60](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/physics/framework/physics-manager.ts#L60) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:60](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-manager.ts#L60) |
 
 
 
@@ -67,7 +67,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:77](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/physics/framework/physics-manager.ts#L77) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:77](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-manager.ts#L77) |
 
 
 
@@ -78,7 +78,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:91](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/physics/framework/physics-manager.ts#L91) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:91](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-manager.ts#L91) |
 
 
 
@@ -89,7 +89,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:105](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/physics/framework/physics-manager.ts#L105) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:105](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-manager.ts#L105) |
 
 
 
@@ -100,7 +100,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:119](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/physics/framework/physics-manager.ts#L119) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:119](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-manager.ts#L119) |
 
 
 
@@ -111,7 +111,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/PhysicsMaterial.html" class="crosslink">PhysicsMaterial</a> &#124; Null |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:136](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/physics/framework/physics-manager.ts#L136) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:136](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-manager.ts#L136) |
 
 
 
@@ -128,7 +128,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:210](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/physics/framework/physics-manager.ts#L210) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:210](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-manager.ts#L210) |
 
 ###### 参数列表
 - `deltaTime` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The time difference from the last execution is currently elapsed per frame
@@ -141,7 +141,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/PhysicsRayResult.html" class="crosslink">PhysicsRayResult[]</a> &#124; Null 
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:259](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/physics/framework/physics-manager.ts#L259) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:259](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-manager.ts#L259) |
 
 ###### 参数列表
 - `worldRay` Ray A ray in world space
@@ -157,7 +157,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/PhysicsRayResult.html" class="crosslink">PhysicsRayResult</a> &#124; Null 
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:286](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/physics/framework/physics-manager.ts#L286) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-manager.ts:286](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-manager.ts#L286) |
 
 ###### 参数列表
 - `worldRay` Ray A ray in world space

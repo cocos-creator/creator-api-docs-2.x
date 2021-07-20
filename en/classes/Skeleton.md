@@ -133,7 +133,7 @@ Multiple skeletons can use the same SkeletonData which includes all animations, 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/spine/Skeleton.js:108](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L108) |
+| Defined in | [extensions/spine/Skeleton.js:108](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L108) |
 
 
 
@@ -146,7 +146,7 @@ Multiple skeletons can share the same skeleton data.
 | meta | description |
 |------|-------------|
 | Type | sp.SkeletonData |
-| Defined in | [extensions/spine/Skeleton.js:121](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L121) |
+| Defined in | [extensions/spine/Skeleton.js:121](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L121) |
 
 
 
@@ -157,7 +157,7 @@ Multiple skeletons can share the same skeleton data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [extensions/spine/Skeleton.js:147](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L147) |
+| Defined in | [extensions/spine/Skeleton.js:147](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L147) |
 
 
 
@@ -168,7 +168,7 @@ Multiple skeletons can share the same skeleton data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [extensions/spine/Skeleton.js:157](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L157) |
+| Defined in | [extensions/spine/Skeleton.js:157](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L157) |
 
 
 
@@ -179,7 +179,7 @@ Multiple skeletons can share the same skeleton data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [extensions/spine/Skeleton.js:167](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L167) |
+| Defined in | [extensions/spine/Skeleton.js:167](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L167) |
 
 
 
@@ -190,7 +190,7 @@ Multiple skeletons can share the same skeleton data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/spine/Skeleton.js:194](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L194) |
+| Defined in | [extensions/spine/Skeleton.js:194](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L194) |
 
 
 
@@ -201,7 +201,7 @@ Multiple skeletons can share the same skeleton data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/spine/Skeleton.js:304](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L304) |
+| Defined in | [extensions/spine/Skeleton.js:304](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L304) |
 
 
 
@@ -214,7 +214,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/spine/Skeleton.js:315](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L315) |
+| Defined in | [extensions/spine/Skeleton.js:315](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L315) |
 
 
 
@@ -225,7 +225,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [extensions/spine/Skeleton.js:329](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L329) |
+| Defined in | [extensions/spine/Skeleton.js:329](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L329) |
 
 
 
@@ -236,7 +236,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/spine/Skeleton.js:340](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L340) |
+| Defined in | [extensions/spine/Skeleton.js:340](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L340) |
 
 
 
@@ -247,7 +247,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/spine/Skeleton.js:355](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L355) |
+| Defined in | [extensions/spine/Skeleton.js:355](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L355) |
 
 
 
@@ -258,7 +258,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/spine/Skeleton.js:370](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L370) |
+| Defined in | [extensions/spine/Skeleton.js:370](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L370) |
 
 
 
@@ -269,7 +269,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/spine/Skeleton.js:385](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L385) |
+| Defined in | [extensions/spine/Skeleton.js:385](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L385) |
 
 
 
@@ -280,7 +280,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [extensions/spine/Skeleton.js:399](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L399) |
+| Defined in | [extensions/spine/Skeleton.js:399](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L399) |
 
 
 
@@ -291,7 +291,7 @@ or enable this option when image's half transparent area appears to be darken.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Material.html" class="crosslink">[Material]</a> |
-| Defined in | [cocos2d/core/components/CCRenderComponent.js:63](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCRenderComponent.js#L63) |
+| Defined in | [cocos2d/core/components/CCRenderComponent.js:63](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCRenderComponent.js#L63) |
 
 
 
@@ -303,7 +303,7 @@ all event callbacks will be removed in `_onPreDestroy`.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:63](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L63) |
+| Defined in | [cocos2d/core/components/CCComponent.js:63](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L63) |
 
 
 
@@ -314,7 +314,7 @@ all event callbacks will be removed in `_onPreDestroy`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:80](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L80) |
+| Defined in | [cocos2d/core/components/CCComponent.js:80](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L80) |
 
 ##### Examples
 
@@ -330,7 +330,7 @@ cc.log(comp.node);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:111](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L111) |
+| Defined in | [cocos2d/core/components/CCComponent.js:111](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L111) |
 
 ##### Examples
 
@@ -346,7 +346,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:152](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L152) |
+| Defined in | [cocos2d/core/components/CCComponent.js:152](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L152) |
 
 
 
@@ -357,7 +357,7 @@ cc.log(comp.uuid);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:159](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L159) |
+| Defined in | [cocos2d/core/components/CCComponent.js:159](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L159) |
 
 ##### Examples
 
@@ -374,7 +374,7 @@ cc.log(comp.enabled);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:191](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L191) |
+| Defined in | [cocos2d/core/components/CCComponent.js:191](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L191) |
 
 ##### Examples
 
@@ -390,7 +390,7 @@ cc.log(comp.enabledInHierarchy);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCComponent.js:207](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L207) |
+| Defined in | [cocos2d/core/components/CCComponent.js:207](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L207) |
 
 ##### Examples
 
@@ -406,7 +406,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L76) |
+| Defined in | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L76) |
 
 
 
@@ -417,7 +417,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L83) |
+| Defined in | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L83) |
 
 
 
@@ -428,7 +428,7 @@ cc.log(this._isOnLoadCalled > 0);
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L240) |
+| Defined in | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L240) |
 
 ##### Examples
 
@@ -448,7 +448,7 @@ but this is often caused by a particular logical requirements, which is not norm
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L258) |
+| Defined in | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L258) |
 
 ##### Examples
 
@@ -476,7 +476,7 @@ This method is different from the `skeletonData` property. This method is passed
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:522](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L522) |
+| Defined in | [extensions/spine/Skeleton.js:522](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L522) |
 
 ###### Parameters
 - `skeletonData` sp.spine.SkeletonData 
@@ -488,7 +488,7 @@ Sets slots visible range.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:563](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L563) |
+| Defined in | [extensions/spine/Skeleton.js:563](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L563) |
 
 ###### Parameters
 - `startSlotIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -502,7 +502,7 @@ The parameter type is <a href="../modules/sp.spine.html">sp.spine</a>.AnimationS
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:579](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L579) |
+| Defined in | [extensions/spine/Skeleton.js:579](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L579) |
 
 ###### Parameters
 - `stateData` sp.spine.AnimationStateData 
@@ -515,7 +515,7 @@ If set the mode in editor, then no need to worry about order problem.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:627](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L627) |
+| Defined in | [extensions/spine/Skeleton.js:627](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L627) |
 
 ###### Parameters
 - `cacheMode` AnimationCacheMode 
@@ -533,7 +533,7 @@ Whether in cached mode.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [extensions/spine/Skeleton.js:648](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L648) |
+| Defined in | [extensions/spine/Skeleton.js:648](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L648) |
 
 
 
@@ -543,7 +543,7 @@ Sets vertex effect delegate.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:754](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L754) |
+| Defined in | [extensions/spine/Skeleton.js:754](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L754) |
 
 ###### Parameters
 - `effectDelegate` sp.VertexEffectDelegate 
@@ -555,7 +555,7 @@ Computes the world SRT from the local SRT for each bone.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:766](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L766) |
+| Defined in | [extensions/spine/Skeleton.js:766](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L766) |
 
 
 ##### Examples
@@ -574,7 +574,7 @@ Sets the bones and slots to the setup pose.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:786](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L786) |
+| Defined in | [extensions/spine/Skeleton.js:786](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L786) |
 
 
 
@@ -585,7 +585,7 @@ using the values from the `BoneData` list in the `SkeletonData`.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:797](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L797) |
+| Defined in | [extensions/spine/Skeleton.js:797](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L797) |
 
 
 
@@ -596,7 +596,7 @@ using the values from the `SlotData` list in the `SkeletonData`.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:812](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L812) |
+| Defined in | [extensions/spine/Skeleton.js:812](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L812) |
 
 
 
@@ -608,7 +608,7 @@ To update the cache, use the invalidAnimationCache method with high performance.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:827](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L827) |
+| Defined in | [extensions/spine/Skeleton.js:827](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L827) |
 
 ###### Parameters
 - `animName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -620,7 +620,7 @@ Invalidates the animation cache, which is then recomputed on each frame..
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:846](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L846) |
+| Defined in | [extensions/spine/Skeleton.js:846](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L846) |
 
 
 
@@ -633,7 +633,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.Bone object.
 | meta | description |
 |------|-------------|
 | Returns | sp.spine.Bone 
-| Defined in | [extensions/spine/Skeleton.js:860](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L860) |
+| Defined in | [extensions/spine/Skeleton.js:860](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L860) |
 
 ###### Parameters
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -647,7 +647,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.Slot object.
 | meta | description |
 |------|-------------|
 | Returns | sp.spine.Slot 
-| Defined in | [extensions/spine/Skeleton.js:881](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L881) |
+| Defined in | [extensions/spine/Skeleton.js:881](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L881) |
 
 ###### Parameters
 - `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -662,7 +662,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.Skin object.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:900](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L900) |
+| Defined in | [extensions/spine/Skeleton.js:900](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L900) |
 
 ###### Parameters
 - `skinName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -677,7 +677,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.Attachment object.
 | meta | description |
 |------|-------------|
 | Returns | sp.spine.Attachment 
-| Defined in | [extensions/spine/Skeleton.js:922](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L922) |
+| Defined in | [extensions/spine/Skeleton.js:922](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L922) |
 
 ###### Parameters
 - `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -691,7 +691,7 @@ The skeleton looks first in its skin, then in the skeleton data’s default skin
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:943](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L943) |
+| Defined in | [extensions/spine/Skeleton.js:943](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L943) |
 
 ###### Parameters
 - `slotName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -705,7 +705,7 @@ Return the renderer of attachment.
 | meta | description |
 |------|-------------|
 | Returns | sp.spine.TextureAtlasRegion 
-| Defined in | [extensions/spine/Skeleton.js:961](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L961) |
+| Defined in | [extensions/spine/Skeleton.js:961](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L961) |
 
 ###### Parameters
 - `regionAttachment` sp.spine.RegionAttachment &#124; spine.BoundingBoxAttachment 
@@ -718,7 +718,7 @@ interpolated for the specified time and mixed with the current values.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:972](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L972) |
+| Defined in | [extensions/spine/Skeleton.js:972](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L972) |
 
 ###### Parameters
 - `fromAnimation` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -734,7 +734,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.TrackEntry object.
 | meta | description |
 |------|-------------|
 | Returns | sp.spine.TrackEntry 
-| Defined in | [extensions/spine/Skeleton.js:988](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L988) |
+| Defined in | [extensions/spine/Skeleton.js:988](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L988) |
 
 ###### Parameters
 - `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -750,7 +750,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.TrackEntry object.
 | meta | description |
 |------|-------------|
 | Returns | sp.spine.TrackEntry 
-| Defined in | [extensions/spine/Skeleton.js:1039](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1039) |
+| Defined in | [extensions/spine/Skeleton.js:1039](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1039) |
 
 ###### Parameters
 - `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -766,7 +766,7 @@ Find animation with specified name.
 | meta | description |
 |------|-------------|
 | Returns | sp.spine.Animation 
-| Defined in | [extensions/spine/Skeleton.js:1071](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1071) |
+| Defined in | [extensions/spine/Skeleton.js:1071](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1071) |
 
 ###### Parameters
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -780,7 +780,7 @@ Returns a <a href="../modules/sp.spine.html">sp.spine</a>.TrackEntry object.
 | meta | description |
 |------|-------------|
 | Returns | sp.spine.TrackEntry 
-| Defined in | [extensions/spine/Skeleton.js:1085](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1085) |
+| Defined in | [extensions/spine/Skeleton.js:1085](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1085) |
 
 ###### Parameters
 - `trackIndex` Unknown 
@@ -792,7 +792,7 @@ Clears all tracks of animation state.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1105](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1105) |
+| Defined in | [extensions/spine/Skeleton.js:1105](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1105) |
 
 
 
@@ -802,7 +802,7 @@ Clears track of animation state by trackIndex.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1120](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1120) |
+| Defined in | [extensions/spine/Skeleton.js:1120](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1120) |
 
 ###### Parameters
 - `trackIndex` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -814,7 +814,7 @@ Set the start event listener.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1139](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1139) |
+| Defined in | [extensions/spine/Skeleton.js:1140](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1140) |
 
 ###### Parameters
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -826,7 +826,7 @@ Set the interrupt event listener.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1150](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1150) |
+| Defined in | [extensions/spine/Skeleton.js:1151](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1151) |
 
 ###### Parameters
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -838,7 +838,7 @@ Set the end event listener.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1161](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1161) |
+| Defined in | [extensions/spine/Skeleton.js:1162](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1162) |
 
 ###### Parameters
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -850,7 +850,7 @@ Set the dispose event listener.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1172](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1172) |
+| Defined in | [extensions/spine/Skeleton.js:1173](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1173) |
 
 ###### Parameters
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -862,7 +862,7 @@ Set the complete event listener.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1183](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1183) |
+| Defined in | [extensions/spine/Skeleton.js:1184](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1184) |
 
 ###### Parameters
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -874,7 +874,7 @@ Set the animation event listener.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1194](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1194) |
+| Defined in | [extensions/spine/Skeleton.js:1195](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1195) |
 
 ###### Parameters
 - `listener` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> 
@@ -886,7 +886,7 @@ Set the start event listener for specified TrackEntry.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1205](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1205) |
+| Defined in | [extensions/spine/Skeleton.js:1206](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1206) |
 
 ###### Parameters
 - `entry` sp.spine.TrackEntry 
@@ -899,7 +899,7 @@ Set the interrupt event listener for specified TrackEntry.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1216](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1216) |
+| Defined in | [extensions/spine/Skeleton.js:1217](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1217) |
 
 ###### Parameters
 - `entry` sp.spine.TrackEntry 
@@ -912,7 +912,7 @@ Set the end event listener for specified TrackEntry.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1227](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1227) |
+| Defined in | [extensions/spine/Skeleton.js:1228](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1228) |
 
 ###### Parameters
 - `entry` sp.spine.TrackEntry 
@@ -925,7 +925,7 @@ Set the dispose event listener for specified TrackEntry.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1238](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1238) |
+| Defined in | [extensions/spine/Skeleton.js:1239](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1239) |
 
 ###### Parameters
 - `entry` sp.spine.TrackEntry 
@@ -938,7 +938,7 @@ Set the complete event listener for specified TrackEntry.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1249](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1249) |
+| Defined in | [extensions/spine/Skeleton.js:1250](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1250) |
 
 ###### Parameters
 - `entry` sp.spine.TrackEntry 
@@ -953,7 +953,7 @@ Set the event listener for specified TrackEntry.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/Skeleton.js:1265](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1265) |
+| Defined in | [extensions/spine/Skeleton.js:1266](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1266) |
 
 ###### Parameters
 - `entry` sp.spine.TrackEntry 
@@ -967,7 +967,7 @@ Get the animation state object
 | meta | description |
 |------|-------------|
 | Returns | sp.spine.AnimationState 
-| Defined in | [extensions/spine/Skeleton.js:1276](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/extensions/spine/Skeleton.js#L1276) |
+| Defined in | [extensions/spine/Skeleton.js:1277](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/extensions/spine/Skeleton.js#L1277) |
 
 
 
@@ -978,7 +978,7 @@ Get the material by index.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/MaterialVariant.html" class="crosslink">MaterialVariant</a> 
-| Defined in | [cocos2d/core/components/CCRenderComponent.js:154](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCRenderComponent.js#L154) |
+| Defined in | [cocos2d/core/components/CCRenderComponent.js:154](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCRenderComponent.js#L154) |
 
 ###### Parameters
 - `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -991,7 +991,7 @@ Gets all the materials.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/MaterialVariant.html" class="crosslink">[MaterialVariant]</a> 
-| Defined in | [cocos2d/core/components/CCRenderComponent.js:177](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCRenderComponent.js#L177) |
+| Defined in | [cocos2d/core/components/CCRenderComponent.js:177](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCRenderComponent.js#L177) |
 
 
 
@@ -1002,7 +1002,7 @@ Set the material by index.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Material.html" class="crosslink">Material</a> 
-| Defined in | [cocos2d/core/components/CCRenderComponent.js:191](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCRenderComponent.js#L191) |
+| Defined in | [cocos2d/core/components/CCRenderComponent.js:191](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCRenderComponent.js#L191) |
 
 ###### Parameters
 - `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1016,7 +1016,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:228](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L228) |
+| Defined in | [cocos2d/core/components/CCComponent.js:228](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L228) |
 
 ###### Parameters
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -1029,7 +1029,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:239](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L239) |
+| Defined in | [cocos2d/core/components/CCComponent.js:239](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L239) |
 
 ###### Parameters
 - `dt` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> the delta time in seconds it took to complete the last frame
@@ -1044,7 +1044,7 @@ This method should be removed if script priority is supported.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:250](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L250) |
+| Defined in | [cocos2d/core/components/CCComponent.js:250](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L250) |
 
 
 
@@ -1056,7 +1056,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:261](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L261) |
+| Defined in | [cocos2d/core/components/CCComponent.js:261](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L261) |
 
 
 
@@ -1068,7 +1068,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:274](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L274) |
+| Defined in | [cocos2d/core/components/CCComponent.js:274](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L274) |
 
 
 
@@ -1079,7 +1079,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:287](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L287) |
+| Defined in | [cocos2d/core/components/CCComponent.js:287](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L287) |
 
 
 
@@ -1090,7 +1090,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:297](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L297) |
+| Defined in | [cocos2d/core/components/CCComponent.js:297](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L297) |
 
 
 
@@ -1101,7 +1101,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:307](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L307) |
+| Defined in | [cocos2d/core/components/CCComponent.js:307](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L307) |
 
 
 
@@ -1111,7 +1111,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:317](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L317) |
+| Defined in | [cocos2d/core/components/CCComponent.js:317](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L317) |
 
 
 
@@ -1121,7 +1121,7 @@ This is a lifecycle method. It may not be implemented in the super class. You ca
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:322](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L322) |
+| Defined in | [cocos2d/core/components/CCComponent.js:322](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L322) |
 
 
 
@@ -1131,7 +1131,7 @@ Called to initialize the component or node’s properties when adding the compon
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:327](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L327) |
+| Defined in | [cocos2d/core/components/CCComponent.js:327](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L327) |
 
 
 
@@ -1142,7 +1142,7 @@ Adds a component class to the node. You can also add component to node by passin
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:337](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L337) |
+| Defined in | [cocos2d/core/components/CCComponent.js:337](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L337) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the constructor or the class name of the component to add
@@ -1162,7 +1162,7 @@ You can also get component in the node by passing in the name of the script.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:355](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L355) |
+| Defined in | [cocos2d/core/components/CCComponent.js:355](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L355) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1183,7 +1183,7 @@ Returns all components of supplied Type in the node.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:379](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L379) |
+| Defined in | [cocos2d/core/components/CCComponent.js:379](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L379) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1202,7 +1202,7 @@ Returns the component of supplied type in any of its children using depth first 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:397](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L397) |
+| Defined in | [cocos2d/core/components/CCComponent.js:397](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L397) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1221,7 +1221,7 @@ Returns the components of supplied type in self or any of its children using dep
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| Defined in | [cocos2d/core/components/CCComponent.js:415](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L415) |
+| Defined in | [cocos2d/core/components/CCComponent.js:415](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L415) |
 
 ###### Parameters
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -1240,7 +1240,7 @@ a custom axis aligned bounding box (AABB), so the editor's scene view can perfor
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:435](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L435) |
+| Defined in | [cocos2d/core/components/CCComponent.js:435](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L435) |
 
 ###### Parameters
 - `out_rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> the Rect to receive the bounding box
@@ -1271,7 +1271,7 @@ This function is only called in editor mode.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:448](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L448) |
+| Defined in | [cocos2d/core/components/CCComponent.js:448](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L448) |
 
 
 
@@ -1282,7 +1282,7 @@ If the selector is already scheduled, then the interval parameter will be update
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:540](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L540) |
+| Defined in | [cocos2d/core/components/CCComponent.js:540](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L540) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> The callback function
@@ -1305,7 +1305,7 @@ Schedules a callback function that runs only once, with a delay of 0 or larger.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:578](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L578) |
+| Defined in | [cocos2d/core/components/CCComponent.js:578](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L578) |
 
 ###### Parameters
 - `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1326,7 +1326,7 @@ Unschedules a custom callback function.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:595](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L595) |
+| Defined in | [cocos2d/core/components/CCComponent.js:595](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L595) |
 
 ###### Parameters
 - `callback_fn` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">function</a> A function wrapped as a selector
@@ -1344,7 +1344,7 @@ Actions are not affected by this method.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/components/CCComponent.js:611](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/components/CCComponent.js#L611) |
+| Defined in | [cocos2d/core/components/CCComponent.js:611](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/components/CCComponent.js#L611) |
 
 
 ##### Examples
@@ -1363,7 +1363,7 @@ You can use `cc.isValid(obj)` to check whether the object is destroyed before ac
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L293) |
+| Defined in | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L293) |
 
 
 ##### Examples
@@ -1397,7 +1397,7 @@ _destruct: function () {
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L427) |
+| Defined in | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L427) |
 
 
 
@@ -1407,7 +1407,7 @@ Called before the object being destroyed.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:483](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L483) |
+| Defined in | [cocos2d/core/platform/CCObject.js:483](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L483) |
 
 
 
@@ -1418,7 +1418,7 @@ The customized serialization for this object. (Editor Only)
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| Defined in | [cocos2d/core/platform/CCObject.js:511](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L511) |
+| Defined in | [cocos2d/core/platform/CCObject.js:511](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L511) |
 
 ###### Parameters
 - `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -1430,7 +1430,7 @@ Init this object from the custom serialized data.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/platform/CCObject.js:524](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L524) |
+| Defined in | [cocos2d/core/platform/CCObject.js:524](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L524) |
 
 ###### Parameters
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

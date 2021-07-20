@@ -40,7 +40,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Mode |
-| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:32](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/curve-range.ts#L32) |
+| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:32](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/curve-range.ts#L32) |
 
 
 
@@ -51,7 +51,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/AnimationCurve.html" class="crosslink">AnimationCurve</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:42](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/curve-range.ts#L42) |
+| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:42](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/curve-range.ts#L42) |
 
 
 
@@ -62,7 +62,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/AnimationCurve.html" class="crosslink">AnimationCurve</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:52](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/curve-range.ts#L52) |
+| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:52](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/curve-range.ts#L52) |
 
 
 
@@ -73,7 +73,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/AnimationCurve.html" class="crosslink">AnimationCurve</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:62](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/curve-range.ts#L62) |
+| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:62](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/curve-range.ts#L62) |
 
 
 
@@ -84,7 +84,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:72](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/curve-range.ts#L72) |
+| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:72](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/curve-range.ts#L72) |
 
 
 
@@ -95,7 +95,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:80](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/curve-range.ts#L80) |
+| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:80](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/curve-range.ts#L80) |
 
 
 
@@ -106,7 +106,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:89](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/curve-range.ts#L89) |
+| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:89](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/curve-range.ts#L89) |
 
 
 
@@ -117,7 +117,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:97](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/curve-range.ts#L97) |
+| 定义于 | [cocos2d/core/3d/particle/animator/curve-range.ts:97](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/curve-range.ts#L97) |
 
 
 

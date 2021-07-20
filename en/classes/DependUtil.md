@@ -37,7 +37,7 @@ Get asset's native dependency. For example, Texture's native dependency is image
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/asset-manager/depend-util.js:53](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/depend-util.js#L53) |
+| Defined in | [cocos2d/core/asset-manager/depend-util.js:53](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/depend-util.js#L53) |
 
 ###### Parameters
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> asset's uuid
@@ -55,7 +55,7 @@ Get asset's direct referencing non-native dependency list. For example, Material
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string[]</a> 
-| Defined in | [cocos2d/core/asset-manager/depend-util.js:76](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/depend-util.js#L76) |
+| Defined in | [cocos2d/core/asset-manager/depend-util.js:76](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/depend-util.js#L76) |
 
 ###### Parameters
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> asset's uuid
@@ -74,7 +74,7 @@ The returned array stores the dependencies with their uuid, after retrieve depen
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string[]</a> 
-| Defined in | [cocos2d/core/asset-manager/depend-util.js:100](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/depend-util.js#L100) |
+| Defined in | [cocos2d/core/asset-manager/depend-util.js:100](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/depend-util.js#L100) |
 
 ###### Parameters
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The asset's uuid

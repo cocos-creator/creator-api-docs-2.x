@@ -2,7 +2,7 @@
 
 继承于 [`_BaseNode`](_BaseNode.md)
 
-定义于: [https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js:844](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L844)
+定义于: [https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js:845](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L845)
 
 模块: [cc](../modules/cc.md)
 
@@ -44,6 +44,7 @@ Cocos Creator 场景中的所有节点类。<br/>
   - [`up`](#up) `Vec3` 获取节点正上方（y 轴）面对的方向，返回值为世界坐标系下的归一化向量
   - [`right`](#right) `Vec3` 获取节点正右方（x 轴）面对的方向，返回值为世界坐标系下的归一化向量
   - [`forward`](#forward) `Vec3` 获取节点正前方（z 轴）面对的方向，返回值为世界坐标系下的归一化向量
+  - [`groupIndex`](#groupindex) `Integer` 设置节点本身的分组索引。
   - [`cascadeOpacity`](#cascadeopacity) `Boolean` 节点的不透明度值是否影响其子节点，默认值为 true。
   - [`_components`](#components) `Component[]` 
   - [`_prefab`](#prefab) `PrefabInfo` The PrefabInfo object
@@ -177,7 +178,7 @@ Cocos Creator 场景中的所有节点类。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | Integer |
-| 定义于 | [cocos2d/core/CCNode.js:882](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L882) |
+| 定义于 | [cocos2d/core/CCNode.js:883](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L883) |
 
 
 
@@ -189,7 +190,7 @@ Cocos Creator 场景中的所有节点类。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/CCNode.js:908](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L908) |
+| 定义于 | [cocos2d/core/CCNode.js:909](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L909) |
 
 
 
@@ -200,7 +201,7 @@ Cocos Creator 场景中的所有节点类。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/CCNode.js:931](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L931) |
+| 定义于 | [cocos2d/core/CCNode.js:932](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L932) |
 
 ##### 示例
 
@@ -216,7 +217,7 @@ cc.log("Node Position: " + node.position);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:939](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L939) |
+| 定义于 | [cocos2d/core/CCNode.js:940](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L940) |
 
 ##### 示例
 
@@ -233,7 +234,7 @@ cc.log("Node Position X: " + node.x);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:982](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L982) |
+| 定义于 | [cocos2d/core/CCNode.js:983](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L983) |
 
 ##### 示例
 
@@ -250,7 +251,7 @@ cc.log("Node Position Y: " + node.y);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1025](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1025) |
+| 定义于 | [cocos2d/core/CCNode.js:1026](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1026) |
 
 
 
@@ -261,7 +262,7 @@ cc.log("Node Position Y: " + node.y);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1063](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1063) |
+| 定义于 | [cocos2d/core/CCNode.js:1064](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1064) |
 | 废弃（Deprecated） | since v2.1 |
 
 ##### 示例
@@ -279,7 +280,7 @@ cc.log("Node Rotation: " + node.rotation);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1088](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1088) |
+| 定义于 | [cocos2d/core/CCNode.js:1089](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1089) |
 
 
 
@@ -290,7 +291,7 @@ cc.log("Node Rotation: " + node.rotation);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1111](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1111) |
+| 定义于 | [cocos2d/core/CCNode.js:1112](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1112) |
 
 ##### 示例
 
@@ -308,7 +309,7 @@ cc.log("Node eulerAngles (X, Y, Z): " + node.eulerAngles.toString());
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1122](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1122) |
+| 定义于 | [cocos2d/core/CCNode.js:1123](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1123) |
 | 废弃（Deprecated） | since v2.1 |
 
 ##### 示例
@@ -327,7 +328,7 @@ cc.log("Node eulerAngles X: " + node.eulerAngles.x);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1162](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1162) |
+| 定义于 | [cocos2d/core/CCNode.js:1163](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1163) |
 | 废弃（Deprecated） | since v2.1 |
 
 ##### 示例
@@ -346,7 +347,7 @@ cc.log("Node eulerAngles Y: " + node.eulerAngles.y);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1236](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1236) |
+| 定义于 | [cocos2d/core/CCNode.js:1237](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1237) |
 
 ##### 示例
 
@@ -362,7 +363,7 @@ node.scale = 1;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1253](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1253) |
+| 定义于 | [cocos2d/core/CCNode.js:1254](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1254) |
 
 ##### 示例
 
@@ -379,7 +380,7 @@ cc.log("Node Scale X: " + node.scaleX);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1278](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1278) |
+| 定义于 | [cocos2d/core/CCNode.js:1279](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1279) |
 
 ##### 示例
 
@@ -396,7 +397,7 @@ cc.log("Node Scale Y: " + node.scaleY);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1303](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1303) |
+| 定义于 | [cocos2d/core/CCNode.js:1304](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1304) |
 
 
 
@@ -407,7 +408,7 @@ cc.log("Node Scale Y: " + node.scaleY);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1326](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1326) |
+| 定义于 | [cocos2d/core/CCNode.js:1327](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1327) |
 | 废弃（Deprecated） | since v2.2.1 |
 
 ##### 示例
@@ -425,7 +426,7 @@ cc.log("Node SkewX: " + node.skewX);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1351](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1351) |
+| 定义于 | [cocos2d/core/CCNode.js:1352](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1352) |
 | 废弃（Deprecated） | since v2.2.1 |
 
 ##### 示例
@@ -443,7 +444,7 @@ cc.log("Node SkewY: " + node.skewY);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1376](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1376) |
+| 定义于 | [cocos2d/core/CCNode.js:1377](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1377) |
 
 ##### 示例
 
@@ -459,7 +460,7 @@ node.opacity = 255;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1401](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1401) |
+| 定义于 | [cocos2d/core/CCNode.js:1402](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1402) |
 
 ##### 示例
 
@@ -475,7 +476,7 @@ node.color = new cc.Color(255, 255, 255);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1429](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1429) |
+| 定义于 | [cocos2d/core/CCNode.js:1430](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1430) |
 
 ##### 示例
 
@@ -491,7 +492,7 @@ node.anchorX = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1452](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1452) |
+| 定义于 | [cocos2d/core/CCNode.js:1453](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1453) |
 
 ##### 示例
 
@@ -507,7 +508,7 @@ node.anchorY = 0;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1475](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1475) |
+| 定义于 | [cocos2d/core/CCNode.js:1476](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1476) |
 
 ##### 示例
 
@@ -523,7 +524,7 @@ node.width = 100;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1505](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1505) |
+| 定义于 | [cocos2d/core/CCNode.js:1506](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1506) |
 
 ##### 示例
 
@@ -542,7 +543,7 @@ zIndex 的取值应该介于 cc.macro.MIN_ZINDEX 和 cc.macro.MAX_ZINDEX 之间
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1535](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1535) |
+| 定义于 | [cocos2d/core/CCNode.js:1536](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1536) |
 
 ##### 示例
 
@@ -559,7 +560,7 @@ cc.log("Node zIndex: " + node.zIndex);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1575](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1575) |
+| 定义于 | [cocos2d/core/CCNode.js:1576](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1576) |
 
 
 
@@ -570,7 +571,7 @@ cc.log("Node zIndex: " + node.zIndex);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1592](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1592) |
+| 定义于 | [cocos2d/core/CCNode.js:1593](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1593) |
 
 
 
@@ -581,7 +582,7 @@ cc.log("Node zIndex: " + node.zIndex);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1606](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1606) |
+| 定义于 | [cocos2d/core/CCNode.js:1607](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1607) |
 
 
 
@@ -592,7 +593,19 @@ cc.log("Node zIndex: " + node.zIndex);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/CCNode.js:1620](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1620) |
+| 定义于 | [cocos2d/core/CCNode.js:1621](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1621) |
+
+
+
+##### groupIndex
+
+> 设置节点本身的分组索引。不影响子节点<br/>
+节点的分组将关系到节点的碰撞组件可以与哪些碰撞组件相碰撞。<br/>
+
+| meta | description |
+|------|-------------|
+| 类型 | Integer |
+| 定义于 | [cocos2d/core/CCNode.js:3626](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3626) |
 
 
 
@@ -604,7 +617,7 @@ cc.log("Node zIndex: " + node.zIndex);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/CCNode.js:3888](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3888) |
+| 定义于 | [cocos2d/core/CCNode.js:3909](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3909) |
 | 废弃（Deprecated） | since v2.0 |
 
 
@@ -616,7 +629,7 @@ cc.log("Node zIndex: " + node.zIndex);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Component.html" class="crosslink">Component[]</a> |
-| 定义于 | [cocos2d/core/utils/base-node.js:151](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L151) |
+| 定义于 | [cocos2d/core/utils/base-node.js:151](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L151) |
 
 
 
@@ -627,7 +640,7 @@ cc.log("Node zIndex: " + node.zIndex);
 | meta | description |
 |------|-------------|
 | 类型 | PrefabInfo |
-| 定义于 | [cocos2d/core/utils/base-node.js:160](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L160) |
+| 定义于 | [cocos2d/core/utils/base-node.js:160](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L160) |
 
 
 
@@ -639,7 +652,7 @@ If false, the node will be destroyed automatically when loading a new scene. Def
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/utils/base-node.js:168](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L168) |
+| 定义于 | [cocos2d/core/utils/base-node.js:168](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L168) |
 
 
 
@@ -650,7 +663,7 @@ If false, the node will be destroyed automatically when loading a new scene. Def
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/utils/base-node.js:192](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L192) |
+| 定义于 | [cocos2d/core/utils/base-node.js:192](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L192) |
 
 ##### 示例
 
@@ -667,7 +680,7 @@ cc.log("Node Name: " + node.name);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/utils/base-node.js:217](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L217) |
+| 定义于 | [cocos2d/core/utils/base-node.js:217](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L217) |
 
 ##### 示例
 
@@ -683,7 +696,7 @@ cc.log("Node Uuid: " + node.uuid);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Node.html" class="crosslink">Node[]</a> |
-| 定义于 | [cocos2d/core/utils/base-node.js:232](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L232) |
+| 定义于 | [cocos2d/core/utils/base-node.js:232](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L232) |
 
 ##### 示例
 
@@ -702,7 +715,7 @@ for (var i = 0; i < children.length; ++i) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/utils/base-node.js:250](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L250) |
+| 定义于 | [cocos2d/core/utils/base-node.js:250](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L250) |
 
 ##### 示例
 
@@ -721,7 +734,7 @@ cc.log("Node Children Count: " + count);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/utils/base-node.js:266](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L266) |
+| 定义于 | [cocos2d/core/utils/base-node.js:266](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L266) |
 
 ##### 示例
 
@@ -737,7 +750,7 @@ node.active = false;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/utils/base-node.js:300](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L300) |
+| 定义于 | [cocos2d/core/utils/base-node.js:300](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L300) |
 
 ##### 示例
 
@@ -754,7 +767,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/EventTarget.html" class="crosslink">EventTarget[]</a> |
-| 定义于 | [cocos2d/core/utils/base-node.js:326](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L326) |
+| 定义于 | [cocos2d/core/utils/base-node.js:326](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L326) |
 
 
 
@@ -765,7 +778,7 @@ all event callbacks will be removed in _onPreDestroy
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Node.html" class="crosslink">Node</a> |
-| 定义于 | [cocos2d/core/utils/base-node.js:335](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L335) |
+| 定义于 | [cocos2d/core/utils/base-node.js:335](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L335) |
 
 ##### 示例
 
@@ -781,7 +794,7 @@ cc.log("Node Parent: " + node.parent);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L76) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L76) |
 
 
 
@@ -792,7 +805,7 @@ cc.log("Node Parent: " + node.parent);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L83) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L83) |
 
 
 
@@ -804,7 +817,7 @@ cc.log("Node Parent: " + node.parent);
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L258) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L258) |
 
 ##### 示例
 
@@ -831,7 +844,7 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:1635](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L1635) |
+| 定义于 | [cocos2d/core/CCNode.js:1636](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L1636) |
 
 ###### 参数列表
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a>  
@@ -852,7 +865,7 @@ cc.log(node.isValid);    // false, destroyed in the end of last frame
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| 定义于 | [cocos2d/core/CCNode.js:2005](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2005) |
+| 定义于 | [cocos2d/core/CCNode.js:2006](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2006) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="../classes/Node.EventType.html" class="crosslink">Node.EventType</a> A string representing the event type to listen for.<br>See Node/EventTyupe/POSITION_CHANGED for all builtin events.
@@ -883,7 +896,7 @@ node.on(cc.Node.EventType.COLOR_CHANGED, callback);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2084](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2084) |
+| 定义于 | [cocos2d/core/CCNode.js:2085](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2085) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -908,7 +921,7 @@ node.once(cc.Node.EventType.ANCHOR_CHANGED, callback);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2154](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2154) |
+| 定义于 | [cocos2d/core/CCNode.js:2155](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2155) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -930,7 +943,7 @@ node.off(cc.Node.EventType.ANCHOR_CHANGED, callback, this);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2242](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2242) |
+| 定义于 | [cocos2d/core/CCNode.js:2243](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2243) |
 
 ###### 参数列表
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related callbacks
@@ -948,7 +961,7 @@ node.targetOff(target);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/CCNode.js:2293](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2293) |
+| 定义于 | [cocos2d/core/CCNode.js:2294](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2294) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -960,7 +973,7 @@ node.targetOff(target);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2311](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2311) |
+| 定义于 | [cocos2d/core/CCNode.js:2312](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2312) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> event type
@@ -983,7 +996,7 @@ eventTarget.emit('fire', message, emitter);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2335](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2335) |
+| 定义于 | [cocos2d/core/CCNode.js:2336](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2336) |
 
 ###### 参数列表
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a> The Event object that is dispatched into the event flow
@@ -997,7 +1010,7 @@ eventTarget.emit('fire', message, emitter);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2349](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2349) |
+| 定义于 | [cocos2d/core/CCNode.js:2351](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2351) |
 
 ###### 参数列表
 - `recursive` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether to pause node system events on the sub node tree.
@@ -1016,7 +1029,7 @@ node.pauseSystemEvents(true);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2365](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2365) |
+| 定义于 | [cocos2d/core/CCNode.js:2367](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2367) |
 
 ###### 参数列表
 - `recursive` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> Whether to resume node system events on the sub node tree.
@@ -1037,7 +1050,7 @@ Subclasses can override this method to make event propagable.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2440](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2440) |
+| 定义于 | [cocos2d/core/CCNode.js:2442](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2442) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the event type
@@ -1067,7 +1080,7 @@ Subclasses can override this method to make event propagable.
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2462](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2462) |
+| 定义于 | [cocos2d/core/CCNode.js:2464](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2464) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the event type
@@ -1083,7 +1096,7 @@ Subclasses can override this method to make event propagable.
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Action.html" class="crosslink">Action</a> 
-| 定义于 | [cocos2d/core/CCNode.js:2484](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2484) |
+| 定义于 | [cocos2d/core/CCNode.js:2486](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2486) |
 
 ###### 参数列表
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> 
@@ -1103,7 +1116,7 @@ node.runAction(action.repeatForever()); // right
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2517](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2517) |
+| 定义于 | [cocos2d/core/CCNode.js:2519](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2519) |
 
 
 ##### 示例
@@ -1118,7 +1131,7 @@ node.pauseAllActions();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2528](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2528) |
+| 定义于 | [cocos2d/core/CCNode.js:2530](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2530) |
 
 
 ##### 示例
@@ -1133,7 +1146,7 @@ node.resumeAllActions();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2539](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2539) |
+| 定义于 | [cocos2d/core/CCNode.js:2541](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2541) |
 
 
 ##### 示例
@@ -1148,7 +1161,7 @@ node.stopAllActions();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2550](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2550) |
+| 定义于 | [cocos2d/core/CCNode.js:2552](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2552) |
 
 ###### 参数列表
 - `action` <a href="../classes/Action.html" class="crosslink">Action</a> An action object to be removed.
@@ -1166,7 +1179,7 @@ node.stopAction(action);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2563](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2563) |
+| 定义于 | [cocos2d/core/CCNode.js:2565](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2565) |
 
 ###### 参数列表
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> A tag that indicates the action to be removed.
@@ -1184,7 +1197,7 @@ node.stopActionByTag(1);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Action.html" class="crosslink">Action</a> 
-| 定义于 | [cocos2d/core/CCNode.js:2579](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2579) |
+| 定义于 | [cocos2d/core/CCNode.js:2581](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2581) |
 
 ###### 参数列表
 - `tag` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -1205,7 +1218,7 @@ var action = node.getActionByTag(1);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/CCNode.js:2599](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2599) |
+| 定义于 | [cocos2d/core/CCNode.js:2601](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2601) |
 
 
 ##### 示例
@@ -1223,7 +1236,7 @@ cc.log("Running Action Count: " + count);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| 定义于 | [cocos2d/core/CCNode.js:2625](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2625) |
+| 定义于 | [cocos2d/core/CCNode.js:2627](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2627) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> The return value to receive position
@@ -1245,7 +1258,7 @@ cc.log("Node Position: " + node.getPosition());
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2643](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2643) |
+| 定义于 | [cocos2d/core/CCNode.js:2645](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2645) |
 
 ###### 参数列表
 - `x` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> X coordinate for position or the position object
@@ -1260,7 +1273,7 @@ cc.log("Node Position: " + node.getPosition());
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
-| 定义于 | [cocos2d/core/CCNode.js:2705](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2705) |
+| 定义于 | [cocos2d/core/CCNode.js:2707](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2707) |
 
 ###### 参数列表
 - `out` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -1280,7 +1293,7 @@ cc.log("Node Scale: " + node.getScale(cc.v3()));
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2726](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2726) |
+| 定义于 | [cocos2d/core/CCNode.js:2728](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2728) |
 
 ###### 参数列表
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="../classes/Vec3.html" class="crosslink">Vec3</a> scaleX or scale object
@@ -1302,7 +1315,7 @@ node.setScale(2);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Quat.html" class="crosslink">Quat</a> 
-| 定义于 | [cocos2d/core/CCNode.js:2784](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2784) |
+| 定义于 | [cocos2d/core/CCNode.js:2786](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2786) |
 
 ###### 参数列表
 - `out` <a href="../classes/Quat.html" class="crosslink">Quat</a> 
@@ -1314,7 +1327,7 @@ node.setScale(2);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2806](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2806) |
+| 定义于 | [cocos2d/core/CCNode.js:2808](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2808) |
 
 ###### 参数列表
 - `quat` cc.Quat &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> Quaternion object represents the rotation or the x value of quaternion
@@ -1330,7 +1343,7 @@ node.setScale(2);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/CCNode.js:2850](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2850) |
+| 定义于 | [cocos2d/core/CCNode.js:2852](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2852) |
 
 
 ##### 示例
@@ -1345,7 +1358,7 @@ cc.log("Content Size: " + node.getContentSize());
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2865](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2865) |
+| 定义于 | [cocos2d/core/CCNode.js:2867](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2867) |
 
 ###### 参数列表
 - `size` <a href="../classes/Size.html" class="crosslink">Size</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The untransformed size of the node or The untransformed size's width of the node.
@@ -1370,7 +1383,7 @@ node.setContentSize(100, 100);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/CCNode.js:2908](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2908) |
+| 定义于 | [cocos2d/core/CCNode.js:2910](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2910) |
 
 
 ##### 示例
@@ -1390,7 +1403,7 @@ cc.log("Node AnchorPoint: " + node.getAnchorPoint());
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:2932](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L2932) |
+| 定义于 | [cocos2d/core/CCNode.js:2934](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L2934) |
 
 ###### 参数列表
 - `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The anchor point of node or The x axis anchor of node.
@@ -1409,7 +1422,7 @@ node.setAnchorPoint(1, 1);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:3169](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3169) |
+| 定义于 | [cocos2d/core/CCNode.js:3171](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3171) |
 
 ###### 参数列表
 - `pos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -1423,7 +1436,7 @@ node.setAnchorPoint(1, 1);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3236](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3236) |
+| 定义于 | [cocos2d/core/CCNode.js:3238](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3238) |
 
 ###### 参数列表
 - `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> The matrix object to be filled with data
@@ -1442,7 +1455,7 @@ node.getLocalMatrix(mat4);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3252](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3252) |
+| 定义于 | [cocos2d/core/CCNode.js:3254](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3254) |
 
 ###### 参数列表
 - `out` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> The matrix object to be filled with data
@@ -1461,7 +1474,7 @@ node.getWorldMatrix(mat4);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> &#124; <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3268](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3268) |
+| 定义于 | [cocos2d/core/CCNode.js:3270](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3270) |
 
 ###### 参数列表
 - `worldPoint` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> &#124; <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -1481,7 +1494,7 @@ var newVec3 = node.convertToNodeSpaceAR(cc.v3(100, 100, 100));
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> &#124; <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3297](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3297) |
+| 定义于 | [cocos2d/core/CCNode.js:3299](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3299) |
 
 ###### 参数列表
 - `nodePoint` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> &#124; <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -1503,7 +1516,7 @@ var newVec3 = node.convertToWorldSpaceAR(cc.v3(100, 100, 100));
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3325](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3325) |
+| 定义于 | [cocos2d/core/CCNode.js:3327](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3327) |
 | 废弃（Deprecated） | since v2.1.3 |
 
 ###### 参数列表
@@ -1523,7 +1536,7 @@ var newVec2 = node.convertToNodeSpace(cc.v2(100, 100));
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3349](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3349) |
+| 定义于 | [cocos2d/core/CCNode.js:3351](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3351) |
 | 废弃（Deprecated） | since v2.1.3 |
 
 ###### 参数列表
@@ -1542,7 +1555,7 @@ var newVec2 = node.convertToWorldSpace(cc.v2(100, 100));
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3370](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3370) |
+| 定义于 | [cocos2d/core/CCNode.js:3372](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3372) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -1564,7 +1577,7 @@ node.getNodeToParentTransform(affineTransform);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3398](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3398) |
+| 定义于 | [cocos2d/core/CCNode.js:3400](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3400) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -1584,7 +1597,7 @@ node.getNodeToParentTransformAR(affineTransform);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3423](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3423) |
+| 定义于 | [cocos2d/core/CCNode.js:3425](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3425) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -1605,7 +1618,7 @@ node.getNodeToWorldTransform(affineTransform);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3450](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3450) |
+| 定义于 | [cocos2d/core/CCNode.js:3452](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3452) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -1626,7 +1639,7 @@ node.getNodeToWorldTransformAR(affineTransform);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3473](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3473) |
+| 定义于 | [cocos2d/core/CCNode.js:3475](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3475) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -1646,7 +1659,7 @@ node.getParentToNodeTransform(affineTransform);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/AffineTransform.html" class="crosslink">AffineTransform</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3497](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3497) |
+| 定义于 | [cocos2d/core/CCNode.js:3499](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3499) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -1666,7 +1679,7 @@ node.getWorldToNodeTransform(affineTransform);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3517](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3517) |
+| 定义于 | [cocos2d/core/CCNode.js:3519](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3519) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -1685,7 +1698,7 @@ var newVec2 = node.convertTouchToNodeSpace(touch);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3531](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3531) |
+| 定义于 | [cocos2d/core/CCNode.js:3533](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3533) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -1704,7 +1717,7 @@ var newVec2 = node.convertTouchToNodeSpaceAR(touch);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3545](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3545) |
+| 定义于 | [cocos2d/core/CCNode.js:3547](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3547) |
 
 
 ##### 示例
@@ -1721,7 +1734,7 @@ var boundingBox = node.getBoundingBox();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3567](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3567) |
+| 定义于 | [cocos2d/core/CCNode.js:3569](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3569) |
 
 
 ##### 示例
@@ -1736,7 +1749,7 @@ var newRect = node.getBoundingBoxToWorld();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:3624](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3624) |
+| 定义于 | [cocos2d/core/CCNode.js:3645](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3645) |
 
 ###### 参数列表
 - `child` <a href="../classes/Node.html" class="crosslink">Node</a> A child node
@@ -1755,7 +1768,7 @@ node.addChild(newNode, 1, "node");
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:3654](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3654) |
+| 定义于 | [cocos2d/core/CCNode.js:3675](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3675) |
 
 
 ##### 示例
@@ -1770,7 +1783,7 @@ node.cleanup();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:3676](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3676) |
+| 定义于 | [cocos2d/core/CCNode.js:3697](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3697) |
 
 
 
@@ -1783,7 +1796,7 @@ node.cleanup();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3860](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3860) |
+| 定义于 | [cocos2d/core/CCNode.js:3881](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3881) |
 | 废弃（Deprecated） | since v2.0, please use opacity property, cascade opacity is removed |
 
 
@@ -1797,7 +1810,7 @@ node.cleanup();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Color.html" class="crosslink">Color</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3874](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3874) |
+| 定义于 | [cocos2d/core/CCNode.js:3895](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3895) |
 | 废弃（Deprecated） | since v2.0, please use color property, cascade color is removed |
 
 
@@ -1810,7 +1823,7 @@ node.cleanup();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3898](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3898) |
+| 定义于 | [cocos2d/core/CCNode.js:3919](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3919) |
 | 废弃（Deprecated） | since v2.0 |
 
 
@@ -1822,7 +1835,7 @@ node.cleanup();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:3908](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3908) |
+| 定义于 | [cocos2d/core/CCNode.js:3929](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3929) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -1836,7 +1849,7 @@ node.cleanup();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/CCNode.js:3918](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3918) |
+| 定义于 | [cocos2d/core/CCNode.js:3939](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3939) |
 | 废弃（Deprecated） | since v2.0 |
 
 ###### 参数列表
@@ -1851,7 +1864,7 @@ node.cleanup();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/CCNode.js:3929](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCNode.js#L3929) |
+| 定义于 | [cocos2d/core/CCNode.js:3950](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCNode.js#L3950) |
 | 废弃（Deprecated） | since v2.0 |
 
 
@@ -1863,7 +1876,7 @@ node.cleanup();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:343](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L343) |
+| 定义于 | [cocos2d/core/utils/base-node.js:343](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L343) |
 
 
 ##### 示例
@@ -1878,7 +1891,7 @@ var parent = this.node.getParent();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:355](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L355) |
+| 定义于 | [cocos2d/core/utils/base-node.js:355](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L355) |
 
 ###### 参数列表
 - `value` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -1895,7 +1908,7 @@ node.setParent(newNode);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:411](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L411) |
+| 定义于 | [cocos2d/core/utils/base-node.js:411](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L411) |
 
 ###### 参数列表
 - `attrs` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Properties to be set to node
@@ -1914,7 +1927,7 @@ node.attr(attrs);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:430](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L430) |
+| 定义于 | [cocos2d/core/utils/base-node.js:430](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L430) |
 
 ###### 参数列表
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The uuid to find the child node.
@@ -1932,7 +1945,7 @@ var child = node.getChildByUuid(uuid);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:453](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L453) |
+| 定义于 | [cocos2d/core/utils/base-node.js:453](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L453) |
 
 ###### 参数列表
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A name to find the child node.
@@ -1949,7 +1962,7 @@ var child = node.getChildByName("Test Node");
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:491](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L491) |
+| 定义于 | [cocos2d/core/utils/base-node.js:491](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L491) |
 
 ###### 参数列表
 - `child` <a href="../classes/Node.html" class="crosslink">Node</a> the child node to be inserted
@@ -1968,7 +1981,7 @@ node.insertChild(child, 2);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:509](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L509) |
+| 定义于 | [cocos2d/core/utils/base-node.js:509](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L509) |
 
 
 ##### 示例
@@ -1983,7 +1996,7 @@ var index = node.getSiblingIndex();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:526](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L526) |
+| 定义于 | [cocos2d/core/utils/base-node.js:526](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L526) |
 
 ###### 参数列表
 - `index` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -2003,7 +2016,7 @@ node.setSiblingIndex(1);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:557](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L557) |
+| 定义于 | [cocos2d/core/utils/base-node.js:557](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L557) |
 
 ###### 参数列表
 - `prefunc` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> The callback to process node when reach the node for the first time
@@ -2029,7 +2042,7 @@ node.walk(function (target) {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:672](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L672) |
+| 定义于 | [cocos2d/core/utils/base-node.js:672](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L672) |
 
 ###### 参数列表
 - `cleanup` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> true if all actions and callbacks on this node should be removed, false otherwise.
@@ -2048,7 +2061,7 @@ node.removeFromParent(false);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:695](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L695) |
+| 定义于 | [cocos2d/core/utils/base-node.js:695](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L695) |
 
 ###### 参数列表
 - `child` <a href="../classes/Node.html" class="crosslink">Node</a> The child node which will be removed.
@@ -2068,7 +2081,7 @@ node.removeChild(newNode, false);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:723](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L723) |
+| 定义于 | [cocos2d/core/utils/base-node.js:723](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L723) |
 
 ###### 参数列表
 - `cleanup` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> true if all running actions on all children nodes should be cleanup, false otherwise.
@@ -2087,7 +2100,7 @@ node.removeAllChildren(false);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:754](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L754) |
+| 定义于 | [cocos2d/core/utils/base-node.js:754](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L754) |
 
 ###### 参数列表
 - `parent` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -2106,7 +2119,7 @@ node.isChildOf(newNode);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:777](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L777) |
+| 定义于 | [cocos2d/core/utils/base-node.js:777](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L777) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -2127,7 +2140,7 @@ var test = node.getComponent("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:804](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L804) |
+| 定义于 | [cocos2d/core/utils/base-node.js:804](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L804) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -2146,7 +2159,7 @@ var tests = node.getComponents("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:825](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L825) |
+| 定义于 | [cocos2d/core/utils/base-node.js:825](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L825) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -2165,7 +2178,7 @@ var Test = node.getComponentInChildren("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component[]</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:846](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L846) |
+| 定义于 | [cocos2d/core/utils/base-node.js:846](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L846) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -2184,7 +2197,7 @@ var tests = node.getComponentsInChildren("Test");
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:882](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L882) |
+| 定义于 | [cocos2d/core/utils/base-node.js:882](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L882) |
 
 ###### 参数列表
 - `typeOrClassName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The constructor or the class name of the component to add
@@ -2202,7 +2215,7 @@ This api should only used by undo system
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:971](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L971) |
+| 定义于 | [cocos2d/core/utils/base-node.js:971](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L971) |
 
 ###### 参数列表
 - `comp` <a href="../classes/Component.html" class="crosslink">Component</a> 
@@ -2216,7 +2229,7 @@ This api should only used by undo system
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:1019](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L1019) |
+| 定义于 | [cocos2d/core/utils/base-node.js:1019](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L1019) |
 | 废弃（Deprecated） | please destroy the component to remove it. |
 
 ###### 参数列表
@@ -2237,7 +2250,7 @@ node.removeComponent(Test);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Component.html" class="crosslink">Component</a> 
-| 定义于 | [cocos2d/core/utils/base-node.js:1047](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L1047) |
+| 定义于 | [cocos2d/core/utils/base-node.js:1047](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L1047) |
 
 ###### 参数列表
 - `depended` <a href="../classes/Component.html" class="crosslink">Component</a> 
@@ -2250,7 +2263,7 @@ node.removeComponent(Test);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/utils/base-node.js:1093](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/utils/base-node.js#L1093) |
+| 定义于 | [cocos2d/core/utils/base-node.js:1093](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/utils/base-node.js#L1093) |
 
 
 ##### 示例
@@ -2265,7 +2278,7 @@ node.destroyAllChildren();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:221](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/event/event-target.js#L221) |
+| 定义于 | [cocos2d/core/event/event-target.js:221](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/event/event-target.js#L221) |
 
 
 
@@ -2278,7 +2291,7 @@ node.destroyAllChildren();
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L293) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L293) |
 
 
 ##### 示例
@@ -2312,7 +2325,7 @@ _destruct: function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L427) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L427) |
 
 
 
@@ -2322,7 +2335,7 @@ _destruct: function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:483](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L483) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:483](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L483) |
 
 
 
@@ -2333,7 +2346,7 @@ _destruct: function () {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:511](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L511) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:511](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L511) |
 
 ###### 参数列表
 - `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -2345,7 +2358,7 @@ _destruct: function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:524](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCObject.js#L524) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:524](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCObject.js#L524) |
 
 ###### 参数列表
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

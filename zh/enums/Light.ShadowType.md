@@ -24,7 +24,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/CCLightComponent.js:97](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/CCLightComponent.js#L97) |
+| 定义于 | [cocos2d/core/3d/CCLightComponent.js:97](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/CCLightComponent.js#L97) |
 
 
 
@@ -35,7 +35,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/CCLightComponent.js:106](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/CCLightComponent.js#L106) |
+| 定义于 | [cocos2d/core/3d/CCLightComponent.js:106](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/CCLightComponent.js#L106) |
 
 
 
@@ -46,7 +46,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/CCLightComponent.js:115](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/CCLightComponent.js#L115) |
+| 定义于 | [cocos2d/core/3d/CCLightComponent.js:115](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/CCLightComponent.js#L115) |
 
 
 
@@ -57,6 +57,6 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/CCLightComponent.js:124](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/CCLightComponent.js#L124) |
+| 定义于 | [cocos2d/core/3d/CCLightComponent.js:124](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/CCLightComponent.js#L124) |
 
 

@@ -33,7 +33,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| 定义于 | [cocos2d/core/collider/CCBoxCollider.js:41](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/collider/CCBoxCollider.js#L41) |
+| 定义于 | [cocos2d/core/collider/CCBoxCollider.js:41](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/collider/CCBoxCollider.js#L41) |
 
 
 
@@ -44,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| 定义于 | [cocos2d/core/collider/CCBoxCollider.js:58](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/collider/CCBoxCollider.js#L58) |
+| 定义于 | [cocos2d/core/collider/CCBoxCollider.js:58](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/collider/CCBoxCollider.js#L58) |
 
 
 

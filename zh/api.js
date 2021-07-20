@@ -1761,6 +1761,12 @@ window.apimeta = {
       "description": ""
     },
     {
+      "name": "VideoClip",
+      "namespace": "cc.VideoClip",
+      "module": "cc",
+      "description": "视频资源类。"
+    },
+    {
       "name": "VideoPlayer",
       "namespace": "cc.VideoPlayer",
       "module": "cc",

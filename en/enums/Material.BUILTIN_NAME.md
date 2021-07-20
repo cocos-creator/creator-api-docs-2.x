@@ -24,7 +24,7 @@ Material builtin name
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/assets/material/CCMaterial.js:42](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/assets/material/CCMaterial.js#L42) |
+| Defined in | [cocos2d/core/assets/material/CCMaterial.js:42](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/assets/material/CCMaterial.js#L42) |
 
 
 
@@ -35,7 +35,7 @@ Material builtin name
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/assets/material/CCMaterial.js:48](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/assets/material/CCMaterial.js#L48) |
+| Defined in | [cocos2d/core/assets/material/CCMaterial.js:48](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/assets/material/CCMaterial.js#L48) |
 
 
 
@@ -46,6 +46,6 @@ Material builtin name
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/assets/material/CCMaterial.js:54](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/assets/material/CCMaterial.js#L54) |
+| Defined in | [cocos2d/core/assets/material/CCMaterial.js:54](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/assets/material/CCMaterial.js#L54) |
 
 

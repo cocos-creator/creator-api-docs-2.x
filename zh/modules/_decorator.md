@@ -49,7 +49,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:234](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L234) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:234](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L234) |
 
 ###### 参数列表
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The class name used for serialization.
@@ -78,7 +78,7 @@ class LoginData {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:306](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L306) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:306](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L306) |
 
 ###### 参数列表
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> an object with some property attributes
@@ -192,7 +192,7 @@ var NewScript = cc.Class({
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:452](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L452) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:452](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L452) |
 
 
 ##### 示例
@@ -213,7 +213,7 @@ class NewScript extends cc.Component {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:476](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L476) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:476](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L476) |
 
 ###### 参数列表
 - `requiredComponent` <a href="../classes/Component.html" class="crosslink">Component</a> 
@@ -236,7 +236,7 @@ class SpriteCtrl extends cc.Component {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:497](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L497) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:497](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L497) |
 
 ###### 参数列表
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The path is the menu represented like a pathname.
@@ -260,7 +260,7 @@ class NewScript extends cc.Component {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:519](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L519) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:519](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L519) |
 
 ###### 参数列表
 - `order` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The execution order of lifecycle methods for Component. Those less than 0 will execute before while those greater than 0 will execute after.
@@ -283,7 +283,7 @@ class CameraCtrl extends cc.Component {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:542](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L542) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:542](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L542) |
 
 
 ##### 示例
@@ -304,7 +304,7 @@ class CameraCtrl extends cc.Component {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:563](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L563) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:563](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L563) |
 
 
 ##### 示例
@@ -326,7 +326,7 @@ class CameraCtrl extends cc.Component {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:586](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L586) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:586](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L586) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -349,7 +349,7 @@ class NewScript extends cc.Component {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:607](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L607) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:607](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L607) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -372,7 +372,7 @@ class NewScript extends cc.Component {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:629](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L629) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:629](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L629) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -405,7 +405,7 @@ You must manually call mixins constructor, this is different from cc.Class(ES5).
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:652](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCClassDecorator.js#L652) |
+| 定义于 | [cocos2d/core/platform/CCClassDecorator.js:652](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCClassDecorator.js#L652) |
 
 ###### 参数列表
 - `ctor` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> constructors to mix, only support ES5 constructors or classes defined by using `cc.Class`,

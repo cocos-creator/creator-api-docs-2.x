@@ -27,7 +27,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDebug.js:273](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCDebug.js#L273) |
+| Defined in | [cocos2d/core/CCDebug.js:273](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCDebug.js#L273) |
 
 
 
@@ -38,7 +38,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDebug.js:281](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCDebug.js#L281) |
+| Defined in | [cocos2d/core/CCDebug.js:281](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCDebug.js#L281) |
 
 
 
@@ -49,7 +49,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDebug.js:289](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCDebug.js#L289) |
+| Defined in | [cocos2d/core/CCDebug.js:289](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCDebug.js#L289) |
 
 
 
@@ -60,7 +60,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDebug.js:297](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCDebug.js#L297) |
+| Defined in | [cocos2d/core/CCDebug.js:297](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCDebug.js#L297) |
 
 
 
@@ -71,7 +71,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDebug.js:305](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCDebug.js#L305) |
+| Defined in | [cocos2d/core/CCDebug.js:305](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCDebug.js#L305) |
 
 
 
@@ -82,7 +82,7 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDebug.js:313](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCDebug.js#L313) |
+| Defined in | [cocos2d/core/CCDebug.js:313](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCDebug.js#L313) |
 
 
 
@@ -93,6 +93,6 @@ Enum for debug modes.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/CCDebug.js:321](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/CCDebug.js#L321) |
+| Defined in | [cocos2d/core/CCDebug.js:321](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/CCDebug.js#L321) |
 
 

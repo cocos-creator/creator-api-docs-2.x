@@ -258,6 +258,7 @@ All enums and classes are under `cc` module if not specified otherwise.
 - [`VelocityOvertimeModule`](classes/VelocityOvertimeModule.md) from [cc](modules/cc.md)
 - [`VertexEffectDelegate`](classes/VertexEffectDelegate.md) from [sp](modules/sp.md)
 - [`VertexFormat`](classes/VertexFormat.md) from [cc](modules/cc.md)
+- [`VideoClip`](classes/VideoClip.md) from [cc](modules/cc.md)
 - [`VideoPlayer`](classes/VideoPlayer.md) from [cc](modules/cc.md)
 - [`View`](classes/View.md) from [cc](modules/cc.md)
 - [`ViewGroup`](classes/ViewGroup.md) from [cc](modules/cc.md)

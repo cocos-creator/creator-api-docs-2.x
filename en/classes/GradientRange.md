@@ -39,7 +39,7 @@ The gradient range of color.
 | meta | description |
 |------|-------------|
 | Type | Mode |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:46](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/gradient-range.ts#L46) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:46](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/gradient-range.ts#L46) |
 
 
 
@@ -50,7 +50,7 @@ The gradient range of color.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:74](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/gradient-range.ts#L74) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:74](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/gradient-range.ts#L74) |
 
 
 
@@ -61,7 +61,7 @@ The gradient range of color.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:82](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/gradient-range.ts#L82) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:82](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/gradient-range.ts#L82) |
 
 
 
@@ -72,7 +72,7 @@ The gradient range of color.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:90](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/gradient-range.ts#L90) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:90](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/gradient-range.ts#L90) |
 
 
 
@@ -83,7 +83,7 @@ The gradient range of color.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Gradient.html" class="crosslink">Gradient</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:98](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/gradient-range.ts#L98) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:98](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/gradient-range.ts#L98) |
 
 
 
@@ -94,7 +94,7 @@ The gradient range of color.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Gradient.html" class="crosslink">Gradient</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:108](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/gradient-range.ts#L108) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:108](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/gradient-range.ts#L108) |
 
 
 
@@ -105,7 +105,7 @@ The gradient range of color.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Gradient.html" class="crosslink">Gradient</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:118](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/gradient-range.ts#L118) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient-range.ts:118](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/gradient-range.ts#L118) |
 
 
 

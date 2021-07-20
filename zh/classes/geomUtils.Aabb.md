@@ -44,7 +44,7 @@ Aabb
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/aabb.ts:124](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/geom-utils/aabb.ts#L124) |
+| 定义于 | [cocos2d/core/geom-utils/aabb.ts:124](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/geom-utils/aabb.ts#L124) |
 
 
 
@@ -55,7 +55,7 @@ Aabb
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/aabb.ts:128](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/geom-utils/aabb.ts#L128) |
+| 定义于 | [cocos2d/core/geom-utils/aabb.ts:128](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/geom-utils/aabb.ts#L128) |
 
 
 
@@ -66,7 +66,7 @@ Aabb
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/geom-utils/aabb.ts:132](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/geom-utils/aabb.ts#L132) |
+| 定义于 | [cocos2d/core/geom-utils/aabb.ts:132](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/geom-utils/aabb.ts#L132) |
 
 
 
@@ -84,7 +84,7 @@ create a new aabb
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> 
-| 定义于 | [cocos2d/core/geom-utils/aabb.ts:52](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/geom-utils/aabb.ts#L52) |
+| 定义于 | [cocos2d/core/geom-utils/aabb.ts:52](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/geom-utils/aabb.ts#L52) |
 
 ###### 参数列表
 - `px` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> X coordinates for aabb's original point
@@ -102,7 +102,7 @@ clone a new aabb
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> 
-| 定义于 | [cocos2d/core/geom-utils/aabb.ts:67](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/geom-utils/aabb.ts#L67) |
+| 定义于 | [cocos2d/core/geom-utils/aabb.ts:67](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/geom-utils/aabb.ts#L67) |
 
 ###### 参数列表
 - `a` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> the source aabb
@@ -115,7 +115,7 @@ copy the values from one aabb to another
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> 
-| 定义于 | [cocos2d/core/geom-utils/aabb.ts:78](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/geom-utils/aabb.ts#L78) |
+| 定义于 | [cocos2d/core/geom-utils/aabb.ts:78](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/geom-utils/aabb.ts#L78) |
 
 ###### 参数列表
 - `out` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> the receiving aabb
@@ -129,7 +129,7 @@ create a new aabb from two corner points
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> 
-| 定义于 | [cocos2d/core/geom-utils/aabb.ts:92](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/geom-utils/aabb.ts#L92) |
+| 定义于 | [cocos2d/core/geom-utils/aabb.ts:92](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/geom-utils/aabb.ts#L92) |
 
 ###### 参数列表
 - `out` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> the receiving aabb
@@ -144,7 +144,7 @@ Set the components of a aabb to the given values
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> 
-| 定义于 | [cocos2d/core/geom-utils/aabb.ts:106](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/geom-utils/aabb.ts#L106) |
+| 定义于 | [cocos2d/core/geom-utils/aabb.ts:106](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/geom-utils/aabb.ts#L106) |
 
 ###### 参数列表
 - `out` <a href="../classes/geomUtils.Aabb.html" class="crosslink">geomUtils.Aabb</a> the receiving aabb
@@ -162,7 +162,7 @@ Get the bounding points of this shape
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/aabb.ts:144](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/geom-utils/aabb.ts#L144) |
+| 定义于 | [cocos2d/core/geom-utils/aabb.ts:144](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/geom-utils/aabb.ts#L144) |
 
 ###### 参数列表
 - `minPos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -175,7 +175,7 @@ Transform this shape
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/aabb.ts:155](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/geom-utils/aabb.ts#L155) |
+| 定义于 | [cocos2d/core/geom-utils/aabb.ts:155](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/geom-utils/aabb.ts#L155) |
 
 ###### 参数列表
 - `m` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the transform matrix

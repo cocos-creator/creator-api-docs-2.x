@@ -24,7 +24,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1576](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCMacro.js#L1576) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1576](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCMacro.js#L1576) |
 
 
 
@@ -35,7 +35,7 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1580](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCMacro.js#L1580) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1580](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCMacro.js#L1580) |
 
 
 
@@ -46,6 +46,6 @@ Parent Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/platform/CCMacro.js:1584](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/platform/CCMacro.js#L1584) |
+| Defined in | [cocos2d/core/platform/CCMacro.js:1584](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/platform/CCMacro.js#L1584) |
 
 

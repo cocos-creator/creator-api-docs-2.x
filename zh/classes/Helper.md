@@ -2,8 +2,7 @@
 
 
 
-模块: [cc](../modules/cc.md)
-父模块: [cc.AssetManager](../modules/cc.AssetManager.md)
+模块: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
 提供一些辅助方法，helper 是一个单例, 所有成员能通过 `cc.assetManager.utils` 访问
@@ -40,7 +39,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/asset-manager/helper.js:42](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/helper.js#L42) |
+| 定义于 | [cocos2d/core/asset-manager/helper.js:42](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/helper.js#L42) |
 
 ###### 参数列表
 - `base64` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> the encoded uuid
@@ -59,7 +58,7 @@ var originalUuid = decodeUuid(uuid); // fc991dd7-0033-4b80-9d41-c8a86a702e59
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/asset-manager/helper.js:62](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/helper.js#L62) |
+| 定义于 | [cocos2d/core/asset-manager/helper.js:62](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/helper.js#L62) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> url
@@ -78,7 +77,7 @@ var uuid = getUuidFromURL(url); // fc991dd7-0033-4b80-9d41-c8a86a702e59
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| 定义于 | [cocos2d/core/asset-manager/helper.js:91](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/helper.js#L91) |
+| 定义于 | [cocos2d/core/asset-manager/helper.js:91](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/helper.js#L91) |
 
 ###### 参数列表
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The uuid of asset
@@ -103,7 +102,7 @@ var url = getUrlWithUuid('fcmR3XADNLgJ1ByKhqcC5Z', {isNative: true, nativeExt: '
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/asset-manager/helper.js:130](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/helper.js#L130) |
+| 定义于 | [cocos2d/core/asset-manager/helper.js:130](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/helper.js#L130) |
 
 ###### 参数列表
 - `asset` Any asset
@@ -116,7 +115,7 @@ var url = getUrlWithUuid('fcmR3XADNLgJ1ByKhqcC5Z', {isNative: true, nativeExt: '
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| 定义于 | [cocos2d/core/asset-manager/helper.js:148](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/helper.js#L148) |
+| 定义于 | [cocos2d/core/asset-manager/helper.js:148](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/helper.js#L148) |
 
 ###### 参数列表
 - `url` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> url

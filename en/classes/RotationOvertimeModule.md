@@ -37,7 +37,7 @@ The rotation module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/rotation-overtime.ts:19](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/rotation-overtime.ts#L19) |
+| Defined in | [cocos2d/core/3d/particle/animator/rotation-overtime.ts:19](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/rotation-overtime.ts#L19) |
 
 
 
@@ -48,7 +48,7 @@ The rotation module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/rotation-overtime.ts:30](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/rotation-overtime.ts#L30) |
+| Defined in | [cocos2d/core/3d/particle/animator/rotation-overtime.ts:30](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/rotation-overtime.ts#L30) |
 
 
 
@@ -59,7 +59,7 @@ The rotation module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/rotation-overtime.ts:49](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/rotation-overtime.ts#L49) |
+| Defined in | [cocos2d/core/3d/particle/animator/rotation-overtime.ts:44](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/rotation-overtime.ts#L44) |
 
 
 
@@ -70,7 +70,7 @@ The rotation module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/rotation-overtime.ts:61](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/rotation-overtime.ts#L61) |
+| Defined in | [cocos2d/core/3d/particle/animator/rotation-overtime.ts:59](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/rotation-overtime.ts#L59) |
 
 
 
@@ -81,7 +81,7 @@ The rotation module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/rotation-overtime.ts:73](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/3d/particle/animator/rotation-overtime.ts#L73) |
+| Defined in | [cocos2d/core/3d/particle/animator/rotation-overtime.ts:74](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/particle/animator/rotation-overtime.ts#L74) |
 
 
 

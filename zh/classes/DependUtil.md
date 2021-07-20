@@ -2,8 +2,7 @@
 
 
 
-模块: [cc](../modules/cc.md)
-父模块: [cc.AssetManager](../modules/cc.AssetManager.md)
+模块: [cc.AssetManager](../modules/cc.AssetManager.md)
 
 
 控制资源的依赖列表，这是一个单例, 所有成员能通过 `cc.assetManager.dependUtil` 访问
@@ -38,7 +37,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/asset-manager/depend-util.js:53](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/depend-util.js#L53) |
+| 定义于 | [cocos2d/core/asset-manager/depend-util.js:53](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/depend-util.js#L53) |
 
 ###### 参数列表
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> asset's uuid
@@ -56,7 +55,7 @@ var dep = dependUtil.getNativeDep('fcmR3XADNLgJ1ByKhqcC5Z');
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string[]</a> 
-| 定义于 | [cocos2d/core/asset-manager/depend-util.js:76](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/depend-util.js#L76) |
+| 定义于 | [cocos2d/core/asset-manager/depend-util.js:76](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/depend-util.js#L76) |
 
 ###### 参数列表
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> asset's uuid
@@ -75,7 +74,7 @@ var deps = dependUtil.getDeps('fcmR3XADNLgJ1ByKhqcC5Z');
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string[]</a> 
-| 定义于 | [cocos2d/core/asset-manager/depend-util.js:100](https://github.com/cocos-creator/engine/blob/e361a2e93351aacda485d2038abd4eba2998a298/cocos2d/core/asset-manager/depend-util.js#L100) |
+| 定义于 | [cocos2d/core/asset-manager/depend-util.js:100](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/depend-util.js#L100) |
 
 ###### 参数列表
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The asset's uuid
