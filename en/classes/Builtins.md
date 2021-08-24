@@ -36,7 +36,7 @@ Initialize
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/builtins.js:66](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/builtins.js#L66) |
+| Defined in | [cocos2d/core/asset-manager/builtins.js:66](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/asset-manager/builtins.js#L66) |
 
 ###### Parameters
 - `cb` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> Callback when finish loading built-in assets
@@ -49,7 +49,7 @@ Get the built-in asset using specific type and name.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Asset.html" class="crosslink">Asset</a> &#124; <a href="../classes/Cache.html" class="crosslink">Cache</a> 
-| Defined in | [cocos2d/core/asset-manager/builtins.js:90](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/builtins.js#L90) |
+| Defined in | [cocos2d/core/asset-manager/builtins.js:90](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/asset-manager/builtins.js#L90) |
 
 ###### Parameters
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The type of asset, such as `effect`
@@ -67,7 +67,7 @@ Clear all builtin assets
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/builtins.js:114](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/asset-manager/builtins.js#L114) |
+| Defined in | [cocos2d/core/asset-manager/builtins.js:114](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/asset-manager/builtins.js#L114) |
 
 
 

@@ -36,7 +36,7 @@ Class has x y z w properties
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:53](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/spec/i-common.ts#L53) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:53](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-common.ts#L53) |
 
 
 
@@ -47,7 +47,7 @@ Class has x y z w properties
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:57](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/spec/i-common.ts#L57) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:57](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-common.ts#L57) |
 
 
 
@@ -58,7 +58,7 @@ Class has x y z w properties
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:61](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/spec/i-common.ts#L61) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:61](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-common.ts#L61) |
 
 
 
@@ -69,7 +69,7 @@ Class has x y z w properties
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:65](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/spec/i-common.ts#L65) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-common.ts:65](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-common.ts#L65) |
 
 
 

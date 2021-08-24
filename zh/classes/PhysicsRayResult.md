@@ -40,7 +40,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:41](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L41) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:41](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L41) |
 
 
 
@@ -51,7 +51,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:53](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L53) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:53](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L53) |
 
 
 
@@ -62,7 +62,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Collider3D.html" class="crosslink">Collider3D</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:65](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L65) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:65](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L65) |
 
 
 
@@ -79,7 +79,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:81](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L81) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:81](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L81) |
 
 ###### 参数列表
 - `hitPoint` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -93,7 +93,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:97](https://github.com/cocos-creator/engine/blob/5a29bc48b8b66d479bb93d92e64418ce8a7c0f34/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L97) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-ray-result.ts:97](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/framework/physics-ray-result.ts#L97) |
 
 
 
