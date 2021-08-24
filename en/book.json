@@ -38,15 +38,15 @@
                 "links": [
                     {
                         "name": "3.3",
-                        "link": "http://docs.cocos.com/creator/3.3/api/en"
+                        "link": "//docs.cocos.com/creator/3.3/api/en"
                     },
                     {
                         "name": "3.2",
-                        "link": "http://docs.cocos.com/creator/3.2/api/en"
+                        "link": "//docs.cocos.com/creator/3.2/api/en"
                     },
                     {
                         "name": "3.1",
-                        "link": "http://docs.cocos.com/creator/3.1/api/en"
+                        "link": "//docs.cocos.com/creator/3.1/api/en"
                     },
                     {
                         "name": "3.0",
