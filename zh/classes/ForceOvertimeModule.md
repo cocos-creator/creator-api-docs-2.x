@@ -37,7 +37,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/force-overtime.ts:23](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/particle/animator/force-overtime.ts#L23) |
+| 定义于 | [cocos2d/core/3d/particle/animator/force-overtime.ts:23](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/particle/animator/force-overtime.ts#L23) |
 
 
 
@@ -48,7 +48,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Space |
-| 定义于 | [cocos2d/core/3d/particle/animator/force-overtime.ts:31](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/particle/animator/force-overtime.ts#L31) |
+| 定义于 | [cocos2d/core/3d/particle/animator/force-overtime.ts:31](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/particle/animator/force-overtime.ts#L31) |
 
 
 
@@ -59,7 +59,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/force-overtime.ts:41](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/particle/animator/force-overtime.ts#L41) |
+| 定义于 | [cocos2d/core/3d/particle/animator/force-overtime.ts:41](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/particle/animator/force-overtime.ts#L41) |
 
 
 
@@ -70,7 +70,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/force-overtime.ts:52](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/particle/animator/force-overtime.ts#L52) |
+| 定义于 | [cocos2d/core/3d/particle/animator/force-overtime.ts:52](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/particle/animator/force-overtime.ts#L52) |
 
 
 
@@ -81,7 +81,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/force-overtime.ts:63](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/particle/animator/force-overtime.ts#L63) |
+| 定义于 | [cocos2d/core/3d/particle/animator/force-overtime.ts:63](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/particle/animator/force-overtime.ts#L63) |
 
 
 

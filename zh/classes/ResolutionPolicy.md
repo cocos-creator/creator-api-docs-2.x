@@ -49,7 +49,7 @@ Distortion can occur, and the application may appear stretched or compressed.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCView.js:1484](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1484) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1477](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1477) |
 
 
 
@@ -61,7 +61,7 @@ while maintaining the original aspect ratio of the application.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCView.js:1493](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1493) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1486](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1486) |
 
 
 
@@ -73,7 +73,7 @@ aspect ratio of the application. Borders can appear on two sides of the applicat
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCView.js:1502](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1502) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1495](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1495) |
 
 
 
@@ -87,7 +87,7 @@ aspect ratios
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCView.js:1511](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1511) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1504](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1504) |
 
 
 
@@ -101,7 +101,7 @@ aspect ratios
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCView.js:1522](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1522) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1515](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1515) |
 
 
 
@@ -112,7 +112,7 @@ aspect ratios
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCView.js:1533](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1533) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1526](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1526) |
 
 
 
@@ -129,7 +129,7 @@ aspect ratios
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1399](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1399) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1392](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1392) |
 
 ###### 参数列表
 - `containerStg` <a href="../classes/ContainerStrategy.html" class="crosslink">ContainerStrategy</a> The container strategy
@@ -142,7 +142,7 @@ aspect ratios
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1418](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1418) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1411](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1411) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -155,7 +155,7 @@ aspect ratios
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/platform/CCView.js:1429](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1429) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1422](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1422) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -168,7 +168,7 @@ aspect ratios
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1444](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1444) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1437](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1437) |
 
 ###### 参数列表
 - `view` <a href="../classes/View.html" class="crosslink">View</a> The target view
@@ -180,7 +180,7 @@ aspect ratios
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1455](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1455) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1448](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1448) |
 
 ###### 参数列表
 - `containerStg` <a href="../classes/ContainerStrategy.html" class="crosslink">ContainerStrategy</a> 
@@ -192,7 +192,7 @@ aspect ratios
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCView.js:1467](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/platform/CCView.js#L1467) |
+| 定义于 | [cocos2d/core/platform/CCView.js:1460](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/platform/CCView.js#L1460) |
 
 ###### 参数列表
 - `contentStg` <a href="../classes/ContentStrategy.html" class="crosslink">ContentStrategy</a> 

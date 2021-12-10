@@ -34,7 +34,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
-| 定义于 | [cocos2d/core/utils/blend-func.js:21](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/utils/blend-func.js#L21) |
+| 定义于 | [cocos2d/core/utils/blend-func.js:21](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/utils/blend-func.js#L21) |
 
 ##### 示例
 
@@ -50,7 +50,7 @@ sprite.srcBlendFactor = cc.macro.BlendFactor.ONE;
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../enums/macro.BlendFactor.html" class="crosslink">macro.BlendFactor</a> |
-| 定义于 | [cocos2d/core/utils/blend-func.js:45](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/utils/blend-func.js#L45) |
+| 定义于 | [cocos2d/core/utils/blend-func.js:45](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/utils/blend-func.js#L45) |
 
 ##### 示例
 

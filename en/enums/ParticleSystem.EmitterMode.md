@@ -22,7 +22,7 @@ Enum for emitter modes
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:80](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/particle/CCParticleSystem.js#L80) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:80](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/particle/CCParticleSystem.js#L80) |
 
 
 
@@ -33,6 +33,6 @@ Enum for emitter modes
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/particle/CCParticleSystem.js:86](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/particle/CCParticleSystem.js#L86) |
+| Defined in | [cocos2d/particle/CCParticleSystem.js:86](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/particle/CCParticleSystem.js#L86) |
 
 

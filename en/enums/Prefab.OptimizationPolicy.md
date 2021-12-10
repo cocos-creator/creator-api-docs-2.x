@@ -26,7 +26,7 @@ When you first create an instance, the behavior is the same as SINGLE_INSTANCE. 
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCPrefab.js:41](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/assets/CCPrefab.js#L41) |
+| Defined in | [cocos2d/core/assets/CCPrefab.js:41](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/assets/CCPrefab.js#L41) |
 
 
 
@@ -39,7 +39,7 @@ When this prefab will usually create only one instances, please select this opti
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCPrefab.js:50](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/assets/CCPrefab.js#L50) |
+| Defined in | [cocos2d/core/assets/CCPrefab.js:50](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/assets/CCPrefab.js#L50) |
 
 
 
@@ -53,6 +53,6 @@ It is also recommended to select this option if the prefab instance in the scene
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/assets/CCPrefab.js:61](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/assets/CCPrefab.js#L61) |
+| Defined in | [cocos2d/core/assets/CCPrefab.js:61](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/assets/CCPrefab.js#L61) |
 
 

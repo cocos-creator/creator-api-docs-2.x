@@ -52,7 +52,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:265](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L265) |
+| Defined in | [cocos2d/core/CCNode.js:265](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L265) |
 
 
 
@@ -63,7 +63,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:272](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L272) |
+| Defined in | [cocos2d/core/CCNode.js:272](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L272) |
 
 
 
@@ -74,7 +74,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:279](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L279) |
+| Defined in | [cocos2d/core/CCNode.js:279](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L279) |
 
 
 
@@ -85,7 +85,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:286](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L286) |
+| Defined in | [cocos2d/core/CCNode.js:286](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L286) |
 
 
 
@@ -96,7 +96,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:294](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L294) |
+| Defined in | [cocos2d/core/CCNode.js:294](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L294) |
 
 
 
@@ -107,7 +107,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:301](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L301) |
+| Defined in | [cocos2d/core/CCNode.js:301](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L301) |
 
 
 
@@ -118,7 +118,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:308](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L308) |
+| Defined in | [cocos2d/core/CCNode.js:308](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L308) |
 
 
 
@@ -129,7 +129,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:315](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L315) |
+| Defined in | [cocos2d/core/CCNode.js:315](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L315) |
 
 
 
@@ -140,7 +140,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:322](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L322) |
+| Defined in | [cocos2d/core/CCNode.js:322](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L322) |
 
 
 
@@ -151,7 +151,7 @@ The event type supported by Node
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:329](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L329) |
+| Defined in | [cocos2d/core/CCNode.js:329](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L329) |
 
 
 
@@ -164,7 +164,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:337](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L337) |
+| Defined in | [cocos2d/core/CCNode.js:337](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L337) |
 
 
 
@@ -177,7 +177,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:347](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L347) |
+| Defined in | [cocos2d/core/CCNode.js:347](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L347) |
 
 
 
@@ -190,7 +190,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:357](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L357) |
+| Defined in | [cocos2d/core/CCNode.js:357](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L357) |
 
 
 
@@ -203,7 +203,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:367](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L367) |
+| Defined in | [cocos2d/core/CCNode.js:367](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L367) |
 
 
 
@@ -216,7 +216,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:377](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L377) |
+| Defined in | [cocos2d/core/CCNode.js:377](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L377) |
 
 
 
@@ -229,7 +229,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:387](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L387) |
+| Defined in | [cocos2d/core/CCNode.js:387](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L387) |
 
 
 
@@ -240,7 +240,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:397](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L397) |
+| Defined in | [cocos2d/core/CCNode.js:397](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L397) |
 
 
 
@@ -251,7 +251,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:404](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L404) |
+| Defined in | [cocos2d/core/CCNode.js:404](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L404) |
 
 
 
@@ -262,7 +262,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:411](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L411) |
+| Defined in | [cocos2d/core/CCNode.js:411](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L411) |
 
 
 
@@ -273,7 +273,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:418](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L418) |
+| Defined in | [cocos2d/core/CCNode.js:418](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L418) |
 
 
 
@@ -284,7 +284,7 @@ if the event callback have heavy logic it may have great performance impact, try
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/CCNode.js:425](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/CCNode.js#L425) |
+| Defined in | [cocos2d/core/CCNode.js:425](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/CCNode.js#L425) |
 
 
 

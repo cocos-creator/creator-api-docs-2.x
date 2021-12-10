@@ -42,7 +42,7 @@ frustum
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/geom-utils/frustum.ts:50](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/frustum.ts#L50) |
+| Defined in | [cocos2d/core/geom-utils/frustum.ts:50](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/frustum.ts#L50) |
 
 
 
@@ -53,7 +53,7 @@ frustum
 | meta | description |
 |------|-------------|
 | Type | Plane |
-| Defined in | [cocos2d/core/geom-utils/frustum.ts:128](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/frustum.ts#L128) |
+| Defined in | [cocos2d/core/geom-utils/frustum.ts:128](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/frustum.ts#L128) |
 
 
 
@@ -64,7 +64,7 @@ frustum
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3[]</a> |
-| Defined in | [cocos2d/core/geom-utils/frustum.ts:132](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/frustum.ts#L132) |
+| Defined in | [cocos2d/core/geom-utils/frustum.ts:132](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/frustum.ts#L132) |
 
 
 
@@ -82,7 +82,7 @@ create a new frustum
 | meta | description |
 |------|-------------|
 | Returns | Frustum 
-| Defined in | [cocos2d/core/geom-utils/frustum.ts:89](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/frustum.ts#L89) |
+| Defined in | [cocos2d/core/geom-utils/frustum.ts:89](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/frustum.ts#L89) |
 
 
 
@@ -93,7 +93,7 @@ Clone a frustum
 | meta | description |
 |------|-------------|
 | Returns | Frustum 
-| Defined in | [cocos2d/core/geom-utils/frustum.ts:99](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/frustum.ts#L99) |
+| Defined in | [cocos2d/core/geom-utils/frustum.ts:99](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/frustum.ts#L99) |
 
 ###### Parameters
 - `f` Frustum 
@@ -106,7 +106,7 @@ Copy the values from one frustum to another
 | meta | description |
 |------|-------------|
 | Returns | Frustum 
-| Defined in | [cocos2d/core/geom-utils/frustum.ts:110](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/frustum.ts#L110) |
+| Defined in | [cocos2d/core/geom-utils/frustum.ts:110](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/frustum.ts#L110) |
 
 ###### Parameters
 - `out` Frustum 
@@ -120,7 +120,7 @@ Note that the resulting planes are not normalized under normal mode.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/frustum.ts:150](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/frustum.ts#L150) |
+| Defined in | [cocos2d/core/geom-utils/frustum.ts:150](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/frustum.ts#L150) |
 
 ###### Parameters
 - `m` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the view-projection matrix
@@ -133,7 +133,7 @@ transform by matrix
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/frustum.ts:198](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/frustum.ts#L198) |
+| Defined in | [cocos2d/core/geom-utils/frustum.ts:198](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/frustum.ts#L198) |
 
 ###### Parameters
 - `mat` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 

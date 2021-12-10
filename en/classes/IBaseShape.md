@@ -37,7 +37,7 @@ Base shape interface.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Collider3D.html" class="crosslink">Collider3D</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:37](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L37) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:37](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L37) |
 
 
 
@@ -48,7 +48,7 @@ Base shape interface.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/RigidBody3D.html" class="crosslink">RigidBody3D</a> &#124; Null |
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:41](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L41) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:41](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L41) |
 
 
 
@@ -59,7 +59,7 @@ Base shape interface.
 | meta | description |
 |------|-------------|
 | Type | Any |
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:45](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L45) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:45](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L45) |
 
 
 
@@ -70,7 +70,7 @@ Base shape interface.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:49](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L49) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:49](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L49) |
 
 
 
@@ -81,7 +81,7 @@ Base shape interface.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:53](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L53) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:53](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L53) |
 
 
 

@@ -35,7 +35,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:39](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/framework/physics-interface.ts#L39) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:39](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/framework/physics-interface.ts#L39) |
 
 
 
@@ -46,7 +46,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Collider3D.html" class="crosslink">Collider3D</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:49](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/framework/physics-interface.ts#L49) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:49](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/framework/physics-interface.ts#L49) |
 
 
 
@@ -57,7 +57,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Collider3D.html" class="crosslink">Collider3D</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:59](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/framework/physics-interface.ts#L59) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:59](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/framework/physics-interface.ts#L59) |
 
 
 

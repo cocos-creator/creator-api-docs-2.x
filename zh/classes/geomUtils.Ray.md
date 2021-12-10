@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 射线。
@@ -42,7 +43,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/ray.ts:136](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/ray.ts#L136) |
+| 定义于 | [cocos2d/core/geom-utils/ray.ts:136](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/ray.ts#L136) |
 
 
 
@@ -55,7 +56,7 @@ Direction
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/ray.ts:145](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/ray.ts#L145) |
+| 定义于 | [cocos2d/core/geom-utils/ray.ts:145](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/ray.ts#L145) |
 
 
 
@@ -73,7 +74,7 @@ Direction
 | meta | description |
 |------|-------------|
 | 返回 | Ray 
-| 定义于 | [cocos2d/core/geom-utils/ray.ts:42](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/ray.ts#L42) |
+| 定义于 | [cocos2d/core/geom-utils/ray.ts:42](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/ray.ts#L42) |
 
 ###### 参数列表
 - `ox` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The x part of the starting point.
@@ -91,7 +92,7 @@ Direction
 | meta | description |
 |------|-------------|
 | 返回 | Ray 
-| 定义于 | [cocos2d/core/geom-utils/ray.ts:60](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/ray.ts#L60) |
+| 定义于 | [cocos2d/core/geom-utils/ray.ts:60](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/ray.ts#L60) |
 
 ###### 参数列表
 - `a` Ray Clone target
@@ -104,7 +105,7 @@ Direction
 | meta | description |
 |------|-------------|
 | 返回 | Ray 
-| 定义于 | [cocos2d/core/geom-utils/ray.ts:76](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/ray.ts#L76) |
+| 定义于 | [cocos2d/core/geom-utils/ray.ts:76](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/ray.ts#L76) |
 
 ###### 参数列表
 - `out` Ray Accept the ray of the operation.
@@ -118,7 +119,7 @@ Direction
 | meta | description |
 |------|-------------|
 | 返回 | Ray 
-| 定义于 | [cocos2d/core/geom-utils/ray.ts:93](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/ray.ts#L93) |
+| 定义于 | [cocos2d/core/geom-utils/ray.ts:93](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/ray.ts#L93) |
 
 ###### 参数列表
 - `out` Ray Receive the operating ray.
@@ -133,7 +134,7 @@ Direction
 | meta | description |
 |------|-------------|
 | 返回 | Ray 
-| 定义于 | [cocos2d/core/geom-utils/ray.ts:110](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/ray.ts#L110) |
+| 定义于 | [cocos2d/core/geom-utils/ray.ts:110](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/ray.ts#L110) |
 
 ###### 参数列表
 - `out` Ray Receive the operating ray.
@@ -151,7 +152,7 @@ Direction
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/ray.ts:174](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/geom-utils/ray.ts#L174) |
+| 定义于 | [cocos2d/core/geom-utils/ray.ts:174](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/ray.ts#L174) |
 
 ###### 参数列表
 - `out` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 

@@ -40,7 +40,7 @@ Gets attached root node.
 | meta | description |
 |------|-------------|
 | Returns | cc.Node 
-| Defined in | [extensions/spine/AttachUtil.js:121](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/extensions/spine/AttachUtil.js#L121) |
+| Defined in | [extensions/spine/AttachUtil.js:121](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/extensions/spine/AttachUtil.js#L121) |
 
 
 
@@ -51,7 +51,7 @@ Gets attached node which you want.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">Node[]</a> 
-| Defined in | [extensions/spine/AttachUtil.js:131](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/extensions/spine/AttachUtil.js#L131) |
+| Defined in | [extensions/spine/AttachUtil.js:131](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/extensions/spine/AttachUtil.js#L131) |
 
 ###### Parameters
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -63,7 +63,7 @@ Destroy attached node which you want.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/AttachUtil.js:178](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/extensions/spine/AttachUtil.js#L178) |
+| Defined in | [extensions/spine/AttachUtil.js:178](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/extensions/spine/AttachUtil.js#L178) |
 
 ###### Parameters
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -76,7 +76,7 @@ Traverse all bones to generate the minimum node tree containing the given bone n
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">Node[]</a> 
-| Defined in | [extensions/spine/AttachUtil.js:213](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/extensions/spine/AttachUtil.js#L213) |
+| Defined in | [extensions/spine/AttachUtil.js:213](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/extensions/spine/AttachUtil.js#L213) |
 
 ###### Parameters
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -88,7 +88,7 @@ Destroy all attached node.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/spine/AttachUtil.js:260](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/extensions/spine/AttachUtil.js#L260) |
+| Defined in | [extensions/spine/AttachUtil.js:260](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/extensions/spine/AttachUtil.js#L260) |
 
 
 
@@ -99,7 +99,7 @@ Traverse all bones to generate a tree containing all bones nodes, NOTE that make
 | meta | description |
 |------|-------------|
 | Returns | cc.Node 
-| Defined in | [extensions/spine/AttachUtil.js:279](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/extensions/spine/AttachUtil.js#L279) |
+| Defined in | [extensions/spine/AttachUtil.js:279](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/extensions/spine/AttachUtil.js#L279) |
 
 
 

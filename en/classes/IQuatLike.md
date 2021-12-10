@@ -36,7 +36,7 @@ Class has x y z w properties
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-common.ts:53](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-common.ts#L53) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-common.ts:53](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/spec/i-common.ts#L53) |
 
 
 
@@ -47,7 +47,7 @@ Class has x y z w properties
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-common.ts:57](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-common.ts#L57) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-common.ts:57](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/spec/i-common.ts#L57) |
 
 
 
@@ -58,7 +58,7 @@ Class has x y z w properties
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-common.ts:61](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-common.ts#L61) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-common.ts:61](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/spec/i-common.ts#L61) |
 
 
 
@@ -69,7 +69,7 @@ Class has x y z w properties
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/3d/physics/spec/i-common.ts:65](https://github.com/cocos-creator/engine/blob/f120e67a8e229233f15e46cc51536723de44fd94/cocos2d/core/3d/physics/spec/i-common.ts#L65) |
+| Defined in | [cocos2d/core/3d/physics/spec/i-common.ts:65](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/physics/spec/i-common.ts#L65) |
 
 
 
