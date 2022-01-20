@@ -22,7 +22,7 @@ The Slider Direction
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSlider.js:39](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/components/CCSlider.js#L39) |
+| Defined in | [cocos2d/core/components/CCSlider.js:39](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/components/CCSlider.js#L39) |
 
 
 
@@ -33,6 +33,6 @@ The Slider Direction
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/CCSlider.js:45](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/components/CCSlider.js#L45) |
+| Defined in | [cocos2d/core/components/CCSlider.js:45](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/components/CCSlider.js#L45) |
 
 

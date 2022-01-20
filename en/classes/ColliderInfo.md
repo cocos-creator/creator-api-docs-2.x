@@ -3,6 +3,7 @@
 
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 Collider Info.
@@ -37,7 +38,7 @@ Collider Info.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Rect.html" class="crosslink">Rect</a> |
-| Defined in | [cocos2d/core/collider/CCCollisionManager.js:71](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/collider/CCCollisionManager.js#L71) |
+| Defined in | [cocos2d/core/collider/CCCollisionManager.js:71](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/collider/CCCollisionManager.js#L71) |
 
 
 
@@ -48,7 +49,7 @@ Collider Info.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Rect.html" class="crosslink">Rect</a> |
-| Defined in | [cocos2d/core/collider/CCCollisionManager.js:78](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/collider/CCCollisionManager.js#L78) |
+| Defined in | [cocos2d/core/collider/CCCollisionManager.js:78](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/collider/CCCollisionManager.js#L78) |
 
 
 
@@ -59,7 +60,7 @@ Collider Info.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Mat4.html" class="crosslink">Mat4</a> |
-| Defined in | [cocos2d/core/collider/CCCollisionManager.js:85](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/collider/CCCollisionManager.js#L85) |
+| Defined in | [cocos2d/core/collider/CCCollisionManager.js:85](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/collider/CCCollisionManager.js#L85) |
 
 
 
@@ -70,7 +71,7 @@ Collider Info.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/collider/CCCollisionManager.js:92](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/collider/CCCollisionManager.js#L92) |
+| Defined in | [cocos2d/core/collider/CCCollisionManager.js:92](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/collider/CCCollisionManager.js#L92) |
 
 
 
@@ -81,7 +82,7 @@ Collider Info.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/collider/CCCollisionManager.js:99](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/collider/CCCollisionManager.js#L99) |
+| Defined in | [cocos2d/core/collider/CCCollisionManager.js:99](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/collider/CCCollisionManager.js#L99) |
 
 
 
@@ -92,7 +93,7 @@ Collider Info.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> |
-| Defined in | [cocos2d/core/collider/CCCollisionManager.js:106](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/collider/CCCollisionManager.js#L106) |
+| Defined in | [cocos2d/core/collider/CCCollisionManager.js:106](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/collider/CCCollisionManager.js#L106) |
 
 
 

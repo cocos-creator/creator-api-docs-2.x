@@ -46,7 +46,7 @@ All member can be accessed with `cc.assetManager.cacheManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:20](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L20) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:20](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L20) |
 
 
 
@@ -57,7 +57,7 @@ All member can be accessed with `cc.assetManager.cacheManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:33](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L33) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:33](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L33) |
 
 
 
@@ -68,7 +68,7 @@ All member can be accessed with `cc.assetManager.cacheManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:46](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L46) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:46](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L46) |
 
 
 
@@ -79,7 +79,7 @@ All member can be accessed with `cc.assetManager.cacheManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:59](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L59) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:59](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L59) |
 
 
 
@@ -90,7 +90,7 @@ All member can be accessed with `cc.assetManager.cacheManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:72](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L72) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:72](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L72) |
 
 
 
@@ -101,7 +101,7 @@ All member can be accessed with `cc.assetManager.cacheManager`.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Cache.html" class="crosslink">Cache</a> |
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:85](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L85) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:85](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L85) |
 
 
 
@@ -119,7 +119,7 @@ Get cached path with origin url
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:99](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L99) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:99](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L99) |
 
 ###### Parameters
 - `originUrl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -132,7 +132,7 @@ Get temporary path with origin url, this method only works on mini-game platform
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:112](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L112) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:112](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L112) |
 
 ###### Parameters
 - `originUrl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -144,7 +144,7 @@ Clear all caches, please use with caution, If necessary, we recommend using it b
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:125](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L125) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:125](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L125) |
 
 
 
@@ -154,7 +154,7 @@ Clear part of caches with LRU strategy
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:136](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L136) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:136](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L136) |
 
 
 
@@ -164,7 +164,7 @@ Remove cache with origin url
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:147](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/asset-manager/cache-manager.ts#L147) |
+| Defined in | [cocos2d/core/asset-manager/cache-manager.ts:147](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/asset-manager/cache-manager.ts#L147) |
 
 
 

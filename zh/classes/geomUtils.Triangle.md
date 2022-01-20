@@ -43,7 +43,7 @@ Triangle
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/triangle.ts:133](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/triangle.ts#L133) |
+| 定义于 | [cocos2d/core/geom-utils/triangle.ts:133](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/triangle.ts#L133) |
 
 
 
@@ -54,7 +54,7 @@ Triangle
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/triangle.ts:137](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/triangle.ts#L137) |
+| 定义于 | [cocos2d/core/geom-utils/triangle.ts:137](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/triangle.ts#L137) |
 
 
 
@@ -65,7 +65,7 @@ Triangle
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| 定义于 | [cocos2d/core/geom-utils/triangle.ts:141](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/triangle.ts#L141) |
+| 定义于 | [cocos2d/core/geom-utils/triangle.ts:141](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/triangle.ts#L141) |
 
 
 
@@ -83,7 +83,7 @@ create a new triangle
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/geomUtils.Triangle.html" class="crosslink">geomUtils.Triangle</a> 
-| 定义于 | [cocos2d/core/geom-utils/triangle.ts:38](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/triangle.ts#L38) |
+| 定义于 | [cocos2d/core/geom-utils/triangle.ts:38](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/triangle.ts#L38) |
 
 ###### 参数列表
 - `ax` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
@@ -104,7 +104,7 @@ clone a new triangle
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/geomUtils.Triangle.html" class="crosslink">geomUtils.Triangle</a> 
-| 定义于 | [cocos2d/core/geom-utils/triangle.ts:56](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/triangle.ts#L56) |
+| 定义于 | [cocos2d/core/geom-utils/triangle.ts:56](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/triangle.ts#L56) |
 
 ###### 参数列表
 - `t` <a href="../classes/geomUtils.Triangle.html" class="crosslink">geomUtils.Triangle</a> the source plane
@@ -117,7 +117,7 @@ copy the values from one triangle to another
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/geomUtils.Triangle.html" class="crosslink">geomUtils.Triangle</a> 
-| 定义于 | [cocos2d/core/geom-utils/triangle.ts:70](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/triangle.ts#L70) |
+| 定义于 | [cocos2d/core/geom-utils/triangle.ts:70](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/triangle.ts#L70) |
 
 ###### 参数列表
 - `out` <a href="../classes/geomUtils.Triangle.html" class="crosslink">geomUtils.Triangle</a> the receiving triangle
@@ -131,7 +131,7 @@ Create a triangle from three points
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/geomUtils.Triangle.html" class="crosslink">geomUtils.Triangle</a> 
-| 定义于 | [cocos2d/core/geom-utils/triangle.ts:85](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/triangle.ts#L85) |
+| 定义于 | [cocos2d/core/geom-utils/triangle.ts:85](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/triangle.ts#L85) |
 
 ###### 参数列表
 - `out` <a href="../classes/geomUtils.Triangle.html" class="crosslink">geomUtils.Triangle</a> the receiving triangle
@@ -147,7 +147,7 @@ Set the components of a triangle to the given values
 | meta | description |
 |------|-------------|
 | 返回 | Plane 
-| 定义于 | [cocos2d/core/geom-utils/triangle.ts:101](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/geom-utils/triangle.ts#L101) |
+| 定义于 | [cocos2d/core/geom-utils/triangle.ts:101](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/triangle.ts#L101) |
 
 ###### 参数列表
 - `out` <a href="../classes/geomUtils.Triangle.html" class="crosslink">geomUtils.Triangle</a> the receiving plane

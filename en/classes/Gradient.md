@@ -35,7 +35,7 @@ The gradient data of color.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/ColorKey.html" class="crosslink">[ColorKey]</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:70](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/particle/animator/gradient.ts#L70) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:70](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/particle/animator/gradient.ts#L70) |
 
 
 
@@ -46,7 +46,7 @@ The gradient data of color.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/AlphaKey.html" class="crosslink">[AlphaKey]</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:79](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/particle/animator/gradient.ts#L79) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:79](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/particle/animator/gradient.ts#L79) |
 
 
 
@@ -57,7 +57,7 @@ The gradient data of color.
 | meta | description |
 |------|-------------|
 | Type | Mode |
-| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:88](https://github.com/cocos-creator/engine/blob/f7d50d63228ec3047fe054a2d1e1535e90da2bd1/cocos2d/core/3d/particle/animator/gradient.ts#L88) |
+| Defined in | [cocos2d/core/3d/particle/animator/gradient.ts:88](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/particle/animator/gradient.ts#L88) |
 
 
 
