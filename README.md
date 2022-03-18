@@ -1,6 +1,6 @@
 # Cocos Creator Engine API
 
-This repo is for hosting Cocos Creator Engine API website with [Gitbook](https://gitbook.com).
+This repo is for hosting Cocos Creator 2.x Engine API website with [Gitbook](https://gitbook.com).
 
 ## Requirements
 
