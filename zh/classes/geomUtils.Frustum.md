@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 平截头体
@@ -43,7 +42,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> |
-| 定义于 | [cocos2d/core/geom-utils/frustum.ts:50](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/frustum.ts#L50) |
+| 定义于 | [cocos2d/core/geom-utils/frustum.ts:50](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/frustum.ts#L50) |
 
 
 
@@ -54,7 +53,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Plane |
-| 定义于 | [cocos2d/core/geom-utils/frustum.ts:128](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/frustum.ts#L128) |
+| 定义于 | [cocos2d/core/geom-utils/frustum.ts:128](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/frustum.ts#L128) |
 
 
 
@@ -65,7 +64,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Vec3.html" class="crosslink">Vec3[]</a> |
-| 定义于 | [cocos2d/core/geom-utils/frustum.ts:132](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/frustum.ts#L132) |
+| 定义于 | [cocos2d/core/geom-utils/frustum.ts:132](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/frustum.ts#L132) |
 
 
 
@@ -83,7 +82,7 @@ create a new frustum
 | meta | description |
 |------|-------------|
 | 返回 | Frustum 
-| 定义于 | [cocos2d/core/geom-utils/frustum.ts:89](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/frustum.ts#L89) |
+| 定义于 | [cocos2d/core/geom-utils/frustum.ts:89](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/frustum.ts#L89) |
 
 
 
@@ -94,7 +93,7 @@ Clone a frustum
 | meta | description |
 |------|-------------|
 | 返回 | Frustum 
-| 定义于 | [cocos2d/core/geom-utils/frustum.ts:99](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/frustum.ts#L99) |
+| 定义于 | [cocos2d/core/geom-utils/frustum.ts:99](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/frustum.ts#L99) |
 
 ###### 参数列表
 - `f` Frustum 
@@ -107,7 +106,7 @@ Copy the values from one frustum to another
 | meta | description |
 |------|-------------|
 | 返回 | Frustum 
-| 定义于 | [cocos2d/core/geom-utils/frustum.ts:110](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/frustum.ts#L110) |
+| 定义于 | [cocos2d/core/geom-utils/frustum.ts:110](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/frustum.ts#L110) |
 
 ###### 参数列表
 - `out` Frustum 
@@ -120,7 +119,7 @@ Copy the values from one frustum to another
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/frustum.ts:150](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/frustum.ts#L150) |
+| 定义于 | [cocos2d/core/geom-utils/frustum.ts:150](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/frustum.ts#L150) |
 
 ###### 参数列表
 - `m` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> the view-projection matrix
@@ -133,7 +132,7 @@ Copy the values from one frustum to another
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/geom-utils/frustum.ts:198](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/frustum.ts#L198) |
+| 定义于 | [cocos2d/core/geom-utils/frustum.ts:198](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/frustum.ts#L198) |
 
 ###### 参数列表
 - `mat` <a href="../classes/Mat4.html" class="crosslink">Mat4</a> 

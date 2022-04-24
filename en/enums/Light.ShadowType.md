@@ -24,7 +24,7 @@ The shadow type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:97](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/CCLightComponent.js#L97) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:97](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/CCLightComponent.js#L97) |
 
 
 
@@ -35,7 +35,7 @@ The shadow type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:106](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/CCLightComponent.js#L106) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:106](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/CCLightComponent.js#L106) |
 
 
 
@@ -46,7 +46,7 @@ The shadow type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:115](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/CCLightComponent.js#L115) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:115](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/CCLightComponent.js#L115) |
 
 
 
@@ -57,6 +57,6 @@ The shadow type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/CCLightComponent.js:124](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/CCLightComponent.js#L124) |
+| Defined in | [cocos2d/core/3d/CCLightComponent.js:124](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/CCLightComponent.js#L124) |
 
 

@@ -40,7 +40,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | cc.Node 
-| 定义于 | [extensions/spine/AttachUtil.js:121](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/extensions/spine/AttachUtil.js#L121) |
+| 定义于 | [extensions/spine/AttachUtil.js:121](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/extensions/spine/AttachUtil.js#L121) |
 
 
 
@@ -51,7 +51,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node[]</a> 
-| 定义于 | [extensions/spine/AttachUtil.js:131](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/extensions/spine/AttachUtil.js#L131) |
+| 定义于 | [extensions/spine/AttachUtil.js:131](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/extensions/spine/AttachUtil.js#L131) |
 
 ###### 参数列表
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -63,7 +63,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/AttachUtil.js:178](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/extensions/spine/AttachUtil.js#L178) |
+| 定义于 | [extensions/spine/AttachUtil.js:178](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/extensions/spine/AttachUtil.js#L178) |
 
 ###### 参数列表
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -76,7 +76,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node[]</a> 
-| 定义于 | [extensions/spine/AttachUtil.js:213](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/extensions/spine/AttachUtil.js#L213) |
+| 定义于 | [extensions/spine/AttachUtil.js:213](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/extensions/spine/AttachUtil.js#L213) |
 
 ###### 参数列表
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -88,7 +88,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/spine/AttachUtil.js:260](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/extensions/spine/AttachUtil.js#L260) |
+| 定义于 | [extensions/spine/AttachUtil.js:260](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/extensions/spine/AttachUtil.js#L260) |
 
 
 
@@ -99,7 +99,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | cc.Node 
-| 定义于 | [extensions/spine/AttachUtil.js:279](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/extensions/spine/AttachUtil.js#L279) |
+| 定义于 | [extensions/spine/AttachUtil.js:279](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/extensions/spine/AttachUtil.js#L279) |
 
 
 

@@ -35,7 +35,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Keyframe |
-| 定义于 | [cocos2d/core/3d/particle/curve.ts:132](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/particle/curve.ts#L132) |
+| 定义于 | [cocos2d/core/3d/particle/curve.ts:132](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/curve.ts#L132) |
 
 
 
@@ -46,7 +46,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../enums/WrapMode.html" class="crosslink">WrapMode</a> |
-| 定义于 | [cocos2d/core/3d/particle/curve.ts:141](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/particle/curve.ts#L141) |
+| 定义于 | [cocos2d/core/3d/particle/curve.ts:141](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/curve.ts#L141) |
 
 
 
@@ -57,7 +57,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../enums/WrapMode.html" class="crosslink">WrapMode</a> |
-| 定义于 | [cocos2d/core/3d/particle/curve.ts:151](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/particle/curve.ts#L151) |
+| 定义于 | [cocos2d/core/3d/particle/curve.ts:151](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/curve.ts#L151) |
 
 
 

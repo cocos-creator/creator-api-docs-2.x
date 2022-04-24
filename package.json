@@ -18,8 +18,8 @@
     "gulp": "^3.9.1"
   },
   "scripts": {
-    "build-md-zh": "gulp build-md --lang zh --engine ../fireball/engine",
-    "build-md-en": "gulp build-md --lang en --engine ../fireball/engine",
+    "build-md-zh": "gulp build-md --lang zh --engine ../cocos-engine",
+    "build-md-en": "gulp build-md --lang en --engine ../cocos-engine",
     "build-md": "npm run build-md-zh && npm run build-md-en",
     "build-tsd": "gulp build-tsd --engine ../fireball/engine --dest ../fireball/utils/api/creator.d.ts",
     "build": "gitbook build",

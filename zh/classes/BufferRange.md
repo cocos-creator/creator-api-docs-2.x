@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 The class BufferRange denotes a range of the buffer.
@@ -33,7 +34,7 @@ The class BufferRange denotes a range of the buffer.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/mesh/mesh-data.js:39](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/mesh/mesh-data.js#L39) |
+| 定义于 | [cocos2d/core/mesh/mesh-data.js:39](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/mesh/mesh-data.js#L39) |
 
 
 
@@ -44,7 +45,7 @@ The class BufferRange denotes a range of the buffer.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/mesh/mesh-data.js:44](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/mesh/mesh-data.js#L44) |
+| 定义于 | [cocos2d/core/mesh/mesh-data.js:44](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/mesh/mesh-data.js#L44) |
 
 
 
