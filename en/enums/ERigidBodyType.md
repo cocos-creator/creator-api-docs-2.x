@@ -24,7 +24,7 @@ The rigid body type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:35](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/physics/framework/physics-enum.ts#L35) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:35](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/physics/framework/physics-enum.ts#L35) |
 
 
 
@@ -35,7 +35,7 @@ The rigid body type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:39](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/physics/framework/physics-enum.ts#L39) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:39](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/physics/framework/physics-enum.ts#L39) |
 
 
 
@@ -46,6 +46,6 @@ The rigid body type
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:43](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/physics/framework/physics-enum.ts#L43) |
+| Defined in | [cocos2d/core/3d/physics/framework/physics-enum.ts:43](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/physics/framework/physics-enum.ts#L43) |
 
 

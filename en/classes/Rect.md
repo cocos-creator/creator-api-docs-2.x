@@ -4,7 +4,6 @@ Extends [`ValueType`](ValueType.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 A 2D rectangle defined by x, y position and width, height.
@@ -60,7 +59,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:77](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L77) |
+| Defined in | [cocos2d/core/value-types/rect.ts:77](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L77) |
 
 
 
@@ -71,7 +70,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:81](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L81) |
+| Defined in | [cocos2d/core/value-types/rect.ts:81](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L81) |
 
 
 
@@ -82,7 +81,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:85](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L85) |
+| Defined in | [cocos2d/core/value-types/rect.ts:85](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L85) |
 
 
 
@@ -93,7 +92,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:89](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L89) |
+| Defined in | [cocos2d/core/value-types/rect.ts:89](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L89) |
 
 
 
@@ -104,7 +103,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:329](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L329) |
+| Defined in | [cocos2d/core/value-types/rect.ts:329](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L329) |
 
 
 
@@ -115,7 +114,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:343](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L343) |
+| Defined in | [cocos2d/core/value-types/rect.ts:343](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L343) |
 
 
 
@@ -126,7 +125,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:358](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L358) |
+| Defined in | [cocos2d/core/value-types/rect.ts:358](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L358) |
 
 
 
@@ -137,7 +136,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:371](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L371) |
+| Defined in | [cocos2d/core/value-types/rect.ts:371](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L371) |
 
 
 
@@ -148,7 +147,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:384](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L384) |
+| Defined in | [cocos2d/core/value-types/rect.ts:384](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L384) |
 
 
 
@@ -159,7 +158,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:398](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L398) |
+| Defined in | [cocos2d/core/value-types/rect.ts:398](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L398) |
 
 
 
@@ -170,7 +169,7 @@ A 2D rectangle defined by x, y position and width, height.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Size.html" class="crosslink">Size</a> |
-| Defined in | [cocos2d/core/value-types/rect.ts:411](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L411) |
+| Defined in | [cocos2d/core/value-types/rect.ts:411](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L411) |
 
 
 
@@ -188,7 +187,7 @@ see <a href="../modules/cc.html#method_rect" class="crosslink">cc.rect</a> for c
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/rect.ts:42](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L42) |
+| Defined in | [cocos2d/core/value-types/rect.ts:42](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L42) |
 
 ###### Parameters
 - `x` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
@@ -204,7 +203,7 @@ Creates a rectangle from two coordinate values.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/value-types/rect.ts:57](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L57) |
+| Defined in | [cocos2d/core/value-types/rect.ts:57](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L57) |
 
 ###### Parameters
 - `v1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -223,7 +222,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/value-types/rect.ts:108](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L108) |
+| Defined in | [cocos2d/core/value-types/rect.ts:108](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L108) |
 
 
 ##### Examples
@@ -240,7 +239,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/rect.ts:121](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L121) |
+| Defined in | [cocos2d/core/value-types/rect.ts:121](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L121) |
 
 ###### Parameters
 - `other` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -260,7 +259,7 @@ TODO
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/value-types/rect.ts:140](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L140) |
+| Defined in | [cocos2d/core/value-types/rect.ts:140](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L140) |
 
 ###### Parameters
 - `to` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -287,7 +286,7 @@ Check whether the current rectangle intersects with the given one
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/rect.ts:179](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L179) |
+| Defined in | [cocos2d/core/value-types/rect.ts:179](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L179) |
 
 ###### Parameters
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -307,7 +306,7 @@ Returns the overlapping portion of 2 rectangles.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/value-types/rect.ts:198](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L198) |
+| Defined in | [cocos2d/core/value-types/rect.ts:198](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L198) |
 
 ###### Parameters
 - `out` <a href="../classes/Rect.html" class="crosslink">Rect</a> Stores the result
@@ -329,7 +328,7 @@ Check whether the current rect contains the given point
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/rect.ts:221](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L221) |
+| Defined in | [cocos2d/core/value-types/rect.ts:221](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L221) |
 
 ###### Parameters
 - `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -349,7 +348,7 @@ Returns true if the other rect totally inside this rectangle.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/rect.ts:240](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L240) |
+| Defined in | [cocos2d/core/value-types/rect.ts:240](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L240) |
 
 ###### Parameters
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -369,7 +368,7 @@ Returns the smallest rectangle that contains the current rect and the given rect
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| Defined in | [cocos2d/core/value-types/rect.ts:258](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L258) |
+| Defined in | [cocos2d/core/value-types/rect.ts:258](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L258) |
 
 ###### Parameters
 - `out` <a href="../classes/Rect.html" class="crosslink">Rect</a> Stores the result
@@ -390,7 +389,7 @@ Apply matrix4 to the rect.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/rect.ts:281](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L281) |
+| Defined in | [cocos2d/core/value-types/rect.ts:281](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L281) |
 
 ###### Parameters
 - `out` <a href="../classes/Rect.html" class="crosslink">Rect</a> The output rect
@@ -404,7 +403,7 @@ Output rect informations to string
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| Defined in | [cocos2d/core/value-types/rect.ts:315](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/rect.ts#L315) |
+| Defined in | [cocos2d/core/value-types/rect.ts:315](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/rect.ts#L315) |
 
 
 ##### Examples
@@ -420,7 +419,7 @@ Copys all the properties from another given object to this value.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/value-type.ts:80](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/value-type.ts#L80) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:80](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L80) |
 
 ###### Parameters
 - `source` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the source to copy

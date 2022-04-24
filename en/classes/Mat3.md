@@ -4,7 +4,6 @@ Extends [`ValueType`](ValueType.md)
 
 
 Module: [cc](../modules/cc.md)
-Parent Module: [cc](../modules/cc.md)
 
 
 Mathematical 3x3 matrix.
@@ -69,7 +68,7 @@ apparent lack of consistency between the memory layout and the documentation.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Mat3.html" class="crosslink">Mat3</a> |
-| Defined in | [cocos2d/core/value-types/mat3.ts:43](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/mat3.ts#L43) |
+| Defined in | [cocos2d/core/value-types/mat3.ts:43](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/mat3.ts#L43) |
 
 
 
@@ -80,7 +79,7 @@ apparent lack of consistency between the memory layout and the documentation.
 | meta | description |
 |------|-------------|
 | Type | Float64Array &#124; Float32Array |
-| Defined in | [cocos2d/core/value-types/mat3.ts:836](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/mat3.ts#L836) |
+| Defined in | [cocos2d/core/value-types/mat3.ts:836](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/mat3.ts#L836) |
 
 
 
@@ -97,7 +96,7 @@ Matrix transpose array
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat3.ts:802](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/mat3.ts#L802) |
+| Defined in | [cocos2d/core/value-types/mat3.ts:802](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/mat3.ts#L802) |
 
 ###### Parameters
 - `ofs` Unknown 数组内的起始偏移量
@@ -109,7 +108,7 @@ Transfer matrix array
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat3.ts:819](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/mat3.ts#L819) |
+| Defined in | [cocos2d/core/value-types/mat3.ts:819](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/mat3.ts#L819) |
 
 ###### Parameters
 - `ofs` Unknown 数组起始偏移量
@@ -121,7 +120,7 @@ Transfer matrix array
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/mat3.ts:844](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/mat3.ts#L844) |
+| Defined in | [cocos2d/core/value-types/mat3.ts:844](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/mat3.ts#L844) |
 
 
 
@@ -132,7 +131,7 @@ This method returns an exact copy of current value.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| Defined in | [cocos2d/core/value-types/value-type.ts:39](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/value-type.ts#L39) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:39](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L39) |
 
 
 
@@ -143,7 +142,7 @@ Compares this object with the other one.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/value-type.ts:51](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/value-type.ts#L51) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:51](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L51) |
 
 ###### Parameters
 - `other` <a href="../classes/ValueType.html" class="crosslink">ValueType</a>  
@@ -157,7 +156,7 @@ When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| Defined in | [cocos2d/core/value-types/value-type.ts:63](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/value-type.ts#L63) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:63](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L63) |
 
 ###### Parameters
 - `to` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value
@@ -170,7 +169,7 @@ Copys all the properties from another given object to this value.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/value-type.ts:80](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/value-type.ts#L80) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:80](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L80) |
 
 ###### Parameters
 - `source` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the source to copy
@@ -183,7 +182,7 @@ Convert to a readable string.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| Defined in | [cocos2d/core/value-types/value-type.ts:92](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/value-types/value-type.ts#L92) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:92](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L92) |
 
 
 

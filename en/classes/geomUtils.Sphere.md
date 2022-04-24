@@ -46,7 +46,7 @@ Sphere.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:126](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L126) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:126](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L126) |
 
 
 
@@ -57,7 +57,7 @@ Sphere.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> |
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:135](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L135) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:135](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L135) |
 
 
 
@@ -75,7 +75,7 @@ create a new sphere
 | meta | description |
 |------|-------------|
 | Returns | Sphere 
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:43](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L43) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:43](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L43) |
 
 ###### Parameters
 - `cx` Unknown X coordinates of the shape relative to the origin.
@@ -91,7 +91,7 @@ clone a new sphere
 | meta | description |
 |------|-------------|
 | Returns | Sphere 
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:59](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L59) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:59](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L59) |
 
 ###### Parameters
 - `p` Sphere The target of cloning.
@@ -104,7 +104,7 @@ copy the values from one sphere to another
 | meta | description |
 |------|-------------|
 | Returns | Sphere 
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:72](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L72) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:72](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L72) |
 
 ###### Parameters
 - `out` Sphere Accept the sphere of operations.
@@ -118,7 +118,7 @@ create a new bounding sphere from two corner points
 | meta | description |
 |------|-------------|
 | Returns | Sphere 
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:89](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L89) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:89](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L89) |
 
 ###### Parameters
 - `out` Unknown Accept the sphere of operations.
@@ -133,7 +133,7 @@ Set the components of a sphere to the given values
 | meta | description |
 |------|-------------|
 | Returns | Sphere 
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:106](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L106) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:106](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L106) |
 
 ###### Parameters
 - `out` Sphere Accept the sphere of operations.
@@ -149,7 +149,7 @@ Clone.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:161](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L161) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:161](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L161) |
 
 
 
@@ -159,7 +159,7 @@ Copy sphere
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:172](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L172) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:172](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L172) |
 
 ###### Parameters
 - `a` Unknown Copy target.
@@ -171,7 +171,7 @@ Get the bounding points of this shape
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:184](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L184) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:184](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L184) |
 
 ###### Parameters
 - `minPos` <a href="../classes/Vec3.html" class="crosslink">Vec3</a> 
@@ -184,7 +184,7 @@ Transform this shape
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:198](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L198) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:198](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L198) |
 
 ###### Parameters
 - `m` Unknown The transformation matrix.
@@ -200,7 +200,7 @@ Scale out based on the sphere data.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/sphere.ts:227](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/geom-utils/sphere.ts#L227) |
+| Defined in | [cocos2d/core/geom-utils/sphere.ts:227](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/sphere.ts#L227) |
 
 ###### Parameters
 - `scale` Unknown Scale value

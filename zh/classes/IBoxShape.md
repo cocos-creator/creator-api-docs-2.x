@@ -33,7 +33,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> |
-| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:64](https://github.com/cocos-creator/engine/blob/22ca6465effd8063cb95e509843b8bef3d880759/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L64) |
+| 定义于 | [cocos2d/core/3d/physics/spec/i-physics-shape.ts:64](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/physics/spec/i-physics-shape.ts#L64) |
 
 
 
