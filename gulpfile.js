@@ -72,7 +72,7 @@ gulp.task('cp-apisrc', function () {
         .pipe(gulp.dest('lib/temp-src/engine'));
 });
 
-gulp.task('build-md', gulp.series('cp-apisrc'), function (cb) {
+gulp.task('build-md', gulp.series('cp-apisrc', function (cb) {
 
     // del old files
 
@@ -120,9 +120,9 @@ gulp.task('build-md', gulp.series('cp-apisrc'), function (cb) {
         fs.writeFileSync(indexPath, content, 'utf8');
         cb();
     });
-});
+}));
 
-gulp.task('build-tsd', gulp.series('cp-apisrc'), function (cb) {
+gulp.task('build-tsd', gulp.series('cp-apisrc', function (cb) {
 
     program
         .option('--engine <path to engine>')
@@ -158,7 +158,7 @@ gulp.task('build-tsd', gulp.series('cp-apisrc'), function (cb) {
         }
         cb();
     });
-});
+}));
 
 const FORBID_IGNORE_ARRAY = ['index.md', 'SUMMARY.md'];
 const allPagesPattern = ['zh/**/*.md', 'en/**/*.md', '!zh/*.md', '!en/*.md'];
@@ -169,7 +169,7 @@ gulp.task('restore-ignore', function () {
     restoreIgnore('.bookignore');
 });
 
-gulp.task('preview', gulp.series('restore-ignore'), function (done) {
+gulp.task('preview', gulp.series('restore-ignore', function (done) {
     var includeFiles = program.only;
     if (includeFiles) {
         quickPreview(includeFiles, (error) => {
@@ -179,7 +179,7 @@ gulp.task('preview', gulp.series('restore-ignore'), function (done) {
         });
     }
     openServer(done);
-});
+}));
 
 function openServer (done) {
     var server = exec('gitbook serve --no-watch --open');
