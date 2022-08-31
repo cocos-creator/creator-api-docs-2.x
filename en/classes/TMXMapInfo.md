@@ -56,7 +56,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:334](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L334) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:334](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L334) |
 
 
 
@@ -67,7 +67,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:339](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L339) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:339](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L339) |
 
 
 
@@ -78,7 +78,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:344](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L344) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:344](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L344) |
 
 
 
@@ -89,7 +89,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:349](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L349) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:349](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L349) |
 
 
 
@@ -100,7 +100,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:354](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L354) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:354](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L354) |
 
 
 
@@ -111,7 +111,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:359](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L359) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:359](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L359) |
 
 
 
@@ -122,7 +122,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:364](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L364) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:364](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L364) |
 
 
 
@@ -133,7 +133,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:369](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L369) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:369](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L369) |
 
 
 
@@ -144,7 +144,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:374](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L374) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:374](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L374) |
 
 
 
@@ -155,7 +155,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:379](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L379) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:379](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L379) |
 
 
 
@@ -166,7 +166,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:384](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L384) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:384](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L384) |
 
 
 
@@ -177,7 +177,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:1264](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L1264) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:1264](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L1264) |
 
 
 
@@ -188,7 +188,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:1272](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L1272) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:1272](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L1272) |
 
 
 
@@ -199,7 +199,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:1280](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L1280) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:1280](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L1280) |
 
 
 
@@ -210,7 +210,7 @@ Module: [cc](../modules/cc.md)
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:1288](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/tilemap/CCTMXXMLParser.js#L1288) |
+| Defined in | [cocos2d/tilemap/CCTMXXMLParser.js:1288](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L1288) |
 
 
 

@@ -23,7 +23,7 @@ Spine动画缓存类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/spine/Skeleton.js:52](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/extensions/spine/Skeleton.js#L52) |
+| 定义于 | [extensions/spine/Skeleton.js:52](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/extensions/spine/Skeleton.js#L52) |
 
 
 
@@ -34,7 +34,7 @@ Spine动画缓存类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/spine/Skeleton.js:58](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/extensions/spine/Skeleton.js#L58) |
+| 定义于 | [extensions/spine/Skeleton.js:58](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/extensions/spine/Skeleton.js#L58) |
 
 
 
@@ -45,6 +45,6 @@ Spine动画缓存类型
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [extensions/spine/Skeleton.js:64](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/extensions/spine/Skeleton.js#L64) |
+| 定义于 | [extensions/spine/Skeleton.js:64](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/extensions/spine/Skeleton.js#L64) |
 
 

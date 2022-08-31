@@ -3,7 +3,6 @@
 
 
 模块: [cc](../modules/cc.md)
-父模块: [cc](../modules/cc.md)
 
 
 
@@ -39,7 +38,7 @@ This range of data is essentially mapped to a GPU vertex buffer.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/BufferRange.html" class="crosslink">BufferRange</a> |
-| 定义于 | [cocos2d/core/mesh/mesh-data.js:74](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/mesh/mesh-data.js#L74) |
+| 定义于 | [cocos2d/core/mesh/mesh-data.js:74](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/mesh/mesh-data.js#L74) |
 
 
 
@@ -50,7 +49,7 @@ This range of data is essentially mapped to a GPU vertex buffer.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/VertexFormat.html" class="crosslink">VertexFormat</a> |
-| 定义于 | [cocos2d/core/mesh/mesh-data.js:83](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/mesh/mesh-data.js#L83) |
+| 定义于 | [cocos2d/core/mesh/mesh-data.js:83](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/mesh/mesh-data.js#L83) |
 
 
 
@@ -61,7 +60,7 @@ This range of data is essentially mapped to a GPU vertex buffer.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">[Number]</a> |
-| 定义于 | [cocos2d/core/mesh/mesh-data.js:105](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/mesh/mesh-data.js#L105) |
+| 定义于 | [cocos2d/core/mesh/mesh-data.js:105](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/mesh/mesh-data.js#L105) |
 
 
 
@@ -73,7 +72,7 @@ This range of data is essentially mapped to a GPU indices buffer.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/BufferRange.html" class="crosslink">BufferRange</a> |
-| 定义于 | [cocos2d/core/mesh/mesh-data.js:113](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/mesh/mesh-data.js#L113) |
+| 定义于 | [cocos2d/core/mesh/mesh-data.js:113](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/mesh/mesh-data.js#L113) |
 
 
 
@@ -84,7 +83,7 @@ This range of data is essentially mapped to a GPU indices buffer.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/mesh/mesh-data.js:122](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/mesh/mesh-data.js#L122) |
+| 定义于 | [cocos2d/core/mesh/mesh-data.js:122](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/mesh/mesh-data.js#L122) |
 
 
 
@@ -95,7 +94,7 @@ This range of data is essentially mapped to a GPU indices buffer.
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/mesh/mesh-data.js:127](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/mesh/mesh-data.js#L127) |
+| 定义于 | [cocos2d/core/mesh/mesh-data.js:127](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/mesh/mesh-data.js#L127) |
 
 
 

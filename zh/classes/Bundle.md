@@ -53,7 +53,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:66](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L66) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:66](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L66) |
 
 
 
@@ -64,7 +64,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:80](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L80) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:80](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L80) |
 
 
 
@@ -75,7 +75,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:94](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L94) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:94](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L94) |
 
 
 
@@ -92,7 +92,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:52](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L52) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:52](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L52) |
 
 
 
@@ -103,7 +103,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:108](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L108) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:108](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L108) |
 
 ###### 参数列表
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The relative path of asset, such as 'images/a'
@@ -122,7 +122,7 @@ var info = bundle.getInfoWithPath('image/a', cc.Texture2D);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:130](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L130) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:130](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L130) |
 
 ###### 参数列表
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The relative path of folder, such as 'images'
@@ -143,7 +143,7 @@ bundle.getDirWithPath('images', cc.Texture2D, infos);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:156](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L156) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:156](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L156) |
 
 ###### 参数列表
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The asset's uuid
@@ -161,7 +161,7 @@ var info = bundle.getAssetInfo('fcmR3XADNLgJ1ByKhqcC5Z');
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:177](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L177) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:177](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L177) |
 
 ###### 参数列表
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The name of scene
@@ -178,7 +178,7 @@ var info = bundle.getSceneInfo('first.fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:198](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L198) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:198](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L198) |
 
 ###### 参数列表
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -190,7 +190,7 @@ var info = bundle.getSceneInfo('first.fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:216](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L216) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:216](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L216) |
 
 ###### 参数列表
 - `paths` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> Paths of the target assets.The path is relative to the bundle's folder, extensions must be omitted.
@@ -226,7 +226,7 @@ bundle2.load('imgs/cocos', cc.SpriteFrame, null, (err, spriteFrame) => console.l
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:262](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L262) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:262](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L262) |
 
 ###### 参数列表
 - `paths` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> Paths of the target asset.The path is relative to bundle folder, extensions must be omitted.
@@ -265,7 +265,7 @@ bundle2.load('imgs/cocos', cc.SpriteFrame, (err, spriteFrame) => {});
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:314](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L314) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:314](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L314) |
 
 ###### 参数列表
 - `dir` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> path of the target folder.The path is relative to the bundle folder, extensions must be omitted.
@@ -304,7 +304,7 @@ bundle2.loadDir('skills', cc.SpriteFrame, null, (err, spriteFrames) => console.l
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:363](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L363) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:363](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L363) |
 
 ###### 参数列表
 - `dir` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> path of the target folder.The path is relative to the bundle folder, extensions must be omitted.
@@ -343,7 +343,7 @@ bundle2.loadDir('skills', cc.SpriteFrame, (err, spriteFrames) => {});
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:413](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L413) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:413](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L413) |
 
 ###### 参数列表
 - `sceneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the scene to load.
@@ -369,7 +369,7 @@ bundle1.loadScene('first', (err, sceneAsset) => cc.director.runScene(sceneAsset)
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:464](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L464) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:464](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L464) |
 
 ###### 参数列表
 - `sceneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the scene to preload.
@@ -397,7 +397,7 @@ bundle1.loadScene('first', (err, scene) => cc.director.runScene(scene));
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Asset.html" class="crosslink">Asset</a> 
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:508](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L508) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:508](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L508) |
 
 ###### 参数列表
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The path of asset
@@ -415,7 +415,7 @@ bundle1.get('music/hit', cc.AudioClip);
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:534](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L534) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:534](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L534) |
 
 ###### 参数列表
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The path of asset
@@ -434,7 +434,7 @@ bundle1.release('misc/character/cocos');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:558](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L558) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:558](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L558) |
 
 
 ##### 示例
@@ -450,7 +450,7 @@ bundle1.releaseUnusedAssets();
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/bundle.js:585](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L585) |
+| 定义于 | [cocos2d/core/asset-manager/bundle.js:585](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L585) |
 
 
 ##### 示例

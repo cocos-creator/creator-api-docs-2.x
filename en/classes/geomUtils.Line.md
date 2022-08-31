@@ -43,7 +43,7 @@ line
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/line.ts:147](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/line.ts#L147) |
+| Defined in | [cocos2d/core/geom-utils/line.ts:147](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/line.ts#L147) |
 
 
 
@@ -54,7 +54,7 @@ line
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/line.ts:156](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/line.ts#L156) |
+| Defined in | [cocos2d/core/geom-utils/line.ts:156](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/line.ts#L156) |
 
 
 
@@ -72,7 +72,7 @@ create a new line
 | meta | description |
 |------|-------------|
 | Returns | Line 
-| Defined in | [cocos2d/core/geom-utils/line.ts:40](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/line.ts#L40) |
+| Defined in | [cocos2d/core/geom-utils/line.ts:40](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/line.ts#L40) |
 
 ###### Parameters
 - `sx` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> The x part of the starting point.
@@ -90,7 +90,7 @@ Creates a new line initialized with values from an existing line
 | meta | description |
 |------|-------------|
 | Returns | Line 
-| Defined in | [cocos2d/core/geom-utils/line.ts:58](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/line.ts#L58) |
+| Defined in | [cocos2d/core/geom-utils/line.ts:58](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/line.ts#L58) |
 
 ###### Parameters
 - `a` Line The source of cloning.
@@ -103,7 +103,7 @@ Copy the values from one line to another
 | meta | description |
 |------|-------------|
 | Returns | Line 
-| Defined in | [cocos2d/core/geom-utils/line.ts:74](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/line.ts#L74) |
+| Defined in | [cocos2d/core/geom-utils/line.ts:74](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/line.ts#L74) |
 
 ###### Parameters
 - `out` Line The object that accepts the action.
@@ -117,7 +117,7 @@ create a line from two points
 | meta | description |
 |------|-------------|
 | Returns | Line 
-| Defined in | [cocos2d/core/geom-utils/line.ts:91](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/line.ts#L91) |
+| Defined in | [cocos2d/core/geom-utils/line.ts:91](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/line.ts#L91) |
 
 ###### Parameters
 - `out` Line The object that accepts the action.
@@ -132,7 +132,7 @@ Set the components of a Vec3 to the given values
 | meta | description |
 |------|-------------|
 | Returns | Line 
-| Defined in | [cocos2d/core/geom-utils/line.ts:108](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/line.ts#L108) |
+| Defined in | [cocos2d/core/geom-utils/line.ts:108](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/line.ts#L108) |
 
 ###### Parameters
 - `out` Line The object that accepts the action.
@@ -151,7 +151,7 @@ Calculate the length of the line.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/geom-utils/line.ts:134](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/line.ts#L134) |
+| Defined in | [cocos2d/core/geom-utils/line.ts:134](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/line.ts#L134) |
 
 ###### Parameters
 - `a` Line The line to calculate.
@@ -164,7 +164,7 @@ Calculate the length of the line.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| Defined in | [cocos2d/core/geom-utils/line.ts:184](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/line.ts#L184) |
+| Defined in | [cocos2d/core/geom-utils/line.ts:184](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/line.ts#L184) |
 
 
 

@@ -28,7 +28,7 @@ obscured whenever possible. This implies EDIT_BOX_INPUT_FLAG_SENSITIVE.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/editbox/types.js:134](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/components/editbox/types.js#L134) |
+| Defined in | [cocos2d/core/components/editbox/types.js:134](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/components/editbox/types.js#L134) |
 
 
 
@@ -42,7 +42,7 @@ A credit card number is an example of sensitive data.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/editbox/types.js:143](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/components/editbox/types.js#L143) |
+| Defined in | [cocos2d/core/components/editbox/types.js:143](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/components/editbox/types.js#L143) |
 
 
 
@@ -54,7 +54,7 @@ the initial letter of each word should be capitalized.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/editbox/types.js:155](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/components/editbox/types.js#L155) |
+| Defined in | [cocos2d/core/components/editbox/types.js:155](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/components/editbox/types.js#L155) |
 
 
 
@@ -66,7 +66,7 @@ the initial letter of each sentence should be capitalized.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/editbox/types.js:164](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/components/editbox/types.js#L164) |
+| Defined in | [cocos2d/core/components/editbox/types.js:164](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/components/editbox/types.js#L164) |
 
 
 
@@ -77,7 +77,7 @@ the initial letter of each sentence should be capitalized.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/editbox/types.js:173](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/components/editbox/types.js#L173) |
+| Defined in | [cocos2d/core/components/editbox/types.js:173](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/components/editbox/types.js#L173) |
 
 
 
@@ -88,6 +88,6 @@ the initial letter of each sentence should be capitalized.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/components/editbox/types.js:179](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/components/editbox/types.js#L179) |
+| Defined in | [cocos2d/core/components/editbox/types.js:179](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/components/editbox/types.js#L179) |
 
 

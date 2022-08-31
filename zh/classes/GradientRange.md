@@ -39,7 +39,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Mode |
-| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:46](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/gradient-range.ts#L46) |
+| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:46](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/gradient-range.ts#L46) |
 
 
 
@@ -50,7 +50,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:74](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/gradient-range.ts#L74) |
+| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:74](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/gradient-range.ts#L74) |
 
 
 
@@ -61,7 +61,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:82](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/gradient-range.ts#L82) |
+| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:82](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/gradient-range.ts#L82) |
 
 
 
@@ -72,7 +72,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Color.html" class="crosslink">Color</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:90](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/gradient-range.ts#L90) |
+| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:90](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/gradient-range.ts#L90) |
 
 
 
@@ -83,7 +83,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Gradient.html" class="crosslink">Gradient</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:98](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/gradient-range.ts#L98) |
+| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:98](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/gradient-range.ts#L98) |
 
 
 
@@ -94,7 +94,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Gradient.html" class="crosslink">Gradient</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:108](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/gradient-range.ts#L108) |
+| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:108](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/gradient-range.ts#L108) |
 
 
 
@@ -105,7 +105,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Gradient.html" class="crosslink">Gradient</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:118](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/gradient-range.ts#L118) |
+| 定义于 | [cocos2d/core/3d/particle/animator/gradient-range.ts:118](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/gradient-range.ts#L118) |
 
 
 

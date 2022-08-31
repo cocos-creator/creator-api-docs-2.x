@@ -828,7 +828,7 @@ window.apimeta = {
       "name": "DynamicAtlasManager",
       "namespace": "cc.DynamicAtlasManager",
       "module": "cc",
-      "description": "管理动态图集。动态图集用于在运行时对贴图进行合并，详见 [动态合图](https://docs.cocos.com/creator/manual/zh/advanced-topics/dynamic-atlas.html)。"
+      "description": "管理动态图集。动态图集用于在运行时对贴图进行合并，详见 [动态合图](https://docs.cocos.com/creator/2.4/manual/zh/advanced-topics/dynamic-atlas.html)。"
     },
     {
       "name": "Easing",

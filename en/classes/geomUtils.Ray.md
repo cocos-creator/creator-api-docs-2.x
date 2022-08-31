@@ -42,7 +42,7 @@ ray
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/ray.ts:136](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/ray.ts#L136) |
+| Defined in | [cocos2d/core/geom-utils/ray.ts:136](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/ray.ts#L136) |
 
 
 
@@ -54,7 +54,7 @@ Direction
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/geom-utils/ray.ts:145](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/ray.ts#L145) |
+| Defined in | [cocos2d/core/geom-utils/ray.ts:145](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/ray.ts#L145) |
 
 
 
@@ -72,7 +72,7 @@ create a new ray
 | meta | description |
 |------|-------------|
 | Returns | Ray 
-| Defined in | [cocos2d/core/geom-utils/ray.ts:42](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/ray.ts#L42) |
+| Defined in | [cocos2d/core/geom-utils/ray.ts:42](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/ray.ts#L42) |
 
 ###### Parameters
 - `ox` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> The x part of the starting point.
@@ -90,7 +90,7 @@ Creates a new ray initialized with values from an existing ray
 | meta | description |
 |------|-------------|
 | Returns | Ray 
-| Defined in | [cocos2d/core/geom-utils/ray.ts:60](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/ray.ts#L60) |
+| Defined in | [cocos2d/core/geom-utils/ray.ts:60](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/ray.ts#L60) |
 
 ###### Parameters
 - `a` Ray Clone target
@@ -103,7 +103,7 @@ Copy the values from one ray to another
 | meta | description |
 |------|-------------|
 | Returns | Ray 
-| Defined in | [cocos2d/core/geom-utils/ray.ts:76](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/ray.ts#L76) |
+| Defined in | [cocos2d/core/geom-utils/ray.ts:76](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/ray.ts#L76) |
 
 ###### Parameters
 - `out` Ray Accept the ray of the operation.
@@ -117,7 +117,7 @@ create a ray from two points
 | meta | description |
 |------|-------------|
 | Returns | Ray 
-| Defined in | [cocos2d/core/geom-utils/ray.ts:93](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/ray.ts#L93) |
+| Defined in | [cocos2d/core/geom-utils/ray.ts:93](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/ray.ts#L93) |
 
 ###### Parameters
 - `out` Ray Receive the operating ray.
@@ -132,7 +132,7 @@ Set the components of a ray to the given values
 | meta | description |
 |------|-------------|
 | Returns | Ray 
-| Defined in | [cocos2d/core/geom-utils/ray.ts:110](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/ray.ts#L110) |
+| Defined in | [cocos2d/core/geom-utils/ray.ts:110](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/ray.ts#L110) |
 
 ###### Parameters
 - `out` Ray Receive the operating ray.
@@ -150,7 +150,7 @@ Compute hit.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/geom-utils/ray.ts:174](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/geom-utils/ray.ts#L174) |
+| Defined in | [cocos2d/core/geom-utils/ray.ts:174](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/geom-utils/ray.ts#L174) |
 
 ###### Parameters
 - `out` <a href="../classes/IVec3Like.html" class="crosslink">IVec3Like</a> 
