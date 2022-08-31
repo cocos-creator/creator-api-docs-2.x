@@ -53,7 +53,7 @@ A bundle contains an amount of assets(includes scene), you can load, preload, re
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/bundle.js:66](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L66) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:66](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L66) |
 
 
 
@@ -64,7 +64,7 @@ A bundle contains an amount of assets(includes scene), you can load, preload, re
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> |
-| Defined in | [cocos2d/core/asset-manager/bundle.js:80](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L80) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:80](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L80) |
 
 
 
@@ -75,7 +75,7 @@ A bundle contains an amount of assets(includes scene), you can load, preload, re
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| Defined in | [cocos2d/core/asset-manager/bundle.js:94](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L94) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:94](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L94) |
 
 
 
@@ -92,7 +92,7 @@ Create a bundle
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:52](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L52) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:52](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L52) |
 
 
 
@@ -103,7 +103,7 @@ Get asset's info using path, only valid when asset is in bundle folder.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/asset-manager/bundle.js:108](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L108) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:108](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L108) |
 
 ###### Parameters
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The relative path of asset, such as 'images/a'
@@ -122,7 +122,7 @@ Get all asset's info within specific folder
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object[]</a> 
-| Defined in | [cocos2d/core/asset-manager/bundle.js:130](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L130) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:130](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L130) |
 
 ###### Parameters
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The relative path of folder, such as 'images'
@@ -143,7 +143,7 @@ Get asset's info with uuid
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/asset-manager/bundle.js:156](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L156) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:156](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L156) |
 
 ###### Parameters
 - `uuid` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The asset's uuid
@@ -161,7 +161,7 @@ Get scene'info with name
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
-| Defined in | [cocos2d/core/asset-manager/bundle.js:177](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L177) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:177](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L177) |
 
 ###### Parameters
 - `name` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> The name of scene
@@ -178,7 +178,7 @@ Initialize this bundle with options
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:198](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L198) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:198](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L198) |
 
 ###### Parameters
 - `options` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
@@ -190,7 +190,7 @@ Load the asset within this bundle by the path which is relative to bundle's path
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:216](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L216) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:216](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L216) |
 
 ###### Parameters
 - `paths` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> Paths of the target assets.The path is relative to the bundle's folder, extensions must be omitted.
@@ -228,7 +228,7 @@ yet finished
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:262](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L262) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:262](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L262) |
 
 ###### Parameters
 - `paths` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String[]</a> Paths of the target asset.The path is relative to bundle folder, extensions must be omitted.
@@ -269,7 +269,7 @@ Note: All asset paths in Creator use forward slashes, paths using backslashes wi
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:314](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L314) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:314](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L314) |
 
 ###### Parameters
 - `dir` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> path of the target folder.The path is relative to the bundle folder, extensions must be omitted.
@@ -308,7 +308,7 @@ It will be totally fine to call `Bundle.loadDir` at any time even if the preload
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:363](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L363) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:363](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L363) |
 
 ###### Parameters
 - `dir` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> path of the target folder.The path is relative to the bundle folder, extensions must be omitted.
@@ -347,7 +347,7 @@ Loads the scene within this bundle by its name.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:413](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L413) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:413](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L413) |
 
 ###### Parameters
 - `sceneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the scene to load.
@@ -373,7 +373,7 @@ It will be totally fine to call `Bundle.loadDir` at any time even if the preload
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:464](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L464) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:464](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L464) |
 
 ###### Parameters
 - `sceneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The name of the scene to preload.
@@ -402,7 +402,7 @@ you can acquire them by passing the path to this API.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Asset.html" class="crosslink">Asset</a> 
-| Defined in | [cocos2d/core/asset-manager/bundle.js:508](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L508) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:508](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L508) |
 
 ###### Parameters
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The path of asset
@@ -421,7 +421,7 @@ Refer to <a href="../classes/AssetManager.html#method_releaseAsset" class="cross
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:534](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L534) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:534](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L534) |
 
 ###### Parameters
 - `path` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The path of asset
@@ -440,7 +440,7 @@ Release all unused assets within this bundle. Refer to <a href="../classes/Asset
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:558](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L558) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:558](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L558) |
 
 
 ##### Examples
@@ -456,7 +456,7 @@ Release all assets within this bundle. Refer to <a href="../classes/AssetManager
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/asset-manager/bundle.js:585](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/asset-manager/bundle.js#L585) |
+| Defined in | [cocos2d/core/asset-manager/bundle.js:585](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/bundle.js#L585) |
 
 
 ##### Examples

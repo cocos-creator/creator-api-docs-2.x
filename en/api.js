@@ -828,7 +828,7 @@ window.apimeta = {
       "name": "DynamicAtlasManager",
       "namespace": "cc.DynamicAtlasManager",
       "module": "cc",
-      "description": "Manage Dynamic Atlas Manager. Dynamic Atlas Manager is used for merging textures at runtime, see [Dynamic Atlas](https://docs.cocos.com/creator/manual/en/advanced-topics/dynamic-atlas.html) for details."
+      "description": "Manage Dynamic Atlas Manager. Dynamic Atlas Manager is used for merging textures at runtime, see [Dynamic Atlas](https://docs.cocos.com/creator/2.4/manual/en/advanced-topics/dynamic-atlas.html) for details."
     },
     {
       "name": "Easing",

@@ -40,7 +40,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:32](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L32) |
+| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:32](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L32) |
 
 
 
@@ -51,7 +51,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | Space |
-| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:40](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L40) |
+| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:40](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L40) |
 
 
 
@@ -62,7 +62,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:50](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L50) |
+| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:50](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L50) |
 
 
 
@@ -73,7 +73,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:58](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L58) |
+| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:58](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L58) |
 
 
 
@@ -84,7 +84,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:72](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L72) |
+| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:72](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L72) |
 
 
 
@@ -95,7 +95,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:86](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L86) |
+| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:86](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L86) |
 
 
 
@@ -106,7 +106,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:100](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L100) |
+| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:100](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L100) |
 
 
 
@@ -117,7 +117,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:114](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L114) |
+| 定义于 | [cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts:114](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/limit-velocity-overtime.ts#L114) |
 
 
 

@@ -1,9 +1,10 @@
 ## `ValueType` Class
 
 
-Defined in: [https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts:32](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L32)
+Defined in: [https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/value-types/value-type.ts:32](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/value-types/value-type.ts#L32)
 
 Module: [cc](../modules/cc.md)
+Parent Module: [cc](../modules/cc.md)
 
 
 The base class of all value types.
@@ -40,7 +41,7 @@ This method returns an exact copy of current value.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| Defined in | [cocos2d/core/value-types/value-type.ts:39](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L39) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:39](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/value-types/value-type.ts#L39) |
 
 
 
@@ -51,7 +52,7 @@ Compares this object with the other one.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| Defined in | [cocos2d/core/value-types/value-type.ts:51](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L51) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:51](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/value-types/value-type.ts#L51) |
 
 ###### Parameters
 - `other` <a href="../classes/ValueType.html" class="crosslink">ValueType</a>  
@@ -65,7 +66,7 @@ When ratio = 0 returns this. When ratio = 1 return to. When ratio = 0.5 returns 
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/ValueType.html" class="crosslink">ValueType</a> 
-| Defined in | [cocos2d/core/value-types/value-type.ts:63](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L63) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:63](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/value-types/value-type.ts#L63) |
 
 ###### Parameters
 - `to` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the to value
@@ -78,7 +79,7 @@ Copys all the properties from another given object to this value.
 
 | meta | description |
 |------|-------------|
-| Defined in | [cocos2d/core/value-types/value-type.ts:80](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L80) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:80](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/value-types/value-type.ts#L80) |
 
 ###### Parameters
 - `source` <a href="../classes/ValueType.html" class="crosslink">ValueType</a> the source to copy
@@ -91,7 +92,7 @@ Convert to a readable string.
 | meta | description |
 |------|-------------|
 | Returns | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
-| Defined in | [cocos2d/core/value-types/value-type.ts:92](https://github.com/cocos-creator/engine/blob/793ed1e41a1e981ef927cb5ecccb6f051f942b50/cocos2d/core/value-types/value-type.ts#L92) |
+| Defined in | [cocos2d/core/value-types/value-type.ts:92](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/value-types/value-type.ts#L92) |
 
 
 
