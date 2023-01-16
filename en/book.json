@@ -37,6 +37,10 @@
                 "name": "2.2",
                 "links": [
                     {
+                        "name": "3.7",
+                        "link": "http://docs.cocos.com/creator/3.7/api/en/"
+                    },
+                    {
                         "name": "3.6",
                         "link": "http://docs.cocos.com/creator/3.6/api/en/"
                     },
