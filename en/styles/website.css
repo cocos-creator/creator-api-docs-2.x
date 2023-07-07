@@ -152,6 +152,14 @@
   text-align: right;
   min-width: 180px;
 }
+.cocos-navbar ul .version-link .tag {
+  display: inline-block;
+  background: #eaeaeaff;
+  border-radius: 18px;
+  padding: 3px 10px;
+  color: #0C090A;
+  font-weight: 500;
+}
 .version-link ul li .btn {
   padding-right: 35px;
   padding-left: 0;
