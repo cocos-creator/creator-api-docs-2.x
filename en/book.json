@@ -4,6 +4,7 @@
         "readme": "index.md"
     },
     "variables": {
+        "docType": "API",
         "products": [
             {
                 "name": "Cocos Creator",
