@@ -51,6 +51,14 @@
                 "name": "2.3",
                 "links": [
                     {
+                        "name": "3.8",
+                        "link": "http://docs.cocos.com/creator/3.8/api/zh/"
+                    },
+                    {
+                        "name": "3.7",
+                        "link": "http://docs.cocos.com/creator/3.7/api/zh/"
+                    },
+                    {
                         "name": "3.6",
                         "link": "http://docs.cocos.com/creator/3.6/api/zh/"
                     },
