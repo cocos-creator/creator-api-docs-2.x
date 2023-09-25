@@ -40,7 +40,7 @@ Gets attached root node.
 | meta | description |
 |------|-------------|
 | Returns | cc.Node 
-| Defined in | [extensions/dragonbones/AttachUtil.js:120](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/extensions/dragonbones/AttachUtil.js#L120) |
+| Defined in | [extensions/dragonbones/AttachUtil.js:120](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/extensions/dragonbones/AttachUtil.js#L120) |
 
 
 
@@ -51,7 +51,7 @@ Gets attached node which you want.
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">Node[]</a> 
-| Defined in | [extensions/dragonbones/AttachUtil.js:130](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/extensions/dragonbones/AttachUtil.js#L130) |
+| Defined in | [extensions/dragonbones/AttachUtil.js:130](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/extensions/dragonbones/AttachUtil.js#L130) |
 
 ###### Parameters
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -63,7 +63,7 @@ Destroy attached node which you want.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/dragonbones/AttachUtil.js:177](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/extensions/dragonbones/AttachUtil.js#L177) |
+| Defined in | [extensions/dragonbones/AttachUtil.js:177](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/extensions/dragonbones/AttachUtil.js#L177) |
 
 ###### Parameters
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -76,7 +76,7 @@ Traverse all bones to generate the minimum node tree containing the given bone n
 | meta | description |
 |------|-------------|
 | Returns | <a href="../classes/Node.html" class="crosslink">Node[]</a> 
-| Defined in | [extensions/dragonbones/AttachUtil.js:212](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/extensions/dragonbones/AttachUtil.js#L212) |
+| Defined in | [extensions/dragonbones/AttachUtil.js:212](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/extensions/dragonbones/AttachUtil.js#L212) |
 
 ###### Parameters
 - `boneName` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
@@ -88,7 +88,7 @@ Destroy all attached node.
 
 | meta | description |
 |------|-------------|
-| Defined in | [extensions/dragonbones/AttachUtil.js:286](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/extensions/dragonbones/AttachUtil.js#L286) |
+| Defined in | [extensions/dragonbones/AttachUtil.js:286](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/extensions/dragonbones/AttachUtil.js#L286) |
 
 
 
@@ -99,7 +99,7 @@ Traverse all bones to generate a tree containing all bones nodes, NOTE that make
 | meta | description |
 |------|-------------|
 | Returns | cc.Node 
-| Defined in | [extensions/dragonbones/AttachUtil.js:305](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/extensions/dragonbones/AttachUtil.js#L305) |
+| Defined in | [extensions/dragonbones/AttachUtil.js:305](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/extensions/dragonbones/AttachUtil.js#L305) |
 
 
 

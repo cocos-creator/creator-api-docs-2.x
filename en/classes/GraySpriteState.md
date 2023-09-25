@@ -1,7 +1,7 @@
 ## `GraySpriteState` Class
 
 
-Defined in: [https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/utils/gray-sprite-state.js:8](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/utils/gray-sprite-state.js#L8)
+Defined in: [https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/utils/gray-sprite-state.js:8](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/utils/gray-sprite-state.js#L8)
 
 Module: [cc](../modules/cc.md)
 Parent Module: [cc](../modules/cc.md)
@@ -35,7 +35,7 @@ An internal helper class for switching render component's material between norma
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Material.html" class="crosslink">Material</a> |
-| Defined in | [cocos2d/core/utils/gray-sprite-state.js:16](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/utils/gray-sprite-state.js#L16) |
+| Defined in | [cocos2d/core/utils/gray-sprite-state.js:16](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/utils/gray-sprite-state.js#L16) |
 
 
 
@@ -46,7 +46,7 @@ An internal helper class for switching render component's material between norma
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Material.html" class="crosslink">Material</a> |
-| Defined in | [cocos2d/core/utils/gray-sprite-state.js:38](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/utils/gray-sprite-state.js#L38) |
+| Defined in | [cocos2d/core/utils/gray-sprite-state.js:38](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/utils/gray-sprite-state.js#L38) |
 
 
 

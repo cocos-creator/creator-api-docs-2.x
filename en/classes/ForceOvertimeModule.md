@@ -37,7 +37,7 @@ The force over time module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/force-overtime.ts:23](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/force-overtime.ts#L23) |
+| Defined in | [cocos2d/core/3d/particle/animator/force-overtime.ts:23](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/animator/force-overtime.ts#L23) |
 
 
 
@@ -48,7 +48,7 @@ The force over time module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | Space |
-| Defined in | [cocos2d/core/3d/particle/animator/force-overtime.ts:31](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/force-overtime.ts#L31) |
+| Defined in | [cocos2d/core/3d/particle/animator/force-overtime.ts:31](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/animator/force-overtime.ts#L31) |
 
 
 
@@ -59,7 +59,7 @@ The force over time module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/force-overtime.ts:41](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/force-overtime.ts#L41) |
+| Defined in | [cocos2d/core/3d/particle/animator/force-overtime.ts:41](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/animator/force-overtime.ts#L41) |
 
 
 
@@ -70,7 +70,7 @@ The force over time module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/force-overtime.ts:52](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/force-overtime.ts#L52) |
+| Defined in | [cocos2d/core/3d/particle/animator/force-overtime.ts:52](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/animator/force-overtime.ts#L52) |
 
 
 
@@ -81,7 +81,7 @@ The force over time module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/animator/force-overtime.ts:63](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/animator/force-overtime.ts#L63) |
+| Defined in | [cocos2d/core/3d/particle/animator/force-overtime.ts:63](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/animator/force-overtime.ts#L63) |
 
 
 

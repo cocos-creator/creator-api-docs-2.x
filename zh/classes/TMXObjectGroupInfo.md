@@ -38,7 +38,7 @@ This information is obtained from the TMX file.</p>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external" target="_blank">Array</a> |
-| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:125](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/tilemap/CCTMXXMLParser.js#L125) |
+| 定义于 | [cocos2d/tilemap/CCTMXXMLParser.js:125](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/tilemap/CCTMXXMLParser.js#L125) |
 
 
 
