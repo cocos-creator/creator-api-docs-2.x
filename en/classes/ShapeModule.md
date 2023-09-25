@@ -50,7 +50,7 @@ The shape module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:23](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L23) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:23](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L23) |
 
 
 
@@ -61,7 +61,7 @@ The shape module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | ShapeType |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:34](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L34) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:34](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L34) |
 
 
 
@@ -72,7 +72,7 @@ The shape module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | EmitLocation |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:68](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L68) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:68](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L68) |
 
 
 
@@ -83,7 +83,7 @@ The shape module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:78](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L78) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:78](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L78) |
 
 
 
@@ -97,7 +97,7 @@ The shape module of 3d particle.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:86](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L86) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:86](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L86) |
 
 
 
@@ -109,7 +109,7 @@ Determines the opening and closing of the cone launcher
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:103](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L103) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:103](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L103) |
 
 
 
@@ -120,7 +120,7 @@ Determines the opening and closing of the cone launcher
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:122](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L122) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:122](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L122) |
 
 
 
@@ -131,7 +131,7 @@ Determines the opening and closing of the cone launcher
 | meta | description |
 |------|-------------|
 | Type | ArcMode |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:136](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L136) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:136](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L136) |
 
 
 
@@ -142,7 +142,7 @@ Determines the opening and closing of the cone launcher
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:146](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L146) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:146](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L146) |
 
 
 
@@ -153,7 +153,7 @@ Determines the opening and closing of the cone launcher
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/CurveRange.html" class="crosslink">CurveRange</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:154](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L154) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:154](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L154) |
 
 
 
@@ -165,7 +165,7 @@ Determines the height of the cone emitter.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:164](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L164) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:164](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L164) |
 
 
 
@@ -176,7 +176,7 @@ Determines the height of the cone emitter.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:174](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L174) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:174](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L174) |
 
 
 
@@ -187,7 +187,7 @@ Determines the height of the cone emitter.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:185](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L185) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:185](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L185) |
 
 
 
@@ -198,7 +198,7 @@ Determines the height of the cone emitter.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:202](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L202) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:202](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L202) |
 
 
 
@@ -209,7 +209,7 @@ Determines the height of the cone emitter.
 | meta | description |
 |------|-------------|
 | Type | <a href="../classes/Vec3.html" class="crosslink">Vec3</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:219](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L219) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:219](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L219) |
 
 
 
@@ -220,7 +220,7 @@ Determines the height of the cone emitter.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:233](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L233) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:233](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L233) |
 
 
 
@@ -231,7 +231,7 @@ Determines the height of the cone emitter.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:241](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L241) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:241](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L241) |
 
 
 
@@ -242,7 +242,7 @@ Determines the height of the cone emitter.
 | meta | description |
 |------|-------------|
 | Type | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:249](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/particle/emitter/shape-module.ts#L249) |
+| Defined in | [cocos2d/core/3d/particle/emitter/shape-module.ts:249](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/particle/emitter/shape-module.ts#L249) |
 
 
 

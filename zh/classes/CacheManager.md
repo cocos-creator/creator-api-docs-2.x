@@ -45,7 +45,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:20](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L20) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:20](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L20) |
 
 
 
@@ -56,7 +56,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:33](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L33) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:33](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L33) |
 
 
 
@@ -67,7 +67,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:46](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L46) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:46](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L46) |
 
 
 
@@ -78,7 +78,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:59](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L59) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:59](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L59) |
 
 
 
@@ -89,7 +89,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:72](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L72) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:72](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L72) |
 
 
 
@@ -100,7 +100,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Cache.html" class="crosslink">Cache</a> |
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:85](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L85) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:85](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L85) |
 
 
 
@@ -118,7 +118,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:99](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L99) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:99](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L99) |
 
 ###### 参数列表
 - `originUrl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -131,7 +131,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:112](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L112) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:112](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L112) |
 
 ###### 参数列表
 - `originUrl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 
@@ -143,7 +143,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:125](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L125) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:125](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L125) |
 
 
 
@@ -153,7 +153,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:136](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L136) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:136](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L136) |
 
 
 
@@ -163,7 +163,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:147](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/cache-manager.ts#L147) |
+| 定义于 | [cocos2d/core/asset-manager/cache-manager.ts:147](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/cache-manager.ts#L147) |
 
 ###### 参数列表
 - `originUrl` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">string</a> 

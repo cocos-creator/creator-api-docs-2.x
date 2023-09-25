@@ -3,6 +3,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 The texture wrap mode
@@ -23,7 +24,7 @@ The texture wrap mode
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:218](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCTexture2D.js#L218) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:289](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCTexture2D.js#L289) |
 
 
 
@@ -34,7 +35,7 @@ The texture wrap mode
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:225](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCTexture2D.js#L225) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:296](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCTexture2D.js#L296) |
 
 
 
@@ -45,6 +46,6 @@ The texture wrap mode
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCTexture2D.js:232](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCTexture2D.js#L232) |
+| 定义于 | [cocos2d/core/assets/CCTexture2D.js:303](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCTexture2D.js#L303) |
 
 

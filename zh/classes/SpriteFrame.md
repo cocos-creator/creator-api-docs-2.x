@@ -4,6 +4,7 @@
 
 
 模块: [cc](../modules/cc.md)
+父模块: [cc](../modules/cc.md)
 
 
 一个 SpriteFrame 包含：<br/>
@@ -33,13 +34,13 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
   - [`insetBottom`](#insetbottom) `Number` sprite 的底部边框
   - [`insetLeft`](#insetleft) `Number` sprite 的左边边框
   - [`insetRight`](#insetright) `Number` sprite 的左边边框
+  - [`url`](#url) `String` `cc.Asset.url` is deprecated, please use <a href="../classes/Asset.html#property_nativeUrl" class="crosslink">nativeUrl</a> instead
   - [`_uuid`](#uuid) `String` 
   - [`loaded`](#loaded) `Boolean` 该资源是否已经成功加载。
   - [`nativeUrl`](#nativeurl) `String` 返回该资源对应的目标平台资源的 URL，如果没有将返回一个空字符串。
   - [`refCount`](#refcount) `Number` 引用的数量
   - [`_native`](#native) `String` 保存原生资源的 URL。
   - [`_nativeAsset`](#nativeasset) `Object` 此资源依赖的底层原生资源（如果有的话）。
-  - [`url`](#url) `String` `cc.Asset.url` is deprecated, please use <a href="../classes/Asset.html#property_nativeUrl" class="crosslink">nativeUrl</a> instead
   - [`_name`](#name) `String` 
   - [`_objFlags`](#objflags) `Number` 
   - [`name`](#name) `String` 该对象的名称。
@@ -68,12 +69,6 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
   - [`setTexture`](#settexture) 通过 Texture，rect，rotated，offset 和 originalSize 设置 SpriteFrame。
   - [`ensureLoadTexture`](#ensureloadtexture) 当加载中的场景或 Prefab 被标记为 `asyncLoadAssets` 时，用户在场景中由自定义组件关联到的所有 SpriteFrame 的贴图都不会被提前加载。
   - [`clearTexture`](#cleartexture) 当你暂时不再使用这个 SpriteFrame 时，可以调用这个方法来保证引用的贴图对象能被 GC。
-  - [`toString`](#tostring) 返回资源的 URL。
-  - [`serialize`](#serialize) 应 AssetDB 要求提供这个方法。
-  - [`createNode`](#createnode) 使用该资源在场景中创建一个新节点。
-  - [`_setRawAsset`](#setrawasset) 为此资源设置原生文件名。
-  - [`addRef`](#addref) 增加资源的引用
-  - [`decRef`](#decref) 减少资源的引用并尝试进行自动释放。
   - [`hasEventListener`](#haseventlistener) 检查事件目标对象是否有为特定类型的事件注册的回调。
   - [`on`](#on) 注册事件目标的特定事件类型回调。
   - [`off`](#off) 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
@@ -81,6 +76,12 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
   - [`once`](#once) 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
   - [`dispatchEvent`](#dispatchevent) 通过事件对象派发事件
   - [`clear`](#clear) 销毁记录的事件
+  - [`toString`](#tostring) 返回资源的 URL。
+  - [`serialize`](#serialize) 应 AssetDB 要求提供这个方法。
+  - [`createNode`](#createnode) 使用该资源在场景中创建一个新节点。
+  - [`_setRawAsset`](#setrawasset) 为此资源设置原生文件名。
+  - [`addRef`](#addref) 增加资源的引用
+  - [`decRef`](#decref) 减少资源的引用并尝试进行自动释放。
   - [`destroy`](#destroy) 销毁该对象，并释放所有它对其它对象的引用。
   - [`_destruct`](#destruct) 清除实例中的所有引用。
   - [`_onPreDestroy`](#onpredestroy) 在对象被销毁之前调用。
@@ -102,7 +103,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:87](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L87) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:87](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L87) |
 
 
 
@@ -113,7 +114,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:106](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L106) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:106](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L106) |
 
 
 
@@ -124,7 +125,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:125](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L125) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:125](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L125) |
 
 
 
@@ -135,7 +136,19 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:144](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L144) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:144](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L144) |
+
+
+
+##### url
+
+> `cc.Asset.url` is deprecated, please use <a href="../classes/Asset.html#property_nativeUrl" class="crosslink">nativeUrl</a> instead
+
+| meta | description |
+|------|-------------|
+| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
+| 定义于 | [cocos2d/core/asset-manager/deprecated.js:728](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/deprecated.js#L728) |
+| 废弃（Deprecated） | cc.Asset.url is deprecated, please use cc.Asset.nativeUrl instead |
 
 
 
@@ -146,7 +159,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:57](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L57) |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:57](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L57) |
 
 
 
@@ -157,7 +170,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:66](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L66) |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:66](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L66) |
 
 
 
@@ -168,7 +181,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:81](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L81) |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:81](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L81) |
 
 
 
@@ -179,7 +192,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:115](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L115) |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:115](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L115) |
 
 
 
@@ -190,7 +203,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:131](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L131) |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:131](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L131) |
 
 
 
@@ -203,19 +216,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/assets/CCAsset.js:142](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L142) |
-
-
-
-##### url
-
-> `cc.Asset.url` is deprecated, please use <a href="../classes/Asset.html#property_nativeUrl" class="crosslink">nativeUrl</a> instead
-
-| meta | description |
-|------|-------------|
-| 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/asset-manager/deprecated.js:728](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/deprecated.js#L728) |
-| 废弃（Deprecated） | cc.Asset.url is deprecated, please use cc.Asset.nativeUrl instead |
+| 定义于 | [cocos2d/core/assets/CCAsset.js:142](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L142) |
 
 
 
@@ -226,7 +227,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/platform/CCObject.js#L76) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:76](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/platform/CCObject.js#L76) |
 
 
 
@@ -237,7 +238,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/platform/CCObject.js#L83) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:83](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/platform/CCObject.js#L83) |
 
 
 
@@ -248,7 +249,7 @@ cc.resources.load(url, cc.SpriteFrame, null, function (err, spriteFrame) {
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/platform/CCObject.js#L240) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:240](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/platform/CCObject.js#L240) |
 
 ##### 示例
 
@@ -265,7 +266,7 @@ obj.name = "New Obj";
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/platform/CCObject.js#L258) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:258](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/platform/CCObject.js#L258) |
 
 ##### 示例
 
@@ -292,7 +293,7 @@ SpriteFrame 类的构造函数。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:164](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L164) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:164](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L164) |
 
 ###### 参数列表
 - `filename` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
@@ -309,7 +310,7 @@ SpriteFrame 类的构造函数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:224](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L224) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:224](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L224) |
 
 
 
@@ -320,7 +321,7 @@ SpriteFrame 类的构造函数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:247](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L247) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:247](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L247) |
 
 
 
@@ -330,7 +331,7 @@ SpriteFrame 类的构造函数。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:257](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L257) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:257](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L257) |
 
 ###### 参数列表
 - `bRotated` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -343,7 +344,7 @@ SpriteFrame 类的构造函数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:270](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L270) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:270](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L270) |
 
 
 
@@ -354,7 +355,7 @@ SpriteFrame 类的构造函数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:280](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L280) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:280](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L280) |
 
 
 
@@ -364,7 +365,7 @@ SpriteFrame 类的构造函数。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:290](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L290) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:290](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L290) |
 
 ###### 参数列表
 - `flipX` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -376,7 +377,7 @@ SpriteFrame 类的构造函数。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:303](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L303) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:303](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L303) |
 
 ###### 参数列表
 - `flipY` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -389,7 +390,7 @@ SpriteFrame 类的构造函数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Rect.html" class="crosslink">Rect</a> 
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:316](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L316) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:316](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L316) |
 
 
 
@@ -399,7 +400,7 @@ SpriteFrame 类的构造函数。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:326](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L326) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:326](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L326) |
 
 ###### 参数列表
 - `rect` <a href="../classes/Rect.html" class="crosslink">Rect</a> 
@@ -412,7 +413,7 @@ SpriteFrame 类的构造函数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Size.html" class="crosslink">Size</a> 
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:339](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L339) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:339](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L339) |
 
 
 
@@ -422,7 +423,7 @@ SpriteFrame 类的构造函数。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:349](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L349) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:349](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L349) |
 
 ###### 参数列表
 - `size` <a href="../classes/Size.html" class="crosslink">Size</a> 
@@ -435,7 +436,7 @@ SpriteFrame 类的构造函数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:364](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L364) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:364](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L364) |
 
 
 
@@ -446,7 +447,7 @@ SpriteFrame 类的构造函数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:420](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L420) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:420](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L420) |
 
 
 
@@ -456,7 +457,7 @@ SpriteFrame 类的构造函数。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:430](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L430) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:430](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L430) |
 
 ###### 参数列表
 - `offsets` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> 
@@ -469,7 +470,7 @@ SpriteFrame 类的构造函数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/SpriteFrame.html" class="crosslink">SpriteFrame</a> 
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:440](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L440) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:440](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L440) |
 
 
 
@@ -480,7 +481,7 @@ SpriteFrame 类的构造函数。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:450](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L450) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:450](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L450) |
 
 ###### 参数列表
 - `texture` <a href="../classes/Texture2D.html" class="crosslink">Texture2D</a> 
@@ -497,7 +498,7 @@ SpriteFrame 类的构造函数。
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:498](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L498) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:498](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L498) |
 
 
 ##### 示例
@@ -518,84 +519,8 @@ else {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:526](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCSpriteFrame.js#L526) |
+| 定义于 | [cocos2d/core/assets/CCSpriteFrame.js:526](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCSpriteFrame.js#L526) |
 | 废弃（Deprecated） | since 2.1 |
-
-
-
-##### toString
-
-返回资源的 URL。
-
-Asset 对象将会重写 Object 对象的 `toString()` 方法。
-对于 Asset 对象，`toString()` 方法返回该对象的字符串表示形式。
-当资源要表示为文本值时或在字符串连接时引用时，JavaScript 会自动调用 `toString()` 方法。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/assets/CCAsset.js:212](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L212) |
-
-
-
-##### serialize
-
-应 AssetDB 要求提供这个方法。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-| 定义于 | [cocos2d/core/assets/CCAsset.js:232](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L232) |
-
-
-
-##### createNode
-
-使用该资源在场景中创建一个新节点。<br/>
-如果这类资源没有相应的节点类型，该方法应该是空的。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/assets/CCAsset.js:246](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L246) |
-
-###### 参数列表
-- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-	- `error` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> null or the error info
-	- `node` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the created node or null
-
-
-##### _setRawAsset
-
-为此资源设置原生文件名。
-
-| meta | description |
-|------|-------------|
-| 定义于 | [cocos2d/core/assets/CCAsset.js:261](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L261) |
-
-###### 参数列表
-- `filename` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
-- `inLibrary` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-
-
-##### addRef
-
-增加资源的引用
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Asset.html" class="crosslink">Asset</a> 
-| 定义于 | [cocos2d/core/assets/CCAsset.js:283](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L283) |
-
-
-
-##### decRef
-
-减少资源的引用并尝试进行自动释放。
-
-| meta | description |
-|------|-------------|
-| 返回 | <a href="../classes/Asset.html" class="crosslink">Asset</a> 
-| 定义于 | [cocos2d/core/assets/CCAsset.js:301](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/assets/CCAsset.js#L301) |
 
 
 
@@ -606,7 +531,7 @@ Asset 对象将会重写 Object 对象的 `toString()` 方法。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/event/event-target.js#L69) |
+| 定义于 | [cocos2d/core/event/event-target.js:69](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/event/event-target.js#L69) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> The type of event.
@@ -619,7 +544,7 @@ Asset 对象将会重写 Object 对象的 `toString()` 方法。
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
-| 定义于 | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/event/event-target.js#L77) |
+| 定义于 | [cocos2d/core/event/event-target.js:77](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/event/event-target.js#L77) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -646,7 +571,7 @@ eventTarget.on('fire', function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:119](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/event/event-target.js#L119) |
+| 定义于 | [cocos2d/core/event/event-target.js:119](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/event/event-target.js#L119) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type being removed.
@@ -674,7 +599,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/event/event-target.js#L163) |
+| 定义于 | [cocos2d/core/event/event-target.js:163](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/event/event-target.js#L163) |
 
 ###### 参数列表
 - `target` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> The target to be searched for all related listeners
@@ -686,7 +611,7 @@ eventTarget.off('fire');
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:182](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/event/event-target.js#L182) |
+| 定义于 | [cocos2d/core/event/event-target.js:182](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/event/event-target.js#L182) |
 
 ###### 参数列表
 - `type` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> A string representing the event type to listen for.
@@ -713,7 +638,7 @@ eventTarget.once('fire', function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:208](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/event/event-target.js#L208) |
+| 定义于 | [cocos2d/core/event/event-target.js:208](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/event/event-target.js#L208) |
 
 ###### 参数列表
 - `event` <a href="../classes/Event.html" class="crosslink">Event</a>  
@@ -725,7 +650,83 @@ eventTarget.once('fire', function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/event/event-target.js:221](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/event/event-target.js#L221) |
+| 定义于 | [cocos2d/core/event/event-target.js:221](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/event/event-target.js#L221) |
+
+
+
+##### toString
+
+返回资源的 URL。
+
+Asset 对象将会重写 Object 对象的 `toString()` 方法。
+对于 Asset 对象，`toString()` 方法返回该对象的字符串表示形式。
+当资源要表示为文本值时或在字符串连接时引用时，JavaScript 会自动调用 `toString()` 方法。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 定义于 | [cocos2d/core/assets/CCAsset.js:212](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L212) |
+
+
+
+##### serialize
+
+应 AssetDB 要求提供这个方法。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+| 定义于 | [cocos2d/core/assets/CCAsset.js:232](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L232) |
+
+
+
+##### createNode
+
+使用该资源在场景中创建一个新节点。<br/>
+如果这类资源没有相应的节点类型，该方法应该是空的。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/assets/CCAsset.js:246](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L246) |
+
+###### 参数列表
+- `callback` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> 
+	- `error` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> null or the error info
+	- `node` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the created node or null
+
+
+##### _setRawAsset
+
+为此资源设置原生文件名。
+
+| meta | description |
+|------|-------------|
+| 定义于 | [cocos2d/core/assets/CCAsset.js:261](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L261) |
+
+###### 参数列表
+- `filename` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> 
+- `inLibrary` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
+
+
+##### addRef
+
+增加资源的引用
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Asset.html" class="crosslink">Asset</a> 
+| 定义于 | [cocos2d/core/assets/CCAsset.js:283](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L283) |
+
+
+
+##### decRef
+
+减少资源的引用并尝试进行自动释放。
+
+| meta | description |
+|------|-------------|
+| 返回 | <a href="../classes/Asset.html" class="crosslink">Asset</a> 
+| 定义于 | [cocos2d/core/assets/CCAsset.js:301](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/assets/CCAsset.js#L301) |
 
 
 
@@ -738,7 +739,7 @@ eventTarget.once('fire', function () {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/platform/CCObject.js#L293) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:293](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/platform/CCObject.js#L293) |
 
 
 ##### 示例
@@ -772,7 +773,7 @@ _destruct: function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/platform/CCObject.js#L427) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:427](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/platform/CCObject.js#L427) |
 
 
 
@@ -782,7 +783,7 @@ _destruct: function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:483](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/platform/CCObject.js#L483) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:483](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/platform/CCObject.js#L483) |
 
 
 
@@ -793,7 +794,7 @@ _destruct: function () {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">object</a> 
-| 定义于 | [cocos2d/core/platform/CCObject.js:511](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/platform/CCObject.js#L511) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:511](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/platform/CCObject.js#L511) |
 
 ###### 参数列表
 - `exporting` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> 
@@ -805,7 +806,7 @@ _destruct: function () {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/platform/CCObject.js:524](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/platform/CCObject.js#L524) |
+| 定义于 | [cocos2d/core/platform/CCObject.js:524](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/platform/CCObject.js#L524) |
 
 ###### 参数列表
 - `data` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> the serialized json data

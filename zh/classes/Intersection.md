@@ -44,7 +44,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/collider/CCIntersection.js:37](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/collider/CCIntersection.js#L37) |
+| 定义于 | [cocos2d/core/collider/CCIntersection.js:37](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/collider/CCIntersection.js#L37) |
 
 ###### 参数列表
 - `a1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The start point of the first line
@@ -60,7 +60,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/collider/CCIntersection.js:68](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/collider/CCIntersection.js#L68) |
+| 定义于 | [cocos2d/core/collider/CCIntersection.js:68](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/collider/CCIntersection.js#L68) |
 
 ###### 参数列表
 - `a1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The start point of the line
@@ -75,7 +75,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/collider/CCIntersection.js:100](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/collider/CCIntersection.js#L100) |
+| 定义于 | [cocos2d/core/collider/CCIntersection.js:100](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/collider/CCIntersection.js#L100) |
 
 ###### 参数列表
 - `a1` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The start point of the line
@@ -90,7 +90,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/collider/CCIntersection.js:125](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/collider/CCIntersection.js#L125) |
+| 定义于 | [cocos2d/core/collider/CCIntersection.js:125](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/collider/CCIntersection.js#L125) |
 
 ###### 参数列表
 - `a` <a href="../classes/Rect.html" class="crosslink">Rect</a> The first rect
@@ -104,7 +104,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/collider/CCIntersection.js:155](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/collider/CCIntersection.js#L155) |
+| 定义于 | [cocos2d/core/collider/CCIntersection.js:155](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/collider/CCIntersection.js#L155) |
 
 ###### 参数列表
 - `a` <a href="../classes/Rect.html" class="crosslink">Rect</a> The rect
@@ -118,7 +118,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/collider/CCIntersection.js:207](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/collider/CCIntersection.js#L207) |
+| 定义于 | [cocos2d/core/collider/CCIntersection.js:207](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/collider/CCIntersection.js#L207) |
 
 ###### 参数列表
 - `a` <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> The first polygon, a set of points
@@ -132,7 +132,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/collider/CCIntersection.js:246](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/collider/CCIntersection.js#L246) |
+| 定义于 | [cocos2d/core/collider/CCIntersection.js:246](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/collider/CCIntersection.js#L246) |
 
 ###### 参数列表
 - `a` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> Object contains position and radius
@@ -146,7 +146,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/collider/CCIntersection.js:263](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/collider/CCIntersection.js#L263) |
+| 定义于 | [cocos2d/core/collider/CCIntersection.js:263](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/collider/CCIntersection.js#L263) |
 
 ###### 参数列表
 - `polygon` <a href="../classes/Vec2.html" class="crosslink">Vec2[]</a> The Polygon, a set of points
@@ -160,7 +160,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">boolean</a> 
-| 定义于 | [cocos2d/core/collider/CCIntersection.js:292](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/collider/CCIntersection.js#L292) |
+| 定义于 | [cocos2d/core/collider/CCIntersection.js:292](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/collider/CCIntersection.js#L292) |
 
 ###### 参数列表
 - `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The point
@@ -174,7 +174,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">number</a> 
-| 定义于 | [cocos2d/core/collider/CCIntersection.js:322](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/collider/CCIntersection.js#L322) |
+| 定义于 | [cocos2d/core/collider/CCIntersection.js:322](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/collider/CCIntersection.js#L322) |
 
 ###### 参数列表
 - `point` <a href="../classes/Vec2.html" class="crosslink">Vec2</a> The point

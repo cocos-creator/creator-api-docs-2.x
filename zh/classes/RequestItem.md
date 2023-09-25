@@ -46,7 +46,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:49](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L49) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:49](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L49) |
 
 
 
@@ -57,7 +57,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:61](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L61) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:61](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L61) |
 
 
 
@@ -68,7 +68,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:73](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L73) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:73](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L73) |
 
 
 
@@ -79,7 +79,7 @@
 | meta | description |
 |------|-------------|
 | 类型 |  |
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:85](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L85) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:85](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L85) |
 
 
 
@@ -90,7 +90,7 @@
 | meta | description |
 |------|-------------|
 | 类型 |  |
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:97](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L97) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:97](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L97) |
 
 
 
@@ -101,7 +101,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:109](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L109) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:109](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L109) |
 
 
 
@@ -112,7 +112,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a> |
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:123](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L123) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:123](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L123) |
 
 
 
@@ -123,7 +123,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> |
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:135](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L135) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:135](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L135) |
 
 
 
@@ -134,7 +134,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:164](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L164) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:164](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L164) |
 
 
 
@@ -151,7 +151,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:150](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L150) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:150](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L150) |
 
 
 
@@ -161,7 +161,7 @@
 
 | meta | description |
 |------|-------------|
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:181](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L181) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:181](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L181) |
 
 
 
@@ -172,7 +172,7 @@
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/RequestItem.html" class="crosslink">RequestItem</a> 
-| 定义于 | [cocos2d/core/asset-manager/request-item.js:209](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/asset-manager/request-item.js#L209) |
+| 定义于 | [cocos2d/core/asset-manager/request-item.js:209](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/asset-manager/request-item.js#L209) |
 
 
 

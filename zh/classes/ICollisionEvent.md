@@ -36,7 +36,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:133](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/physics/framework/physics-interface.ts#L133) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:133](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/physics/framework/physics-interface.ts#L133) |
 
 
 
@@ -47,7 +47,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Collider3D.html" class="crosslink">Collider3D</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:143](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/physics/framework/physics-interface.ts#L143) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:143](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/physics/framework/physics-interface.ts#L143) |
 
 
 
@@ -58,7 +58,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/Collider3D.html" class="crosslink">Collider3D</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:153](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/physics/framework/physics-interface.ts#L153) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:153](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/physics/framework/physics-interface.ts#L153) |
 
 
 
@@ -69,7 +69,7 @@
 | meta | description |
 |------|-------------|
 | 类型 | <a href="../classes/IContactEquation.html" class="crosslink">IContactEquation[]</a> |
-| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:163](https://github.com/cocos-creator/engine/blob/ca662e1d8c009e4c070be6fb12c55967f9cdd6f6/cocos2d/core/3d/physics/framework/physics-interface.ts#L163) |
+| 定义于 | [cocos2d/core/3d/physics/framework/physics-interface.ts:163](https://github.com/cocos-creator/engine/blob/a2f4b48f64e8117cf0d5a93229bfe31932c42384/cocos2d/core/3d/physics/framework/physics-interface.ts#L163) |
 
 
 
